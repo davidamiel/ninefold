@@ -1,0 +1,399 @@
+{
+  "term": "2025",
+  "completedAt": "2026-11-06T18:02:26.185192+00:00",
+  "coverage": {
+    "caseCount": 81,
+    "argumentRosterCount": 65,
+    "additionalOpinionCases": 16,
+    "docketsImported": 81,
+    "documents": 6418,
+    "substantiveDocuments": 2745,
+    "readableDocuments": 2122,
+    "readablePages": 77703,
+    "casesWithReadableDocuments": 81,
+    "audioRecordings": 64,
+    "scope": "Union of the official October Term 2025 granted/noted list and Opinions of the Court index; consolidated docket numbers are separate records. Includes one roster matter dismissed before term and non-argued opinions. Does not include every certiorari denial, docket entry, or order issued by the Court.",
+    "extractionStatus": "Complete for substantive core documents; scan-only originals available",
+    "uniqueDocumentCount": 6405,
+    "uniqueSubstantiveDocuments": 2732,
+    "uniqueReadableDocumentCount": 2109,
+    "uniqueReadablePages": 76391,
+    "uniqueAudioRecordings": 57,
+    "statuteSections": 8,
+    "readableByCategory": {
+      "Decision": 76,
+      "Argument": 58,
+      "Certiorari": 216,
+      "Other": 101,
+      "Lower courts": 41,
+      "Amicus": 1390,
+      "Merits": 227
+    },
+    "sourceOnlyDocuments": 4296,
+    "notes": [
+      "Docketed matters are counted separately, including consolidated cases that share one argument or opinion.",
+      "The 65-entry granted/noted list includes one matter dismissed before October Term 2025.",
+      "Sixteen additional matters appear in the Court’s term opinion index.",
+      "Administrative proofs and certificates are inventoried but marked auxiliary.",
+      "Statute previews use the explicitly identified 2024 U.S. Code edition, not an asserted case-specific governing version.",
+      "All non-auxiliary documents classified Certiorari, Merits, Amicus, Decision, Argument, and Lower courts were processed. Four scan-only documents are provided as original PDFs.",
+      "Votes are stated only where the source composition supports a simple tally or expressly unanimous result. Complex or unrecorded votes are left unset; source composition remains available.",
+      "Amicus names identify the filing entity or named group as recorded on the docket, not independently verified corporate identities.",
+      "Legal-area tags are transparent editorial keyword classifications, with source evidence."
+    ],
+    "coreDocumentCount": 2012,
+    "coreReadableDocuments": 2008,
+    "coreScanOnlyDocuments": 4,
+    "coreUnavailableDocuments": 0,
+    "advocateCaseCount": 64,
+    "uniqueAdvocateCount": 104,
+    "amicusEntityCount": 885,
+    "decisionCaseCount": 80,
+    "verifiedVoteCaseCount": 31
+  },
+  "validation": {
+    "missingTextFiles": [],
+    "unavailableCoreDocuments": [],
+    "scanOnlyDocuments": [
+      {
+        "id": "24-38-235a84ee0c58",
+        "title": "Reply of respondents Lindsay Hecox, et al. DISTRIBUTED",
+        "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-38/378334/20250930170516522_No.%2024-38%20Cooley%20LLP%20COC.pdf",
+        "pdfPath": "data/pdfs/24-38-235a84ee0c58.pdf"
+      },
+      {
+        "id": "24-621-a7db4e1b046d",
+        "title": "Opposition of petitioners to motion of Court-appointed amicus curiae to file a supplemental brief",
+        "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-621/386067/20251201165529711_Signed%20COC.pdf",
+        "pdfPath": "data/pdfs/24-621-a7db4e1b046d.pdf"
+      },
+      {
+        "id": "25A312-9ba4dbc52919",
+        "title": "Supplemental brief of respondents Lisa D. Cook, et al",
+        "sourceUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/385180/20251119160541731_No.25A312%20Cook%20COC.pdf",
+        "pdfPath": "data/pdfs/25A312-9ba4dbc52919.pdf"
+      },
+      {
+        "id": "24-1260-845755598c34",
+        "title": "Brief amicus curiae of National Defense Committee",
+        "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391325/20260109152101573_Watson%20Amicus%20Brief%20Filed%20SCOTUS%201%209%202026.pdf",
+        "pdfPath": "data/pdfs/24-1260-845755598c34.pdf"
+      }
+    ],
+    "recoveredSourceDocuments": [
+      {
+        "id": "24-109-47037d72c88e",
+        "oldUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_097c.pdf",
+        "url": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf"
+      },
+      {
+        "id": "24-109-4d5f9678c964",
+        "oldUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_097c.pdf#page=4",
+        "url": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf#page=4"
+      },
+      {
+        "id": "24-110-47037d72c88e",
+        "oldUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_097c.pdf",
+        "url": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf"
+      }
+    ],
+    "profileSourceMethod": "Advocates: official transcript APPEARANCES. Amici: docket filing labels. Holdings: official Court index/syllabus. Opinions: official authored opening statements and syllabus composition; source pageIndex provided. Areas: labeled editorial keyword classification.",
+    "limits": "Automatic PDF extraction is not a manual proofread. Page boundaries retained; line wraps, headers, footnotes, scanned pages, and ligatures may need review. Part-specific joins are qualified. Some per-curiam orders have no published individual vote tally."
+  },
+  "unknownOrComplexVoteCases": [
+    {
+      "id": "25A1314",
+      "name": "Allen v. Milligan",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r42_q8l1.pdf"
+    },
+    {
+      "id": "24-5774",
+      "name": "Barrett v. United States",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r07_7647.pdf"
+    },
+    {
+      "id": "24-440",
+      "name": "Berk v. Choy",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r10_5hek.pdf"
+    },
+    {
+      "id": "24-568",
+      "name": "Bost v. Illinois Bd. of Elections",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r05_e2q3.pdf"
+    },
+    {
+      "id": "24-5438",
+      "name": "Bowe v. United States",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf"
+    },
+    {
+      "id": "24-860",
+      "name": "Carter v. United States",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r40_o7kq.pdf"
+    },
+    {
+      "id": "25-112",
+      "name": "Chatrie v. United States",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf"
+    },
+    {
+      "id": "24-813",
+      "name": "Chevron USA Inc. v. Plaquemines Parish",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r25_2q24.pdf"
+    },
+    {
+      "id": "24-856",
+      "name": "Cisco Systems, Inc. v. Doe",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r57_db8e.pdf"
+    },
+    {
+      "id": "25-52",
+      "name": "Clark v. Sweeney",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r02_5426.pdf"
+    },
+    {
+      "id": "24-808",
+      "name": "Coney Island Auto Parts Unlimited, Inc. v. Burton",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r08_f2q3.pdf"
+    },
+    {
+      "id": "24-171",
+      "name": "Cox Communications, Inc. v. Sony Music Entertainment",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r22_k4lo.pdf"
+    },
+    {
+      "id": "26A308",
+      "name": "Department of Homeland Security v. League of Women Voters",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a308_pok0.pdf"
+    },
+    {
+      "id": "25-248",
+      "name": "District of Columbia v. R.W.",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r26_ppl4.pdf"
+    },
+    {
+      "id": "25-180",
+      "name": "Doe v. Dynamic Physical Therapy, LLC",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r03_1o23.pdf"
+    },
+    {
+      "id": "24-345",
+      "name": "FS Credit Opportunities Corp. v. Saba Capital Master Fund, Ltd.",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r47_m64o.pdf"
+    },
+    {
+      "id": "24-556",
+      "name": "Fernandez v. United States",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r39_5iek.pdf"
+    },
+    {
+      "id": "24-758",
+      "name": "Geo Group, Inc. v. Menocal",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r15_bqmc.pdf"
+    },
+    {
+      "id": "24-872",
+      "name": "Hamm v. Smith",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r35_j4el.pdf"
+    },
+    {
+      "id": "24-924",
+      "name": "Hencely v. Fluor Corp.",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r27_bq7c.pdf"
+    },
+    {
+      "id": "25-51",
+      "name": "Klein v. Martin",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r11_7l48.pdf"
+    },
+    {
+      "id": "24-1287",
+      "name": "Learning Resources, Inc. v. Trump",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r12_8nj9.pdf"
+    },
+    {
+      "id": "24-38",
+      "name": "Little v. Hecox",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf"
+    },
+    {
+      "id": "25-767",
+      "name": "Margolin v. NAIJ",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r36_n758.pdf"
+    },
+    {
+      "id": "25-748",
+      "name": "McCarthy v. Hernandez",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r52_k5fm.pdf"
+    },
+    {
+      "id": "25A810",
+      "name": "Mirabelli v. Bonta",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r17_bqmc.pdf"
+    },
+    {
+      "id": "25-5",
+      "name": "Mullin v. Al Otro Lado",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r59_kjfl.pdf"
+    },
+    {
+      "id": "25-1083",
+      "name": "Mullin v. Doe",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r60_7mip.pdf"
+    },
+    {
+      "id": "26A203",
+      "name": "National Park Service v. National Trust for Historic Preservation in the United States",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r70_3e04.pdf"
+    },
+    {
+      "id": "26A274",
+      "name": "National Republican Congressional Committee v. Brown",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r71_4h25.pdf"
+    },
+    {
+      "id": "26A388",
+      "name": "People Not Politicians v. Onder",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a388_q86b.pdf"
+    },
+    {
+      "id": "24-1159",
+      "name": "Pitts v. Mississippi",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r01_kjfm.pdf"
+    },
+    {
+      "id": "24-351",
+      "name": "Postal Service v. Konan",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r13_m64n.pdf"
+    },
+    {
+      "id": "25-95",
+      "name": "Pung v. Isabella County",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r54_d18e.pdf"
+    },
+    {
+      "id": "24-110",
+      "name": "Robinson v. Callais",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf"
+    },
+    {
+      "id": "24-820",
+      "name": "Rutherford v. United States",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r40_o7kq.pdf"
+    },
+    {
+      "id": "25-197",
+      "name": "T. M. v. University of Md. Medical System Corporation",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r49_mlho.pdf"
+    },
+    {
+      "id": "25-365",
+      "name": "Trump v. Barbara",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-365_new_5if6.pdf"
+    },
+    {
+      "id": "26A124",
+      "name": "Trump v. California",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r69_11o2.pdf"
+    },
+    {
+      "id": "25A312",
+      "name": "Trump v. Cook",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf"
+    },
+    {
+      "id": "25-1084",
+      "name": "Trump v. Miot",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r60_7mip.pdf"
+    },
+    {
+      "id": "25-332",
+      "name": "Trump v. Slaughter",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r62_g314.pdf"
+    },
+    {
+      "id": "25-250",
+      "name": "Trump, President Of United States v. V.O.S. Selections, Inc.",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r12_8nj9.pdf"
+    },
+    {
+      "id": "24-1234",
+      "name": "United States v. Hemani",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r51_k4lo.pdf"
+    },
+    {
+      "id": "24-557",
+      "name": "Villarreal v. Texas",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r16_869c.pdf"
+    },
+    {
+      "id": "24-1260",
+      "name": "Watson v. Republican National Committee",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r65_g314.pdf"
+    },
+    {
+      "id": "24-43",
+      "name": "West Virginia v. B. P. J.",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf"
+    },
+    {
+      "id": "25-580",
+      "name": "Whitton v. Dixon",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r41_4gc5.pdf"
+    },
+    {
+      "id": "25-297",
+      "name": "Zorn v. Linton",
+      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r21_2bo2.pdf"
+    }
+  ]
+}

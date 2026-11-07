@@ -1,0 +1,24 @@
+{
+  "total": 1102,
+  "finished": 1102,
+  "readable": 1095,
+  "scanOnly": 4,
+  "errors": [
+    {
+      "document": "24-109-47037d72c88e",
+      "phase": "extract",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "document": "24-109-4d5f9678c964",
+      "phase": "extract",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "document": "24-110-47037d72c88e",
+      "phase": "extract",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "updatedAt": "2026-11-06T18:00:00.632817+00:00"
+}

@@ -1,0 +1,144 @@
+.reader-shell .tabbar {
+  flex-flow: row nowrap;
+  align-items: stretch;
+  max-width: 100%;
+  gap: 3px;
+  padding: 3px 4px 0 0;
+  overflow: hidden;
+}
+.reader-shell .tabbar .tab {
+  flex: 0 1 auto;
+  width: max-content;
+  min-width: 0;
+  max-width: 20rem;
+  min-height: 33px;
+  padding: 0 2px 0 7px;
+  align-items: center;
+}
+.reader-shell .tabbar .tab > [role="tab"] {
+  min-width: 0;
+  max-width: 100%;
+  flex: 0 1 auto;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 5px 3px;
+  text-align: start;
+}
+.reader-shell .tabbar [hidden] {display: none !important;}
+.reader-shell .tabbar .close,
+.reader-shell .tabbar .tab-menu-button {min-height: 26px; width: 23px; padding: 3px; justify-content: center;}
+.reader-shell .tabbar .tab-menu-button {display: none;}
+.reader-shell .tabbar .tab:hover .tab-menu-button,
+.reader-shell .tabbar .tab:focus-within .tab-menu-button {display: inline-flex;}
+.reader-shell .tab-overflow {
+  align-self: center;
+  margin-left: auto;
+  padding: 4px 8px;
+  background: transparent;
+  color: var(--ink);
+  white-space: nowrap;
+  font-size: 12px;
+}
+.reader-tab-list {max-height: min(22rem,60dvh); overflow-y: auto;}
+.reader-tab-list .listbutton[aria-current] {font-weight: 650;}
+.reader-shell .sidebar-head {padding: 11px 12px 5px 14px;}
+.reader-shell .sidebar-head > strong {font-size: 16px; line-height: 1.25;}
+.reader-shell .sidebar-scroll {padding-top: 3px;}
+.reader-shell .explorer-section {margin: 0 0 3px;}
+.reader-shell .explorer-section > summary {
+  gap: 7px;
+  justify-content: flex-start;
+  min-height: 34px;
+  padding: 5px 4px;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.3;
+}
+.reader-shell .explorer-section > summary::before {content: none;}
+.explorer-section summary > svg {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.explorer-section[open] > summary > svg {transform: rotate(90deg);}
+.reader-shell .explorer-document {
+  min-height: 0;
+  margin: 3px 0 3px 9px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--paper);
+  box-shadow: none;
+}
+.reader-shell .explorer-document > button:first-child {
+  min-height: 38px;
+  padding: 7px 9px;
+  gap: 2px;
+}
+.reader-shell .explorer-document:focus-within {background: var(--paper);}
+.reader-shell .explorer-document-main[aria-current] strong {font-weight: 650;}
+.reader-shell .explorer-document button:focus-visible,
+.reader-shell .tabbar button:focus-visible,
+.reader-shell .explorer-section summary:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: -2px;
+}
+@media (hover:hover) {
+  .reader-shell .explorer-document:hover {background: var(--tint);}
+  .reader-shell .explorer-section > summary:hover {background: var(--tint); border-radius: 5px;}
+}
+.reader-shell .reader-heading .reader-case:hover {color: inherit; background: transparent;}
+.reader-shell .reader-case-info h2 {margin: 4px 0; font-size: 20px; line-height: 1.22;}
+.reader-case-meta {display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: 12px; color: var(--muted); align-items: baseline;}
+.reader-case-meta a {color: var(--green);}
+.reader-case-areas {display: flex; flex-wrap: wrap; gap: 4px; margin-top: 9px;}
+.reader-case-areas button {background: var(--tint); padding: 3px 6px; border-radius: 4px; color: var(--ink); font-size: 11px; line-height: 1.4;}
+.reader-case-info h3 {margin: 15px 0 5px; font: 18px/1.3 "Spectral",Georgia,serif;}
+.reader-case-info .reader-case-dates {display: grid; grid-template-columns: auto 1fr; gap: 4px 9px; align-items: baseline; margin: 10px 0; font-size: 12px;}
+.reader-case-dates dt {color: var(--muted);}
+.reader-case-dates dd {margin: 0;}
+.reader-vote-group h4 {margin: 8px 0 3px; font-size: 12px;}
+.reader-vote-group ul {padding: 0; margin: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fill,minmax(53px,1fr)); gap: 3px;}
+.reader-voter {display: flex; flex-direction: column; align-items: center; width: 100%; min-width: 0; gap: 1px; padding: 3px 1px; font-size: 11px;}
+.reader-vote-portrait {width: 37px; height: 38px; margin: 0; background: none;}
+.reader-vote-portrait img {width: 100%; height: 100%; object-fit: contain;}
+@media (hover:none) { .reader-shell .tabbar .tab-menu-button {display: inline-flex;} }
+
+.reader-vote-portrait.illustrated-portrait img,
+.speaker-avatar.illustrated-speaker img,
+.audio-speaker-portrait.illustrated-speaker img {
+  object-position: center !important;
+  object-fit: contain;
+  display: block;
+}
+.reader-shell .speaker-avatar.illustrated-speaker {width: 40px; height: 40px;}
+.playback-strip .audio-speaker-portrait.illustrated-speaker {width: 30px; height: 30px;}
+@media (max-width: 760px) {
+  .reader-shell .speaker-avatar.illustrated-speaker {width: 27px; height: 27px;}
+  .playback-strip .audio-speaker-portrait.illustrated-speaker {width: 27px; height: 27px;}
+}
+@media (max-width: 530px) {
+  .reader-top:has(.playback-strip) {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) auto auto;
+    gap: 6px 4px;
+    align-items: center;
+  }
+  .reader-top:has(.playback-strip) .reader-heading {grid-area: 1 / 1;}
+  .reader-top:has(.playback-strip) .reader-controls {display: contents;}
+  .reader-top:has(.playback-strip) .reader-controls > [data-action="reader-menu"] {grid-area: 1 / 2;}
+  .reader-top:has(.playback-strip) .reader-minimize {grid-area: 1 / 3;}
+  .reader-top:has(.playback-strip) #reader-playback {
+    grid-area: 2 / 1 / 3 / -1;
+    justify-self: start;
+    width: max-content;
+    min-width: 0;
+    max-width: 100%;
+  }
+}

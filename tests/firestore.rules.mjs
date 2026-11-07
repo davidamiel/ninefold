@@ -1,0 +1,14 @@
+import {readFile} from 'node:fs/promises';
+import {test,after,before} from 'node:test';
+import {initializeTestEnvironment,assertSucceeds,assertFails} from '@firebase/rules-unit-testing';
+import {doc,setDoc,getDoc,deleteDoc,serverTimestamp} from 'firebase/firestore';
+let env;
+before(async()=>{env=await initializeTestEnvironment({projectId:'demo-ninefold',firestore:{rules:await readFile('firestore.rules','utf8')}});});
+after(async()=>{await env?.cleanup();});
+const note=db=>doc(db,'users/alice/notes/n1');
+const data=()=>({id:'n1',value:{id:'n1',comment:'Private annotation'},updatedAt:serverTimestamp()});
+test('anonymous clients cannot read or write personal data',async()=>{const db=env.unauthenticatedContext().firestore();await assertFails(getDoc(note(db)));await assertFails(setDoc(note(db),data()));});
+test('an owner can save, read, and delete their note',async()=>{const db=env.authenticatedContext('alice').firestore();await assertSucceeds(setDoc(note(db),data()));await assertSucceeds(getDoc(note(db)));await assertSucceeds(deleteDoc(note(db)));});
+test('another signed-in account cannot read or alter the library',async()=>{const db=env.authenticatedContext('bob').firestore();await assertFails(getDoc(note(db)));await assertFails(setDoc(note(db),data()));await assertFails(deleteDoc(note(db)));});
+test('unknown collections and malformed writes are denied',async()=>{const db=env.authenticatedContext('alice').firestore();await assertFails(setDoc(doc(db,'users/alice/admin/settings'),data()));await assertFails(setDoc(note(db),{...data(),owner:'bob'}));await assertFails(setDoc(note(db),{id:'n1',value:'invalid',updatedAt:serverTimestamp()}));});
+test('saved cases and progress are owner-only too',async()=>{const db=env.authenticatedContext('alice').firestore();for(const name of ['saved','progress'])await assertSucceeds(setDoc(doc(db,`users/alice/${name}/one`),{id:'one',value:{caseId:'25-352'},updatedAt:serverTimestamp()}));});

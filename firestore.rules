@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  match /users/{uid}/{collection}/{entry} {
+   function owner(){return request.auth != null && request.auth.uid == uid;}
+   function valid(){return request.resource.data.keys().hasOnly(['id','value','updatedAt'])
+    && request.resource.data.id is string && request.resource.data.id.size() <= 1000
+    && request.resource.data.value is map && request.resource.data.value.size() <= 500
+    && request.resource.data.updatedAt == request.time;}
+   allow read, delete: if owner() && collection in ['notes','saved','progress'];
+   allow create, update: if owner() && collection in ['notes','saved','progress'] && valid();
+  }
+ }
+}
