@@ -23,7 +23,13 @@ jobs:
         with:
           python-version: '3.12'
       - run: npm ci
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
       - run: npm test
+      - run: npm run test:rules
+      - run: npm run test:sync
       - run: npm run build
       - run: python scripts/check_term_reader.py out
       - uses: actions/configure-pages@v5
