@@ -88,6 +88,16 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 @media(prefers-reduced-motion:reduce){.document-sections{scroll-behavior:auto}}
 
 #global-playback .playback-strip button:not(.playback-toggle):is(:hover,:focus-visible){background:#ffffff22;color:#fff}
+
+/* The native viewer keeps a publicly embeddable original in the reading pane
+   when its host does not permit PDF.js to fetch the file across origins. */
+.native-pdf{height:100%;min-height:360px;display:flex;flex-direction:column;gap:12px}
+.native-pdf-status{flex:none;background:var(--paper);border:1px solid var(--line);padding:12px 14px;font:13px/1.5 "Source Sans 3",system-ui;overflow-wrap:anywhere}
+.native-pdf-status p{margin:0}
+.native-pdf-status>div{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:8px 0}
+.native-pdf-status button,.native-pdf-status a{min-height:44px;display:inline-flex;align-items:center}
+.native-pdf-frame{display:block;width:100%;min-height:260px;flex:1;border:0;background:white}
+@media(max-width:760px){.native-pdf{min-height:480px}.native-pdf-status{font-size:12px;padding:10px}.native-pdf-status>div{gap:6px}}
 #global-playback .playback-toggle{background:#fff;color:var(--nf-plum)}
 #global-playback .playback-toggle:is(:hover,:focus-visible){background:var(--nf-wash);color:var(--nf-plum)}
 
