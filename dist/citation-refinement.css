@@ -1,0 +1,34 @@
+/* Reference triggers belong to the paragraph, not to the button layout.
+   Keep them as fragmentable inline text so long case names wrap naturally. */
+.document-body .page-text .citation {
+  display: inline;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  vertical-align: baseline;
+  white-space: inherit;
+  overflow-wrap: inherit;
+  word-break: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--nf-accent);
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.document-body .page-text .citation:is(:hover, :focus-visible) {
+  background: transparent;
+  color: var(--nf-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .12em;
+}
+
+.document-body .page-text .citation:focus-visible {
+  outline: 2px solid var(--nf-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}

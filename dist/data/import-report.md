@@ -1,32 +1,37 @@
-# October Term 2025 collection — expanded core content
+# Ninefold source and document coverage
 
-81 docketed matters, 6,405 unique linked documents, 2,109 extracted reader documents, 76,391 source PDF pages.
+Verified November 7, 2026 against the imported October Terms 2025 and 2026.
 
-## Core coverage
+## Represented collection
 
-All 2,012 non-auxiliary documents categorized as Certiorari, Merits, Amicus, Decision, Argument, or Lower courts have been processed. 2,008 have extracted text; 4 scan-only originals are supplied as PDFs. 0 core documents remain unavailable. Administrative filings are retained as source links and excluded from this core completeness claim.
+- 262 docket records: 109 merits-numbered dockets and 153 application-numbered dockets. Consolidated matters are separate records, not distinct opinions.
+- All 65 OT2025 and 36 OT2026 official granted/noted roster entries are represented. All docket entries in the checked Court opinion and argument-transcript indexes are represented.
+- 74 argued docket records have recordings and timed transcripts: 68 use Oyez source timing; six use approximate alignment to official Court recordings.
+- The collection also contains selected emergency applications. It does not include every certiorari denial, administrative filing or Court order.
 
-Three stale Court URLs for the Callais post-judgment order were recovered from the Court's revised PDF; original and corrected URLs are retained.
+## Reader material verification
 
-## Relationships and decision information
+4,619 configured substantive case-material records were checked. Readers use extracted text or a verified bundled original for scan-only documents. All 3,899 distinct configured case-text assets exist and parse; one empty administrative Statement of Costs is excluded from substantive reading. The separate precedent-reader check covers 898 imported opinions. These are configured-file checks, not a manual proofread or a claim of universal docket completeness.
 
-Official transcript appearances identify 104 advocates across all 64 argued docket records. 885 named amicus entities/groups are connected to their filings. Case and document relationships preserve consolidated matters.
+## Recovered during this audit
 
-80 cases have sourced decision metadata. 31 have a verified simple tally or an expressly unanimous result. Others retain the source composition and opinion breakdown without an inferred numeric vote. Separate opinions link to their starting source page. Qualified joins are not represented as unqualified joins.
+Three substantive letters are now included: COLT's correction/clarification in Suncor (25-170), Grand's September 23 reply letter (25-965), and Lederman's December 8 correction letter in Trump v. Illinois (25A443). The Lederman letter is a scan, presented through its original PDF.
 
-Legal areas use labeled editorial keyword classification from official questions or disposition text, with the matched text and source retained. Amicus names reflect docket-listed filing entities/groups; this is not a separate entity-resolution service.
+Four Callais supporting records were recovered for the related 24-109, 24-110 and 25A1197 matters: the April 30 lower-court order and three May 1 letter attachments. Existing document IDs were retained where previously inventoried. The scanned order is PDF-only; the attachments have page-preserving extracted text and bundled originals.
 
-## Sources and limits
+Beaird's petition appendix original is bundled so the lower-court judgment can be read faithfully in PDF view. Existing text and annotation offsets were not rewritten.
 
-- [Official granted/noted list](https://www.supremecourt.gov/orders/25grantednotedlist.pdf)
-- [Opinions of the Court](https://www.supremecourt.gov/opinions/slipopinion/25)
-- [Argument transcripts](https://www.supremecourt.gov/oral_arguments/argument_transcript/2025)
-- [Argument audio](https://www.supremecourt.gov/oral_arguments/argument_audio/2025)
-- Individual official docket pages and PDFs, linked per record.
-- Eight statutory sections from the expressly labeled 2024 U.S. Code edition, via GPO.
+## Known unavailable filings
 
-Text extraction preserves source pages but is not a manual proofread or OCR service. Use the original PDF when a scan, header, footnote, or extraction artifact matters. Consolidated docket numbers are counted separately; the collection includes one case dismissed before the term and additional non-argued opinions, but not every cert denial or miscellaneous order.
+- 24-777 (Urias-Orellana v. Bondi): American Gateways. Amicus brief · No public copy located.
+- 26A75 (Comer v. Tolan): Application for an Injunction. The Court’s linked copy is unavailable.
+- 25-1343 (Blanche v. Ozurumba): Petition for a Writ of Certiorari. Filed on paper; no public digital copy.
+- 25-1343 (Blanche v. Ozurumba): Respondent’s Brief in Opposition. Filed on paper; no public digital copy.
+- 25-1343 (Blanche v. Ozurumba): Petitioner’s Reply. Filed on paper; no public digital copy.
+- 26A164 (Pape-Ansoumana v. Blanche): Application for a Stay of Removal. No public copy located.
 
-## Reproduction
+The five unlinked filings above have no public download on their checked official docket entries. The linked Comer application (26A75) returned HTTP 404 during this audit. No missing text was invented.
 
-Set COURT_DATA_DIR to dist/data. Run import_term.py, authorities.py, finalize.py, complete.py, recover_sources.py, then merge_complete.py (which invokes enrich.py). Python requires pypdf and lxml. Network is needed only for source retrieval; cached downloads are reused. Do not deploy the raw download cache.
+## Remaining limitations
+
+Source layouts, tables, scans, ligatures, headers and footnotes may require the original PDF. Most original PDFs are hosted by the Court rather than bundled, and their host can prevent embedding through browser cross-origin rules. Docket correspondence and administrative filings are not exhaustively imported. Corrected/duplicate source URLs and consolidated filings require content-aware matching. Statutes are labeled with the imported edition. Unresolved authorities remain source lookups rather than full reader documents.
