@@ -59,11 +59,43 @@ export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
 }
 
 export function passageAround(text,start,end) {
-  const before=text.slice(Math.max(0,start-230),start);
-  const after=text.slice(end,end+190);
-  const left=before.replace(/^[\s\S]*\n\s*\n/,'').replace(/^\S*\s/,(word)=>start>230?'':word);
-  const right=after.split(/\n\s*\n|(?<=[.?!])\s+(?=[A-Z])/)[0];
-  return (left+text.slice(start,end)+right).replace(/\s+/g,' ').trim();
+  // Context belongs to the citing document, not to the cited authority. Keep a
+  // complete sentence (including a following standalone citation) when it fits.
+  // Never disguise an arbitrary character-window cut as a sentence beginning.
+  let paragraphStart=0,paragraphEnd=text.length;
+  for(const gap of text.matchAll(/\n\s*\n/g)) {
+    if(gap.index+gap[0].length<=start) paragraphStart=gap.index+gap[0].length;
+    else if(gap.index>=end) {paragraphEnd=gap.index;break}
+  }
+  const starts=[paragraphStart];
+  const paragraph=text.slice(paragraphStart,paragraphEnd);
+  for(const stop of paragraph.matchAll(/[.!?][”’"')\]]*\s+(?=[A-Z0-9“‘"(])/g)) {
+    const prefix=paragraph.slice(0,stop.index+1);
+    // Legal and ordinary abbreviations do not mark sentence boundaries.
+    if(stop[0][0]==='.'&&(/\b(?:Mr|Mrs|Ms|Dr|Prof|Jr|Sr|Inc|Corp|Co|Ltd|No|Nos|Art|Sec|Ch|Vol|App|Pet|Resp|Supp|Cir|Dist|Bankr|Fed|Cal|Va|Mass|Conn|Del|Pa|Fla|Tex|Wash|Mich|Wis|Minn|Ill|Ind|Ohio|Rev|Stat|v)\.$/i.test(prefix)||/(?:\b[A-Za-z]\.){2,}$/.test(prefix)||/(?:^|\s)[A-Z]\.$/.test(prefix))) continue;
+    starts.push(paragraphStart+stop.index+stop[0].length);
+  }
+  let sentence=starts.findLastIndex(at=>at<=start);
+  // A cite such as "JA92 ¶¶ 6, 8." supports the preceding sentence. Include it,
+  // instead of showing only the citation or unrelated earlier fragments.
+  if(sentence>0&&/^(?:(?:See(?: also)?|But see|Cf\.|Accord|Compare)\s*)?$/.test(text.slice(starts[sentence],start).trim())) sentence--;
+  let left=starts[sentence],right=starts.find(at=>at>=end)??paragraphEnd;
+  let clippedLeft=false,clippedRight=false;
+  if(start-left>320) {
+    left=start-320;
+    while(left<start&&/\S/.test(text[left])) left++;
+    clippedLeft=true;
+  }
+  if(right-end>200) {
+    right=end+200;
+    while(right>end&&/\S/.test(text[right])) right--;
+    clippedRight=true;
+  }
+  const passage=text.slice(left,right).replace(/\s+/g,' ').trim();
+  // A page may itself start in the middle of a sentence.
+  clippedLeft ||= left===0&&/^[a-z]/.test(passage);
+  clippedRight ||= right===text.length&&!/[.!?][”’"')\]]*$/.test(passage);
+  return (clippedLeft?'… ':'')+passage+(clippedRight?' …':'');
 }
 
 export function excerptOf(text,limit=600) {

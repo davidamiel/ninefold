@@ -1,74 +1,43 @@
 # Ninefold
 
-Public Supreme Court case and document reader covering the imported October Terms 2025 and 2026.
+A place to explore the U.S. Supreme Court, read the documents behind its cases, and listen to oral arguments.
 
-## Run
+**[Open Ninefold →](https://davidamiel.github.io/ninefold/)**
 
-Install dependencies and build the production files, then serve `out/` over HTTP:
+Ninefold brings cases, opinions, briefs, and oral arguments into one reading workspace. Browse without an account, follow a case from its questions presented to its decision, and move between the people, arguments, and sources connected to it.
 
-```sh
-npm ci
-npm run build
-python -m http.server 8765 --bind 127.0.0.1 --directory out
-```
+## What you can do
 
-Open the local address in a browser. GitHub Actions publishes `out/` to GitHub Pages only when manually requested from the Actions tab. See [deployment setup](docs/deployment.md) to connect Firebase.
+- **Find a case.** Browse by Supreme Court term, filter by argument month, or search by case name and docket number.
+- **Read the primary sources.** Open opinions, briefs, and transcripts in a focused reader. Switch to the original PDF when you need the page as filed.
+- **Compare documents.** Keep several documents open in tabs, read two side by side, and return to a case workspace without losing your place.
+- **Listen and follow along.** Play oral-argument audio alongside the transcript. Select a timed passage to jump to that moment, or use the playback controls to move through the recording.
+- **Explore the Court.** Browse justices, advocates, amici, and subject areas, then follow their connections to individual cases.
+- **Keep your own library.** Sign in to save cases, highlight passages, add comments and notes, and sync your reading progress across devices. Public reading does not require an account.
 
-## Functionality
+## Start reading
 
-- Searchable cases scoped to a term, with optional argument-month filtering and docket identifiers.
-- Case overviews with full questions presented, sourced holdings and opinion composition; one document section displayed at a time.
-- Areas, justices, advocates, and amici directories with participation-based profiles linked to cases.
-- A homepage, browser-history-aware navigation, and case-specific reading workspaces that can be minimized, resumed, or closed from the bottom bar.
-- User-opened, closable document tabs with single and split views; each document retains its scroll position.
-- Sourced justice biographies and portraits, initial advocate biographies, and written/joined opinion participation with term filters.
-- Separate opinion sections and PDFs, continuous reading text, optional source-page markers, and passage-aligned margin notes/references. Original annotation offsets survive the reading transform.
-- Original PDFs embedded in the same reading pane, including scan-only documents.
-- Compact explorer modes for case documents, source-page outline, retained references, annotations, case information, viewing options, and audio.
-- Text-selection highlights in four colors; comments anchored to selected source ranges; page notes; annotation deletion and export.
-- Firebase accounts with Google or email/password sign-in. Saved cases, recent reading, highlights, comments, and positions sync to owner-only Firestore collections after Firebase is configured. Public reading requires no account.
-- Conversational oral-argument transcripts for both imported terms. Oyez supplies source timing for 68 dockets; six recent arguments use speech alignment against the official Court recordings. Click timed paragraphs to seek; the elapsed-time control switches to a scrubber.
-- Citation previews for locally resolved authorities, retained references, floating references, and opening references beside the main document. Unresolved authorities are identified explicitly and offer source lookup. No automated holding summaries are generated.
+1. [Open the app](https://davidamiel.github.io/ninefold/) and choose **Cases**.
+2. Pick a term or search for a case, then open its overview.
+3. Choose a document to read. Open another document when you want to compare sources, or choose an oral-argument transcript to read and listen together.
+4. Sign in when you want to keep saved cases, annotations, and reading progress in your **Library**.
 
-## Data
+## Keep Ninefold close
 
-`dist/data/catalog.json` contains case records and indexed filing metadata. `data/docs/` contains actual PDF text extraction by source page. `catalog.coverage` and the source report describe exact scope, extraction counts, and limitations.
+Ninefold works in your browser on a computer, tablet, or phone. You can also give it a place on your home screen or Dock:
 
-The roster is the union of the official granted/noted argument list and the Court's opinions index. Consolidated docket numbers remain separate; shared documents can occur under multiple cases. It does not claim to include every certiorari denial or every order issued during the term.
+- **iPhone or iPad:** Open Ninefold in Safari, tap **Share**, then **Add to Home Screen**.
+- **Mac:** In Safari, choose **File → Add to Dock** if your version supports it.
+- **Other browsers:** Use the browser's install-app or create-shortcut option when available.
 
-Document pages retain extracted text and source links. PDF layout, scanned material, footnote placement, and tables may require the original. Added statutes show their source edition; it should not be assumed to be the governing version for every dispute.
+The app includes its own icon for these shortcuts. An internet connection is needed to load the collection; adding Ninefold to your home screen does not download an offline library.
 
-## Architecture
+## About the collection
 
-Static HTML, CSS, and JavaScript with editable JSON content, deployed on GitHub Pages. Firebase handles identity and private account storage. Public UI preferences stay in localStorage; private notes, saved cases and progress use Firestore with persistent offline caching. No user data is committed with source. `app.js` escapes content before rendering and only offers HTTP(S) source URLs.
+The collection currently covers the October Terms 2025 and 2026. Each case brings together available primary documents and source links. Coverage follows the Court's argument lists and opinions index; it does not include every order or denial of review.
 
-Highlights use source document ID plus page index, character range, and selected quote. Future extraction changes should version documents and migrate anchors rather than silently changing their text beneath saved annotations.
+Extracted text makes documents easier to read and annotate, but the original PDF remains the reference for page layout, tables, footnotes, and scanned material. Some oral-argument timestamps are approximate and are identified in the reader. Citation links and previews are available where a source can be resolved.
 
-## Next development work
+## Behind the app
 
-additional advocate biographies, robust historical statute selection, broader case-citation resolution and attributed case previews, font/glyph and footnote-aware extraction, accessibility expansion, and offline document bundles.
-
-## Verify and package
-
-Run `node scripts/polish_documents.mjs` to derive conservative source-offset metadata, `node scripts/check_polish.mjs` for interaction/content regressions, and `python scripts/check_term_reader.py` for material coverage. `python scripts/build_site.py` writes the deployable `out/` tree; check it with `python scripts/check_term_reader.py out`. Source text remains unchanged.
-
-Advocate illustrations retain PNG masters in source and use 512-pixel WebP delivery copies. The release excludes illustration masters to stay within hosting limits without dropping documents.
-
-### Official-recording alignment fallback
-
-For argued cases without an Oyez timed transcript, `scripts/export_argument_turns.mjs` exports the filed transcript's cleaned speaker turns and source offsets. The CPU-only pipeline uses the exact Supreme Court MP3, recognizes word timing with faster-whisper, and aligns those words to the official text with edit-distance matching. Recognition never replaces the official wording. Brief unmatched spans interpolate between audio anchors; long unmatched passages fail validation and require local re-recognition. The reader identifies these timestamps as approximate.
-
-Install `scripts/alignment-requirements.txt` in a separate virtual environment; FFmpeg must be available. Keep downloaded MP3s, model weights and recognition caches outside `dist/`:
-
-```sh
-node scripts/export_argument_turns.mjs /workspace/ninefold-alignment/official-turns.json
-python scripts/recognize_arguments.py --work /workspace/ninefold-alignment
-python scripts/align_official_arguments.py --work /workspace/ninefold-alignment
-# For a failed span, use refine_argument_timing.py with --docket, --start and --end.
-python scripts/align_official_arguments.py --work /workspace/ninefold-alignment --publish-data
-python scripts/check_argument_alignment.py --official /workspace/ninefold-alignment/official-turns.json
-```
-
-`official-alignment-report.json` records coverage and gaps; each session records its MP3 SHA-256, model and source provenance. Subsequent Oyez imports retain established official sessions so document IDs, wording and annotations stay stable.
-
-Run `npm test` for public-mode checks and `npm run test:rules` for Firestore ownership, anonymous access, and malformed-write tests using the local emulator.
+For setup, verification, and content maintenance, see the [development guide](docs/development.md). The [deployment guide](docs/deployment.md) covers hosting and account configuration, and [architecture notes](ARCHITECTURE.md) describe how the reader works.

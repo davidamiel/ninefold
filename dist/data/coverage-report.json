@@ -1,399 +1,251 @@
 {
-  "term": "2025",
-  "completedAt": "2026-11-06T18:02:26.185192+00:00",
-  "coverage": {
-    "caseCount": 81,
-    "argumentRosterCount": 65,
-    "additionalOpinionCases": 16,
-    "docketsImported": 81,
-    "documents": 6418,
-    "substantiveDocuments": 2745,
-    "readableDocuments": 2122,
-    "readablePages": 77703,
-    "casesWithReadableDocuments": 81,
-    "audioRecordings": 64,
-    "scope": "Union of the official October Term 2025 granted/noted list and Opinions of the Court index; consolidated docket numbers are separate records. Includes one roster matter dismissed before term and non-argued opinions. Does not include every certiorari denial, docket entry, or order issued by the Court.",
-    "extractionStatus": "Complete for substantive core documents; scan-only originals available",
-    "uniqueDocumentCount": 6405,
-    "uniqueSubstantiveDocuments": 2732,
-    "uniqueReadableDocumentCount": 2109,
-    "uniqueReadablePages": 76391,
-    "uniqueAudioRecordings": 57,
-    "statuteSections": 8,
-    "readableByCategory": {
-      "Decision": 76,
-      "Argument": 58,
-      "Certiorari": 216,
-      "Other": 101,
-      "Lower courts": 41,
-      "Amicus": 1390,
-      "Merits": 227
+  "terms": {
+    "2025": {
+      "caseCount": 205,
+      "meritsDocketCount": 73,
+      "applicationDocketCount": 132,
+      "argumentRosterCount": 65,
+      "additionalOpinionCases": 16,
+      "selectedAdditionalEmergencyApplications": 124,
+      "documents": 7843,
+      "uniqueDocumentCount": 7806,
+      "readableDocuments": 3721,
+      "uniqueReadableDocumentCount": 3684,
+      "casesWithReaderMaterials": 205,
+      "coreDocumentRecords": 3456,
+      "uniqueCoreDocumentCount": 3426,
+      "coreReadableDocuments": 3422,
+      "coreScanOnlyDocuments": 4,
+      "knownUnavailableFilings": 2,
+      "audioRecordings": 64,
+      "readableByCategory": {
+        "Argument": 58,
+        "Lower courts": 303,
+        "Certiorari": 229,
+        "Appendices": 184,
+        "Amicus": 1720,
+        "Merits": 523,
+        "Decision": 405
+      },
+      "scope": "Official October Term 2025 granted/noted and Court-opinion rosters, plus selected emergency applications. Not every certiorari denial, administrative filing or Court order.",
+      "extractionStatus": "Configured substantive reader materials verified; known unavailable filings disclosed; extraction quality varies.",
+      "notes": [
+        "Dockets are counted separately, including consolidated cases that share filings, arguments or opinions.",
+        "Scope is the official granted/noted and Court-opinion rosters plus selected emergency applications; not every certiorari denial, administrative filing or Court order.",
+        "All configured substantive reader materials were checked against bundled text or verified scan-only PDFs. File checks do not prove all possible docket materials are imported or that every extraction is flawless.",
+        "Administrative docket material generally remains on the official docket. The audit identified and recovered substantive correction/reply letters and supporting attachments that were outside the earlier core categories.",
+        "Some known filings have no public digital copy, and one linked application returns HTTP 404; they remain explicitly marked unavailable.",
+        "Source text preserves page boundaries. Form layouts, scans, tables, footnotes and OCR artifacts may require the original PDF. Most originals remain externally hosted; bundled originals avoid browser cross-origin restrictions.",
+        "Statutes identify their source edition rather than asserting the governing historical version. Citations resolve only when imported authority text is available."
+      ],
+      "verifiedAt": "2026-11-07"
     },
-    "sourceOnlyDocuments": 4296,
+    "2026": {
+      "caseCount": 57,
+      "meritsDocketCount": 36,
+      "applicationDocketCount": 21,
+      "argumentRosterCount": 36,
+      "additionalOpinionCases": 0,
+      "selectedAdditionalEmergencyApplications": 21,
+      "documents": 1166,
+      "uniqueDocumentCount": 1166,
+      "readableDocuments": 1166,
+      "uniqueReadableDocumentCount": 1166,
+      "casesWithReaderMaterials": 57,
+      "coreDocumentRecords": 1163,
+      "uniqueCoreDocumentCount": 1163,
+      "coreReadableDocuments": 1163,
+      "coreScanOnlyDocuments": 0,
+      "knownUnavailableFilings": 4,
+      "audioRecordings": 10,
+      "readableByCategory": {
+        "Certiorari": 118,
+        "Amicus": 710,
+        "Merits": 124,
+        "Appendices": 63,
+        "Lower courts": 113,
+        "Argument": 10,
+        "Decision": 25
+      },
+      "scope": "Official October Term 2026 granted/noted and Court-opinion rosters, plus selected emergency applications. Not every certiorari denial, administrative filing or Court order.",
+      "extractionStatus": "Configured substantive reader materials verified; known unavailable filings disclosed; extraction quality varies.",
+      "notes": [
+        "Dockets are counted separately, including consolidated cases that share filings, arguments or opinions.",
+        "Scope is the official granted/noted and Court-opinion rosters plus selected emergency applications; not every certiorari denial, administrative filing or Court order.",
+        "All configured substantive reader materials were checked against bundled text or verified scan-only PDFs. File checks do not prove all possible docket materials are imported or that every extraction is flawless.",
+        "Administrative docket material generally remains on the official docket. The audit identified and recovered substantive correction/reply letters and supporting attachments that were outside the earlier core categories.",
+        "Some known filings have no public digital copy, and one linked application returns HTTP 404; they remain explicitly marked unavailable.",
+        "Source text preserves page boundaries. Form layouts, scans, tables, footnotes and OCR artifacts may require the original PDF. Most originals remain externally hosted; bundled originals avoid browser cross-origin restrictions.",
+        "Statutes identify their source edition rather than asserting the governing historical version. Citations resolve only when imported authority text is available."
+      ],
+      "verifiedAt": "2026-11-07"
+    }
+  },
+  "completedAt": "2026-11-07",
+  "coverage": {
+    "caseCount": 262,
+    "meritsDocketCount": 109,
+    "applicationDocketCount": 153,
+    "coreDocumentRecords": 4619,
+    "knownUnavailableFilings": 6,
+    "configuredTextAssets": 3899,
+    "audioRecordings": 74,
+    "scope": "Imported October Terms 2025 and 2026: official granted/noted and Court-opinion rosters plus selected emergency applications.",
     "notes": [
-      "Docketed matters are counted separately, including consolidated cases that share one argument or opinion.",
-      "The 65-entry granted/noted list includes one matter dismissed before October Term 2025.",
-      "Sixteen additional matters appear in the Court’s term opinion index.",
-      "Administrative proofs and certificates are inventoried but marked auxiliary.",
-      "Statute previews use the explicitly identified 2024 U.S. Code edition, not an asserted case-specific governing version.",
-      "All non-auxiliary documents classified Certiorari, Merits, Amicus, Decision, Argument, and Lower courts were processed. Four scan-only documents are provided as original PDFs.",
-      "Votes are stated only where the source composition supports a simple tally or expressly unanimous result. Complex or unrecorded votes are left unset; source composition remains available.",
-      "Amicus names identify the filing entity or named group as recorded on the docket, not independently verified corporate identities.",
-      "Legal-area tags are transparent editorial keyword classifications, with source evidence."
-    ],
-    "coreDocumentCount": 2012,
-    "coreReadableDocuments": 2008,
-    "coreScanOnlyDocuments": 4,
-    "coreUnavailableDocuments": 0,
-    "advocateCaseCount": 64,
-    "uniqueAdvocateCount": 104,
-    "amicusEntityCount": 885,
-    "decisionCaseCount": 80,
-    "verifiedVoteCaseCount": 31
+      "Dockets are counted separately, including consolidated cases that share filings, arguments or opinions.",
+      "Scope is the official granted/noted and Court-opinion rosters plus selected emergency applications; not every certiorari denial, administrative filing or Court order.",
+      "All configured substantive reader materials were checked against bundled text or verified scan-only PDFs. File checks do not prove all possible docket materials are imported or that every extraction is flawless.",
+      "Administrative docket material generally remains on the official docket. The audit identified and recovered substantive correction/reply letters and supporting attachments that were outside the earlier core categories.",
+      "Some known filings have no public digital copy, and one linked application returns HTTP 404; they remain explicitly marked unavailable.",
+      "Source text preserves page boundaries. Form layouts, scans, tables, footnotes and OCR artifacts may require the original PDF. Most originals remain externally hosted; bundled originals avoid browser cross-origin restrictions.",
+      "Statutes identify their source edition rather than asserting the governing historical version. Citations resolve only when imported authority text is available."
+    ]
   },
   "validation": {
     "missingTextFiles": [],
-    "unavailableCoreDocuments": [],
-    "scanOnlyDocuments": [
+    "invalidTextFiles": [],
+    "knownUnavailableFilings": [
       {
-        "id": "24-38-235a84ee0c58",
-        "title": "Reply of respondents Lindsay Hecox, et al. DISTRIBUTED",
-        "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-38/378334/20250930170516522_No.%2024-38%20Cooley%20LLP%20COC.pdf",
-        "pdfPath": "data/pdfs/24-38-235a84ee0c58.pdf"
+        "caseId": "24-777",
+        "caseName": "Urias-Orellana v. Bondi",
+        "title": "American Gateways",
+        "category": "Certiorari",
+        "date": "2025-02-24",
+        "availability": "Amicus brief · No public copy located"
       },
       {
-        "id": "24-621-a7db4e1b046d",
-        "title": "Opposition of petitioners to motion of Court-appointed amicus curiae to file a supplemental brief",
-        "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-621/386067/20251201165529711_Signed%20COC.pdf",
-        "pdfPath": "data/pdfs/24-621-a7db4e1b046d.pdf"
+        "caseId": "26A75",
+        "caseName": "Comer v. Tolan",
+        "title": "Application for an Injunction",
+        "category": "Application",
+        "date": "2026-07-10",
+        "availability": "The Court’s linked copy is unavailable"
       },
       {
-        "id": "25A312-9ba4dbc52919",
-        "title": "Supplemental brief of respondents Lisa D. Cook, et al",
-        "sourceUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/385180/20251119160541731_No.25A312%20Cook%20COC.pdf",
-        "pdfPath": "data/pdfs/25A312-9ba4dbc52919.pdf"
+        "caseId": "25-1343",
+        "caseName": "Blanche v. Ozurumba",
+        "category": "Certiorari",
+        "title": "Petition for a Writ of Certiorari",
+        "date": "2026-05-29",
+        "availability": "Filed on paper; no public digital copy"
       },
       {
-        "id": "24-1260-845755598c34",
-        "title": "Brief amicus curiae of National Defense Committee",
-        "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391325/20260109152101573_Watson%20Amicus%20Brief%20Filed%20SCOTUS%201%209%202026.pdf",
-        "pdfPath": "data/pdfs/24-1260-845755598c34.pdf"
+        "caseId": "25-1343",
+        "caseName": "Blanche v. Ozurumba",
+        "category": "Certiorari",
+        "title": "Respondent’s Brief in Opposition",
+        "date": "2026-08-03",
+        "availability": "Filed on paper; no public digital copy"
+      },
+      {
+        "caseId": "25-1343",
+        "caseName": "Blanche v. Ozurumba",
+        "category": "Certiorari",
+        "title": "Petitioner’s Reply",
+        "date": "2026-08-18",
+        "availability": "Filed on paper; no public digital copy"
+      },
+      {
+        "caseId": "26A164",
+        "caseName": "Pape-Ansoumana v. Blanche",
+        "title": "Application for a Stay of Removal",
+        "category": "Application",
+        "date": "2026-07-28",
+        "availability": "No public copy located"
       }
     ],
-    "recoveredSourceDocuments": [
-      {
-        "id": "24-109-47037d72c88e",
-        "oldUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_097c.pdf",
-        "url": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf"
-      },
-      {
-        "id": "24-109-4d5f9678c964",
-        "oldUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_097c.pdf#page=4",
-        "url": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf#page=4"
-      },
-      {
-        "id": "24-110-47037d72c88e",
-        "oldUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_097c.pdf",
-        "url": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf"
-      }
-    ],
-    "profileSourceMethod": "Advocates: official transcript APPEARANCES. Amici: docket filing labels. Holdings: official Court index/syllabus. Opinions: official authored opening statements and syllabus composition; source pageIndex provided. Areas: labeled editorial keyword classification.",
-    "limits": "Automatic PDF extraction is not a manual proofread. Page boundaries retained; line wraps, headers, footnotes, scanned pages, and ligatures may need review. Part-specific joins are qualified. Some per-curiam orders have no published individual vote tally."
+    "officialDocketPagesChecked": 262,
+    "linkedPdfOccurrencesInspected": 9951,
+    "additionalSourcePdfsReviewed": 30,
+    "officialRosterDockets": {
+      "2025": 65,
+      "2026": 36
+    },
+    "missingOfficialRosterCases": [],
+    "missingOfficialOpinionIndexCases": [],
+    "missingOfficialTranscriptIndexCases": [],
+    "scopeLimit": "All configured assets and official docket pages were audited. Literal URL differences include duplicates and administrative exclusions; not all historical or administrative records were imported, and the corpus was not manually proofread."
   },
-  "unknownOrComplexVoteCases": [
+  "recoveredDocuments": [
     {
-      "id": "25A1314",
-      "name": "Allen v. Milligan",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r42_q8l1.pdf"
+      "id": "25A443-07954ae7db28",
+      "title": "Letter correcting historical references in Lederman amicus briefs",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/25/25A443/384148/20251215095004797_0420_001.pdf",
+      "sha256": "b90c8ddd106f012c70db53abe06a6364e91d15bca159bd56d63a8bad6a8cb5c6",
+      "bytes": 142662,
+      "pageCount": 2,
+      "verifiedAt": "2026-11-07",
+      "scanOnly": true
     },
     {
-      "id": "24-5774",
-      "name": "Barrett v. United States",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r07_7647.pdf"
+      "id": "25-170-065f8c5a1474",
+      "title": "COLT correction and clarification letter",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/25/25-170/419838/20260821181203297_COLT%20SCOTUS%20Letter%20to%20Mr.%20Scott%20Harris.pdf",
+      "sha256": "408d564ec85046d7a31f5a167db0ff1f44ed43442fe84c60b1b5d87eee608826",
+      "bytes": 530757,
+      "pageCount": 2,
+      "verifiedAt": "2026-11-07",
+      "scanOnly": false
     },
     {
-      "id": "24-440",
-      "name": "Berk v. Choy",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r10_5hek.pdf"
+      "id": "25-965-754134e5833b",
+      "title": "Petitioner reply letter on briefing schedule and mootness",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/25/25-965/425390/20260923142809031_Grand%20Letter%20September%2023.pdf",
+      "sha256": "f78d2057a9a84156933a8df6b8a73e86300fd524152784c724557a4299f7dc85",
+      "bytes": 134098,
+      "pageCount": 3,
+      "verifiedAt": "2026-11-07",
+      "scanOnly": false
     },
     {
-      "id": "24-568",
-      "name": "Bost v. Illinois Bd. of Elections",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r05_e2q3.pdf"
+      "id": "24-109-77c2b290ef78",
+      "title": "Lower Court Order of April 30, 2026",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-109/407716/20260430171703639_ORDER%20of%20WDLA.pdf",
+      "sha256": "788dd5bc2679b516f62f618b0a9c2edf3cdd64f075e250e44d375d061812767e",
+      "bytes": 858773,
+      "pageCount": 2,
+      "verifiedAt": "2026-11-07",
+      "scanOnly": true
     },
     {
-      "id": "24-5438",
-      "name": "Bowe v. United States",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf"
+      "id": "24-109-891982a04288",
+      "title": "Letter Attachment 1: Louisiana Complaint",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-109/407751/20260501101125710_Attachment%201%20-%20Complaint_LA.pdf",
+      "sha256": "17bb2d96b47f52c3925a64b01e6935cf43068faa82550655a159d3a99818aadf",
+      "bytes": 1467461,
+      "pageCount": 50,
+      "verifiedAt": "2026-11-07",
+      "scanOnly": false
     },
     {
-      "id": "24-860",
-      "name": "Carter v. United States",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r40_o7kq.pdf"
+      "id": "24-109-ee271b5d7b76",
+      "title": "Letter Attachment 2: Garcia Filing (ECF 3)",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-109/407751/20260501101134271_Attachment%202%20-%20Garcia_ECF%203.pdf",
+      "sha256": "2d2c6dc8e525acc96dfc1a24dda8ea148912086550d21ffac22a809d7ec4c833",
+      "bytes": 256325,
+      "pageCount": 8,
+      "verifiedAt": "2026-11-07",
+      "scanOnly": false
     },
     {
-      "id": "25-112",
-      "name": "Chatrie v. United States",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf"
+      "id": "24-109-2bd1979535fb",
+      "title": "Letter Attachment 3: Western District of Louisiana Filing",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-109/407751/20260501101143424_Attachment%203%20-%20WDLA%20Filing.pdf",
+      "sha256": "9c0f83085ea90d3d09ffd83185bbe81920ea7978ce915c5e6d80c42805054798",
+      "bytes": 177792,
+      "pageCount": 5,
+      "verifiedAt": "2026-11-07",
+      "scanOnly": false
     },
     {
-      "id": "24-813",
-      "name": "Chevron USA Inc. v. Plaquemines Parish",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r25_2q24.pdf"
-    },
-    {
-      "id": "24-856",
-      "name": "Cisco Systems, Inc. v. Doe",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r57_db8e.pdf"
-    },
-    {
-      "id": "25-52",
-      "name": "Clark v. Sweeney",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r02_5426.pdf"
-    },
-    {
-      "id": "24-808",
-      "name": "Coney Island Auto Parts Unlimited, Inc. v. Burton",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r08_f2q3.pdf"
-    },
-    {
-      "id": "24-171",
-      "name": "Cox Communications, Inc. v. Sony Music Entertainment",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r22_k4lo.pdf"
-    },
-    {
-      "id": "26A308",
-      "name": "Department of Homeland Security v. League of Women Voters",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a308_pok0.pdf"
-    },
-    {
-      "id": "25-248",
-      "name": "District of Columbia v. R.W.",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r26_ppl4.pdf"
-    },
-    {
-      "id": "25-180",
-      "name": "Doe v. Dynamic Physical Therapy, LLC",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r03_1o23.pdf"
-    },
-    {
-      "id": "24-345",
-      "name": "FS Credit Opportunities Corp. v. Saba Capital Master Fund, Ltd.",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r47_m64o.pdf"
-    },
-    {
-      "id": "24-556",
-      "name": "Fernandez v. United States",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r39_5iek.pdf"
-    },
-    {
-      "id": "24-758",
-      "name": "Geo Group, Inc. v. Menocal",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r15_bqmc.pdf"
-    },
-    {
-      "id": "24-872",
-      "name": "Hamm v. Smith",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r35_j4el.pdf"
-    },
-    {
-      "id": "24-924",
-      "name": "Hencely v. Fluor Corp.",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r27_bq7c.pdf"
-    },
-    {
-      "id": "25-51",
-      "name": "Klein v. Martin",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r11_7l48.pdf"
-    },
-    {
-      "id": "24-1287",
-      "name": "Learning Resources, Inc. v. Trump",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r12_8nj9.pdf"
-    },
-    {
-      "id": "24-38",
-      "name": "Little v. Hecox",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf"
-    },
-    {
-      "id": "25-767",
-      "name": "Margolin v. NAIJ",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r36_n758.pdf"
-    },
-    {
-      "id": "25-748",
-      "name": "McCarthy v. Hernandez",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r52_k5fm.pdf"
-    },
-    {
-      "id": "25A810",
-      "name": "Mirabelli v. Bonta",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r17_bqmc.pdf"
-    },
-    {
-      "id": "25-5",
-      "name": "Mullin v. Al Otro Lado",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r59_kjfl.pdf"
-    },
-    {
-      "id": "25-1083",
-      "name": "Mullin v. Doe",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r60_7mip.pdf"
-    },
-    {
-      "id": "26A203",
-      "name": "National Park Service v. National Trust for Historic Preservation in the United States",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r70_3e04.pdf"
-    },
-    {
-      "id": "26A274",
-      "name": "National Republican Congressional Committee v. Brown",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r71_4h25.pdf"
-    },
-    {
-      "id": "26A388",
-      "name": "People Not Politicians v. Onder",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a388_q86b.pdf"
-    },
-    {
-      "id": "24-1159",
-      "name": "Pitts v. Mississippi",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r01_kjfm.pdf"
-    },
-    {
-      "id": "24-351",
-      "name": "Postal Service v. Konan",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r13_m64n.pdf"
-    },
-    {
-      "id": "25-95",
-      "name": "Pung v. Isabella County",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r54_d18e.pdf"
-    },
-    {
-      "id": "24-110",
-      "name": "Robinson v. Callais",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf"
-    },
-    {
-      "id": "24-820",
-      "name": "Rutherford v. United States",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r40_o7kq.pdf"
-    },
-    {
-      "id": "25-197",
-      "name": "T. M. v. University of Md. Medical System Corporation",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r49_mlho.pdf"
-    },
-    {
-      "id": "25-365",
-      "name": "Trump v. Barbara",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-365_new_5if6.pdf"
-    },
-    {
-      "id": "26A124",
-      "name": "Trump v. California",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r69_11o2.pdf"
-    },
-    {
-      "id": "25A312",
-      "name": "Trump v. Cook",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf"
-    },
-    {
-      "id": "25-1084",
-      "name": "Trump v. Miot",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r60_7mip.pdf"
-    },
-    {
-      "id": "25-332",
-      "name": "Trump v. Slaughter",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r62_g314.pdf"
-    },
-    {
-      "id": "25-250",
-      "name": "Trump, President Of United States v. V.O.S. Selections, Inc.",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r12_8nj9.pdf"
-    },
-    {
-      "id": "24-1234",
-      "name": "United States v. Hemani",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r51_k4lo.pdf"
-    },
-    {
-      "id": "24-557",
-      "name": "Villarreal v. Texas",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r16_869c.pdf"
-    },
-    {
-      "id": "24-1260",
-      "name": "Watson v. Republican National Committee",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r65_g314.pdf"
-    },
-    {
-      "id": "24-43",
-      "name": "West Virginia v. B. P. J.",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf"
-    },
-    {
-      "id": "25-580",
-      "name": "Whitton v. Dixon",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r41_4gc5.pdf"
-    },
-    {
-      "id": "25-297",
-      "name": "Zorn v. Linton",
-      "reason": "Part-specific opinion alignment or no simple tally verified from the source",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r21_2bo2.pdf"
+      "id": "25-5343-97e702fdb59d",
+      "title": "Beaird Appendix to the Petition: bundled PDF fallback",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5343/369316/20250811083320529_Appendix.pdf",
+      "sha256": "296d012ec337be27979fe8e89db98e9958d2078c0f5ae2ab7e3015b34e6414ef",
+      "bytes": 1189662,
+      "pageCount": 14,
+      "verifiedAt": "2026-11-07",
+      "preservesExistingText": true
     }
   ]
 }

@@ -2,6 +2,7 @@
 from collections import Counter
 from functools import lru_cache
 import gzip
+import hashlib
 import json
 from pathlib import Path
 import sys
@@ -26,6 +27,18 @@ def lengths(path):
 def check(doc, docs):
     path = doc.get("textPath")
     if not path:
+        # Scanned filings remain faithful PDF-only readers, not invented OCR text.
+        # Require a bundled, previously parsed/visually verified original and its
+        # recorded checksum so an HTML error page or changed source cannot pass.
+        if doc.get("scanOnly") and doc.get("pdfPath") and doc.get("sourceSha256"):
+            pdf = ROOT / doc["pdfPath"]
+            raw = pdf.read_bytes()
+            if (not raw.startswith(b"%PDF-") or b"%%EOF" not in raw[-2048:]
+                    or hashlib.sha256(raw).hexdigest() != doc["sourceSha256"]
+                    or not isinstance(doc.get("pageCount"), int)
+                    or doc["pageCount"] < 1):
+                raise ValueError("Invalid or changed bundled scan-only PDF")
+            return doc["pdfPath"]
         raise ValueError("Missing reader text")
     pages = lengths(path)
     if not any(pages):
