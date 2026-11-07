@@ -12,7 +12,7 @@ npm run build
 python -m http.server 8765 --bind 127.0.0.1 --directory out
 ```
 
-Open the local address in a browser. GitHub Actions publishes `out/` to GitHub Pages on pushes to main. See [deployment setup](docs/deployment.md) to connect Firebase.
+Open the local address in a browser. GitHub Actions publishes `out/` to GitHub Pages only when manually requested from the Actions tab. See [deployment setup](docs/deployment.md) to connect Firebase.
 
 ## Functionality
 

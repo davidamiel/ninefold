@@ -6,7 +6,7 @@ The public website is independent of ChatGPT. All public materials are editable 
 
 1. Create an empty public `davidamiel/ninefold` repository (do not initialize a README). The current integration cannot create repositories.
 2. Push this checkout to it. In Settings → Pages, select **GitHub Actions** as the source.
-3. The Pages workflow installs locked dependencies, runs checks, builds `out/`, and publishes it. Its deployment output is the authoritative website URL. Project-subdirectory hosting works with the existing relative asset paths and hash routes.
+3. The Pages workflow installs locked dependencies, runs checks, builds `out/`, and publishes it when you select Actions → Publish Ninefold → Run workflow. Ordinary pushes do not trigger builds. Its deployment output is the authoritative website URL. Project-subdirectory hosting works with the existing relative asset paths and hash routes.
 
 ## Firebase (Spark plan)
 
@@ -15,7 +15,7 @@ The public website is independent of ChatGPT. All public materials are editable 
 3. Authentication → Sign-in method: enable **Google** (choose a support email) and **Email/Password**. Do not enable anonymous accounts. Authentication → Settings → Authorized domains: add `davidamiel.github.io` and any custom domain you later use. Use HTTPS for deployment; localhost may be added for development.
 4. Firestore Database: create a **Standard edition** database, select the intended data region, and start in **production mode**. Deploy this repository's `firestore.rules` before testing accounts. Never use unrestricted test-mode rules.
 5. On your laptop, from this checkout: `npm ci`, `npx firebase login`, then `npx firebase deploy --only firestore:rules --project YOUR_PROJECT_ID`. CLI credentials remain outside Git. Alternatively, paste the complete `firestore.rules` contents into the console Rules editor and click Publish.
-6. Commit the public web configuration and push. The next Pages deployment enables accounts automatically. No Firebase admin key or server is required for the browser SDK.
+6. Commit the public web configuration and push. Run the Pages workflow once; that deployment enables accounts automatically. No Firebase admin key or server is required for the browser SDK.
 
 Until Firebase is configured, public reading works and the sign-in dialog states that accounts are being connected. It does not pretend to authenticate users. The Firestore rules are the security boundary; hiding Library alone is not authorization.
 
