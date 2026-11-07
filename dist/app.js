@@ -1035,7 +1035,7 @@ document.addEventListener('click', event => {
   state.expandedDocGroups[list.dataset.caseDocs] = [...list.querySelectorAll('details[open]')].map(el => el.dataset.docSection);
   persist();
 });
-document.addEventListener('click',e=>{const b=e.target.closest('[data-action]');if(b?.dataset.action==='edit-margin-note')showNoteEditor(b,b.dataset.value);if(b?.dataset.action==='library-storage')toast('Your reading and annotations are saved in this browser. Export annotations to keep a copy.');if(b?.dataset.action==='delete-note'&&overlays.querySelector('.note-editor')?.dataset.note===b.dataset.value)clearPeek();});
+document.addEventListener('click',e=>{const b=e.target.closest('[data-action]');if(b?.dataset.action==='edit-margin-note')showNoteEditor(b,b.dataset.value);if(b?.dataset.action==='library-storage')toast('Your library syncs privately with your Ninefold account. Offline changes stay on this device until it reconnects. Export annotations to keep a separate copy.');if(b?.dataset.action==='delete-note'&&overlays.querySelector('.note-editor')?.dataset.note===b.dataset.value)clearPeek();});
 document.addEventListener('change',e=>{if(e.target.id==='term-dropdown')chooseTerm(e.target.value);if(e.target.id==='pdf-zoom'){storePositions();state.pdfZoom={...state.pdfZoom,[state.active]:e.target.value};renderPDF(state.active);persist();}});
 
 function justiceTenure(name){const joined=profiles[name]?.facts?.find(f=>/Joined the Court/i.test(f.label))?.value;return joined?String(joined).slice(0,4)+'–Present':''}
