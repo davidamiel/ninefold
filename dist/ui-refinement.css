@@ -106,3 +106,7 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 .reference-context>summary{cursor:pointer;padding:6px 0;font-size:13px;font-weight:600;color:var(--green)}
 .reference-context>summary:focus-visible{outline:2px solid var(--green);outline-offset:3px}
 .reference-context[open]>.reference-content{margin-top:8px}
+
+/* Reserve the PDF scrollbar before measuring page widths, so painting cannot
+   change page heights or move a Contents destination. */
+.pdf-scroll{overflow-y:scroll}
