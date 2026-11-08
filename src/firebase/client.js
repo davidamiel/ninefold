@@ -1,3 +1,4 @@
+import {validateContentPatch} from '../../dist/content-patch.js';
 import {initializeApp} from 'firebase/app';
 import {getAuth,getIdTokenResult,onAuthStateChanged,GoogleAuthProvider,connectAuthEmulator,signInWithPopup,signInWithEmailAndPassword,createUserWithEmailAndPassword,sendPasswordResetEmail,signOut} from 'firebase/auth';
 import {initializeFirestore,persistentLocalCache,persistentMultipleTabManager,collection,onSnapshot,doc,getDocFromServer,getDocsFromServer,setDoc,runTransaction,writeBatch,serverTimestamp,connectFirestoreEmulator,memoryLocalCache} from 'firebase/firestore';
@@ -58,7 +59,7 @@ export function connect(config,notify,options={}){
   const ids=pieces.map((_,i)=>generation+'_'+i);
   try{for(let i=0;i<pieces.length;i+=10){check();const batch=writeBatch(db);for(let j=i;j<Math.min(i+10,pieces.length);j++)batch.set(chunkRef(name,caseId,ids[j]),{text:pieces[j]});await batch.commit();}check();}
   catch(error){await cleanup(name,caseId,ids);throw error;}
-  return {id:caseId,format:'chunked-json-v1',chunks:ids,updatedAt:serverTimestamp()};
+  return {id:caseId,format:'chunked-json-v1',chunks:ids,updatedAt:serverTimestamp(),...(name==='publishedContent'?{contentSchema:2}:{})};
  };
  const sameVersion=(a,b)=>a===null?b===null:!!b&&a.seconds===b.seconds&&a.nanoseconds===b.nanoseconds;
  api.isAdmin=async()=>{
@@ -103,15 +104,18 @@ export function connect(config,notify,options={}){
   await cleanup('contentDrafts',caseId,chunkIds(previous));check();
   const saved=await getDocFromServer(ref),result=await hydrate('contentDrafts',saved.data());check();return result;
  };
- api.publishContent=async(caseId,value,expectedUpdatedAt)=>{
-  const check=await requireAdmin(),ref=contentRef('publishedContent',caseId),json=contentValue(value);
+ api.publishContent=async(caseId,value,expectedUpdatedAt,beforeCommit)=>{
+  const check=await requireAdmin(),ref=contentRef('publishedContent',caseId);
+  try{validateContentPatch(value);if(value.caseId!==caseId)throw Error('Case ID mismatch.');}
+  catch(error){throw contentError('content/invalid-patch',error.message);}
+  const json=contentValue(value);
   if(expectedUpdatedAt===undefined&&!publishedVersions.has(caseId)&&!publishedLoaded)throw contentError('content/not-loaded','Load the current content before publishing.');
   const expected=expectedUpdatedAt===undefined?(publishedVersions.get(caseId)||null):expectedUpdatedAt;
   const manifest=await stage('publishedContent',caseId,json,check);let previous;
   try{await runTransaction(db,async transaction=>{
    const current=await transaction.get(ref);check();previous=current.exists()?current.data():null;
    if(!sameVersion(expected,previous?.updatedAt||null))throw contentError('content/conflict','Published content changed. Reload and review before publishing again.');
-   transaction.set(ref,manifest);
+   if(beforeCommit)await beforeCommit();check();transaction.set(ref,manifest);
   });}catch(error){await cleanup('publishedContent',caseId,manifest.chunks);throw error;}
   publishedVersions.clear();publishedLoaded=false;
   await cleanup('publishedContent',caseId,chunkIds(previous));check();

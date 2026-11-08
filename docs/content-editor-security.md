@@ -6,16 +6,16 @@ Case editing uses Firebase independently of personal notes, saved cases, and rea
 
 A single Firestore document is not large enough for legal-document editing. A local corpus measurement on 2026-11-08 found 9 of 3,181 unpacked document JSON files larger than 740,000 bytes, the largest 1,489,960 bytes. Docket 24-43 alone totals 11,911,945 bytes of unpacked document JSON. These figures cover local unpacked files only, not a collection-wide size certification.
 
-The adapter therefore serializes the **whole case value** into bounded, immutable JSON chunks. Each chunk has at most 65,536 JavaScript code units, with surrogate pairs kept together (at most 262,144 UTF-8 bytes). A case supports up to 64 MiB of UTF-8 JSON and 1,024 chunks, sufficient for multiple long documents. Limits prevent unbounded browser memory/read/write use rather than imposing Firestore's single-document cap on a whole case.
+The adapter therefore serializes the **sparse change value** into bounded, immutable JSON chunks. Each chunk has at most 65,536 JavaScript code units, with surrogate pairs kept together (at most 262,144 UTF-8 bytes). A case supports up to 64 MiB of UTF-8 JSON and 1,024 chunks, sufficient for multiple long documents. Limits prevent unbounded browser memory/read/write use rather than imposing Firestore's single-document cap on a whole case.
 
 - `contentDrafts/{caseId}`: private admin-only current draft manifest.
 - `publishedContent/{caseId}`: publicly readable current published manifest.
 - `contentDraftsChunks/{caseId}/chunks/{chunkId}`: private admin-only chunk records.
 - `publishedContentChunks/{caseId}/chunks/{chunkId}`: staged chunks are admin-only. An individual chunk is publicly readable **only when the current public manifest references its exact ID**. Public chunk-list queries are denied.
 
-Manifest schema is `{id, format: 'chunked-json-v1', chunks: [...ordered chunk IDs], updatedAt}`. Chunk schema is exactly `{text: string}`. Manifest IDs match document IDs and contain 1–200 ASCII letters, numbers, underscores, or hyphens. Rules enforce manifest field/type/list bounds, server timestamps, chunk field/type/size bounds, and administrator authorization. Chunk updates are denied even for administrators; each new save generates a fresh random chunk set. Existing inline `{id,value,updatedAt}` envelopes remain readable and rule-compatible for migration. New adapter saves always use chunk manifests.
+Public manifests additionally require `contentSchema: 2`. Draft manifest schema is `{id, format: 'chunked-json-v1', chunks: [...ordered chunk IDs], updatedAt}`. Chunk schema is exactly `{text: string}`. Manifest IDs match document IDs and contain 1–200 ASCII letters, numbers, underscores, or hyphens. Rules enforce manifest field/type/list bounds, server timestamps, chunk field/type/size bounds, and administrator authorization. Chunk updates are denied even for administrators; each new save generates a fresh random chunk set. Existing inline `{id,value,updatedAt}` envelopes remain readable, but new public writes must use schema-2-gated chunk manifests. The reader does not apply legacy whole-case overlays. New private saves use schema-3 sparse draft envelopes.
 
-The top-level logical value remains a map of at most 500 fields. The browser validates JSON size, split count, and complete hydration. Firestore rules do not recursively validate the parsed JSON or prove that every manifest member exists: only trusted content administrators can submit a manifest, and the adapter waits for every chunk upload to be acknowledged before swapping it. Domain-specific fields and URLs still require editor validation and safe text rendering.
+The top-level logical value remains a map of at most 500 fields. The browser validates JSON size, split count, and complete hydration. Firestore rules do not recursively validate the parsed JSON or prove that every manifest member exists: only trusted content administrators can submit a manifest, and the adapter waits for every chunk upload to be acknowledged before swapping it. The publisher validates the sparse schema before staging. Domain-specific fields and URLs still require safe text rendering; rules cannot inspect JSON inside opaque chunks.
 
 ## Atomic publication and cleanup
 
@@ -35,7 +35,7 @@ The account API remains unchanged:
 - `loadContentDraft(caseId)`: full `{id,value,updatedAt}` envelope or `null`, while recording the current publication conflict baseline.
 - `saveContentDraft(caseId, value)`: saves all chunks plus the private manifest and returns a fully hydrated envelope.
 - `loadPublishedContent()`: publicly reads and hydrates all current publications, returning full envelopes and recording conflict baselines.
-- `publishContent(caseId, value, expectedUpdatedAt?)`: stages chunks and swaps the manifest transactionally; resolves without a return value. The optional baseline is a timestamp or `null` for expected absence; omission uses the recorded baseline.
+- `publishContent(caseId, value, expectedUpdatedAt?, beforeCommit?)`: accepts a validated sparse schema-2 value, stages chunks and swaps the manifest transactionally after the optional fresh-base check; resolves without a return value. The optional baseline is a timestamp or `null` for expected absence; omission uses the recorded baseline.
 
 Missing baseline: `content/not-loaded`. Changed publication: `content/conflict`, without changing the existing publication. Reload and review before retrying; do not automatically adopt a new baseline. After success, reload publications before another publish. Existing owner-only personal-library permissions remain unchanged; an editor gains no access to another user's library.
 
@@ -49,4 +49,4 @@ This implementation assigns no claim, deploys no rule, and performs no remote pu
 
 The actual rule suite requires Firebase CLI, rules-unit-testing, Java, and the emulator runtime. SDK-double tests do not certify server rules. Run the emulator suite before any deployment.
 
-Verification on 2026-11-08: the current rules suite passed 13/13 tests and account/library sync passed 1/1 using official local emulators with project `demo-ninefold`. Both command wrappers exited 0. Tested rules and test-file hashes matched the committed source. This verifies the local emulator runs, not production deployment or real-browser behavior.
+Verification on 2026-11-08: the current rules suite passed 14/14 tests and account/library sync passed 1/1 using official local emulators with project `demo-ninefold`. Both command wrappers exited 0. Tested rules and test-file hashes matched the committed source. This verifies the local emulator runs, not production deployment or real-browser behavior.

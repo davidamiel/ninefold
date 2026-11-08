@@ -12,6 +12,16 @@ service cloud.firestore {
     && request.resource.data.format == 'chunked-json-v1'
     && request.resource.data.chunks is list && request.resource.data.chunks.size() > 0
     && request.resource.data.chunks.size() <= 1024));}
+  // Public writes must opt into the sparse overlay protocol. Legacy snapshots
+  // remain readable, but older clients cannot replace the current publication.
+  function validPublication(caseId){return caseId.size() <= 200 && caseId.matches('[-a-zA-Z0-9_]+')
+   && request.resource.data.keys().hasAll(['id','format','chunks','updatedAt','contentSchema'])
+   && request.resource.data.keys().hasOnly(['id','format','chunks','updatedAt','contentSchema'])
+   && request.resource.data.id == caseId && request.resource.data.updatedAt == request.time
+   && request.resource.data.contentSchema == 2
+   && request.resource.data.format == 'chunked-json-v1'
+   && request.resource.data.chunks is list && request.resource.data.chunks.size() > 0
+   && request.resource.data.chunks.size() <= 1024;}
   function referenced(name,caseId,chunkId){return exists(/databases/$(database)/documents/$(name)/$(caseId))
    && get(/databases/$(database)/documents/$(name)/$(caseId)).data.get('format','') == 'chunked-json-v1'
    && chunkId in get(/databases/$(database)/documents/$(name)/$(caseId)).data.chunks;}
@@ -30,7 +40,7 @@ service cloud.firestore {
   }
   match /publishedContent/{caseId} {
    allow read: if true;
-   allow create, update: if contentAdmin() && validContent(caseId);
+   allow create, update: if contentAdmin() && validPublication(caseId);
   }
   match /contentDraftsChunks/{caseId}/chunks/{chunkId} {
    allow get, list: if contentAdmin();

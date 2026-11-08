@@ -80,7 +80,7 @@ PDF page geometry is resolved before the lazy canvas observer starts. `pdf-layou
 
 ## Authored case content
 
-The case editor introduces a separate authored-content layer over the imported collection. A private administrator draft contains case metadata, the complete active document list, and independent Markdown pages for documents the administrator edits. Publishing replaces that case's public content record. Document removal updates the active collection and reader/search index rather than setting a visibility flag; independently bundled source assets are not remotely purged by this static client.
+The case editor introduces a separate authored-content layer over the imported collection. A private administrator draft contains a sparse patch plus an imported-base fingerprint. Publishing stores only explicitly changed case/document fields, authored pages, additions, and removals. Untouched imported records and source relationships remain live across collection updates. Document removal updates the active collection and reader/search index rather than setting a visibility flag; independently bundled source assets are not remotely purged by this static client.
 
 The reader compiles authored Markdown into plain text, formatting spans, and explicit authority spans. It supports bold, italic, underline, editable page labels, and numbered authorities with short names while retaining the existing reference resolver, hover previews, and margins. Imported reading references also display numbers, with display-to-source maps adjusted so subsequent annotations retain source positions. Authored text has its own anchor identity independent of PDF layout. There is no exposed or stored revision history.
 

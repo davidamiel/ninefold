@@ -16,7 +16,7 @@ test('saved cases and progress are owner-only too',async()=>{const db=env.authen
 test('public content is readable but drafts and writes require an explicit boolean contentAdmin claim',async()=>{
  const admin=env.authenticatedContext('editor',{contentAdmin:true}).firestore();
  const entry={id:'25-352',value:{summary:'Reviewed summary'},updatedAt:serverTimestamp()};
- for(const name of ['contentDrafts','publishedContent'])await assertSucceeds(setDoc(doc(admin,name,'25-352'),entry));
+ for(const name of ['contentDrafts','publishedContent'])await assertSucceeds(setDoc(doc(admin,name,'25-352'),name==='publishedContent'?{id:'25-352',contentSchema:2,format:'chunked-json-v1',chunks:['fixture'],updatedAt:serverTimestamp()}:entry));
  for(const context of [env.unauthenticatedContext(),env.authenticatedContext('reader'),env.authenticatedContext('pretender',{admin:true,contentAdmin:'true'}),env.authenticatedContext('revoked',{contentAdmin:false})]){
   const db=context.firestore();
   await assertSucceeds(getDoc(doc(db,'publishedContent','25-352')));
@@ -49,20 +49,20 @@ test('immutable staged publication chunks become public only while referenced by
  await assertFails(getDoc(chunk(reader,'first')));
  await assertFails(setDoc(chunk(admin,'first'),{text:'Changed'}));
  await assertFails(setDoc(chunk(reader,'malicious'),{text:'Bad'}));
- await assertSucceeds(setDoc(manifest,{id:caseId,format:'chunked-json-v1',chunks:['first'],updatedAt:serverTimestamp()}));
+ await assertSucceeds(setDoc(manifest,{id:caseId,format:'chunked-json-v1',contentSchema:2,chunks:['first'],updatedAt:serverTimestamp()}));
  await assertSucceeds(getDoc(chunk(reader,'first')));
  await assertFails(getDocs(collection(reader,'publishedContentChunks',caseId,'chunks')));
  await assertFails(deleteDoc(chunk(admin,'first')));
  await assertSucceeds(setDoc(chunk(admin,'second'),{text:'{"summary":"Second"}'}));
  await assertFails(getDoc(chunk(reader,'second')));
- await assertSucceeds(setDoc(manifest,{id:caseId,format:'chunked-json-v1',chunks:['second'],updatedAt:serverTimestamp()}));
+ await assertSucceeds(setDoc(manifest,{id:caseId,format:'chunked-json-v1',contentSchema:2,chunks:['second'],updatedAt:serverTimestamp()}));
  await assertFails(getDoc(chunk(reader,'first')));
  await assertSucceeds(getDoc(chunk(reader,'second')));
  await assertSucceeds(deleteDoc(chunk(admin,'first')));
  await assertFails(setDoc(chunk(admin,'oversized'),{text:'x'.repeat(262145)}));
  await assertFails(setDoc(chunk(admin,'extra'),{text:'x',extra:true}));
- await assertFails(setDoc(manifest,{id:caseId,format:'chunked-json-v1',chunks:[],updatedAt:serverTimestamp()}));
- await assertFails(setDoc(manifest,{id:caseId,format:'chunked-json-v1',chunks:Array(1025).fill('second'),updatedAt:serverTimestamp()}));
+ await assertFails(setDoc(manifest,{id:caseId,format:'chunked-json-v1',contentSchema:2,chunks:[],updatedAt:serverTimestamp()}));
+ await assertFails(setDoc(manifest,{id:caseId,format:'chunked-json-v1',contentSchema:2,chunks:Array(1025).fill('second'),updatedAt:serverTimestamp()}));
 });
 test('private draft chunks never become public and only unreferenced chunks can be cleaned up',async()=>{
  const admin=env.authenticatedContext('draft-editor',{contentAdmin:true}).firestore(),reader=env.authenticatedContext('ordinary').firestore();
@@ -81,8 +81,8 @@ test('atomic batches cannot reference a chunk and delete it in the same commit',
  for(const name of ['contentDrafts','publishedContent'])for(const exists of [false,true]){
   const caseId='atomic-'+name+'-'+exists,manifest=doc(admin,name,caseId),chunk=id=>doc(admin,name+'Chunks',caseId,'chunks',id);
   await assertSucceeds(setDoc(chunk('staged'),{text:'Staged content'}));
-  if(exists){await assertSucceeds(setDoc(chunk('current'),{text:'Current content'}));await assertSucceeds(setDoc(manifest,{id:caseId,format:'chunked-json-v1',chunks:['current'],updatedAt:serverTimestamp()}));}
-  const batch=writeBatch(admin);batch.set(manifest,{id:caseId,format:'chunked-json-v1',chunks:['staged'],updatedAt:serverTimestamp()});batch.delete(chunk('staged'));
+  if(exists){await assertSucceeds(setDoc(chunk('current'),{text:'Current content'}));await assertSucceeds(setDoc(manifest,{id:caseId,format:'chunked-json-v1',...(name==='publishedContent'?{contentSchema:2}:{}),chunks:['current'],updatedAt:serverTimestamp()}));}
+  const batch=writeBatch(admin);batch.set(manifest,{id:caseId,format:'chunked-json-v1',...(name==='publishedContent'?{contentSchema:2}:{}),chunks:['staged'],updatedAt:serverTimestamp()});batch.delete(chunk('staged'));
   await assertFails(batch.commit());
   const untouched=await assertSucceeds(getDoc(chunk('staged')));if(!untouched.exists())throw Error('Rejected batch deleted staged content');
   const original=await assertSucceeds(getDoc(manifest));if(original.exists()!==exists||(exists&&original.data().chunks[0]!=='current'))throw Error('Rejected batch changed manifest');
@@ -93,8 +93,8 @@ test('atomic manifest replacement may clean up only chunks absent from the resul
  for(const name of ['contentDrafts','publishedContent']){
   const caseId='replace-'+name,manifest=doc(admin,name,caseId),chunk=id=>doc(admin,name+'Chunks',caseId,'chunks',id);
   for(const id of ['old','next'])await assertSucceeds(setDoc(chunk(id),{text:id}));
-  await assertSucceeds(setDoc(manifest,{id:caseId,format:'chunked-json-v1',chunks:['old'],updatedAt:serverTimestamp()}));
-  const batch=writeBatch(admin);batch.set(manifest,{id:caseId,format:'chunked-json-v1',chunks:['next'],updatedAt:serverTimestamp()});batch.delete(chunk('old'));
+  await assertSucceeds(setDoc(manifest,{id:caseId,format:'chunked-json-v1',...(name==='publishedContent'?{contentSchema:2}:{}),chunks:['old'],updatedAt:serverTimestamp()}));
+  const batch=writeBatch(admin);batch.set(manifest,{id:caseId,format:'chunked-json-v1',...(name==='publishedContent'?{contentSchema:2}:{}),chunks:['next'],updatedAt:serverTimestamp()});batch.delete(chunk('old'));
   await assertSucceeds(batch.commit());
   if((await getDoc(chunk('old'))).exists()||!(await getDoc(chunk('next'))).exists())throw Error('Incorrect atomic cleanup result');
  }
@@ -113,10 +113,36 @@ test('public chunk membership is scoped to its exact case and never authorizes d
  const admin=env.authenticatedContext('scope-editor',{contentAdmin:true}).firestore(),reader=env.unauthenticatedContext().firestore();
  for(const caseId of ['scope-a','scope-b'])await assertSucceeds(setDoc(doc(admin,'publishedContentChunks',caseId,'chunks','shared-id'),{text:caseId}));
  await assertSucceeds(setDoc(doc(admin,'contentDraftsChunks','scope-a','chunks','shared-id'),{text:'Private draft'}));
- await assertSucceeds(setDoc(doc(admin,'publishedContent','scope-a'),{id:'scope-a',format:'chunked-json-v1',chunks:['shared-id'],updatedAt:serverTimestamp()}));
+ await assertSucceeds(setDoc(doc(admin,'publishedContent','scope-a'),{id:'scope-a',format:'chunked-json-v1',contentSchema:2,chunks:['shared-id'],updatedAt:serverTimestamp()}));
  await assertSucceeds(getDoc(doc(reader,'publishedContentChunks','scope-a','chunks','shared-id')));
  await assertFails(getDoc(doc(reader,'publishedContentChunks','scope-b','chunks','shared-id')));
  await assertFails(getDoc(doc(reader,'contentDraftsChunks','scope-a','chunks','shared-id')));
  await assertSucceeds(deleteDoc(doc(admin,'publishedContentChunks','scope-b','chunks','shared-id')));
  await assertFails(deleteDoc(doc(admin,'publishedContentChunks','scope-a','chunks','shared-id')));
+});
+
+test('public writes require sparse content schema 2 while existing legacy publications remain readable',async()=>{
+ const admin=env.authenticatedContext('schema-editor',{contentAdmin:true}).firestore(),reader=env.unauthenticatedContext().firestore();
+ const caseId='schema-gate',ref=doc(admin,'publishedContent',caseId);
+ const legacy={id:caseId,value:{schema:1,caseId,documents:[]},updatedAt:serverTimestamp()};
+ const oldManifest={id:caseId,format:'chunked-json-v1',chunks:['one'],updatedAt:serverTimestamp()};
+ await assertFails(setDoc(ref,legacy));
+ await assertFails(setDoc(ref,oldManifest));
+ for(const contentSchema of [1,3,'2',null])await assertFails(setDoc(ref,{...oldManifest,contentSchema}));
+ const valid={...oldManifest,contentSchema:2};
+ for(const invalid of [{...valid,id:'other'}, {...valid,extra:true}, {...valid,chunks:'one'}, {...valid,format:'unknown'}, {...valid,updatedAt:new Date(0)}, {id:caseId,format:'chunked-json-v1',chunks:['one'],contentSchema:2}])await assertFails(setDoc(ref,invalid));
+ await assertSucceeds(setDoc(ref,valid));
+ await assertFails(setDoc(ref,legacy));await assertFails(setDoc(ref,oldManifest));
+ await assertFails(setDoc(ref,{...legacy,contentSchema:2}));
+ await assertSucceeds(getDoc(doc(reader,'publishedContent',caseId)));
+ await env.withSecurityRulesDisabled(async context=>{
+  const db=context.firestore();
+  await setDoc(doc(db,'publishedContent','legacy-inline'),{...legacy,id:'legacy-inline'});
+  await setDoc(doc(db,'publishedContent','legacy-chunked'),{...oldManifest,id:'legacy-chunked'});
+  await setDoc(doc(db,'publishedContentChunks','legacy-chunked','chunks','one'),{text:'{"schema":1}'});
+ });
+ await assertSucceeds(getDoc(doc(reader,'publishedContent','legacy-inline')));
+ await assertSucceeds(getDoc(doc(reader,'publishedContent','legacy-chunked')));
+ await assertSucceeds(getDoc(doc(reader,'publishedContentChunks','legacy-chunked','chunks','one')));
+ await assertSucceeds(getDocs(collection(reader,'publishedContent')));
 });
