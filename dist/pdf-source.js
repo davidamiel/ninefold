@@ -1,6 +1,16 @@
+// Explicit administrator-provided links may use download endpoints without a .pdf suffix.
+export function normalizePDFURL(value){
+ if(value==null||value==='')return '';
+ if(typeof value!=='string')throw Error('PDF link must be a URL.');
+ const input=value.trim();if(!input)return '';
+ let url;try{url=new URL(input);}catch{throw Error('Enter a complete HTTP or HTTPS PDF URL.');}
+ if(!['http:','https:'].includes(url.protocol)||url.username||url.password)throw Error('Use an HTTP or HTTPS PDF URL without embedded login credentials.');
+ return url.href;
+}
 // Keep the source representation with its URL: a full filing is not a sliced PDF.
 export function pdfSources(doc, lookup = () => null) {
   if (!doc) return [];
+  if(doc.editorPdfUrl){try{return [{url:normalizePDFURL(doc.editorPdfUrl),sliced:false}];}catch{return [];}}
   const parent = lookup(doc.parentDocumentId), filed = lookup(doc.pdfSourceId);
   const candidates = [
     [doc.pdfPath, !!(doc.parentDocumentId && doc.sourceRange)],

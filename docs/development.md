@@ -80,3 +80,7 @@ The favicon and installable app icons use the original folded-page mark in `dist
 Render the SVG sources with Inkscape, then resize with a high-quality resampler if needed. Keep PNG backgrounds opaque. `dist/site.webmanifest` uses relative paths so both the GitHub Pages project path and local previews resolve correctly. Its standalone display mode is presentation only; no service worker or offline document bundle is included.
 
 Check tab icons, iOS Add to Home Screen, and Safari Add to Dock after deployment. Browsers can retain old icons until an existing shortcut is removed and added again.
+
+## Document-quality review
+
+Follow the [document-quality standards](document-quality.md) for source verification, correction evidence, immutable annotation anchors, and repeatable audit commands. The [Jackson source review](jackson-source-review.md) records the bounded PDF review behind the recovered glyph fixes. Passing structural checks is not collection-wide certification.

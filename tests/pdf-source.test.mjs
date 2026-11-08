@@ -177,3 +177,20 @@ test('superseded canvas completion does not begin text or annotation rendering',
  vm.runInContext(source.slice(start,end),context);const pending=vm.runInContext('drawPDFPage(pdf,el,"doc",current)',context);
  await new Promise(r=>setImmediate(r));current=false;resolve();await pending;assert.equal(text,0);
 });
+
+test('explicit PDF URLs support download endpoints and never fall back to an unrelated imported PDF',()=>{
+ assert.deepEqual(pdfSources({editorPdfUrl:'https://court.example/download?id=123',pdfPath:'data/pdfs/old.pdf'}),[{url:'https://court.example/download?id=123',sliced:false}]);
+ assert.deepEqual(pdfSources({editorPdfUrl:'javascript:alert(1)',pdfPath:'data/pdfs/old.pdf'}),[]);
+});
+test('PDF URL validation accepts complete web URLs but rejects unsafe schemes, relative paths and embedded credentials',async()=>{
+ const {normalizePDFURL}=await import('../dist/pdf-source.js');
+ assert.equal(normalizePDFURL('  https://court.example/file.pdf?download=1#page=2  '),'https://court.example/file.pdf?download=1#page=2');
+ assert.equal(normalizePDFURL(''), '');
+ for(const value of ['javascript:alert(1)','data:application/pdf;base64,AAAA','file:///tmp/file.pdf','/relative.pdf','https://name:secret@court.example/file.pdf'])assert.throws(()=>normalizePDFURL(value));
+});
+test('custom PDF endpoint fallback is sandboxed without same-origin privileges',()=>{
+ const result=fallback({title:'Linked filing',textPath:'inline',editorPdfUrl:'https://court.example/download?id=42'},{url:'https://court.example/download?id=42',sliced:false});
+ assert.match(result.innerHTML,/sandbox="allow-scripts allow-downloads"/);
+ assert.doesNotMatch(result.innerHTML,/allow-same-origin|allow-top-navigation/);
+ assert.match(result.innerHTML,/data-open-original/);
+});

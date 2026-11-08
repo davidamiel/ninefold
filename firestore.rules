@@ -1,6 +1,48 @@
 rules_version = '2';
 service cloud.firestore {
  match /databases/{database}/documents {
+  function contentAdmin(){return request.auth != null && request.auth.token.contentAdmin == true;}
+  function validContent(caseId){return caseId.size() <= 200 && caseId.matches('[-a-zA-Z0-9_]+')
+   && request.resource.data.id == caseId && request.resource.data.updatedAt == request.time
+   && ((request.resource.data.keys().hasAll(['id','value','updatedAt'])
+    && request.resource.data.keys().hasOnly(['id','value','updatedAt'])
+    && request.resource.data.value is map && request.resource.data.value.size() <= 500)
+   || (request.resource.data.keys().hasAll(['id','format','chunks','updatedAt'])
+    && request.resource.data.keys().hasOnly(['id','format','chunks','updatedAt'])
+    && request.resource.data.format == 'chunked-json-v1'
+    && request.resource.data.chunks is list && request.resource.data.chunks.size() > 0
+    && request.resource.data.chunks.size() <= 1024));}
+  function referenced(name,caseId,chunkId){return exists(/databases/$(database)/documents/$(name)/$(caseId))
+   && get(/databases/$(database)/documents/$(name)/$(caseId)).data.get('format','') == 'chunked-json-v1'
+   && chunkId in get(/databases/$(database)/documents/$(name)/$(caseId)).data.chunks;}
+  // Deletion must be checked against the atomic batch/transaction result, not
+  // just the previously committed manifest. Reads still use referenced().
+  function referencedAfter(name,caseId,chunkId){return existsAfter(/databases/$(database)/documents/$(name)/$(caseId))
+   && getAfter(/databases/$(database)/documents/$(name)/$(caseId)).data.get('format','') == 'chunked-json-v1'
+   && chunkId in getAfter(/databases/$(database)/documents/$(name)/$(caseId)).data.chunks;}
+  function validChunk(chunkId){return chunkId.size() <= 100 && chunkId.matches('[-a-zA-Z0-9_]+')
+   && request.resource.data.keys().hasAll(['text']) && request.resource.data.keys().hasOnly(['text'])
+   && request.resource.data.text is string && request.resource.data.text.size() > 0
+   && request.resource.data.text.size() <= 262144;}
+  match /contentDrafts/{caseId} {
+   allow read: if contentAdmin();
+   allow create, update: if contentAdmin() && validContent(caseId);
+  }
+  match /publishedContent/{caseId} {
+   allow read: if true;
+   allow create, update: if contentAdmin() && validContent(caseId);
+  }
+  match /contentDraftsChunks/{caseId}/chunks/{chunkId} {
+   allow get, list: if contentAdmin();
+   allow create: if contentAdmin() && validChunk(chunkId);
+   allow delete: if contentAdmin() && !referencedAfter('contentDrafts',caseId,chunkId);
+  }
+  match /publishedContentChunks/{caseId}/chunks/{chunkId} {
+   allow get: if contentAdmin() || referenced('publishedContent',caseId,chunkId);
+   allow list: if contentAdmin();
+   allow create: if contentAdmin() && validChunk(chunkId);
+   allow delete: if contentAdmin() && !referencedAfter('publishedContent',caseId,chunkId);
+  }
   match /users/{uid}/{collection}/{entry} {
    function owner(){return request.auth != null && request.auth.uid == uid;}
    function valid(){return request.resource.data.keys().hasOnly(['id','value','updatedAt'])

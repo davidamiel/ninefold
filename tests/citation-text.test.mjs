@@ -11,7 +11,7 @@ const renderer=source.slice(start,source.indexOf('\nfunction ',start+1));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function render(text,citations,notes=[]) {
   const context=vm.createContext({
-    text,esc,state:{notes},docCache:new Map(),
+    text,esc,state:{notes},docCache:new Map(),ds:()=>({editorContent:true}),
     citationRanges:()=>citations,
     noteMatches:()=>true,
     lowerBound:(_map,offset)=>offset,

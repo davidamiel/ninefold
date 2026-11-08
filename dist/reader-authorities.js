@@ -36,6 +36,10 @@ export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
   add(/\b(\d+)\s+U\.?\s*S\.?\s+(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/g,'case',m=>m[1]+' U.S. '+m[2]);
   add(/\b(\d+)\s+F\s*\.\s*(?:(2d|3d|4th|Supp\.?(?:\s*(?:2d|3d))?)\s+)(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/gi,'case',
     m=>m[1]+' F.'+m[2].replace(/\s+/g,' ')+' '+m[3]);
+  add(/\b(\d+)\s+S\.\s*Ct\.\s*(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/g,'case',m=>m[1]+' S. Ct. '+m[2]);
+  add(/\b(\d+)\s+L\.\s*Ed\.\s*(?:(2d)\s+)?(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/g,'case',m=>m[1]+' L. Ed.'+(m[2]?' '+m[2]:'')+' '+m[3]);
+  add(/\b(\d+)\s+Stat\.\s*(\d+)(?:[–-]\d+)?/g,'statute',m=>m[1]+' Stat. '+m[2]);
+  add(/\b(\d+)\s+C\.\s*F\.\s*R\.\s*(?:§{1,2}\s*)?(\d+(?:\.\d+)?)(?:\([a-zA-Z0-9]+\))*/g,'statute',m=>m[1]+' C.F.R. § '+m[2]);
   if (shortCase) {
     add(/\b(\d+)\s+(U\.?\s*S\.?|F\s*\.\s*(?:2d|3d|4th)),?\s+at\s+\d+(?:[–-]\d+)?/gi,'case',
       m=>shortCase(m[1],m[2],text.slice(Math.max(0,m.index-120),m.index))||m[0].replace(/\s+/g,' '));
