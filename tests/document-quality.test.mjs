@@ -36,7 +36,7 @@ test('collection audit follows indexed aliases without modifying files', async (
     fs.mkdirSync(path.join(root, 'data', 'docs'), {recursive: true});
     const files = {
       'docs/raw.json': {pages: [{text: 'abcdef'}]},
-      'catalog.json': {cases: [{documents: [{id: 'alias', textPath: 'data/docs/raw.json'}]}]},
+      'catalog.json': {cases: [{documents: [{id: 'alias', textPath: 'data/docs/raw.json'}, {id: 'external', category: 'Merits', sourceUrl: 'https://example.org/scan.pdf', extractionStatus: 'Scan only'}]}]},
       'reader-structure.json': {alias: {omitRanges: [{page: 0, start: 1, end: 3}]}},
       'reading-layout.json': {alias: {'0': {paragraphStarts: [3]}}},
     };
@@ -44,6 +44,9 @@ test('collection audit follows indexed aliases without modifying files', async (
     const result = auditCollection(root);
     assert.equal(result.documents, 1);
     assert.equal(result.pages, 1);
+    assert.equal(result.inventory.length, 3);
+    assert.equal(result.inventory.find(d => d.id === 'external').structural, 'not-applicable');
+    assert.equal(result.inventory.find(d => d.id === 'alias').textPath, 'data/docs/raw.json');
     assert.equal(result.errors, 0);
     assert.equal(result.warnings, 0);
     for (const [name, value] of Object.entries(files)) assert.equal(fs.readFileSync(path.join(root, 'data', name), 'utf8'), JSON.stringify(value));
@@ -80,4 +83,25 @@ test('packed deployment audit reads gzip metadata, evidence, documents, and alia
     assert.equal(result.warnings, 0);
     assert(!fs.existsSync(path.join(root, 'data', 'reader-structure.json')), 'audit must not unpack files to disk');
   } finally {fs.rmSync(root, {recursive: true, force: true});}
+});
+
+test('legacy evidence fingerprints bind original wording and source identity', async () => {
+  const fs = await import('node:fs');
+  const os = await import('node:os');
+  const path = await import('node:path');
+  const {auditCollection} = await import('../scripts/audit_document_quality.mjs');
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'ninefold-evidence-'));
+  try {
+    fs.mkdirSync(path.join(root, 'data', 'docs'), {recursive: true});
+    const write = (name, value) => fs.writeFileSync(path.join(root, 'data', name), JSON.stringify(value));
+    write('reader-structure.json', {raw: {repairs: [{page:0,start:0,end:4,text:'office'}]}});
+    write('reading-layout.json', {});
+    write('docs/raw.json', {pages:['ofce'],sourceUrl:'https://example.org/a.pdf'});
+    const fingerprint = () => auditCollection(root).inventory.find(d=>d.id==='raw').repairEvidenceGaps[0].fingerprint;
+    const original = fingerprint();
+    write('docs/raw.json', {pages:['xxxx'],sourceUrl:'https://example.org/a.pdf'});
+    assert.notEqual(fingerprint(), original);
+    write('docs/raw.json', {pages:['ofce'],sourceUrl:'https://example.org/b.pdf'});
+    assert.notEqual(fingerprint(), original);
+  } finally {fs.rmSync(root, {recursive:true,force:true});}
 });

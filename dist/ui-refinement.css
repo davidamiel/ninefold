@@ -110,3 +110,24 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 /* Reserve the PDF scrollbar before measuring page widths, so painting cannot
    change page heights or move a Contents destination. */
 .pdf-scroll{overflow-y:scroll}
+
+/* Size filing columns to their actual panel, not the browser viewport. */
+.case-page .material-scroll{container-type:inline-size}
+.case-page .document-shelf{grid-template-columns:minmax(0,1fr);align-items:stretch;gap:10px}
+.case-page .document-shelf .docrow{min-width:0;display:flex;flex-direction:column}
+.case-page .document-shelf .doc-main{flex:1;justify-content:space-between;gap:8px;padding:12px 14px}
+.case-page .document-shelf .doc-main .meta{margin-top:auto}
+.case-page .document-shelf .with-profile .doc-main .meta{padding-right:0}
+.case-page .document-shelf .amicus-profile{position:static;align-self:flex-start;margin:0 14px 12px;padding:3px 0}
+@container (min-width:600px){
+ .case-page .document-shelf{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .case-page .document-shelf>.docrow{grid-column:span 2}
+ .case-page .document-shelf>.docrow:last-child:nth-child(odd){grid-column:2 / span 2}
+ .case-page .document-shelf>.docrow:only-child{grid-column:1 / -1}
+}
+@media(max-width:860px){
+ .case-page .case-canvas>.case-summary-scroll,.case-page .case-canvas>.case-workbench{display:none}
+ .case-page .case-canvas>section{width:100%;min-width:0;margin:0}
+ .case-page .case-canvas>.outcome-card,.case-page .case-canvas>.question-card,.case-page .case-canvas>.connections-card{padding:var(--case-pad)}
+ .case-page .material-scroll{max-height:none;overflow:visible}
+}

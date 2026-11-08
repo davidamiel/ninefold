@@ -1,0 +1,24 @@
+name: Document quality
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --test tests/document-quality.test.mjs tests/document-reviews.test.mjs
+      - name: Inventory, structural audit, and review ledger
+        run: node scripts/check_document_reviews.mjs > document-review-dist.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: document-review-report
+          path: document-review-dist.json

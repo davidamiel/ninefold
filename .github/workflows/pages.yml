@@ -20,9 +20,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: npm ci --omit=dev
+      - run: npm ci
       - run: npm test
+      - name: Audit source documents and review ledger
+        run: npm run --silent audit:documents > document-review-dist.json
       - run: npm run build
+      - name: Audit packaged documents and review ledger
+        run: node scripts/check_document_reviews.mjs out > document-review-out.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: document-review-reports
+          path: document-review-*.json
       - run: python scripts/check_term_reader.py out
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

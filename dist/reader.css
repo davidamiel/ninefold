@@ -28,3 +28,22 @@
 @media(max-width:760px){.workspace-dock{padding:6px 8px;min-height:54px}.workspace-task{min-width:175px;max-width:250px}.workspace-resume strong,.workspace-resume small{max-width:175px}}
 
 .speaker-avatar.illustrated-speaker,.audio-speaker-portrait.illustrated-speaker{background:transparent;border-radius:0;overflow:visible}.speaker-avatar.illustrated-speaker{width:43px;height:48px}.illustrated-speaker img{width:100%;height:100%;object-fit:contain;object-position:center bottom;border-radius:0}.speaker-turn.speaking .speaker-avatar.illustrated-speaker{box-shadow:none;filter:drop-shadow(0 0 3px var(--nf-muted))}.audio-speaker-portrait.illustrated-speaker{width:38px;height:42px}@media(max-width:760px){.speaker-avatar.illustrated-speaker{width:29px;height:34px}.audio-speaker-portrait.illustrated-speaker{width:29px;height:33px}}
+
+/* Margin controls stay centered on their source line. Crowded lines use one picker. */
+.document-margin{width:40px;right:9px}
+.document-margin .margin-item{width:40px;transform:translateY(-50%)}
+.document-margin .margin-item button{display:flex;align-items:center;justify-content:center;gap:3px;width:40px;height:24px;padding:3px 2px;background:transparent;border-radius:4px}
+.document-margin .margin-item button:hover,.document-margin .margin-item button:focus-visible{background:var(--nf-sheet)}
+.document-margin .margin-item svg{width:14px;height:14px;flex:none}
+.document-margin .margin-item small{font:9px/1 "Source Sans 3",system-ui;font-variant-numeric:tabular-nums}
+.document-margin .margin-label{display:none}
+.margin-reference-list{display:flex;flex-direction:column;gap:3px}
+.margin-reference-list button{display:flex;align-items:flex-start;gap:7px;width:100%;height:auto;padding:8px;text-align:left;font:12px/1.4 "Source Sans 3",system-ui}
+.margin-reference-list svg{width:15px;height:15px;flex:none}
+.margin-reference-list small{font:10px/1.6 "Source Sans 3",system-ui}
+.margin-reference-list .margin-label{white-space:normal;overflow-wrap:anywhere}
+
+.document-body.show-margin-notes{padding-right:88px}
+.document-margin,.document-margin .margin-item{width:66px}
+.document-margin .margin-item button{width:66px;justify-content:flex-start}
+.document-margin .margin-item small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}

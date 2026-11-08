@@ -2,6 +2,7 @@
 // exactly like the reader's saved annotation anchors. No text is rewritten.
 import fs from 'node:fs';
 import path from 'node:path';
+import {createHash} from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import {fileURLToPath} from 'node:url';
 
@@ -60,9 +61,10 @@ export function auditCollection(root) {
   const structures = read('reader-structure.json'), layouts = read('reading-layout.json');
   const evidencePath = resolveJSON(path.join(dataRoot, 'document-correction-evidence.json'));
   const evidence = fs.existsSync(evidencePath) ? readJSON(evidencePath) : {};
-  const documents = new Map(), byPath = new Map(), aliases = new Map(), issues = [];
+  const documents = new Map(), byPath = new Map(), aliases = new Map(), indexed = new Map(), issues = [];
   function collectAliases(value) {
     if (!value || typeof value !== 'object') return;
+    if (value.id && (value.textPath || (value.sourceUrl && (value.category || value.extractionStatus)))) indexed.set(value.id, value);
     if (value.id && value.textPath) aliases.set(value.id, value.textPath.replace(/^\.\//, '').replace(/\.json\.gz$/, '.json'));
     for (const child of Object.values(value)) if (child && typeof child === 'object') collectAliases(child);
   }
@@ -96,7 +98,29 @@ export function auditCollection(root) {
       if (!documents.has(id)) issues.push({severity: 'warning', code: 'metadata-without-document-file', document: id, location: kind});
     }
   }
-  return {scope: 'All JSON or gzip-packed JSON files with a pages array under data; metadata joins use filename IDs and indexed textPath aliases.',
+  const inventory = [...new Set([...documents.keys(), ...indexed.keys()])].sort().map(id => {
+    const data = documents.get(id), record = indexed.get(id) || {};
+    const textPath = aliases.get(id) || [...byPath].find(([, value]) => value === data)?.[0] || null;
+    const findings = issues.filter(i => i.document === id);
+    return {id, textPath, sourceUrl: record.sourceUrl || data?.sourceUrl || null,
+      title: record.title || data?.title || null, extractionStatus: record.extractionStatus || null,
+      pages: data?.pages.length ?? null,
+      reviewHash: createHash('sha256').update(JSON.stringify({data: data || null, record,
+        structure: structures[id] || {}, layout: layouts[id] || {}})).digest('hex'),
+      structural: data ? (findings.some(i => i.severity === 'error') ? 'failed' : 'passed') : 'not-applicable',
+      issues: findings,
+      repairEvidenceGaps: findings.filter(i => i.code === 'repair-without-evidence').map(i => ({
+        location: i.location,
+        fingerprint: (() => {
+          const repair = structures[id].repairs[Number(i.location.match(/\d+/)[0])];
+          const page = data.pages[repair.page];
+          const raw = typeof page === 'string' ? page : page?.text;
+          return createHash('sha256').update(JSON.stringify({id, textPath, sourceUrl: record.sourceUrl || data?.sourceUrl || null,
+            repair, original: raw?.slice(repair.start, repair.end)})).digest('hex');
+        })()
+      }))};
+  });
+  return {inventory, scope: 'All JSON or gzip-packed JSON files with a pages array under data; metadata joins use filename IDs and indexed textPath aliases.',
     limitations: ['Structural checks do not verify every word, citation target, PDF layout, OCR, or document completeness.', 'Missing correction evidence is reported, not treated as proof that a correction is wrong.', 'PDFs and external URLs are not fetched or visually certified by this audit.'],
     documents: fileCount, metadataDocumentIds: documents.size, pages: [...byPath.values()].reduce((n, d) => n + d.pages.length, 0), repairs,
     errors: issues.filter(i => i.severity === 'error').length,

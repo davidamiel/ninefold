@@ -36,6 +36,8 @@ export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
   add(/\b(\d+)\s+U\.?\s*S\.?\s+(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/g,'case',m=>m[1]+' U.S. '+m[2]);
   add(/\b(\d+)\s+F\s*\.\s*(?:(2d|3d|4th|Supp\.?(?:\s*(?:2d|3d))?)\s+)(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/gi,'case',
     m=>m[1]+' F.'+m[2].replace(/\s+/g,' ')+' '+m[3]);
+  // Recognition alone does not claim an authoritative local target exists.
+  add(/\b(\d+)\s+F\.\s*App['’]x\s+(\d+)(?![\dA-Za-z])(?:,\s*\d+(?:[–-]\d+)?(?!\d|\s+(?:F\.|U\.?\s*S\.?|S\.\s*Ct\.|L\.\s*Ed\.)))?/g,'case',m=>m[1]+" F. App'x "+m[2]);
   add(/\b(\d+)\s+S\.\s*Ct\.\s*(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/g,'case',m=>m[1]+' S. Ct. '+m[2]);
   add(/\b(\d+)\s+L\.\s*Ed\.\s*(?:(2d)\s+)?(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/g,'case',m=>m[1]+' L. Ed.'+(m[2]?' '+m[2]:'')+' '+m[3]);
   add(/\b(\d+)\s+Stat\.\s*(\d+)(?:[–-]\d+)?/g,'statute',m=>m[1]+' Stat. '+m[2]);
