@@ -18,7 +18,7 @@ function guardReaderEditingEvent(event){
 for(const type of ['click','pointerdown','input','change','keydown'])document.addEventListener(type,guardReaderEditingEvent,true);
 import {openCaseEditor} from './case-editor.js';
 import {compileDocument,validateContent,escapeMarkdown} from './content-model.js';
-import {sentenceAtTime} from './transcript-timing.js';
+import {sentenceAtTime,timeAtSentenceOffset} from './transcript-timing.js';
 import {briefContents} from './reader-contents.js';
 import {pdfSources,nativePDFURL,pdfPageRange,normalizePDFURL} from './pdf-source.js';
 import {preparePDFLayout} from './pdf-layout.js';
@@ -1413,7 +1413,7 @@ document.addEventListener('click',async e=>{
  if(a==='reference-location'){const r=refsIndex.get(v)||state.refs.find(r=>r.key===v);if(r){jumpHeading(r.fromDoc,r.page??Number(r.key.split('|')[2]),r.offset??0)}}
  if(a==='retry-pdf')renderPDF(v);
  if(a==='focus-pane')focusReaderPane(v);
- const turn=e.target.closest('.speaker-turn');if(turn&&!b&&!e.target.closest('[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed){const id=turn.closest('[data-document]').dataset.document,d=ds(id);if(d.timedSession)await listen(d.caseId,d.timedSession.id,Number(e.target.closest('[data-seek-start]')?.dataset.seekStart??turn.dataset.start))}
+ const turn=e.target.closest('.speaker-turn');if(turn&&!b&&!e.target.closest('[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed){const id=turn.closest('[data-document]').dataset.document,d=ds(id);if(d.timedSession){const source=transcriptClickOffset(e,turn,id),record=d.timedSession.turns[Number(turn.dataset.turn)],start=source===null?null:timeAtSentenceOffset(record,source);await listen(d.caseId,d.timedSession.id,start??Number(e.target.closest('[data-seek-start]')?.dataset.seekStart??turn.dataset.start))}}
 });
 document.addEventListener('input',e=>{if(e.target.matches('.playback-volume'))audio.volume=Number(e.target.value);if(e.target.matches('.playback-seek')){const media=narration?narrationAudio:audio;media.currentTime=Number(e.target.value)}});
 function updateSeek(){const media=narration?narrationAudio:audio;const slider=document.querySelector('.playback-seek');if(slider&&document.activeElement!==slider){slider.max=Number.isFinite(media.duration)?media.duration:0;slider.value=media.currentTime}const label=document.querySelector('.playback-time');if(label)label.textContent=time(narration?narrationElapsed():audio.currentTime);const seekLabel=document.querySelector('.seek-close');if(seekLabel)seekLabel.textContent=time(media.currentTime)}
@@ -1445,7 +1445,18 @@ function untimedTranscriptHTML(id,data){
  return `<article class="document-body conversation untimed-conversation" data-document="${esc(id)}"><header class="conversation-header"><div><h2>Oral Argument</h2><p>${date(c.argued)}</p><small>Synchronized timing is not yet available.</small></div>${c.audio?.url?button(icon('play')+'Listen','listen',c.id,'outline'):''}</header>${turns.map(t=>`<section class="speaker-turn ${t.justice?'justice-turn':'advocate-turn'}"><div class="speaker-avatar">${portrait(t.speaker,'transcript-face')}</div><div class="speaker-message"><header><strong>${esc(t.speaker)}</strong></header>${t.parts.map(p=>`<span class="source-page" data-page="${p.page}"><span class="page-text" data-text-doc="${esc(id)}" data-page="${p.page}" data-map-key="${esc(p.key)}">${renderText(p.text,id,p.page,p.map)}</span></span>`).join(' ')}</div></section>`).join('')}<footer class="transcript-credit">Official Court transcript · Speaker formatting preserves the filed text.</footer><aside class="document-margin"></aside></article>`;
 }
 
-function timedParagraphs(text,map,turn,id,page){let offset=0,cursor=0;const displayMap=[],blocks=(turn.blocks||[]).map(b=>{const at=turn.text.indexOf(b.text,cursor);if(at>=0)cursor=at+b.text.length;return {...b,at}});const html=text.split('\n\n').map((part,index)=>{if(index)displayMap.push(...map.slice(offset-2,offset));const source=map[offset]??0,block=blocks.find(b=>b.at>=0&&source>=b.at&&source<b.at+b.text.length),word=turn.words?.find(w=>w[0]>=source),start=word?word[1]:Number.isFinite(block?.start)?block.start:turn.start;const partMap=map.slice(offset,offset+part.length);displayMaps.set(id+':'+page,partMap);const rendered=renderText(part,id,page,partMap);displayMap.push(...displayMaps.get(id+':'+page));offset+=part.length+2;return `<span class="transcript-paragraph" data-seek-start="${start}">${rendered}</span>`}).join('\n\n');displayMaps.set(id+':'+page,displayMap);return html}
+// Native hit-testing keeps source offsets independent of wrapping and inline markup.
+function transcriptClickOffset(event, turn, id) {
+ const text=event.target.closest('.page-text');if(!text||!turn.contains(text))return null;
+ let node,offset;
+ if(document.caretPositionFromPoint){const caret=document.caretPositionFromPoint(event.clientX,event.clientY);node=caret?.offsetNode;offset=caret?.offset;}
+ else if(document.caretRangeFromPoint){const caret=document.caretRangeFromPoint(event.clientX,event.clientY);node=caret?.startContainer;offset=caret?.startOffset;}
+ if(!node||!text.contains(node))return null;
+ const range=document.createRange();range.selectNodeContents(text);try{range.setEnd(node,offset);}catch{return null;}
+ const map=displayMaps.get(text.dataset.mapKey||id+':'+text.dataset.page);if(!map?.length)return null;
+ return map[Math.min(range.toString().length,map.length-1)]??null;
+}
+function timedParagraphs(text,map,turn,id,page){let offset=0;const displayMap=[];const html=text.split('\n\n').map((part,index)=>{if(index)displayMap.push(...map.slice(offset-2,offset));const source=map[offset]??0,start=timeAtSentenceOffset(turn,source)??turn.start;const partMap=map.slice(offset,offset+part.length);displayMaps.set(id+':'+page,partMap);const rendered=renderText(part,id,page,partMap);displayMap.push(...displayMaps.get(id+':'+page));offset+=part.length+2;return `<span class="transcript-paragraph" data-seek-start="${start}">${rendered}</span>`}).join('\n\n');displayMaps.set(id+':'+page,displayMap);return html}
 
 // Filed PDFs opened anywhere in the application remain in the reading workspace.
 document.addEventListener('click',e=>{const link=e.target.closest('a[href]');if(!link||link.hasAttribute('data-open-original')||!(/\.pdf(?:$|[?#])/i.test(link.href)))return;const source=[...docs.values()].find(d=>[d.sourceUrl,d.sourceMirrorUrl,d.pdfPath].some(u=>u&&new URL(u,location.href).href===link.href));if(!source)return;e.preventDefault();e.stopImmediatePropagation();const id=canonicalDocId(source.id);openDoc(id);state.pdfDocs=[...new Set([...(state.pdfDocs||[]),id])];render()},true);

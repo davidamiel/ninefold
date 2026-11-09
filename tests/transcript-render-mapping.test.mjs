@@ -2,12 +2,13 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
+import {timeAtSentenceOffset} from '../dist/transcript-timing.js';
 
 const source=fs.readFileSync('dist/app.js','utf8');
 const declaration=source.split('\n').find(line=>line.startsWith('function timedParagraphs('));
 function render(text, renderer, editor=false){
  const displayMaps=new Map(), input=Array.from({length:text.length},(_,i)=>i);
- const context=vm.createContext({displayMaps,renderText:(part,id,page,map)=>{
+ const context=vm.createContext({displayMaps,timeAtSentenceOffset,renderText:(part,id,page,map)=>{
    const result=renderer(part,map);
    if(!editor)displayMaps.set(id+':'+page,result.map);
    return result.text;
@@ -84,4 +85,27 @@ test('a timing session without a recording URL also leaves other playback untouc
  await context.listen('b');
  assert.equal(context.audio.playCalls,0);
  assert.equal(context.audio.src,'a.mp3');
+});
+
+test('rendered later paragraphs carry distinct estimated seek times',()=>{
+ const text='First sentence.\n\nSecond sentence.\n\nThird sentence.',displayMaps=new Map();
+ const context=vm.createContext({displayMaps,timeAtSentenceOffset,renderText:(s,id,page,map)=>{displayMaps.set(id+':'+page,map);return s;}});
+ vm.runInContext(declaration,context);
+ const turn={text,start:5,end:100,blocks:[{text,start:5,end:100}]};
+ const html=context.timedParagraphs(text,Array.from({length:text.length},(_,i)=>i),turn,'transcript',0);
+ const times=Array.from(html.matchAll(/data-seek-start="([^"]+)"/g),m=>Number(m[1]));
+ assert.equal(times.length,3);assert(times[0]<times[1]&&times[1]<times[2]);
+});
+test('transcript hit testing maps nested rendered text through source offsets',()=>{
+ const code=source.slice(source.indexOf('function transcriptClickOffset('),source.indexOf('function timedParagraphs('));
+ const node={},text={dataset:{page:'2'},contains:n=>n===node},turn={contains:n=>n===text};
+ const event={target:{closest:()=>text},clientX:20,clientY:30};
+ const context=vm.createContext({displayMaps:new Map([['doc:2',[10,11,20,21]]]),document:{caretPositionFromPoint:()=>({offsetNode:node,offset:1}),createRange:()=>({selectNodeContents(){},setEnd(){},toString:()=>'ab'})}});
+ vm.runInContext(code,context);assert.equal(context.transcriptClickOffset(event,turn,'doc'),20);
+ context.document.caretPositionFromPoint=()=>({offsetNode:{},offset:0});assert.equal(context.transcriptClickOffset(event,turn,'doc'),null);
+ delete context.document.caretPositionFromPoint;context.document.caretRangeFromPoint=()=>({startContainer:node,startOffset:1});assert.equal(context.transcriptClickOffset(event,turn,'doc'),20);
+});
+test('transcript click seeking retains selection and interactive-anchor guards',()=>{
+ assert.match(source,/turn&&!b&&!e\.target\.closest\('\[data-ref-key\],\[data-annotation\]'\)&&window\.getSelection\(\)\?\.isCollapsed/);
+ assert.match(source,/start=source===null\?null:timeAtSentenceOffset\(record,source\)/);
 });
