@@ -14,4 +14,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - run: node --test tests/reader-narration.test.mjs
+      - run: node --test tests/reader-narration.test.mjs tests/narration-worker.test.mjs tests/narration-voice.test.mjs tests/transcript-timing.test.mjs tests/transcript-render-mapping.test.mjs
