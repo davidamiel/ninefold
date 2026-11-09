@@ -13,7 +13,7 @@ function fixture(){
  const esc=x=>String(x??'').replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
  const state={marginNotes:true,notes:[{id:'note',comment:'Important',docId:'doc'},{id:'pageNote',comment:'Page note',page:1,docId:'doc'}]};let positioned=0,menu;
  const ctx=vm.createContext({document,state,refsIndex:new Map([['a',{number:37}],['b',{number:38}],['c',{number:39}]]),icon:n=>`<svg data-icon="${n}"></svg>`,esc,button:(label,a,v,cls,extra)=>`<button data-action="${a}" data-value="${v}" class="${cls}" ${extra}>${label}</button>`,noteMatches:()=>true,positionSelection(){positioned++},mountMenu(trigger,html){menu={trigger,html}},setTimeout,clearTimeout});
- vm.runInContext(implementation,ctx);return {document,state,run:()=>vm.runInContext('layoutMargins()',ctx),shift:n=>shift=n,positioned:()=>positioned,menu:()=>menu};
+ vm.runInContext(implementation,ctx);return {document,state,refs:ctx.refsIndex,run:()=>vm.runInContext('layoutMargins()',ctx),shift:n=>shift=n,positioned:()=>positioned,menu:()=>menu};
 }
 test('same-line references retain icons and numbers without moving following lines',()=>{
  const f=fixture();f.run();const items=[...f.document.querySelectorAll('.margin-item')];assert.equal(items.length,4);assert.deepEqual(items.map(x=>x.style.top),['90px','120px','150px','190px']);
@@ -25,4 +25,10 @@ test('reflow recomputes first-line centers, clears old markers, and accepts empt
 });
 test('margin CSS centers controls and offers readable grouped references',()=>{
  const css=fs.readFileSync('dist/reader.css','utf8');assert.match(css,/transform:translateY\(-50%\)/);assert.match(css,/margin-reference-list \.margin-label\{white-space:normal/);assert.doesNotMatch(implementation,/bottom\+24/);
+});
+
+test('draft reference numbers appear immediately without publishing reference metadata',()=>{
+ const f=fixture(),citation=f.document.querySelector('[data-ref-key="c"]');f.refs.delete('c');citation.dataset.refNumber='39';f.run();assert.equal(f.document.querySelector('.margin-reference[data-ref-key="c"] small').textContent,'39');assert.equal(f.refs.has('c'),false);
+ const content=f.document.createElement('div');content.className='reader-edit-content';f.document.querySelector('article').append(content);content.append(citation);f.run();assert.equal(f.document.querySelector('.margin-reference[data-ref-key="c"] small').textContent,'39');assert.equal(f.refs.has('c'),false);
+ citation.remove();f.run();assert.equal(f.document.querySelector('.margin-reference[data-ref-key="c"]'),null);
 });
