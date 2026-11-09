@@ -1,0 +1,9 @@
+# NRSC bounded reading-layout correction
+
+November 9, 2026. Source identity and SHA-256 values are recorded in `dist/data/nrsc-filing-provenance.json`; raw page text remains unchanged.
+
+Compared rendered official motion PDF pages 2, 4, 11, 14, 15, 17, 19 and 23 and reply PDF page 3. Page 11 shows INTRODUCTION, ARGUMENT and the separate bold heading “I. There Is No Threat Of Enforcement”. “A. The FEC concedes…” is body text, and “NRCC.” ends that paragraph, not a heading. Pages 14, 15, 17 and 19 establish the remaining section headings. Signature blocks on motion pages 4 and 23 and reply page 3 are single-column counsel lists, not section headings.
+
+Curated exact-text-bounded ranges replace heuristic heading classification for these two documents only. Three verified paragraph starts on motion page 11 keep its body paragraphs distinct. Signature blocks retain literal source whitespace through the existing counsel rendering path. Covers and tables are excluded from continuous reading, while attachment/addendum dividers and all substantive pages remain. The original PDF and raw text retain every page and character. No citations, source words, source offsets or legal conclusions were changed. This is a bounded layout correction, not a claim of complete source/citation review or full typographic reproduction. Existing partial review status remains unchanged.
+
+Validation: 191 unit tests pass, including real NRSC heading/counsel rendering, monotone source maps, editor capture/reload, stale heading guards and legacy fallback preservation. The editor suite, production build/package, strict structural audit (zero errors/warnings), review-ledger gate, polish checks and packaged term-reader checks pass. An independent reviewer checked PDF identities and heading/signature pages, reran 10 focused tests, and found no blockers. Live browser verification of this fix remains pending publication.
