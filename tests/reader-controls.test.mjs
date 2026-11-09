@@ -44,3 +44,7 @@ test('Beaird preserves source layout and original links bypass internal intercep
  assert.match(html,/data-open-original/);assert.match(html,/target="_blank" rel="noopener noreferrer"/);
  const paths=JSON.parse(fs.readFileSync('dist/data/pdf-paths.json','utf8'));assert(fs.existsSync('dist/'+paths['25-5343-97e702fdb59d']));assert(!paths['25-5343-97e702fdb59d--lower-8-14']);
 });
+test('PDF-only availability does not claim unverified filings are scans',()=>{
+ assert.match(source,/Reading view unavailable for this filing/);
+ assert(!source.includes('Reading view unavailable for this scanned filing'));
+});
