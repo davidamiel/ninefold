@@ -46,3 +46,16 @@ test('legacy heading breaks remain unchanged and stale pinned headings fail clos
  const stale=structures[ids[0]].headings.map(h=>({...h,expectedText:'stale'}));
  assert.doesNotMatch(display(ids[0],10,{headings:stale}).html,/role="heading"/);
 });
+test('single-column NRSC counsel collapses mobile indentation without changing source text or column grids',()=>{
+ const css=fs.readFileSync('dist/reader-refinement.css','utf8');
+ assert.match(css,/@media\(max-width:600px\)\{\.document-body \.counsel-block:not\(:has\(\.counsel-cell\)\)\{white-space:pre-line;overflow-wrap:anywhere;overflow-x:visible;/);
+ let count=0;
+ for(const [id,s] of Object.entries(structures))for(const b of s.counselBlocks||[]){
+  if(b.columnBreaks)continue;count++;assert(ids.includes(id));
+  const root=new JSDOM('<body>'+display(id,b.page).html).window.document.body;
+  const block=root.querySelector('.counsel-block:not(:has(.counsel-cell))');assert(block);
+  assert.equal(block.textContent,b.expectedText);assert.equal(block.querySelectorAll('[role=heading]').length,0);
+  for(const line of b.expectedText.split('\n'))assert(line.trim().length<=25);
+ }
+ assert.equal(count,3);
+});

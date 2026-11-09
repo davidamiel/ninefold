@@ -145,3 +145,5 @@
 .document-body .counsel-right.counsel-row-63{grid-row:128}
 }
 @media(max-width:600px){.document-body .counsel-full{grid-row:130;grid-column:1}}
+/* Single-column signatures retain source line breaks, but not page-position indentation on phones. */
+@media(max-width:600px){.document-body .counsel-block:not(:has(.counsel-cell)){white-space:pre-line;overflow-wrap:anywhere;overflow-x:visible;font:14px/1.55 "Source Sans 3",system-ui,sans-serif;}}
