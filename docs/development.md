@@ -108,3 +108,11 @@ American male voice.
 Generated natural audio is currently retained only for the active narration
 session, not persistently stored. Persistent audio caching or pre-generated
 collection audio would require a separate size-limited, versioned storage design.
+
+The current foreground natural voice wait has a 90-second preparation deadline;
+background lookahead has none. A newer seek supersedes the previous deadline. If model loading,
+queueing, or inference exceeds that deadline, the worker is terminated and pending
+requests are cleared so a retry starts cleanly. The reader suggests Device voice.
+This is recovery from excessive waiting, not a guarantee of real-time synthesis.
+The worker yields between chunks so cancellation and seek-priority messages can
+be handled before another lookahead clip starts.

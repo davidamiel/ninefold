@@ -1143,10 +1143,26 @@ function playDeviceNarration(n,index){
  refreshPlayback();
 }
 function getVoiceWorker(){if(voiceWorker)return voiceWorker;const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;worker.onmessage=({data})=>{if(voiceWorker!==worker)return;if(data.type==='progress'){if(narration?.loading){const n=overlays.querySelector('.voice-progress')||document.querySelector('.voice-progress');if(n)n.textContent=data.progress.status==='progress'&&data.progress.total>10000000?'Preparing Voice '+Math.round(data.progress.progress)+'%':'Preparing Voice…'}return}const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);data.type==='audio'?p.resolve(data):p.reject(new Error(data.message))};worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};return worker}
+function waitForVoice(n,promise){
+ const request=n.playRequest;let timeout,settled=false;
+ const deadline=new Promise((resolve,reject)=>{
+  timeout=setTimeout(()=>{
+   // Speculative synthesis has no deadline. Only the current foreground wait
+   // can reset a stuck worker; a previous seek must not abort a newer request.
+   if(settled||n!==narration||n.playRequest!==request||!n.loading)return;
+   const error=new Error('Natural voice preparation timed out');error.code='VOICE_TIMEOUT';
+   voiceWorker?.terminate();voiceWorker=null;
+   for(const pending of voicePending.values())pending.reject(error);
+   voicePending.clear();reject(error);
+  },90000);
+  timeout?.unref?.();
+ });
+ return Promise.race([promise,deadline]).finally(()=>{settled=true;clearTimeout(timeout)});
+}
 function generateChunk(n,index,priority=false){
  if(!n.chunks[index])return Promise.resolve(null);
  if(n.cache.has(index))return Promise.resolve(n.cache.get(index));
- if(n.pending.has(index)){if(priority)getVoiceWorker().postMessage({type:'prioritize',session:n.token,index});return n.pending.get(index);}
+ if(n.pending.has(index)){if(priority)getVoiceWorker().postMessage({type:'prioritize',session:n.token,index});return priority?waitForVoice(n,n.pending.get(index)):n.pending.get(index);}
  const id=++voiceRequest;
  const promise=new Promise((resolve,reject)=>{
   voicePending.set(id,{resolve,reject});
@@ -1157,7 +1173,7 @@ function generateChunk(n,index,priority=false){
   const value={url:URL.createObjectURL(new Blob([data.wav],{type:'audio/wav'})),duration:data.duration};
   n.cache.set(index,value);return value;
  }).finally(()=>n.pending.delete(index));
- n.pending.set(index,promise);return promise;
+ n.pending.set(index,promise);return priority?waitForVoice(n,promise):promise;
 }
 async function playNarrationChunk(n,index,offset=0){
  if(n!==narration)return;
@@ -1191,7 +1207,7 @@ async function playNarrationChunk(n,index,offset=0){
 
   refreshPlayback();
 
- }catch(e){if(current()){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
+ }catch(e){if(current()){stopNarration();toast(e.code==='VOICE_TIMEOUT'?'Natural voice took too long to prepare. Choose Device voice in Listen for a faster start, or retry.':'The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
 }
 async function startNarration(anchor=null,{paused=false}={}){
  const id=anchor?.docId||state.active;

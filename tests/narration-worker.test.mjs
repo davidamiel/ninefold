@@ -7,7 +7,7 @@ const tick=async()=>{for(let i=0;i<20;i++)await Promise.resolve()};
 function harness(){
  const calls=[],messages=[],pending=[];
  const engine={generate(text,options){calls.push({text,...options});return new Promise((resolve,reject)=>pending.push({resolve,reject}))}};
- const context=vm.createContext({self:{postMessage:message=>messages.push(message)},KokoroTTS:{from_pretrained:async()=>engine}});
+ const context=vm.createContext({setTimeout:fn=>queueMicrotask(fn),self:{postMessage:message=>messages.push(message)},KokoroTTS:{from_pretrained:async()=>engine}});
  vm.runInContext(source,context);
  const send=data=>context.self.onmessage({data});
  const request=(index,extra={})=>send({id:index,index,session:1,text:String(index),voice:'am_michael',...extra});
@@ -63,4 +63,32 @@ test('fatal worker error clears pending requests and retry creates a fresh worki
  first.onerror();assert.equal(getVoiceWorker(),retry);assert.equal(voicePending.size,1);
  first.onmessage({data:{id:3,type:'audio'}});assert.equal(answers.length,0);
  retry.onmessage({data:{id:3,type:'audio',duration:2}});assert.equal(answers.length,1);assert.equal(voicePending.size,0);
+});
+
+
+test('drain yields to cancel and new foreground messages before another prefetched synthesis',async()=>{
+ const tasks=[],calls=[],messages=[],pending=[];
+ const engine={generate(text){calls.push(text);return new Promise(resolve=>pending.push(resolve))}};
+ const context=vm.createContext({setTimeout:fn=>tasks.push(fn),self:{postMessage:m=>messages.push(m)},KokoroTTS:{from_pretrained:async()=>engine}});
+ vm.runInContext(source,context);
+ const send=data=>context.self.onmessage({data});
+ send({id:0,index:0,session:1,text:'first'});send({id:1,index:1,session:1,text:'obsolete lookahead'});
+ assert.equal(calls.length,0);tasks.shift()();await tick();tasks.shift()();await tick();assert.deepEqual(calls,['first']);
+ pending.shift()({toWav:()=>new ArrayBuffer(1),audio:{length:1},sampling_rate:1});await tick();
+ assert.equal(tasks.length,1);assert.deepEqual(calls,['first']);
+ send({type:'cancel',session:2});send({id:2,index:4,session:3,text:'selected sentence',priority:true});
+ tasks.shift()();await tick();tasks.shift()();await tick();assert.deepEqual(calls,['first','selected sentence']);
+});
+
+
+test('a seek during model startup is processed before the obsolete first synthesis',async()=>{
+ const tasks=[],calls=[];let loaded;
+ const engine={generate(text){calls.push(text);return new Promise(()=>{})}};
+ const context=vm.createContext({setTimeout:fn=>tasks.push(fn),self:{postMessage(){}},KokoroTTS:{from_pretrained:()=>new Promise(resolve=>loaded=resolve)}});
+ vm.runInContext(source,context);const send=data=>context.self.onmessage({data});
+ send({id:0,index:0,session:1,text:'obsolete startup'});tasks.shift()();await tick();
+ loaded(engine);await tick();assert.equal(tasks.length,1);
+ send({type:'cancel',session:2});send({id:1,index:1,session:3,text:'new sentence',priority:true});
+ tasks.shift()();await tick();assert.equal(calls.length,0);
+ tasks.shift()();await tick();tasks.shift()();await tick();assert.deepEqual(calls,['new sentence']);
 });

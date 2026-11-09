@@ -23,7 +23,7 @@ function harness(extra={}){
   const {state,app,CSS,URL,Blob,refreshPlayback,highlightNarration,textRange,visiblePage,stopArgument,closeReaderMenu,clearSelection,toast,console,ensureDoc,narrationChunks,narrationAudio,getVoiceWorker}=env;
   let narration=null,narrationToken=0,voiceRequest=0;const voicePending=new Map();
   function stopNarration(){narrationToken++;narrationAudio.pause();narration=null;for(const p of voicePending.values())p.reject(new Error('Cancelled'));voicePending.clear()}
-  ${['generateChunk','playNarrationChunk','startNarration','skipPlayback'].map(declaration).join('\n')}
+  ${['waitForVoice','generateChunk','playNarrationChunk','startNarration','skipPlayback'].map(declaration).join('\n')}
   return {generateChunk,playNarrationChunk,startNarration,skipPlayback,stopNarration,
    get current(){return narration},set current(n){narration=n},voicePending,media:narrationAudio};
  `);
