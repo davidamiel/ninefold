@@ -84,3 +84,27 @@ Check tab icons, iOS Add to Home Screen, and Safari Add to Dock after deployment
 ## Document-quality review
 
 Follow the [document-quality standards](document-quality.md) for source verification, correction evidence, immutable annotation anchors, and repeatable audit commands. The [Jackson source review](jackson-source-review.md) records the bounded PDF review behind the recovered glyph fixes. Passing structural checks is not collection-wide certification.
+
+### Narration engines
+
+Listen → Voice Engine offers the existing local Kokoro natural voices and an
+optional browser Device voice mode. Device mode avoids the neural model download
+and synthesis on the user's device. Its voice list comes from SpeechSynthesis;
+availability and quality vary by browser and OS. The menu identifies local and
+online voices; online voices may transmit text to their provider. Automatic
+selection uses only local English voices. If none is ready, the reader pauses
+and asks the listener to select an available voice or retry. Online voices must
+be selected explicitly.
+
+Device narration uses short passages and source-coordinate highlighting. Previous
+and Next move by passage, not seconds. Pause cancels speech and resumes from the
+last boundary reported by the browser, or the passage start if boundaries are
+unavailable. Exact audio-time seeking, downloadable device-voice audio, and
+background/lock-screen continuity are not promised. Real-device verification is
+required, particularly on iOS and Android. Switching to Device voice releases the
+Kokoro worker. Natural voice keeps its existing playback controls and Michael
+American male voice.
+
+Generated natural audio is currently retained only for the active narration
+session, not persistently stored. Persistent audio caching or pre-generated
+collection audio would require a separate size-limited, versioned storage design.

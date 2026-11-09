@@ -157,3 +157,14 @@ test('forward skip promotes a prefetched duration probe before awaiting it',asyn
  answer(h,1);await skip;assert.equal(n.index,6);assert.equal(h.api.media.currentTime,9);
  h.api.stopNarration();await tick();
 });
+
+test('chunk transitions clear old media time before displaying the new elapsed total',async()=>{
+ const h=setup(),n=session();h.api.current=n;
+ const first=h.api.playNarrationChunk(n,0);answer(h,0);await first;
+ h.api.media.currentTime=10;
+ const next=h.api.playNarrationChunk(n,1);
+ assert.equal(h.api.media.currentTime,0);
+ answer(h,1);await next;
+ assert.equal(h.api.media.currentTime,0);
+ h.api.stopNarration();await tick();
+});
