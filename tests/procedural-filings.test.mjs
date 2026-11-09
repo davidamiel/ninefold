@@ -27,9 +27,9 @@ test('sparse Hecox pages are appendix dividers and distinct Verizon filings reta
  assert.equal(new Set(verizon.map(d=>d.sourceSha256)).size,2);
 });
 test('term coverage reflects newly readable Other filings',()=>{
- assert.equal(catalog.coverage.readableByCategory.Other,5);
- assert.equal(catalog.coverage.readableDocuments,3726);
- assert.equal(catalog.coverage.uniqueReadableDocumentCount,3689);
+ assert.equal(catalog.coverage.readableByCategory.Other,7);
+ assert.equal(catalog.coverage.readableDocuments,3728);
+ assert.equal(catalog.coverage.uniqueReadableDocumentCount,3691);
  assert.deepEqual(read('coverage-report.json').terms['2025'],catalog.coverage);
 });
 test('Poppler preserves source-verified words that pypdf split inside words',()=>{

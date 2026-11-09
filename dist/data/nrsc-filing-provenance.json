@@ -1,0 +1,31 @@
+{
+  "reviewedAt": "2026-11-09",
+  "scope": "Bounded rendered-page comparison to extracted text, not complete source or citation review.",
+  "documents": [
+    {
+      "id": "24-621-7b13c24198cf",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-621/385627/20251124144121228_2025-11-24%20-%20SCT%2024-621%20Mot%20for%20Leave%20Court-Appointed%20Amicus%20Suppl%20Br%20on%20Jurisdiction.pdf",
+      "sourceSha256": "9b2f977f605b033af51170212944b567c9e2eb5c9d60c2cc50b0d29afdf59dba",
+      "pageCount": 35,
+      "renderedSamplePages": [
+        1,
+        5,
+        11,
+        24,
+        27,
+        35
+      ]
+    },
+    {
+      "id": "24-621-f75392ee825b",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-621/386275/20251203142219678_2025-12-03%20No.%2024-621%20NRSC%20Reply%20iso%20Suppl%20Brief.pdf",
+      "sourceSha256": "9864ae5f0697fbbf0f4af17a16be56a4646b6ec5ae5ba9e5d25d541f6b219187",
+      "pageCount": 3,
+      "renderedSamplePages": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

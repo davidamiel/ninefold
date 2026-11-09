@@ -1,5 +1,5 @@
-"""Import only the five hash-pinned procedural filings reviewed in November 2026.
-Usage: python scripts/import_procedural_filings.py /path/to/verified/pdf/cache
+"""Import hash-pinned procedural filings from a named review manifest.
+Usage: python scripts/import_procedural_filings.py /path/to/verified/pdf/cache [manifest-name.json]
 No network access or fuzzy classification; existing text is never overwritten.
 """
 import hashlib
@@ -16,11 +16,12 @@ DATA = ROOT / 'dist/data'
 def write(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False), encoding='utf-8')
 
-def main(cache):
+def main(cache, manifest_name="procedural-filing-provenance.json"):
+    assert manifest_name in {"procedural-filing-provenance.json", "nrsc-filing-provenance.json"}, "Unknown review manifest"
     assert pypdf.__version__ == "6.21.4", "Use pypdf 6.21.4 for reproducible page labels"
     version = subprocess.run(["pdftotext", "-v"], capture_output=True, text=True, check=True)
     assert "pdftotext version 25.03.0" in version.stderr, "Use Poppler 25.03.0 for reproducible source offsets"
-    manifest = json.loads((DATA / 'procedural-filing-provenance.json').read_text())
+    manifest = json.loads((DATA / manifest_name).read_text())
     catalog_path = DATA / 'catalog.json'
     catalog = json.loads(catalog_path.read_text())
     records = [d for c in catalog['cases'] for d in c['documents']]
@@ -74,4 +75,4 @@ def main(cache):
     print('Imported', len(pending), 'hash-verified procedural filings; full transcription and citation review remain incomplete.')
 
 if __name__ == '__main__':
-    main(pathlib.Path(sys.argv[1]))
+    main(pathlib.Path(sys.argv[1]), sys.argv[2] if len(sys.argv) > 2 else "procedural-filing-provenance.json")
