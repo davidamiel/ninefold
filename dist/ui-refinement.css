@@ -134,10 +134,10 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 
 /* Keep the resting mobile player alongside reader controls. Expand into a panel. */
 @media(max-width:760px){
- .reader-top:has(.playback-strip){display:flex;flex-wrap:nowrap;gap:4px}
+ .reader-top:has(.playback-strip){position:relative;display:flex;flex-wrap:nowrap;gap:4px}
  .reader-top:has(.playback-strip) .reader-heading{flex:1 1 0;min-width:0}
  .reader-top:has(.playback-strip) .reader-controls{display:flex;flex:0 0 auto;flex-wrap:nowrap;width:auto;gap:4px}
- .reader-top:has(.playback-strip) #reader-playback{position:relative;flex:0 0 168px;width:168px;min-height:48px;order:0;margin:0;grid-area:auto;max-width:none}
+ .reader-top:has(.playback-strip) #reader-playback{position:static;flex:0 0 168px;width:168px;min-height:48px;order:0;margin:0;grid-area:auto;max-width:none}
  .reader-top:has(.playback-strip) .reader-case{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
  .reader-controls .playback-strip{width:auto;min-height:46px;padding:2px;gap:0}
  .reader-controls .playback-primary{width:auto;gap:2px}
@@ -145,7 +145,7 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
  .reader-controls .playback-identity{flex:none}
  .reader-controls .playback-strip .audio-speaker-portrait{display:grid;width:30px;height:30px;min-width:30px}
  .reader-controls .playback-strip .playback-expand{width:32px;min-width:32px;padding:7px}
- .reader-controls .playback-strip.expanded{position:absolute;right:0;top:0;width:min(460px,calc(100vw - 20px));z-index:30;background:var(--paper);border:1px solid var(--line);box-shadow:0 6px 20px var(--shadow)}
+ .reader-controls .playback-strip.expanded{position:absolute;right:10px;top:8px;width:min(460px,calc(100% - 20px));z-index:30;background:var(--paper);border:1px solid var(--line);box-shadow:0 6px 20px var(--shadow)}
  .reader-controls .playback-strip.expanded .playback-primary{width:100%}
  .reader-controls .playback-strip.expanded .playback-identity{flex:1}
 }
