@@ -1156,9 +1156,16 @@ async function playNarrationChunk(n,index,offset=0){
    catch(error){if(!current())return;if(error.name!=='NotAllowedError')throw error;n.paused=true;toast('Tap Play to resume.')}
   }
   if(!current())return;
-  const chunk=n.chunks[index],el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`);
-  const displayed=el?narrationDisplayRange(el,chunk):null;
-  if(displayed){highlightNarration(el,displayed.start,displayed.end-displayed.start);const r=textRange(el,displayed.start,Math.min(displayed.start+1,displayed.end)),scroll=el.closest('.doc-scroll');if(r&&scroll){const box=r.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}else CSS.highlights?.delete('narration');
+  const chunk=n.chunks[index],elements=app.querySelectorAll(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`),ranges=[];
+  let first=null;
+  for(const el of elements){
+   const displayed=narrationDisplayRange(el,chunk);if(!displayed)continue;
+   const range=textRange(el,displayed.start,displayed.end);if(!range)continue;
+   ranges.push(range);first||={el,range};
+  }
+  if(CSS.highlights){if(ranges.length)CSS.highlights.set('narration',new Highlight(...ranges));else CSS.highlights.delete('narration')}
+  if(first){const scroll=first.el.closest('.doc-scroll');if(scroll){const box=first.range.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}
+
   refreshPlayback();
 
  }catch(e){if(current()){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
@@ -1478,7 +1485,7 @@ function officialTranscriptTurns(id,data){
 }
 function untimedTranscriptHTML(id,data){
  const d=ds(id),c=contextCase(id),turns=officialTranscriptTurns(id,data);
- return `<article class="document-body conversation untimed-conversation" data-document="${esc(id)}"><header class="conversation-header"><div><h2>Oral Argument</h2><p>${date(c.argued)}</p><small>Synchronized timing is not yet available.</small></div>${c.audio?.url?button(icon('play')+'Listen','listen',c.id,'outline'):''}</header>${turns.map(t=>`<section class="speaker-turn ${t.justice?'justice-turn':'advocate-turn'}"><div class="speaker-avatar">${portrait(t.speaker,'transcript-face')}</div><div class="speaker-message"><header><strong>${esc(t.speaker)}</strong></header>${t.parts.map(p=>`<span class="source-page" data-page="${p.page}"><span class="page-text" data-text-doc="${esc(id)}" data-page="${p.page}" data-map-key="${esc(p.key)}">${renderText(p.text,id,p.page,p.map)}</span></span>`).join(' ')}</div></section>`).join('')}<footer class="transcript-credit">Official Court transcript · Speaker formatting preserves the filed text.</footer><aside class="document-margin"></aside></article>`;
+ return `<article class="document-body conversation untimed-conversation" data-document="${esc(id)}"><header class="conversation-header"><div><h2>Oral Argument</h2><p>${date(c.argued)}</p><small>Synchronized timing is not yet available.</small></div>${c.audio?.url?button(icon('play')+'Listen','listen',c.id,'outline'):''}</header>${turns.map(t=>`<section class="speaker-turn ${t.justice?'justice-turn':'advocate-turn'}"><div class="speaker-avatar">${portrait(t.speaker,'transcript-face')}</div><div class="speaker-message"><header><strong>${esc(t.speaker)}</strong></header>${t.parts.map(p=>`<span class="source-page" data-page="${p.page}"><span class="page-text" data-text-doc="${esc(id)}" data-page="${p.page}" data-map-key="${esc(p.key)}">${renderText(p.text,id,p.page,p.map,p.key)}</span></span>`).join(' ')}</div></section>`).join('')}<footer class="transcript-credit">Official Court transcript · Speaker formatting preserves the filed text.</footer><aside class="document-margin"></aside></article>`;
 }
 
 // Native hit-testing keeps source offsets independent of wrapping and inline markup.

@@ -12,7 +12,7 @@ function declaration(name){
 function harness(extra={}){
  const messages=[],urls=[],revoked=[],toasts=[];
  const env={
-  state:{active:'a'},app:{querySelector:()=>null},CSS:{escape:x=>x},
+  state:{active:'a'},app:{querySelector:()=>null,querySelectorAll:()=>[]},CSS:{escape:x=>x},
   URL:{createObjectURL:()=>{const url='blob:'+urls.length;urls.push(url);return url}},
   Blob:class{},refreshPlayback(){},highlightNarration(){},textRange(){},visiblePage(){return 0},
   stopArgument(){},closeReaderMenu(){},clearSelection(){},toast:x=>toasts.push(x),console:{warn(){}},

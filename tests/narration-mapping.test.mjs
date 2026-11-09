@@ -73,12 +73,42 @@ test('missing or fully omitted rendered ranges never receive raw reading offsets
 test('actual playback maps a generated source chunk to the latest rendered range',async()=>{
  const raw='See 410 U.S. 113, 120 (1973).\n\nThe rule protects substantive rights.';
  const h=setup(raw,{citations:[{start:raw.indexOf('410'),end:raw.indexOf('.\n'),ref:{number:1,key:'case'}}]}),rendered=h.render();
- const chunks=h.context.narrationChunks('doc'),n={id:'doc',chunks,index:0,paused:false},highlights=[],ranges=[];
+ const chunks=h.context.narrationChunks('doc'),n={id:'doc',chunks,index:0,paused:false},ranges=[];
  h.el.closest=()=>null;
- Object.assign(h.context,{narration:n,app:{querySelector:()=>h.el},CSS:{escape:s=>s,highlights:new Map()},state:{},narrationAudio:{pause(){},async play(){}},refreshPlayback(){},generateChunk:async()=>({url:'blob:test',duration:2}),highlightNarration:(_el,start,length)=>highlights.push({start,length}),textRange:(_el,start,end)=>{ranges.push({start,end});return null},stopNarration(){throw Error('unexpected stop')},toast(){},console});
+ Object.assign(h.context,{narration:n,app:{querySelectorAll:()=>[h.el]},CSS:{escape:s=>s,highlights:new Map()},Highlight:class{constructor(...ranges){this.ranges=ranges}},state:{},narrationAudio:{pause(){},async play(){}},refreshPlayback(){},generateChunk:async()=>({url:'blob:test',duration:2}),textRange:(_el,start,end)=>{const range={start,end};ranges.push(range);return range},stopNarration(){throw Error('unexpected stop')},toast(){},console});
  vm.runInContext(declaration('playNarrationChunk'),h.context);
  await h.context.playNarrationChunk(n,1);
- assert.equal(highlights.length,1);assert.equal(highlights[0].start,10);
- assert.equal(rendered.text.slice(highlights[0].start,highlights[0].start+highlights[0].length),chunks[1].text);
+ const highlights=h.context.CSS.highlights.get('narration').ranges;assert.equal(highlights.length,1);assert.equal(highlights[0].start,10);
+ assert.equal(rendered.text.slice(highlights[0].start,highlights[0].end),chunks[1].text);
  assert.equal(ranges[0].start,10);
+});
+test('real untimed transcript keeps citation maps per fragment and highlights later or spanning fragments',async()=>{
+ const raw='MR. ALPHA: First opening words.\n\nJUSTICE BETA: See 410 U.S. 113, 120 (1973). Later words remain visible.';
+ const h=setup(raw),c=h.context;
+ Object.assign(c,{contextCase:()=>({advocates:[],argued:'2025-01-01'}),profiles:{},titleCaseLabel:s=>s,date:s=>s,portrait:()=>'',button:()=>'',icon:()=>''});
+ c.citationRanges=text=>{const start=text.indexOf('410');return start<0?[]:[{start,end:text.indexOf(').',start)+1,ref:{number:1,key:'case'}}]};
+ for(const name of ['officialTranscriptTurns','untimedTranscriptHTML'])vm.runInContext(declaration(name),c);
+ const turns=c.officialTranscriptTurns('doc',h.data),parts=Array.from(turns,t=>Array.from(t.parts)).flat();
+ assert.equal(parts.length,2);
+ const html=c.untimedTranscriptHTML('doc',h.data);
+ const elements=parts.map(part=>{
+  const rendered=c.numberedReading(part.text,part.map,c.citationRanges(part.text));
+  assert(html.includes('data-map-key="'+part.key+'"'));
+  assert.deepEqual(Array.from(c.displayMaps.get(part.key)),Array.from(rendered.map),'each actual fragment render must update its own key');
+  return {dataset:{textDoc:'doc',mapKey:part.key},text:rendered.text,closest:()=>null};
+ });
+ assert(elements[1].text.includes('[1]'));
+ const maps=parts.map(p=>c.displayMaps.get(p.key)),chunks=c.narrationChunks('doc');
+ parts.forEach((p,i)=>assert.strictEqual(c.displayMaps.get(p.key),maps[i]));
+ Object.assign(c,{app:{querySelectorAll:()=>elements},CSS:{escape:s=>s,highlights:new Map()},Highlight:class{constructor(...ranges){this.ranges=ranges}},state:{},narrationAudio:{pause(){},async play(){}},refreshPlayback(){},generateChunk:async()=>({url:'blob:test',duration:2}),textRange:(el,start,end)=>({el,start,end}),stopNarration(){throw Error('unexpected stop')},toast(){},console});
+ vm.runInContext(declaration('playNarrationChunk'),c);
+ const later=chunks.find(ch=>ch.sourceStart>=raw.indexOf('JUSTICE'));
+ assert(later);let n={id:'doc',chunks:[later],paused:false};c.narration=n;
+ await c.playNarrationChunk(n,0);
+ let ranges=c.CSS.highlights.get('narration').ranges;
+ assert.equal(ranges.length,1);assert.strictEqual(ranges[0].el,elements[1]);
+ assert.equal(elements[1].text.slice(ranges[0].start,ranges[0].end),elements[1].text);
+ n={id:'doc',chunks:[{page:0,sourceStart:0,sourceEnd:raw.length,text:raw}],paused:false};c.narration=n;
+ await c.playNarrationChunk(n,0);ranges=c.CSS.highlights.get('narration').ranges;
+ assert.equal(ranges.length,2);assert.strictEqual(ranges[0].el,elements[0]);assert.strictEqual(ranges[1].el,elements[1]);
 });
