@@ -34,6 +34,11 @@ test('malformed route escaping never prevents collection navigation',()=>{
 test('split focus synchronizes workspace and URL and survives route restore',()=>{
  const c=setup();Object.assign(c.state,{route:'reader',active:'a',split:'b',tabs:['a','b']});c.docs.get('b').caseId='A';vm.runInContext("focusReaderPane('b')",c);assert.equal(c.state.active,'b');assert.equal(c.state.workspaces.A.active,'b');assert.equal(new URLSearchParams(c.location.hash.split('?')[1]).get('doc'),'b');vm.runInContext('readLocation()',c);assert.equal(c.state.active,'b');assert.deepEqual(Array.from(c.state.paneOrder),['a','b']);
 });
+test('Back and Forward between focused split panes preserve both documents and pane order',()=>{
+ const c=setup();Object.assign(c.state,{route:'reader',active:'a',split:'b',tabs:['a','b'],paneOrder:['a','b']});c.docs.get('b').caseId='A';
+ const before=vm.runInContext('locationKey()',c);vm.runInContext("focusReaderPane('b')",c);const after=c.location.hash;
+ for(const [hash,active,split] of [[before,'a','b'],[after,'b','a'],[before,'a','b']]){c.location.hash=hash;vm.runInContext('readLocation()',c);assert.equal(c.state.active,active);assert.equal(c.state.split,split);assert.deepEqual(Array.from(c.state.paneOrder),['a','b']);}
+});
 
 test('shared filing remains in either originating case across open and history restore',()=>{
  for(const origin of ['A','B']){const c=setup();c.caseMap.get('A').documents.push({id:'b'});Object.assign(c.state,{route:'case',caseId:origin});vm.runInContext("openDoc('b')",c);assert.equal(c.state.workspaceId,origin);assert.equal(c.state.tabCases.b,origin);assert.equal(vm.runInContext("contextCase('b').id",c),origin);c.location.hash=vm.runInContext('locationKey()',c);vm.runInContext("switchWorkspace('A');readLocation()",c);assert.equal(c.state.workspaceId,origin);assert.equal(c.state.active,'b');}
