@@ -43,3 +43,24 @@ test('obsolete promotion cannot change the current session or order',async()=>{
  h.send({type:'prioritize',session:1,index:2});h.finish();await tick();
  assert.deepEqual(h.calls.map(c=>c.text),['0','1']);
 });
+
+
+test('fatal worker error clears pending requests and retry creates a fresh working worker',()=>{
+ const workers=[],failures=[],answers=[];
+ class Worker{
+  constructor(){workers.push(this)}
+  terminate(){this.terminated=true}
+ }
+ const declaration=fs.readFileSync('dist/app.js','utf8').split(/\r?\n/).find(line=>line.startsWith('function getVoiceWorker('));
+ const context=vm.createContext({Worker,Error});
+ vm.runInContext(`let voiceWorker=null,narration=null;const voicePending=new Map();${declaration};globalThis.api={getVoiceWorker,voicePending}`,context);
+ const {getVoiceWorker,voicePending}=context.api,first=getVoiceWorker();
+ assert.equal(getVoiceWorker(),first);
+ voicePending.set(1,{reject:e=>failures.push(e.message)});voicePending.set(2,{reject:e=>failures.push(e.message)});
+ first.onerror();assert.equal(first.terminated,true);assert.equal(voicePending.size,0);assert.equal(failures.length,2);
+ const retry=getVoiceWorker();assert.notEqual(retry,first);assert.equal(workers.length,2);
+ voicePending.set(3,{resolve:data=>answers.push(data),reject:e=>failures.push(e.message)});
+ first.onerror();assert.equal(getVoiceWorker(),retry);assert.equal(voicePending.size,1);
+ first.onmessage({data:{id:3,type:'audio'}});assert.equal(answers.length,0);
+ retry.onmessage({data:{id:3,type:'audio',duration:2}});assert.equal(answers.length,1);assert.equal(voicePending.size,0);
+});

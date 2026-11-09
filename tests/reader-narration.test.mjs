@@ -136,3 +136,24 @@ test('seeking to a prefetched clip promotes it instead of generating it twice',a
  answer(h,2);await seek;answer(h,0);await first;
  assert.equal(n.index,2);h.api.stopNarration();await tick();
 });
+
+
+test('backward skip from a middle-document start prioritizes uncached duration probes',async()=>{
+ const h=setup(),n=session();n.chunks=Array.from({length:10},(_,i)=>({text:String(i),page:0}));h.api.current=n;
+ const play=h.api.playNarrationChunk(n,5);answer(h,0);await play;
+ assert.deepEqual(h.messages.map(m=>m.index),[5,6,7,8]);
+ h.api.media.currentTime=1;const skip=h.api.skipPlayback(-10);
+ assert.equal(h.messages.at(-1).index,4);assert.equal(h.messages.at(-1).priority,true);
+ answer(h,4);await skip;assert.equal(n.index,4);assert.equal(h.api.media.currentTime,1);
+ h.api.stopNarration();await tick();
+});
+
+test('forward skip promotes a prefetched duration probe before awaiting it',async()=>{
+ const h=setup(),n=session();n.chunks=Array.from({length:10},(_,i)=>({text:String(i),page:0}));h.api.current=n;
+ const play=h.api.playNarrationChunk(n,5);answer(h,0);await play;
+ h.api.media.currentTime=9;const skip=h.api.skipPlayback(10);await tick();
+ assert.deepEqual(h.messages.at(-1),{type:'prioritize',session:1,index:6});
+ assert.equal(h.messages.filter(m=>m.text==='6').length,1);
+ answer(h,1);await skip;assert.equal(n.index,6);assert.equal(h.api.media.currentTime,9);
+ h.api.stopNarration();await tick();
+});
