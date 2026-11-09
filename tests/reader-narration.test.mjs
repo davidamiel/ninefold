@@ -116,3 +116,23 @@ test('voice restart preserves an explicit paused state',async()=>{
  await tick();answer(h,0);await start;assert.equal(h.api.current.paused,true);assert.equal(plays,0);
  assert(source.includes('offset:c.sourceStart},{paused:narration.paused}'));
 });
+
+
+test('bounded lookahead starts before the first clip resolves',async()=>{
+ const h=setup(),n=session();n.chunks=Array.from({length:8},(_,i)=>({text:String(i),page:0}));h.api.current=n;
+ const play=h.api.playNarrationChunk(n,0);
+ assert.deepEqual(h.messages.map(m=>m.index),[0,1,2,3]);
+ assert.equal(h.messages[0].priority,true);
+ answer(h,0);await play;
+ assert.equal(h.messages.length,4);
+ h.api.stopNarration();await tick();
+});
+
+test('seeking to a prefetched clip promotes it instead of generating it twice',async()=>{
+ const h=setup(),n=session();h.api.current=n;
+ const first=h.api.playNarrationChunk(n,0),seek=h.api.playNarrationChunk(n,2);
+ assert.equal(h.messages.filter(m=>m.text==='three').length,1);
+ assert.deepEqual(h.messages.at(-1),{type:'prioritize',session:1,index:2});
+ answer(h,2);await seek;answer(h,0);await first;
+ assert.equal(n.index,2);h.api.stopNarration();await tick();
+});

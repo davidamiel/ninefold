@@ -1090,14 +1090,14 @@ function skipSpokenCitations(text){return maskSpokenCitations(text).replace(/\(\
 function narrationChunks(id){const data=docCache.get(id),d=ds(id),chunks=[];if(!data)return chunks;data.pages.forEach((p,page)=>{if(d.sourceRange&&(page<d.sourceRange.startPage||page>d.sourceRange.endPage))return;const start=page===d.sourceRange?.startPage?d.sourceRange.startOffset:0,end=page===d.sourceRange?.endPage?d.sourceRange.endOffset:p.text.length,original=d.timedSession?{text:p.text,map:Array.from(p.text,(_,i)=>i)}:readingText(p.text,id,page,data,start,end),clean={text:original.text,map:original.map},structure=structureFor(id,data),markers=structure.footnoteMarkers?.filter(m=>m.page===page)||[];if(markers.length)clean.text=Array.from(clean.text,(ch,i)=>markers.some(m=>clean.map[i]>=m.start&&clean.map[i]<m.end)?' ':ch).join('');clean.text=maskSpokenCitations(clean.text);const cuts=new Set([0,clean.text.length]);for(const m of clean.text.matchAll(/\n\n+/g)){cuts.add(m.index);cuts.add(m.index+m[0].length)}for(const h of structure.headings.filter(h=>h.page===page)){cuts.add(lowerBound(clean.map,h.start));cuts.add(lowerBound(clean.map,h.end))}const sorted=[...cuts].sort((a,b)=>a-b);for(let i=0;i<sorted.length-1;i++){const from=sorted[i],part=clean.text.slice(from,sorted[i+1]);for(const m of part.matchAll(/.{1,220}(?:\s|$)|\S{1,220}/gs)){const speech=skipSpokenCitations(m[0]);if(!/[a-zA-Z]/.test(speech))continue;const at=from+m.index;chunks.push({page,start:at,length:m[0].length,sourceStart:clean.map[at]??0,text:speech})}}});return chunks}
 let voiceWorker=null,voiceRequest=0;const voicePending=new Map(),narrationAudio=new Audio();narrationAudio.preload='auto';
 function getVoiceWorker(){if(voiceWorker)return voiceWorker;voiceWorker=new Worker('./narration-worker.js',{type:'module'});voiceWorker.onmessage=({data})=>{if(data.type==='progress'){if(narration?.loading){const n=overlays.querySelector('.voice-progress')||document.querySelector('.voice-progress');if(n)n.textContent=data.progress.status==='progress'&&data.progress.total>10000000?'Preparing Voice '+Math.round(data.progress.progress)+'%':'Preparing Voice…'}return}const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);data.type==='audio'?p.resolve(data):p.reject(new Error(data.message))};voiceWorker.onerror=()=>{for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};return voiceWorker}
-function generateChunk(n,index){
+function generateChunk(n,index,priority=false){
  if(!n.chunks[index])return Promise.resolve(null);
  if(n.cache.has(index))return Promise.resolve(n.cache.get(index));
- if(n.pending.has(index))return n.pending.get(index);
+ if(n.pending.has(index)){if(priority)getVoiceWorker().postMessage({type:'prioritize',session:n.token,index});return n.pending.get(index);}
  const id=++voiceRequest;
  const promise=new Promise((resolve,reject)=>{
   voicePending.set(id,{resolve,reject});
-  try{getVoiceWorker().postMessage({id,session:n.token,text:n.chunks[index].text,voice:n.voice})}
+  try{getVoiceWorker().postMessage({id,session:n.token,text:n.chunks[index].text,voice:n.voice,index,priority})}
   catch(error){voicePending.delete(id);reject(error)}
  }).then(data=>{
   if(n!==narration)throw new Error('Cancelled');
@@ -1113,7 +1113,11 @@ async function playNarrationChunk(n,index,offset=0){
  const current=()=>n===narration&&n.playRequest===request;
  narrationAudio.pause();n.index=index;n.loading=true;refreshPlayback();
  try{
-  const clip=await generateChunk(n,index);if(!current())return;
+  const ready=generateChunk(n,index,true);
+  // Queue lookahead immediately: even short headings provide synthesis time for
+  // following prose. Keep this bounded, and give explicit seeks priority.
+  for(let ahead=index+1;ahead<Math.min(n.chunks.length,index+4);ahead++)generateChunk(n,ahead).catch(()=>{});
+  const clip=await ready;if(!current())return;
   n.loading=false;narrationAudio.src=clip.url;narrationAudio.playbackRate=state.narrationSpeed||1;
   narrationAudio.currentTime=Math.max(0,Math.min(offset,clip.duration));
   if(!n.paused){
@@ -1124,7 +1128,7 @@ async function playNarrationChunk(n,index,offset=0){
   const chunk=n.chunks[index],el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`);
   if(el){highlightNarration(el,chunk.start,chunk.length);const r=textRange(el,chunk.start,chunk.start+Math.min(1,chunk.length)),scroll=el.closest('.doc-scroll');if(r&&scroll){const box=r.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}
   refreshPlayback();
-  if(index+1<n.chunks.length)generateChunk(n,index+1).catch(()=>{});
+
  }catch(e){if(current()){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
 }
 async function startNarration(anchor=null,{paused=false}={}){
