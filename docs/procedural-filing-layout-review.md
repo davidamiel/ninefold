@@ -6,7 +6,7 @@ The exact five source PDFs and SHA-256 hashes are recorded in `dist/data/procedu
 
 ## Evidence and changes
 
-Rendered the following source pages with Poppler or PyMuPDF and inspected the images. Confirmed that signature counsel lists are two columns, not prose paragraphs or headings. The original raw layout-extracted strings are retained in bounded `counselBlocks`, including whitespace and line breaks. Each block has an exact `expectedText` guard and this evidence path. No reordering, transcription, inferred contact details, or approximate offset replacement is performed. The renderer must preserve each character's source offset and avoid automatic heading/citation detection within these blocks. Small screens may scroll the block horizontally instead of collapsing columns.
+Rendered the following source pages with Poppler or PyMuPDF and inspected the images. Confirmed that signature counsel lists are two columns, not prose paragraphs or headings. The original raw layout-extracted strings are retained in bounded `counselBlocks`, including whitespace and line breaks. Each block has an exact `expectedText` guard and this evidence path. No reordering, transcription, inferred contact details, or approximate offset replacement is performed. The renderer must preserve each character's source offset and avoid automatic heading/citation detection within these blocks. Per-line source-verified `columnBreaks` allow responsive presentation of the left and right columns without changing the source text or DOM text order. Small screens can visually stack the complete columns rather than clipping the right column.
 
 | Reader ID | Counsel source pages | Additional inspected heading pages |
 |---|---|---|
@@ -27,10 +27,20 @@ Counsel block boundaries use zero-based source pages and exclusive ends:
 - Hecox response: page 16, 219–917.
 - Miot: page 19, 77–833.
 
-These bounded changes do not certify all 85 pages or any linked citation's correctness. The PDF remains authoritative for typography, signatures and exact spatial relationships. Layout extraction may approximate the original column gap; preserving literal whitespace prevents the reader from making it worse through prose reflow.
+These bounded changes do not certify all 85 pages or any linked citation's correctness. The PDF remains authoritative for typography, signatures and exact spatial relationships. Layout extraction may approximate the original column gap. The verified boundaries below identify columns even where the extracted gap is only one space.
 
 ## Implementation verification
 
 The actual reading-text, numbering, and HTML renderer pipeline is covered by `tests/filing-rendering.test.mjs`: CONCLUSION contains no reporter or reference fragment, each emitted citation label is whole, all six counsel blocks reproduce their exact source text with one-to-one source-offset maps, and stale counsel guards fail closed. The editor sanitizer retains the counsel-block class.
 
 Validation: all 182 Node tests pass; production build succeeds; document audit reports zero structural errors and zero legacy evidence gaps. The audit still correctly labels full source/citation review unknown, not complete. Local Chromium launch was blocked by environment socket permissions, including the escalated attempt; independent visual verification remains required before deployment.
+
+## Responsive column boundary verification
+
+For each of the six blocks, `columnBreaks` has one entry per raw line. An integer is the UTF-16 offset within that line of the first visible right-column character. A left-only line uses its full length; a right-only line assigns its leading whitespace to the empty left cell. Empty lines use zero. A null entry marks a full-width concluding counsel label, which must follow both columns. Every line reconstructs exactly as `line.slice(0, boundary) + line.slice(boundary)`. No split divides a word. No text or whitespace is removed from the stored asset or metadata.
+
+The boundary decisions were checked against the rendered signature pages listed above. In particular, Hecox source page 12 has three narrow gaps that cannot be recovered by a generic multiple-space splitter: `AMERICAN CIVIL LIBERTIES | LEGAL VOICE`, `ACLU of Idaho Foundation | SARAH TOMPKINS`, and `219 S. River St., Suite 202 | LEGAL VOICE`. These are separate columns in the source image. The centered `Counsel for Respondents` label spans both columns, as does `Counsel for Verizon Communications Inc.` in each Verizon filing. In the Hecox response, `Counsel for Petitioners` belongs to the left column and `Counsel for State Petitioners` to the right.
+
+Regression tests verify all six arrays, exact source reconstruction, word-safe splits, and the three narrow Hecox boundaries. Runtime presentation and mobile browser checks remain separate validation.
+
+Mobile implementation validation: 185 Node tests pass and production build succeeds. Renderer tests check all six split blocks, byte-exact DOM text, exact source maps, independent left/right/full-width cells, and editor capture/render round trips. The CSS stacks whole columns below 600px and wraps long cell text instead of horizontally clipping it. Browser verification of the 320px layout remains pending with the laptop QA worker.

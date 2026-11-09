@@ -9,3 +9,139 @@
 
 /* Verified counsel blocks retain PDF column spacing and immutable source offsets. */
 .document-body .counsel-block{display:block;max-width:100%;overflow-x:auto;white-space:pre;word-break:normal;overflow-wrap:normal;font:clamp(10px,1.1vw,13px)/1.55 ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;letter-spacing:0;text-align:left;text-indent:0;margin:1.2em 0;padding:0 0 .35em;}
+
+/* Verified columns wrap independently and stack in narrow reading panes. */
+.document-body .counsel-block:has(.counsel-cell){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:1.5em;overflow:visible;white-space:normal;font:14px/1.55 "Source Sans 3",system-ui,sans-serif;}
+.document-body .counsel-cell{min-width:0;white-space:pre-line;overflow-wrap:anywhere;}
+.counsel-left{grid-column:1}.counsel-right{grid-column:2}.counsel-full{grid-column:1 / -1}
+.counsel-row-0{grid-row:1}
+.counsel-row-1{grid-row:2}
+.counsel-row-2{grid-row:3}
+.counsel-row-3{grid-row:4}
+.counsel-row-4{grid-row:5}
+.counsel-row-5{grid-row:6}
+.counsel-row-6{grid-row:7}
+.counsel-row-7{grid-row:8}
+.counsel-row-8{grid-row:9}
+.counsel-row-9{grid-row:10}
+.counsel-row-10{grid-row:11}
+.counsel-row-11{grid-row:12}
+.counsel-row-12{grid-row:13}
+.counsel-row-13{grid-row:14}
+.counsel-row-14{grid-row:15}
+.counsel-row-15{grid-row:16}
+.counsel-row-16{grid-row:17}
+.counsel-row-17{grid-row:18}
+.counsel-row-18{grid-row:19}
+.counsel-row-19{grid-row:20}
+.counsel-row-20{grid-row:21}
+.counsel-row-21{grid-row:22}
+.counsel-row-22{grid-row:23}
+.counsel-row-23{grid-row:24}
+.counsel-row-24{grid-row:25}
+.counsel-row-25{grid-row:26}
+.counsel-row-26{grid-row:27}
+.counsel-row-27{grid-row:28}
+.counsel-row-28{grid-row:29}
+.counsel-row-29{grid-row:30}
+.counsel-row-30{grid-row:31}
+.counsel-row-31{grid-row:32}
+.counsel-row-32{grid-row:33}
+.counsel-row-33{grid-row:34}
+.counsel-row-34{grid-row:35}
+.counsel-row-35{grid-row:36}
+.counsel-row-36{grid-row:37}
+.counsel-row-37{grid-row:38}
+.counsel-row-38{grid-row:39}
+.counsel-row-39{grid-row:40}
+.counsel-row-40{grid-row:41}
+.counsel-row-41{grid-row:42}
+.counsel-row-42{grid-row:43}
+.counsel-row-43{grid-row:44}
+.counsel-row-44{grid-row:45}
+.counsel-row-45{grid-row:46}
+.counsel-row-46{grid-row:47}
+.counsel-row-47{grid-row:48}
+.counsel-row-48{grid-row:49}
+.counsel-row-49{grid-row:50}
+.counsel-row-50{grid-row:51}
+.counsel-row-51{grid-row:52}
+.counsel-row-52{grid-row:53}
+.counsel-row-53{grid-row:54}
+.counsel-row-54{grid-row:55}
+.counsel-row-55{grid-row:56}
+.counsel-row-56{grid-row:57}
+.counsel-row-57{grid-row:58}
+.counsel-row-58{grid-row:59}
+.counsel-row-59{grid-row:60}
+.counsel-row-60{grid-row:61}
+.counsel-row-61{grid-row:62}
+.counsel-row-62{grid-row:63}
+.counsel-row-63{grid-row:64}
+@media(max-width:600px){.document-body .counsel-block:has(.counsel-cell){grid-template-columns:minmax(0,1fr)}.document-body .counsel-right{grid-column:1}
+.document-body .counsel-right.counsel-row-0{grid-row:65}
+.document-body .counsel-right.counsel-row-1{grid-row:66}
+.document-body .counsel-right.counsel-row-2{grid-row:67}
+.document-body .counsel-right.counsel-row-3{grid-row:68}
+.document-body .counsel-right.counsel-row-4{grid-row:69}
+.document-body .counsel-right.counsel-row-5{grid-row:70}
+.document-body .counsel-right.counsel-row-6{grid-row:71}
+.document-body .counsel-right.counsel-row-7{grid-row:72}
+.document-body .counsel-right.counsel-row-8{grid-row:73}
+.document-body .counsel-right.counsel-row-9{grid-row:74}
+.document-body .counsel-right.counsel-row-10{grid-row:75}
+.document-body .counsel-right.counsel-row-11{grid-row:76}
+.document-body .counsel-right.counsel-row-12{grid-row:77}
+.document-body .counsel-right.counsel-row-13{grid-row:78}
+.document-body .counsel-right.counsel-row-14{grid-row:79}
+.document-body .counsel-right.counsel-row-15{grid-row:80}
+.document-body .counsel-right.counsel-row-16{grid-row:81}
+.document-body .counsel-right.counsel-row-17{grid-row:82}
+.document-body .counsel-right.counsel-row-18{grid-row:83}
+.document-body .counsel-right.counsel-row-19{grid-row:84}
+.document-body .counsel-right.counsel-row-20{grid-row:85}
+.document-body .counsel-right.counsel-row-21{grid-row:86}
+.document-body .counsel-right.counsel-row-22{grid-row:87}
+.document-body .counsel-right.counsel-row-23{grid-row:88}
+.document-body .counsel-right.counsel-row-24{grid-row:89}
+.document-body .counsel-right.counsel-row-25{grid-row:90}
+.document-body .counsel-right.counsel-row-26{grid-row:91}
+.document-body .counsel-right.counsel-row-27{grid-row:92}
+.document-body .counsel-right.counsel-row-28{grid-row:93}
+.document-body .counsel-right.counsel-row-29{grid-row:94}
+.document-body .counsel-right.counsel-row-30{grid-row:95}
+.document-body .counsel-right.counsel-row-31{grid-row:96}
+.document-body .counsel-right.counsel-row-32{grid-row:97}
+.document-body .counsel-right.counsel-row-33{grid-row:98}
+.document-body .counsel-right.counsel-row-34{grid-row:99}
+.document-body .counsel-right.counsel-row-35{grid-row:100}
+.document-body .counsel-right.counsel-row-36{grid-row:101}
+.document-body .counsel-right.counsel-row-37{grid-row:102}
+.document-body .counsel-right.counsel-row-38{grid-row:103}
+.document-body .counsel-right.counsel-row-39{grid-row:104}
+.document-body .counsel-right.counsel-row-40{grid-row:105}
+.document-body .counsel-right.counsel-row-41{grid-row:106}
+.document-body .counsel-right.counsel-row-42{grid-row:107}
+.document-body .counsel-right.counsel-row-43{grid-row:108}
+.document-body .counsel-right.counsel-row-44{grid-row:109}
+.document-body .counsel-right.counsel-row-45{grid-row:110}
+.document-body .counsel-right.counsel-row-46{grid-row:111}
+.document-body .counsel-right.counsel-row-47{grid-row:112}
+.document-body .counsel-right.counsel-row-48{grid-row:113}
+.document-body .counsel-right.counsel-row-49{grid-row:114}
+.document-body .counsel-right.counsel-row-50{grid-row:115}
+.document-body .counsel-right.counsel-row-51{grid-row:116}
+.document-body .counsel-right.counsel-row-52{grid-row:117}
+.document-body .counsel-right.counsel-row-53{grid-row:118}
+.document-body .counsel-right.counsel-row-54{grid-row:119}
+.document-body .counsel-right.counsel-row-55{grid-row:120}
+.document-body .counsel-right.counsel-row-56{grid-row:121}
+.document-body .counsel-right.counsel-row-57{grid-row:122}
+.document-body .counsel-right.counsel-row-58{grid-row:123}
+.document-body .counsel-right.counsel-row-59{grid-row:124}
+.document-body .counsel-right.counsel-row-60{grid-row:125}
+.document-body .counsel-right.counsel-row-61{grid-row:126}
+.document-body .counsel-right.counsel-row-62{grid-row:127}
+.document-body .counsel-right.counsel-row-63{grid-row:128}
+}
+@media(max-width:600px){.document-body .counsel-full{grid-row:130;grid-column:1}}

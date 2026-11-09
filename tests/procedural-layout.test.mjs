@@ -35,3 +35,28 @@ test('Verizon disclosure and substantive opening stay visible',()=>{
   const intro=raw.indexOf('Pursuant');assert(!s.omitRanges.some(r=>r.page===4&&r.end>intro));
  }
 });
+
+test('source-verified counsel column splits preserve every byte and never divide words',()=>{
+ let fullWidth=0;
+ for(const id of ids)for(const b of structure[id].counselBlocks){
+  const lines=b.expectedText.split('\n');assert.equal(b.columnBreaks.length,lines.length);
+  const reconstructed=lines.map((line,i)=>{
+   const n=b.columnBreaks[i];
+   if(n===null){fullWidth++;assert.match(line.trim(),/^Counsel for (?:Verizon Communications Inc\.|Respondents)$/);return line;}
+   assert(Number.isInteger(n)&&n>=0&&n<=line.length);
+   assert(n===0||n===line.length||/\s/.test(line[n-1]));
+   const left=line.slice(0,n),right=line.slice(n);
+   assert(!right||/^\S/.test(right));
+   return left+right;
+  }).join('\n');
+  assert.equal(reconstructed,b.expectedText);
+ }
+ assert.equal(fullWidth,3);
+});
+test('Hecox narrow counsel gaps split at verified organization and attorney boundaries',()=>{
+ const b=structure['24-38-d297c2fd12b4'].counselBlocks.find(b=>b.page===11),lines=b.expectedText.split('\n');
+ for(const [i,left,right] of [[1,'AMERICAN CIVIL LIBERTIES','LEGAL VOICE'],[5,'ACLU of Idaho Foundation','SARAH TOMPKINS'],[6,'219 S. River St., Suite 202','LEGAL VOICE']]){
+  assert.equal(lines[i].slice(0,b.columnBreaks[i]).trim(),left);
+  assert.equal(lines[i].slice(b.columnBreaks[i]),right);
+ }
+});

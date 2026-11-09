@@ -9,7 +9,7 @@ function fn(n){const a=app.indexOf('function '+n+'(');return app.slice(a,app.ind
 function context(id){
  const data=JSON.parse(fs.readFileSync('dist/data/docs/'+id+'.json'));
  const ctx=vm.createContext({id,data,document:{addEventListener(){}},window:{addEventListener(){}},ds:()=>({category:'Other'}),category:d=>d.category,textSourceId:x=>x,readerStructure:JSON.parse(fs.readFileSync('dist/data/reader-structure.json')),derivedStructures:new Map(),layoutPage:()=>({}),readingCache:new Map(),displayMaps:new Map(),docCache:new Map([[id,data]]),state:{notes:[]},esc:s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;'),citationRanges:(text)=>citationsIn(text).map((c,i)=>({...c,ref:{key:'ref-'+i,number:i+1}}))});
- for(const n of ['lowerBound','structureFor','readingText','normalizeReadingTypography','repairReading','tidyHeadingSpace','tidyFootnoteMarkers','extendHeadingMarker','numberedReading','preserveCounselBlocks','verifiedCounselBlocks','renderText'])vm.runInContext(fn(n),ctx);
+ for(const n of ['lowerBound','structureFor','readingText','normalizeReadingTypography','repairReading','tidyHeadingSpace','tidyFootnoteMarkers','extendHeadingMarker','numberedReading','preserveCounselBlocks','verifiedCounselBlocks','counselGridCells','renderText'])vm.runInContext(fn(n),ctx);
  return ctx;
 }
 test('Hecox CONCLUSION excludes preceding reporter and never splits its reference marker',()=>{
@@ -30,4 +30,11 @@ test('counsel preservation fails closed when a source guard no longer matches',(
  const ctx=context('24-38-d297c2fd12b4');
  const r=vm.runInContext(`preserveCounselBlocks({text:'A B',map:[0,1,3]},'A  B',[{start:0,end:4,expectedText:'WRONG'}])`,ctx);
  assert.equal(r.text,'A B');
+});
+test('mobile counsel cells preserve source order while exposing independently stackable columns',async()=>{
+ const {captureReader,renderReaderContent}=await import('../dist/reader-content.js');
+ const manifest=JSON.parse(fs.readFileSync('dist/data/procedural-filing-provenance.json'));
+ for(const d of manifest.documents){const ctx=context(d.id);const result=vm.runInContext(`readerStructure[id].counselBlocks.map(block=>{const r=readingText(data.pages[block.page].text,id,block.page,data);return {block,html:renderText(r.text,id,block.page,r.map)}})`,ctx);
+ for(const {block,html} of result){const root=new JSDOM('<div>'+html+'</div>').window.document.querySelector('div');const el=root.querySelector('.counsel-block');assert.equal(el.textContent,block.expectedText);assert(el.querySelector('.counsel-left'));assert(el.querySelector('.counsel-right'));assert.equal(el.querySelectorAll('.counsel-full').length,block.columnBreaks.filter(x=>x===null).length);const saved={revision:'test',nodes:captureReader(root),references:[]};const restored=new JSDOM(renderReaderContent(saved)).window.document.querySelector('.counsel-block');assert.equal(restored.textContent,block.expectedText);assert.equal(restored.querySelectorAll('.counsel-cell').length,el.querySelectorAll('.counsel-cell').length);}}
+ const css=fs.readFileSync('dist/reader-refinement.css','utf8');assert.match(css,/grid-template-columns:minmax\(0,1fr\) minmax\(0,1fr\)/);assert.match(css,/@media\(max-width:600px\)/);assert.match(css,/\.counsel-right\.counsel-row-0\{grid-row:65\}/);assert.match(css,/\.counsel-cell\{[^}]*overflow-wrap:anywhere/);
 });
