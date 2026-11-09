@@ -18,7 +18,7 @@ function read(page,source=data,options={}){
  const context=vm.createContext({data:source,page,start:options.start??0,end:options.end??source.pages[page].text.length,includeFootnotes:options.includeFootnotes??false,readingCache:new Map(),displayMaps:new Map(),runningLineCache:new WeakMap(),
   ds:()=>({category:'Petition'}),category:d=>d.category,structureFor:()=>({...structure,bodyStart:{page:0,offset:0},omitRanges:[]}),layoutPage:()=>options.layout?{footnotes:(structure.footnotes||[]).filter(f=>f.page===page)}:{},
   tidyHeadingSpace:x=>x,tidyFootnoteMarkers:x=>x,extendHeadingMarker:x=>x});
- for(const name of ['normalizedMargin','runningLines','lowerBound','normalizeReadingTypography','repairReading','readingText'])vm.runInContext(fn(name),context);
+ for(const name of ['normalizedMargin','runningLines','lowerBound','normalizeReadingTypography','repairReading','preserveCounselBlocks','readingText'])vm.runInContext(fn(name),context);
  return vm.runInContext('readingText(data.pages[page].text,"fixture",page,data,start,end,includeFootnotes)',context);
 }
 test('RiseandShine repairs preserve immutable raw bytes and have exact source evidence',()=>{

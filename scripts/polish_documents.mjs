@@ -16,7 +16,7 @@ for(const d of docs.values()){
  let data;try{data=read(d.textPath.replace(/^\.\//,''))}catch{report.missing.push(d.id);continue}
  if(!data.pages)continue;report.documents++;
  const pages=data.pages.map(p=>typeof p==='string'?{text:p}:p);
- if(structures[d.id]){structures[d.id].headings=(structures[d.id].headings||[]).filter(h=>!reject.test(h.text));report.preserved++;continue}
+ if(structures[d.id]){structures[d.id].headings=(structures[d.id].headings||[]).filter(h=>!reject.test(h.text)||(typeof h.expectedText==='string'&&pages[h.page]?.text.slice(h.start,h.end)===h.expectedText));report.preserved++;continue}
  const printed=briefContents(pages),result={bodyStart:{page:0,offset:0},omitRanges:[],headings:[],repairs:[]};
  let inFront=false;
  for(let page=0;page<pages.length;page++){

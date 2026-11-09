@@ -9,7 +9,7 @@ function read(pages,page=0,layout={},structure={}) {
  const context=vm.createContext({data,page,readingCache:new Map(),displayMaps:new Map(),runningLineCache:new WeakMap(),
   ds:()=>({category:'Decision'}),category:d=>d.category,structureFor:()=>({bodyStart:{page:0,offset:0},omitRanges:[],headings:[],repairs:[],...structure}),
   layoutPage:()=>layout,tidyHeadingSpace:x=>x,tidyFootnoteMarkers:x=>x,extendHeadingMarker:x=>x});
- for(const name of ['normalizedMargin','runningLines','lowerBound','normalizeReadingTypography','repairReading','readingText'])vm.runInContext(fn(name),context);
+ for(const name of ['normalizedMargin','runningLines','lowerBound','normalizeReadingTypography','repairReading','preserveCounselBlocks','readingText'])vm.runInContext(fn(name),context);
  const result=vm.runInContext('readingText(data.pages[page].text,"fixture",page,data)',context);
  assert.equal(result.text.length,result.map.length);
  for(let i=0;i<result.map.length;i++){assert(result.map[i]>=0&&result.map[i]<data.pages[page].text.length);if(i)assert(result.map[i]>=result.map[i-1]);}

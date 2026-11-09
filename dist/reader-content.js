@@ -1,7 +1,7 @@
 // Persist only a constrained reader tree, never arbitrary HTML or private annotations.
 const tags=new Set(['span','div','p','br','strong','b','em','i','u','sup','sub','h2','h3','h4','section','header','small','details','summary','button','img','footer','a']);
 const attrs=new Set(['class','role','aria-level','aria-label','data-page','data-marker-page','data-text-doc','data-map-key','data-ref-key','data-action','data-value','tabindex','src','alt','data-start','data-seek-start','data-turn','data-end','href','rel','target']);
-const classes=new Set(['source-page','reader-inserted-marker','page-marker','page-text','reader-section-heading','minor','citation','footnote-anchor','reader-footnotes','footnote-entry','speaker-turn','justice-turn','advocate-turn','speaker-message','speaker-avatar','transcript-face','conversation-header','transcript-credit','transcript-paragraph','turn-time','illustrated-speaker','outline']);
+const classes=new Set(['source-page','counsel-block','reader-inserted-marker','page-marker','page-text','reader-section-heading','minor','citation','footnote-anchor','reader-footnotes','footnote-entry','speaker-turn','justice-turn','advocate-turn','speaker-message','speaker-avatar','transcript-face','conversation-header','transcript-credit','transcript-paragraph','turn-time','illustrated-speaker','outline']);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function captureReader(root){
  function node(n){if(n.nodeType===3)return n.data;if(n.nodeType!==1)return null;if(n.matches('.document-title,.document-margin'))return null;

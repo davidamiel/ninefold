@@ -12,7 +12,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 function render(text,citations,notes=[]) {
   const context=vm.createContext({
     text,esc,state:{notes},docCache:new Map(),ds:()=>({editorContent:true}),
-    citationRanges:()=>citations,
+    citationRanges:()=>citations,verifiedCounselBlocks:()=>[],
     noteMatches:()=>true,
     lowerBound:(_map,offset)=>offset,
     structureFor:()=>({headings:[],footnoteMarkers:[]}),
