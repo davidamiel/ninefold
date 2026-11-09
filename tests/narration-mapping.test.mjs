@@ -112,3 +112,24 @@ test('real untimed transcript keeps citation maps per fragment and highlights la
  await c.playNarrationChunk(n,0);ranges=c.CSS.highlights.get('narration').ranges;
  assert.equal(ranges.length,2);assert.strictEqual(ranges[0].el,elements[0]);assert.strictEqual(ranges[1].el,elements[1]);
 });
+
+test('sentence seek splits a narration chunk at its exact source anchor without replacing display maps',()=>{
+ const raw='An opening sentence. See 410 U.S. 113, 120 (1973). It designates when a complaint can be docketed. Final words.';
+ for(const timed of [true,false]){
+  const h=setup(raw,{timed}),rendered=h.render(),offset=raw.indexOf('It designates');
+  const chunks=h.context.narrationChunks('doc',{page:0,offset});
+  const selected=chunks.find(c=>c.sourceStart===offset);
+  assert(selected);assert(selected.text.startsWith('It designates'));
+  assert.strictEqual(h.context.displayMaps.get('doc:0'),rendered.map);
+  assert(chunks.filter(c=>c.sourceStart<offset).every(c=>c.sourceEnd<=offset));
+ }
+});
+
+
+test('citation-leading sentence anchors skip masked citation without extending the previous chunk',()=>{
+ const raw='First sentence. 410 U.S. 113, 120 (1973) supports the rule.';
+ const h=setup(raw,{timed:true}),offset=raw.indexOf('410'),chunks=h.context.narrationChunks('doc',{page:0,offset});
+ assert.equal(chunks.length,2);assert.equal(chunks[0].text,'First sentence.');
+ assert(chunks[0].sourceEnd<=offset);assert(chunks[1].sourceStart>offset);
+ assert.equal(chunks[1].text,'supports the rule.');
+});

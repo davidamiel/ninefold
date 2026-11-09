@@ -16,7 +16,7 @@ function harness(extra={}){
   URL:{createObjectURL:()=>{const url='blob:'+urls.length;urls.push(url);return url}},
   Blob:class{},refreshPlayback(){},highlightNarration(){},textRange(){},visiblePage(){return 0},
   stopArgument(){},closeReaderMenu(){},clearSelection(){},toast:x=>toasts.push(x),console:{warn(){}},
-  ensureDoc:async()=>{},narrationChunks:()=>[{page:0,sourceStart:0},{page:0,sourceStart:100},{page:0,sourceStart:200}],
+  ensureDoc:async()=>{},narrationChunks:()=>[{page:0,sourceStart:0,sourceEnd:100},{page:0,sourceStart:100,sourceEnd:200},{page:0,sourceStart:200,sourceEnd:300}],
   narrationAudio:{pause(){},play:async()=>{},currentTime:0},getVoiceWorker:()=>({postMessage:x=>messages.push(x)}),...extra
  };
  const factory=new Function('env',`
@@ -167,4 +167,11 @@ test('chunk transitions clear old media time before displaying the new elapsed t
  answer(h,1);await next;
  assert.equal(h.api.media.currentTime,0);
  h.api.stopNarration();await tick();
+});
+
+
+test('a masked gap before the selected chunk never falls back to the previous sentence',async()=>{
+ const h=setup({narrationChunks:()=>[{page:0,sourceStart:0,sourceEnd:15,text:'First sentence.'},{page:0,sourceStart:39,sourceEnd:57,text:'supports the rule.'}]});
+ const start=h.api.startNarration({docId:'a',page:0,offset:16});await tick();
+ assert.equal(h.api.current.index,1);answer(h,0);await start;
 });

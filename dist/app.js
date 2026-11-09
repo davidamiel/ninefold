@@ -19,7 +19,7 @@ function guardReaderEditingEvent(event){
 for(const type of ['click','pointerdown','input','change','keydown'])document.addEventListener(type,guardReaderEditingEvent,true);
 import {openCaseEditor} from './case-editor.js';
 import {compileDocument,validateContent,escapeMarkdown} from './content-model.js';
-import {sentenceAtTime,timeAtSentenceOffset} from './transcript-timing.js';
+import {sentenceAtTime,timeAtSentenceOffset,sentenceAtOffset} from './transcript-timing.js';
 import {briefContents} from './reader-contents.js';
 import {pdfSources,nativePDFURL,pdfPageRange,normalizePDFURL} from './pdf-source.js';
 import {preparePDFLayout} from './pdf-layout.js';
@@ -1094,7 +1094,7 @@ function maskSpokenCitations(text){
  return text;
 }
 function skipSpokenCitations(text){return maskSpokenCitations(text).replace(/\(\s*\)/g,'').replace(/\s+([,.;:!?])/g,'$1').replace(/[,;]\s*([.!?])/g,'$1').replace(/\s+/g,' ').trim()}
-function narrationChunks(id){
+function narrationChunks(id,anchor=null){
  const data=docCache.get(id),d=ds(id),chunks=[];if(!data)return chunks;
  data.pages.forEach((p,page)=>{
   if(d.sourceRange&&(page<d.sourceRange.startPage||page>d.sourceRange.endPage))return;
@@ -1106,6 +1106,7 @@ function narrationChunks(id){
   if(markers.length)clean.text=clean.text.split('').map((ch,i)=>markers.some(m=>clean.map[i]>=m.start&&clean.map[i]<m.end)?' ':ch).join('');
   clean.text=maskSpokenCitations(clean.text);
   const cuts=new Set([0,clean.text.length]);
+  if(anchor?.page===page&&Number.isFinite(anchor.offset))cuts.add(lowerBound(clean.map,anchor.offset));
   for(const m of clean.text.matchAll(/\n\n+/g)){cuts.add(m.index);cuts.add(m.index+m[0].length)}
   for(const h of structure.headings.filter(h=>h.page===page)){cuts.add(lowerBound(clean.map,h.start));cuts.add(lowerBound(clean.map,h.end))}
   const sorted=[...cuts].sort((a,b)=>a-b);
@@ -1197,13 +1198,13 @@ async function startNarration(anchor=null,{paused=false}={}){
  stopNarration();const token=++narrationToken;
  try{await ensureDoc(id)}catch(error){if(token===narrationToken)toast('This document could not load. Please try again.');return}
  if(token!==narrationToken)return;
- const chunks=narrationChunks(id);if(!chunks.length)return;
+ const chunks=narrationChunks(id,anchor);if(!chunks.length)return;
  stopArgument();
  const scroll=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`),page=anchor?.page??Number(scroll?visiblePage(scroll):0),offset=anchor?.offset||0;
  let index=chunks.findIndex(c=>c.page>page||c.page===page&&c.sourceStart>=offset);
  // A selection inside a chunk must include that chunk, not skip to the next one.
  const previous=index<0?chunks.length-1:index-1;
- if((index<0||chunks[index].page!==page||chunks[index].sourceStart>offset)&&previous>=0&&chunks[previous].page===page&&chunks[previous].sourceStart<=offset)index=previous;
+ if((index<0||chunks[index].page!==page||chunks[index].sourceStart>offset)&&previous>=0&&chunks[previous].page===page&&chunks[previous].sourceStart<=offset&&offset<chunks[previous].sourceEnd)index=previous;
  if(index<0)index=chunks.length-1;
  const n={id,token,index,engine:state.narrationEngine||'natural',voice:state.naturalVoice||'af_heart',loading:true,paused,chunks,cache:new Map(),pending:new Map()};
  if(n.engine==='device'&&voiceWorker){voiceWorker.terminate();voiceWorker=null}
@@ -1486,7 +1487,8 @@ document.addEventListener('click',async e=>{
  if(a==='reference-location'){const r=refsIndex.get(v)||state.refs.find(r=>r.key===v);if(r){jumpHeading(r.fromDoc,r.page??Number(r.key.split('|')[2]),r.offset??0)}}
  if(a==='retry-pdf')renderPDF(v);
  if(a==='focus-pane')focusReaderPane(v);
- const turn=e.target.closest('.speaker-turn');if(turn&&!b&&!e.target.closest('[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed){const id=turn.closest('[data-document]').dataset.document,d=ds(id);if(d.timedSession){const source=transcriptClickOffset(e,turn,id),record=d.timedSession.turns[Number(turn.dataset.turn)],start=source===null?null:timeAtSentenceOffset(record,source);await listen(d.caseId,d.timedSession.id,start??Number(e.target.closest('[data-seek-start]')?.dataset.seekStart??turn.dataset.start))}}
+ const turn=e.target.closest('.speaker-turn');if(turn&&!b&&!e.target.closest('[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed&&!e.target.closest('a')){const id=turn.closest('[data-document]').dataset.document;await seekTranscriptText(e,turn,id)}
+ if(!turn&&narration&&!b&&!e.target.closest('a,[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed){const text=e.target.closest('.page-text'),body=text?.closest('[data-document]');if(body)await seekTranscriptText(e,body,body.dataset.document)}
 });
 document.addEventListener('input',e=>{if(e.target.matches('.playback-volume'))audio.volume=Number(e.target.value);if(e.target.matches('.playback-seek')){const media=narration?narrationAudio:audio;media.currentTime=Number(e.target.value)}});
 function updateSeek(){const media=narration?narrationAudio:audio;const slider=document.querySelector('.playback-seek');if(slider&&document.activeElement!==slider){slider.max=Number.isFinite(media.duration)?media.duration:0;slider.value=media.currentTime}const label=document.querySelector('.playback-time');if(label)label.textContent=time(narration?narrationElapsed():audio.currentTime);const seekLabel=document.querySelector('.seek-close');if(seekLabel)seekLabel.textContent=time(media.currentTime)}
@@ -1516,6 +1518,24 @@ function officialTranscriptTurns(id,data){
 function untimedTranscriptHTML(id,data){
  const d=ds(id),c=contextCase(id),turns=officialTranscriptTurns(id,data);
  return `<article class="document-body conversation untimed-conversation" data-document="${esc(id)}"><header class="conversation-header"><div><h2>Oral Argument</h2><p>${date(c.argued)}</p><small>Synchronized timing is not yet available.</small></div>${c.audio?.url?button(icon('play')+'Listen','listen',c.id,'outline'):''}</header>${turns.map(t=>`<section class="speaker-turn ${t.justice?'justice-turn':'advocate-turn'}"><div class="speaker-avatar">${portrait(t.speaker,'transcript-face')}</div><div class="speaker-message"><header><strong>${esc(t.speaker)}</strong></header>${t.parts.map(p=>`<span class="source-page" data-page="${p.page}"><span class="page-text" data-text-doc="${esc(id)}" data-page="${p.page}" data-map-key="${esc(p.key)}">${renderText(p.text,id,p.page,p.map,p.key)}</span></span>`).join(' ')}</div></section>`).join('')}<footer class="transcript-credit">Official Court transcript · Speaker formatting preserves the filed text.</footer><aside class="document-margin"></aside></article>`;
+}
+
+// A plain text click follows the active reader engine. Explicit recording
+// buttons remain the way to switch from narration to the original recording.
+async function seekTranscriptText(event,turn,id){
+ if(readerEditing())return;
+ const d=ds(id);if(!d)return;
+ const text=event.target.closest('.page-text'),page=Number(text?.dataset.page??turn.dataset.turn);
+ const record=d.timedSession?.turns[page]||docCache.get(id)?.pages[page];if(!record)return;
+ const source=transcriptClickOffset(event,turn,id),start=source===null?null:timeAtSentenceOffset(record,source);
+ const time=start??Number(event.target.closest('[data-seek-start]')?.dataset.seekStart??turn.dataset.start);
+ if(narration){
+  if(source===null&&!d.timedSession)return;
+  const offset=(source===null?sentenceAtTime(record,time):sentenceAtOffset(record,source))?.start??source??0;
+  await startNarration({docId:id,page,offset},{paused:narration.paused});
+  return;
+ }
+ if(d.timedSession)await listen(d.caseId,d.timedSession.id,time);
 }
 
 // Native hit-testing keeps source offsets independent of wrapping and inline markup.
