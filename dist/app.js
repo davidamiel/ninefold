@@ -281,7 +281,7 @@ function arrangeCaseCards() {
   const workbench = canvas.querySelector('.case-workbench');
   const narrow = window.matchMedia('(max-width: 860px)').matches;
   const groups = narrow
-    ? [[canvas, ['outcome-card', 'question-card', 'case-materials', 'case-timeline', 'connections-card']]]
+    ? [[canvas, ['outcome-card', 'case-timeline', 'question-card', 'connections-card', 'case-materials']]]
     : [[summary, ['outcome-card', 'question-card', 'connections-card']], [workbench, ['case-timeline', 'case-materials']]];
   for (const [parent, classes] of groups) {
     for (const name of classes) {
