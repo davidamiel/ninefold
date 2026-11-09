@@ -1523,7 +1523,9 @@ function untimedTranscriptHTML(id,data){
 // A plain text click follows the active reader engine. Explicit recording
 // buttons remain the way to switch from narration to the original recording.
 async function seekTranscriptText(event,turn,id){
- if(readerEditing())return;
+ // Footnotes are intentionally omitted from narration; do not redirect their
+ // text clicks to the next (or final) body passage.
+ if(readerEditing()||event.target.closest('.footnote-entry,.reader-footnotes'))return;
  const d=ds(id);if(!d)return;
  const text=event.target.closest('.page-text'),page=Number(text?.dataset.page??turn.dataset.turn);
  const record=d.timedSession?.turns[page]||docCache.get(id)?.pages[page];if(!record)return;

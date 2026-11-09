@@ -47,3 +47,12 @@ test('active narration seeks untimed transcript and document source text without
  await context.seekTranscriptText({target:{closest:selector=>selector==='.page-text'?{dataset:{page:'0'}}:null}},{dataset:{}},'doc');
  assert.equal(starts.length,1);assert.equal(starts[0][0].offset,text.indexOf('A selected'));assert.equal(starts[0][0].page,0);
 });
+
+
+test('clicking an omitted footnote leaves active narration untouched',async()=>{
+ let calls=0;
+ const context=vm.createContext({readerEditing:()=>false,narration:{id:'doc',engine:'device',paused:false},ds:()=>{throw Error('footnote click must be ignored before source lookup')},startNarration:()=>calls++,listen:()=>calls++});
+ vm.runInContext(code,context);
+ await context.seekTranscriptText({target:{closest:selector=>selector==='.footnote-entry,.reader-footnotes'?{}:null}},{dataset:{}},'doc');
+ assert.equal(calls,0);
+});
