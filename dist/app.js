@@ -1126,7 +1126,7 @@ async function playNarrationChunk(n,index,offset=0){
   if(index+1<n.chunks.length)generateChunk(n,index+1).catch(()=>{});
  }catch(e){if(current()){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
 }
-async function startNarration(anchor=null){
+async function startNarration(anchor=null,{paused=false}={}){
  const id=anchor?.docId||state.active;
  stopNarration();const token=++narrationToken;
  try{await ensureDoc(id)}catch(error){if(token===narrationToken)toast('This document could not load. Please try again.');return}
@@ -1139,7 +1139,7 @@ async function startNarration(anchor=null){
  const previous=index<0?chunks.length-1:index-1;
  if((index<0||chunks[index].page!==page||chunks[index].sourceStart>offset)&&previous>=0&&chunks[previous].page===page&&chunks[previous].sourceStart<=offset)index=previous;
  if(index<0)index=chunks.length-1;
- const n={id,token,index,voice:state.naturalVoice||'af_heart',loading:true,paused:false,chunks,cache:new Map(),pending:new Map()};
+ const n={id,token,index,voice:state.naturalVoice||'af_heart',loading:true,paused,chunks,cache:new Map(),pending:new Map()};
  narration=n;closeReaderMenu();clearSelection();await playNarrationChunk(n,index);
 }
 function stopNarration(){narrationToken++;narrationAudio.pause();narrationAudio.removeAttribute('src');if(narration)for(const value of narration.cache.values())URL.revokeObjectURL(value.url);narration=null;voiceWorker?.postMessage({type:'cancel',session:narrationToken});for(const p of voicePending.values())p.reject(new Error('Cancelled'));voicePending.clear();CSS.highlights?.delete('narration');document.querySelectorAll('.narrating').forEach(e=>e.classList.remove('narrating'));refreshPlayback()}
@@ -1163,7 +1163,7 @@ async function skipPlayback(seconds){
 narrationAudio.addEventListener('ended',()=>{if(narration)playNarrationChunk(narration,narration.index+1)});
 narrationAudio.addEventListener('timeupdate',()=>{const label=document.querySelector('.playback-time');if(label&&narration)label.textContent=time(narrationElapsed())});
 document.addEventListener('click',async e=>{const b=e.target.closest('[data-action]'),a=b?.dataset.action;if(a==='playback-toggle'){if(narration){narration.paused=!narration.paused;if(!narration.loading){if(narration.paused)narrationAudio.pause();else narrationAudio.play().catch(()=>toast('Tap Play to resume.'))}}else if(audio.paused)audio.play().catch(()=>toast('Tap Play to start.'));else audio.pause();refreshPlayback()}else if(a==='playback-close'){stopNarration();stopArgument()}else if(a==='playback-skip')await skipPlayback(Number(b.dataset.value));else if(a==='playback-settings')listenMenu(b);else if(a==='narrate-selection'&&selection&&narration?.id===selection.docId){const x=selection;await startNarration({docId:x.docId,page:x.anchors[0].page,offset:x.anchors[0].start})}});
-document.addEventListener('change',e=>{if(e.target.matches('.playback-speed')){const rate=Number(e.target.value);if(narration){state.narrationSpeed=rate;narrationAudio.playbackRate=rate;persist()}else audio.playbackRate=rate}if(e.target.id==='natural-voice'){state.naturalVoice=e.target.value;persist();if(narration){const c=narration.chunks[narration.index];startNarration({docId:narration.id,page:c.page,offset:c.sourceStart})}}});
+document.addEventListener('change',e=>{if(e.target.matches('.playback-speed')){const rate=Number(e.target.value);if(narration){state.narrationSpeed=rate;narrationAudio.playbackRate=rate;persist()}else audio.playbackRate=rate}if(e.target.id==='natural-voice'){state.naturalVoice=e.target.value;persist();if(narration){const c=narration.chunks[narration.index];startNarration({docId:narration.id,page:c.page,offset:c.sourceStart},{paused:narration.paused})}}});
 
 function textRange(el,start,end){const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),r=document.createRange();let n,at=0,begun=false;while(n=w.nextNode()){const next=at+n.length;if(!begun&&start<=next){r.setStart(n,Math.max(0,start-at));begun=true}if(begun&&end<=next){r.setEnd(n,Math.max(0,end-at));return r}at=next}return null}
 function jumpHeading(id,page,offset){if(state.pdfDocs?.includes(id)){jumpPage(id,page);return}const el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"] .page-text[data-page="${page}"]`);if(!el)return;const pos=lowerBound(displayMaps.get(id+':'+page)||[],offset),r=textRange(el,pos,pos+1),scroll=el.closest('.doc-scroll');if(r)scroll.scrollBy({top:r.getBoundingClientRect().top-scroll.getBoundingClientRect().top-30,behavior:'smooth'})}
