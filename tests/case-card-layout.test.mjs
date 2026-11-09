@@ -17,7 +17,7 @@ for(const optional of [true,false])test(`case cards preserve DOM order through m
  const context=vm.createContext({document:{querySelector:()=>canvas},window:{matchMedia:()=>({matches:narrow})}});vm.runInContext(fn,context);
  const run=()=>vm.runInContext('arrangeCaseCards()',context);
  const names=parent=>parent.children.map(x=>x.name);
- const expected=['case-summary-scroll','case-workbench','outcome-card',...(optional?['question-card']:[]),'case-materials',...(optional?['case-timeline']:[]),'connections-card'];
+ const expected=['case-summary-scroll','case-workbench','outcome-card',...(optional?['case-timeline']:[]),...(optional?['question-card']:[]),'connections-card','case-materials'];
  run();assert.deepEqual(names(canvas),expected);run();assert.deepEqual(names(canvas),expected);
  narrow=false;run();assert.deepEqual(names(canvas),['case-summary-scroll','case-workbench']);assert.deepEqual(names(summary),['outcome-card',...(optional?['question-card']:[]),'connections-card']);assert.deepEqual(names(workbench),[...(optional?['case-timeline']:[]),'case-materials']);
  narrow=true;run();assert.deepEqual(names(canvas),expected);
