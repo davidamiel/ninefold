@@ -1067,13 +1067,81 @@ function updateTranscript(){
  if(face&&face.dataset.speaker!==(name||'')){face.dataset.speaker=name||'';const person=name?speakerProfile(name):null;face.classList.toggle('illustrated-speaker',!!person?.illustrationPath);face.innerHTML=name?(person?.portraitPath?`<img src="${esc(person.illustrationPath||person.portraitPath)}" alt="">`:`<span>${esc(name.split(' ').filter(x=>x.length>1).map(x=>x[0]).slice(0,2).join(''))}</span>`):''}
 }
 function stopArgument(){audio.pause();audio.removeAttribute('src');audioCase=null;audioSession=null;playbackExpanded=false;clearSpoken();closeReaderMenu();refreshPlayback()}
-function skipSpokenCitations(text){return text.replace(/\b\d+\s+U\.?\s*S\.?\s*C\.?\s*§{0,2}\s*[\w.()–-]+/g,'').replace(/\b\d+\s+(?:U\.?\s*S\.?|F\.(?:2d|3d|4th)|S\.\s*Ct\.|A\.(?:2d|3d))\s+\d+(?:,\s*\d+(?:[–-]\d+)?)?(?:\s*\(\d{4}\))?/g,'').replace(/\b\d{4}\s+WL\s+\d+(?:,?\s*at\s*\*?[\d–-]+)?/g,'').replace(/\b(?:Fed\.?\s*R\.?\s*Civ\.?\s*P\.?|Rule|Section)\s*\d+(?:\.\d+)*(?:\([\w]+\))*/g,'').replace(/§{1,2}\s*\d+[\w().–-]*/g,'').replace(/\b\d+\s+Del\.?\s+C\.?\s*§?\s*\d+[\w().–-]*/g,'').replace(/\b(?:Id\.|Ibid\.)\s*(?:at\s*\*?[\d–-]+)?/g,'').replace(/\(\s*\)/g,'').replace(/\s+([,.;:!?])/g,'$1').replace(/[,;]\s*([.!?])/g,'$1').replace(/\s+/g,' ').trim()}
-function narrationChunks(id){const data=docCache.get(id),d=ds(id),chunks=[];if(!data)return chunks;data.pages.forEach((p,page)=>{if(d.sourceRange&&(page<d.sourceRange.startPage||page>d.sourceRange.endPage))return;const start=page===d.sourceRange?.startPage?d.sourceRange.startOffset:0,end=page===d.sourceRange?.endPage?d.sourceRange.endOffset:p.text.length,original=d.timedSession?{text:p.text,map:Array.from(p.text,(_,i)=>i)}:readingText(p.text,id,page,data,start,end),clean={text:original.text,map:original.map},structure=structureFor(id,data),markers=structure.footnoteMarkers?.filter(m=>m.page===page)||[];if(markers.length)clean.text=Array.from(clean.text,(ch,i)=>markers.some(m=>clean.map[i]>=m.start&&clean.map[i]<m.end)?' ':ch).join('');const cuts=new Set([0,clean.text.length]);for(const m of clean.text.matchAll(/\n\n+/g)){cuts.add(m.index);cuts.add(m.index+m[0].length)}for(const h of structure.headings.filter(h=>h.page===page)){cuts.add(lowerBound(clean.map,h.start));cuts.add(lowerBound(clean.map,h.end))}const sorted=[...cuts].sort((a,b)=>a-b);for(let i=0;i<sorted.length-1;i++){const from=sorted[i],part=clean.text.slice(from,sorted[i+1]);for(const m of part.matchAll(/.{1,220}(?:\s|$)|\S{1,220}/gs)){const speech=skipSpokenCitations(m[0]);if(!/[a-zA-Z]/.test(speech))continue;const at=from+m.index;chunks.push({page,start:at,length:m[0].length,sourceStart:clean.map[at]??0,text:speech})}}});return chunks}
+function maskSpokenCitations(text){
+ // Mask before chunking so a chunk boundary cannot expose half a citation.
+ // Keep UTF-16 offsets stable for the source map and spoken highlight.
+ const patterns=[
+  /\b\d+\s+C\.\s*F\.\s*R\.\s*(?:§{1,2}\s*)?\d+(?:\.\d+)*(?:\([\w]+\))*/g,
+  /\b\d+\s+Del\.?\s+C\.?\s*§?\s*\d+[\w().–-]*/g,
+  /\bFed(?:eral)?\.?\s*R(?:ules?)?\.?\s*(?:of\s+)?(?:Civ(?:il)?|App(?:ellate)?|Crim(?:inal)?)\.?\s*P(?:rocedure)?\.?\s*\d+(?:\.\d+)*(?:\([\w]+\))*/gi,
+  /\bFed(?:eral)?\.?\s*R(?:ules?)?\.?\s*(?:of\s+)?Evid(?:ence)?\.?\s*\d+(?:\([\w]+\))*/gi,
+  /\b\d+\s+U\.?\s*S\.?\s*C\.?(?:\s*§{1,2}\s*|\s+)\d+[\w.()–-]*/g,
+  /\b\d+\s+(?:U\.?\s*S\.?|F\s*\.\s*(?:2d|3d|4th|Supp\.?(?:\s*(?:2d|3d))?|App['’]x)|S\.\s*Ct\.|L\.\s*Ed\.\s*(?:2d)?|A\.\s*(?:2d|3d))\s+\d+(?:,\s*\d+(?:[–-]\d+)?)?(?:\s*\((?:[^()\n]*?\s)?\d{4}\))?/gi,
+  /\b\d+\s+WL\s+\d+(?:,?\s*at\s*\*?[\d–-]+)?(?:\s*\([^()\n]*\d{4}\))?/g,
+  /\b(?:Id\.|Ibid\.)(?:\s+at\s*\*?[\d–-]+)?/g,
+  /\b(?:Pet\.?\s+App\.|J\.?\s*A\.?)\s*(?:at\s+)?\d+[a-z]?(?:[–-]\d+[a-z]?)?/g,
+  /\b(?:ECF|Dkt\.?|Docket)\s*(?:No\.?\s*)?\d+(?:[-–]\d+)?(?:\s*,?\s*(?:at|p{1,2}\.)\s*\d+(?:[-–]\d+)?)?/gi
+ ];
+ for(const pattern of patterns)text=text.replace(pattern,match=>match.replace(/[^\n]/g,' '));
+ return text;
+}
+function skipSpokenCitations(text){return maskSpokenCitations(text).replace(/\(\s*\)/g,'').replace(/\s+([,.;:!?])/g,'$1').replace(/[,;]\s*([.!?])/g,'$1').replace(/\s+/g,' ').trim()}
+function narrationChunks(id){const data=docCache.get(id),d=ds(id),chunks=[];if(!data)return chunks;data.pages.forEach((p,page)=>{if(d.sourceRange&&(page<d.sourceRange.startPage||page>d.sourceRange.endPage))return;const start=page===d.sourceRange?.startPage?d.sourceRange.startOffset:0,end=page===d.sourceRange?.endPage?d.sourceRange.endOffset:p.text.length,original=d.timedSession?{text:p.text,map:Array.from(p.text,(_,i)=>i)}:readingText(p.text,id,page,data,start,end),clean={text:original.text,map:original.map},structure=structureFor(id,data),markers=structure.footnoteMarkers?.filter(m=>m.page===page)||[];if(markers.length)clean.text=Array.from(clean.text,(ch,i)=>markers.some(m=>clean.map[i]>=m.start&&clean.map[i]<m.end)?' ':ch).join('');clean.text=maskSpokenCitations(clean.text);const cuts=new Set([0,clean.text.length]);for(const m of clean.text.matchAll(/\n\n+/g)){cuts.add(m.index);cuts.add(m.index+m[0].length)}for(const h of structure.headings.filter(h=>h.page===page)){cuts.add(lowerBound(clean.map,h.start));cuts.add(lowerBound(clean.map,h.end))}const sorted=[...cuts].sort((a,b)=>a-b);for(let i=0;i<sorted.length-1;i++){const from=sorted[i],part=clean.text.slice(from,sorted[i+1]);for(const m of part.matchAll(/.{1,220}(?:\s|$)|\S{1,220}/gs)){const speech=skipSpokenCitations(m[0]);if(!/[a-zA-Z]/.test(speech))continue;const at=from+m.index;chunks.push({page,start:at,length:m[0].length,sourceStart:clean.map[at]??0,text:speech})}}});return chunks}
 let voiceWorker=null,voiceRequest=0;const voicePending=new Map(),narrationAudio=new Audio();narrationAudio.preload='auto';
 function getVoiceWorker(){if(voiceWorker)return voiceWorker;voiceWorker=new Worker('./narration-worker.js',{type:'module'});voiceWorker.onmessage=({data})=>{if(data.type==='progress'){if(narration?.loading){const n=overlays.querySelector('.voice-progress')||document.querySelector('.voice-progress');if(n)n.textContent=data.progress.status==='progress'&&data.progress.total>10000000?'Preparing Voice '+Math.round(data.progress.progress)+'%':'Preparing Voice…'}return}const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);data.type==='audio'?p.resolve(data):p.reject(new Error(data.message))};voiceWorker.onerror=()=>{for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};return voiceWorker}
-function generateChunk(n,index){if(!n.chunks[index])return Promise.resolve(null);if(n.cache.has(index))return Promise.resolve(n.cache.get(index));if(n.pending.has(index))return n.pending.get(index);const id=++voiceRequest,promise=new Promise((resolve,reject)=>{voicePending.set(id,{resolve,reject});getVoiceWorker().postMessage({id,session:n.token,text:n.chunks[index].text,voice:state.naturalVoice||'af_heart'})}).then(data=>{const value={url:URL.createObjectURL(new Blob([data.wav],{type:'audio/wav'})),duration:data.duration};n.cache.set(index,value);n.pending.delete(index);return value});n.pending.set(index,promise);return promise}
-async function playNarrationChunk(n,index,offset=0){if(n!==narration)return;if(index>=n.chunks.length){stopNarration();return}n.index=index;n.loading=true;refreshPlayback();try{const clip=await generateChunk(n,index);if(n!==narration)return;n.loading=false;narrationAudio.src=clip.url;narrationAudio.playbackRate=state.narrationSpeed||1;narrationAudio.currentTime=Math.max(0,Math.min(offset,clip.duration));if(!n.paused)await narrationAudio.play();const chunk=n.chunks[index],el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`);if(el){highlightNarration(el,chunk.start,chunk.length);const r=textRange(el,chunk.start,chunk.start+Math.min(1,chunk.length)),scroll=el.closest('.doc-scroll');if(r&&scroll){const box=r.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}refreshPlayback();if(index+1<n.chunks.length)generateChunk(n,index+1).catch(()=>{});}catch(e){if(n===narration){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}}
-async function startNarration(anchor=null){const id=anchor?.docId||state.active;await ensureDoc(id);const chunks=narrationChunks(id);if(!chunks.length)return;stopNarration();stopArgument();const scroll=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`),page=anchor?.page??Number(scroll?visiblePage(scroll):0);let index=chunks.findIndex(c=>c.page>page||c.page===page&&c.sourceStart>=(anchor?.offset||0));if(index<0)index=0;const n={id,token:++narrationToken,index,loading:true,paused:false,chunks,cache:new Map(),pending:new Map()};narration=n;closeReaderMenu();clearSelection();await playNarrationChunk(n,index)}
+function generateChunk(n,index){
+ if(!n.chunks[index])return Promise.resolve(null);
+ if(n.cache.has(index))return Promise.resolve(n.cache.get(index));
+ if(n.pending.has(index))return n.pending.get(index);
+ const id=++voiceRequest;
+ const promise=new Promise((resolve,reject)=>{
+  voicePending.set(id,{resolve,reject});
+  try{getVoiceWorker().postMessage({id,session:n.token,text:n.chunks[index].text,voice:n.voice})}
+  catch(error){voicePending.delete(id);reject(error)}
+ }).then(data=>{
+  if(n!==narration)throw new Error('Cancelled');
+  const value={url:URL.createObjectURL(new Blob([data.wav],{type:'audio/wav'})),duration:data.duration};
+  n.cache.set(index,value);return value;
+ }).finally(()=>n.pending.delete(index));
+ n.pending.set(index,promise);return promise;
+}
+async function playNarrationChunk(n,index,offset=0){
+ if(n!==narration)return;
+ if(index>=n.chunks.length){stopNarration();return}
+ const request=n.playRequest=(n.playRequest||0)+1;
+ const current=()=>n===narration&&n.playRequest===request;
+ narrationAudio.pause();n.index=index;n.loading=true;refreshPlayback();
+ try{
+  const clip=await generateChunk(n,index);if(!current())return;
+  n.loading=false;narrationAudio.src=clip.url;narrationAudio.playbackRate=state.narrationSpeed||1;
+  narrationAudio.currentTime=Math.max(0,Math.min(offset,clip.duration));
+  if(!n.paused){
+   try{await narrationAudio.play()}
+   catch(error){if(!current())return;if(error.name!=='NotAllowedError')throw error;n.paused=true;toast('Tap Play to resume.')}
+  }
+  if(!current())return;
+  const chunk=n.chunks[index],el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`);
+  if(el){highlightNarration(el,chunk.start,chunk.length);const r=textRange(el,chunk.start,chunk.start+Math.min(1,chunk.length)),scroll=el.closest('.doc-scroll');if(r&&scroll){const box=r.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}
+  refreshPlayback();
+  if(index+1<n.chunks.length)generateChunk(n,index+1).catch(()=>{});
+ }catch(e){if(current()){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
+}
+async function startNarration(anchor=null,{paused=false}={}){
+ const id=anchor?.docId||state.active;
+ stopNarration();const token=++narrationToken;
+ try{await ensureDoc(id)}catch(error){if(token===narrationToken)toast('This document could not load. Please try again.');return}
+ if(token!==narrationToken)return;
+ const chunks=narrationChunks(id);if(!chunks.length)return;
+ stopArgument();
+ const scroll=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`),page=anchor?.page??Number(scroll?visiblePage(scroll):0),offset=anchor?.offset||0;
+ let index=chunks.findIndex(c=>c.page>page||c.page===page&&c.sourceStart>=offset);
+ // A selection inside a chunk must include that chunk, not skip to the next one.
+ const previous=index<0?chunks.length-1:index-1;
+ if((index<0||chunks[index].page!==page||chunks[index].sourceStart>offset)&&previous>=0&&chunks[previous].page===page&&chunks[previous].sourceStart<=offset)index=previous;
+ if(index<0)index=chunks.length-1;
+ const n={id,token,index,voice:state.naturalVoice||'af_heart',loading:true,paused,chunks,cache:new Map(),pending:new Map()};
+ narration=n;closeReaderMenu();clearSelection();await playNarrationChunk(n,index);
+}
 function stopNarration(){narrationToken++;narrationAudio.pause();narrationAudio.removeAttribute('src');if(narration)for(const value of narration.cache.values())URL.revokeObjectURL(value.url);narration=null;voiceWorker?.postMessage({type:'cancel',session:narrationToken});for(const p of voicePending.values())p.reject(new Error('Cancelled'));voicePending.clear();CSS.highlights?.delete('narration');document.querySelectorAll('.narrating').forEach(e=>e.classList.remove('narrating'));refreshPlayback()}
 function highlightNarration(el,start,length){if(!CSS.highlights)return;const r=textRange(el,start,start+length);if(r)CSS.highlights.set('narration',new Highlight(r))}
 function showNarrationDock(){refreshPlayback()}
@@ -1081,11 +1149,21 @@ function playbackControls(){const n=narration,active=n||audioCase;if(!active)ret
  return `<div class="playback-strip ${playbackExpanded?'expanded':''}" role="group" aria-label="Audio playback"><div class="playback-primary">${button(icon(paused?'play':'pause'),'playback-toggle','','playback-toggle',`aria-label="${paused?'Play':'Pause'}"`)}<span class="playback-identity">${!n&&currentTimedDoc()?'<span class="audio-speaker-portrait" id="audio-speaker-portrait"></span><span id="current-speaker">Oral argument</span>':`<span>${esc(n?documentLabel(ds(n.id)):'Oral argument')}</span>`}</span><select class="playback-speed" aria-label="Playback speed">${[.75,1,1.25,1.5,2].map(v=>`<option value="${v}" ${(n?state.narrationSpeed||1:audio.playbackRate)===v?'selected':''}>${v}×</option>`).join('')}</select>${button(icon('chevron'),'playback-expand','','playback-expand',`aria-expanded="${playbackExpanded}" aria-controls="playback-secondary" aria-label="${playbackExpanded?'Collapse':'Expand'} audio controls" title="${playbackExpanded?'Collapse':'Expand'} audio controls"`)}</div><div id="playback-secondary" class="playback-secondary">${button(skipIcon(false),'playback-skip','-10','skip-audio',`aria-label="Back 10 seconds" ${n?.loading?'disabled':''}`)}${button(skipIcon(true),'playback-skip','10','skip-audio',`aria-label="Forward 10 seconds" ${n?.loading?'disabled':''}`)}${state.seekOpen?`<input class="playback-seek" type="range" min="0" max="${Number.isFinite(media.duration)?media.duration:0}" value="${media.currentTime||0}" step="0.1" aria-label="Seek audio">${button(time(media.currentTime),'seek-toggle','','seek-close','aria-label="Show elapsed time"')}`:button(time(n?narrationElapsed():audio.currentTime),'seek-toggle','','playback-time','aria-label="Show audio seek bar"')}${state.route!=='reader'?button(icon('file'),'return-audio','','return-audio','aria-label="Return to transcript or document"'):''}${button(icon('audio'),'playback-settings','','',`aria-label="Audio options"`)}${button(icon('close'),'playback-close','','',`aria-label="Stop audio"`)}</div>${n?.loading?'<span class="voice-progress" role="status">Preparing Audio…</span>':''}</div>`}
 function narrationElapsed(){if(!narration)return 0;return [...narration.cache].filter(([index])=>index<narration.index).reduce((n,[,clip])=>n+clip.duration,0)+narrationAudio.currentTime}
 function refreshPlayback(){let slot=document.querySelector('#reader-playback,#global-playback');if(state.route!=='reader'){if(!audioCase&&!narration){document.querySelector('#global-playback')?.remove();return}if(!slot){app.querySelector('.nav-account')?.insertAdjacentHTML('beforebegin','<div id="global-playback"></div>');slot=document.querySelector('#global-playback')}}if(slot){slot.innerHTML=playbackControls();if(audioCase&&!narration)updateTranscript()}}
-async function skipPlayback(seconds){if(!narration){audio.currentTime=Math.max(0,Math.min(Number.isFinite(audio.duration)?audio.duration:Infinity,audio.currentTime+seconds));return}const n=narration;let index=n.index,position=narrationAudio.currentTime+seconds;narrationAudio.pause();while(position<0&&index>0){const prev=await generateChunk(n,--index);position+=prev.duration}while(index<n.chunks.length-1){const clip=await generateChunk(n,index);if(position<clip.duration)break;position-=clip.duration;index++}if(n===narration)await playNarrationChunk(n,index,Math.max(0,position))}
+async function skipPlayback(seconds){
+ if(!narration){audio.currentTime=Math.max(0,Math.min(Number.isFinite(audio.duration)?audio.duration:Infinity,audio.currentTime+seconds));return}
+ const n=narration,request=n.playRequest=(n.playRequest||0)+1,current=()=>n===narration&&n.playRequest===request;
+ let index=n.index,position=narrationAudio.currentTime+seconds;
+ narrationAudio.pause();n.loading=true;refreshPlayback();
+ try{
+  while(position<0&&index>0){const prev=await generateChunk(n,--index);if(!current())return;position+=prev.duration}
+  while(index<n.chunks.length-1){const clip=await generateChunk(n,index);if(!current())return;if(position<clip.duration)break;position-=clip.duration;index++}
+  if(current())await playNarrationChunk(n,index,Math.max(0,position));
+ }catch(error){if(current()){stopNarration();toast('Audio could not be prepared. Start reading again to retry.')}}
+}
 narrationAudio.addEventListener('ended',()=>{if(narration)playNarrationChunk(narration,narration.index+1)});
 narrationAudio.addEventListener('timeupdate',()=>{const label=document.querySelector('.playback-time');if(label&&narration)label.textContent=time(narrationElapsed())});
 document.addEventListener('click',async e=>{const b=e.target.closest('[data-action]'),a=b?.dataset.action;if(a==='playback-toggle'){if(narration){narration.paused=!narration.paused;if(!narration.loading){if(narration.paused)narrationAudio.pause();else narrationAudio.play().catch(()=>toast('Tap Play to resume.'))}}else if(audio.paused)audio.play().catch(()=>toast('Tap Play to start.'));else audio.pause();refreshPlayback()}else if(a==='playback-close'){stopNarration();stopArgument()}else if(a==='playback-skip')await skipPlayback(Number(b.dataset.value));else if(a==='playback-settings')listenMenu(b);else if(a==='narrate-selection'&&selection&&narration?.id===selection.docId){const x=selection;await startNarration({docId:x.docId,page:x.anchors[0].page,offset:x.anchors[0].start})}});
-document.addEventListener('change',e=>{if(e.target.matches('.playback-speed')){const rate=Number(e.target.value);if(narration){state.narrationSpeed=rate;narrationAudio.playbackRate=rate;persist()}else audio.playbackRate=rate}if(e.target.id==='natural-voice'){state.naturalVoice=e.target.value;persist();if(narration){const c=narration.chunks[narration.index];startNarration({docId:narration.id,page:c.page,offset:c.sourceStart})}}});
+document.addEventListener('change',e=>{if(e.target.matches('.playback-speed')){const rate=Number(e.target.value);if(narration){state.narrationSpeed=rate;narrationAudio.playbackRate=rate;persist()}else audio.playbackRate=rate}if(e.target.id==='natural-voice'){state.naturalVoice=e.target.value;persist();if(narration){const c=narration.chunks[narration.index];startNarration({docId:narration.id,page:c.page,offset:c.sourceStart},{paused:narration.paused})}}});
 
 function textRange(el,start,end){const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),r=document.createRange();let n,at=0,begun=false;while(n=w.nextNode()){const next=at+n.length;if(!begun&&start<=next){r.setStart(n,Math.max(0,start-at));begun=true}if(begun&&end<=next){r.setEnd(n,Math.max(0,end-at));return r}at=next}return null}
 function jumpHeading(id,page,offset){if(state.pdfDocs?.includes(id)){jumpPage(id,page);return}const el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"] .page-text[data-page="${page}"]`);if(!el)return;const pos=lowerBound(displayMaps.get(id+':'+page)||[],offset),r=textRange(el,pos,pos+1),scroll=el.closest('.doc-scroll');if(r)scroll.scrollBy({top:r.getBoundingClientRect().top-scroll.getBoundingClientRect().top-30,behavior:'smooth'})}
