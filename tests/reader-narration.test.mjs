@@ -109,3 +109,10 @@ test('citation masking precedes every possible chunk boundary and preserves offs
  assert.equal(mask('Section 2 protects voting rights. Rule 12 governs dismissal. In 2024, 12 people applied.'),'Section 2 protects voting rights. Rule 12 governs dismissal. In 2024, 12 people applied.');
  assert(source.indexOf('clean.text=maskSpokenCitations(clean.text)')<source.indexOf('for(const m of part.matchAll'));
 });
+
+test('voice restart preserves an explicit paused state',async()=>{
+ let plays=0;const h=setup({narrationAudio:{pause(){},currentTime:0,play:async()=>plays++}});
+ const start=h.api.startNarration({docId:'a',page:0,offset:100},{paused:true});
+ await tick();answer(h,0);await start;assert.equal(h.api.current.paused,true);assert.equal(plays,0);
+ assert(source.includes('offset:c.sourceStart},{paused:narration.paused}'));
+});
