@@ -94,3 +94,18 @@ test('synchronous worker failure leaves neither pending registry poisoned',async
  await assert.rejects(h.api.generateChunk(n,0));
  assert.equal(n.pending.size,0);assert.equal(h.api.voicePending.size,0);
 });
+
+test('citation masking precedes every possible chunk boundary and preserves offsets',()=>{
+ const mask=new Function(declaration('maskSpokenCitations')+';return maskSpokenCitations')();
+ for(const citation of ['410 U.S. 113, 120 (1973)','123 F. 3d 456, 460 (9th Cir. 1997)',"12 F. App’x 34",'42 U.S.C. § 1983','123 S. Ct. 456','2024 WL 1234, at *2','Id. at 24','J.A. 12','28 C.F.R. § 35.130','18 Del. C. § 6853','Fed. R. Civ. P. 12(b)(6)','Fed. R. Evid. 403']){
+  for(let offset=0;offset<221;offset++){
+   const text='x'.repeat(offset)+' '+citation+' protects substantive rights.';
+   const masked=mask(text);
+   assert.equal(masked.length,text.length);
+   assert.equal(masked.slice(offset+1,offset+1+citation.length).trim(),'');
+   assert.equal(masked.endsWith(' protects substantive rights.'),true);
+  }
+ }
+ assert.equal(mask('Section 2 protects voting rights. Rule 12 governs dismissal. In 2024, 12 people applied.'),'Section 2 protects voting rights. Rule 12 governs dismissal. In 2024, 12 people applied.');
+ assert(source.indexOf('clean.text=maskSpokenCitations(clean.text)')<source.indexOf('for(const m of part.matchAll'));
+});
