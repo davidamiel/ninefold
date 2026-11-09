@@ -40,3 +40,48 @@ test('renderers that leave mapping untouched still preserve every paragraph',()=
  const {map}=render(text,(text,map)=>({text,map}),true);
  assert.deepEqual(map,Array.from({length:text.length},(_,i)=>i));
 });
+
+function audioContext(overrides={}){
+ const cases=new Map([['a',{id:'a',audio:{url:'a.mp3'}}],['b',{id:'b'}],['c',{id:'c',audio:{url:'c.mp3'}}]]);
+ const context=vm.createContext({
+  caseMap:cases,argumentAlignment:{},audioCase:'a',audioSession:null,
+  state:{route:'reader',active:'b'},contextCase:id=>cases.get(id),getCase:()=>cases.get('b'),ds:()=>null,
+  currentTimedDoc:()=>null,followTranscript:true,icon:()=>'',esc:x=>x,
+  button:(label,action,value)=>'<button data-action="'+action+'" data-value="'+value+'">'+label+'</button>',
+  mountMenu:(trigger,html)=>{context.menu=html},stopNarration(){},refreshPlayback(){},closeReaderMenu(){},toast(){},
+  navigator:{},audio:{src:'a.mp3',volume:1,currentTime:12,playCalls:0,async play(){this.playCalls++}},
+  ...overrides
+ });
+ for(const name of ['listen','listenMenu']){
+   vm.runInContext(source.split('\n').find(line=>line.startsWith('function '+name+'(')||line.startsWith('async function '+name+'(')),context);
+ }
+ return context;
+}
+test('an unavailable viewed case never offers the currently playing case recording',()=>{
+ const context=audioContext();
+ context.listenMenu(null);
+ assert(!context.menu.includes('Oral Argument Recording'));
+ context.state.active='c';context.listenMenu(null);
+ assert(context.menu.includes('data-value="c">Oral Argument Recording'));
+});
+test('unavailable recordings do not resume another case; available recordings switch identity',async()=>{
+ const context=audioContext();
+ await context.listen('b');
+ assert.equal(context.audio.playCalls,0);
+ assert.equal(context.audio.src,'a.mp3');
+ assert.equal(context.audioCase,'a');
+ await context.listen('c');
+ assert.equal(context.audio.src,'c.mp3');
+ assert.equal(context.audioCase,'c');
+ assert.equal(context.audio.playCalls,1);
+ await context.listen('a');
+ assert.equal(context.audio.src,'a.mp3');
+ assert.equal(context.audioCase,'a');
+ assert.equal(context.audio.playCalls,2);
+});
+test('a timing session without a recording URL also leaves other playback untouched',async()=>{
+ const context=audioContext({argumentAlignment:{b:{sessions:[{id:'missing'}]}}});
+ await context.listen('b');
+ assert.equal(context.audio.playCalls,0);
+ assert.equal(context.audio.src,'a.mp3');
+});
