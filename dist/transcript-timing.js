@@ -127,3 +127,25 @@ export function sentenceAtTime(turn, time) {
   // Do not expose the cached range to mutation by callers.
   return {start: sentence.start, end: sentence.end};
 }
+
+/** Seek to the sentence containing a source offset. Block/turn estimates use
+ * the same character interpolation as sentenceAtTime; word anchors win. */
+export function timeAtSentenceOffset(turn, offset) {
+  if (!turn || typeof turn.text !== 'string' || !turn.text.length || !Number.isFinite(offset) || !Number.isFinite(turn.start) || !Number.isFinite(turn.end) || turn.end <= turn.start) return null;
+  const {sentences, words, blocks} = prepareTurn(turn);
+  if (!sentences.length) return null;
+  const source = Math.max(0, Math.min(turn.text.length - 1, offset));
+  const sentence = sentences[lastStarted(sentences, source)];
+  const start = sentence.start;
+  const word = words.find(w => w.offset >= start && w.offset < sentence.end);
+  let time;
+  if (word) time = word.start;
+  else {
+    const block = blocks.find(b => start >= b.offset && start < b.offset + b.length);
+    const anchor = block || {start: turn.start, end: turn.end, offset: 0, length: turn.text.length};
+    // A tiny fraction of one character avoids a floating-point roundoff into
+    // the previous sentence when the player updates at this exact seek time.
+    time = anchor.start + (anchor.end - anchor.start) * (start - anchor.offset + 1e-7) / anchor.length;
+  }
+  return Math.max(turn.start, Math.min(turn.end - 1e-6, time));
+}

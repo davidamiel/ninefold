@@ -1,6 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {sentenceAtTime} from '../dist/transcript-timing.js';
+import fs from 'node:fs';
+import {sentenceAtTime,timeAtSentenceOffset} from '../dist/transcript-timing.js';
 
 function timedWords(text, starts = []) {
   return Array.from(text.matchAll(/\S+/gu), (word, i) => [word.index, starts[i] ?? i + 1, (starts[i] ?? i + 1) + 0.2]);
@@ -161,4 +162,40 @@ test('empty and invalid inputs never produce a highlight', () => {
   }
   assert.equal(sentenceAtTime({text: 'Text', start: 0, end: 1}, NaN), null);
   assert.equal(sentenceAtTime({text: 'Text', start: 0, end: 1}, Infinity), null);
+});
+
+test('seeks later sentences inside one timed block instead of restarting the turn', () => {
+ const text='First sentence. Second sentence. Final sentence.';
+ const turn={text,start:5,end:105,blocks:[{text,start:5,end:105}]};
+ for(const label of ['Final','First','Second']){
+  const offset=text.indexOf(label),time=timeAtSentenceOffset(turn,offset+3);
+  assert(Math.abs(time-(5+100*offset/text.length))<1e-5);
+  assert.equal(sentenceAtTime(turn,time).start,offset);
+ }
+});
+test('real Berk opening final paragraph seeks near its end and highlights that sentence', () => {
+ const turn=JSON.parse(fs.readFileSync('dist/data/argument-alignment.json','utf8'))['24-440'].sessions[0].turns[1];
+ const offset=turn.text.indexOf('This is a procedural law.');
+ const seek=timeAtSentenceOffset(turn,offset+8);
+ assert(seek>110&&seek<turn.end);
+ assert.equal(sentenceAtTime(turn,seek).start,offset);
+});
+test('sentence seek uses word anchors, repeated blocks, and safe invalid-input fallbacks', () => {
+ const text='Yes. No. Yes.';
+ const turn={text,start:0,end:30,blocks:[{text:'Yes.',start:0,end:5},{text:'No.',start:10,end:15},{text:'Yes.',start:20,end:30}]};
+ assert(Math.abs(timeAtSentenceOffset(turn,11)-20)<1e-5);
+ assert(Math.abs(timeAtSentenceOffset(turn,6)-10)<1e-5);
+ assert.equal(timeAtSentenceOffset({...turn,words:[[0,1,2],[5,12,13],[9,22,23]]},11),22);
+ for(const bad of [null,{}, {...turn,end:0},{...turn,text:''}])assert.equal(timeAtSentenceOffset(bad,0),null);
+ assert.equal(timeAtSentenceOffset(turn,NaN),null);
+ assert(timeAtSentenceOffset(turn,-99)>=0);
+ assert(timeAtSentenceOffset(turn,999)<30);
+});
+test('turn interpolation preserves UTF-16 offsets and abbreviation sentence boundaries', () => {
+ const text='Mr. Smith agrees. The emoji is \u{1f600}. Final.';
+ const turn={text,start:0,end:50};
+ for(const offset of [0,text.indexOf('The'),text.indexOf('Final')]){
+  const seek=timeAtSentenceOffset(turn,offset+1);
+  assert.equal(sentenceAtTime(turn,seek).start,offset);
+ }
 });
