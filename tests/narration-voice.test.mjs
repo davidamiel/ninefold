@@ -32,8 +32,8 @@ test('American male selection reaches generation for the current and prefetched 
   messages.push(message);
   voicePending.get(message.id).resolve({wav:new ArrayBuffer(8),duration:2});
  }};
- const n={token:4,chunks:[{text:'First sentence.'},{text:'Second sentence.'}],cache:new Map(),pending:new Map()};
- const values={voiceRequest:0,voicePending,state:{naturalVoice:'am_michael'},
+ const n={voice:'am_michael',token:4,chunks:[{text:'First sentence.'},{text:'Second sentence.'}],cache:new Map(),pending:new Map()};
+ const values={narration:n,voiceRequest:0,voicePending,state:{naturalVoice:'am_michael'},
   getVoiceWorker:()=>worker,URL:{createObjectURL:()=> 'blob:voice'},Blob:class{},n};
  await run('generateChunk',values,'Promise.all([generateChunk(n,0),generateChunk(n,1)])');
  assert.equal(messages.length,2);
