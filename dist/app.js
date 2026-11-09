@@ -884,12 +884,12 @@ function noteMatches(n,id){return (n.sourceDocId||n.docId)===annotationSourceId(
 function lowerBound(map,value){let lo=0,hi=map.length;while(lo<hi){const mid=(lo+hi)>>1;if(map[mid]<value)lo=mid+1;else hi=mid}return lo}
 function normalizedMargin(s){return s.replace(/\d+/g,'#').replace(/\s+/g,' ').trim()}
 function runningLines(data){if(runningLineCache.has(data))return runningLineCache.get(data);const counts=new Map();for(const p of data.pages){const lines=p.text.split('\n').map(x=>x.trim()).filter(Boolean);for(const t of new Set([...lines.slice(0,4),...lines.slice(-3)].map(normalizedMargin)))if(t.length>5&&t.length<100)counts.set(t,(counts.get(t)||0)+1)}const repeated=new Set([...counts].filter(([s,n])=>n>=Math.max(3,Math.ceil(data.pages.length*.18))).map(([s])=>s));runningLineCache.set(data,repeated);return repeated}
-function readingText(raw,id,page,data,start=0,end=raw.length,includeFootnotes=false){
- if(ds(id)?.editorContent){const text=raw.slice(start,end),map=Array.from({length:text.length},(_,i)=>start+i);displayMaps.set(id+':'+page,map);return {text,map}}
- const mapKey=id+':'+page+(includeFootnotes?':fn:'+start:''),key=mapKey+':'+start+':'+end;if(readingCache.has(key)){const c=readingCache.get(key);displayMaps.set(mapKey,c.map);return c}
+function readingText(raw,id,page,data,start=0,end=raw.length,includeFootnotes=false,registerDisplayMap=true){
+ if(ds(id)?.editorContent){const text=raw.slice(start,end),map=Array.from({length:text.length},(_,i)=>start+i);if(registerDisplayMap)displayMaps.set(id+':'+page,map);return {text,map}}
+ const mapKey=id+':'+page+(includeFootnotes?':fn:'+start:''),key=mapKey+':'+start+':'+end;if(readingCache.has(key)){const c=readingCache.get(key);if(registerDisplayMap)displayMaps.set(mapKey,c.map);return c}
  if(ds(id)?.type==='Statute'){
     const text=raw.slice(start,end),map=Array.from({length:text.length},(_,i)=>start+i);
-    displayMaps.set(mapKey,map);readingCache.set(key,{text,map});return {text,map};
+    if(registerDisplayMap)displayMaps.set(mapKey,map);readingCache.set(key,{text,map});return {text,map};
  }
  const structure=structureFor(id,data);if(!includeFootnotes){if(page<structure.bodyStart.page)return {text:'',map:[]};if(page===structure.bodyStart.page)start=Math.max(start,structure.bodyStart.offset)}const all=[...raw.matchAll(/[^\n]*(?:\n|$)/g)].filter(m=>m[0]),lines=[];
  const isTranscript=category(ds(id))==='Argument';
@@ -915,7 +915,7 @@ function readingText(raw,id,page,data,start=0,end=raw.length,includeFootnotes=fa
   if(text){if(text.endsWith('-')&&/^[a-z]/.test(t)&&!paragraph){text=text.slice(0,-1);map.pop()}else{const sep=paragraph?'\n\n':' ';text+=sep;for(let j=0;j<sep.length;j++)map.push(Math.max(map.at(-1)||0,line.at-1))}}
   add(t,line.at);previous=t;previousAt=line.at;blank=false;
  }
- let result=normalizeReadingTypography(text,map);result=repairReading(result,structure.repairs.filter(r=>r.page===page),raw);result=tidyHeadingSpace(result,structure.headings.filter(h=>h.page===page).map(h=>extendHeadingMarker(h,structure)));result=tidyFootnoteMarkers(result,(structure.footnoteMarkers||[]).filter(m=>m.page===page));result=preserveCounselBlocks(result,raw,(structure.counselBlocks||[]).filter(b=>b.page===page&&b.start>=start&&b.end<=end));readingCache.set(key,result);displayMaps.set(mapKey,result.map);return result;
+ let result=normalizeReadingTypography(text,map);result=repairReading(result,structure.repairs.filter(r=>r.page===page),raw);result=tidyHeadingSpace(result,structure.headings.filter(h=>h.page===page).map(h=>extendHeadingMarker(h,structure)));result=tidyFootnoteMarkers(result,(structure.footnoteMarkers||[]).filter(m=>m.page===page));result=preserveCounselBlocks(result,raw,(structure.counselBlocks||[]).filter(b=>b.page===page&&b.start>=start&&b.end<=end));readingCache.set(key,result);if(registerDisplayMap)displayMaps.set(mapKey,result.map);return result;
 }
 // Source-pinned signature layouts keep their exact whitespace and source anchors.
 function preserveCounselBlocks(value,raw,blocks){let {text,map}=value;for(const block of [...blocks].sort((a,b)=>b.start-a.start)){if(raw.slice(block.start,block.end)!==block.expectedText)continue;const a=lowerBound(map,block.start),b=lowerBound(map,block.end);if(b<=a)continue;const literal=raw.slice(block.start,block.end);text=text.slice(0,a)+literal+text.slice(b);map=[...map.slice(0,a),...Array.from({length:literal.length},(_,i)=>block.start+i),...map.slice(b)];}return {text,map};}
@@ -1087,7 +1087,38 @@ function maskSpokenCitations(text){
  return text;
 }
 function skipSpokenCitations(text){return maskSpokenCitations(text).replace(/\(\s*\)/g,'').replace(/\s+([,.;:!?])/g,'$1').replace(/[,;]\s*([.!?])/g,'$1').replace(/\s+/g,' ').trim()}
-function narrationChunks(id){const data=docCache.get(id),d=ds(id),chunks=[];if(!data)return chunks;data.pages.forEach((p,page)=>{if(d.sourceRange&&(page<d.sourceRange.startPage||page>d.sourceRange.endPage))return;const start=page===d.sourceRange?.startPage?d.sourceRange.startOffset:0,end=page===d.sourceRange?.endPage?d.sourceRange.endOffset:p.text.length,original=d.timedSession?{text:p.text,map:Array.from(p.text,(_,i)=>i)}:readingText(p.text,id,page,data,start,end),clean={text:original.text,map:original.map},structure=structureFor(id,data),markers=structure.footnoteMarkers?.filter(m=>m.page===page)||[];if(markers.length)clean.text=Array.from(clean.text,(ch,i)=>markers.some(m=>clean.map[i]>=m.start&&clean.map[i]<m.end)?' ':ch).join('');clean.text=maskSpokenCitations(clean.text);const cuts=new Set([0,clean.text.length]);for(const m of clean.text.matchAll(/\n\n+/g)){cuts.add(m.index);cuts.add(m.index+m[0].length)}for(const h of structure.headings.filter(h=>h.page===page)){cuts.add(lowerBound(clean.map,h.start));cuts.add(lowerBound(clean.map,h.end))}const sorted=[...cuts].sort((a,b)=>a-b);for(let i=0;i<sorted.length-1;i++){const from=sorted[i],part=clean.text.slice(from,sorted[i+1]);for(const m of part.matchAll(/.{1,220}(?:\s|$)|\S{1,220}/gs)){const speech=skipSpokenCitations(m[0]);if(!/[a-zA-Z]/.test(speech))continue;const at=from+m.index;chunks.push({page,start:at,length:m[0].length,sourceStart:clean.map[at]??0,text:speech})}}});return chunks}
+function narrationChunks(id){
+ const data=docCache.get(id),d=ds(id),chunks=[];if(!data)return chunks;
+ data.pages.forEach((p,page)=>{
+  if(d.sourceRange&&(page<d.sourceRange.startPage||page>d.sourceRange.endPage))return;
+  const start=page===d.sourceRange?.startPage?d.sourceRange.startOffset:0,end=page===d.sourceRange?.endPage?d.sourceRange.endOffset:p.text.length;
+  // Speech uses reading/source coordinates only. Never replace a map belonging
+  // to rendered text: citation labels and transcript paragraph breaks change it.
+  const original=d.timedSession?{text:p.text,map:Array.from({length:p.text.length},(_,i)=>i)}:readingText(p.text,id,page,data,start,end,false,false);
+  const clean={text:original.text,map:original.map},structure=structureFor(id,data),markers=structure.footnoteMarkers?.filter(m=>m.page===page)||[];
+  if(markers.length)clean.text=clean.text.split('').map((ch,i)=>markers.some(m=>clean.map[i]>=m.start&&clean.map[i]<m.end)?' ':ch).join('');
+  clean.text=maskSpokenCitations(clean.text);
+  const cuts=new Set([0,clean.text.length]);
+  for(const m of clean.text.matchAll(/\n\n+/g)){cuts.add(m.index);cuts.add(m.index+m[0].length)}
+  for(const h of structure.headings.filter(h=>h.page===page)){cuts.add(lowerBound(clean.map,h.start));cuts.add(lowerBound(clean.map,h.end))}
+  const sorted=[...cuts].sort((a,b)=>a-b);
+  for(let i=0;i<sorted.length-1;i++){
+   const from=sorted[i],part=clean.text.slice(from,sorted[i+1]);
+   for(const m of part.matchAll(/.{1,220}(?:\s|$)|\S{1,220}/gs)){
+    const speech=skipSpokenCitations(m[0]);if(!/[a-zA-Z]/.test(speech))continue;
+    const leading=m[0].search(/\S/),readingStart=from+m.index+Math.max(0,leading),readingEnd=from+m.index+m[0].trimEnd().length;
+    chunks.push({page,readingStart,readingEnd,sourceStart:clean.map[readingStart]??0,sourceEnd:(clean.map[readingEnd-1]??0)+1,text:speech});
+   }
+  }
+ });return chunks;
+}
+function narrationDisplayRange(el,chunk){
+ const map=displayMaps.get(el.dataset.mapKey||el.dataset.textDoc+':'+chunk.page);
+ if(!map?.length||!Number.isFinite(chunk.sourceStart)||!Number.isFinite(chunk.sourceEnd))return null;
+ const start=lowerBound(map,chunk.sourceStart),end=lowerBound(map,chunk.sourceEnd);
+ return end>start?{start,end}:null;
+}
+
 let voiceWorker=null,voiceRequest=0;const voicePending=new Map(),narrationAudio=new Audio();narrationAudio.preload='auto';
 function getVoiceWorker(){if(voiceWorker)return voiceWorker;const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;worker.onmessage=({data})=>{if(voiceWorker!==worker)return;if(data.type==='progress'){if(narration?.loading){const n=overlays.querySelector('.voice-progress')||document.querySelector('.voice-progress');if(n)n.textContent=data.progress.status==='progress'&&data.progress.total>10000000?'Preparing Voice '+Math.round(data.progress.progress)+'%':'Preparing Voice…'}return}const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);data.type==='audio'?p.resolve(data):p.reject(new Error(data.message))};worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};return worker}
 function generateChunk(n,index,priority=false){
@@ -1126,7 +1157,8 @@ async function playNarrationChunk(n,index,offset=0){
   }
   if(!current())return;
   const chunk=n.chunks[index],el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`);
-  if(el){highlightNarration(el,chunk.start,chunk.length);const r=textRange(el,chunk.start,chunk.start+Math.min(1,chunk.length)),scroll=el.closest('.doc-scroll');if(r&&scroll){const box=r.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}
+  const displayed=el?narrationDisplayRange(el,chunk):null;
+  if(displayed){highlightNarration(el,displayed.start,displayed.end-displayed.start);const r=textRange(el,displayed.start,Math.min(displayed.start+1,displayed.end)),scroll=el.closest('.doc-scroll');if(r&&scroll){const box=r.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}else CSS.highlights?.delete('narration');
   refreshPlayback();
 
  }catch(e){if(current()){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
