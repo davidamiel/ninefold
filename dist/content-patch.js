@@ -1,9 +1,10 @@
+import {validateReaderContent} from './reader-content.js';
 import {compileMarkdown,validateContent} from './content-model.js';
 import {normalizePDFURL} from './pdf-source.js';
 
 const forbidden=new Set(['__proto__','prototype','constructor']);
 const caseFields=['name','description','questions'];
-const docFields=['title','category','pdfUrl','content'];
+const docFields=['title','category','pdfUrl','content','readerContent'];
 const own=(v,k)=>Object.hasOwn(v,k);
 const copy=v=>structuredClone(v);
 function object(v,keys){
@@ -25,6 +26,7 @@ function fields(v,document=false){
  for(const [k,x]of Object.entries(v)){
   if(k==='questions'){if(!Array.isArray(x))throw Error('Invalid questions.');for(const q of x){object(q);if(own(q,'label'))string(q.label,'question label');string(q.text,'question text');}}
   else if(k==='content')content(x);
+  else if(k==='readerContent')validateReaderContent(x);
   else {string(x,k,k==='name'||k==='title'||k==='category');if(k==='pdfUrl')normalizePDFURL(x);}
  }
 }
