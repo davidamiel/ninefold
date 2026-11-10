@@ -8,6 +8,8 @@ const errors=[];page.on('pageerror',e=>errors.push(e.message));
 await page.route('**/app.js',async route=>{const r=await route.fetch();await route.fulfill({response:r,body:(await r.text())+'\nwindow.__berkVisual={open:openDoc,render:documentHTML,ensure:ensureDoc,reading:readingText,source:sourceJSON};'});});
 await page.goto(base+'#/case/24-440');await page.waitForFunction(()=>window.__court&&window.__berkVisual);
 async function settleReader(){await page.evaluate(()=>new Promise((resolve,reject)=>{let quiet;const finish=()=>{clearTimeout(limit);observer.disconnect();resolve();};const changed=()=>{clearTimeout(quiet);quiet=setTimeout(finish,350);};const observer=new MutationObserver(changed);observer.observe(document.querySelector('.document-body').parentElement,{childList:true,subtree:true});const limit=setTimeout(()=>{observer.disconnect();reject(new Error('Reader did not settle'));},10000);changed();}));}
+async function prepareMarker(selector){await page.locator(selector).evaluate(el=>el.scrollIntoView({block:'center',behavior:'instant'}));await page.evaluate(()=>new Promise((resolve,reject)=>{let last=performance.now();const onScroll=()=>last=performance.now();document.addEventListener('scroll',onScroll,true);const started=performance.now();function frame(){const now=performance.now();if(now-last>=250){document.removeEventListener('scroll',onScroll,true);resolve();}else if(now-started>10000){document.removeEventListener('scroll',onScroll,true);reject(new Error('Reader scroll did not settle'));}else requestAnimationFrame(frame);}requestAnimationFrame(frame);}));await settleReader();}
+async function captureReader(name){await page.screenshot({path:name,fullPage:false});const b64=fs.readFileSync(name).toString('base64');console.log('READER_PNG_BEGIN '+name+' '+b64.length);for(let i=0;i<b64.length;i+=16000)console.log('READER_PNG_CHUNK '+name+' '+i+' '+b64.slice(i,i+16000));console.log('READER_PNG_END '+name);}
 const evidence=await page.evaluate(async()=>{
  const id='24-440-660786c6b1c6',qa=window.__berkVisual;
  const data=await qa.ensure(id),structure=(await qa.source('data/reader-structure.json'))[id];
@@ -27,13 +29,13 @@ assert.deepEqual(evidence.anchors,['*',...Array.from({length:12},(_,i)=>String(i
 for(const x of evidence.checks){assert(x.bodyAbsentFromProse,x.label);assert(x.bodyCharacters>50,x.label);}
 assert.equal(evidence.folios.length,58);assert(evidence.folios.every(x=>x.absent));assert(evidence.coverNames.every(Boolean));assert.equal(evidence.coverLength,660);
 await page.evaluate(()=>window.__berkVisual.open('24-440-660786c6b1c6'));
-await page.waitForSelector('.document-body .source-page[data-page="2"]');await settleReader();await page.locator('.document-body .source-page[data-page="2"]').scrollIntoViewIfNeeded();await page.screenshot({path:'berk-appendix-page3-reader.png',fullPage:false});await page.locator('.document-body .source-page[data-page="2"] .footnote-anchor').click();await page.waitForSelector('.peek .peek-content');assert.match(await page.locator('.peek .peek-content').innerText(),/does not constitute binding precedent/);await page.screenshot({path:'berk-appendix-asterisk-reader.png',fullPage:false});await page.locator('.peek [data-action="dismiss-peek"]').click();await page.waitForSelector('.peek',{state:'detached'});await settleReader();await page.waitForSelector('.document-body .source-page[data-page="3"]');
-await page.locator('.document-body .source-page[data-page="3"]').scrollIntoViewIfNeeded();
-await page.screenshot({path:'berk-appendix-page4-reader.png',fullPage:false});
+await page.waitForSelector('.document-body .source-page[data-page="2"]');await settleReader();await prepareMarker('.document-body .source-page[data-page="2"] .footnote-anchor');await captureReader('berk-appendix-page3-reader.png');await page.locator('.document-body .source-page[data-page="2"] .footnote-anchor').click();await page.waitForSelector('.peek .peek-content');assert.match(await page.locator('.peek .peek-content').innerText(),/does not constitute binding precedent/);await captureReader('berk-appendix-asterisk-reader.png');await page.locator('.peek [data-action="dismiss-peek"]').click();await page.waitForSelector('.peek',{state:'detached'});await settleReader();await page.waitForSelector('.document-body .source-page[data-page="3"]');
+await prepareMarker('.document-body .source-page[data-page="3"] .footnote-anchor');
+await captureReader('berk-appendix-page4-reader.png');
 await page.locator('.document-body .source-page[data-page="3"] .footnote-anchor').first().click();
 await page.waitForSelector('.peek .peek-content');
 assert.match(await page.locator('.peek .peek-content').innerText(),/Defendants are Wilson C\. Choy/);
-await page.screenshot({path:'berk-appendix-footnote1-reader.png',fullPage:false});
+await captureReader('berk-appendix-footnote1-reader.png');
 await page.evaluate(()=>window.__berkVisual.open('24-440-ffcc04da2f19'));
 await page.waitForSelector('.document-body .source-page[data-page="1"]');await settleReader();
 assert.equal(await page.locator('.document-body .source-page[data-page="0"]').count(),0);
@@ -56,11 +58,5 @@ evidence.opposition=opposition;
 
 assert.deepEqual(errors,[]);
 fs.writeFileSync('berk-visual-browser-evidence.json',JSON.stringify(evidence,null,2));
-for(const name of ['berk-appendix-page3-reader.png','berk-appendix-asterisk-reader.png','berk-appendix-page4-reader.png','berk-appendix-footnote1-reader.png']){
- const b64=fs.readFileSync(name).toString('base64');
- console.log('READER_PNG_BEGIN '+name+' '+b64.length);
- for(let i=0;i<b64.length;i+=16000)console.log('READER_PNG_CHUNK '+name+' '+i+' '+b64.slice(i,i+16000));
- console.log('READER_PNG_END '+name);
-}
 console.log('PASS Berk visual browser '+JSON.stringify(evidence));
 await browser.close();

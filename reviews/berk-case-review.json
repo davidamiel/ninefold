@@ -1839,6 +1839,10 @@
         "status": "browser-harness-rerender-race-no-deployment",
         "diagnosisRun": "https://github.com/davidamiel/ninefold/actions/runs/42760236184",
         "finding": "Native asterisk click created correct disclaimer popup; redundant document reopen detached next target. Synchronize settled DOM and dismiss popup before next interaction."
+      },
+      "scrollSynchronization": {
+        "run": "https://github.com/davidamiel/ninefold/actions/runs/42760510568",
+        "finding": "Asterisk native-click and content assertions passed. Popup subsequently closed while automated scrolling settled; reader intentionally dismisses popups on scroll. Harness now centers actual marker and waits for scroll stability; PNG evidence is emitted immediately."
       }
     }
   },
