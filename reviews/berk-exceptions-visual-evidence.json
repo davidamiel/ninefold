@@ -540,7 +540,37 @@
   },
   "limitations": [
     "Only 11 source pages visually inspected in this report, not full41-page opposition or60-page appendix.",
-    "Actual corrected Chromium rendering checks pending integration; source raster inspection is not browser verification.",
-    "Remaining appendix pages, source citation semantics and all other extracted-document visual accuracy remain unreviewed."
-  ]
+    "Remaining appendix pages, source citation semantics and all other extracted-document visual accuracy remain unreviewed.",
+    "Full appendix/opposition reader visual accuracy is not certified; pre-existing inline folios and unreviewed PDF page 3 asterisk footnote remain."
+  ],
+  "renderedVerification": {
+    "run": "https://github.com/davidamiel/ninefold/actions/runs/42756784017",
+    "artifact": "https://github.com/davidamiel/ninefold/actions/runs/42756784017/artifacts/13736280935",
+    "commit": "b1eb022ef9fb2468905d526010cd226ea3263fd8",
+    "automated": {
+      "footnoteBodies": 12,
+      "footnoteMarkers": 12,
+      "allBodiesExcludedFromProse": true,
+      "oppositionCoverNames": true,
+      "artifact": "https://github.com/davidamiel/ninefold/actions/runs/42756784017/artifacts/13736280935",
+      "actualScreenshotInspection": {
+        "status": "passed-bounded-view",
+        "images": [
+          "berk-appendix-page4-reader.png",
+          "berk-appendix-footnote1-reader.png"
+        ],
+        "findings": "Corrected Delaware text, superscript markers 1/2, footnote bodies excluded from main prose, and correct three-defendant text in footnote 1 popup. No new grouping/callout regression observed.",
+        "remaining": "Pre-existing inline printed folios 2a/3a and unreviewed appendix PDF page 3 asterisk footnote remain."
+      }
+    },
+    "actualScreenshotInspection": {
+      "status": "passed-bounded-view",
+      "images": [
+        "berk-appendix-page4-reader.png",
+        "berk-appendix-footnote1-reader.png"
+      ],
+      "findings": "Corrected Delaware text, superscript markers 1/2, footnote bodies excluded from main prose, and correct three-defendant text in footnote 1 popup. No new grouping/callout regression observed.",
+      "remaining": "Pre-existing inline printed folios 2a/3a and unreviewed appendix PDF page 3 asterisk footnote remain."
+    }
+  }
 }

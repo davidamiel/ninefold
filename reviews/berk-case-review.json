@@ -1441,7 +1441,8 @@
     "Cert appendix has suspicious internal word spaces; runtime reading normalization needs detailed comparison.",
     "DRI source includes Hanna v. Plummer and Pledger circuit attribution issues; preserve as filed, do not silently rewrite.",
     "Official question sheet reports decision below as 2024 WL 5354482; opinion cites 2024 WL 3534482. Source discrepancy retained, not silently rewritten.",
-    "17 previously zero-text/garbled original-only PDFs now have source-only visual identity/date review; remaining originals and full reader visual/layout and semantic pinpoint reviews are not complete."
+    "17 previously zero-text/garbled original-only PDFs now have source-only visual identity/date review; remaining originals and full reader visual/layout and semantic pinpoint reviews are not complete.",
+    "Actual corrected-reader screenshots still show pre-existing inline printed folios 2a/3a and an unreviewed appendix PDF page 3 asterisk footnote in main flow; no case-wide visual certification."
   ],
   "verification": {
     "publicationCommit": "bfd9e6ab0acbe5601b8376d3701e47dfe66f39d8",
@@ -1543,6 +1544,49 @@
       "restorationCommit": "c9ba63d2441648f23f5be4b134cbc01f02a4b0ad",
       "verifiedBlob": "4fc4bea158bd1352a67e3dd777ef2fbe7c4a2e92",
       "originalBlob": "4fc4bea158bd1352a67e3dd777ef2fbe7c4a2e92"
+    },
+    "integratedValidation": {
+      "commit": "b1eb022ef9fb2468905d526010cd226ea3263fd8",
+      "run": "https://github.com/davidamiel/ninefold/actions/runs/42756784017",
+      "status": "success",
+      "tests": {
+        "passed": 309,
+        "failed": 0
+      },
+      "sourceAudit": "passed",
+      "packagedAudit": "passed",
+      "build": "passed",
+      "readerDocuments": 27,
+      "visualBrowser": {
+        "footnoteBodies": 12,
+        "footnoteMarkers": 12,
+        "allBodiesExcludedFromProse": true,
+        "oppositionCoverNames": true,
+        "artifact": "https://github.com/davidamiel/ninefold/actions/runs/42756784017/artifacts/13736280935",
+        "actualScreenshotInspection": {
+          "status": "passed-bounded-view",
+          "images": [
+            "berk-appendix-page4-reader.png",
+            "berk-appendix-footnote1-reader.png"
+          ],
+          "findings": "Corrected Delaware text, superscript markers 1/2, footnote bodies excluded from main prose, and correct three-defendant text in footnote 1 popup. No new grouping/callout regression observed.",
+          "remaining": "Pre-existing inline printed folios 2a/3a and unreviewed appendix PDF page 3 asterisk footnote remain."
+        }
+      },
+      "preflight": {
+        "files": 5587,
+        "bytes": 270324856,
+        "problems": 0,
+        "artifact": "https://github.com/davidamiel/ninefold/actions/runs/42756784017/artifacts/13736335804"
+      },
+      "referenceStructure": {
+        "occurrences": 3378,
+        "internalDocuments": 130,
+        "locatedPages": 221,
+        "invalidTargets": 0,
+        "externalSourceOnly": 313,
+        "sourceLookupRequired": 428
+      }
     }
   },
   "referenceResolverCorrection": {
@@ -1594,7 +1638,7 @@
     }
   ],
   "followthroughEvidence": {
-    "status": "bounded-review-integrated-pending-build-and-publication",
+    "status": "validated-awaiting-deployment",
     "originals": "reviews/berk-originals-visual-evidence.json",
     "externalSources": "reviews/berk-external-source-review.json",
     "commonCircuitAuthorities": "reviews/berk-common-circuit-reference-review.json",
