@@ -30,9 +30,9 @@ for(const x of evidence.checks){assert(x.bodyAbsentFromProse,x.label);assert(x.b
 assert.equal(evidence.folios.length,58);assert(evidence.folios.every(x=>x.absent));assert(evidence.coverNames.every(Boolean));assert.equal(evidence.coverLength,660);
 await page.evaluate(()=>window.__berkVisual.open('24-440-660786c6b1c6'));
 await page.waitForSelector('.document-body .source-page[data-page="2"]');await settleReader();await prepareMarker('.document-body .source-page[data-page="2"] .footnote-anchor');await captureReader('berk-appendix-page3-reader.png');await page.locator('.document-body .source-page[data-page="2"] .footnote-anchor').click();await page.waitForSelector('.peek .peek-content');assert.match(await page.locator('.peek .peek-content').innerText(),/does not constitute binding precedent/);await captureReader('berk-appendix-asterisk-reader.png');await page.locator('.peek [data-action="dismiss-peek"]').click();await page.waitForSelector('.peek',{state:'detached'});await settleReader();await page.waitForSelector('.document-body .source-page[data-page="3"]');
-await prepareMarker('.document-body .source-page[data-page="3"] .footnote-anchor');
+await prepareMarker('.document-body .source-page[data-page="3"] .footnote-anchor[aria-label="Footnote 1"]');
 await captureReader('berk-appendix-page4-reader.png');
-await page.locator('.document-body .source-page[data-page="3"] .footnote-anchor').first().click();
+await page.locator('.document-body .source-page[data-page="3"] .footnote-anchor[aria-label="Footnote 1"]').first().click();
 await page.waitForSelector('.peek .peek-content');
 assert.match(await page.locator('.peek .peek-content').innerText(),/Defendants are Wilson C\. Choy/);
 await captureReader('berk-appendix-footnote1-reader.png');

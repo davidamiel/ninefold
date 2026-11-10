@@ -21,7 +21,6 @@ body:not(.reader-mode){background-image:repeating-linear-gradient(12deg,#506c770
 body:not(.reader-mode) #app>.main.term-page{overflow:hidden}
 .term-chooser>#term-dropdown{flex:0 0 auto;width:110px;height:36px;padding:5px 10px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--ink);font:inherit;font-size:14px}
 .register-controls>#term-dropdown{flex:0 0 110px}
-.sidebar-document-label{display:block;max-width:210px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-size:11px;font-weight:400;color:var(--muted);margin-top:2px}
 /* Explicit containment prevents carousel content from sizing either column. */
 .front-page .front-middle{grid-template-rows:350px;align-items:stretch}
 .front-page .front-middle>.front-feature,.front-page .front-middle>.front-recent{height:350px;min-height:0;max-height:350px;overflow:hidden;box-sizing:border-box;display:flex;flex-direction:column}
@@ -154,3 +153,129 @@ body:not(.reader-mode):has(.workspace-dock) #app>.main:not(.term-page){padding-b
 }
 .argument-advocates .directory-portrait{box-sizing:border-box;width:72px;height:72px;min-width:72px;flex:0 0 72px;margin:0;padding:2px;overflow:hidden}
 .argument-advocates .directory-portrait img{width:100%;height:100%;object-fit:contain}
+
+/* Stable reader tabs: controls occupy their own columns, including on hover. */
+.reader-shell .tabbar .tab,
+.reader-shell .tabbar .tab.selected {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 26px 26px;
+  column-gap: 2px;
+  padding: 0 3px 0 7px;
+  font-weight: 500;
+  height: auto;
+  min-height: 36px;
+}
+.reader-shell .tabbar .tab > button[role=tab] {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: baseline;
+  column-gap: .45em;
+  row-gap: 0;
+  min-width: 0;
+  width: 100%;
+  padding: 5px 3px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+.reader-tab-title,
+.reader-tab-author {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.reader-tab-author {color: var(--muted);}
+.reader-shell .tabbar .tab .tab-menu-button,
+.reader-shell .tabbar .tab .close {
+  position: static;
+  transform: none;
+  display: inline-flex;
+  width: 26px;
+  min-width: 26px;
+  height: 30px;
+  min-height: 30px;
+  padding: 3px;
+  opacity: 1;
+  background: transparent;
+}
+.reader-shell .tabbar .tab .tab-menu-button:hover,
+.reader-shell .tabbar .tab .tab-menu-button[aria-expanded=true],
+.reader-shell .tabbar .tab .close:hover {background: var(--nf-dust);}
+.reader-shell .pane-tabs > .tabbar {height: auto; min-height: 38px;}
+@media (max-width:760px) {
+  .reader-shell .tabbar .tab {grid-template-columns: minmax(0, 1fr) 30px 30px;}
+  .reader-shell .tabbar .tab .tab-menu-button,
+  .reader-shell .tabbar .tab .close {width: 30px; min-width: 30px; height: 32px; min-height: 32px;}
+  .reader-shell .work-main:has(.panes.split) > .tabbar {height: auto; min-height: 38px;}
+}
+
+/* The explorer is UI: one type family and a small, shared hierarchy. */
+.reader-shell .sidebar {
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.reader-shell .sidebar :is(button, input, select, textarea, h2, h3, h4) {
+  font-family: inherit;
+}
+.reader-shell .sidebar-head {
+  min-height: 40px;
+  padding: 8px 12px;
+  gap: 8px;
+  align-items: center;
+}
+.reader-shell .sidebar-head > strong {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.reader-shell .sidebar-scroll {padding: 8px 12px 20px;}
+.reader-shell .sidebar :is(h2, h3, h4) {
+  text-transform: none;
+  letter-spacing: normal;
+}
+.reader-shell .reader-case-info h2 {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.reader-shell .reader-case-info h3,
+.reader-shell .reader-vote-group h4 {
+  margin: 16px 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.reader-shell .reader-case-info p {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.reader-shell .reader-case-info .judgment-beneficiary,
+.reader-shell .reader-case-meta,
+.reader-shell .reader-case-info .reader-case-dates {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.reader-shell .reader-case-info .judgment-beneficiary {color: var(--muted);}
+.reader-shell .reader-case-areas {margin: 12px 0;}
+.reader-shell .reader-case-info .reader-case-dates {margin: 16px 0; gap: 6px 12px;}
+.reader-shell .reader-votes .vote-portraits {margin: 8px 0 0; gap: 12px 16px;}
+.reader-shell .reader-votes .vote-coalition > span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 6px;
+}
+.reader-shell .explorer-section > summary {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.reader-shell .explorer-document strong {font-size: 13px; line-height: 1.4;}
+.reader-shell .explorer-document small {font-size: 12px; line-height: 1.4;}

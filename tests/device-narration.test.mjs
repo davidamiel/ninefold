@@ -49,7 +49,7 @@ test('automatic mode never falls back to an online voice',()=>{
 });
 test('device player shares compact mobile expansion controls',()=>{
  const fn=source.slice(source.indexOf('function devicePlaybackControls('),source.indexOf('function playbackControls('));
- assert.match(fn,/<span class="playback-identity"><span>/);assert.match(fn,/playbackExpanded\?'expanded'/);assert.match(fn,/playback-expand/);assert.match(fn,/aria-controls="playback-secondary"/);
+ assert.match(fn,/button\(narrationIdentity\(n\),'playback-expand'/);assert.match(fn,/playbackExpanded\?'expanded'/);assert.match(fn,/playback-expand/);assert.match(fn,/aria-controls="playback-secondary"/);
 });
 
 test('late natural-audio completion cannot advance device speech',()=>{

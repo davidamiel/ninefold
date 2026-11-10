@@ -6,7 +6,7 @@ const source=fs.readFileSync('dist/app.js','utf8');
 function render(expanded,paused=false){
  const context=vm.createContext({playbackExpanded:expanded,state:{narrationSpeed:1.25,route:'reader'},esc:x=>x,ds:()=>({}),documentLabel:()=> 'Opinion',icon:x=>x,
  button:(label,action,value='',cls='',extra='')=>'<button class="'+cls+'" data-action="'+action+'" data-value="'+value+'" '+extra+'>'+label+'</button>'});
- vm.runInContext(source.split('\n').find(line=>line.startsWith('function devicePlaybackControls(')),context);
+ vm.runInContext(source.slice(source.indexOf('function narrationIdentity('),source.indexOf('function playbackControls(')),context);
  return context.devicePlaybackControls({id:'opinion',index:0,chunks:Array(111),paused});
 }
 test('device narration does not expose synthesis passage counts',()=>{

@@ -1,5 +1,8 @@
 name: Publish Ninefold
 on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -10,6 +13,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
+    if: github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'Publish consolidated Ninefold reader interface'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

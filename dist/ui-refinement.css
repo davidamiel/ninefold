@@ -156,3 +156,30 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 #app #global-playback .playback-secondary{right:0}
 #app #global-playback .playback-secondary button{color:var(--ink)}
 #app .playback-strip .voice-progress{position:absolute;top:calc(100% + 4px);right:10px;left:auto;z-index:31;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:5px;padding:4px 8px;max-width:190px}
+
+#app .playback-strip.expanded .voice-progress {
+  top: calc(100% + 66px);
+  pointer-events: none;
+}
+@media (max-width: 420px) {
+  .reader-controls > [data-value=view] {width: 32px; padding: 6px; font-size: 0; gap: 0;}
+  .reader-controls > .reader-minimize {width: 32px; padding: 6px;}
+  .reader-top .reader-controls {gap: 2px;}
+  .reader-shell .document-body.conversation {padding-inline: 10px;}
+  .reader-shell .conversation .speaker-turn {margin-inline: 0; max-width: 100%;}
+}
+
+/* Keep the touch target generous while the painted player stays compact. */
+#app .playback-strip .playback-toggle {
+  background: transparent; color: var(--ink); box-shadow: none; padding: 9px;
+}
+#app .playback-strip .playback-toggle svg {
+  box-sizing: border-box; width: 27px; height: 27px; padding: 6px;
+  border-radius: 50%; background: var(--nf-accent); color: white;
+}
+#app .playback-strip .playback-expand.playback-identity {
+  width: 36px; min-width: 36px; padding: 3px; margin: 0;
+}
+#app .playback-strip.expanded .playback-identity svg {transform: none;}
+#app .playback-identity #current-speaker {display: none;}
+#app .playback-strip .playback-secondary select {flex: none;}
