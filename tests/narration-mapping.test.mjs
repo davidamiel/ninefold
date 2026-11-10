@@ -1,3 +1,4 @@
+import {sentenceRanges} from '../dist/transcript-timing.js';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -13,7 +14,7 @@ function setup(raw,{timed=false,editor=false,range,markers=[],headings=[],citati
  const doc={type:'Statute',timedSession:timed?{}:null,editorContent:editor,sourceRange:range};
  const data={pages:[{text:raw}]},structure={headings,footnoteMarkers:markers};
  const context=vm.createContext({
-  Intl,Map,Array,Number,Math,Set,displayMaps:new Map(),readingCache:new Map(),
+  sentenceRanges,Intl,Map,Array,Number,Math,Set,displayMaps:new Map(),readingCache:new Map(),
   ds:()=>doc,docCache:new Map([['doc',data]]),structureFor:()=>structure,
   verifiedCounselBlocks:()=>[],counselGridCells:()=>[],citationRanges:()=>citations,
   state:{notes:[]},esc:s=>s,extendHeadingMarker:h=>h,
@@ -107,7 +108,7 @@ test('real untimed transcript keeps citation maps per fragment and highlights la
  await c.playNarrationChunk(n,0);
  let ranges=c.CSS.highlights.get('narration').ranges;
  assert.equal(ranges.length,1);assert.strictEqual(ranges[0].el,elements[1]);
- assert.equal(elements[1].text.slice(ranges[0].start,ranges[0].end),elements[1].text);
+ assert.equal(elements[1].text.slice(ranges[0].start,ranges[0].end),'See [1].');
  n={id:'doc',chunks:[{page:0,sourceStart:0,sourceEnd:raw.length,text:raw}],paused:false};c.narration=n;
  await c.playNarrationChunk(n,0);ranges=c.CSS.highlights.get('narration').ranges;
  assert.equal(ranges.length,2);assert.strictEqual(ranges[0].el,elements[0]);assert.strictEqual(ranges[1].el,elements[1]);
@@ -132,4 +133,35 @@ test('citation-leading sentence anchors skip masked citation without extending t
  assert.equal(chunks.length,2);assert.equal(chunks[0].text,'First sentence.');
  assert(chunks[0].sourceEnd<=offset);assert(chunks[1].sourceStart>offset);
  assert.equal(chunks[1].text,'supports the rule.');
+});
+
+
+test('Berk Dr. Wilson Choy sentence highlights the whole sentence, never a synthesis fragment',()=>{
+ const raw='An earlier sentence. Dr. Wilson Choy recommended that Berk be ftted with a protective boot. The fitting did not go well.';
+ const h=setup(raw,{timed:true}),rendered=h.render(),chunks=h.context.narrationChunks('doc');
+ const selected=chunks.find(c=>c.text.includes('Choy recommended'));
+ assert(selected.text.startsWith('Dr. Wilson Choy'));
+ const range=h.context.narrationDisplayRange(h.el,selected);
+ assert.equal(rendered.text.slice(range.start,range.end),'Dr. Wilson Choy recommended that Berk be ftted with a protective boot.');
+ // Deliberately retain the supplied extraction error: highlighting must not edit text.
+ assert(rendered.text.includes('ftted'));
+});
+test('multiple clips of one long sentence keep the same complete sentence highlight',()=>{
+ const sentence='Dr. Wilson Choy '+('recommended careful treatment '.repeat(18))+'before discharge.';
+ const raw='Before. '+sentence+' After.',h=setup(raw,{timed:true}),rendered=h.render(),chunks=h.context.narrationChunks('doc');
+ const pieces=chunks.filter(c=>c.highlightStart===raw.indexOf('Dr.'));
+ assert(pieces.length>1);assert(pieces.every(c=>c.text.length<=221));
+ for(const chunk of pieces){const range=h.context.narrationDisplayRange(h.el,chunk);assert.equal(rendered.text.slice(range.start,range.end),sentence);}
+});
+
+
+test('mid-sentence anchors and mode changes retain the complete sentence display range',()=>{
+ const sentence='Dr. Wilson Choy '+('recommended careful treatment '.repeat(18))+'before discharge.';
+ const raw='Before. '+sentence+' After.',h=setup(raw,{timed:true}),rendered=h.render(),start=raw.indexOf('Dr.');
+ const original=h.context.narrationChunks('doc'),later=original.find(c=>c.sourceStart>start&&c.highlightStart===start);
+ for(const offset of [raw.indexOf('Choy'),later.sourceStart]){
+  const chunks=h.context.narrationChunks('doc',{page:0,offset}),selected=chunks.find(c=>c.sourceStart===offset);
+  assert(selected);const range=h.context.narrationDisplayRange(h.el,selected);
+  assert.equal(rendered.text.slice(range.start,range.end),sentence);
+ }
 });

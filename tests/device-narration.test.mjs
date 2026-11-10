@@ -11,8 +11,8 @@ test('device voice uses speech directly without a neural worker and prefers loca
  const h=harness();h.player.play('A useful passage.');assert.equal(h.spoken[0].text,'A useful passage.');assert.equal(h.spoken[0].voice.voiceURI,'local');assert.equal(h.spoken[0].rate,1);
  h.spoken[0].onend();assert.equal(h.ended,1);
 });
-test('explicit voice and rate are honored',()=>{
- const h=harness();h.player.play('Passage',{voiceURI:'remote',rate:1.5});assert.equal(h.spoken[0].voice.voiceURI,'remote');assert.equal(h.spoken[0].rate,1.5);
+test('fast audio ignores a saved remote voice but honors rate',()=>{
+ const h=harness();h.player.play('Passage',{voiceURI:'remote',rate:1.5});assert.equal(h.spoken[0].voice.voiceURI,'local');assert.equal(h.spoken[0].rate,1.5);
 });
 test('pause suppresses late completion and resumes at the last reported boundary',()=>{
  const h=harness();h.player.play('First second third.');const first=h.spoken[0];first.onboundary({charIndex:6});h.player.pause();first.onend();first.onerror({error:'interrupted'});assert.equal(h.ended,0);assert.equal(h.errors,0);
@@ -45,7 +45,7 @@ test('automatic mode never falls back to an online voice',()=>{
  let spoken=0,error;
  const player=new DeviceNarrator({synth:{getVoices:()=>[{voiceURI:'remote',lang:'en-US',localService:false}],cancel(){},resume(){},speak(){spoken++}},Utterance:class{},onError:e=>error=e});
  player.play('Potentially private text.');assert.equal(spoken,0);assert.equal(error,'no-local-voice');
- player.play('Selected online voice',{voiceURI:'remote'});assert.equal(spoken,1);
+ player.play('Old saved online voice',{voiceURI:'remote'});assert.equal(spoken,0);
 });
 test('device player shares compact mobile expansion controls',()=>{
  const fn=source.slice(source.indexOf('function devicePlaybackControls('),source.indexOf('function playbackControls('));

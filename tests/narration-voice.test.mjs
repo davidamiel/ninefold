@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 const source=fs.readFileSync('dist/app.js','utf8');
 function declaration(name){
- const start=source.indexOf('function '+name+'(');
+ const start=source.search(new RegExp('^(?:async )?function '+name+'\\(','m'));
  assert(start>=0);
  const end=source.indexOf('\nfunction ',start+1);
  return source.slice(start,end<0?undefined:end);
@@ -16,15 +16,15 @@ function menu(voice){
  run('listenMenu',{
   audioCase:null,caseMap:new Map(),contextCase:()=>({}),ds:()=>({textPath:'document'}),
   state:{active:'document',naturalVoice:voice},mountMenu:(_trigger,value)=>{html=value},
-  button:()=>'',icon:()=>''
+  button:(label,action,value)=>`<button data-action="${action}" data-value="${value}">${label}</button>`,icon:()=>''
  },'listenMenu({})');
  return html;
 }
-test('American male narration is selectable and restores its saved selection',()=>{
+test('Listen presents only Natural and Fast choices without voice dropdowns or instructions',()=>{
  const html=menu('am_michael');
- assert.match(html,/<option value="am_michael" selected>Michael · American male<\/option>/);
- assert.match(menu(undefined),/<option value="af_heart" selected>/);
- for(const voice of ['af_heart','af_bella','bm_george'])assert.match(html,new RegExp('value="'+voice+'"'));
+ assert.match(html,/data-value="natural">Natural/);assert.match(html,/data-value="device">Fast/);
+ assert.doesNotMatch(html,/<select|Available voices|Online voices|Skip moves|Heart|Bella|Michael|George/);
+ assert.match(source,/voice:'am_michael'/);
 });
 test('American male selection reaches generation for the current and prefetched chunks',async()=>{
  const messages=[],voicePending=new Map();
@@ -41,15 +41,23 @@ test('American male selection reaches generation for the current and prefetched 
  assert.deepEqual(messages.map(m=>m.session),[4,4]);
  assert.equal(n.cache.size,2);
 });
-test('changing voice persists selection and restarts from the same source location',()=>{
- const handler=source.split('\n').find(line=>line.startsWith("document.addEventListener('change'")&&line.includes("e.target.id==='natural-voice'"));
- assert(handler);
- let change,saved=0,anchor;
- const state={},narration={id:'document',index:1,chunks:[{}, {page:3,sourceStart:72}]};
- Function('document','state','narration','persist','startNarration',handler)(
-  {addEventListener:(_type,fn)=>{change=fn}},state,narration,()=>{saved++},value=>{anchor=value});
- change({target:{id:'natural-voice',value:'am_michael',matches:()=>false}});
- assert.equal(state.naturalVoice,'am_michael');
- assert.equal(saved,1);
- assert.deepEqual(anchor,{docId:'document',page:3,offset:72});
+test('requesting Natural or Fast preserves source position and pause state without voice menus',async()=>{
+ for(const mode of ['natural','device']){
+  let saved=0,args;
+  const state={active:'document',deviceVoice:'old-online-voice'},narration={id:'document',index:1,paused:true,chunks:[{}, {page:3,sourceStart:72}]};
+  await run('requestNarrationMode',{state,narration,persist:()=>saved++,startNarration:async(...values)=>args=values},`requestNarrationMode('${mode}')`);
+  assert.equal(state.narrationEngine,mode);assert.equal(state.naturalVoice,'am_michael');assert.equal(state.deviceVoice,undefined);assert.equal(saved,1);
+  assert.deepEqual(args,[{docId:'document',page:3,offset:72},{paused:true}]);
+ }
+});
+test('a new audio request starts the active document without a second confirmation',async()=>{
+ let args;
+ await run('requestNarrationMode',{state:{},narration:null,persist(){},startNarration:async(...values)=>args=values},"requestNarrationMode('natural')");
+ assert.deepEqual(args,[null,{paused:false}]);
+});
+
+test('requesting audio on another document does not restart the old document',async()=>{
+ let args;
+ await run('requestNarrationMode',{state:{active:'new-doc'},narration:{id:'old-doc',index:0,paused:true,chunks:[{page:4,sourceStart:12}]},persist(){},startNarration:async(...values)=>args=values},"requestNarrationMode('device')");
+ assert.deepEqual(args,[null,{paused:false}]);
 });

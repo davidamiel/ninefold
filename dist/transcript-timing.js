@@ -28,7 +28,7 @@ function fallbackSegments(text) {
   return ranges;
 }
 
-function sentenceRanges(text) {
+export function sentenceRanges(text) {
   let ranges;
   try {
     if (typeof globalThis.Intl?.Segmenter === 'function') {

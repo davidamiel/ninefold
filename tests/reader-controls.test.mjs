@@ -3,12 +3,14 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const source=fs.readFileSync('dist/app.js','utf8');
-test('expanded mobile playback is bounded by the reader header, not the compact player slot',()=>{
+test('secondary playback controls stay outside the fixed-height reader toolbar',()=>{
  const css=fs.readFileSync('dist/ui-refinement.css','utf8');
  assert.match(css,/\.reader-top:has\(\.playback-strip\)\{position:relative;/);
- assert.match(css,/#reader-playback\{position:static;flex:0 0 168px/);
- assert.match(css,/\.reader-controls \.playback-strip\.expanded\{position:absolute;right:10px;top:8px;width:min\(460px,calc\(100% - 20px\)\)/);
+ assert.match(css,/#reader-playback\{position:static;flex:0 0 auto;width:auto;height:44px;min-height:44px/);
+ assert.match(css,/\.playback-secondary\{display:none;position:absolute;top:calc\(100% \+ 4px\)/);
+ assert.match(css,/max-width:calc\(100vw - 20px\)/);
 });
+
 function declaration(name){const start=source.indexOf('function '+name+'(');assert(start>=0);let end=source.indexOf(name==='updateSeek'?'\n':'\nfunction ',start+1);return source.slice(start,end<0?undefined:end)}
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const button=(label,a,v='',cls='',extra='')=>`<button class="${cls}" data-action="${a}" data-value="${esc(v)}" ${extra}>${label}</button>`;

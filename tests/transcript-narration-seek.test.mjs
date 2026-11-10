@@ -29,7 +29,8 @@ test('missing caret offset uses turn timing safely without changing active engin
 });
 test('explicit source anchor is passed to chunk construction and becomes a chunk boundary',()=>{
  assert.match(source,/const chunks=narrationChunks\(id,anchor\)/);
- assert.match(source,/if\(anchor\?\.page===page&&Number.isFinite\(anchor.offset\)\)cuts.add\(lowerBound\(clean.map,anchor.offset\)\)/);
+ assert.match(source,/const anchorOffset=anchor\?\.page===page&&Number.isFinite\(anchor.offset\)\?lowerBound\(clean.map,anchor.offset\):null/);
+ assert.match(source,/const speechCuts=\[sentenceStart/);
 });
 
 

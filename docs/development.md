@@ -87,27 +87,20 @@ Follow the [document-quality standards](document-quality.md) for source verifica
 
 ### Narration engines
 
-Listen → Voice Engine offers the existing local Kokoro natural voices and an
-optional browser Device voice mode. Device mode avoids the neural model download
-and synthesis on the user's device. Its voice list comes from SpeechSynthesis;
-availability and quality vary by browser and OS. The menu identifies local and
-online voices; online voices may transmit text to their provider. Automatic
-selection uses only local English voices. If none is ready, the reader pauses
-and asks the listener to select an available voice or retry. Online voices must
-be selected explicitly.
+Listen offers two actions: Natural and Fast. Natural uses Michael, the American
+male Kokoro voice, and may need time to prepare audio. Fast uses an available
+local English speech voice, with no online fallback or voice-picker UI. If no
+local voice is ready, the reader asks the listener to choose Natural or retry.
+Legacy saved online voice preferences are ignored.
 
-Device narration uses short passages and source-coordinate highlighting. Previous
-and Next move by passage, not seconds. Pause cancels speech and resumes from the
-last boundary reported by the browser, or the passage start if boundaries are
-unavailable. Exact audio-time seeking, downloadable device-voice audio, and
-background/lock-screen continuity are not promised. Real-device verification is
-required, particularly on iOS and Android. Switching to Device voice releases the
-Kokoro worker. Natural voice keeps its existing playback controls and Michael
-American male voice.
+Both modes highlight sentences using source-coordinate mappings. Long sentences
+can require several synthesis clips but retain a single complete sentence
+highlight. Device speech does not provide an exact seekable audio timeline;
+secondary navigation moves by passage. Pause resumes from the last reported
+boundary, or the passage start when boundaries are unavailable. Physical-device
+and background/lock-screen verification remain necessary.
 
-Generated natural audio is currently retained only for the active narration
-session, not persistently stored. Persistent audio caching or pre-generated
-collection audio would require a separate size-limited, versioned storage design.
+Generated natural audio remains session-only; persistent caching is not included.
 
 The current foreground natural voice wait has a 90-second preparation deadline;
 background lookahead has none. A newer seek supersedes the previous deadline. If model loading,
