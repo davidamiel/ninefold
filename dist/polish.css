@@ -155,27 +155,24 @@ body:not(.reader-mode):has(.workspace-dock) #app>.main:not(.term-page){padding-b
 .argument-advocates .directory-portrait img{width:100%;height:100%;object-fit:contain}
 
 /* Stable reader tabs: controls occupy their own columns, including on hover. */
-.reader-shell .tabbar .tab,
-.reader-shell .tabbar .tab.selected {
+.reader-shell .tabbar .tab {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 26px 26px;
   column-gap: 2px;
   padding: 0 3px 0 7px;
-  font-weight: 500;
+  flex: 0 1 240px;
+  width: 240px;
+  max-width: 240px;
+  box-sizing: border-box;
   height: auto;
   min-height: 36px;
 }
 .reader-shell .tabbar .tab > button[role=tab] {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: baseline;
-  column-gap: .45em;
-  row-gap: 0;
+  display: block;
   min-width: 0;
   width: 100%;
   padding: 5px 3px;
-  font-weight: 500;
+  font-weight: inherit;
   line-height: 1.25;
 }
 .reader-tab-title,
@@ -186,7 +183,7 @@ body:not(.reader-mode):has(.workspace-dock) #app>.main:not(.term-page){padding-b
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.reader-tab-author {color: var(--muted);}
+.reader-tab-author {display: block; color: var(--muted);}
 .reader-shell .tabbar .tab .tab-menu-button,
 .reader-shell .tabbar .tab .close {
   position: static;
@@ -205,7 +202,7 @@ body:not(.reader-mode):has(.workspace-dock) #app>.main:not(.term-page){padding-b
 .reader-shell .tabbar .tab .close:hover {background: var(--nf-dust);}
 .reader-shell .pane-tabs > .tabbar {height: auto; min-height: 38px;}
 @media (max-width:760px) {
-  .reader-shell .tabbar .tab {grid-template-columns: minmax(0, 1fr) 30px 30px;}
+  .reader-shell .tabbar .tab {flex-basis: 170px; width: 170px; max-width: 170px; grid-template-columns: minmax(0, 1fr) 30px 30px;}
   .reader-shell .tabbar .tab .tab-menu-button,
   .reader-shell .tabbar .tab .close {width: 30px; min-width: 30px; height: 32px; min-height: 32px;}
   .reader-shell .work-main:has(.panes.split) > .tabbar {height: auto; min-height: 38px;}
