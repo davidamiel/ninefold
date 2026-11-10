@@ -6,7 +6,24 @@ The public website is independent of ChatGPT. All public materials are editable 
 
 1. Create an empty public `davidamiel/ninefold` repository (do not initialize a README). The current integration cannot create repositories.
 2. Push this checkout to it. In Settings → Pages, select **GitHub Actions** as the source.
-3. The Pages workflow installs locked dependencies, runs checks, builds `out/`, and publishes it when you select Actions → Publish Ninefold → Run workflow. Ordinary pushes do not trigger builds. Its deployment output is the authoritative website URL. Project-subdirectory hosting works with the existing relative asset paths and hash routes.
+3. The Pages workflow installs locked dependencies, runs checks, builds `out/`, and publishes it when you select Actions → Publish Ninefold → Run workflow. Ordinary pushes do not publish the website; other CI checks may still run. Its deployment output is the authoritative website URL. Project-subdirectory hosting works with the existing relative asset paths and hash routes.
+
+
+## What publishing runs
+
+The manual **Publish Ninefold** workflow installs dependencies, runs the test suite,
+builds the website, validates the packaged files, deploys to Pages, and verifies
+that the live commit and file fingerprints match the release.
+
+Case-specific Berk browser checks, screenshots, and source/review-ledger audit
+reports are not part of publishing. Their scripts remain in the repository for
+development use; this cleanup adds no separate workflow. The existing Document
+quality workflow is unchanged.
+
+The workflow still uses separate build and deployment jobs so deployment only
+starts after validation succeeds. Node and Python setup are required by the
+existing build, and the deployed-version check uses Node again in the deployment
+job. No browser installation or browser automation runs during publication.
 
 ## Firebase (Spark plan)
 
