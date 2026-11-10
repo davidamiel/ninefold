@@ -1,211 +1,34 @@
 {
-  "version": 1,
+  "version": 2,
   "caseId": "24-440",
-  "observedAt": "2026-11-10T04:06:42.9388007Z",
+  "observedAt": "2026-11-10T04:46:09Z",
   "environment": "production",
-  "run": "https://github.com/davidamiel/ninefold/actions/runs/42752847569",
-  "deployedParser": "named-short-form correction not observed",
+  "productCommit": "8f4e8c5dbb4ed43f45f3ca5fbd25858aeb9703ef",
+  "run": "https://github.com/davidamiel/ninefold/actions/runs/42757765514",
+  "artifact": "https://github.com/davidamiel/ninefold/actions/runs/42757765514/artifacts/13735864238",
+  "coordinateSystem": {
+    "sourcePage": "zero-based page index",
+    "sourceOffset": "raw UTF-16 character offset"
+  },
   "countsIncludeAliases": true,
   "structuralSummary": {
-    "occurrences": 3385,
+    "occurrences": 3378,
     "internalDocuments": 130,
     "locatedPages": 221,
     "invalid": [],
-    "noInternalTargetCount": 771,
-    "externalSourceOnly": 227,
-    "sourceLookupRequired": 544,
+    "noInternalTargetCount": 741,
+    "externalSourceOnly": 313,
+    "sourceLookupRequired": 428,
     "unresolvedByType": {
-      "case": 727,
-      "appendix": 7,
-      "statute": 27,
+      "case": 705,
+      "appendix": 2,
+      "statute": 24,
       "record": 10
     },
-    "unresolvedSample": [
-      {
-        "label": "604 U. S. 1193",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 5,
-        "sourceOffset": 1797,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Shady Grove, 559 U. S., at 398",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 6,
-        "sourceOffset": 1527,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Shady Grove, 559 U. S., at 398",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 6,
-        "sourceOffset": 1896,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Leatherman v. Tarrant County Narcotics Intelligence and Coordination Unit, 507 U. S. 163",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 8,
-        "sourceOffset": 379,
-        "source": "https://www.loc.gov/item/usrep507163/",
-        "disposition": "external-source-only"
-      },
-      {
-        "label": "Swierkiewicz v. Sorema N. A., 534 U. S. 506",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 8,
-        "sourceOffset": 509,
-        "source": "https://www.loc.gov/item/usrep534506/",
-        "disposition": "external-source-only"
-      },
-      {
-        "label": "507 U. S., at 165",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 8,
-        "sourceOffset": 862,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "337 U. S., at 543",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 9,
-        "sourceOffset": 1207,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Celotex Corp. v. Catrett, 477 U. S. 317, 322",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 11,
-        "sourceOffset": 1128,
-        "source": "https://www.loc.gov/item/usrep477317/",
-        "disposition": "external-source-only"
-      },
-      {
-        "label": "Business Guides, Inc. v. Chromatic Communications Enterprises, Inc., 498 U. S. 533, 542",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 12,
-        "sourceOffset": 729,
-        "source": "https://www.loc.gov/item/usrep498533/",
-        "disposition": "external-source-only"
-      },
-      {
-        "label": "312 U. S. 1, 14",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 12,
-        "sourceOffset": 1748,
-        "source": "https://www.loc.gov/item/usrep312001/",
-        "disposition": "external-source-only"
-      },
-      {
-        "label": "Shady Grove, 559 U. S., at 407",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 12,
-        "sourceOffset": 1950,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Mississippi Publishing Corp. v. Murphree, 326 U. S. 438, 446",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 13,
-        "sourceOffset": 95,
-        "source": "https://www.loc.gov/item/usrep326438/",
-        "disposition": "external-source-only"
-      },
-      {
-        "label": "Shady Grove, 559 U. S., at 407",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 13,
-        "sourceOffset": 280,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Mississippi Publishing Corp., 326 U. S., at 445–446",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 13,
-        "sourceOffset": 535,
-        "source": "https://www.loc.gov/item/usrep326438/",
-        "disposition": "external-source-only"
-      },
-      {
-        "label": "Sibbach, 312 U. S., at 14–16",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 13,
-        "sourceOffset": 644,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Business Guides, 498 U. S., at 551–554",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 13,
-        "sourceOffset": 848,
-        "source": "https://www.loc.gov/item/usrep498533/",
-        "disposition": "external-source-only"
-      },
-      {
-        "label": "Sibbach, 312 U. S., at 14",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 13,
-        "sourceOffset": 953,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Shady Grove, 559 U. S., at 407–408",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 13,
-        "sourceOffset": 1298,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Sibbach, 312 U. S., at 14",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 13,
-        "sourceOffset": 1647,
-        "source": null,
-        "disposition": "source-lookup-required"
-      },
-      {
-        "label": "Shady Grove, 559 U. S., at 409",
-        "type": "case",
-        "fromDoc": "24-440-1bba7e3379d6--3-462",
-        "sourcePage": 13,
-        "sourceOffset": 1803,
-        "source": null,
-        "disposition": "source-lookup-required"
-      }
-    ],
     "limitation": "Structural resolution only; target semantics and pinpoint accuracy unreviewed"
   },
-  "uniqueSourceLocations": 719,
-  "limitation": "Queue records lack an internal document target; external-source-only entries have a URL. Neither category establishes a wrong citation. Semantic and pinpoint verification remains open.",
+  "uniqueSourceLocations": 700,
+  "limitation": "No internal document target is a triage category, not a finding of an incorrect citation. External-source-only records have a URL. Full proposition and pinpoint verification remains incomplete.",
   "items": [
     {
       "label": "604 U. S. 1193",
@@ -217,24 +40,6 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Shady Grove, 559 U. S., at 398",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--3-462",
-      "sourcePage": 6,
-      "sourceOffset": 1527,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 398",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--3-462",
-      "sourcePage": 6,
-      "sourceOffset": 1896,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
       "label": "Leatherman v. Tarrant County Narcotics Intelligence and Coordination Unit, 507 U. S. 163",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6--3-462",
@@ -289,22 +94,13 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "312 U. S. 1, 14",
+      "label": "Sibbach v. Wilson & Co., 312 U. S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6--3-462",
       "sourcePage": 12,
-      "sourceOffset": 1748,
+      "sourceOffset": 1723,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 407",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--3-462",
-      "sourcePage": 12,
-      "sourceOffset": 1950,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "Mississippi Publishing Corp. v. Murphree, 326 U. S. 438, 446",
@@ -314,15 +110,6 @@
       "sourceOffset": 95,
       "source": "https://www.loc.gov/item/usrep326438/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 407",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--3-462",
-      "sourcePage": 13,
-      "sourceOffset": 280,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "Mississippi Publishing Corp., 326 U. S., at 445–446",
@@ -339,8 +126,8 @@
       "fromDoc": "24-440-1bba7e3379d6--3-462",
       "sourcePage": 13,
       "sourceOffset": 644,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.loc.gov/item/usrep312001/",
+      "disposition": "external-source-only"
     },
     {
       "label": "Business Guides, 498 U. S., at 551–554",
@@ -357,17 +144,8 @@
       "fromDoc": "24-440-1bba7e3379d6--3-462",
       "sourcePage": 13,
       "sourceOffset": 953,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 407–408",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--3-462",
-      "sourcePage": 13,
-      "sourceOffset": 1298,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.loc.gov/item/usrep312001/",
+      "disposition": "external-source-only"
     },
     {
       "label": "Sibbach, 312 U. S., at 14",
@@ -375,17 +153,8 @@
       "fromDoc": "24-440-1bba7e3379d6--3-462",
       "sourcePage": 13,
       "sourceOffset": 1647,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 409",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--3-462",
-      "sourcePage": 13,
-      "sourceOffset": 1803,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.loc.gov/item/usrep312001/",
+      "disposition": "external-source-only"
     },
     {
       "label": "Sibbach, 312 U. S., at 14",
@@ -393,26 +162,17 @@
       "fromDoc": "24-440-1bba7e3379d6--3-462",
       "sourcePage": 13,
       "sourceOffset": 1984,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "312 U. S. 1, 14",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 2,
-      "sourceOffset": 1910,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
     },
     {
-      "label": "Shady Grove, 559 U. S., at 409",
+      "label": "Sibbach v. Wilson & Co., 312 U. S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 2,
-      "sourceOffset": 2224,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "sourceOffset": 1885,
+      "source": "https://www.loc.gov/item/usrep312001/",
+      "disposition": "external-source-only"
     },
     {
       "label": "604 U. S. 1193",
@@ -424,24 +184,6 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Shady Grove, 559 U. S., at 398",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 6,
-      "sourceOffset": 1527,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 398",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 6,
-      "sourceOffset": 1896,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
       "label": "Leatherman v. Tarrant County Narcotics Intelligence and Coordination Unit, 507 U. S. 163",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6",
@@ -496,22 +238,13 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "312 U. S. 1, 14",
+      "label": "Sibbach v. Wilson & Co., 312 U. S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 12,
-      "sourceOffset": 1748,
+      "sourceOffset": 1723,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 407",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 12,
-      "sourceOffset": 1950,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "Mississippi Publishing Corp. v. Murphree, 326 U. S. 438, 446",
@@ -521,15 +254,6 @@
       "sourceOffset": 95,
       "source": "https://www.loc.gov/item/usrep326438/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 407",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 13,
-      "sourceOffset": 280,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "Mississippi Publishing Corp., 326 U. S., at 445–446",
@@ -546,8 +270,8 @@
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 13,
       "sourceOffset": 644,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.loc.gov/item/usrep312001/",
+      "disposition": "external-source-only"
     },
     {
       "label": "Business Guides, 498 U. S., at 551–554",
@@ -564,17 +288,8 @@
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 13,
       "sourceOffset": 953,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 407–408",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 13,
-      "sourceOffset": 1298,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.loc.gov/item/usrep312001/",
+      "disposition": "external-source-only"
     },
     {
       "label": "Sibbach, 312 U. S., at 14",
@@ -582,17 +297,8 @@
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 13,
       "sourceOffset": 1647,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 409",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 13,
-      "sourceOffset": 1803,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.loc.gov/item/usrep312001/",
+      "disposition": "external-source-only"
     },
     {
       "label": "Sibbach, 312 U. S., at 14",
@@ -600,8 +306,8 @@
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 13,
       "sourceOffset": 1984,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.loc.gov/item/usrep312001/",
+      "disposition": "external-source-only"
     },
     {
       "label": "559 U. S., at 407",
@@ -620,24 +326,6 @@
       "sourceOffset": 254,
       "source": "https://www.loc.gov/item/usrep326438/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 407",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 16,
-      "sourceOffset": 523,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 399",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 16,
-      "sourceOffset": 1118,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "Hallstrom v. Tillamook County, 493 U. S. 20, 26",
@@ -676,15 +364,6 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Shady Grove, 559 U. S., at 398",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 19,
-      "sourceOffset": 1673,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
       "label": "507 U. S. 163, 168",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6",
@@ -710,15 +389,6 @@
       "sourceOffset": 1163,
       "source": "https://www.loc.gov/item/usrep311169/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 398",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6",
-      "sourcePage": 23,
-      "sourceOffset": 1459,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "Gasperini, 518 U. S., at 427",
@@ -816,8 +486,8 @@
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 22,
       "sourceOffset": 2034,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Young v. United States, 942 F. 3d 349, 351",
@@ -825,8 +495,8 @@
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 22,
       "sourceOffset": 2082,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "943 F. 3d, at 293",
@@ -843,8 +513,8 @@
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 23,
       "sourceOffset": 1994,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Young, 942 F. 3d, at 351",
@@ -852,15 +522,15 @@
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 23,
       "sourceOffset": 2123,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
-      "label": "551 U. S. 308, 322",
+      "label": "Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U. S. 308, 322",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6",
       "sourcePage": 24,
-      "sourceOffset": 1919,
+      "sourceOffset": 1873,
       "source": "https://www.loc.gov/item/usrep551308/",
       "disposition": "external-source-only"
     },
@@ -915,8 +585,8 @@
       "fromDoc": "24-440-55fd77b4c91b",
       "sourcePage": 22,
       "sourceOffset": 1051,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "11 F.4th at 88-89",
@@ -960,8 +630,8 @@
       "fromDoc": "24-440-55fd77b4c91b",
       "sourcePage": 27,
       "sourceOffset": 1150,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Pledger, 5 F.4th at 519",
@@ -969,8 +639,8 @@
       "fromDoc": "24-440-55fd77b4c91b",
       "sourcePage": 27,
       "sourceOffset": 1576,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Martin, 34 F.4th at 1131",
@@ -1041,8 +711,8 @@
       "fromDoc": "24-440-55fd77b4c91b",
       "sourcePage": 10,
       "sourceOffset": 1267,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Young v. United States, 942 F.3d 349, 350",
@@ -1050,8 +720,8 @@
       "fromDoc": "24-440-55fd77b4c91b",
       "sourcePage": 10,
       "sourceOffset": 1320,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan\n\nv. United States, 943 F.3d 291, 293",
@@ -1158,8 +828,8 @@
       "fromDoc": "24-440-55fd77b4c91b",
       "sourcePage": 25,
       "sourceOffset": 1984,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 295",
@@ -1180,20 +850,11 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "High Yield Mun. Bond Fund v. WithumSmith Brown, P.C., 692 F.3d 283, 302",
+      "label": "Mun. Tr. ex rel. Nuveen High Yield Mun. Bond Fund v. WithumSmith Brown, P.C., 692 F.3d 283, 302",
       "type": "case",
       "fromDoc": "24-440-660786c6b1c6",
       "sourcePage": 4,
-      "sourceOffset": 401,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Schmigel v. Uchal, 800 F.3d 113, 114",
-      "type": "case",
-      "fromDoc": "24-440-660786c6b1c6",
-      "sourcePage": 4,
-      "sourceOffset": 1435,
+      "sourceOffset": 376,
       "source": null,
       "disposition": "source-lookup-required"
     },
@@ -1203,6 +864,78 @@
       "fromDoc": "24-440-660786c6b1c6",
       "sourcePage": 5,
       "sourceOffset": 152,
+      "source": null,
+      "disposition": "source-lookup-required"
+    },
+    {
+      "label": "Hanna, 380 U.S. at 471-72",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 6,
+      "sourceOffset": 126,
+      "source": null,
+      "disposition": "source-lookup-required"
+    },
+    {
+      "label": "Nuveen, 692 F.3d at 303-04",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 6,
+      "sourceOffset": 681,
+      "source": null,
+      "disposition": "source-lookup-required"
+    },
+    {
+      "label": "Schmigel, 800 F.3d at 119",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 6,
+      "sourceOffset": 863,
+      "source": null,
+      "disposition": "source-lookup-required"
+    },
+    {
+      "label": "CPR Mgmt., S.A. v. Devon Park Bioventures, L.P., 19 F.4th 236, 243",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 8,
+      "sourceOffset": 67,
+      "source": null,
+      "disposition": "source-lookup-required"
+    },
+    {
+      "label": "Nuveen, 692 F.3d at 303",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 8,
+      "sourceOffset": 688,
+      "source": null,
+      "disposition": "source-lookup-required"
+    },
+    {
+      "label": "Schmigel, 800 F.3d at 119",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 10,
+      "sourceOffset": 163,
+      "source": null,
+      "disposition": "source-lookup-required"
+    },
+    {
+      "label": "Mun. Trust ex rel. Nuveen High Yield Mun. Bond Fund v. WithumSmith Brown, P.C., 692 F.3d 283, 302-04",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 14,
+      "sourceOffset": 414,
+      "source": null,
+      "disposition": "source-lookup-required"
+    },
+    {
+      "label": "Schmigel v. Uchal, 800 F.3d 113, 114",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 4,
+      "sourceOffset": 1435,
       "source": null,
       "disposition": "source-lookup-required"
     },
@@ -1225,7 +958,7 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Nuveen, 692 F.3d at 302",
+      "label": "Nuveen, 692 F.3d at 302-04",
       "type": "case",
       "fromDoc": "24-440-660786c6b1c6",
       "sourcePage": 5,
@@ -1252,40 +985,13 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "312 U.S. 1, 14",
+      "label": "Sibbach v. Wilson & Co., 312 U.S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-660786c6b1c6",
       "sourcePage": 5,
-      "sourceOffset": 2317,
+      "sourceOffset": 2292,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Hanna, 380 U.S. at 471-72",
-      "type": "case",
-      "fromDoc": "24-440-660786c6b1c6",
-      "sourcePage": 6,
-      "sourceOffset": 126,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Nuveen, 692 F.3d at 303",
-      "type": "case",
-      "fromDoc": "24-440-660786c6b1c6",
-      "sourcePage": 6,
-      "sourceOffset": 681,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Schmigel, 800 F.3d at 119",
-      "type": "case",
-      "fromDoc": "24-440-660786c6b1c6",
-      "sourcePage": 6,
-      "sourceOffset": 863,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "559 U.S. at 398",
@@ -1306,33 +1012,6 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "CPR Mgmt., S.A. v. Devon Park Bioventures, L.P., 19 F.4th 236, 243",
-      "type": "case",
-      "fromDoc": "24-440-660786c6b1c6",
-      "sourcePage": 8,
-      "sourceOffset": 67,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Nuveen, 692 F.3d at 303",
-      "type": "case",
-      "fromDoc": "24-440-660786c6b1c6",
-      "sourcePage": 8,
-      "sourceOffset": 688,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Rule 12.10",
-      "type": "statute",
-      "fromDoc": "24-440-660786c6b1c6",
-      "sourcePage": 9,
-      "sourceOffset": 682,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
       "label": "Corley v. United States, 11 F.4th 79, 83",
       "type": "case",
       "fromDoc": "24-440-660786c6b1c6",
@@ -1347,8 +1026,8 @@
       "fromDoc": "24-440-660786c6b1c6",
       "sourcePage": 9,
       "sourceOffset": 1255,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Young v. United States, 942 F.3d 349, 350",
@@ -1356,8 +1035,8 @@
       "fromDoc": "24-440-660786c6b1c6",
       "sourcePage": 9,
       "sourceOffset": 1308,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan v. United States, 943 F.3d 291, 293-34",
@@ -1387,7 +1066,7 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Albright v. Christensen, 24 F.4th 1039, 1045",
+      "label": "Albright v. Christensen, 24 F.4th 1039, 1045-46",
       "type": "case",
       "fromDoc": "24-440-660786c6b1c6",
       "sourcePage": 9,
@@ -1405,15 +1084,6 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Schmigel, 800 F.3d at 119",
-      "type": "case",
-      "fromDoc": "24-440-660786c6b1c6",
-      "sourcePage": 10,
-      "sourceOffset": 163,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
       "label": "Schmigel, 800 F.3d at 121–22",
       "type": "case",
       "fromDoc": "24-440-660786c6b1c6",
@@ -1423,7 +1093,7 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Nuveen, 692 F.3d at 302",
+      "label": "Nuveen, 692 F.3d at 302–03",
       "type": "case",
       "fromDoc": "24-440-660786c6b1c6",
       "sourcePage": 12,
@@ -1441,20 +1111,11 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Mun. Trust ex rel. Nuveen High Yield Mun. Bond Fund v. WithumSmith Brown, P.C., 692 F.3d 283, 302-04",
-      "type": "case",
-      "fromDoc": "24-440-660786c6b1c6",
-      "sourcePage": 14,
-      "sourceOffset": 414,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "507 U.S. 163",
+      "label": "in Leatherman\n\nv. Tarrant County Narcotics Intelligence & Coordination Unit, 507 U.S. 163",
       "type": "case",
       "fromDoc": "24-440-f227f4d5f387",
       "sourcePage": 11,
-      "sourceOffset": 1522,
+      "sourceOffset": 1446,
       "source": "https://www.loc.gov/item/usrep507163/",
       "disposition": "external-source-only"
     },
@@ -1513,11 +1174,11 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "312 U.S. 1, 14",
+      "label": "in Sibbach v. Wilson & Co., 312 U.S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-f227f4d5f387",
       "sourcePage": 27,
-      "sourceOffset": 1474,
+      "sourceOffset": 1446,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
     },
@@ -1527,17 +1188,8 @@
       "fromDoc": "24-440-f227f4d5f387",
       "sourcePage": 5,
       "sourceOffset": 938,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Rule 37.2",
-      "type": "statute",
-      "fromDoc": "24-440-f227f4d5f387",
-      "sourcePage": 5,
-      "sourceOffset": 1152,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=58",
+      "disposition": "external-source-only"
     },
     {
       "label": "Business Guides, Inc. v. Chromatic Communications Enterprises, Inc., 498 U.S. 533, 552",
@@ -1549,13 +1201,13 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "Rule 29.6",
+      "label": "Supreme Court Rule 29.6",
       "type": "statute",
       "fromDoc": "24-440-ffcc04da2f19",
       "sourcePage": 2,
-      "sourceOffset": 60,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "sourceOffset": 46,
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=44",
+      "disposition": "external-source-only"
     },
     {
       "label": "Wilson v. United States, 79 F.4th 312",
@@ -1585,11 +1237,11 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "312 U.S. 1, 9-10",
+      "label": "Sibbach v. Wilson & Co., 312 U.S. 1, 9-10",
       "type": "case",
       "fromDoc": "24-440-ffcc04da2f19",
       "sourcePage": 26,
-      "sourceOffset": 320,
+      "sourceOffset": 294,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
     },
@@ -1617,8 +1269,8 @@
       "fromDoc": "24-440-ffcc04da2f19",
       "sourcePage": 28,
       "sourceOffset": 179,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Corley v. United States, 11 F.4th 79",
@@ -1635,8 +1287,8 @@
       "fromDoc": "24-440-ffcc04da2f19",
       "sourcePage": 28,
       "sourceOffset": 313,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "659 F.3d at 264",
@@ -1680,8 +1332,8 @@
       "fromDoc": "24-440-ffcc04da2f19",
       "sourcePage": 29,
       "sourceOffset": 1047,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 295",
@@ -1707,8 +1359,8 @@
       "fromDoc": "24-440-ffcc04da2f19",
       "sourcePage": 31,
       "sourceOffset": 1754,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "CoreCivic, Inc. v. Candide Group, LLC, 46 F.4th 1136, 1141",
@@ -1788,8 +1440,8 @@
       "fromDoc": "24-440-78eb24d85356",
       "sourcePage": 8,
       "sourceOffset": 1309,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Albright v. Christensen, 24 F.4th 1039",
@@ -1806,8 +1458,8 @@
       "fromDoc": "24-440-78eb24d85356",
       "sourcePage": 9,
       "sourceOffset": 256,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "In Gallivan v. United States, 943 F.3d 291",
@@ -1824,8 +1476,8 @@
       "fromDoc": "24-440-78eb24d85356",
       "sourcePage": 10,
       "sourceOffset": 1506,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "In Corley v. United States, 11 F.4th 79",
@@ -1842,8 +1494,8 @@
       "fromDoc": "24-440-78eb24d85356",
       "sourcePage": 11,
       "sourceOffset": 608,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Makaeff\n\nv. Trump Univ., LLC, 715 F.3d 254, 275",
@@ -1887,8 +1539,8 @@
       "fromDoc": "24-440-78eb24d85356",
       "sourcePage": 12,
       "sourceOffset": 1729,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Pledger, 5 F.4th at 520",
@@ -1896,8 +1548,8 @@
       "fromDoc": "24-440-78eb24d85356",
       "sourcePage": 13,
       "sourceOffset": 104,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 293",
@@ -1923,8 +1575,8 @@
       "fromDoc": "24-440-78eb24d85356",
       "sourcePage": 13,
       "sourceOffset": 574,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 293",
@@ -1941,8 +1593,8 @@
       "fromDoc": "24-440-78eb24d85356",
       "sourcePage": 13,
       "sourceOffset": 1001,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 293",
@@ -1968,8 +1620,8 @@
       "fromDoc": "24-440-78eb24d85356",
       "sourcePage": 13,
       "sourceOffset": 1699,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Comm’r v. McCoy, 484 U.S. 3, 7",
@@ -1995,8 +1647,8 @@
       "fromDoc": "24-440-bb809b019e4c",
       "sourcePage": 0,
       "sourceOffset": 735,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=46",
+      "disposition": "external-source-only"
     },
     {
       "label": "Rule 12.6",
@@ -2004,8 +1656,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 2,
       "sourceOffset": 447,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=12",
+      "disposition": "external-source-only"
     },
     {
       "label": "Pet. App. 35",
@@ -2112,8 +1764,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 26,
       "sourceOffset": 1121,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 293",
@@ -2125,11 +1777,11 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "507 U.S. 163",
+      "label": "In Leatherman v. Tarrant County Narcotics Intelligence & Coordination Unit, 507 U.S. 163",
       "type": "case",
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 31,
-      "sourceOffset": 295,
+      "sourceOffset": 219,
       "source": "https://www.loc.gov/item/usrep507163/",
       "disposition": "external-source-only"
     },
@@ -2152,7 +1804,7 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "Erickson v. Pardus, 551 U.S. 89, 9",
+      "label": "Erickson v. Pardus, 551 U.S. 89, 9 3",
       "type": "case",
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 32,
@@ -2170,7 +1822,7 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "Erickson, 551 U.S. at 9",
+      "label": "Erickson, 551 U.S. at 9 3",
       "type": "case",
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 33,
@@ -2229,8 +1881,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 34,
       "sourceOffset": 1237,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Cooke v. Jackson Nat’l Life Ins. Co., 919 F.3d 1024, 1027",
@@ -2256,8 +1908,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 35,
       "sourceOffset": 934,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Martin v. Pierce County, 34 F.4th 1125, 1130",
@@ -2274,8 +1926,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 35,
       "sourceOffset": 1478,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Albright, 24 F.4th at 1045-46",
@@ -2292,8 +1944,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 36,
       "sourceOffset": 496,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Abbas v. Foreign Pol’y Grp., 783 F.3d 1328, 1333-34",
@@ -2310,8 +1962,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 37,
       "sourceOffset": 324,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 293",
@@ -2337,8 +1989,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 37,
       "sourceOffset": 1186,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Abbas, 783 F.3d at 1334",
@@ -2355,8 +2007,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 38,
       "sourceOffset": 1152,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Albright, 24 F.4th at 1045",
@@ -2422,11 +2074,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "312 U.S. 1, 14",
+      "label": "Sibbach v. Wilson & Co., 312 U.S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 41,
-      "sourceOffset": 737,
+      "sourceOffset": 712,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
     },
@@ -2535,8 +2187,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 42,
       "sourceOffset": 1478,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Martin, 34 F.4th at 1132",
@@ -2571,8 +2223,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 44,
       "sourceOffset": 962,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Federal Rules. Shady Grove, 559 U.S. at 401",
@@ -2715,8 +2367,8 @@
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 52,
       "sourceOffset": 1429,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Corley, 11 F.4th at 88",
@@ -2827,13 +2479,13 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "Rule 12.6",
+      "label": "Supreme Court Rule 12.6",
       "type": "statute",
       "fromDoc": "24-440-3582972c02be",
       "sourcePage": 17,
-      "sourceOffset": 1626,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "sourceOffset": 1612,
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=12",
+      "disposition": "external-source-only"
     },
     {
       "label": "Albright, 24 F.4th at 1045",
@@ -2940,8 +2592,8 @@
       "fromDoc": "24-440-77b1376e3f1a",
       "sourcePage": 90,
       "sourceOffset": 339,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "the Federal Rules of Civil Procedure. See Gallivan v. United States, 943 F.3d 291, 294",
@@ -2958,8 +2610,8 @@
       "fromDoc": "24-440-77b1376e3f1a",
       "sourcePage": 90,
       "sourceOffset": 1089,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "82 L.Ed. 1188",
@@ -3147,8 +2799,8 @@
       "fromDoc": "24-440-77b1376e3f1a",
       "sourcePage": 97,
       "sourceOffset": 437,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 293",
@@ -3210,8 +2862,8 @@
       "fromDoc": "24-440-77b1376e3f1a",
       "sourcePage": 102,
       "sourceOffset": 995,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan v. United States, 943 F.3d 291, 294",
@@ -3228,8 +2880,8 @@
       "fromDoc": "24-440-77b1376e3f1a",
       "sourcePage": 103,
       "sourceOffset": 12,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Corley, 11 F.4th at 88–89",
@@ -3255,8 +2907,8 @@
       "fromDoc": "24-440-77b1376e3f1a",
       "sourcePage": 103,
       "sourceOffset": 1287,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 293",
@@ -3475,15 +3127,6 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Rule 28.3(d)",
-      "type": "statute",
-      "fromDoc": "24-440-77b1376e3f1a",
-      "sourcePage": 178,
-      "sourceOffset": 49,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
       "label": "in Manion v. N.P.W. Medical Center of N.E. PA, 676 F. Supp. 585",
       "type": "case",
       "fromDoc": "24-440-77b1376e3f1a",
@@ -3592,15 +3235,6 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "App. 2015",
-      "type": "appendix",
-      "fromDoc": "24-440-8b17249a7236",
-      "sourcePage": 30,
-      "sourceOffset": 822,
-      "source": "https://www.supremecourt.gov/DocketPDF/24/24-440/359700/20250527152003264_24-440--Berk-%20Joint%20Appendix%2005-27%20rtf.pdf",
-      "disposition": "external-source-only"
-    },
-    {
       "label": "Deen v. Egleston, 597 F.3d 1223, 1235",
       "type": "case",
       "fromDoc": "24-440-8b17249a7236",
@@ -3646,15 +3280,6 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "App. 1983",
-      "type": "appendix",
-      "fromDoc": "24-440-8b17249a7236",
-      "sourcePage": 39,
-      "sourceOffset": 743,
-      "source": "https://www.supremecourt.gov/DocketPDF/24/24-440/359700/20250527152003264_24-440--Berk-%20Joint%20Appendix%2005-27%20rtf.pdf",
-      "disposition": "external-source-only"
-    },
-    {
       "label": "Feinstein v. Mass. Gen. Hosp., 643 F.2d 880, 881–82",
       "type": "case",
       "fromDoc": "24-440-8b17249a7236",
@@ -3673,29 +3298,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "App. 2025",
-      "type": "appendix",
-      "fromDoc": "24-440-8b17249a7236",
-      "sourcePage": 41,
-      "sourceOffset": 1306,
-      "source": "https://www.supremecourt.gov/DocketPDF/24/24-440/359700/20250527152003264_24-440--Berk-%20Joint%20Appendix%2005-27%20rtf.pdf",
-      "disposition": "external-source-only"
-    },
-    {
-      "label": "App. 2024",
-      "type": "appendix",
-      "fromDoc": "24-440-8b17249a7236",
-      "sourcePage": 41,
-      "sourceOffset": 1435,
-      "source": "https://www.supremecourt.gov/DocketPDF/24/24-440/359700/20250527152003264_24-440--Berk-%20Joint%20Appendix%2005-27%20rtf.pdf",
-      "disposition": "external-source-only"
-    },
-    {
-      "label": "312 U.S. 1, 14",
+      "label": "Sibbach v. Wilson & Co., 312 U.S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-8b17249a7236",
       "sourcePage": 43,
-      "sourceOffset": 229,
+      "sourceOffset": 204,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
     },
@@ -3705,8 +3312,8 @@
       "fromDoc": "24-440-8b17249a7236",
       "sourcePage": 12,
       "sourceOffset": 1424,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=58",
+      "disposition": "external-source-only"
     },
     {
       "label": "Abbas v. Foreign Policy Grp., LLC, 783 F.3d 1328, 1333",
@@ -3826,21 +3433,12 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "312 U.S. 1, 14",
+      "label": "Sibbach v. Wilson & Co., 312 U.S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-ef2c47c9b7ca",
       "sourcePage": 20,
-      "sourceOffset": 286,
+      "sourceOffset": 260,
       "source": "https://www.loc.gov/item/usrep312001/",
-      "disposition": "external-source-only"
-    },
-    {
-      "label": "App. 1999",
-      "type": "appendix",
-      "fromDoc": "24-440-ef2c47c9b7ca",
-      "sourcePage": 21,
-      "sourceOffset": 316,
-      "source": "https://www.supremecourt.gov/DocketPDF/24/24-440/359700/20250527152003264_24-440--Berk-%20Joint%20Appendix%2005-27%20rtf.pdf",
       "disposition": "external-source-only"
     },
     {
@@ -3916,11 +3514,11 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "190 F.3d 963, 972",
+      "label": "United States ex rel. Newsham v. Lockheed Missiles & Space Co., 190 F.3d 963, 972",
       "type": "case",
       "fromDoc": "24-440-ef2c47c9b7ca",
       "sourcePage": 25,
-      "sourceOffset": 244,
+      "sourceOffset": 179,
       "source": null,
       "disposition": "source-lookup-required"
     },
@@ -4002,15 +3600,15 @@
       "fromDoc": "24-440-ef2c47c9b7ca",
       "sourcePage": 11,
       "sourceOffset": 1441,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=58",
+      "disposition": "external-source-only"
     },
     {
-      "label": "507 U.S. 163",
+      "label": "in Leatherman\n\nv. Tarrant County Narcotics Intelligence & Coordination Unit, 507 U.S. 163",
       "type": "case",
       "fromDoc": "24-440-4b39c2105c53",
       "sourcePage": 11,
-      "sourceOffset": 1544,
+      "sourceOffset": 1468,
       "source": "https://www.loc.gov/item/usrep507163/",
       "disposition": "external-source-only"
     },
@@ -4060,11 +3658,11 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "312 U.S. 1, 14",
+      "label": "in Sibbach v. Wilson & Co., 312 U.S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-4b39c2105c53",
       "sourcePage": 27,
-      "sourceOffset": 1228,
+      "sourceOffset": 1200,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
     },
@@ -4074,8 +3672,8 @@
       "fromDoc": "24-440-4b39c2105c53",
       "sourcePage": 5,
       "sourceOffset": 1277,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=58",
+      "disposition": "external-source-only"
     },
     {
       "label": "Business Guides, Inc. v. Chromatic Communications Enterprises, Inc., 498 U.S. 533, 552",
@@ -4087,11 +3685,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "312 U.S. 1",
+      "label": "Sibbach v. Wilson & Co., 312 U.S. 1",
       "type": "case",
       "fromDoc": "24-440-a29ca81a5d45",
       "sourcePage": 8,
-      "sourceOffset": 1545,
+      "sourceOffset": 1519,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
     },
@@ -4182,8 +3780,8 @@
       "fromDoc": "24-440-a29ca81a5d45",
       "sourcePage": 15,
       "sourceOffset": 1751,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "559 U.S. at 398",
@@ -4227,8 +3825,8 @@
       "fromDoc": "24-440-a29ca81a5d45",
       "sourcePage": 17,
       "sourceOffset": 231,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan, 943 F.3d at 293",
@@ -4258,13 +3856,13 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Rule 37.6",
+      "label": "Supreme Court Rule 37.6",
       "type": "statute",
       "fromDoc": "24-440-a29ca81a5d45",
       "sourcePage": 6,
-      "sourceOffset": 1392,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "sourceOffset": 1378,
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=58",
+      "disposition": "external-source-only"
     },
     {
       "label": "Pegram v. Herdrich, 530 U.S. 211, 236-37",
@@ -4299,8 +3897,8 @@
       "fromDoc": "24-440-087f8840f42e",
       "sourcePage": 27,
       "sourceOffset": 486,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Business Guides, Inc. v. Chromatic Commc’ns Enters., Inc., 498 U.S. 533, 544",
@@ -4312,11 +3910,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "312 U.S. 1, 13",
+      "label": "Sibbach v. Wilson & Co., 312 U.S. 1, 13",
       "type": "case",
       "fromDoc": "24-440-087f8840f42e",
       "sourcePage": 29,
-      "sourceOffset": 1206,
+      "sourceOffset": 1181,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
     },
@@ -4348,11 +3946,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "337 U.S. 530, 531",
+      "label": "Ragan v. Merchants Transfer & Warehouse Co., 337 U.S. 530, 531",
       "type": "case",
       "fromDoc": "24-440-087f8840f42e",
       "sourcePage": 33,
-      "sourceOffset": 246,
+      "sourceOffset": 200,
       "source": "https://www.loc.gov/item/usrep337530/",
       "disposition": "external-source-only"
     },
@@ -4515,8 +4113,8 @@
       "fromDoc": "24-440-087f8840f42e",
       "sourcePage": 40,
       "sourceOffset": 269,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Semtek, 531 U.S. at 504",
@@ -4614,8 +4212,8 @@
       "fromDoc": "24-440-087f8840f42e",
       "sourcePage": 47,
       "sourceOffset": 1176,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Liggon- Redding, 659 F.3d at 263",
@@ -4659,8 +4257,8 @@
       "fromDoc": "24-440-087f8840f42e",
       "sourcePage": 55,
       "sourceOffset": 173,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "446 U.S. at 752",
@@ -4839,8 +4437,8 @@
       "fromDoc": "24-440-087f8840f42e",
       "sourcePage": 49,
       "sourceOffset": 1077,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Scott v. Sanders, 789 F. Supp. 2d 773, 775",
@@ -4875,8 +4473,8 @@
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 2,
       "sourceOffset": 56,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=44",
+      "disposition": "external-source-only"
     },
     {
       "label": "Dkt. 20",
@@ -4947,8 +4545,8 @@
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 25,
       "sourceOffset": 548,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gasperini v. Ctr. for Humanities, Inc., 518 U.S. 415, 437",
@@ -4978,11 +4576,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "Ethics in Washington v. FEC, 971 F.3d 340, 355-56",
+      "label": "Citizens for Resp. & Ethics in Washington v. FEC, 971 F.3d 340, 355-56",
       "type": "case",
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 29,
-      "sourceOffset": 788,
+      "sourceOffset": 767,
       "source": null,
       "disposition": "source-lookup-required"
     },
@@ -5104,11 +4702,11 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "311 U.S. 223, 236",
+      "label": "West v. Am. Tel. & Tel. Co., 311 U.S. 223, 236",
       "type": "case",
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 36,
-      "sourceOffset": 1574,
+      "sourceOffset": 1544,
       "source": "https://www.loc.gov/item/usrep311223/",
       "disposition": "external-source-only"
     },
@@ -5127,8 +4725,8 @@
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 39,
       "sourceOffset": 1174,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "692 F.3d 283, 303",
@@ -5145,8 +4743,8 @@
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 39,
       "sourceOffset": 1701,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "337 U.S. 535, 538",
@@ -5158,11 +4756,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "507 U.S. 163, 167-68",
+      "label": "Leatherman v. Tarrant Cnty. Narcotics Intel. & Coordination Unit, 507 U.S. 163, 167-68",
       "type": "case",
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 40,
-      "sourceOffset": 1413,
+      "sourceOffset": 1347,
       "source": "https://www.loc.gov/item/usrep507163/",
       "disposition": "external-source-only"
     },
@@ -5181,8 +4779,8 @@
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 41,
       "sourceOffset": 1166,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "the Rule. Chambers v. NASCO, Inc., 501 U.S. 32, 42-43",
@@ -5244,8 +4842,8 @@
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 46,
       "sourceOffset": 1155,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Young, 942 F.3d at 351",
@@ -5253,8 +4851,8 @@
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 46,
       "sourceOffset": 1406,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Young, 942 F.3d at 351",
@@ -5262,8 +4860,8 @@
       "fromDoc": "24-440-154c871556f6",
       "sourcePage": 46,
       "sourceOffset": 1580,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Nuveen, 692 F.3d at 304",
@@ -5505,8 +5103,8 @@
       "fromDoc": "24-440-4b06e4226dd2",
       "sourcePage": 27,
       "sourceOffset": 1660,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "304 U.S. 77",
@@ -5523,8 +5121,8 @@
       "fromDoc": "24-440-4b06e4226dd2",
       "sourcePage": 10,
       "sourceOffset": 1334,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=58",
+      "disposition": "external-source-only"
     },
     {
       "label": "Felder v. Casey, 487 U.S. 131, 151",
@@ -5595,8 +5193,8 @@
       "fromDoc": "24-440-f0bb42099b11",
       "sourcePage": 11,
       "sourceOffset": 696,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan v. U.S., 943 F.3d 291, 293",
@@ -5613,8 +5211,8 @@
       "fromDoc": "24-440-f0bb42099b11",
       "sourcePage": 11,
       "sourceOffset": 801,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Pledger, 5 F.4th at 534",
@@ -5622,8 +5220,8 @@
       "fromDoc": "24-440-f0bb42099b11",
       "sourcePage": 11,
       "sourceOffset": 990,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Martin\n\nv. Pierce County, 34 F.4th 1125, 1127",
@@ -5658,8 +5256,8 @@
       "fromDoc": "24-440-f0bb42099b11",
       "sourcePage": 12,
       "sourceOffset": 1478,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Corley, 11 F.4th at 88-89",
@@ -5671,13 +5269,13 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Rule 37.6",
+      "label": "Supreme Court Rule 37.6",
       "type": "statute",
       "fromDoc": "24-440-f0bb42099b11",
       "sourcePage": 5,
-      "sourceOffset": 932,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "sourceOffset": 918,
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=58",
+      "disposition": "external-source-only"
     },
     {
       "label": "Court in Trump v. CASA, Inc., 145 S. Ct. 2540",
@@ -5707,11 +5305,11 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "312 U.S. 1, 9",
+      "label": "Sibbach v. Wilson & Co., 312 U.S. 1, 9",
       "type": "case",
       "fromDoc": "24-440-9b8dd024eb77",
       "sourcePage": 11,
-      "sourceOffset": 745,
+      "sourceOffset": 719,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
     },
@@ -6175,11 +5773,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "642 F.3d 560, 562",
+      "label": "Sawyer v. Atlas Heating & Sheet Metal Works, Inc., 642 F.3d 560, 562",
       "type": "case",
       "fromDoc": "24-440-513e9c10c0e4",
       "sourcePage": 37,
-      "sourceOffset": 872,
+      "sourceOffset": 820,
       "source": null,
       "disposition": "source-lookup-required"
     },
@@ -6189,8 +5787,8 @@
       "fromDoc": "24-440-513e9c10c0e4",
       "sourcePage": 38,
       "sourceOffset": 893,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "Comm’r of Internal Rev. v. Bosch’s Estate, 387 U.S. 456, 465",
@@ -6220,11 +5818,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "337 U.S. 530, 533",
+      "label": "Ragan v. Merchants Transfer & Warehouse Co., 337 U.S. 530, 533",
       "type": "case",
       "fromDoc": "24-440-513e9c10c0e4",
       "sourcePage": 39,
-      "sourceOffset": 1050,
+      "sourceOffset": 1005,
       "source": "https://www.loc.gov/item/usrep337530/",
       "disposition": "external-source-only"
     },
@@ -6279,8 +5877,8 @@
       "fromDoc": "24-440-513e9c10c0e4",
       "sourcePage": 12,
       "sourceOffset": 724,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf#page=58",
+      "disposition": "external-source-only"
     },
     {
       "label": "Guar. Tr. Co. of N.Y. v. York, 326 U.S. 99, 109",
@@ -6292,7 +5890,7 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "Gasperini v. Ctr. for Humans., Inc., 518 U.S. 415, 42",
+      "label": "Gasperini v. Ctr. for Humans., Inc., 518 U.S. 415, 42 7",
       "type": "case",
       "fromDoc": "24-440-3341afc79588",
       "sourcePage": 11,
@@ -6418,11 +6016,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "Smith Inc. v. Manning, 578 U.S. 374, 389",
+      "label": "Merrill Lynch, Pierce, Fenner & Smith Inc. v. Manning, 578 U.S. 374, 389",
       "type": "case",
       "fromDoc": "24-440-3341afc79588",
       "sourcePage": 24,
-      "sourceOffset": 930,
+      "sourceOffset": 898,
       "source": "https://www.loc.gov/item/usrep578374/",
       "disposition": "external-source-only"
     },
@@ -6522,8 +6120,8 @@
       "fromDoc": "24-440-3341afc79588",
       "sourcePage": 29,
       "sourceOffset": 1366,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "476 U.S. 355, 374",
@@ -6558,8 +6156,8 @@
       "fromDoc": "24-440-4cdc5e03cc3b",
       "sourcePage": 10,
       "sourceOffset": 637,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Gallivan v. United States, 943 F.3d 291, 293",
@@ -6576,8 +6174,8 @@
       "fromDoc": "24-440-4cdc5e03cc3b",
       "sourcePage": 11,
       "sourceOffset": 502,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "and Woods v. Interstate Realty Co., 337 U.S. 535",
@@ -6630,8 +6228,8 @@
       "fromDoc": "24-440-4cdc5e03cc3b",
       "sourcePage": 13,
       "sourceOffset": 358,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Miss. Publ’g Corp. v. Murphree, 326 U.S. 438, 446",
@@ -6787,11 +6385,11 @@
       "disposition": "external-source-only"
     },
     {
-      "label": "512 U.S. 218, 231",
+      "label": "MCI Telecomms. Corp. v. Am. Tel. & Tel. Co., 512 U.S. 218, 231",
       "type": "case",
       "fromDoc": "24-440-4cdc5e03cc3b",
       "sourcePage": 22,
-      "sourceOffset": 595,
+      "sourceOffset": 550,
       "source": "https://www.loc.gov/item/usrep512218/",
       "disposition": "external-source-only"
     },
@@ -6868,22 +6466,13 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "312 U. S. 1, 14",
+      "label": "Sibbach v. Wilson & Co., 312 U. S. 1, 14",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6--1-0",
       "sourcePage": 2,
-      "sourceOffset": 1910,
+      "sourceOffset": 1885,
       "source": "https://www.loc.gov/item/usrep312001/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 409",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--1-0",
-      "sourcePage": 2,
-      "sourceOffset": 2224,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "559 U. S., at 407",
@@ -6902,24 +6491,6 @@
       "sourceOffset": 254,
       "source": "https://www.loc.gov/item/usrep326438/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 407",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--14-206",
-      "sourcePage": 16,
-      "sourceOffset": 523,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 399",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--14-206",
-      "sourcePage": 16,
-      "sourceOffset": 1118,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "Hallstrom v. Tillamook County, 493 U. S. 20, 26",
@@ -6958,15 +6529,6 @@
       "disposition": "source-lookup-required"
     },
     {
-      "label": "Shady Grove, 559 U. S., at 398",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--14-206",
-      "sourcePage": 19,
-      "sourceOffset": 1673,
-      "source": null,
-      "disposition": "source-lookup-required"
-    },
-    {
       "label": "507 U. S. 163, 168",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6--14-206",
@@ -6992,15 +6554,6 @@
       "sourceOffset": 1163,
       "source": "https://www.loc.gov/item/usrep311169/",
       "disposition": "external-source-only"
-    },
-    {
-      "label": "Shady Grove, 559 U. S., at 398",
-      "type": "case",
-      "fromDoc": "24-440-1bba7e3379d6--14-206",
-      "sourcePage": 23,
-      "sourceOffset": 1459,
-      "source": null,
-      "disposition": "source-lookup-required"
     },
     {
       "label": "Gasperini, 518 U. S., at 427",
@@ -7098,8 +6651,8 @@
       "fromDoc": "24-440-1bba7e3379d6--14-206",
       "sourcePage": 22,
       "sourceOffset": 2034,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Young v. United States, 942 F. 3d 349, 351",
@@ -7107,8 +6660,8 @@
       "fromDoc": "24-440-1bba7e3379d6--14-206",
       "sourcePage": 22,
       "sourceOffset": 2082,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
       "label": "943 F. 3d, at 293",
@@ -7125,8 +6678,8 @@
       "fromDoc": "24-440-1bba7e3379d6--14-206",
       "sourcePage": 23,
       "sourceOffset": 1994,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://www.ca4.uscourts.gov/opinions/182213.P.pdf",
+      "disposition": "external-source-only"
     },
     {
       "label": "Young, 942 F. 3d, at 351",
@@ -7134,19 +6687,17 @@
       "fromDoc": "24-440-1bba7e3379d6--14-206",
       "sourcePage": 23,
       "sourceOffset": 2123,
-      "source": null,
-      "disposition": "source-lookup-required"
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Path=Y2019%2FD11-04%2FC%3A18-3415%3AJ%3AEasterbrook%3Aaut%3AT%3AfnOp%3AN%3A2424875%3AS%3A0&Submit=Display",
+      "disposition": "external-source-only"
     },
     {
-      "label": "551 U. S. 308, 322",
+      "label": "Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U. S. 308, 322",
       "type": "case",
       "fromDoc": "24-440-1bba7e3379d6--14-206",
       "sourcePage": 24,
-      "sourceOffset": 1919,
+      "sourceOffset": 1873,
       "source": "https://www.loc.gov/item/usrep551308/",
       "disposition": "external-source-only"
     }
-  ],
-  "attempt": 2,
-  "artifact": "https://github.com/davidamiel/ninefold/actions/runs/42752847569/artifacts/13733439614"
+  ]
 }

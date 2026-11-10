@@ -2,7 +2,7 @@
   "caseId": "24-440",
   "status": "partial-source-backed-rule-identity-correction",
   "reviewedAt": "2026-11-10",
-  "method": "Compared stored filing passages with official Supreme Court PDFs and 2023 Rules of the Court. Tested actual parser functions in V8 on filing pages. Full Node test suite and rendered deployment checks are pending integration.",
+  "method": "Compared stored filing passages with official Supreme Court PDFs and 2023 Rules of the Court. Tested actual parser functions in V8 on filing pages. The integrated 309-test Node suite and rendered production checks subsequently passed.",
   "changes": {
     "supremeCourtRuleOccurrences": 13,
     "unlinkedAmbiguousOrOtherCourt": 3,
@@ -292,5 +292,11 @@
     "indexUrl": "https://www.supremecourt.gov/ctrules/scannedrules.aspx",
     "finding": "Official historical index lists 2023 rules as predecessor to current March16,2026 rules. The linked 2023 compilation applies to the reviewed 2024–2025 filing passages.",
     "effectiveDate": "2023-01-01"
+  },
+  "integratedValidation": {
+    "testsPassed": 309,
+    "buildRun": "https://github.com/davidamiel/ninefold/actions/runs/42757176646",
+    "productionRun": "https://github.com/davidamiel/ninefold/actions/runs/42757765514",
+    "productCommit": "8f4e8c5dbb4ed43f45f3ca5fbd25858aeb9703ef"
   }
 }

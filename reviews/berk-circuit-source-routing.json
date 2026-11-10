@@ -724,8 +724,7 @@
     "Individual reporter pinpoints are not verified.",
     "Original slip-opinion PDF pages are not reporter-page navigation targets.",
     "Gallivan remains pending; no source entry added.",
-    "No local full text or holding summary invented.",
-    "Browser and full Node suite pending integration."
+    "No local full text or holding summary invented."
   ],
   "entries": {
     "5 F.4th 511": {
@@ -748,5 +747,11 @@
       "source": "Official court opinion",
       "sourceReview": "Identity verified against original opinion; individual reporter pinpoints unverified."
     }
+  },
+  "integratedValidation": {
+    "testsPassed": 309,
+    "buildRun": "https://github.com/davidamiel/ninefold/actions/runs/42757176646",
+    "productionRun": "https://github.com/davidamiel/ninefold/actions/runs/42757765514",
+    "productCommit": "8f4e8c5dbb4ed43f45f3ca5fbd25858aeb9703ef"
   }
 }
