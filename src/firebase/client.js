@@ -169,21 +169,88 @@ export function connect(config,notify,options={}){
   publishedVersions.clear();publishedLoaded=false;
   await cleanup('publishedContent',caseId,chunkIds(previous));check();
  };
- api.save=async (state,flushProgress=false)=>{
-  if(!api.user||!api.ready)return;const uid=api.user.uid;
-  const groups={notes:new Map(state.notes.map(n=>[n.id,n])),saved:new Map(state.saved.map(id=>[id,{caseId:id}])),progress:new Map([...Object.entries(state.positions),['_reading',{items:state.recents.slice(0,100)}]])};
-  const changes=[];
-  for(const [name,items]of Object.entries(groups)){
-   if(name==='progress'&&!flushProgress&&Date.now()-progressAt<15000){clearTimeout(progressTimer);progressTimer=setTimeout(()=>{if(api.user?.uid===uid)api.save(state,true);},15000-(Date.now()-progressAt));continue;}
-   if(name==='progress')progressAt=Date.now();
-   const cache=caches[name]||new Map();
-   for(const [id,value]of items){const serialized=JSON.stringify(value);if(serialized!==cache.get(id))changes.push({name,id,value,serialized});}
-   for(const id of cache.keys())if(!items.has(id))changes.push({name,id,remove:true});
+ const deferProgress = (state, flushProgress, uid) => {
+  const elapsed = Date.now() - progressAt;
+  if (flushProgress || elapsed >= 15000) {
+   progressAt = Date.now();
+   return false;
   }
-  for(let i=0;i<changes.length;i+=400){const batch=writeBatch(db),slice=changes.slice(i,i+400);
-   for(const c of slice){const ref=doc(db,'users',uid,c.name,encodeURIComponent(c.id));if(c.remove)batch.delete(ref);else batch.set(ref,{id:c.id,value:JSON.parse(c.serialized),updatedAt:serverTimestamp()});}
-   // Firestore applies the mutation locally immediately and persists pending writes offline.
-   const pending=batch.commit();for(const c of slice){const cache=caches[c.name]||(caches[c.name]=new Map());if(c.remove)cache.delete(c.id);else cache.set(c.id,c.serialized);}pending.catch(error=>{if(api.user?.uid!==uid)return;for(const c of slice)caches[c.name]?.delete(c.id);notify({type:'error',message:'A library change could not be saved. Please keep this tab open and retry.',error});});
+  clearTimeout(progressTimer);
+  progressTimer = setTimeout(() => {
+   if (api.user?.uid === uid) {
+    api.save(state, true);
+   }
+  }, 15000 - elapsed);
+  return true;
+ };
+ const collectChanges = (name, items) => {
+  const cache = caches[name] || new Map();
+  const changes = [];
+  for (const [id, value] of items) {
+   const serialized = JSON.stringify(value);
+   if (serialized !== cache.get(id)) {
+    changes.push({name, id, serialized});
+   }
+  }
+  for (const id of cache.keys()) {
+   if (!items.has(id)) {
+    changes.push({name, id, remove: true});
+   }
+  }
+  return changes;
+ };
+ const rememberChanges = changes => {
+  for (const change of changes) {
+   const cache = caches[change.name] || (caches[change.name] = new Map());
+   if (change.remove) {
+    cache.delete(change.id);
+   } else {
+    cache.set(change.id, change.serialized);
+   }
+  }
+ };
+ const reportSaveFailure = (uid, changes, error) => {
+  if (api.user?.uid !== uid) {
+   return;
+  }
+  for (const change of changes) {
+   caches[change.name]?.delete(change.id);
+  }
+  notify({type:'error',message:'A library change could not be saved. Please keep this tab open and retry.',error});
+ };
+ const queueSave = (uid, changes) => {
+  const batch = writeBatch(db);
+  for (const change of changes) {
+   const ref = doc(db, 'users', uid, change.name, encodeURIComponent(change.id));
+   if (change.remove) {
+    batch.delete(ref);
+   } else {
+    batch.set(ref, {id: change.id, value: JSON.parse(change.serialized), updatedAt: serverTimestamp()});
+   }
+  }
+  // Queue locally without waiting for connectivity; Firestore persists pending writes.
+  const pending = batch.commit();
+  rememberChanges(changes);
+  pending.catch(error => reportSaveFailure(uid, changes, error));
+ };
+ api.save = async (state, flushProgress = false) => {
+  if (!api.user || !api.ready) {
+   return;
+  }
+  const uid = api.user.uid;
+  const changes = [
+   ...collectChanges('notes', new Map(state.notes.map(note => [note.id, note]))),
+   ...collectChanges('saved', new Map(state.saved.map(id => [id, {caseId: id}])))
+  ];
+  if (!deferProgress(state, flushProgress, uid)) {
+   const progress = new Map([
+    ...Object.entries(state.positions),
+    ['_reading', {items: state.recents.slice(0, 100)}]
+   ]);
+   changes.push(...collectChanges('progress', progress));
+  }
+  for (let start = 0; start < changes.length; start += 400) {
+   queueSave(uid, changes.slice(start, start + 400));
   }
  };
  return api;
