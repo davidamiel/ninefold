@@ -1,7 +1,17 @@
 import {validateContentPatch} from '../../dist/content-patch.js';
 import {initializeApp} from 'firebase/app';
 import {getAuth,getIdTokenResult,onAuthStateChanged,GoogleAuthProvider,connectAuthEmulator,signInWithPopup,signInWithEmailAndPassword,createUserWithEmailAndPassword,sendPasswordResetEmail,signOut} from 'firebase/auth';
-import {initializeFirestore,persistentLocalCache,persistentMultipleTabManager,collection,onSnapshot,doc,getDocFromServer,getDocsFromServer,setDoc,runTransaction,writeBatch,serverTimestamp,connectFirestoreEmulator,memoryLocalCache} from 'firebase/firestore';
+import {initializeFirestore,persistentLocalCache,persistentMultipleTabManager,collection,onSnapshot,doc,getDocFromServer,getDocsFromServer,runTransaction,writeBatch,serverTimestamp,connectFirestoreEmulator,memoryLocalCache} from 'firebase/firestore';
+
+// Keep Firestore requests bounded and batches ordered, including cleanup after failure.
+function inBatches(items, size, visit) {
+ const batches = [];
+ for (let start = 0; start < items.length; start += size) {
+  batches.push(items.slice(start, start + size));
+ }
+ return batches.reduce((pending, batch) => pending.then(() => visit(batch)), Promise.resolve());
+}
+
 export function connect(config,notify,options={}){
  const app=initializeApp(config),auth=getAuth(app),db=initializeFirestore(app,{localCache:options.emulators?memoryLocalCache():persistentLocalCache({tabManager:persistentMultipleTabManager()})});
  if(options.emulators){connectAuthEmulator(auth,options.emulators.auth,{disableWarnings:true});connectFirestoreEmulator(db,'127.0.0.1',8188);}
@@ -38,26 +48,58 @@ export function connect(config,notify,options={}){
  const chunkRef=(name,caseId,id)=>doc(db,name+'Chunks',caseId,'chunks',id);
  const chunkIds=envelope=>envelope?.format==='chunked-json-v1'?envelope.chunks:[];
  const hydrate=async(name,envelope)=>{
-  if(!envelope||envelope.format!=='chunked-json-v1')return envelope;
+  if(envelope?.format!=='chunked-json-v1')return envelope;
   if(!Array.isArray(envelope.chunks)||!envelope.chunks.length||envelope.chunks.length>1024)throw contentError('content/incomplete','Invalid content manifest.');
   const pieces=[];
-  for(let i=0;i<envelope.chunks.length;i+=10){
-   const reads=await Promise.all(envelope.chunks.slice(i,i+10).map(id=>getDocFromServer(chunkRef(name,envelope.id,id))));
-   for(const read of reads){if(!read.exists()||typeof read.data().text!=='string')throw contentError('content/incomplete','Content changed or is incomplete. Reload and try again.');pieces.push(read.data().text);}
-  }
+  await inBatches(envelope.chunks, 10, async ids => {
+   const reads = await Promise.all(ids.map(id => getDocFromServer(chunkRef(name, envelope.id, id))));
+   for (const read of reads) {
+    if (!read.exists() || typeof read.data().text !== 'string') {
+     throw contentError('content/incomplete', 'Content changed or is incomplete. Reload and try again.');
+    }
+    pieces.push(read.data().text);
+   }
+  });
   return {id:envelope.id,value:JSON.parse(pieces.join('')),updatedAt:envelope.updatedAt};
  };
  const cleanup=async(name,caseId,ids)=>{
   // Rules refuse deletion of any currently referenced chunk, including after an
   // uncertain commit. Cleanup failure never misreports a committed publication.
-  try{for(let i=0;i<ids.length;i+=10){const batch=writeBatch(db);for(const id of ids.slice(i,i+10))batch.delete(chunkRef(name,caseId,id));await batch.commit();}}catch(error){notify({type:'content-cleanup-warning',message:'The content operation finished, but unused storage chunks could not be removed. No older version is publicly available.',error});}
+  try {
+   await inBatches(ids, 10, async group => {
+    const batch = writeBatch(db);
+    for (const id of group) {
+     batch.delete(chunkRef(name, caseId, id));
+    }
+    await batch.commit();
+   });
+  } catch (error) {
+   notify({type:'content-cleanup-warning',message:'The content operation finished, but unused storage chunks could not be removed. No older version is publicly available.',error});
+  }
  };
  const stage=async(name,caseId,json,check)=>{
   const generation=crypto.randomUUID(),pieces=[];
-  for(let start=0;start<json.length;){let end=Math.min(start+65536,json.length);if(end<json.length&&/[\uD800-\uDBFF]/.test(json[end-1]))end--;pieces.push(json.slice(start,end));start=end;}
+  for (let start = 0; start < json.length;) {
+   let end = Math.min(start + 65536, json.length);
+   if (end < json.length && /[\uD800-\uDBFF]/.test(json[end - 1])) {
+    end--;
+   }
+   pieces.push(json.slice(start, end));
+   start = end;
+  }
   if(pieces.length>1024)throw contentError('content/invalid-value','This case exceeds the 1,024 chunk limit.');
   const ids=pieces.map((_,i)=>generation+'_'+i);
-  try{for(let i=0;i<pieces.length;i+=10){check();const batch=writeBatch(db);for(let j=i;j<Math.min(i+10,pieces.length);j++)batch.set(chunkRef(name,caseId,ids[j]),{text:pieces[j]});await batch.commit();}check();}
+  try {
+   await inBatches(ids.map((id, index) => ({id, text: pieces[index]})), 10, async group => {
+    check();
+    const batch = writeBatch(db);
+    for (const piece of group) {
+     batch.set(chunkRef(name, caseId, piece.id), {text: piece.text});
+    }
+    await batch.commit();
+   });
+   check();
+  }
   catch(error){await cleanup(name,caseId,ids);throw error;}
   return {id:caseId,format:'chunked-json-v1',chunks:ids,updatedAt:serverTimestamp(),...(name==='publishedContent'?{contentSchema:2}:{})};
  };
@@ -75,7 +117,10 @@ export function connect(config,notify,options={}){
  const readPublishedContent=async()=>{
   const generation=revision,snap=await getDocsFromServer(collection(db,'publishedContent'));
   if(generation!==revision)throw contentError('content/session-changed','Your account changed. Reload the content.');
-  const hydrated=[];for(const entry of snap.docs)hydrated.push(await hydrate('publishedContent',entry.data()));
+  const hydrated = [];
+  await inBatches(snap.docs, 1, async entries => {
+   hydrated.push(await hydrate('publishedContent', entries[0].data()));
+  });
   if(generation!==revision)throw contentError('content/session-changed','Your account changed. Reload the content.');
   publishedVersions.clear();
   for(const entry of snap.docs)publishedVersions.set(entry.id,entry.data().updatedAt);
@@ -83,8 +128,8 @@ export function connect(config,notify,options={}){
   return hydrated;
  };
  api.loadPublishedContent=async()=>{
-  try{return await readPublishedContent();}catch(first){
-   if(first.code==='content/session-changed')throw first;
+  try{return await readPublishedContent();}catch(error_){
+   if(error_.code==='content/session-changed')throw error_;
    // A manifest swap can revoke old chunk reads during hydration. Re-read once,
    // and never return partially assembled cases from either attempt.
    try{return await readPublishedContent();}catch(error){throw contentError('content/load-failed','Published content could not be loaded completely. Reload and try again.');}
@@ -106,7 +151,7 @@ export function connect(config,notify,options={}){
  };
  api.publishContent=async(caseId,value,expectedUpdatedAt,beforeCommit)=>{
   const check=await requireAdmin(),ref=contentRef('publishedContent',caseId);
-  try{validateContentPatch(value);if(value.caseId!==caseId)throw Error('Case ID mismatch.');}
+  try{validateContentPatch(value);if(value.caseId!==caseId)throw new Error('Case ID mismatch.');}
   catch(error){throw contentError('content/invalid-patch',error.message);}
   const json=contentValue(value);
   if(expectedUpdatedAt===undefined&&!publishedVersions.has(caseId)&&!publishedLoaded)throw contentError('content/not-loaded','Load the current content before publishing.');
@@ -115,7 +160,11 @@ export function connect(config,notify,options={}){
   try{await runTransaction(db,async transaction=>{
    const current=await transaction.get(ref);check();previous=current.exists()?current.data():null;
    if(!sameVersion(expected,previous?.updatedAt||null))throw contentError('content/conflict','Published content changed. Reload and review before publishing again.');
-   if(beforeCommit)await beforeCommit();check();transaction.set(ref,manifest);
+   if (beforeCommit) {
+    await beforeCommit();
+   }
+   check();
+   transaction.set(ref, manifest);
   });}catch(error){await cleanup('publishedContent',caseId,manifest.chunks);throw error;}
   publishedVersions.clear();publishedLoaded=false;
   await cleanup('publishedContent',caseId,chunkIds(previous));check();
