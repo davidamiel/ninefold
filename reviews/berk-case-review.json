@@ -1831,7 +1831,15 @@
       "externalPinpoints": "reviews/berk-external-pinpoint-review.json",
       "externalFifteen": "reviews/berk-external-fifteen-review.json",
       "sourceRoutes": "reviews/berk-verified-source-url-changes.json",
-      "limitations": "75 high-frequency occurrences and15 single-occurrence groups checked; source identity routing does not certify every pinpoint. Filed discrepancies preserved."
+      "limitations": "75 high-frequency occurrences and15 single-occurrence groups checked; source identity routing does not certify every pinpoint. Filed discrepancies preserved.",
+      "priorValidation": {
+        "run": "https://github.com/davidamiel/ninefold/actions/runs/42759781662",
+        "testsPassed": 316,
+        "readerDocuments": 27,
+        "status": "browser-harness-rerender-race-no-deployment",
+        "diagnosisRun": "https://github.com/davidamiel/ninefold/actions/runs/42760236184",
+        "finding": "Native asterisk click created correct disclaimer popup; redundant document reopen detached next target. Synchronize settled DOM and dismiss popup before next interaction."
+      }
     }
   },
   "resolvedBlockers": [

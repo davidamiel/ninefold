@@ -1,6 +1,9 @@
 name: Publish Ninefold
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [reviews/berk-case-review.json]
 permissions:
   contents: read
   pages: write

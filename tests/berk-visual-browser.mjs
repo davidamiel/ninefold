@@ -7,6 +7,7 @@ const page=await browser.newPage({viewport:{width:1440,height:1000}});
 const errors=[];page.on('pageerror',e=>errors.push(e.message));
 await page.route('**/app.js',async route=>{const r=await route.fetch();await route.fulfill({response:r,body:(await r.text())+'\nwindow.__berkVisual={open:openDoc,render:documentHTML,ensure:ensureDoc,reading:readingText,source:sourceJSON};'});});
 await page.goto(base+'#/case/24-440');await page.waitForFunction(()=>window.__court&&window.__berkVisual);
+async function settleReader(){await page.evaluate(()=>new Promise((resolve,reject)=>{let quiet;const finish=()=>{clearTimeout(limit);observer.disconnect();resolve();};const changed=()=>{clearTimeout(quiet);quiet=setTimeout(finish,350);};const observer=new MutationObserver(changed);observer.observe(document.querySelector('.document-body').parentElement,{childList:true,subtree:true});const limit=setTimeout(()=>{observer.disconnect();reject(new Error('Reader did not settle'));},10000);changed();}));}
 const evidence=await page.evaluate(async()=>{
  const id='24-440-660786c6b1c6',qa=window.__berkVisual;
  const data=await qa.ensure(id),structure=(await qa.source('data/reader-structure.json'))[id];
@@ -26,7 +27,7 @@ assert.deepEqual(evidence.anchors,['*',...Array.from({length:12},(_,i)=>String(i
 for(const x of evidence.checks){assert(x.bodyAbsentFromProse,x.label);assert(x.bodyCharacters>50,x.label);}
 assert.equal(evidence.folios.length,58);assert(evidence.folios.every(x=>x.absent));assert(evidence.coverNames.every(Boolean));assert.equal(evidence.coverLength,660);
 await page.evaluate(()=>window.__berkVisual.open('24-440-660786c6b1c6'));
-await page.waitForSelector('.document-body .source-page[data-page="2"]');await page.locator('.document-body .source-page[data-page="2"]').scrollIntoViewIfNeeded();await page.screenshot({path:'berk-appendix-page3-reader.png',fullPage:false});await page.locator('.document-body .source-page[data-page="2"] .footnote-anchor').click();await page.waitForSelector('.peek .peek-content');assert.match(await page.locator('.peek .peek-content').innerText(),/does not constitute binding precedent/);await page.screenshot({path:'berk-appendix-asterisk-reader.png',fullPage:false});await page.keyboard.press('Escape');await page.evaluate(()=>window.__berkVisual.open('24-440-660786c6b1c6'));await page.waitForSelector('.document-body .source-page[data-page="3"]');
+await page.waitForSelector('.document-body .source-page[data-page="2"]');await settleReader();await page.locator('.document-body .source-page[data-page="2"]').scrollIntoViewIfNeeded();await page.screenshot({path:'berk-appendix-page3-reader.png',fullPage:false});await page.locator('.document-body .source-page[data-page="2"] .footnote-anchor').click();await page.waitForSelector('.peek .peek-content');assert.match(await page.locator('.peek .peek-content').innerText(),/does not constitute binding precedent/);await page.screenshot({path:'berk-appendix-asterisk-reader.png',fullPage:false});await page.locator('.peek [data-action="dismiss-peek"]').click();await page.waitForSelector('.peek',{state:'detached'});await settleReader();await page.waitForSelector('.document-body .source-page[data-page="3"]');
 await page.locator('.document-body .source-page[data-page="3"]').scrollIntoViewIfNeeded();
 await page.screenshot({path:'berk-appendix-page4-reader.png',fullPage:false});
 await page.locator('.document-body .source-page[data-page="3"] .footnote-anchor').first().click();
@@ -34,7 +35,7 @@ await page.waitForSelector('.peek .peek-content');
 assert.match(await page.locator('.peek .peek-content').innerText(),/Defendants are Wilson C\. Choy/);
 await page.screenshot({path:'berk-appendix-footnote1-reader.png',fullPage:false});
 await page.evaluate(()=>window.__berkVisual.open('24-440-ffcc04da2f19'));
-await page.waitForSelector('.document-body .source-page[data-page="1"]');
+await page.waitForSelector('.document-body .source-page[data-page="1"]');await settleReader();
 assert.equal(await page.locator('.document-body .source-page[data-page="0"]').count(),0);
 const opposition=await page.evaluate(async()=>{
  const id='24-440-ffcc04da2f19',qa=window.__berkVisual,data=await qa.ensure(id),structure=(await qa.source('data/reader-structure.json'))[id];
