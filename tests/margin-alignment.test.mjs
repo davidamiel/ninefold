@@ -5,14 +5,14 @@ import vm from 'node:vm';
 import {JSDOM} from 'jsdom';
 const source=fs.readFileSync('dist/app.js','utf8');
 const implementation=source.slice(source.indexOf('function marginAnchor('),source.indexOf("\nwindow.addEventListener('resize',scheduleMargins)"));
-function fixture(){
+function fixture(mobile=false){
  const dom=new JSDOM(`<article class="document-body" data-document="doc"><span class="page-text" data-page="0"><a class="citation" data-ref-key="a">[37]</a> <a class="citation" data-ref-key="b">[38]</a> <a class="citation" data-ref-key="c">[39]</a><span data-annotation="note">Highlighted text</span></span><span class="page-marker"></span><span class="page-text" data-page="1"></span><aside class="document-margin"></aside></article>`);
  const document=dom.window.document;const tops={a:100,b:100,c:130,note:160};let shift=0;
  document.querySelector('article').getBoundingClientRect=()=>({top:20});
  document.createRange=()=>({selectNodeContents(el){this.el=el},setEnd(){},getClientRects(){const top=tops[this.el.dataset.refKey||this.el.dataset.annotation]??200;return [{top:top+shift,height:20,width:80},{top:top+shift+30,height:20,width:20}]},getBoundingClientRect(){return this.getClientRects()[0]}});
  const esc=x=>String(x??'').replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
  const state={marginNotes:true,notes:[{id:'note',comment:'Important',docId:'doc'},{id:'pageNote',comment:'Page note',page:1,docId:'doc'}]};let positioned=0,menu;
- const ctx=vm.createContext({document,state,refsIndex:new Map([['a',{number:37}],['b',{number:38}],['c',{number:39}]]),icon:n=>`<svg data-icon="${n}"></svg>`,esc,button:(label,a,v,cls,extra)=>`<button data-action="${a}" data-value="${v}" class="${cls}" ${extra}>${label}</button>`,noteMatches:()=>true,positionSelection(){positioned++},mountMenu(trigger,html){menu={trigger,html}},setTimeout,clearTimeout});
+ const ctx=vm.createContext({document,state,matchMedia:()=>({matches:mobile}),refsIndex:new Map([['a',{number:37}],['b',{number:38}],['c',{number:39}]]),icon:n=>`<svg data-icon="${n}"></svg>`,esc,button:(label,a,v,cls,extra)=>`<button data-action="${a}" data-value="${v}" class="${cls}" ${extra}>${label}</button>`,noteMatches:()=>true,positionSelection(){positioned++},mountMenu(trigger,html){menu={trigger,html}},setTimeout,clearTimeout});
  vm.runInContext(implementation,ctx);return {document,state,refs:ctx.refsIndex,run:()=>vm.runInContext('layoutMargins()',ctx),shift:n=>shift=n,positioned:()=>positioned,menu:()=>menu};
 }
 test('same-line references retain icons and numbers without moving following lines',()=>{
@@ -31,4 +31,15 @@ test('draft reference numbers appear immediately without publishing reference me
  const f=fixture(),citation=f.document.querySelector('[data-ref-key="c"]');f.refs.delete('c');citation.dataset.refNumber='39';f.run();assert.equal(f.document.querySelector('.margin-reference[data-ref-key="c"] small').textContent,'39');assert.equal(f.refs.has('c'),false);
  const content=f.document.createElement('div');content.className='reader-edit-content';f.document.querySelector('article').append(content);content.append(citation);f.run();assert.equal(f.document.querySelector('.margin-reference[data-ref-key="c"] small').textContent,'39');assert.equal(f.refs.has('c'),false);
  citation.remove();f.run();assert.equal(f.document.querySelector('.margin-reference[data-ref-key="c"]'),null);
+});
+
+test('same authority appears once per line and can appear again on a later line',()=>{
+ const f=fixture();f.refs.get('b').number=37;f.refs.get('c').number=37;f.run();
+ assert.equal(f.document.querySelectorAll('.margin-reference').length,2);
+ assert.equal(f.document.querySelector('.margin-group'),null);
+});
+test('mobile hides reference margins while retaining note controls',()=>{
+ const f=fixture(true);f.run();
+ assert.equal(f.document.querySelectorAll('.margin-reference').length,0);
+ assert.equal(f.document.querySelectorAll('.margin-note').length,2);
 });
