@@ -28,7 +28,7 @@ function fallbackSegments(text) {
   return ranges;
 }
 
-function sentenceRanges(text) {
+export function sentenceRanges(text) {
   let ranges;
   try {
     if (typeof globalThis.Intl?.Segmenter === 'function') {
@@ -148,4 +148,14 @@ export function timeAtSentenceOffset(turn, offset) {
     time = anchor.start + (anchor.end - anchor.start) * (start - anchor.offset + 1e-7) / anchor.length;
   }
   return Math.max(turn.start, Math.min(turn.end - 1e-6, time));
+}
+
+/** Return a sentence directly in source coordinates, without timing estimates. */
+export function sentenceAtOffset(turn, offset) {
+  if (!turn || typeof turn.text !== 'string' || !turn.text.length || !Number.isFinite(offset)) return null;
+  const {sentences} = prepareTurn(turn);
+  if (!sentences.length) return null;
+  const source = Math.max(0, Math.min(turn.text.length - 1, offset));
+  const sentence = sentences[lastStarted(sentences, source)];
+  return {start: sentence.start, end: sentence.end};
 }

@@ -8,9 +8,17 @@ async function drain(){
  running=true;
  try{
   while(queue.length){
+   // Let cancel/prioritize message tasks run between WASM generations. Awaiting
+   // an already-resolved inference promise alone only drains microtasks.
+   await new Promise(resolve=>setTimeout(resolve,0));
+   if(!queue.length)continue;
    const data=queue.shift();if(data.session!==latestSession)continue;
    try{
-    const tts=await load();if(data.session!==latestSession)continue;
+    const tts=await load();
+    // Model initialization can also occupy the worker. Honor a seek queued
+    // during startup before spending time synthesizing its obsolete text.
+    await new Promise(resolve=>setTimeout(resolve,0));
+    if(data.session!==latestSession)continue;
     const sound=await tts.generate(data.text,{voice:data.voice||'af_heart',speed:1});
     if(data.session!==latestSession)continue;
     const wav=sound.toWav();self.postMessage({type:'audio',id:data.id,session:data.session,wav,duration:sound.audio.length/sound.sampling_rate},[wav]);

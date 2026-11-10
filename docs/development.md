@@ -84,3 +84,28 @@ Check tab icons, iOS Add to Home Screen, and Safari Add to Dock after deployment
 ## Document-quality review
 
 Follow the [document-quality standards](document-quality.md) for source verification, correction evidence, immutable annotation anchors, and repeatable audit commands. The [Jackson source review](jackson-source-review.md) records the bounded PDF review behind the recovered glyph fixes. Passing structural checks is not collection-wide certification.
+
+### Narration engines
+
+Listen offers two actions: Natural and Fast. Natural uses Michael, the American
+male Kokoro voice, and may need time to prepare audio. Fast uses an available
+local English speech voice, with no online fallback or voice-picker UI. If no
+local voice is ready, the reader asks the listener to choose Natural or retry.
+Legacy saved online voice preferences are ignored.
+
+Both modes highlight sentences using source-coordinate mappings. Long sentences
+can require several synthesis clips but retain a single complete sentence
+highlight. Device speech does not provide an exact seekable audio timeline;
+secondary navigation moves by passage. Pause resumes from the last reported
+boundary, or the passage start when boundaries are unavailable. Physical-device
+and background/lock-screen verification remain necessary.
+
+Generated natural audio remains session-only; persistent caching is not included.
+
+The current foreground natural voice wait has a 90-second preparation deadline;
+background lookahead has none. A newer seek supersedes the previous deadline. If model loading,
+queueing, or inference exceeds that deadline, the worker is terminated and pending
+requests are cleared so a retry starts cleanly. The reader suggests Device voice.
+This is recovery from excessive waiting, not a guarantee of real-time synthesis.
+The worker yields between chunks so cancellation and seek-priority messages can
+be handled before another lookahead clip starts.

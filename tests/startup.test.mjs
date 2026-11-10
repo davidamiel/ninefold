@@ -1,3 +1,4 @@
+import {DeviceNarrator} from '../dist/device-narration.js';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -9,7 +10,7 @@ test('startup sees initialized collection and reader state',()=>{
  const noop=()=>{};
  const element={addEventListener:noop,style:{setProperty:noop},classList:{add:noop,remove:noop}};
  let starts=0;
- const context=vm.createContext({
+ const context=vm.createContext({DeviceNarrator,
   document:{querySelector:()=>element,querySelectorAll:()=>[],addEventListener:noop,body:element},
   window:{addEventListener:noop,matchMedia:()=>({addEventListener:noop,matches:true})},
   localStorage:{getItem:()=>null},

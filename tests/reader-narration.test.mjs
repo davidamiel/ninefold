@@ -16,14 +16,14 @@ function harness(extra={}){
   URL:{createObjectURL:()=>{const url='blob:'+urls.length;urls.push(url);return url}},
   Blob:class{},refreshPlayback(){},highlightNarration(){},textRange(){},visiblePage(){return 0},
   stopArgument(){},closeReaderMenu(){},clearSelection(){},toast:x=>toasts.push(x),console:{warn(){}},
-  ensureDoc:async()=>{},narrationChunks:()=>[{page:0,sourceStart:0},{page:0,sourceStart:100},{page:0,sourceStart:200}],
+  ensureDoc:async()=>{},narrationChunks:()=>[{page:0,sourceStart:0,sourceEnd:100},{page:0,sourceStart:100,sourceEnd:200},{page:0,sourceStart:200,sourceEnd:300}],
   narrationAudio:{pause(){},play:async()=>{},currentTime:0},getVoiceWorker:()=>({postMessage:x=>messages.push(x)}),...extra
  };
  const factory=new Function('env',`
   const {state,app,CSS,URL,Blob,refreshPlayback,highlightNarration,textRange,visiblePage,stopArgument,closeReaderMenu,clearSelection,toast,console,ensureDoc,narrationChunks,narrationAudio,getVoiceWorker}=env;
   let narration=null,narrationToken=0,voiceRequest=0;const voicePending=new Map();
   function stopNarration(){narrationToken++;narrationAudio.pause();narration=null;for(const p of voicePending.values())p.reject(new Error('Cancelled'));voicePending.clear()}
-  ${['generateChunk','playNarrationChunk','startNarration','skipPlayback'].map(declaration).join('\n')}
+  ${['waitForVoice','generateChunk','playNarrationChunk','startNarration','skipPlayback'].map(declaration).join('\n')}
   return {generateChunk,playNarrationChunk,startNarration,skipPlayback,stopNarration,
    get current(){return narration},set current(n){narration=n},voicePending,media:narrationAudio};
  `);
@@ -107,14 +107,14 @@ test('citation masking precedes every possible chunk boundary and preserves offs
   }
  }
  assert.equal(mask('Section 2 protects voting rights. Rule 12 governs dismissal. In 2024, 12 people applied.'),'Section 2 protects voting rights. Rule 12 governs dismissal. In 2024, 12 people applied.');
- assert(source.indexOf('clean.text=maskSpokenCitations(clean.text)')<source.indexOf('for(const m of part.matchAll'));
+ assert(source.indexOf('clean.text=maskSpokenCitations(clean.text)')<source.indexOf('for(const sentence of sentenceRanges(part))'));
 });
 
 test('voice restart preserves an explicit paused state',async()=>{
  let plays=0;const h=setup({narrationAudio:{pause(){},currentTime:0,play:async()=>plays++}});
  const start=h.api.startNarration({docId:'a',page:0,offset:100},{paused:true});
  await tick();answer(h,0);await start;assert.equal(h.api.current.paused,true);assert.equal(plays,0);
- assert(source.includes('offset:c.sourceStart},{paused:narration.paused}'));
+ assert(source.includes('await startNarration(anchor,{paused:n?.paused||false})'));
 });
 
 
@@ -156,4 +156,22 @@ test('forward skip promotes a prefetched duration probe before awaiting it',asyn
  assert.equal(h.messages.filter(m=>m.text==='6').length,1);
  answer(h,1);await skip;assert.equal(n.index,6);assert.equal(h.api.media.currentTime,9);
  h.api.stopNarration();await tick();
+});
+
+test('chunk transitions clear old media time before displaying the new elapsed total',async()=>{
+ const h=setup(),n=session();h.api.current=n;
+ const first=h.api.playNarrationChunk(n,0);answer(h,0);await first;
+ h.api.media.currentTime=10;
+ const next=h.api.playNarrationChunk(n,1);
+ assert.equal(h.api.media.currentTime,0);
+ answer(h,1);await next;
+ assert.equal(h.api.media.currentTime,0);
+ h.api.stopNarration();await tick();
+});
+
+
+test('a masked gap before the selected chunk never falls back to the previous sentence',async()=>{
+ const h=setup({narrationChunks:()=>[{page:0,sourceStart:0,sourceEnd:15,text:'First sentence.'},{page:0,sourceStart:39,sourceEnd:57,text:'supports the rule.'}]});
+ const start=h.api.startNarration({docId:'a',page:0,offset:16});await tick();
+ assert.equal(h.api.current.index,1);answer(h,0);await start;
 });

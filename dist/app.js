@@ -1,3 +1,4 @@
+import {DeviceNarrator} from './device-narration.js';
 import {createContentPatch,applyContentPatch,validateContentPatch} from './content-patch.js';
 import {createEditorSession} from './editor-session.js';
 import {openReaderEditor} from './reader-editor.js';
@@ -18,7 +19,7 @@ function guardReaderEditingEvent(event){
 for(const type of ['click','pointerdown','input','change','keydown'])document.addEventListener(type,guardReaderEditingEvent,true);
 import {openCaseEditor} from './case-editor.js';
 import {compileDocument,validateContent,escapeMarkdown} from './content-model.js';
-import {sentenceAtTime,timeAtSentenceOffset} from './transcript-timing.js';
+import {sentenceAtTime,timeAtSentenceOffset,sentenceAtOffset,sentenceRanges} from './transcript-timing.js';
 import {briefContents} from './reader-contents.js';
 import {pdfSources,nativePDFURL,pdfPageRange,normalizePDFURL} from './pdf-source.js';
 import {preparePDFLayout} from './pdf-layout.js';
@@ -1049,7 +1050,14 @@ function filedPDF(d) {
 function originalPDFLink(d){const url=filedPDF(d)||filedPDF(ds(d?.parentDocumentId));return url?`<a class="external original-pdf-link" data-open-original href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer">Open original PDF in new tab</a>`:''}
 function viewMenu(trigger){const d=ds(state.active),pdf=isPDF(d?.id),native=!!nativePDF(d?.id);mountMenu(trigger,`<h3>View</h3>${embeddedPDF(d)?`<div class="segmented" role="group" aria-label="Document format">${button('Reading','format','reading',pdf?'':'active',!d?.textPath&&!d?.timedSession?'disabled aria-label="Reading view unavailable for this filing"':'')}${button('PDF','format','pdf',pdf?'active':'')}</div>`: filedPDF(d)?external(filedPDF(d),'Open Filed PDF'):''}${pdf?(native?'<p class="small muted">Use the browser PDF viewer controls to zoom and change pages.</p>':`<label class="menu-field">Zoom<select id="pdf-zoom" aria-label="PDF zoom">${[['width','Fit Width'],['page','Fit Page'],['0.75','75%'],['1','100%'],['1.25','125%'],['1.5','150%'],['2','200%']].map(([v,t])=>`<option value="${v}" ${(state.pdfZoom?.[d.id]||'width')===v?'selected':''}>${t}</option>`).join('')}</select></label><div class="document-navigation"><label>Page <input type="number" data-page-input="${esc(d.id)}" min="${(d.sourceRange?.startPage||0)+1}" max="${d.sourceRange?d.sourceRange.endPage+(d.sourceRange.endOffset?1:0):d.pageCount||docCache.get(d.id)?.pages.length||999}" value="${Number(state.positions[d.id+':pdf']?.page??d.sourceRange?.startPage??0)+1}" aria-label="Go to page"></label></div>`):`<label class="menu-field">Text Size<input id="text-size" type="range" min="14" max="24" value="${state.textSize}" aria-label="Text size"></label><label class="view-check"><input id="page-markers" type="checkbox" ${state.pageMarkers?'checked':''}>Page Numbers</label><label class="view-check"><input id="margin-notes" type="checkbox" ${state.marginNotes?'checked':''}>Margin Icons</label>`}${d?.scanOnly?'<p class="small muted">This scanned filing is available as its original PDF. Extracted text is not available.</p>':''}${originalPDFLink(d)}${state.split?button('Close Split View','single','','listbutton'):''}`)}
 function isPDF(id){const d=ds(id);return state.pdfDocs?.includes(id)||(!d?.textPath&&!d?.timedSession)}
-function listenMenu(trigger){const c=state.route==='reader'?contextCase(state.active):state.route==='case'?getCase():audioCase?caseMap.get(audioCase):contextCase(state.active),d=ds(state.active);mountMenu(trigger,`<h3>${audioCase?'Argument Audio':'Listen'}</h3>${audioCase?`<label class="menu-field">Volume<input class="playback-volume" type="range" min="0" max="1" step="0.05" value="${audio.volume}" aria-label="Audio volume"></label>${currentTimedDoc()?button(followTranscript?'Following Transcript':'Follow Transcript','follow-transcript','',followTranscript?'active listbutton':'listbutton'):''}`:''}${d&&(d.textPath||d.timedSession)?button(icon('play')+(d.timedSession?'Read Transcript':'Read Document'),'read-aloud','','listbutton'):''}${c?.audio?.url?button(icon('play')+'Oral Argument Recording','listen',c.id,'listbutton'):''}${!audioCase?`<label class="menu-field">Narration Voice<select id="natural-voice">${[['af_heart','Heart · American'],['af_bella','Bella · American'],['am_michael','Michael · American male'],['bm_george','George · British']].map(([v,label])=>`<option value="${v}" ${(state.naturalVoice||'af_heart')===v?'selected':''}>${label}</option>`).join('')}</select></label>`:''}`)}
+function listenMenu(trigger){const c=state.route==='reader'?contextCase(state.active):state.route==='case'?getCase():audioCase?caseMap.get(audioCase):contextCase(state.active),d=ds(state.active);mountMenu(trigger,`<h3>Listen</h3>${audioCase?`<label class="menu-field">Volume<input class="playback-volume" type="range" min="0" max="1" step="0.05" value="${audio.volume}" aria-label="Audio volume"></label>${currentTimedDoc()?button(followTranscript?'Following Transcript':'Follow Transcript','follow-transcript','',followTranscript?'active listbutton':'listbutton'):''}`:''}${d&&(d.textPath||d.timedSession)?`${button('Natural','narration-mode','natural','listbutton','aria-label="Natural audio"')}${button('Fast','narration-mode','device','listbutton','aria-label="Fast audio"')}`:''}${c?.audio?.url?button(icon('play')+'Oral Argument Recording','listen',c.id,'listbutton'):''}`)}
+async function requestNarrationMode(mode){
+ if(!['natural','device'].includes(mode))return;
+ const n=narration?.id===state.active?narration:null,c=n?.chunks[n.index],anchor=c?{docId:n.id,page:c.page,offset:c.sourceStart}:null;
+ state.narrationEngine=mode;state.naturalVoice='am_michael';delete state.deviceVoice;persist();
+ await startNarration(anchor,{paused:n?.paused||false});
+}
+
 
 
 function openOptions(trigger,id){const isOpen=state.tabs.includes(id),current=state.active===id;mountMenu(trigger,`${button(isOpen?(current?'Current Document':'Show Tab'):'Open in New Tab','open',id,'listbutton',current?'disabled':'')}${state.active&&id!==state.active?button(state.split===id?'Close Split View':'Open Side by Side',state.split===id?'single':'split-doc',id,'listbutton'):''}`,'open-menu')}
@@ -1093,7 +1101,7 @@ function maskSpokenCitations(text){
  return text;
 }
 function skipSpokenCitations(text){return maskSpokenCitations(text).replace(/\(\s*\)/g,'').replace(/\s+([,.;:!?])/g,'$1').replace(/[,;]\s*([.!?])/g,'$1').replace(/\s+/g,' ').trim()}
-function narrationChunks(id){
+function narrationChunks(id,anchor=null){
  const data=docCache.get(id),d=ds(id),chunks=[];if(!data)return chunks;
  data.pages.forEach((p,page)=>{
   if(d.sourceRange&&(page<d.sourceRange.startPage||page>d.sourceRange.endPage))return;
@@ -1105,15 +1113,25 @@ function narrationChunks(id){
   if(markers.length)clean.text=clean.text.split('').map((ch,i)=>markers.some(m=>clean.map[i]>=m.start&&clean.map[i]<m.end)?' ':ch).join('');
   clean.text=maskSpokenCitations(clean.text);
   const cuts=new Set([0,clean.text.length]);
+  const anchorOffset=anchor?.page===page&&Number.isFinite(anchor.offset)?lowerBound(clean.map,anchor.offset):null;
   for(const m of clean.text.matchAll(/\n\n+/g)){cuts.add(m.index);cuts.add(m.index+m[0].length)}
   for(const h of structure.headings.filter(h=>h.page===page)){cuts.add(lowerBound(clean.map,h.start));cuts.add(lowerBound(clean.map,h.end))}
   const sorted=[...cuts].sort((a,b)=>a-b);
   for(let i=0;i<sorted.length-1;i++){
    const from=sorted[i],part=clean.text.slice(from,sorted[i+1]);
-   for(const m of part.matchAll(/.{1,220}(?:\s|$)|\S{1,220}/gs)){
-    const speech=skipSpokenCitations(m[0]);if(!/[a-zA-Z]/.test(speech))continue;
-    const leading=m[0].search(/\S/),readingStart=from+m.index+Math.max(0,leading),readingEnd=from+m.index+m[0].trimEnd().length;
-    chunks.push({page,readingStart,readingEnd,sourceStart:clean.map[readingStart]??0,sourceEnd:(clean.map[readingEnd-1]??0)+1,text:speech});
+   // Highlight a sentence, not an arbitrary synthesis window. Long sentences
+   // may still require several audio clips, but keep one stable visual range.
+   for(const sentence of sentenceRanges(part)){
+    const sentenceStart=from+sentence.start,sentenceEnd=from+sentence.end;
+    const speechCuts=[sentenceStart,...(anchorOffset>sentenceStart&&anchorOffset<sentenceEnd?[anchorOffset]:[]),sentenceEnd];
+    for(let cut=0;cut<speechCuts.length-1;cut++){
+     const speechStart=speechCuts[cut],sentenceText=clean.text.slice(speechStart,speechCuts[cut+1]);
+     for(const m of sentenceText.matchAll(/.{1,220}(?:\s|$)|\S{1,220}/gs)){
+      const speech=skipSpokenCitations(m[0]);if(!/[a-zA-Z]/.test(speech))continue;
+      const leading=m[0].search(/\S/),readingStart=speechStart+m.index+Math.max(0,leading),readingEnd=speechStart+m.index+m[0].trimEnd().length;
+      chunks.push({page,readingStart,readingEnd,sourceStart:clean.map[readingStart]??0,sourceEnd:(clean.map[readingEnd-1]??0)+1,highlightStart:clean.map[sentenceStart]??0,highlightEnd:(clean.map[sentenceEnd-1]??0)+1,text:speech});
+     }
+    }
    }
   }
  });return chunks;
@@ -1121,16 +1139,46 @@ function narrationChunks(id){
 function narrationDisplayRange(el,chunk){
  const map=displayMaps.get(el.dataset.mapKey||el.dataset.textDoc+':'+chunk.page);
  if(!map?.length||!Number.isFinite(chunk.sourceStart)||!Number.isFinite(chunk.sourceEnd))return null;
- const start=lowerBound(map,chunk.sourceStart),end=lowerBound(map,chunk.sourceEnd);
+ const start=lowerBound(map,chunk.highlightStart??chunk.sourceStart),end=lowerBound(map,chunk.highlightEnd??chunk.sourceEnd);
  return end>start?{start,end}:null;
 }
 
 let voiceWorker=null,voiceRequest=0;const voicePending=new Map(),narrationAudio=new Audio();narrationAudio.preload='auto';
+const deviceNarrator=new DeviceNarrator({
+ onEnd(){const n=narration;if(n?.engine==='device'&&!n.paused)playNarrationChunk(n,n.index+1)},
+ onError(error){if(narration?.engine==='device'){narration.paused=true;narration.loading=false;refreshPlayback();toast(error==='no-local-voice'?'Fast audio is unavailable on this device. Choose Natural in Listen, or try Fast again.':'Fast audio stopped. Tap Play to retry or choose Natural in Listen.')}}
+});
+function playDeviceNarration(n,index){
+ if(!deviceNarrator.supported){stopNarration();toast('Fast audio is unavailable in this browser. Choose Natural in Listen.');return}
+ n.index=index;n.loading=false;
+ const chunk=n.chunks[index],elements=app.querySelectorAll(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`),ranges=[];
+ for(const el of elements){const displayed=narrationDisplayRange(el,chunk);if(!displayed)continue;const range=textRange(el,displayed.start,displayed.end);if(range){ranges.push(range);if(ranges.length===1){const scroll=el.closest('.doc-scroll');if(scroll){const box=range.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}}}
+ if(CSS.highlights){if(ranges.length)CSS.highlights.set('narration',new Highlight(...ranges));else CSS.highlights.delete('narration')}
+ deviceNarrator.stop();
+ if(!n.paused)deviceNarrator.play(chunk.text,{rate:state.narrationSpeed||1});
+ refreshPlayback();
+}
 function getVoiceWorker(){if(voiceWorker)return voiceWorker;const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;worker.onmessage=({data})=>{if(voiceWorker!==worker)return;if(data.type==='progress'){if(narration?.loading){const n=overlays.querySelector('.voice-progress')||document.querySelector('.voice-progress');if(n)n.textContent=data.progress.status==='progress'&&data.progress.total>10000000?'Preparing Voice '+Math.round(data.progress.progress)+'%':'Preparing Voice…'}return}const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);data.type==='audio'?p.resolve(data):p.reject(new Error(data.message))};worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};return worker}
+function waitForVoice(n,promise){
+ const request=n.playRequest;let timeout,settled=false;
+ const deadline=new Promise((resolve,reject)=>{
+  timeout=setTimeout(()=>{
+   // Speculative synthesis has no deadline. Only the current foreground wait
+   // can reset a stuck worker; a previous seek must not abort a newer request.
+   if(settled||n!==narration||n.playRequest!==request||!n.loading)return;
+   const error=new Error('Natural voice preparation timed out');error.code='VOICE_TIMEOUT';
+   voiceWorker?.terminate();voiceWorker=null;
+   for(const pending of voicePending.values())pending.reject(error);
+   voicePending.clear();reject(error);
+  },90000);
+  timeout?.unref?.();
+ });
+ return Promise.race([promise,deadline]).finally(()=>{settled=true;clearTimeout(timeout)});
+}
 function generateChunk(n,index,priority=false){
  if(!n.chunks[index])return Promise.resolve(null);
  if(n.cache.has(index))return Promise.resolve(n.cache.get(index));
- if(n.pending.has(index)){if(priority)getVoiceWorker().postMessage({type:'prioritize',session:n.token,index});return n.pending.get(index);}
+ if(n.pending.has(index)){if(priority)getVoiceWorker().postMessage({type:'prioritize',session:n.token,index});return priority?waitForVoice(n,n.pending.get(index)):n.pending.get(index);}
  const id=++voiceRequest;
  const promise=new Promise((resolve,reject)=>{
   voicePending.set(id,{resolve,reject});
@@ -1141,14 +1189,15 @@ function generateChunk(n,index,priority=false){
   const value={url:URL.createObjectURL(new Blob([data.wav],{type:'audio/wav'})),duration:data.duration};
   n.cache.set(index,value);return value;
  }).finally(()=>n.pending.delete(index));
- n.pending.set(index,promise);return promise;
+ n.pending.set(index,promise);return priority?waitForVoice(n,promise):promise;
 }
 async function playNarrationChunk(n,index,offset=0){
  if(n!==narration)return;
  if(index>=n.chunks.length){stopNarration();return}
+ if(n.engine==='device'){playDeviceNarration(n,index);return}
  const request=n.playRequest=(n.playRequest||0)+1;
  const current=()=>n===narration&&n.playRequest===request;
- narrationAudio.pause();n.index=index;n.loading=true;refreshPlayback();
+ narrationAudio.pause();narrationAudio.currentTime=0;n.index=index;n.loading=true;refreshPlayback();
  try{
   const ready=generateChunk(n,index,true);
   // Queue lookahead immediately: even short headings provide synthesis time for
@@ -1174,32 +1223,35 @@ async function playNarrationChunk(n,index,offset=0){
 
   refreshPlayback();
 
- }catch(e){if(current()){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
+ }catch(e){if(current()){stopNarration();toast(e.code==='VOICE_TIMEOUT'?'Natural voice took too long to prepare. Choose Fast in Listen for a faster start, or retry.':'The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
 }
 async function startNarration(anchor=null,{paused=false}={}){
  const id=anchor?.docId||state.active;
  stopNarration();const token=++narrationToken;
  try{await ensureDoc(id)}catch(error){if(token===narrationToken)toast('This document could not load. Please try again.');return}
  if(token!==narrationToken)return;
- const chunks=narrationChunks(id);if(!chunks.length)return;
+ const chunks=narrationChunks(id,anchor);if(!chunks.length)return;
  stopArgument();
  const scroll=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`),page=anchor?.page??Number(scroll?visiblePage(scroll):0),offset=anchor?.offset||0;
  let index=chunks.findIndex(c=>c.page>page||c.page===page&&c.sourceStart>=offset);
  // A selection inside a chunk must include that chunk, not skip to the next one.
  const previous=index<0?chunks.length-1:index-1;
- if((index<0||chunks[index].page!==page||chunks[index].sourceStart>offset)&&previous>=0&&chunks[previous].page===page&&chunks[previous].sourceStart<=offset)index=previous;
+ if((index<0||chunks[index].page!==page||chunks[index].sourceStart>offset)&&previous>=0&&chunks[previous].page===page&&chunks[previous].sourceStart<=offset&&offset<chunks[previous].sourceEnd)index=previous;
  if(index<0)index=chunks.length-1;
- const n={id,token,index,voice:state.naturalVoice||'af_heart',loading:true,paused,chunks,cache:new Map(),pending:new Map()};
+ const n={id,token,index,engine:state.narrationEngine||'natural',voice:'am_michael',loading:true,paused,chunks,cache:new Map(),pending:new Map()};
+ if(n.engine==='device'&&voiceWorker){voiceWorker.terminate();voiceWorker=null}
  narration=n;closeReaderMenu();clearSelection();await playNarrationChunk(n,index);
 }
-function stopNarration(){narrationToken++;narrationAudio.pause();narrationAudio.removeAttribute('src');if(narration)for(const value of narration.cache.values())URL.revokeObjectURL(value.url);narration=null;voiceWorker?.postMessage({type:'cancel',session:narrationToken});for(const p of voicePending.values())p.reject(new Error('Cancelled'));voicePending.clear();CSS.highlights?.delete('narration');document.querySelectorAll('.narrating').forEach(e=>e.classList.remove('narrating'));refreshPlayback()}
+function stopNarration(){deviceNarrator.stop();narrationToken++;narrationAudio.pause();narrationAudio.removeAttribute('src');if(narration)for(const value of narration.cache.values())URL.revokeObjectURL(value.url);narration=null;voiceWorker?.postMessage({type:'cancel',session:narrationToken});for(const p of voicePending.values())p.reject(new Error('Cancelled'));voicePending.clear();CSS.highlights?.delete('narration');document.querySelectorAll('.narrating').forEach(e=>e.classList.remove('narrating'));refreshPlayback()}
 function highlightNarration(el,start,length){if(!CSS.highlights)return;const r=textRange(el,start,start+length);if(r)CSS.highlights.set('narration',new Highlight(r))}
 function showNarrationDock(){refreshPlayback()}
-function playbackControls(){const n=narration,active=n||audioCase;if(!active)return button(icon('audio')+'Listen','reader-menu','listen','listen-button');const media=n?narrationAudio:audio,paused=n?n.paused:media.paused;
+function devicePlaybackControls(n){return `<div class="playback-strip ${playbackExpanded?'expanded':''}" role="group" aria-label="Device narration"><div class="playback-primary">${button(icon(n.paused?'play':'pause'),'playback-toggle','','playback-toggle',`aria-label="${n.paused?'Play':'Pause'}"`)}<span class="playback-identity"><span>Device voice · ${esc(documentLabel(ds(n.id)))}</span></span><select class="playback-speed" aria-label="Playback speed">${[.75,1,1.25,1.5,2].map(v=>`<option value="${v}" ${(state.narrationSpeed||1)===v?'selected':''}>${v}×</option>`).join('')}</select>${button(icon('chevron'),'playback-expand','','playback-expand',`aria-expanded="${playbackExpanded}" aria-controls="playback-secondary" aria-label="${playbackExpanded?'Collapse':'Expand'} audio controls"`)}</div><div id="playback-secondary" class="playback-secondary">${button('←','playback-skip','-1','skip-audio',`aria-label="Previous passage" ${n.index===0?'disabled':''}`)}${button('→','playback-skip','1','skip-audio','aria-label="Next passage"')}${state.route!=='reader'?button(icon('file'),'return-audio','','return-audio','aria-label="Return to document"'):''}${button(icon('audio'),'playback-settings','','','aria-label="Audio options"')}${button(icon('close'),'playback-close','','','aria-label="Stop audio"')}</div></div>`}
+function playbackControls(){const n=narration,active=n||audioCase;if(n?.engine==='device')return devicePlaybackControls(n);if(!active)return button(icon('audio')+'Listen','reader-menu','listen','listen-button');const media=n?narrationAudio:audio,paused=n?n.paused:media.paused;
  return `<div class="playback-strip ${playbackExpanded?'expanded':''}" role="group" aria-label="Audio playback"><div class="playback-primary">${button(icon(paused?'play':'pause'),'playback-toggle','','playback-toggle',`aria-label="${paused?'Play':'Pause'}"`)}<span class="playback-identity">${!n&&currentTimedDoc()?'<span class="audio-speaker-portrait" id="audio-speaker-portrait"></span><span id="current-speaker">Oral argument</span>':`<span>${esc(n?documentLabel(ds(n.id)):'Oral argument')}</span>`}</span><select class="playback-speed" aria-label="Playback speed">${[.75,1,1.25,1.5,2].map(v=>`<option value="${v}" ${(n?state.narrationSpeed||1:audio.playbackRate)===v?'selected':''}>${v}×</option>`).join('')}</select>${button(icon('chevron'),'playback-expand','','playback-expand',`aria-expanded="${playbackExpanded}" aria-controls="playback-secondary" aria-label="${playbackExpanded?'Collapse':'Expand'} audio controls" title="${playbackExpanded?'Collapse':'Expand'} audio controls"`)}</div><div id="playback-secondary" class="playback-secondary">${button(skipIcon(false),'playback-skip','-10','skip-audio',`aria-label="Back 10 seconds" ${n?.loading?'disabled':''}`)}${button(skipIcon(true),'playback-skip','10','skip-audio',`aria-label="Forward 10 seconds" ${n?.loading?'disabled':''}`)}${state.seekOpen?`<input class="playback-seek" type="range" min="0" max="${Number.isFinite(media.duration)?media.duration:0}" value="${media.currentTime||0}" step="0.1" aria-label="Seek audio">${button(time(media.currentTime),'seek-toggle','','seek-close','aria-label="Show elapsed time"')}`:button(time(n?narrationElapsed():audio.currentTime),'seek-toggle','','playback-time','aria-label="Show audio seek bar"')}${state.route!=='reader'?button(icon('file'),'return-audio','','return-audio','aria-label="Return to transcript or document"'):''}${button(icon('audio'),'playback-settings','','',`aria-label="Audio options"`)}${button(icon('close'),'playback-close','','',`aria-label="Stop audio"`)}</div>${n?.loading?'<span class="voice-progress" role="status">Preparing Audio…</span>':''}</div>`}
 function narrationElapsed(){if(!narration)return 0;return [...narration.cache].filter(([index])=>index<narration.index).reduce((n,[,clip])=>n+clip.duration,0)+narrationAudio.currentTime}
 function refreshPlayback(){let slot=document.querySelector('#reader-playback,#global-playback');if(state.route!=='reader'){if(!audioCase&&!narration){document.querySelector('#global-playback')?.remove();return}if(!slot){app.querySelector('.nav-account')?.insertAdjacentHTML('beforebegin','<div id="global-playback"></div>');slot=document.querySelector('#global-playback')}}if(slot){slot.innerHTML=playbackControls();if(audioCase&&!narration)updateTranscript()}}
 async function skipPlayback(seconds){
+ if(narration?.engine==='device'){await playNarrationChunk(narration,Math.max(0,narration.index+(seconds<0?-1:1)));return}
  if(!narration){audio.currentTime=Math.max(0,Math.min(Number.isFinite(audio.duration)?audio.duration:Infinity,audio.currentTime+seconds));return}
  const n=narration,request=n.playRequest=(n.playRequest||0)+1,current=()=>n===narration&&n.playRequest===request;
  let index=n.index,position=narrationAudio.currentTime+seconds;
@@ -1210,10 +1262,11 @@ async function skipPlayback(seconds){
   if(current())await playNarrationChunk(n,index,Math.max(0,position));
  }catch(error){if(current()){stopNarration();toast('Audio could not be prepared. Start reading again to retry.')}}
 }
-narrationAudio.addEventListener('ended',()=>{if(narration)playNarrationChunk(narration,narration.index+1)});
+narrationAudio.addEventListener('ended',()=>{if(narration&&narration.engine!=='device')playNarrationChunk(narration,narration.index+1)});
 narrationAudio.addEventListener('timeupdate',()=>{const label=document.querySelector('.playback-time');if(label&&narration)label.textContent=time(narrationElapsed())});
-document.addEventListener('click',async e=>{const b=e.target.closest('[data-action]'),a=b?.dataset.action;if(a==='playback-toggle'){if(narration){narration.paused=!narration.paused;if(!narration.loading){if(narration.paused)narrationAudio.pause();else narrationAudio.play().catch(()=>toast('Tap Play to resume.'))}}else if(audio.paused)audio.play().catch(()=>toast('Tap Play to start.'));else audio.pause();refreshPlayback()}else if(a==='playback-close'){stopNarration();stopArgument()}else if(a==='playback-skip')await skipPlayback(Number(b.dataset.value));else if(a==='playback-settings')listenMenu(b);else if(a==='narrate-selection'&&selection&&narration?.id===selection.docId){const x=selection;await startNarration({docId:x.docId,page:x.anchors[0].page,offset:x.anchors[0].start})}});
-document.addEventListener('change',e=>{if(e.target.matches('.playback-speed')){const rate=Number(e.target.value);if(narration){state.narrationSpeed=rate;narrationAudio.playbackRate=rate;persist()}else audio.playbackRate=rate}if(e.target.id==='natural-voice'){state.naturalVoice=e.target.value;persist();if(narration){const c=narration.chunks[narration.index];startNarration({docId:narration.id,page:c.page,offset:c.sourceStart},{paused:narration.paused})}}});
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-action]'),a=b?.dataset.action;if(a==='narration-mode'){await requestNarrationMode(b.dataset.value);return}if(a==='playback-toggle'){if(narration){narration.paused=!narration.paused;if(narration.engine==='device'){if(narration.paused)deviceNarrator.pause();else if(deviceNarrator.text)deviceNarrator.resume();else playDeviceNarration(narration,narration.index);refreshPlayback();return}if(!narration.loading){if(narration.paused)narrationAudio.pause();else narrationAudio.play().catch(()=>toast('Tap Play to resume.'))}}else if(audio.paused)audio.play().catch(()=>toast('Tap Play to start.'));else audio.pause();refreshPlayback()}else if(a==='playback-close'){stopNarration();stopArgument()}else if(a==='playback-skip')await skipPlayback(Number(b.dataset.value));else if(a==='playback-settings')listenMenu(b);else if(a==='narrate-selection'&&selection&&narration?.id===selection.docId){const x=selection;await startNarration({docId:x.docId,page:x.anchors[0].page,offset:x.anchors[0].start})}});
+document.addEventListener('change',e=>{if(e.target.matches('.playback-speed')){const rate=Number(e.target.value);if(narration){state.narrationSpeed=rate;narrationAudio.playbackRate=rate;if(narration.engine==='device')deviceNarrator.setRate(rate);persist()}else audio.playbackRate=rate}});
+
 
 function textRange(el,start,end){const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),r=document.createRange();let n,at=0,begun=false;while(n=w.nextNode()){const next=at+n.length;if(!begun&&start<=next){r.setStart(n,Math.max(0,start-at));begun=true}if(begun&&end<=next){r.setEnd(n,Math.max(0,end-at));return r}at=next}return null}
 function jumpHeading(id,page,offset){if(state.pdfDocs?.includes(id)){jumpPage(id,page);return}const el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"] .page-text[data-page="${page}"]`);if(!el)return;const pos=lowerBound(displayMaps.get(id+':'+page)||[],offset),r=textRange(el,pos,pos+1),scroll=el.closest('.doc-scroll');if(r)scroll.scrollBy({top:r.getBoundingClientRect().top-scroll.getBoundingClientRect().top-30,behavior:'smooth'})}
@@ -1462,7 +1515,8 @@ document.addEventListener('click',async e=>{
  if(a==='reference-location'){const r=refsIndex.get(v)||state.refs.find(r=>r.key===v);if(r){jumpHeading(r.fromDoc,r.page??Number(r.key.split('|')[2]),r.offset??0)}}
  if(a==='retry-pdf')renderPDF(v);
  if(a==='focus-pane')focusReaderPane(v);
- const turn=e.target.closest('.speaker-turn');if(turn&&!b&&!e.target.closest('[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed){const id=turn.closest('[data-document]').dataset.document,d=ds(id);if(d.timedSession){const source=transcriptClickOffset(e,turn,id),record=d.timedSession.turns[Number(turn.dataset.turn)],start=source===null?null:timeAtSentenceOffset(record,source);await listen(d.caseId,d.timedSession.id,start??Number(e.target.closest('[data-seek-start]')?.dataset.seekStart??turn.dataset.start))}}
+ const turn=e.target.closest('.speaker-turn');if(turn&&!b&&!e.target.closest('[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed&&!e.target.closest('a')){const id=turn.closest('[data-document]').dataset.document;await seekTranscriptText(e,turn,id)}
+ if(!turn&&narration&&!b&&!e.target.closest('a,[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed){const text=e.target.closest('.page-text'),body=text?.closest('[data-document]');if(body)await seekTranscriptText(e,body,body.dataset.document)}
 });
 document.addEventListener('input',e=>{if(e.target.matches('.playback-volume'))audio.volume=Number(e.target.value);if(e.target.matches('.playback-seek')){const media=narration?narrationAudio:audio;media.currentTime=Number(e.target.value)}});
 function updateSeek(){const media=narration?narrationAudio:audio;const slider=document.querySelector('.playback-seek');if(slider&&document.activeElement!==slider){slider.max=Number.isFinite(media.duration)?media.duration:0;slider.value=media.currentTime}const label=document.querySelector('.playback-time');if(label)label.textContent=time(narration?narrationElapsed():audio.currentTime);const seekLabel=document.querySelector('.seek-close');if(seekLabel)seekLabel.textContent=time(media.currentTime)}
@@ -1492,6 +1546,26 @@ function officialTranscriptTurns(id,data){
 function untimedTranscriptHTML(id,data){
  const d=ds(id),c=contextCase(id),turns=officialTranscriptTurns(id,data);
  return `<article class="document-body conversation untimed-conversation" data-document="${esc(id)}"><header class="conversation-header"><div><h2>Oral Argument</h2><p>${date(c.argued)}</p><small>Synchronized timing is not yet available.</small></div>${c.audio?.url?button(icon('play')+'Listen','listen',c.id,'outline'):''}</header>${turns.map(t=>`<section class="speaker-turn ${t.justice?'justice-turn':'advocate-turn'}"><div class="speaker-avatar">${portrait(t.speaker,'transcript-face')}</div><div class="speaker-message"><header><strong>${esc(t.speaker)}</strong></header>${t.parts.map(p=>`<span class="source-page" data-page="${p.page}"><span class="page-text" data-text-doc="${esc(id)}" data-page="${p.page}" data-map-key="${esc(p.key)}">${renderText(p.text,id,p.page,p.map,p.key)}</span></span>`).join(' ')}</div></section>`).join('')}<footer class="transcript-credit">Official Court transcript · Speaker formatting preserves the filed text.</footer><aside class="document-margin"></aside></article>`;
+}
+
+// A plain text click follows the active reader engine. Explicit recording
+// buttons remain the way to switch from narration to the original recording.
+async function seekTranscriptText(event,turn,id){
+ // Footnotes are intentionally omitted from narration; do not redirect their
+ // text clicks to the next (or final) body passage.
+ if(readerEditing()||event.target.closest('.footnote-entry,.reader-footnotes'))return;
+ const d=ds(id);if(!d)return;
+ const text=event.target.closest('.page-text'),page=Number(text?.dataset.page??turn.dataset.turn);
+ const record=d.timedSession?.turns[page]||docCache.get(id)?.pages[page];if(!record)return;
+ const source=transcriptClickOffset(event,turn,id),start=source===null?null:timeAtSentenceOffset(record,source);
+ const time=start??Number(event.target.closest('[data-seek-start]')?.dataset.seekStart??turn.dataset.start);
+ if(narration){
+  if(source===null&&!d.timedSession)return;
+  const offset=(source===null?sentenceAtTime(record,time):sentenceAtOffset(record,source))?.start??source??0;
+  await startNarration({docId:id,page,offset},{paused:narration.paused});
+  return;
+ }
+ if(d.timedSession)await listen(d.caseId,d.timedSession.id,time);
 }
 
 // Native hit-testing keeps source offsets independent of wrapping and inline markup.
