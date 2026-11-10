@@ -350,7 +350,7 @@ function restoreBrowsePosition() {
   }
 }
 
-// Keep an opinion author together when a compact tab needs a second line.
+// Opinion authors occupy a deliberate second line in the tab.
 function readerTabLabel(doc) {
   const label = tabLabel(doc);
   if (!doc?.opinionType || doc.editorTitle || !/concur|dissent/i.test(doc.opinionType)) return esc(label);
