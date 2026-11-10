@@ -34,7 +34,7 @@ export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
     }
   }
   add(/\b(\d+)\s+U\.?\s*S\.?\s+(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/g,'case',m=>m[1]+' U.S. '+m[2]);
-  add(/\b(\d+)\s+F\s*\.\s*(?:(2d|3d|4th|Supp\.?(?:\s*(?:2d|3d))?)\s+)(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/gi,'case',
+  add(/\b(\d+)\s+F\s*\.\s*(?:(2d|3d|4th|Supp\.?(?:\s*(?:2d|3d))?)\s+)(\d+)(?![\dA-Za-z])(?:,\s*\d+(?:[–-]\d+)?)?/gi,'case',
     m=>m[1]+' F.'+m[2].replace(/\s+/g,' ')+' '+m[3]);
   // Recognition alone does not claim an authoritative local target exists.
   add(/\b(\d+)\s+F\.\s*App['’]x\s+(\d+)(?![\dA-Za-z])(?:,\s*\d+(?:[–-]\d+)?(?!\d|\s+(?:F\.|U\.?\s*S\.?|S\.\s*Ct\.|L\.\s*Ed\.)))?/g,'case',m=>m[1]+" F. App'x "+m[2]);
@@ -43,7 +43,7 @@ export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
   add(/\b(\d+)\s+Stat\.\s*(\d+)(?:[–-]\d+)?/g,'statute',m=>m[1]+' Stat. '+m[2]);
   add(/\b(\d+)\s+C\.\s*F\.\s*R\.\s*(?:§{1,2}\s*)?(\d+(?:\.\d+)?)(?:\([a-zA-Z0-9]+\))*/g,'statute',m=>m[1]+' C.F.R. § '+m[2]);
   if (shortCase) {
-    add(/\b(\d+)\s+(U\.?\s*S\.?|F\s*\.\s*(?:2d|3d|4th)),?\s+at\s+\d+(?:[–-]\d+)?/gi,'case',
+    add(/\b(\d+)\s+(U\.?\s*S\.?|F\s*\.\s*(?:2d|3d|4th|Supp\.?(?:\s*(?:2d|3d))?)),?\s+at\s+\d+(?:[–-]\d+)?/gi,'case',
       m=>shortCase(m[1],m[2],text.slice(Math.max(0,m.index-120),m.index))||m[0].replace(/\s+/g,' '));
   }
   add(/\bFed(?:eral)?\.?\s*R(?:ules?)?\.?\s*(?:of\s+)?(Civ(?:il)?|App(?:ellate)?|Crim(?:inal)?)\.?\s*P(?:rocedure)?\.?\s*(\d+(?:\.\d+)?)(?:\([a-z0-9]+\))*/gi,'statute',
@@ -199,4 +199,4 @@ function caseNameBefore(prefix){
  const pattern=new RegExp('((?:(?:In re|Ex parte)\\s+'+word+'(?:\\s+'+word+'){0,9}|'+word+'(?:\\s+'+word+'){0,9}\\s+v\\.\\s+'+word+'(?:\\s+'+word+'){0,9})),\\s*$','u');
  const match=prefix.match(pattern);if(!match)return null;const name=stripSignal(match[1].replace(/\s+/g,' ').trim());const at=match[0].indexOf(name.split(' ')[0]);return {name,trailing:match[0].slice(Math.max(0,at))};
 }
-function shortNameBefore(prefix){const match=prefix.match(/((?:(?:In re|Ex parte)\s+)?[\p{Lu}][\p{L}'’.-]*(?:\s+[\p{Lu}][\p{L}'’.-]*){0,4}),\s*$/u);if(!match)return null;const name=stripSignal(match[1]);return {name,trailing:match[0].slice(match[0].indexOf(name))}}
+function shortNameBefore(prefix){const match=prefix.match(/((?:(?:In re|Ex parte)\s+)?[\p{Lu}][\p{L}'’.-]*(?:\s+[\p{Lu}][\p{L}'’.-]*){0,4})\s*,\s*$/u);if(!match)return null;const name=stripSignal(match[1]);return {name,trailing:match[0].slice(match[0].indexOf(name))}}

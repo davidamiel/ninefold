@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "caseId": "24-440",
+  "baselineCommit": "8ab3ac555b1c88bab14180a031d98ee7046be276",
+  "status": "additive-source-metadata-prepared",
+  "reviewedAt": "2026-11-10",
+  "coordinateSystem": "sourcePage zero-based; sourcePdfPages one-based slip pages, not Federal Reporter pages",
+  "entries": {
+    "800 F.3d 113": {
+      "kind": "case",
+      "citation": "800 F.3d 113",
+      "name": "Schmigel v. Uchal",
+      "court": "United States Court of Appeals for the Third Circuit",
+      "year": 2015,
+      "sourceUrl": "https://www2.ca3.uscourts.gov/opinarch/143476p.pdf",
+      "source": "Official court opinion",
+      "sourceReview": "Original opinion identity verified; individual reporter pinpoints unverified."
+    },
+    "783 F.3d 1328": {
+      "kind": "case",
+      "citation": "783 F.3d 1328",
+      "name": "Abbas v. Foreign Policy Group, LLC",
+      "court": "United States Court of Appeals for the District of Columbia Circuit",
+      "year": 2015,
+      "sourceUrl": "https://www.govinfo.gov/content/pkg/USCOURTS-caDC-13-07171/pdf/USCOURTS-caDC-13-07171-0.pdf",
+      "source": "Official court opinion",
+      "sourceReview": "Original opinion identity verified; individual reporter pinpoints unverified."
+    }
+  },
+  "sources": [
+    {
+      "citation": "800 F.3d 113",
+      "docket": "14-3476",
+      "date": "2015-09-02",
+      "sourceUrl": "https://www2.ca3.uscourts.gov/opinarch/143476p.pdf",
+      "sourcePdfPages": [
+        1,
+        2,
+        3
+      ],
+      "finding": "Original identifies Brian Schmigel and Miroslav Uchal and holds Pennsylvania pre-dismissal notice condition substantive in diversity litigation.",
+      "reporterCorroboration": "https://www2.ca3.uscourts.gov/opinarch/173727np.pdf cites Schmigel800F.3d113,124."
+    },
+    {
+      "citation": "783 F.3d 1328",
+      "docket": "13-7171",
+      "date": "2015-04-24",
+      "sourceUrl": "https://www.govinfo.gov/content/pkg/USCOURTS-caDC-13-07171/pdf/USCOURTS-caDC-13-07171-0.pdf",
+      "sourcePdfPages": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ],
+      "finding": "Original identifies Yasser Abbas and Foreign Policy Group; Rules12/56 govern rather than D.C. anti-SLAPP motion; judgment affirmed on alternative federal dismissal ground.",
+      "reporterCorroboration": "https://www.opn.ca6.uscourts.gov/opinions.pdf/19a0278p-06.pdf page4 cites Abbas783F.3d1328,1336."
+    }
+  ],
+  "parserReplay": {
+    "method": "Actual parser and source document bibliography replay of rendered production queue labels; no new resolver code.",
+    "total": 26,
+    "Schmigel": 12,
+    "Abbas": 14,
+    "exactCanonicalMatches": 26
+  },
+  "items": [
+    {
+      "label": "Schmigel v. Uchal, 800 F.3d 113, 119",
+      "type": "case",
+      "fromDoc": "24-440-55fd77b4c91b",
+      "sourcePage": 28,
+      "sourceOffset": 982,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Abbas v. Foreign Pol’y Grp., LLC, 783 F.3d 1328, 1333-34",
+      "type": "case",
+      "fromDoc": "24-440-55fd77b4c91b",
+      "sourcePage": 32,
+      "sourceOffset": 550,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Schmigel v. Uchal, 800 F.3d 113, 119",
+      "type": "case",
+      "fromDoc": "24-440-55fd77b4c91b",
+      "sourcePage": 10,
+      "sourceOffset": 1865,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Erie. Schmigel v. Uchal, 800 F.3d 113, 119",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 5,
+      "sourceOffset": 152,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Schmigel, 800 F.3d at 119",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 6,
+      "sourceOffset": 863,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Schmigel, 800 F.3d at 119",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 10,
+      "sourceOffset": 163,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Schmigel v. Uchal, 800 F.3d 113, 114",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 4,
+      "sourceOffset": 1435,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Schmigel v. Uchal, 800 F.3d at 119",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 5,
+      "sourceOffset": 1979,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Schmigel, 800 F.3d at 121–22",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 12,
+      "sourceOffset": 578,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Schmigel, 800 F.3d at 125–26",
+      "type": "case",
+      "fromDoc": "24-440-660786c6b1c6",
+      "sourcePage": 12,
+      "sourceOffset": 1625,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Abbas v. Foreign Pol’y Grp., 783 F.3d 1328, 1337",
+      "type": "case",
+      "fromDoc": "24-440-3582972c02be",
+      "sourcePage": 23,
+      "sourceOffset": 502,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas v. Foreign Pol’y Grp., 783 F.3d 1328, 1333-34",
+      "type": "case",
+      "fromDoc": "24-440-3582972c02be",
+      "sourcePage": 37,
+      "sourceOffset": 228,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas, 783 F.3d at 1334",
+      "type": "case",
+      "fromDoc": "24-440-3582972c02be",
+      "sourcePage": 37,
+      "sourceOffset": 1230,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas, 783 F.3d at 1337",
+      "type": "case",
+      "fromDoc": "24-440-3582972c02be",
+      "sourcePage": 42,
+      "sourceOffset": 1025,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas, 783 F.3d at 1334",
+      "type": "case",
+      "fromDoc": "24-440-3582972c02be",
+      "sourcePage": 45,
+      "sourceOffset": 1707,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas, 783 F.3d at 1333",
+      "type": "case",
+      "fromDoc": "24-440-3582972c02be",
+      "sourcePage": 52,
+      "sourceOffset": 1478,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "in Schmigel v. Uchal, 800 F.3d 113",
+      "type": "case",
+      "fromDoc": "24-440-3582972c02be",
+      "sourcePage": 53,
+      "sourceOffset": 874,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Schmigel v. Uchal, 800 F.3d 113, 119",
+      "type": "case",
+      "fromDoc": "24-440-77b1376e3f1a",
+      "sourcePage": 130,
+      "sourceOffset": 344,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Abbas v. Foreign Policy Grp., LLC, 783 F.3d 1328, 1333",
+      "type": "case",
+      "fromDoc": "24-440-ef2c47c9b7ca",
+      "sourcePage": 15,
+      "sourceOffset": 109,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas, 783 F.3d at 1334",
+      "type": "case",
+      "fromDoc": "24-440-ef2c47c9b7ca",
+      "sourcePage": 18,
+      "sourceOffset": 1264,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas, 783 F.3d at 1336",
+      "type": "case",
+      "fromDoc": "24-440-ef2c47c9b7ca",
+      "sourcePage": 20,
+      "sourceOffset": 119,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas, 783 F.3d at 1332",
+      "type": "case",
+      "fromDoc": "24-440-ef2c47c9b7ca",
+      "sourcePage": 23,
+      "sourceOffset": 684,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas, 783 F.3d at 1333-37",
+      "type": "case",
+      "fromDoc": "24-440-ef2c47c9b7ca",
+      "sourcePage": 24,
+      "sourceOffset": 103,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Schmigel v. Uchal, 800 F.3d 113, 119",
+      "type": "case",
+      "fromDoc": "24-440-154c871556f6",
+      "sourcePage": 23,
+      "sourceOffset": 114,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "800 F.3d 113"
+    },
+    {
+      "label": "Abbas v. Foreign Pol’y Grp., LLC, 783 F.3d 1328, 1333",
+      "type": "case",
+      "fromDoc": "24-440-154c871556f6",
+      "sourcePage": 44,
+      "sourceOffset": 261,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    },
+    {
+      "label": "Abbas, 783 F.3d at 471",
+      "type": "case",
+      "fromDoc": "24-440-154c871556f6",
+      "sourcePage": 45,
+      "sourceOffset": 1631,
+      "source": null,
+      "disposition": "source-lookup-required",
+      "canonical": "783 F.3d 1328"
+    }
+  ],
+  "limitations": [
+    "Identity/source-level routing only; individual pinpoints and citing propositions remain open.",
+    "No unnamed or ambiguous short forms inferred.",
+    "No local opinion text, holding summary or reporter/PDF mapping fabricated.",
+    "Additive entries must be merged into current precedent-index; not yet production verified."
+  ]
+}

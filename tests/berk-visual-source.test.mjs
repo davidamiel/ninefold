@@ -17,7 +17,7 @@ function read(page,start=0,end=data.pages[page].text.length,includeFootnotes=fal
 }
 test('visually confirmed appendix spacing repairs preserve raw anchors',()=>{
  assert.deepEqual(curated,structure);
- assert.equal(structure.repairs.length,37);
+ assert.equal(structure.repairs.length,127);
  for(const r of structure.repairs){
   assert.equal(data.pages[r.page].text.slice(r.start,r.end),r.expectedText);
   const result=read(r.page,0,data.pages[r.page].text.length,true);
@@ -26,12 +26,12 @@ test('visually confirmed appendix spacing repairs preserve raw anchors',()=>{
   for(let i=1;i<result.map.length;i++)assert(result.map[i]>=result.map[i-1]);
  }
 });
-test('twelve visually identified appendix footnotes leave prose and remain readable',()=>{
- assert.equal(structure.footnotes.length,12);assert.equal(structure.footnoteMarkers.length,12);
- assert.deepEqual(structure.footnotes.map(f=>f.label),Array.from({length:12},(_,i)=>String(i+1)));
+test('thirteen visually identified appendix footnotes leave prose and remain readable',()=>{
+ assert.equal(structure.footnotes.length,13);assert.equal(structure.footnoteMarkers.length,13);
+ assert.deepEqual(structure.footnotes.map(f=>f.label),['*',...Array.from({length:12},(_,i)=>String(i+1))]);
  for(const f of structure.footnotes){
   const raw=data.pages[f.page].text.slice(f.start,f.end);
-  assert(raw.startsWith(f.label+' '));
+  assert(raw.trimStart().startsWith(f.label+' '));
   const note=read(f.page,f.start,f.end,true);
   assert(note.text.length>50);
   const prose=read(f.page);
@@ -47,3 +47,5 @@ test('opposition cover small-caps extraction is normalized without moving anchor
  for(const value of ['John J. Hare','Nathan V. Gin','Elzufon Austin','& Mondell, PA','On Petition for a Writ of Certiorari to the','United States Court of Appeals for the Third Circuit'])assert(cover.includes(value));
  assert.equal(cover.length,660);
 });
+
+test('all 58 source folios stay out of prose without deleting body anchors',()=>{for(let p=2;p<60;p++){const t=data.pages[p].text;const first=t.split('\n')[0];const result=read(p);assert(!result.map.some(n=>n<first.length));const firstBody=t.search(/\n[^\n]/)+1;assert(result.map.includes(firstBody),'first body character '+p);assert.equal(t.slice(0,first.length),structure.omitRanges.find(r=>r.page===p&&r.start===0).expectedText);}});

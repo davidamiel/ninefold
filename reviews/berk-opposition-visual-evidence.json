@@ -1,0 +1,637 @@
+{
+  "documentId": "24-440-ffcc04da2f19",
+  "reviewedAt": "2026-11-10",
+  "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+  "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+  "reviewedRawBlobSha": "c5aed665dc01a56be21f330ae86196864a898e7e",
+  "workflowRun": 42758655133,
+  "renderSettings": {
+    "engine": "PyMuPDF 1.26.7",
+    "scale": 1.65,
+    "colorspace": "gray"
+  },
+  "scope": "Actual PNG visual inspection of every PDF page 2–41; cover page 1 reviewed separately. Compared printed content, headings, footnote boundaries, citation strings and printed pinpoints with extracted reader text. Does not independently validate every cited authority's holdings or pinpoint substance.",
+  "pages": [
+    {
+      "sourcePage": 2,
+      "rawPage": 1,
+      "printedLabel": "i",
+      "pngSha256": "16e39732763071e1a6acbf5ab324d371d030d9c20dbd5b0c065ba8b44027334c",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 3,
+      "rawPage": 2,
+      "printedLabel": "ii",
+      "pngSha256": "7669104cabef1d779ad1db71bad1d479f659755198174cd66981489cdd7009b6",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 4,
+      "rawPage": 3,
+      "printedLabel": "iii",
+      "pngSha256": "a0681df6d9907c9562718d5a86c4d5ea16a82d05d29699a0517c202da180d9d3",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 5,
+      "rawPage": 4,
+      "printedLabel": "iv",
+      "pngSha256": "15a5552a60fc5bf1e79e0975da42343912ec9d9d81e964074f0d0f801477e60f",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 6,
+      "rawPage": 5,
+      "printedLabel": "v",
+      "pngSha256": "4f3fcdf6314dc7a18ebee6414ea50b3fb1f61a31c25e9c7aed95d432030582ef",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 7,
+      "rawPage": 6,
+      "printedLabel": "vi",
+      "pngSha256": "2157571797985a0f94eb6cecc03dfee08adb798b5f1d6c50579e059c33a89b0b",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 8,
+      "rawPage": 7,
+      "printedLabel": "vii",
+      "pngSha256": "42ec2e4cf050386a21048e8257c46b37775e4a930981af02e72886851f434930",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 9,
+      "rawPage": 8,
+      "printedLabel": "viii",
+      "pngSha256": "b98b6650d03c2c0c9f66ba9ce45039582c61877be9d0ff94bd3a010023f9fc1c",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 10,
+      "rawPage": 9,
+      "printedLabel": "ix",
+      "pngSha256": "808ca991b9ac08b1285312cfb80103333c43472654f64fa67470a9811084b06d",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 11,
+      "rawPage": 10,
+      "printedLabel": "x",
+      "pngSha256": "6946ec2bece7e434aa8341bab42f2f9cc7a239b75368a4169da08e696e125a97",
+      "jobId": 129638883040,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 12,
+      "rawPage": 11,
+      "printedLabel": "xi",
+      "pngSha256": "8779765037ace9a7503d8c52665397dbc888dd585386caafa201cb31ed514fc8",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 13,
+      "rawPage": 12,
+      "printedLabel": "xii",
+      "pngSha256": "12fa2720593a9089257232c0d641a2d6ed481fc5cdf66573c2137a1f6d647980",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 14,
+      "rawPage": 13,
+      "printedLabel": "1",
+      "pngSha256": "749447f48dc62f5512ec7b6902aa8351deae437f3e63ad941926370a74cb2c1b",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 15,
+      "rawPage": 14,
+      "printedLabel": "2",
+      "pngSha256": "e929a9c75241df29cb94ab25f93fdb1fee186e2b05107d6b3fd76e9bea003dc8",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 1
+    },
+    {
+      "sourcePage": 16,
+      "rawPage": 15,
+      "printedLabel": "3",
+      "pngSha256": "9aa89362b1fe5fd06c8afa9ee9f73648d98f9f63a4199b8a528cd8bfeb71a0cb",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "1"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 17,
+      "rawPage": 16,
+      "printedLabel": "4",
+      "pngSha256": "b49298b29fd271bdbf625fa0ce09f592206350a9460669994f8e34588c5842f3",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "continued",
+        "2",
+        "3"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 18,
+      "rawPage": 17,
+      "printedLabel": "5",
+      "pngSha256": "738cd51e8c1a24dff3f2143f36c7763bc5968f3b00f52540d23fd52cd9a309b8",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "continued",
+        "4",
+        "5",
+        "6"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 19,
+      "rawPage": 18,
+      "printedLabel": "6",
+      "pngSha256": "4653d0040e9c6423211d4f46ab01849b3924147ba9f41151d92392c6c21202bc",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "7"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 20,
+      "rawPage": 19,
+      "printedLabel": "7",
+      "pngSha256": "6117c4f3ebaf0bead50c4b8acfa8fa1663dd8fa9351baa7c00f999bd19da0622",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "8",
+        "9"
+      ],
+      "repairCount": 1
+    },
+    {
+      "sourcePage": 21,
+      "rawPage": 20,
+      "printedLabel": "8",
+      "pngSha256": "e473915a1ec981a571d99ca784c43695cb8009b0947520be89030aca36852d39",
+      "jobId": 129638883210,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "10"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 22,
+      "rawPage": 21,
+      "printedLabel": "9",
+      "pngSha256": "7765ec5cca6aad021c4f60d95cecbc0b4c9d7f0b755a8f2109d410ba561b72f0",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 23,
+      "rawPage": 22,
+      "printedLabel": "10",
+      "pngSha256": "411d1f798464ee09fb1274141cb55eb7d6503ea86fdc5a1b4621074371253956",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 24,
+      "rawPage": 23,
+      "printedLabel": "11",
+      "pngSha256": "2c34b3489825e679ad36a833a83b454963ba19444a3d8ffd8040a4a071bc9270",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "11"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 25,
+      "rawPage": 24,
+      "printedLabel": "12",
+      "pngSha256": "42bcbea597e77d43425effdb427aa248183a7f7b2f9e61b53b1ba167508a1424",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 26,
+      "rawPage": 25,
+      "printedLabel": "13",
+      "pngSha256": "dd7f1f988c3f2684b0e410e8fbd45c503164b2c7756436a35a92d92577c1f95e",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 27,
+      "rawPage": 26,
+      "printedLabel": "14",
+      "pngSha256": "2ea088ee49027636dabe7f13cb88e210a20242fc4908d85ffc65eb2b282409bf",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 28,
+      "rawPage": 27,
+      "printedLabel": "15",
+      "pngSha256": "16bf43496f86822f2a4b441d4ea157ab2fd607816d243f57000b89d14f705204",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 29,
+      "rawPage": 28,
+      "printedLabel": "16",
+      "pngSha256": "f4b923aa2ef05967fe24ecfda210a6eaf6dc6dbca31fc21d92378a30e5d2767a",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "12",
+        "13",
+        "14"
+      ],
+      "repairCount": 1
+    },
+    {
+      "sourcePage": 30,
+      "rawPage": 29,
+      "printedLabel": "17",
+      "pngSha256": "5f5ec545a3b0e76fcda932cac3b18c9eb987e37167a8cf6dcd75c593aae17095",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "15"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 31,
+      "rawPage": 30,
+      "printedLabel": "18",
+      "pngSha256": "071d6d288740dc9ac4aa3503e25ffa68d1d3626820bbe3b5fa45df223cf95a09",
+      "jobId": 129638883285,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "continued"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 32,
+      "rawPage": 31,
+      "printedLabel": "19",
+      "pngSha256": "533494a17a60789605f9917f684dedd8836cf1eee4a2735e1b4d043ae26741ae",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 1
+    },
+    {
+      "sourcePage": 33,
+      "rawPage": 32,
+      "printedLabel": "20",
+      "pngSha256": "9813d7a0dfac84d42a1ca75959a411891de2f71504983b5b01c72ff841e71b03",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 34,
+      "rawPage": 33,
+      "printedLabel": "21",
+      "pngSha256": "6ff1e967eb0f3793cdde0fd6f64ce35ce7825a8365c1802497d2aa25c5777aad",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 35,
+      "rawPage": 34,
+      "printedLabel": "22",
+      "pngSha256": "5512604168d2297e6feb1b64d294ff752d71e0ff3da73e95d6d014362256d326",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 1
+    },
+    {
+      "sourcePage": 36,
+      "rawPage": 35,
+      "printedLabel": "23",
+      "pngSha256": "8df3eda674d0e75822f207e91d7b7d429f46b88424e9af4c69147c042c86dc36",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "16"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 37,
+      "rawPage": 36,
+      "printedLabel": "24",
+      "pngSha256": "73b67dcd3110c10396c4490cde4e3e77ca2d9c54165d827c80d660c3eef14ee3",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [
+        "17"
+      ],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 38,
+      "rawPage": 37,
+      "printedLabel": "25",
+      "pngSha256": "1241ae11b092eb4c6831f13b023ca99a2d4b6c568f93ec45f1978f1e0290aadf",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 0
+    },
+    {
+      "sourcePage": 39,
+      "rawPage": 38,
+      "printedLabel": "26",
+      "pngSha256": "9697eb496aff099a6d08e514e59e941c0ce02b8ada34714d104e23443b50f27e",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 1
+    },
+    {
+      "sourcePage": 40,
+      "rawPage": 39,
+      "printedLabel": "27",
+      "pngSha256": "b3df382fe879eb1d1d4ccc69da03c51bbc182564b9dd3733c575c615e7a9a927",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 1
+    },
+    {
+      "sourcePage": 41,
+      "rawPage": 40,
+      "printedLabel": "28",
+      "pngSha256": "f13210cfb63292bf180a445eb3a4244ceaa2a5429b6ee558ac083dd99ffc2f42",
+      "jobId": 129638883256,
+      "status": "visually-compared",
+      "footnoteLabels": [],
+      "repairCount": 5
+    }
+  ],
+  "findings": [
+    "Missing note classifications restored on PDF17–19, including continuations of notes1 and3.",
+    "PDF20 separated notes8 and9; PDF29 separated notes12,13,14.",
+    "PDF31 bottom text visually confirmed continuation of note15; PDF32 top remains main prose.",
+    "Printed Rule11 reversal (PDF15), 'did not conflicted' and Liggon-Reading (PDF37), and Passmore FTCA description (PDF34) retained as source wording, not corrected editorially.",
+    "Citation strings/printed page references visually agree after existing typography normalization; external authority proposition/pinpoint correctness remains separately scoped."
+  ],
+  "corrections": [
+    {
+      "page": 14,
+      "start": 603,
+      "end": 617,
+      "original": "nonmeritorious",
+      "replacement": "non-meritorious",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 15,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 15,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 19,
+      "start": 247,
+      "end": 254,
+      "original": "presuit",
+      "replacement": "pre-suit",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 20,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 20,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 28,
+      "start": 55,
+      "end": 70,
+      "original": "federalquestion",
+      "replacement": "federal-question",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 29,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 29,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 31,
+      "start": 949,
+      "end": 966,
+      "original": "medicalnegligence",
+      "replacement": "medical-negligence",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 32,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 32,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 34,
+      "start": 812,
+      "end": 825,
+      "original": "forumshopping",
+      "replacement": "forum-shopping",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 35,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 35,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 38,
+      "start": 1050,
+      "end": 1065,
+      "original": "wellestablished",
+      "replacement": "well-established",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 39,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 39,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 39,
+      "start": 396,
+      "end": 410,
+      "original": "nonmeritorious",
+      "replacement": "non-meritorious",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 40,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 40,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 40,
+      "start": 305,
+      "end": 317,
+      "original": "John J. hare",
+      "replacement": "John J. Hare",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 41,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 41,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 40,
+      "start": 336,
+      "end": 360,
+      "original": "Marshall Dennehey, P .C.",
+      "replacement": "Marshall Dennehey, P.C.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 41,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 41,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 40,
+      "start": 497,
+      "end": 510,
+      "original": "nathan V. GIn",
+      "replacement": "Nathan V. Gin",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 41,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 41,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 40,
+      "start": 529,
+      "end": 543,
+      "original": "elzufon austIn",
+      "replacement": "Elzufon Austin",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 41,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 41,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    },
+    {
+      "page": 40,
+      "start": 544,
+      "end": 557,
+      "original": "& MonDell, Pa",
+      "replacement": "& Mondell, PA",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "sourcePage": 41,
+      "sourceSha256": "81f07a69bf0e79b2a059d0388de994914a28e6605db0f94c8c84d0f8c4d4e675",
+      "sourceArtifact": "dist/data/pdfs/24-440-ffcc04da2f19.pdf",
+      "artifactPage": 41,
+      "method": "Actual rendered official PDF visual comparison; source PNG hash and Actions job recorded in reviews/berk-opposition-visual-evidence.json",
+      "verifiedAt": "2026-11-10",
+      "evidence": "reviews/berk-opposition-visual-evidence.json"
+    }
+  ]
+}

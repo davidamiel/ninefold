@@ -15,9 +15,9 @@
     "comparisonExceptions": 1,
     "fullVisualReviews": 0,
     "fullCitationTargetReviews": 0,
-    "sourceOnlyVisualReviewedDocuments": 17,
-    "sourceOnlyVisualReviewedPages": 19,
-    "extractedSourcePagesVisuallyInspected": 11
+    "sourceOnlyVisualReviewedDocuments": 46,
+    "sourceOnlyVisualReviewedPages": 94,
+    "extractedSourcePagesVisuallyInspected": 101
   },
   "method": "Exact official sourceUrl PDFs fetched through web; all numbered extracted source lines collected, deduplicated and sorted. Compare concatenated stored page text after NFKC and whitespace/ASCII-hyphen/soft-hyphen/U+0002 removal; appendices/transcript additionally ignore Unicode hyphen/dash variants. This is text-layer agreement, not visual proof. Original-only records checked for access and identity against docket. Followthrough used remote PyMuPDF source-page renders and actual reviewer inspection for the bounded pages recorded in the visual evidence files; Chromium checked the corrected reader separately.",
   "limitations": [
@@ -111,7 +111,7 @@
       "textPath": "data/docs/24-440-660786c6b1c6.json",
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "partial-source-raster-review-pages-4-through-13",
+      "visual": "all-source-pages-visually-reviewed-rendered-followup-pending",
       "pages": 60,
       "sourceLines": 1754,
       "textLayerComparison": "full-normalized-equality",
@@ -122,7 +122,7 @@
         "sourceLookupRequired": 26,
         "semanticStatus": "bounded identity reviews linked; full semantic/pinpoint review incomplete"
       },
-      "visualEvidence": "reviews/berk-exceptions-visual-evidence.json",
+      "visualEvidence": "reviews/berk-appendix-complete-visual-evidence.json",
       "displayCorrections": {
         "spacingRepairs": 37,
         "footnotes": 12,
@@ -136,11 +136,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-189597cc73a2",
@@ -149,11 +150,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 3,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-952229bcd678",
@@ -162,11 +164,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-418b55dfc3c2",
@@ -175,11 +178,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 2,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-f227f4d5f387",
@@ -237,11 +241,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 2,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-95861ed1b7ff",
@@ -280,7 +285,7 @@
       "textPath": "data/docs/24-440-ffcc04da2f19.json",
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "partial-source-raster-review-cover",
+      "visual": "all-source-pages-visually-reviewed-rendered-followup-pending",
       "pages": 41,
       "sourceLines": 1140,
       "textLayerComparison": "Baseline pages 2–41 match with additional dot/case normalization; cover has six same-length source-verified casing corrections. Cover reading order/layout remains uncertified.",
@@ -291,7 +296,7 @@
         "sourceLookupRequired": 16,
         "semanticStatus": "bounded identity reviews linked; full semantic/pinpoint review incomplete"
       },
-      "visualEvidence": "reviews/berk-exceptions-visual-evidence.json"
+      "visualEvidence": "reviews/berk-opposition-visual-evidence.json"
     },
     {
       "id": "24-440-c24d7e44c126",
@@ -300,11 +305,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 2,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-c63edd77e76a",
@@ -313,11 +319,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-78eb24d85356",
@@ -496,11 +503,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-f973e2652293",
@@ -509,11 +517,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-ef2c47c9b7ca",
@@ -541,11 +550,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-d0cf7c6e902e",
@@ -554,11 +564,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 2,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-4b39c2105c53",
@@ -635,11 +646,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-0f7bec909dbb",
@@ -648,11 +660,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 2,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-80c0c10136bf",
@@ -661,11 +674,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 4,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-cf4d708e7be7",
@@ -674,11 +688,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 2,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-087f8840f42e",
@@ -706,11 +721,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 3,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-469ab3c1f8ee",
@@ -719,11 +735,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-154c871556f6",
@@ -800,11 +817,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-bfceaa5fb6b0",
@@ -813,11 +831,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 3,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-f0bb42099b11",
@@ -845,11 +864,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 2,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-1d9406658577",
@@ -858,11 +878,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-9b8dd024eb77",
@@ -890,11 +911,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-d6563f14c9bc",
@@ -903,11 +925,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 3,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-d32c7782888d",
@@ -984,11 +1007,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-018e4dc19893",
@@ -997,11 +1021,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-3341afc79588",
@@ -1029,11 +1054,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-b7d1212f6861",
@@ -1042,11 +1068,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 3,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-4cdc5e03cc3b",
@@ -1104,12 +1131,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 27,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
       "readerComparison": "not-applicable-no-extracted-text",
-      "originalIndexedTitle": "opinion — Judgment REVERSED and case REMANDED. Barrett, J., delivered the of the Court, in which Roberts, C. J., and Thomas, Alito, Sotomayor, Kagan, Gorsuch, and Kavanaugh, JJ., joined. Jac"
+      "originalIndexedTitle": "opinion — Judgment REVERSED and case REMANDED. Barrett, J., delivered the of the Court, in which Roberts, C. J., and Thomas, Alito, Sotomayor, Kagan, Gorsuch, and Kavanaugh, JJ., joined. Jac",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     },
     {
       "id": "24-440-5f2cf473fb43",
@@ -1118,11 +1146,12 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-remaining-visual-evidence.json"
     }
   ],
   "aliases": [
@@ -1436,10 +1465,8 @@
     }
   ],
   "remainingIssues": [
-    "Full visual review of 1,124 extracted pages is incomplete. Source raster inspection covered appendix PDF pages4–13 (10/60) and opposition cover (1/41); 50 appendix and 40 opposition pages remain visually unreviewed.",
-    "Pre-existing inline printed folios2a/3a and appendix PDF page3 asterisk footnote remain in main flow.",
+    "Full visual review of 1,124 extracted pages remains incomplete. All60 appendix and all41 opposition source pages have been inspected; full rendered fidelity and semantic citation review remain incomplete.",
     "Opposition cover casing is source-corrected; printer-logo reading order and complete cover layout remain uncertified.",
-    "17 original-only documents (19pages) are source-only visually reviewed; the remaining29 original-only documents have not received this visual review.",
     "428 production reference occurrences still require lookup;313 have external sources but no internal document. Counts include aliases. Full proposition/pinpoint correctness remains incomplete.",
     "DRI source includes Hanna v.Plummer and Pledger circuit attribution issues; retained as filed.",
     "Official question sheet gives2024WL5354482 while opinion cites2024WL3534482; source discrepancy retained."
@@ -1793,6 +1820,18 @@
       "commit": "ed10d411a2fca4138851fc2d6455201a77cd1e17",
       "run": "https://github.com/davidamiel/ninefold/actions/runs/42756189097",
       "testsPassed": 3
+    },
+    "nextBatch": {
+      "status": "integrated-pending-publish-validation",
+      "generationRun": "https://github.com/davidamiel/ninefold/actions/runs/42759282639",
+      "opposition": "reviews/berk-opposition-visual-evidence.json",
+      "appendix": "reviews/berk-appendix-complete-visual-evidence.json",
+      "originals": "reviews/berk-originals-remaining-visual-evidence.json",
+      "circuit": "reviews/berk-circuit-and-supplement-review.json",
+      "externalPinpoints": "reviews/berk-external-pinpoint-review.json",
+      "externalFifteen": "reviews/berk-external-fifteen-review.json",
+      "sourceRoutes": "reviews/berk-verified-source-url-changes.json",
+      "limitations": "75 high-frequency occurrences and15 single-occurrence groups checked; source identity routing does not certify every pinpoint. Filed discrepancies preserved."
     }
   },
   "resolvedBlockers": [

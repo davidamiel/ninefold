@@ -1,4 +1,13 @@
-# Berk v. Choy review — November 10, 2026
+# Berk v. Choy review — partial
+
+The current follow-through batch is integrated for validation/publication. It adds source-reviewed opposition notes and repairs, all-page appendix repairs/folios/asterisk note, verified circuit routing and official PDF destinations. Publication and production validation for this batch remain pending.
+
+Source raster review now covers all60 appendix pages, all41 opposition pages and all46 original-only PDFs (94 pages). This does not certify every rendered page or citation. See [appendix evidence](../reviews/berk-appendix-complete-visual-evidence.json), [opposition evidence](../reviews/berk-opposition-visual-evidence.json), [remaining originals](../reviews/berk-originals-remaining-visual-evidence.json), [75-occurrence pinpoint checkpoint](../reviews/berk-external-pinpoint-review.json), and [15-group review](../reviews/berk-external-fifteen-review.json). Filed pinpoint/name discrepancies remain in the source text and are documented in those reports.
+
+The queue below remains the last verified production baseline until this batch's live scan replaces it.
+
+## Previous verified release (historical)
+
 
 **The validated corrections are published and production-verified. The case-wide source and citation review remains partial.**
 
