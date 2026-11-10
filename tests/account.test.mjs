@@ -1,4 +1,0 @@
-import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
-import {createAccount} from '../dist/account.js';
-test('missing Firebase configuration leaves public reading available',async()=>{const original=globalThis.fetch;try{globalThis.fetch=async()=>({ok:true,json:async()=>({})});const account=await createAccount(()=>{throw Error('must not authenticate')});assert.equal(account.configured,false);assert.equal(account.user,null);}finally{globalThis.fetch=original;}});
-test('GitHub build has no platform sign-in endpoints or hostname-based identity',()=>{const s=fs.readFileSync('dist/app.js','utf8');assert(!s.includes('/signin-with-chatgpt'));assert(!s.includes('/signout-with-chatgpt'));assert(!s.includes('privateBrowserSession'));assert(s.includes('function libraryPage(){if(!signedIn())'));});

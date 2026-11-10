@@ -1,6 +1,0 @@
-{
-  "version": 1,
-  "baselineCommit": "37ea46f",
-  "note": "Missing evidence only, not accepted correctness. Remove fingerprints as evidence is recovered; never regenerate to silence new findings. Fingerprints bind exact raw wording and recorded source identity as well as the repair.",
-  "legacyRepairFingerprints": []
-}
