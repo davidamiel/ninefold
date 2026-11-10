@@ -14,7 +14,9 @@
     "fullNormalizedTextEquality": 23,
     "comparisonExceptions": 1,
     "fullVisualReviews": 0,
-    "fullCitationTargetReviews": 0
+    "fullCitationTargetReviews": 0,
+    "sourceOnlyVisualReviewedDocuments": 17,
+    "sourceOnlyVisualReviewedPages": 19
   },
   "method": "Exact official sourceUrl PDFs fetched through web; all numbered extracted source lines collected, deduplicated and sorted. Compare concatenated stored page text after NFKC and whitespace/ASCII-hyphen/soft-hyphen/U+0002 removal; appendices/transcript additionally ignore Unicode hyphen/dash variants. This is text-layer agreement, not visual proof. Original-only records checked for access and identity against docket.",
   "limitations": [
@@ -199,11 +201,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "9fe770571d8dd25a994dfba9d613296f1c36e5aa5afd94c2315a76ff4838c3c6"
     },
     {
       "id": "24-440-5f93f398d2ed",
@@ -212,11 +216,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "fcdc9fd78262774409d3bde73bb6aa70c0ca8d11b9f67ba9ed1449353bd69784"
     },
     {
       "id": "24-440-c3be648f9d10",
@@ -238,11 +244,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "garbled",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "734952b7c4b131ce99add7ce5b9569a90a4c4c4ab9fd9d3ca12a431f31197863"
     },
     {
       "id": "24-440-6096efcb8d20",
@@ -251,11 +259,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "728893e2e0a89fc0961a5da7781dfee13888ac952b47208aa9c89be451e780ef"
     },
     {
       "id": "24-440-ffcc04da2f19",
@@ -328,11 +338,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 2,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "49996583f01af1f050d014519ddd89c8a1a496b50b11cde5cc8b5315da61720b"
     },
     {
       "id": "24-440-441b2815b7d8",
@@ -341,11 +353,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "bb59649d56e0a7381f6006bf1135a597de5b065aa6bd8fbeda931d5955e96582"
     },
     {
       "id": "24-440-bb809b019e4c",
@@ -392,11 +406,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "7d4a1c8347034d5fc4f2ef390f8c17655aaff06b05482e14d83c2f3146e11556"
     },
     {
       "id": "24-440-75bbba6f1701",
@@ -405,11 +421,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "db67287baa24ae867835602c73a0ded298bd0d76bc648348231bfd22fe635990"
     },
     {
       "id": "24-440-77b1376e3f1a",
@@ -437,11 +455,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "db67287baa24ae867835602c73a0ded298bd0d76bc648348231bfd22fe635990"
     },
     {
       "id": "24-440-8b17249a7236",
@@ -559,11 +579,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "cb0ea1e2e97b630b829fe71afd1e069dd12f8011e59d93cdf3c08c5f546c2a5a"
     },
     {
       "id": "24-440-17ecf0c2ce6c",
@@ -572,11 +594,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "e0bcbef9b43eaa1c1da40e4ba52f6f1fe1a510f718a0b59f94fa161b453e7c0e"
     },
     {
       "id": "24-440-a29ca81a5d45",
@@ -720,11 +744,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "f5a177b18ddfbc1ad3ebcce8b59a78bafb86ed47bff754a84ba79aeba1480b22"
     },
     {
       "id": "24-440-26cfbd408fbd",
@@ -733,11 +759,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "6772cedc9afe5d6b9ab35f2303a5025d60453e526b790b29c0aac6da45e98b45"
     },
     {
       "id": "24-440-4b06e4226dd2",
@@ -900,11 +928,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "cb8163c7308f8ff8cdc024301718cdd8faf198630b4d873b1523e6a369d8cb2b"
     },
     {
       "id": "24-440-16709ef8d2fe",
@@ -913,11 +943,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 2,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "4393cc957bf8061347e5a1c6d5bbda5fb3babf19cc1f3f25527d197958a4ff48"
     },
     {
       "id": "24-440-513e9c10c0e4",
@@ -1035,11 +1067,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "38d070410e19e0a4a976ee4e2a80c985ef6f60e92f65f33c428776d509f3d1cb"
     },
     {
       "id": "24-440-f563f1bc1066",
@@ -1048,11 +1082,13 @@
       "textPath": null,
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "source-only-visually-reviewed",
       "pdfPages": 1,
       "textLayer": "zero-text",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "visualEvidence": "reviews/berk-originals-visual-evidence.json",
+      "sourceSha256": "7c15fba0f26c66625b625bb52c1ea3321e4501aa5c67534c0cd334671bb79044"
     },
     {
       "id": "24-440-a3aca37b80b8",
@@ -1396,8 +1432,8 @@
     "Opposition cover ordering and counsel-name case differences need rendered PDF inspection.",
     "Cert appendix has suspicious internal word spaces; runtime reading normalization needs detailed comparison.",
     "DRI source includes Hanna v. Plummer and Pledger circuit attribution issues; preserve as filed, do not silently rewrite.",
-    "All citation destinations, footnote placement, paragraph boundaries and original-only visual accuracy remain open.",
-    "Official question sheet reports decision below as 2024 WL 5354482; opinion cites 2024 WL 3534482. Source discrepancy retained, not silently rewritten."
+    "Official question sheet reports decision below as 2024 WL 5354482; opinion cites 2024 WL 3534482. Source discrepancy retained, not silently rewritten.",
+    "17 previously zero-text/garbled original-only PDFs now have source-only visual identity/date review; remaining originals and full reader visual/layout and semantic pinpoint reviews are not complete."
   ],
   "verification": {
     "publicationCommit": "bfd9e6ab0acbe5601b8376d3701e47dfe66f39d8",
@@ -1536,7 +1572,8 @@
     "uniqueSourceLocations": 719,
     "sourceLookupRequired": 544,
     "externalSourceOnly": 227,
-    "countsIncludeAliases": true
+    "countsIncludeAliases": true,
+    "coordinateSystem": "sourcePage is a zero-based page index; sourceOffset is a raw UTF-16 character offset. Existing queue predates followthrough corrections and must be refreshed from deployed scan."
   },
   "blockers": [
     {
@@ -1547,5 +1584,14 @@
       "priorDocumentFixes": "Successfully published and production-verified at bfd9e6ab0acbe5601b8376d3701e47dfe66f39d8.",
       "nextStep": "After Pages deployment service recovers, run the restored manual Publish Ninefold workflow and rerun Berk deployed reader check."
     }
-  ]
+  ],
+  "followthroughEvidence": {
+    "status": "bounded-review-integrated-pending-build-and-publication",
+    "originals": "reviews/berk-originals-visual-evidence.json",
+    "externalSources": "reviews/berk-external-source-review.json",
+    "commonCircuitAuthorities": "reviews/berk-common-circuit-reference-review.json",
+    "referenceCorrections": "reviews/berk-reference-followthrough.json",
+    "deploymentDiagnosis": "docs/berk-deployment-diagnosis.md",
+    "circuitRouting": "reviews/berk-circuit-source-routing.json"
+  }
 }

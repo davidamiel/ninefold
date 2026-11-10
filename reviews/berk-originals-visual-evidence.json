@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "caseId": "24-440",
+  "reviewedAt": "2026-11-10",
+  "reviewer": "Ninefold delegated original-source visual reviewer",
+  "status": "source-only visually reviewed",
+  "method": "Downloaded exact official PDFs in GitHub Actions, rendered every selected source page with PyMuPDF 1.26.7 at scale 1.65 grayscale, decoded logged PNG base64 and actually viewed all 19 page images; compared document identity, filing/date information and named parties against catalog. PDF hashes produced by hashlib; PNG hashes computed from decoded PNG bytes with SHA256 checked against empty and abc known vectors.",
+  "runUrl": "https://github.com/davidamiel/ninefold/actions/runs/42754283826",
+  "sourceWorkflowCommit": "ca65d78f498c31f4b0b5546e9543ce61c4296475",
+  "scope": {
+    "documents": 17,
+    "pages": 19,
+    "readerComparison": false,
+    "citationTargetReview": false
+  },
+  "limitations": [
+    "These records have no textPath. Source-original visual inspection is not extracted-reader certification.",
+    "Identity, dates, parties, certificate word counts and page continuity were reviewed; signatures were observed, not authenticated.",
+    "Rule citations on certificates and external citation targets were not independently audited.",
+    "No product changes are required by these findings."
+  ],
+  "artifacts": [
+    {
+      "group": "originals-a",
+      "jobId": 129624918186,
+      "artifactId": 13734438489,
+      "sha256": "9850fda31f446583026a124730bdc7177e4c473c63550ea9da0d341e1b60361b"
+    },
+    {
+      "group": "originals-b",
+      "jobId": 129624918680,
+      "artifactId": 13735435013,
+      "sha256": "48d5b85e4fc7d43f437b6210f12f9f69b1ac9e781bcac813a17f7923c80a9f57"
+    }
+  ],
+  "documents": [
+    {
+      "id": "24-440-4c6df56bc46c",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/332047/20241118114541871_Berk%20Certificate%20of%20Service.pdf",
+      "sourceSha256": "9fe770571d8dd25a994dfba9d613296f1c36e5aa5afd94c2315a76ff4838c3c6",
+      "sourcePages": 1,
+      "jobId": 129624918186,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-4c6df56bc46c-p1",
+          "pngSha256": "c47a1a7235e943e98bc1945c97304fc6d77a294fc9bcb04e8a5c8fa7b6bb69ce",
+          "finding": "Affidavit of service for Civil Procedure Professors amicus supporting petitioner; November 18, 2024. Named parties and docket 24-440 match catalog; mailed copies, counsel list, declarant and notarization visible."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-5f93f398d2ed",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/332047/20241118114624230_Berk%20Certificate%20of%20Compliance.pdf",
+      "sourceSha256": "fcdc9fd78262774409d3bde73bb6aa70c0ca8d11b9f67ba9ed1449353bd69784",
+      "sourcePages": 1,
+      "jobId": 129624918186,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-5f93f398d2ed-p1",
+          "pngSha256": "87cdd1acb762230119a7a917b05525e62049df2d2be5ea10f91ca44aea04c95a",
+          "finding": "Civil Procedure Professors certificate of compliance signed Alan B. Morrison, November 18, 2024; 5,907 words and Rules 33.1(h)/(d) visible."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-95861ed1b7ff",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/335337/20241217103038190_Berk%20-%20Waiver.pdf",
+      "sourceSha256": "734952b7c4b131ce99add7ce5b9569a90a4c4c4ab9fd9d3ca12a431f31197863",
+      "sourcePages": 1,
+      "jobId": 129624918186,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-95861ed1b7ff-p1",
+          "pngSha256": "31ff218f37cab916b8166a3c6f00dd6b17222da9cde3fbeffe3cfca2a538fae8",
+          "finding": "Beebe Medical Center, Inc. waiver, docket 24-440, dated December 17, 2024, signed /s/ John J. Hare. Only some respondents box selected and Beebe named; Supreme Court Bar member box selected. Form legible despite garbled extraction."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-6096efcb8d20",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/335490/20241218141754050_01973382.PDF",
+      "sourceSha256": "728893e2e0a89fc0961a5da7781dfee13888ac952b47208aa9c89be451e780ef",
+      "sourcePages": 1,
+      "jobId": 129624918186,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-6096efcb8d20-p1",
+          "pngSha256": "2de686046ba1aa4e36104b8cd5146627410e04f27a12b5e204a7440ff858e305",
+          "finding": "Wilson C. Choy, M.D. waiver, docket 24-440, dated December 17, 2024, Nathan V. Gin printed name/signature. Only some respondents box selected and Choy named; Supreme Court Bar member box selected. Scanned form legible."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-4555cdfe0dcc",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/342328/20250210131105294_24-440--Berk%20-%20Cert%20Reply%20Brief%20-%20COS%20rtf.pdf",
+      "sourceSha256": "49996583f01af1f050d014519ddd89c8a1a496b50b11cde5cc8b5315da61720b",
+      "sourcePages": 2,
+      "jobId": 129624918186,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-4555cdfe0dcc-p1",
+          "pngSha256": "8687dab4797bf9bf953acad09e52e11b106106ddde4234eacbde9f122c79ba95",
+          "finding": "Affidavit certifies February 10, 2025 service of petitioner's reply brief; docket 24-440, counsel addresses and electronic service list visible."
+        },
+        {
+          "sourcePage": 2,
+          "imageKey": "24-440-4555cdfe0dcc-p2",
+          "pngSha256": "284a766beaade4e31cca6c0a82949b0cfc7f619c77f1b0c518e5b230032aa5d3",
+          "finding": "Declarant Aza Salinder Donner and notary Robyn Dorsey Willis; sworn February 10, 2025. This continuation belongs to preceding affidavit."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-441b2815b7d8",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/342328/20250210131056186_24-440--Berk%20-%20Cert%20Reply%20Brief%20-%20COC%20rtf.pdf",
+      "sourceSha256": "bb59649d56e0a7381f6006bf1135a597de5b065aa6bd8fbeda931d5955e96582",
+      "sourcePages": 1,
+      "jobId": 129624918186,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-441b2815b7d8-p1",
+          "pngSha256": "42c616a0b0fe11b68e46f2883c6f2bfbd7337e600ed80684d09269c62505a0df",
+          "finding": "Certiorari-stage petitioner's reply certificate of compliance; 2,965 words, February 10, 2025, notary Robyn Dorsey Willis. Filing identity matches catalog."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-3e93b13a4e24",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359698/20250527151643266_24-440--Berk-%20Merits%20Brief%20-%20COC%2005-27%20rtf.pdf",
+      "sourceSha256": "7d4a1c8347034d5fc4f2ef390f8c17655aaff06b05482e14d83c2f3146e11556",
+      "sourcePages": 1,
+      "jobId": 129624918186,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-3e93b13a4e24-p1",
+          "pngSha256": "2833adc5f7bb3664d9776144e4d942f56c0d52b56b87a524e48b85709e32e153",
+          "finding": "Merits brief for petitioner certificate of compliance; 12,971 words, May 27, 2025, notary Aza Salinder Donner."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-75bbba6f1701",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359698/20250527151655365_24-440--Berk-%20Merits%20Brief%20-%20COS%2005-27%20rtf.pdf",
+      "sourceSha256": "db67287baa24ae867835602c73a0ded298bd0d76bc648348231bfd22fe635990",
+      "sourcePages": 1,
+      "jobId": 129624918186,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-75bbba6f1701-p1",
+          "pngSha256": "7674b890d42535e1c93bb51dbcff68dd664bbd73a8444bda98b26b5629251979",
+          "finding": "Affidavit certifies May 27, 2025 service of both petitioner's brief AND joint appendix; Yarger and Harrington counsel entries visible, declarant Robyn Dorsey Willis and notary Aza Salinder Donner. Identical official PDF to d847c2f338e0."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-d847c2f338e0",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359700/20250527152016525_24-440--Berk-%20Merits%20Brief%20-%20COS%2005-27%20rtf.pdf",
+      "sourceSha256": "db67287baa24ae867835602c73a0ded298bd0d76bc648348231bfd22fe635990",
+      "sourcePages": 1,
+      "jobId": 129624918186,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-d847c2f338e0-p1",
+          "pngSha256": "7674b890d42535e1c93bb51dbcff68dd664bbd73a8444bda98b26b5629251979",
+          "finding": "Same May 27, 2025 joint service affidavit as 75bbba6f1701; source SHA256 and raster bytes identical. It expressly covers BOTH brief and joint appendix, so both catalog associations are supported."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-1328b78d311b",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362157/20250603094107332_Berk%20Certificate%20of%20Word%20Count.pdf",
+      "sourceSha256": "cb0ea1e2e97b630b829fe71afd1e069dd12f8011e59d93cdf3c08c5f546c2a5a",
+      "sourcePages": 1,
+      "jobId": 129624918680,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-1328b78d311b-p1",
+          "pngSha256": "28b852084e215e33db9e8106f7c0f31c22449602b5366205f4fe078be6e59b07",
+          "finding": "Civil Procedure Professors certificate of compliance signed Alan B. Morrison, June 3, 2025; 5,925 words. Distinct from cert-stage 5,907-word certificate."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-17ecf0c2ce6c",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362157/20250603094127626_Berk%20Proof%20of%20Service.pdf",
+      "sourceSha256": "e0bcbef9b43eaa1c1da40e4ba52f6f1fe1a510f718a0b59f94fa161b453e7c0e",
+      "sourcePages": 1,
+      "jobId": 129624918680,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-17ecf0c2ce6c-p1",
+          "pngSha256": "1c16dcef9865cea8a4119643487087f0f14a643ca1e1f1a8a9206a9eacca35eb",
+          "finding": "Affidavit for Civil Procedure Professors amicus supporting petitioner, June 3, 2025; named counsel and docket match catalog; declarant Raymond Charles Clark and notary Karen Pierangeli."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-ff36bccc1681",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368434/20250730134934066_24-440%20COC.pdf",
+      "sourceSha256": "f5a177b18ddfbc1ad3ebcce8b59a78bafb86ed47bff754a84ba79aeba1480b22",
+      "sourcePages": 1,
+      "jobId": 129624918680,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-ff36bccc1681-p1",
+          "pngSha256": "f669fae832a3090189207417e125d50b427739d6eac237182275ca6171e688dc",
+          "finding": "Beebe Medical Center merits brief certificate of compliance; 12,946 words, July 30, 2025, notary Aza Salinder Donner."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-26cfbd408fbd",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368434/20250730134951264_24-440%20COS.pdf",
+      "sourceSha256": "6772cedc9afe5d6b9ab35f2303a5025d60453e526b790b29c0aac6da45e98b45",
+      "sourcePages": 1,
+      "jobId": 129624918680,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-26cfbd408fbd-p1",
+          "pngSha256": "0b9b2df6a1882f2ef633f90939873bc91a5ca4a21c2668700ac814869cf26e7a",
+          "finding": "Affidavit certifies July 30, 2025 service of Beebe Medical Center brief. Counsel/service list and declarant Robyn Dorsey Willis/notary Aza Salinder Donner visible."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-f4478ac1f528",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369024/20250806145030632_HF%20No%2024-440%20Milbank%20COC.pdf",
+      "sourceSha256": "cb8163c7308f8ff8cdc024301718cdd8faf198630b4d873b1523e6a369d8cb2b",
+      "sourcePages": 1,
+      "jobId": 129624918680,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-f4478ac1f528-p1",
+          "pngSha256": "7c952915181e7ecedbdbc613c87b5b495292e4c0769b357983b8c486bf9f43e6",
+          "finding": "American Hospital Association et al. amicus supporting respondents certificate of compliance; 6,233 words, August 6, 2025, notary Aza Salinder Donner."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-16709ef8d2fe",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369024/20250806145056570_HF%20%20No%2024-440%20Milbank%20COS.pdf",
+      "sourceSha256": "4393cc957bf8061347e5a1c6d5bbda5fb3babf19cc1f3f25527d197958a4ff48",
+      "sourcePages": 2,
+      "jobId": 129624918680,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-16709ef8d2fe-p1",
+          "pngSha256": "f567ae019044c857dae7d4f29e1d2542964557355d8f5193db2db7da88544a4a",
+          "finding": "Affidavit certifies August 6, 2025 service of American Hospital Association et al. amicus supporting respondents; counsel and electronic service list visible."
+        },
+        {
+          "sourcePage": 2,
+          "imageKey": "24-440-16709ef8d2fe-p2",
+          "pngSha256": "f3ae58f7a2291eb4060c35552af95ed4c4f7f8801c07e1db17fe0f50a8ab70e2",
+          "finding": "Declarant Robyn Dorsey Willis, notary Aza Salinder Donner, sworn August 6, 2025; continuation matches preceding affidavit."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-0a6ca1cacc5f",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/373200/20250829115421076_24-440%20Berk%20-%20Merits%20Reply%20Brief%20-%20COC%20rtf.pdf",
+      "sourceSha256": "38d070410e19e0a4a976ee4e2a80c985ef6f60e92f65f33c428776d509f3d1cb",
+      "sourcePages": 1,
+      "jobId": 129624918680,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-0a6ca1cacc5f-p1",
+          "pngSha256": "ac64112a7bb1e2b79b5c181aa036fa9e7b163a781f786d9f396d8dda7bcda350",
+          "finding": "Merits-stage petitioner's reply certificate of compliance; 5,941 words, August 29, 2025, notary Aza Salinder Donner."
+        }
+      ],
+      "metadataMatches": true
+    },
+    {
+      "id": "24-440-f563f1bc1066",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/373200/20250829115429445_24-440%20Berk%20-%20Merits%20Reply%20Brief%20-%20COS%20rtf.pdf",
+      "sourceSha256": "7c15fba0f26c66625b625bb52c1ea3321e4501aa5c67534c0cd334671bb79044",
+      "sourcePages": 1,
+      "jobId": 129624918680,
+      "status": "source-only visually reviewed",
+      "readerStatus": "not-applicable-no-extracted-reader",
+      "pages": [
+        {
+          "sourcePage": 1,
+          "imageKey": "24-440-f563f1bc1066-p1",
+          "pngSha256": "ad725ea090889f9a94a186e09550b7ede5576eb99048cff567a7f5409731aa47",
+          "finding": "Affidavit certifies August 29, 2025 service of petitioner's reply; Yarger/Harrington counsel entries visible, declarant Robyn Dorsey Willis/notary Aza Salinder Donner."
+        }
+      ],
+      "metadataMatches": true
+    }
+  ]
+}

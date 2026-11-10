@@ -52,11 +52,41 @@ export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
     m=>'Fed. R. Evid. '+m[1]);
   add(/\b(FRCP|FRAP|FRE)\s+(\d+(?:\.\d+)?)(?:\([a-z0-9]+\))*/g,'statute',
     m=>({FRCP:'Fed. R. Civ. P. ',FRAP:'Fed. R. App. P. ',FRE:'Fed. R. Evid. '})[m[1]]+m[2]);
-  if (civilRules) add(/\bRule\s+(\d{1,2}(?:\.\d+)?)(?!\d)(?:\([a-z0-9]+\))*/g,'statute',m=>'Fed. R. Civ. P. '+m[1]);
+  // A filing can discuss district-court procedure and Supreme Court filing
+  // rules on the same page. Resolve the expressly named rule system first.
+  add(/\bSupreme Court\s+Rule\s+(\d{1,2}(?:\.\d+)?)(?!\d)(?:\([a-z0-9]+\))*/g,'statute',m=>'Sup. Ct. R. '+m[1]);
+  if (civilRules) add(/\bRule\s+(\d{1,2}(?:\.\d+)?)(?!\d)(?:\([a-z0-9]+\))*/g,'statute',m=>{
+    const before=text.slice(Math.max(0,m.index-60),m.index),after=text.slice(m.index+m[0].length,m.index+m[0].length+360);
+    // A local or state rule never acquires the FRCP identity from case context.
+    if (/\b(?:Local|State)\s*$/i.test(before)) return null;
+    // Amicus authorship/funding disclosures identify Supreme Court Rule 37.6.
+    if(m[1]==='37.6'&&/\bauthored\b/i.test(after)&&/\bmonetary\s+contribution\b/i.test(after))return 'Sup. Ct. R. 37.6';
+    if(m[1]==='12.6'&&/\bthis Court['’]s\s*$/.test(before)&&/\bno longer\s+has an interest in\s+th\s*e\s+outcome of\s+th\s*e\s+petition for\s+certiorari\b/i.test(after))return 'Sup. Ct. R. 12.6';
+    if(m[1]==='29.6'&&/^\s+of\s+the\s+Rules of this Court\b/.test(after)&&/\bCORPORATE\s+DISCLOSURE\s+STATEMENT\b/.test(text))return 'Sup. Ct. R. 29.6';
+    if(m[1]==='30.4'&&/^\s+of the Rules of this Court\b/.test(after)&&/\bSupreme Court\b/.test(text)&&/\bextended\b/.test(after))return 'Sup. Ct. R. 30.4';
+    if (/\b(?:Supreme Court|this Court['’]s)\s*$/i.test(before)) return null;
+    // Bare decimal references may belong to another court, or contain a
+    // superscript footnote flattened by extraction. Only actual FRCP numbers
+    // can use the district-court shorthand; preserve uncertain text unlinked.
+    if(m[1].includes('.')&&!['4.1','5.1','5.2','7.1','16.1','23.1','23.2','44.1','62.1','65.1','71.1'].includes(m[1]))return null;
+    return 'Fed. R. Civ. P. '+m[1];
+  });
   if (delawareAffidavit) add(/(?:\b18\s+Del\.?\s+C\.?\s*§?\s*|\bSection\s+|§\s*)6853(?:\([a-z0-9]+\))*/g,'statute',()=>'18 Del. C. § 6853');
-  add(/\b((?:Pet\.?\s+)?App\.|J\.?\s*A\.?)\s*(?:at\s+)?(\d+[a-z]?)\b/g,'appendix',m=>m[0].replace(/\s+/g,' '));
+  add(/\b((?:Pet\.?\s+)?App\.|J\.?\s*A\.?)\s*(?:at\s+)?(\d+[a-z]?)\b/g,'appendix',m=>{
+    // "App." in a court-and-year parenthetical is not an appendix page.
+    const prefix=text.slice(Math.max(0,m.index-100),m.index);
+    if(m[1]==='App.'&&/^(?:19|20)\d{2}$/.test(m[2])&&/\([^)]*(?:Ct\.|Spec\.|Ga\.|Ill\.)\s*$/.test(prefix))return null;
+    return m[0].replace(/\s+/g,' ');
+  });
   add(/\b(?:CA\s*\d{1,2}\s*[-–]?\s*)?(?:ECF|Dkt\.?|Docket)\s*(?:No\.?\s*)?\d+(?:[-–]\d+)?(?:\s*,?\s*(?:at|p{1,2}\.)\s*\d+(?:[-–]\d+)?)?/gi,'record',m=>m[0].replace(/\s+/g,' '));
   for(const hit of found.filter(x=>x.type==='case')){
+    // Extraction can split a pinpoint digit immediately before a year or
+    // footnote. Include that digit in the source span without rewriting text.
+    const split=text.slice(hit.end).match(/^[ \t]+(\d{1,2})(?=\s*(?:n\.\s*\d|\((?:17|18|19|20)\d{2}\)|,\s*[“"]))/);
+    if(split&&/\bU\.?\s*S\.?(?:\s+\d+,|\s*,?\s+at)\s+\d+$/.test(hit.label)){
+      hit.end+=split[0].length;hit.label=text.slice(hit.start,hit.end);
+      if(/\bat\s+\d+$/.test(hit.canonical))hit.canonical+=split[1];
+    }
     const prefix=text.slice(Math.max(0,hit.start-220),hit.start);
     const name=caseNameBefore(prefix) || (/\bat\s+\d/.test(hit.label)?shortNameBefore(prefix):null);
     if(name){const start=hit.start-name.trailing.length;if(!found.some(x=>x!==hit&&start<x.end&&hit.end>x.start)){hit.start=start;hit.caseName=name.name;hit.label=text.slice(start,hit.end)}}
