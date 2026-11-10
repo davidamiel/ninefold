@@ -15,7 +15,6 @@ const deployedData=await page.evaluate(async()=>{
  const citations=await import(new URL('reader-authorities.js',location.href).href);
  return {namedShortForms:[citations.shortCaseIn(opinion,'559','U. S.','Shady Grove, '),citations.shortCaseIn(opinion,'312','U. S.','Sibbach, ')],labels:t.pages.slice(2,70).map(p=>p.printedLabel),argument:structure['24-440-087f8840f42e'].headings.find(h=>h.page===30&&h.start===5),conclusion:structure['24-440-55fd77b4c91b'].headings.find(h=>h.page===34&&h.start===4)};
 });
-assert.deepEqual(deployedData.namedShortForms,['559 U.S. 393','312 U.S. 1']);
 assert.deepEqual(deployedData.labels,Array.from({length:68},(_,i)=>String(i+2)));
 assert.equal(deployedData.argument?.text,'ARGUMENT');assert.equal(deployedData.conclusion?.text,'Conclusion');
 const evidence=[];
@@ -44,4 +43,5 @@ await page.evaluate(()=>window.__berkQA.open('24-440-087f8840f42e'));
 await page.waitForSelector('.document-body .page-text');
 await page.screenshot({path:'berk-reader.png',fullPage:false});
 fs.writeFileSync('berk-browser-evidence.json',JSON.stringify({base,documents:evidence,deployedData,references,pageErrors:errors,limitations:'DOM smoke checks; not full visual or citation-destination review'},null,2));
-assert.deepEqual(errors,[]);console.log('BERK_REFERENCE_QUEUE '+JSON.stringify(references.unresolved));console.log('PASS Berk reader smoke',JSON.stringify({documents:evidence.length,references:{...references,unresolved:undefined}}));await browser.close();
+console.log('BERK_REFERENCE_QUEUE '+JSON.stringify(references.unresolved));assert.deepEqual(deployedData.namedShortForms,['559 U.S. 393','312 U.S. 1']);
+assert.deepEqual(errors,[]);console.log('PASS Berk reader smoke',JSON.stringify({documents:evidence.length,references:{...references,unresolved:undefined}}));await browser.close();
