@@ -43,5 +43,5 @@ await page.evaluate(()=>window.__berkQA.open('24-440-087f8840f42e'));
 await page.waitForSelector('.document-body .page-text');
 await page.screenshot({path:'berk-reader.png',fullPage:false});
 fs.writeFileSync('berk-browser-evidence.json',JSON.stringify({base,documents:evidence,deployedData,references,pageErrors:errors,limitations:'DOM smoke checks; not full visual or citation-destination review'},null,2));
-console.log('BERK_REFERENCE_QUEUE '+JSON.stringify(references.unresolved));assert.deepEqual(deployedData.namedShortForms,['559 U.S. 393','312 U.S. 1']);
+for(const ref of references.unresolved)console.log('BERK_REFERENCE_ITEM '+JSON.stringify(ref));console.log('BERK_REFERENCE_SUMMARY '+JSON.stringify({...references,unresolved:undefined}));assert.deepEqual(deployedData.namedShortForms,['559 U.S. 393','312 U.S. 1']);
 assert.deepEqual(errors,[]);console.log('PASS Berk reader smoke',JSON.stringify({documents:evidence.length,references:{...references,unresolved:undefined}}));await browser.close();
