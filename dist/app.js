@@ -1697,7 +1697,7 @@ function applyEditedCase(patch,refresh=true){
   if(Object.hasOwn(change,'content')){d.editorContent=structuredClone(change.content);d.independentText=true;d.textPath='inline';delete d.parentDocumentId;delete d.sourceRange;delete d.timedSession;}
   return d;
  });
- for(const id of touched){const replacement=list.find(d=>d.id===id);if(replacement)docs.set(id,replacement);else if(!cases.some(other=>other.id!==c.id&&caseDocuments(other).some(d=>d.id===id)))docs.delete(id);docCache.delete(id);referenceNumbers.delete(id);for(const [key,r]of refsIndex)if(r.fromDoc===id)refsIndex.delete(key);}
+ for(const id of touched){const replacement=list.find(d=>d.id===id);state.refs=state.refs.flatMap(r=>{if(r.fromDoc!==id)return [r];if(!replacement)return [];if(!replacement.readerContent)return [r];const updated=replacement.readerContent.references.find(x=>x.key===r.key);return updated?[structuredClone(updated)]:[];});if(replacement)docs.set(id,replacement);else if(!cases.some(other=>other.id!==c.id&&caseDocuments(other).some(d=>d.id===id)))docs.delete(id);docCache.delete(id);referenceNumbers.delete(id);for(const [key,r]of refsIndex)if(r.fromDoc===id)refsIndex.delete(key);}
  for(const key of Object.keys(c))delete c[key];Object.assign(c,structuredClone(base.record));caseDisplay[c.id]=structuredClone(base.display);
  if(Object.hasOwn(patch.fields,'name'))c.name=patch.fields.name;
  if(Object.hasOwn(patch.fields,'description')){c.decision={...c.decision,holding:patch.fields.description};c.officialSummary=patch.fields.description;}
