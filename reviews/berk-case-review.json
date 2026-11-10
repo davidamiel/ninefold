@@ -37,7 +37,13 @@
       "pages": 28,
       "sourceLines": 827,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 52,
+        "externalSourceOnly": 20,
+        "sourceLookupRequired": 32,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-5f52d6b13c47",
@@ -50,7 +56,13 @@
       "pages": 77,
       "sourceLines": 6233,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 0,
+        "externalSourceOnly": 0,
+        "sourceLookupRequired": 0,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-ab5068b7e837",
@@ -63,7 +75,13 @@
       "pages": 1,
       "sourceLines": 24,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 0,
+        "externalSourceOnly": 0,
+        "sourceLookupRequired": 0,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-55fd77b4c91b",
@@ -76,7 +94,13 @@
       "pages": 35,
       "sourceLines": 1164,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 35,
+        "externalSourceOnly": 0,
+        "sourceLookupRequired": 35,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-660786c6b1c6",
@@ -89,7 +113,13 @@
       "pages": 60,
       "sourceLines": 1754,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 30,
+        "externalSourceOnly": 1,
+        "sourceLookupRequired": 29,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-29ea6e90f9cd",
@@ -154,7 +184,13 @@
       "pages": 35,
       "sourceLines": 1002,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 11,
+        "externalSourceOnly": 4,
+        "sourceLookupRequired": 7,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-4c6df56bc46c",
@@ -232,7 +268,13 @@
       "pages": 41,
       "sourceLines": 1140,
       "textLayerComparison": "exception: pages 2–41 match with additional dot/case normalization; cover ordering/case differ",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 22,
+        "externalSourceOnly": 1,
+        "sourceLookupRequired": 21,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-c24d7e44c126",
@@ -271,7 +313,13 @@
       "pages": 16,
       "sourceLines": 503,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 27,
+        "externalSourceOnly": 1,
+        "sourceLookupRequired": 26,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-4555cdfe0dcc",
@@ -310,7 +358,13 @@
       "pages": 1,
       "sourceLines": 28,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 1,
+        "externalSourceOnly": 0,
+        "sourceLookupRequired": 1,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-3582972c02be",
@@ -323,7 +377,13 @@
       "pages": 107,
       "sourceLines": 3249,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 97,
+        "externalSourceOnly": 29,
+        "sourceLookupRequired": 68,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-3e93b13a4e24",
@@ -362,7 +422,13 @@
       "pages": 235,
       "sourceLines": 7104,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 70,
+        "externalSourceOnly": 2,
+        "sourceLookupRequired": 68,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-d847c2f338e0",
@@ -388,7 +454,13 @@
       "pages": 45,
       "sourceLines": 985,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 23,
+        "externalSourceOnly": 9,
+        "sourceLookupRequired": 14,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-158cc61b83c6",
@@ -427,7 +499,13 @@
       "pages": 38,
       "sourceLines": 1183,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 33,
+        "externalSourceOnly": 4,
+        "sourceLookupRequired": 29,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-c39e1e590fa8",
@@ -466,7 +544,13 @@
       "pages": 35,
       "sourceLines": 1009,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 9,
+        "externalSourceOnly": 4,
+        "sourceLookupRequired": 5,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-1328b78d311b",
@@ -505,7 +589,13 @@
       "pages": 21,
       "sourceLines": 620,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 20,
+        "externalSourceOnly": 4,
+        "sourceLookupRequired": 16,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-2c8520fca17b",
@@ -570,7 +660,13 @@
       "pages": 66,
       "sourceLines": 1955,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 67,
+        "externalSourceOnly": 33,
+        "sourceLookupRequired": 34,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-7102296521d1",
@@ -609,7 +705,13 @@
       "pages": 59,
       "sourceLines": 1832,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 67,
+        "externalSourceOnly": 26,
+        "sourceLookupRequired": 41,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-ff36bccc1681",
@@ -648,7 +750,13 @@
       "pages": 31,
       "sourceLines": 942,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 10,
+        "externalSourceOnly": 2,
+        "sourceLookupRequired": 8,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-74c2248b3d16",
@@ -687,7 +795,13 @@
       "pages": 16,
       "sourceLines": 432,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 13,
+        "externalSourceOnly": 0,
+        "sourceLookupRequired": 13,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-a1a816ae2752",
@@ -726,7 +840,13 @@
       "pages": 33,
       "sourceLines": 998,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 34,
+        "externalSourceOnly": 22,
+        "sourceLookupRequired": 12,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-6bf757b6e23e",
@@ -765,7 +885,13 @@
       "pages": 33,
       "sourceLines": 762,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 4,
+        "externalSourceOnly": 0,
+        "sourceLookupRequired": 4,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-f4478ac1f528",
@@ -804,7 +930,13 @@
       "pages": 45,
       "sourceLines": 1317,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 29,
+        "externalSourceOnly": 11,
+        "sourceLookupRequired": 18,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-942051f4bfad",
@@ -843,7 +975,13 @@
       "pages": 37,
       "sourceLines": 891,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 30,
+        "externalSourceOnly": 18,
+        "sourceLookupRequired": 12,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-47e6fb2c92cf",
@@ -882,7 +1020,13 @@
       "pages": 29,
       "sourceLines": 943,
       "textLayerComparison": "full-normalized-equality",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 35,
+        "externalSourceOnly": 16,
+        "sourceLookupRequired": 19,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-0a6ca1cacc5f",
@@ -912,7 +1056,7 @@
     },
     {
       "id": "24-440-a3aca37b80b8",
-      "title": "opinion — Judgment REVERSED and case REMANDED. Barrett, J., delivered the of the Court, in which Roberts, C. J., and Thomas, Alito, Sotomayor, Kagan, Gorsuch, and Kavanaugh, JJ., joined. Jac",
+      "title": "Slip opinion (January 20, 2026)",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-440_1b82.pdf",
       "textPath": null,
       "status": "partial",
@@ -921,7 +1065,8 @@
       "pdfPages": 27,
       "textLayer": "readable",
       "sourceAccess": "confirmed",
-      "readerComparison": "not-applicable-no-extracted-text"
+      "readerComparison": "not-applicable-no-extracted-text",
+      "originalIndexedTitle": "opinion — Judgment REVERSED and case REMANDED. Barrett, J., delivered the of the Court, in which Roberts, C. J., and Thomas, Alito, Sotomayor, Kagan, Gorsuch, and Kavanaugh, JJ., joined. Jac"
     },
     {
       "id": "24-440-5f2cf473fb43",
@@ -950,7 +1095,13 @@
       "status": "partial-parent-text-layer-compared",
       "visual": "unreviewed",
       "citationTargets": "unreviewed",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 2,
+        "externalSourceOnly": 1,
+        "sourceLookupRequired": 1,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-1bba7e3379d6--3-462",
@@ -964,7 +1115,13 @@
       "status": "partial-parent-text-layer-compared",
       "visual": "unreviewed",
       "citationTargets": "unreviewed",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 21,
+        "externalSourceOnly": 8,
+        "sourceLookupRequired": 13,
+        "semanticStatus": "unreviewed"
+      }
     },
     {
       "id": "24-440-1bba7e3379d6--14-206",
@@ -978,7 +1135,13 @@
       "status": "partial-parent-text-layer-compared",
       "visual": "unreviewed",
       "citationTargets": "unreviewed",
-      "renderedSmoke": "passed-built-site"
+      "renderedSmoke": "passed-production-42750073804",
+      "referenceStructure": {
+        "noInternalTarget": 29,
+        "externalSourceOnly": 11,
+        "sourceLookupRequired": 18,
+        "semanticStatus": "unreviewed"
+      }
     }
   ],
   "headingChanges": [
@@ -1219,6 +1382,14 @@
       "start": 1049,
       "before": "I . THE THIRD CIRCUIT’S UNPUBLISHED OPINION REFLECTS THE FACTBOUND APPLICATION OF SETTLED LAW",
       "after": "I. THE THIRD CIRCUIT’S UNPUBLISHED OPINION REFLECTS THE FACTBOUND APPLICATION OF SETTLED LAW"
+    },
+    {
+      "document": "24-440-ffcc04da2f19",
+      "kind": "heading-text",
+      "page": 30,
+      "start": 817,
+      "before": "B. The circuit split claimed by Petitioner is also illusor y because the speci fic ter ms of the various state statutes being applied differ in outcome-determinative ways",
+      "after": "B. The circuit split claimed by Petitioner is also illusory because the specific terms of the various state statutes being applied differ in outcome-determinative ways."
     }
   ],
   "remainingIssues": [
@@ -1257,12 +1428,39 @@
         "invalidTargets": 0,
         "noInternalTarget": 771
       },
-      "limitations": "No internal target includes external-only sources; not a semantic citation review."
+      "limitations": "No internal target includes external-only sources; not a semantic citation review.",
+      "artifact": "https://github.com/davidamiel/ninefold/actions/runs/42750647759/artifacts/13733038143",
+      "latestDiagnostic": {
+        "run": "https://github.com/davidamiel/ninefold/actions/runs/42752847569",
+        "status": "failed-new-parser-assertion",
+        "completedReaderDocuments": 27,
+        "documentFixAssertions": "passed",
+        "referenceStructure": {
+          "occurrences": 3385,
+          "internalDocuments": 130,
+          "locatedPages": 221,
+          "invalid": [],
+          "noInternalTargetCount": 771,
+          "externalSourceOnly": 227,
+          "sourceLookupRequired": 544,
+          "unresolvedByType": {
+            "case": 727,
+            "appendix": 7,
+            "statute": 27,
+            "record": 10
+          },
+          "limitation": "Structural resolution only; target semantics and pinpoint accuracy unreviewed"
+        },
+        "artifact": "https://github.com/davidamiel/ninefold/actions/runs/42752847569/artifacts/13733439614",
+        "explanation": "The document fixes and structural scan completed; explicit named-short-form assertions failed because the parser deployment was not live.",
+        "attempt": 2,
+        "observedAt": "2026-11-10T04:06:42.9388007Z"
+      }
     },
     "latestPublication": {
       "commit": "ddcb43f0d6e5712e0befcdb6961e8c94eb3c41b2",
       "run": "https://github.com/davidamiel/ninefold/actions/runs/42751020918",
-      "status": "deployment-in-progress",
+      "status": "failed-pages-timeout-after-one-retry",
       "tests": {
         "passed": 298,
         "failed": 0
@@ -1276,11 +1474,35 @@
         "externalSourceOnly": 235,
         "sourceLookupRequired": 514
       },
-      "liveVerification": "pending final run with explicit named-short-form assertions"
+      "liveVerification": "Post-timeout production check attempt 2 failed named-short-form assertions [null,null]; parser correction not live. Document fixes and structural scan passed.",
+      "artifacts": {
+        "browser": "https://github.com/davidamiel/ninefold/actions/runs/42751020918/artifacts/13733282182",
+        "audit": "https://github.com/davidamiel/ninefold/actions/runs/42751020918/artifacts/13733426828"
+      },
+      "deploymentAttempts": [
+        {
+          "job": 129615077130,
+          "result": "failed",
+          "reason": "600-second Pages deployment timeout",
+          "completedAt": "2026-11-10T03:53:15Z"
+        },
+        {
+          "job": 129618852018,
+          "result": "failed",
+          "reason": "600-second Pages deployment timeout; canceled deployment ddcb43f0d6e5712e0befcdb6961e8c94eb3c41b2",
+          "completedAt": "2026-11-10T04:04:27Z"
+        }
+      ]
+    },
+    "publicationWorkflow": {
+      "status": "restored-manual-only",
+      "restorationCommit": "c9ba63d2441648f23f5be4b134cbc01f02a4b0ad",
+      "verifiedBlob": "4fc4bea158bd1352a67e3dd777ef2fbe7c4a2e92",
+      "originalBlob": "4fc4bea158bd1352a67e3dd777ef2fbe7c4a2e92"
     }
   },
   "referenceResolverCorrection": {
-    "status": "deployment-in-progress",
+    "status": "committed-tested-not-published",
     "scope": "Recognize full case names with standalone ampersands and spaced initial periods; resolve named short forms only from a unique full citation in the same document.",
     "sourceEvidence": [
       {
@@ -1301,5 +1523,29 @@
       "Unnamed short forms",
       "Ambiguous or generic names"
     ]
-  }
+  },
+  "nextSteps": [
+    "Use a PDF-capable visual review environment to compare opposition cover/counsel casing and appendix spacing, paragraph/footnote layout against official sources.",
+    "Visually inspect the 16 zero-text and one garbled original-only PDFs; preserve their current partial statuses until compared.",
+    "Triage reviews/berk-reference-queue.json against source authorities; structural load/page-bound checks do not establish citation semantics or pinpoint accuracy."
+  ],
+  "referenceQueue": {
+    "path": "reviews/berk-reference-queue.json",
+    "environment": "production",
+    "occurrences": 771,
+    "uniqueSourceLocations": 719,
+    "sourceLookupRequired": 544,
+    "externalSourceOnly": 227,
+    "countsIncludeAliases": true
+  },
+  "blockers": [
+    {
+      "action": "Publish parser correction ddcb43f0d6e5712e0befcdb6961e8c94eb3c41b2 to GitHub Pages",
+      "status": "failed",
+      "reason": "Deploy action timed out after 600 seconds on both initial attempt and one retry, then canceled deployment.",
+      "run": "https://github.com/davidamiel/ninefold/actions/runs/42751020918",
+      "priorDocumentFixes": "Successfully published and production-verified at bfd9e6ab0acbe5601b8376d3701e47dfe66f39d8.",
+      "nextStep": "After Pages deployment service recovers, run the restored manual Publish Ninefold workflow and rerun Berk deployed reader check."
+    }
+  ]
 }
