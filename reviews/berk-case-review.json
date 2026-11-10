@@ -16,7 +16,8 @@
     "fullVisualReviews": 0,
     "fullCitationTargetReviews": 0,
     "sourceOnlyVisualReviewedDocuments": 17,
-    "sourceOnlyVisualReviewedPages": 19
+    "sourceOnlyVisualReviewedPages": 19,
+    "extractedSourcePagesVisuallyInspected": 11
   },
   "method": "Exact official sourceUrl PDFs fetched through web; all numbered extracted source lines collected, deduplicated and sorted. Compare concatenated stored page text after NFKC and whitespace/ASCII-hyphen/soft-hyphen/U+0002 removal; appendices/transcript additionally ignore Unicode hyphen/dash variants. This is text-layer agreement, not visual proof. Original-only records checked for access and identity against docket.",
   "limitations": [
@@ -111,7 +112,7 @@
       "textPath": "data/docs/24-440-660786c6b1c6.json",
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "partial-source-raster-review-pages-4-through-13",
       "pages": 60,
       "sourceLines": 1754,
       "textLayerComparison": "full-normalized-equality",
@@ -121,6 +122,12 @@
         "externalSourceOnly": 1,
         "sourceLookupRequired": 29,
         "semanticStatus": "unreviewed"
+      },
+      "visualEvidence": "reviews/berk-exceptions-visual-evidence.json",
+      "displayCorrections": {
+        "spacingRepairs": 37,
+        "footnotes": 12,
+        "rawText": "unchanged"
       }
     },
     {
@@ -274,17 +281,18 @@
       "textPath": "data/docs/24-440-ffcc04da2f19.json",
       "status": "partial",
       "citationTargets": "unreviewed",
-      "visual": "unreviewed",
+      "visual": "partial-source-raster-review-cover",
       "pages": 41,
       "sourceLines": 1140,
-      "textLayerComparison": "exception: pages 2–41 match with additional dot/case normalization; cover ordering/case differ",
+      "textLayerComparison": "Baseline pages 2–41 match with additional dot/case normalization; cover has six same-length source-verified casing corrections. Cover reading order/layout remains uncertified.",
       "renderedSmoke": "passed-production-42750073804",
       "referenceStructure": {
         "noInternalTarget": 22,
         "externalSourceOnly": 1,
         "sourceLookupRequired": 21,
         "semanticStatus": "unreviewed"
-      }
+      },
+      "visualEvidence": "reviews/berk-exceptions-visual-evidence.json"
     },
     {
       "id": "24-440-c24d7e44c126",
@@ -1592,6 +1600,12 @@
     "commonCircuitAuthorities": "reviews/berk-common-circuit-reference-review.json",
     "referenceCorrections": "reviews/berk-reference-followthrough.json",
     "deploymentDiagnosis": "docs/berk-deployment-diagnosis.md",
-    "circuitRouting": "reviews/berk-circuit-source-routing.json"
+    "circuitRouting": "reviews/berk-circuit-source-routing.json",
+    "visualExceptions": "reviews/berk-exceptions-visual-evidence.json",
+    "visualGeneration": {
+      "commit": "ed10d411a2fca4138851fc2d6455201a77cd1e17",
+      "run": "https://github.com/davidamiel/ninefold/actions/runs/42756189097",
+      "testsPassed": 3
+    }
   }
 }

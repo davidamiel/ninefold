@@ -1,0 +1,495 @@
+{
+  "bodyStart": {
+    "page": 0,
+    "offset": 0
+  },
+  "omitRanges": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 597,
+      "reason": "Printed contents or authorities"
+    }
+  ],
+  "headings": [
+    {
+      "page": 3,
+      "start": 284,
+      "end": 285,
+      "text": "I",
+      "level": 0
+    },
+    {
+      "page": 12,
+      "start": 6,
+      "end": 9,
+      "text": "III",
+      "level": 0
+    },
+    {
+      "page": 17,
+      "start": 6,
+      "end": 34,
+      "text": "APPENDIX C: 18 Del. C. § 6853",
+      "level": 0
+    }
+  ],
+  "repairs": [
+    {
+      "page": 3,
+      "start": 532,
+      "end": 541,
+      "expectedText": "De laware",
+      "text": "Delaware",
+      "reason": "Visual source comparison, PDF page 4"
+    },
+    {
+      "page": 3,
+      "start": 1035,
+      "end": 1043,
+      "expectedText": "gr ounds",
+      "text": "grounds",
+      "reason": "Visual source comparison, PDF page 4"
+    },
+    {
+      "page": 3,
+      "start": 1293,
+      "end": 1301,
+      "expectedText": "s ection",
+      "text": "section",
+      "reason": "Visual source comparison, PDF page 4"
+    },
+    {
+      "page": 3,
+      "start": 818,
+      "end": 830,
+      "expectedText": "health -care",
+      "text": "health-care",
+      "reason": "Visual source comparison, PDF page 4"
+    },
+    {
+      "page": 4,
+      "start": 393,
+      "end": 400,
+      "expectedText": "Nuvee n",
+      "text": "Nuveen",
+      "reason": "Visual source comparison, PDF page 5"
+    },
+    {
+      "page": 4,
+      "start": 775,
+      "end": 782,
+      "expectedText": "158 -59",
+      "text": "158-59",
+      "reason": "Visual source comparison, PDF page 5"
+    },
+    {
+      "page": 5,
+      "start": 1016,
+      "end": 1030,
+      "expectedText": "conflictof-law",
+      "text": "conflict-of-law",
+      "reason": "Visual source comparison, PDF page 6"
+    },
+    {
+      "page": 5,
+      "start": 1738,
+      "end": 1745,
+      "expectedText": "302 -04",
+      "text": "302-04",
+      "reason": "Visual source comparison, PDF page 6"
+    },
+    {
+      "page": 6,
+      "start": 36,
+      "end": 42,
+      "expectedText": "mark s",
+      "text": "marks",
+      "reason": "Visual source comparison, PDF page 7"
+    },
+    {
+      "page": 6,
+      "start": 293,
+      "end": 302,
+      "expectedText": "cove rage",
+      "text": "coverage",
+      "reason": "Visual source comparison, PDF page 7"
+    },
+    {
+      "page": 6,
+      "start": 804,
+      "end": 811,
+      "expectedText": "ren der",
+      "text": "render",
+      "reason": "Visual source comparison, PDF page 7"
+    },
+    {
+      "page": 6,
+      "start": 826,
+      "end": 843,
+      "expectedText": "collision -of-law",
+      "text": "collision-of-law",
+      "reason": "Visual source comparison, PDF page 7"
+    },
+    {
+      "page": 6,
+      "start": 635,
+      "end": 642,
+      "expectedText": "159 -61",
+      "text": "159-61",
+      "reason": "Visual source comparison, PDF page 7"
+    },
+    {
+      "page": 6,
+      "start": 701,
+      "end": 708,
+      "expectedText": "303 -04",
+      "text": "303-04",
+      "reason": "Visual source comparison, PDF page 7"
+    },
+    {
+      "page": 6,
+      "start": 1651,
+      "end": 1655,
+      "expectedText": "4 -5",
+      "text": "4-5",
+      "reason": "Visual source comparison, PDF page 7"
+    },
+    {
+      "page": 7,
+      "start": 242,
+      "end": 250,
+      "expectedText": "requi re",
+      "text": "require",
+      "reason": "Visual source comparison, PDF page 8"
+    },
+    {
+      "page": 8,
+      "start": 741,
+      "end": 750,
+      "expectedText": "confl ict",
+      "text": "conflict",
+      "reason": "Visual source comparison, PDF page 9"
+    },
+    {
+      "page": 8,
+      "start": 1450,
+      "end": 1462,
+      "expectedText": "health -care",
+      "text": "health-care",
+      "reason": "Visual source comparison, PDF page 9"
+    },
+    {
+      "page": 9,
+      "start": 320,
+      "end": 327,
+      "expectedText": "a ction",
+      "text": "action",
+      "reason": "Visual source comparison, PDF page 10"
+    },
+    {
+      "page": 9,
+      "start": 573,
+      "end": 582,
+      "expectedText": "plead ing",
+      "text": "pleading",
+      "reason": "Visual source comparison, PDF page 10"
+    },
+    {
+      "page": 9,
+      "start": 913,
+      "end": 935,
+      "expectedText": "outcome -determinative",
+      "text": "outcome-determinative",
+      "reason": "Visual source comparison, PDF page 10"
+    },
+    {
+      "page": 9,
+      "start": 980,
+      "end": 995,
+      "expectedText": "out -of-circuit",
+      "text": "out-of-circuit",
+      "reason": "Visual source comparison, PDF page 10"
+    },
+    {
+      "page": 9,
+      "start": 1866,
+      "end": 1874,
+      "expectedText": "1045 -46",
+      "text": "1045-46",
+      "reason": "Visual source comparison, PDF page 10"
+    },
+    {
+      "page": 10,
+      "start": 269,
+      "end": 278,
+      "expectedText": "c onclude",
+      "text": "conclude",
+      "reason": "Visual source comparison, PDF page 11"
+    },
+    {
+      "page": 10,
+      "start": 633,
+      "end": 643,
+      "expectedText": "c omplaint",
+      "text": "complaint",
+      "reason": "Visual source comparison, PDF page 11"
+    },
+    {
+      "page": 10,
+      "start": 889,
+      "end": 896,
+      "expectedText": "a ction",
+      "text": "action",
+      "reason": "Visual source comparison, PDF page 11"
+    },
+    {
+      "page": 11,
+      "start": 34,
+      "end": 50,
+      "expectedText": "non -meritorious",
+      "text": "non-meritorious",
+      "reason": "Visual source comparison, PDF page 12"
+    },
+    {
+      "page": 12,
+      "start": 251,
+      "end": 269,
+      "expectedText": "affidavit -ofmerit",
+      "text": "affidavit-of-merit",
+      "reason": "Visual source comparison, PDF page 13"
+    },
+    {
+      "page": 12,
+      "start": 487,
+      "end": 506,
+      "expectedText": "affidavit -of-merit",
+      "text": "affidavit-of-merit",
+      "reason": "Visual source comparison, PDF page 13"
+    },
+    {
+      "page": 12,
+      "start": 883,
+      "end": 902,
+      "expectedText": "affidavit -of-merit",
+      "text": "affidavit-of-merit",
+      "reason": "Visual source comparison, PDF page 13"
+    },
+    {
+      "page": 12,
+      "start": 1361,
+      "end": 1380,
+      "expectedText": "affidavit -of-merit",
+      "text": "affidavit-of-merit",
+      "reason": "Visual source comparison, PDF page 13"
+    },
+    {
+      "page": 12,
+      "start": 639,
+      "end": 660,
+      "expectedText": "certificate -of-merit",
+      "text": "certificate-of-merit",
+      "reason": "Visual source comparison, PDF page 13"
+    },
+    {
+      "page": 12,
+      "start": 1090,
+      "end": 1111,
+      "expectedText": "certificate -of-merit",
+      "text": "certificate-of-merit",
+      "reason": "Visual source comparison, PDF page 13"
+    },
+    {
+      "page": 12,
+      "start": 911,
+      "end": 915,
+      "expectedText": "a nd",
+      "text": "and",
+      "reason": "Visual source comparison, PDF page 13"
+    },
+    {
+      "page": 12,
+      "start": 1168,
+      "end": 1174,
+      "expectedText": "Ci vil",
+      "text": "Civil",
+      "reason": "Visual source comparison, PDF page 13"
+    },
+    {
+      "page": 12,
+      "start": 297,
+      "end": 307,
+      "expectedText": "2A:53A -27",
+      "text": "2A:53A-27",
+      "reason": "Visual source comparison, PDF page 13"
+    },
+    {
+      "page": 12,
+      "start": 811,
+      "end": 818,
+      "expectedText": "302 –03",
+      "text": "302–03",
+      "reason": "Visual source comparison, PDF page 13"
+    }
+  ],
+  "footnotes": [
+    {
+      "page": 3,
+      "start": 644,
+      "end": 773,
+      "label": "1"
+    },
+    {
+      "page": 3,
+      "start": 774,
+      "end": 1840,
+      "label": "2"
+    },
+    {
+      "page": 4,
+      "start": 1203,
+      "end": 1510,
+      "label": "3"
+    },
+    {
+      "page": 5,
+      "start": 505,
+      "end": 682,
+      "label": "4"
+    },
+    {
+      "page": 5,
+      "start": 683,
+      "end": 2340,
+      "label": "5"
+    },
+    {
+      "page": 6,
+      "start": 1079,
+      "end": 2034,
+      "label": "6"
+    },
+    {
+      "page": 7,
+      "start": 1479,
+      "end": 1635,
+      "label": "7"
+    },
+    {
+      "page": 7,
+      "start": 1636,
+      "end": 1777,
+      "label": "8"
+    },
+    {
+      "page": 7,
+      "start": 1778,
+      "end": 1957,
+      "label": "9"
+    },
+    {
+      "page": 9,
+      "start": 965,
+      "end": 2095,
+      "label": "10"
+    },
+    {
+      "page": 11,
+      "start": 515,
+      "end": 691,
+      "label": "11"
+    },
+    {
+      "page": 12,
+      "start": 56,
+      "end": 1865,
+      "label": "12"
+    }
+  ],
+  "footnoteMarkers": [
+    {
+      "page": 3,
+      "start": 369,
+      "end": 370,
+      "label": "1",
+      "expectedText": "1"
+    },
+    {
+      "page": 3,
+      "start": 626,
+      "end": 627,
+      "label": "2",
+      "expectedText": "2"
+    },
+    {
+      "page": 4,
+      "start": 7,
+      "end": 8,
+      "label": "3",
+      "expectedText": "3"
+    },
+    {
+      "page": 5,
+      "start": 13,
+      "end": 14,
+      "label": "4",
+      "expectedText": "4"
+    },
+    {
+      "page": 5,
+      "start": 15,
+      "end": 16,
+      "label": "5",
+      "expectedText": "5"
+    },
+    {
+      "page": 6,
+      "start": 1076,
+      "end": 1077,
+      "label": "6",
+      "expectedText": "6"
+    },
+    {
+      "page": 7,
+      "start": 213,
+      "end": 214,
+      "label": "7",
+      "expectedText": "7"
+    },
+    {
+      "page": 7,
+      "start": 220,
+      "end": 221,
+      "label": "8",
+      "expectedText": "8"
+    },
+    {
+      "page": 7,
+      "start": 731,
+      "end": 732,
+      "label": "9",
+      "expectedText": "9"
+    },
+    {
+      "page": 9,
+      "start": 690,
+      "end": 692,
+      "label": "10",
+      "expectedText": "10"
+    },
+    {
+      "page": 11,
+      "start": 303,
+      "end": 305,
+      "label": "11",
+      "expectedText": "11"
+    },
+    {
+      "page": 12,
+      "start": 52,
+      "end": 54,
+      "label": "12",
+      "expectedText": "12"
+    }
+  ]
+}

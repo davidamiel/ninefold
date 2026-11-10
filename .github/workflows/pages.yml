@@ -37,6 +37,7 @@ jobs:
           trap 'kill "$berk_server_pid"' EXIT
           node -e "const u='http://127.0.0.1:8765/'; for(let i=0;i<30;i++){try{if((await fetch(u)).ok)process.exit(0)}catch{}await new Promise(r=>setTimeout(r,200));}process.exit(1)" --input-type=module
           node tests/berk-reader-browser.mjs
+          node tests/berk-visual-browser.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -44,6 +45,8 @@ jobs:
           path: |
             berk-browser-evidence.json
             berk-reader.png
+            berk-visual-browser-evidence.json
+            berk-appendix-*-reader.png
       - name: Audit packaged documents and review ledger
         run: node scripts/check_document_reviews.mjs out > document-review-out.json
       - uses: actions/upload-artifact@v4
@@ -73,3 +76,23 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify published commit and file fingerprints
+        run: node scripts/verify_pages_deployment.mjs
+      - run: npm install --no-save --package-lock=false playwright
+      - name: Verify production Berk reader
+        env:
+          BERK_CHROME_CHANNEL: chrome
+          BERK_BASE_URL: https://davidamiel.github.io/ninefold/
+        run: node tests/berk-reader-browser.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: berk-production-verification
+          path: |
+            pages-live-verification.json
+            berk-browser-evidence.json
+            berk-reader.png
