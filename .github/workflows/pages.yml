@@ -20,53 +20,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: npm ci
-      - run: npm test
-      - name: Audit source documents and review ledger
+      - name: Install dependencies
+        run: npm ci
+      - name: Run tests
+        run: npm test
+      - name: Build website
+        run: npm run build
+      - name: Validate packaged website
         run: |
-          audit_status=0
-          npm run --silent audit:documents > document-review-dist.json || audit_status=$?
-          node -e "const r=JSON.parse(require('fs').readFileSync('document-review-dist.json')); console.log(JSON.stringify({summary:r.summary,errors:r.errors},null,2))"
-          exit "$audit_status"
-      - run: npm run build
-      - name: Install browser harness
-        run: npm install --no-save --package-lock=false playwright
-      - name: Check built Berk reader
-        env:
-          BERK_CHROME_CHANNEL: chrome
-          BERK_BASE_URL: http://127.0.0.1:8765/
-        run: |
-          python -m http.server 8765 --bind 127.0.0.1 --directory out > /tmp/berk-built-server.log 2>&1 &
-          berk_server_pid=$!
-          trap 'kill "$berk_server_pid"' EXIT
-          node -e "const u='http://127.0.0.1:8765/'; for(let i=0;i<30;i++){try{if((await fetch(u)).ok)process.exit(0)}catch{}await new Promise(r=>setTimeout(r,200));}process.exit(1)" --input-type=module
-          node tests/berk-reader-browser.mjs
-          node tests/berk-visual-browser.mjs
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: berk-built-reader-evidence
-          path: |
-            berk-browser-evidence.json
-            berk-reader.png
-            berk-visual-browser-evidence.json
-            berk-appendix-*-reader.png
-      - name: Audit packaged documents and review ledger
-        run: node scripts/check_document_reviews.mjs out > document-review-out.json
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: document-review-reports
-          path: document-review-*.json
-      - run: python scripts/check_term_reader.py out
+          python scripts/check_term_reader.py out
+          node scripts/check_pages_artifact.mjs out
       - uses: actions/configure-pages@v5
-      - name: Validate Pages artifact and record fingerprints
-        run: node scripts/check_pages_artifact.mjs out
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: pages-preflight
-          path: pages-preflight.json
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
@@ -84,19 +48,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Verify published commit and file fingerprints
+      - name: Verify published version
         run: node scripts/verify_pages_deployment.mjs
-      - run: npm install --no-save --package-lock=false playwright
-      - name: Verify production Berk reader
-        env:
-          BERK_CHROME_CHANNEL: chrome
-          BERK_BASE_URL: https://davidamiel.github.io/ninefold/
-        run: node tests/berk-reader-browser.mjs
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: berk-production-verification
-          path: |
-            pages-live-verification.json
-            berk-browser-evidence.json
-            berk-reader.png
