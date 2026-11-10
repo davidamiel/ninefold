@@ -23,7 +23,11 @@ jobs:
       - run: npm ci
       - run: npm test
       - name: Audit source documents and review ledger
-        run: npm run --silent audit:documents > document-review-dist.json
+        run: |
+          audit_status=0
+          npm run --silent audit:documents > document-review-dist.json || audit_status=$?
+          node -e "const r=JSON.parse(require('fs').readFileSync('document-review-dist.json')); console.log(JSON.stringify({summary:r.summary,errors:r.errors},null,2))"
+          exit "$audit_status"
       - run: npm run build
       - name: Install browser harness
         run: npm install --no-save --package-lock=false playwright
