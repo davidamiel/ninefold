@@ -11,8 +11,11 @@ const report=JSON.parse(fs.readFileSync('reviews/berk-case-review.json'));
 const deployedData=await page.evaluate(async()=>{
  const t=await window.__berkQA.source('data/docs/24-440-5f52d6b13c47.json');
  const structure=await window.__berkQA.source('data/reader-structure.json');
- return {labels:t.pages.slice(2,70).map(p=>p.printedLabel),argument:structure['24-440-087f8840f42e'].headings.find(h=>h.page===30&&h.start===5),conclusion:structure['24-440-55fd77b4c91b'].headings.find(h=>h.page===34&&h.start===4)};
+ const opinion=await window.__berkQA.source('data/docs/24-440-1bba7e3379d6.json');
+ const citations=await import(new URL('reader-authorities.js',location.href).href);
+ return {namedShortForms:[citations.shortCaseIn(opinion,'559','U. S.','Shady Grove, '),citations.shortCaseIn(opinion,'312','U. S.','Sibbach, ')],labels:t.pages.slice(2,70).map(p=>p.printedLabel),argument:structure['24-440-087f8840f42e'].headings.find(h=>h.page===30&&h.start===5),conclusion:structure['24-440-55fd77b4c91b'].headings.find(h=>h.page===34&&h.start===4)};
 });
+assert.deepEqual(deployedData.namedShortForms,['559 U.S. 393','312 U.S. 1']);
 assert.deepEqual(deployedData.labels,Array.from({length:68},(_,i)=>String(i+2)));
 assert.equal(deployedData.argument?.text,'ARGUMENT');assert.equal(deployedData.conclusion?.text,'Conclusion');
 const evidence=[];
@@ -32,7 +35,7 @@ const references=await page.evaluate(async()=>{
  for(const ref of refs){let m=window.__berkQA.material(ref);
   if(m.doc?.textPath){const data=await window.__berkQA.ensure(m.doc.id);if(!data?.pages?.length)invalid.push({label:ref.label,id:m.doc.id,reason:'internal text unavailable'});else{resolved.add(m.doc.id);m=window.__berkQA.material(ref);if(m.targetPage>=0){located++;if(m.targetPage>=data.pages.length)invalid.push({label:ref.label,id:m.doc.id,page:m.targetPage,reason:'page outside target'});}}}
   if(m.source&&!m.source.startsWith('https://')&&!m.source.startsWith('http://'))invalid.push({label:ref.label,reason:'invalid source URL'});
-  if(!m.doc)unresolved.push({label:ref.label,type:ref.type,fromDoc:ref.fromDoc,sourcePage:ref.page,source:m.source||null,disposition:m.source?'external-source-only':'source-lookup-required'});
+  if(!m.doc)unresolved.push({label:ref.label,type:ref.type,fromDoc:ref.fromDoc,sourcePage:ref.page,sourceOffset:ref.offset,source:m.source||null,disposition:m.source?'external-source-only':'source-lookup-required'});
  }
  return {occurrences:refs.length,internalDocuments:resolved.size,locatedPages:located,invalid,noInternalTargetCount:unresolved.length,externalSourceOnly:unresolved.filter(r=>r.source).length,sourceLookupRequired:unresolved.filter(r=>!r.source).length,unresolvedByType:Object.fromEntries([...new Set(unresolved.map(r=>r.type))].map(t=>[t,unresolved.filter(r=>r.type===t).length])),unresolved,unresolvedSample:unresolved.slice(0,20),limitation:'Structural resolution only; target semantics and pinpoint accuracy unreviewed'};
 });
@@ -41,4 +44,4 @@ await page.evaluate(()=>window.__berkQA.open('24-440-087f8840f42e'));
 await page.waitForSelector('.document-body .page-text');
 await page.screenshot({path:'berk-reader.png',fullPage:false});
 fs.writeFileSync('berk-browser-evidence.json',JSON.stringify({base,documents:evidence,deployedData,references,pageErrors:errors,limitations:'DOM smoke checks; not full visual or citation-destination review'},null,2));
-assert.deepEqual(errors,[]);console.log('PASS Berk reader smoke',JSON.stringify({documents:evidence.length,references:{...references,unresolved:undefined}}));await browser.close();
+assert.deepEqual(errors,[]);console.log('BERK_REFERENCE_QUEUE '+JSON.stringify(references.unresolved));console.log('PASS Berk reader smoke',JSON.stringify({documents:evidence.length,references:{...references,unresolved:undefined}}));await browser.close();

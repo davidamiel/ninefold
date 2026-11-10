@@ -1,9 +1,6 @@
 name: Publish Ninefold
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['reviews/berk-case-review.json']
 permissions:
   contents: read
   pages: write
@@ -28,18 +25,6 @@ jobs:
       - name: Audit source documents and review ledger
         run: npm run --silent audit:documents > document-review-dist.json
       - run: npm run build
-      - name: Berk rendered reader smoke
-        run: |
-          npm install --no-save --package-lock=false playwright
-          python -m http.server 8765 --bind 127.0.0.1 --directory out &
-          BERK_CHROME_CHANNEL=chrome node tests/berk-reader-browser.mjs
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: berk-reader-evidence
-          path: |
-            berk-browser-evidence.json
-            berk-reader.png
       - name: Audit packaged documents and review ledger
         run: node scripts/check_document_reviews.mjs out > document-review-out.json
       - uses: actions/upload-artifact@v4

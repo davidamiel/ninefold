@@ -2,7 +2,7 @@ name: Berk deployed reader check
 on:
   push:
     branches: [main]
-    paths: ['reviews/berk-case-review.json', 'tests/berk-reader-browser.mjs']
+    paths: ['tests/berk-reader-browser.mjs']
   workflow_dispatch:
 permissions:
   contents: read

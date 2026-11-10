@@ -1258,10 +1258,29 @@
         "noInternalTarget": 771
       },
       "limitations": "No internal target includes external-only sources; not a semantic citation review."
+    },
+    "latestPublication": {
+      "commit": "ddcb43f0d6e5712e0befcdb6961e8c94eb3c41b2",
+      "run": "https://github.com/davidamiel/ninefold/actions/runs/42751020918",
+      "status": "deployment-in-progress",
+      "tests": {
+        "passed": 298,
+        "failed": 0
+      },
+      "builtReader": {
+        "documents": 27,
+        "occurrences": 3385,
+        "internalDocuments": 130,
+        "locatedPages": 221,
+        "invalidTargets": 0,
+        "externalSourceOnly": 235,
+        "sourceLookupRequired": 514
+      },
+      "liveVerification": "pending final run with explicit named-short-form assertions"
     }
   },
   "referenceResolverCorrection": {
-    "status": "prepared-for-publication",
+    "status": "deployment-in-progress",
     "scope": "Recognize full case names with standalone ampersands and spaced initial periods; resolve named short forms only from a unique full citation in the same document.",
     "sourceEvidence": [
       {
