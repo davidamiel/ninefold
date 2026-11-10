@@ -11,18 +11,18 @@ function declaration(name){
 function run(name,values,expression){
  return Function(...Object.keys(values),declaration(name)+'\nreturn '+expression)(...Object.values(values));
 }
-function menu(voice){
+function menu(voice,recording=false){
  let html;
  run('listenMenu',{
-  audioCase:null,caseMap:new Map(),contextCase:()=>({}),ds:()=>({textPath:'document'}),
+  audioCase:null,caseMap:new Map(),contextCase:()=>recording?{id:'case',audio:{url:'argument.mp3'}}:{},ds:()=>({textPath:'document'}),
   state:{active:'document',naturalVoice:voice},mountMenu:(_trigger,value)=>{html=value},
-  button:(label,action,value)=>`<button data-action="${action}" data-value="${value}">${label}</button>`,icon:()=>''
+  button:(label,action,value)=>`<button data-action="${action}" data-value="${value}">${label}</button>`,icon:()=>'<svg aria-hidden="true"></svg>'
  },'listenMenu({})');
  return html;
 }
-test('Listen presents only Natural and Fast choices without voice dropdowns or instructions',()=>{
+test('Listen identifies both document-reading engines without voice dropdowns',()=>{
  const html=menu('am_michael');
- assert.match(html,/data-value="natural">Natural/);assert.match(html,/data-value="device">Fast/);
+ assert.match(html,/data-value="natural"><svg[^>]*><\/svg>Read this document — Natural voice/);assert.match(html,/data-value="device"><svg[^>]*><\/svg>Read this document — Device voice/);
  assert.doesNotMatch(html,/<select|Available voices|Online voices|Skip moves|Heart|Bella|Michael|George/);
  assert.match(source,/voice:'am_michael'/);
 });
@@ -60,4 +60,10 @@ test('requesting audio on another document does not restart the old document',as
  let args;
  await run('requestNarrationMode',{state:{active:'new-doc'},narration:{id:'old-doc',index:0,paused:true,chunks:[{page:4,sourceStart:12}]},persist(){},startNarration:async(...values)=>args=values},"requestNarrationMode('device')");
  assert.deepEqual(args,[null,{paused:false}]);
+});
+
+test('document reading and the recording have matching icons and distinct labels',()=>{
+ const html=menu('am_michael',true);
+ assert.equal((html.match(/<svg /g)||[]).length,3);
+ assert.match(html,/data-action="listen" data-value="case"><svg[^>]*><\/svg>Play oral argument recording/);
 });
