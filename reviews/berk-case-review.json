@@ -1225,14 +1225,18 @@
     "Opposition cover ordering and counsel-name case differences need rendered PDF inspection.",
     "Cert appendix has suspicious internal word spaces; runtime reading normalization needs detailed comparison.",
     "DRI source includes Hanna v. Plummer and Pledger circuit attribution issues; preserve as filed, do not silently rewrite.",
-    "All citation destinations, footnote placement, paragraph boundaries and original-only visual accuracy remain open."
+    "All citation destinations, footnote placement, paragraph boundaries and original-only visual accuracy remain open.",
+    "Official question sheet reports decision below as 2024 WL 5354482; opinion cites 2024 WL 3534482. Source discrepancy retained, not silently rewritten."
   ],
   "verification": {
     "publicationCommit": "bfd9e6ab0acbe5601b8376d3701e47dfe66f39d8",
     "publicationRun": "https://github.com/davidamiel/ninefold/actions/runs/42749401641",
     "publicationStatus": "success",
     "build": "passed",
-    "automatedTests": "passed",
+    "automatedTests": {
+      "passed": 295,
+      "failed": 0
+    },
     "documentAudit": "passed",
     "packagedDocumentAudit": "passed",
     "termReader": "passed",
@@ -1241,6 +1245,42 @@
       "documents": 27,
       "environment": "built out/ served on local runner"
     },
-    "productionBrowser": "pending separate deployed-reader check"
+    "productionBrowser": {
+      "status": "passed",
+      "run": "https://github.com/davidamiel/ninefold/actions/runs/42750073804",
+      "documents": 27,
+      "correctedDataAssertions": "68 printed labels and relocated headings confirmed",
+      "referenceStructure": {
+        "occurrences": 3385,
+        "internalDocuments": 130,
+        "locatedPages": 221,
+        "invalidTargets": 0,
+        "noInternalTarget": 771
+      },
+      "limitations": "No internal target includes external-only sources; not a semantic citation review."
+    }
+  },
+  "referenceResolverCorrection": {
+    "status": "prepared-for-publication",
+    "scope": "Recognize full case names with standalone ampersands and spaced initial periods; resolve named short forms only from a unique full citation in the same document.",
+    "sourceEvidence": [
+      {
+        "document": "24-440-1bba7e3379d6",
+        "pages": [
+          2,
+          3,
+          7,
+          13
+        ],
+        "citations": [
+          "Shady Grove Orthopedic Associates, P. A. v. Allstate Ins. Co., 559 U.S. 393",
+          "Sibbach v. Wilson & Co., 312 U.S. 1"
+        ]
+      }
+    ],
+    "unresolvedRetained": [
+      "Unnamed short forms",
+      "Ambiguous or generic names"
+    ]
   }
 }

@@ -25,3 +25,7 @@ All full citation-target reviews and full visual/layout reviews remain open. The
 ## Recorded execution
 
 [Publish run 42749401641](https://github.com/davidamiel/ninefold/actions/runs/42749401641) succeeded for commit `bfd9e6ab0acbe5601b8376d3701e47dfe66f39d8`: automated tests, source and packaged audits, build, term reader checks, Chromium smoke across 27 document/section IDs, and Pages deployment. Live-site reader and structural citation checks run separately; their workflow artifacts report actual results. Publication remains manual-only after restoring its trigger. Full source visual and semantic citation reviews remain incomplete.
+
+## Named short-form reference correction
+
+The production structural scan found named short forms that fell back to lookup. Full citations containing the standalone ampersand in “Sibbach v. Wilson & Co.” and spaced initials in “Shady Grove Orthopedic Associates, P . A.” were missing/truncated in the bibliography index. The parser now recognizes those name tokens without changing citation source ranges. Named short forms still require a unique matching full citation in the same document; unnamed or ambiguous forms remain unresolved. The official preliminary print supplies the full citations on PDF pages 2–3 and repeats them on pages 7 and 13. Positive, negative and source-range regressions cover the correction. This does not certify other citation targets or pinpoint accuracy.

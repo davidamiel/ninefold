@@ -165,7 +165,7 @@ export function shortCaseIn(data,volume,reporter,prefix) {
 
 function stripSignal(name){return name.replace(/^(?:(?:See|But|Cf\.|Compare|Accord|E\.g\.,|e\.g\.,|citing)\s+)+/,'')}
 function caseNameBefore(prefix){
- const word="(?:[\\p{Lu}][\\p{L}0-9’'&.−-]*,?|of|the|and|for|in|ex|rel\\.|[0-9]+)";
+ const word="(?:[\\p{Lu}][\\p{L}0-9’'&.−-]*(?:\\s+\\.)?,?|&|of|the|and|for|in|ex|rel\\.|[0-9]+)";
  const pattern=new RegExp('((?:(?:In re|Ex parte)\\s+'+word+'(?:\\s+'+word+'){0,9}|'+word+'(?:\\s+'+word+'){0,9}\\s+v\\.\\s+'+word+'(?:\\s+'+word+'){0,9})),\\s*$','u');
  const match=prefix.match(pattern);if(!match)return null;const name=stripSignal(match[1].replace(/\s+/g,' ').trim());const at=match[0].indexOf(name.split(' ')[0]);return {name,trailing:match[0].slice(Math.max(0,at))};
 }
