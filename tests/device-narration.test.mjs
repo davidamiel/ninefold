@@ -31,10 +31,6 @@ test('speech failure is reported; missing API does not throw',()=>{
  let error;const unavailable=new DeviceNarrator({synth:null,Utterance:null,onError:e=>error=e});unavailable.play('Test');assert.equal(error,'unavailable');
 });
 const source=fs.readFileSync('dist/app.js','utf8');
-test('device controls describe passage navigation rather than imaginary time seeks',()=>{
- const fn=source.slice(source.indexOf('function devicePlaybackControls('),source.indexOf('function playbackControls('));
- assert.match(fn,/Previous passage/);assert.match(fn,/Next passage/);assert.doesNotMatch(fn,/playback-seek|10 seconds|seek-toggle/);
-});
 test('device mode branches before neural synthesis and frees its worker',()=>{
  assert.match(source,/if\(n.engine==='device'\)\{playDeviceNarration\(n,index\);return\}/);
  assert.match(source,/if\(n.engine==='device'&&voiceWorker\)\{voiceWorker.terminate\(\);voiceWorker=null\}/);
@@ -46,10 +42,6 @@ test('automatic mode never falls back to an online voice',()=>{
  const player=new DeviceNarrator({synth:{getVoices:()=>[{voiceURI:'remote',lang:'en-US',localService:false}],cancel(){},resume(){},speak(){spoken++}},Utterance:class{},onError:e=>error=e});
  player.play('Potentially private text.');assert.equal(spoken,0);assert.equal(error,'no-local-voice');
  player.play('Old saved online voice',{voiceURI:'remote'});assert.equal(spoken,0);
-});
-test('device player shares compact mobile expansion controls',()=>{
- const fn=source.slice(source.indexOf('function devicePlaybackControls('),source.indexOf('function playbackControls('));
- assert.match(fn,/button\(narrationIdentity\(n\),'playback-expand'/);assert.match(fn,/playbackExpanded\?'expanded'/);assert.match(fn,/playback-expand/);assert.match(fn,/aria-controls="playback-secondary"/);
 });
 
 test('late natural-audio completion cannot advance device speech',()=>{

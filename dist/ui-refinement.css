@@ -179,3 +179,31 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 #app .playback-strip.expanded .playback-identity svg {transform: none;}
 #app .playback-identity #current-speaker {display: none;}
 #app .playback-strip .playback-secondary select {flex: none;}
+
+/* Compact, stable reader geometry. Selection changes color/weight, never width. */
+#app .tabbar .tab{display:grid;grid-template-columns:minmax(0,1fr) 28px;flex:0 1 240px;width:240px;min-width:0;max-width:240px;height:36px;min-height:36px;padding:0}
+#app .tabbar .tab>[role=tab]{display:block;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:36px;padding:0 9px}
+#app .tabbar .tab>.close{position:static;opacity:1;visibility:visible;display:grid;place-items:center;width:28px;height:36px;padding:5px}
+#app .tabbar .tab.selected>[role=tab]{font-weight:600}
+#app .tabbar .tab:not(.selected)>[role=tab]{font-weight:400}
+#app .tabbar .tab[hidden]{display:none}
+#app .reader-top,#app .reader-top:has(.playback-strip){height:44px;min-height:44px;max-height:44px;padding:0 10px;box-sizing:border-box;flex-shrink:0}
+#app .reader-top .reader-heading,#app .reader-top .reader-controls{margin:0;padding-block:0;min-height:0}
+#app .reader-top #reader-playback,#app .reader-top .playback-strip,#app .reader-top .playback-strip.expanded,
+#app .reader-top .reader-controls>button,#app .reader-top #reader-playback>.listen-button,
+#app .reader-top .playback-primary>button,#app .reader-top .playback-primary>select,
+#app .reader-top .playback-strip .voice-progress{height:40px;min-height:40px;margin-block:0;padding-block:0}
+#app .reader-top .voice-progress{max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:40px}
+.reader-popover .view-check{min-height:32px;margin:0;padding:2px 0;gap:8px}
+.reader-popover .view-check+.view-check{margin-top:0}
+body:not([data-signed-in="true"]) [data-action="edit-case"],
+body:not([data-signed-in="true"]) .editor-resume,
+body:not([data-signed-in="true"]) .reader-editor-panel,
+body:not([data-signed-in="true"]) .case-editor{display:none!important}
+@media(max-width:760px){
+ #app .tabbar .tab{flex-basis:170px;width:170px;max-width:170px}
+ #app .reader-top{padding-inline:6px}
+ .reader-shell .document-body:not(.conversation){padding-inline:18px!important}
+ .reader-shell .document-body .document-margin{width:0;right:0}
+ .reader-shell .margin-reference{display:none}
+}

@@ -64,6 +64,7 @@ test('requesting audio on another document does not restart the old document',as
 
 test('document reading and the recording have matching icons and distinct labels',()=>{
  const html=menu('am_michael',true);
- assert.equal((html.match(/<svg /g)||[]).length,3);
+ assert.equal((html.match(/data-action="(?:narration-mode|listen)"[^>]*><svg /g)||[]).length,3);
+ assert.match(html,/data-action="export-narration"/);
  assert.match(html,/data-action="listen" data-value="case"><svg[^>]*><\/svg>Play oral argument recording/);
 });

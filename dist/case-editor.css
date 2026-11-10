@@ -56,3 +56,25 @@
  body:has(.case-editor[open]:not([hidden])) #app>.main {width:calc(100% - min(51vw,680px) - 14px);}
  .reader-editor-panel,.case-editor[open]{width:min(51vw,680px);}
 }
+
+/* Editing is a dedicated full-screen workspace. */
+body:has(.reader-editor-panel:not([hidden])) .reader-shell,
+body:has(.case-editor[open]:not([hidden])) #app>.main{width:100%}
+.reader-editor-panel,.case-editor[open]{inset:0;z-index:1000;width:100vw;max-width:none;height:100dvh;max-height:100dvh;border:0;border-radius:0;margin:0}
+.reader-editor-panel{display:grid;grid-template-columns:minmax(0,1fr) auto auto;grid-template-rows:auto minmax(0,1fr);padding:0}
+.reader-editor-panel>.reader-edit-toolbar{grid-column:1 / -1;grid-row:1}
+.reader-editor-panel>.editor-paper{grid-column:1;grid-row:2;width:100%!important;min-width:0}
+.reader-editor-panel>.editor-fields{grid-column:2;grid-row:2;width:320px;max-width:40vw;max-height:none;min-height:0;border-left:1px solid var(--line);border-bottom:0;box-sizing:border-box}
+.reader-editor-panel>.reader-edit-pdf{grid-column:3;grid-row:2;width:min(42vw,760px)!important;height:100%;min-height:0;border-left:1px solid var(--line)}
+.reader-editor-panel .editor-fields textarea{display:block;box-sizing:border-box;width:100%;font:inherit;padding:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);resize:vertical}
+.reference-editor-form p{font-size:12px;line-height:1.5}
+.editor-fields nav{max-height:28vh;overflow:auto;margin-block:10px}
+.editor-fields nav [aria-pressed=true]{font-weight:600;background:var(--tint)}
+.case-editor .editor-layout{grid-template-columns:240px minmax(0,1fr)}
+@media(max-width:760px){
+ .reader-editor-panel>.editor-fields{width:42vw;max-width:none;padding:8px}
+ .reader-editor-panel>.reader-edit-pdf{width:45vw!important}
+ .reader-edit-toolbar header{flex-wrap:wrap}
+ .case-editor .editor-layout{display:grid;grid-template-columns:125px minmax(0,1fr)}
+ .case-editor .editor-layout>aside{max-height:none;overflow:auto}
+}
