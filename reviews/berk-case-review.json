@@ -1,0 +1,1203 @@
+{
+  "version": 1,
+  "caseId": "24-440",
+  "reviewedAt": "2026-11-10",
+  "baselineCommit": "f30dd0bdf09b665a9b3949744b7a0be6aa9bf829",
+  "overallStatus": "partial",
+  "summary": {
+    "indexedDocuments": 70,
+    "extractedDocuments": 24,
+    "extractedPages": 1124,
+    "originalOnlyDocuments": 46,
+    "originalOnlyPdfPages": 94,
+    "opinionAliases": 3,
+    "fullNormalizedTextEquality": 23,
+    "comparisonExceptions": 1,
+    "fullVisualReviews": 0,
+    "fullCitationTargetReviews": 0
+  },
+  "method": "Exact official sourceUrl PDFs fetched through web; all numbered extracted source lines collected, deduplicated and sorted. Compare concatenated stored page text after NFKC and whitespace/ASCII-hyphen/soft-hyphen/U+0002 removal; appendices/transcript additionally ignore Unicode hyphen/dash variants. This is text-layer agreement, not visual proof. Original-only records checked for access and identity against docket.",
+  "limitations": [
+    "Normalization excludes spacing and hyphenation errors.",
+    "PDF source text layers can themselves be wrong; screenshot tool unavailable.",
+    "No full citation target resolution or page/footnote visual review.",
+    "Original-only documents have no extracted reader text to compare.",
+    "Global reviews/document-reviews.json not upgraded: exact source PDF byte hashes and audit reviewHashes not available in this connector-only session.",
+    "Rendered smoke test and deployment results must be read from the associated workflow, not inferred from this report."
+  ],
+  "documents": [
+    {
+      "id": "24-440-1bba7e3379d6",
+      "title": "Opinion of the Court",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r10_5hek.pdf",
+      "textPath": "data/docs/24-440-1bba7e3379d6.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 28,
+      "sourceLines": 827,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-5f52d6b13c47",
+      "title": "Oral argument transcript",
+      "sourceUrl": "https://www.supremecourt.gov/oral_arguments/argument_transcripts/2025/24-440_8m58.pdf",
+      "textPath": "data/docs/24-440-5f52d6b13c47.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 77,
+      "sourceLines": 6233,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-ab5068b7e837",
+      "title": "Questions presented",
+      "sourceUrl": "https://www.supremecourt.gov/qp/24-00440qp.pdf",
+      "textPath": "data/docs/24-440-ab5068b7e837.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 1,
+      "sourceLines": 24,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-55fd77b4c91b",
+      "title": "Petition for a Writ of Certiorari",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/328507/20241016171720437_Berk%20--%20Cert%20Petition%20rtf.pdf",
+      "textPath": "data/docs/24-440-55fd77b4c91b.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 35,
+      "sourceLines": 1164,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-660786c6b1c6",
+      "title": "Appendix",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/328507/20241016171732218_Berk%20--%20Cert%20Petition%20APPENDIX%20rtf.pdf",
+      "textPath": "data/docs/24-440-660786c6b1c6.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 60,
+      "sourceLines": 1754,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-29ea6e90f9cd",
+      "title": "Certificate of Word Count — Petition for a writ of certiorari filed. (Response due November 18, 2024)",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/328507/20241016171739019_Berk%20--%20Cert%20Petition%20Certificate%20of%20Compliance%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-189597cc73a2",
+      "title": "Proof of Service — Petition for a writ of certiorari filed. (Response due November 18, 2024)",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/328507/20241016171748728_Berk%20--%20Cert%20Petition%20Affidavit%20of%20Service%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 3,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-952229bcd678",
+      "title": "Motion of Encompass Health Rehabilitation Hospital of Middletown, LLC to extend the time to file a response from November 18, 2024 to December 18, 2024, submitted to The Clerk",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/330485/20241028172139919_Motion%20for%20Extension%20of%20Time%20F.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-418b55dfc3c2",
+      "title": "Proof of Service — Motion of Encompass Health Rehabilitation Hospital of Middletown, LLC to extend the time to file a response from November 18, 2024 to December 18, 2024, submitted to The Clerk.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/330485/20241028172157584_Certificate%20of%20Service%20F.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 2,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-f227f4d5f387",
+      "title": "Brief amici curiae of Civil Procedure Professors",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/332047/20241118114158324_Berk%20Amicus.pdf",
+      "textPath": "data/docs/24-440-f227f4d5f387.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 35,
+      "sourceLines": 1002,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-4c6df56bc46c",
+      "title": "Proof of Service — Brief amici curiae of Civil Procedure Professors filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/332047/20241118114541871_Berk%20Certificate%20of%20Service.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-5f93f398d2ed",
+      "title": "Certificate of Word Count — Brief amici curiae of Civil Procedure Professors filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/332047/20241118114624230_Berk%20Certificate%20of%20Compliance.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-c3be648f9d10",
+      "title": "Letter from counsel for petitioner submitted pursuant to Rule 12.6",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/335178/20241213214658584_Berk--12.6%20Letter%20-%20Encompass%2012-13-24%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 2,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-95861ed1b7ff",
+      "title": "Waiver of right of respondent Beebe Medical Center to respond",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/335337/20241217103038190_Berk%20-%20Waiver.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "garbled",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-6096efcb8d20",
+      "title": "Waiver of right of respondent Wilson C. Choy, MD to respond",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/335490/20241218141754050_01973382.PDF",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-ffcc04da2f19",
+      "title": "Brief of respondents Beebe Medical Center, et al. in opposition",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123009257_24-440_Brief%20in%20Opposition.pdf",
+      "textPath": "data/docs/24-440-ffcc04da2f19.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 41,
+      "sourceLines": 1140,
+      "textLayerComparison": "exception: pages 2–41 match with additional dot/case normalization; cover ordering/case differ"
+    },
+    {
+      "id": "24-440-c24d7e44c126",
+      "title": "Proof of Service — Brief of respondents Beebe Medical Center, et al. in opposition filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123028462_24-440_Affidavit%20of%20Service.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 2,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-c63edd77e76a",
+      "title": "Certificate of Word Count — Brief of respondents Beebe Medical Center, et al. in opposition filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/340198/20250127123019993_24-440_Certificate%20of%20Compliance.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-78eb24d85356",
+      "title": "Reply of petitioner Harold R. Berk",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/342328/20250210131048212_24-440--Berk%20-%20Cert%20Reply%20Brief%2002-09%20rtf.pdf",
+      "textPath": "data/docs/24-440-78eb24d85356.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 16,
+      "sourceLines": 503,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-4555cdfe0dcc",
+      "title": "Proof of Service — Reply of petitioner Harold R. Berk filed. (Distributed)",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/342328/20250210131105294_24-440--Berk%20-%20Cert%20Reply%20Brief%20-%20COS%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 2,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-441b2815b7d8",
+      "title": "Certificate of Word Count — Reply of petitioner Harold R. Berk filed. (Distributed)",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/342328/20250210131056186_24-440--Berk%20-%20Cert%20Reply%20Brief%20-%20COC%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-bb809b019e4c",
+      "title": "Motion for an extension of time to file the briefs on the merits",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/352997/20250325204044415_24-440--Berk%20-%20Joint%20Briefing%20Extension%20Letter%2003-25%20rtf.pdf",
+      "textPath": "data/docs/24-440-bb809b019e4c.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 1,
+      "sourceLines": 28,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-3582972c02be",
+      "title": "Brief of petitioner Harold R. Berk",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359698/20250527151630166_24-440--Berk-%20Merits%20Brief%20with%20Appendix%2005-27%20rtf.pdf",
+      "textPath": "data/docs/24-440-3582972c02be.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 107,
+      "sourceLines": 3249,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-3e93b13a4e24",
+      "title": "Certificate of Word Count — Brief of petitioner Harold R. Berk filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359698/20250527151643266_24-440--Berk-%20Merits%20Brief%20-%20COC%2005-27%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-75bbba6f1701",
+      "title": "Proof of Service — Brief of petitioner Harold R. Berk filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359698/20250527151655365_24-440--Berk-%20Merits%20Brief%20-%20COS%2005-27%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-77b1376e3f1a",
+      "title": "Joint appendix",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359700/20250527152003264_24-440--Berk-%20Joint%20Appendix%2005-27%20rtf.pdf",
+      "textPath": "data/docs/24-440-77b1376e3f1a.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 235,
+      "sourceLines": 7104,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-d847c2f338e0",
+      "title": "Proof of Service — Joint appendix filed. (Statement of costs filed)",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359700/20250527152016525_24-440--Berk-%20Merits%20Brief%20-%20COS%2005-27%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-8b17249a7236",
+      "title": "Brief amicus curiae of American Association for Justice",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362224/20250603154713747_AAJ%20Corrected%20Amicus%20Br%20Berk%20v%20Choy.pdf",
+      "textPath": "data/docs/24-440-8b17249a7236.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 45,
+      "sourceLines": 985,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-158cc61b83c6",
+      "title": "Certificate of Word Count — Brief amicus curiae of American Association for Justice filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362224/20250604120007379_AAJ%20Certificate%20of%20Compliance_Berk%20v.%20Choy%2024-440.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-f973e2652293",
+      "title": "Proof of Service — Brief amicus curiae of American Association for Justice filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362224/20250604120018797_AAJ%20Certificate%20of%20Service_Berk%20v.%20Choy%2024-440.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-ef2c47c9b7ca",
+      "title": "Brief amicus curiae of Public Justice",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362155/20250603091507153_24-440%20AMI%20ALL%20PDFA.pdf",
+      "textPath": "data/docs/24-440-ef2c47c9b7ca.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 38,
+      "sourceLines": 1183,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-c39e1e590fa8",
+      "title": "Certificate of Word Count — Brief amicus curiae of Public Justice filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362155/20250603091519736_24-440%20AMI%20COMP%20PDFA.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-d0cf7c6e902e",
+      "title": "Proof of Service — Brief amicus curiae of Public Justice filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362155/20250603091532140_24-440%20AMI%20AFF%20PDFA.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 2,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-4b39c2105c53",
+      "title": "Brief amici curiae of Civil Procedure Professors",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362157/20250603094048757_Berk%20Amicus%20Brief%20of%20Civil%20Procedure%20Professors.pdf",
+      "textPath": "data/docs/24-440-4b39c2105c53.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 35,
+      "sourceLines": 1009,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-1328b78d311b",
+      "title": "Certificate of Word Count — Brief amici curiae of Civil Procedure Professors filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362157/20250603094107332_Berk%20Certificate%20of%20Word%20Count.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-17ecf0c2ce6c",
+      "title": "Proof of Service — Brief amici curiae of Civil Procedure Professors filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362157/20250603094127626_Berk%20Proof%20of%20Service.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-a29ca81a5d45",
+      "title": "Brief amicus curiae of Honorable Mark W. Bennett, et al",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362228/20250603160134383_Hons.%20Bennett-Furgeson%20amicus%20brief%20-%20Berk%20v.%20Choy%20-%20No.%2024-440.pdf",
+      "textPath": "data/docs/24-440-a29ca81a5d45.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 21,
+      "sourceLines": 620,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-2c8520fca17b",
+      "title": "Certificate of Word Count — Brief amicus curiae of Honorable Mark W. Bennett, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362228/20250603160207955_cert%20of%20word%20count%20-%20Hons.%20Bennett-Furgeson%20amicus%20brief%20-%20Berk%20v.%20Choy%20-%20No.%2024-440.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-0f7bec909dbb",
+      "title": "Proof of Service — Brief amicus curiae of Honorable Mark W. Bennett, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/362228/20250603160216269_cert%20of%20service%20-%20Hons.%20Bennett-Furgeson%20amicus%20brief%20-%20Berk%20v.%20Choy%20-%20No.%2024-440.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 2,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-80c0c10136bf",
+      "title": "Motion for divided argument by respondents",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359153/20250519182148717_Respondents%20Unopposed%20Joint%20Motion%20for%20Divided%20Argument.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 4,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-cf4d708e7be7",
+      "title": "Proof of Service — Motion for divided argument filed by respondents.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/359153/20250611121223383_Certificate%20of%20Service.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 2,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-087f8840f42e",
+      "title": "Brief of respondent Wilson C. Choy, MD",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368409/20250730103514425_24-440%20Brief%20for%20Respondent%20Wilson%20C.%20Choy%20MD.pdf",
+      "textPath": "data/docs/24-440-087f8840f42e.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 66,
+      "sourceLines": 1955,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-7102296521d1",
+      "title": "Proof of Service — Brief of respondent Wilson C. Choy, MD filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368409/20250730103528191_24-440%20Affidavit%20of%20Service.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 3,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-469ab3c1f8ee",
+      "title": "Certificate of Word Count — Brief of respondent Wilson C. Choy, MD filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368409/20250730103522771_24-440%20Certificate%20of%20Compliance.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-154c871556f6",
+      "title": "Brief of respondent Beebe Medical Center",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368434/20250730134911483_24-440%20Brief%20for%20Respondent%20Beebe%20Medical%20Center.pdf",
+      "textPath": "data/docs/24-440-154c871556f6.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 59,
+      "sourceLines": 1832,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-ff36bccc1681",
+      "title": "Certificate of Word Count — Brief of respondent Beebe Medical Center filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368434/20250730134934066_24-440%20COC.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-26cfbd408fbd",
+      "title": "Proof of Service — Brief of respondent Beebe Medical Center filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368434/20250730134951264_24-440%20COS.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-4b06e4226dd2",
+      "title": "Brief amicus curiae of DRI Center for Law and Public Policy (August 11, 2025)",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369089/20250807102418973_24-440_Amicus%20Brief.pdf",
+      "textPath": "data/docs/24-440-4b06e4226dd2.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 31,
+      "sourceLines": 942,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-74c2248b3d16",
+      "title": "Certificate of Word Count — Brief amicus curiae of DRI Center for Law and Public Policy filed (August 11, 2025).",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369089/20250807102432039_24-440_Certificate%20of%20Compliance.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-bfceaa5fb6b0",
+      "title": "Proof of Service — Brief amicus curiae of DRI Center for Law and Public Policy filed (August 11, 2025).",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369089/20250807102442640_24-440_Proof%20of%20Service.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 3,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-f0bb42099b11",
+      "title": "Brief amici curiae of American Medical Association, et al",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368779/20250804145148054_24-440%20Amici%20Brief.pdf",
+      "textPath": "data/docs/24-440-f0bb42099b11.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 16,
+      "sourceLines": 432,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-a1a816ae2752",
+      "title": "Proof of Service — Brief amici curiae of American Medical Association, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368779/20250804145219661_24-440%20Proof%20of%20Service.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 2,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-1d9406658577",
+      "title": "Certificate of Word Count — Brief amici curiae of American Medical Association, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368779/20250804145302012_24-440%20Word%20Count.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-9b8dd024eb77",
+      "title": "Brief amicus curiae of Professor Michael T. Morley",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368841/20250805100935409_24-440%20Amicus%20Brief.pdf",
+      "textPath": "data/docs/24-440-9b8dd024eb77.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 33,
+      "sourceLines": 998,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-6bf757b6e23e",
+      "title": "Certificate of Word Count — Brief amicus curiae of Professor Michael T. Morley filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368841/20250805100943717_24-440%20Certificate%20of%20Compliance.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-d6563f14c9bc",
+      "title": "Proof of Service — Brief amicus curiae of Professor Michael T. Morley filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368841/20250805100952754_24-440%20Affidavit.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 3,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-d32c7782888d",
+      "title": "Brief amici curiae of American Hospital Association, et al",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369024/20250806144953603_HF%20%20Berk%20v%20Choy%20Amicus%20Br%20%20Final.pdf",
+      "textPath": "data/docs/24-440-d32c7782888d.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 33,
+      "sourceLines": 762,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-f4478ac1f528",
+      "title": "Certificate of Word Count — Brief amici curiae of American Hospital Association, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369024/20250806145030632_HF%20No%2024-440%20Milbank%20COC.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-16709ef8d2fe",
+      "title": "Proof of Service — Brief amici curiae of American Hospital Association, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369024/20250806145056570_HF%20%20No%2024-440%20Milbank%20COS.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 2,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-513e9c10c0e4",
+      "title": "Brief amici curiae of Insurance Companies, et al",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369041/20250806152544188_DoctorsChoy%20Amici%20MAIN%20E%20FILE%20Aug%2006%2025.pdf",
+      "textPath": "data/docs/24-440-513e9c10c0e4.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 45,
+      "sourceLines": 1317,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-942051f4bfad",
+      "title": "Certificate of Word Count — Brief amici curiae of Insurance Companies, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369041/20250806152552146_DoctorsChoy%20Amici%20Cert%20WC%20%20E%20FILE%20Aug%2006%2025.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-018e4dc19893",
+      "title": "Proof of Service — Brief amici curiae of Insurance Companies, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/369041/20250806152601612_DoctorsChoy%20Amici%20Cert%20Svc%20E%20FILE%20Aug%2006%2025.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-3341afc79588",
+      "title": "Brief amici curiae of Tennessee, et al",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368993/20250806122629789_24-440%20Berk%20v.%20Choy_Amicus_Final.pdf",
+      "textPath": "data/docs/24-440-3341afc79588.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 37,
+      "sourceLines": 891,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-47e6fb2c92cf",
+      "title": "Certificate of Word Count — Brief amici curiae of Tennessee, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368993/20250806122651302_24-440%20Certificate%20of%20Compliance.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-b7d1212f6861",
+      "title": "Proof of Service — Brief amici curiae of Tennessee, et al. filed.",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/368993/20250806122706623_24-440%20Affidavit.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 3,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-4cdc5e03cc3b",
+      "title": "Reply of petitioner Harold R. Berk",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/373200/20250829115413422_24-440%20Berk%20-%20Merits%20Reply%20Brief%20rtf.pdf",
+      "textPath": "data/docs/24-440-4cdc5e03cc3b.json",
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pages": 29,
+      "sourceLines": 943,
+      "textLayerComparison": "full-normalized-equality"
+    },
+    {
+      "id": "24-440-0a6ca1cacc5f",
+      "title": "Certificate of Word Count — Reply of petitioner Harold R. Berk filed. (Distributed)",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/373200/20250829115421076_24-440%20Berk%20-%20Merits%20Reply%20Brief%20-%20COC%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-f563f1bc1066",
+      "title": "Proof of Service — Reply of petitioner Harold R. Berk filed. (Distributed)",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/373200/20250829115429445_24-440%20Berk%20-%20Merits%20Reply%20Brief%20-%20COS%20rtf.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "zero-text",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-a3aca37b80b8",
+      "title": "opinion — Judgment REVERSED and case REMANDED. Barrett, J., delivered the of the Court, in which Roberts, C. J., and Thomas, Alito, Sotomayor, Kagan, Gorsuch, and Kavanaugh, JJ., joined. Jac",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-440_1b82.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 27,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    },
+    {
+      "id": "24-440-5f2cf473fb43",
+      "title": "Judgment Issued",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/24/24-440/396978/20260223101618431_EFILING%2024-440%20Rev%20Rem%20COSTS%203d%20Cir.%202.23.pdf",
+      "textPath": null,
+      "status": "partial",
+      "citationTargets": "unreviewed",
+      "visual": "unreviewed",
+      "pdfPages": 1,
+      "textLayer": "readable",
+      "sourceAccess": "confirmed",
+      "readerComparison": "not-applicable-no-extracted-text"
+    }
+  ],
+  "aliases": [
+    {
+      "id": "24-440-1bba7e3379d6--1-0",
+      "parent": "24-440-1bba7e3379d6",
+      "sourceRange": {
+        "startPage": 1,
+        "startOffset": 0,
+        "endPage": 3,
+        "endOffset": 462
+      },
+      "status": "partial-parent-text-layer-compared",
+      "visual": "unreviewed",
+      "citationTargets": "unreviewed"
+    },
+    {
+      "id": "24-440-1bba7e3379d6--3-462",
+      "parent": "24-440-1bba7e3379d6",
+      "sourceRange": {
+        "startPage": 3,
+        "startOffset": 462,
+        "endPage": 14,
+        "endOffset": 206
+      },
+      "status": "partial-parent-text-layer-compared",
+      "visual": "unreviewed",
+      "citationTargets": "unreviewed"
+    },
+    {
+      "id": "24-440-1bba7e3379d6--14-206",
+      "parent": "24-440-1bba7e3379d6",
+      "sourceRange": {
+        "startPage": 14,
+        "startOffset": 206,
+        "endPage": 28,
+        "endOffset": 0
+      },
+      "status": "partial-parent-text-layer-compared",
+      "visual": "unreviewed",
+      "citationTargets": "unreviewed"
+    }
+  ],
+  "headingChanges": [
+    {
+      "document": "24-440-087f8840f42e",
+      "kind": "heading-location",
+      "before": {
+        "page": 13,
+        "start": 1148,
+        "end": 1157,
+        "text": "ARGUMENT",
+        "level": 1
+      },
+      "after": {
+        "page": 30,
+        "start": 5,
+        "end": 13,
+        "text": "ARGUMENT",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-087f8840f42e",
+      "kind": "heading-location",
+      "before": {
+        "page": 29,
+        "start": 845,
+        "end": 975,
+        "text": "III. In the alternative, adopting Petitioner’s expansive interpretation of the Federal Rules would violate the Rules Enabling Act",
+        "level": 2
+      },
+      "after": {
+        "page": 59,
+        "start": 741,
+        "end": 871,
+        "text": "III. In the alternative, adopting Petitioner’s expansive interpretation of the Federal Rules would violate the Rules Enabling Act",
+        "level": 2
+      }
+    },
+    {
+      "document": "24-440-55fd77b4c91b",
+      "kind": "heading-location",
+      "before": {
+        "page": 19,
+        "start": 435,
+        "end": 446,
+        "text": "Conclusion",
+        "level": 1
+      },
+      "after": {
+        "page": 34,
+        "start": 4,
+        "end": 14,
+        "text": "Conclusion",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-78eb24d85356",
+      "kind": "heading-location",
+      "before": {
+        "page": 5,
+        "start": 1066,
+        "end": 1074,
+        "text": "Argument",
+        "level": 1
+      },
+      "after": {
+        "page": 6,
+        "start": 266,
+        "end": 274,
+        "text": "Argument",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-3582972c02be",
+      "kind": "heading-location",
+      "before": {
+        "page": 29,
+        "start": 792,
+        "end": 809,
+        "text": "Fed. R. Civ. P. 8",
+        "level": 1
+      },
+      "after": {
+        "page": 65,
+        "start": 5,
+        "end": 23,
+        "text": "Fed. R. Civ. P. 8",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-3582972c02be",
+      "kind": "heading-location",
+      "before": {
+        "page": 59,
+        "start": 110,
+        "end": 127,
+        "text": "Fed. R. Civ. P. 3",
+        "level": 1
+      },
+      "after": {
+        "page": 64,
+        "start": 5,
+        "end": 23,
+        "text": "Fed. R. Civ. P. 3",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-3582972c02be",
+      "kind": "heading-location",
+      "before": {
+        "page": 59,
+        "start": 286,
+        "end": 303,
+        "text": "Fed. R. Civ. P. 9",
+        "level": 1
+      },
+      "after": {
+        "page": 68,
+        "start": 5,
+        "end": 23,
+        "text": "Fed. R. Civ. P. 9",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-3582972c02be",
+      "kind": "heading-location",
+      "before": {
+        "page": 59,
+        "start": 374,
+        "end": 392,
+        "text": "Fed. R. Civ. P. 11",
+        "level": 1
+      },
+      "after": {
+        "page": 70,
+        "start": 6,
+        "end": 25,
+        "text": "Fed. R. Civ. P. 11",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-3582972c02be",
+      "kind": "heading-location",
+      "before": {
+        "page": 59,
+        "start": 460,
+        "end": 478,
+        "text": "Fed. R. Civ. P. 12",
+        "level": 1
+      },
+      "after": {
+        "page": 73,
+        "start": 6,
+        "end": 25,
+        "text": "Fed. R. Civ. P. 12",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-3582972c02be",
+      "kind": "heading-location",
+      "before": {
+        "page": 59,
+        "start": 546,
+        "end": 564,
+        "text": "Fed. R. Civ. P. 26",
+        "level": 1
+      },
+      "after": {
+        "page": 78,
+        "start": 6,
+        "end": 25,
+        "text": "Fed. R. Civ. P. 26",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-3582972c02be",
+      "kind": "heading-location",
+      "before": {
+        "page": 59,
+        "start": 632,
+        "end": 650,
+        "text": "Fed. R. Civ. P. 37",
+        "level": 1
+      },
+      "after": {
+        "page": 98,
+        "start": 6,
+        "end": 25,
+        "text": "Fed. R. Civ. P. 37",
+        "level": 1
+      }
+    },
+    {
+      "document": "24-440-087f8840f42e",
+      "kind": "heading-text",
+      "page": 15,
+      "start": 370,
+      "before": "A. Delaware enacted various reforms to regulate medical negligence claims, including an affidavit-ofmerit requirement to limit meritless pro se litigation",
+      "after": "A. Delaware enacted various reforms to regulate medical negligence claims, including an affidavit-of-merit requirement to limit meritless pro se litigation"
+    },
+    {
+      "document": "24-440-087f8840f42e",
+      "kind": "heading-text",
+      "page": 55,
+      "start": 691,
+      "before": "C. Erie requires Delaware’s affidavitof-merit requirement to be enforced in federal court",
+      "after": "C. Erie requires Delaware’s affidavit-of-merit requirement to be enforced in federal court"
+    },
+    {
+      "document": "24-440-154c871556f6",
+      "kind": "heading-text",
+      "page": 55,
+      "start": 110,
+      "before": "III.The Evidentiary Showing Demanded by Delaware Law Is Substantive Under Erie",
+      "after": "III. The Evidentiary Showing Demanded by Delaware Law Is Substantive Under Erie"
+    },
+    {
+      "document": "24-440-4cdc5e03cc3b",
+      "kind": "heading-text",
+      "page": 16,
+      "start": 2,
+      "before": "II. Rule 11(a) Does Not Authorize Affidavit-of- Merit Laws",
+      "after": "II. Rule 11(a) Does Not Authorize Affidavit-of-Merit Laws"
+    },
+    {
+      "document": "24-440-ffcc04da2f19",
+      "kind": "heading-text",
+      "page": 25,
+      "start": 1049,
+      "before": "I . THE THIRD CIRCUIT’S UNPUBLISHED OPINION REFLECTS THE FACTBOUND APPLICATION OF SETTLED LAW",
+      "after": "I. THE THIRD CIRCUIT’S UNPUBLISHED OPINION REFLECTS THE FACTBOUND APPLICATION OF SETTLED LAW"
+    }
+  ],
+  "remainingIssues": [
+    "Opposition cover ordering and counsel-name case differences need rendered PDF inspection.",
+    "Cert appendix has suspicious internal word spaces; runtime reading normalization needs detailed comparison.",
+    "DRI source includes Hanna v. Plummer and Pledger circuit attribution issues; preserve as filed, do not silently rewrite.",
+    "All citation destinations, footnote placement, paragraph boundaries and original-only visual accuracy remain open."
+  ]
+}
