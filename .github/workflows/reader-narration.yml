@@ -1,11 +1,11 @@
-name: Reader narration
+name: Check Ninefold
 on:
   pull_request:
-  push:
-    branches: [main]
-  workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: checks-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 jobs:
   lifecycle:
     runs-on: ubuntu-latest
@@ -14,7 +14,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+          cache: npm
       - run: npm ci --ignore-scripts
-      - run: npm test
-      - run: node tests/reader-editor-ui.mjs
-      - run: python3 -m unittest discover -s tools/mac-audio -p 'test_*.py'
+      - name: Check app and audio kit
+        run: |
+          npm test
+          node tests/reader-editor-ui.mjs
+          python3 -m unittest discover -s tools/mac-audio -p 'test_*.py'

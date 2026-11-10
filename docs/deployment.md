@@ -6,25 +6,18 @@ The public website is independent of ChatGPT. All public materials are editable 
 
 1. Create an empty public `davidamiel/ninefold` repository (do not initialize a README). The current integration cannot create repositories.
 2. Push this checkout to it. In Settings → Pages, select **GitHub Actions** as the source.
-3. The Pages workflow installs locked dependencies, runs checks, builds `out/`, and publishes it when you select Actions → Publish Ninefold → Run workflow. Ordinary pushes do not publish the website; other CI checks may still run. Its deployment output is the authoritative website URL. Project-subdirectory hosting works with the existing relative asset paths and hash routes.
+3. The Pages workflow installs production dependencies, builds `out/`, and publishes it when you select Actions → Publish Ninefold → Run workflow. Ordinary pushes do not publish the website; the Check Ninefold workflow runs on pull requests. Its deployment output is the authoritative website URL. Project-subdirectory hosting works with the existing relative asset paths and hash routes.
 
 
 ## What publishing runs
 
-The manual **Publish Ninefold** workflow installs dependencies, runs the test suite,
-builds the website, validates the packaged files, deploys to Pages, and verifies
-that the live commit and file fingerprints match the release.
+There are two workflows:
+- **Check Ninefold** runs app tests, the reader editor interaction check, and audio-kit input tests once per pull-request update. Superseded runs are cancelled.
+- **Publish Ninefold** is manual. It installs production dependencies only, builds and validates the packaged website, deploys it, and checks that the live commit and fingerprints match.
 
-Case-specific Berk browser checks, screenshots, and source/review-ledger audit
-reports are not part of publishing. Their scripts remain in the repository for
-development use; this cleanup adds no separate workflow. The existing Document
-quality workflow is unchanged.
+Publish a reviewed, passing commit from main. Publishing does not repeat PR tests or install Firebase emulator/test dependencies. Direct changes to main bypass PR checks; run checks locally before publishing those changes.
 
-The workflow uses one job: checkout and Node/Python setup happen once, then
-checks, build, validation, upload, deployment, and live-version verification run
-in order. A failed test, build, or validation stops publication. The same Node
-environment performs the live-version check, with no second checkout or runner.
-No browser installation or browser automation runs during publication.
+The three old Berk-specific workflows and their browser/deployed-case probes have been retired. Document review remains available through `npm run audit:documents`; it has no separate automatic runner. Historical review reports remain source evidence.
 
 ## Firebase (Spark plan)
 
