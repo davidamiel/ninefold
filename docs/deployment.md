@@ -20,10 +20,11 @@ reports are not part of publishing. Their scripts remain in the repository for
 development use; this cleanup adds no separate workflow. The existing Document
 quality workflow is unchanged.
 
-The workflow still uses separate build and deployment jobs so deployment only
-starts after validation succeeds. Node and Python setup are required by the
-existing build, and the deployed-version check uses Node again in the deployment
-job. No browser installation or browser automation runs during publication.
+The workflow uses one job: checkout and Node/Python setup happen once, then
+checks, build, validation, upload, deployment, and live-version verification run
+in order. A failed test, build, or validation stops publication. The same Node
+environment performs the live-version check, with no second checkout or runner.
+No browser installation or browser automation runs during publication.
 
 ## Firebase (Spark plan)
 
