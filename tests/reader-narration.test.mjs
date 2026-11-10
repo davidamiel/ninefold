@@ -23,8 +23,8 @@ function harness(extra={}){
   const {state,app,CSS,URL,Blob,refreshPlayback,highlightNarration,textRange,visiblePage,stopArgument,closeReaderMenu,clearSelection,toast,console,ensureDoc,narrationChunks,narrationAudio,getVoiceWorker}=env;
   let narration=null,narrationToken=0,voiceRequest=0;const voicePending=new Map();
   function stopNarration(){narrationToken++;narrationAudio.pause();narration=null;for(const p of voicePending.values())p.reject(new Error('Cancelled'));voicePending.clear()}
-  ${['waitForVoice','generateChunk','playNarrationChunk','startNarration','skipPlayback'].map(declaration).join('\n')}
-  return {generateChunk,playNarrationChunk,startNarration,skipPlayback,stopNarration,
+  ${['waitForVoice','generateChunk','prepareNarrationDocument','narrationPreparationPercent','playNarrationChunk','startNarration','skipPlayback'].map(declaration).join('\n')}
+  return {generateChunk,prepareNarrationDocument,narrationPreparationPercent,playNarrationChunk,startNarration,skipPlayback,stopNarration,
    get current(){return narration},set current(n){narration=n},voicePending,media:narrationAudio};
  `);
  return {...factory(env),api:factory,env,messages,urls,toasts};
@@ -174,4 +174,35 @@ test('a masked gap before the selected chunk never falls back to the previous se
  const h=setup({narrationChunks:()=>[{page:0,sourceStart:0,sourceEnd:15,text:'First sentence.'},{page:0,sourceStart:39,sourceEnd:57,text:'supports the rule.'}]});
  const start=h.api.startNarration({docId:'a',page:0,offset:16});await tick();
  assert.equal(h.api.current.index,1);answer(h,0);await start;
+});
+
+test('document preparation continues through every passage while paused',async()=>{
+ const h=setup(),n=session();n.paused=true;h.api.current=n;
+ const prepare=h.api.prepareNarrationDocument(n);
+ assert.equal(n.preparing,true);
+ for(let i=0;i<n.chunks.length;i++){assert.equal(h.messages[i].index,i);answer(h,i);await tick();}
+ await prepare;assert.equal(n.cache.size,n.chunks.length);assert.equal(n.preparing,false);
+ assert.equal(h.api.narrationPreparationPercent(n),100);
+});
+test('document preparation covers passages before a middle-document start',async()=>{
+ const h=setup(),n=session();n.index=1;h.api.current=n;
+ const prepare=h.api.prepareNarrationDocument(n);
+ for(const [message,index] of [[0,1],[1,2],[2,0]]){assert.equal(h.messages[message].index,index);answer(h,message);await tick();}
+ await prepare;assert.equal(n.cache.size,3);
+});
+test('whole-document percentage reflects prepared text, not the model download',()=>{
+ const h=setup(),n=session();n.chunks=[{text:'a'},{text:'bbb'}];
+ assert.equal(h.api.narrationPreparationPercent(n),0);
+ n.cache.set(0,{});assert.equal(h.api.narrationPreparationPercent(n),25);
+ n.cache.set(1,{});assert.equal(h.api.narrationPreparationPercent(n),100);
+});
+test('stopping whole-document preparation does not queue more work or show an error',async()=>{
+ const h=setup(),n=session();h.api.current=n;
+ const prepare=h.api.prepareNarrationDocument(n);h.api.stopNarration();await prepare;
+ assert.equal(h.messages.length,1);assert.equal(n.preparing,false);assert.deepEqual(h.toasts,[]);
+});
+test('a genuine background generation failure settles preparation',async()=>{
+ const h=setup(),n=session();h.api.current=n;
+ const prepare=h.api.prepareNarrationDocument(n);answer(h,0,{error:true});await prepare;
+ assert.equal(n.preparing,false);assert.equal(h.api.current,n);assert.equal(h.toasts.length,1);
 });
