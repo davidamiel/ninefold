@@ -61,9 +61,9 @@ function audioContext(overrides={}){
 test('an unavailable viewed case never offers the currently playing case recording',()=>{
  const context=audioContext();
  context.listenMenu(null);
- assert(!context.menu.includes('Oral Argument Recording'));
+ assert(!context.menu.includes('Play oral argument recording'));
  context.state.active='c';context.listenMenu(null);
- assert(context.menu.includes('data-value="c">Oral Argument Recording'));
+ assert(context.menu.includes('data-value="c">Play oral argument recording'));
 });
 test('unavailable recordings do not resume another case; available recordings switch identity',async()=>{
  const context=audioContext();

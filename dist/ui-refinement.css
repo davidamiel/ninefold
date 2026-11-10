@@ -155,12 +155,8 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 #global-playback{position:relative}
 #app #global-playback .playback-secondary{right:0}
 #app #global-playback .playback-secondary button{color:var(--ink)}
-#app .playback-strip .voice-progress{position:absolute;top:calc(100% + 4px);right:10px;left:auto;z-index:31;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:5px;padding:4px 8px;max-width:190px}
+#app .playback-strip .voice-progress{position:static;display:flex;align-items:center;box-sizing:border-box;flex:none;height:44px;min-height:44px;margin:0;padding:0 6px;font:12px/1.25 "Source Sans 3",system-ui;white-space:nowrap;background:transparent;color:var(--muted);border:0;border-radius:0;max-width:none}
 
-#app .playback-strip.expanded .voice-progress {
-  top: calc(100% + 66px);
-  pointer-events: none;
-}
 @media (max-width: 420px) {
   .reader-controls > [data-value=view] {width: 32px; padding: 6px; font-size: 0; gap: 0;}
   .reader-controls > .reader-minimize {width: 32px; padding: 6px;}

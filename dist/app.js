@@ -1058,7 +1058,7 @@ function filedPDF(d) {
 function originalPDFLink(d){const url=filedPDF(d)||filedPDF(ds(d?.parentDocumentId));return url?`<a class="external original-pdf-link" data-open-original href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer">Open original PDF in new tab</a>`:''}
 function viewMenu(trigger){const d=ds(state.active),pdf=isPDF(d?.id),native=!!nativePDF(d?.id);mountMenu(trigger,`<h3>View</h3>${embeddedPDF(d)?`<div class="segmented" role="group" aria-label="Document format">${button('Reading','format','reading',pdf?'':'active',!d?.textPath&&!d?.timedSession?'disabled aria-label="Reading view unavailable for this filing"':'')}${button('PDF','format','pdf',pdf?'active':'')}</div>`: filedPDF(d)?external(filedPDF(d),'Open Filed PDF'):''}${pdf?(native?'<p class="small muted">Use the browser PDF viewer controls to zoom and change pages.</p>':`<label class="menu-field">Zoom<select id="pdf-zoom" aria-label="PDF zoom">${[['width','Fit Width'],['page','Fit Page'],['0.75','75%'],['1','100%'],['1.25','125%'],['1.5','150%'],['2','200%']].map(([v,t])=>`<option value="${v}" ${(state.pdfZoom?.[d.id]||'width')===v?'selected':''}>${t}</option>`).join('')}</select></label><div class="document-navigation"><label>Page <input type="number" data-page-input="${esc(d.id)}" min="${(d.sourceRange?.startPage||0)+1}" max="${d.sourceRange?d.sourceRange.endPage+(d.sourceRange.endOffset?1:0):d.pageCount||docCache.get(d.id)?.pages.length||999}" value="${Number(state.positions[d.id+':pdf']?.page??d.sourceRange?.startPage??0)+1}" aria-label="Go to page"></label></div>`):`<label class="menu-field">Text Size<input id="text-size" type="range" min="14" max="24" value="${state.textSize}" aria-label="Text size"></label><label class="view-check"><input id="page-markers" type="checkbox" ${state.pageMarkers?'checked':''}>Page Numbers</label><label class="view-check"><input id="margin-notes" type="checkbox" ${state.marginNotes?'checked':''}>Margin Icons</label>`}${d?.scanOnly?'<p class="small muted">This scanned filing is available as its original PDF. Extracted text is not available.</p>':''}${originalPDFLink(d)}${state.split?button('Close Split View','single','','listbutton'):''}`)}
 function isPDF(id){const d=ds(id);return state.pdfDocs?.includes(id)||(!d?.textPath&&!d?.timedSession)}
-function listenMenu(trigger){const c=state.route==='reader'?contextCase(state.active):state.route==='case'?getCase():audioCase?caseMap.get(audioCase):contextCase(state.active),d=ds(state.active);mountMenu(trigger,`<h3>Listen</h3>${audioCase?`<label class="menu-field">Volume<input class="playback-volume" type="range" min="0" max="1" step="0.05" value="${audio.volume}" aria-label="Audio volume"></label>${currentTimedDoc()?button(followTranscript?'Following Transcript':'Follow Transcript','follow-transcript','',followTranscript?'active listbutton':'listbutton'):''}`:''}${d&&(d.textPath||d.timedSession)?`${button('Natural','narration-mode','natural','listbutton','aria-label="Natural audio"')}${button('Fast','narration-mode','device','listbutton','aria-label="Fast audio"')}`:''}${c?.audio?.url?button(icon('play')+'Oral Argument Recording','listen',c.id,'listbutton'):''}`)}
+function listenMenu(trigger){const c=state.route==='reader'?contextCase(state.active):state.route==='case'?getCase():audioCase?caseMap.get(audioCase):contextCase(state.active),d=ds(state.active);mountMenu(trigger,`<h3>Listen</h3>${audioCase?`<label class="menu-field">Volume<input class="playback-volume" type="range" min="0" max="1" step="0.05" value="${audio.volume}" aria-label="Audio volume"></label>${currentTimedDoc()?button(followTranscript?'Following Transcript':'Follow Transcript','follow-transcript','',followTranscript?'active listbutton':'listbutton'):''}`:''}${d&&(d.textPath||d.timedSession)?`${button(icon('play')+'Read this document — Natural voice','narration-mode','natural','listbutton')}${button(icon('play')+'Read this document — Device voice','narration-mode','device','listbutton')}`:''}${c?.audio?.url?button(icon('play')+'Play oral argument recording','listen',c.id,'listbutton'):''}`)}
 async function requestNarrationMode(mode){
  if(!['natural','device'].includes(mode))return;
  const n=narration?.id===state.active?narration:null,c=n?.chunks[n.index],anchor=c?{docId:n.id,page:c.page,offset:c.sourceStart}:null;
@@ -1176,22 +1176,11 @@ function playDeviceNarration(n,index){
  if(!n.paused)deviceNarrator.play(chunk.text,{rate:state.narrationSpeed||1});
  refreshPlayback();
 }
-function getVoiceWorker(){if(voiceWorker)return voiceWorker;const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;worker.onmessage=({data})=>{if(voiceWorker!==worker)return;if(data.type==='progress'){if(narration?.loading){const n=overlays.querySelector('.voice-progress')||document.querySelector('.voice-progress');if(n)n.textContent=data.progress.status==='progress'&&data.progress.total>10000000?'Preparing Voice '+Math.round(data.progress.progress)+'%':'Preparing Voice…'}return}const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);data.type==='audio'?p.resolve(data):p.reject(new Error(data.message))};worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};return worker}
+function getVoiceWorker(){if(voiceWorker)return voiceWorker;const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;worker.onmessage=({data})=>{if(voiceWorker!==worker)return;if(data.type==='progress')return;const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);data.type==='audio'?p.resolve(data):p.reject(new Error(data.message))};worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};return worker}
 function waitForVoice(n,promise){
- const request=n.playRequest;let timeout,settled=false;
- const deadline=new Promise((resolve,reject)=>{
-  timeout=setTimeout(()=>{
-   // Speculative synthesis has no deadline. Only the current foreground wait
-   // can reset a stuck worker; a previous seek must not abort a newer request.
-   if(settled||n!==narration||n.playRequest!==request||!n.loading)return;
-   const error=new Error('Natural voice preparation timed out');error.code='VOICE_TIMEOUT';
-   voiceWorker?.terminate();voiceWorker=null;
-   for(const pending of voicePending.values())pending.reject(error);
-   voicePending.clear();reject(error);
-  },90000);
-  timeout?.unref?.();
- });
- return Promise.race([promise,deadline]).finally(()=>{settled=true;clearTimeout(timeout)});
+ // Preparation has no elapsed-time cutoff. Stop, voice switching, and actual
+ // worker errors still settle pending requests through the existing lifecycle.
+ return promise;
 }
 function generateChunk(n,index,priority=false){
  if(!n.chunks[index])return Promise.resolve(null);
@@ -1205,9 +1194,30 @@ function generateChunk(n,index,priority=false){
  }).then(data=>{
   if(n!==narration)throw new Error('Cancelled');
   const value={url:URL.createObjectURL(new Blob([data.wav],{type:'audio/wav'})),duration:data.duration};
-  n.cache.set(index,value);return value;
+  n.cache.set(index,value);if(n.preparing)refreshPlayback();return value;
  }).finally(()=>n.pending.delete(index));
  n.pending.set(index,promise);return priority?waitForVoice(n,promise):promise;
+}
+function narrationPreparationPercent(n){
+ const total=n.chunks.reduce((sum,chunk)=>sum+Math.max(1,chunk.text?.length||0),0);
+ const ready=n.chunks.reduce((sum,chunk,index)=>sum+(n.cache.has(index)?Math.max(1,chunk.text?.length||0):0),0);
+ return total?Math.floor(100*ready/total):100;
+}
+async function prepareNarrationDocument(n){
+ n.preparing=true;refreshPlayback();
+ // Continue beyond playback lookahead, with only one extra background request.
+ // Finish the remainder first, then prepare earlier passages for backward seeks.
+ const first=n.index;
+ try{
+  for(let step=0;step<n.chunks.length;step++){
+   if(n!==narration)return;
+   await generateChunk(n,(first+step)%n.chunks.length);
+  }
+ }catch(error){
+  if(n===narration)toast('Audio preparation could not finish. Playback will retry missing passages as needed.');
+ }finally{
+  n.preparing=false;if(n===narration)refreshPlayback();
+ }
 }
 async function playNarrationChunk(n,index,offset=0){
  if(n!==narration)return;
@@ -1241,7 +1251,7 @@ async function playNarrationChunk(n,index,offset=0){
 
   refreshPlayback();
 
- }catch(e){if(current()){stopNarration();toast(e.code==='VOICE_TIMEOUT'?'Natural voice took too long to prepare. Choose Fast in Listen for a faster start, or retry.':'The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
+ }catch(e){if(current()){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
 }
 async function startNarration(anchor=null,{paused=false}={}){
  const id=anchor?.docId||state.active;
@@ -1258,7 +1268,10 @@ async function startNarration(anchor=null,{paused=false}={}){
  if(index<0)index=chunks.length-1;
  const n={id,token,index,engine:state.narrationEngine||'natural',voice:'am_michael',loading:true,paused,chunks,cache:new Map(),pending:new Map()};
  if(n.engine==='device'&&voiceWorker){voiceWorker.terminate();voiceWorker=null}
- narration=n;closeReaderMenu();clearSelection();await playNarrationChunk(n,index);
+ narration=n;closeReaderMenu();clearSelection();
+ const playback=playNarrationChunk(n,index);
+ if(n.engine==='natural')void prepareNarrationDocument(n);
+ await playback;
 }
 function stopNarration(){deviceNarrator.stop();narrationToken++;narrationAudio.pause();narrationAudio.removeAttribute('src');if(narration)for(const value of narration.cache.values())URL.revokeObjectURL(value.url);narration=null;voiceWorker?.postMessage({type:'cancel',session:narrationToken});for(const p of voicePending.values())p.reject(new Error('Cancelled'));voicePending.clear();CSS.highlights?.delete('narration');document.querySelectorAll('.narrating').forEach(e=>e.classList.remove('narrating'));refreshPlayback()}
 function highlightNarration(el,start,length){if(!CSS.highlights)return;const r=textRange(el,start,start+length);if(r)CSS.highlights.set('narration',new Highlight(r))}
@@ -1271,7 +1284,7 @@ function narrationIdentity(n){
 }
 function devicePlaybackControls(n){return `<div class="playback-strip ${playbackExpanded?'expanded':''}" role="group" aria-label="Device narration"><div class="playback-primary">${button(icon(n.paused?'play':'pause'),'playback-toggle','','playback-toggle',`aria-label="${n.paused?'Play':'Pause'}"`)}${button(narrationIdentity(n),'playback-expand','','playback-expand playback-identity',`aria-expanded="${playbackExpanded}" aria-controls="playback-secondary" aria-label="${playbackExpanded?'Collapse':'Expand'} audio controls" title="${playbackExpanded?'Collapse':'Expand'} audio controls"`)}</div><div id="playback-secondary" class="playback-secondary"><select class="playback-speed" aria-label="Playback speed">${[.75,1,1.25,1.5,2].map(v=>`<option value="${v}" ${(state.narrationSpeed||1)===v?'selected':''}>${v}×</option>`).join('')}</select>${button('←','playback-skip','-1','skip-audio',`aria-label="Previous passage" ${n.index===0?'disabled':''}`)}${button('→','playback-skip','1','skip-audio','aria-label="Next passage"')}${state.route!=='reader'?button(icon('file'),'return-audio','','return-audio','aria-label="Return to document"'):''}${button(icon('audio'),'playback-settings','','','aria-label="Audio options"')}${button(icon('close'),'playback-close','','','aria-label="Stop audio"')}</div></div>`}
 function playbackControls(){const n=narration,active=n||audioCase;if(n?.engine==='device')return devicePlaybackControls(n);if(!active)return button(icon('audio')+'Listen','reader-menu','listen','listen-button');const media=n?narrationAudio:audio,paused=n?n.paused:media.paused;
- return `<div class="playback-strip ${playbackExpanded?'expanded':''}" role="group" aria-label="Audio playback"><div class="playback-primary">${button(icon(paused?'play':'pause'),'playback-toggle','','playback-toggle',`aria-label="${paused?'Play':'Pause'}"`)}${button(!n&&currentTimedDoc()?'<span class="audio-speaker-portrait" id="audio-speaker-portrait"></span><span id="current-speaker">Oral argument</span>':n?narrationIdentity(n):icon('audio'),'playback-expand','','playback-expand playback-identity',`aria-expanded="${playbackExpanded}" aria-controls="playback-secondary" aria-label="${playbackExpanded?'Collapse':'Expand'} audio controls" title="${playbackExpanded?'Collapse':'Expand'} audio controls"`)}</div><div id="playback-secondary" class="playback-secondary"><select class="playback-speed" aria-label="Playback speed">${[.75,1,1.25,1.5,2].map(v=>`<option value="${v}" ${(n?state.narrationSpeed||1:audio.playbackRate)===v?'selected':''}>${v}×</option>`).join('')}</select>${button(skipIcon(false),'playback-skip','-10','skip-audio',`aria-label="Back 10 seconds" ${n?.loading?'disabled':''}`)}${button(skipIcon(true),'playback-skip','10','skip-audio',`aria-label="Forward 10 seconds" ${n?.loading?'disabled':''}`)}${state.seekOpen?`<input class="playback-seek" type="range" min="0" max="${Number.isFinite(media.duration)?media.duration:0}" value="${media.currentTime||0}" step="0.1" aria-label="Seek audio">${button(time(media.currentTime),'seek-toggle','','seek-close','aria-label="Show elapsed time"')}`:button(time(n?narrationElapsed():audio.currentTime),'seek-toggle','','playback-time','aria-label="Show audio seek bar"')}${state.route!=='reader'?button(icon('file'),'return-audio','','return-audio','aria-label="Return to transcript or document"'):''}${button(icon('audio'),'playback-settings','','',`aria-label="Audio options"`)}${button(icon('close'),'playback-close','','',`aria-label="Stop audio"`)}</div>${n?.loading?'<span class="voice-progress" role="status">Preparing Audio…</span>':''}</div>`}
+ return `<div class="playback-strip ${playbackExpanded?'expanded':''}" role="group" aria-label="Audio playback"><div class="playback-primary">${button(icon(paused?'play':'pause'),'playback-toggle','','playback-toggle',`aria-label="${paused?'Play':'Pause'}"`)}${button(!n&&currentTimedDoc()?'<span class="audio-speaker-portrait" id="audio-speaker-portrait"></span><span id="current-speaker">Oral argument</span>':n?narrationIdentity(n):icon('audio'),'playback-expand','','playback-expand playback-identity',`aria-expanded="${playbackExpanded}" aria-controls="playback-secondary" aria-label="${playbackExpanded?'Collapse':'Expand'} audio controls" title="${playbackExpanded?'Collapse':'Expand'} audio controls"`)}</div><div id="playback-secondary" class="playback-secondary"><select class="playback-speed" aria-label="Playback speed">${[.75,1,1.25,1.5,2].map(v=>`<option value="${v}" ${(n?state.narrationSpeed||1:audio.playbackRate)===v?'selected':''}>${v}×</option>`).join('')}</select>${button(skipIcon(false),'playback-skip','-10','skip-audio',`aria-label="Back 10 seconds" ${n?.loading?'disabled':''}`)}${button(skipIcon(true),'playback-skip','10','skip-audio',`aria-label="Forward 10 seconds" ${n?.loading?'disabled':''}`)}${state.seekOpen?`<input class="playback-seek" type="range" min="0" max="${Number.isFinite(media.duration)?media.duration:0}" value="${media.currentTime||0}" step="0.1" aria-label="Seek audio">${button(time(media.currentTime),'seek-toggle','','seek-close','aria-label="Show elapsed time"')}`:button(time(n?narrationElapsed():audio.currentTime),'seek-toggle','','playback-time','aria-label="Show audio seek bar"')}${state.route!=='reader'?button(icon('file'),'return-audio','','return-audio','aria-label="Return to transcript or document"'):''}${button(icon('audio'),'playback-settings','','',`aria-label="Audio options"`)}${button(icon('close'),'playback-close','','',`aria-label="Stop audio"`)}</div>${n&&(n.loading||n.preparing)?`<span class="voice-progress" role="status" aria-label="Preparing audio for the entire document: ${narrationPreparationPercent(n)} percent">Preparing audio ${narrationPreparationPercent(n)}%</span>`:''}</div>`}
 function narrationElapsed(){if(!narration)return 0;return [...narration.cache].filter(([index])=>index<narration.index).reduce((n,[,clip])=>n+clip.duration,0)+narrationAudio.currentTime}
 function refreshPlayback(){let slot=document.querySelector('#reader-playback,#global-playback');if(state.route!=='reader'){if(!audioCase&&!narration){document.querySelector('#global-playback')?.remove();return}if(!slot){app.querySelector('.nav-account')?.insertAdjacentHTML('beforebegin','<div id="global-playback"></div>');slot=document.querySelector('#global-playback')}}if(slot){const focused=slot.contains(document.activeElement)?document.activeElement:null;
  const selector=focused?.dataset.action?'[data-action="'+CSS.escape(focused.dataset.action)+'"][data-value="'+CSS.escape(focused.dataset.value||'')+'"]':focused?.matches('input,select')?'.'+focused.classList[0]:null;
