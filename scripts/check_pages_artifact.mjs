@@ -1,9 +1,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import {fileURLToPath} from 'node:url';
 
-const root = path.resolve(process.argv[2] || 'out');
-const output = process.argv[3] || 'pages-preflight.json';
+const root = fileURLToPath(new URL('../out/', import.meta.url));
+const manifestURL = new URL('../out/deployment-manifest.json', import.meta.url);
+if (fs.lstatSync(root).isSymbolicLink()) throw new Error('Build output must not be a symbolic link.');
+if (fs.existsSync(manifestURL) && fs.lstatSync(manifestURL).isSymbolicLink())
+  throw new Error('Deployment manifest must not be a symbolic link.');
 const files = [];
 const problems = [];
 function walk(directory) {
@@ -42,7 +46,6 @@ const manifest = {
   problems,
   limitation: 'Local artifact-shape validation; does not establish Pages backend health or successful publication.'
 };
-fs.writeFileSync(output, JSON.stringify(manifest, null, 2) + '\n');
-if (!problems.length) fs.writeFileSync(path.join(root, 'deployment-manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
+if (!problems.length) fs.writeFileSync(manifestURL, JSON.stringify(manifest, null, 2) + '\n');
 console.log(JSON.stringify(manifest, null, 2));
 if (problems.length) process.exitCode = 1;
