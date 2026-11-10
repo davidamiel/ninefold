@@ -9,15 +9,16 @@ permissions:
 jobs:
   reader:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
       - run: npm install --no-save --package-lock=false playwright
-      - run: npx playwright install --with-deps chromium
       - name: Check deployed Berk reader and citation target structure
         env:
+          BERK_CHROME_CHANNEL: chrome
           BERK_BASE_URL: https://davidamiel.github.io/ninefold/
         run: node tests/berk-reader-browser.mjs
       - uses: actions/upload-artifact@v4
