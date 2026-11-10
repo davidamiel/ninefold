@@ -31,7 +31,7 @@ const references=await page.evaluate(async()=>{
  const invalid=[],resolved=new Set(),unresolved=[];let located=0;
  for(const ref of refs){let m=window.__berkQA.material(ref);
   if(m.doc?.textPath){const data=await window.__berkQA.ensure(m.doc.id);if(!data?.pages?.length)invalid.push({label:ref.label,id:m.doc.id,reason:'internal text unavailable'});else{resolved.add(m.doc.id);m=window.__berkQA.material(ref);if(m.targetPage>=0){located++;if(m.targetPage>=data.pages.length)invalid.push({label:ref.label,id:m.doc.id,page:m.targetPage,reason:'page outside target'});}}}
-  if(m.source&&!/^https?:\\/\\//.test(m.source))invalid.push({label:ref.label,reason:'invalid source URL'});
+  if(m.source&&!m.source.startsWith('https://')&&!m.source.startsWith('http://'))invalid.push({label:ref.label,reason:'invalid source URL'});
   if(!m.doc)unresolved.push({label:ref.label,type:ref.type,source:m.source||null});
  }
  return {occurrences:refs.length,internalDocuments:resolved.size,locatedPages:located,invalid,unresolvedCount:unresolved.length,unresolvedSample:unresolved.slice(0,20),limitation:'Structural resolution only; target semantics and pinpoint accuracy unreviewed'};
