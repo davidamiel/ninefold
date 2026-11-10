@@ -14,4 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - run: node --test tests/narration-mapping.test.mjs tests/reader-narration.test.mjs tests/narration-worker.test.mjs tests/narration-voice.test.mjs tests/transcript-timing.test.mjs tests/transcript-render-mapping.test.mjs tests/device-narration.test.mjs tests/transcript-narration-seek.test.mjs tests/narration-timeout.test.mjs
+      - run: npm ci
+      - run: node --test tests/narration-mapping.test.mjs tests/reader-narration.test.mjs tests/narration-worker.test.mjs tests/narration-voice.test.mjs tests/transcript-timing.test.mjs tests/transcript-render-mapping.test.mjs tests/device-narration.test.mjs tests/transcript-narration-seek.test.mjs tests/narration-timeout.test.mjs tests/reader-content.test.mjs tests/reader-edit-navigation.test.mjs tests/reader-controls.test.mjs tests/reader-workspace-update.test.mjs
+      - run: node tests/reader-editor-ui.mjs
+      - run: python3 -m unittest discover -s tools/mac-audio -p 'test_*.py'

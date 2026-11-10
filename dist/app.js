@@ -351,13 +351,7 @@ function restoreBrowsePosition() {
 }
 
 // Opinion authors occupy a deliberate second line in the tab.
-function readerTabLabel(doc) {
-  const label = tabLabel(doc);
-  if (!doc?.opinionType || doc.editorTitle || !/concur|dissent/i.test(doc.opinionType)) return esc(label);
-  const separator = label.lastIndexOf(' · ');
-  if (separator < 0) return esc(label);
-  return `<span class="reader-tab-title">${esc(label.slice(0, separator))}</span><span class="reader-tab-author">${esc(label.slice(separator + 3))}</span>`;
-}
+function readerTabLabel(doc) { return esc(tabLabel(doc)); }
 
 function tabs(ids=state.tabs) {
   const items = ids.map(id => {
@@ -365,7 +359,6 @@ function tabs(ids=state.tabs) {
     const title = esc(documentLabel(doc));
     return `<div class="tab ${state.active === id ? 'selected' : ''} ${state.split === id ? 'in-split' : ''}" draggable="true" data-tab-id="${esc(id)}">
       <button role="tab" aria-selected="${state.active === id}" aria-controls="reader-panes" data-action="activate" data-value="${esc(id)}" title="${title}" aria-label="${esc(tabLabel(doc))}">${readerTabLabel(doc)}</button>
-      <button class="tab-menu-button" data-action="tab-menu" aria-haspopup="dialog" aria-expanded="false" data-value="${esc(id)}" aria-label="Options for ${title}">⋯</button>
       <button class="close" data-action="close-tab" data-value="${esc(id)}" aria-label="Close ${title}">${icon('close')}</button>
     </div>`;
   }).join('');
@@ -440,6 +433,7 @@ function time(s){return Math.floor((s||0)/60)+':'+String(Math.floor((s||0)%60)).
 const pdfFirstDocuments=new Set(['25-5343-97e702fdb59d--lower-8-14']);
 function rememberDocumentFormat(id,pdf){state.readingOverrides=(state.readingOverrides||[]).filter(x=>x!==id);if(!pdf)state.readingOverrides.push(id)}
 function render(){
+ document.body.dataset.signedIn=String(signedIn());
  if(audioCase && ['reader','case'].includes(state.route) && audioCase!==state.caseId)stopArgument();
  for(const id of [state.active,state.split])if((pdfFirstDocuments.has(id)||ds(id)?.pdfPreferred)&&!state.readingOverrides?.includes(id))state.pdfDocs=[...new Set([...(state.pdfDocs||[]),id])];
  if(state.active===state.split)state.split=null;
@@ -659,7 +653,8 @@ function referenceDetails(ref,compact=false) {
   const m=materialFor(ref);
   const full=docCache.get(m.doc?.id)?.pages?.map(p=>p.text).join(' ')||m.excerpt||'';const canOpen=m.doc&&(m.doc.pdfPath||m.doc.pageCount>2||full.length>2400)&&!m.contextOnly;
   const sourceLabel=m.entry?.kind==='case'?'Case Source':ref.type==='statute'?'Official Text':'Source';
-  const text=m.excerpt?excerptOf(m.excerpt,compact?560:2200):'';
+  const custom=compact?ref.popupText:ref.sidebarText;
+  const text=typeof custom==='string'&&custom.trim()?custom:(m.excerpt?excerptOf(m.excerpt,compact?560:2200):'');
   const subjects=m.entry?.subjects?.slice(0,compact?3:6).join(' · ');
   return `<p class="reference-meta">${esc(m.meta)}</p>${m.missingAppendix?'<p class="small muted"><strong>Cited page unavailable.</strong> This appendix page is not available in this collection.</p>':''}${subjects?`<p class="reference-subjects">${esc(subjects)}</p>`:''}${text?(m.missingAppendix&&m.contextOnly?`<details class="reference-context"><summary>Show context from this filing</summary><div class="reference-content"><p>${esc(text)}</p></div></details>`:`<div class="reference-content">${m.kind?`<strong>${esc(m.kind)}</strong>`:''}<p>${esc(text)}</p></div>`):'<p class="small muted">Full text is unavailable for this citation.</p>'}
     <div class="ref-actions">${compact?button('Keep Open','keep-ref',ref.key):''}${canOpen?button('New Tab','open-reference',ref.key):''}
@@ -668,7 +663,7 @@ function referenceDetails(ref,compact=false) {
     ${ref.type==='appendix'&&!m.source&&m.caseRecord?`<a href="#/case/${encodeURIComponent(m.caseRecord.id)}?section=Appendices">Case Materials</a>`:m.record&&!m.source?'':external(m.source||m.lookup,m.source?sourceLabel:'Search Citation')}</div>`;
 }
 function referenceHTML(ref) {
-  return ref?`<h2 class="ref-title">${esc(materialFor(ref).title)}</h2>${referenceDetails(ref)}`:'';
+  return ref?`<h2 class="ref-title">${esc(ref.name||materialFor(ref).title)}</h2>${referenceDetails(ref)}`:'';
 }
 function clearPeek(){overlays.querySelector('.peek')?.remove()}
 async function showPeek(trigger) {
@@ -686,7 +681,7 @@ async function showPeek(trigger) {
   function paint() {
     if(!el.isConnected||!trigger.isConnected) return;
     const contextOpen=el.querySelector('.reference-context')?.open;
-    el.innerHTML=`<div class="peek-heading"><h3>${esc(materialFor(ref).title)}</h3>${button(icon('close'),'dismiss-peek','','','aria-label="Close preview"')}</div>${referenceDetails(ref,true)}`;
+    el.innerHTML=`<div class="peek-heading"><h3>${esc(ref.name||materialFor(ref).title)}</h3>${button(icon('close'),'dismiss-peek','','','aria-label="Close preview"')}</div>${referenceDetails(ref,true)}`;
     if(contextOpen&&el.querySelector('.reference-context'))el.querySelector('.reference-context').open=true;
     position();
   }
@@ -721,7 +716,7 @@ function referencesSidebar() {
  const active=(state.refs||[]).find(r=>r.key===state.ref&&r.fromDoc===state.active);
  const items=new Map();for(const ref of refsIndex.values())if(ref.fromDoc===state.active&&!items.has(ref.id||ref.canonical||ref.label))items.set(ref.id||ref.canonical||ref.label,ref);
  if(active)return `<div class="reference-back">${button(icon('back')+'All References','references-back')}</div><div id="reference-detail">${referenceHTML(active)}${materialFor(active).contextOnly?button('Go to Passage','reference-location',active.key,'outline'):`<section class="reference-context"><h3>Referenced Here</h3><p>${esc(active.passage||'')}</p>${button('Go to Passage','reference-location',active.key,'outline')}</section>`}</div>`;
- return `${signedIn()?button('Edit document','edit-case',state.caseId,'outline'):''}<p class="reference-intro">Authorities cited in ${esc(tabLabel(ds(state.active)))}. Select one to read its note and the passage that cites it.</p><div class="reference-list">${[...items.values()].map(r=>`<article>${button(`<strong>[${esc(r.number)}] ${esc(r.name||materialFor(r).title)}</strong><small>${esc(r.canonical||r.label)} · Source p. ${(r.page??Number(r.key.split('|')[2])??0)+1}</small><span>${esc(excerptOf(r.passage||'',180))}</span>`,'keep-ref',r.key,'document-reference')}</article>`).join('')||'<p class="small muted">No recognized citations in this document.</p>'}</div>`;
+ return `<div class="reference-list">${[...items.values()].map(r=>`<article>${button(`<strong>[${esc(r.number)}] ${esc(r.name||materialFor(r).title)}</strong><small>${esc(r.canonical||r.label)} · Source p. ${(r.page??Number(r.key.split('|')[2])??0)+1}</small><span>${esc(excerptOf(r.passage||'',180))}</span>`,'keep-ref',r.key,'document-reference')}</article>`).join('')||'<p class="small muted">No recognized citations in this document.</p>'}</div>`;
 }
 async function floatRef(key){const ref=state.refs.find(r=>r.key===key)||refsIndex.get(key);if(!ref)return;const doc=materialFor(ref).doc;if(!doc)return;const data=await ensureDoc(doc.id);const el=document.createElement('section');el.className='floatref';el.innerHTML=`<div class="drag"><span>${esc(doc.title)}</span>${button(icon('close'),'close-float','','',`aria-label="Close floating reference"`)}</div><div class="floatbody">${data?esc(data.pages.map(p=>p.text).join('\n\n')):'Reader text unavailable.'}</div>`;overlays.append(el);const handle=el.querySelector('.drag');handle.onpointerdown=e=>{if(e.target.closest('button'))return;const r=el.getBoundingClientRect(),dx=e.clientX-r.left,dy=e.clientY-r.top;handle.setPointerCapture(e.pointerId);handle.onpointermove=ev=>{el.style.left=Math.max(0,Math.min(innerWidth-el.offsetWidth,ev.clientX-dx))+'px';el.style.top=Math.max(0,Math.min(innerHeight-50,ev.clientY-dy))+'px';el.style.right='auto'};handle.onpointerup=()=>handle.onpointermove=null}}
 function readSelection(){const s=window.getSelection();if(!s||s.isCollapsed||!s.rangeCount){clearSelection();return}const r=s.getRangeAt(0);if((r.startContainer.parentElement||r.startContainer).closest('.pdf-document')){readPDFSelection(r);return}const start=r.startContainer.nodeType===1?r.startContainer:r.startContainer.parentElement;const end=r.endContainer.nodeType===1?r.endContainer:r.endContainer.parentElement;const article=start.closest('.document-body');if(!article||article!==end.closest('.document-body'))return;const id=article.dataset.document,anchors=[];for(const p of article.querySelectorAll('.page-text')){if(!r.intersectsNode(p))continue;let a=0,b=p.textContent.length;if(p.contains(r.startContainer)){const rr=document.createRange();rr.selectNodeContents(p);rr.setEnd(r.startContainer,r.startOffset);a=rr.toString().length}if(p.contains(r.endContainer)){const rr=document.createRange();rr.selectNodeContents(p);rr.setEnd(r.endContainer,r.endOffset);b=rr.toString().length}if(b>a){const m=displayMaps.get(p.dataset.mapKey||id+':'+p.dataset.page);anchors.push({page:Number(p.dataset.page),start:m?.[a]??a,end:b>0?(m?.[b-1]??(b-1))+1:b,quote:p.textContent.slice(a,b)})}}if(!anchors.length)return;const quote=anchors.map(a=>a.quote).join('\n');if(!quote.trim())return;selection={docId:id,sourceDocId:textSourceId(id),anchors,quote};selectionRange=r.cloneRange();overlays.querySelector('.selection-tools')?.remove();const t=document.createElement('div');t.className='selection-tools';t.setAttribute('role','toolbar');t.setAttribute('aria-label','Annotate selection');t.innerHTML=`<div class="colors">${['yellow','blue','pink','mint'].map(c=>button('','highlight',c,'swatch '+c,`aria-label="Highlight ${c}"`)).join('')}</div>${button(icon('note')+'Comment','comment')}${narration?.id===id?button(icon('play')+'Read From Here','narrate-selection'):''}${button(icon('close'),'dismiss-selection','','',`aria-label="Close annotation tools"`)}`;overlays.append(t);positionSelection()}
@@ -948,12 +943,12 @@ function layoutMargins(){
  document.querySelectorAll('.document-body').forEach(article=>{
   const aside=article.querySelector('.document-margin');if(!aside)return;aside.replaceChildren();
   const origin=article.getBoundingClientRect().top,seen=new Set(),rows=[];
-  const add=(el,key,html)=>{if(seen.has(key))return;seen.add(key);const center=marginAnchor(el,origin);let row=rows.find(r=>Math.abs(r.center-center)<6);if(!row){row={center,items:[]};rows.push(row)}row.items.push(html)};
+  const add=(el,key,html)=>{const center=marginAnchor(el,origin);let row=rows.find(r=>Math.abs(r.center-center)<6);if(!row){row={center,items:[],keys:new Set()};rows.push(row)}if(row.keys.has(key))return;row.keys.add(key);seen.add(key);row.items.push(html)};
   if(state.marginNotes){
    for(const el of article.querySelectorAll('.page-text [data-annotation],.page-text .citation,.reader-edit-content .citation')){
     const noteId=el.dataset.annotation,key=noteId||el.dataset.refKey;if(!key)continue;
     if(noteId){const n=state.notes.find(n=>n.id===noteId);add(el,'note:'+key,button(icon(n?.comment?'note':'highlight')+`<span class="margin-label">${esc(n?.comment||'Highlight')}</span>`,'edit-margin-note',noteId,'margin-note',`aria-label="${esc(n?.comment||'Highlight')}" title="${esc(n?.comment||'Highlight')}" data-note-preview="${esc(noteId)}"`))}
-    else{const number=refsIndex.get(key)?.number||el.dataset.refNumber;add(el,'ref:'+key,`<button class="margin-reference" data-ref-key="${esc(key)}" aria-label="Preview ${esc(el.textContent)}" title="${esc(el.textContent)}">${icon('book')}${number?`<small>${esc(number)}</small>`:''}<span class="margin-label">${esc(el.textContent)}</span></button>`)}
+    else{if(matchMedia('(max-width:760px)').matches)continue;const ref=refsIndex.get(key),number=ref?.number||el.dataset.refNumber;add(el,'ref:'+(ref?.canonical||number||key),`<button class="margin-reference" data-ref-key="${esc(key)}" aria-label="Preview ${esc(el.textContent)}" title="${esc(el.textContent)}">${icon('book')}${number?`<small>${esc(number)}</small>`:''}<span class="margin-label">${esc(el.textContent)}</span></button>`)}
    }
    for(const n of state.notes.filter(n=>noteMatches(n,article.dataset.document)&&!seen.has('note:'+n.id))){const target=article.querySelector(`.page-text[data-page="${n.page??0}"]`);if(target)add(target,'note:'+n.id,button(icon('note')+`<span class="margin-label">${esc(n.comment||'Note')}</span>`,'edit-margin-note',n.id,'margin-note',`data-note-preview="${esc(n.id)}" aria-label="Open note" title="${esc(n.comment||'Note')}"`))}
    for(const row of rows){const item=document.createElement('div');item.className='margin-item';item.style.top=row.center+'px';if(row.items.length===1)item.innerHTML=row.items[0];else{const labels=row.items.map(html=>{const template=document.createElement('template');template.innerHTML=html;return template.content.querySelector('small')?.textContent||'•'});item.innerHTML=button(icon('book')+`<small>${esc(labels.join(', '))}</small>`,'margin-group','','margin-group',`aria-label="${row.items.length} references and notes on this line" title="References and notes on this line" aria-haspopup="true"`);item.querySelector('button')._marginItems=row.items.join('')}aside.append(item)}
@@ -1058,7 +1053,21 @@ function filedPDF(d) {
 function originalPDFLink(d){const url=filedPDF(d)||filedPDF(ds(d?.parentDocumentId));return url?`<a class="external original-pdf-link" data-open-original href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer">Open original PDF in new tab</a>`:''}
 function viewMenu(trigger){const d=ds(state.active),pdf=isPDF(d?.id),native=!!nativePDF(d?.id);mountMenu(trigger,`<h3>View</h3>${embeddedPDF(d)?`<div class="segmented" role="group" aria-label="Document format">${button('Reading','format','reading',pdf?'':'active',!d?.textPath&&!d?.timedSession?'disabled aria-label="Reading view unavailable for this filing"':'')}${button('PDF','format','pdf',pdf?'active':'')}</div>`: filedPDF(d)?external(filedPDF(d),'Open Filed PDF'):''}${pdf?(native?'<p class="small muted">Use the browser PDF viewer controls to zoom and change pages.</p>':`<label class="menu-field">Zoom<select id="pdf-zoom" aria-label="PDF zoom">${[['width','Fit Width'],['page','Fit Page'],['0.75','75%'],['1','100%'],['1.25','125%'],['1.5','150%'],['2','200%']].map(([v,t])=>`<option value="${v}" ${(state.pdfZoom?.[d.id]||'width')===v?'selected':''}>${t}</option>`).join('')}</select></label><div class="document-navigation"><label>Page <input type="number" data-page-input="${esc(d.id)}" min="${(d.sourceRange?.startPage||0)+1}" max="${d.sourceRange?d.sourceRange.endPage+(d.sourceRange.endOffset?1:0):d.pageCount||docCache.get(d.id)?.pages.length||999}" value="${Number(state.positions[d.id+':pdf']?.page??d.sourceRange?.startPage??0)+1}" aria-label="Go to page"></label></div>`):`<label class="menu-field">Text Size<input id="text-size" type="range" min="14" max="24" value="${state.textSize}" aria-label="Text size"></label><label class="view-check"><input id="page-markers" type="checkbox" ${state.pageMarkers?'checked':''}>Page Numbers</label><label class="view-check"><input id="margin-notes" type="checkbox" ${state.marginNotes?'checked':''}>Margin Icons</label>`}${d?.scanOnly?'<p class="small muted">This scanned filing is available as its original PDF. Extracted text is not available.</p>':''}${originalPDFLink(d)}${state.split?button('Close Split View','single','','listbutton'):''}`)}
 function isPDF(id){const d=ds(id);return state.pdfDocs?.includes(id)||(!d?.textPath&&!d?.timedSession)}
-function listenMenu(trigger){const c=state.route==='reader'?contextCase(state.active):state.route==='case'?getCase():audioCase?caseMap.get(audioCase):contextCase(state.active),d=ds(state.active);mountMenu(trigger,`<h3>Listen</h3>${audioCase?`<label class="menu-field">Volume<input class="playback-volume" type="range" min="0" max="1" step="0.05" value="${audio.volume}" aria-label="Audio volume"></label>${currentTimedDoc()?button(followTranscript?'Following Transcript':'Follow Transcript','follow-transcript','',followTranscript?'active listbutton':'listbutton'):''}`:''}${d&&(d.textPath||d.timedSession)?`${button(icon('play')+'Read this document — Natural voice','narration-mode','natural','listbutton')}${button(icon('play')+'Read this document — Device voice','narration-mode','device','listbutton')}`:''}${c?.audio?.url?button(icon('play')+'Play oral argument recording','listen',c.id,'listbutton'):''}`)}
+function listenMenu(trigger){const c=state.route==='reader'?contextCase(state.active):state.route==='case'?getCase():audioCase?caseMap.get(audioCase):contextCase(state.active),d=ds(state.active);mountMenu(trigger,`<h3>Listen</h3>${audioCase?`<label class="menu-field">Volume<input class="playback-volume" type="range" min="0" max="1" step="0.05" value="${audio.volume}" aria-label="Audio volume"></label>${currentTimedDoc()?button(followTranscript?'Following Transcript':'Follow Transcript','follow-transcript','',followTranscript?'active listbutton':'listbutton'):''}`:''}${d&&(d.textPath||d.timedSession)?`${button(icon('play')+'Read this document — Natural voice','narration-mode','natural','listbutton')}${button(icon('play')+'Read this document — Device voice','narration-mode','device','listbutton')}${button(icon('file')+'Export document for Mac audio','export-narration','','listbutton')}`:''}${c?.audio?.url?button(icon('play')+'Play oral argument recording','listen',c.id,'listbutton'):''}`)}
+
+async function exportNarrationPlan(){
+ const id=state.active;if(!id)return;
+ try{
+  await ensureDoc(id);const chunks=narrationChunks(id);
+  if(!chunks.length){toast('No readable text to export.');return}
+  const plan={format:'ninefold-narration-plan',schema:1,docId:id,voice:'am_michael',offsetUnits:'utf16',chunks};
+  const url=URL.createObjectURL(new Blob([JSON.stringify(plan,null,2)],{type:'application/json'}));
+  const link=document.createElement('a');link.href=url;link.download=id.replace(/[^a-zA-Z0-9_-]/g,'_')+'.narration.json';
+  document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
+  closeReaderMenu();toast('Narration plan exported.');
+ }catch(error){toast('Could not export narration: '+error.message)}
+}
+
 async function requestNarrationMode(mode){
  if(!['natural','device'].includes(mode))return;
  const n=narration?.id===state.active?narration:null,c=n?.chunks[n.index],anchor=c?{docId:n.id,page:c.page,offset:c.sourceStart}:null;
@@ -1303,7 +1312,7 @@ async function skipPlayback(seconds){
 }
 narrationAudio.addEventListener('ended',()=>{if(narration&&narration.engine!=='device')playNarrationChunk(narration,narration.index+1)});
 narrationAudio.addEventListener('timeupdate',()=>{const label=document.querySelector('.playback-time');if(label&&narration)label.textContent=time(narrationElapsed())});
-document.addEventListener('click',async e=>{const b=e.target.closest('[data-action]'),a=b?.dataset.action;if(a==='narration-mode'){await requestNarrationMode(b.dataset.value);return}if(a==='playback-toggle'){if(narration){narration.paused=!narration.paused;if(narration.engine==='device'){if(narration.paused)deviceNarrator.pause();else if(deviceNarrator.text)deviceNarrator.resume();else playDeviceNarration(narration,narration.index);refreshPlayback();return}if(!narration.loading){if(narration.paused)narrationAudio.pause();else narrationAudio.play().catch(()=>toast('Tap Play to resume.'))}}else if(audio.paused)audio.play().catch(()=>toast('Tap Play to start.'));else audio.pause();refreshPlayback()}else if(a==='playback-close'){stopNarration();stopArgument()}else if(a==='playback-skip')await skipPlayback(Number(b.dataset.value));else if(a==='playback-settings')listenMenu(b);else if(a==='narrate-selection'&&selection&&narration?.id===selection.docId){const x=selection;await startNarration({docId:x.docId,page:x.anchors[0].page,offset:x.anchors[0].start})}});
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-action]'),a=b?.dataset.action;if(a==='export-narration'){await exportNarrationPlan();return}if(a==='narration-mode'){await requestNarrationMode(b.dataset.value);return}if(a==='playback-toggle'){if(narration){narration.paused=!narration.paused;if(narration.engine==='device'){if(narration.paused)deviceNarrator.pause();else if(deviceNarrator.text)deviceNarrator.resume();else playDeviceNarration(narration,narration.index);refreshPlayback();return}if(!narration.loading){if(narration.paused)narrationAudio.pause();else narrationAudio.play().catch(()=>toast('Tap Play to resume.'))}}else if(audio.paused)audio.play().catch(()=>toast('Tap Play to start.'));else audio.pause();refreshPlayback()}else if(a==='playback-close'){stopNarration();stopArgument()}else if(a==='playback-skip')await skipPlayback(Number(b.dataset.value));else if(a==='playback-settings')listenMenu(b);else if(a==='narrate-selection'&&selection&&narration?.id===selection.docId){const x=selection;await startNarration({docId:x.docId,page:x.anchors[0].page,offset:x.anchors[0].start})}});
 document.addEventListener('change',e=>{if(e.target.matches('.playback-speed')){const rate=Number(e.target.value);if(narration){state.narrationSpeed=rate;narrationAudio.playbackRate=rate;if(narration.engine==='device')deviceNarrator.setRate(rate);persist()}else audio.playbackRate=rate}});
 
 
@@ -1703,15 +1712,21 @@ function applyEditedCase(patch,refresh=true){
 
 async function importEditableDocument(id){const d=ds(id),data=await ensureDoc(id);if(!data)throw Error('Document text could not load.');const references=[],byKey=new Map(),pages=[];for(let page=0;page<data.pages.length;page++){const raw=data.pages[page],range=d.sourceRange;if(range&&(page<range.startPage||page>range.endPage))continue;const clean=readingText(raw.text,id,page,data,range&&page===range.startPage?range.startOffset:0,range&&page===range.endPage?range.endOffset:raw.text.length,true);let markdown=clean.text;const hits=citationRanges(clean.text,id,page,clean.map);for(const hit of hits){const key=hit.ref.canonical||hit.ref.label;if(!byKey.has(key)){const ref={id:'r'+(references.length+1),number:references.length+1,name:materialFor(hit.ref).title,label:hit.ref.label,canonical:hit.ref.canonical||hit.ref.label,type:hit.ref.type};byKey.set(key,ref);references.push(ref)}}let cursor=0;markdown='';for(const hit of hits.slice().sort((a,b)=>a.start-b.start)){if(hit.start<cursor)continue;markdown+=escapeMarkdown(clean.text.slice(cursor,hit.start))+'[@'+byKey.get(hit.ref.canonical||hit.ref.label).id+']';cursor=hit.end;}markdown+=escapeMarkdown(clean.text.slice(cursor));pages.push({label:String(raw.label||raw.number||page+1),markdown});}return {revision:crypto.randomUUID(),pages:pages.length?pages:[{label:'1',markdown:''}],references}}
 document.addEventListener('click',async event=>{
- if(!event.target.closest('[data-action="edit-case"]'))return;
+ const editButton=event.target.closest('[data-action="edit-case"]');if(!editButton)return;
+ if(!signedIn()){showSignIn();return;}
+ const wantsCase=editButton.dataset.editorMode==='case'||state.route!=='reader';
  const existing=document.querySelector('.reader-editor-panel,.case-editor[open]');
- if(existing){existing.dispatchEvent(new Event('editor-resume'));return;}
+ if(existing){
+  const same=wantsCase?existing.classList.contains('case-editor')&&existing.dataset.caseId===state.caseId:existing.dataset.documentId===state.active;
+  if(same){existing.dispatchEvent(new Event('editor-resume'));return;}
+  if(!existing.requestClose||!await existing.requestClose())return;
+ }
  const c=getCase(),base=importedCaseContent.get(c.id);if(!base)return;
  let checkpoint=structuredClone(appliedContentPatches.get(c.id)||createContentPatch(base.snapshot,base.snapshot,{baseVersion:loadedContentBase}));
  let readerCheckpoint=structuredClone({tabs:state.tabs,active:state.active,split:state.split,workspaces:state.workspaces});
  const session=createEditorSession({account,base:base.snapshot,baseVersion:loadedContentBase,checkBase:assertCurrentContentBase,applyPatch:applyEditedCase});
  const restore=()=>{applyEditedCase(checkpoint,false);Object.assign(state,structuredClone(readerCheckpoint));render();};
- try{const open=state.route==='reader'?openReaderEditor:openCaseEditor;await open({documentId:state.active,renderDocument:async id=>{await ensureDoc(id);return documentHTML(id,docCache.get(id));},references:()=>[...refsIndex.values()],refreshMargins:scheduleMargins,openInReader:id=>{openDoc(id);setTimeout(()=>document.querySelector('[data-action="edit-case"]')?.click(),100);},account:session.account,toast,initialDocument:state.route==='reader'?state.active:null,signIn:showSignIn,snapshot:()=>caseSnapshot(c),apply:session.apply,restore,
+ try{const open=wantsCase?openCaseEditor:openReaderEditor;await open({documentId:state.active,renderDocument:async id=>{await ensureDoc(id);return documentHTML(id,docCache.get(id));},references:()=>[...refsIndex.values()],refreshMargins:scheduleMargins,openCaseDetails:()=>{const b=document.createElement('button');b.dataset.action='edit-case';b.dataset.editorMode='case';b.hidden=true;document.body.append(b);b.click();b.remove();},openInReader:id=>{openDoc(id);setTimeout(()=>document.querySelector('[data-action="edit-case"]')?.click(),100);},account:session.account,toast,initialDocument:wantsCase?null:state.active,signIn:showSignIn,snapshot:()=>caseSnapshot(c),apply:session.apply,restore,
  commit:()=>{checkpoint=structuredClone(appliedContentPatches.get(c.id)||checkpoint);readerCheckpoint=structuredClone({tabs:state.tabs,active:state.active,split:state.split,workspaces:state.workspaces});},
  importDocument:async id=>{await assertCurrentContentBase();const content=await importEditableDocument(id);await assertCurrentContentBase();return session.rememberImport(id,content);},
  pdf:id=>{const d=ds(id)||base.documents.get(id);if(d?.editorPdfUrl)return safeUrl(d.editorPdfUrl);return d?.pdfPath?safeUrl(d.pdfPath):d?.sourceUrl&&/\.pdf(?:$|\?)/i.test(d.sourceUrl)?safeUrl(d.sourceUrl):null},
