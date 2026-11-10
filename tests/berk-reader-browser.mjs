@@ -5,7 +5,7 @@ const base=process.env.BERK_BASE_URL||'http://127.0.0.1:8765/';
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
 const page=await browser.newPage({viewport:{width:1440,height:1000}});
 const errors=[];page.on('pageerror',e=>errors.push(e.message));
-await page.route('**/app.js',async route=>{const r=await route.fetch();await route.fulfill({response:r,body:(await r.text())+'\nwindow.__berkQA={open:openDoc,render:documentHTML,ensure:ensureDoc};'});});
+await page.route('**/app.js',async route=>{const r=await route.fetch();await route.fulfill({response:r,body:(await r.text())+'\nwindow.__berkQA={open:openDoc,render:documentHTML,ensure:ensureDoc,refs:refsIndex,material:materialFor,extended:loadExtendedAuthorities};'});});
 await page.goto(base+'#/case/24-440');await page.waitForFunction(()=>window.__court&&window.__berkQA);
 const report=JSON.parse(fs.readFileSync('reviews/berk-case-review.json'));
 const evidence=[];
@@ -18,8 +18,20 @@ for(const d of [...report.documents.filter(x=>x.textPath),...report.aliases]){
  },d.id);
  assert.ok(result.characters>100,d.id+' empty reader');evidence.push(result);
 }
+const references=await page.evaluate(async()=>{
+ await window.__berkQA.extended();
+ const refs=[...window.__berkQA.refs.values()].filter(r=>r.fromDoc?.startsWith('24-440-'));
+ const invalid=[],resolved=new Set(),unresolved=[];let located=0;
+ for(const ref of refs){let m=window.__berkQA.material(ref);
+  if(m.doc?.textPath){const data=await window.__berkQA.ensure(m.doc.id);if(!data?.pages?.length)invalid.push({label:ref.label,id:m.doc.id,reason:'internal text unavailable'});else{resolved.add(m.doc.id);m=window.__berkQA.material(ref);if(m.targetPage>=0){located++;if(m.targetPage>=data.pages.length)invalid.push({label:ref.label,id:m.doc.id,page:m.targetPage,reason:'page outside target'});}}}
+  if(m.source&&!/^https?:\\/\\//.test(m.source))invalid.push({label:ref.label,reason:'invalid source URL'});
+  if(!m.doc)unresolved.push({label:ref.label,type:ref.type,source:m.source||null});
+ }
+ return {occurrences:refs.length,internalDocuments:resolved.size,locatedPages:located,invalid,unresolvedCount:unresolved.length,unresolvedSample:unresolved.slice(0,20),limitation:'Structural resolution only; target semantics and pinpoint accuracy unreviewed'};
+});
+assert.deepEqual(references.invalid,[]);
 await page.evaluate(()=>window.__berkQA.open('24-440-087f8840f42e'));
 await page.waitForSelector('.document-body .page-text');
 await page.screenshot({path:'berk-reader.png',fullPage:false});
-fs.writeFileSync('berk-browser-evidence.json',JSON.stringify({base,documents:evidence,pageErrors:errors,limitations:'DOM smoke checks; not full visual or citation-destination review'},null,2));
-assert.deepEqual(errors,[]);console.log('PASS Berk reader smoke',evidence.length,'documents');await browser.close();
+fs.writeFileSync('berk-browser-evidence.json',JSON.stringify({base,documents:evidence,references,pageErrors:errors,limitations:'DOM smoke checks; not full visual or citation-destination review'},null,2));
+assert.deepEqual(errors,[]);console.log('PASS Berk reader smoke',JSON.stringify({documents:evidence.length,references}));await browser.close();

@@ -21,3 +21,7 @@ A dedicated Berk regression test checks heading locations and transcript labels.
 ## Remaining work
 
 All full citation-target reviews and full visual/layout reviews remain open. The opposition cover/counsel casing, appendix spacing, footnotes and link destinations need further review. Sixteen original-only PDFs expose zero text; one has garbled text; these facts do not establish that they are scan-only. No entries were fabricated in the global review ledger, whose source-byte hashes and current audit fingerprints could not be computed here. The case ledger tracks bounded work without upgrading those global statuses.
+
+## Recorded execution
+
+[Publish run 42749401641](https://github.com/davidamiel/ninefold/actions/runs/42749401641) succeeded for commit `bfd9e6ab0acbe5601b8376d3701e47dfe66f39d8`: automated tests, source and packaged audits, build, term reader checks, Chromium smoke across 27 document/section IDs, and Pages deployment. Live-site reader and structural citation checks run separately; their workflow artifacts report actual results. Publication remains manual-only after restoring its trigger. Full source visual and semantic citation reviews remain incomplete.
