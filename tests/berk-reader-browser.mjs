@@ -5,9 +5,16 @@ const base=process.env.BERK_BASE_URL||'http://127.0.0.1:8765/';
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
 const page=await browser.newPage({viewport:{width:1440,height:1000}});
 const errors=[];page.on('pageerror',e=>errors.push(e.message));
-await page.route('**/app.js',async route=>{const r=await route.fetch();await route.fulfill({response:r,body:(await r.text())+'\nwindow.__berkQA={open:openDoc,render:documentHTML,ensure:ensureDoc,refs:refsIndex,material:materialFor,extended:loadExtendedAuthorities};'});});
+await page.route('**/app.js',async route=>{const r=await route.fetch();await route.fulfill({response:r,body:(await r.text())+'\nwindow.__berkQA={open:openDoc,render:documentHTML,ensure:ensureDoc,refs:refsIndex,material:materialFor,extended:loadExtendedAuthorities,source:sourceJSON};'});});
 await page.goto(base+'#/case/24-440');await page.waitForFunction(()=>window.__court&&window.__berkQA);
 const report=JSON.parse(fs.readFileSync('reviews/berk-case-review.json'));
+const deployedData=await page.evaluate(async()=>{
+ const t=await window.__berkQA.source('data/docs/24-440-5f52d6b13c47.json');
+ const structure=await window.__berkQA.source('data/reader-structure.json');
+ return {labels:t.pages.slice(2,70).map(p=>p.printedLabel),argument:structure['24-440-087f8840f42e'].headings.find(h=>h.page===30&&h.start===5),conclusion:structure['24-440-55fd77b4c91b'].headings.find(h=>h.page===34&&h.start===4)};
+});
+assert.deepEqual(deployedData.labels,Array.from({length:68},(_,i)=>String(i+2)));
+assert.equal(deployedData.argument?.text,'ARGUMENT');assert.equal(deployedData.conclusion?.text,'Conclusion');
 const evidence=[];
 for(const d of [...report.documents.filter(x=>x.textPath),...report.aliases]){
  await page.evaluate(id=>window.__berkQA.open(id),d.id);
@@ -33,5 +40,5 @@ assert.deepEqual(references.invalid,[]);
 await page.evaluate(()=>window.__berkQA.open('24-440-087f8840f42e'));
 await page.waitForSelector('.document-body .page-text');
 await page.screenshot({path:'berk-reader.png',fullPage:false});
-fs.writeFileSync('berk-browser-evidence.json',JSON.stringify({base,documents:evidence,references,pageErrors:errors,limitations:'DOM smoke checks; not full visual or citation-destination review'},null,2));
+fs.writeFileSync('berk-browser-evidence.json',JSON.stringify({base,documents:evidence,deployedData,references,pageErrors:errors,limitations:'DOM smoke checks; not full visual or citation-destination review'},null,2));
 assert.deepEqual(errors,[]);console.log('PASS Berk reader smoke',JSON.stringify({documents:evidence.length,references}));await browser.close();
