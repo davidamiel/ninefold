@@ -1,0 +1,39 @@
+name: Check order importers
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'dist/data/current-term.json'
+      - 'dist/data/catalog.json'
+      - 'dist/data/court-orders.json'
+      - 'dist/data/orders-coverage.json'
+      - '.github/workflows/order-imports.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'dist/data/current-term.json'
+      - 'dist/data/catalog.json'
+      - 'dist/data/court-orders.json'
+      - 'dist/data/orders-coverage.json'
+      - '.github/workflows/order-imports.yml'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install importer development dependencies
+        run: python -m pip install -r scripts/requirements-orders-dev.txt
+      - name: Check importer style and complexity
+        run: |
+          ruff check --config scripts/ruff-orders.toml scripts
+          ruff format --check --config scripts/ruff-orders.toml scripts
+      - name: Test import boundaries and source parsing
+        run: |
+          python -m unittest discover -s scripts -p test_order_imports.py -v
+          python scripts/check_orders.py
