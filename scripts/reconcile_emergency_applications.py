@@ -222,7 +222,7 @@ class Reconciliation:
                 "amici": [],
                 "areas": [],
                 "relatedDockets": re.findall(
-                    r"[0-9]{2}-[0-9]+", info.get("Linked with", "")
+                    r"\d{2}-\d+", info.get("Linked with", ""), flags=re.ASCII
                 ),
             },
         )

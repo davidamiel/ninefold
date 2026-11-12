@@ -18,7 +18,7 @@ DATA = DIST / "data"
 BASE = "https://www.supremecourt.gov"
 JSON_SUFFIX = ".json"
 CACHE_NAME = re.compile(r"[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}")
-APPLICATION_ID = re.compile(r"[0-9]{2}A[1-9][0-9]{0,5}")
+APPLICATION_ID = re.compile(r"\d{2}A[1-9]\d{0,5}", re.ASCII)
 
 
 def application_id(value):
