@@ -25,7 +25,7 @@ export function connect(config,notify,options={}){
   for(const name of ['notes','saved','progress'])stops.push(onSnapshot(collection(db,'users',user.uid,name),snap=>{
    if(generation!==revision)return;
    values[name]=snap.docs.map(d=>d.data());caches[name]=new Map(values[name].map(x=>[x.id,JSON.stringify(x.value)]));loaded.add(name);
-   if(loaded.size===3&&(!api.ready||!snap.metadata.hasPendingWrites)){api.ready=true;notify({type:'library',notes:values.notes.map(x=>x.value),saved:values.saved.map(x=>x.id),positions:Object.fromEntries(values.progress.filter(x=>x.id!=='_reading').map(x=>[x.id,x.value])),recents:values.progress.find(x=>x.id==='_reading')?.value.items||[]});}
+   if(loaded.size===3&&(!api.ready||!snap.metadata.hasPendingWrites)){api.ready=true;notify({type:'library',notes:values.notes.map(x=>x.value),saved:values.saved.map(x=>x.id),positions:Object.fromEntries(values.progress.filter(x=>x.id!=='_reading'&&!x.id.startsWith('audio:')).map(x=>[x.id,x.value])),audioProgress:Object.fromEntries(values.progress.filter(x=>x.id.startsWith('audio:')).map(x=>[x.id,x.value])),recents:values.progress.find(x=>x.id==='_reading')?.value.items||[]});}
   },error=>{api.ready=false;notify({type:'error',message:'Your library could not sync. Check your connection and try again.',error});}));
  });
  api.dispose=()=>{clearTimeout(progressTimer);stopAuth();stops.forEach(stop=>stop());};
@@ -193,6 +193,7 @@ export function connect(config,notify,options={}){
    }
   }
   for (const id of cache.keys()) {
+   if(name==='progress'&&id.startsWith('audio:'))continue;
    if (!items.has(id)) {
     changes.push({name, id, remove: true});
    }
@@ -232,6 +233,10 @@ export function connect(config,notify,options={}){
   const pending = batch.commit();
   rememberChanges(changes);
   pending.catch(error => reportSaveFailure(uid, changes, error));
+ };
+ api.saveAudioProgress=(id,value)=>{
+  if(!api.user||!api.ready||!id.startsWith('audio:'))return;
+  queueSave(api.user.uid,[{name:'progress',id,serialized:JSON.stringify(value)}]);
  };
  api.save = async (state, flushProgress = false) => {
   if (!api.user || !api.ready) {
