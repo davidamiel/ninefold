@@ -433,6 +433,7 @@ function time(s){return Math.floor((s||0)/60)+':'+String(Math.floor((s||0)%60)).
 const pdfFirstDocuments=new Set(['25-5343-97e702fdb59d--lower-8-14']);
 function rememberDocumentFormat(id,pdf){state.readingOverrides=(state.readingOverrides||[]).filter(x=>x!==id);if(!pdf)state.readingOverrides.push(id)}
 function render(){
+ const focusedAudio=document.activeElement?.closest('.listening-player')?document.activeElement:null;const audioFocus=focusedAudio?.dataset.action?'[data-action="'+CSS.escape(focusedAudio.dataset.action)+'"]':focusedAudio?.matches('input,select')?'.'+focusedAudio.classList[0]:null;
  const focusedTab=state.route==='reader'&&document.activeElement?.matches('[role="tab"][data-action="activate"]')?document.activeElement.dataset.value:null;
  document.body.dataset.signedIn=String(signedIn());
  if(audioCase && ['reader','case'].includes(state.route) && audioCase!==state.caseId)stopArgument();
@@ -444,7 +445,7 @@ function render(){
  const content=state.route==='home'?homePage():state.route==='about'?aboutPage():state.route==='reader'?readerPage():state.route==='case'?casePage():state.route==='library'?libraryPage():state.route==='sources'?sourcesPage():['areas','justices','advocates','amici','profile'].includes(state.route)?peoplePage():casesPage();
  app.innerHTML=header()+content+siteFooter()+workspaceDock();arrangeCaseCards();lastSpokenKey=null;formatHeadings();hydrateSyllabi();bindReaderTabs();restoreBrowsePosition();if(state.route==='reader'&&state.side&&state.tool==='refs'){refreshSidebar();hydrateReference(state.refs.find(r=>r.key===state.ref))}
 
- restorePositions();bindScroll();scheduleMargins();if(audioCase&&!narration)updateTranscript();if(state.route==='reader'){loadExtendedAuthorities();for(const id of [state.active,state.split].filter(Boolean)){ensureDoc(id);if(state.pdfDocs?.includes(id)||!ds(id)?.readerContent&&!ds(id)?.textPath&&!ds(id)?.timedSession)renderPDF(id)}}if(focusedTab&&focusedTab===state.active)focusActiveTab();persist();syncLocation();
+ restorePositions();bindScroll();scheduleMargins();if(audioCase&&!narration)updateTranscript();if(state.route==='reader'){loadExtendedAuthorities();for(const id of [state.active,state.split].filter(Boolean)){ensureDoc(id);if(state.pdfDocs?.includes(id)||!ds(id)?.readerContent&&!ds(id)?.textPath&&!ds(id)?.timedSession)renderPDF(id)}}if(narration)highlightNarrationChunk(narration);if(focusedTab&&focusedTab===state.active)focusActiveTab();if(audioFocus)document.querySelector('.listening-player '+(focusedAudio.closest('.listening-panel')?'.listening-panel ':'')+audioFocus)?.focus({preventScroll:true});persist();syncLocation();
 }
 function bindScroll(){document.querySelectorAll('.doc-scroll').forEach(el=>el.addEventListener('scroll',()=>{if(el.dataset.nativePDF)return;state.positions[positionKey(el)]=capturePosition(el);clearPeek();closeReaderMenu();positionSelection();const input=app.querySelector(`[data-page-input="${CSS.escape(el.dataset.doc)}"]`);if(input&&document.activeElement!==input)input.value=Number(state.positions[positionKey(el)].page)+1;clearTimeout(el._save);el._save=setTimeout(persist,400)},{passive:true}))}
 async function sourceJSON(path) {
@@ -639,7 +640,7 @@ function renderText(text,id,page,map,mapKey=id+':'+page){
  const headings=(structureFor(id,docCache.get(id)).headings||[]).filter(h=>h.page===page).map(h=>extendHeadingMarker(h,structureFor(id,docCache.get(id)))).map(h=>({...h,start:lowerBound(map,h.start),end:lowerBound(map,h.end)}));const footnoteMarkers=(structureFor(id,docCache.get(id)).footnoteMarkers||[]).filter(m=>m.page===page).map(m=>({...m,start:lowerBound(map,m.start),end:lowerBound(map,m.end)}));const counsel=verifiedCounselBlocks(id,page).map(b=>({...b,start:lowerBound(map,b.start),end:lowerBound(map,b.end)}));const cells=counselGridCells(id,page,map);const formats=docCache.get(id)?.pages[page]?.marks||[];const cuts=new Set([0,text.length]);for(const r of [...citations,...annotations,...headings,...footnoteMarkers,...formats,...counsel,...cells]){cuts.add(Math.max(0,Math.min(text.length,r.start)));cuts.add(Math.max(0,Math.min(text.length,r.end)))}const sorted=[...cuts].sort((a,b)=>a-b);let html='',activeHeading=null,activeCounsel=null,activeCell=null;
  for(let i=0;i<sorted.length-1;i++){const a=sorted[i],b=sorted[i+1];if(a===b)continue;const cell=cells.find(c=>c.start<=a&&c.end>=b);if(cell!==activeCell&&activeCell){html+='</span>';activeCell=null}const block=counsel.find(c=>c.start<=a&&c.end>=b);if(block!==activeCounsel){if(activeCounsel)html+='</span>';if(block)html+='<span class="counsel-block">';activeCounsel=block}if(cell!==activeCell){if(cell)html+=`<span class="counsel-cell counsel-${cell.side} counsel-row-${cell.row}">`;activeCell=cell}const h=headings.find(h=>h.start<=a&&h.end>=b);if(h!==activeHeading){if(activeHeading)html+='</span>';if(h)html+=`<span class="reader-section-heading ${h.level?'minor':''}" role="heading" aria-level="${h.level?3:2}">`;activeHeading=h}let chunk=esc(text.slice(a,b));for(const f of formats)if(f.start<=a&&f.end>=b)chunk=`<${f.tag}>${chunk}</${f.tag}>`;const marker=footnoteMarkers.find(m=>m.start<=a&&m.end>=b);if(marker)chunk=`<sup><button class="footnote-anchor" data-action="footnote-preview" data-value="${esc(id)}|${page}|${esc(marker.label)}" aria-label="Footnote ${esc(marker.label)}">${chunk}</button></sup>`;const cr=citations.find(r=>r.start<=a&&r.end>=b);if(cr)chunk=`<span class="citation" role="button" tabindex="0" data-ref-key="${esc(cr.ref.key)}">${chunk}</span>`;const an=annotations.filter(r=>r.start<=a&&r.end>=b).at(-1);if(an)chunk=`<mark class="annotation ${an.note.color||'yellow'} ${an.note.comment?'has-comment':''} ${state.focusedNote===an.note.id?'focused':''}" data-annotation="${an.note.id}">${chunk}</mark>`;html+=chunk}if(activeHeading)html+='</span>';if(activeCell)html+='</span>';if(activeCounsel)html+='</span>';return html;
 }
-function refreshDocuments(){storePositions();document.querySelectorAll('.doc-scroll').forEach(el=>{const data=docCache.get(el.dataset.doc);if(data&&!state.pdfDocs?.includes(el.dataset.doc))el.innerHTML=documentHTML(el.dataset.doc,data);else if(state.pdfDocs?.includes(el.dataset.doc))renderPDFNotes(el)});restorePositions();scheduleMargins()}
+function refreshDocuments(){storePositions();document.querySelectorAll('.doc-scroll').forEach(el=>{const data=docCache.get(el.dataset.doc);if(data&&!state.pdfDocs?.includes(el.dataset.doc))el.innerHTML=documentHTML(el.dataset.doc,data);else if(state.pdfDocs?.includes(el.dataset.doc))renderPDFNotes(el)});restorePositions();scheduleMargins();if(narration)highlightNarrationChunk(narration)}
 function refreshSidebar(){const side=app.querySelector('.sidebar');if(side)side.outerHTML=sidebar()}
 function openDoc(id,{split=false,pdf}={}){
  rememberReaderReturn();id=canonicalDocId(id);const d=ds(id);if(!d)return;storePositions();const selected=caseMap.get(state.caseId);
@@ -737,7 +738,7 @@ function openPlayingTranscript(){
   focusActiveTab();
  }
 }
-async function listen(id,sessionId=null,start=null){const c=caseMap.get(id),sessions=argumentAlignment[id]?.sessions||[],session=sessions.find(s=>s.id===sessionId)||sessions[0];const url=session?.audioUrl||c?.audio?.url;if(!url)return;stopNarration();if(audioCase!==id||audioSession!==(session?.id||null)){audioCase=id;audioSession=session?.id||null;audio.src=url}if(start!==null)audio.currentTime=start;openPlayingTranscript();try{await audio.play();if(audioCase!==id||audioSession!==(session?.id||null))return;if('mediaSession'in navigator){navigator.mediaSession.metadata=new MediaMetadata({title:c.name,artist:'Supreme Court of the United States'});navigator.mediaSession.setActionHandler('play',()=>audio.play());navigator.mediaSession.setActionHandler('pause',()=>audio.pause())}}catch{toast('Tap Play to start the recording.')}refreshPlayback();closeReaderMenu()}
+async function listen(id,sessionId=null,start=null){const c=caseMap.get(id),sessions=argumentAlignment[id]?.sessions||[],session=sessions.find(s=>s.id===sessionId)||sessions[0];const url=session?.audioUrl||c?.audio?.url;if(!url)return;stopNarration();argumentLoading=true;argumentError=null;playbackExpanded=true;followTranscript=state.followAudioText!==false;if(audioCase!==id||audioSession!==(session?.id||null)||audio.error){audioCase=id;audioSession=session?.id||null;audio.src=url}if(start!==null)audio.currentTime=start;openPlayingTranscript();refreshPlayback();try{await audio.play();if(audioCase!==id||audioSession!==(session?.id||null))return;argumentLoading=false;if('mediaSession'in navigator){navigator.mediaSession.metadata=new MediaMetadata({title:c.name,artist:'Supreme Court of the United States'});navigator.mediaSession.setActionHandler('play',()=>audio.play());navigator.mediaSession.setActionHandler('pause',()=>audio.pause())}}catch{if(audioCase===id){argumentLoading=false;argumentError='The recording could not play. Check your connection and retry.'}}refreshPlayback();closeReaderMenu()}
 
 function jumpPage(id,index){const p=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`);if(p?._pdfPreparing){p._pdfJump=index;return}const frame=nativePDF(id);if(frame){const source=pdfSources(ds(id),ds).find(s=>new URL(s.url,location.href).href.split('#')[0]===frame.src.split('#')[0]);frame.src=nativePDFURL(frame.src,source?.sliced?Math.max(0,index-(ds(id)?.sourceRange?.startPage||0)):index,location.href);state.positions[id+':pdf']={page:index,scroll:0};persist();return}p?.querySelector(`.source-page[data-page="${index}"]`)?.scrollIntoView({block:'start',behavior:'smooth'})}
 function route(name){storePositions();saveWorkspace();state.route=name;clearPeek();overlays.querySelector('.selection-tools')?.remove();render();if(name!=='reader')window.scrollTo(0,0)}
@@ -747,7 +748,7 @@ document.addEventListener('change',e=>{const t=e.target;if(t.id==='application-s
 document.addEventListener('pointerup',e=>{if(e.target.closest('.document-body,.pdf-document'))setTimeout(readSelection,20)});
 document.addEventListener('keyup',e=>{if(e.shiftKey&&['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))readSelection();if(e.key==='Escape'){clearPeek();overlays.querySelector('.selection-tools')?.remove();selection=null}});
 let hoverTimer;document.addEventListener('pointerover',e=>{const note=e.target.closest('[data-note-preview]');if(note&&e.pointerType!=='touch'&&!overlays.querySelector('.note-editor')){clearTimeout(hoverTimer);hoverTimer=setTimeout(()=>showNotePeek(note),200);return}const c=e.target.closest('[data-ref-key]');if(c&&e.pointerType!=='touch'){clearTimeout(hoverTimer);hoverTimer=setTimeout(()=>{if(window.getSelection()?.isCollapsed)showPeek(c)},250)}});
-audio.addEventListener('timeupdate',()=>{const t=document.querySelector('#audio-time'),r=document.querySelector('#audio-seek');if(t)t.textContent=time(audio.currentTime);if(r){r.max=Number.isFinite(audio.duration)?audio.duration:100;r.value=audio.currentTime}const elapsed=document.querySelector('.playback-time');if(elapsed&&!narration)elapsed.textContent=time(audio.currentTime)});audio.addEventListener('error',()=>toast('The audio source could not be loaded.'));window.addEventListener('beforeunload',()=>{storePositions();persist()});
+audio.addEventListener('timeupdate',()=>{const t=document.querySelector('#audio-time'),r=document.querySelector('#audio-seek');if(t)t.textContent=time(audio.currentTime);if(r){r.max=Number.isFinite(audio.duration)?audio.duration:100;r.value=audio.currentTime}});audio.addEventListener('error',()=>{if(audioCase){argumentLoading=false;argumentError='The recording could not load. Check your connection and retry.';refreshPlayback()}});window.addEventListener('beforeunload',()=>{storePositions();persist()});
 function amicusIdentity(value){let name=String(value||'').replace(/^Amicus brief of /i,'').replace(/ submitted$/i,'').replace(/,?\s+et\.?\s+al\.?$/i,'').replace(/[,\s]+$/,'').trim();if(!name)return null;
  const generic=/^(?:\d+\b|One Hundred|Two |Three |Four |Five |Six |Seven |Eight |Nine |Ten |Thirteen |Fourteen |Bipartisan |Current and Former |Anonymous |Members of |Legislators from |Plaintiffs in |Individuals and Organizations |Court-appointed |Opposition of |Scholars of |Professors of |Experts (?:in|on) |Parents of |Coaches,|Professional, Olympic)/i;
  const roles=/(?:Scholars|Professors|Officials|Judges|Governors|Commissioners|Administrators|Attorneys|Lawyers|Secretaries|Organizations|Groups|Professionals|Scientists|Physiologists|Economists|Technologists|Leaders|Stakeholders|Denominations|Holders|Amici|Historians|Directors|Commissioners|Counselors|Congress|Prisons Officials|Boards and Commissions|Federal Reserve System|Equal Employment Opportunity Commission|Torture|War Crimes Issues\/Global Criminal Justice)$/i;
@@ -994,7 +995,7 @@ async function init(){try{loadedContentBase=await readContentBase().catch(()=>nu
 
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('.term-case')){e.preventDefault();e.target.click()}});
 let readingLayout={},argumentAlignment={},pdfPaths={},readerStructure={},referenceSummaries={},selectionRange=null,peekAnchor=null,readerMenu=null,readerMenuTrigger=null;
-let audioSession=null,followTranscript=true,narration=null,narrationToken=0,playbackExpanded=false,lastSpokenKey=null;
+let audioSession=null,followTranscript=state.followAudioText!==false,narration=null,narrationToken=0,playbackExpanded=false,lastSpokenKey=null,argumentLoading=false,argumentError=null,voiceReady=false,voiceProgress=null;
 const pdfCache=new Map(),pdfLoading=new Map();
 function layoutPage(id,page){const key=textSourceId(id),layout=readingLayout[key]?.[page]||{},footnotes=readerStructure[key]?.footnotes?.filter(f=>f.page===page);return footnotes?.length?{...layout,footnotes}:layout}
 function documentLabel(d){if(!d)return 'Document';if(d.editorTitle)return d.title;if(d.timedSession||category(d)==='Argument')return 'Transcript';if(/per curiam/i.test(d.opinionType||''))return 'Per Curiam Opinion';if(!d.sourceRange&&Object.values(opinionSections).some(list=>list.some(x=>x.parentDocumentId===d.id)))return 'Syllabus & Opinions';return d.title}
@@ -1067,29 +1068,7 @@ function filedPDF(d) {
 function originalPDFLink(d){const url=filedPDF(d)||filedPDF(ds(d?.parentDocumentId));return url?`<a class="external original-pdf-link" data-open-original href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer">Open original PDF in new tab</a>`:''}
 function viewMenu(trigger){const d=ds(state.active),pdf=isPDF(d?.id),native=!!nativePDF(d?.id);mountMenu(trigger,`<h3>View</h3>${embeddedPDF(d)?`<div class="segmented" role="group" aria-label="Document format">${button('Reading','format','reading',pdf?'':'active',!d?.textPath&&!d?.timedSession?'disabled aria-label="Reading view unavailable for this filing"':'')}${button('PDF','format','pdf',pdf?'active':'')}</div>`: filedPDF(d)?external(filedPDF(d),'Open Filed PDF'):''}${pdf?(native?'<p class="small muted">Use the browser PDF viewer controls to zoom and change pages.</p>':`<label class="menu-field">Zoom<select id="pdf-zoom" aria-label="PDF zoom">${[['width','Fit Width'],['page','Fit Page'],['0.75','75%'],['1','100%'],['1.25','125%'],['1.5','150%'],['2','200%']].map(([v,t])=>`<option value="${v}" ${(state.pdfZoom?.[d.id]||'width')===v?'selected':''}>${t}</option>`).join('')}</select></label><div class="document-navigation"><label>Page <input type="number" data-page-input="${esc(d.id)}" min="${(d.sourceRange?.startPage||0)+1}" max="${d.sourceRange?d.sourceRange.endPage+(d.sourceRange.endOffset?1:0):d.pageCount||docCache.get(d.id)?.pages.length||999}" value="${Number(state.positions[d.id+':pdf']?.page??d.sourceRange?.startPage??0)+1}" aria-label="Go to page"></label></div>`):`<label class="menu-field">Text Size<input id="text-size" type="range" min="14" max="24" value="${state.textSize}" aria-label="Text size"></label><label class="view-check"><input id="page-markers" type="checkbox" ${state.pageMarkers?'checked':''}>Page Numbers</label><label class="view-check"><input id="margin-notes" type="checkbox" ${state.marginNotes?'checked':''}>Margin Icons</label>`}${d?.scanOnly?'<p class="small muted">This scanned filing is available as its original PDF. Extracted text is not available.</p>':''}${originalPDFLink(d)}${state.split?button('Close Split View','single','','listbutton'):''}`)}
 function isPDF(id){const d=ds(id);return state.pdfDocs?.includes(id)||(!d?.textPath&&!d?.timedSession)}
-function listenMenu(trigger){const c=state.route==='reader'?contextCase(state.active):state.route==='case'?getCase():audioCase?caseMap.get(audioCase):contextCase(state.active),d=ds(state.active);mountMenu(trigger,`<h3>Listen</h3>${audioCase?`<label class="menu-field">Volume<input class="playback-volume" type="range" min="0" max="1" step="0.05" value="${audio.volume}" aria-label="Audio volume"></label>${currentTimedDoc()?button(followTranscript?'Following Transcript':'Follow Transcript','follow-transcript','',followTranscript?'active listbutton':'listbutton'):''}`:''}${d&&(d.textPath||d.timedSession)?`${button(icon('play')+'Read this document — Natural voice','narration-mode','natural','listbutton')}${button(icon('play')+'Read this document — Device voice','narration-mode','device','listbutton')}${button(icon('file')+'Export document for Mac audio','export-narration','','listbutton')}`:''}${c?.audio?.url?button(icon('play')+'Play oral argument recording','listen',c.id,'listbutton'):''}`)}
-
-async function exportNarrationPlan(){
- const id=state.active;if(!id)return;
- try{
-  await ensureDoc(id);const chunks=narrationChunks(id);
-  if(!chunks.length){toast('No readable text to export.');return}
-  const plan={format:'ninefold-narration-plan',schema:1,docId:id,voice:'am_michael',offsetUnits:'utf16',chunks};
-  const url=URL.createObjectURL(new Blob([JSON.stringify(plan,null,2)],{type:'application/json'}));
-  const link=document.createElement('a');link.href=url;link.download=id.replace(/[^a-zA-Z0-9_-]/g,'_')+'.narration.json';
-  document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
-  closeReaderMenu();toast('Narration plan exported.');
- }catch(error){toast('Could not export narration: '+error.message)}
-}
-
-async function requestNarrationMode(mode){
- if(!['natural','device'].includes(mode))return;
- const n=narration?.id===state.active?narration:null,c=n?.chunks[n.index],anchor=c?{docId:n.id,page:c.page,offset:c.sourceStart}:null;
- state.narrationEngine=mode;state.naturalVoice='am_michael';delete state.deviceVoice;persist();
- await startNarration(anchor,{paused:n?.paused||false});
-}
-
-
+function listenMenu(){playbackExpanded=true;closeReaderMenu();refreshPlayback()}
 
 function openOptions(trigger,id){
  const actions=[];
@@ -1122,7 +1101,7 @@ function updateTranscript(){
  const face=document.querySelector('#audio-speaker-portrait'),name=turn?.speaker;
  if(face&&face.dataset.speaker!==(name||'')){face.dataset.speaker=name||'';face.setAttribute('role','img');face.setAttribute('aria-label',name||'Oral argument');const person=name?speakerProfile(name):null;face.classList.toggle('illustrated-speaker',!!person?.illustrationPath);face.innerHTML=name?(person?.portraitPath?`<img src="${esc(person.illustrationPath||person.portraitPath)}" alt="">`:`<span>${esc(name.split(' ').filter(x=>x.length>1).map(x=>x[0]).slice(0,2).join(''))}</span>`):''}
 }
-function stopArgument(){audio.pause();audio.removeAttribute('src');audio.load?.();audioCase=null;audioSession=null;playbackExpanded=false;clearSpoken();closeReaderMenu();refreshPlayback()}
+function stopArgument(){audio.pause();audio.removeAttribute('src');audio.load?.();audioCase=null;audioSession=null;argumentLoading=false;argumentError=null;clearSpoken();closeReaderMenu();refreshPlayback()}
 function maskSpokenCitations(text){
  // Mask before chunking so a chunk boundary cannot expose half a citation.
  // Keep UTF-16 offsets stable for the source map and spoken highlight.
@@ -1187,101 +1166,81 @@ function narrationDisplayRange(el,chunk){
 let voiceWorker=null,voiceRequest=0;const voicePending=new Map(),narrationAudio=new Audio();narrationAudio.preload='auto';
 const deviceNarrator=new DeviceNarrator({
  onEnd(){const n=narration;if(n?.engine==='device'&&!n.paused)playNarrationChunk(n,n.index+1)},
- onError(error){if(narration?.engine==='device'){narration.paused=true;narration.loading=false;refreshPlayback();toast(error==='no-local-voice'?'Fast audio is unavailable on this device. Choose Natural in Listen, or try Fast again.':'Fast audio stopped. Tap Play to retry or choose Natural in Listen.')}}
+ onError(){const n=narration;if(n?.engine==='device'){n.engine='natural';void playNarrationChunk(n,n.index)}}
 });
 function playDeviceNarration(n,index){
- if(!deviceNarrator.supported){stopNarration();toast('Fast audio is unavailable in this browser. Choose Natural in Listen.');return}
- n.index=index;n.loading=false;
- const chunk=n.chunks[index],elements=app.querySelectorAll(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`),ranges=[];
- for(const el of elements){const displayed=narrationDisplayRange(el,chunk);if(!displayed)continue;const range=textRange(el,displayed.start,displayed.end);if(range){ranges.push(range);if(ranges.length===1){const scroll=el.closest('.doc-scroll');if(scroll){const box=range.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}}}
- if(CSS.highlights){if(ranges.length)CSS.highlights.set('narration',new Highlight(...ranges));else CSS.highlights.delete('narration')}
- deviceNarrator.stop();
- if(!n.paused)deviceNarrator.play(chunk.text,{rate:state.narrationSpeed||1});
+ n.index=index;n.loading=false;highlightNarrationChunk(n);deviceNarrator.stop();
+ if(!n.paused)deviceNarrator.play(n.chunks[index].text,{rate:state.narrationSpeed||1});
  refreshPlayback();
 }
-function getVoiceWorker(){if(voiceWorker)return voiceWorker;const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;worker.onmessage=({data})=>{if(voiceWorker!==worker)return;if(data.type==='progress')return;const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);data.type==='audio'?p.resolve(data):p.reject(new Error(data.message))};worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};return worker}
-function waitForVoice(n,promise){
- // Preparation has no elapsed-time cutoff. Stop, voice switching, and actual
- // worker errors still settle pending requests through the existing lifecycle.
- return promise;
+function getVoiceWorker(){
+ if(voiceWorker)return voiceWorker;
+ const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;
+ worker.onmessage=({data})=>{
+  if(voiceWorker!==worker)return;
+  if(data.type==='progress'){voiceProgress=Number.isFinite(data.progress?.progress)?Math.round(data.progress.progress):voiceProgress;updateListeningStatus();return}
+  if(data.type==='ready'){voiceReady=true;updateListeningStatus();return}
+  const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);
+  data.type==='audio'?p.resolve(data):p.reject(new Error(data.message||'Cancelled'));
+ };
+ worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;voiceReady=false;voiceProgress=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};
+ return worker;
 }
 function generateChunk(n,index,priority=false){
  if(!n.chunks[index])return Promise.resolve(null);
  if(n.cache.has(index))return Promise.resolve(n.cache.get(index));
- if(n.pending.has(index)){if(priority)getVoiceWorker().postMessage({type:'prioritize',session:n.token,index});return priority?waitForVoice(n,n.pending.get(index)):n.pending.get(index);}
+ if(n.pending.has(index)){if(priority)getVoiceWorker().postMessage({type:'prioritize',session:n.token,index});return n.pending.get(index);}
  const id=++voiceRequest;
  const promise=new Promise((resolve,reject)=>{
-  voicePending.set(id,{resolve,reject});
+  voicePending.set(id,{resolve,reject,n,index});
   try{getVoiceWorker().postMessage({id,session:n.token,text:n.chunks[index].text,voice:n.voice,index,priority})}
   catch(error){voicePending.delete(id);reject(error)}
  }).then(data=>{
-  if(n!==narration)throw new Error('Cancelled');
+  if(n!==narration||index<n.index-4||index>n.index+3)throw new Error('Cancelled');
   const value={url:URL.createObjectURL(new Blob([data.wav],{type:'audio/wav'})),duration:data.duration};
-  n.cache.set(index,value);if(n.preparing)refreshPlayback();return value;
- }).finally(()=>n.pending.delete(index));
- n.pending.set(index,promise);return priority?waitForVoice(n,promise):promise;
+  n.cache.set(index,value);return value;
+ }).finally(()=>{if(n.pending.get(index)===promise)n.pending.delete(index)});
+ n.pending.set(index,promise);return promise;
 }
-function narrationPreparationPercent(n){
- const total=n.chunks.reduce((sum,chunk)=>sum+Math.max(1,chunk.text?.length||0),0);
- const ready=n.chunks.reduce((sum,chunk,index)=>sum+(n.cache.has(index)?Math.max(1,chunk.text?.length||0):0),0);
- return total?Math.floor(100*ready/total):100;
+function highlightNarrationChunk(n){
+ const chunk=n.chunks[n.index];if(!chunk)return;
+ const elements=app.querySelectorAll(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`),ranges=[];let first;
+ for(const el of elements){const displayed=narrationDisplayRange(el,chunk);if(!displayed)continue;const range=textRange(el,displayed.start,displayed.end);if(range){ranges.push(range);first||={el,range}}}
+ if(CSS.highlights){if(ranges.length)CSS.highlights.set('narration',new Highlight(...ranges));else CSS.highlights.delete('narration')}
+ if(followTranscript&&first){const scroll=first.el.closest('.doc-scroll'),box=first.range.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top+30||box.bottom>bounds.bottom-30)scroll.scrollBy({top:box.top-bounds.top-70,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})}
 }
-async function prepareNarrationDocument(n){
- n.preparing=true;refreshPlayback();
- // Continue beyond playback lookahead, with only one extra background request.
- // Finish the remainder first, then prepare earlier passages for backward seeks.
- const first=n.index;
- try{
-  for(let step=0;step<n.chunks.length;step++){
-   if(n!==narration)return;
-   await generateChunk(n,(first+step)%n.chunks.length);
-  }
- }catch(error){
-  if(n===narration)toast('Audio preparation could not finish. Playback will retry missing passages as needed.');
- }finally{
-  n.preparing=false;if(n===narration)refreshPlayback();
- }
+function narrationSentences(chunks){return chunks.reduce((list,chunk,index)=>{const prev=chunks[index-1];if(!prev||prev.page!==chunk.page||prev.highlightStart!==chunk.highlightStart||prev.highlightEnd!==chunk.highlightEnd)list.push(index);return list},[])}
+function narrationSentence(n){return Math.max(0,n.sentences.findLastIndex(index=>index<=n.index))}
+function pruneNarration(n){
+ getVoiceWorker().postMessage({type:'window',session:n.token,start:n.index-4,end:n.index+3});
+ for(const [id,request] of voicePending)if(request.n===n&&(request.index<n.index-4||request.index>n.index+3)){n.pending.delete(request.index);voicePending.delete(id);request.reject(new Error('Cancelled'))}
+ for(const [index,clip] of n.cache)if(index<n.index-4||index>n.index+3){URL.revokeObjectURL(clip.url);n.cache.delete(index)}
 }
 async function playNarrationChunk(n,index,offset=0){
  if(n!==narration)return;
- if(index>=n.chunks.length){stopNarration();return}
- if(n.engine==='device'){playDeviceNarration(n,index);return}
- const request=n.playRequest=(n.playRequest||0)+1;
- const current=()=>n===narration&&n.playRequest===request;
- narrationAudio.pause();narrationAudio.currentTime=0;n.index=index;n.loading=true;refreshPlayback();
+ if(index>=n.chunks.length){n.paused=true;n.completed=true;n.loading=false;refreshPlayback();return}
+ n.completed=false;n.error=null;
+ const request=n.playRequest=(n.playRequest||0)+1,current=()=>n===narration&&n.playRequest===request;
+ n.index=Math.max(0,index);highlightNarrationChunk(n);
+ if(n.engine==='device'){playDeviceNarration(n,n.index);return}
+ narrationAudio.pause();narrationAudio.removeAttribute('src');n.loading=true;refreshPlayback();
  try{
-  const ready=generateChunk(n,index,true);
-  // Queue lookahead immediately: even short headings provide synthesis time for
-  // following prose. Keep this bounded, and give explicit seeks priority.
-  for(let ahead=index+1;ahead<Math.min(n.chunks.length,index+4);ahead++)generateChunk(n,ahead).catch(()=>{});
+  pruneNarration(n);const ready=generateChunk(n,n.index,true);
+  for(let ahead=n.index+1;ahead<Math.min(n.chunks.length,n.index+4);ahead++)generateChunk(n,ahead).catch(()=>{});
   const clip=await ready;if(!current())return;
   n.loading=false;narrationAudio.src=clip.url;narrationAudio.playbackRate=state.narrationSpeed||1;
   narrationAudio.currentTime=Math.max(0,Math.min(offset,clip.duration));
-  if(!n.paused){
-   try{await narrationAudio.play()}
-   catch(error){if(!current())return;if(error.name!=='NotAllowedError')throw error;n.paused=true;toast('Tap Play to resume.')}
-  }
-  if(!current())return;
-  const chunk=n.chunks[index],elements=app.querySelectorAll(`.doc-scroll[data-doc="${CSS.escape(n.id)}"] .page-text[data-page="${chunk.page}"]`),ranges=[];
-  let first=null;
-  for(const el of elements){
-   const displayed=narrationDisplayRange(el,chunk);if(!displayed)continue;
-   const range=textRange(el,displayed.start,displayed.end);if(!range)continue;
-   ranges.push(range);first||={el,range};
-  }
-  if(CSS.highlights){if(ranges.length)CSS.highlights.set('narration',new Highlight(...ranges));else CSS.highlights.delete('narration')}
-  if(first){const scroll=first.el.closest('.doc-scroll');if(scroll){const box=first.range.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top||box.bottom>bounds.bottom)scroll.scrollBy({top:box.top-bounds.top-70,behavior:'smooth'})}}
-
-  refreshPlayback();
-
- }catch(e){if(current()){stopNarration();toast('The natural voice could not load. Check your connection and try again.');console.warn('Natural narration',e.message)}}
+  if(!n.paused){try{await narrationAudio.play()}catch(error){if(!current())return;if(error.name!=='NotAllowedError')throw error;n.paused=true}}
+  if(current())refreshPlayback();
+ }catch(error){if(current()){n.loading=false;n.paused=true;n.error='The document voice could not load. Check your connection and retry.';refreshPlayback();console.warn('Natural narration',error.message)}}
 }
 async function startNarration(anchor=null,{paused=false}={}){
  const id=anchor?.docId||state.active;
  stopNarration();const token=++narrationToken;
  try{await ensureDoc(id)}catch(error){if(token===narrationToken)toast('This document could not load. Please try again.');return}
  if(token!==narrationToken)return;
- const chunks=narrationChunks(id,anchor);if(!chunks.length)return;
+ const localVoice=await deviceNarrator.ready();if(token!==narrationToken)return;
+ const chunks=narrationChunks(id,anchor);if(!chunks.length){toast('No readable text is available for this document.');return}
  stopArgument();
  const scroll=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`),page=anchor?.page??Number(scroll?visiblePage(scroll):0),offset=anchor?.offset||0;
  let index=chunks.findIndex(c=>c.page>page||c.page===page&&c.sourceStart>=offset);
@@ -1289,46 +1248,83 @@ async function startNarration(anchor=null,{paused=false}={}){
  const previous=index<0?chunks.length-1:index-1;
  if((index<0||chunks[index].page!==page||chunks[index].sourceStart>offset)&&previous>=0&&chunks[previous].page===page&&chunks[previous].sourceStart<=offset&&offset<chunks[previous].sourceEnd)index=previous;
  if(index<0)index=chunks.length-1;
- const n={id,token,index,engine:state.narrationEngine||'natural',voice:'am_michael',loading:true,paused,chunks,cache:new Map(),pending:new Map()};
- if(n.engine==='device'&&voiceWorker){voiceWorker.terminate();voiceWorker=null}
- narration=n;closeReaderMenu();clearSelection();
+ const n={id,token,index,engine:localVoice?'device':'natural',voice:'am_michael',loading:true,paused,chunks,cache:new Map(),pending:new Map()};
+ n.sentences=narrationSentences(chunks);playbackExpanded=true;followTranscript=state.followAudioText!==false;narration=n;openDoc(id,{pdf:false});
+ closeReaderMenu();clearSelection();
  const playback=playNarrationChunk(n,index);
- if(n.engine==='natural')void prepareNarrationDocument(n);
+
  await playback;
 }
 function stopNarration(){deviceNarrator.stop();narrationToken++;narrationAudio.pause();narrationAudio.removeAttribute('src');if(narration)for(const value of narration.cache.values())URL.revokeObjectURL(value.url);narration=null;voiceWorker?.postMessage({type:'cancel',session:narrationToken});for(const p of voicePending.values())p.reject(new Error('Cancelled'));voicePending.clear();CSS.highlights?.delete('narration');document.querySelectorAll('.narrating').forEach(e=>e.classList.remove('narrating'));refreshPlayback()}
 function highlightNarration(el,start,length){if(!CSS.highlights)return;const r=textRange(el,start,start+length);if(r)CSS.highlights.set('narration',new Highlight(r))}
 function showNarrationDock(){refreshPlayback()}
-function narrationIdentity(n){
- const doc=ds(n.id),speaker=doc?.timedSession?.turns[n.chunks[n.index]?.page]?.speaker;
- if(!speaker)return icon('audio');
- const profile=speakerProfile(speaker),src=profile?.illustrationPath||profile?.portraitPath;
- return '<span class="audio-speaker-portrait" role="img" aria-label="'+esc(speaker)+'">'+(src?'<img src="'+esc(src)+'" alt="">':esc(speaker.split(' ').map(word=>word[0]).slice(0,2).join('')))+'</span>';
+
+function listeningContext(){return state.route==='reader'?contextCase(state.active):audioCase?caseMap.get(audioCase):narration?contextCase(narration.id):null}
+function listeningStatus(){
+ const n=narration;
+ if(n?.error)return n.error;
+ if(n?.loading)return voiceReady?'Preparing sentence…':`Loading document voice${voiceProgress!==null?' · '+voiceProgress+'%':''}…`;
+ if(n?.completed)return 'Finished';
+ if(n)return n.paused?'Paused':'Reading aloud';
+ if(argumentError)return argumentError;
+ if(argumentLoading)return 'Loading recording…';
+ return audioCase?(audio.ended?'Finished':audio.paused?'Paused':'Court recording'):'';
 }
-function devicePlaybackControls(n){return `<div class="playback-strip ${playbackExpanded?'expanded':''}" role="group" aria-label="Device narration"><div class="playback-primary">${button(icon(n.paused?'play':'pause'),'playback-toggle','','playback-toggle',`aria-label="${n.paused?'Play':'Pause'}"`)}${button(narrationIdentity(n),'playback-expand','','playback-expand playback-identity',`aria-expanded="${playbackExpanded}" aria-controls="playback-secondary" aria-label="${playbackExpanded?'Collapse':'Expand'} audio controls" title="${playbackExpanded?'Collapse':'Expand'} audio controls"`)}</div><div id="playback-secondary" class="playback-secondary"><select class="playback-speed" aria-label="Playback speed">${[.75,1,1.25,1.5,2].map(v=>`<option value="${v}" ${(state.narrationSpeed||1)===v?'selected':''}>${v}×</option>`).join('')}</select>${button('←','playback-skip','-1','skip-audio',`aria-label="Previous passage" ${n.index===0?'disabled':''}`)}${button('→','playback-skip','1','skip-audio','aria-label="Next passage"')}${state.route!=='reader'?button(icon('file'),'return-audio','','return-audio','aria-label="Return to document"'):''}${button(icon('audio'),'playback-settings','','','aria-label="Audio options"')}${button(icon('close'),'playback-close','','','aria-label="Stop audio"')}</div></div>`}
-function playbackControls(){const n=narration,active=n||audioCase;if(n?.engine==='device')return devicePlaybackControls(n);if(!active)return button(icon('audio')+'Listen','reader-menu','listen','listen-button');const media=n?narrationAudio:audio,paused=n?n.paused:media.paused;
- return `<div class="playback-strip ${playbackExpanded?'expanded':''}" role="group" aria-label="Audio playback"><div class="playback-primary">${button(icon(paused?'play':'pause'),'playback-toggle','','playback-toggle',`aria-label="${paused?'Play':'Pause'}"`)}${button(!n&&currentTimedDoc()?'<span class="audio-speaker-portrait" id="audio-speaker-portrait"></span><span id="current-speaker">Oral argument</span>':n?narrationIdentity(n):icon('audio'),'playback-expand','','playback-expand playback-identity',`aria-expanded="${playbackExpanded}" aria-controls="playback-secondary" aria-label="${playbackExpanded?'Collapse':'Expand'} audio controls" title="${playbackExpanded?'Collapse':'Expand'} audio controls"`)}</div><div id="playback-secondary" class="playback-secondary"><select class="playback-speed" aria-label="Playback speed">${[.75,1,1.25,1.5,2].map(v=>`<option value="${v}" ${(n?state.narrationSpeed||1:audio.playbackRate)===v?'selected':''}>${v}×</option>`).join('')}</select>${button(skipIcon(false),'playback-skip','-10','skip-audio',`aria-label="Back 10 seconds" ${n?.loading?'disabled':''}`)}${button(skipIcon(true),'playback-skip','10','skip-audio',`aria-label="Forward 10 seconds" ${n?.loading?'disabled':''}`)}${state.seekOpen?`<input class="playback-seek" type="range" min="0" max="${Number.isFinite(media.duration)?media.duration:0}" value="${media.currentTime||0}" step="0.1" aria-label="Seek audio">${button(time(media.currentTime),'seek-toggle','','seek-close','aria-label="Show elapsed time"')}`:button(time(n?narrationElapsed():audio.currentTime),'seek-toggle','','playback-time','aria-label="Show audio seek bar"')}${state.route!=='reader'?button(icon('file'),'return-audio','','return-audio','aria-label="Return to transcript or document"'):''}${button(icon('audio'),'playback-settings','','',`aria-label="Audio options"`)}${button(icon('close'),'playback-close','','',`aria-label="Stop audio"`)}</div>${n&&(n.loading||n.preparing)?`<span class="voice-progress" role="status" aria-label="Preparing audio for the entire document: ${narrationPreparationPercent(n)} percent">Preparing audio ${narrationPreparationPercent(n)}%</span>`:''}</div>`}
-function narrationElapsed(){if(!narration)return 0;return [...narration.cache].filter(([index])=>index<narration.index).reduce((n,[,clip])=>n+clip.duration,0)+narrationAudio.currentTime}
+function updateListeningStatus(){const el=document.querySelector('.listening-status'),status=listeningStatus();if(el&&el.textContent!==status)el.textContent=status}
+function playbackControls(){
+ const n=narration,active=n||audioCase,paused=n?n.paused:audio.paused,c=listeningContext(),d=state.route==='reader'?ds(state.active):n?ds(n.id):null;
+ const readable=d&&(d.readerContent||d.textPath||d.timedSession),recording=c?.audio?.url;
+ const docSelected=!!n&&n.id===d?.id,argSelected=!!audioCase&&audioCase===c?.id;
+ const title=n?ds(n.id)?.title:caseMap.get(audioCase)?.name;
+ const sentence=n?narrationSentence(n):0,finished=n?.completed||(!n&&audio.ended),error=n?.error||argumentError;
+ const playLabel=error?'Retry audio':finished?'Replay':paused?'Play':'Pause';
+ const playingDoc=n?.id||currentTimedDoc()?.id;
+ return `<div class="listening-player">${active?button(icon(paused?'play':'pause'),'playback-toggle','','listening-compact-play',`aria-label="${playLabel}"`):''}${button(icon('audio')+`<span>${active?(n?'Document':'Argument'):'Listen'}</span><span class="listening-chevron" aria-hidden="true">${playbackExpanded?'⌃':'⌄'}</span>`,'playback-expand','','listening-trigger',`aria-expanded="${playbackExpanded}" aria-controls="listening-panel"`)}${playbackExpanded?`<section id="listening-panel" class="listening-panel" role="region" aria-label="Listen"><header><strong>Listen</strong>${button(icon('close'),'playback-collapse','','', 'aria-label="Collapse audio controls"')}</header><div class="listening-sources">${button(`<strong>Read document</strong><small>${esc(readable?d.title:'Readable text unavailable')}</small>`,'listening-document','','listening-source',`aria-pressed="${docSelected}" ${readable?'':'disabled'}`)}${button(`<strong>Oral argument</strong><small>${esc(recording?(c.argued?date(c.argued):'Court recording'):'No recording available')}</small>`,'listening-argument',c?.id||'','listening-source',`aria-pressed="${argSelected}" ${recording?'':'disabled'}`)}</div>${active?`<div class="listening-current"><span>${n?'Reading document':'Oral argument'}</span><strong>${esc(title||'Audio')}</strong></div><p class="listening-status ${error?'has-error':''}" role="status">${esc(listeningStatus())}</p>${error?`<div class="listening-recovery">${button('Retry','listening-retry')}</div>`:''}<div class="listening-transport">${button(n?'←':skipIcon(false),'playback-skip','-10','',`aria-label="${n?'Previous sentence':'Back 10 seconds'}" ${n&&sentence===0?'disabled':''}`)}${button(icon(finished?'play':paused?'play':'pause'),'playback-toggle','','listening-play',`aria-label="${playLabel}"`)}${button(n?'→':skipIcon(true),'playback-skip','10','',`aria-label="${n?'Next sentence':'Forward 10 seconds'}" ${n&&sentence===n.sentences.length-1?'disabled':''}`)}</div><div class="listening-position">${n?`<input class="listening-sentence" type="range" min="0" max="${n.sentences.length-1}" step="1" value="${sentence}" aria-label="Sentence" aria-valuetext="Sentence ${sentence+1} of ${n.sentences.length}"><span>Sentence ${sentence+1} of ${n.sentences.length}</span>`:`<input class="playback-seek" type="range" min="0" max="${Number.isFinite(audio.duration)?audio.duration:0}" value="${audio.currentTime||0}" step="0.1" aria-label="Argument position"><span class="listening-time">${time(audio.currentTime)} / ${Number.isFinite(audio.duration)?time(audio.duration):'—'}</span>`}</div><div class="listening-preferences"><label>Speed <select class="playback-speed" aria-label="Playback speed">${[.75,1,1.25,1.5,2].map(v=>`<option value="${v}" ${(n?state.narrationSpeed||1:audio.playbackRate)===v?'selected':''}>${v}×</option>`).join('')}</select></label><label><input class="listening-follow" type="checkbox" ${followTranscript?'checked':''}> Follow text</label></div><footer>${playingDoc&&(state.route!=='reader'||state.active!==playingDoc||isPDF(playingDoc))?button(n?'Show document':'Show transcript','return-audio'):'<span></span>'}${button('Stop','playback-close')}</footer>`:''}</section>`:''}</div>`;
+}
 function refreshPlayback(){let slot=document.querySelector('#reader-playback,#global-playback');if(state.route!=='reader'){if(!audioCase&&!narration){document.querySelector('#global-playback')?.remove();return}if(!slot){app.querySelector('.nav-account')?.insertAdjacentHTML('beforebegin','<div id="global-playback"></div>');slot=document.querySelector('#global-playback')}}if(slot){const focused=slot.contains(document.activeElement)?document.activeElement:null;
  const selector=focused?.dataset.action?'[data-action="'+CSS.escape(focused.dataset.action)+'"][data-value="'+CSS.escape(focused.dataset.value||'')+'"]':focused?.matches('input,select')?'.'+focused.classList[0]:null;
- slot.innerHTML=playbackControls();if(selector)slot.querySelector(selector)?.focus({preventScroll:true});if(audioCase&&!narration)updateTranscript()}}
+ slot.innerHTML=playbackControls();if(selector){const replacement=slot.querySelector((focused.closest('.listening-panel')?'.listening-panel ':'')+selector)||(playbackExpanded?(slot.querySelector('.listening-panel [data-action=playback-toggle]')||slot.querySelector('.listening-source:not(:disabled)')):slot.querySelector('[data-action=playback-expand]'));replacement?.focus({preventScroll:true})}if(audioCase&&!narration)updateTranscript()}}
 async function skipPlayback(seconds){
- if(narration?.engine==='device'){await playNarrationChunk(narration,Math.max(0,narration.index+(seconds<0?-1:1)));return}
  if(!narration){audio.currentTime=Math.max(0,Math.min(Number.isFinite(audio.duration)?audio.duration:Infinity,audio.currentTime+seconds));return}
- const n=narration,request=n.playRequest=(n.playRequest||0)+1,current=()=>n===narration&&n.playRequest===request;
- let index=n.index,position=narrationAudio.currentTime+seconds;
- narrationAudio.pause();n.loading=true;refreshPlayback();
- try{
-  while(position<0&&index>0){const prev=await generateChunk(n,--index,true);if(!current())return;position+=prev.duration}
-  while(index<n.chunks.length-1){const clip=await generateChunk(n,index,true);if(!current())return;if(position<clip.duration)break;position-=clip.duration;index++}
-  if(current())await playNarrationChunk(n,index,Math.max(0,position));
- }catch(error){if(current()){stopNarration();toast('Audio could not be prepared. Start reading again to retry.')}}
+ const n=narration,sentence=Math.max(0,Math.min(n.sentences.length-1,narrationSentence(n)+(seconds<0?-1:1)));
+ await playNarrationChunk(n,n.sentences[sentence]);
 }
+async function toggleListening(){
+ const n=narration;
+ if(n){
+  if(n.error||n.completed){if(n.error&&n.engine==='device')n.engine='natural';n.paused=false;await playNarrationChunk(n,n.completed?0:n.index);return}
+  n.paused=!n.paused;
+  if(n.engine==='device'){if(n.paused)deviceNarrator.pause();else if(deviceNarrator.text)deviceNarrator.resume();else playDeviceNarration(n,n.index)}
+  else if(!n.loading){if(n.paused)narrationAudio.pause();else try{await narrationAudio.play()}catch{n.paused=true}}
+ }else if(audioCase){if(argumentError){await listen(audioCase,audioSession);return}if(audio.paused){if(audio.ended)audio.currentTime=0;try{await audio.play()}catch{argumentError='The recording could not play. Retry.'}}else audio.pause()}
+ refreshPlayback();
+}
+function collapseListening(restoreFocus=false){playbackExpanded=false;refreshPlayback();if(restoreFocus)document.querySelector('[data-action="playback-expand"]')?.focus({preventScroll:true})}
 narrationAudio.addEventListener('ended',()=>{if(narration&&narration.engine!=='device')playNarrationChunk(narration,narration.index+1)});
-narrationAudio.addEventListener('timeupdate',()=>{const label=document.querySelector('.playback-time');if(label&&narration)label.textContent=time(narrationElapsed())});
-document.addEventListener('click',async e=>{const b=e.target.closest('[data-action]'),a=b?.dataset.action;if(a==='export-narration'){await exportNarrationPlan();return}if(a==='narration-mode'){await requestNarrationMode(b.dataset.value);return}if(a==='playback-toggle'){if(narration){narration.paused=!narration.paused;if(narration.engine==='device'){if(narration.paused)deviceNarrator.pause();else if(deviceNarrator.text)deviceNarrator.resume();else playDeviceNarration(narration,narration.index);refreshPlayback();return}if(!narration.loading){if(narration.paused)narrationAudio.pause();else narrationAudio.play().catch(()=>toast('Tap Play to resume.'))}}else if(audio.paused)audio.play().catch(()=>toast('Tap Play to start.'));else audio.pause();refreshPlayback()}else if(a==='playback-close'){stopNarration();stopArgument()}else if(a==='playback-skip')await skipPlayback(Number(b.dataset.value));else if(a==='playback-settings')listenMenu(b);else if(a==='narrate-selection'&&selection&&narration?.id===selection.docId){const x=selection;await startNarration({docId:x.docId,page:x.anchors[0].page,offset:x.anchors[0].start})}});
-document.addEventListener('change',e=>{if(e.target.matches('.playback-speed')){const rate=Number(e.target.value);if(narration){state.narrationSpeed=rate;narrationAudio.playbackRate=rate;if(narration.engine==='device')deviceNarrator.setRate(rate);persist()}else audio.playbackRate=rate}});
-
+narrationAudio.addEventListener('error',()=>{if(narration&&narrationAudio.getAttribute('src')){narration.loading=false;narration.paused=true;narration.error='The document audio could not play. Retry.';refreshPlayback()}});
+document.addEventListener('click',async e=>{
+ const b=e.target.closest('[data-action]'),a=b?.dataset.action;
+ if(playbackExpanded&&!e.target.closest('.listening-player')&&!['listening-argument','listening-document','transcript-seek','listen'].includes(a))collapseListening();
+ if(a==='playback-collapse')collapseListening(true);
+ else if(a==='listening-document'){
+  if(narration?.id===state.active){if(narration.paused)await toggleListening()}
+  else{await startNarration()}
+ }else if(a==='listening-argument'){
+  playbackExpanded=true;
+  if(audioCase===b.dataset.value){openPlayingTranscript();if(audio.paused)await toggleListening()}
+  else await listen(b.dataset.value);
+ }else if(a==='listening-retry'){if(narration){if(narration.engine==='device')narration.engine='natural';narration.paused=false;await playNarrationChunk(narration,narration.index)}else await listen(audioCase,audioSession)}
+ else if(a==='playback-toggle')await toggleListening();
+ else if(a==='playback-close'){stopNarration();stopArgument();document.querySelector('[data-action="listening-document"]:not(:disabled),[data-action="playback-expand"]')?.focus({preventScroll:true})}
+ else if(a==='playback-skip')await skipPlayback(Number(b.dataset.value));
+ else if(a==='narrate-selection'&&selection&&narration?.id===selection.docId){const x=selection;await startNarration({docId:x.docId,page:x.anchors[0].page,offset:x.anchors[0].start})}
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&playbackExpanded){e.preventDefault();collapseListening(true)}});
+document.addEventListener('change',async e=>{
+ if(e.target.matches('.playback-speed')){const rate=Number(e.target.value);if(narration){state.narrationSpeed=rate;narrationAudio.playbackRate=rate;if(narration.engine==='device')deviceNarrator.setRate(rate);persist()}else audio.playbackRate=rate}
+ if(e.target.matches('.listening-sentence')&&narration)await playNarrationChunk(narration,narration.sentences[Number(e.target.value)]);
+ if(e.target.matches('.listening-follow')){followTranscript=e.target.checked;state.followAudioText=followTranscript;persist();if(followTranscript){lastSpokenKey=null;if(narration)highlightNarrationChunk(narration);else updateTranscript()}}
+});
 
 function textRange(el,start,end){const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),r=document.createRange();let n,at=0,begun=false;while(n=w.nextNode()){const next=at+n.length;if(!begun&&start<=next){r.setStart(n,Math.max(0,start-at));begun=true}if(begun&&end<=next){r.setEnd(n,Math.max(0,end-at));return r}at=next}return null}
 function jumpHeading(id,page,offset){if(state.pdfDocs?.includes(id)){jumpPage(id,page);return}const el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"] .page-text[data-page="${page}"]`);if(!el)return;const pos=lowerBound(displayMaps.get(id+':'+page)||[],offset),r=textRange(el,pos,pos+1),scroll=el.closest('.doc-scroll');if(r)scroll.scrollBy({top:r.getBoundingClientRect().top-scroll.getBoundingClientRect().top-30,behavior:'smooth'})}
@@ -1396,7 +1392,7 @@ function footnotesHTML(id,data){const d=ds(id),range=d.sourceRange,items=[];data
 
 function tabLabel(d){if(!d)return 'Document';if(d.editorTitle)return d.title;if(d.timedSession||category(d)==='Argument')return 'Transcript';if(!d.sourceRange&&Object.values(opinionSections).some(list=>list.some(x=>x.parentDocumentId===d.id)))return 'Syllabus & Opinions';if(d.opinionType){if(/per curiam/i.test(d.opinionType))return 'Per Curiam';if(/concur|dissent/i.test(d.opinionType)){const last=(d.opinionAuthor||'').replace(/, Jr\.$/,'').split(' ').at(-1);return (/concur/i.test(d.opinionType)?'Concurrence':'Dissent')+(last?' · '+last:'')}return d.opinionType;}if(isApplication(caseMap.get(d.caseId))){if(/^application\b/i.test(d.title))return 'Application';if(/^response\b/i.test(d.title))return 'Response';if(/^reply\b/i.test(d.title))return 'Reply';}if(category(d)==='Amicus')return amiciName(d);if(/reply/i.test(d.title))return 'Reply Brief';if(category(d)==='Merits'){if(/petitioner/i.test(d.title))return 'Petitioner’s Brief';if(/respondent/i.test(d.title))return 'Respondent’s Brief';return 'Merits Brief'}if(/petition for.*certiorari/i.test(d.title))return 'Cert Petition';return d.title.split(' · ')[0]}
 
-function pauseTranscriptFollowing(event){const target=event.target;if(!audioCase||!(target.closest?.('.conversation')||target.closest?.('.doc-scroll')?.querySelector('.conversation')))return;followTranscript=false;const b=document.querySelector('[data-action=follow-transcript]');if(b){b.classList.remove('active');b.setAttribute('aria-pressed','false');b.textContent='Follow Transcript'}}
+function pauseTranscriptFollowing(event){if((!audioCase&&!narration)||!event.target.closest?.('.doc-scroll'))return;followTranscript=false;const checkbox=document.querySelector('.listening-follow');if(checkbox)checkbox.checked=false}
 document.addEventListener('wheel',pauseTranscriptFollowing,{passive:true});
 document.addEventListener('touchmove',pauseTranscriptFollowing,{passive:true});
 document.addEventListener('keydown',event=>{if(['ArrowUp','ArrowDown','PageUp','PageDown','Home','End',' '].includes(event.key)&&!event.target.closest?.('input,select,textarea,button,[role=button],[contenteditable]'))pauseTranscriptFollowing(event)});
@@ -1466,7 +1462,7 @@ function registerReferenceSummaries() {
   for(const d of catalog.authorities||[]) if(!referenceDocs.has(authorityIdentity(d.referenceKey))) referenceDocs.set(authorityIdentity(d.referenceKey),d.id);
 }
 
-audio.addEventListener('play',()=>{openPlayingTranscript();refreshPlayback()});audio.addEventListener('pause',refreshPlayback);audio.addEventListener('ended',refreshPlayback);
+audio.addEventListener('playing',()=>{argumentLoading=false;argumentError=null;refreshPlayback()});audio.addEventListener('waiting',()=>{if(audioCase){argumentLoading=true;updateListeningStatus()}});audio.addEventListener('play',()=>{openPlayingTranscript();refreshPlayback()});audio.addEventListener('pause',refreshPlayback);audio.addEventListener('ended',refreshPlayback);
 
 function tidyHeadingSpace(value,headings){
  let {text,map}=value;const runs=[];
@@ -1573,7 +1569,7 @@ document.addEventListener('click',async e=>{
  if(a==='playback-expand'){playbackExpanded=!playbackExpanded;refreshPlayback();document.querySelector('[data-action=playback-expand]')?.focus({preventScroll:true})}
  if(a==='edited-heading'){const article=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(state.active)}"] .document-body`);article?.querySelectorAll('.reader-section-heading')[Number(b.dataset.value)]?.scrollIntoView({block:'center'});}
  if(a==='seek-toggle'){state.seekOpen=!state.seekOpen;refreshPlayback()}
- if(a==='return-audio'){const d=narration?ds(narration.id):currentTimedDoc()||caseDocuments(caseMap.get(audioCase)).find(d=>category(d)==='Argument');if(d)openDoc(d.id)}
+ if(a==='return-audio'){const d=narration?ds(narration.id):currentTimedDoc()||caseDocuments(caseMap.get(audioCase)).find(d=>category(d)==='Argument');if(d)openDoc(d.id,{pdf:false})}
  if(a==='references-back'){state.ref=null;refreshSidebar();persist()}
  if(a==='reference-location'){const r=refsIndex.get(v)||state.refs.find(r=>r.key===v);if(r){jumpHeading(r.fromDoc,r.page??Number(r.key.split('|')[2]),r.offset??0)}}
  if(a==='retry-pdf')renderPDF(v);
@@ -1581,8 +1577,8 @@ document.addEventListener('click',async e=>{
  const turn=e.target.closest('.speaker-turn');if(turn&&!b&&!e.target.closest('[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed&&!e.target.closest('a')){const id=turn.closest('[data-document]').dataset.document;await seekTranscriptText(e,turn,id)}
  if(!turn&&narration&&!b&&!e.target.closest('a,[data-ref-key],[data-annotation]')&&window.getSelection()?.isCollapsed){const text=e.target.closest('.page-text'),body=text?.closest('[data-document]');if(body)await seekTranscriptText(e,body,body.dataset.document)}
 });
-document.addEventListener('input',e=>{if(e.target.matches('.playback-volume'))audio.volume=Number(e.target.value);if(e.target.matches('.playback-seek')){const media=narration?narrationAudio:audio;media.currentTime=Number(e.target.value)}});
-function updateSeek(){const media=narration?narrationAudio:audio;const slider=document.querySelector('.playback-seek');if(slider&&document.activeElement!==slider){slider.max=Number.isFinite(media.duration)?media.duration:0;slider.value=media.currentTime}const label=document.querySelector('.playback-time');if(label)label.textContent=time(narration?narrationElapsed():audio.currentTime);const seekLabel=document.querySelector('.seek-close');if(seekLabel)seekLabel.textContent=time(media.currentTime)}
+document.addEventListener('input',e=>{if(e.target.matches('.playback-volume'))audio.volume=Number(e.target.value);if(e.target.matches('.playback-seek')){audio.currentTime=Number(e.target.value)}});
+function updateSeek(){const slider=document.querySelector('.playback-seek');if(slider&&document.activeElement!==slider){slider.max=Number.isFinite(audio.duration)?audio.duration:0;slider.value=audio.currentTime}const label=document.querySelector('.listening-time');if(label)label.textContent=time(audio.currentTime)+' / '+(Number.isFinite(audio.duration)?time(audio.duration):'—')}
 audio.addEventListener('timeupdate',updateSeek);audio.addEventListener('loadedmetadata',updateSeek);narrationAudio.addEventListener('timeupdate',updateSeek);
 // App previews replace native title tooltips on these controls.
 const tooltipObserver=new MutationObserver(records=>{for(const record of records)for(const node of record.addedNodes)if(node.nodeType===1){for(const el of [node,...node.querySelectorAll('[title]')])if(el.hasAttribute('title')&&(el.matches('button,summary,.playback-strip')||el.closest('.reader-shell'))){if(!el.hasAttribute('aria-label')&&el.matches('button,summary'))el.setAttribute('aria-label',el.getAttribute('title'));el.removeAttribute('title')}}});tooltipObserver.observe(document.body,{subtree:true,childList:true});
@@ -1624,8 +1620,10 @@ async function seekTranscriptText(event,turn,id){
  const time=start??Number(event.target.closest('[data-seek-start]')?.dataset.seekStart??turn.dataset.start);
  if(narration){
   if(source===null&&!d.timedSession)return;
-  const offset=(source===null?sentenceAtTime(record,time):sentenceAtOffset(record,source))?.start??source??0;
-  await startNarration({docId:id,page,offset},{paused:narration.paused});
+  const offset=source??sentenceAtTime(record,time)?.start??0;
+  const n=narration;
+  if(n.id===id){const index=n.chunks.findIndex(c=>c.page===page&&(c.highlightEnd??c.sourceEnd)>offset);if(index>=0)await playNarrationChunk(n,index)}
+  else await startNarration({docId:id,page,offset},{paused:n.paused});
   return;
  }
  if(d.timedSession)await listen(d.caseId,d.timedSession.id,time);

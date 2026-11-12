@@ -14,7 +14,7 @@ async function drain(){
    if(!queue.length)continue;
    const data=queue.shift();if(data.session!==latestSession)continue;
    try{
-    const tts=await load();
+    const tts=await load();self.postMessage({type:'ready'});
     // Model initialization can also occupy the worker. Honor a seek queued
     // during startup before spending time synthesizing its obsolete text.
     await new Promise(resolve=>setTimeout(resolve,0));
@@ -28,6 +28,11 @@ async function drain(){
 }
 self.onmessage=({data})=>{
  if(data.type==='cancel'){latestSession=data.session;queue.length=0;return}
+ if(data.type==='window'){
+  if(data.session!==latestSession)return;
+  for(let i=queue.length-1;i>=0;i--)if(queue[i].index<data.start||queue[i].index>data.end){const item=queue.splice(i,1)[0];self.postMessage({type:'cancelled',id:item.id,message:'Cancelled'})}
+  return;
+ }
  if(data.type==='prioritize'){
   if(data.session!==latestSession)return;
   const index=queue.findIndex(item=>item.session===data.session&&item.index===data.index);

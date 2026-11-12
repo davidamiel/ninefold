@@ -6,15 +6,17 @@ export class DeviceNarrator {
   Object.assign(this,{synth,Utterance,onEnd,onError});this.generation=0;this.offset=0;this.utterance=null;
  }
  get supported(){return !!(this.synth&&this.Utterance)}
+ get localVoice(){const voices=this.synth?.getVoices()||[];return voices.find(v=>v.localService&&/^en-US$/i.test(v.lang))||voices.find(v=>v.localService&&/^en\b/i.test(v.lang))}
+ async ready(){
+  if(!this.supported)return false;if(this.localVoice)return true;
+  return new Promise(resolve=>{let timer;const done=()=>{clearTimeout(timer);this.synth.removeEventListener?.('voiceschanged',changed);resolve(!!this.localVoice)},changed=()=>{if(this.localVoice)done()};this.synth.addEventListener?.('voiceschanged',changed);timer=setTimeout(done,1200);changed()});
+ }
  play(text,{rate=1,offset=0}={}) {
   this.stop();this.text=text;this.options={rate};this.offset=Math.max(0,offset);
   if(!this.supported){this.onError('unavailable');return}
   const generation=this.generation,utterance=new this.Utterance(text.slice(this.offset)),base=this.offset;
   this.utterance=utterance;utterance.rate=rate;utterance.lang='en-US';
-  const voices=this.synth.getVoices();
-  // Fast audio is local-only, including when an old saved preference names
-  // an online voice. Never fall back to the browser's possibly remote default.
-  const voice=voices.find(v=>v.localService&&/^en-US$/i.test(v.lang))||voices.find(v=>v.localService&&/^en\b/i.test(v.lang));
+  const voice=this.localVoice;
   if(!voice){this.utterance=null;this.onError('no-local-voice');return}
   utterance.voice=voice;utterance.lang=voice.lang;
   utterance.onboundary=e=>{if(this.generation===generation&&Number.isFinite(e.charIndex))this.offset=base+e.charIndex};
