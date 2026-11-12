@@ -27,12 +27,14 @@ Machine-readable evidence: `dist/data/court-orders.json` records publication sou
 
 ## Reproduction and checks
 
-Use Python with `beautifulsoup4` and `pypdf`. Importers cache official responses under `/tmp/ninefold-orders-audit`; retain the cache to reproduce this snapshot, or remove it before a fresh audit. The application scan requests docket pages with five workers and retains errors for explicit review.
+Install the pinned Python dependencies from `scripts/requirements-orders.txt`. The original audit used `/tmp/ninefold-orders-audit`. Following the importer security review, commands use private, ignored directories under `scripts/cache/` instead; they do not automatically trust or migrate the old shared temporary cache. All three commands accept the same `--cache NAME`, which selects a snapshot name, not an arbitrary path. Retain a snapshot to resume it, or choose a new name for a fresh audit. The application scan requests docket pages with five workers and retains errors for explicit review.
 
 ```sh
-python scripts/import_court_orders.py --term 2026
-python scripts/audit_application_dockets.py
-python scripts/reconcile_emergency_applications.py
+python -m pip install -r scripts/requirements-orders.txt
+python scripts/import_court_orders.py --term 2026 --cache ot26-refresh
+python scripts/audit_application_dockets.py --cache ot26-refresh
+python scripts/reconcile_emergency_applications.py --cache ot26-refresh
+python -m unittest discover -s scripts -p test_order_imports.py
 python scripts/check_orders.py
 python scripts/check_term_reader.py dist
 npm run build
@@ -43,3 +45,11 @@ node scripts/check_pages_artifact.mjs
 Review changes before release, especially renewed applications, interim relief, source failures, and source-index counts. The status parser is an import aid, not a substitute for reading ambiguous proceedings. The application audit's added-record list is relative to the input collection at the time of that run.
 
 Browser review covers desktop, 390px/320px mobile, short landscape, keyboard disclosures and focus, search/type/outcome/sort filters, empty results, loading failure and Retry, related-case navigation, the reader's document explorer, reload/restoration, and minimizing back to Orders. Source integrity checks run during deployment.
+
+## Importer security and reliability checks
+
+Cache directories must belong to the current user and exclude other users. Reads reject symlinks, hardlinks and nonregular files; writes atomically replace cache entries using private files and directory descriptors. Docket IDs and cache names are validated before they enter paths, and generated document paths must remain inside the output tree. Downloads use official Court HTTPS URLs and write bytes through the cache helper rather than giving curl a destination filename. Failed downloads do not become successful cache entries.
+
+Missing captions, malformed proceeding cells, invalid dates, and empty histories become explicit unresolved records. Reconciliation retains an existing case when its new source page cannot be parsed. Label parsing uses normalized strings rather than ambiguous whitespace expressions. Application status interpretation has separate, tested disposition and renewal logic. Import modules perform no network or filesystem work merely by being imported.
+
+Pull requests run the importer regression tests, formatting, lint and complexity checks through `.github/workflows/order-imports.yml`. The regression suite covers the reported path and parsing issues, cache permissions and links, interrupted downloads, long adversarial text, revised opinions, delayed docket updates, and the saved audit's application statuses. The November 12 refactor was also replayed against the saved official responses to compare imported output with the published snapshot.

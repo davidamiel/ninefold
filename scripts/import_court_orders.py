@@ -1,62 +1,244 @@
-"""Import a reproducible inventory of the Court's published OT order documents.
-Run with the project's Python environment (beautifulsoup4 and pypdf).
-Original PDFs are preserved; extracted pages retain their source page boundaries.
-Remove the cache before a new dated audit; cached pages are a reproducible snapshot.
+"""Import official OT order documents, preserving original PDFs and page boundaries.
+
+Dependencies: scripts/requirements-orders.txt. Use a new --cache name for a fresh
+snapshot. Importing this module performs no network requests or filesystem writes.
 """
-from pathlib import Path
+
+import argparse
+import hashlib
+import io
+import re
 from concurrent.futures import ThreadPoolExecutor
-from urllib.parse import urljoin
-from datetime import datetime,timezone
+from datetime import datetime, timezone
+from functools import partial
+from urllib.parse import urljoin, urlsplit
+
+from application_parsing import normalize
 from bs4 import BeautifulSoup
+from order_import_support import (
+    BASE,
+    DIST,
+    JSON_SUFFIX,
+    PrivateCache,
+    add_cache_argument,
+    fetch,
+    official_url,
+    output_path,
+    write_json,
+)
 from pypdf import PdfReader
-import subprocess,json,re,hashlib,io,argparse
-ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/'dist/data';BASE='https://www.supremecourt.gov'
-parser=argparse.ArgumentParser();parser.add_argument('--term',type=int,default=2026);parser.add_argument('--cache',default='/tmp/ninefold-orders-audit');args=parser.parse_args();CACHE=Path(args.cache);CACHE.mkdir(exist_ok=True,parents=True);YEAR=args.term;short=str(YEAR)[-2:]
-def fetch(url):
- p=CACHE/(hashlib.sha256(url.encode()).hexdigest()+('.pdf' if '.pdf' in url.lower() else '.html'))
- if not p.exists():subprocess.run(['curl','-fLsS','--retry','2','--max-time','60',url,'-o',str(p)],check=True)
- return p.read_bytes()
-def dt(text):
- m=re.search(r'\b\d{1,2}/\d{1,2}/\d{2}\b',text)
- return datetime.strptime(m[0],'%m/%d/%y').date().isoformat() if m else None
-def norm(s):return ' '.join(s.split())
-indexes=[('Court orders',f'{BASE}/orders/ordersofthecourt/{short}'),('Opinions relating to orders',f'{BASE}/opinions/relatingtoorders/{short}'),('Orders by circuit',f'{BASE}/orders/ordersbycircuit/{short}'),('Opinions of the Court',f'{BASE}/opinions/slipopinion/{short}')]
-entries={};sources=[]
-for kind,url in indexes:
- soup=BeautifulSoup(fetch(url),'html.parser');found=[]
- if kind in ['Court orders','Orders by circuit']:
-  for a in soup.select('a[href]'):
-   href=urljoin(url,a['href'])
-   if not re.search(r'/orders/(?:courtorders/.*\.pdf$|ordersbycircuit/ordercasebycircuit/)',href,re.I):continue
-   parent=a.parent
-   while parent and not dt(parent.get_text(' ',strip=True)):parent=parent.parent
-   date=dt(parent.get_text(' ',strip=True)) if parent else None
-   if not date:raise ValueError('Missing date '+href)
-   label=norm(a.get_text(' ',strip=True));found.append({'sourceUrl':href,'date':date,'kind':label,'sourceIndex':url})
- else:
-  for tr in soup.select('tr'):
-   text=norm(tr.get_text(' ',strip=True));date=dt(text)
-   if not date:continue
-   links=[a for a in tr.select('a[href]') if re.search(r'/opinions/\d+pdf/.*\.pdf',a['href'],re.I)];a=links[0] if links else None
-   if not a:continue
-   dockets=re.findall(r'\b\d{2}(?:A\d+|[-–]\d+)\b',text)
-   if kind=='Opinions of the Court' and not any('A' in d for d in dockets):continue
-   found.append({'sourceUrl':urljoin(url,a['href']),'revisionSourceUrl':urljoin(url,links[-1]['href']) if len(links)>1 else None,'date':date,'kind':'Opinion on an application' if kind=='Opinions of the Court' else 'Opinion relating to an order','name':norm(a.get_text(' ',strip=True)),'dockets':dockets,'sourceIndex':url})
- for e in found:entries[e['sourceUrl']]=e
- sources.append({'url':url,'kind':kind,'documents':len(found)})
-def extract(e):
- raw=fetch(e['sourceUrl']);reader=PdfReader(io.BytesIO(raw));digest=hashlib.sha256(raw).hexdigest();id='court-order-'+hashlib.sha1(e['sourceUrl'].encode()).hexdigest()[:16]
- pages=[{'number':i+1,'label':str(reader.page_labels[i]),'text':(p.extract_text() or '').replace('\x00','').strip()} for i,p in enumerate(reader.pages)]
- if not any(p['text'] for p in pages):raise ValueError('No readable text: '+e['sourceUrl'])
- text='\n'.join(p['text'] for p in pages);dockets=sorted(set(d.replace('–','-') for d in re.findall(r'\b\d{2}(?:A\s*\d+|[-–]\s*\d+)\b',text)));dockets=[re.sub(r'\s','',d) for d in dockets]
- title=e.get('name') or e['kind'];pdfPath='data/pdfs/'+id+'.pdf';textPath='data/current-docs/'+id+'.json'
- (ROOT/'dist'/pdfPath).write_bytes(raw);(ROOT/'dist'/textPath).write_text(json.dumps({'id':id,'title':title,'sourceUrl':e['sourceUrl'],'pages':pages},ensure_ascii=False)+'\n')
- return {**e,'id':id,'term':YEAR,'title':title,'caseId':'orders-'+str(YEAR),'category':'Other','type':'Order','dockets':dockets,'pdfPath':pdfPath,'textPath':textPath,'pageCount':len(pages),'characterCount':len(text),'sourceSha256':digest,'searchText':norm(text),'extractionStatus':'Extracted'}
-circuit={e['date']:e['sourceUrl'] for e in entries.values() if e['kind']=='Orders by Circuit'}
-with ThreadPoolExecutor(max_workers=4) as pool:documents=list(pool.map(extract,[e for e in entries.values() if e['kind']!='Orders by Circuit']))
-# Circuit lists reorganize the same published order lists; attach as alternate copies.
-for d in documents:
- if d['kind']=='Order List' and d['date'] in circuit:d['circuitSourceUrl']=circuit[d['date']]
-result={'schema':1,'checkedAt':datetime.now(timezone.utc).isoformat(),'terms':[YEAR],'sources':sources,'documents':sorted(documents,key=lambda d:(d['date'],d['id']),reverse=True)}
-(DATA/'court-orders.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-print(json.dumps({'documents':len(documents),'sources':sources,'latest':max(d['date'] for d in documents)},indent=2))
+
+COURT_ORDERS = "Court orders"
+RELATED_OPINIONS = "Opinions relating to orders"
+CIRCUIT_ORDERS = "Orders by circuit"
+COURT_OPINIONS = "Opinions of the Court"
+CIRCUIT_DOCUMENT = "Orders by Circuit"
+ORDER_LIST = "Order List"
+INDEX_DATE = re.compile(r"\b[0-9]{1,2}/[0-9]{1,2}/[0-9]{2}\b")
+DOCKET = re.compile(r"\b[0-9]{2}(?:A\s*[0-9]+|[-–]\s*[0-9]+)\b")
+
+
+def source_indexes(term):
+    short = str(term)[-2:]
+    return [
+        (COURT_ORDERS, f"{BASE}/orders/ordersofthecourt/{short}"),
+        (RELATED_OPINIONS, f"{BASE}/opinions/relatingtoorders/{short}"),
+        (CIRCUIT_ORDERS, f"{BASE}/orders/ordersbycircuit/{short}"),
+        (COURT_OPINIONS, f"{BASE}/opinions/slipopinion/{short}"),
+    ]
+
+
+def index_date(text):
+    match = INDEX_DATE.search(text)
+    return datetime.strptime(match[0], "%m/%d/%y").date().isoformat() if match else None
+
+
+def order_entries(soup, index_url):
+    entries = []
+    for anchor in soup.select("a[href]"):
+        url = urljoin(index_url, anchor["href"])
+        path = urlsplit(url).path.lower()
+        is_order_pdf = path.startswith("/orders/courtorders/") and path.endswith(".pdf")
+        if not is_order_pdf and not path.startswith(
+            "/orders/ordersbycircuit/ordercasebycircuit/"
+        ):
+            continue
+        official_url(url)
+        parent = anchor.parent
+        date = None
+        while parent is not None and date is None:
+            date = index_date(parent.get_text(" ", strip=True))
+            parent = parent.parent
+        if date is None:
+            raise ValueError("Missing publication date: " + url)
+        entries.append(
+            {
+                "sourceUrl": url,
+                "date": date,
+                "kind": normalize(anchor.get_text(" ", strip=True)),
+                "sourceIndex": index_url,
+            }
+        )
+    return entries
+
+
+def opinion_entries(soup, index_url, kind):
+    entries = []
+    for row in soup.select("tr"):
+        text = normalize(row.get_text(" ", strip=True))
+        date = index_date(text)
+        if date is None:
+            continue
+        links = [
+            anchor
+            for anchor in row.select("a[href]")
+            if re.search(r"/opinions/[0-9]+pdf/", anchor["href"], re.IGNORECASE)
+            and urlsplit(anchor["href"]).path.lower().endswith(".pdf")
+        ]
+        if not links:
+            continue
+        dockets = DOCKET.findall(text)
+        if kind == COURT_OPINIONS and not any("A" in docket for docket in dockets):
+            continue
+        url = official_url(urljoin(index_url, links[0]["href"]))
+        revision = (
+            official_url(urljoin(index_url, links[-1]["href"]))
+            if len(links) > 1
+            else None
+        )
+        entries.append(
+            {
+                "sourceUrl": url,
+                "revisionSourceUrl": revision,
+                "date": date,
+                "kind": "Opinion on an application"
+                if kind == COURT_OPINIONS
+                else "Opinion relating to an order",
+                "name": normalize(links[0].get_text(" ", strip=True)),
+                "dockets": dockets,
+                "sourceIndex": index_url,
+            }
+        )
+    return entries
+
+
+def inventory(cache, term):
+    entries = {}
+    sources = []
+    for kind, url in source_indexes(term):
+        soup = BeautifulSoup(fetch(cache, url), "html.parser")
+        if kind in (COURT_ORDERS, CIRCUIT_ORDERS):
+            found = order_entries(soup, url)
+        else:
+            found = opinion_entries(soup, url, kind)
+        entries.update({entry["sourceUrl"]: entry for entry in found})
+        sources.append({"url": url, "kind": kind, "documents": len(found)})
+    return list(entries.values()), sources
+
+
+def extract_order(entry, *, cache, term, dist):
+    raw = fetch(cache, entry["sourceUrl"])
+    reader = PdfReader(io.BytesIO(raw))
+    document_id = (
+        "court-order-" + hashlib.sha1(entry["sourceUrl"].encode()).hexdigest()[:16]
+    )
+    pages = [
+        {
+            "number": number + 1,
+            "label": str(reader.page_labels[number]),
+            "text": (page.extract_text() or "").replace("\x00", "").strip(),
+        }
+        for number, page in enumerate(reader.pages)
+    ]
+    if not any(page["text"] for page in pages):
+        raise ValueError("No readable text: " + entry["sourceUrl"])
+    text = "\n".join(page["text"] for page in pages)
+    # Preserve the established ordering while normalizing extracted whitespace.
+    dockets = [
+        "".join(docket.split())
+        for docket in sorted({d.replace("–", "-") for d in DOCKET.findall(text)})
+    ]
+    title = entry.get("name") or entry["kind"]
+    pdf_path = "data/pdfs/" + document_id + ".pdf"
+    text_path = "data/current-docs/" + document_id + JSON_SUFFIX
+    output_path(dist, pdf_path).write_bytes(raw)
+    write_json(
+        output_path(dist, text_path),
+        {
+            "id": document_id,
+            "title": title,
+            "sourceUrl": entry["sourceUrl"],
+            "pages": pages,
+        },
+    )
+    return {
+        **entry,
+        "id": document_id,
+        "term": term,
+        "title": title,
+        "caseId": "orders-" + str(term),
+        "category": "Other",
+        "type": "Order",
+        "dockets": dockets,
+        "pdfPath": pdf_path,
+        "textPath": text_path,
+        "pageCount": len(pages),
+        "characterCount": len(text),
+        "sourceSha256": hashlib.sha256(raw).hexdigest(),
+        "searchText": normalize(text),
+        "extractionStatus": "Extracted",
+    }
+
+
+def import_orders(cache, term, *, dist=DIST):
+    entries, sources = inventory(cache, term)
+    circuits = {
+        entry["date"]: entry["sourceUrl"]
+        for entry in entries
+        if entry["kind"] == CIRCUIT_DOCUMENT
+    }
+    extractor = partial(extract_order, cache=cache, term=term, dist=dist)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        documents = list(
+            pool.map(
+                extractor,
+                (entry for entry in entries if entry["kind"] != CIRCUIT_DOCUMENT),
+            )
+        )
+    if not documents:
+        raise ValueError(
+            "No order documents found; refusing to replace the existing inventory"
+        )
+    for document in documents:
+        if document["kind"] == ORDER_LIST and document["date"] in circuits:
+            document["circuitSourceUrl"] = circuits[document["date"]]
+    result = {
+        "schema": 1,
+        "checkedAt": datetime.now(timezone.utc).isoformat(),
+        "terms": [term],
+        "sources": sources,
+        "documents": sorted(
+            documents,
+            key=lambda document: (document["date"], document["id"]),
+            reverse=True,
+        ),
+    }
+    write_json(output_path(dist, "data/court-orders" + JSON_SUFFIX), result)
+    return result
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--term", type=int, default=2026, choices=range(2000, 2100), metavar="YEAR"
+    )
+    add_cache_argument(parser)
+    args = parser.parse_args()
+    result = import_orders(PrivateCache(args.cache), args.term)
+    print(
+        f"Imported {len(result['documents'])} order documents from {len(result['sources'])} indexes."
+    )
+
+
+if __name__ == "__main__":
+    main()
