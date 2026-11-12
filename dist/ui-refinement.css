@@ -157,7 +157,7 @@ body:not(.reader-mode) #app>.main.emergency-page{gap:14px}
 .emergency-history li:last-child{border-bottom:0;padding-bottom:0}
 .emergency-history li time{font-size:12px;line-height:1.6;color:var(--muted)}
 .emergency-history li p{font-size:14px;line-height:1.6;margin:0;overflow-wrap:anywhere}
-.emergency-matter:has(.emergency-history[open]) .application-latest{display:none}
+/* Keep the preview and disclosure in place; only the history grows below it. */
 .emergency-page .empty{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:40px 24px}
 .emergency-page .empty p{line-height:1.6;margin:0 auto 16px}
 @media(max-width:1100px){
