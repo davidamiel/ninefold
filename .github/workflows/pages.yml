@@ -30,6 +30,7 @@ jobs:
       - name: Validate packaged website
         run: |
           python scripts/check_term_reader.py out
+          python scripts/check_orders.py
           node scripts/check_pages_artifact.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
