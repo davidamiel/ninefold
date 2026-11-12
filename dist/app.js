@@ -723,7 +723,20 @@ function readSelection(){const s=window.getSelection();if(!s||s.isCollapsed||!s.
 function addAnnotation(color='yellow',comment=false){if(!selection?.quote?.trim())return;const n={id:crypto.randomUUID(),...selection,color,comment:'',createdAt:new Date().toISOString(),sourceUrl:ds(selection.docId)?.sourceUrl};state.notes.push(n);state.focusedNote=n.id;clearSelection();window.getSelection()?.removeAllRanges();refreshDocuments();if(state.side&&state.tool==='notes')refreshSidebar();persist();if(comment)requestAnimationFrame(()=>{const trigger=app.querySelector(`[data-annotation="${n.id}"]`);if(trigger)showNoteEditor(trigger,n.id)});else toast('Highlight saved')}
 async function goNote(id){const n=state.notes.find(x=>x.id===id);if(!n)return;state.focusedNote=id;const targetId=canonicalDocId(n.docId),target=ds(targetId);const pdf=target?.timedSession?(n.sourceDocId||n.docId)===target.pdfSourceId:undefined;openDoc(targetId,{pdf});await ensureDoc(targetId);if(state.pdfDocs?.includes(targetId))await renderPDF(targetId);if(nativePDF(targetId)){jumpPage(targetId,n.anchors?.[0]?.page??n.pdfRects?.[0]?.page??n.page??0);return}const p=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(canonicalDocId(n.docId))}"]`);const mark=p?.querySelector(`[data-annotation="${CSS.escape(id)}"]`);if(mark)for(const detail of p.querySelectorAll('details'))if(detail.contains(mark))detail.open=true;(mark||p?.querySelector(`[data-page="${n.anchors?.[0]?.page??n.page??0}"]`))?.scrollIntoView({block:'center',behavior:'smooth'})}
 function exportNotes(){const data={format:'court-reader-annotations-v1',exportedAt:new Date().toISOString(),term:catalog.term,annotations:state.notes.map(n=>({...n,documentTitle:ds(n.docId)?.title,caseName:caseMap.get(ds(n.docId)?.caseId)?.name})),savedCases:state.saved.map(id=>caseMap.get(id)).filter(Boolean).map(c=>({id:c.id,name:c.name,sourceUrl:c.sourceUrl}))};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='court-reader-annotations.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
-async function listen(id,sessionId=null,start=null){const c=caseMap.get(id),sessions=argumentAlignment[id]?.sessions||[],session=sessions.find(s=>s.id===sessionId)||sessions[0];const url=session?.audioUrl||c?.audio?.url;if(!url)return;stopNarration();if(audioCase!==id||audioSession!==(session?.id||null)){audioCase=id;audioSession=session?.id||null;audio.src=url}if(start!==null)audio.currentTime=start;try{await audio.play();if(audioCase!==id||audioSession!==(session?.id||null))return;if('mediaSession'in navigator){navigator.mediaSession.metadata=new MediaMetadata({title:c.name,artist:'Supreme Court of the United States'});navigator.mediaSession.setActionHandler('play',()=>audio.play());navigator.mediaSession.setActionHandler('pause',()=>audio.pause())}}catch{toast('Tap Play to start the recording.')}refreshPlayback();closeReaderMenu()}
+// Starting a recording in the reader keeps its transcript beside the open filings.
+// Use the canonical timed document when available, and reuse an existing tab.
+function openPlayingTranscript(){
+ if(state.route!=='reader'||!audioCase)return;
+ const c=caseMap.get(audioCase);
+ const transcript=currentTimedDoc()||caseDocuments(c).find(d=>category(d)==='Argument'&&!d.auxiliary);
+ if(!transcript)return;
+ const id=canonicalDocId(transcript.id);
+ if(state.active!==id||state.pdfDocs?.includes(id)){
+  openDoc(id,{pdf:false});
+  focusActiveTab();
+ }
+}
+async function listen(id,sessionId=null,start=null){const c=caseMap.get(id),sessions=argumentAlignment[id]?.sessions||[],session=sessions.find(s=>s.id===sessionId)||sessions[0];const url=session?.audioUrl||c?.audio?.url;if(!url)return;stopNarration();if(audioCase!==id||audioSession!==(session?.id||null)){audioCase=id;audioSession=session?.id||null;audio.src=url}if(start!==null)audio.currentTime=start;openPlayingTranscript();try{await audio.play();if(audioCase!==id||audioSession!==(session?.id||null))return;if('mediaSession'in navigator){navigator.mediaSession.metadata=new MediaMetadata({title:c.name,artist:'Supreme Court of the United States'});navigator.mediaSession.setActionHandler('play',()=>audio.play());navigator.mediaSession.setActionHandler('pause',()=>audio.pause())}}catch{toast('Tap Play to start the recording.')}refreshPlayback();closeReaderMenu()}
 
 function jumpPage(id,index){const p=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`);if(p?._pdfPreparing){p._pdfJump=index;return}const frame=nativePDF(id);if(frame){const source=pdfSources(ds(id),ds).find(s=>new URL(s.url,location.href).href.split('#')[0]===frame.src.split('#')[0]);frame.src=nativePDFURL(frame.src,source?.sliced?Math.max(0,index-(ds(id)?.sourceRange?.startPage||0)):index,location.href);state.positions[id+':pdf']={page:index,scroll:0};persist();return}p?.querySelector(`.source-page[data-page="${index}"]`)?.scrollIntoView({block:'start',behavior:'smooth'})}
 function route(name){storePositions();saveWorkspace();state.route=name;clearPeek();overlays.querySelector('.selection-tools')?.remove();render();if(name!=='reader')window.scrollTo(0,0)}
@@ -1452,7 +1465,7 @@ function registerReferenceSummaries() {
   for(const d of catalog.authorities||[]) if(!referenceDocs.has(authorityIdentity(d.referenceKey))) referenceDocs.set(authorityIdentity(d.referenceKey),d.id);
 }
 
-audio.addEventListener('play',refreshPlayback);audio.addEventListener('pause',refreshPlayback);audio.addEventListener('ended',refreshPlayback);
+audio.addEventListener('play',()=>{openPlayingTranscript();refreshPlayback()});audio.addEventListener('pause',refreshPlayback);audio.addEventListener('ended',refreshPlayback);
 
 function tidyHeadingSpace(value,headings){
  let {text,map}=value;const runs=[];
