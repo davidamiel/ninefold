@@ -1,0 +1,1945 @@
+{
+  "checkedAt": "2026-11-12T16:06:40.251493+00:00",
+  "term": 2026,
+  "termStart": "2026-10-05",
+  "scanRanges": [
+    "26A1–26A750",
+    "25A1–25A1650"
+  ],
+  "checkedIds": 2400,
+  "foundDockets": 1905,
+  "unresolvedDockets": [
+    {
+      "id": "25A1187",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1189",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1188",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1190",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1191",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1193",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1192",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1194",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1195",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1196",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1197",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1198",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1200",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1201",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1199",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1202",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1203",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1204",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1205",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1206",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1208",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1207",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1209",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1210",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1211",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1213",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1212",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1214",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1215",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1216",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1217",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1218",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1219",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1220",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1221",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1222",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1223",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1225",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1226",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1224",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1228",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1227",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1229",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1231",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1230",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1232",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1233",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1234",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1235",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1236",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1238",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1237",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1239",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1240",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1241",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1242",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1244",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1245",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1246",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1243",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1247",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1248",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1250",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1249",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1251",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1253",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1252",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1256",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1255",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1254",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1258",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1257",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1260",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1259",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1261",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1262",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1263",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1264",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1265",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1266",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1267",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1268",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1269",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1270",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1271",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1273",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1275",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1272",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1276",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1274",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1277",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1279",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1281",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1278",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1280",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1282",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1284",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1285",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1283",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1286",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1289",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1288",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1291",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1287",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1290",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1292",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1293",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1294",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1296",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1295",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1299",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1298",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1300",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1297",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1301",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1302",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1303",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1305",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1304",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1306",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1307",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1308",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1310",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1309",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1311",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1313",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1315",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1312",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1314",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1316",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1319",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1318",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1321",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1320",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1317",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1322",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1323",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1326",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1325",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1324",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1328",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1327",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1330",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1331",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1329",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1332",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1333",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1335",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1336",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1334",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1338",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1337",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1339",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1340",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1341",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1343",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1345",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1344",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1346",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1342",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1351",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1350",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1348",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1349",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1347",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1353",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1354",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1355",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1356",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1352",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1357",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1358",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1359",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1360",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1361",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1364",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1363",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1362",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1365",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1366",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1367",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1369",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1368",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1370",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1371",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1372",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1374",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1373",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1375",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1376",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1378",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1379",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1377",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1381",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1380",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1384",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1382",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1383",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1385",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1386",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1388",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1389",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1387",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1390",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1391",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1395",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1396",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1393",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1394",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1392",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1398",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1399",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1401",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1397",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1400",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1405",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1402",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1403",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1404",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1406",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1409",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1408",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1411",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1407",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1410",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1413",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1414",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1412",
+      "status": "error",
+      "http": "403"
+    },
+    {
+      "id": "25A1415",
+      "status": "error",
+      "http": "403"
+    }
+  ],
+  "included": [
+    {
+      "id": "26A36",
+      "status": "Decided",
+      "lastActivity": "2026-10-13",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a36.html"
+    },
+    {
+      "id": "26A97",
+      "status": "Decided",
+      "lastActivity": "2026-10-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a97.html"
+    },
+    {
+      "id": "26A163",
+      "status": "Pending",
+      "lastActivity": "2026-07-22",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a163.html"
+    },
+    {
+      "id": "26A164",
+      "status": "Decided",
+      "lastActivity": "2026-10-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a164.html"
+    },
+    {
+      "id": "26A167",
+      "status": "Decided",
+      "lastActivity": "2026-10-13",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a167.html"
+    },
+    {
+      "id": "26A237",
+      "status": "Decided",
+      "lastActivity": "2026-10-19",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a237.html"
+    },
+    {
+      "id": "26A245",
+      "status": "Decided",
+      "lastActivity": "2026-11-09",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a245.html"
+    },
+    {
+      "id": "26A263",
+      "status": "Decided",
+      "lastActivity": "2026-10-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a263.html"
+    },
+    {
+      "id": "26A265",
+      "status": "Decided",
+      "lastActivity": "2026-10-19",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a265.html"
+    },
+    {
+      "id": "26A338",
+      "status": "Decided",
+      "lastActivity": "2026-11-09",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a338.html"
+    },
+    {
+      "id": "26A397",
+      "status": "Decided",
+      "lastActivity": "2026-11-09",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a397.html"
+    },
+    {
+      "id": "26A416",
+      "status": "Decided",
+      "lastActivity": "2026-10-21",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a416.html"
+    },
+    {
+      "id": "26A422",
+      "status": "Pending",
+      "lastActivity": "2026-10-28",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a422.html"
+    },
+    {
+      "id": "26A446",
+      "status": "Decided",
+      "lastActivity": "2026-10-13",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a446.html"
+    },
+    {
+      "id": "26A449",
+      "status": "Pending",
+      "lastActivity": "2026-10-28",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a449.html"
+    },
+    {
+      "id": "26A455",
+      "status": "Decided",
+      "lastActivity": "2026-10-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a455.html"
+    },
+    {
+      "id": "26A457",
+      "status": "Decided",
+      "lastActivity": "2026-10-08",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a457.html"
+    },
+    {
+      "id": "26A456",
+      "status": "Decided",
+      "lastActivity": "2026-10-07",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a456.html"
+    },
+    {
+      "id": "26A458",
+      "status": "Pending",
+      "lastActivity": "2026-11-11",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a458.html"
+    },
+    {
+      "id": "26A459",
+      "status": "Decided",
+      "lastActivity": "2026-10-07",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a459.html"
+    },
+    {
+      "id": "26A470",
+      "status": "Decided",
+      "lastActivity": "2026-10-07",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a470.html"
+    },
+    {
+      "id": "26A471",
+      "status": "Decided",
+      "lastActivity": "2026-10-13",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a471.html"
+    },
+    {
+      "id": "26A476",
+      "status": "Decided",
+      "lastActivity": "2026-10-14",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a476.html"
+    },
+    {
+      "id": "26A477",
+      "status": "Decided",
+      "lastActivity": "2026-10-14",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a477.html"
+    },
+    {
+      "id": "26A489",
+      "status": "Decided",
+      "lastActivity": "2026-10-14",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a489.html"
+    },
+    {
+      "id": "26A499",
+      "status": "Decided",
+      "lastActivity": "2026-10-26",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a499.html"
+    },
+    {
+      "id": "26A500",
+      "status": "Decided",
+      "lastActivity": "2026-10-27",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a500.html"
+    },
+    {
+      "id": "26A508",
+      "status": "Pending",
+      "lastActivity": "2026-11-04",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a508.html"
+    },
+    {
+      "id": "26A509",
+      "status": "Decided",
+      "lastActivity": "2026-10-20",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a509.html"
+    },
+    {
+      "id": "26A510",
+      "status": "Decided",
+      "lastActivity": "2026-10-16",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a510.html"
+    },
+    {
+      "id": "26A512",
+      "status": "Decided",
+      "lastActivity": "2026-10-22",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a512.html"
+    },
+    {
+      "id": "26A517",
+      "status": "Decided",
+      "lastActivity": "2026-10-17",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a517.html"
+    },
+    {
+      "id": "26A521",
+      "status": "Decided",
+      "lastActivity": "2026-10-19",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a521.html"
+    },
+    {
+      "id": "26A524",
+      "status": "Decided",
+      "lastActivity": "2026-10-20",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a524.html"
+    },
+    {
+      "id": "26A530",
+      "status": "Decided",
+      "lastActivity": "2026-10-20",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a530.html"
+    },
+    {
+      "id": "26A532",
+      "status": "Pending",
+      "lastActivity": "2026-10-29",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a532.html"
+    },
+    {
+      "id": "26A535",
+      "status": "Decided",
+      "lastActivity": "2026-10-25",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a535.html"
+    },
+    {
+      "id": "26A536",
+      "status": "Decided",
+      "lastActivity": "2026-10-20",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a536.html"
+    },
+    {
+      "id": "26A545",
+      "status": "Pending",
+      "lastActivity": "2026-11-04",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a545.html"
+    },
+    {
+      "id": "26A555",
+      "status": "Decided",
+      "lastActivity": "2026-10-22",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a555.html"
+    },
+    {
+      "id": "26A556",
+      "status": "Decided",
+      "lastActivity": "2026-10-22",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a556.html"
+    },
+    {
+      "id": "26A560",
+      "status": "Decided",
+      "lastActivity": "2026-11-09",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a560.html"
+    },
+    {
+      "id": "26A581",
+      "status": "Decided",
+      "lastActivity": "2026-10-26",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a581.html"
+    },
+    {
+      "id": "26A602",
+      "status": "Decided",
+      "lastActivity": "2026-11-03",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a602.html"
+    },
+    {
+      "id": "26A605",
+      "status": "Decided",
+      "lastActivity": "2026-11-03",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a605.html"
+    },
+    {
+      "id": "26A606",
+      "status": "Decided",
+      "lastActivity": "2026-11-02",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a606.html"
+    },
+    {
+      "id": "26A613",
+      "status": "Decided",
+      "lastActivity": "2026-11-01",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a613.html"
+    },
+    {
+      "id": "26A612",
+      "status": "Pending",
+      "lastActivity": "2026-11-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a612.html"
+    },
+    {
+      "id": "26A618",
+      "status": "Decided",
+      "lastActivity": "2026-10-30",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a618.html"
+    },
+    {
+      "id": "26A617",
+      "status": "Decided",
+      "lastActivity": "2026-10-30",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a617.html"
+    },
+    {
+      "id": "26A619",
+      "status": "Decided",
+      "lastActivity": "2026-11-03",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a619.html"
+    },
+    {
+      "id": "26A623",
+      "status": "Decided",
+      "lastActivity": "2026-11-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a623.html"
+    },
+    {
+      "id": "26A624",
+      "status": "Decided",
+      "lastActivity": "2026-11-02",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a624.html"
+    },
+    {
+      "id": "26A634",
+      "status": "Decided",
+      "lastActivity": "2026-11-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a634.html"
+    },
+    {
+      "id": "26A637",
+      "status": "Decided",
+      "lastActivity": "2026-11-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a637.html"
+    },
+    {
+      "id": "26A636",
+      "status": "Decided",
+      "lastActivity": "2026-11-04",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a636.html"
+    },
+    {
+      "id": "26A644",
+      "status": "Decided",
+      "lastActivity": "2026-11-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a644.html"
+    },
+    {
+      "id": "26A658",
+      "status": "Pending",
+      "lastActivity": "2026-11-02",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a658.html"
+    },
+    {
+      "id": "26A657",
+      "status": "Pending",
+      "lastActivity": "2026-11-02",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a657.html"
+    },
+    {
+      "id": "26A661",
+      "status": "Decided",
+      "lastActivity": "2026-11-12",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a661.html"
+    },
+    {
+      "id": "25A622",
+      "status": "Pending",
+      "lastActivity": "2025-11-18",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/25a622.html"
+    },
+    {
+      "id": "25A1448",
+      "status": "Decided",
+      "lastActivity": "2026-10-05",
+      "sourceUrl": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/25a1448.html"
+    }
+  ],
+  "newDockets": [
+    "26A163",
+    "26A422",
+    "26A449",
+    "26A455",
+    "26A457",
+    "26A458",
+    "26A471",
+    "26A489",
+    "26A499",
+    "26A508",
+    "26A509",
+    "26A510",
+    "26A517",
+    "26A521",
+    "26A530",
+    "26A532",
+    "26A535",
+    "26A536",
+    "26A545",
+    "26A555",
+    "26A556",
+    "26A581",
+    "26A602",
+    "26A605",
+    "26A606",
+    "26A613",
+    "26A612",
+    "26A618",
+    "26A617",
+    "26A619",
+    "26A637",
+    "26A636",
+    "26A644",
+    "26A658",
+    "26A657",
+    "26A661",
+    "25A622"
+  ],
+  "updatedDockets": [
+    "26A36",
+    "26A97",
+    "26A164",
+    "26A167",
+    "26A237",
+    "26A245",
+    "26A263",
+    "26A265",
+    "26A338",
+    "26A397",
+    "26A416",
+    "26A446",
+    "26A456",
+    "26A459",
+    "26A470",
+    "26A476",
+    "26A477",
+    "26A500",
+    "26A512",
+    "26A524",
+    "26A560",
+    "26A623",
+    "26A624",
+    "26A634",
+    "25A1448"
+  ],
+  "pendingDockets": [
+    "26A163",
+    "26A422",
+    "26A449",
+    "26A458",
+    "26A508",
+    "26A532",
+    "26A545",
+    "26A612",
+    "26A658",
+    "26A657",
+    "25A622"
+  ],
+  "addedFilingCandidates": 60,
+  "unavailablePublicFiles": [
+    {
+      "caseId": "26A163",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A163/418207/20260805145918097_26A163.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A163/418207/20260805145918097_26A163.pdf', '-o', '/tmp/ninefold-orders-audit/a703d22249850665386cbc31f424f028c1776dd47cabf983778f7e81925f827e.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A422",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A422/425898/20260928165925847_scan_kratliff_2026-09-28-15-41-18.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A422/425898/20260928165925847_scan_kratliff_2026-09-28-15-41-18.pdf', '-o', '/tmp/ninefold-orders-audit/d65b6067bfed857bd2f3a57a1d0b6be34226a571b8d5a4c15cf07dba4d07f8c9.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A446",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A446/428658/20261006152732136_2026-10-06%20Wagner%20SCOTUS%20Letter.pdf",
+      "title": "Letter of applicant Kyle Wagner",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A446/428658/20261006152732136_2026-10-06%20Wagner%20SCOTUS%20Letter.pdf', '-o', '/tmp/ninefold-orders-audit/93c20eb6c2ec26d8c420c83ba29f06ba411b254288b047d0bf84f9df41afe4b8.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A449",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A449/428352/20261002161514837_26A449.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A449/428352/20261002161514837_26A449.pdf', '-o', '/tmp/ninefold-orders-audit/d22740fc755469cccb5d41c1222889943b2c5c71e0796a75a0419e59d6eff5da.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A455",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A455/428520/20261005160648609_Faust%20et%20al._Emergency%20Application.pdf",
+      "title": "Application for an injunction",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A455/428520/20261005160648609_Faust%20et%20al._Emergency%20Application.pdf', '-o', '/tmp/ninefold-orders-audit/fb356836021e205f11deb20e46822e0300ac53de541ab85bdfe3362d4b740404.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A457",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A457/428270/20261002121156334_OConnor%20v%20Eubanks%20Stay%20Application%20A.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A457/428270/20261002121156334_OConnor%20v%20Eubanks%20Stay%20Application%20A.pdf', '-o', '/tmp/ninefold-orders-audit/22842a579837ea3d86df2e982b65a8d44866fef066a7caec1715661995ec0d21.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A457",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A457/428270/20261002121210181_App%20Appx%20A.pdf",
+      "title": "Appendix to the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A457/428270/20261002121210181_App%20Appx%20A.pdf', '-o', '/tmp/ninefold-orders-audit/c945e4388de64a76edd93d1a328ad3ad676e79fd40cfb2be94d1efccea0b5909.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/428369/20261002172555997_KMK%20v%20WIAA%20SCOTUS%20Application%20with%20Appendix.pdf",
+      "title": "Appendix to the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/428369/20261002172555997_KMK%20v%20WIAA%20SCOTUS%20Application%20with%20Appendix.pdf', '-o', '/tmp/ninefold-orders-audit/7eb0906f1ca19aecc460e8d5eb4a61e7ce3db44f69a4d30fb7df7ae7a4aeb53c.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/428823/20261007225906273_SCOTUS%20Amicus%20ISO%20Application%20-%20Brown%20v.%20WIAA.pdf",
+      "title": "Amicus brief of State of Iowa submitted.",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/428823/20261007225906273_SCOTUS%20Amicus%20ISO%20Application%20-%20Brown%20v.%20WIAA.pdf', '-o', '/tmp/ninefold-orders-audit/c4a195f3cdfa46927a039eb2e4737a147e641cce4a6cdd2b22b66eb14b3669ce.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/428956/20261008152341048_Amicui%20Brief%20in%20Support%20of%20Applicants%20Emergency%20Application.pdf",
+      "title": "Brief amici curiae of Independent Council on Women's Sports, et al.",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/428956/20261008152341048_Amicui%20Brief%20in%20Support%20of%20Applicants%20Emergency%20Application.pdf', '-o', '/tmp/ninefold-orders-audit/26a80a3f357aebb01ec2f98f3b63e2ebdbf5e5392c102c30741b604c5a6e81bb.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/429148/20261009160714401_26A458%20Amici%20Brief%20in%20Support%20of%20Application.pdf",
+      "title": "Brief amici curiae of Jessica Hoefer and Soleil Hoefer",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/429148/20261009160714401_26A458%20Amici%20Brief%20in%20Support%20of%20Application.pdf', '-o', '/tmp/ninefold-orders-audit/52ee82f7f581665eb5db0ab72fef93ed7d70f4e83a7edfe1c3e5b572608bb430.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/429146/20261009160118529_K.M.K.%20-%20DNH%20-%20SCOTUS%20Emergency%20Amicus%20vpf.pdf",
+      "title": "Brief amicus curiae of Do No Harm, Inc.",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/429146/20261009160118529_K.M.K.%20-%20DNH%20-%20SCOTUS%20Emergency%20Amicus%20vpf.pdf', '-o', '/tmp/ninefold-orders-audit/630038419663275643eafa4aa44beff41ef894a5907fccedd788bf29b25127b0.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/429313/20261013140622646_Opposition%20of%20Respondent%20Puyallup%20School%20District%20to%20Emergency%20Application%20for%20an%20Injunction%20Pending%20Appeal.pdf",
+      "title": "Response to the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/429313/20261013140622646_Opposition%20of%20Respondent%20Puyallup%20School%20District%20to%20Emergency%20Application%20for%20an%20Injunction%20Pending%20Appeal.pdf', '-o', '/tmp/ninefold-orders-audit/f766023d61b96109f20b51cabff83e79fc3b034433c281a980b8dbd23f612f4c.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/429350/20261013153040509_RespEmMotInj_State.pdf",
+      "title": "Response to the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/429350/20261013153040509_RespEmMotInj_State.pdf', '-o', '/tmp/ninefold-orders-audit/009f2ddaff94be1acdf3bff5687a789024e53c41d4f4ffd18d58f7e7518b4058.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/429373/20261013160205109_Opposition%20of%20Respondent%20WIAA%20to%20Emergency%20Application%20for%20an%20Injunction%20Pending%20Appeal.pdf",
+      "title": "Response to the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/429373/20261013160205109_Opposition%20of%20Respondent%20WIAA%20to%20Emergency%20Application%20for%20an%20Injunction%20Pending%20Appeal.pdf', '-o', '/tmp/ninefold-orders-audit/ebd362148e57a2a3296d79cd5a9fa3700a406ebdb7261eb97b8c00643c7b964c.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/429373/20261013163121043_KMK%20-%20WIAA%20Appendix.pdf",
+      "title": "Appendix",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/429373/20261013163121043_KMK%20-%20WIAA%20Appendix.pdf', '-o', '/tmp/ninefold-orders-audit/2defa9d9f2e546dcb7fefeebfce5c331bdb2d6493eb1a09e15f6a211c9736d8e.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/429723/20261015194936573_2026%2010%2015%20Brown%20v%20WIAA%20SCOTUS%20Emergency%20Application%20Reply.pdf",
+      "title": "Reply in Support of the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/429723/20261015194936573_2026%2010%2015%20Brown%20v%20WIAA%20SCOTUS%20Emergency%20Application%20Reply.pdf', '-o', '/tmp/ninefold-orders-audit/c8967a32d753b3d08ae9f29450fb860883ce65d9f8a0ea2902695f3dd8f690d2.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/431737/20261103165423985_2026.11.03%20KMK%20v%20WIAA%20Letter.pdf",
+      "title": "Supplemental brief of applicant K.M.K., et al.",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/431737/20261103165423985_2026.11.03%20KMK%20v%20WIAA%20Letter.pdf', '-o', '/tmp/ninefold-orders-audit/b0e13d72e2a5d251cd6e485ddd999b468ba00c4603f5a9b9b102c2ee7d70e9f4.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/432210/20261109124447309_KMK%20-%202026-11-09%20Letter%20to%20SCOTUS%20Clerk%20No.%2026A458.pdf",
+      "title": "Letter to Hon. Scott S. Harris of Washington Interscholastic Activities Association submitted.",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/432210/20261109124447309_KMK%20-%202026-11-09%20Letter%20to%20SCOTUS%20Clerk%20No.%2026A458.pdf', '-o', '/tmp/ninefold-orders-audit/350e3fa9ae3c44ec25242fdc80cb0109536841a1d57e1c4a4322277c8616f928.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/432366/20261110133301453_2026.11.10%20Brown%20v%20WIAA%20SCOTUS%20Letter.pdf",
+      "title": "Letter Notification of K.M.K., et al. submitted.",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/432366/20261110133301453_2026.11.10%20Brown%20v%20WIAA%20SCOTUS%20Letter.pdf', '-o', '/tmp/ninefold-orders-audit/8685d267ce9f5150c20808ccaceefa4c235078cf34c722538780604784e7524b.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/432446/20261110154336970_Ltr2Ct_OSPI_Reykdal.pdf",
+      "title": "Letter Response of Respondents Washington State Office of the Superintendent of Public Instruction and Superintendent Chris Reykdal of Office of Superintendent of Public Instruction and Chris Reykdal submitted.",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/432446/20261110154336970_Ltr2Ct_OSPI_Reykdal.pdf', '-o', '/tmp/ninefold-orders-audit/472e134fb83f40f9e9c5f3e4eb0d2bbfe63ccd9495d76f0e798fa4ed0aeeace9.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A458",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A458/432498/20261111125421256_Letter.pdf",
+      "title": "Letter of Puyallup School District and Dr. Gordon Brobbey submitted.",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A458/432498/20261111125421256_Letter.pdf', '-o', '/tmp/ninefold-orders-audit/1cc63d051b31062e39b79584f5ec390faaa495873cf70889207a517986504e6a.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A471",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A471/428797/20261007170018731_26A471.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A471/428797/20261007170018731_26A471.pdf', '-o', '/tmp/ninefold-orders-audit/c7121e540f1e09f30bee9f479cf099a640c1ec275442ed5c3ffd1910b86bb228.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A489",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A489/429152/20261009161859390_26A489.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A489/429152/20261009161859390_26A489.pdf', '-o', '/tmp/ninefold-orders-audit/3eeb1a0ef996209f64db2a42f93a4e5e4bc96bfb057b17ae62847bc760fe4852.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A499",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A499/429021/20261008222406362_2026.10.08%20updated-%20App%20for%20Vacatur.pdf",
+      "title": "Application to vacate stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A499/429021/20261008222406362_2026.10.08%20updated-%20App%20for%20Vacatur.pdf', '-o', '/tmp/ninefold-orders-audit/09f18e2a85df5eae57dd4e8091b2d52d0f02c5b3f540ab49dd89542b46262d84.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A499",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A499/429021/20261008222423279_2026.10.08%20updated%20Appendix%20to%20App%20for%20Vacatur.pdf",
+      "title": "Appendix to the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A499/429021/20261008222423279_2026.10.08%20updated%20Appendix%20to%20App%20for%20Vacatur.pdf', '-o', '/tmp/ninefold-orders-audit/b41a755739027c171e8627c5873c6b0391ddca424178ca1fae9a38e67b2d6e16.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A499",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A499/430226/20261021121156564_26A499%20Devons%20Opposition%20to%20App.pdf",
+      "title": "Response to the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A499/430226/20261021121156564_26A499%20Devons%20Opposition%20to%20App.pdf', '-o', '/tmp/ninefold-orders-audit/c6c03804a39dfd3c3afdd9cf59432cecd51bf5a0e12d34f6affc3871cc51d8e2.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A499",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A499/430560/20261023163949171_2026.10.23%20Devon%20-%20Reply%20ISO%20App.pdf",
+      "title": "Reply in Support of the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A499/430560/20261023163949171_2026.10.23%20Devon%20-%20Reply%20ISO%20App.pdf', '-o', '/tmp/ninefold-orders-audit/e4bec5e79993d5d5d2f04f43b8f76781e67532a727496df552c964f1c1c56212.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A508",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A508/429680/20261015145635672_scan_kratliff_2026-10-15-14-51-19.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A508/429680/20261015145635672_scan_kratliff_2026-10-15-14-51-19.pdf', '-o', '/tmp/ninefold-orders-audit/a2d1871037a45fd02da9199736b88fb36e1daa780681d2f0ba3b5567892cd43d.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A509",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A509/429700/20261015154824849_scan_kratliff_2026-10-15-15-42-50.pdf",
+      "title": "Application to recall and stay the mandate",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A509/429700/20261015154824849_scan_kratliff_2026-10-15-15-42-50.pdf', '-o', '/tmp/ninefold-orders-audit/4e33052ab429e70ca678a71472861598b212bedd04c691e0c1d5e5097843797a.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A510",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A510/429776/20261016125132716_scan_kratliff_2026-10-16-12-45-06.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A510/429776/20261016125132716_scan_kratliff_2026-10-16-12-45-06.pdf', '-o', '/tmp/ninefold-orders-audit/74910493e5e41b6fec90e856772703e056731711f2a5e7e1e3e85185fc59f4e8.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A510",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A510/429776/20261016125141033_scan_kratliff_2026-10-16-12-45-24.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A510/429776/20261016125141033_scan_kratliff_2026-10-16-12-45-24.pdf', '-o', '/tmp/ninefold-orders-audit/3afad768f6591189e2ebd16aeb262769f8c23b129aab41c7d86eb8e744696352.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A530",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A530/429958/20261019141605808_26A530.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A530/429958/20261019141605808_26A530.pdf', '-o', '/tmp/ninefold-orders-audit/7f5e9e1736cecce06b14d748b3809c84c3a8e200ef8ae9f17681e20f5c16f2fd.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A535",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A535/429989/20261019161141091_26A535.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A535/429989/20261019161141091_26A535.pdf', '-o', '/tmp/ninefold-orders-audit/99a8157f52a6a981ea40dce82141d941305d28551c89331a67527c4b3dc8de47.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A536",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A536/429999/20261019163829338_26A536.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A536/429999/20261019163829338_26A536.pdf', '-o', '/tmp/ninefold-orders-audit/ff5c6579733af6babdda12360460933faf8cdf4dc2e428355684f9cc75d2f6de.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A545",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A545/430155/20261020154738629_26A545.pdf",
+      "title": "Application for an injunction",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A545/430155/20261020154738629_26A545.pdf', '-o', '/tmp/ninefold-orders-audit/8d34c89f3f3c36d0ede199c77afa091e7207fa246201b3e67809bb86681c6ea3.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A555",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A555/430259/20261021143752240_26A555.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A555/430259/20261021143752240_26A555.pdf', '-o', '/tmp/ninefold-orders-audit/6fd75598cc3e5fba3b1a45f49d9903ca49563f2c8dace1026112f24e18647ca9.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A556",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A556/430278/20261021145250260_26A556.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A556/430278/20261021145250260_26A556.pdf', '-o', '/tmp/ninefold-orders-audit/6c02be46ddbf1182eac442acbd935b0af356b84b59d74064d99f3d6227502f49.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A581",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A581/429892/20261019111330997_Application.pdf",
+      "title": "Application for bail",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A581/429892/20261019111330997_Application.pdf', '-o', '/tmp/ninefold-orders-audit/5c50c2426a3309eec09850ebf8d478dde995d57ca865c424d9ca6335e589a6f4.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A581",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A581/429892/20261019111405564_Application%20Appendix.pdf",
+      "title": "Appendix to the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A581/429892/20261019111405564_Application%20Appendix.pdf', '-o', '/tmp/ninefold-orders-audit/2724d92735f0c4931bfe46e7aa31213762d14cf0d05e29d7588b2f131001a165.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A602",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A602/430950/20261028134604134_scan_kratliff_2026-10-28-13-25-11.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A602/430950/20261028134604134_scan_kratliff_2026-10-28-13-25-11.pdf', '-o', '/tmp/ninefold-orders-audit/dcc4a09d659d21557071868860a0ef049c7f7371c6616cf75e6ecfe2a3a2d1d4.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A605",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A605/431010/20261028153016421_26A605.pdf",
+      "title": "Application for bail",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A605/431010/20261028153016421_26A605.pdf', '-o', '/tmp/ninefold-orders-audit/1cdff1637cd5bdeded677fcaa2c6a681035f02065493776d88d1ea290b9ce19d.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A613",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A613/431321/20261030142149658_26A613.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A613/431321/20261030142149658_26A613.pdf', '-o', '/tmp/ninefold-orders-audit/a68229be3cb38d1e13801e5969f05d78d96dd44bdfef0a733e6bfd86d7193a41.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A612",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A612/431265/20261030114918676_26A612.pdf",
+      "title": "Application for an injunction",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A612/431265/20261030114918676_26A612.pdf', '-o', '/tmp/ninefold-orders-audit/7207c952322853e3702f66fd764c50a64027e46887e8743bf0afbe8bf28ffa4d.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A618",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A618/431374/20261030162020395_26A618.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A618/431374/20261030162020395_26A618.pdf', '-o', '/tmp/ninefold-orders-audit/d4dcb94118cef43df827c95c38618290b4057f8b26e086618239a84a63028bae.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A617",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A617/431326/20261030144735892_26A617.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A617/431326/20261030144735892_26A617.pdf', '-o', '/tmp/ninefold-orders-audit/c495ddc730b428a1d5f6794dcc8b81fa1f544f7d3c0282880231e7dd0e0b3383.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A619",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A619/431378/20261030164214978_26A619.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A619/431378/20261030164214978_26A619.pdf', '-o', '/tmp/ninefold-orders-audit/14a9b5f2896932a4cf1792027ef1c1ee6fd0751f293ef96dd0c3b39afd2462f3.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A636",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A636/431786/20261104114520060_26A636.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A636/431786/20261104114520060_26A636.pdf', '-o', '/tmp/ninefold-orders-audit/f558bdcca38abad1931447b8537bd488345a25d26cd283c72622e36fb87e5cd4.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A644",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A644/431862/20261104153452156_26A644.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A644/431862/20261104153452156_26A644.pdf', '-o', '/tmp/ninefold-orders-audit/e1659f4985fa4060ce626da47fa339c03529b024a0e33f96f03edbc5b06e950f.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A658",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A658/432126/20261106152346612_26A658.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A658/432126/20261106152346612_26A658.pdf', '-o', '/tmp/ninefold-orders-audit/7bcf2b5876f879f979981602dc9a3f240c4071713d1fbfd2a137f3301451b954.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A657",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A657/432117/20261106150824980_26A657.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A657/432117/20261106150824980_26A657.pdf', '-o', '/tmp/ninefold-orders-audit/04b9533989dc09fdf3367ccefad9d6036f81594aa36a750297c408b518235e75.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A661",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A661/432182/20261109111104485_App-for-Stay_FINAL.pdf",
+      "title": "Application for a stay of execution of sentence of death",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A661/432182/20261109111104485_App-for-Stay_FINAL.pdf', '-o', '/tmp/ninefold-orders-audit/6d163f0ba6e2ef224d65640029b19332ce5e1788296d2bacbad369fccab2351d.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A661",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A661/432320/20261109191124456_Response%20to%20Stay%20App.pdf",
+      "title": "Response to the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A661/432320/20261109191124456_Response%20to%20Stay%20App.pdf', '-o', '/tmp/ninefold-orders-audit/4a09bd5ac2e317779b474b3d6e363478f1e6a7f75c9d0950776026d3d7d087ba.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "26A661",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/26/26A661/432483/20261110230719838_Reply-ISO-Stay_FINAL.pdf",
+      "title": "Reply in Support of the Application",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/26/26A661/432483/20261110230719838_Reply-ISO-Stay_FINAL.pdf', '-o', '/tmp/ninefold-orders-audit/6492c39875bce40af0d8c01474d239f04f95b232679f1ca5fc0cdee06be5381b.pdf']' returned non-zero exit status 56."
+    },
+    {
+      "caseId": "25A622",
+      "sourceUrl": "https://www.supremecourt.gov/DocketPDF/25/25A622/385787/20251125152428978_25A622.pdf",
+      "title": "Application for a stay",
+      "error": "Command '['curl', '-fLsS', '--retry', '2', '--max-time', '45', 'https://www.supremecourt.gov/DocketPDF/25/25A622/385787/20251125152428978_25A622.pdf', '-o', '/tmp/ninefold-orders-audit/e8fe4d4cabcc93ef858514ab30b0b0da842a21cf267efb1d67efafefe3a783cb.pdf']' returned non-zero exit status 56."
+    }
+  ],
+  "scope": "Substantive applications with activity on or after October 5, 2026, plus unresolved applications carried forward and existing OT26 records. Routine time-extension applications are excluded. Filing imports exclude service and word-count certificates. Discovery is bounded to the recorded docket ranges and published order sources."
+}

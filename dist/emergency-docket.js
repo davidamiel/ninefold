@@ -5,7 +5,7 @@ export function applicationRelief(c) {
   if (/stay of execution|execution of (?:the )?(?:sentence|death)/i.test(text)) return 'Stay of execution';
   if (/vacat(?:e|ing|ur)/i.test(text)) return 'Vacate an order';
   if (/stay/i.test(text)) return 'Stay';
-  if (/injunction/i.test(text)) return 'Injunction';
+  if (/injunct(?:ion|ive)/i.test(text)) return 'Injunction';
   if (/bail/i.test(text)) return 'Bail';
   if (/extension|extend.*time/i.test(text)) return 'Extension of time';
   return 'Other relief';
