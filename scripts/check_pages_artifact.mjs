@@ -24,6 +24,16 @@ function walk(directory) {
   }
 }
 walk(root);
+// A photo refresh must not remove the artwork used throughout the reader.
+const advocatePortraits = JSON.parse(fs.readFileSync(path.join(root, 'data/advocate-portraits.json'), 'utf8'));
+for (const [name, portrait] of Object.entries(advocatePortraits)) {
+  if (portrait.portraitPath && !portrait.illustrationPath)
+    problems.push({path: 'data/advocate-portraits.json', reason: `${name}: source photo has no inline illustration`});
+  for (const key of ['portraitPath', 'illustrationPath']) {
+    if (portrait[key] && !files.some(file => file.path === portrait[key] && file.bytes > 0))
+      problems.push({path: portrait[key], reason: `${name}: missing ${key} asset`});
+  }
+}
 for (const required of ['index.html', 'app.js', 'reader-authorities.js']) {
   if (!files.some(file => file.path === required && file.bytes > 0))
     problems.push({path: required, reason: 'missing or empty required file'});
