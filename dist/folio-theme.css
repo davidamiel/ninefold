@@ -187,5 +187,3 @@ body .case-register .register-area,.register-status,.register-docket{font-family
 .peek {max-height:min(76dvh,32rem);overflow:auto}
 .ref-actions {display:flex;align-items:center;flex-wrap:wrap;gap:6px}
 .ref-actions a {padding:5px 7px;color:var(--green)}
-
-.docrow.paper-filing { display: grid; align-content: center; gap: .3rem; padding: .8rem 1rem; }
