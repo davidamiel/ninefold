@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build_content_version.mjs && node scripts/build_firebase.mjs && python scripts/build_site.py"
+    "build": "node scripts/build_offline_manifest.mjs && node scripts/build_content_version.mjs && node scripts/build_firebase.mjs && python scripts/build_site.py"
   },
   "dependencies": {
     "firebase": "13.2.0",

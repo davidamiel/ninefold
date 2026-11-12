@@ -40,3 +40,81 @@
 #app .listening-panel>footer{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:13px;padding-top:8px;border-top:1px solid var(--line);background:none;color:inherit}
 #app .listening-panel>footer button{font-size:13px;min-height:32px;padding:5px 8px}
 @media(max-width:520px){#app .listening-panel{width:360px;right:6px;max-width:calc(100vw - 12px);max-height:calc(100dvh - 102px)}#app .listening-trigger>svg{display:none}#app .listening-player .listening-trigger{padding-inline:5px;gap:3px}#app .listening-player .listening-compact-play{min-width:30px;width:30px}}
+
+/* Reader toolbar controls share one size and one SVG chevron. */
+#app .reader-top{height:44px;min-height:44px;max-height:44px;align-items:center}
+#app .reader-top .reader-controls{align-items:center;gap:6px}
+#app .reader-top #reader-playback,#app .reader-top .listening-player{height:30px;min-height:30px}
+#app .reader-top .reader-controls>button,#app .reader-top .listening-player>.listening-trigger,#app .reader-top .listening-player>.listening-compact-play{box-sizing:border-box;height:30px;min-height:30px;padding:4px 9px;margin:0;border:1px solid var(--line);border-radius:5px;background:var(--paper);font-size:13px;line-height:20px}
+#app .reader-top .reader-controls>.reader-minimize,#app .reader-top .listening-player>.listening-compact-play{width:30px;min-width:30px;padding:5px}
+#app .reader-top .reader-controls svg{width:16px;height:16px;vertical-align:middle}
+#app .listening-chevron{display:flex;align-items:center;justify-content:center;margin:0;width:16px;height:16px}
+#app .listening-trigger[aria-expanded=true] .listening-chevron svg,#app .listening-panel [data-action=playback-collapse] svg{transform:rotate(180deg)}
+#app .listening-panel{padding:10px;border-radius:8px;box-shadow:0 5px 20px #25333820;font-size:13px}
+#app .listening-panel>header{margin:0 0 4px;padding:0 4px}
+#app .listening-panel>header>strong{font-size:13px;font-weight:600}
+#app .listening-panel>header button{min-height:28px;height:28px;min-width:28px;width:28px;padding:5px}
+#app .listening-panel>header button svg{width:16px;height:16px}
+#app .listening-sources{display:flex;flex-direction:column;gap:2px}
+#app .listening-sources .listening-source{display:grid;grid-template-columns:1fr;gap:2px;align-items:center;min-height:36px;width:100%;padding:7px 9px;border:0;border-radius:4px;text-align:left;font-size:13px}
+#app .listening-source[aria-pressed=true]{background:var(--tint)}
+#app .listening-source>span{font-weight:500}
+#app .listening-source small{font-size:11px;-webkit-line-clamp:1}
+#app .listening-current{margin-top:8px;padding-top:10px}
+@media(max-width:520px){#app .reader-top .reader-controls>[data-value=view]{width:30px;padding:5px;font-size:0}#app .reader-top .listening-player>.listening-trigger{padding-inline:6px}#app .reader-top .reader-controls{gap:4px}}
+
+#app .listening-panel:not(:has(.listening-current)){width:270px}
+/* Active playback expands inside the toolbar, never into a floating panel. */
+#app .listening-player.is-active{gap:4px;max-width:100%;min-width:0}
+#app .listening-player.is-active.expanded{flex:1 1 auto}
+#app .listening-inline{display:flex;align-items:center;gap:5px;min-width:0;max-width:760px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--line) transparent;padding:2px;flex:1 1 auto}
+#app .listening-inline>button{flex:none;height:28px;min-height:28px;min-width:28px;width:28px;padding:5px}
+#app .listening-inline .listening-position{display:flex;flex-direction:column;justify-content:center;flex:0 0 136px;width:136px;gap:0}
+#app .listening-inline .listening-position input{height:14px;min-height:14px;margin:0}
+#app .listening-inline .listening-time{font-size:10px;line-height:12px;white-space:nowrap}
+#app .listening-inline select{height:28px;min-height:28px;max-width:82px;padding:2px 16px 2px 5px;font:12px 'Source Sans 3',sans-serif;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);flex:none}
+#app .listening-inline .playback-speed{width:60px}
+#app .inline-follow{display:flex;gap:4px;align-items:center;white-space:nowrap;font-size:11px;flex:none}
+#app .inline-follow input{width:14px;height:14px;margin:0}
+#app .listening-inline .listening-status{font-size:11px;margin:0;white-space:nowrap;min-height:0}
+#app .listening-player .audio-speaker-portrait{display:grid;place-items:center;flex:none;width:25px;height:28px;overflow:hidden;border-radius:3px}
+#app .listening-player .audio-speaker-portrait img{width:100%;height:100%;object-fit:contain}
+#app .reader-top:has(.is-active.expanded) .reader-heading{flex:1 1 100px;min-width:0}
+#app .reader-top:has(.is-active.expanded) .reader-controls{max-width:calc(100% - 70px);min-width:0}
+#app .reader-top:has(.is-active.expanded) #reader-playback{flex:1 1 auto;min-width:0;max-width:100%}
+#app .reader-top .is-active.expanded .listening-trigger-label{display:none}
+#app .listening-panel .source-choice{display:flex;align-items:center;gap:4px}
+#app .source-choice>.listening-source{flex:1;min-width:0}
+#app .listening-panel .restart-audio{font-size:12px;min-width:0;padding:5px}
+#app .voice-choice{display:flex;align-items:center;justify-content:space-between;font-size:12px;border-top:1px solid var(--line);margin-top:5px;padding:9px}
+#app .voice-choice select{font:inherit;border:1px solid var(--line);border-radius:4px;padding:4px;background:var(--paper);color:var(--ink)}
+#app .listening-panel .listening-download{width:100%;justify-content:flex-start;font-size:12px;min-height:30px}
+#app .listening-account-hint{display:block;font-size:11px;color:var(--muted);padding:7px 9px 3px}
+.audio-download-dialog{width:min(520px,calc(100vw - 24px));max-height:calc(100dvh - 32px);overflow:auto;padding:20px;border:1px solid var(--line);border-radius:9px;background:var(--paper);color:var(--ink)}
+.audio-download-dialog::backdrop{background:#152b3b55}
+.audio-download-dialog>header{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.audio-download-dialog h2{font-size:20px;margin:0}
+.audio-download-dialog header button{width:32px;height:32px;padding:6px}
+.audio-download-dialog svg{width:18px;height:18px}
+.audio-download-dialog button{border:1px solid var(--line);border-radius:5px;padding:6px 10px;background:var(--paper);color:var(--ink);font:inherit;cursor:pointer}
+.audio-download-dialog button:disabled{opacity:.5;cursor:default}
+.audio-download-list{list-style:none;padding:0;margin:14px 0}
+.audio-download-list li{padding:12px 0;border-bottom:1px solid var(--line);display:grid;gap:7px}
+.audio-download-list li>small{color:var(--muted)}
+.audio-download-list li>div{display:flex;gap:8px}
+.download-job{display:grid;gap:8px;padding-top:15px}
+.download-job progress{width:100%;accent-color:var(--green)}
+.download-job p{margin:0;font-size:12px}
+.voice-storage-row{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:12px;border-top:1px solid var(--line);padding-top:12px}
+@media(max-width:760px){#app .reader-top:has(.is-active.expanded) .reader-heading{display:none}#app .reader-top:has(.is-active.expanded) .reader-controls{width:100%;max-width:100%;flex:1}#app .listening-inline{gap:3px}#app .listening-inline .listening-position{flex-basis:110px;width:110px}#app .listening-player.is-active{gap:2px}#app .reader-top .is-active.expanded .listening-trigger{gap:2px;padding-inline:3px}#app .listening-inline .listening-status{max-width:180px;overflow:hidden;text-overflow:ellipsis}}
+/* The same controls remain legible when listening outside the reader. */
+#app #global-playback{display:flex;justify-content:flex-start;flex:0 1 auto;min-width:0;max-width:min(760px,100%);overflow:visible;box-sizing:border-box;padding:4px;border-radius:5px;background:var(--paper);color:var(--ink)}
+#app #global-playback .listening-player{width:100%;height:30px;min-width:0;justify-content:flex-start}
+#app #global-playback .listening-player>button{flex:none;height:30px;min-height:30px;padding:4px 6px;border:1px solid var(--line);color:var(--ink);background:var(--paper);font-size:13px}
+#app #global-playback .listening-inline button{color:var(--ink)}
+#app #global-playback .expanded .listening-trigger-label{display:none}
+#app #global-playback svg{width:16px;height:16px}
+@media(max-width:760px){#app .app-header #global-playback{order:4;flex:1 0 100%;width:100%;max-width:100%;margin:4px 0 6px;padding:4px}}
+
+#app .reader-top .listening-player>.listening-trigger,#app #global-playback .listening-player>.listening-trigger{width:30px;min-width:30px;height:30px;min-height:30px;padding:6px;justify-content:center}
+#app .listening-player>.listening-trigger>svg{display:block;width:16px;height:16px}

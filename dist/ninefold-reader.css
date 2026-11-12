@@ -142,3 +142,9 @@
     max-width: 100%;
   }
 }
+
+#app .workspace-dock{color:var(--nf-wash)}
+#app .workspace-dock>.workspace-dock-label{flex:none;align-self:center;padding:0 5px;font:600 11px/1.25 "Source Sans 3",sans-serif;color:var(--nf-wash);white-space:nowrap}
+/* A closed workspace never reserves a footer row, including restored empty tabs. */
+.workspace-dock:not(:has(.workspace-task)){display:none!important}
+body.reader-mode:not(:has(.workspace-dock)){padding-bottom:0}
