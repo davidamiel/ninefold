@@ -34,8 +34,9 @@ CIRCUIT_ORDERS = "Orders by circuit"
 COURT_OPINIONS = "Opinions of the Court"
 CIRCUIT_DOCUMENT = "Orders by Circuit"
 ORDER_LIST = "Order List"
-INDEX_DATE = re.compile(r"\b[0-9]{1,2}/[0-9]{1,2}/[0-9]{2}\b")
-DOCKET = re.compile(r"\b[0-9]{2}(?:A\s*[0-9]+|[-–]\s*[0-9]+)\b")
+# Scope ASCII mode to digits, preserving Unicode boundaries and source whitespace.
+INDEX_DATE = re.compile(r"\b(?a:\d{1,2}/\d{1,2}/\d{2})\b")
+DOCKET = re.compile(r"\b(?a:\d{2})(?:A\s*(?a:\d+)|[-–]\s*(?a:\d+))\b")
 
 
 def source_indexes(term):
@@ -92,7 +93,7 @@ def opinion_entries(soup, index_url, kind):
         links = [
             anchor
             for anchor in row.select("a[href]")
-            if re.search(r"/opinions/[0-9]+pdf/", anchor["href"], re.IGNORECASE)
+            if re.search(r"/opinions/(?a:\d+)pdf/", anchor["href"], re.IGNORECASE)
             and urlsplit(anchor["href"]).path.lower().endswith(".pdf")
         ]
         if not links:

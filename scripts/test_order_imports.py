@@ -21,7 +21,7 @@ from application_parsing import (
 from application_status import disposition, final_state
 from audit_application_dockets import scan_docket, scan_row
 from bs4 import BeautifulSoup
-from import_court_orders import COURT_OPINIONS, opinion_entries
+from import_court_orders import COURT_OPINIONS, DOCKET, INDEX_DATE, opinion_entries
 from order_import_support import (
     BASE,
     ROOT,
@@ -77,6 +77,8 @@ class FilesystemTests(unittest.TestCase):
             "26A1\\x",
             "26A1\n",
             "26A0",
+            "２６A1",
+            "26A1٢",
             None,
         ):
             with self.subTest(value=value), self.assertRaises(ValueError):
@@ -178,6 +180,14 @@ class FilesystemTests(unittest.TestCase):
 
 
 class ParsingTests(unittest.TestCase):
+    def test_digit_shorthand_preserves_ascii_ids_and_unicode_boundaries(self):
+        self.assertEqual(INDEX_DATE.findall("11/12/26"), ["11/12/26"])
+        self.assertEqual(INDEX_DATE.findall("１１/１２/２６"), [])
+        self.assertEqual(INDEX_DATE.findall("é11/12/26é"), [])
+        self.assertEqual(DOCKET.findall("26A661 25–1098"), ["26A661", "25–1098"])
+        self.assertEqual(DOCKET.findall("２６A661 26A٦٦١ é26A661é"), [])
+        self.assertEqual(DOCKET.findall("26A\u00a0661"), ["26A\u00a0661"])
+
     def test_missing_title_and_malformed_proceedings_are_explicit(self):
         _, title, proceedings = parse_docket(
             docket_html().replace(

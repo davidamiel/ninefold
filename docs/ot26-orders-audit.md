@@ -27,10 +27,10 @@ Machine-readable evidence: `dist/data/court-orders.json` records publication sou
 
 ## Reproduction and checks
 
-Install the pinned Python dependencies from `scripts/requirements-orders.txt`. The original audit used `/tmp/ninefold-orders-audit`. Following the importer security review, commands use private, ignored directories under `scripts/cache/` instead; they do not automatically trust or migrate the old shared temporary cache. All three commands accept the same `--cache NAME`, which selects a snapshot name, not an arbitrary path. Retain a snapshot to resume it, or choose a new name for a fresh audit. The application scan requests docket pages with five workers and retains errors for explicit review.
+Install the fully resolved, hash-locked Python dependencies from `scripts/requirements-orders.txt`. Both requirement files enforce binary-only packages and SHA-256 verification; the runtime lock includes transitive dependencies and the development lock adds Ruff. The original audit used `/tmp/ninefold-orders-audit`. Following the importer security review, commands use private, ignored directories under `scripts/cache/` instead; they do not automatically trust or migrate the old shared temporary cache. All three commands accept the same `--cache NAME`, which selects a snapshot name, not an arbitrary path. Retain a snapshot to resume it, or choose a new name for a fresh audit. The application scan requests docket pages with five workers and retains errors for explicit review.
 
 ```sh
-python -m pip install -r scripts/requirements-orders.txt
+python -m pip install --require-hashes --only-binary :all: -r scripts/requirements-orders.txt
 python scripts/import_court_orders.py --term 2026 --cache ot26-refresh
 python scripts/audit_application_dockets.py --cache ot26-refresh
 python scripts/reconcile_emergency_applications.py --cache ot26-refresh
@@ -53,3 +53,7 @@ Cache directories must belong to the current user and exclude other users. Reads
 Missing captions, malformed proceeding cells, invalid dates, and empty histories become explicit unresolved records. Reconciliation retains an existing case when its new source page cannot be parsed. Label parsing uses normalized strings rather than ambiguous whitespace expressions. Application status interpretation has separate, tested disposition and renewal logic. Import modules perform no network or filesystem work merely by being imported.
 
 Pull requests run the importer regression tests, formatting, lint and complexity checks through `.github/workflows/order-imports.yml`. The regression suite covers the reported path and parsing issues, cache permissions and links, interrupted downloads, long adversarial text, revised opinions, delayed docket updates, and the saved audit's application statuses. The November 12 refactor was also replayed against the saved official responses to compare imported output with the published snapshot.
+
+### Updating dependency locks
+
+Treat both requirements files as locks, including transitive packages. Resolve candidate versions using binary wheels only, pin every dependency with `==`, and record SHA-256 hashes for the reviewed wheel artifacts of each release. Never add source-distribution hashes or remove hash checking to make an update install. Keep the development lock including the runtime lock. Verify a clean installation with `--require-hashes --only-binary :all:`, run `python -m pip check` and the importer tests, and confirm that the Python 3.12 Linux CI runner resolves the same locked dependency tree. Current wheel hashes support the local macOS environment and the Linux CI runner. This follows [pip’s secure installation guidance](https://pip.pypa.io/en/stable/topics/secure-installs/).
