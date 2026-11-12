@@ -433,6 +433,7 @@ function time(s){return Math.floor((s||0)/60)+':'+String(Math.floor((s||0)%60)).
 const pdfFirstDocuments=new Set(['25-5343-97e702fdb59d--lower-8-14']);
 function rememberDocumentFormat(id,pdf){state.readingOverrides=(state.readingOverrides||[]).filter(x=>x!==id);if(!pdf)state.readingOverrides.push(id)}
 function render(){
+ const focusedTab=state.route==='reader'&&document.activeElement?.matches('[role="tab"][data-action="activate"]')?document.activeElement.dataset.value:null;
  document.body.dataset.signedIn=String(signedIn());
  if(audioCase && ['reader','case'].includes(state.route) && audioCase!==state.caseId)stopArgument();
  for(const id of [state.active,state.split])if((pdfFirstDocuments.has(id)||ds(id)?.pdfPreferred)&&!state.readingOverrides?.includes(id))state.pdfDocs=[...new Set([...(state.pdfDocs||[]),id])];
@@ -443,7 +444,7 @@ function render(){
  const content=state.route==='home'?homePage():state.route==='about'?aboutPage():state.route==='reader'?readerPage():state.route==='case'?casePage():state.route==='library'?libraryPage():state.route==='sources'?sourcesPage():['areas','justices','advocates','amici','profile'].includes(state.route)?peoplePage():casesPage();
  app.innerHTML=header()+content+siteFooter()+workspaceDock();arrangeCaseCards();lastSpokenKey=null;formatHeadings();hydrateSyllabi();bindReaderTabs();restoreBrowsePosition();if(state.route==='reader'&&state.side&&state.tool==='refs'){refreshSidebar();hydrateReference(state.refs.find(r=>r.key===state.ref))}
 
- restorePositions();bindScroll();scheduleMargins();if(audioCase&&!narration)updateTranscript();if(state.route==='reader'){loadExtendedAuthorities();for(const id of [state.active,state.split].filter(Boolean)){ensureDoc(id);if(state.pdfDocs?.includes(id)||!ds(id)?.readerContent&&!ds(id)?.textPath&&!ds(id)?.timedSession)renderPDF(id)}}persist();syncLocation();
+ restorePositions();bindScroll();scheduleMargins();if(audioCase&&!narration)updateTranscript();if(state.route==='reader'){loadExtendedAuthorities();for(const id of [state.active,state.split].filter(Boolean)){ensureDoc(id);if(state.pdfDocs?.includes(id)||!ds(id)?.readerContent&&!ds(id)?.textPath&&!ds(id)?.timedSession)renderPDF(id)}}if(focusedTab&&focusedTab===state.active)focusActiveTab();persist();syncLocation();
 }
 function bindScroll(){document.querySelectorAll('.doc-scroll').forEach(el=>el.addEventListener('scroll',()=>{if(el.dataset.nativePDF)return;state.positions[positionKey(el)]=capturePosition(el);clearPeek();closeReaderMenu();positionSelection();const input=app.querySelector(`[data-page-input="${CSS.escape(el.dataset.doc)}"]`);if(input&&document.activeElement!==input)input.value=Number(state.positions[positionKey(el)].page)+1;clearTimeout(el._save);el._save=setTimeout(persist,400)},{passive:true}))}
 async function sourceJSON(path) {
