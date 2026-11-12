@@ -283,3 +283,6 @@ body:not(.reader-mode) #app>.main.emergency-page{gap:12px}
 .argument-advocates .directory-portrait.advocate-photo img{object-fit:cover}
 
 @media(min-width:761px){#app .work-main:has(.panes.split)>.tabbar{display:none}}
+
+/* Preserve the supplied source photograph while framing the biography portrait. */
+.profile-portrait.lecture-photo img{transform:scale(2);transform-origin:75% 0}

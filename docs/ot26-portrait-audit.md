@@ -1,8 +1,10 @@
 # OT26 advocate portrait audit
 
-Local review: November 11, 2026. No publication performed.
+Updated November 12, 2026.
 
-26 of 31 identified OT26 oral-argument advocates have verified professional portraits. The existing formal Paul D. Clement portrait was retained. David C. Frederick and Ahilan T. Arulanantham candids were also replaced.
+27 of 31 identified OT26 oral-argument advocates have source photographs and matching ink illustrations: 26 professional portraits and the lecture photograph explicitly supplied for Helen Norton. The existing formal Paul D. Clement photograph was retained. David C. Frederick and Ahilan T. Arulanantham source candids were also replaced.
+
+Photographs appear on individual biography pages. The advocate directory, argument cards, timed and untimed transcripts, and audio speaker preview use drawn portraits. Missing artwork falls back to initials, never a photograph. Five existing illustration links cleared by the photo refresh were restored; 24 additional illustrations were created from the source photographs using the built-in image tool. All 43 advocates with source photos now have illustrations. The deployment artifact check rejects photo records without matching artwork and missing assets.
 
 ## Sources
 
@@ -18,6 +20,7 @@ Local review: November 11, 2026. No publication performed.
 | Eric J. Feigin | [Stanford Law School](https://law.stanford.edu/stanford-lawyer/articles/catching-up-with-clinic-alums/) |
 | Eric Schnapper | [law.uw.edu](https://www.law.uw.edu/directory/faculty/schnapper-eric/) |
 | Jeffrey W. Chen | [bmelaw.com](https://bmelaw.com/our-team/jeffrey_w_chen/) |
+| Helen Norton | Photograph supplied by the user on November 12, 2026; no photographer or license asserted. |
 | Joshua I. Hammack | [baileyglasser.com](https://www.baileyglasser.com/lawyers-joshua-i-hammack) |
 | Joshua M. Wesneski | [Daily Journal](https://dailyjournal.com/people/226761-joshua-wesneski) |
 | Kannon K. Shanmugam | [davispolk.com](https://www.davispolk.com/lawyers/kannon-shanmugam) |
@@ -40,12 +43,11 @@ Local review: November 11, 2026. No publication performed.
 ## Remaining gaps
 
 - Emily M. Ferguson
-- Helen Norton
 - Jeremy Schepers
 - Kevin Joel Page
 - Vivek Suri
 
-These gaps remain initials/neutral avatars. Searches covered employer and university biographies, professional directories, Oyez, conference materials and image search. Texas Bar and Oyez had no portraits for Page or Schepers; the available Ferguson student photo was rejected as unsuitable, as were unrelated namesakes. Every located Norton biography reused the same lecture candid, which was also rejected. No candid or generated substitute was installed.
+These four gaps remain initials/neutral avatars. Searches covered employer and university biographies, professional directories, Oyez, conference materials and image search. Texas Bar and Oyez had no portraits for Page or Schepers; the available Ferguson student photo was rejected as unsuitable, as were unrelated namesakes. Helen Norton's lecture photograph was subsequently selected explicitly by the user and used as her illustration reference. No likeness was invented for a person without a source photograph.
 
 The December and January argument calendars checked did not identify argument counsel. No future speaker was inferred from a brief signature alone.
 
