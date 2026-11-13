@@ -24,7 +24,7 @@ const clip = wave(6), recording = wave(60);
 const workerModule = `let session;
 self.onmessage=async({data})=>{
  if(data.type==='cancel'){session=data.session;return}
- if(['prepare','prioritize','window','cancel-download'].includes(data.type))return;
+ if(['configure','prepare','prioritize','window','cancel-download'].includes(data.type))return;
  session=data.session;const current=session;
  const response=await fetch('./test-voice.wav');const wav=await response.arrayBuffer();
  if(current!==session)return;
@@ -49,10 +49,12 @@ for (const kind of ['document', 'argument']) {
     const reader = await page.locator('.reader-shell').elementHandle();
     const options = await page.getByRole('button', {name:'Audio options', exact:true}).elementHandle();
     const acknowledgements = await page.evaluate(() => window.accountHarness.acknowledgements);
-    await options.evaluate(node => node.focus());
     const box = await options.boundingBox();
     await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
     await page.mouse.down();
+    // Safari does not focus buttons on pointer-down; establish keyboard focus
+    // explicitly, then verify asynchronous updates preserve it.
+    await options.evaluate(node => node.focus());
     await expect.poll(() => page.evaluate(() => window.accountHarness.acknowledgements), {timeout:10000}).toBeGreaterThan(acknowledgements);
     // A normal locator.click() can retry on a replacement element and hide this bug.
     expect(await reader.evaluate(node => node.isConnected)).toBe(true);

@@ -1,3 +1,4 @@
+import {compactVoice} from './voice-backend.js';
 import {reconcileLibrary} from './account-sync.js';
 import {updatePlaybackView} from './playback-view.js';
 import {homeContent,renderHome,renderFeature} from './homepage.js';
@@ -1259,6 +1260,8 @@ function scheduleVoicePreparation(id){
 function getVoiceWorker(){
  if(voiceWorker)return voiceWorker;
  const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;
+ // Touch capability is available on the page, but not on WorkerNavigator.
+ worker.postMessage({type:'configure',compact:compactVoice(navigator)});
  worker.onmessage=({data})=>{
   if(voiceWorker!==worker)return;voiceLastProgress=Date.now();
   if(data.type==='model-cache'){if(data.saved)voiceSaved=true;if(data.total)voiceProgress=Math.round(data.loaded/data.total*100);updateListeningStatus();return}
