@@ -1,3 +1,6 @@
+import {compactVoice} from './voice-backend.js';
+import {reconcileLibrary} from './account-sync.js';
+import {updatePlaybackView} from './playback-view.js';
 import {homeContent,renderHome,renderFeature} from './homepage.js';
 import {applicationRelief,applicationEvents,applicationState,applicationOutcome,applicationActivity} from './emergency-docket.js';
 import {listDownloads,findDownload,deleteDownload,saveDownload,prepareOfflineShell,cacheDocument} from './audio-downloads.js';
@@ -1239,9 +1242,11 @@ function narrationDisplayRange(el,chunk){
 
 let voiceLastProgress=0,voiceWorker=null,voiceRequest=0,voiceSaved=false,voicePersistenceRequested=false;const voicePending=new Map(),narrationAudio=new NarrationAudio();narrationAudio.preload='auto';
 let voicePreparationTimer,preparedDocumentKey=null;
-function scheduleVoicePreparation(id,requested=false){
+function scheduleVoicePreparation(id){
  clearTimeout(voicePreparationTimer);
- if(!id||(!requested&&!state.narrationUsed)||!navigator.onLine||narration||downloadJob||navigator.connection?.saveData)return;
+ // Only reuse an engine started explicitly in this page. A prior visit must
+ // never restart model loading after the browser has recovered from a crash.
+ if(!id||!voiceWorker||!navigator.onLine||narration||downloadJob||navigator.connection?.saveData)return;
  voicePreparationTimer=setTimeout(async()=>{
   if(state.route!=='reader'||state.active!==id||narration||downloadJob)return;
   const data=await ensureDoc(id);if(!data||state.active!==id||narration)return;
@@ -1250,11 +1255,13 @@ function scheduleVoicePreparation(id,requested=false){
   const key=[id,voice,page,ds(id)?.readerContent?.revision||''].join('|');if(key===preparedDocumentKey)return;
   const chunks=narrationChunks(id,null,3,page);if(!chunks.length)return;
   preparedDocumentKey=key;getVoiceWorker().postMessage({type:'prepare',session:key,voice,texts:chunks.map(chunk=>chunk.text)});
- },requested?0:500);
+ },500);
 }
 function getVoiceWorker(){
  if(voiceWorker)return voiceWorker;
  const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;
+ // Touch capability is available on the page, but not on WorkerNavigator.
+ worker.postMessage({type:'configure',compact:compactVoice(navigator)});
  worker.onmessage=({data})=>{
   if(voiceWorker!==worker)return;voiceLastProgress=Date.now();
   if(data.type==='model-cache'){if(data.saved)voiceSaved=true;if(data.total)voiceProgress=Math.round(data.loaded/data.total*100);updateListeningStatus();return}
@@ -1382,7 +1389,7 @@ function playbackControls(){
 }
 function refreshPlayback(){let slot=document.querySelector('#reader-playback,#global-playback');if(state.route!=='reader'){if(!audioCase&&!narration){document.querySelector('#global-playback')?.remove();return}if(!slot){app.querySelector('.nav-account')?.insertAdjacentHTML('beforebegin','<div id="global-playback"></div>');slot=document.querySelector('#global-playback')}}if(slot){const focused=slot.contains(document.activeElement)?document.activeElement:null;
  const selector=focused?.dataset.action?'[data-action="'+CSS.escape(focused.dataset.action)+'"][data-value="'+CSS.escape(focused.dataset.value||'')+'"]':focused?.matches('input,select')?'.'+focused.classList[0]:null;
- slot.innerHTML=playbackControls();if(selector){const replacement=slot.querySelector((focused.closest('.listening-panel')?'.listening-panel ':'')+selector)||(playbackExpanded?(slot.querySelector('.listening-panel [data-action=playback-toggle]')||slot.querySelector('.listening-source:not(:disabled)')):slot.querySelector('[data-action=playback-expand]'));replacement?.focus({preventScroll:true})}if(audioCase&&!narration)updateTranscript()}}
+ updatePlaybackView(slot,playbackControls());if(selector&&!focused.isConnected){const replacement=slot.querySelector((focused.closest('.listening-panel')?'.listening-panel ':'')+selector)||(playbackExpanded?(slot.querySelector('.listening-panel [data-action=playback-toggle]')||slot.querySelector('.listening-source:not(:disabled)')):slot.querySelector('[data-action=playback-expand]'));replacement?.focus({preventScroll:true})}if(audioCase&&!narration)updateTranscript()}}
 function narrationTimeline(n){const starts=[0];let estimated=false;for(let i=0;i<n.chunks.length;i++){const duration=n.durations[i];if(duration===null)estimated=true;starts.push(starts.at(-1)+(duration??Math.max(.7,(n.chunks[i].text.match(/\S+/g)||[]).length/2.8)))}return {starts,duration:starts.at(-1),estimated,currentEstimated:n.durations.slice(0,n.index).some(x=>x===null),current:starts[n.index]+narrationAudio.currentTime}}
 async function seekNarration(seconds){const n=narration;if(!n)return;const timeline=narrationTimeline(n);const position=Math.max(0,Math.min(seconds,timeline.duration));let index=timeline.starts.findLastIndex(t=>t<=position);index=Math.min(index,n.chunks.length-1);await playNarrationChunk(n,index,position-timeline.starts[index])}
 async function skipPlayback(seconds){if(narration)await seekNarration(narrationTimeline(narration).current+seconds);else audio.currentTime=Math.max(0,Math.min(Number.isFinite(audio.duration)?audio.duration:Infinity,audio.currentTime+seconds))}
@@ -1670,7 +1677,7 @@ document.addEventListener('click',async e=>{
  const b=e.target.closest('[data-action]'),a=b?.dataset.action,v=b?.dataset.value;
  if(a==='browse-mode'){state.termView=v==='all'?'all':'sittings';state.termChooserOpen=v!=='all';state.argumentMonth='';render()}
  if(a==='court-toggle'){state.courtExpanded=!state.courtExpanded;render();document.querySelector('.court-toggle')?.focus({preventScroll:true});persist()}
- if(a==='playback-expand'){playbackOptionsOpen=false;playbackExpanded=!playbackExpanded;if(playbackExpanded&&!narration&&!audioCase)scheduleVoicePreparation(state.active,true);refreshPlayback();document.querySelector('[data-action=playback-expand]')?.focus({preventScroll:true})}
+ if(a==='playback-expand'){playbackOptionsOpen=false;playbackExpanded=!playbackExpanded;refreshPlayback();document.querySelector('[data-action=playback-expand]')?.focus({preventScroll:true})}
  if(a==='edited-heading'){const article=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(state.active)}"] .document-body`);article?.querySelectorAll('.reader-section-heading')[Number(b.dataset.value)]?.scrollIntoView({block:'center'});}
  if(a==='seek-toggle'){state.seekOpen=!state.seekOpen;refreshPlayback()}
  if(a==='return-audio'){const d=narration?ds(narration.id):currentTimedDoc()||caseDocuments(caseMap.get(audioCase)).find(d=>category(d)==='Argument');if(d)openDoc(d.id,{pdf:false})}
@@ -1749,17 +1756,37 @@ function timedParagraphs(text,map,turn,id,page){let offset=0;const displayMap=[]
 // Filed PDFs opened anywhere in the application remain in the reading workspace.
 document.addEventListener('click',e=>{const link=e.target.closest('a[href]');if(!link||link.hasAttribute('data-open-original')||!(/\.pdf(?:$|[?#])/i.test(link.href)))return;const source=[...docs.values()].find(d=>[d.sourceUrl,d.sourceMirrorUrl,d.pdfPath].some(u=>u&&new URL(u,location.href).href===link.href));if(!source)return;e.preventDefault();e.stopImmediatePropagation();const id=canonicalDocId(source.id);openDoc(id);state.pdfDocs=[...new Set([...(state.pdfDocs||[]),id])];render()},true);
 
-let accountUserId=null;
+let accountUserId=null,accountLibraryLoaded=false;
+function updateAccountLibrary(event){
+ const initial=!accountLibraryLoaded;accountLibraryLoaded=true;
+ const visible=initial?[]:[...app.querySelectorAll('.doc-scroll')].map(positionKey);
+ if(!initial)storePositions();
+ const changed=reconcileLibrary(state,event,visible);
+ if(!appReady)return;
+ if(state.route==='library'&&(changed.notes||changed.saved||changed.recents)){render();return}
+ if(changed.saved)for(const control of app.querySelectorAll('[data-action="save"]'))control.innerHTML=icon(state.saved.includes(control.dataset.value)?'check':'save')+'Save';
+ if(state.route==='reader'){
+  if(initial)restorePositions();
+  if(changed.notes){refreshDocuments();if(state.side&&state.tool==='notes')refreshSidebar()}
+ }
+ if(changed.audioProgress&&!narration&&!audioCase)refreshPlayback();
+}
 async function initializeAccount(){
  try{let contentChanged=false;const {createAccount}=await import('./account.js');account=await createAccount(event=>{
   if(event.type==='session'&&!event.user&&!accountUserId)return;
   applyingAccount=true;
-  if(event.type==='session'){const next=event.user?.uid||null;if(next!==accountUserId){stopNarration();stopArgument();state.audioProgress={};clearSelection();overlays.replaceChildren();}accountUserId=next;state.notes=[];state.saved=[];state.recents=[];state.positions={};}
-  if(event.type==='library'){Object.assign(state,{notes:event.notes,saved:event.saved,recents:event.recents,positions:event.positions,audioProgress:event.audioProgress||{}});}
-  if(event.type==='error'||event.type==='content-cleanup-warning')toast(event.message);
-  if(appReady)render();applyingAccount=false;
- });if(account?.loadPublishedContent){try{for(const record of await account.loadPublishedContent()){try{applyEditedCase(record.value,false);contentChanged=true;}catch(error){console.warn('Case edit was not applied',record.id,error.message);}}}catch(e){console.warn('Published edits unavailable',e)}}if(appReady&&(signedIn()||contentChanged))render();}catch(error){console.error('Account initialization failed',error);toast('Sign-in is unavailable. Public reading is still available.');}
+  try{
+   if(event.type==='session'){
+    const next=event.user?.uid||null;
+    if(next!==accountUserId){stopNarration();stopArgument();state.audioProgress={};clearSelection();overlays.replaceChildren();}
+    accountUserId=next;accountLibraryLoaded=false;state.notes=[];state.saved=[];state.recents=[];state.positions={};
+    if(appReady)render();
+   }else if(event.type==='library')updateAccountLibrary(event);
+   else if(event.type==='error'||event.type==='content-cleanup-warning')toast(event.message);
+  }finally{applyingAccount=false}
+ });if(account?.loadPublishedContent){try{for(const record of await account.loadPublishedContent()){try{applyEditedCase(record.value,false);contentChanged=true;}catch(error){console.warn('Case edit was not applied',record.id,error.message);}}}catch(e){console.warn('Published edits unavailable',e)}}if(appReady&&contentChanged)render();}catch(error){console.error('Account initialization failed',error);toast('Sign-in is unavailable. Public reading is still available.');}
 }
+
 function showSignIn(){
  overlays.querySelector('.account-dialog')?.remove();const dialog=document.createElement('dialog');dialog.className='account-dialog';dialog.setAttribute('aria-label','Sign in to Ninefold');
  if(!account?.configured){dialog.innerHTML=`<h2>Accounts are being connected</h2><p>Public reading is available now. Sign-in and synced libraries will be available once account setup is complete.</p><form method="dialog"><button>Close</button></form>`;overlays.append(dialog);dialog.showModal();return;}

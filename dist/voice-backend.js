@@ -1,8 +1,14 @@
-// Use actual GPU capability on phones as well as desktops. Browser identity alone
-// must not force a capable device onto the much slower CPU execution path.
+// iOS can terminate the entire page for memory pressure without rejecting a
+// model promise. GPU availability is not evidence that the fp32 model fits.
+export function compactVoice(device) {
+  return /iPhone|iPad|iPod|Android/i.test(device.userAgent || '') ||
+    device.platform === 'MacIntel' && device.maxTouchPoints > 1 ||
+    device.deviceMemory > 0 && device.deviceMemory <= 4;
+}
+
 export async function loadVoice({device, create, notify, forceCPU = false}) {
   const options = {progress_callback: progress => notify({type: 'progress', progress})};
-  if (!forceCPU) {
+  if (!forceCPU && !compactVoice(device)) {
     try {
       const adapter = await device.gpu?.requestAdapter();
       if (adapter) {

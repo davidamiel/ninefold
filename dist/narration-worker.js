@@ -61,6 +61,7 @@ async function drain(){
  }finally{running=false}
 }
 self.onmessage=({data})=>{
+ if(data.type==='configure'){forceCPU ||= data.compact===true;return}
  if(data.type==='prepare'){
   previewSession=data.session;
   for(let i=queue.length-1;i>=0;i--)if(queue[i].preview)queue.splice(i,1);

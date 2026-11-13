@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {reconcileLibrary} from '../dist/account-sync.js';
+const state={notes:[],saved:[],recents:['doc'],positions:{doc:{page:8},other:{page:1}},audioProgress:{'audio:document:doc':{seconds:70,savedAt:200}}};
+const incoming={notes:[],saved:[],recents:['doc'],positions:{doc:{page:3},other:{page:5}},audioProgress:{'audio:document:doc':{seconds:40,savedAt:100}}};
+const echo=reconcileLibrary(state,incoming,['doc']);
+assert.deepEqual(echo,{notes:false,saved:false,recents:false,audioProgress:false});
+assert.deepEqual(state.positions,{doc:{page:8},other:{page:5}});
+assert.equal(state.audioProgress['audio:document:doc'].seconds,70,'stale acknowledgements cannot rewind local playback');
+const newer=reconcileLibrary(state,{...incoming,saved:['case'],audioProgress:{'audio:document:doc':{seconds:95,savedAt:300}}});
+assert.equal(newer.saved,true);
+assert.equal(newer.audioProgress,true);
+assert.equal(state.audioProgress['audio:document:doc'].seconds,95);
+assert.equal(state.positions.doc.page,3,'initial sync can restore the saved reading position');
+console.log('Account sync checks passed: narrow updates, visible reading position and newer listening progress.');
