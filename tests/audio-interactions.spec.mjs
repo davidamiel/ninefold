@@ -49,6 +49,7 @@ for (const kind of ['document', 'argument']) {
     const reader = await page.locator('.reader-shell').elementHandle();
     const options = await page.getByRole('button', {name:'Audio options', exact:true}).elementHandle();
     const acknowledgements = await page.evaluate(() => window.accountHarness.acknowledgements);
+    await options.evaluate(node => node.focus());
     const box = await options.boundingBox();
     await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
     await page.mouse.down();
@@ -56,6 +57,7 @@ for (const kind of ['document', 'argument']) {
     // A normal locator.click() can retry on a replacement element and hide this bug.
     expect(await reader.evaluate(node => node.isConnected)).toBe(true);
     expect(await options.evaluate(node => node.isConnected)).toBe(true);
+    expect(await options.evaluate(node => node === document.activeElement)).toBe(true);
     await page.mouse.up();
     const speed = page.getByLabel('Playback speed', {exact:true});
     await expect(speed).toBeVisible();
