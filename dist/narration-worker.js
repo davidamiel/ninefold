@@ -1,3 +1,4 @@
+import {loadVoice} from './voice-backend.js';
 import {installModelCache} from './voice-storage.js';
 import {spokenText} from './speech-text.js';
 import {KokoroTTS,env} from './vendor/kokoro/kokoro.web.js';
@@ -7,12 +8,7 @@ env.wasmPaths=new URL('./vendor/kokoro/',import.meta.url).href;
 let engine,latestSession,running=false;
 const queue=[],cancelledDownloads=new Set();
 const active=data=>data.background?!cancelledDownloads.has(data.session):data.session===latestSession;
-const load=()=>engine??=(async()=>{
- const adapter=await navigator.gpu?.requestAdapter().catch(()=>null);
- const device=adapter?'webgpu':'wasm';
- self.postMessage({type:'backend',device});
- return KokoroTTS.from_pretrained('onnx-community/Kokoro-82M-v1.0-ONNX',{dtype:adapter?'fp32':'q8',device,progress_callback:progress=>self.postMessage({type:'progress',progress})});
-})().catch(error=>{engine=null;throw error});
+const load=()=>engine??=loadVoice({device:navigator,create:options=>KokoroTTS.from_pretrained('onnx-community/Kokoro-82M-v1.0-ONNX',options),notify:message=>self.postMessage(message)}).catch(error=>{engine=null;throw error});
 async function cachedSpeech(data){
  const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('kokoro-speech-v3|'+data.voice+'|'+data.text));
  const key=new URL('./__voice_cache__/'+Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join(''),self.location).href;
