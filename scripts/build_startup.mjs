@@ -20,7 +20,7 @@ function asset(value) {
 }
 const layout = read('reading-layout'), structure = read('reader-structure');
 const documents = {};
-for (const id of [...new Set([...Object.keys(layout), ...Object.keys(structure)])].sort()) {
+for (const id of [...new Set([...Object.keys(layout), ...Object.keys(structure)])].sort((a, b) => a.localeCompare(b))) {
   documents[id] = asset({layout: layout[id], structure: structure[id]});
 }
 const argumentsIndex = {};
