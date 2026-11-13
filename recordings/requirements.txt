@@ -1,0 +1,6 @@
+# Python 3.12; used only on the computer generating recordings.
+kokoro-onnx==0.6.1
+onnxruntime==1.32.0
+soundfile==0.13.1
+av==16.1.0
+numpy==2.5.4

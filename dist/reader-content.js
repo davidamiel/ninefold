@@ -34,18 +34,3 @@ export function readerOutline(content) {
  content.nodes.forEach(visit);
  return headings;
 }
-
-// Match the page-text numbering used by the published reader DOM.
-export function editedSpeechPages(content) {
- const pages=[];
- const textOf=node=>{if(typeof node==='string')return node;const text=node.children.map(textOf).join('');return /(?:^| )(?:citation|footnote-anchor)(?: |$)/.test(node.attrs.class||'')?text.replace(/[^\n]/g,' '):text;};
- function visit(node,inFootnote=false){
-  if(typeof node==='string')return;
-  const classes=(node.attrs.class||'').split(' ');
-  inFootnote=inFootnote||classes.includes('reader-footnotes')||classes.includes('footnote-entry');
-  if(classes.includes('page-text'))pages.push({text:inFootnote?'':textOf(node)});
-  for(const child of node.children)visit(child,inFootnote);
- }
- content.nodes.forEach(node=>visit(node));
- return pages;
-}

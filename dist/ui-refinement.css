@@ -1,23 +1,11 @@
 /* Interaction geometry is separate from the artwork and base theme. */
 button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);color:#fff}
-.playback-strip{height:auto;min-height:46px;gap:8px;padding:4px 6px;max-width:100%;position:relative}
-.playback-primary,.playback-secondary{display:flex;align-items:center;gap:4px;min-width:0}
-.playback-strip .playback-toggle{width:36px;height:36px;min-width:36px;padding:8px;margin:0;border-radius:50%;aspect-ratio:1;display:grid;place-items:center}
-.playback-strip .playback-toggle svg{width:18px;height:18px}
-.playback-identity{display:flex;align-items:center;gap:7px;min-width:0;max-width:155px;font:12px/1.25 "Source Sans 3",system-ui}
-.playback-identity>span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.playback-identity .audio-speaker-portrait{width:30px;height:30px;min-width:30px;flex:none;display:grid;place-items:center;overflow:hidden;border-radius:50%}
 .audio-speaker-portrait img{width:100%;height:100%;object-fit:contain}
-#app .playback-strip select.playback-speed{width:68px;min-width:68px;padding:7px 22px 7px 8px;background-position:right 5px center;font:12px/1.25 "Source Sans 3",system-ui;text-align:left;cursor:pointer}
-.playback-strip .playback-expand{display:none}
-.playback-strip .skip-audio{width:36px;height:36px;padding:6px}
-.playback-strip .playback-seek{width:90px;min-width:25px;flex:1}
-.playback-strip .playback-time,.playback-strip .seek-close{width:auto;min-width:42px;font:11px ui-monospace,monospace;white-space:nowrap;padding-inline:4px;margin:0}
 .reader-controls .reader-minimize{width:36px;min-width:36px;padding:7px;display:grid;place-items:center}
 .reader-controls .reader-minimize svg{width:19px;height:19px}
 .reader-popover .view-check{display:flex;align-items:center;gap:10px;min-height:44px;cursor:pointer}
 .reader-popover .view-check input{width:20px;height:20px;min-width:20px;margin:0;accent-color:var(--nf-accent)}
-.reader-popover input[type=range],.playback-strip input[type=range]{accent-color:var(--nf-accent)}
+.reader-popover input[type=range]{accent-color:var(--nf-accent)}
 .reader-popover .listbutton{min-height:44px}
 .court-toggle{display:none}
 /* Shared section rhythm, rather than accumulated margins from several themes. */
@@ -54,24 +42,8 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 @media(max-width:760px){
  .reader-top{gap:8px;padding:8px 10px}
  .reader-controls{display:flex;flex-wrap:wrap;gap:6px;min-width:0}
- .reader-controls:has(.playback-strip) #reader-playback{flex:1 0 100%;width:100%;order:2}
- .reader-controls>button,#reader-playback>.listen-button{min-height:44px}
+ .reader-controls>button{min-height:44px}
  .reader-controls .reader-minimize{width:44px;min-width:44px}
- .playback-strip{height:auto;min-height:54px;display:flex;flex-direction:column;align-items:stretch;width:100%;gap:0;padding:4px}
- .playback-primary{width:100%;gap:6px}
- .playback-identity{flex:1;max-width:none;font-size:12px}
- .playback-strip .playback-toggle{width:44px;height:44px;min-width:44px;padding:12px}
- #app .playback-strip select.playback-speed{width:66px;min-width:66px;height:44px}
- .playback-strip .playback-expand{display:grid;place-items:center;width:44px;height:44px;padding:11px}
- .playback-strip.expanded .playback-expand svg{transform:rotate(180deg)}
- .playback-secondary{display:none;width:100%;justify-content:center;gap:0;padding-top:4px;margin-top:4px;border-top:1px solid var(--nf-dust)}
- .playback-strip.expanded .playback-secondary{display:flex}
- .playback-secondary button,.playback-strip .skip-audio{width:44px;height:44px;min-width:44px;padding:10px}
- .playback-strip .playback-time,.playback-strip .seek-close{min-width:42px;width:auto;padding:4px;font-size:10px}
- .playback-strip .playback-seek{width:40px;min-width:20px;margin-inline:2px}
- #global-playback{width:100%;min-width:0;margin:0;justify-content:stretch}
- #global-playback .playback-primary{color:#fff}
- #global-playback .playback-toggle{background:#fff;color:var(--nf-plum)}
  .main.term-page{padding-top:14px}
  .main.term-page .term-heading{margin-bottom:8px;gap:8px}
  .term-heading h1{font-size:28px}
@@ -87,9 +59,7 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
  .term-page .register-controls select{flex-basis:100px}
  .argument-session{padding:16px}
 }
-@media(prefers-reduced-motion:reduce){.document-sections{scroll-behavior:auto}}
-
-#global-playback .playback-strip button:not(.playback-toggle):is(:hover,:focus-visible){background:#ffffff22;color:#fff}
+@media(prefers-reduced-motion:reduce){.document-sections{scroll-behavior:auto}}:focus-visible){background:#ffffff22;color:#fff}
 
 /* The native viewer keeps a publicly embeddable original in the reading pane
    when its host does not permit PDF.js to fetch the file across origins. */
@@ -99,9 +69,7 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 .native-pdf-status>div{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:8px 0}
 .native-pdf-status button,.native-pdf-status a{min-height:44px;display:inline-flex;align-items:center}
 .native-pdf-frame{display:block;width:100%;min-height:260px;flex:1;border:0;background:white}
-@media(max-width:760px){.native-pdf{min-height:480px}.native-pdf-status{font-size:12px;padding:10px}.native-pdf-status>div{gap:6px}}
-#global-playback .playback-toggle{background:#fff;color:var(--nf-plum)}
-#global-playback .playback-toggle:is(:hover,:focus-visible){background:var(--nf-wash);color:var(--nf-plum)}
+@media(max-width:760px){.native-pdf{min-height:480px}.native-pdf-status{font-size:12px;padding:10px}.native-pdf-status>div{gap:6px}}:focus-visible){background:var(--nf-wash);color:var(--nf-plum)}
 
 /* Keep unavailable-appendix previews concise; source context is opt-in. */
 .reference-context{margin:12px 0}
@@ -186,30 +154,12 @@ body:not(.reader-mode) #app>.main.emergency-page{gap:14px}
  .case-page .material-scroll{max-height:none;overflow:visible}
 }
 
-/* A single resting row for recording, natural narration, and device voice.
-   Secondary controls are a popover and never participate in toolbar sizing. */
-.reader-top,.reader-top:has(.playback-strip){position:relative;display:flex;flex-wrap:nowrap;align-items:center;gap:4px;padding:8px 10px}
-.reader-top .reader-heading,.reader-top:has(.playback-strip) .reader-heading{flex:1 1 0;min-width:0}
-.reader-top .reader-controls,.reader-top:has(.playback-strip) .reader-controls{display:flex;flex:0 0 auto;flex-wrap:nowrap;width:auto;gap:4px}
-.reader-top #reader-playback,.reader-top:has(.playback-strip) #reader-playback{position:static;flex:0 0 auto;width:auto;height:44px;min-height:44px;order:0;margin:0;grid-area:auto;max-width:none}
+
+.reader-top{position:relative;display:flex;flex-wrap:nowrap;align-items:center;gap:4px;padding:8px 10px}
+.reader-top .reader-heading{flex:1 1 0;min-width:0}
+.reader-top .reader-controls{display:flex;flex:0 0 auto;flex-wrap:nowrap;width:auto;gap:4px}
 .reader-top .reader-case{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.reader-controls>button,#reader-playback>.listen-button{height:44px;min-height:44px;box-sizing:border-box}
-#app .playback-strip,#app .reader-controls .playback-strip.expanded{position:static;display:flex;flex-direction:row;align-items:center;width:auto;height:44px;min-height:44px;padding:0;gap:0;border:0;box-shadow:none;background:transparent}
-#app .playback-primary,#app .reader-controls .playback-strip.expanded .playback-primary{width:auto;gap:2px}
-#app .playback-strip .playback-toggle{width:44px;height:44px;min-width:44px;padding:12px;margin:0}
-#app .playback-strip .playback-identity{flex:none}
-#app .playback-strip .playback-identity>span:last-child:not(.audio-speaker-portrait){display:none}
-#app .playback-strip .audio-speaker-portrait{display:grid;width:30px;height:30px;min-width:30px}
-#app .playback-strip .playback-expand{display:grid;place-items:center;width:32px;height:44px;min-width:32px;padding:7px}
-#app .playback-strip.expanded .playback-expand svg{transform:rotate(180deg)}
-#app .playback-strip .playback-secondary{display:none;position:absolute;top:calc(100% + 4px);right:10px;width:max-content;max-width:calc(100vw - 20px);box-sizing:border-box;overflow-x:auto;align-items:center;justify-content:flex-start;gap:2px;padding:6px;margin:0;z-index:30;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:8px;box-shadow:0 6px 20px var(--shadow)}
-#app .playback-strip.expanded .playback-secondary{display:flex}
-#app .playback-secondary button{height:44px;min-height:44px;flex-shrink:0}
-#app .playback-strip select.playback-speed{appearance:none;-webkit-appearance:none;background-image:none;width:48px;min-width:48px;height:44px;padding:7px 3px;text-align:center}
-#global-playback{position:relative}
-#app #global-playback .playback-secondary{right:0}
-#app #global-playback .playback-secondary button{color:var(--ink)}
-#app .playback-strip .voice-progress{position:static;display:flex;align-items:center;box-sizing:border-box;flex:none;height:44px;min-height:44px;margin:0;padding:0 6px;font:12px/1.25 "Source Sans 3",system-ui;white-space:nowrap;background:transparent;color:var(--muted);border:0;border-radius:0;max-width:none}
+.reader-controls>button{height:44px;min-height:44px;box-sizing:border-box}
 
 @media (max-width: 420px) {
   .reader-controls > [data-value=view] {width: 32px; padding: 6px; font-size: 0; gap: 0;}
@@ -219,21 +169,6 @@ body:not(.reader-mode) #app>.main.emergency-page{gap:14px}
   .reader-shell .conversation .speaker-turn {margin-inline: 0; max-width: 100%;}
 }
 
-/* Keep the touch target generous while the painted player stays compact. */
-#app .playback-strip .playback-toggle {
-  background: transparent; color: var(--ink); box-shadow: none; padding: 9px;
-}
-#app .playback-strip .playback-toggle svg {
-  box-sizing: border-box; width: 27px; height: 27px; padding: 6px;
-  border-radius: 50%; background: var(--nf-accent); color: white;
-}
-#app .playback-strip .playback-expand.playback-identity {
-  width: 36px; min-width: 36px; padding: 3px; margin: 0;
-}
-#app .playback-strip.expanded .playback-identity svg {transform: none;}
-#app .playback-identity #current-speaker {display: none;}
-#app .playback-strip .playback-secondary select {flex: none;}
-
 /* Compact, stable reader geometry. Selection changes color/weight, never width. */
 #app .tabbar .tab{display:grid;grid-template-columns:minmax(0,1fr) 28px;flex:0 1 240px;width:240px;min-width:0;max-width:240px;height:36px;min-height:36px;padding:0}
 #app .tabbar .tab>[role=tab]{display:block;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:36px;padding:0 9px}
@@ -241,13 +176,9 @@ body:not(.reader-mode) #app>.main.emergency-page{gap:14px}
 #app .tabbar .tab.selected>[role=tab]{font-weight:600}
 #app .tabbar .tab:not(.selected)>[role=tab]{font-weight:400}
 #app .tabbar .tab[hidden]{display:none}
-#app .reader-top,#app .reader-top:has(.playback-strip){height:44px;min-height:44px;max-height:44px;padding:0 10px;box-sizing:border-box;flex-shrink:0}
+#app .reader-top{height:44px;min-height:44px;max-height:44px;padding:0 10px;box-sizing:border-box;flex-shrink:0}
 #app .reader-top .reader-heading,#app .reader-top .reader-controls{margin:0;padding-block:0;min-height:0}
-#app .reader-top #reader-playback,#app .reader-top .playback-strip,#app .reader-top .playback-strip.expanded,
-#app .reader-top .reader-controls>button,#app .reader-top #reader-playback>.listen-button,
-#app .reader-top .playback-primary>button,#app .reader-top .playback-primary>select,
-#app .reader-top .playback-strip .voice-progress{height:40px;min-height:40px;margin-block:0;padding-block:0}
-#app .reader-top .voice-progress{max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:40px}
+#app .reader-top .reader-controls>button{height:40px;min-height:40px;margin-block:0;padding-block:0}
 .reader-popover .view-check{min-height:32px;margin:0;padding:2px 0;gap:8px}
 .reader-popover .view-check+.view-check{margin-top:0}
 body:not([data-signed-in="true"]) [data-action="edit-case"],

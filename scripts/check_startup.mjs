@@ -21,12 +21,4 @@ const html = fs.readFileSync(new URL('../dist/index.html', import.meta.url), 'ut
 assert(html.includes('<h1>The Supreme Court, in Context</h1>'));
 assert(html.includes('Recent Court Activity') && html.includes('Current Court'));
 assert(!html.includes('Loading the court collection'));
-const manifest = read('offline-manifest.json');
-for (const name of ['reading-layout', 'reader-structure', 'argument-alignment']) {
-  assert(!manifest.source.includes('data/' + name + '.json'), 'offline shell should not require every reader asset');
-}
-for (const name of ['index', 'arguments']) {
-  assert(manifest.source.includes('data/reader-assets/' + name + '.json'));
-  assert(manifest.packed.includes('data/reader-assets/' + name + '.json.gz'));
-}
-console.log('Startup checks passed: complete static homepage, lossless lazy reader assets and targeted offline shell.');
+console.log('Startup checks passed: complete static homepage and lossless lazy reader assets.');

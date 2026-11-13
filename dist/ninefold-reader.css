@@ -118,29 +118,8 @@
   display: block;
 }
 .reader-shell .speaker-avatar.illustrated-speaker {width: 40px; height: 40px;}
-.playback-strip .audio-speaker-portrait.illustrated-speaker {width: 30px; height: 30px;}
 @media (max-width: 760px) {
   .reader-shell .speaker-avatar.illustrated-speaker {width: 27px; height: 27px;}
-  .playback-strip .audio-speaker-portrait.illustrated-speaker {width: 27px; height: 27px;}
-}
-@media (max-width: 530px) {
-  .reader-top:has(.playback-strip) {
-    display: grid;
-    grid-template-columns: minmax(0,1fr) auto auto;
-    gap: 6px 4px;
-    align-items: center;
-  }
-  .reader-top:has(.playback-strip) .reader-heading {grid-area: 1 / 1;}
-  .reader-top:has(.playback-strip) .reader-controls {display: contents;}
-  .reader-top:has(.playback-strip) .reader-controls > [data-action="reader-menu"] {grid-area: 1 / 2;}
-  .reader-top:has(.playback-strip) .reader-minimize {grid-area: 1 / 3;}
-  .reader-top:has(.playback-strip) #reader-playback {
-    grid-area: 2 / 1 / 3 / -1;
-    justify-self: start;
-    width: max-content;
-    min-width: 0;
-    max-width: 100%;
-  }
 }
 
 #app .workspace-dock{color:var(--nf-wash)}
@@ -148,3 +127,14 @@
 /* A closed workspace never reserves a footer row, including restored empty tabs. */
 .workspace-dock:not(:has(.workspace-task)){display:none!important}
 body.reader-mode:not(:has(.workspace-dock)){padding-bottom:0}
+
+/* A filled active tab has a uniform border on all sides. */
+#app .reader-shell .tabbar .tab{border:1px solid var(--line);box-shadow:none}
+#app .reader-shell .tabbar .tab.selected,#app .reader-shell .tabbar .tab.selected:hover{background:var(--green);border-color:var(--green);box-shadow:none;color:var(--paper)}
+#app .reader-shell .tabbar .tab.selected>[role=tab],#app .reader-shell .tabbar .tab.selected>.close{color:var(--paper);font-weight:600}
+#app .reader-shell .tabbar .tab.selected .tab-menu-button{background:var(--green);color:var(--paper)}
+#app .reader-shell .pane.is-focused,#app .reader-shell .pane:focus-within{outline:none}
+#app .reader-shell .explorer-document.is-open{box-shadow:none;background:var(--tint)}
+/* Hyphens are rendered by the browser; source text and selection offsets stay intact. */
+#app .document-body{ text-align:justify;text-align-last:start;hyphens:auto;-webkit-hyphens:auto;hyphenate-limit-chars:7 3 3 }
+#app .document-body :is(.document-title,.conversation-header,.reader-section-heading,.speaker-message>header,.counsel-block,.transcript-credit){text-align:start;hyphens:none;-webkit-hyphens:none}

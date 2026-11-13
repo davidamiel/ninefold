@@ -34,8 +34,7 @@ jobs:
           node scripts/check_pages_artifact.mjs
           node scripts/check_startup.mjs
           node scripts/check_account_sync.mjs
-          node scripts/check_narration_audio.mjs
-          node scripts/check_speech_text.mjs
+          node scripts/check_recorded_audio.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
