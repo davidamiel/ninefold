@@ -1,0 +1,36 @@
+name: Check reader interactions
+on:
+  pull_request:
+    paths:
+      - 'dist/**'
+      - 'src/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'package*.json'
+      - 'playwright.config.mjs'
+      - '.github/workflows/reader-interactions.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+      - run: node scripts/check_account_sync.mjs && node scripts/check_narration_audio.mjs
+      - run: npx --no-install playwright install --with-deps chromium webkit
+      - run: npm run test:browser
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: reader-browser-failures
+          path: test-results/

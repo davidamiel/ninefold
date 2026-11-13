@@ -77,11 +77,14 @@ assert(pendingPlayer.paused, 'late decoding cannot restart paused playback');
 assert.equal(slow.sources.length, 1, 'cancelled decode does not start an audible source');
 globalThis.fetch = originalFetch;
 
-await Promise.all([{userAgent: 'iPhone'}, {userAgent: 'Android'}, {platform: 'MacIntel', maxTouchPoints: 5}].map(async device => {
+await Promise.all([{userAgent: 'iPhone'}, {userAgent: 'Android'}, {platform: 'MacIntel', maxTouchPoints: 5}, {deviceMemory: 4}].map(async device => {
   const settings = await loadVoice({device: {...device, gpu: {async requestAdapter() { return {}; }}}, create: async options => options, notify() {}});
-  assert.equal(settings.dtype, 'fp32');
-  assert.equal(settings.device, 'webgpu', 'mobile GPU support must not be disabled by browser identity');
+  assert.equal(settings.dtype, 'q8');
+  assert.equal(settings.device, 'wasm', 'phones must not load the memory-heavy GPU model');
 }));
+const desktop = await loadVoice({device: {gpu: {requestAdapter: async () => ({})}}, create: async options => options, notify() {}});
+assert.equal(desktop.device, 'webgpu');
+assert.equal(desktop.dtype, 'fp32');
 let adapterRequested = false;
 const fallback = await loadVoice({
   device: {gpu: {async requestAdapter() { adapterRequested = true; return {}; }}},

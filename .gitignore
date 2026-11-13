@@ -17,3 +17,6 @@ firebase-debug.log
 # Rebuilt from the locked voice dependencies for each deployment.
 /dist/vendor/kokoro/kokoro.web.js
 /dist/vendor/kokoro/ort-wasm-*
+
+/test-results/
+/playwright-report/
