@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {NarrationAudio} from '../dist/narration-audio.js';
-import {useCompactVoice, loadVoice} from '../dist/voice-backend.js';
+import {validSpeech, loadVoice} from '../dist/voice-backend.js';
 
 class Context extends EventTarget {
   state = 'suspended';
@@ -77,23 +77,25 @@ assert(pendingPlayer.paused, 'late decoding cannot restart paused playback');
 assert.equal(slow.sources.length, 1, 'cancelled decode does not start an audible source');
 globalThis.fetch = originalFetch;
 
-await Promise.all([{userAgent: 'iPhone'}, {userAgent: 'Android'}, {platform: 'MacIntel', maxTouchPoints: 5}, {deviceMemory: 4}].map(async device => {
-  assert(useCompactVoice(device));
-  let requested = false;
-  const settings = await loadVoice({device: {...device, gpu: {requestAdapter() { requested = true; }}}, create: async options => options, notify() {}});
-  assert.equal(settings.dtype, 'q8');
-  assert.equal(settings.device, 'wasm');
-  assert.equal(requested, false, 'mobile never allocates the full precision GPU model');
+await Promise.all([{userAgent: 'iPhone'}, {userAgent: 'Android'}, {platform: 'MacIntel', maxTouchPoints: 5}].map(async device => {
+  const settings = await loadVoice({device: {...device, gpu: {async requestAdapter() { return {}; }}}, create: async options => options, notify() {}});
+  assert.equal(settings.dtype, 'fp32');
+  assert.equal(settings.device, 'webgpu', 'mobile GPU support must not be disabled by browser identity');
 }));
-let tabletAdapterRequested = false;
-const tablet = await loadVoice({
-  device: {userAgent: 'Macintosh', platform: 'MacIntel', gpu: {async requestAdapter() { tabletAdapterRequested = true; return {}; }}},
-  compact: true,
+let adapterRequested = false;
+const fallback = await loadVoice({
+  device: {gpu: {async requestAdapter() { adapterRequested = true; return {}; }}},
+  forceCPU: true,
   create: async options => options,
   notify() {},
 });
-assert.equal(tablet.device, 'wasm', 'page touch capability is preserved in workers');
-assert.equal(tabletAdapterRequested, false);
+assert.equal(fallback.device, 'wasm');
+assert.equal(fallback.dtype, 'q8');
+assert.equal(adapterRequested, false, 'a failed GPU is not retried for every passage');
+assert(validSpeech(Float32Array.from([0, .2, -.2, 0])));
+assert(!validSpeech(Float32Array.from([0, Number.NaN, .2])));
+assert(!validSpeech(Float32Array.from([0, Infinity, .2])));
+assert(!validSpeech(Float32Array.from([0, 0, 0])));
 const attempts = [];
 await loadVoice({
   device: {gpu: {requestAdapter: async () => ({})}},

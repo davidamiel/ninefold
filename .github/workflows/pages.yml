@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
-        run: npm ci --omit=dev --ignore-scripts
+        run: npm ci --ignore-scripts
       - name: Build website
         run: npm run build
       - name: Validate packaged website
@@ -32,6 +32,7 @@ jobs:
           python scripts/check_term_reader.py out
           python scripts/check_orders.py
           node scripts/check_pages_artifact.mjs
+          node scripts/check_startup.mjs
           node scripts/check_narration_audio.mjs
           node scripts/check_speech_text.mjs
       - uses: actions/configure-pages@v5

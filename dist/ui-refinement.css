@@ -21,7 +21,7 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 .reader-popover .listbutton{min-height:44px}
 .court-toggle{display:none}
 /* Shared section rhythm, rather than accumulated margins from several themes. */
-.case-page{--case-gap:16px;--case-pad:20px}
+.case-page{--case-gap:16px;--case-pad:20px;--material-pad:14px;--material-text-gap:8px}
 .case-page .case-canvas,.case-page .case-summary-scroll,.case-page .case-workbench{gap:var(--case-gap)}
 .case-page .case-summary-scroll>section,.case-page .case-timeline,.case-page .case-materials{margin:0}
 .case-page .case-summary-scroll>section,.case-page .case-timeline{padding:var(--case-pad)}
@@ -31,9 +31,9 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 .case-page .document-sections button{flex:0 0 auto;white-space:nowrap;min-height:40px;font-size:12px;padding:8px 10px}
 .case-page .document-sections:focus-visible{outline:2px solid var(--nf-accent);outline-offset:-2px}
 .case-page .material-scroll{padding:var(--case-pad)}
-.argument-session{padding:20px;background:var(--paper)}
-.argument-heading h3{font:600 20px/1.3 "Spectral",Georgia,serif;color:var(--ink);margin:0}
-.argument-heading p{font:13px/1.4 "Source Sans 3",system-ui;color:var(--muted);margin:6px 0 0}
+.case-page .argument-session{padding:var(--material-pad);background:var(--paper)}
+.argument-heading h3{font:600 18px/1.4 "Spectral",Georgia,serif;color:var(--ink);margin:0}
+.argument-heading p{font:12px/1.5 "Source Sans 3",system-ui;color:var(--muted);margin:var(--material-text-gap) 0 0}
 .argument-session .argument-actions{margin:16px 0 0;gap:8px;align-items:center}
 .argument-session .argument-actions button{min-height:44px;padding:9px 13px;font-size:13px}
 .argument-actions button svg{width:17px;height:17px}
@@ -41,7 +41,9 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 .argument-advocates h4{margin:0;font:600 12px/1.4 "Source Sans 3",system-ui;color:var(--muted)}
 .argument-session .argument-advocates article{padding:10px 12px;gap:12px}
 .argument-session .argument-advocates .directory-portrait{width:48px;height:48px;min-width:48px;flex:0 0 48px}
-.argument-advocates article>div{min-width:0}
+.argument-advocates article>div{min-width:0;display:grid;gap:var(--material-text-gap)}
+.argument-advocates article .entity-link{padding:0;margin:0;justify-self:start;line-height:1.5}
+.argument-advocates article p{margin:0;font-size:12px;line-height:1.5}
 @media(min-width:861px){.case-page .case-summary-scroll{display:flex;flex-direction:column;overflow-y:auto}.case-page .case-summary-scroll>section{flex:none;overflow:visible}}
 @media(max-width:860px){
  .case-page{--case-gap:16px;--case-pad:18px}
@@ -115,10 +117,11 @@ button.primary:hover,button.primary:focus-visible{background:var(--nf-plum);colo
 .case-page .material-scroll{container-type:inline-size}
 .case-page :is(.document-shelf,.opinion-presentation){grid-template-columns:minmax(0,1fr);align-items:stretch;gap:10px}
 .case-page :is(.document-shelf,.opinion-presentation) .docrow{min-width:0;display:flex;flex-direction:column}
-.case-page :is(.document-shelf,.opinion-presentation) .doc-main{display:flex;flex-direction:column;align-items:stretch;flex:1;justify-content:flex-start;text-align:left;gap:8px;padding:12px 14px;min-width:0}
-.case-page :is(.document-shelf,.opinion-presentation) .doc-main .meta{margin-top:0;text-align:left;white-space:normal}
+.case-page :is(.document-shelf,.opinion-presentation) .doc-main{display:flex;flex-direction:column;align-items:stretch;flex:1;justify-content:flex-start;text-align:left;gap:var(--material-text-gap);padding:var(--material-pad);min-width:0;height:auto;min-height:0}
+.case-page :is(.document-shelf,.opinion-presentation) .doc-main .doc-title{font:18px/1.4 "Spectral",Georgia,serif}
+.case-page :is(.document-shelf,.opinion-presentation) .doc-main .meta{margin:0;text-align:left;white-space:normal;font:12px/1.5 "Source Sans 3",system-ui}
 .case-page :is(.document-shelf,.opinion-presentation) .with-profile .doc-main .meta{padding-right:0}
-.case-page :is(.document-shelf,.opinion-presentation) .amicus-profile{position:static;align-self:flex-start;margin:0 14px 12px;padding:3px 0}
+.case-page :is(.document-shelf,.opinion-presentation) .amicus-profile{position:static;align-self:flex-start;margin:0 var(--material-pad) var(--material-pad);padding:0;line-height:1.5}
 @container (min-width:600px){
  .case-page :is(.document-shelf,.opinion-presentation){grid-template-columns:repeat(2,minmax(0,1fr))}
  .case-page :is(.document-shelf,.opinion-presentation)>.docrow{grid-column:auto}
@@ -260,10 +263,11 @@ body:not([data-signed-in="true"]) .case-editor{display:none!important}
 }
 
 .case-page .opinion-presentation .opinion-tile{min-width:0}
-.case-page .opinion-presentation .opinion-open{height:auto;min-height:96px;padding:14px;gap:10px}
-.case-page .opinion-presentation .opinion-open strong{font-size:21px;overflow-wrap:anywhere}
-.case-page .opinion-presentation .opinion-heading{min-width:0}
-.case-page .opinion-presentation .joined-line{padding:0 14px 14px}
+.case-page .opinion-presentation .opinion-open{height:auto;min-height:0;padding:var(--material-pad);gap:10px}
+.case-page .opinion-presentation .opinion-open strong{font:18px/1.4 "Spectral",Georgia,serif;overflow-wrap:anywhere}
+.case-page .opinion-presentation .opinion-heading{min-width:0;gap:var(--material-text-gap)}
+.case-page .opinion-presentation .opinion-byline{font-size:12px;line-height:1.5}
+.case-page .opinion-presentation .joined-line{padding:0 var(--material-pad) var(--material-pad);line-height:1.5}
 
 .advocate-photo{overflow:hidden}
 .advocate-photo img{width:100%;height:100%;object-fit:cover;object-position:center 25%}

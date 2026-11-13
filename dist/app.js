@@ -1,8 +1,8 @@
+import {homeContent,renderHome,renderFeature} from './homepage.js';
 import {applicationRelief,applicationEvents,applicationState,applicationOutcome,applicationActivity} from './emergency-docket.js';
 import {listDownloads,findDownload,deleteDownload,saveDownload,prepareOfflineShell,cacheDocument} from './audio-downloads.js';
 import {modelStorageSize,clearModelStorage} from './voice-storage.js';
 import {NarrationAudio} from './narration-audio.js';
-import {useCompactVoice} from './voice-backend.js';
 import {createContentPatch,applyContentPatch,validateContentPatch} from './content-patch.js';
 import {createEditorSession} from './editor-session.js';
 import {openReaderEditor} from './reader-editor.js';
@@ -15,8 +15,8 @@ import {briefContents} from './reader-contents.js';
 import {pdfSources,nativePDFURL,pdfPageRange,normalizePDFURL} from './pdf-source.js';
 import {preparePDFLayout} from './pdf-layout.js';
 import {citationsIn,passageAround,excerptOf,citedNames,shortCaseIn} from './reader-authorities.js';
-import * as pdfjsLib from './vendor/pdfjs/pdf.mjs';
-pdfjsLib.GlobalWorkerOptions.workerSrc='./vendor/pdfjs/pdf.worker.mjs';
+let pdfjsLib,pdfLibrary;
+function loadPDFLibrary(){return pdfLibrary??=import('./vendor/pdfjs/pdf.mjs').then(library=>{pdfjsLib=library;library.GlobalWorkerOptions.workerSrc='./vendor/pdfjs/pdf.worker.mjs';return library}).catch(error=>{pdfLibrary=null;throw error})}
 const app=document.querySelector('#app'),overlays=document.querySelector('#overlays');
 const paths={book:'M10 13a5 5 0 0 0 7 .1l3-3a5 5 0 0 0-7-7l-1.7 1.7 M14 11a5 5 0 0 0-7-.1l-3 3a5 5 0 0 0 7 7l1.7-1.7',back:'M15 5l-7 7 7 7 M8 12h13',arrow:'M9 5l7 7-7 7 M3 12h13',external:'M14 3h7v7 M21 3l-11 11 M10 3H4v17h17v-6',close:'M6 6l12 12 M18 6L6 18',plus:'M12 5v14 M5 12h14',file:'M14 2H5v20h14V7z M14 2v6h5 M8 12h8 M8 16h8',files:'M7 5h12v16H7z M4 17V2h12',list:'M8 6h13 M8 12h13 M8 18h13 M3 6h1 M3 12h1 M3 18h1',note:'M4 3h16v13l-5 5H4z M15 21v-5h5 M8 7h8 M8 11h6',info:'M12 8h.01 M12 11v6 M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20',view:'M4 6h16 M4 12h16 M4 18h16 M8 3v6 M16 9v6 M10 15v6',audio:'M3 14v-3a9 9 0 0 1 18 0v3 M3 12h4v8H3z M17 12h4v8h-4z',save:'M6 3h12v19l-6-4-6 4z',search:'M21 21l-6-6 M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16',split:'M3 4h18v16H3z M12 4v16',sidebar:'M3 4h18v16H3z M16 4v16',play:'M7 3l14 9-14 9z',pause:'M7 4v16 M17 4v16',trash:'M3 6h18 M9 6V3h6v3 M6 6l1 15h10l1-15 M10 10v7 M14 10v7',download:'M12 3v12 M7 10l5 5 5-5 M4 16v5h16v-5',check:'M4 12l5 5L20 6',float:'M3 9V3h12 M3 15v6h6 M9 9h12v12H9z',highlight:'M4 17L15 6l5 5-11 11H4z M15 6l2-2 5 5-2 2 M2 22h10',calendar:'M3 5h18v16H3z M7 2v6 M17 2v6 M3 10h18'};
 const icon=n=>`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[n]||paths.file}"/></svg>`;
@@ -118,28 +118,9 @@ function aboutPage() {
 }
 
 let featuredCaseIndex = 0;
-function featuredCaseCard() {
-  const roster = (currentTerm.cases||[]).filter(c => caseIssues[c.id] && c.status !== 'Dismissed');
-  if (!roster.length) return '';
-  const item = roster[featuredCaseIndex % roster.length];
-  return `<header><h2>Cases This Term</h2><div class="carousel-controls">${button(icon('back'),'feature-step','-1','','aria-label="Previous case"')}${button(icon('arrow'),'feature-step','1','','aria-label="Next case"')}</div></header>
-    <div class="feature-content" aria-live="polite"><span class="feature-topic">${esc(caseAreas(item).join(' · '))}</span><a class="feature-case" href="#/case/${esc(item.id)}">${esc(item.name)}</a>
-    <p>${esc(caseIssues[item.id].text)}</p><span class="feature-open" aria-hidden="true">Open Case ${icon('arrow')}</span></div>`;
-}
+function homepageContent(){return homeContent({cases,term:currentTerm,profiles,issues:caseIssues,areas:currentAreas,photo:courtPhoto})}
+function featuredCaseCard(){return renderFeature(homepageContent().featured,featuredCaseIndex)}
 
-function recentCourtActivity() {
-  const events = [];
-  for (const c of cases) {
-    for (const [day,label] of [[c.granted,'Review Granted'],[c.argued,'Oral Argument'],[c.decided,isApplication(c)?'Order Issued':c.status==='Dismissed'?'Dismissed':'Decision Issued']]) {
-      if (day && day <= currentTerm.asOf) events.push({date:day,label,c});
-    }
-  }
-  const seen = new Set();
-  return events.sort((a,b)=>b.date.localeCompare(a.date)||a.c.name.localeCompare(b.c.name)).filter(e=>{
-    if (seen.has(e.c.id)) return false;
-    seen.add(e.c.id); return true;
-  }).slice(0,4);
-}
 function ordersNavigation(selected) {
   return `<nav class="orders-navigation" aria-label="Orders views"><a href="#/orders" ${selected==='orders'?'aria-current="page"':''}>Court Orders</a><a href="#/applications" ${selected==='applications'?'aria-current="page"':''}>Emergency Docket</a></nav>`;
 }
@@ -511,12 +492,12 @@ function render(){
  const content=state.route==='home'?homePage():state.route==='about'?aboutPage():state.route==='reader'?readerPage():state.route==='case'?casePage():state.route==='library'?libraryPage():state.route==='sources'?sourcesPage():['areas','justices','advocates','amici','profile'].includes(state.route)?peoplePage():casesPage();
  app.innerHTML=header()+content+siteFooter()+workspaceDock();arrangeCaseCards();lastSpokenKey=null;formatHeadings();hydrateSyllabi();bindReaderTabs();restoreBrowsePosition();if(state.route==='reader'&&state.side&&state.tool==='refs'){refreshSidebar();hydrateReference(state.refs.find(r=>r.key===state.ref))}
 
- restorePositions();bindScroll();scheduleMargins();if(audioCase&&!narration)updateTranscript();if(state.route==='reader'){loadExtendedAuthorities();for(const id of [state.active,state.split].filter(Boolean)){ensureDoc(id);if(state.pdfDocs?.includes(id)||!ds(id)?.readerContent&&!ds(id)?.textPath&&!ds(id)?.timedSession)renderPDF(id)}}if(narration)highlightNarrationChunk(narration);if(focusedTab&&focusedTab===state.active)focusActiveTab();if(audioFocus)document.querySelector('.listening-player '+(focusedAudio.closest('.listening-panel')?'.listening-panel ':'')+audioFocus)?.focus({preventScroll:true});persist();syncLocation();
+ restorePositions();bindScroll();scheduleMargins();if(audioCase&&!narration)updateTranscript();if(state.route==='reader'){loadExtendedAuthorities();for(const id of [state.active,state.split].filter(Boolean)){ensureDoc(id).then(()=>scheduleVoicePreparation(id));if(state.pdfDocs?.includes(id)||!ds(id)?.readerContent&&!ds(id)?.textPath&&!ds(id)?.timedSession)renderPDF(id)}}if(narration)highlightNarrationChunk(narration);if(focusedTab&&focusedTab===state.active)focusActiveTab();if(audioFocus)document.querySelector('.listening-player '+(focusedAudio.closest('.listening-panel')?'.listening-panel ':'')+audioFocus)?.focus({preventScroll:true});persist();syncLocation();
 }
 function bindScroll(){document.querySelectorAll('.doc-scroll').forEach(el=>el.addEventListener('scroll',()=>{if(el.dataset.nativePDF)return;state.positions[positionKey(el)]=capturePosition(el);clearPeek();closeReaderMenu();positionSelection();const input=app.querySelector(`[data-page-input="${CSS.escape(el.dataset.doc)}"]`);if(input&&document.activeElement!==input)input.value=Number(state.positions[positionKey(el)].page)+1;clearTimeout(el._save);el._save=setTimeout(persist,400)},{passive:true}))}
 async function sourceJSON(path) {
  const packed=document.documentElement.dataset.packedText==='true' &&
-   (/^data\/(?:docs|current-docs|statutes)\/.+\.json$/.test(path) || ['data/reading-layout.json','data/catalog.json','data/current-term.json','data/argument-alignment.json','data/reader-structure.json','data/brief-precedent-summaries.json','data/precedent-index.json','data/statute-index.json','data/cited-opinions.json','data/rules-index.json'].includes(path));
+   (/^data\/(?:docs|current-docs|statutes|reader-assets)\/.+\.json$/.test(path) || ['data/reading-layout.json','data/catalog.json','data/current-term.json','data/argument-alignment.json','data/reader-structure.json','data/brief-precedent-summaries.json','data/precedent-index.json','data/statute-index.json','data/cited-opinions.json','data/rules-index.json'].includes(path));
  const response=await fetchContent(packed?path+'.gz':path);
  if(!response.ok) throw Error('Source request '+response.status);
  if(!packed) return response.json();
@@ -526,11 +507,29 @@ async function sourceJSON(path) {
  }
  return JSON.parse(new TextDecoder().decode(bytes));
 }
+const readerAssetRequests=new Map();
+function readerAssetKeys(id){const d=ds(id);return [...new Set([textSourceId(id),d?.independentText?id:d?.parentDocumentId||id,d?.textPath?.split('/').at(-1)?.replace('.json','')].filter(Boolean))]}
+function readerAssetPaths(id){return [...new Set([...readerAssetKeys(id).map(key=>readerAssetsIndex[key]),ds(id)?.timedSession?.turnsPath].filter(Boolean))]}
+function fetchReaderAsset(path){
+ if(!readerAssetRequests.has(path))readerAssetRequests.set(path,sourceJSON(path).catch(error=>{readerAssetRequests.delete(path);throw error}));
+ return readerAssetRequests.get(path);
+}
+async function ensureReaderAssets(id){
+ const d=ds(id);if(!d||d.editorContent)return;
+ await Promise.all(readerAssetKeys(id).map(async key=>{
+  const path=readerAssetsIndex[key];if(!path)return;
+  const value=await fetchReaderAsset(path);
+  if(value.layout)readingLayout[key]=value.layout;
+  if(value.structure)readerStructure[key]=value.structure;
+ }));
+ if(d.timedSession?.turnsPath&&!d.timedSession.turns)d.timedSession.turns=await fetchReaderAsset(d.timedSession.turnsPath);
+}
 async function ensureDoc(id){
- const d=ds(id);if(d?.editorContent){if(!docCache.get(id)?.edited||docCache.get(id)?.revision!==d.editorContent.revision)docCache.set(id,compileDocument(d.editorContent));return docCache.get(id)}if(docCache.has(id))return docCache.get(id);if(d?.timedSession){const data={pages:d.timedSession.turns.map((t,i)=>({number:i+1,text:t.text}))};docCache.set(id,data);return data}if(!d?.textPath)return;if(docPending.has(id))return docPending.get(id);
+ const d=ds(id);if(d?.editorContent){if(!docCache.get(id)?.edited||docCache.get(id)?.revision!==d.editorContent.revision)docCache.set(id,compileDocument(d.editorContent));return docCache.get(id)}if(docCache.has(id))return docCache.get(id);if(!d?.textPath&&!d?.timedSession)return;if(docPending.has(id))return docPending.get(id);
  const p=Promise.resolve().then(async()=>{try{
- let data;if(d.referenceSummary && d.textPath==='inline'){const entry=d.referenceSummary;data={pages:[{number:1,text:await authorityBody(entry)}]}}else if(d.parentDocumentId && !d.independentText)data=await ensureDoc(d.parentDocumentId);else{let path=d.textPath.replace(/^\.\//,'');if(!path.startsWith('data/'))path='data/'+path;data=await sourceJSON(path);if(!Array.isArray(data.pages))throw Error('No pages');data.pages=data.pages.map((p,i)=>typeof p==='string'?{number:i+1,text:p}:{...p,text:String(p.text||'')})}if(!data)throw Error('Document not loaded');if(ds(id)!==d){if(docPending.get(id)===p)docPending.delete(id);return ensureDoc(id);}docCache.set(id,data);
- if(state.route==='reader'){const target=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`);if(target&&!state.pdfDocs?.includes(id)){target.innerHTML=documentHTML(id,data);restorePositions();scheduleMargins()}if(state.side&&['contents','refs'].includes(state.tool))refreshSidebar()}
+ await ensureReaderAssets(id);
+ let data;if(d.timedSession){data={pages:d.timedSession.turns.map((t,i)=>({number:i+1,text:t.text}))}}else if(d.referenceSummary && d.textPath==='inline'){const entry=d.referenceSummary;data={pages:[{number:1,text:await authorityBody(entry)}]}}else if(d.parentDocumentId && !d.independentText)data=await ensureDoc(d.parentDocumentId);else{let path=d.textPath.replace(/^\.\//,'');if(!path.startsWith('data/'))path='data/'+path;data=await sourceJSON(path);if(!Array.isArray(data.pages))throw Error('No pages');data.pages=data.pages.map((p,i)=>typeof p==='string'?{number:i+1,text:p}:{...p,text:String(p.text||'')})}if(!data)throw Error('Document not loaded');if(ds(id)!==d){if(docPending.get(id)===p)docPending.delete(id);return ensureDoc(id);}docCache.set(id,data);
+ if(state.route==='reader'){const target=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`);if(target&&!state.pdfDocs?.includes(id)){target.innerHTML=documentHTML(id,data);restorePositions();scheduleMargins()}if(state.side&&['contents','refs'].includes(state.tool))refreshSidebar();if(d.timedSession&&audioCase===d.caseId)updateTranscript()}
  return data;
  }catch(e){if(ds(id)!==d){if(docPending.get(id)===p)docPending.delete(id);return ensureDoc(id);}const target=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`);if(target)target.innerHTML=`<div class="reader-empty"><h2>Unable to open text</h2>${button('Try Again','retry-document',id,'outline')}${d.pdfPath?button('Open PDF','pdf-toggle',id,'outline'):filedPDF(d)?button('Open PDF','pdf-toggle',id,'outline'):d.sourceUrl?external(d.sourceUrl,'Open Source'):''}</div>`;console.warn('Document load failed',id,e.message);return null}finally{if(docPending.get(id)===p)docPending.delete(id)}});docPending.set(id,p);return p;
 }
@@ -961,7 +960,7 @@ function questionHTML(raw){if(!raw)return '<p class="qp-text">See the petition f
 
 
 
-function homePage(){const year=Number(currentTerm.term||catalog.term),activity=recentCourtActivity(),current=justiceNames().filter(name=>profiles[name]?.isCurrentJustice===true);return `<main class="main front-page"><section class="front-hero"><div class="front-intro"><h1>The Supreme Court, in Context</h1><p>Read the briefs, hear the arguments, and follow the precedents behind the Court’s decisions.</p><div class="front-actions"><a class="front-primary" href="#/cases?term=${year}">Browse October Term ${year} ${icon('arrow')}</a><a href="#/cases?view=all">Browse All Cases</a></div></div><figure><img src="${esc(courtPhoto.path||'images/court-exterior.jpg')}" alt="${esc(courtPhoto.alt||'The Supreme Court of the United States')}"></figure></section><div class="front-middle"><section class="front-recent"><header><h2>Recent Court Activity</h2></header><div>${activity.map(x=>button(`<time datetime="${x.date}">${shortdate(x.date)}</time><span><small>${esc(x.label)}</small><strong>${esc(x.c.name)}</strong></span>`,'case',x.c.id,'front-event')).join('')||'<p>No recent court events.</p>'}</div></section><section class="front-feature">${featuredCaseCard()}</section></div><section class="front-court"><header><h2>Current Court</h2><a href="#/justices">View Justices ${icon('arrow')}</a></header><div class="current-bench">${current.map(n=>button(`${portrait(n,'home-justice-portrait')}<span>${esc(n)}</span>`,'entity','justices|'+n,'bench-person')).join('')}</div></section></main>`}
+function homePage(){return renderHome(homepageContent(),featuredCaseIndex)}
 function workspaceDock(){const entries=Object.entries(state.workspaces||{}).filter(([id,w])=>caseMap.has(id)&&w.tabs?.some(tab=>docs.has(tab)));return entries.length?`<nav class="workspace-dock" aria-label="Reading"><span class="workspace-dock-label">Reading</span>${entries.map(([id,w])=>`<div class="workspace-task ${state.route==='reader'&&state.workspaceId===id?'active':''}">${button(`<span>${esc(caseMap.get(id).name)}</span>`,'workspace',id,'workspace-resume',`aria-label="${state.route==='reader'&&state.workspaceId===id?'Minimize':'Resume'} ${esc(caseMap.get(id).name)}" title="${esc(caseMap.get(id).name+'\n'+w.tabs.map(t=>documentLabel(ds(t))).join('\n'))}"`)}${button(icon('close'),'workspace-close',id,'workspace-close',`aria-label="Close reader for ${esc(caseMap.get(id).name)}"`)}</div>`).join('')}</nav>`:''}
 function saveWorkspace(){if(!state.workspaceId)return;state.workspaces=state.workspaces||{};if(!state.tabs.length){delete state.workspaces[state.workspaceId];return}state.workspaces[state.workspaceId]=Object.fromEntries(workspaceFields.map(k=>[k,structuredClone(state[k]??(k==='tabs'||k==='refs'||k==='pdfDocs'?[]:null))]))}
 function switchWorkspace(id){if(state.workspaceId===id)return;saveWorkspace();const w=state.workspaces[id]||{tabs:[],active:null,split:null,refs:[],ref:null,side:false,tool:'info',docGroup:'All',pdfDocs:[],tabCases:{}};state.workspaceId=id;for(const k of workspaceFields)state[k]=structuredClone(w[k]??(k==='tabs'||k==='refs'||k==='pdfDocs'?[]:k==='tabCases'?{}:null));state.caseId=id}
@@ -969,7 +968,7 @@ function locationKey(){const q=new URLSearchParams();let path=state.route;if(pat
 function syncLocation(){if(!historyReady||restoringHistory)return;const next=locationKey();if(location.hash!==next)history.pushState(null,'',next)}
 function decodeRoutePart(part){try{return decodeURIComponent(part)}catch{return part}}
 function readLocation(){const [path,query='']=location.hash.replace(/^#\/?/,'').split('?'),parts=path.split('/').map(decodeRoutePart),q=new URLSearchParams(query);state.route=['home','about','terms','orders','applications','cases','case','reader','profile','areas','justices','advocates','amici','library'].includes(parts[0])?parts[0]:'home';if(state.route==='cases'||state.route==='terms'){const year=Number(state.route==='terms'?parts[1]:q.get('term'));state.termExplicit=termYears().includes(year);state.termChooserOpen=q.get('view')==='terms'||state.route==='terms'&&!parts[1];state.route='cases';state.browseTerm=state.termExplicit?year:termYears()[0];state.sitting=q.get('sitting')||defaultSitting(state.browseTerm);state.termView=q.get('view')==='all'?'all':'sittings';state.argumentMonth='';state.termArea=q.get('area')||''}if(state.route==='orders'){state.ordersTerm=Number(q.get('term'))||currentTerm.term;state.ordersQuery=q.get('q')||'';state.orderKind=q.get('type')||''}if(state.route==='applications'){const year=Number(q.get('term'));state.applicationTerm=q.get('term')==='all'?'all':termYears(true).includes(year)?year:currentTerm.term;state.termChooserOpen=false;state.applicationStatus='';state.query=q.get('q')||''}if(state.route==='case'){state.caseId=caseMap.has(parts[1])?parts[1]:cases[0]?.id;if(getCase()?.collectionOnly)state.route='orders';state.caseSection=q.get('section')||'Decision'}if(state.route==='profile'){state.profileType=['areas','justices','advocates','amici'].includes(parts[1])?parts[1]:'justices';state.profileName=parts[2]||'';state.profileTerm=termYears().includes(Number(q.get('term')))?q.get('term'):'all';state.participation='all'}if(state.route==='reader'){if(!caseMap.has(parts[1])){state.route='home';return}switchWorkspace(parts[1]);state.caseId=parts[1];const id=canonicalDocId(q.get('doc'));if(id&&docs.has(id)){const owner=documentCaseId(id,parts[1])||parts[1];if(owner!==state.workspaceId){state.tabs=state.tabs.filter(x=>x!==id);saveWorkspace();switchWorkspace(owner);state.caseId=owner}if(!state.tabs.includes(id))state.tabs.push(id);state.active=id;state.tabCases[id]=owner;const split=canonicalDocId(q.get('split'));state.split=split&&split!==id&&docs.has(split)&&documentCaseId(split,owner)===owner?split:null;if(state.split){if(!state.tabs.includes(split))state.tabs.push(split);state.tabCases[split]=owner;state.paneOrder=q.get('focus')==='right'?[split,id]:[id,split]}else state.paneOrder=null}}if(state.route==='cases')state.query=q.get('q')||''}
-window.addEventListener('popstate',()=>{storePositions();saveWorkspace();restoringHistory=true;readLocation();render();restoringHistory=false;if(state.route!=='reader')window.scrollTo(0,0)});
+window.addEventListener('popstate',()=>{if(!appReady)return;storePositions();saveWorkspace();restoringHistory=true;readLocation();render();restoringHistory=false;if(state.route!=='reader')window.scrollTo(0,0)});
 document.addEventListener('submit',e=>{if(e.target.id==='home-search-form'){e.preventDefault();state.query=document.querySelector('#home-search').value;route('cases')}});
 
 
@@ -1049,11 +1048,13 @@ window.addEventListener('resize',scheduleMargins);
 document.fonts?.ready.then(scheduleMargins);
 document.fonts?.addEventListener('loadingdone',scheduleMargins);
 
-async function init(){try{loadedContentBase=await readContentBase().catch(()=>null);catalog=await sourceJSON('data/catalog.json');[readingLayout,argumentAlignment,pdfPaths,readerStructure,referenceSummaries]=await Promise.all(['data/reading-layout.json','data/argument-alignment.json','data/pdf-paths.json','data/reader-structure.json','data/reference-summaries.json'].map(u=>sourceJSON(u).catch(()=>({}))));try{caseDisplay=await fetchContent('data/case-display.json').then(r=>r.ok?r.json():{})}catch{};[profiles,opinionSections,justiceQuotes,justiceSignatures]=await Promise.all(['data/profiles.json','data/opinion-sections.json','data/justice-quotes.json','data/justice-signatures.json'].map(u=>fetchContent(u).then(r=>{if(!r.ok)throw Error(u);return r.json()})));[currentTerm,currentTextIndex,caseIssues,courtPhoto,collectionPhoto]=await Promise.all(['data/current-term.json','data/current-text-index.json','data/case-issues.json','data/court-photo.json','data/collection-photo.json'].map(u=>sourceJSON(u).catch(()=>({}))));const supplementary = await Promise.all(['verified-votes','case-milestones','record-supplement','opinion-section-overrides','current-areas','term-benches'].map(name=>fetchContent('data/'+name+'.json').then(r=>{if(!r.ok)throw Error(name);return r.json()})));
- [verifiedVotes,milestones,recordSupplement,,currentAreas,termBenches]=supplementary;
- Object.assign(opinionSections,supplementary[3]);
- courtOrders=await sourceJSON('data/court-orders.json').catch(()=>({documents:[],terms:[],error:true}));
- const photos=await fetchContent('data/advocate-portraits.json').then(r=>r.ok?r.json():{});
+async function init(){try{
+ loadedContentBase=await readContentBase().catch(()=>null);
+ const names=['catalog','reader-assets/index','reader-assets/arguments','pdf-paths','reference-summaries','case-display','profiles','opinion-sections','justice-quotes','justice-signatures','current-term','current-text-index','case-issues','court-photo','collection-photo','verified-votes','case-milestones','record-supplement','opinion-section-overrides','current-areas','term-benches','court-orders','advocate-portraits'];
+ const values=await Promise.all(names.map(name=>sourceJSON('data/'+name+'.json')));
+ let overrides,photos;
+ [catalog,readerAssetsIndex,argumentAlignment,pdfPaths,referenceSummaries,caseDisplay,profiles,opinionSections,justiceQuotes,justiceSignatures,currentTerm,currentTextIndex,caseIssues,courtPhoto,collectionPhoto,verifiedVotes,milestones,recordSupplement,overrides,currentAreas,termBenches,courtOrders,photos]=values;
+ Object.assign(opinionSections,overrides);
  for(const [name,photo] of Object.entries(photos))profiles[name]={name,type:'advocate',...profiles[name],...photo};
  for(const list of Object.values(opinionSections)){
    for(const section of list){
@@ -1061,10 +1062,10 @@ async function init(){try{loadedContentBase=await readContentBase().catch(()=>nu
      if(parent&&(!splitParents.has(parent)||section.opinionType==='Opinion of the Court'))splitParents.set(parent,section.id);
    }
  }
- cases=[...catalog.cases,...(currentTerm.cases||[])].map(mergeCaseSources).map(c=>({...c,id:String(c.id||c.docket),docket:String(c.docket||c.id),documents:(c.documents||[]).map(d=>({...d,...(currentTextIndex[d.id]||{}),id:String(d.id),caseId:String(c.id||c.docket)}))}));caseMap=new Map(cases.map(c=>[c.id,c]));docs=new Map(cases.flatMap(c=>c.documents).map(d=>[d.id,d]));for(const d of catalog.authorities||[])docs.set(d.id,d);for(const list of Object.values(opinionSections))for(const d of list)docs.set(d.id,d);for(const c of cases){const cite=validCitation(c);if(cite&&!caseByCitation.has(authorityKey(cite)))caseByCitation.set(authorityKey(cite),c);const opinion=c.documents.find(d=>category(d)==='Decision'&&d.textPath);if(opinion&&c.citation)opinion.citation=c.citation}registerCourtOrders();registerReferenceSummaries();registerTimedTranscripts();normalizeReaderDocuments();state.notes=state.notes.filter(meaningfulNote);for(const [id,path]of Object.entries(pdfPaths))if(docs.has(id)&&!docs.get(id).pdfPath)docs.get(id).pdfPath=path;if(location.hash.startsWith('#/reader')||[...state.tabs,...Object.values(state.workspaces).flatMap(w=>w.tabs||[])].some(id=>id.startsWith('reference-')))await loadExtendedAuthorities();state.pdfDocs=(state.pdfDocs||[]).filter(id=>embeddedPDF(ds(id)));for(const w of Object.values(state.workspaces))w.pdfDocs=(w.pdfDocs||[]).filter(id=>embeddedPDF(ds(id)));state.tabs=state.tabs.filter(id=>docs.has(id));if(!docs.has(state.active))state.active=state.tabs[0]||null;if(!docs.has(state.split))state.split=null;if(!caseMap.has(state.caseId))state.caseId=cases[0]?.id;state.saved=state.saved.filter(id=>caseMap.has(id));state.recents=state.recents.filter(id=>docs.has(id));for(const ref of state.refs){ref.canonical=ref.canonical||ref.summary?.citation;refsIndex.set(ref.key,ref)}document.title='Ninefold · U.S. Supreme Court';if(!state.workspaceId&&state.tabs.length){state.workspaceId=state.tabCases[state.active]||ds(state.active)?.caseId;saveWorkspace()}for(const [id,w] of Object.entries(state.workspaces)){w.tabs=(w.tabs||[]).filter(id=>docs.has(id));if(!docs.has(w.active))w.active=w.tabs[0]||null;if(!docs.has(w.split))w.split=null}restoringHistory=true;readLocation();restoringHistory=false;history.replaceState(null,'',locationKey());historyReady=true;document.documentElement.style.setProperty('--reader-size',state.textSize+'px');if(loadedContentBase&&await readContentBase().catch(()=>null)!==loadedContentBase)loadedContentBase=null;captureImportedContent();appReady=true;render();initializeAccount();window.__court={get state(){return state},get catalog(){return catalog},get docs(){return docs},get cache(){return docCache}}}catch(e){sourceFailed=true;app.innerHTML=`<main class="main"><h1>Collection unavailable</h1><p style="margin-top:20px">The term collection could not load. Please refresh once the import is ready.</p><p class="small muted">${esc(e.message)}</p></main>`;console.error(e)}}
+ cases=[...catalog.cases,...(currentTerm.cases||[])].map(mergeCaseSources).map(c=>({...c,id:String(c.id||c.docket),docket:String(c.docket||c.id),documents:(c.documents||[]).map(d=>({...d,...(currentTextIndex[d.id]||{}),id:String(d.id),caseId:String(c.id||c.docket)}))}));caseMap=new Map(cases.map(c=>[c.id,c]));docs=new Map(cases.flatMap(c=>c.documents).map(d=>[d.id,d]));for(const d of catalog.authorities||[])docs.set(d.id,d);for(const list of Object.values(opinionSections))for(const d of list)docs.set(d.id,d);for(const c of cases){const cite=validCitation(c);if(cite&&!caseByCitation.has(authorityKey(cite)))caseByCitation.set(authorityKey(cite),c);const opinion=c.documents.find(d=>category(d)==='Decision'&&d.textPath);if(opinion&&c.citation)opinion.citation=c.citation}registerCourtOrders();registerReferenceSummaries();registerTimedTranscripts();normalizeReaderDocuments();state.notes=state.notes.filter(meaningfulNote);for(const [id,path]of Object.entries(pdfPaths))if(docs.has(id)&&!docs.get(id).pdfPath)docs.get(id).pdfPath=path;if(location.hash.startsWith('#/reader')||[...state.tabs,...Object.values(state.workspaces).flatMap(w=>w.tabs||[])].some(id=>id.startsWith('reference-')))await loadExtendedAuthorities();state.pdfDocs=(state.pdfDocs||[]).filter(id=>embeddedPDF(ds(id)));for(const w of Object.values(state.workspaces))w.pdfDocs=(w.pdfDocs||[]).filter(id=>embeddedPDF(ds(id)));state.tabs=state.tabs.filter(id=>docs.has(id));if(!docs.has(state.active))state.active=state.tabs[0]||null;if(!docs.has(state.split))state.split=null;if(!caseMap.has(state.caseId))state.caseId=cases[0]?.id;state.saved=state.saved.filter(id=>caseMap.has(id));state.recents=state.recents.filter(id=>docs.has(id));for(const ref of state.refs){ref.canonical=ref.canonical||ref.summary?.citation;refsIndex.set(ref.key,ref)}document.title='Ninefold · U.S. Supreme Court';if(!state.workspaceId&&state.tabs.length){state.workspaceId=state.tabCases[state.active]||ds(state.active)?.caseId;saveWorkspace()}for(const [id,w] of Object.entries(state.workspaces)){w.tabs=(w.tabs||[]).filter(id=>docs.has(id));if(!docs.has(w.active))w.active=w.tabs[0]||null;if(!docs.has(w.split))w.split=null}restoringHistory=true;readLocation();restoringHistory=false;history.replaceState(null,'',locationKey());historyReady=true;document.documentElement.style.setProperty('--reader-size',state.textSize+'px');if(loadedContentBase&&await readContentBase().catch(()=>null)!==loadedContentBase)loadedContentBase=null;captureImportedContent();appReady=true;render();initializeAccount();window.dispatchEvent(new Event('ninefold:ready'));window.__court={get state(){return state},get catalog(){return catalog},get docs(){return docs},get cache(){return docCache}}}catch(e){sourceFailed=true;window.dispatchEvent(new Event('ninefold:failed'));console.error(e)}}
 
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('.term-case')){e.preventDefault();e.target.click()}});
-let readingLayout={},argumentAlignment={},pdfPaths={},readerStructure={},referenceSummaries={},selectionRange=null,peekAnchor=null,readerMenu=null,readerMenuTrigger=null;
+let readerAssetsIndex={},readingLayout={},argumentAlignment={},pdfPaths={},readerStructure={},referenceSummaries={},selectionRange=null,peekAnchor=null,readerMenu=null,readerMenuTrigger=null;
 let audioSession=null,followTranscript=state.followAudioText!==false,narration=null,narrationToken=0,playbackExpanded=false,playbackOptionsOpen=false,lastSpokenKey=null,argumentLoading=false,argumentError=null,voiceReady=false,voiceProgress=null;
 const pdfCache=new Map(),pdfLoading=new Map();
 function layoutPage(id,page){const key=textSourceId(id),layout=readingLayout[key]?.[page]||{},footnotes=readerStructure[key]?.footnotes?.filter(f=>f.page===page);return footnotes?.length?{...layout,footnotes}:layout}
@@ -1155,13 +1156,13 @@ function openOptions(trigger,id){
 }
 
 function transcriptHTML(id,data){const d=ds(id),session=d.timedSession,c=contextCase(id);return `<article class="document-body conversation ${state.marginNotes?'show-margin-notes':''}" data-document="${esc(id)}"><header class="conversation-header"><div><h2>Oral Argument</h2><p>${date(c.argued)}</p></div>${button(icon('play')+'Listen','transcript-seek',id+'|0','outline')}</header>${session.turns.map((t,i)=>{const {text,map}=conversationText(t);displayMaps.set(id+':'+i,map);const speaker=speakerProfile(t.speaker),justice=speaker?.type==='justice';return `<section class="speaker-turn source-page ${justice?'justice-turn':'advocate-turn'}" data-page="${i}" data-turn="${i}" data-start="${t.start}" data-end="${t.end}"><div class="speaker-avatar ${speaker?.illustrationPath?'illustrated-speaker':''}">${inlinePortraitPath(speaker)?`<img src="${esc(inlinePortraitPath(speaker))}" alt="${esc(t.speaker)}">`:`<span>${esc(t.speaker.split(' ').filter(x=>x.length>1).map(x=>x[0]).slice(0,2).join(''))}</span>`}</div><div class="speaker-message"><header><strong>${esc(t.speaker)}</strong>${button(time(t.start),'transcript-seek',id+'|'+t.start,'turn-time',`aria-label="Play ${esc(t.speaker)} at ${time(t.start)}"`)}</header><div class="page-text" data-text-doc="${esc(id)}" data-page="${i}">${timedParagraphs(text,map,t,id,i)}</div></div></section>`}).join('')}<footer class="transcript-credit">${session.timingMethod==='speech-aligned'?`<a href="${esc(safeUrl(d.sourceUrl))}" target="_blank" rel="noopener">Official Court transcript</a> · Timing aligned to the Court recording by Ninefold. Timestamps are approximate.`:`Transcript and timing: <a href="${esc(safeUrl(d.attributionUrl))}" target="_blank" rel="noopener">Oyez</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. Reformatted for reading.`}</footer><aside class="document-margin"></aside></article>`}
-function registerTimedTranscripts(){for(const [caseId,record]of Object.entries(argumentAlignment)){const c=caseMap.get(caseId);if(!c)continue;const filed=c.documents.filter(d=>category(d)==='Argument'&&!d.auxiliary);record.sessions.forEach((session,i)=>{const source=filed[i]||filed[0],id=caseId+'-argument-'+session.id;if(source&&(!transcriptAliases.has(source.id)||source.caseId===caseId))transcriptAliases.set(source.id,id);docs.set(id,{id,caseId,title:'Transcript',category:'Argument',type:'Transcript',timedSession:session,pdfSourceId:source?.id,pdfPath:source?.pdfPath||pdfPaths[source?.id],sourceUrl:source?.sourceUrl||session.sourceUrl,attributionUrl:record.attributionUrl,date:c.argued});docCache.set(id,{pages:session.turns.map((t,i)=>({number:i+1,text:t.text}))})})}migrateTranscriptWorkspaces()}
+function registerTimedTranscripts(){for(const [caseId,record]of Object.entries(argumentAlignment)){const c=caseMap.get(caseId);if(!c)continue;const filed=c.documents.filter(d=>category(d)==='Argument'&&!d.auxiliary);record.sessions.forEach((session,i)=>{const source=filed[i]||filed[0],id=caseId+'-argument-'+session.id;if(source&&(!transcriptAliases.has(source.id)||source.caseId===caseId))transcriptAliases.set(source.id,id);docs.set(id,{id,caseId,title:'Transcript',category:'Argument',type:'Transcript',timedSession:session,pdfSourceId:source?.id,pdfPath:source?.pdfPath||pdfPaths[source?.id],sourceUrl:source?.sourceUrl||session.sourceUrl,attributionUrl:record.attributionUrl,date:c.argued});if(session.turns)docCache.set(id,{pages:session.turns.map((t,i)=>({number:i+1,text:t.text}))})})}migrateTranscriptWorkspaces()}
 
 function currentTimedDoc(){return [...docs.values()].find(d=>d.caseId===audioCase&&d.timedSession?.id===audioSession)}
 function clearSpoken(){CSS.highlights?.delete('spoken');document.querySelectorAll('.speaker-turn.speaking').forEach(el=>el.classList.remove('speaking'));lastSpokenKey=null}
 function updateTranscript(){
  const d=currentTimedDoc();if(!d||audio.ended){clearSpoken();return}
- const turns=d.timedSession.turns,i=turns.findIndex(t=>audio.currentTime>=t.start&&audio.currentTime<t.end),turn=turns[i];
+ const turns=d.timedSession.turns||[],i=turns.findIndex(t=>audio.currentTime>=t.start&&audio.currentTime<t.end),turn=turns[i];
  const selector=`.doc-scroll[data-doc="${CSS.escape(d.id)}"] .speaker-turn[data-turn="${i}"]`;
  document.querySelectorAll('.speaker-turn.speaking').forEach(el=>{if(!el.matches(selector))el.classList.remove('speaking')});
  document.querySelectorAll(selector).forEach(el=>el.classList.add('speaking'));
@@ -1193,9 +1194,10 @@ function maskSpokenCitations(text){
  return text;
 }
 function skipSpokenCitations(text){return maskSpokenCitations(text).replace(/\(\s*\)/g,'').replace(/\s+([,.;:!?])/g,'$1').replace(/[,;]\s*([.!?])/g,'$1').replace(/\s+/g,' ').trim()}
-function narrationChunks(id,anchor=null){
+function narrationChunks(id,anchor=null,limit=Infinity,fromPage=0){
  const d=ds(id),edited=d.readerContent,data=edited?{pages:editedSpeechPages(edited)}:docCache.get(id),chunks=[];if(!data)return chunks;
  data.pages.forEach((p,page)=>{
+  if(page<fromPage||chunks.length>=limit)return;
   if(!edited&&d.sourceRange&&(page<d.sourceRange.startPage||page>d.sourceRange.endPage))return;
   const start=page===d.sourceRange?.startPage?d.sourceRange.startOffset:0,end=page===d.sourceRange?.endPage?d.sourceRange.endOffset:p.text.length;
   // Speech uses reading/source coordinates only. Never replace a map belonging
@@ -1221,7 +1223,7 @@ function narrationChunks(id,anchor=null){
      for(const m of sentenceText.matchAll(/.{1,220}(?:\s|$)|\S{1,220}/gs)){
       const speech=skipSpokenCitations(m[0]);if(!/[a-zA-Z]/.test(speech))continue;
       const leading=m[0].search(/\S/),readingStart=speechStart+m.index+Math.max(0,leading),readingEnd=speechStart+m.index+m[0].trimEnd().length;
-      chunks.push({page,readingStart,readingEnd,sourceStart:clean.map[readingStart]??0,sourceEnd:(clean.map[readingEnd-1]??0)+1,highlightStart:clean.map[sentenceStart]??0,highlightEnd:(clean.map[sentenceEnd-1]??0)+1,text:speech});
+      chunks.push({page,readingStart,readingEnd,sourceStart:clean.map[readingStart]??0,sourceEnd:(clean.map[readingEnd-1]??0)+1,highlightStart:clean.map[sentenceStart]??0,highlightEnd:(clean.map[sentenceEnd-1]??0)+1,text:speech});if(chunks.length>=limit)return;
      }
     }
    }
@@ -1236,6 +1238,20 @@ function narrationDisplayRange(el,chunk){
 }
 
 let voiceLastProgress=0,voiceWorker=null,voiceRequest=0,voiceSaved=false,voicePersistenceRequested=false;const voicePending=new Map(),narrationAudio=new NarrationAudio();narrationAudio.preload='auto';
+let voicePreparationTimer,preparedDocumentKey=null;
+function scheduleVoicePreparation(id,requested=false){
+ clearTimeout(voicePreparationTimer);
+ if(!id||(!requested&&!state.narrationUsed)||!navigator.onLine||narration||downloadJob||navigator.connection?.saveData)return;
+ voicePreparationTimer=setTimeout(async()=>{
+  if(state.route!=='reader'||state.active!==id||narration||downloadJob)return;
+  const data=await ensureDoc(id);if(!data||state.active!==id||narration)return;
+  const voice=state.narrationVoice||'af_heart',saved=state.audioProgress[audioProgressKey('document',id)];
+  const scroll=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`),page=saved?.page??Number(scroll?visiblePage(scroll):0);
+  const key=[id,voice,page,ds(id)?.readerContent?.revision||''].join('|');if(key===preparedDocumentKey)return;
+  const chunks=narrationChunks(id,null,3,page);if(!chunks.length)return;
+  preparedDocumentKey=key;getVoiceWorker().postMessage({type:'prepare',session:key,voice,texts:chunks.map(chunk=>chunk.text)});
+ },requested?0:500);
+}
 function getVoiceWorker(){
  if(voiceWorker)return voiceWorker;
  const worker=new Worker('./narration-worker.js',{type:'module'});voiceWorker=worker;
@@ -1248,9 +1264,7 @@ function getVoiceWorker(){
   const p=voicePending.get(data.id);if(!p)return;voicePending.delete(data.id);
   data.type==='audio'?p.resolve(data):p.reject(new Error(data.message||'Cancelled'));
  };
- worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;voiceReady=false;voiceProgress=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};
- // Touch capabilities are exposed on the page, but not in every worker.
- worker.postMessage({type:'configure',compact:useCompactVoice(navigator)});
+ worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;preparedDocumentKey=null;voiceReady=false;voiceProgress=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};
  return worker;
 }
 function waitForVoice(promise,current){
@@ -1261,7 +1275,7 @@ function waitForVoice(promise,current){
    if(Date.now()-Math.max(started,voiceLastProgress)<90000&&Date.now()-started<300000)return;
    clearInterval(timer);
    const error=new DOMException('Voice preparation timed out','TimeoutError');
-   voiceWorker?.terminate();voiceWorker=null;voiceReady=false;voiceProgress=null;
+   voiceWorker?.terminate();voiceWorker=null;preparedDocumentKey=null;voiceReady=false;voiceProgress=null;
    for(const pending of voicePending.values())pending.reject(error);
    voicePending.clear();reject(error);
   },1000);
@@ -1314,12 +1328,13 @@ async function playNarrationChunk(n,index,offset=0){
  }catch(error){if(current()){n.loading=false;n.paused=true;n.error=error.name==='TimeoutError'?'Audio preparation timed out. Tap Play to retry.':'Audio unavailable. Tap Play to retry.';refreshPlayback();console.warn('Natural narration',error.message)}}
 }
 async function startNarration(anchor=null,{paused=false,resume=false,voice=state.narrationVoice||'af_heart',expand=true}={}){
+ state.narrationUsed=true;persist();
  const activation=paused?Promise.resolve(null):narrationAudio.unlock().then(()=>null,error=>error);
  const id=anchor?.docId||state.active;
  if(!voicePersistenceRequested){voicePersistenceRequested=true;void navigator.storage?.persist?.().catch(()=>{})}
  stopNarration();const token=++narrationToken;
  const downloaded=await findDownload(id,voice).catch(()=>null);if(token!==narrationToken)return;if(!navigator.onLine&&!downloaded){toast('Save this document’s audio while online to listen offline.');return}
- if(!navigator.onLine&&downloaded){docCache.set(id,downloaded.data);Object.assign(ds(id),downloaded.document)}
+ if(!navigator.onLine&&downloaded){docCache.set(id,downloaded.data);Object.assign(ds(id),downloaded.document);await ensureReaderAssets(id)}
  else try{await ensureDoc(id)}catch(error){if(token===narrationToken)toast('This document could not load. Please try again.');return}
  if(token!==narrationToken)return;const activationError=await activation;if(token!==narrationToken)return;
  const chunks=downloaded&&!navigator.onLine?downloaded.chunks:narrationChunks(id,anchor);if(!chunks.length){toast('No readable text is available for this document.');return}
@@ -1418,6 +1433,7 @@ function textRange(el,start,end){const w=document.createTreeWalker(el,NodeFilter
 function jumpHeading(id,page,offset){if(state.pdfDocs?.includes(id)){jumpPage(id,page);return}const el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"] .page-text[data-page="${page}"]`);if(!el)return;const pos=lowerBound(displayMaps.get(id+':'+page)||[],offset),r=textRange(el,pos,pos+1),scroll=el.closest('.doc-scroll');if(r)scroll.scrollBy({top:r.getBoundingClientRect().top-scroll.getBoundingClientRect().top-30,behavior:'smooth'})}
 
 async function loadSourcePDF(url) {
+  await loadPDFLibrary();
   if (pdfCache.has(url)) return pdfCache.get(url);
   if (!pdfLoading.has(url)) {
     const task=pdfjsLib.getDocument({url,cMapUrl:'vendor/pdfjs/cmaps/',cMapPacked:true,standardFontDataUrl:'vendor/pdfjs/standard_fonts/'}).promise;
@@ -1654,7 +1670,7 @@ document.addEventListener('click',async e=>{
  const b=e.target.closest('[data-action]'),a=b?.dataset.action,v=b?.dataset.value;
  if(a==='browse-mode'){state.termView=v==='all'?'all':'sittings';state.termChooserOpen=v!=='all';state.argumentMonth='';render()}
  if(a==='court-toggle'){state.courtExpanded=!state.courtExpanded;render();document.querySelector('.court-toggle')?.focus({preventScroll:true});persist()}
- if(a==='playback-expand'){playbackOptionsOpen=false;playbackExpanded=!playbackExpanded;refreshPlayback();document.querySelector('[data-action=playback-expand]')?.focus({preventScroll:true})}
+ if(a==='playback-expand'){playbackOptionsOpen=false;playbackExpanded=!playbackExpanded;if(playbackExpanded&&!narration&&!audioCase)scheduleVoicePreparation(state.active,true);refreshPlayback();document.querySelector('[data-action=playback-expand]')?.focus({preventScroll:true})}
  if(a==='edited-heading'){const article=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(state.active)}"] .document-body`);article?.querySelectorAll('.reader-section-heading')[Number(b.dataset.value)]?.scrollIntoView({block:'center'});}
  if(a==='seek-toggle'){state.seekOpen=!state.seekOpen;refreshPlayback()}
  if(a==='return-audio'){const d=narration?ds(narration.id):currentTimedDoc()||caseDocuments(caseMap.get(audioCase)).find(d=>category(d)==='Argument');if(d)openDoc(d.id,{pdf:false})}
@@ -1703,7 +1719,7 @@ async function seekTranscriptText(event,turn,id){
  if(event.target.closest('.footnote-entry,.reader-footnotes'))return;
  const d=ds(id);if(!d)return;
  const text=event.target.closest('.page-text'),page=Number(text?.dataset.page??turn.dataset.turn);
- const record=narration&&d.readerContent?{text:text?.textContent||''}:d.timedSession?.turns[page]||docCache.get(id)?.pages[page];if(!record)return;
+ const record=narration&&d.readerContent?{text:text?.textContent||''}:d.timedSession?.turns?.[page]||docCache.get(id)?.pages[page];if(!record)return;
  const source=transcriptClickOffset(event,turn,id),start=source===null?null:timeAtSentenceOffset(record,source);
  const time=start??Number(event.target.closest('[data-seek-start]')?.dataset.seekStart??turn.dataset.start);
  if(narration){
@@ -1735,13 +1751,14 @@ document.addEventListener('click',e=>{const link=e.target.closest('a[href]');if(
 
 let accountUserId=null;
 async function initializeAccount(){
- try{const {createAccount}=await import('./account.js');account=await createAccount(event=>{
+ try{let contentChanged=false;const {createAccount}=await import('./account.js');account=await createAccount(event=>{
+  if(event.type==='session'&&!event.user&&!accountUserId)return;
   applyingAccount=true;
   if(event.type==='session'){const next=event.user?.uid||null;if(next!==accountUserId){stopNarration();stopArgument();state.audioProgress={};clearSelection();overlays.replaceChildren();}accountUserId=next;state.notes=[];state.saved=[];state.recents=[];state.positions={};}
   if(event.type==='library'){Object.assign(state,{notes:event.notes,saved:event.saved,recents:event.recents,positions:event.positions,audioProgress:event.audioProgress||{}});}
   if(event.type==='error'||event.type==='content-cleanup-warning')toast(event.message);
   if(appReady)render();applyingAccount=false;
- });if(account?.loadPublishedContent){try{for(const record of await account.loadPublishedContent()){try{applyEditedCase(record.value,false);}catch(error){console.warn('Case edit was not applied',record.id,error.message);}}}catch(e){console.warn('Published edits unavailable',e)}}if(appReady)render();}catch(error){console.error('Account initialization failed',error);toast('Sign-in is unavailable. Public reading is still available.');}
+ });if(account?.loadPublishedContent){try{for(const record of await account.loadPublishedContent()){try{applyEditedCase(record.value,false);contentChanged=true;}catch(error){console.warn('Case edit was not applied',record.id,error.message);}}}catch(e){console.warn('Published edits unavailable',e)}}if(appReady&&(signedIn()||contentChanged))render();}catch(error){console.error('Account initialization failed',error);toast('Sign-in is unavailable. Public reading is still available.');}
 }
 function showSignIn(){
  overlays.querySelector('.account-dialog')?.remove();const dialog=document.createElement('dialog');dialog.className='account-dialog';dialog.setAttribute('aria-label','Sign in to Ninefold');
@@ -1779,7 +1796,7 @@ function referenceNumber(id,key){let numbers=referenceNumbers.get(id);if(!number
 function numberedReading(text,map,citations){let value='',out=[],at=0,hits=[];map=map||Array.from({length:text.length},(_,i)=>i);for(const hit of citations.slice().sort((a,b)=>a.start-b.start)){if(hit.start<at)continue;value+=text.slice(at,hit.start);out.push(...map.slice(at,hit.start));const start=value.length,label='['+hit.ref.number+']';value+=label;out.push(...Array.from({length:label.length},(_,i)=>i===label.length-1?map[hit.end-1]:map[hit.start]));hits.push({...hit,start,end:value.length});at=hit.end}value+=text.slice(at);out.push(...map.slice(at));return {text:value,map:out,citations:hits}}
 function caseSnapshot(c){return {schema:1,caseId:c.id,name:c.name,description:c.decision?.holding||c.officialSummary||'',questions:structuredClone(caseDisplay[c.id]?.questions||[{label:'Questions presented',text:c.question||''}]),documents:caseDocuments(c).map(d=>({id:d.id,title:d.title,category:materialGroup(d),...(d.editorPdfUrl?{pdfUrl:d.editorPdfUrl}:{}),...(d.editorContent?{content:structuredClone(d.editorContent)}:{}),...(d.readerContent?{readerContent:structuredClone(d.readerContent)}:{})}))}}
 const importedCaseContent=new Map(),appliedContentPatches=new Map();let loadedContentBase=null;
-function fetchContent(path){const url=new URL(path,location.href);if(loadedContentBase)url.searchParams.set('base',loadedContentBase);return fetch(url.href,{cache:'no-cache'});}
+function fetchContent(path){const url=new URL(path,location.href);if(/^data\/reader-assets\/[a-f\d]{24}\.json(?:\.gz)?$/.test(path))return fetch(url.href,{cache:'force-cache'});if(loadedContentBase)url.searchParams.set('base',loadedContentBase);return fetch(url.href,{cache:'no-cache'});}
 async function readContentBase(){const response=await fetch('data/content-base-version.json',{cache:'no-store'});if(!response.ok)throw Error('Collection version unavailable. Reload after the site build is complete.');const value=await response.json();if(value.schema!==1||!/^[a-f0-9]{64}$/.test(value.version))throw Error('Invalid collection version.');return value.version;}
 async function assertCurrentContentBase(){if(!loadedContentBase)throw Error('This site build has no verified collection version. Editing cannot be published.');if(await readContentBase()!==loadedContentBase)throw Error('The imported collection changed while this editor was open. Save your draft, reload the site, and review the latest source before publishing.');}
 function captureImportedContent(){for(const c of cases)importedCaseContent.set(c.id,{record:structuredClone(c),display:structuredClone(caseDisplay[c.id]||{}),snapshot:caseSnapshot(c),documents:new Map(caseDocuments(c).map(d=>[d.id,structuredClone(d)]))});}
@@ -1866,7 +1883,7 @@ async function prepareAudioDownload(id){
  if(downloadJob){await showAudioDownloads();return}
  const voice=narration?.voice||state.narrationVoice||'af_heart',job={session:'download-'+crypto.randomUUID(),cache:'ninefold-download-'+crypto.randomUUID(),voice,title:ds(id)?.title||'Document',total:0,done:0,cancelled:false};downloadJob=job;downloadsError='';await showAudioDownloads();
  try{
-  await prepareOfflineShell();if(job.cancelled)return;await ensureDoc(id);await cacheDocument(ds(id)?.textPath);const chunks=narrationChunks(id);if(!chunks.length)throw Error('This document has no readable text.');job.total=chunks.length;const durations=[];let bytes=0;
+  await prepareOfflineShell();if(job.cancelled)return;await ensureDoc(id);await cacheDocument(ds(id)?.textPath);await Promise.all(readerAssetPaths(id).map(cacheDocument));const chunks=narrationChunks(id);if(!chunks.length)throw Error('This document has no readable text.');job.total=chunks.length;const durations=[];let bytes=0;
   for(let index=0;index<chunks.length;index++){if(job.cancelled)return;const clip=await backgroundClip(job,chunks[index],index);durations.push(clip.duration);bytes+=clip.wav.byteLength;job.done++;await refreshAudioDownloads()}
   if(job.cancelled)return;
   const old=await findDownload(id,voice);const record={id:id+'|'+voice,docId:id,voice,title:job.title,cache:job.cache,chunks,durations,duration:durations.reduce((a,b)=>a+b,0),bytes,document:ds(id),data:docCache.get(id),savedAt:Date.now()};await saveDownload(record);audioDownloads=await listDownloads();job.complete=true;if(old)await caches.delete(old.cache);toast('Audio saved for offline listening.');
@@ -1880,5 +1897,5 @@ document.addEventListener('click',async event=>{const b=event.target.closest('[d
  if(a==='cancel-download')cancelAudioDownload();
  if(a==='delete-download'){const item=audioDownloads.find(d=>d.id===id);if(item&&narration?.downloadCache===item.cache)stopNarration();await deleteDownload(id);audioDownloads=await listDownloads();await refreshAudioDownloads();refreshPlayback()}
  if(a==='play-download'){const d=(await listDownloads()).find(x=>x.id===id);if(d){document.querySelector('.audio-download-dialog')?.close();state.narrationVoice=d.voice;openDoc(d.docId,{pdf:false});await startNarration({docId:d.docId,page:0,offset:0},{voice:d.voice,resume:true})}}
- if(a==='delete-model'){if(narration||downloadJob)return;voiceWorker?.terminate();voiceWorker=null;voiceReady=false;voiceSaved=false;await clearModelStorage();await refreshAudioDownloads()}
+ if(a==='delete-model'){if(narration||downloadJob)return;voiceWorker?.terminate();voiceWorker=null;preparedDocumentKey=null;voiceReady=false;voiceSaved=false;state.narrationUsed=false;persist();await clearModelStorage();await refreshAudioDownloads()}
  }catch(error){downloadsError=error.message;await refreshAudioDownloads()}});

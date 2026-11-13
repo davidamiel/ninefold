@@ -10,7 +10,7 @@ for file in source.rglob('*'):
     # use the consistently cropped bench-centered assets.
     if relative.parts[:2]==('images','justice-art'):continue
     if relative.parts[:2]==('images','advocate-art') and file.suffix=='.png':continue
-    packed=(relative.parts[:2] in [('data','docs'),('data','current-docs'),('data','statutes')]
+    packed=(relative.parts[:2] in [('data','docs'),('data','current-docs'),('data','statutes'),('data','reader-assets')]
             or relative.as_posix() in {'data/reading-layout.json','data/catalog.json','data/current-term.json','data/argument-alignment.json','data/reader-structure.json','data/brief-precedent-summaries.json','data/precedent-index.json','data/statute-index.json','data/cited-opinions.json','data/rules-index.json'}) and file.suffix=='.json'
     if packed:dest=dest.with_suffix('.json.gz')
     expected.add(dest.resolve());dest.parent.mkdir(parents=True,exist_ok=True)

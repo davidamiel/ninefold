@@ -1,0 +1,12 @@
+.boot-header a{color:inherit;text-decoration:none}
+.boot-header .explore-menu a,.boot-header .mobile-menu nav>a{display:flex;align-items:center;padding:7px 11px;font-size:13px;border-radius:5px}
+.boot-header .app-nav>a{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;min-width:65px;padding:21px 12px;border-radius:0;font:500 13px/1.25 "Source Sans 3",system-ui;color:var(--nf-wash)}
+.boot-header .app-nav>a.active{color:white;background:#ffffff13;box-shadow:inset 0 -3px #d7b77e}
+.boot-header .app-nav>a:hover{color:white;background:#ffffff13}
+.boot-header .explore-menu a:hover,.boot-header .mobile-menu nav>a:hover{background:var(--tint);color:var(--green)}
+.boot-header .explore-menu>div a{display:block}
+.startup-destination{min-height:60vh}
+.startup-destination p{margin-top:20px;color:var(--muted)}
+.startup-error{margin:16px;padding:12px;border:1px solid var(--line);border-radius:6px;background:var(--paper)}
+.startup-error button{text-decoration:underline}
+@media(max-width:760px){.boot-header .mobile-menu nav>a{padding:10px 12px}}
