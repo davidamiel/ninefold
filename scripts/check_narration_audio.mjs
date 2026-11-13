@@ -18,7 +18,7 @@ class Context extends EventTarget {
   }
   createGain() { return {connect() {}, disconnect() {}, gain: {value: 1, setValueAtTime() {}, linearRampToValueAtTime() {}, cancelScheduledValues() {}}}; }
   async decodeAudioData() {
-    this.samples = Float32Array.from([Infinity, -3, 1, 2, NaN, .5, 4, -1]);
+    this.samples = Float32Array.from([Infinity, -3, 1, 2, Number.NaN, .5, 4, -1]);
     return {duration: 10, numberOfChannels: 1, sampleRate: 1000, getChannelData: () => this.samples};
   }
 }
@@ -77,15 +77,32 @@ assert(pendingPlayer.paused, 'late decoding cannot restart paused playback');
 assert.equal(slow.sources.length, 1, 'cancelled decode does not start an audible source');
 globalThis.fetch = originalFetch;
 
-for (const device of [{userAgent: 'iPhone'}, {userAgent: 'Android'}, {platform: 'MacIntel', maxTouchPoints: 5}, {deviceMemory: 4}]) {
+await Promise.all([{userAgent: 'iPhone'}, {userAgent: 'Android'}, {platform: 'MacIntel', maxTouchPoints: 5}, {deviceMemory: 4}].map(async device => {
   assert(useCompactVoice(device));
   let requested = false;
   const settings = await loadVoice({device: {...device, gpu: {requestAdapter() { requested = true; }}}, create: async options => options, notify() {}});
   assert.equal(settings.dtype, 'q8');
   assert.equal(settings.device, 'wasm');
   assert.equal(requested, false, 'mobile never allocates the full precision GPU model');
-}
+}));
+let tabletAdapterRequested = false;
+const tablet = await loadVoice({
+  device: {userAgent: 'Macintosh', platform: 'MacIntel', gpu: {async requestAdapter() { tabletAdapterRequested = true; return {}; }}},
+  compact: true,
+  create: async options => options,
+  notify() {},
+});
+assert.equal(tablet.device, 'wasm', 'page touch capability is preserved in workers');
+assert.equal(tabletAdapterRequested, false);
 const attempts = [];
-await loadVoice({device: {gpu: {requestAdapter: async () => ({})}}, create: async options => { attempts.push(options.device); if (options.device === 'webgpu') throw Error('GPU unavailable'); return {}; }, notify() {}});
+await loadVoice({
+  device: {gpu: {requestAdapter: async () => ({})}},
+  create: async options => {
+    attempts.push(options.device);
+    if (options.device === 'webgpu') throw new Error('GPU unavailable');
+    return {};
+  },
+  notify() {},
+});
 assert.deepEqual(attempts, ['webgpu', 'wasm'], 'GPU initialization failure falls back');
 console.log('Narration checks passed: gesture activation, recovery, pause/resume/seek, interrupted playback, cancellation, bounded samples, mobile backend and GPU fallback.');
