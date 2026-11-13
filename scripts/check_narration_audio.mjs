@@ -85,6 +85,13 @@ await Promise.all([{userAgent: 'iPhone'}, {userAgent: 'Android'}, {platform: 'Ma
   assert.equal(settings.device, 'wasm');
   assert.equal(requested, false, 'mobile never allocates the full precision GPU model');
 }));
+const tablet = await loadVoice({
+  device: {userAgent: 'Macintosh', platform: 'MacIntel', gpu: {requestAdapter() { throw new Error('GPU must not be requested'); }}},
+  compact: true,
+  create: async options => options,
+  notify() {},
+});
+assert.equal(tablet.device, 'wasm', 'page touch capability is preserved in workers');
 const attempts = [];
 await loadVoice({
   device: {gpu: {requestAdapter: async () => ({})}},

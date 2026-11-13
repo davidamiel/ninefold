@@ -2,6 +2,7 @@ import {applicationRelief,applicationEvents,applicationState,applicationOutcome,
 import {listDownloads,findDownload,deleteDownload,saveDownload,prepareOfflineShell,cacheDocument} from './audio-downloads.js';
 import {modelStorageSize,clearModelStorage} from './voice-storage.js';
 import {NarrationAudio} from './narration-audio.js';
+import {useCompactVoice} from './voice-backend.js';
 import {createContentPatch,applyContentPatch,validateContentPatch} from './content-patch.js';
 import {createEditorSession} from './editor-session.js';
 import {openReaderEditor} from './reader-editor.js';
@@ -1248,6 +1249,8 @@ function getVoiceWorker(){
   data.type==='audio'?p.resolve(data):p.reject(new Error(data.message||'Cancelled'));
  };
  worker.onerror=()=>{if(voiceWorker!==worker)return;voiceWorker=null;voiceReady=false;voiceProgress=null;worker.terminate();for(const p of voicePending.values())p.reject(new Error('Voice engine could not load'));voicePending.clear()};
+ // Touch capabilities are exposed on the page, but not in every worker.
+ worker.postMessage({type:'configure',compact:useCompactVoice(navigator)});
  return worker;
 }
 function waitForVoice(promise,current){

@@ -6,9 +6,9 @@ export function useCompactVoice(device) {
     (device.deviceMemory > 0 && device.deviceMemory <= 4);
 }
 
-export async function loadVoice({device, create, notify}) {
+export async function loadVoice({device, create, notify, compact = useCompactVoice(device)}) {
   const options = {progress_callback: progress => notify({type: 'progress', progress})};
-  if (!useCompactVoice(device)) {
+  if (!compact) {
     try {
       const adapter = await device.gpu?.requestAdapter();
       if (adapter) {

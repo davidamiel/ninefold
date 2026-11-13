@@ -5,10 +5,10 @@ import {KokoroTTS,env} from './vendor/kokoro/kokoro.web.js';
 await installModelCache(status=>self.postMessage({type:'model-cache',...status}));
 env.modelCacheEnabled=false;
 env.wasmPaths=new URL('./vendor/kokoro/',import.meta.url).href;
-let engine,latestSession,running=false;
+let engine,latestSession,compact,running=false;
 const queue=[],cancelledDownloads=new Set();
 const active=data=>data.background?!cancelledDownloads.has(data.session):data.session===latestSession;
-const load=()=>engine??=loadVoice({device:navigator,create:options=>KokoroTTS.from_pretrained('onnx-community/Kokoro-82M-v1.0-ONNX',options),notify:message=>self.postMessage(message)}).catch(error=>{engine=null;throw error});
+const load=()=>engine??=loadVoice({device:navigator,compact,create:options=>KokoroTTS.from_pretrained('onnx-community/Kokoro-82M-v1.0-ONNX',options),notify:message=>self.postMessage(message)}).catch(error=>{engine=null;throw error});
 async function cachedSpeech(data){
  const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('kokoro-speech-v3|'+data.voice+'|'+data.text));
  const key=new URL('./__voice_cache__/'+Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join(''),self.location).href;
@@ -44,6 +44,7 @@ async function drain(){
  }finally{running=false}
 }
 self.onmessage=({data})=>{
+ if(data.type==='configure'){compact=!!data.compact;return}
  if(data.type==='cancel-download'){cancelledDownloads.add(data.session);for(let i=queue.length-1;i>=0;i--)if(queue[i].session===data.session)queue.splice(i,1);return}
  if(data.type==='cancel'){latestSession=data.session;for(let i=queue.length-1;i>=0;i--)if(!queue[i].background)queue.splice(i,1);return}
  if(data.type==='window'){
