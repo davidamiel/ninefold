@@ -21,6 +21,17 @@ function wave(seconds) {
   return buffer;
 }
 const clip = wave(6), recording = wave(60);
+async function recordingResponse(route) {
+  // WebKit's media decoder probes the end of a WAV via a byte-range request.
+  // Respond like the recording server instead of returning the whole file again.
+  const range = /^bytes=(\d+)-(\d*)$/.exec(route.request().headers().range || '');
+  const headers = {'Accept-Ranges':'bytes'};
+  if (!range) return route.fulfill({contentType:'audio/wav', headers, body:recording});
+  const start = Number(range[1]), end = Math.min(Number(range[2] || recording.length - 1), recording.length - 1);
+  if (start > end) return route.fulfill({status:416, headers:{'Content-Range':`bytes */${recording.length}`}});
+  return route.fulfill({status:206, contentType:'audio/wav', headers:{...headers, 'Content-Range':`bytes ${start}-${end}/${recording.length}`}, body:recording.subarray(start, end + 1)});
+}
+
 const workerModule = `let session;
 self.onmessage=async({data})=>{
  if(data.type==='cancel'){session=data.session;return}
@@ -35,7 +46,7 @@ test.beforeEach(async ({page}) => {
   await page.route('**/account.js', route => route.fulfill({contentType:'application/javascript', body:accountModule}));
   await page.route('**/narration-worker.js', route => route.fulfill({contentType:'application/javascript', body:workerModule}));
   await page.route('**/test-voice.wav', route => route.fulfill({contentType:'audio/wav', body:clip}));
-  await page.route('**/media/audio/mp3files/**', route => route.fulfill({contentType:'audio/wav', body:recording}));
+  await page.route('**/media/audio/mp3files/**', recordingResponse);
   await page.goto('/#/reader/25-966?doc=25-966-b19029b6064a');
   await expect(page.locator('.document-title')).toBeVisible();
   await expect(page.locator('body')).toHaveAttribute('data-signed-in', 'true');
