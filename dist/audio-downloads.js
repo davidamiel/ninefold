@@ -19,4 +19,4 @@ export async function prepareOfflineShell(){
  if(old&&old!==name)await caches.delete(old);
  return !!persistent;
 }
-export async function cacheDocument(path){if(!path||path==='inline')return;const packed=document.documentElement.dataset.packedText==='true'&&/^data\/(docs|current-docs|statutes)\/.+\.json$/.test(path);const url=new URL(path+(packed?'.gz':''),import.meta.url),r=await fetch(url);if(!r.ok)throw Error('The document could not be saved offline.');await (await caches.open('ninefold-offline-documents-v1')).put(url,r)}
+export async function cacheDocument(path){if(!path||path==='inline')return;const packed=document.documentElement.dataset.packedText==='true'&&/^data\/(docs|current-docs|statutes|reader-assets)\/.+\.json$/.test(path);const url=new URL(path+(packed?'.gz':''),import.meta.url),r=await fetch(url);if(!r.ok)throw Error('The document could not be saved offline.');await (await caches.open('ninefold-offline-documents-v1')).put(url,r)}
