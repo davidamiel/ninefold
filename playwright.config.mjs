@@ -8,5 +8,5 @@ export default defineConfig({
     {name: 'desktop', use: {...devices['Desktop Chrome']}},
     {name: 'mobile-webkit', use: {...devices['iPhone 13']}},
   ],
-  webServer: {command: 'python3 -m http.server 8768 --bind 127.0.0.1 --directory out', url: 'http://127.0.0.1:8768', reuseExistingServer: !process.env.CI},
+  webServer: {command: 'python3 scripts/serve_browser_tests.py', url: 'http://127.0.0.1:8768', reuseExistingServer: !process.env.CI, stdout: 'ignore', stderr: 'ignore'},
 });
