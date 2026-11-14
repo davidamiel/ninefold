@@ -1453,13 +1453,13 @@ function normalizeReadingTypography(text,map){let out='',offsets=[];for(let i=0;
 // An argued stay application is still outside full merits review.
 function isMeritsDocket(c){return c.collection==='Cases for argument'&&!!c.granted}
 function searchSection(id,label,content){
- return content?`<section class="search-group" aria-labelledby="search-${id}"><h3 id="search-${id}">${label}</h3>${content}</section>`:'';
+ return content?`<section class="search-group" aria-labelledby="search-${id}"><h3 id="search-${id}">${esc(label)}</h3>${content}</section>`:'';
 }
 function globalSearchResults(query){
  const q=query.trim().toLowerCase(),normalized=q.replace(/[^a-z0-9]/g,'');if(!q)return '';
  const matches=cases.filter(c=>!c.collectionOnly&&(c.name.toLowerCase().includes(q)||normalized&&String(c.docket).replace(/[^a-z0-9]/gi,'').toLowerCase().includes(normalized)));
  let html='';
- for(const [merits,id,label] of [[true,'merits','Merits docket'],[false,'non-merits','Non-merits docket']]){
+ for(const [merits,id,label] of [[true,'merits','Merits Docket'],[false,'non-merits','Other Applications & Cases']]){
   const hits=matches.filter(c=>isMeritsDocket(c)===merits).slice(0,8);
   html+=searchSection(id,label,hits.map(c=>button(`<span class="search-name">${esc(c.name)}</span><small>No. ${esc(displayDocket(c.docket))}</small>`,'case',c.id,'search-result')).join(''));
  }
