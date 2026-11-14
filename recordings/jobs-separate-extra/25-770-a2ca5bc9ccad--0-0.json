@@ -1,0 +1,212 @@
+{
+  "reviewed": true,
+  "documentId": "25-770-a2ca5bc9ccad--0-0",
+  "sourceDocumentId": "25-770-a2ca5bc9ccad",
+  "sourceTextPath": "dist/data/docs/25-770-a2ca5bc9ccad.json",
+  "sourceTextSha256": "37403c6f57b98c2b3f190d4652de52f0bf7ecbef6a8a496cf1fa5733c2e0260a",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/a2ca5bc9ccad5196251568e3.pdf",
+  "sourcePdfSha256": "3d8cadd5b62094422f008a083531d3e16b139047ca2a7a664f6607bbba031fcd",
+  "title": "Dissent",
+  "author": "Clarence Thomas",
+  "date": "2026-06-29",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-770_2c8f.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 1,
+    "endOffset": 379
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 458,
+          "end": 1034
+        }
+      ],
+      "citations": [
+        {
+          "start": 265,
+          "end": 334,
+          "text": "See Gertz v. Robert Welch, Inc., 418 U. S. 323, 327–328, 342 (1974) .",
+          "type": "case",
+          "canonical": "Gertz v. Robert Welch, Inc., 418 U.S. 323"
+        },
+        {
+          "start": 463,
+          "end": 485,
+          "text": ", 376 U. S. 254 (1964)",
+          "type": "case",
+          "canonical": "New York Times Co. v. Sullivan, 376 U.S. 254"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1034,
+          "end": 1867
+        },
+        {
+          "page": 1,
+          "start": 78,
+          "end": 379
+        }
+      ],
+      "citations": [
+        {
+          "start": 126,
+          "end": 366,
+          "text": "Berisha v. Lawson, 594 U. S. ___, ___ (2021) (THOMAS, J., dissenting from denial of certiorari) (slip op., at 2) (quoting Tah v. Global Witness Publishing, Inc., 991 F. 3d 231, 251 (CADC 2021) (Silberman, J., dissenting); emphasis deleted);",
+          "type": "case",
+          "canonical": "Berisha v. Lawson, 594 U.S. ___"
+        },
+        {
+          "start": 367,
+          "end": 439,
+          "text": "see also Gertz, 418 U. S., at 370–371, 380– 381 (White, J., dissenting);",
+          "type": "case",
+          "canonical": "Gertz v. Robert Welch, Inc., 418 U.S. 323"
+        },
+        {
+          "start": 440,
+          "end": 511,
+          "text": "153 F. 4th 1189, 1206 (CA11 2025) (case below) (Lagoa, J., concurring).",
+          "type": "case",
+          "canonical": "Dershowitz v. Cable News Network, Inc., 153 F.4th 1189"
+        },
+        {
+          "start": 644,
+          "end": 741,
+          "text": "See McKee v. Cosby, 586 U. S. 1172, 1177 (2019) (THOMAS, J., concurring in denial of certiorari).",
+          "type": "case",
+          "canonical": "McKee v. Cosby, 586 U.S. 1172"
+        },
+        {
+          "start": 842,
+          "end": 949,
+          "text": "See, e.g., Berisha, 594 U. S., at ___ (GORSUCH, J., dissenting from denial of certiorari) (slip op., at 8);",
+          "type": "case",
+          "canonical": "Berisha v. Lawson, 594 U.S. ___"
+        },
+        {
+          "start": 950,
+          "end": 1000,
+          "text": "Tah, 991 F. 3d, at 251 (opinion of Silberman, J.);",
+          "type": "case",
+          "canonical": "Tah v. Global Witness Publishing, Inc., 991 F.3d 231"
+        },
+        {
+          "start": 1001,
+          "end": 1053,
+          "text": "Gertz, 418 U. S., at 370–371 (opinion of White, J.).",
+          "type": "case",
+          "canonical": "Gertz v. Robert Welch, Inc., 418 U.S. 323"
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 798,
+      "end": 811,
+      "expectedText": "Predicta-\nbly",
+      "text": "Predictably"
+    },
+    {
+      "page": 0,
+      "start": 860,
+      "end": 870,
+      "expectedText": "stand-\nard",
+      "text": "standard"
+    },
+    {
+      "page": 0,
+      "start": 922,
+      "end": 932,
+      "expectedText": "Sul-\nlivan",
+      "text": "Sullivan"
+    },
+    {
+      "page": 0,
+      "start": 1144,
+      "end": 1158,
+      "expectedText": "Constitu-\ntion",
+      "text": "Constitution"
+    },
+    {
+      "page": 0,
+      "start": 1625,
+      "end": 1634,
+      "expectedText": "fig-\nures",
+      "text": "figures"
+    },
+    {
+      "page": 0,
+      "start": 1682,
+      "end": 1692,
+      "expectedText": "de -\nfamed",
+      "text": "defamed"
+    },
+    {
+      "page": 0,
+      "start": 1800,
+      "end": 1808,
+      "expectedText": "oth-\ners",
+      "text": "others"
+    },
+    {
+      "page": 0,
+      "start": 1388,
+      "end": 1398,
+      "expectedText": "em-\nphasis",
+      "text": "emphasis"
+    },
+    {
+      "page": 0,
+      "start": 1320,
+      "end": 1326,
+      "expectedText": "Inc. ,",
+      "text": "Inc.,"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 36,
+      "end": 458,
+      "text": "1  Cite as: 609 U. S. ____ (2026) \nTHOMAS, J., dissenting \nSUPREME COURT OF THE UNITED STATES \nALAN M. DERSHOWITZ v. CABLE NEWS NETWORK, \nINC. \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE ELEVENTH CIRCUIT \nNo. 25–770. Decided June 29, 2026 \nThe petition for a writ of certiorari is denied. \nJUSTICE THOMAS, with whom J USTICE GORSUCH joins,\ndissenting from the denial of certiorari. \n",
+      "reason": "Case caption, bare order/attribution, running furniture, or represented note marker"
+    },
+    {
+      "page": 1,
+      "start": 12,
+      "end": 78,
+      "text": "2 DERSHOWITZ v. CABLE NEWS NETWORK, INC. \nTHOMAS, J., dissenting \n",
+      "reason": "Case caption, bare order/attribution, running furniture, or represented note marker"
+    }
+  ],
+  "documentInfo": {
+    "joinedBy": [
+      "Neil M. Gorsuch"
+    ]
+  },
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full original public PDF and source text reviewed; all authored prose and quotations retained, running caption/bare order excluded, source locators individually mapped, extraction repairs exact. Meaningful grammatical statute references remain linked and spoken. Substantive comparison note, where present, occurs at its marker."
+}

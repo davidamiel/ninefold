@@ -16,7 +16,7 @@ for(const [id,doc] of Object.entries(prepared)){
   const data=read(recording.cuesPath);assert.equal(data.version,doc.version);assert.equal(data.duration,recording.duration);assert(data.cues.length>0);
   if(recording.url.startsWith('https:')){
    const proof=hosted[data.audioSha256];assert(proof&&proof.url===recording.url&&proof.bytes>1000&&Number.isInteger(proof.releaseAssetId));
-   assert.match(recording.url,new RegExp('^https://github\\.com/davidamiel/ninefold/releases/download/recorded-audio-ot\\d{2}/'+data.audioSha256.slice(0,24)+'\\.mp3$'));
+   assert.match(recording.url,new RegExp(String.raw`^https://github\.com/davidamiel/ninefold/releases/download/recorded-audio-ot\d{2}/${data.audioSha256.slice(0,24)}\.mp3$`));
   }else assert(fs.statSync(new URL(recording.url,root)).size>1000);
   let previous=-1;
   for(const cue of data.cues){

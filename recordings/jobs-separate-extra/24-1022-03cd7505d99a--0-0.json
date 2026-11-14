@@ -1,0 +1,307 @@
+{
+  "reviewed": true,
+  "documentId": "24-1022-03cd7505d99a--0-0",
+  "sourceDocumentId": "24-1022-03cd7505d99a",
+  "sourceTextPath": "dist/data/docs/24-1022-03cd7505d99a.json",
+  "sourceTextSha256": "63576ca86e0d61630acf46def48d3080e5426a7fe0aa313e9844e594e5fd1303",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/03cd7505d99a5fba35011d2b.pdf",
+  "sourcePdfSha256": "2004da6af42ba6a390010d9341a4fc358482c7b1bdb0ac5045c3c7dad40039fd",
+  "title": "Dissent",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2025-11-17",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1022_5iek.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 1,
+    "endOffset": 1859
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 532,
+          "end": 1366
+        }
+      ],
+      "citations": [
+        {
+          "start": 463,
+          "end": 490,
+          "text": "18 U. S. C. §3626(a)(1)(C).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3626(a)(1)(C)"
+        },
+        {
+          "start": 638,
+          "end": 650,
+          "text": "§3626(b)(2);",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3626(b)(2)"
+        },
+        {
+          "start": 651,
+          "end": 699,
+          "text": "see Miller v. French, 530 U. S. 327, 331 (2000).",
+          "type": "case",
+          "canonical": "Miller v. French, 530 U.S. 327"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[n]othing",
+          "to": "nothing"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1366,
+          "end": 1906
+        },
+        {
+          "page": 1,
+          "start": 95,
+          "end": 463
+        }
+      ],
+      "citations": [
+        {
+          "start": 289,
+          "end": 307,
+          "text": "§3626(b)(1)(A)(i).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3626(b)(1)(A)(i)"
+        },
+        {
+          "start": 482,
+          "end": 509,
+          "text": "App. to Pet. for Cert. 81a.",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 81a"
+        },
+        {
+          "start": 787,
+          "end": 799,
+          "text": "§3626(b)(3).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3626(b)(3)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "*",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1431,
+          "end": 1859
+        }
+      ],
+      "citations": [
+        {
+          "start": 22,
+          "end": 55,
+          "text": ", 29 F. 4th 1019, 1025 (CA9 2022)",
+          "type": "case",
+          "canonical": "Balla v. Idaho, 29 F.4th 1019"
+        },
+        {
+          "start": 310,
+          "end": 339,
+          "text": ", 238 F. 3d 14, 20 (CA1 2001)",
+          "type": "case",
+          "canonical": "Laaman v. Warden, N.H. State Prison, 238 F.3d 14"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 465,
+          "end": 1143
+        }
+      ],
+      "citations": [
+        {
+          "start": 120,
+          "end": 206,
+          "text": "Guajardo v. Texas Dept. of Crim. Justice, 363 F. 3d 392, 395–396 (2004) ( per curiam).",
+          "type": "case",
+          "canonical": "Guajardo v. Texas Department of Criminal Justice, 363 F.3d 392"
+        },
+        {
+          "start": 429,
+          "end": 480,
+          "text": "Anderson v. Hutson, 114 F. 4th 408, 420 (CA5 2024).",
+          "type": "case",
+          "canonical": "Anderson v. Hutson, 114 F.4th 408"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1143,
+          "end": 1422
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 636,
+      "end": 644,
+      "expectedText": "cen-\nter",
+      "text": "center"
+    },
+    {
+      "page": 0,
+      "start": 1348,
+      "end": 1360,
+      "expectedText": "termi-\nnated",
+      "text": "terminated"
+    },
+    {
+      "page": 0,
+      "start": 1482,
+      "end": 1494,
+      "expectedText": "in-\njunction",
+      "text": "injunction"
+    },
+    {
+      "page": 1,
+      "start": 450,
+      "end": 462,
+      "expectedText": "lit-\nigation",
+      "text": "litigation"
+    },
+    {
+      "page": 1,
+      "start": 1042,
+      "end": 1055,
+      "expectedText": "termina-\ntion",
+      "text": "termination"
+    },
+    {
+      "page": 1,
+      "start": 1195,
+      "end": 1206,
+      "expectedText": "im-\nportant",
+      "text": "important"
+    },
+    {
+      "page": 1,
+      "start": 1292,
+      "end": 1299,
+      "expectedText": "revi ew",
+      "text": "review"
+    },
+    {
+      "page": 1,
+      "start": 1525,
+      "end": 1537,
+      "expectedText": "demons trate",
+      "text": "demonstrate"
+    },
+    {
+      "page": 1,
+      "start": 1564,
+      "end": 1580,
+      "expectedText": "con-\nstitutional",
+      "text": "constitutional"
+    },
+    {
+      "page": 1,
+      "start": 1602,
+      "end": 1609,
+      "expectedText": "relie f",
+      "text": "relief"
+    },
+    {
+      "page": 1,
+      "start": 800,
+      "end": 810,
+      "expectedText": "sheriff ’s",
+      "text": "sheriff’s"
+    },
+    {
+      "page": 1,
+      "start": 1001,
+      "end": 1011,
+      "expectedText": "sheriff ’s",
+      "text": "sheriff’s"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 49,
+      "end": 532,
+      "text": "1  Cite as: 607 U. S. ____ (2025) \nALITO, J., dissenting \nSUPREME COURT OF THE UNITED STATES \nSUSAN HUTSON v. UNITED STATES, ET AL. \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE FIFTH CIRCUIT \nNo. 24–1022. Decided November 17, 2025 \nThe petition for a writ of certiorari is denied.  J USTICE \nGORSUCH would grant the petition for a writ of certiorari. \nJUSTICE ALITO, with whom J USTICE THOMAS joins, dis-\nsenting from the denial of certiorari. \n",
+      "reason": "Case caption, bare order/attribution, running furniture, or represented note marker"
+    },
+    {
+      "page": 1,
+      "start": 45,
+      "end": 95,
+      "text": "2 HUTSON v. UNITED STATES \nALITO, J., dissenting \n",
+      "reason": "Case caption, bare order/attribution, running furniture, or represented note marker"
+    },
+    {
+      "page": 1,
+      "start": 463,
+      "end": 464,
+      "text": "*",
+      "reason": "Case caption, bare order/attribution, running furniture, or represented note marker"
+    },
+    {
+      "page": 1,
+      "start": 1422,
+      "end": 1431,
+      "text": "—————— \n*",
+      "reason": "Case caption, bare order/attribution, running furniture, or represented note marker"
+    }
+  ],
+  "documentInfo": {
+    "joinedBy": [
+      "Clarence Thomas"
+    ]
+  },
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full original public PDF and source text reviewed; all authored prose and quotations retained, running caption/bare order excluded, source locators individually mapped, extraction repairs exact. Meaningful grammatical statute references remain linked and spoken. Substantive comparison note, where present, occurs at its marker."
+}

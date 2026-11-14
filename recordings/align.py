@@ -50,14 +50,16 @@ def timing_pairs(expected, heard):
         if joined_spelling(left_words, right_words):
             result.update((index, c) for index in range(a, b))
             continue
-        if b-a != d-c or b-a > 4:
-            continue
-        for left, right in zip(range(a, b), range(c, d)):
-            if min(len(expected[left]), len(heard[right])) < 4:
-                continue
-            if difflib.SequenceMatcher(None, expected[left], heard[right]).ratio() >= .8:
-                result[left] = right
+        result.update(close_spellings(expected, heard, a, b, c, d))
     return result
+
+
+def close_spellings(expected, heard, a, b, c, d):
+    if b-a != d-c or b-a > 4:
+        return {}
+    return {left: right for left, right in zip(range(a, b), range(c, d))
+            if min(len(expected[left]), len(heard[right])) >= 4
+            and difflib.SequenceMatcher(None, expected[left], heard[right]).ratio() >= .8}
 
 
 def joined_spelling(left, right):
