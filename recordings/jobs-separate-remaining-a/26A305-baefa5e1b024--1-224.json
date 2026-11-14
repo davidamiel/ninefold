@@ -4,7 +4,7 @@
   "sourceDocumentId": "26A305-baefa5e1b024",
   "sourceTextPath": "dist/data/current-docs/26A305-baefa5e1b024.json",
   "sourceTextSha256": "298cbf86fd1455825d1efca1b02a98dec270dfb5d55a2359ef7f6a31286e239c",
-  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/7f82b8df2d7c7f9a4dd8dd44.pdf",
+  "sourcePdfPath": "recordings/sources/933fe18543d4f8712fad138e.pdf",
   "sourcePdfSha256": "933fe18543d4f8712fad138e69acbb3ae5939d7ba9868a108160de059cdf1792",
   "title": "Dissent",
   "author": "Samuel A. Alito, Jr.",
@@ -30,7 +30,7 @@
         {
           "start": 331,
           "end": 375,
-          "text": "NRC v. Texas, 605 U. S. 665, 681\u2013682 (2025).",
+          "text": "NRC v. Texas, 605 U. S. 665, 681–682 (2025).",
           "type": "case",
           "canonical": "605 U.S. 665"
         }
@@ -66,7 +66,7 @@
         {
           "start": 686,
           "end": 729,
-          "text": "Id., at ___, ___\u2013___ (slip op., at 1, 3\u20138).",
+          "text": "Id., at ___, ___–___ (slip op., at 1, 3–8).",
           "type": "case",
           "canonical": "609 U.S. ___ (2026), Trump v. California"
         }
@@ -92,7 +92,7 @@
         {
           "start": 388,
           "end": 408,
-          "text": "Id., at 54990\u201354991.",
+          "text": "Id., at 54990–54991.",
           "type": "regulation",
           "canonical": "91 Fed. Reg. 54966"
         },
@@ -210,7 +210,7 @@
         {
           "start": 1020,
           "end": 1085,
-          "text": "Summers v. Earth Island Institute, 555 U. S. 488, 498\u2013499 (2009).",
+          "text": "Summers v. Earth Island Institute, 555 U. S. 488, 498–499 (2009).",
           "type": "case",
           "canonical": "555 U.S. 488"
         }
@@ -235,14 +235,14 @@
         {
           "start": 118,
           "end": 150,
-          "text": "U. S. Const., Art. I, \u00a74, cl. 1.",
+          "text": "U. S. Const., Art. I, §4, cl. 1.",
           "type": "statute",
           "canonical": "U.S. Constitution, Article I, Section 4"
         },
         {
           "start": 611,
           "end": 665,
-          "text": "see Dalton v. Specter, 511 U. S. 462, 472\u2013 474 (1994),",
+          "text": "see Dalton v. Specter, 511 U. S. 462, 472– 474 (1994),",
           "type": "case",
           "canonical": "511 U.S. 462"
         }
@@ -272,37 +272,37 @@
         {
           "start": 172,
           "end": 189,
-          "text": "5 U. S. C. \u00a7\u00a7702,",
+          "text": "5 U. S. C. §§702,",
           "type": "statute",
-          "canonical": "5 U.S.C. \u00a7 702"
+          "canonical": "5 U.S.C. § 702"
         },
         {
           "start": 190,
           "end": 194,
           "text": "704.",
           "type": "statute",
-          "canonical": "5 U.S.C. \u00a7 704"
+          "canonical": "5 U.S.C. § 704"
         },
         {
           "start": 308,
           "end": 328,
-          "text": "39 U. S. C. \u00a7410(a);",
+          "text": "39 U. S. C. §410(a);",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7 410"
+          "canonical": "39 U.S.C. § 410"
         },
         {
           "start": 329,
           "end": 408,
-          "text": "see also Mittleman v. Postal Regulatory Comm\u2019n, 757 F. 3d 300, 305 (CADC 2014).",
+          "text": "see also Mittleman v. Postal Regulatory Comm’n, 757 F. 3d 300, 305 (CADC 2014).",
           "type": "case",
           "canonical": "757 F.3d 300"
         },
         {
           "start": 611,
           "end": 639,
-          "text": "See 39 U. S. C. \u00a7\u00a73662\u20133663.",
+          "text": "See 39 U. S. C. §§3662–3663.",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7\u00a7 3662-3663"
+          "canonical": "39 U.S.C. §§ 3662-3663"
         }
       ]
     },
@@ -319,9 +319,9 @@
         {
           "start": 190,
           "end": 198,
-          "text": "\u00a7410(a).",
+          "text": "§410(a).",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7 410"
+          "canonical": "39 U.S.C. § 410"
         }
       ]
     },
@@ -379,7 +379,7 @@
         {
           "start": 701,
           "end": 717,
-          "text": "Id., at 681\u2013682;",
+          "text": "Id., at 681–682;",
           "type": "case",
           "canonical": "605 U.S. 665"
         },
@@ -393,8 +393,8 @@
       ],
       "pronunciations": [
         {
-          "from": "[the agency\u2019s]",
-          "to": "the agency\u2019s"
+          "from": "[the agency’s]",
+          "to": "the agency’s"
         },
         {
           "from": "[its statutory authority]",
@@ -420,9 +420,9 @@
         {
           "start": 424,
           "end": 444,
-          "text": "39 U. S. C. \u00a7401(2).",
+          "text": "39 U. S. C. §401(2).",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7 401"
+          "canonical": "39 U.S.C. § 401"
         },
         {
           "start": 555,
@@ -434,9 +434,9 @@
         {
           "start": 840,
           "end": 863,
-          "text": "39 U. S. C. \u00a7404(a)(1).",
+          "text": "39 U. S. C. §404(a)(1).",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7 404"
+          "canonical": "39 U.S.C. § 404"
         }
       ],
       "pronunciations": [
@@ -494,37 +494,37 @@
         {
           "start": 329,
           "end": 351,
-          "text": "See 39 U. S. C. \u00a73001.",
+          "text": "See 39 U. S. C. §3001.",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7 3001"
+          "canonical": "39 U.S.C. § 3001"
         },
         {
           "start": 540,
           "end": 549,
-          "text": "\u00a73001(m).",
+          "text": "§3001(m).",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7 3001"
+          "canonical": "39 U.S.C. § 3001"
         },
         {
           "start": 642,
           "end": 656,
-          "text": ", see \u00a7401(2),",
+          "text": ", see §401(2),",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7 401"
+          "canonical": "39 U.S.C. § 401"
         },
         {
           "start": 885,
           "end": 894,
-          "text": "\u00a7\u00a7410(a),",
+          "text": "§§410(a),",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7 410"
+          "canonical": "39 U.S.C. § 410"
         },
         {
           "start": 895,
           "end": 905,
-          "text": "3662\u20133663.",
+          "text": "3662–3663.",
           "type": "statute",
-          "canonical": "39 U.S.C. \u00a7\u00a7 3662-3663"
+          "canonical": "39 U.S.C. §§ 3662-3663"
         }
       ],
       "pronunciations": [
@@ -722,7 +722,7 @@
       "page": 4,
       "start": 1682,
       "end": 1690,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014\n*",
+      "text": "——————\n*",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {

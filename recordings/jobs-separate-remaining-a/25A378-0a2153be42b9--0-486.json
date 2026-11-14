@@ -4,7 +4,7 @@
   "sourceDocumentId": "25A378-0a2153be42b9",
   "sourceTextPath": "dist/data/current-docs/25A378-0a2153be42b9.json",
   "sourceTextSha256": "1d9f17771fb989e71bc72f20c6aac6cae59f1220b5974900225d67ee006d48bc",
-  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/22292ad649965d02d428c365.pdf",
+  "sourcePdfPath": "recordings/sources/1d4c833fc1379959bb472339.pdf",
   "sourcePdfSha256": "1d4c833fc1379959bb4723391887aaec69062b1d8d5282d56b32f09769b143ee",
   "title": "Dissent",
   "author": "Sonia Sotomayor",
@@ -96,7 +96,7 @@
         {
           "start": 193,
           "end": 211,
-          "text": "Id., at 1031\u20131037.",
+          "text": "Id., at 1031–1037.",
           "type": "case",
           "canonical": "716 So.2d 1028"
         }
@@ -136,7 +136,7 @@
         {
           "start": 0,
           "end": 183,
-          "text": "Citations to exhibits are to the exhibits attached to Crawford\u2019s Petition for Post-Conviction Relief before the Mississippi Supreme Court, No. 2024\u2013DR\u201301386\u2013SCT (filed Dec. 12, 2024).",
+          "text": "Citations to exhibits are to the exhibits attached to Crawford’s Petition for Post-Conviction Relief before the Mississippi Supreme Court, No. 2024–DR–01386–SCT (filed Dec. 12, 2024).",
           "type": "record",
           "canonical": "Crawford, No. 2024-DR-01386-SCT, postconviction petition exhibits"
         }
@@ -214,7 +214,7 @@
         {
           "start": 645,
           "end": 665,
-          "text": "See id., at 415\u2013416.",
+          "text": "See id., at 415–416.",
           "type": "record",
           "canonical": "Crawford trial transcript, pp. 415-416"
         },
@@ -228,7 +228,7 @@
         {
           "start": 1099,
           "end": 1117,
-          "text": "Id., at 1189\u20131190.",
+          "text": "Id., at 1189–1190.",
           "type": "record",
           "canonical": "Crawford trial transcript, pp. 1189-1190"
         }
@@ -281,7 +281,7 @@
         {
           "start": 546,
           "end": 562,
-          "text": "Id., at 819\u2013820.",
+          "text": "Id., at 819–820.",
           "type": "record",
           "canonical": "Crawford trial transcript, pp. 819-820"
         },
@@ -413,7 +413,7 @@
         {
           "start": 264,
           "end": 280,
-          "text": "Pet. App. 5a\u20136a.",
+          "text": "Pet. App. 5a–6a.",
           "type": "record",
           "canonical": "Petition appendix, pp. 5a-6a"
         },
@@ -427,9 +427,9 @@
         {
           "start": 511,
           "end": 576,
-          "text": "see Miss. Code Ann. \u00a7\u00a799\u201339\u20135(2)(a)(i), 99\u201339\u201327(9) (1973\u2013 2020).",
+          "text": "see Miss. Code Ann. §§99–39–5(2)(a)(i), 99–39–27(9) (1973– 2020).",
           "type": "statute",
-          "canonical": "Miss. Code Ann. \u00a7\u00a799-39-5(2)(a)(i), 99-39-27(9)"
+          "canonical": "Miss. Code Ann. §§99-39-5(2)(a)(i), 99-39-27(9)"
         },
         {
           "start": 731,
@@ -507,7 +507,7 @@
         {
           "start": 424,
           "end": 485,
-          "text": "(quoting Michigan v. Long, 463 U. S. 1032, 1040\u20131041 (1983)).",
+          "text": "(quoting Michigan v. Long, 463 U. S. 1032, 1040–1041 (1983)).",
           "type": "case",
           "canonical": "463 U.S. 1032"
         }
@@ -563,7 +563,7 @@
         {
           "start": 675,
           "end": 723,
-          "text": "; Yates v. Aiken, 484 U. S. 211, 214\u2013218 (1988).",
+          "text": "; Yates v. Aiken, 484 U. S. 211, 214–218 (1988).",
           "type": "case",
           "canonical": "484 U.S. 211"
         }
@@ -611,14 +611,14 @@
         {
           "start": 457,
           "end": 492,
-          "text": ", see Long, 463 U. S., at 1040\u20131041",
+          "text": ", see Long, 463 U. S., at 1040–1041",
           "type": "case",
           "canonical": "463 U.S. 1032"
         },
         {
           "start": 720,
           "end": 746,
-          "text": "See 584 U. S., at 427\u2013428.",
+          "text": "See 584 U. S., at 427–428.",
           "type": "case",
           "canonical": "584 U.S. 414"
         }
@@ -650,7 +650,7 @@
         {
           "start": 286,
           "end": 327,
-          "text": "See, e.g., Long, 463 U. S., at 1040\u20131401.",
+          "text": "See, e.g., Long, 463 U. S., at 1040–1401.",
           "type": "case",
           "canonical": "463 U.S. 1032"
         },
@@ -752,7 +752,7 @@
         {
           "start": 259,
           "end": 325,
-          "text": "Chaidez v. United States, 568 U. S. 342, 347\u2013348, and n. 3 (2013).",
+          "text": "Chaidez v. United States, 568 U. S. 342, 347–348, and n. 3 (2013).",
           "type": "case",
           "canonical": "568 U.S. 342"
         },
@@ -794,7 +794,7 @@
         {
           "start": 298,
           "end": 365,
-          "text": ", 49 Cal. App. 5th 377, 390\u2013392, 263 Cal. Rptr. 3d 63, 73\u201374 (2020)",
+          "text": ", 49 Cal. App. 5th 377, 390–392, 263 Cal. Rptr. 3d 63, 73–74 (2020)",
           "type": "case",
           "canonical": "49 Cal.App.5th 377"
         },
@@ -817,7 +817,7 @@
         {
           "start": 455,
           "end": 515,
-          "text": ", 2023 WL 8431827, *18\u2013*20 (Conn. Super. Ct., Nov. 20, 2023)",
+          "text": ", 2023 WL 8431827, *18–*20 (Conn. Super. Ct., Nov. 20, 2023)",
           "type": "case",
           "canonical": "2023 WL 8431827"
         }
@@ -857,7 +857,7 @@
         {
           "start": 221,
           "end": 280,
-          "text": "see also Miss. Motion to Dismiss in No. 2024\u2013DR\u201301386\u2013SCT 7",
+          "text": "see also Miss. Motion to Dismiss in No. 2024–DR–01386–SCT 7",
           "type": "record",
           "canonical": "No. 2024-DR-01386-SCT, Motion to dismiss, p. 7"
         }
@@ -990,14 +990,14 @@
         {
           "start": 127,
           "end": 162,
-          "text": ", No. 19\u20138695 (U. S. June 15, 2020)",
+          "text": ", No. 19–8695 (U. S. June 15, 2020)",
           "type": "record",
           "canonical": "Gutierrez v. Saenz, No. 19-8695, certiorari petition"
         },
         {
           "start": 173,
           "end": 206,
-          "text": "; see also Pet. for Cert. 17\u201319, ",
+          "text": "; see also Pet. for Cert. 17–19, ",
           "type": "record",
           "canonical": "Glossip v. Oklahoma, No. 22-7466, certiorari petition, pp. 17-19"
         },
@@ -1089,14 +1089,14 @@
         {
           "start": 151,
           "end": 192,
-          "text": "Chaidez, 568 U. S., at 347\u2013348, and n. 3.",
+          "text": "Chaidez, 568 U. S., at 347–348, and n. 3.",
           "type": "case",
           "canonical": "568 U.S. 342"
         },
         {
           "start": 341,
           "end": 408,
-          "text": "Id., at 347\u2013 348 (brackets, emphasis, and quotation marks omitted).",
+          "text": "Id., at 347– 348 (brackets, emphasis, and quotation marks omitted).",
           "type": "case",
           "canonical": "568 U.S. 342"
         },
@@ -1154,7 +1154,7 @@
         {
           "start": 645,
           "end": 730,
-          "text": "(quoting Illinois v. Allen, 397 U. S. 337, 350\u2013351 (1970) (Brennan, J., concurring));",
+          "text": "(quoting Illinois v. Allen, 397 U. S. 337, 350–351 (1970) (Brennan, J., concurring));",
           "type": "case",
           "canonical": "397 U.S. 337"
         },
@@ -1281,14 +1281,14 @@
         {
           "start": 60,
           "end": 120,
-          "text": "Francis v. Spraggins, 720 F. 2d 1190, 1194\u20131195 (CA11 1983);",
+          "text": "Francis v. Spraggins, 720 F. 2d 1190, 1194–1195 (CA11 1983);",
           "type": "case",
           "canonical": "720 F.2d 1190"
         },
         {
           "start": 121,
           "end": 176,
-          "text": "State v. Anaya, 592 A. 2d 1142, 1145\u20131146 (N. H. 1991);",
+          "text": "State v. Anaya, 592 A. 2d 1142, 1145–1146 (N. H. 1991);",
           "type": "case",
           "canonical": "592 A.2d 1142"
         },
@@ -1302,7 +1302,7 @@
         {
           "start": 227,
           "end": 278,
-          "text": "Cooke v. State, 977 A. 2d 803, 849\u2013850 (Del. 2009);",
+          "text": "Cooke v. State, 977 A. 2d 803, 849–850 (Del. 2009);",
           "type": "case",
           "canonical": "977 A.2d 803"
         },
@@ -1316,14 +1316,14 @@
         {
           "start": 332,
           "end": 390,
-          "text": "cf. Jones v. State, 877 P. 2d 1052, 1056\u20131057 (Nev. 1994);",
+          "text": "cf. Jones v. State, 877 P. 2d 1052, 1056–1057 (Nev. 1994);",
           "type": "case",
           "canonical": "877 P.2d 1052"
         },
         {
           "start": 391,
           "end": 450,
-          "text": "State v. Harbison, 337 S. E. 2d 504, 506\u2013 507 (N. C. 1985).",
+          "text": "State v. Harbison, 337 S. E. 2d 504, 506– 507 (N. C. 1985).",
           "type": "case",
           "canonical": "337 S.E.2d 504"
         }
@@ -1418,7 +1418,7 @@
         {
           "start": 257,
           "end": 292,
-          "text": ", 918 F. 3d 712, 719\u2013721 (CA9 2019)",
+          "text": ", 918 F. 3d 712, 719–721 (CA9 2019)",
           "type": "case",
           "canonical": "918 F.3d 712"
         },
@@ -1432,14 +1432,14 @@
         {
           "start": 786,
           "end": 818,
-          "text": "See Miss. Code Ann. \u00a799-13-7(1);",
+          "text": "See Miss. Code Ann. §99-13-7(1);",
           "type": "statute",
-          "canonical": "Miss. Code Ann. \u00a799-13-7(1)"
+          "canonical": "Miss. Code Ann. §99-13-7(1)"
         },
         {
           "start": 819,
           "end": 839,
-          "text": "Ex. M, at 1190\u2013 1191",
+          "text": "Ex. M, at 1190– 1191",
           "type": "record",
           "canonical": "Crawford trial transcript, pp. 1190-1191"
         }
@@ -1593,7 +1593,7 @@
       "page": 1,
       "start": 1649,
       "end": 1657,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 1",
+      "text": "—————— 1",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1656,7 +1656,7 @@
       "page": 7,
       "start": 1628,
       "end": 1636,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 2",
+      "text": "—————— 2",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1691,7 +1691,7 @@
       "page": 9,
       "start": 1618,
       "end": 1627,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 3 ",
+      "text": "—————— 3 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {

@@ -156,3 +156,9 @@ Preparation and acoustic alignment retain Python character offsets. Staging
 exports browser UTF-16 offsets when supplementary Unicode characters occur,
 including in citations and source ranges. Private alignment inputs stay intact;
 ordinary OT25 documents retain identical public payloads.
+
+Checksum-pinned original Court PDFs needed only for preparation are archived once
+under `recordings/sources/`, outside the website bundle. Public originals remain
+under `dist/data/pdfs/`. `check_coverage.py --require-reviewed` verifies all source
+reviews from a fresh checkout while generation continues; `--require-complete`
+also requires both hosted voices for every writing and consolidated case alias.

@@ -4,7 +4,7 @@
   "sourceDocumentId": "25A457-7ded2bcc85e2",
   "sourceTextPath": "dist/data/current-docs/25A457-7ded2bcc85e2.json",
   "sourceTextSha256": "8f7ce4c1e52e5c050ee0d89ec96d426cabdda9f9313072b64cc77364bded5fc2",
-  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/11c7cd55aa2a62cfc176453d.pdf",
+  "sourcePdfPath": "recordings/sources/bd8a9f9637619c7630e752c8.pdf",
   "sourcePdfSha256": "bd8a9f9637619c7630e752c8a8bd740401519e6c7629a72021f35f879d8dec8d",
   "title": "Dissent",
   "author": "Sonia Sotomayor",
@@ -85,7 +85,7 @@
         {
           "start": 428,
           "end": 444,
-          "text": "See App. 36a\u201342a",
+          "text": "See App. 36a–42a",
           "type": "record",
           "canonical": "Appendix, pp. 36a-42a"
         }
@@ -109,21 +109,21 @@
         {
           "start": 367,
           "end": 474,
-          "text": "Response in Opposition to Application for Stay in Smith v. Hamm, O. T. 2023, No. 23\u2013 6562, etc., pp. 3, 21;",
+          "text": "Response in Opposition to Application for Stay in Smith v. Hamm, O. T. 2023, No. 23– 6562, etc., pp. 3, 21;",
           "type": "record",
           "canonical": "Smith v. Hamm, No. 23-6562, stay opposition, pp. 3, 21"
         },
         {
           "start": 475,
           "end": 586,
-          "text": "Dunn v. Price, 587 U. S. 929, 930\u2013931 (2019) (Breyer, J., dissenting from grant of application to vacate stay).",
+          "text": "Dunn v. Price, 587 U. S. 929, 930–931 (2019) (Breyer, J., dissenting from grant of application to vacate stay).",
           "type": "case",
           "canonical": "587 U.S. 929"
         },
         {
           "start": 744,
           "end": 909,
-          "text": "See Smith v. Hamm, 601 U. S. ___, ___\u2013___, ___ (2024) (SOTOMAYOR, J., dissenting from denial of application for stay and denial of certiorari) (slip op., at 1\u20132, 4).",
+          "text": "See Smith v. Hamm, 601 U. S. ___, ___–___, ___ (2024) (SOTOMAYOR, J., dissenting from denial of application for stay and denial of certiorari) (slip op., at 1–2, 4).",
           "type": "case",
           "canonical": "601 U.S. ___ (2024), Smith v. Hamm"
         },
@@ -200,7 +200,7 @@
         {
           "start": 503,
           "end": 599,
-          "text": "Petitioner\u2019s Post-Hearing Brief in No. 25\u2013cv\u201300529 (ND Ala., Sept. 11, 2025), ECF Doc. 87, p. 3.",
+          "text": "Petitioner’s Post-Hearing Brief in No. 25–cv–00529 (ND Ala., Sept. 11, 2025), ECF Doc. 87, p. 3.",
           "type": "record",
           "canonical": "No. 25-cv-00529, ECF Doc. 87, p. 3"
         }
@@ -286,7 +286,7 @@
         {
           "start": 186,
           "end": 276,
-          "text": "Miller v. Marshall, No. 2:24\u2013cv\u2013197 (MD Ala., July 15, 2024), ECF Doc. 70, pp. 1\u20132, 14\u201321.",
+          "text": "Miller v. Marshall, No. 2:24–cv–197 (MD Ala., July 15, 2024), ECF Doc. 70, pp. 1–2, 14–21.",
           "type": "record",
           "canonical": "Miller v. Marshall, No. 2:24-cv-197, ECF Doc. 70"
         }
@@ -333,14 +333,14 @@
         {
           "start": 564,
           "end": 577,
-          "text": "App. 39a\u201340a.",
+          "text": "App. 39a–40a.",
           "type": "record",
           "canonical": "Appendix, pp. 39a-40a"
         },
         {
           "start": 990,
           "end": 1011,
-          "text": "Id., at 34a, 41a\u201342a.",
+          "text": "Id., at 34a, 41a–42a.",
           "type": "record",
           "canonical": "Appendix, pp. 34a, 41a-42a"
         }
@@ -355,8 +355,8 @@
           "to": "struggled"
         },
         {
-          "from": "convulsions,\u2019\u201d",
-          "to": "convulsions.\u2019\u201d"
+          "from": "convulsions,’”",
+          "to": "convulsions.’”"
         }
       ]
     },
@@ -484,14 +484,14 @@
         {
           "start": 477,
           "end": 490,
-          "text": "App. 43a\u201344a.",
+          "text": "App. 43a–44a.",
           "type": "record",
           "canonical": "Appendix, pp. 43a-44a"
         },
         {
           "start": 656,
           "end": 672,
-          "text": "Id., at 51a\u201352a.",
+          "text": "Id., at 51a–52a.",
           "type": "record",
           "canonical": "Appendix, pp. 51a-52a"
         },
@@ -524,7 +524,7 @@
         {
           "start": 135,
           "end": 151,
-          "text": "Id., at 55a\u201356a.",
+          "text": "Id., at 55a–56a.",
           "type": "record",
           "canonical": "Appendix, pp. 55a-56a"
         },
@@ -588,7 +588,7 @@
         {
           "start": 469,
           "end": 486,
-          "text": "See App. 62a\u201364a.",
+          "text": "See App. 62a–64a.",
           "type": "record",
           "canonical": "Appendix, pp. 62a-64a"
         },
@@ -620,7 +620,7 @@
         {
           "start": 716,
           "end": 732,
-          "text": "Id., at 52a\u201355a.",
+          "text": "Id., at 52a–55a.",
           "type": "record",
           "canonical": "Appendix, pp. 52a-55a"
         },
@@ -672,7 +672,7 @@
         {
           "start": 543,
           "end": 563,
-          "text": "see id., at 63a\u201364a.",
+          "text": "see id., at 63a–64a.",
           "type": "record",
           "canonical": "Appendix, pp. 63a-64a"
         },
@@ -705,7 +705,7 @@
         {
           "start": 291,
           "end": 371,
-          "text": "See Glossip v. Gross, 576 U. S. 863, 970\u2013975 (2015) (SOTOMAYOR, J., dissenting).",
+          "text": "See Glossip v. Gross, 576 U. S. 863, 970–975 (2015) (SOTOMAYOR, J., dissenting).",
           "type": "case",
           "canonical": "576 U.S. 863"
         }
@@ -774,7 +774,7 @@
       "page": 2,
       "start": 1827,
       "end": 1835,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 1",
+      "text": "—————— 1",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -788,7 +788,7 @@
       "page": 3,
       "start": 1631,
       "end": 1640,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 2 ",
+      "text": "—————— 2 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {

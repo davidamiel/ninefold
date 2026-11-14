@@ -4,7 +4,7 @@
   "sourceDocumentId": "25A914-6f32f281156b",
   "sourceTextPath": "dist/data/current-docs/25A914-6f32f281156b.json",
   "sourceTextSha256": "429ae24970ee88cc6559cd498cf3c667577c564914dbcabb4dbe632c535ac988",
-  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/5bec7826410c00fc81027317.pdf",
+  "sourcePdfPath": "recordings/sources/22ea88c2a68230627b337cad.pdf",
   "sourcePdfSha256": "22ea88c2a68230627b337cada2a78a90783c6011a86e57c396c6a17f566af185",
   "title": "Dissent",
   "author": "Sonia Sotomayor",
@@ -77,16 +77,16 @@
         {
           "start": 700,
           "end": 715,
-          "text": "Article III, \u00a74",
+          "text": "Article III, §4",
           "type": "statute",
-          "canonical": "N.Y. Const., Art. III, \u00a74",
+          "canonical": "N.Y. Const., Art. III, §4",
           "keepInline": true,
           "omitFromSpeech": false
         }
       ],
       "pronunciations": [
         {
-          "from": "Article III, \u00a74",
+          "from": "Article III, §4",
           "to": "Article 3, Section 4"
         }
       ]
@@ -127,7 +127,7 @@
         {
           "start": 460,
           "end": 606,
-          "text": "see also League of United Latin American Citizens v. Perry, 548 U. S. 399, 484\u2013491 (2006) (Souter, J., concurring in part and dissenting in part);",
+          "text": "see also League of United Latin American Citizens v. Perry, 548 U. S. 399, 484–491 (2006) (Souter, J., concurring in part and dissenting in part);",
           "type": "case",
           "canonical": "548 U.S. 399"
         },
@@ -143,16 +143,16 @@
         {
           "start": 629,
           "end": 681,
-          "text": ", 556 U. S. 1, 31\u201335 (2009) (Souter, J., dissenting)",
+          "text": ", 556 U. S. 1, 31–35 (2009) (Souter, J., dissenting)",
           "type": "case",
           "canonical": "556 U.S. 1"
         },
         {
           "start": 717,
           "end": 719,
-          "text": "\u00a72",
+          "text": "§2",
           "type": "statute",
-          "canonical": "Voting Rights Act \u00a72",
+          "canonical": "Voting Rights Act §2",
           "keepInline": true,
           "omitFromSpeech": false
         },
@@ -166,7 +166,7 @@
       ],
       "pronunciations": [
         {
-          "from": "\u00a72",
+          "from": "§2",
           "to": "Section 2"
         },
         {
@@ -218,23 +218,23 @@
         {
           "start": 609,
           "end": 660,
-          "text": "See 1 App. to Emergency Application 20a\u201321a (App.);",
+          "text": "See 1 App. to Emergency Application 20a–21a (App.);",
           "type": "record",
           "canonical": "Stay application appendix, pp. 20a-21a"
         },
         {
           "start": 661,
           "end": 699,
-          "text": "see also N.Y. Const., Art. VI, \u00a73b(2);",
+          "text": "see also N.Y. Const., Art. VI, §3b(2);",
           "type": "statute",
-          "canonical": "N.Y. Const., Art. VI, \u00a73b(2)"
+          "canonical": "N.Y. Const., Art. VI, §3b(2)"
         },
         {
           "start": 700,
           "end": 730,
-          "text": "N. Y. C. P. L. R. \u00a75601(b)(2).",
+          "text": "N. Y. C. P. L. R. §5601(b)(2).",
           "type": "statute",
-          "canonical": "N.Y. CPLR \u00a75601(b)(2)"
+          "canonical": "N.Y. CPLR §5601(b)(2)"
         }
       ]
     },
@@ -251,7 +251,7 @@
         {
           "start": 223,
           "end": 242,
-          "text": "Supp. App. 102\u2013103.",
+          "text": "Supp. App. 102–103.",
           "type": "record",
           "canonical": "Supplemental appendix, pp. 102-103"
         },
@@ -265,9 +265,9 @@
         {
           "start": 435,
           "end": 474,
-          "text": "see also N. Y. C. P. L. R. \u00a7\u00a75519, 5602",
+          "text": "see also N. Y. C. P. L. R. §§5519, 5602",
           "type": "statute",
-          "canonical": "N.Y. CPLR \u00a7\u00a75519,5602"
+          "canonical": "N.Y. CPLR §§5519,5602"
         }
       ]
     },
@@ -321,7 +321,7 @@
         {
           "start": 193,
           "end": 278,
-          "text": "Kempe\u2019s Lessee v. Kennedy, 5 Cranch 173, 185 (1809) (Marshall, C. J., for the Court).",
+          "text": "Kempe’s Lessee v. Kennedy, 5 Cranch 173, 185 (1809) (Marshall, C. J., for the Court).",
           "type": "case",
           "canonical": "5 Cranch 173"
         },
@@ -347,18 +347,18 @@
         {
           "start": 99,
           "end": 125,
-          "text": "Title 28 U. S. C. \u00a71257(a)",
+          "text": "Title 28 U. S. C. §1257(a)",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71257(a)",
+          "canonical": "28 U.S.C. §1257(a)",
           "keepInline": true,
           "omitFromSpeech": false
         },
         {
           "start": 283,
           "end": 291,
-          "text": "\u00a71257(a)",
+          "text": "§1257(a)",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71257(a)",
+          "canonical": "28 U.S.C. §1257(a)",
           "keepInline": true,
           "omitFromSpeech": false
         },
@@ -379,11 +379,11 @@
       ],
       "pronunciations": [
         {
-          "from": "Title 28 U. S. C. \u00a71257(a)",
+          "from": "Title 28 U. S. C. §1257(a)",
           "to": "Title 28, United States Code, Section 1257, a"
         },
         {
-          "from": "\u00a71257(a)",
+          "from": "§1257(a)",
           "to": "Section 1257, a"
         },
         {
@@ -410,30 +410,30 @@
         {
           "start": 428,
           "end": 437,
-          "text": "\u00a71257(a).",
+          "text": "§1257(a).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71257(a)"
+          "canonical": "28 U.S.C. §1257(a)"
         },
         {
           "start": 579,
           "end": 587,
-          "text": "\u00a71257(a)",
+          "text": "§1257(a)",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71257(a)",
+          "canonical": "28 U.S.C. §1257(a)",
           "keepInline": true,
           "omitFromSpeech": false
         },
         {
           "start": 666,
           "end": 694,
-          "text": "See N. Y. C. P. L. R. \u00a75602.",
+          "text": "See N. Y. C. P. L. R. §5602.",
           "type": "statute",
-          "canonical": "N.Y. CPLR \u00a75602"
+          "canonical": "N.Y. CPLR §5602"
         }
       ],
       "pronunciations": [
         {
-          "from": "\u00a71257(a)",
+          "from": "§1257(a)",
           "to": "Section 1257, a"
         }
       ]
@@ -451,7 +451,7 @@
         {
           "start": 234,
           "end": 332,
-          "text": "See, e.g., National Socialist Party of America v. Skokie, 432 U. S. 43, 43\u201344 (1977) (per curiam);",
+          "text": "See, e.g., National Socialist Party of America v. Skokie, 432 U. S. 43, 43–44 (1977) (per curiam);",
           "type": "case",
           "canonical": "432 U.S. 43"
         },
@@ -465,21 +465,21 @@
         {
           "start": 409,
           "end": 502,
-          "text": "Volkswagenwerk A. G. v. Falzon, 461 U. S. 1303, 1303\u20131305 (1983) (O\u2019Connor, J., in chambers);",
+          "text": "Volkswagenwerk A. G. v. Falzon, 461 U. S. 1303, 1303–1305 (1983) (O’Connor, J., in chambers);",
           "type": "case",
           "canonical": "461 U.S. 1303"
         },
         {
           "start": 503,
           "end": 599,
-          "text": "M. I. C., Ltd. v. Bedford Township, 463 U. S. 1341, 1342\u20131343 (1983) (Brennan, J., in chambers);",
+          "text": "M. I. C., Ltd. v. Bedford Township, 463 U. S. 1341, 1342–1343 (1983) (Brennan, J., in chambers);",
           "type": "case",
           "canonical": "463 U.S. 1341"
         },
         {
           "start": 600,
           "end": 693,
-          "text": "Nebraska Press Assn. v. Stuart, 423 U. S. 1327, 1328\u20131329 (1975) (Blackmun, J., in chambers).",
+          "text": "Nebraska Press Assn. v. Stuart, 423 U. S. 1327, 1328–1329 (1975) (Blackmun, J., in chambers).",
           "type": "case",
           "canonical": "423 U.S. 1327"
         },
@@ -565,23 +565,23 @@
         {
           "start": 315,
           "end": 331,
-          "text": "See App. 20a\u201321a",
+          "text": "See App. 20a–21a",
           "type": "record",
           "canonical": "Stay application appendix, pp. 20a-21a"
         },
         {
           "start": 332,
           "end": 376,
-          "text": "(citing N.Y. Const., Art. VI, \u00a7\u00a73b(2), 5(b);",
+          "text": "(citing N.Y. Const., Art. VI, §§3b(2), 5(b);",
           "type": "statute",
-          "canonical": "N.Y. Const., Art. VI, \u00a7\u00a73b(2),5(b)"
+          "canonical": "N.Y. Const., Art. VI, §§3b(2),5(b)"
         },
         {
           "start": 377,
           "end": 408,
-          "text": "N. Y. C. P. L. R. \u00a75601(b)(2)).",
+          "text": "N. Y. C. P. L. R. §5601(b)(2)).",
           "type": "statute",
-          "canonical": "N.Y. CPLR \u00a75601(b)(2)"
+          "canonical": "N.Y. CPLR §5601(b)(2)"
         },
         {
           "start": 559,
@@ -602,23 +602,23 @@
         {
           "start": 691,
           "end": 699,
-          "text": "\u00a71257(a)",
+          "text": "§1257(a)",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71257(a)",
+          "canonical": "28 U.S.C. §1257(a)",
           "keepInline": true,
           "omitFromSpeech": false
         },
         {
           "start": 701,
           "end": 735,
-          "text": "Ante, at 2\u20133 (concurring opinion).",
+          "text": "Ante, at 2–3 (concurring opinion).",
           "type": "reference",
           "canonical": "Alito concurrence, pp. 2-3"
         },
         {
           "start": 897,
           "end": 917,
-          "text": "432 U. S., at 43\u201344.",
+          "text": "432 U. S., at 43–44.",
           "type": "case",
           "canonical": "432 U.S. 43"
         },
@@ -632,7 +632,7 @@
       ],
       "pronunciations": [
         {
-          "from": "\u00a71257(a)",
+          "from": "§1257(a)",
           "to": "Section 1257, a"
         },
         {
@@ -662,9 +662,9 @@
         {
           "start": 478,
           "end": 576,
-          "text": "16B C. Wright, A. Miller, and E. Cooper, Federal Practice and Procedure \u00a74010 (3d ed., 2025 Supp.)",
+          "text": "16B C. Wright, A. Miller, and E. Cooper, Federal Practice and Procedure §4010 (3d ed., 2025 Supp.)",
           "type": "reference",
-          "canonical": "16B Wright, Miller & Cooper, Federal Practice and Procedure \u00a74010 (3d ed., 2025 Supp.)"
+          "canonical": "16B Wright, Miller & Cooper, Federal Practice and Procedure §4010 (3d ed., 2025 Supp.)"
         }
       ]
     },
@@ -686,30 +686,30 @@
         {
           "start": 246,
           "end": 265,
-          "text": "Supp. App. 102\u2013103.",
+          "text": "Supp. App. 102–103.",
           "type": "record",
           "canonical": "Supplemental appendix, pp. 102-103"
         },
         {
           "start": 439,
           "end": 466,
-          "text": "N. Y. C. P. L. R. \u00a75519(c);",
+          "text": "N. Y. C. P. L. R. §5519(c);",
           "type": "statute",
-          "canonical": "N.Y. CPLR \u00a75519(c)"
+          "canonical": "N.Y. CPLR §5519(c)"
         },
         {
           "start": 467,
           "end": 478,
-          "text": "\u00a75602(a)(2)",
+          "text": "§5602(a)(2)",
           "type": "statute",
-          "canonical": "N.Y. CPLR \u00a75602(a)(2)",
+          "canonical": "N.Y. CPLR §5602(a)(2)",
           "keepInline": true,
           "omitFromSpeech": false
         }
       ],
       "pronunciations": [
         {
-          "from": "\u00a75602(a)(2)",
+          "from": "§5602(a)(2)",
           "to": "Section 5602, a, 2"
         },
         {
@@ -765,7 +765,7 @@
         {
           "start": 285,
           "end": 307,
-          "text": "; but see ante, at 1\u20132",
+          "text": "; but see ante, at 1–2",
           "type": "reference",
           "canonical": "Alito concurrence, pp. 1-2"
         }
@@ -809,7 +809,7 @@
         {
           "start": 260,
           "end": 314,
-          "text": "See Claflin v. Houseman, 93 U. S. 130, 136\u2013137 (1876).",
+          "text": "See Claflin v. Houseman, 93 U. S. 130, 136–137 (1876).",
           "type": "case",
           "canonical": "93 U.S. 130"
         },
@@ -823,9 +823,9 @@
         {
           "start": 685,
           "end": 707,
-          "text": "see 28 U. S. C. \u00a72283.",
+          "text": "see 28 U. S. C. §2283.",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72283"
+          "canonical": "28 U.S.C. §2283"
         },
         {
           "start": 989,
@@ -837,7 +837,7 @@
       ],
       "pronunciations": [
         {
-          "from": "federal\u2011",
+          "from": "federal‑",
           "to": "federal"
         }
       ]
@@ -855,14 +855,14 @@
         {
           "start": 250,
           "end": 259,
-          "text": "\u00a71651(a).",
+          "text": "§1651(a).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71651(a)"
+          "canonical": "28 U.S.C. §1651(a)"
         },
         {
           "start": 362,
           "end": 382,
-          "text": ", see supra, at 4\u20137,",
+          "text": ", see supra, at 4–7,",
           "type": "reference",
           "canonical": "This dissent, pp. 4-7"
         },
@@ -876,8 +876,8 @@
       ],
       "pronunciations": [
         {
-          "from": "[this Court\u2019s]",
-          "to": "this Court\u2019s"
+          "from": "[this Court’s]",
+          "to": "this Court’s"
         },
         {
           "from": "jurisdictio[n]",
@@ -892,8 +892,8 @@
           "to": "that the"
         },
         {
-          "from": "jurisdiction,\u201d",
-          "to": "jurisdiction.\u201d"
+          "from": "jurisdiction,”",
+          "to": "jurisdiction.”"
         }
       ]
     },
@@ -921,16 +921,16 @@
         {
           "start": 0,
           "end": 27,
-          "text": "Title 28 U. S. C. \u00a72101(f )",
+          "text": "Title 28 U. S. C. §2101(f )",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72101(f)",
+          "canonical": "28 U.S.C. §2101(f)",
           "keepInline": true,
           "omitFromSpeech": false
         }
       ],
       "pronunciations": [
         {
-          "from": "Title 28 U. S. C. \u00a72101(f )",
+          "from": "Title 28 U. S. C. §2101(f )",
           "to": "Title 28, United States Code, Section 2101, f"
         },
         {
@@ -976,7 +976,7 @@
         {
           "start": 671,
           "end": 722,
-          "text": "See Brief for Respondent Kathy Hochul et al. 16\u201320.",
+          "text": "See Brief for Respondent Kathy Hochul et al. 16–20.",
           "type": "record",
           "canonical": "Respondent Kathy Hochul brief, pp. 16-20"
         }
@@ -995,9 +995,9 @@
         {
           "start": 656,
           "end": 672,
-          "text": "See Art. VI, \u00a75.",
+          "text": "See Art. VI, §5.",
           "type": "statute",
-          "canonical": "N.Y. Const., Art. VI, \u00a75"
+          "canonical": "N.Y. Const., Art. VI, §5"
         }
       ]
     },
@@ -1055,7 +1055,7 @@
         {
           "start": 390,
           "end": 477,
-          "text": "see also Harkenrider v. Hochul, 38 N. Y. 3d 494, 522, 197 N. E. 3d 437, 454\u2013455 (2022).",
+          "text": "see also Harkenrider v. Hochul, 38 N. Y. 3d 494, 522, 197 N. E. 3d 437, 454–455 (2022).",
           "type": "case",
           "canonical": "38 N.Y.3d 494"
         }
@@ -1129,8 +1129,8 @@
       ],
       "pronunciations": [
         {
-          "from": "confusion,\u201d .",
-          "to": "confusion.\u201d"
+          "from": "confusion,” .",
+          "to": "confusion.”"
         }
       ]
     },
@@ -1227,9 +1227,9 @@
         {
           "start": 496,
           "end": 517,
-          "text": "28 U. S. C. \u00a71651(a).",
+          "text": "28 U. S. C. §1651(a).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71651(a)"
+          "canonical": "28 U.S.C. §1651(a)"
         }
       ],
       "pronunciations": [
@@ -1242,8 +1242,8 @@
           "to": "December"
         },
         {
-          "from": "appropriate,\u201d",
-          "to": "appropriate.\u201d"
+          "from": "appropriate,”",
+          "to": "appropriate.”"
         }
       ]
     },
@@ -1275,8 +1275,8 @@
       ],
       "pronunciations": [
         {
-          "from": "restraint,\u201d",
-          "to": "restraint\u201d"
+          "from": "restraint,”",
+          "to": "restraint”"
         }
       ]
     },
@@ -1463,7 +1463,7 @@
       "page": 5,
       "start": 1554,
       "end": 1562,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 1",
+      "text": "—————— 1",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1484,7 +1484,7 @@
       "page": 6,
       "start": 1791,
       "end": 1798,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014\n",
+      "text": "——————\n",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1533,7 +1533,7 @@
       "page": 9,
       "start": 1539,
       "end": 1548,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 2 ",
+      "text": "—————— 2 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1554,7 +1554,7 @@
       "page": 10,
       "start": 1626,
       "end": 1635,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 3 ",
+      "text": "—————— 3 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1582,7 +1582,7 @@
       "page": 11,
       "start": 1763,
       "end": 1771,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 4",
+      "text": "—————— 4",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1603,7 +1603,7 @@
       "page": 12,
       "start": 1747,
       "end": 1755,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 5",
+      "text": "—————— 5",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1638,7 +1638,7 @@
       "page": 14,
       "start": 1868,
       "end": 1877,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 6 ",
+      "text": "—————— 6 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1659,7 +1659,7 @@
       "page": 15,
       "start": 1484,
       "end": 1493,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 7 ",
+      "text": "—————— 7 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1680,7 +1680,7 @@
       "page": 16,
       "start": 745,
       "end": 752,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014\n",
+      "text": "——————\n",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     }
   ],
@@ -1739,7 +1739,7 @@
       "start": 924,
       "end": 936,
       "expectedText": "federal- and",
-      "text": "federal\u2011 and"
+      "text": "federal‑ and"
     }
   ],
   "voices": {

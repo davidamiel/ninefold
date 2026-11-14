@@ -69,8 +69,18 @@ def reviewed_jobs():
     return jobs
 
 
-def unfinished_writings(plan, inventory):
+def recording_stage(document, version, hosted_urls):
+    if document.get('version') != version or set(document.get('recordings', {})) != {'female', 'male'}:
+        return 'recording and alignment'
+    if any(recording.get('url') not in hosted_urls for recording in document['recordings'].values()):
+        return 'media publication'
+    return None
+
+
+def unfinished_writings(plan, inventory, hosted):
     jobs, unfinished = reviewed_jobs(), []
+    hosted_urls = {proof['url'] for proof in hosted.values()
+                   if proof.get('bytes', 0) > 1000 and type(proof.get('releaseAssetId')) is int}
     for target in plan['targets']:
         identifier = target['id']
         job = jobs.get(identifier)
@@ -78,28 +88,31 @@ def unfinished_writings(plan, inventory):
             unfinished.append({'documentId': identifier, 'stage': 'source review'})
             continue
         body, _ = prepare(job)
-        staged = inventory.get(identifier, {})
-        if staged.get('version') != body['version'] or set(staged.get('recordings', {})) != {'female', 'male'}:
-            unfinished.append({'documentId': identifier, 'stage': 'recording and alignment'})
+        for writing in [identifier, *target.get('aliases', [])]:
+            if stage := recording_stage(inventory.get(writing, {}), body['version'], hosted_urls):
+                unfinished.append({'documentId': writing, 'stage': stage})
     return unfinished
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--require-complete', action='store_true')
+    parser.add_argument('--require-reviewed', action='store_true', help='Require complete source reviews while allowing recordings in progress')
     args = parser.parse_args()
     plan, sources = read('recordings/ot25-plan.json'), read('recordings/ot25-sources.json')
     inventory = read('dist/data/prepared-documents.json')
     report = {'uncoveredPublicSources': missing_public_sources(plan, sources),
               'unrepresentedDocuments': plan['unrepresentedDocuments'],
               'unrepresentedWriters': unrepresented_writers(plan),
-              'unfinishedWritings': unfinished_writings(plan, inventory)}
+              'unfinishedWritings': unfinished_writings(plan, inventory, read('dist/data/recorded-assets.json'))}
     output = ROOT/'work/recordings/ot25-coverage.json'
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
     complete = not any(report.values())
     print('OT25 coverage complete.' if complete else f'Outstanding source/review/recording work is listed in {output}.')
-    if args.require_complete and not complete:
+    reviews_complete = not any(report[key] for key in ('uncoveredPublicSources', 'unrepresentedDocuments', 'unrepresentedWriters'))
+    reviews_complete = reviews_complete and not any(item['stage'] == 'source review' for item in report['unfinishedWritings'])
+    if (args.require_complete and not complete) or (args.require_reviewed and not reviews_complete):
         raise SystemExit(1)
 
 

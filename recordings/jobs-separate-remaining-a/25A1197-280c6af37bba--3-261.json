@@ -4,7 +4,7 @@
   "sourceDocumentId": "25A1197-280c6af37bba",
   "sourceTextPath": "dist/data/current-docs/25A1197-280c6af37bba.json",
   "sourceTextSha256": "a588ff10e1bfa5666b3cfa130d26992d15a278aa68767b1e2d32b669eb5b7494",
-  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/ca5b62556d9a138e5acae657.pdf",
+  "sourcePdfPath": "recordings/sources/10bce4f78d7b157f70b8dc62.pdf",
   "sourcePdfSha256": "10bce4f78d7b157f70b8dc6251f9f37957d8293263eb232b628c1a1493ca08fb",
   "title": "Dissent",
   "author": "Ketanji Brown Jackson",
@@ -64,21 +64,21 @@
         {
           "start": 247,
           "end": 294,
-          "text": "La. Exec. Order No. JML 26\u2013038 (Apr. 30, 2026).",
+          "text": "La. Exec. Order No. JML 26–038 (Apr. 30, 2026).",
           "type": "record",
           "canonical": "Louisiana Executive Order JML 26-038"
         },
         {
           "start": 616,
           "end": 687,
-          "text": "Order in Callais v. Landry, No. 24\u2013cv\u2013122 (WD La.), ECF Doc. 261, p. 1.",
+          "text": "Order in Callais v. Landry, No. 24–cv–122 (WD La.), ECF Doc. 261, p. 1.",
           "type": "record",
           "canonical": "Callais v. Landry, No. 24-cv-122, ECF Doc. 261"
         },
         {
           "start": 954,
           "end": 981,
-          "text": "See this Court\u2019s Rule 45.3.",
+          "text": "See this Court’s Rule 45.3.",
           "type": "statute",
           "canonical": "Supreme Court Rule 45"
         }
@@ -111,15 +111,15 @@
         {
           "start": 520,
           "end": 560,
-          "text": "Louisiana\u2019s Response to Application 1\u20132.",
+          "text": "Louisiana’s Response to Application 1–2.",
           "type": "record",
           "canonical": "Louisiana response to application, pp. 1-2"
         }
       ],
       "pronunciations": [
         {
-          "from": "[the Callais plaintiffs\u2019]",
-          "to": "the Callais plaintiffs\u2019"
+          "from": "[the Callais plaintiffs’]",
+          "to": "the Callais plaintiffs’"
         }
       ]
     },
@@ -136,21 +136,21 @@
         {
           "start": 332,
           "end": 409,
-          "text": "See, e.g., Complaint in Garcia v. Landry, No. 26\u2013cv\u2013471 (MD La.), ECF Doc. 1;",
+          "text": "See, e.g., Complaint in Garcia v. Landry, No. 26–cv–471 (MD La.), ECF Doc. 1;",
           "type": "record",
           "canonical": "Garcia v. Landry, No. 26-cv-471, ECF Doc. 1"
         },
         {
           "start": 410,
           "end": 546,
-          "text": "Emergency Petition for Injunctive Relief in National Council of Jewish Women v. Landry, No. C\u2013777814 (La. 19th Jud. Dist., May 1, 2026).",
+          "text": "Emergency Petition for Injunctive Relief in National Council of Jewish Women v. Landry, No. C–777814 (La. 19th Jud. Dist., May 1, 2026).",
           "type": "record",
           "canonical": "National Council of Jewish Women v. Landry, No. C-777814"
         },
         {
           "start": 693,
           "end": 709,
-          "text": "Application 2\u20133.",
+          "text": "Application 2–3.",
           "type": "record",
           "canonical": "Application, pp. 2-3"
         }
@@ -181,7 +181,7 @@
         {
           "start": 0,
           "end": 285,
-          "text": "See D. Lieb, A Redistricting Battle Among States Has Reshaped the US House Map Ahead of the Midterm Election, Associated Press, Apr. 30, 2026, https://apnews.com/article/redistricting-congress-gerrymandertrump-4c5c98bec6af054d13b6275b6917bc86 (archived at https://perma .cc/RVP9\u2013MN3W).",
+          "text": "See D. Lieb, A Redistricting Battle Among States Has Reshaped the US House Map Ahead of the Midterm Election, Associated Press, Apr. 30, 2026, https://apnews.com/article/redistricting-congress-gerrymandertrump-4c5c98bec6af054d13b6275b6917bc86 (archived at https://perma .cc/RVP9–MN3W).",
           "type": "reference",
           "canonical": "Associated Press, A Redistricting Battle Among States, April 30, 2026"
         }
@@ -205,7 +205,7 @@
         {
           "start": 173,
           "end": 254,
-          "text": "See Whole Woman\u2019s Health v. Jackson, No. 21A220, 2021 WL 5931622 (Dec. 16, 2021);",
+          "text": "See Whole Woman’s Health v. Jackson, No. 21A220, 2021 WL 5931622 (Dec. 16, 2021);",
           "type": "case",
           "canonical": "2021 WL 5931622"
         },
@@ -260,7 +260,7 @@
         {
           "start": 551,
           "end": 563,
-          "text": "Id., at 1\u20132.",
+          "text": "Id., at 1–2.",
           "type": "reference",
           "canonical": "Alito concurrence, pp. 1-2"
         }
@@ -323,8 +323,8 @@
           "to": "inserting"
         },
         {
-          "from": "distrust,\u2019\u201d",
-          "to": "distrust.\u2019\u201d"
+          "from": "distrust,’”",
+          "to": "distrust.’”"
         }
       ]
     },
@@ -365,7 +365,7 @@
       "page": 4,
       "start": 1394,
       "end": 1403,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 1 ",
+      "text": "—————— 1 ",
       "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
     },
     {
@@ -400,7 +400,7 @@
       "page": 5,
       "start": 1366,
       "end": 1374,
-      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 3",
+      "text": "—————— 3",
       "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
     },
     {

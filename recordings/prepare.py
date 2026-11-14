@@ -117,7 +117,7 @@ def validate_coverage(job, source):
 
 def reviewed_pdf(path, checksum):
     pdf_path = (ROOT/path).resolve()
-    allowed = [ROOT/'dist/data/pdfs', ROOT/'scripts/cache/narration/opinion-pdfs']
+    allowed = [ROOT/'dist/data/pdfs', ROOT/'scripts/cache/narration/opinion-pdfs', ROOT/'recordings/sources']
     if not any(pdf_path.is_relative_to(folder.resolve()) for folder in allowed):
         raise ValueError('Source PDF is outside the opinion source directories')
     if digest(pdf_path) != checksum:

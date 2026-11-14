@@ -93,9 +93,9 @@
         {
           "start": 494,
           "end": 518,
-          "text": "28 U. S. C. \u00a71346(b)(1);",
+          "text": "28 U. S. C. §1346(b)(1);",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71346(b)(1)"
+          "canonical": "28 U.S.C. §1346(b)(1)"
         },
         {
           "start": 519,
@@ -127,8 +127,8 @@
           "to": "United States versus Yellow Cab Co."
         },
         {
-          "from": "omission,\u201d",
-          "to": "omission.\u201d"
+          "from": "omission,”",
+          "to": "omission.”"
         }
       ]
     },
@@ -145,9 +145,9 @@
         {
           "start": 107,
           "end": 116,
-          "text": "See \u00a72680",
+          "text": "See §2680",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680",
+          "canonical": "28 U.S.C. §2680",
           "keepInline": true,
           "omitFromSpeech": false
         },
@@ -168,7 +168,7 @@
       ],
       "pronunciations": [
         {
-          "from": "See \u00a72680",
+          "from": "See §2680",
           "to": "Section 2680"
         }
       ]
@@ -214,7 +214,7 @@
         {
           "start": 703,
           "end": 788,
-          "text": "(quoting Kosak, 465 U. S., at 853\u2013854, n. 9 (some internal quotation marks omitted)).",
+          "text": "(quoting Kosak, 465 U. S., at 853–854, n. 9 (some internal quotation marks omitted)).",
           "type": "case",
           "canonical": "465 U.S. 848"
         }
@@ -243,23 +243,23 @@
         {
           "start": 184,
           "end": 193,
-          "text": "\u00a72680(b).",
+          "text": "§2680(b).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(b)"
+          "canonical": "28 U.S.C. §2680(b)"
         },
         {
           "start": 417,
           "end": 426,
-          "text": "\u00a72680(i).",
+          "text": "§2680(i).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(i)"
+          "canonical": "28 U.S.C. §2680(i)"
         },
         {
           "start": 635,
           "end": 655,
-          "text": "\u00a7\u00a72680(l), (m), (n).",
+          "text": "§§2680(l), (m), (n).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a7\u00a72680(l),(m),(n)"
+          "canonical": "28 U.S.C. §§2680(l),(m),(n)"
         }
       ],
       "pronunciations": [
@@ -272,8 +272,8 @@
           "to": "claims"
         },
         {
-          "from": "cooperatives,\u201d",
-          "to": "cooperatives.\u201d"
+          "from": "cooperatives,”",
+          "to": "cooperatives.”"
         }
       ]
     },
@@ -373,9 +373,9 @@
         {
           "start": 197,
           "end": 206,
-          "text": "\u00a72680(b).",
+          "text": "§2680(b).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(b)"
+          "canonical": "28 U.S.C. §2680(b)"
         },
         {
           "start": 362,
@@ -419,9 +419,9 @@
         {
           "start": 299,
           "end": 308,
-          "text": "\u00a7\u00a72680(a)",
+          "text": "§§2680(a)",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(a)",
+          "canonical": "28 U.S.C. §2680(a)",
           "keepInline": true,
           "omitFromSpeech": false
         },
@@ -430,58 +430,58 @@
           "end": 334,
           "text": "(e)",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(e)",
+          "canonical": "28 U.S.C. §2680(e)",
           "keepInline": true,
           "omitFromSpeech": false
         },
         {
           "start": 350,
           "end": 368,
-          "text": "\u00a7\u00a71\u201331 of Title 50",
+          "text": "§§1–31 of Title 50",
           "type": "statute",
-          "canonical": "50 U.S.C. \u00a7\u00a71-31",
+          "canonical": "50 U.S.C. §§1-31",
           "keepInline": true,
           "omitFromSpeech": false
         },
         {
           "start": 524,
           "end": 533,
-          "text": "\u00a72680(h).",
+          "text": "§2680(h).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(h)"
+          "canonical": "28 U.S.C. §2680(h)"
         },
         {
           "start": 618,
           "end": 643,
-          "text": "\u00a7\u00a72680(j), (l), (m), (n).",
+          "text": "§§2680(j), (l), (m), (n).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a7\u00a72680(j),(l),(m),(n)"
+          "canonical": "28 U.S.C. §§2680(j),(l),(m),(n)"
         },
         {
           "start": 782,
           "end": 791,
-          "text": "\u00a72680(c),",
+          "text": "§2680(c),",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(c)"
+          "canonical": "28 U.S.C. §2680(c)"
         },
         {
           "start": 843,
           "end": 853,
-          "text": "\u00a72680(f ),",
+          "text": "§2680(f ),",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(f)"
+          "canonical": "28 U.S.C. §2680(f)"
         },
         {
           "start": 899,
           "end": 908,
-          "text": "\u00a72680(i).",
+          "text": "§2680(i).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(i)"
+          "canonical": "28 U.S.C. §2680(i)"
         }
       ],
       "pronunciations": [
         {
-          "from": "\u00a7\u00a71\u201331 of Title 50",
+          "from": "§§1–31 of Title 50",
           "to": "Sections 1 through 31 of Title 50"
         },
         {
@@ -493,7 +493,7 @@
           "to": "omissions"
         },
         {
-          "from": "\u00a7\u00a72680(a)",
+          "from": "§§2680(a)",
           "to": "Sections 2680, a"
         },
         {
@@ -501,8 +501,8 @@
           "to": "Section 2680, e"
         },
         {
-          "from": "Treasury,\u201d",
-          "to": "Treasury.\u201d"
+          "from": "Treasury,”",
+          "to": "Treasury.”"
         }
       ]
     },
@@ -584,7 +584,7 @@
         {
           "start": 175,
           "end": 194,
-          "text": "See infra, at 6\u201312.",
+          "text": "See infra, at 6–12.",
           "type": "reference",
           "canonical": "This dissent, pp.6-12"
         }
@@ -676,14 +676,14 @@
           "end": 180,
           "text": "see also ",
           "type": "reference",
-          "canonical": "Webster\u2019s New International Dictionary, p.1460 (2d ed.1934)"
+          "canonical": "Webster’s New International Dictionary, p.1460 (2d ed.1934)"
         },
         {
           "start": 180,
           "end": 218,
-          "text": "Webster\u2019s New International Dictionary",
+          "text": "Webster’s New International Dictionary",
           "type": "reference",
-          "canonical": "Webster\u2019s New International Dictionary, p.1460 (2d ed.1934)",
+          "canonical": "Webster’s New International Dictionary, p.1460 (2d ed.1934)",
           "keepInline": true,
           "omitFromSpeech": false
         },
@@ -692,7 +692,7 @@
           "end": 237,
           "text": " 1460 (2d ed. 1934)",
           "type": "reference",
-          "canonical": "Webster\u2019s New International Dictionary, p.1460 (2d ed.1934)"
+          "canonical": "Webster’s New International Dictionary, p.1460 (2d ed.1934)"
         },
         {
           "start": 449,
@@ -740,7 +740,7 @@
         {
           "start": 1160,
           "end": 1178,
-          "text": "See supra, at 4\u20135.",
+          "text": "See supra, at 4–5.",
           "type": "reference",
           "canonical": "This dissent, pp.4-5"
         }
@@ -826,22 +826,22 @@
         {
           "start": 350,
           "end": 362,
-          "text": "\u00a71346(b)(1).",
+          "text": "§1346(b)(1).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71346(b)(1)"
+          "canonical": "28 U.S.C. §1346(b)(1)"
         },
         {
           "start": 469,
           "end": 474,
           "text": "Ibid.",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a71346(b)(1)"
+          "canonical": "28 U.S.C. §1346(b)(1)"
         }
       ],
       "pronunciations": [
         {
-          "from": "plaintiff \u2019s",
-          "to": "plaintiff\u2019s"
+          "from": "plaintiff ’s",
+          "to": "plaintiff’s"
         }
       ]
     },
@@ -895,7 +895,7 @@
         {
           "start": 261,
           "end": 344,
-          "text": "See, e.g., Heinrich v. First Nat. Bank, 219 N. Y. 1, 113 N. E. 531, 531\u2013532 (1916);",
+          "text": "See, e.g., Heinrich v. First Nat. Bank, 219 N. Y. 1, 113 N. E. 531, 531–532 (1916);",
           "type": "case",
           "canonical": "219 N.Y. 1"
         },
@@ -935,7 +935,7 @@
         {
           "start": 65,
           "end": 78,
-          "text": "Ante, at 6\u20137.",
+          "text": "Ante, at 6–7.",
           "type": "reference",
           "canonical": "Court opinion, pp.6-7"
         },
@@ -983,7 +983,7 @@
         {
           "start": 0,
           "end": 28,
-          "text": "See Reply Brief 8\u201310 (citing",
+          "text": "See Reply Brief 8–10 (citing",
           "type": "record",
           "canonical": "Petitioners reply brief, pp.8-10"
         },
@@ -1022,7 +1022,7 @@
         {
           "start": 200,
           "end": 244,
-          "text": ", 219 N. Y. 1, 113 N. E. 531, 531\u2013532 (1916)",
+          "text": ", 219 N. Y. 1, 113 N. E. 531, 531–532 (1916)",
           "type": "case",
           "canonical": "219 N.Y. 1"
         },
@@ -1045,7 +1045,7 @@
         {
           "start": 394,
           "end": 435,
-          "text": ", 81 Ark. 1, 98 S. W. 371, 372\u2013373 (1906)",
+          "text": ", 81 Ark. 1, 98 S. W. 371, 372–373 (1906)",
           "type": "case",
           "canonical": "81 Ark. 1"
         },
@@ -1343,7 +1343,7 @@
         {
           "start": 227,
           "end": 240,
-          "text": "Ante, at 7\u20138.",
+          "text": "Ante, at 7–8.",
           "type": "reference",
           "canonical": "Court opinion, pp.7-8"
         }
@@ -1367,7 +1367,7 @@
         {
           "start": 138,
           "end": 151,
-          "text": "Ante, at 7\u20138.",
+          "text": "Ante, at 7–8.",
           "type": "reference",
           "canonical": "Court opinion, pp.7-8"
         },
@@ -1413,7 +1413,7 @@
         {
           "start": 1006,
           "end": 1038,
-          "text": "Id., at 232\u2013233, 193 P., at 423.",
+          "text": "Id., at 232–233, 193 P., at 423.",
           "type": "case",
           "canonical": "79 Okla. 231"
         }
@@ -1449,16 +1449,16 @@
         {
           "start": 386,
           "end": 441,
-          "text": "Post Office Dept., Postal Law & Regs. \u00a712.6 (1940 ed.).",
+          "text": "Post Office Dept., Postal Law & Regs. §12.6 (1940 ed.).",
           "type": "regulation",
-          "canonical": "Postal Laws and Regulations \u00a712.6 (1940)"
+          "canonical": "Postal Laws and Regulations §12.6 (1940)"
         },
         {
           "start": 937,
           "end": 942,
-          "text": "\u00a7728.",
+          "text": "§728.",
           "type": "regulation",
-          "canonical": "Postal Laws and Regulations \u00a7728 (1940)"
+          "canonical": "Postal Laws and Regulations §728 (1940)"
         }
       ],
       "pronunciations": [
@@ -1467,8 +1467,8 @@
           "to": "that is"
         },
         {
-          "from": "exception,\u201d",
-          "to": "exception\u201d"
+          "from": "exception,”",
+          "to": "exception”"
         }
       ]
     },
@@ -1523,7 +1523,7 @@
         {
           "start": 384,
           "end": 400,
-          "text": "Id., at 486\u2013487.",
+          "text": "Id., at 486–487.",
           "type": "case",
           "canonical": "546 U.S. 481"
         },
@@ -1559,14 +1559,14 @@
         {
           "start": 144,
           "end": 164,
-          "text": ", see supra, at 6\u20137,",
+          "text": ", see supra, at 6–7,",
           "type": "reference",
           "canonical": "This dissent, pp.6-7"
         },
         {
           "start": 353,
           "end": 371,
-          "text": "See supra, at 5\u20136.",
+          "text": "See supra, at 5–6.",
           "type": "reference",
           "canonical": "This dissent, pp.5-6"
         },
@@ -1739,9 +1739,9 @@
         {
           "start": 350,
           "end": 375,
-          "text": "See 28 U. S. C. \u00a72680(a).",
+          "text": "See 28 U. S. C. §2680(a).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(a)"
+          "canonical": "28 U.S.C. §2680(a)"
         },
         {
           "start": 513,
@@ -1753,9 +1753,9 @@
         {
           "start": 651,
           "end": 697,
-          "text": "see Restatement (Second) of Agency \u00a7228 (1957)",
+          "text": "see Restatement (Second) of Agency §228 (1957)",
           "type": "reference",
-          "canonical": "Restatement (Second) of Agency \u00a7228 (1957)"
+          "canonical": "Restatement (Second) of Agency §228 (1957)"
         },
         {
           "start": 813,
@@ -1811,16 +1811,16 @@
         {
           "start": 452,
           "end": 463,
-          "text": ", \u00a72680(h),",
+          "text": ", §2680(h),",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(h)"
+          "canonical": "28 U.S.C. §2680(h)"
         },
         {
           "start": 490,
           "end": 501,
-          "text": ", \u00a72680(a),",
+          "text": ", §2680(a),",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a72680(a)"
+          "canonical": "28 U.S.C. §2680(a)"
         }
       ],
       "pronunciations": [
@@ -1860,14 +1860,14 @@
       "page": 4,
       "start": 1741,
       "end": 1752,
-      "text": " \u2014\u2014\u2014\u2014\u2014\u2014\n\n1 ",
+      "text": " ——————\n\n1 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
       "page": 6,
       "start": 1619,
       "end": 1631,
-      "text": "\n\n\u2014\u2014\u2014\u2014\u2014\u2014\n\n2 ",
+      "text": "\n\n——————\n\n2 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1881,14 +1881,14 @@
       "page": 8,
       "start": 1774,
       "end": 1785,
-      "text": " \u2014\u2014\u2014\u2014\u2014\u2014\n\n3 ",
+      "text": " ——————\n\n3 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
       "page": 9,
       "start": 1306,
       "end": 1314,
-      "text": " \u2014\u2014\u2014\u2014\u2014\u2014 ",
+      "text": " —————— ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1902,14 +1902,14 @@
       "page": 12,
       "start": 1673,
       "end": 1684,
-      "text": " \u2014\u2014\u2014\u2014\u2014\u2014\n\n4 ",
+      "text": " ——————\n\n4 ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
       "page": 13,
       "start": 1677,
       "end": 1686,
-      "text": "\n\n\u2014\u2014\u2014\u2014\u2014\u2014 ",
+      "text": "\n\n—————— ",
       "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
     },
     {
@@ -1939,15 +1939,15 @@
       "page": 12,
       "start": 996,
       "end": 1043,
-      "expectedText": "\u201closs, miscarriage, and negligent transmission\u201d",
-      "text": "\u201closs, miscarriage, or negligent transmission\u201d"
+      "expectedText": "“loss, miscarriage, and negligent transmission”",
+      "text": "“loss, miscarriage, or negligent transmission”"
     },
     {
       "page": 10,
       "start": 791,
       "end": 796,
-      "expectedText": "\u00a713.6",
-      "text": "\u00a712.6"
+      "expectedText": "§13.6",
+      "text": "§12.6"
     },
     {
       "page": 13,
@@ -1983,9 +1983,9 @@
   },
   "revisionSource": {
     "url": "https://www.supremecourt.gov/opinions/25pdf/607us2r13_m64n.pdf",
-    "pdfPath": "scripts/cache/narration/opinion-pdfs/a7f0e5264cc9366485a21fe6.pdf",
+    "pdfPath": "recordings/sources/efe94a4a9283aadba6e6bc44.pdf",
     "sha256": "efe94a4a9283aadba6e6bc44d5a636113a4a7aa9b1a24ee386e51f3de1abee80",
-    "reason": "Reviewed the latest official preliminary print, including the Reporter\u2019s Note: Federal land bank, intentional misconduct, and or negligent transmission; verified corrected postal-regulation source and source extraction spacing against its pages."
+    "reason": "Reviewed the latest official preliminary print, including the Reporter’s Note: Federal land bank, intentional misconduct, and or negligent transmission; verified corrected postal-regulation source and source extraction spacing against its pages."
   },
   "documentInfo": {
     "joinedBy": [

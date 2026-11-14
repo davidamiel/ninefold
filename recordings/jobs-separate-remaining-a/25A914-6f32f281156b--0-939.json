@@ -4,7 +4,7 @@
   "sourceDocumentId": "25A914-6f32f281156b",
   "sourceTextPath": "dist/data/current-docs/25A914-6f32f281156b.json",
   "sourceTextSha256": "429ae24970ee88cc6559cd498cf3c667577c564914dbcabb4dbe632c535ac988",
-  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/5bec7826410c00fc81027317.pdf",
+  "sourcePdfPath": "recordings/sources/22ea88c2a68230627b337cad.pdf",
   "sourcePdfSha256": "22ea88c2a68230627b337cada2a78a90783c6011a86e57c396c6a17f566af185",
   "title": "Concurrence",
   "author": "Samuel A. Alito, Jr.",
@@ -56,7 +56,7 @@
         {
           "start": 688,
           "end": 704,
-          "text": "Id., at 206\u2013207.",
+          "text": "Id., at 206–207.",
           "type": "case",
           "canonical": "600 U.S. 181"
         }
@@ -90,9 +90,9 @@
         {
           "start": 125,
           "end": 151,
-          "text": "Title 28 U. S. C. \u00a71257(a)",
+          "text": "Title 28 U. S. C. §1257(a)",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a7 1257",
+          "canonical": "28 U.S.C. § 1257",
           "keepInline": true,
           "omitFromSpeech": false
         },
@@ -115,21 +115,21 @@
         {
           "start": 913,
           "end": 1030,
-          "text": "See App. to Application for Stay in National Socialist Party of America v. Skokie, O. T. 1976, No. 76-1786, pp. 5a\u20137a",
+          "text": "See App. to Application for Stay in National Socialist Party of America v. Skokie, O. T. 1976, No. 76-1786, pp. 5a–7a",
           "type": "record",
           "canonical": "National Socialist Party of America v. Skokie, No. 76-1786, stay application appendix, pp. 5a-7a"
         },
         {
           "start": 1422,
           "end": 1450,
-          "text": "Skokie, 432 U. S., at 43\u201344.",
+          "text": "Skokie, 432 U. S., at 43–44.",
           "type": "case",
           "canonical": "432 U.S. 43"
         }
       ],
       "pronunciations": [
         {
-          "from": "Title 28 U. S. C. \u00a71257(a)",
+          "from": "Title 28 U. S. C. §1257(a)",
           "to": "Title 28, United States Code, Section 1257, a"
         },
         {
@@ -159,9 +159,9 @@
         {
           "start": 114,
           "end": 135,
-          "text": "28 U. S. C. \u00a71651(a).",
+          "text": "28 U. S. C. §1651(a).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a7 1651"
+          "canonical": "28 U.S.C. § 1651"
         },
         {
           "start": 384,
@@ -269,8 +269,8 @@
       ],
       "pronunciations": [
         {
-          "from": "JUSTICE SOTOMAYOR\u2019s",
-          "to": "Justice Sotomayor\u2019s"
+          "from": "JUSTICE SOTOMAYOR’s",
+          "to": "Justice Sotomayor’s"
         }
       ]
     }

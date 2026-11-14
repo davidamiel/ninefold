@@ -4,7 +4,7 @@
   "sourceDocumentId": "26A124-7f09f51afb97",
   "sourceTextPath": "dist/data/docs/26A124-7f09f51afb97.json",
   "sourceTextSha256": "df04f0e2fbd027a0477e4a41ec7bb34c5b7243ebeb91e1882650ffeb2fa8c7bd",
-  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/2b9eebead6d4ffad6baa68c7.pdf",
+  "sourcePdfPath": "recordings/sources/14d9eade66ac72c7f1fd0577.pdf",
   "sourcePdfSha256": "14d9eade66ac72c7f1fd0577adff6245e72d034e917223ec296e785eeaee4868",
   "title": "Dissent",
   "author": "Sonia Sotomayor",
@@ -61,7 +61,7 @@
         {
           "start": 841,
           "end": 844,
-          "text": "\u00a7 2",
+          "text": "§ 2",
           "type": "statute",
           "canonical": "Executive Order, Section 2",
           "keepInline": true,
@@ -70,7 +70,7 @@
         {
           "start": 1102,
           "end": 1105,
-          "text": "\u00a7 2",
+          "text": "§ 2",
           "type": "statute",
           "canonical": "Executive Order, Section 2",
           "keepInline": true,
@@ -90,11 +90,11 @@
           "to": "Article 3"
         },
         {
-          "from": "\u00a7 2",
+          "from": "§ 2",
           "to": "Section 2"
         },
         {
-          "from": "\u00a7 2",
+          "from": "§ 2",
           "to": "Section 2"
         },
         {
@@ -125,7 +125,7 @@
         {
           "start": 170,
           "end": 248,
-          "text": "Govt. Brief in Opposition in No. 1:26\u2013cv\u201311581 (D Mass.), ECF Doc. 157, p. 47,",
+          "text": "Govt. Brief in Opposition in No. 1:26–cv–11581 (D Mass.), ECF Doc. 157, p. 47,",
           "type": "record",
           "canonical": "No. 1:26-cv-11581, ECF Doc. 157"
         },
@@ -172,8 +172,8 @@
           "to": "2, b"
         },
         {
-          "from": "Section 2(b),\u201d",
-          "to": "Section 2, b.\u201d"
+          "from": "Section 2(b),”",
+          "to": "Section 2, b.”"
         }
       ]
     },
@@ -197,14 +197,14 @@
         {
           "start": 625,
           "end": 698,
-          "text": "Final Judgment in No. 1:26\u2013 cv\u201311581 (D Mass.), ECF Doc. 207, p. 4, \u00b62.C.",
+          "text": "Final Judgment in No. 1:26– cv–11581 (D Mass.), ECF Doc. 207, p. 4, ¶2.C.",
           "type": "record",
           "canonical": "No. 1:26-cv-11581, ECF Doc. 207"
         },
         {
           "start": 782,
           "end": 788,
-          "text": "\u00a7 2(a)",
+          "text": "§ 2(a)",
           "type": "statute",
           "canonical": "Executive Order, Section 2(a)",
           "keepInline": true,
@@ -213,7 +213,7 @@
         {
           "start": 795,
           "end": 798,
-          "text": "\u00a7 3",
+          "text": "§ 3",
           "type": "statute",
           "canonical": "Executive Order, Section 3",
           "keepInline": true,
@@ -222,18 +222,18 @@
         {
           "start": 846,
           "end": 865,
-          "text": "ante, at 1038\u20131039,",
+          "text": "ante, at 1038–1039,",
           "type": "reference",
           "canonical": "Court opinion, pp. 1038-1039"
         }
       ],
       "pronunciations": [
         {
-          "from": "\u00a7 2(a)",
+          "from": "§ 2(a)",
           "to": "Section 2, a"
         },
         {
-          "from": "\u00a7 3",
+          "from": "§ 3",
           "to": "Section 3"
         }
       ]
@@ -252,14 +252,14 @@
         {
           "start": 71,
           "end": 138,
-          "text": "Ante, at 1040, n. 2 (quoting ECF Doc. 207, pp. 2\u20134, \u00b6\u00b61, 2.A, 2.D).",
+          "text": "Ante, at 1040, n. 2 (quoting ECF Doc. 207, pp. 2–4, ¶¶1, 2.A, 2.D).",
           "type": "reference",
           "canonical": "Court opinion, p. 1040, note 2"
         },
         {
           "start": 213,
           "end": 219,
-          "text": "\u00a7 2(b)",
+          "text": "§ 2(b)",
           "type": "statute",
           "canonical": "Executive Order, Section 2(b)",
           "keepInline": true,
@@ -268,7 +268,7 @@
         {
           "start": 246,
           "end": 252,
-          "text": "\u00a7 2(a)",
+          "text": "§ 2(a)",
           "type": "statute",
           "canonical": "Executive Order, Section 2(a)",
           "keepInline": true,
@@ -277,18 +277,18 @@
         {
           "start": 260,
           "end": 289,
-          "text": "See ECF Doc. 207, p. 4, \u00b62.C.",
+          "text": "See ECF Doc. 207, p. 4, ¶2.C.",
           "type": "record",
           "canonical": "No. 1:26-cv-11581, ECF Doc. 207"
         }
       ],
       "pronunciations": [
         {
-          "from": "\u00a7 2(b)",
+          "from": "§ 2(b)",
           "to": "Section 2, b"
         },
         {
-          "from": "\u00a7 2(a)",
+          "from": "§ 2(a)",
           "to": "Section 2, a"
         }
       ]
@@ -306,7 +306,7 @@
         {
           "start": 25,
           "end": 31,
-          "text": "\u00a7 2(a)",
+          "text": "§ 2(a)",
           "type": "statute",
           "canonical": "Executive Order, Section 2(a)",
           "keepInline": true,
@@ -315,7 +315,7 @@
         {
           "start": 75,
           "end": 81,
-          "text": "\u00a7 2(a)",
+          "text": "§ 2(a)",
           "type": "statute",
           "canonical": "Executive Order, Section 2(a)",
           "keepInline": true,
@@ -331,11 +331,11 @@
       ],
       "pronunciations": [
         {
-          "from": "\u00a7 2(a)",
+          "from": "§ 2(a)",
           "to": "Section 2, a"
         },
         {
-          "from": "\u00a7 2(a)",
+          "from": "§ 2(a)",
           "to": "Section 2, a"
         },
         {
@@ -362,7 +362,7 @@
         {
           "start": 6,
           "end": 9,
-          "text": "\u00a7 3",
+          "text": "§ 3",
           "type": "statute",
           "canonical": "Executive Order, Section 3",
           "keepInline": true,
@@ -371,21 +371,21 @@
         {
           "start": 151,
           "end": 219,
-          "text": "Amended Complaint in No. 1:26\u2013cv\u201311581 (D Mass.), ECF Doc. 65, \u00b6169;",
+          "text": "Amended Complaint in No. 1:26–cv–11581 (D Mass.), ECF Doc. 65, ¶169;",
           "type": "record",
           "canonical": "No. 1:26-cv-11581, ECF Doc. 65"
         },
         {
           "start": 220,
           "end": 239,
-          "text": "see id., \u00b6\u00b6167\u2013178.",
+          "text": "see id., ¶¶167–178.",
           "type": "record",
           "canonical": "No. 1:26-cv-11581, ECF Doc. 65"
         }
       ],
       "pronunciations": [
         {
-          "from": "\u00a7 3",
+          "from": "§ 3",
           "to": "Section 3"
         }
       ]
@@ -403,15 +403,15 @@
         {
           "start": 459,
           "end": 482,
-          "text": "See Application 28\u201329 (",
+          "text": "See Application 28–29 (",
           "type": "record",
           "canonical": "Application, pp. 28-29"
         }
       ],
       "pronunciations": [
         {
-          "from": "States\u201d).",
-          "to": "States\u201d."
+          "from": "States”).",
+          "to": "States”."
         }
       ]
     },

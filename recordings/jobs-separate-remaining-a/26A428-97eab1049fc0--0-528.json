@@ -4,7 +4,7 @@
   "sourceDocumentId": "26A428-97eab1049fc0",
   "sourceTextPath": "dist/data/current-docs/26A428-97eab1049fc0.json",
   "sourceTextSha256": "6f6d7eb1d56c2401d6ee1d4bf8cb9de368d6abf2d7efcd8dc7c7b3b45c1d1499",
-  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/be82f839ba1171aaba54c48f.pdf",
+  "sourcePdfPath": "recordings/sources/f9aea0f83af3f1d98c330393.pdf",
   "sourcePdfSha256": "f9aea0f83af3f1d98c3303931f9260daa9abeb08161c4124ef13721b7fd6cc16",
   "title": "Dissent",
   "author": "Sonia Sotomayor",
@@ -30,7 +30,7 @@
         {
           "start": 292,
           "end": 346,
-          "text": "Order in In re Pike, No. 26\u20135864, ECF Doc. 10\u20132, p. 2.",
+          "text": "Order in In re Pike, No. 26–5864, ECF Doc. 10–2, p. 2.",
           "type": "record",
           "canonical": "In re Pike, No. 26-5864, ECF Doc. 10-2"
         }
@@ -54,14 +54,14 @@
         {
           "start": 297,
           "end": 368,
-          "text": "See Pike v. State, 2011 WL 1544207 *1, *49\u2013*54 (Tenn. Crim. App. 2011).",
+          "text": "See Pike v. State, 2011 WL 1544207 *1, *49–*54 (Tenn. Crim. App. 2011).",
           "type": "case",
           "canonical": "2011 WL 1544207"
         },
         {
           "start": 536,
           "end": 556,
-          "text": "ECF Doc. 7, pp. 8\u20139.",
+          "text": "ECF Doc. 7, pp. 8–9.",
           "type": "record",
           "canonical": "In re Pike, No. 26-5864, ECF Doc. 7"
         },
@@ -110,7 +110,7 @@
         {
           "start": 544,
           "end": 556,
-          "text": "Id., at 6\u20137.",
+          "text": "Id., at 6–7.",
           "type": "record",
           "canonical": "In re Pike, No. 26-5864, ECF Doc. 7"
         },
@@ -133,21 +133,21 @@
         {
           "start": 864,
           "end": 887,
-          "text": "See 28 U. S. C. \u00a7\u00a71631,",
+          "text": "See 28 U. S. C. §§1631,",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a7 1631"
+          "canonical": "28 U.S.C. § 1631"
         },
         {
           "start": 888,
           "end": 902,
           "text": "2244(b)(3)(A).",
           "type": "statute",
-          "canonical": "28 U.S.C. \u00a7 2244"
+          "canonical": "28 U.S.C. § 2244"
         },
         {
           "start": 1068,
           "end": 1088,
-          "text": "ECF Doc. 10\u20132, p. 2.",
+          "text": "ECF Doc. 10–2, p. 2.",
           "type": "record",
           "canonical": "In re Pike, No. 26-5864, ECF Doc. 10-2"
         }
