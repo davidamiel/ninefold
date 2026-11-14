@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 
 from generate import ROOT, load_job, local_path
+from speech_mapping import map_speech
 
 
 def digest(path):
@@ -269,53 +270,36 @@ def outline_heading(text):
                                 re.fullmatch(roman, token, re.I) for token in tokens)
 
 
-def pronounce(text, changes, block_index):
-    for change in changes:
-        if change['from'] not in text:
-            raise ValueError(f'Pronunciation no longer matches block {block_index}: {change["from"]}')
-    if not changes:
-        return text
-    replacements = {change['from']: change['to'] for change in changes}
-    pattern = '|'.join(re.escape(value) for value in sorted(replacements, key=len, reverse=True))
-    return re.sub(pattern, lambda match: replacements[match.group()], text)
+def spoken_mapping(paragraph, block, citations, index):
+    if paragraph.get('citationOnly') or (paragraph['kind'] == 'heading' and outline_heading(paragraph['text'])):
+        return None
+    label = paragraph['label'] if paragraph['kind'] == 'footnote' else None
+    return map_speech(paragraph['text'], citations, block.get('pronunciations', []), index, label)
 
 
 def spoken_text(paragraph, block, citations, index):
-    if paragraph.get('citationOnly') or (paragraph['kind'] == 'heading' and outline_heading(paragraph['text'])):
-        return None
-    text = paragraph['text']
-    for citation in reversed(citations):
-        if citation.get('omitFromSpeech', True):
-            text = text[:citation['start']] + text[citation['end']:]
-    text = pronounce(text, block.get('pronunciations', []), index)
-    text = ' '.join(text.split())
-    for punctuation in ',.;:!?':
-        text = text.replace(' '+punctuation, punctuation)
-    if not any(character.isalnum() for character in text):
-        return None
-    if paragraph['kind'] == 'footnote':
-        label = paragraph['label']
-        text = f'Footnote {label}: {text} End footnote {label}.'
-    return text
+    mapped = spoken_mapping(paragraph, block, citations, index)
+    return mapped.text if mapped else None
 
 
 def prepare_narration(paragraphs, blocks):
-    spoken, spoken_blocks = [], []
+    spoken, spoken_blocks, mappings = [], [], []
     for index, (paragraph, block) in enumerate(zip(paragraphs, blocks)):
         citations = reviewed_citations(block, paragraph['text'])
         annotate_citations(paragraph, citations)
-        text = spoken_text(paragraph, block, citations, index)
-        if text is None:
+        mapped = spoken_mapping(paragraph, block, citations, index)
+        if mapped is None:
             continue
-        spoken.append(text)
+        spoken.append(mapped.text)
         spoken_blocks.append(index)
-    return spoken, spoken_blocks
+        mappings.append([list(origin) if origin is not None else None for origin in mapped.intervals])
+    return spoken, spoken_blocks, mappings
 
 
 def prepare(job):
     source = reviewed_source(job)
     paragraphs = [clean_block(b, source, job.get('repairs', [])) for b in job['blocks']]
-    spoken, spoken_blocks = prepare_narration(paragraphs, job['blocks'])
+    spoken, spoken_blocks, mappings = prepare_narration(paragraphs, job['blocks'])
     body = {'paragraphs': paragraphs, 'sectionSources': job.get('sectionSources', {}), 'reviewedCitations': True}
     version = hashlib.sha256(json.dumps({'body': body, 'spoken': spoken}, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:16]
     body['version'] = version
@@ -323,7 +307,8 @@ def prepare(job):
     # pronunciation or timings. Keep the existing recording identity intact.
     for paragraph, block in zip(paragraphs, job['blocks']):
         reference_fragments(paragraph, block.get('citations', []))
-    narration = {**job, 'version': version, 'spokenParagraphs': spoken, 'spokenBlocks': spoken_blocks}
+    narration = {**job, 'version': version, 'spokenParagraphs': spoken, 'spokenBlocks': spoken_blocks,
+                 'spokenMappings': mappings}
     return body, narration
 
 

@@ -52,6 +52,57 @@ test('recorded voices keep sentence position, real duration and stable account-s
  await page.getByRole('button',{name:'Pause',exact:true}).click();await expect(page.locator('.recording-status')).toHaveText('Paused');
 });
 
+test('a rendered Pause action stays paused when native seeking temporarily reports paused',async({page})=>{
+ await start(page);await seek(page,110);
+ await expect(page.getByRole('button',{name:'Pause',exact:true})).toBeVisible();
+ await page.evaluate(()=>{
+  const media=mediaProbe.media[1],play=media.play.bind(media),pause=media.pause.bind(media);
+  window.transportRace={playCalls:0,pauseCalls:0};
+  media.play=()=>{transportRace.playCalls++;return play()};
+  media.pause=()=>{transportRace.pauseCalls++;return pause()};
+  Object.defineProperty(media,'paused',{configurable:true,get:()=>true});
+ });
+ await page.getByRole('button',{name:'Pause',exact:true}).click();
+ expect(await page.evaluate(()=>({play:transportRace.playCalls,pause:transportRace.pauseCalls}))).toEqual({play:0,pause:1});
+ expect(await page.evaluate(()=>{const media=mediaProbe.media[1];delete media.paused;return media.paused})).toBe(true);
+ await page.getByRole('button',{name:'Audio options',exact:true}).click();
+ await page.getByLabel('Document voice',{exact:true}).selectOption('male');
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ await expect(page.getByRole('button',{name:'Play',exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>transportRace.playCalls)).toBe(0);
+});
+
+test('pausing a pending play ignores its cancellation and prevents late playback',async({page})=>{
+ await start(page);await page.getByRole('button',{name:'Pause',exact:true}).click();
+ await page.evaluate(()=>{
+  const media=mediaProbe.media[1],play=media.play.bind(media),pause=media.pause.bind(media);
+  window.pendingPlayback={pauseCalls:0};
+  media.play=()=>{media.play=play;return new Promise((resolve,reject)=>{pendingPlayback.cancel=()=>reject(new DOMException('Playback was paused','AbortError'))})};
+  media.pause=()=>{pendingPlayback.pauseCalls++;return pause()};
+ });
+ const control=await page.getByRole('button',{name:'Play',exact:true}).elementHandle();
+ await control.focus();await control.press('Enter');
+ await expect(page.getByRole('button',{name:'Pause',exact:true})).toBeVisible();
+ expect(await control.evaluate(el=>el.isConnected&&el===document.activeElement)).toBe(true);
+ await page.getByRole('button',{name:'Pause',exact:true}).click();
+ await page.evaluate(()=>{pendingPlayback.cancel();mediaProbe.media[1].dispatchEvent(new Event('playing'))});
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ await expect(page.getByRole('button',{name:'Play',exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Retry audio',exact:true})).toHaveCount(0);
+ expect(await page.evaluate(()=>pendingPlayback.pauseCalls)).toBeGreaterThanOrEqual(2);
+ expect(await page.evaluate(()=>mediaProbe.media[1].paused)).toBe(true);
+});
+
+test('native pause updates transport intent before changing voices',async({page})=>{
+ await start(page);await page.evaluate(()=>mediaProbe.media[1].pause());
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ await expect(page.getByRole('button',{name:'Play',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Audio options',exact:true}).click();
+ await page.getByLabel('Document voice',{exact:true}).selectOption('male');
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ expect(await page.evaluate(()=>mediaProbe.media[1].paused)).toBe(true);
+});
+
 test('text seeking resumes paused audio and collapses controls without opening menus',async({page})=>{
  await start(page);await page.getByRole('button',{name:'Pause',exact:true}).click();
  const paragraph=page.locator('.prepared-paragraph').nth(4);await paragraph.scrollIntoViewIfNeeded();

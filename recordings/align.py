@@ -9,6 +9,7 @@ import unicodedata
 from pathlib import Path
 
 from generate import ROOT, load_job, local_path
+from speech_mapping import map_speech, source_bounds
 
 
 class AlignmentReviewError(ValueError):
@@ -105,22 +106,50 @@ def source_ranges(paragraph, start, end):
     return result
 
 
-def paragraph_alignment(para, canonical, words):
+def validate_speech_mapping(text, canonical, intervals):
+    if len(intervals) != len(text):
+        raise ValueError('Speech source mapping length differs from the emitted script')
+    for origin in intervals:
+        if origin is None:
+            continue
+        if (not isinstance(origin, (tuple, list)) or len(origin) != 2
+                or not all(isinstance(offset, int) for offset in origin)
+                or not 0 <= origin[0] < origin[1] <= len(canonical['text'])):
+            raise ValueError('Speech source mapping has an invalid reader interval')
+
+
+def paragraph_alignment(para, canonical, words, speech_mapping=None):
+    if speech_mapping is None:
+        # Unmodified text and the fixed footnote announcements can be mapped
+        # exactly. Transformed speech requires its prepared edit map.
+        label = canonical['label'] if canonical['kind'] == 'footnote' else None
+        identity = map_speech(canonical['text'], footnote_label=label)
+        if identity is None or identity.text != para['text']:
+            raise ValueError('Transformed narration requires its prepared speech source mapping')
+        speech_mapping = identity.intervals
+    validate_speech_mapping(para['text'], canonical, speech_mapping)
     expected = tokens(para['text'])
     heard = [(token, w) for w in words if w['end'] > para['start'] and w['start'] < para['end'] for token, _, _ in tokens(w['text'])]
     timing = timing_pairs([t[0] for t in expected], [t[0] for t in heard])
-    source = tokens(canonical['text'])
-    mapping = pairs([t[0] for t in expected], [t[0] for t in source])
-    return {'expected': expected, 'heard': heard, 'timing': timing, 'source': source, 'mapping': mapping}
+    return {'expected': expected, 'heard': heard, 'timing': timing, 'speechMapping': speech_mapping}
 
 
-def sentence_source_bounds(canonical, source, mapped, transition):
+def sentence_source_bounds(canonical, intervals, sentence, transition):
     if transition:
         return max(0, len(canonical['text'])-1), len(canonical['text'])
-    start, end = source[min(mapped)][1], source[max(mapped)][2]
+    bounds = source_bounds(intervals, sentence['start'], sentence['end'])
+    if bounds is None:
+        return None
+    start, end = bounds
     while end < len(canonical['text']) and canonical['text'][end] in '.!?,;:”’"\')':
         end += 1
     return start, end
+
+
+def mapped_source_ranges(canonical, intervals, start, end, transition=False):
+    """Map a verified speech span to PDF ranges without changing its timing."""
+    bounds = sentence_source_bounds(canonical, intervals, {'start': start, 'end': end}, transition)
+    return source_ranges(canonical, *bounds) if bounds is not None else []
 
 
 def sentence_cue(sentence, para, canonical, alignment, block_index):
@@ -129,16 +158,15 @@ def sentence_cue(sentence, para, canonical, alignment, block_index):
     if not indexes:
         return None  # Closing quotation punctuation has no separately spoken words.
     timed = [alignment['heard'][alignment['timing'][i]][1] for i in indexes if i in alignment['timing']]
-    mapped = [alignment['mapping'][i] for i in indexes if i in alignment['mapping']]
     announcement = re.sub(r'^[^\w]*', '', text)
     transition = canonical['kind'] == 'footnote' and announcement == f'End footnote {canonical["label"]}.'
-    if not timed or len(timed)/max(1, len(indexes)) < .5 or not mapped and not transition:
+    ranges = mapped_source_ranges(canonical, alignment['speechMapping'], sentence['start'], sentence['end'], transition)
+    if not timed or len(timed)/max(1, len(indexes)) < .5 or not ranges:
         raise AlignmentReviewError(block_index, f'Audio sentence needs review: block {block_index}: {text}')
-    start, end = sentence_source_bounds(canonical, alignment['source'], mapped, transition)
     start_time = para['start'] if sentence['start'] == 0 else max(para['start'], timed[0]['start'])
     end_time = para['end'] if sentence['end'] == len(para['text']) else min(para['end'], timed[-1]['end'])
     cue = {'start': round(start_time, 3), 'end': round(end_time, 3),
-           'paragraph': block_index, 'ranges': source_ranges(canonical, start, end), 'text': text}
+           'paragraph': block_index, 'ranges': ranges, 'text': text}
     if transition:
         cue['text'] = announcement
         cue['transition'] = True
@@ -162,12 +190,15 @@ def align(body, narration, report, words):
     texts = [p['text'] for p in report['paragraphs']]
     if texts != narration['spokenParagraphs'] or len(texts) != len(narration['spokenBlocks']):
         raise ValueError('Generated narration differs from the reviewed script')
+    mappings = narration.get('spokenMappings')
+    if not isinstance(mappings, list) or len(mappings) != len(texts):
+        raise ValueError('Reprepare narration to include exact speech source mappings')
     sentences = sentence_ranges(texts)
     cues, coverage = [], []
     for pi, (para, ranges) in enumerate(zip(report['paragraphs'], sentences)):
         block_index = narration['spokenBlocks'][pi]
         canonical = body['paragraphs'][block_index]
-        alignment = paragraph_alignment(para, canonical, words)
+        alignment = paragraph_alignment(para, canonical, words, mappings[pi])
         matched, expected = len(alignment['timing']), len(alignment['expected'])
         ratio = matched/max(1, expected)
         coverage.append({'paragraph': block_index, 'matchedWords': matched, 'expectedWords': expected, 'coverage': ratio})

@@ -14,6 +14,11 @@ class ReviewedPreparation(unittest.TestCase):
         cls.job = json.loads((ROOT/'recordings/abouammo.json').read_text())
         cls.source = json.loads((ROOT/cls.job['sourceTextPath']).read_text())
 
+    def test_prepared_metadata_round_trips_through_json_before_staging(self):
+        body,narration=prepare(self.job)
+        self.assertTrue(json.loads(json.dumps(body)) == body, 'Reader metadata must round-trip through JSON')
+        self.assertTrue(json.loads(json.dumps(narration)) == narration, 'Narration mappings must round-trip through JSON')
+
     def test_cross_page_footnote_is_complete_and_returns_to_the_body(self):
         body, narration = prepare(self.job)
         note = next(p for p in body['paragraphs'] if p.get('label') == '1')

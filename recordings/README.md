@@ -141,3 +141,10 @@ JPEG streams and keeps each caption once; its image links open the source image.
 Writing PDF slices preserve source drawing streams, embedded images, page boxes
 and rotation as well as text. Keep any non-text appendix pages when choosing a
 writing's final PDF page; its last text block alone does not establish that end.
+
+Narration includes a character map back to the clean reader text, including
+explicit pronunciations and omitted citations. For a source-range correction
+that leaves the recording version and entire script unchanged, use
+`python recordings/remap_cues.py path/to/reviewed-job.json`, then stage the job.
+This validates the exact sentence sequence and both audio hashes and changes
+only source ranges; it preserves acoustic timestamps and coverage checks.

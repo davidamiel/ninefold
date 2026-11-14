@@ -14,13 +14,18 @@ from generate import ROOT, load_job, local_path
 from prepare import prepare
 
 
-SCRIPTS = {name: ROOT/'recordings'/name for name in ('prepare.py', 'generate.py', 'align.py', 'stage.py')}
+PREPARE = 'prepare.py'
+GENERATE = 'generate.py'
+ALIGN = 'align.py'
+STAGE = 'stage.py'
+
+SCRIPTS = {name: ROOT/'recordings'/name for name in (PREPARE, GENERATE, ALIGN, STAGE)}
 STAGE_OPTIONS = {
-    'prepare.py': ((),),
-    'stage.py': ((),),
-    'generate.py': tuple(('--voice', voice, '--resume', '--engine', engine)
+    PREPARE: ((),),
+    STAGE: ((),),
+    GENERATE: tuple(('--voice', voice, '--resume', '--engine', engine)
                          for voice in ('female', 'male') for engine in ('onnx', 'mlx')),
-    'align.py': tuple(('--voice', voice, '--device', device)
+    ALIGN: tuple(('--voice', voice, '--device', device)
                       for voice in ('female', 'male') for device in ('cpu', 'mps')),
 }
 
@@ -64,12 +69,12 @@ def run_command(script, path, options, log):
 def process(path, engine, alignment_device, log, parallel_align=False):
     if engine not in ('onnx', 'mlx') or alignment_device not in ('cpu', 'mps'):
         raise ValueError('Invalid recording engine or alignment device')
-    commands = [('prepare.py', []),
-                ('generate.py', ['--voice', 'female', '--resume', '--engine', engine]),
-                ('generate.py', ['--voice', 'male', '--resume', '--engine', engine])]
+    commands = [(PREPARE, []),
+                (GENERATE, ['--voice', 'female', '--resume', '--engine', engine]),
+                (GENERATE, ['--voice', 'male', '--resume', '--engine', engine])]
     for script, options in commands:
         run_command(script, path, options, log)
-    alignment = [['align.py', path, ['--voice', voice, '--device', alignment_device], log]
+    alignment = [[ALIGN, path, ['--voice', voice, '--device', alignment_device], log]
                  for voice in ('female', 'male')]
     if parallel_align:
         with ThreadPoolExecutor(max_workers=2) as pool:
@@ -79,7 +84,7 @@ def process(path, engine, alignment_device, log, parallel_align=False):
     else:
         for command in alignment:
             run_command(*command)
-    run_command('stage.py', path, [], log)
+    run_command(STAGE, path, [], log)
 
 
 def pending_job(paths, attempted, inventory):

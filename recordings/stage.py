@@ -78,7 +78,7 @@ def main():
     body, narration = prepare(job)
     folder = local_path(args.output/document_id, ROOT/'work')
     if json.loads(local_path(folder/'prepared.json', folder).read_text()) != body or json.loads(local_path(folder/'narration.json', folder).read_text()) != narration:
-        raise ValueError('Regenerate audio after changing the reviewed job')
+        raise ValueError('Prepare the current reviewed reader and narration metadata before staging')
     recordings = {}
     # Validate both complete recordings before changing any public assets.
     for voice in ('female', 'male'):

@@ -3,7 +3,8 @@ import unittest
 import json
 import subprocess
 
-from align import timing_pairs, tokens, paragraph_alignment, sentence_cue, sentence_ranges, close_cue_gaps, AlignmentReviewError
+from align import timing_pairs, tokens, paragraph_alignment, sentence_cue, sentence_ranges, close_cue_gaps, mapped_source_ranges, AlignmentReviewError
+from speech_mapping import map_speech
 
 
 class WordAlignment(unittest.TestCase):
@@ -81,10 +82,10 @@ class WordAlignment(unittest.TestCase):
 
     def test_closing_announcement_maps_numbered_and_symbol_notes(self):
         for label, prefix in [('1',''), ('*',''), ('†',''), ('5','”; ')]:
-            text='Actual note.'
+            text='Actual note.'+(' '+prefix.strip() if prefix else '')
             canonical={'kind':'footnote','label':label,'text':text,
                        'segments':[{'page':0,'text':text,'map':list(range(len(text)))}]}
-            spoken=f'Footnote {label}: {text} {prefix}End footnote {label}.'
+            spoken=f'Footnote {label}: {text} End footnote {label}.'
             paragraph={'text':spoken,'start':0,'end':10}
             words=[{'text':token,'start':i,'end':i+.5} for i,(token,_,_) in enumerate(tokens(spoken))]
             alignment=paragraph_alignment(paragraph,canonical,words)
@@ -107,6 +108,53 @@ class WordAlignment(unittest.TestCase):
         cue=sentence_cue(sentences[-1],paragraph,canonical,alignment,0)
         self.assertTrue(cue['transition'])
         self.assertEqual(cue['text'],'End footnote 5.')
+
+    def test_pronounced_sentence_end_and_entire_name_keep_full_reader_range(self):
+        for original, replacement in [('We rely on Article III.', 'We rely on Article three.'),
+                                      ('During World War II.', 'During World War two.'),
+                                      ('Abouammo.', 'Aboo Ammo.')]:
+            canonical={'kind':'paragraph','text':original,
+                       'segments':[{'page':2,'text':original,'map':list(range(100,100+len(original)))}]}
+            mapped=map_speech(original,pronunciations=[{'from':original,'to':replacement}])
+            paragraph={'text':mapped.text,'start':0,'end':20}
+            words=[{'text':token,'start':i,'end':i+.5} for i,(token,_,_) in enumerate(tokens(mapped.text))]
+            alignment=paragraph_alignment(paragraph,canonical,words,mapped.intervals)
+            cue=sentence_cue({'start':0,'end':len(mapped.text)},paragraph,canonical,alignment,0)
+            self.assertEqual(cue['ranges'],[{'page':2,'start':100,'end':100+len(original)}])
+
+    def test_pronunciation_across_pdf_pages_retains_both_source_endpoints(self):
+        text='Article III.'
+        canonical={'kind':'paragraph','text':text,'segments':[
+            {'page':2,'text':'Article ','map':list(range(100,108))},
+            {'page':3,'text':'III.','map':list(range(200,204))}]}
+        mapped=map_speech(text,pronunciations=[{'from':'Article III','to':'Article three'}])
+        paragraph={'text':mapped.text,'start':0,'end':10}
+        words=[{'text':token,'start':i,'end':i+.5} for i,(token,_,_) in enumerate(tokens(mapped.text))]
+        alignment=paragraph_alignment(paragraph,canonical,words,mapped.intervals)
+        cue=sentence_cue({'start':0,'end':len(mapped.text)},paragraph,canonical,alignment,0)
+        self.assertEqual(cue['ranges'],[{'page':2,'start':100,'end':108},
+                                      {'page':3,'start':200,'end':204}])
+
+    def test_transformed_speech_requires_mapping_and_invalid_maps_are_rejected(self):
+        canonical={'kind':'paragraph','text':'Article III.'}
+        paragraph={'text':'Article three.','start':0,'end':10}
+        with self.assertRaisesRegex(ValueError,'requires its prepared speech source mapping'):
+            paragraph_alignment(paragraph,canonical,[])
+        with self.assertRaisesRegex(ValueError,'length differs'):
+            paragraph_alignment(paragraph,canonical,[],[(0,1)])
+        with self.assertRaisesRegex(ValueError,'invalid reader interval'):
+            paragraph_alignment(paragraph,canonical,[],[(0,99)]*len(paragraph['text']))
+
+    def test_existing_verified_cue_can_refresh_ranges_without_acoustic_work(self):
+        text='Article III.'
+        canonical={'kind':'footnote','label':'1','text':text,
+                   'segments':[{'page':2,'text':text,'map':list(range(100,100+len(text)))}]}
+        mapped=map_speech(text,pronunciations=[{'from':'Article III','to':'Article three'}],footnote_label='1')
+        end=mapped.text.index(' End footnote')
+        self.assertEqual(mapped_source_ranges(canonical,mapped.intervals,0,end),
+                         [{'page':2,'start':100,'end':100+len(text)}])
+        self.assertEqual(mapped_source_ranges(canonical,mapped.intervals,end+1,len(mapped.text),True),
+                         [{'page':2,'start':100+len(text)-1,'end':100+len(text)}])
 
 
 if __name__ == '__main__':
