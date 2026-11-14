@@ -51,6 +51,30 @@ def save_report(path, report):
     temporary.replace(path)
 
 
+def save_preparation(path, value):
+    """Two voice processes may publish the same frozen preparation safely."""
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=path.parent,
+                                         prefix=path.name+'.', suffix='.tmp', delete=False) as file:
+            temporary = local_path(file.name, path.parent)
+            json.dump(value, file, ensure_ascii=False, indent=2)
+            file.write('\n')
+        temporary.replace(path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+
+
+def release_model_cache(engine):
+    if engine == 'mlx':
+        import gc
+        import mlx.core as mx
+        mx.synchronize()
+        gc.collect()
+        mx.clear_cache()
+
+
 def reusable_recording(report, generator, script_hash, voice, audio):
     return (report.get('generator') == generator and report.get('scriptSha256') == script_hash
             and report.get('voice') == voice
@@ -80,8 +104,8 @@ if __name__=='__main__':
     if 'blocks' in job:
         from prepare import prepare
         body,job=prepare(job)
-        local_path(output/'prepared.json',output).write_text(json.dumps(body,ensure_ascii=False,indent=2)+'\n')
-        local_path(output/'narration.json',output).write_text(json.dumps(job,ensure_ascii=False,indent=2)+'\n')
+        save_preparation(local_path(output/'prepared.json',output),body)
+        save_preparation(local_path(output/'narration.json',output),job)
     # Cache identity includes the actual local model and runtime, so changing
     # either cannot silently reuse audio made by a different generator.
     from importlib.metadata import version
@@ -137,6 +161,8 @@ if __name__=='__main__':
         paragraphs.append({'paragraph':index,'start':offset/rate,'end':(offset+len(samples))/rate,'text':text})
         gap=np.zeros(int(rate*.35),dtype='float32');pieces.extend([samples,gap]);offset+=len(samples)+len(gap)
         print(f'{args.voice}: paragraph {index+1}/{len(job["spokenParagraphs"])}',flush=True)
+    del tts
+    release_model_cache(args.engine)
     audio=np.concatenate(pieces);peak=np.abs(audio).max()
     if peak:audio*=min(1,.89125/peak)
     mp3_path=local_path(output/(gender+'.mp3'),output)

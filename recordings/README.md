@@ -96,7 +96,12 @@ in the same environment.
 GPU access must be available to the process. CPU alignment is the portable default; `--alignment-device mps`
 uses Apple's GPU for acoustic transcription. `--parallel-align` checks the two
 independent voice recordings concurrently and stages only after both succeed;
-generation still uses one worker. CPU-only generation remains
+generation is sequential by default. `--parallel-generate` optionally runs the
+two voice generators concurrently, with both required to finish before alignment
+begins. Enable it only with enough memory for both models and full recordings.
+Each phase uses at most two child processes, and only one document job is active.
+Shared preparation files use unique temporary files and atomic replacement;
+reviewed jobs must remain frozen throughout the process. CPU-only generation remains
 available with `--engine onnx` and the original requirements/model files.
 
 Alignment uses acoustic transcription without the expected script as a prompt.

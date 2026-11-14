@@ -41,6 +41,28 @@ class WordAlignment(unittest.TestCase):
         self.assertEqual(words('Rule 60(c)(1)'),words('Rule sixty c one'))
         self.assertEqual(words('Section 78 u d 5'),words('Section seventy-eight u d five'))
 
+    def test_three_digit_section_readings_match_exact_transcribed_number(self):
+        for spoken,heard in [('Section two thirty-two', 'Section 232'),
+                             ('Section one twenty-two', 'Section 122'),
+                             ('Section two oh one', 'Section 201'),
+                             ('Section three oh one', 'Section 301'),
+                             ('Section three thirty-eight', 'Section 338'),
+                             ('Section two hundred thirty-two', 'Section 232')]:
+            expected=[word for word,_,_ in tokens(spoken)]
+            actual=[word for word,_,_ in tokens(heard)]
+            self.assertEqual(len(timing_pairs(expected,actual)),len(expected))
+        self.assertNotEqual(len(timing_pairs(['two','thirty','two'],['233'])),3)
+        self.assertNotEqual(len(timing_pairs(['two','oh','one'],['210'])),3)
+        self.assertNotEqual(len(timing_pairs(['two','thirty','two'],['tariffs'])),3)
+
+    def test_explicit_ieepa_letter_names_match_their_exact_asr_spellings(self):
+        expected=['eye','ee','pa']
+        for heard in [['i','epa'],['i','e','pa'],['iepa']]:
+            self.assertEqual(len(timing_pairs(expected,heard)),3)
+        self.assertNotEqual(len(timing_pairs(expected,['epa'])),3)
+        self.assertNotIn(3,timing_pairs(expected+['tariffs'],['i','epa','claims']))
+        self.assertNotIn(0,timing_pairs(['eye'],['i']))
+
     def test_accents_preserve_whole_words_and_original_source_offsets(self):
         text='Unión Cuba-Petróleo and Corporación'
         actual=tokens(text)
@@ -155,6 +177,24 @@ class WordAlignment(unittest.TestCase):
                          [{'page':2,'start':100,'end':100+len(text)}])
         self.assertEqual(mapped_source_ranges(canonical,mapped.intervals,end+1,len(mapped.text),True),
                          [{'page':2,'start':100+len(text)-1,'end':100+len(text)}])
+
+    def test_sentence_punctuation_edit_after_omitted_citation_does_not_overlap_next_cue(self):
+        text='New York v. United States, 505 U.S. 144 (discussing Dole); ante, at 73. But that distinction differs.'
+        citations=[]
+        for label in [', 505 U.S. 144','ante, at 73.']:
+            start=text.index(label)
+            citations.append({'start':start,'end':start+len(label)})
+        mapped=map_speech(text,citations,pronunciations=[
+            {'from':'New York v. United States','to':'New York versus United States'},
+            {'from':');  But','to':'). But'}])
+        canonical={'kind':'paragraph','text':text,
+                   'segments':[{'page':35,'text':text,'map':list(range(700,700+len(text)))}]}
+        sentences=sentence_ranges([mapped.text])[0]
+        self.assertEqual(len(sentences),2)
+        first=mapped_source_ranges(canonical,mapped.intervals,sentences[0]['start'],sentences[0]['end'])
+        second=mapped_source_ranges(canonical,mapped.intervals,sentences[1]['start'],sentences[1]['end'])
+        self.assertLessEqual(first[-1]['end'],second[0]['start'])
+        self.assertEqual(second[0]['start'],700+text.index('But'))
 
 
 if __name__ == '__main__':

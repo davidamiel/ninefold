@@ -66,24 +66,27 @@ def run_command(script, path, options, log):
                    cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, check=True)
 
 
-def process(path, engine, alignment_device, log, parallel_align=False):
-    if engine not in ('onnx', 'mlx') or alignment_device not in ('cpu', 'mps'):
-        raise ValueError('Invalid recording engine or alignment device')
-    commands = [(PREPARE, []),
-                (GENERATE, ['--voice', 'female', '--resume', '--engine', engine]),
-                (GENERATE, ['--voice', 'male', '--resume', '--engine', engine])]
-    for script, options in commands:
-        run_command(script, path, options, log)
-    alignment = [[ALIGN, path, ['--voice', voice, '--device', alignment_device], log]
-                 for voice in ('female', 'male')]
-    if parallel_align:
+def run_phase(commands, parallel):
+    if parallel:
         with ThreadPoolExecutor(max_workers=2) as pool:
-            pending = [pool.submit(run_command, *command) for command in alignment]
+            pending = [pool.submit(run_command, *command) for command in commands]
             for result in pending:
                 result.result()
     else:
-        for command in alignment:
+        for command in commands:
             run_command(*command)
+
+
+def process(path, engine, alignment_device, log, parallel_align=False, parallel_generate=False):
+    if engine not in ('onnx', 'mlx') or alignment_device not in ('cpu', 'mps'):
+        raise ValueError('Invalid recording engine or alignment device')
+    run_command(PREPARE, path, [], log)
+    generation = [[GENERATE, path, ['--voice', voice, '--resume', '--engine', engine], log]
+                  for voice in ('female', 'male')]
+    run_phase(generation, parallel_generate)
+    alignment = [[ALIGN, path, ['--voice', voice, '--device', alignment_device], log]
+                 for voice in ('female', 'male')]
+    run_phase(alignment, parallel_align)
     run_command(STAGE, path, [], log)
 
 
@@ -131,7 +134,7 @@ def run_batch(args, folder):
         save_status(status_path, status)
         try:
             with log_path.open('w') as log:
-                process(path, args.engine, args.alignment_device, log, args.parallel_align)
+                process(path, args.engine, args.alignment_device, log, args.parallel_align, args.parallel_generate)
             status[identifier]['state'] = 'complete'
         except (subprocess.CalledProcessError, ValueError) as error:
             status[identifier].update(state='failed', error=str(error), log=str(log_path.relative_to(ROOT)))
@@ -148,6 +151,7 @@ def main():
     parser.add_argument('--engine', choices=['onnx', 'mlx'], default='onnx')
     parser.add_argument('--alignment-device', choices=['cpu', 'mps'], default='cpu')
     parser.add_argument('--parallel-align', action='store_true', help='Align the two independent voices concurrently before staging')
+    parser.add_argument('--parallel-generate', action='store_true', help='Generate the two independent voices concurrently before alignment')
     parser.add_argument('--watch', action='store_true')
     args = parser.parse_args()
     folder = local_path(ROOT/'work/recordings', ROOT/'work')

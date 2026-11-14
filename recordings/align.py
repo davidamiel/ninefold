@@ -42,15 +42,43 @@ def pairs(left, right):
     return result
 
 
+def spoken_token_spellings(words):
+    """Normalize this explicit letter-name pronunciation, preserving indexes."""
+    result = list(words)
+    for index in range(len(words)-2):
+        if words[index:index+3] == ['eye', 'ee', 'pa']:
+            result[index:index+2] = ['i', 'e']
+    return result
+
+
+def three_digit_readings(value):
+    if not value.isdigit() or len(value) != 3 or value.startswith('0'):
+        return []
+    first = number_words(value[0])
+    tail = int(value[1:])
+    cardinal = first+['hundred']+(number_words(str(tail)) if tail else [])
+    chunk = first+(['oh']+number_words(str(tail)) if tail < 10 else number_words(str(tail)))
+    digits = [number_words(character)[0] for character in value]
+    return [cardinal, chunk, digits]
+
+
+def numeric_join_pairs(left, right):
+    """Match a digit token only to an exact reading of that same number."""
+    if len(right) == 1 and left in three_digit_readings(right[0]):
+        return {index: 0 for index in range(len(left))}
+    return {}
+
+
 def timing_pairs(expected, heard):
     """Accept close ASR spellings within an otherwise aligned word sequence."""
+    expected, heard = spoken_token_spellings(expected), spoken_token_spellings(heard)
     result = pairs(expected, heard)
     matcher = difflib.SequenceMatcher(None, expected, heard, autojunk=False)
     for tag, a, b, c, d in matcher.get_opcodes():
         if tag != 'replace':
             continue
         left_words, right_words = expected[a:b], heard[c:d]
-        joined = exact_join_pairs(left_words, right_words)
+        joined = exact_join_pairs(left_words, right_words) or numeric_join_pairs(left_words, right_words)
         if joined:
             result.update((a+left, c+right) for left, right in joined.items())
             continue
