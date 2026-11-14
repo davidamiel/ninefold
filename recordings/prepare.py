@@ -89,6 +89,17 @@ def clean_block(block, source, repairs):
             'text': ''.join(c[0] for c in chars), 'segments': source_segments(chars)}
 
 
+def validate_page_coverage(raw, start, end, spans, page):
+    coverage = [0] * len(raw)
+    for span in spans:
+        if not start <= span['start'] < span['end'] <= end:
+            raise ValueError('Source span leaves the reviewed writing')
+        for i in range(span['start'], span['end']):
+            coverage[i] += 1
+    if any(coverage[i] != 1 and not raw[i].isspace() for i in range(start, end)):
+        raise ValueError(f'Unreviewed or overlapping source text on page {page + 1}')
+
+
 def validate_coverage(job, source):
     scope = job['sourceRange']
     spans = [s for block in job['blocks'] for s in block['spans']] + job['excludedSource']
@@ -96,14 +107,7 @@ def validate_coverage(job, source):
         raw = source['pages'][page]['text']
         start = scope['startOffset'] if page == scope['startPage'] else 0
         end = scope['endOffset'] if page == scope['endPage'] else len(raw)
-        coverage = [0] * len(raw)
-        for span in (s for s in spans if s['page'] == page):
-            if not start <= span['start'] < span['end'] <= end:
-                raise ValueError('Source span leaves the reviewed writing')
-            for i in range(span['start'], span['end']):
-                coverage[i] += 1
-        if any(coverage[i] != 1 and not raw[i].isspace() for i in range(start, end)):
-            raise ValueError(f'Unreviewed or overlapping source text on page {page + 1}')
+        validate_page_coverage(raw, start, end, [s for s in spans if s['page'] == page], page)
 
 
 def reviewed_source(job):
@@ -165,7 +169,9 @@ def spoken_text(paragraph, block, citations, index):
         if citation.get('omitFromSpeech', True):
             text = text[:citation['start']] + text[citation['end']:]
     text = pronounce(text, block.get('pronunciations', []), index)
-    text = re.sub(r'\s+([,.;:!?])', r'\1', re.sub(r'\s+', ' ', text)).strip()
+    text = ' '.join(text.split())
+    for punctuation in ',.;:!?':
+        text = text.replace(' '+punctuation, punctuation)
     if paragraph['kind'] == 'heading' or not text:
         return None
     if paragraph['kind'] == 'footnote':
