@@ -23,6 +23,29 @@ class SpeechSourceMapping(unittest.TestCase):
         self.assertEqual(mapped.bounds(0, 1), (0, 8))
         self.assertEqual(mapped.bounds(0, 5), (0, 9))
 
+    def test_punctuation_edit_across_sentences_keeps_unchanged_next_word_separate(self):
+        text='Discussing Dole);  But that distinction differs.'
+        mapped=map_speech(text,pronunciations=[{'from':');  But','to':'). But'}])
+        first_end=mapped.text.index('. ')+1
+        second_start=mapped.text.index('But')
+        self.assertEqual(mapped.text,'Discussing Dole). But that distinction differs.')
+        self.assertLessEqual(mapped.bounds(0,first_end)[1],text.index('But'))
+        self.assertEqual(mapped.bounds(second_start,len(mapped.text)),(text.index('But'),len(text)))
+
+    def test_multiple_edits_in_name_preserve_exact_unchanged_internal_words(self):
+        text='Board of R. Comm’rs v. Oregon R. & Navigation Co.'
+        replacement='Board of R. Commissioners versus Oregon R. & Navigation Company'
+        mapped=map_speech(text,pronunciations=[{'from':text,'to':replacement}])
+        start=mapped.text.index('Oregon')
+        self.assertEqual(mapped.bounds(start,start+len('Oregon R.')),
+                         (text.index('Oregon'),text.index('Oregon')+len('Oregon R.')))
+        self.assertEqual(mapped.bounds(0,len(mapped.text)),(0,len(text)))
+
+    def test_deleted_prefix_and_suffix_still_cover_original_source(self):
+        mapped=map_speech('[word]',pronunciations=[{'from':'[word]','to':'word'}])
+        self.assertEqual(mapped.text,'word')
+        self.assertEqual(mapped.bounds(0,len(mapped.text)),(0,len('[word]')))
+
     def test_longest_replacements_are_simultaneous_and_do_not_cascade(self):
         changes = [{'from': 'II', 'to': 'two'}, {'from': 'III', 'to': 'three'},
                    {'from': 'two', 'to': 'second'}]

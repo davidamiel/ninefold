@@ -153,6 +153,42 @@ test('account progress offers resume and restart and case tiles expose audio ava
  await page.getByRole('button',{name:'Application & Responses',exact:true}).click();await expect(page.getByRole('img',{name:'Audio unavailable',exact:true}).first()).toBeVisible();
 });
 
+test('account resume restores the saved voice and exact recording position on a fresh device',async({page})=>{
+ await page.evaluate(()=>localStorage.setItem('court-reader-v1',JSON.stringify({audioVoice:'female'})));
+ await page.reload();await expect(page.locator('.prepared-paragraph').first()).toBeVisible();await expect(page.locator('body')).toHaveAttribute('data-signed-in','true');
+ const prepared=await (await page.request.get('/data/prepared-documents.json')).json(),recordings=prepared[documentId].recordings;
+ const {cues}=await (await page.request.get('/'+recordings.male.cuesPath)).json(),seconds=110.25;
+ const cue=cues.find(c=>c.start<=seconds&&c.end>seconds);
+ const progress={kind:'document',docId:documentId,seconds,voice:'male',recording:recordings.male.url,text:cue.text,page:cue.ranges[0].page,sourceStart:cue.ranges[0].start,offset:seconds-cue.start,savedAt:Date.now()};
+ await page.evaluate(({id,progress})=>{
+  accountHarness.receive({audioProgress:{['audio:document:'+id]:progress}});
+  const media=mediaProbe.media[1],play=media.play.bind(media);
+  media.play=()=>{window.resumeStart={time:media.currentTime,src:media.querySelector('source')?.getAttribute('src')};return play()};
+ },{id:documentId,progress});
+ await page.getByRole('button',{name:'Audio',exact:true}).click();
+ await page.getByRole('button',{name:'Resume document · 1:50',exact:true}).click();
+ await expect(page.locator('.recording-status')).toHaveText('Reading');
+ expect(await page.evaluate(()=>resumeStart.src)).toBe(recordings.male.url);
+ expect(await page.evaluate(()=>resumeStart.time)).toBeCloseTo(seconds,2);
+ expect(await page.evaluate(()=>mediaProbe.media[1].currentTime)).toBeGreaterThanOrEqual(seconds);
+ expect(Math.abs(await page.evaluate(()=>mediaProbe.media[1].duration)-recordings.male.duration)).toBeLessThan(.15);
+ await page.getByRole('button',{name:'Pause',exact:true}).click();
+ await page.getByRole('button',{name:'Audio options',exact:true}).click();
+ await expect(page.getByLabel('Document voice',{exact:true})).toHaveValue('male');
+ await page.evaluate(({id,progress})=>accountHarness.receive({audioProgress:{['audio:document:'+id]:progress}}),{id:documentId,progress});
+ await page.getByLabel('Document voice',{exact:true}).selectOption('female');
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ await expect(page.getByLabel('Document voice',{exact:true})).toHaveValue('female');
+ expect(await page.evaluate(()=>mediaProbe.media[1].querySelector('source').getAttribute('src'))).toBe(recordings.female.url);
+ await page.getByRole('button',{name:'Stop audio',exact:true}).click();
+ await page.evaluate(({id,progress})=>accountHarness.receive({audioProgress:{['audio:document:'+id]:progress}}),{id:documentId,progress});
+ await page.getByRole('button',{name:'Audio',exact:true}).click();
+ await page.getByRole('button',{name:'Restart document',exact:true}).click();
+ await expect(page.locator('.recording-status')).toHaveText('Reading');
+ expect(await page.evaluate(()=>resumeStart.src)).toBe(recordings.female.url);
+ expect(await page.evaluate(()=>resumeStart.time)).toBe(0);
+});
+
 test('oral arguments retain their transcript tab, speaker portrait and compact controls',async({page})=>{
  // Route a real media container with byte ranges; transcript data and native
  // playback stay real while the Court's external recording server is isolated.

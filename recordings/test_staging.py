@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from stage import validate_recording
+from stage import validate_recording, validate_source_seeking
 
 
 class RecordingStaging(unittest.TestCase):
@@ -27,6 +27,17 @@ class RecordingStaging(unittest.TestCase):
             audio.write_bytes(b'another recording')
             with self.assertRaisesRegex(ValueError, 'hash'):
                 validate_recording(body, narration, report, cues, audio, 'female')
+
+
+class SourceSeeking(unittest.TestCase):
+    def test_overlaps_are_rejected_but_same_sentence_and_note_transitions_are_allowed(self):
+        first={'ranges':[{'page':0,'start':1,'end':10},{'page':0,'start':8,'end':12}]}
+        next_sentence={'ranges':[{'page':0,'start':12,'end':20}]}
+        closing_note={'transition':True,'ranges':[{'page':0,'start':19,'end':20}]}
+        validate_source_seeking({'cues':[first,next_sentence,closing_note]})
+        next_sentence['ranges'][0]['start']=11
+        with self.assertRaisesRegex(ValueError,'overlap'):
+            validate_source_seeking({'cues':[first,next_sentence,closing_note]})
 
 
 if __name__ == '__main__':

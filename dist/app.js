@@ -1276,8 +1276,10 @@ function updateDocumentHighlight(){
  n.highlighted=cue.start;
 }
 function stopDocumentAudio(){saveListeningProgress(true);documentRequest++;if(documentPlayback)documentPlayback.wantsPlayback=false;documentAudio.pause();documentAudio.removeAttribute('src');documentAudio.replaceChildren();documentAudio.load();documentPlayback=null;CSS.highlights?.delete('document-audio');refreshPlayback()}
-async function startDocumentAudio(anchor=null,{paused=false,resume=false,voice=state.audioVoice||'female',expand=true,previousCue=null}={}){
+async function startDocumentAudio(anchor=null,{paused=false,resume=false,voice=null,expand=true,previousCue=null}={}){
  const id=anchor?.docId||state.active;
+ const savedVoice=resume?state.audioProgress[audioProgressKey('document',id)]?.voice:null;
+ voice??=['female','male'].includes(savedVoice)&&documentRecording(id,savedVoice)?savedVoice:state.audioVoice||'female';
  const recording=documentRecording(id,voice);if(!recording){toast('Audio is not available for this document.');return}
  const previous=documentPlayback,previousTime=documentAudio.currentTime;
  stopDocumentAudio();stopArgument();if(previous?.id!==id)playbackOptionsOpen=false;const request=++documentRequest;

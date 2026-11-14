@@ -46,6 +46,23 @@ def validate_recording(body, narration, report, cues, audio, voice):
         raise ValueError('Incomplete sentence cues')
 
 
+def validate_source_seeking(cues):
+    """A printed position must identify one spoken sentence unambiguously."""
+    pages = {}
+    for index, cue in enumerate(cues['cues']):
+        if cue.get('transition'):
+            continue
+        for source in cue['ranges']:
+            pages.setdefault(source['page'], []).append((source['start'], source['end'], index))
+    for intervals in pages.values():
+        end, owner = -1, None
+        for start, stop, index in sorted(intervals):
+            if start < end and index != owner:
+                raise ValueError('Source sentence ranges overlap; review text seeking before staging')
+            if stop > end:
+                end, owner = stop, index
+
+
 def metadata_aliases(identifier, metadata):
     """Share recordings only when both writing ranges and source text match."""
     sections = json.loads((ROOT/'dist/data/opinion-sections.json').read_text())
@@ -103,6 +120,7 @@ def main():
         cues = json.loads(local_path(folder/(voice+'-cues.json'), folder).read_text())
         audio = local_path(folder/(voice+'.mp3'), folder)
         validate_recording(body, narration, report, cues, audio, voice)
+        validate_source_seeking(cues)
         recordings[voice] = {'report': report, 'cues': cues, 'audio': audio}
     source = json.loads(local_path(ROOT/job['sourceTextPath'], DATA_DIRECTORY).read_text())
     reader_path = public_files(body, recordings, folder, source['pages'])

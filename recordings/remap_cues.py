@@ -7,7 +7,7 @@ import re
 from align import mapped_source_ranges, sentence_ranges, tokens, validate_speech_mapping
 from generate import ROOT, load_job, local_path
 from prepare import prepare
-from stage import validate_recording
+from stage import validate_recording, validate_source_seeking
 
 
 def expected_sentences(body, narration):
@@ -91,6 +91,7 @@ def main():
         validate_recording(body, narration, report, cues, audio, voice)
         refreshed = remap_cues(body, narration, report, cues)
         validate_recording(body, narration, report, refreshed, audio, voice)
+        validate_source_seeking(refreshed)
         updates[voice+'-cues.json'] = refreshed
     updates.update({'prepared.json': body, 'narration.json': narration})
     for name, value in updates.items():

@@ -4,6 +4,7 @@ Callers decide whether a block is narrated. These transformations mirror the
 spoken script only; PDF coordinates remain in the reader paragraph's segments.
 """
 from dataclasses import dataclass
+import difflib
 import re
 
 
@@ -37,6 +38,54 @@ def omit_citations(units, citations):
     return units
 
 
+def combined_origin(left, right):
+    if left is None:
+        return right
+    if right is None:
+        return left
+    return min(left[0], right[0]), max(left[1], right[1])
+
+
+def deleted_origin(result, units):
+    origin = unit_bounds(units)
+    if result:
+        character, previous = result[-1]
+        result[-1] = character, combined_origin(previous, origin)
+        return None
+    return origin
+
+
+def token_interval(matches, start, end, length):
+    left = matches[start].start() if start < len(matches) else length
+    right = matches[end-1].end() if end > start else left
+    return left, right
+
+
+def replacement_units(original, replacement):
+    """Keep exact unchanged tokens inside an explicitly reviewed speech edit."""
+    text = ''.join(character for character, _ in original)
+    before = list(re.finditer(r'\w+|\s+|[^\w\s]', text))
+    after = list(re.finditer(r'\w+|\s+|[^\w\s]', replacement))
+    edits = difflib.SequenceMatcher(None, [match.group() for match in before],
+                                   [match.group() for match in after], autojunk=False)
+    result, pending = [], None
+    for tag, a, b, c, d in edits.get_opcodes():
+        start, end = token_interval(before, a, b, len(text))
+        left, right = token_interval(after, c, d, len(replacement))
+        if tag == 'equal':
+            result.extend(original[start:end])
+            continue
+        if tag == 'delete':
+            pending = combined_origin(pending, deleted_origin(result, original[start:end]))
+            continue
+        origin = unit_bounds(original[start:end]) if end > start else original[max(0, start-1)][1]
+        result.extend((character, origin) for character in replacement[left:right])
+    if pending is not None and result:
+        character, origin = result[0]
+        result[0] = character, combined_origin(pending, origin)
+    return result
+
+
 def pronunciation_units(units, changes, block_index):
     text = ''.join(character for character, _ in units)
     for change in changes:
@@ -49,8 +98,7 @@ def pronunciation_units(units, changes, block_index):
     result, cursor = [], 0
     for match in re.finditer(pattern, text):
         result.extend(units[cursor:match.start()])
-        origin = unit_bounds(units[match.start():match.end()])
-        result.extend((character, origin) for character in replacements[match.group()])
+        result.extend(replacement_units(units[match.start():match.end()], replacements[match.group()]))
         cursor = match.end()
     result.extend(units[cursor:])
     return result
