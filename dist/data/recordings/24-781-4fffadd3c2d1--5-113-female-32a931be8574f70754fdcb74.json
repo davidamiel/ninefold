@@ -1,0 +1,3450 @@
+{
+  "version": "5b9eb17df48f221e",
+  "duration": 2077.62,
+  "voice": "af_sky",
+  "audioSha256": "feb90c4962fff85277b427130d2bec6615f44ee31caa68132b1e7b786e77edc5",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 8.8,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 165,
+          "end": 276
+        },
+        {
+          "page": 6,
+          "start": 55,
+          "end": 71
+        }
+      ],
+      "text": "New Jersey's Attorney General served a subpoena on a nonprofit organization demanding the identities of its financial supporters."
+    },
+    {
+      "start": 8.8,
+      "end": 15.425,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 72,
+          "end": 174
+        }
+      ],
+      "text": "We consider whether that organization may challenge the subpoena's constitutionality in federal court."
+    },
+    {
+      "start": 15.425,
+      "end": 26.2,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 179,
+          "end": 347
+        }
+      ],
+      "text": "First Choice Women's Resource Centers, Inc., is a religious nonprofit organization that has provided counseling and resources to pregnant women in New Jersey since 1985."
+    },
+    {
+      "start": 26.2,
+      "end": 38.525,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 398,
+          "end": 590
+        }
+      ],
+      "text": "Believing that “life begins at conception,” and seeking “to protect and honor life in all stages of development,” the group does not provide abortions or refer clients to others for abortions."
+    },
+    {
+      "start": 38.525,
+      "end": 47.025,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 610,
+          "end": 716
+        }
+      ],
+      "text": "In 2022, New Jersey's Attorney General, Matthew Platkin, established a “Reproductive Rights Strike Force.”"
+    },
+    {
+      "start": 47.025,
+      "end": 59.24,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1701,
+          "end": 1884
+        }
+      ],
+      "text": "Footnote 1: Jennifer Davenport's name appears in the caption of this case because she succeeded Mr. Platkin as New Jersey's Attorney General after this case was argued and submitted for decision.",
+      "footnote": "1"
+    },
+    {
+      "start": 59.24,
+      "end": 61.3,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1883,
+          "end": 1884
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 61.3,
+      "end": 77.36,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 912,
+          "end": 1179
+        }
+      ],
+      "text": "Shortly after its creation, the Strike Force issued a “consumer alert” in which it accused groups like First Choice of “seeking to prevent people from accessing comprehensive reproductive health care” by “providing false or misleading information about abortion.”"
+    },
+    {
+      "start": 77.36,
+      "end": 93.58,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1195,
+          "end": 1459
+        }
+      ],
+      "text": "The alert concluded by directing women to abortion providers and asking members of the public who believed they were “victims of fraudulent, deceptive, misleading, or unlawful conduct” to “please file a complaint with the New Jersey Division of Consumer Affairs.”"
+    },
+    {
+      "start": 93.58,
+      "end": 100.18,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1474,
+          "end": 1588
+        }
+      ],
+      "text": "Neither that division nor the Attorney General's office received any complaints from the public about First Choice."
+    },
+    {
+      "start": 100.18,
+      "end": 105.72,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 106,
+          "end": 175
+        }
+      ],
+      "text": "Even so, the Attorney General served a subpoena on the group in 2023."
+    },
+    {
+      "start": 105.72,
+      "end": 112.98,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 176,
+          "end": 298
+        }
+      ],
+      "text": "The subpoena stated that it had been issued pursuant to several New Jersey laws, including the State's Consumer Fraud Act."
+    },
+    {
+      "start": 112.98,
+      "end": 128.085,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 314,
+          "end": 563
+        }
+      ],
+      "text": "The subpoena “commanded” First Choice to produce various documents within 30 days and warned the group (twice) that “failure to comply with this Subpoena may render you liable for contempt of Court and such other penalties as are provided by law.”"
+    },
+    {
+      "start": 128.085,
+      "end": 137.26,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 582,
+          "end": 727
+        }
+      ],
+      "text": "In all, the Attorney General demanded production of 28 categories of documents (categories that themselves included as many as 29 subcategories)."
+    },
+    {
+      "start": 137.26,
+      "end": 154.28,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 728,
+          "end": 1007
+        }
+      ],
+      "text": "Most relevant for our purposes, the subpoena directed First Choice to disclose documents reflecting the names, phone numbers, addresses, and places of employment of all individuals who had made “donations... to First Choice by any means other than through” one specific webpage."
+    },
+    {
+      "start": 154.28,
+      "end": 166.32,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1027,
+          "end": 1246
+        }
+      ],
+      "text": "Effectively, that demand required First Choice to provide personal information about donors who gave through two other websites, through the group's various social media pages, by mail, in person, or by any other means."
+    },
+    {
+      "start": 166.32,
+      "end": 177.54,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1275,
+          "end": 1452
+        }
+      ],
+      "text": "The subpoena sought documents about donations received over the span of multiple years—beginning “from January 1, 2021” and extending “to the date of First Choice's response.”"
+    },
+    {
+      "start": 177.54,
+      "end": 192.44,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1466,
+          "end": 1754
+        }
+      ],
+      "text": "Though the subpoena did not explain why the Attorney General sought First Choice's donor records, Mr. Platkin later represented that his office hoped to “contact a representative sample of donors to determine” if they had “been misled” by First Choice about its “mission and operations.”"
+    },
+    {
+      "start": 192.44,
+      "end": 205.04,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1769,
+          "end": 1994
+        }
+      ],
+      "text": "In his view, First Choice's solicitation materials—including a donation webpage featuring pictures of parents holding infants and young children, —could mislead donors into thinking First Choice provides abortions,"
+    },
+    {
+      "start": 205.04,
+      "end": 214.56,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 57,
+          "end": 233
+        }
+      ],
+      "text": "Two days before the deadline to produce documents, First Choice filed suit in federal district court seeking to prevent the Attorney General from enforcing his document demands."
+    },
+    {
+      "start": 214.56,
+      "end": 219.36,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 255,
+          "end": 339
+        }
+      ],
+      "text": "Shortly after that, the Attorney General responded with his own suit in state court."
+    },
+    {
+      "start": 219.36,
+      "end": 224.78,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 340,
+          "end": 433
+        }
+      ],
+      "text": "There, he accused First Choice of violating state law by failing to comply with his subpoena."
+    },
+    {
+      "start": 224.78,
+      "end": 228.14,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 446,
+          "end": 494
+        }
+      ],
+      "text": "Between the two suits, much litigation followed."
+    },
+    {
+      "start": 228.14,
+      "end": 231.62,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 495,
+          "end": 556
+        }
+      ],
+      "text": "In the federal case at issue here, matters unfolded this way."
+    },
+    {
+      "start": 231.62,
+      "end": 242.76,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 557,
+          "end": 711
+        }
+      ],
+      "text": "A federal law—Section 1983 of Title 42—authorizes suits against any person who, under color of state law, deprives another of his federal constitutional rights."
+    },
+    {
+      "start": 242.76,
+      "end": 253.2,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 712,
+          "end": 895
+        }
+      ],
+      "text": "First Choice filed a complaint under that statute, arguing, among other things, that the Attorney General's demand for information about its donors violated its First Amendment rights."
+    },
+    {
+      "start": 253.2,
+      "end": 266.54,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 923,
+          "end": 1156
+        }
+      ],
+      "text": "Specifically, First Choice observed that the First Amendment “prohibits the government from discouraging people from associating with others” “in pursuit of many political, social, economic, educational, religious, and cultural ends.”"
+    },
+    {
+      "start": 266.54,
+      "end": 272.12,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1171,
+          "end": 1265
+        }
+      ],
+      "text": "And, First Choice alleged, the Attorney General's subpoena had just that impermissible effect."
+    },
+    {
+      "start": 272.12,
+      "end": 286.5,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1285,
+          "end": 1522
+        }
+      ],
+      "text": "For its donors, the group represented, “anonymity is of paramount importance,” and its inability to guarantee that anonymity in the face of the Attorney General's demands injured the group by discouraging donors from associating with it."
+    },
+    {
+      "start": 286.5,
+      "end": 294.96,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1548,
+          "end": 1699
+        }
+      ],
+      "text": "In addition to its complaint, First Choice filed a motion seeking a preliminary injunction prohibiting the Attorney General from enforcing his subpoena."
+    },
+    {
+      "start": 294.96,
+      "end": 299.06,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1700,
+          "end": 1765
+        }
+      ],
+      "text": "In support of its motion, First Choice tendered two declarations."
+    },
+    {
+      "start": 299.06,
+      "end": 311.48,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1766,
+          "end": 2008
+        }
+      ],
+      "text": "In one, anonymous donors represented that, if they “had known information about their donations might be disclosed to an official hostile to pro-life organizations,” “each of them would have been less likely to donate to First Choice.”"
+    },
+    {
+      "start": 311.48,
+      "end": 322.14,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 119,
+          "end": 322
+        }
+      ],
+      "text": "The donors added that they submitted their declaration anonymously because they believed they might face retribution otherwise “given the Attorney General's record of hostility toward pro-life groups.”"
+    },
+    {
+      "start": 322.14,
+      "end": 339.105,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 337,
+          "end": 657
+        }
+      ],
+      "text": "In the second declaration, the group's executive director similarly represented that the Attorney General's request threatened to “weaken First Choice's ability to recruit new donors... as prospective partners would be hesitant to risk the revelation of their personal information through government investigation.”"
+    },
+    {
+      "start": 339.105,
+      "end": 347.46,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 672,
+          "end": 814
+        }
+      ],
+      "text": "Ultimately, the district court issued an opinion both denying First Choice's motion for a preliminary injunction and dismissing its complaint."
+    },
+    {
+      "start": 347.46,
+      "end": 355.5,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 815,
+          "end": 960
+        }
+      ],
+      "text": "Without questioning First Choice's allegations or evidence, the court held that the group failed to state a justiciable claim as a matter of law."
+    },
+    {
+      "start": 355.5,
+      "end": 360.64,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 974,
+          "end": 1053
+        }
+      ],
+      "text": "In reaching that conclusion, the court pointed to the ongoing state court suit."
+    },
+    {
+      "start": 360.64,
+      "end": 374.66,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1054,
+          "end": 1291
+        }
+      ],
+      "text": "In it, a judge had directed the Attorney General and First Choice to negotiate their disagreements over the subpoena but had not yet compelled First Choice “to disclose materials that the group believes are constitutionally protected.”"
+    },
+    {
+      "start": 374.66,
+      "end": 385.74,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1338,
+          "end": 1563
+        }
+      ],
+      "text": "Given the absence of any state court order compelling production, the district court reasoned, First Choice had yet to suffer any injury from the subpoena and thus lacked Article Three standing to challenge it in federal court."
+    },
+    {
+      "start": 385.74,
+      "end": 396.24,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1602,
+          "end": 1806
+        }
+      ],
+      "text": "To be sure, the district court recognized, an argument could be made that the subpoena “ itself... by virtue of being issued” was causing First Choice an “ongoing injury” to its First Amendment rights."
+    },
+    {
+      "start": 396.24,
+      "end": 400.46,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1824,
+          "end": 1892
+        }
+      ],
+      "text": "But, the court held, that injury was insufficient to confer standing."
+    },
+    {
+      "start": 400.46,
+      "end": 411.365,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1893,
+          "end": 2062
+        }
+      ],
+      "text": "Indeed, the court worried that allowing the federal litigation to proceed while state proceedings remained ongoing would “not be tolerable to our Nation's federalism.”"
+    },
+    {
+      "start": 411.365,
+      "end": 414.42,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 55,
+          "end": 100
+        }
+      ],
+      "text": "A divided panel of the Third Circuit affirmed."
+    },
+    {
+      "start": 414.42,
+      "end": 422.38,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 101,
+          "end": 243
+        }
+      ],
+      "text": "Much like the district court, the majority reasoned that First Choice had not established “enough of an injury” to permit its case to proceed."
+    },
+    {
+      "start": 422.38,
+      "end": 424.06,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 256,
+          "end": 278
+        }
+      ],
+      "text": "Judge Bibas dissented."
+    },
+    {
+      "start": 424.06,
+      "end": 432.365,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 279,
+          "end": 428
+        }
+      ],
+      "text": "He would have found the case justiciable because the subpoena's issuance burdened First Choice's present ability to associate freely with its donors."
+    },
+    {
+      "start": 432.365,
+      "end": 434.84,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 451,
+          "end": 488
+        }
+      ],
+      "text": "This case presents a narrow question."
+    },
+    {
+      "start": 434.84,
+      "end": 439.98,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 489,
+          "end": 590
+        }
+      ],
+      "text": "We are not asked to decide the merits of First Choice's federal lawsuit, only whether it may proceed."
+    },
+    {
+      "start": 439.98,
+      "end": 446.64,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 591,
+          "end": 708
+        }
+      ],
+      "text": "Article Three of the Constitution vests federal courts with the “judicial Power” to decide “Cases” and “Controversies.”"
+    },
+    {
+      "start": 446.64,
+      "end": 454.6,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 721,
+          "end": 855
+        }
+      ],
+      "text": "Inherent in that assignment is a “standing” requirement consisting of three elements: “injury in fact, causation, and redressability.”"
+    },
+    {
+      "start": 454.6,
+      "end": 468.645,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 928,
+          "end": 1143
+        }
+      ],
+      "text": "Together, these elements help us distinguish cases and controversies fit for judicial resolution from questions of public policy reserved to the elected branches or abstract disputes better left to the debating hall."
+    },
+    {
+      "start": 468.645,
+      "end": 472.68,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1154,
+          "end": 1221
+        }
+      ],
+      "text": "As this case comes to us, it centers on the injury-in-fact element."
+    },
+    {
+      "start": 472.68,
+      "end": 479.92,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1222,
+          "end": 1336
+        }
+      ],
+      "text": "To satisfy that element, a case must involve “an injury that is concrete, particularized, and actual or imminent.”"
+    },
+    {
+      "start": 479.92,
+      "end": 492.32,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1385,
+          "end": 1603
+        }
+      ],
+      "text": "Because this standard tolerates suits involving “actual or imminent” injuries, a party need not always wait for the government to take coercive action against it before filing suit to challenge the government's conduct."
+    },
+    {
+      "start": 492.32,
+      "end": 502.875,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1604,
+          "end": 1767
+        }
+      ],
+      "text": "Instead, a litigant may bring a pre-enforcement suit seeking prospective relief against government officials so long as it faces “a credible threat of enforcement.”"
+    },
+    {
+      "start": 502.875,
+      "end": 509.0,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1843,
+          "end": 1944
+        }
+      ],
+      "text": "Before us, First Choice advances two arguments for why it can satisfy the injury-in-fact requirement."
+    },
+    {
+      "start": 509.0,
+      "end": 524.06,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1945,
+          "end": 1962
+        },
+        {
+          "page": 11,
+          "start": 82,
+          "end": 311
+        }
+      ],
+      "text": "First, the group submits that the Attorney General's subpoena itself—and specifically its demand for donor information—has caused it to suffer an actual and ongoing injury to its First Amendment rights by deterring donors from associating with it."
+    },
+    {
+      "start": 524.06,
+      "end": 536.32,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 312,
+          "end": 527
+        }
+      ],
+      "text": "Second, First Choice contends that it faces an imminent future injury because with the subpoena came a credible threat that the Attorney General would seek to enforce it in state court if the group failed to comply."
+    },
+    {
+      "start": 536.32,
+      "end": 542.455,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 528,
+          "end": 622
+        }
+      ],
+      "text": "For our purposes, it suffices to address only the first theory as it is enough to carry the day."
+    },
+    {
+      "start": 542.455,
+      "end": 549.84,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 625,
+          "end": 756
+        }
+      ],
+      "text": "The First Amendment guarantees all Americans the rights to speak, worship, publish, assemble, and petition their government freely."
+    },
+    {
+      "start": 549.84,
+      "end": 557.22,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 757,
+          "end": 896
+        }
+      ],
+      "text": "Each of these rights, this Court has “ `long understood,' ” necessarily carries with it “ `a corresponding right to associate with others.'"
+    },
+    {
+      "start": 557.22,
+      "end": 563.42,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 897,
+          "end": 1147
+        }
+      ],
+      "text": "” Without such a right, no two men could safely share the same soapbox, no two women the same church."
+    },
+    {
+      "start": 563.42,
+      "end": 571.9,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1148,
+          "end": 1307
+        }
+      ],
+      "text": "The government could reduce any assembly to a party of one, and the right to petition would amount to nothing more than the power to sign one's own name alone."
+    },
+    {
+      "start": 571.9,
+      "end": 581.535,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1308,
+          "end": 1473
+        }
+      ],
+      "text": "Appreciating all this, we have held that government actions tending to “curtail the freedom to associate” warrant “the closest scrutiny” under the First Amendment."
+    },
+    {
+      "start": 581.535,
+      "end": 589.1,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1541,
+          "end": 1673
+        }
+      ],
+      "text": "We have recognized, too, that associational rights carry special significance for political, social, religious, and other minorities."
+    },
+    {
+      "start": 589.1,
+      "end": 597.12,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1719,
+          "end": 1871
+        }
+      ],
+      "text": "With the freedom to associate, minorities can “show their numerical strength,” influence policy, and “stimulate competition” in the marketplace of ideas."
+    },
+    {
+      "start": 597.12,
+      "end": 607.835,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1957,
+          "end": 2077
+        },
+        {
+          "page": 12,
+          "start": 55,
+          "end": 119
+        }
+      ],
+      "text": "But take that freedom away and “dissident expression” stands particularly vulnerable to marginalization or outright “suppression by the majority,” leaving all of society poorer for it."
+    },
+    {
+      "start": 607.835,
+      "end": 612.24,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 148,
+          "end": 236
+        }
+      ],
+      "text": "Our cases have held that governments can infringe freedom of association in varied ways."
+    },
+    {
+      "start": 612.24,
+      "end": 622.96,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 237,
+          "end": 418
+        }
+      ],
+      "text": "For example, governments might require a group to accept members it does not want, deny benefits to an organization based on its message, or punish individuals for their affiliations."
+    },
+    {
+      "start": 622.96,
+      "end": 633.58,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 596,
+          "end": 762
+        }
+      ],
+      "text": "We have also held that “compelled disclosure of affiliation with groups engaged in advocacy” can “constitute an effective... restraint on freedom of association.”"
+    },
+    {
+      "start": 633.58,
+      "end": 638.24,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 800,
+          "end": 868
+        }
+      ],
+      "text": "N double A C P versus Alabama addressed this last problem “in its starkest form.”"
+    },
+    {
+      "start": 638.24,
+      "end": 649.72,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 893,
+          "end": 1074
+        }
+      ],
+      "text": "Responding to the N double A C P's efforts to promote integration in Alabama in the 1950s, the State's Attorney General (and future Governor) John Patterson brought a lawsuit in state court."
+    },
+    {
+      "start": 649.72,
+      "end": 659.72,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1075,
+          "end": 1232
+        }
+      ],
+      "text": "In it, he contended that the N double A C P was operating illegally in Alabama because it had failed to register with the Secretary of State as required by state law."
+    },
+    {
+      "start": 659.72,
+      "end": 665.0,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1274,
+          "end": 1365
+        }
+      ],
+      "text": "As remedy, he sought a judicial decree effectively banning the organization from the State."
+    },
+    {
+      "start": 665.0,
+      "end": 677.56,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1379,
+          "end": 1540
+        }
+      ],
+      "text": "And to prove his allegation that the N double A C P was operating in Alabama, Mr. Patterson demanded the names and addresses of all N double A C P members and agents in the State."
+    },
+    {
+      "start": 677.56,
+      "end": 690.85,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1554,
+          "end": 1741
+        }
+      ],
+      "text": "When the organization refused to disclose its membership rolls, a state court imposed a sanction of $100,000 (over $1 million today), and the Alabama Supreme Court let the sanction stand."
+    },
+    {
+      "start": 690.85,
+      "end": 692.6,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1759,
+          "end": 1793
+        }
+      ],
+      "text": "This Court reversed that judgment."
+    },
+    {
+      "start": 692.6,
+      "end": 701.1,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1794,
+          "end": 1925
+        }
+      ],
+      "text": "In doing so, we began by observing the “vital relationship” between “privacy in one's associations” and the “freedom to associate.”"
+    },
+    {
+      "start": 701.1,
+      "end": 715.2,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1939,
+          "end": 2100
+        },
+        {
+          "page": 13,
+          "start": 82,
+          "end": 163
+        }
+      ],
+      "text": "Strip away the ability of individuals to work together free from governmental oversight and intrusion, and the freedom to associate may become no freedom at all—individuals deterred, groups diminished, and their protected advocacy suppressed."
+    },
+    {
+      "start": 715.2,
+      "end": 729.63,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 174,
+          "end": 414
+        }
+      ],
+      "text": "Nor, we added, is it “a novel perception” that these outcomes are “particularly” likely to follow when the government seeks to intrude into the workings of groups that hold “dissident beliefs” disfavored by those holding the reins of power."
+    },
+    {
+      "start": 729.63,
+      "end": 754.46,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 421,
+          "end": 839
+        }
+      ],
+      "text": "Applying these observations to the case at hand, we held that the Attorney General's demand for the N double A C P's private membership rolls burdened the constitutional right of the organization's members “to pursue their collective effort to foster beliefs which they admittedly have the right to advocate,” given the demand's tendency to “induce members to withdraw from the Association and dissuade others from joining it.”"
+    },
+    {
+      "start": 754.46,
+      "end": 764.76,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 853,
+          "end": 1036
+        }
+      ],
+      "text": "Because the Attorney General had not identified any interest “sufficient to justify the deterrent effect” associated with his disclosure demand, we continued, it could not be sustained."
+    },
+    {
+      "start": 764.76,
+      "end": 770.14,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1054,
+          "end": 1123
+        }
+      ],
+      "text": "Since N double A C P versus Alabama, we have faced many cases along similar lines."
+    },
+    {
+      "start": 770.14,
+      "end": 775.38,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1124,
+          "end": 1213
+        }
+      ],
+      "text": "In them, one state authority or another has demanded private donor or member information."
+    },
+    {
+      "start": 775.38,
+      "end": 780.8,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1214,
+          "end": 1315
+        }
+      ],
+      "text": "And in one case after another we have subjected those demands to heightened First Amendment scrutiny."
+    },
+    {
+      "start": 780.8,
+      "end": 791.92,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1316,
+          "end": 1514
+        }
+      ],
+      "text": "Throughout, we have emphasized the critical role “ `privacy in... association' ” plays “ `in preserving political and cultural diversity and in shielding dissident expression from suppression.'"
+    },
+    {
+      "start": 791.92,
+      "end": 801.29,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1515,
+          "end": 1709
+        }
+      ],
+      "text": "” We have acknowledged, too, that demands for private donor information “inevitably” carry with them a “deterrent effect on the exercise of First Amendment rights.”"
+    },
+    {
+      "start": 801.29,
+      "end": 827.14,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 86,
+          "end": 568
+        }
+      ],
+      "text": "Our most recent encounter with a demand for donor information came five years ago in A F P. There, California Attorney General Rob Bonta sent “deficiency letters” to the Americans for Prosperity Foundation and the Thomas More Law Center—the first, a charity “ `devoted to education and training about... constitutionally limited government' ”; the second, “a public interest law firm whose `mission is to protect religious freedom,... family values, and the sanctity of human life.'"
+    },
+    {
+      "start": 827.14,
+      "end": 835.22,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 569,
+          "end": 723
+        }
+      ],
+      "text": "” In his letters, Mr. Bonta sought the names and addresses of anyone who donated more than $5,000 in a single year to either group."
+    },
+    {
+      "start": 835.22,
+      "end": 850.545,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 737,
+          "end": 983
+        }
+      ],
+      "text": "When the organizations protested that they kept donor information private “out of concern for their donors' anonymity,” the Attorney General responded by threatening fines and the suspension of each organization's status as a tax-exempt charity."
+    },
+    {
+      "start": 850.545,
+      "end": 855.5,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1001,
+          "end": 1086
+        }
+      ],
+      "text": "We held that the State's demand, like others before it, violated the First Amendment."
+    },
+    {
+      "start": 855.5,
+      "end": 868.37,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1087,
+          "end": 1307
+        }
+      ],
+      "text": "To be sure, the Attorney General “tried to downplay” the impact his demand had on associational rights, stressing that he promised to keep the groups' donor information to himself and prohibit its public dissemination."
+    },
+    {
+      "start": 868.37,
+      "end": 871.33,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1321,
+          "end": 1360
+        }
+      ],
+      "text": "But we found that promise of no moment."
+    },
+    {
+      "start": 871.33,
+      "end": 883.11,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1361,
+          "end": 1570
+        }
+      ],
+      "text": "Demands for private donor information, we held, “chill” protected First Amendment associational rights even when those demands contemplate disclosure only to government officials and not “ `the general public.'"
+    },
+    {
+      "start": 883.11,
+      "end": 896.33,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1571,
+          "end": 1875
+        }
+      ],
+      "text": "” So any demand for donor information, we said, must overcome heightened First Amendment scrutiny “given the `deterrent effect on the exercise of First Amendment rights' that arises as an `inevitable result of the government's conduct.'"
+    },
+    {
+      "start": 896.33,
+      "end": 908.28,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1876,
+          "end": 2107
+        },
+        {
+          "page": 15,
+          "start": 82,
+          "end": 130
+        }
+      ],
+      "text": "” Nor, we ruled, could the Attorney General satisfy heightened First Amendment scrutiny, as his document demand was not sufficiently tailored to serve the government interests that he asserted."
+    },
+    {
+      "start": 908.28,
+      "end": 912.93,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 175,
+          "end": 244
+        }
+      ],
+      "text": "Against this backdrop, the question before us all but answers itself."
+    },
+    {
+      "start": 912.93,
+      "end": 918.63,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 245,
+          "end": 335
+        }
+      ],
+      "text": "First Choice has established a present injury to its First Amendment associational rights."
+    },
+    {
+      "start": 918.63,
+      "end": 921.19,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 336,
+          "end": 379
+        }
+      ],
+      "text": "Start with the Attorney General's subpoena."
+    },
+    {
+      "start": 921.19,
+      "end": 931.13,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 380,
+          "end": 578
+        }
+      ],
+      "text": "It told First Choice: “You are hereby commanded to produce” a variety of documents, including ones “sufficient to Identify donations made to First Choice by any means other than through” one webpage."
+    },
+    {
+      "start": 931.13,
+      "end": 942.91,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 600,
+          "end": 812
+        }
+      ],
+      "text": "The subpoena defined the term “Identify” as requiring First Choice to provide each donor's “(a) full name; (b) present or last known address; (c) phone number; and (d) present or last known place of employment.”"
+    },
+    {
+      "start": 942.91,
+      "end": 954.11,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 826,
+          "end": 1004
+        }
+      ],
+      "text": "Twice, the subpoena warned First Choice that “failure to comply with this Subpoena may render you liable for contempt of Court and such other penalties as are provided by law.”"
+    },
+    {
+      "start": 954.11,
+      "end": 956.29,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1018,
+          "end": 1056
+        }
+      ],
+      "text": "Next, recall First Choice's complaint."
+    },
+    {
+      "start": 956.29,
+      "end": 969.65,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1057,
+          "end": 1290
+        }
+      ],
+      "text": "Because the district court dismissed this suit for lack of subject matter jurisdiction as a matter of law, the parties take as given that we may treat all the complaint's well-pleaded allegations as true for purposes of our analysis."
+    },
+    {
+      "start": 969.65,
+      "end": 974.57,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1323,
+          "end": 1402
+        }
+      ],
+      "text": "In its complaint, First Choice alleged that it keeps donor information private."
+    },
+    {
+      "start": 974.57,
+      "end": 982.75,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1419,
+          "end": 1585
+        }
+      ],
+      "text": "The group alleged, too, that the Attorney General had publicly called pro-life groups “ `extremists' ” and suggested that “ `charges' ” might be brought against them."
+    },
+    {
+      "start": 982.75,
+      "end": 992.37,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1605,
+          "end": 1827
+        }
+      ],
+      "text": "Given this, the complaint continued, the Attorney General's demand for donor records “discourages... individuals and entities from associating with First Choice” out of “fear that they themselves will face retaliation.”"
+    },
+    {
+      "start": 992.37,
+      "end": 1000.765,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1842,
+          "end": 1974
+        }
+      ],
+      "text": "And, First Choice asserted, the “risk of loss of donors... greatly jeopardizes its ability to carry out its religious mission.”"
+    },
+    {
+      "start": 1000.765,
+      "end": 1005.15,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 55,
+          "end": 116
+        }
+      ],
+      "text": "Finally, consider First Choice's two unrebutted declarations."
+    },
+    {
+      "start": 1005.15,
+      "end": 1016.15,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 117,
+          "end": 321
+        }
+      ],
+      "text": "In the first, several donors represented that “each of us would have been less likely to donate to First Choice if we had known information about the donation might be disclosed” to the Attorney General."
+    },
+    {
+      "start": 1016.15,
+      "end": 1025.83,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 336,
+          "end": 508
+        }
+      ],
+      "text": "The donors added that they submitted their declaration anonymously because they feared what they called the Attorney General's “record of hostility toward pro-life groups.”"
+    },
+    {
+      "start": 1025.83,
+      "end": 1044.145,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 523,
+          "end": 827
+        }
+      ],
+      "text": "In the second declaration, First Choice's executive director stated that the Attorney General's demand threatened to “weaken the group's ability to recruit new donors... as prospective partners would be hesitant to risk the revelation of their personal information through government investigation.”"
+    },
+    {
+      "start": 1044.145,
+      "end": 1048.81,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 842,
+          "end": 920
+        }
+      ],
+      "text": "All this is more than enough to establish injury in fact under our precedents."
+    },
+    {
+      "start": 1048.81,
+      "end": 1057.23,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 921,
+          "end": 1055
+        }
+      ],
+      "text": "An injury in fact does not arise only when a defendant causes a tangible harm to a plaintiff, like a physical injury or monetary loss."
+    },
+    {
+      "start": 1057.23,
+      "end": 1061.51,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1056,
+          "end": 1135
+        }
+      ],
+      "text": "It can also arise when a defendant burdens a plaintiff's constitutional rights."
+    },
+    {
+      "start": 1061.51,
+      "end": 1068.99,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1194,
+          "end": 1316
+        }
+      ],
+      "text": "And our cases have long recognized that demands for a charity's private member or donor information have just that effect."
+    },
+    {
+      "start": 1068.99,
+      "end": 1074.87,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1317,
+          "end": 1423
+        }
+      ],
+      "text": "They “ `discourage' ” people from associating with groups engaged in protected First Amendment advocacy."
+    },
+    {
+      "start": 1074.87,
+      "end": 1081.91,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1465,
+          "end": 1587
+        }
+      ],
+      "text": "They also encourage groups and individuals to cease or modify protected First Amendment advocacy the government disfavors."
+    },
+    {
+      "start": 1081.91,
+      "end": 1089.77,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1631,
+          "end": 1745
+        }
+      ],
+      "text": "All this occurs not just when a demand is enforced, but when it is made and for as long as it remains outstanding."
+    },
+    {
+      "start": 1089.77,
+      "end": 1102.155,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1746,
+          "end": 1972
+        }
+      ],
+      "text": "As we have put it, a demand for private donor information “inevitably” deters the exercise of First Amendment rights, and can do so “as effectively” as other “forms of governmental action” might,"
+    },
+    {
+      "start": 1102.155,
+      "end": 1107.73,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 2010,
+          "end": 2098
+        }
+      ],
+      "text": "A more general principle, too, confirms the specific lesson our cases teach on this score."
+    },
+    {
+      "start": 1107.73,
+      "end": 1116.71,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 2099,
+          "end": 2130
+        },
+        {
+          "page": 17,
+          "start": 82,
+          "end": 210
+        }
+      ],
+      "text": "Across contexts, we have said, courts may make “commonsense inferences” when assessing Article Three standing, including inferences about “third party behavior.”"
+    },
+    {
+      "start": 1116.71,
+      "end": 1129.15,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 258,
+          "end": 494
+        }
+      ],
+      "text": "And “organizations spanning the ideological spectrum” confirm the reasonableness of the inferences our cases have drawn about the burdens that demands for private donor information inevitably impose on protected First Amendment rights."
+    },
+    {
+      "start": 1129.15,
+      "end": 1154.17,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 519,
+          "end": 957
+        }
+      ],
+      "text": "Groups ranging from the American Civil Liberties Union to the National Taxpayers Union Foundation to the Church of Jesus Christ of Latter-day Saints have filed briefs in this case explaining that, “even if a subpoena targeting First Amendment activity is never enforced in court, it will give its targets a very good reason to clam up and give the target organization's members and supporters a very good reason to abandon the cause.”"
+    },
+    {
+      "start": 1154.17,
+      "end": 1165.94,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1286,
+          "end": 1453
+        }
+      ],
+      "text": "Worse, amici represent, officials “across the political spectrum” have sometimes issued subpoenas and other investigatory demands in order to secure just these results."
+    },
+    {
+      "start": 1165.94,
+      "end": 1169.75,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1514,
+          "end": 1575
+        }
+      ],
+      "text": "Each of these strands tightens the braid into one conclusion."
+    },
+    {
+      "start": 1169.75,
+      "end": 1187.515,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1576,
+          "end": 1879
+        }
+      ],
+      "text": "From its allegations and declarations, and given our many and longstanding precedents in the area and reasonable inferences about third party behavior, First Choice has established that the Attorney General's demand for private donor information injures the group's First Amendment associational rights."
+    },
+    {
+      "start": 1187.515,
+      "end": 1197.01,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1884,
+          "end": 2034
+        }
+      ],
+      "text": "Footnote 2: First Choice contends that our First Amendment charitable solicitation precedents independently support its assertion of a present Article Three injury.",
+      "footnote": "2"
+    },
+    {
+      "start": 1197.01,
+      "end": 1202.87,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 2035,
+          "end": 2148
+        }
+      ],
+      "text": "We have held that the First Amendment's speech clause “protects the right to solicit charitable contributions.”",
+      "footnote": "2"
+    },
+    {
+      "start": 1202.87,
+      "end": 1211.77,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1729,
+          "end": 1894
+        }
+      ],
+      "text": "That right limits a government's ability to make demands of charities that would have the “predictable result” of rendering their “solicitations... unsuccessful.”",
+      "footnote": "2"
+    },
+    {
+      "start": 1211.77,
+      "end": 1222.17,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1980,
+          "end": 2157
+        }
+      ],
+      "text": "Given our conclusion that First Choice has standing on other grounds, we have no need to resolve whether Mr. Platkin's disclosure demand burdens the group's solicitation rights.",
+      "footnote": "2"
+    },
+    {
+      "start": 1222.17,
+      "end": 1224.02,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 2156,
+          "end": 2157
+        }
+      ],
+      "text": "End footnote 2.",
+      "transition": true,
+      "footnote": "2"
+    },
+    {
+      "start": 1224.02,
+      "end": 1227.25,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 59,
+          "end": 110
+        }
+      ],
+      "text": "The Attorney General does not dispute much of this."
+    },
+    {
+      "start": 1227.25,
+      "end": 1236.91,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 111,
+          "end": 291
+        }
+      ],
+      "text": "He admits that a party suffering an “objectively reasonable chill” to its First Amendment associational rights has an injury in fact sufficient to give rise to Article Three standing."
+    },
+    {
+      "start": 1236.91,
+      "end": 1247.22,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 322,
+          "end": 481
+        }
+      ],
+      "text": "He does not question that an official demand for private donor information can “objectively chill” a charity's protected First Amendment associational freedoms."
+    },
+    {
+      "start": 1247.22,
+      "end": 1261.55,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 501,
+          "end": 764
+        }
+      ],
+      "text": "Notably, too, Mr. Platkin declines to defend the district court's ruling that “our Nation's federalism” does not “tolerate” First Choice's effort to have a federal court adjudicate its federal suit while state court litigation over the subpoena remains ongoing."
+    },
+    {
+      "start": 1261.55,
+      "end": 1273.195,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 780,
+          "end": 979
+        }
+      ],
+      "text": "Nor does Mr. Platkin defend the Court of Appeals' similar assessment that First Choice must first litigate its constitutional objections in state court in order to “ripen” its constitutional claims."
+    },
+    {
+      "start": 1273.195,
+      "end": 1276.67,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 992,
+          "end": 1051
+        }
+      ],
+      "text": "He does not defend the lower courts' views for good reason."
+    },
+    {
+      "start": 1276.67,
+      "end": 1281.39,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1052,
+          "end": 1108
+        }
+      ],
+      "text": "First Choice brought this suit under Section 1983 of Title 42."
+    },
+    {
+      "start": 1281.39,
+      "end": 1290.09,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1109,
+          "end": 1273
+        }
+      ],
+      "text": "Congress enacted that provision with the express goal of ensuring a federal forum to citizens who claim that state actors have violated their constitutional rights."
+    },
+    {
+      "start": 1290.09,
+      "end": 1296.83,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1414,
+          "end": 1513
+        }
+      ],
+      "text": "And federal courts have a “virtually unflagging” obligation to exercise the jurisdiction given them."
+    },
+    {
+      "start": 1296.83,
+      "end": 1303.65,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 138,
+          "end": 253
+        }
+      ],
+      "text": "Of course, certain “abstention” doctrines supply narrow exceptions to that rule when state proceedings are ongoing."
+    },
+    {
+      "start": 1303.65,
+      "end": 1312.725,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 306,
+          "end": 437
+        }
+      ],
+      "text": "But the lower courts did not find, and Mr. Platkin does not argue, that any of this Court's abstention doctrines apply to this case."
+    },
+    {
+      "start": 1312.725,
+      "end": 1320.89,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 438,
+          "end": 587
+        }
+      ],
+      "text": "Despite all this, the Attorney General insists that First Choice has not suffered any injury and thus cannot maintain this lawsuit for three reasons."
+    },
+    {
+      "start": 1320.89,
+      "end": 1330.43,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 588,
+          "end": 769
+        }
+      ],
+      "text": "First, he contends that the subpoenas his office issues are “non-self-executing” and subpoenas of that sort cannot “objectively chill” First Amendment rights as a categorical matter."
+    },
+    {
+      "start": 1330.43,
+      "end": 1339.47,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 770,
+          "end": 926
+        }
+      ],
+      "text": "Second, he claims that, even if non-self-executing subpoenas can “objectively chill” First Amendment rights, the subpoena he issued to First Choice did not."
+    },
+    {
+      "start": 1339.47,
+      "end": 1354.48,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 927,
+          "end": 1162
+        }
+      ],
+      "text": "Third, he suggests that, even if his subpoena did “objectively chill” First Choice's associational rights when he issued it, his later promise to refrain from making First Choice's donor information public effectively cured that chill."
+    },
+    {
+      "start": 1354.48,
+      "end": 1359.59,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1165,
+          "end": 1256
+        }
+      ],
+      "text": "Take each argument in turn, starting with the Attorney General's most ambitious submission."
+    },
+    {
+      "start": 1359.59,
+      "end": 1363.33,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1257,
+          "end": 1325
+        }
+      ],
+      "text": "He says that subpoenas issued by his office are “non-self-executing.”"
+    },
+    {
+      "start": 1363.33,
+      "end": 1367.01,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1350,
+          "end": 1415
+        }
+      ],
+      "text": "Translated, that means they “impose no obligations of their own.”"
+    },
+    {
+      "start": 1367.01,
+      "end": 1372.49,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1427,
+          "end": 1526
+        }
+      ],
+      "text": "Instead, any legal duty to produce records arises only when a court agrees to enforce the subpoena."
+    },
+    {
+      "start": 1372.49,
+      "end": 1382.755,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1527,
+          "end": 1701
+        }
+      ],
+      "text": "Categorically, he says, this means a recipient of a non-self-executing subpoena like the one he issued to First Choice suffers no injury unless and until a court enforces it."
+    },
+    {
+      "start": 1382.755,
+      "end": 1385.91,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1702,
+          "end": 1752
+        }
+      ],
+      "text": "This conclusion does not follow from its premises."
+    },
+    {
+      "start": 1385.91,
+      "end": 1389.97,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1753,
+          "end": 1825
+        }
+      ],
+      "text": "“The value of a sword of Damocles is that it hangs—not that it drops.”"
+    },
+    {
+      "start": 1389.97,
+      "end": 1392.75,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1899,
+          "end": 1951
+        }
+      ],
+      "text": "Much the same holds true for the subpoena before us."
+    },
+    {
+      "start": 1392.75,
+      "end": 1396.13,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1952,
+          "end": 2017
+        }
+      ],
+      "text": "It “commanded” First Choice to produce private donor information."
+    },
+    {
+      "start": 1396.13,
+      "end": 1402.35,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 2033,
+          "end": 2047
+        },
+        {
+          "page": 20,
+          "start": 55,
+          "end": 153
+        }
+      ],
+      "text": "And it warned that failure to comply “may render the group liable for contempt of Court” or “other penalties.”"
+    },
+    {
+      "start": 1402.35,
+      "end": 1418.33,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 167,
+          "end": 441
+        }
+      ],
+      "text": "Whether that command and those penalties were immediately enforceable or depended on subsequent court action, the most First Choice could say to existing and prospective donors after receiving Mr. Platkin's subpoena was that their privacy might be protected—or it might not."
+    },
+    {
+      "start": 1418.33,
+      "end": 1428.63,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 442,
+          "end": 614
+        }
+      ],
+      "text": "Objectively reasonable people interested both in their privacy and in associating with First Choice would “not lightly disregard” such a distinct possibility of disclosure."
+    },
+    {
+      "start": 1428.63,
+      "end": 1448.815,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 672,
+          "end": 1172
+        }
+      ],
+      "text": "An objectively reasonable recipient of a demand like that would be induced, as well, to trim its protected advocacy knowing it now stands in the government's crosshairs. (self-censorship in response to a “well-founded fear that the law will be enforced against them” is an injury in fact “that can be realized even without an actual prosecution”)."
+    },
+    {
+      "start": 1448.815,
+      "end": 1463.83,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1173,
+          "end": 1453
+        }
+      ],
+      "text": "Seeking to persuade us otherwise, the Attorney General tries to analogize this case to Laird versus Tatum, where we found the plaintiffs' alleged First Amendment injury merely “subjective” and self-imposed, and thus insufficient to create a justiciable controversy."
+    },
+    {
+      "start": 1463.83,
+      "end": 1466.17,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1469,
+          "end": 1508
+        }
+      ],
+      "text": "But this case is nothing like that one."
+    },
+    {
+      "start": 1466.17,
+      "end": 1480.21,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1509,
+          "end": 1764
+        }
+      ],
+      "text": "There, the plaintiffs alleged that their First Amendment associational rights were “chilled” not by any “specific action... against them,” but “by the mere existence, without more” of a government program they thought was “inappropriate” or “dangerous.”"
+    },
+    {
+      "start": 1480.21,
+      "end": 1484.95,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1819,
+          "end": 1899
+        }
+      ],
+      "text": "Here, by contrast, the Attorney General targeted First Choice for investigation."
+    },
+    {
+      "start": 1484.95,
+      "end": 1487.85,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1900,
+          "end": 1957
+        }
+      ],
+      "text": "He commanded production of its private donor information."
+    },
+    {
+      "start": 1487.85,
+      "end": 1497.62,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1958,
+          "end": 2130
+        }
+      ],
+      "text": "And his command, even if not immediately enforceable, is backed by a threat of court-ordered compliance followed by the possibility of sanctions should First Choice resist."
+    },
+    {
+      "start": 1497.62,
+      "end": 1501.27,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 82,
+          "end": 135
+        }
+      ],
+      "text": "Failing in one analogy, Mr. Platkin attempts another."
+    },
+    {
+      "start": 1501.27,
+      "end": 1520.67,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 136,
+          "end": 494
+        }
+      ],
+      "text": "This time he points to Pakdel versus City and County of San Francisco, In that case, we explained that a plaintiff normally cannot sue in federal court over an alleged regulatory taking until local land use authorities “commit to a position” regarding how “the regulations at issue apply to the particular land in question.”"
+    },
+    {
+      "start": 1520.67,
+      "end": 1531.23,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 547,
+          "end": 739
+        }
+      ],
+      "text": "Applying the same logic here, Mr. Platkin insists, means that First Choice should not be allowed to challenge his subpoena in federal court until state court proceedings have run their course."
+    },
+    {
+      "start": 1531.23,
+      "end": 1540.875,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 740,
+          "end": 886
+        }
+      ],
+      "text": "Until then, after all, his non-self-executing subpoena is “subject to negotiation” and it remains uncertain which of its demands will be enforced."
+    },
+    {
+      "start": 1540.875,
+      "end": 1550.77,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 916,
+          "end": 1099
+        }
+      ],
+      "text": "But even setting aside the question whether a Takings Clause rule might be properly transposed into the First Amendment context, the rule Mr. Platkin invokes has little purchase here."
+    },
+    {
+      "start": 1550.77,
+      "end": 1555.15,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1100,
+          "end": 1181
+        }
+      ],
+      "text": "He “committed to a position” when he issued his subpoena demanding donor records."
+    },
+    {
+      "start": 1555.15,
+      "end": 1562.01,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1182,
+          "end": 1320
+        }
+      ],
+      "text": "To be sure, he remained free to narrow the scope of his demands later, and he might fail to secure a judicial order compelling production."
+    },
+    {
+      "start": 1562.01,
+      "end": 1566.27,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1321,
+          "end": 1378
+        }
+      ],
+      "text": "But none of this means he failed to commit to a position."
+    },
+    {
+      "start": 1566.27,
+      "end": 1580.73,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1379,
+          "end": 1605
+        }
+      ],
+      "text": "Nor does any of this undo the “inevitable” injury First Choice experienced to its associational rights when Mr. Platkin issued his subpoena—an injury that it continues to experience so long as the subpoena remains outstanding."
+    },
+    {
+      "start": 1580.73,
+      "end": 1584.91,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1633,
+          "end": 1705
+        }
+      ],
+      "text": "Below, the district court offered still another analogy to the same end."
+    },
+    {
+      "start": 1584.91,
+      "end": 1599.65,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1706,
+          "end": 2037
+        }
+      ],
+      "text": "It pointed to lower court decisions applying Reisman versus Caplin, In Reisman, and its cousin, F T C versus Claire Furnace Co., this Court confronted efforts to enjoin non-self-executing federal administrative subpoenas before a court directed their enforcement."
+    },
+    {
+      "start": 1599.65,
+      "end": 1608.75,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 100,
+          "end": 247
+        }
+      ],
+      "text": "In both cases, we read the governing statutes in question as preferring federal court review only after the government sought to compel production."
+    },
+    {
+      "start": 1608.75,
+      "end": 1642.89,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 319,
+          "end": 957
+        }
+      ],
+      "text": "And in both cases, we held that the availability of federal court review on the back end provided the plaintiffs “an adequate remedy at law,” which meant that their pre-emptive requests for injunctive relief were subject to dismissal “for want of equity.” (reciting the usual rule that an equitable remedy is unavailable when an adequate remedy at law is available); In much the same way, the district court concluded, First Choice cannot sue preemptively to challenge the Attorney General's subpoena, but must instead wait for the state court litigation to play out."
+    },
+    {
+      "start": 1642.89,
+      "end": 1646.39,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 958,
+          "end": 1009
+        }
+      ],
+      "text": "This analogy works no better than its predecessors."
+    },
+    {
+      "start": 1646.39,
+      "end": 1658.19,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1010,
+          "end": 1208
+        }
+      ],
+      "text": "First, the plaintiffs in Reisman and Claire Furnace did not allege a present injury from the subpoena itself, but complained only of future injuries they might face if a court enforced the subpoena."
+    },
+    {
+      "start": 1658.19,
+      "end": 1673.71,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1291,
+          "end": 1564
+        }
+      ],
+      "text": "Because a person in those plaintiffs' shoes “would suffer no injury while testing” the subpoena in federal court, we were able to “find that the remedy specified by Congress,” i. e., review upon enforcement, “works no injustice and suffers no constitutional invalidity.”"
+    },
+    {
+      "start": 1673.71,
+      "end": 1681.32,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1597,
+          "end": 1725
+        }
+      ],
+      "text": "The same conclusion does not follow in cases like this one, where a plaintiff suffers ongoing injuries from the subpoena itself."
+    },
+    {
+      "start": 1681.32,
+      "end": 1687.17,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1801,
+          "end": 1888
+        }
+      ],
+      "text": "Second, Reisman and Claire Furnace concerned equity practice, not Article Three standing."
+    },
+    {
+      "start": 1687.17,
+      "end": 1698.33,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1889,
+          "end": 2101
+        }
+      ],
+      "text": "And the “adequate remedy at law” we found sufficient to divest us of equitable authority in those cases involved litigation in federal court when the federal government would sue to enforce the subpoenas at issue."
+    },
+    {
+      "start": 1698.33,
+      "end": 1706.01,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 141,
+          "end": 266
+        }
+      ],
+      "text": "Here, by contrast, the district court sought to force First Choice to litigate in state court before coming to federal court."
+    },
+    {
+      "start": 1706.01,
+      "end": 1720.25,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 267,
+          "end": 495
+        }
+      ],
+      "text": "That difference matters because, even as a matter of equity practice, “it is settled that no adequate remedy at law exists, so as to deprive federal courts of equity jurisdiction, unless it is available in the federal courts.”"
+    },
+    {
+      "start": 1720.25,
+      "end": 1733.97,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 575,
+          "end": 777
+        }
+      ],
+      "text": "Third, our cases have already rejected the notion that a litigant must exhaust available state court remedies before seeking to vindicate its federal constitutional rights in federal court under Section 1983."
+    },
+    {
+      "start": 1733.97,
+      "end": 1743.35,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 804,
+          "end": 927
+        }
+      ],
+      "text": "Section 1983 guarantees a federal forum for plaintiffs who claim unconstitutional treatment at the hands of state officials."
+    },
+    {
+      "start": 1743.35,
+      "end": 1752.79,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 928,
+          "end": 1080
+        }
+      ],
+      "text": "Requiring plaintiffs to exhaust state court remedies before they may avail themselves of Section 1983's promise, we have said, would “hollow” out the statute."
+    },
+    {
+      "start": 1752.79,
+      "end": 1756.41,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1087,
+          "end": 1155
+        }
+      ],
+      "text": "Such a rule, too, would threaten litigants with a “preclusion trap.”"
+    },
+    {
+      "start": 1756.41,
+      "end": 1763.29,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1162,
+          "end": 1303
+        }
+      ],
+      "text": "Under it, a plaintiff who goes to state court and loses would find its claim forever barred in federal court under principles of res judicata."
+    },
+    {
+      "start": 1763.29,
+      "end": 1768.98,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1304,
+          "end": 1376
+        }
+      ],
+      "text": "In that way, Section 1983's promise of a federal forum would “die aborning.”"
+    },
+    {
+      "start": 1768.98,
+      "end": 1781.71,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1385,
+          "end": 1618
+        }
+      ],
+      "text": "Moving from the categorical to the case specific, the Attorney General submits that, even if a non-self-executing subpoena seeking donor information can objectively chill First Amendment freedoms, his subpoena to First Choice did not."
+    },
+    {
+      "start": 1781.71,
+      "end": 1789.55,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1619,
+          "end": 1759
+        }
+      ],
+      "text": "Yes, that subpoena sought information about those who donate to the group by almost any means, whether in person, over the phone, or online."
+    },
+    {
+      "start": 1789.55,
+      "end": 1795.89,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1790,
+          "end": 1911
+        }
+      ],
+      "text": "But, the Attorney General stresses, the subpoena did not seek information about individuals who give through one website."
+    },
+    {
+      "start": 1795.89,
+      "end": 1805.53,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1930,
+          "end": 2081
+        },
+        {
+          "page": 24,
+          "start": 55,
+          "end": 65
+        }
+      ],
+      "text": "The Attorney General says he is content this specific website could not mislead a potential donor into thinking that First Choice provides or refers for abortions."
+    },
+    {
+      "start": 1805.53,
+      "end": 1812.99,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 91,
+          "end": 234
+        }
+      ],
+      "text": "Accordingly, he will permit First Choice to solicit funds through that avenue without disclosing the identities of those who donate through it."
+    },
+    {
+      "start": 1812.99,
+      "end": 1819.51,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 235,
+          "end": 340
+        }
+      ],
+      "text": "That permission, the Attorney General submits, means First Choice has suffered no First Amendment injury."
+    },
+    {
+      "start": 1819.51,
+      "end": 1823.47,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 356,
+          "end": 417
+        }
+      ],
+      "text": "This argument misapprehends the Article Three standing inquiry."
+    },
+    {
+      "start": 1823.47,
+      "end": 1828.23,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 418,
+          "end": 505
+        }
+      ],
+      "text": "A government that takes three limbs but spares the last imposes an injury all the same."
+    },
+    {
+      "start": 1828.23,
+      "end": 1829.33,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 506,
+          "end": 518
+        }
+      ],
+      "text": "So too here."
+    },
+    {
+      "start": 1829.33,
+      "end": 1837.35,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 519,
+          "end": 689
+        }
+      ],
+      "text": "The question before us isn't how badly the Attorney General has burdened First Choice's associational rights; the question is whether he has burdened those rights at all."
+    },
+    {
+      "start": 1837.35,
+      "end": 1844.79,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 690,
+          "end": 805
+        }
+      ],
+      "text": "And by effectively restricting how First Choice may interact privately with its donors, the subpoena did just that."
+    },
+    {
+      "start": 1844.79,
+      "end": 1851.73,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 806,
+          "end": 947
+        }
+      ],
+      "text": "Were the rule otherwise, the government could channel the ability of disfavored groups to associate through narrow and state-preferred forms."
+    },
+    {
+      "start": 1851.73,
+      "end": 1863.91,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 948,
+          "end": 1160
+        }
+      ],
+      "text": "In doing so, it could achieve exactly what the First Amendment forbids, marginalizing dissident voices and reshaping the marketplace of ideas to its pleasure, all while evading any legal challenge to its actions."
+    },
+    {
+      "start": 1863.91,
+      "end": 1874.52,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1161,
+          "end": 1334
+        }
+      ],
+      "text": "None of that is consistent with our Constitution, which prohibits “subtle... interference” with protected liberties no less than it does “heavy-handed frontal attacks.”"
+    },
+    {
+      "start": 1874.52,
+      "end": 1882.15,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1361,
+          "end": 1486
+        }
+      ],
+      "text": "In a separate but similar vein, Mr. Platkin contends that any injury initially associated with his subpoena dissipated later."
+    },
+    {
+      "start": 1882.15,
+      "end": 1893.31,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1487,
+          "end": 1705
+        }
+      ],
+      "text": "On the day before oral argument in the Third Circuit, he sent a letter to First Choice indicating that he would be “willing to narrow” his demands and accept information about donors who give through just two websites."
+    },
+    {
+      "start": 1893.31,
+      "end": 1900.695,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1767,
+          "end": 1881
+        }
+      ],
+      "text": "At least that, Mr. Platkin maintains, was surely enough to end any injury his subpoena imposed and moot this case."
+    },
+    {
+      "start": 1900.695,
+      "end": 1901.73,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1910,
+          "end": 1917
+        }
+      ],
+      "text": "Not so."
+    },
+    {
+      "start": 1901.73,
+      "end": 1906.87,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1918,
+          "end": 2014
+        }
+      ],
+      "text": "A defendant seeking to moot a case by abandoning his injurious conduct carries a “heavy burden.”"
+    },
+    {
+      "start": 1906.87,
+      "end": 1912.45,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 135,
+          "end": 245
+        }
+      ],
+      "text": "Among other things, he “must prove no reasonable expectation remains that he will return to his old ways.”"
+    },
+    {
+      "start": 1912.45,
+      "end": 1914.35,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 322,
+          "end": 365
+        }
+      ],
+      "text": "That is a standard Mr. Platkin cannot meet."
+    },
+    {
+      "start": 1914.35,
+      "end": 1920.65,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 366,
+          "end": 479
+        }
+      ],
+      "text": "His letter expressly “reserved the right to seek identities of other donors... through a separate subpoena.”"
+    },
+    {
+      "start": 1920.65,
+      "end": 1927.13,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 495,
+          "end": 609
+        }
+      ],
+      "text": "Even more than that, he continued to insist on the disclosure of donor information collected through two websites."
+    },
+    {
+      "start": 1927.13,
+      "end": 1938.65,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 610,
+          "end": 792
+        }
+      ],
+      "text": "As with his earlier offer to allow anonymous donations through one website, this later proposal might have mitigated the scope of First Choice's injury, but it did not extinguish it."
+    },
+    {
+      "start": 1938.65,
+      "end": 1952.55,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 795,
+          "end": 1030
+        }
+      ],
+      "text": "In a last push, the Attorney General suggests that his demand cannot injure First Choice because a state court will soon, and with his assent, issue a protective order requiring him to keep confidential any documents the group produces."
+    },
+    {
+      "start": 1952.55,
+      "end": 1959.275,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1031,
+          "end": 1134
+        }
+      ],
+      "text": "As a result, First Choice and its donors have no need to worry about donor information becoming public."
+    },
+    {
+      "start": 1959.275,
+      "end": 1962.19,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1160,
+          "end": 1204
+        }
+      ],
+      "text": "This response fares no better than the rest."
+    },
+    {
+      "start": 1962.19,
+      "end": 1965.65,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1205,
+          "end": 1262
+        }
+      ],
+      "text": "Put aside that no such protective order presently exists."
+    },
+    {
+      "start": 1965.65,
+      "end": 1973.95,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1263,
+          "end": 1409
+        }
+      ],
+      "text": "Put aside the possibility that, even with a protective order in place, donor information might wind up in the public domain due to a hack or leak."
+    },
+    {
+      "start": 1973.95,
+      "end": 1982.91,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1441,
+          "end": 1613
+        }
+      ],
+      "text": "Put aside the risk of harassment and reprisals that could invite. (declaration discussing hostility sometimes directed against “pro-life organizations”)."
+    },
+    {
+      "start": 1982.91,
+      "end": 1994.905,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1614,
+          "end": 1800
+        }
+      ],
+      "text": "And put aside that risks along those lines are “heightened in the 21st century,” where almost “anyone with... a computer” can access information once it migrates to the public domain."
+    },
+    {
+      "start": 1994.905,
+      "end": 1999.03,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1860,
+          "end": 1915
+        }
+      ],
+      "text": "Even taken on its own terms, this response falls short."
+    },
+    {
+      "start": 1999.03,
+      "end": 2005.67,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1916,
+          "end": 2035
+        },
+        {
+          "page": 26,
+          "start": 55,
+          "end": 61
+        }
+      ],
+      "text": "An official demand for private donor information is enough to discourage reasonable individuals from associating with a group."
+    },
+    {
+      "start": 2005.67,
+      "end": 2009.23,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 62,
+          "end": 128
+        }
+      ],
+      "text": "It is enough to discourage groups from expressing dissident views."
+    },
+    {
+      "start": 2009.23,
+      "end": 2014.93,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 129,
+          "end": 222
+        }
+      ],
+      "text": "A government that chooses to make private donor information public may make the damage worse."
+    },
+    {
+      "start": 2014.93,
+      "end": 2034.13,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 223,
+          "end": 610
+        }
+      ],
+      "text": "But “even if there is no disclosure to the general public, the pressure” to avoid ties and speech “which might displease” officials demanding disclosure can “be constant and heavy.” (“assurances of confidentiality... do not eliminate” the First Amendment injury caused by a demand for private member or donor information)."
+    },
+    {
+      "start": 2034.13,
+      "end": 2045.865,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 611,
+          "end": 768
+        }
+      ],
+      "text": "Just ask yourself, would it have been an answer in N double A C P versus Alabama if the State's Attorney General promised to keep the N double A C P's membership rolls to himself?"
+    },
+    {
+      "start": 2045.865,
+      "end": 2052.65,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 771,
+          "end": 875
+        }
+      ],
+      "text": "Since the 1950s, this Court has confronted one official demand after another like the Attorney General's."
+    },
+    {
+      "start": 2052.65,
+      "end": 2057.83,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 876,
+          "end": 965
+        }
+      ],
+      "text": "Over and again, we have held those demands burden the exercise of First Amendment rights."
+    },
+    {
+      "start": 2057.83,
+      "end": 2064.29,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 966,
+          "end": 1087
+        }
+      ],
+      "text": "Disputing none of these precedents but seeking ways around them, the Attorney General has offered a variety of arguments."
+    },
+    {
+      "start": 2064.29,
+      "end": 2067.89,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1088,
+          "end": 1134
+        }
+      ],
+      "text": "Some are old, some are new, but none succeeds."
+    },
+    {
+      "start": 2067.89,
+      "end": 2075.67,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1135,
+          "end": 1273
+        }
+      ],
+      "text": "Accordingly, the judgment of the Third Circuit is reversed, and the case is remanded for further proceedings consistent with this opinion."
+    },
+    {
+      "start": 2075.67,
+      "end": 2077.27,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1274,
+          "end": 1291
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 33,
+      "expectedWords": 33,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 57,
+      "expectedWords": 57,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 4,
+      "matchedWords": 14,
+      "expectedWords": 15,
+      "coverage": 0.9333333333333333
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 35,
+      "expectedWords": 36,
+      "coverage": 0.9722222222222222
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 78,
+      "expectedWords": 78,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 93,
+      "expectedWords": 93,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 128,
+      "expectedWords": 128,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 74,
+      "expectedWords": 76,
+      "coverage": 0.9736842105263158
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 64,
+      "expectedWords": 64,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 12,
+      "matchedWords": 146,
+      "expectedWords": 147,
+      "coverage": 0.9931972789115646
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 143,
+      "expectedWords": 144,
+      "coverage": 0.9930555555555556
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 95,
+      "expectedWords": 95,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 104,
+      "expectedWords": 106,
+      "coverage": 0.9811320754716981
+    },
+    {
+      "paragraph": 16,
+      "matchedWords": 57,
+      "expectedWords": 59,
+      "coverage": 0.9661016949152542
+    },
+    {
+      "paragraph": 18,
+      "matchedWords": 91,
+      "expectedWords": 92,
+      "coverage": 0.9891304347826086
+    },
+    {
+      "paragraph": 19,
+      "matchedWords": 90,
+      "expectedWords": 91,
+      "coverage": 0.989010989010989
+    },
+    {
+      "paragraph": 20,
+      "matchedWords": 112,
+      "expectedWords": 113,
+      "coverage": 0.9911504424778761
+    },
+    {
+      "paragraph": 22,
+      "matchedWords": 112,
+      "expectedWords": 112,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 23,
+      "matchedWords": 64,
+      "expectedWords": 64,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 24,
+      "matchedWords": 204,
+      "expectedWords": 229,
+      "coverage": 0.8908296943231441
+    },
+    {
+      "paragraph": 25,
+      "matchedWords": 100,
+      "expectedWords": 100,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 26,
+      "matchedWords": 187,
+      "expectedWords": 192,
+      "coverage": 0.9739583333333334
+    },
+    {
+      "paragraph": 27,
+      "matchedWords": 135,
+      "expectedWords": 136,
+      "coverage": 0.9926470588235294
+    },
+    {
+      "paragraph": 28,
+      "matchedWords": 148,
+      "expectedWords": 149,
+      "coverage": 0.9932885906040269
+    },
+    {
+      "paragraph": 30,
+      "matchedWords": 24,
+      "expectedWords": 24,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 31,
+      "matchedWords": 104,
+      "expectedWords": 105,
+      "coverage": 0.9904761904761905
+    },
+    {
+      "paragraph": 32,
+      "matchedWords": 132,
+      "expectedWords": 134,
+      "coverage": 0.9850746268656716
+    },
+    {
+      "paragraph": 33,
+      "matchedWords": 113,
+      "expectedWords": 113,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 34,
+      "matchedWords": 158,
+      "expectedWords": 158,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 35,
+      "matchedWords": 162,
+      "expectedWords": 165,
+      "coverage": 0.9818181818181818
+    },
+    {
+      "paragraph": 36,
+      "matchedWords": 53,
+      "expectedWords": 54,
+      "coverage": 0.9814814814814815
+    },
+    {
+      "paragraph": 37,
+      "matchedWords": 91,
+      "expectedWords": 94,
+      "coverage": 0.9680851063829787
+    },
+    {
+      "paragraph": 39,
+      "matchedWords": 60,
+      "expectedWords": 61,
+      "coverage": 0.9836065573770492
+    },
+    {
+      "paragraph": 40,
+      "matchedWords": 72,
+      "expectedWords": 72,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 41,
+      "matchedWords": 101,
+      "expectedWords": 103,
+      "coverage": 0.9805825242718447
+    },
+    {
+      "paragraph": 42,
+      "matchedWords": 114,
+      "expectedWords": 114,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 44,
+      "matchedWords": 84,
+      "expectedWords": 84,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 45,
+      "matchedWords": 184,
+      "expectedWords": 187,
+      "coverage": 0.983957219251337
+    },
+    {
+      "paragraph": 46,
+      "matchedWords": 127,
+      "expectedWords": 129,
+      "coverage": 0.9844961240310077
+    },
+    {
+      "paragraph": 47,
+      "matchedWords": 114,
+      "expectedWords": 117,
+      "coverage": 0.9743589743589743
+    },
+    {
+      "paragraph": 48,
+      "matchedWords": 112,
+      "expectedWords": 115,
+      "coverage": 0.9739130434782609
+    },
+    {
+      "paragraph": 49,
+      "matchedWords": 163,
+      "expectedWords": 169,
+      "coverage": 0.9644970414201184
+    },
+    {
+      "paragraph": 50,
+      "matchedWords": 102,
+      "expectedWords": 104,
+      "coverage": 0.9807692307692307
+    },
+    {
+      "paragraph": 51,
+      "matchedWords": 106,
+      "expectedWords": 106,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 52,
+      "matchedWords": 122,
+      "expectedWords": 124,
+      "coverage": 0.9838709677419355
+    },
+    {
+      "paragraph": 54,
+      "matchedWords": 141,
+      "expectedWords": 141,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 55,
+      "matchedWords": 151,
+      "expectedWords": 152,
+      "coverage": 0.993421052631579
+    },
+    {
+      "paragraph": 56,
+      "matchedWords": 75,
+      "expectedWords": 77,
+      "coverage": 0.974025974025974
+    },
+    {
+      "paragraph": 57,
+      "matchedWords": 108,
+      "expectedWords": 109,
+      "coverage": 0.9908256880733946
+    },
+    {
+      "paragraph": 59,
+      "matchedWords": 57,
+      "expectedWords": 57,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 60,
+      "matchedWords": 96,
+      "expectedWords": 96,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 61,
+      "matchedWords": 128,
+      "expectedWords": 139,
+      "coverage": 0.920863309352518
+    },
+    {
+      "paragraph": 62,
+      "matchedWords": 86,
+      "expectedWords": 86,
+      "coverage": 1.0
+    }
+  ]
+}

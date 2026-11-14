@@ -1,0 +1,197 @@
+{
+  "version": "e5346dfad141e9a1",
+  "duration": 102.84,
+  "voice": "af_sky",
+  "audioSha256": "d711e6cab9f4e5ca0a9558cad735c0dc1ec17cd28e26e66ee33d08848c9b716c",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 8.64,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1245,
+          "end": 1379
+        }
+      ],
+      "text": "The Court correctly holds that neither Title nine nor the Equal Protection Clause prohibits States from offering sex-separated athletics."
+    },
+    {
+      "start": 8.64,
+      "end": 14.4,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1380,
+          "end": 1483
+        }
+      ],
+      "text": "A man does not have a legal right to compete against women just because he believes that he is a woman."
+    },
+    {
+      "start": 14.4,
+      "end": 16.66,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1484,
+          "end": 1519
+        }
+      ],
+      "text": "I join the Court's opinion in full."
+    },
+    {
+      "start": 16.66,
+      "end": 19.98,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1520,
+          "end": 1558
+        }
+      ],
+      "text": "I write separately to make two points."
+    },
+    {
+      "start": 19.98,
+      "end": 25.88,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1559,
+          "end": 1655
+        }
+      ],
+      "text": "First, transgender status is not a suspect class requiring heightened equal-protection scrutiny."
+    },
+    {
+      "start": 25.88,
+      "end": 36.22,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1740,
+          "end": 1907
+        }
+      ],
+      "text": "The class of people who claim transgender status could more accurately be described as people who are experiencing “gender dysphoria,” which is not a “discrete group.”"
+    },
+    {
+      "start": 36.22,
+      "end": 50.4,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 192,
+          "end": 442
+        }
+      ],
+      "text": "Because “gender dysphoria” is a mutable mental state that is the object of psychiatric treatment, it does not resemble the immutable characteristics on the basis of which our precedents have applied heightened scrutiny—race, sex, or national origin."
+    },
+    {
+      "start": 50.4,
+      "end": 61.72,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 443,
+          "end": 712
+        }
+      ],
+      "text": "Instead, gender dysphoria resembles other characteristics on the basis of which legislatures may classify with a merely rational basis. (mental illness); (immigration status)."
+    },
+    {
+      "start": 61.72,
+      "end": 71.24,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 713,
+          "end": 854
+        }
+      ],
+      "text": "Legislatures have many obvious rational bases to keep men who believe that they are women out of teams and private spaces reserved for women."
+    },
+    {
+      "start": 71.24,
+      "end": 77.92,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 855,
+          "end": 957
+        }
+      ],
+      "text": "Second, as the Court recognizes, this case concerns “biological men” and “boys who identify as girls.”"
+    },
+    {
+      "start": 77.92,
+      "end": 82.94,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 977,
+          "end": 1071
+        }
+      ],
+      "text": "Men and boys with gender dysphoria are not women or girls, even if they believe that they are."
+    },
+    {
+      "start": 82.94,
+      "end": 93.16,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 1072,
+          "end": 1263
+        }
+      ],
+      "text": "Sex is an immutable “biological” characteristic, it is binary; and “man” and “woman,” “boy” and “girl,” are the terms that correspond to adults and children of each sex."
+    },
+    {
+      "start": 93.16,
+      "end": 101.64,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 1359,
+          "end": 1514
+        }
+      ],
+      "text": "To use language to obscure reality—to show “indifference regarding the truth”—is to lie to the public and cease to treat our fellow citizens “as equals.”"
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 55,
+      "expectedWords": 56,
+      "coverage": 0.9821428571428571
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 124,
+      "expectedWords": 124,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 89,
+      "expectedWords": 89,
+      "coverage": 1.0
+    }
+  ]
+}

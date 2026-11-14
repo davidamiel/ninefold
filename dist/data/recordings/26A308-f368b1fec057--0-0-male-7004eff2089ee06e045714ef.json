@@ -1,0 +1,1038 @@
+{
+  "version": "488377904291568c",
+  "duration": 809.94,
+  "voice": "am_michael",
+  "audioSha256": "0baed9c37cba523d875fa71d854b15a7f4c58be359da05ae39f6f1054bb2ef45",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 16.78,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 259,
+          "end": 488
+        }
+      ],
+      "text": "Since 1986, the Systematic Alien Verification for Entitlements (SAVE) program has allowed federal, state, and local government agencies to verify the citizenship and immigration status of noncitizens applying for public benefits."
+    },
+    {
+      "start": 16.78,
+      "end": 28.0,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 489,
+          "end": 635
+        }
+      ],
+      "text": "For decades, it relied on records maintained by the Department of Homeland Security (D H S), the Department of Justice, and the Department of State."
+    },
+    {
+      "start": 28.0,
+      "end": 32.18,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 636,
+          "end": 692
+        }
+      ],
+      "text": "Last year, the Federal Government expanded SAVE’s scope."
+    },
+    {
+      "start": 32.18,
+      "end": 48.34,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 693,
+          "end": 919
+        }
+      ],
+      "text": "In March 2025, President Trump signed an Executive Order directing D H S to put new systems in place to allow state and local authorities to verify the citizenship status of registered voters and individuals registering to vote."
+    },
+    {
+      "start": 48.34,
+      "end": 58.875,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 970,
+          "end": 1103
+        }
+      ],
+      "text": "The Executive Order also directed the Social Security Administration (S S A) to make its records available to D H S for that purpose."
+    },
+    {
+      "start": 58.875,
+      "end": 64.08,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1119,
+          "end": 1174
+        }
+      ],
+      "text": "Two months later, D H S launched a modified SAVE program."
+    },
+    {
+      "start": 64.08,
+      "end": 68.58,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1175,
+          "end": 1243
+        }
+      ],
+      "text": "The modified program differed from the original in two key respects."
+    },
+    {
+      "start": 68.58,
+      "end": 85.625,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1244,
+          "end": 1466
+        }
+      ],
+      "text": "First, it incorporated checks against additional records—including social security numbers (S S Ns)—maintained by S S A. Second, it allowed state and local authorities to conduct bulk searches of multiple individuals at once."
+    },
+    {
+      "start": 85.625,
+      "end": 102.7,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1467,
+          "end": 1572
+        },
+        {
+          "page": 1,
+          "start": 71,
+          "end": 189
+        }
+      ],
+      "text": "Under the modified SAVE program, a state or local agency seeking to determine an individual’s citizenship status first uploads the individual’s first name, last name, date of birth, or full or partial S S N to the SAVE portal."
+    },
+    {
+      "start": 102.7,
+      "end": 111.64,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 191,
+          "end": 309
+        }
+      ],
+      "text": "The SAVE program automatically discloses that information to S S A, which runs it through its databases to find a match."
+    },
+    {
+      "start": 111.64,
+      "end": 123.28,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 310,
+          "end": 442
+        }
+      ],
+      "text": "S S A then discloses its search results to D H S, including the individual’s full name, date of birth, full S S N, and citizenship status."
+    },
+    {
+      "start": 123.28,
+      "end": 135.66,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 443,
+          "end": 630
+        }
+      ],
+      "text": "Finally, the SAVE portal returns a response to the agency, either confirming that the individual is a citizen or requesting that the agency resubmit its query with additional information."
+    },
+    {
+      "start": 135.66,
+      "end": 152.71,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 632,
+          "end": 854
+        }
+      ],
+      "text": "If the modified SAVE program is unable to confirm that an individual is a citizen, the agency is required to contact the individual and request that he provide proof of citizenship to register or remain registered to vote."
+    },
+    {
+      "start": 152.71,
+      "end": 168.42,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 855,
+          "end": 1062
+        }
+      ],
+      "text": "Various organizations—including the League of Women Voters, its local affiliates, and the Electronic Privacy Information Center—sued D H S, S S A, and other federal actors to challenge the modified SAVE program."
+    },
+    {
+      "start": 168.42,
+      "end": 171.76,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1064,
+          "end": 1107
+        }
+      ],
+      "text": "As relevant here, they raised three claims."
+    },
+    {
+      "start": 171.76,
+      "end": 184.2,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1109,
+          "end": 1276
+        }
+      ],
+      "text": "First, they alleged that the modifications violated a confidentiality provision in the Social Security Act that prohibits the disclosure of S S Ns and other S S A records."
+    },
+    {
+      "start": 184.2,
+      "end": 203.1,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1278,
+          "end": 1557
+        }
+      ],
+      "text": "Second, they alleged that the modifications violated substantive and procedural protections in the Privacy Act of 1974, which prohibits the nonconsensual disclosure of certain information and requires that agencies complete a notice-and-comment process for program modifications."
+    },
+    {
+      "start": 203.1,
+      "end": 212.265,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1558,
+          "end": 1676
+        }
+      ],
+      "text": "Third, they alleged that the modifications were arbitrary and capricious under the Administrative Procedure Act (A P A)."
+    },
+    {
+      "start": 212.265,
+      "end": 217.16,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1677,
+          "end": 1752
+        }
+      ],
+      "text": "The plaintiff organizations moved for summary judgment on all three claims."
+    },
+    {
+      "start": 217.16,
+      "end": 244.79,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1753,
+          "end": 2119
+        }
+      ],
+      "text": "The Government cross-moved to dismiss or, in the alternative, for summary judgment, arguing that plaintiffs lacked Article Three standing; that the modified SAVE program did not violate the Social Security Act, Privacy Act, or A P A; and that Congress had authorized D H S in Section 1373 of Title 8 to use S S Ns and related records notwithstanding any other provision of law."
+    },
+    {
+      "start": 244.79,
+      "end": 258.58,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 45,
+          "end": 261
+        }
+      ],
+      "text": "The District Court agreed with the plaintiff organizations across the board, set aside and vacated the modified SAVE program and its related notices, and denied the Government’s application for a stay pending appeal."
+    },
+    {
+      "start": 258.58,
+      "end": 272.14,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 263,
+          "end": 431
+        }
+      ],
+      "text": "A divided panel of the D C Circuit (Srinivasan, C. J., Wilkins, J., and Katsas, J.) also denied the Government’s application for a stay, with Judge Katsas dissenting."
+    },
+    {
+      "start": 272.14,
+      "end": 275.1,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 432,
+          "end": 480
+        }
+      ],
+      "text": "The Government now seeks a stay from this Court."
+    },
+    {
+      "start": 275.1,
+      "end": 295.96,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 482,
+          "end": 816
+        }
+      ],
+      "text": "To succeed, the Government must establish “(1) a reasonable probability that four Justices will consider the issue sufficiently meritorious to grant certiorari; (2) a fair prospect that a majority of the Court will vote to reverse the judgment below; and (3) a likelihood that irreparable harm will result from the denial of a stay.’’"
+    },
+    {
+      "start": 295.96,
+      "end": 303.34,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 883,
+          "end": 995
+        }
+      ],
+      "text": "In “close cases,” we “balance the equities and weigh the relative harms to the applicant and to the respondent.”"
+    },
+    {
+      "start": 303.34,
+      "end": 305.795,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1003,
+          "end": 1028
+        }
+      ],
+      "text": "We grant the application."
+    },
+    {
+      "start": 305.795,
+      "end": 309.915,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1029,
+          "end": 1096
+        }
+      ],
+      "text": "To start, we consider the likelihood that this Court would reverse."
+    },
+    {
+      "start": 309.915,
+      "end": 311.795,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1097,
+          "end": 1136
+        }
+      ],
+      "text": "At least one of plaintiffs’ members (J."
+    },
+    {
+      "start": 311.795,
+      "end": 318.435,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1137,
+          "end": 1225
+        }
+      ],
+      "text": "Doe 4) is registered to vote in a State (Louisiana) that used the modified SAVE program."
+    },
+    {
+      "start": 318.435,
+      "end": 325.055,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1227,
+          "end": 1332
+        }
+      ],
+      "text": "She has demonstrated that S S A records do not accurately reflect that she is now a naturalized citizen."
+    },
+    {
+      "start": 325.055,
+      "end": 332.975,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1413,
+          "end": 1542
+        }
+      ],
+      "text": "Had the modified SAVE program not been set aside, she likely would have been required to provide additional proof of citizenship."
+    },
+    {
+      "start": 332.975,
+      "end": 342.65,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1544,
+          "end": 1670
+        }
+      ],
+      "text": "Such a “need to take... affirmative steps to avoid risk of harm... constitutes a cognizable injury” supporting standing."
+    },
+    {
+      "start": 342.65,
+      "end": 349.36,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1715,
+          "end": 1805
+        }
+      ],
+      "text": "Although the plaintiff organizations likely have standing, their claims likely lack merit."
+    },
+    {
+      "start": 349.36,
+      "end": 379.18,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1807,
+          "end": 2058
+        },
+        {
+          "page": 3,
+          "start": 71,
+          "end": 202
+        }
+      ],
+      "text": "The plaintiff organizations claim that the federal defendants violated the Social Security Act, Privacy Act, and A P A. In 1996, Congress, however, separately and expressly authorized D H S to request and receive information relating to citizenship and immigration status from other agencies, including S S A, in the Illegal Immigration Reform and Immigrant Responsibility Act (I I R I R A)."
+    },
+    {
+      "start": 379.18,
+      "end": 389.98,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 203,
+          "end": 289
+        }
+      ],
+      "text": "The relevant I I R I R A provision, Section 1373 of Title 8, contains two notwithstanding clauses."
+    },
+    {
+      "start": 389.98,
+      "end": 418.24,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 290,
+          "end": 677
+        }
+      ],
+      "text": "The first, section 1373(a), provides: “ Notwithstanding any other provision of Federal, State, or local law, a Federal, State, or local government entity or official may not prohibit, or in any way restrict, any government entity or official from sending to, or receiving from, the D H S information regarding the citizenship or immigration status, lawful or unlawful, of any individual.”"
+    },
+    {
+      "start": 418.24,
+      "end": 448.24,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 678,
+          "end": 1099
+        }
+      ],
+      "text": "The second, section 1373(b), which is captioned “Additional authority of government entities,” similarly provides: “ Notwithstanding any other provision of Federal, State, or local law, no person or agency may prohibit, or in any way restrict, a Federal, State, or local government entity from doing any of the following with respect to information regarding the immigration status, lawful or unlawful, of any individual.”"
+    },
+    {
+      "start": 448.24,
+      "end": 458.32,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 1100,
+          "end": 1231
+        }
+      ],
+      "text": "The “following” activities include “sending such information to, or requesting or receiving such information from, the D H S.”"
+    },
+    {
+      "start": 458.32,
+      "end": 477.58,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 1245,
+          "end": 1493
+        }
+      ],
+      "text": "By prohibiting interference with the disclosure of information regarding citizenship status to D H S— “notwithstanding any other provision of Federal, State, or local law”—Congress necessarily authorized D H S to request and receive that information."
+    },
+    {
+      "start": 477.58,
+      "end": 502.96,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 1495,
+          "end": 1817
+        },
+        {
+          "page": 4,
+          "start": 45,
+          "end": 50
+        }
+      ],
+      "text": "Otherwise, agencies, entities, and officials could find themselves in the impossible predicament of either disclosing information consistent with section 1373 but in violation of legislation like the Social Security Act and Privacy Act or withholding that information consistent with those Acts but in violation of section 1373."
+    },
+    {
+      "start": 502.96,
+      "end": 518.805,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 51,
+          "end": 231
+        }
+      ],
+      "text": "It is improbable that Congress intended to place officials in such a bind when it passed I I R I R A, so section 1373 likely supersedes restrictions on disclosure elsewhere in the Code."
+    },
+    {
+      "start": 518.805,
+      "end": 540.52,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1457,
+          "end": 1755
+        }
+      ],
+      "text": "Footnote 1: The dissent argues that sections 1373(a) and (b) do not displace laws restricting information sharing with D H S because “when a law imposes an express restriction on disclosure, it is that law—not an ‘entity,’ ‘official,’ ‘person,’ or ‘agency’—that is doing the ‘prohibiting’ or ‘restricting.”",
+      "footnote": "1"
+    },
+    {
+      "start": 540.52,
+      "end": 547.12,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1794,
+          "end": 1894
+        }
+      ],
+      "text": "But the distinction the dissent draws between laws and those tasked with enforcing them is illusory.",
+      "footnote": "1"
+    },
+    {
+      "start": 547.12,
+      "end": 562.38,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1896,
+          "end": 2100
+        }
+      ],
+      "text": "Sections 1373(a) and (b) prohibit any “entity,” “official,” “person,” or “agency” from “prohibiting” or “in any way restricting” the request for or receipt of information regarding immigration status.",
+      "footnote": "1"
+    },
+    {
+      "start": 562.38,
+      "end": 570.06,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 2120,
+          "end": 2229
+        }
+      ],
+      "text": "Those prohibitions necessarily include invoking a law to deny a request for or transfer of such information.",
+      "footnote": "1"
+    },
+    {
+      "start": 570.06,
+      "end": 572.185,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 2228,
+          "end": 2229
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 572.185,
+      "end": 587.94,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 233,
+          "end": 430
+        }
+      ],
+      "text": "Lest there be any doubt, section 1373(c) requires D H S to respond to inquiries from state and local agencies “seeking to verify or ascertain the citizenship or immigration status of any individual.”"
+    },
+    {
+      "start": 587.94,
+      "end": 603.1,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 431,
+          "end": 596
+        }
+      ],
+      "text": "Considered alongside section 1373’s “notwithstanding” clauses, section 1373(c) appears to contemplate an information-sharing regime like the modified SAVE program."
+    },
+    {
+      "start": 603.1,
+      "end": 615.79,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 597,
+          "end": 779
+        }
+      ],
+      "text": "In light of these provisions, this Court is likely to reverse the District Court’s holding that the federal defendants violated the Social Security Act, the Privacy Act, and the A P A."
+    },
+    {
+      "start": 615.79,
+      "end": 619.0,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 780,
+          "end": 823
+        }
+      ],
+      "text": "The remaining factors also warrant a grant."
+    },
+    {
+      "start": 619.0,
+      "end": 625.08,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 825,
+          "end": 921
+        }
+      ],
+      "text": "We have often granted certiorari where a lower court has set aside an important federal program."
+    },
+    {
+      "start": 625.08,
+      "end": 631.56,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1066,
+          "end": 1162
+        }
+      ],
+      "text": "And, on the equities, the Federal Government is likely to suffer irreparable harm absent a stay."
+    },
+    {
+      "start": 631.56,
+      "end": 644.96,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1164,
+          "end": 1335
+        }
+      ],
+      "text": "Under section 1373(c), the Federal Government has an obligation to respond to requests from state and local election officials seeking to verify the citizenship of voters."
+    },
+    {
+      "start": 644.96,
+      "end": 652.745,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1337,
+          "end": 1447
+        }
+      ],
+      "text": "The order below prevents the Federal Government from using the program it believes is best suited to the task."
+    },
+    {
+      "start": 652.745,
+      "end": 670.02,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 71,
+          "end": 320
+        }
+      ],
+      "text": "The plaintiff organizations argue that the Federal Government will not suffer irreparable harm because federal law currently prohibits state and local election authorities from clearing their voter rolls in the weeks leading up to federal elections."
+    },
+    {
+      "start": 670.02,
+      "end": 699.425,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 322,
+          "end": 699
+        }
+      ],
+      "text": "The organizations point to the National Voter Registration Act (N V R A), Section 20507(c)(2)(A) of Title 52, which provides that “a State shall complete, not later than 90 days prior to the date of a primary or general election for Federal office, any program the purpose of which is to systematically remove the names of ineligible voters from the official lists of eligible voters.”"
+    },
+    {
+      "start": 699.425,
+      "end": 718.28,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1726,
+          "end": 2019
+        }
+      ],
+      "text": "Footnote 2: We will consider the scope of this provision in Republican National Committee v. Mi Familia Vota, et al. which asks whether the N V R A prohibits States from implementing programs within 90 days of federal elections to cancel the registrations of voters who are not U S citizens.",
+      "footnote": "2"
+    },
+    {
+      "start": 718.28,
+      "end": 725.76,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 2020,
+          "end": 2147
+        }
+      ],
+      "text": "The parties in this case do not ask us to address that question and have not briefed it, and we do not need to decide it here.",
+      "footnote": "2"
+    },
+    {
+      "start": 725.76,
+      "end": 727.825,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 2146,
+          "end": 2147
+        }
+      ],
+      "text": "End footnote 2.",
+      "transition": true,
+      "footnote": "2"
+    },
+    {
+      "start": 727.825,
+      "end": 734.36,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 702,
+          "end": 809
+        }
+      ],
+      "text": "To be sure, that moratorium limits the potential impact of staying the District Court’s order in this case."
+    },
+    {
+      "start": 734.36,
+      "end": 746.08,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 811,
+          "end": 1006
+        }
+      ],
+      "text": "Still, all agree that the order prevents the Federal Government from using the modified SAVE program to conduct individualized inquiries, which are permitted under federal law during this period."
+    },
+    {
+      "start": 746.08,
+      "end": 757.3,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1008,
+          "end": 1171
+        }
+      ],
+      "text": "The District Court’s order thus inhibits the Federal Government’s efforts to assist state and local agencies in the proper administration of the midterm elections."
+    },
+    {
+      "start": 757.3,
+      "end": 762.33,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1173,
+          "end": 1238
+        }
+      ],
+      "text": "Under these circumstances, the equities weigh in favor of a stay."
+    },
+    {
+      "start": 762.33,
+      "end": 771.1,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1245,
+          "end": 1373
+        }
+      ],
+      "text": "For the foregoing reasons, the application for stay presented to the Chief Justice and by him referred to the Court is granted."
+    },
+    {
+      "start": 771.1,
+      "end": 795.2,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1374,
+          "end": 1694
+        }
+      ],
+      "text": "The June 22, 2026 order entered by the United States District Court for the District of Columbia in case No. 25–cv–3501 is stayed pending the disposition of appeal to the United States Court of Appeals for the District of Columbia and disposition of a petition for a writ of certiorari, if such a writ is timely sought."
+    },
+    {
+      "start": 795.2,
+      "end": 800.94,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1696,
+          "end": 1717
+        },
+        {
+          "page": 6,
+          "start": 45,
+          "end": 93
+        }
+      ],
+      "text": "Should certiorari be denied, this stay shall terminate automatically."
+    },
+    {
+      "start": 800.94,
+      "end": 807.78,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 94,
+          "end": 207
+        }
+      ],
+      "text": "In the event certiorari is granted, the stay shall terminate upon the sending down of the judgment of this Court."
+    },
+    {
+      "start": 807.78,
+      "end": 809.59,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 208,
+          "end": 225
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 55,
+      "expectedWords": 56,
+      "coverage": 0.9821428571428571
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 70,
+      "expectedWords": 71,
+      "coverage": 0.9859154929577465
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 53,
+      "expectedWords": 57,
+      "coverage": 0.9298245614035088
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 156,
+      "expectedWords": 157,
+      "coverage": 0.9936305732484076
+    },
+    {
+      "paragraph": 4,
+      "matchedWords": 107,
+      "expectedWords": 126,
+      "coverage": 0.8492063492063492
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 75,
+      "expectedWords": 77,
+      "coverage": 0.974025974025974
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 61,
+      "expectedWords": 63,
+      "coverage": 0.9682539682539683
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 86,
+      "expectedWords": 86,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 88,
+      "expectedWords": 92,
+      "coverage": 0.9565217391304348
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 69,
+      "expectedWords": 75,
+      "coverage": 0.92
+    },
+    {
+      "paragraph": 10,
+      "matchedWords": 159,
+      "expectedWords": 161,
+      "coverage": 0.9875776397515528
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 114,
+      "expectedWords": 118,
+      "coverage": 0.9661016949152542
+    },
+    {
+      "paragraph": 12,
+      "matchedWords": 115,
+      "expectedWords": 115,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 84,
+      "expectedWords": 89,
+      "coverage": 0.9438202247191011
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 83,
+      "expectedWords": 85,
+      "coverage": 0.9764705882352941
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 105,
+      "expectedWords": 105,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 16,
+      "matchedWords": 81,
+      "expectedWords": 81,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 17,
+      "matchedWords": 85,
+      "expectedWords": 85,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 18,
+      "matchedWords": 113,
+      "expectedWords": 116,
+      "coverage": 0.9741379310344828
+    }
+  ]
+}

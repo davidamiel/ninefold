@@ -1,0 +1,176 @@
+{
+  "version": "1ebfbbe2c6eb421d",
+  "duration": 65.055,
+  "voice": "af_sky",
+  "audioSha256": "22e89829e5d03991f8d11fd2dac95cc554a5fbace413466fbfd24648271c5a29",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 4.56,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 779,
+          "end": 849
+        }
+      ],
+      "text": "Edward Busby’s expert concluded that Busby is intellectually disabled."
+    },
+    {
+      "start": 4.56,
+      "end": 6.38,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 850,
+          "end": 872
+        }
+      ],
+      "text": "Texas’s expert agreed."
+    },
+    {
+      "start": 6.38,
+      "end": 14.88,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 873,
+          "end": 1022
+        }
+      ],
+      "text": "Recognizing the constitutional implications of that assessment, Texas joined Busby in asking the Texas courts to find Busby ineligible for execution."
+    },
+    {
+      "start": 14.88,
+      "end": 22.14,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1023,
+          "end": 1141
+        }
+      ],
+      "text": "After the Texas courts refused, Texas changed its mind, opting to proceed with the execution it once tried to abandon."
+    },
+    {
+      "start": 22.14,
+      "end": 25.84,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1142,
+          "end": 1198
+        }
+      ],
+      "text": "The Fifth Circuit then temporarily stayed the execution."
+    },
+    {
+      "start": 25.84,
+      "end": 35.305,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1199,
+          "end": 1339
+        }
+      ],
+      "text": "This was a modest, responsible step taken to allow that court to determine whether Busby is entitled to habeas relief before it is too late."
+    },
+    {
+      "start": 35.305,
+      "end": 39.86,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1340,
+          "end": 1408
+        }
+      ],
+      "text": "Today, the Court finds itself unable to tolerate even a brief delay."
+    },
+    {
+      "start": 39.86,
+      "end": 53.305,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1409,
+          "end": 1507
+        },
+        {
+          "page": 1,
+          "start": 44,
+          "end": 163
+        }
+      ],
+      "text": "Lifting the Fifth Circuit’s stay, the Court grants emergency relief to ensure that Texas’s current inclination (that it must execute Busby tonight) wins out over its former one (that it could not execute Busby at all)."
+    },
+    {
+      "start": 53.305,
+      "end": 57.06,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 164,
+          "end": 219
+        }
+      ],
+      "text": "In capital cases, we rarely intervene to preserve life."
+    },
+    {
+      "start": 57.06,
+      "end": 62.76,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 220,
+          "end": 319
+        }
+      ],
+      "text": "I cannot understand the Court’s rush to extinguish it, much less in the circumstances of this case."
+    },
+    {
+      "start": 62.76,
+      "end": 64.705,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 320,
+          "end": 344
+        }
+      ],
+      "text": "With respect, I dissent."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 86,
+      "expectedWords": 88,
+      "coverage": 0.9772727272727273
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 48,
+      "expectedWords": 50,
+      "coverage": 0.96
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 30,
+      "expectedWords": 31,
+      "coverage": 0.967741935483871
+    }
+  ]
+}
