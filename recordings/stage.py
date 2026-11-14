@@ -8,6 +8,8 @@ from pathlib import Path
 from generate import ROOT, load_job, local_path
 from prepare import prepare
 
+DATA_DIRECTORY=ROOT/'dist/data'
+
 
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -16,7 +18,13 @@ def write_json(path, value):
 
 def asset(path, directory, prefix):
     payload = path.read_bytes()
-    name = (prefix+'-' if prefix else '')+hashlib.sha256(payload).hexdigest()[:24]
+    digest = hashlib.sha256(payload).hexdigest()
+    hosted_path = DATA_DIRECTORY/'recorded-assets.json'
+    if directory == 'audio' and hosted_path.exists():
+        hosted = json.loads(hosted_path.read_text()).get(digest)
+        if hosted and hosted['bytes'] == len(payload):
+            return hosted['url']
+    name = (prefix+'-' if prefix else '')+digest[:24]
     relative = f'{directory}/{name}{path.suffix}'
     destination = local_path(ROOT/'dist'/relative, ROOT/'dist'/directory)
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -47,15 +55,15 @@ def metadata_aliases(identifier, metadata):
     if source is None:
         return result
     keys = ('sourceUrl', 'sourceRange', 'opinionType', 'opinionAuthor')
-    original_path = local_path(ROOT/'dist'/source['textPath'], ROOT/'dist/data')
+    original_path = local_path(ROOT/'dist'/source['textPath'], DATA_DIRECTORY)
     original = [p['text'] for p in json.loads(original_path.read_text())['pages']]
     for target in entries:
         if target['id'] == identifier or any(target.get(key) != source.get(key) for key in keys):
             continue
-        target_path = local_path(ROOT/'dist'/target['textPath'], ROOT/'dist/data')
+        target_path = local_path(ROOT/'dist'/target['textPath'], DATA_DIRECTORY)
         pages = [p['text'] for p in json.loads(target_path.read_text())['pages']]
         if pages == original and target.get('parentDocumentId'):
-            result[target['id']] = {**metadata, 'sourceDocumentId': target['parentDocumentId']}
+            result[target['id']] = {**metadata, 'sourceDocumentId': target['parentDocumentId'], 'sourceTextPath': target['textPath']}
     return result
 
 
@@ -80,11 +88,14 @@ def main():
         validate_recording(body, narration, report, cues, audio, voice)
         recordings[voice] = {'report': report, 'cues': cues, 'audio': audio}
     metadata = {key: job[key] for key in ('title', 'author', 'date', 'sourceUrl', 'sourceDocumentId')}
+    if job.get('term'):
+        metadata['term'] = job['term']
+    metadata['sourceTextPath'] = str(Path(job['sourceTextPath']).relative_to('dist'))
     metadata.update(job.get('documentInfo', {}))
     metadata.update(version=body['version'], recordings={})
     for voice, item in recordings.items():
         metadata['recordings'][voice] = {
-            'url': asset(item['audio'], 'audio', document_id+'-'+voice),
+            'url': asset(item['audio'], 'audio', ''),
             'duration': item['report']['duration'],
             'cuesPath': asset(local_path(folder/(voice+'-cues.json'), folder), 'data/recordings', document_id+'-'+voice),
         }
@@ -96,7 +107,7 @@ def main():
         documents = json.loads(inventory.read_text())
         documents.update(metadata_aliases(document_id, metadata))
         # Inventory is replaced last: a reader never sees half of a prepared job.
-        temporary = local_path(inventory.with_suffix('.tmp'), ROOT/'dist/data')
+        temporary = local_path(inventory.with_suffix('.tmp'), DATA_DIRECTORY)
         write_json(temporary, documents)
         temporary.replace(inventory)
     print('Staged reviewed reader and both recordings:', document_id)

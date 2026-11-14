@@ -1,0 +1,684 @@
+{
+  "reviewed": true,
+  "documentId": "24-568-21c0dda89321--13-568",
+  "sourceDocumentId": "24-568-21c0dda89321",
+  "sourceTextPath": "dist/data/docs/24-568-21c0dda89321.json",
+  "sourceTextSha256": "4c68b26a7cdac45174c779a10d478b4780f1b9c1647f0270063381cf5cb5d165",
+  "sourcePdfPath": "dist/data/pdfs/24-568-21c0dda89321--13-568.pdf",
+  "sourcePdfSha256": "5ea2916989c24c5edcb1163a7580e1e9872e9c0f00c4172dee3610911078f941",
+  "title": "Concurrence in the judgment",
+  "author": "Amy Coney Barrett",
+  "date": "2026-01-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r05_e2q3.pdf",
+  "sourceRange": {
+    "startPage": 13,
+    "startOffset": 644,
+    "endPage": 17,
+    "endOffset": 601
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 644,
+          "end": 880
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 880,
+          "end": 883
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 883,
+          "end": 1542
+        },
+        {
+          "page": 14,
+          "start": 79,
+          "end": 486
+        }
+      ],
+      "citations": [
+        {
+          "start": 80,
+          "end": 94,
+          "text": "Art. III, \u00a7 2.",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article III, Section 2"
+        },
+        {
+          "start": 292,
+          "end": 304,
+          "text": "Ante, at 76.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 76"
+        },
+        {
+          "start": 429,
+          "end": 520,
+          "text": "Clapper v. Amnesty Int'l USA, 568 U. S. 398, 409 (2013) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        },
+        {
+          "start": 667,
+          "end": 762,
+          "text": "Spokeo, Inc. v. Robins, 578 U. S. 330, 339, and n. 7 (2016) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "578 U.S. 330"
+        },
+        {
+          "start": 922,
+          "end": 938,
+          "text": "Id., at 340\u2013341.",
+          "type": "case",
+          "canonical": "578 U.S. 330"
+        },
+        {
+          "start": 1038,
+          "end": 1065,
+          "text": "Clapper, 568 U. S., at 401.",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 486,
+          "end": 1046
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 138,
+          "text": "Carney v. Adams, 592 U. S. 53, 59 (2020).",
+          "type": "case",
+          "canonical": "592 U.S. 53"
+        },
+        {
+          "start": 274,
+          "end": 333,
+          "text": "Lujan v. Defenders of Wildlife , 504 U. S. 555, 561 (1992).",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        },
+        {
+          "start": 449,
+          "end": 455,
+          "text": "Ibid.;",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        },
+        {
+          "start": 456,
+          "end": 485,
+          "text": "see Spokeo, 578 U. S., at 338",
+          "type": "case",
+          "canonical": "578 U.S. 330"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1046,
+          "end": 2179
+        },
+        {
+          "page": 15,
+          "start": 68,
+          "end": 202
+        }
+      ],
+      "citations": [
+        {
+          "start": 53,
+          "end": 106,
+          "text": "Tyler v. Hennepin County , 598 U. S. 631, 636 (2023).",
+          "type": "case",
+          "canonical": "598 U.S. 631"
+        },
+        {
+          "start": 177,
+          "end": 239,
+          "text": "see, e. g., McGowan v. Maryland, 366 U. S. 420, 430\u2013431 (1961)",
+          "type": "case",
+          "canonical": "366 U.S. 420"
+        },
+        {
+          "start": 411,
+          "end": 464,
+          "text": ", Clapper, 568 U. S., at 414, n. 5 (collecting cases)",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        },
+        {
+          "start": 483,
+          "end": 518,
+          "text": "Monsanto Co. v. Geertson Seed Farms",
+          "type": "case",
+          "canonical": "561 U.S. 139",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 673,
+          "end": 703,
+          "text": "561 U. S. 139, 153\u2013154 (2010).",
+          "type": "case",
+          "canonical": "561 U.S. 139"
+        },
+        {
+          "start": 876,
+          "end": 923,
+          "text": "Id., at 153 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "561 U.S. 139"
+        },
+        {
+          "start": 1076,
+          "end": 1092,
+          "text": "Id., at 154\u2013155;",
+          "type": "case",
+          "canonical": "561 U.S. 139"
+        },
+        {
+          "start": 1093,
+          "end": 1173,
+          "text": "see also Virginia v. American Booksellers Assn., Inc., 484 U. S. 383, 392 (1988)",
+          "type": "case",
+          "canonical": "484 U.S. 383"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article 3"
+        },
+        {
+          "from": "incur[s]",
+          "to": "incurs"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 202,
+          "end": 1577
+        }
+      ],
+      "citations": [
+        {
+          "start": 183,
+          "end": 216,
+          "text": "Clapper, 568 U. S., at 414, n. 5.",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        },
+        {
+          "start": 452,
+          "end": 479,
+          "text": "App. to Pet. for Cert. 66a.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 66a"
+        },
+        {
+          "start": 788,
+          "end": 800,
+          "text": "Id., at 65a.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 65a"
+        },
+        {
+          "start": 932,
+          "end": 944,
+          "text": "Id., at 67a.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 67a"
+        },
+        {
+          "start": 1106,
+          "end": 1168,
+          "text": "See Brief for League of Women Voters et al. as Amici Curiae 20",
+          "type": "record",
+          "canonical": "League of Women Voters amicus brief, p. 20"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article 3"
+        },
+        {
+          "from": "accep[t]",
+          "to": "accept"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1759,
+          "end": 2111
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 97,
+          "end": 130,
+          "text": "post at 100 (dissenting opinion),",
+          "type": "reference",
+          "canonical": "Jackson dissent, p. 100"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1578,
+          "end": 1582
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1582,
+          "end": 1758
+        },
+        {
+          "page": 16,
+          "start": 79,
+          "end": 990
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 228,
+          "end": 240,
+          "text": "Ante, at 76.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 76"
+        },
+        {
+          "start": 376,
+          "end": 437,
+          "text": "See TransUnion LLC v. Ramirez, 594 U. S. 413, 424\u2013425 (2021).",
+          "type": "case",
+          "canonical": "594 U.S. 413"
+        },
+        {
+          "start": 463,
+          "end": 489,
+          "text": "Already, LLC v. Nike, Inc.",
+          "type": "case",
+          "canonical": "568 U.S. 85",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 669,
+          "end": 693,
+          "text": "568 U. S. 85, 99 (2013).",
+          "type": "case",
+          "canonical": "568 U.S. 85"
+        },
+        {
+          "start": 919,
+          "end": 935,
+          "text": "See ante, at 77.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 77"
+        },
+        {
+          "start": 1081,
+          "end": 1086,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 77"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article 3"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 990,
+          "end": 2164
+        }
+      ],
+      "citations": [
+        {
+          "start": 211,
+          "end": 286,
+          "text": "See, e. g., Davis v. Federal Election Comm'n, 554 U. S. 724, 733\u2013734 (2008)",
+          "type": "case",
+          "canonical": "554 U.S. 724"
+        },
+        {
+          "start": 385,
+          "end": 437,
+          "text": "Wittman v. Personhuballah, 578 U. S. 539, 545 (2016)",
+          "type": "case",
+          "canonical": "578 U.S. 539"
+        },
+        {
+          "start": 549,
+          "end": 576,
+          "text": "Carney, 592 U. S., at 59\u201360",
+          "type": "case",
+          "canonical": "592 U.S. 53"
+        },
+        {
+          "start": 788,
+          "end": 846,
+          "text": "See, e. g., Raines v. Byrd, 521 U. S. 811, 821, 830 (1997)",
+          "type": "case",
+          "canonical": "521 U.S. 811"
+        },
+        {
+          "start": 870,
+          "end": 950,
+          "text": "Arizona Christian School Tuition Organization v. Winn, 563 U. S. 125, 134 (2011)",
+          "type": "case",
+          "canonical": "563 U.S. 125"
+        },
+        {
+          "start": 972,
+          "end": 1000,
+          "text": "Lujan, 504 U. S., at 566\u2013567",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        },
+        {
+          "start": 1031,
+          "end": 1103,
+          "text": "FDA v. Alliance for Hippocratic Medicine , 602 U. S. 367, 392\u2013393 (2024)",
+          "type": "case",
+          "canonical": "602 U.S. 367"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 56,
+          "end": 444
+        }
+      ],
+      "citations": [
+        {
+          "start": 239,
+          "end": 264,
+          "text": "Brief for Petitioners 21.",
+          "type": "record",
+          "canonical": "Petitioners brief, p. 21"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 450,
+          "end": 601
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 13,
+      "start": 1542,
+      "end": 1905,
+      "text": "District of Columbia et al. as Amici Curiae 20, it is neither clear why\ncandidates would waste their resources in this way nor on what basis in\nfederal law such suits could be brought. In any event, we address today\nonly candidates' standing to challenge rules that, like Illinois's, govern the\ncounting of votes in their elections.\nPage Proof Pending Publication",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 79,
+      "text": "84 BOST v. ILLINOIS STATE BD. OF ELECTIONS\nBarrett, J., concurring in judgment\n",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 14,
+      "start": 2179,
+      "end": 2209,
+      "text": "Page Proof Pending Publication",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 68,
+      "text": "Cite as: 607 U. S. 71 (2026) 85\nBarrett, J., concurring in judgment\n",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 15,
+      "start": 1577,
+      "end": 1578,
+      "text": "*",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 15,
+      "start": 1758,
+      "end": 1759,
+      "text": "*",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 15,
+      "start": 2111,
+      "end": 2141,
+      "text": "Page Proof Pending Publication",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 79,
+      "text": "86 BOST v. ILLINOIS STATE BD. OF ELECTIONS\nBarrett, J., concurring in judgment\n",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 16,
+      "start": 2164,
+      "end": 2194,
+      "text": "Page Proof Pending Publication",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 71 (2026) 87\nJackson, J., dissenting\n",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    },
+    {
+      "page": 17,
+      "start": 444,
+      "end": 450,
+      "text": "* * *\n",
+      "reason": "Previous Court opinion footnote continuation, running header/footer, ornament or footnote marker."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 14,
+      "start": 537,
+      "end": 542,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 14,
+      "start": 924,
+      "end": 930,
+      "expectedText": "suffce",
+      "text": "suffice"
+    },
+    {
+      "page": 14,
+      "start": 1287,
+      "end": 1293,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 14,
+      "start": 1700,
+      "end": 1707,
+      "expectedText": "modifed",
+      "text": "modified"
+    },
+    {
+      "page": 15,
+      "start": 108,
+      "end": 114,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 15,
+      "start": 560,
+      "end": 571,
+      "expectedText": "insuffcient",
+      "text": "insufficient"
+    },
+    {
+      "page": 15,
+      "start": 945,
+      "end": 953,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 1069,
+      "end": 1077,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 1103,
+      "end": 1111,
+      "expectedText": "defcient",
+      "text": "deficient"
+    },
+    {
+      "page": 15,
+      "start": 1754,
+      "end": 1757,
+      "expectedText": "al-",
+      "text": "al"
+    },
+    {
+      "page": 16,
+      "start": 512,
+      "end": 519,
+      "expectedText": "benefts",
+      "text": "benefits"
+    },
+    {
+      "page": 16,
+      "start": 664,
+      "end": 676,
+      "expectedText": "votecounting",
+      "text": "vote-counting"
+    },
+    {
+      "page": 16,
+      "start": 1339,
+      "end": 1347,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 16,
+      "start": 1633,
+      "end": 1638,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 17,
+      "start": 102,
+      "end": 107,
+      "expectedText": "offce",
+      "text": "office"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan"
+    ]
+  }
+}

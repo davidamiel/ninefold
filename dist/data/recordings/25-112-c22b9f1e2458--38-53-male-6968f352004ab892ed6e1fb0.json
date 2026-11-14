@@ -1,0 +1,337 @@
+{
+  "version": "a5744f1af3a6e949",
+  "duration": 231.97,
+  "voice": "am_michael",
+  "audioSha256": "f18858a5d4fd2139c2d09b3c307243b2592d01cb94d4684f4a88c0d44e9d4721",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 7.76,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 117,
+          "end": 245
+        }
+      ],
+      "text": "I agree with the Court that law enforcement officers conducted a search when they accessed petitioner Chatrie's Location History."
+    },
+    {
+      "start": 7.76,
+      "end": 14.3,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 246,
+          "end": 357
+        }
+      ],
+      "text": "I write separately because I would have gone further to explain that this search violated the Fourth Amendment."
+    },
+    {
+      "start": 14.3,
+      "end": 27.04,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 358,
+          "end": 557
+        }
+      ],
+      "text": "As the Court observes, “when officers have obtained a warrant,” the validity of a search turns on “whether a magistrate has properly found probable cause to support a particularly described search.”"
+    },
+    {
+      "start": 27.04,
+      "end": 37.98,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 572,
+          "end": 715
+        }
+      ],
+      "text": "In my view, it is clear that at a minimum the second and third stages of the search process here did not satisfy this foundational requirement."
+    },
+    {
+      "start": 37.98,
+      "end": 47.7,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 716,
+          "end": 856
+        }
+      ],
+      "text": "At step two, the warrant authorized officers to access an additional hour's worth of Location History, unbounded by the geofence's perimeter."
+    },
+    {
+      "start": 47.7,
+      "end": 57.6,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 857,
+          "end": 1020
+        }
+      ],
+      "text": "Though the warrant stated that officers would “attempt to narrow down the list” of devices subject to this step, there was no explicit requirement that they do so."
+    },
+    {
+      "start": 57.6,
+      "end": 64.34,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 1050,
+          "end": 1143
+        }
+      ],
+      "text": "Nor did the warrant set forth any criteria that officers would use in their narrowing efforts."
+    },
+    {
+      "start": 64.34,
+      "end": 67.76,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 1150,
+          "end": 1197
+        }
+      ],
+      "text": "The same infirmities carried over to step three."
+    },
+    {
+      "start": 67.76,
+      "end": 82.42,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 1198,
+          "end": 1416
+        }
+      ],
+      "text": "At this step, the warrant authorized officers to access “identifying account information,” including the username, date of birth, account number, and any email addresses or telephone numbers associated with the account."
+    },
+    {
+      "start": 82.42,
+      "end": 92.1,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 1430,
+          "end": 1569
+        }
+      ],
+      "text": "Once again, the warrant stated only that officers would “attempt to narrow down the list,” without setting forth any criteria for doing so."
+    },
+    {
+      "start": 92.1,
+      "end": 102.82,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 1594,
+          "end": 1764
+        }
+      ],
+      "text": "This “uncommon, multi-step” process meant that officers conducted key portions of the search outside the supervision of “a neutral and detached magistrate.”"
+    },
+    {
+      "start": 102.82,
+      "end": 118.84,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 38,
+          "start": 1816,
+          "end": 2015
+        },
+        {
+          "page": 39,
+          "start": 89,
+          "end": 138
+        }
+      ],
+      "text": "Put differently, officers could obtain additional, sensitive information at steps two and three without having to convince a magistrate that there was probable cause to believe this particular information would uncover evidence related to the crime."
+    },
+    {
+      "start": 118.84,
+      "end": 132.385,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 139,
+          "end": 331
+        }
+      ],
+      "text": "In this way, the warrant left “too much to the discretion of the officers executing the order,” giving them a “roving commission” to collect more data absent any justification to a magistrate."
+    },
+    {
+      "start": 132.385,
+      "end": 138.22,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 377,
+          "end": 462
+        }
+      ],
+      "text": "The facts of this case illustrate why the lack of magisterial oversight is dangerous."
+    },
+    {
+      "start": 138.22,
+      "end": 149.4,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 463,
+          "end": 613
+        }
+      ],
+      "text": "When executing steps two and three, law enforcement initially sought unbounded data and account information from all 19 devices identified at step one."
+    },
+    {
+      "start": 149.4,
+      "end": 157.92,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 658,
+          "end": 796
+        }
+      ],
+      "text": "Nothing in the warrant prevented officers from obtaining this broad set of data; they narrowed the list only because Google insisted on it."
+    },
+    {
+      "start": 157.92,
+      "end": 167.52,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 797,
+          "end": 929
+        }
+      ],
+      "text": "The officers eventually settled on requesting data from nine devices at step two, but even this shorter list may have been overbroad."
+    },
+    {
+      "start": 167.52,
+      "end": 178.28,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 930,
+          "end": 1081
+        }
+      ],
+      "text": "For three of the nine devices, the location data showed the users' movements to and from sensitive spaces—namely, residences, a school, and a hospital."
+    },
+    {
+      "start": 178.28,
+      "end": 189.04,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 1099,
+          "end": 1252
+        }
+      ],
+      "text": "Given how it was written, the warrant itself provided no “judicial check” on law enforcement's determination that probable cause justified this intrusion."
+    },
+    {
+      "start": 189.04,
+      "end": 201.82,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 1313,
+          "end": 1532
+        }
+      ],
+      "text": "The Court correctly observes that allowing the Government to “access all of a cell-phone user's movements” without limit essentially arms it with “a virtual panopticon with which to scrutinize its citizens' activities.”"
+    },
+    {
+      "start": 201.82,
+      "end": 220.02,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 1547,
+          "end": 1843
+        }
+      ],
+      "text": "It is for this reason that law enforcement and courts must carefully abide by the Fourth Amendment's instruction that “no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.”"
+    },
+    {
+      "start": 220.02,
+      "end": 230.82,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 39,
+          "start": 1844,
+          "end": 2026
+        }
+      ],
+      "text": "The Fourth Circuit should keep this instruction in mind on remand when evaluating the constitutionality of the multistep search that occurred here, especially at steps two and three."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 95,
+      "expectedWords": 95,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 65,
+      "expectedWords": 67,
+      "coverage": 0.9701492537313433
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 62,
+      "expectedWords": 62,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 89,
+      "expectedWords": 91,
+      "coverage": 0.978021978021978
+    },
+    {
+      "paragraph": 4,
+      "matchedWords": 127,
+      "expectedWords": 130,
+      "coverage": 0.9769230769230769
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 108,
+      "expectedWords": 111,
+      "coverage": 0.972972972972973
+    }
+  ]
+}

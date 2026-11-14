@@ -114,10 +114,26 @@ def validate_coverage(job, source):
         validate_page_coverage(raw, start, end, [s for s in spans if s['page'] == page], page)
 
 
+def reviewed_pdf(path, checksum):
+    pdf_path = (ROOT/path).resolve()
+    allowed = [ROOT/'dist/data/pdfs', ROOT/'scripts/cache/narration/opinion-pdfs']
+    if not any(pdf_path.is_relative_to(folder.resolve()) for folder in allowed):
+        raise ValueError('Source PDF is outside the opinion source directories')
+    if digest(pdf_path) != checksum:
+        raise ValueError('The source changed; review the PDF preparation again')
+
+
 def reviewed_source(job):
     source_path = local_path(ROOT / job['sourceTextPath'], ROOT / 'dist/data')
-    pdf_path = local_path(ROOT / job['sourcePdfPath'], ROOT / 'dist/data/pdfs')
-    if digest(source_path) != job['sourceTextSha256'] or digest(pdf_path) != job['sourcePdfSha256']:
+    sections = json.loads((ROOT/'dist/data/opinion-sections.json').read_text())
+    sections.update(json.loads((ROOT/'dist/data/opinion-section-overrides.json').read_text()))
+    descriptor = next((d for rows in sections.values() for d in rows if d['id'] == job['documentId']), None)
+    if descriptor and source_path != (ROOT/'dist'/descriptor['textPath']).resolve():
+        raise ValueError('Recording coordinates must use the document’s registered source text')
+    reviewed_pdf(job['sourcePdfPath'], job['sourcePdfSha256'])
+    if revision := job.get('revisionSource'):
+        reviewed_pdf(revision['pdfPath'], revision['sha256'])
+    if digest(source_path) != job['sourceTextSha256']:
         raise ValueError('The source changed; review the preparation again')
     source = json.loads(source_path.read_text())
     validate_coverage(job, source)
@@ -156,6 +172,21 @@ def annotate_citations(paragraph, citations):
         cursor += len(segment['text'])
 
 
+def reference_fragments(paragraph, citations):
+    """A citation split by a PDF page remains one reader reference."""
+    fragments, cursor = [], 0
+    for segment in paragraph['segments']:
+        fragments.extend((segment, part, cursor+part['start'], cursor+part['end']) for part in segment['citations'])
+        cursor += len(segment['text'])
+    for citation in citations:
+        parts = [(segment, part) for segment, part, start, end in fragments if citation['start'] <= start and end <= citation['end']]
+        if len(parts) < 2:
+            continue
+        origin, first = parts[0]
+        for index, (_, part) in enumerate(parts):
+            part.update(fullLabel=citation['text'], referencePage=origin['page'], referenceOffset=origin['map'][first['start']], continuation=index > 0)
+
+
 def pronounce(text, changes, block_index):
     for change in changes:
         if change['from'] not in text:
@@ -178,7 +209,7 @@ def spoken_text(paragraph, block, citations, index):
     text = ' '.join(text.split())
     for punctuation in ',.;:!?':
         text = text.replace(' '+punctuation, punctuation)
-    if paragraph['kind'] == 'heading' or not text:
+    if paragraph['kind'] == 'heading' or not any(character.isalnum() for character in text):
         return None
     if paragraph['kind'] == 'footnote':
         label = paragraph['label']
@@ -206,6 +237,10 @@ def prepare(job):
     body = {'paragraphs': paragraphs, 'sectionSources': job.get('sectionSources', {}), 'reviewedCitations': True}
     version = hashlib.sha256(json.dumps({'body': body, 'spoken': spoken}, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:16]
     body['version'] = version
+    # These derived presentation fields do not change text, source coordinates,
+    # pronunciation or timings. Keep the existing recording identity intact.
+    for paragraph, block in zip(paragraphs, job['blocks']):
+        reference_fragments(paragraph, block.get('citations', []))
     narration = {**job, 'version': version, 'spokenParagraphs': spoken, 'spokenBlocks': spoken_blocks}
     return body, narration
 

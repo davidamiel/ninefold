@@ -1,0 +1,2544 @@
+{
+  "reviewed": true,
+  "documentId": "24-345-cc05184abe0d--4-86",
+  "sourceDocumentId": "24-345-cc05184abe0d",
+  "sourceTextPath": "dist/data/docs/24-345-cc05184abe0d.json",
+  "sourceTextSha256": "b8f2ac552f5b403fc92d29fad067c6b3980e8c7cd4e3c1e6487ee4ba3c9567f0",
+  "sourcePdfPath": "dist/data/pdfs/24-345-cc05184abe0d--4-86.pdf",
+  "sourcePdfSha256": "f9b73c8c98132012b718fe7d1455c83c8c60cf65c5a51d021fe9ebd410c07460",
+  "title": "Opinion of the Court",
+  "author": "Amy Coney Barrett",
+  "date": "2026-06-11",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r47_m64o.pdf",
+  "sourceRange": {
+    "startPage": 4,
+    "startOffset": 138,
+    "endPage": 17,
+    "endOffset": 770
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 138,
+          "end": 572
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 572,
+          "end": 573
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 574,
+          "end": 1242
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1242,
+          "end": 1408
+        },
+        {
+          "page": 5,
+          "start": 89,
+          "end": 868
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 614,
+          "end": 642,
+          "text": "Brief for Respondents 17–18.",
+          "type": "record",
+          "canonical": "Brief for Respondents 17–18."
+        },
+        {
+          "start": 813,
+          "end": 838,
+          "text": "Brief for Petitioners 11;",
+          "type": "record",
+          "canonical": "Brief for Petitioners 11;"
+        },
+        {
+          "start": 839,
+          "end": 945,
+          "text": "Saba Capital CEF Opportunities 1, Ltd. v. Nuveen Floating Rate Income Fund, 88 F. 4th 103, 108 (CA2 2023).",
+          "type": "record",
+          "canonical": "Saba Capital CEF Opportunities 1, Ltd. v. Nuveen Floating Rate Income Fund, 88 F. 4th 103, 108 (CA2 2023)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "L. P.",
+          "to": "L P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 868,
+          "end": 1420
+        }
+      ],
+      "citations": [
+        {
+          "start": 384,
+          "end": 438,
+          "text": "See Md. Corp. & Assns. Code Ann. § 3–702(a)(1) (2026).",
+          "type": "statute",
+          "canonical": "Md. Code Ann., Corps. & Assns. § 3-702(a)(1)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "MCSAA",
+          "to": "M C S A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1420,
+          "end": 1972
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 258,
+          "text": "15 U. S. C. § 80a–18(i).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        },
+        {
+          "start": 295,
+          "end": 308,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 537,
+          "end": 552,
+          "text": "§ 80a–46(b)(2).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1972,
+          "end": 2088
+        },
+        {
+          "page": 6,
+          "start": 55,
+          "end": 364
+        }
+      ],
+      "citations": [
+        {
+          "start": 63,
+          "end": 109,
+          "text": "Oxford University Bank v. Lansuppe Feeder, LLC",
+          "type": "case",
+          "canonical": "933 F.3d 99",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 110,
+          "end": 132,
+          "text": ", 933 F. 3d 99 (2019),",
+          "type": "case",
+          "canonical": "933 F.3d 99"
+        },
+        {
+          "start": 143,
+          "end": 156,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 367,
+          "end": 380,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1697,
+          "end": 2027
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 45,
+          "text": "Compare Oxford Univ. Bank, 933 F. 3d, at 105,",
+          "type": "case",
+          "canonical": "933 F.3d 99"
+        },
+        {
+          "start": 46,
+          "end": 165,
+          "text": "with Santomenno ex rel. John Hancock Trust v. John Hancock Life Ins. Co. (U. S. A.), 677 F. 3d 178, 186–187 (CA3 2012);",
+          "type": "case",
+          "canonical": "677 F.3d 178"
+        },
+        {
+          "start": 166,
+          "end": 255,
+          "text": "Steinberg v. Janus Capital Mgmt., LLC , 457 Fed. Appx. 261, 267 (CA4 2011) (per curiam );",
+          "type": "case",
+          "canonical": "457 Fed.Appx. 261"
+        },
+        {
+          "start": 256,
+          "end": 329,
+          "text": "UFCW Local 1500 Pension Fund v. Mayer, 895 F. 3d 695, 699–701 (CA9 2018).",
+          "type": "case",
+          "canonical": "895 F.3d 695"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 365,
+          "end": 388
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 21,
+          "text": "606 U. S. 930 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 930"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 388,
+          "end": 390
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 391,
+          "end": 985
+        }
+      ],
+      "citations": [
+        {
+          "start": 56,
+          "end": 114,
+          "text": "Touche Ross & Co. v. Redington, 442 U. S. 560, 579 (1979);",
+          "type": "case",
+          "canonical": "442 U.S. 560"
+        },
+        {
+          "start": 115,
+          "end": 164,
+          "text": "Alexander v. Sandoval, 532 U. S. 275, 286 (2001).",
+          "type": "case",
+          "canonical": "532 U.S. 275"
+        },
+        {
+          "start": 443,
+          "end": 469,
+          "text": "42 U. S. C. § 2000bb–1(c).",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 2000bb-1(c)"
+        },
+        {
+          "start": 569,
+          "end": 582,
+          "text": "§ 2000a–3(a).",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 2000a-3(a)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]",
+          "to": "a"
+        },
+        {
+          "from": "[the Religious Freedom Restoration Act]",
+          "to": "the Religious Freedom Restoration Act"
+        },
+        {
+          "from": "institut[e]",
+          "to": "institute"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 985,
+          "end": 1695
+        },
+        {
+          "page": 7,
+          "start": 89,
+          "end": 337
+        }
+      ],
+      "citations": [
+        {
+          "start": 290,
+          "end": 342,
+          "text": "J. I. Case Co . v. Borak, 377 U. S. 426, 433 (1964).",
+          "type": "case",
+          "canonical": "377 U.S. 426"
+        },
+        {
+          "start": 429,
+          "end": 528,
+          "text": "Central Bank of Denver, N. A. v. First Interstate Bank of Denver, N. A., 511 U. S. 164, 170 (1994);",
+          "type": "case",
+          "canonical": "511 U.S. 164"
+        },
+        {
+          "start": 529,
+          "end": 557,
+          "text": "Sandoval, 532 U. S., at 287.",
+          "type": "case",
+          "canonical": "532 U.S. 275"
+        },
+        {
+          "start": 685,
+          "end": 763,
+          "text": "Egbert v. Boule, 596 U. S. 482, 491 (2022) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "596 U.S. 482"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 337,
+          "end": 1421
+        }
+      ],
+      "citations": [
+        {
+          "start": 126,
+          "end": 193,
+          "text": "Sandoval, 532 U. S., at 288–289 (internal quotation marks omitted);",
+          "type": "case",
+          "canonical": "532 U.S. 275"
+        },
+        {
+          "start": 194,
+          "end": 241,
+          "text": "Gonzaga Univ. v. Doe, 536 U. S. 273, 284 (2002)",
+          "type": "case",
+          "canonical": "536 U.S. 273"
+        },
+        {
+          "start": 449,
+          "end": 477,
+          "text": "Sandoval, 532 U. S., at 289.",
+          "type": "case",
+          "canonical": "532 U.S. 275"
+        },
+        {
+          "start": 684,
+          "end": 696,
+          "text": "Id., at 290;",
+          "type": "case",
+          "canonical": "532 U.S. 275"
+        },
+        {
+          "start": 697,
+          "end": 790,
+          "text": "Middlesex County Sewerage Authority v. National Sea Clammers Assn., 453 U. S. 1, 13–14 (1981)",
+          "type": "case",
+          "canonical": "453 U.S. 1"
+        },
+        {
+          "start": 1009,
+          "end": 1083,
+          "text": "Northwest Airlines, Inc. v. Transport Workers, 451 U. S. 77, 93–94 (1981).",
+          "type": "case",
+          "canonical": "451 U.S. 77"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "focus[es]",
+          "to": "focuses"
+        },
+        {
+          "from": "schem[e]",
+          "to": "scheme"
+        },
+        {
+          "from": "[of]",
+          "to": "of"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1421,
+          "end": 2113
+        },
+        {
+          "page": 8,
+          "start": 55,
+          "end": 340
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 49,
+          "end": 59,
+          "text": "Section 47",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 206,
+          "end": 230,
+          "text": "15 U. S. C. § 80a–46(a).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        },
+        {
+          "start": 511,
+          "end": 526,
+          "text": "§ 80a–46(b)(1).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        },
+        {
+          "start": 832,
+          "end": 847,
+          "text": "§ 80a–46(b)(2).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[v]alidity",
+          "to": "validity"
+        },
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 340,
+          "end": 1099
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 137,
+          "end": 185,
+          "text": "Thompson v. Thompson, 484 U. S. 174, 183 (1988);",
+          "type": "case",
+          "canonical": "484 U.S. 174"
+        },
+        {
+          "start": 186,
+          "end": 217,
+          "text": "cf. Sandoval, 532 U. S., at 289",
+          "type": "case",
+          "canonical": "532 U.S. 275"
+        },
+        {
+          "start": 369,
+          "end": 384,
+          "text": "§ 80a–46(b)(2).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        },
+        {
+          "start": 572,
+          "end": 577,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)(2)"
+        },
+        {
+          "start": 578,
+          "end": 591,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "confer[s]",
+          "to": "confers"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1099,
+          "end": 1976
+        }
+      ],
+      "citations": [
+        {
+          "start": 90,
+          "end": 187,
+          "text": "See H. Black, Rescission of Contracts and Cancellation of Written Instruments § 1 (1916) (Black).",
+          "type": "record",
+          "canonical": "See H. Black, Rescission of Contracts and Cancellation of Written Instruments § 1 (1916) (Black)."
+        },
+        {
+          "start": 377,
+          "end": 439,
+          "text": "See 26 R. Lord, Williston on Contracts § 68:22 (4th ed. 2019).",
+          "type": "record",
+          "canonical": "See 26 R. Lord, Williston on Contracts § 68:22 (4th ed. 2019)."
+        },
+        {
+          "start": 567,
+          "end": 594,
+          "text": "See 27 id., § 69:48 (2020);",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 69"
+        },
+        {
+          "start": 595,
+          "end": 639,
+          "text": "Brief for United States as Amicus Curiae 19.",
+          "type": "record",
+          "canonical": "Brief for United States as Amicus Curiae 19."
+        },
+        {
+          "start": 764,
+          "end": 776,
+          "text": "§ 80a–35(b).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1980,
+          "end": 2208
+        },
+        {
+          "page": 9,
+          "start": 1806,
+          "end": 2221
+        }
+      ],
+      "citations": [
+        {
+          "start": 215,
+          "end": 273,
+          "text": "Post, at 632 (opinion of Jackson, J.) (quoting Black § 1).",
+          "type": "record",
+          "canonical": "Post, at 632 (opinion of Jackson, J.) (quoting Black § 1)."
+        },
+        {
+          "start": 490,
+          "end": 500,
+          "text": "Id., § 14.",
+          "type": "record",
+          "canonical": "H. Black, Rescission of Contracts and Cancellation of Written Instruments § 14 (1916)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 89,
+          "end": 1270
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 430,
+          "end": 527,
+          "text": "St. Louis, V. & T. H. R. Co. v. Terre Haute & Indianapolis R. Co., 145 U. S. 393, 407–408 (1892);",
+          "type": "case",
+          "canonical": "145 U.S. 393"
+        },
+        {
+          "start": 528,
+          "end": 540,
+          "text": "Black § 313;",
+          "type": "record",
+          "canonical": "Black § 313;"
+        },
+        {
+          "start": 541,
+          "end": 603,
+          "text": "see 15 W. Jaeger, Williston on Contracts § 1787 (3d ed. 1972).",
+          "type": "record",
+          "canonical": "see 15 W. Jaeger, Williston on Contracts § 1787 (3d ed. 1972)."
+        },
+        {
+          "start": 723,
+          "end": 735,
+          "text": "Black § 313;",
+          "type": "record",
+          "canonical": "Black § 313;"
+        },
+        {
+          "start": 736,
+          "end": 755,
+          "text": "see also id., § 318",
+          "type": "record",
+          "canonical": "see also id., § 318"
+        },
+        {
+          "start": 841,
+          "end": 897,
+          "text": "Restatement (First) of Contracts § 598 (1932) (similar).",
+          "type": "record",
+          "canonical": "Restatement (First) of Contracts § 598 (1932) (similar)."
+        },
+        {
+          "start": 898,
+          "end": 911,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1270,
+          "end": 1806
+        },
+        {
+          "page": 10,
+          "start": 55,
+          "end": 727
+        }
+      ],
+      "citations": [
+        {
+          "start": 85,
+          "end": 154,
+          "text": "post, at 633–634 (opinion of Jackson, J.) ( hereinafter the dissent),",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 427,
+          "end": 439,
+          "text": "§ 80a–41(a).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        },
+        {
+          "start": 536,
+          "end": 554,
+          "text": "§§ 80a–41(d), (e).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        },
+        {
+          "start": 706,
+          "end": 749,
+          "text": "Northwest Airlines, Inc., 451 U. S., at 94;",
+          "type": "case",
+          "canonical": "451 U.S. 77"
+        },
+        {
+          "start": 750,
+          "end": 813,
+          "text": "see Karahalios v. Federal Employees, 489 U. S. 527, 533 (1989).",
+          "type": "case",
+          "canonical": "489 U.S. 527"
+        },
+        {
+          "start": 946,
+          "end": 993,
+          "text": "Sandoval, 532 U. S., at 290 (collecting cases);",
+          "type": "case",
+          "canonical": "532 U.S. 275"
+        },
+        {
+          "start": 994,
+          "end": 1026,
+          "text": "Gonzaga Univ., 536 U. S., at 289",
+          "type": "case",
+          "canonical": "536 U.S. 273"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the ICA]",
+          "to": "the ICA"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "enforc[ement]",
+          "to": "enforcement"
+        },
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 727,
+          "end": 2077
+        },
+        {
+          "page": 11,
+          "start": 89,
+          "end": 220
+        }
+      ],
+      "citations": [
+        {
+          "start": 245,
+          "end": 256,
+          "text": "§ 80a–35(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        },
+        {
+          "start": 579,
+          "end": 584,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-35(b)"
+        },
+        {
+          "start": 783,
+          "end": 794,
+          "text": "§ 80a–29(h)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        },
+        {
+          "start": 810,
+          "end": 818,
+          "text": "§ 78p(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78p",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1025,
+          "end": 1062,
+          "text": "Touche Ross & Co., 442 U. S., at 572.",
+          "type": "case",
+          "canonical": "442 U.S. 560"
+        },
+        {
+          "start": 1217,
+          "end": 1309,
+          "text": "See Transamerica Mortgage Advisors, Inc. v. Lewis, 444 U. S. 11, 20, and n. 10 (1979) (TAMA)",
+          "type": "case",
+          "canonical": "444 U.S. 11"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]",
+          "to": "a"
+        },
+        {
+          "from": "[s]uit",
+          "to": "suit"
+        },
+        {
+          "from": "§ 78p(b)",
+          "to": "Section 78p(b)"
+        },
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1801,
+          "end": 2043
+        }
+      ],
+      "citations": [
+        {
+          "start": 96,
+          "end": 128,
+          "text": "Post, at 634 (emphasis deleted).",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 133,
+          "end": 147,
+          "text": "§ 80a–35(b)(3)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-35(b)(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "§ 80a–35(b)(3)",
+          "to": "Section 80a-35(b)(3)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 222,
+          "end": 603
+        }
+      ],
+      "citations": [
+        {
+          "start": 352,
+          "end": 380,
+          "text": "Sandoval, 532 U. S., at 287.",
+          "type": "case",
+          "canonical": "532 U.S. 275"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Saba's]",
+          "to": "Saba's"
+        },
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 11,
+          "start": 603,
+          "end": 606
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 607,
+          "end": 1686
+        }
+      ],
+      "citations": [
+        {
+          "start": 111,
+          "end": 124,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 182,
+          "end": 210,
+          "text": "Brief for Respondents 23–26.",
+          "type": "record",
+          "canonical": "Brief for Respondents 23–26."
+        },
+        {
+          "start": 414,
+          "end": 461,
+          "text": "7 Oxford English Dictionary 1040 (2d ed. 1989).",
+          "type": "record",
+          "canonical": "7 Oxford English Dictionary 1040 (2d ed. 1989)."
+        },
+        {
+          "start": 516,
+          "end": 522,
+          "text": "Ibid.;",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 523,
+          "end": 589,
+          "text": "see also Webster's New International Dictionary 1287 (2d ed. 1954)",
+          "type": "record",
+          "canonical": "see also Webster's New International Dictionary 1287 (2d ed. 1954)"
+        },
+        {
+          "start": 661,
+          "end": 715,
+          "text": "See, e. g., Black's Law Dictionary 947 (12th ed. 2024)",
+          "type": "record",
+          "canonical": "See, e. g., Black's Law Dictionary 947 (12th ed. 2024)"
+        },
+        {
+          "start": 757,
+          "end": 803,
+          "text": "2 Bouvier's Law Dictionary 1604 (8th ed. 1914)",
+          "type": "record",
+          "canonical": "2 Bouvier's Law Dictionary 1604 (8th ed. 1914)"
+        },
+        {
+          "start": 996,
+          "end": 1011,
+          "text": "§ 80a–46(b)(2).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]o",
+          "to": "to"
+        },
+        {
+          "from": "[u]rgent",
+          "to": "urgent"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1686,
+          "end": 1799
+        },
+        {
+          "page": 12,
+          "start": 55,
+          "end": 922
+        }
+      ],
+      "citations": [
+        {
+          "start": 54,
+          "end": 65,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80b-15",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 159,
+          "end": 176,
+          "text": "444 U. S., at 18.",
+          "type": "record",
+          "canonical": "444 U. S., at 18."
+        },
+        {
+          "start": 177,
+          "end": 188,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80b-15",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 278,
+          "end": 302,
+          "text": "15 U. S. C. § 80b–15(b).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80b"
+        },
+        {
+          "start": 361,
+          "end": 366,
+          "text": "§ 215",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80b-15",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 480,
+          "end": 497,
+          "text": "444 U. S., at 18.",
+          "type": "record",
+          "canonical": "444 U. S., at 18."
+        },
+        {
+          "start": 674,
+          "end": 680,
+          "text": "Ibid.;",
+          "type": "case",
+          "canonical": "444 U.S. 11"
+        },
+        {
+          "start": 681,
+          "end": 695,
+          "text": "see id., at 19",
+          "type": "record",
+          "canonical": "see id., at 19"
+        },
+        {
+          "start": 852,
+          "end": 863,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80b-15",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 964,
+          "end": 979,
+          "text": "Id., at 19, 24.",
+          "type": "case",
+          "canonical": "444 U.S. 11"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[b]y",
+          "to": "by"
+        },
+        {
+          "from": "[an]",
+          "to": "an"
+        },
+        {
+          "from": "§ 215",
+          "to": "Section 215"
+        },
+        {
+          "from": "IAA",
+          "to": "I A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 922,
+          "end": 1182
+        }
+      ],
+      "citations": [
+        {
+          "start": 23,
+          "end": 36,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 57,
+          "end": 68,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80b-15",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 81,
+          "end": 93,
+          "text": "54 Stat. 846",
+          "type": "record",
+          "canonical": "54 Stat. 846"
+        },
+        {
+          "start": 196,
+          "end": 209,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "IAA",
+          "to": "I A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1182,
+          "end": 1850
+        }
+      ],
+      "citations": [
+        {
+          "start": 124,
+          "end": 141,
+          "text": "post, at 631–632,",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 227,
+          "end": 240,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 309,
+          "end": 323,
+          "text": "94 Stat. 2277.",
+          "type": "record",
+          "canonical": "94 Stat. 2277."
+        },
+        {
+          "start": 664,
+          "end": 669,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1854,
+          "end": 2137
+        }
+      ],
+      "citations": [
+        {
+          "start": 80,
+          "end": 93,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 95,
+          "end": 121,
+          "text": "Post, at 624–625, 637–645.",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 89,
+          "end": 1157
+        }
+      ],
+      "citations": [
+        {
+          "start": 169,
+          "end": 197,
+          "text": "Brief for Respondents 33–34.",
+          "type": "record",
+          "canonical": "Brief for Respondents 33–34."
+        },
+        {
+          "start": 321,
+          "end": 402,
+          "text": "A. Scalia & B. Garner, Reading Law: The Interpretation of Legal Texts 256 (2012).",
+          "type": "record",
+          "canonical": "A. Scalia & B. Garner, Reading Law: The Interpretation of Legal Texts 256 (2012)."
+        },
+        {
+          "start": 603,
+          "end": 617,
+          "text": "94 Stat. 2277.",
+          "type": "record",
+          "canonical": "94 Stat. 2277."
+        },
+        {
+          "start": 731,
+          "end": 744,
+          "text": "Section 47(a)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 866,
+          "end": 884,
+          "text": "Id., at 2289–2291.",
+          "type": "record",
+          "canonical": "94 Stat. 2277"
+        },
+        {
+          "start": 951,
+          "end": 964,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 981,
+          "end": 992,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80b-15",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "IAA",
+          "to": "I A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1157,
+          "end": 1625
+        }
+      ],
+      "citations": [
+        {
+          "start": 38,
+          "end": 51,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 56,
+          "end": 67,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80b-15",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 239,
+          "end": 273,
+          "text": "444 U. S., at 24 (emphasis added).",
+          "type": "record",
+          "canonical": "444 U. S., at 24 (emphasis added)."
+        },
+        {
+          "start": 355,
+          "end": 368,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1625,
+          "end": 1627
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1628,
+          "end": 2033
+        }
+      ],
+      "citations": [
+        {
+          "start": 161,
+          "end": 174,
+          "text": "Post, at 625.",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 335,
+          "end": 361,
+          "text": "Post, at 624–625, 635–645.",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 55,
+          "end": 980
+        }
+      ],
+      "citations": [
+        {
+          "start": 82,
+          "end": 95,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 350,
+          "end": 363,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 718,
+          "end": 796,
+          "text": "See F. Easterbrook, Statutes' Domains, 50 U. Chi. L. Rev. 533, 547−548 (1983);",
+          "type": "record",
+          "canonical": "See F. Easterbrook, Statutes' Domains, 50 U. Chi. L. Rev. 533, 547−548 (1983);"
+        },
+        {
+          "start": 797,
+          "end": 926,
+          "text": "K. Shepsle, Congress Is a “They,” Not an “It”: Legislative Intent as Oxymoron, 12 Int'l Rev. L. & Econ. 239, 241–244, 249 (1992).",
+          "type": "record",
+          "canonical": "K. Shepsle, Congress Is a “They,” Not an “It”: Legislative Intent as Oxymoron, 12 Int'l Rev. L. & Econ. 239, 241–244, 249 (1992)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1738,
+          "end": 2230
+        }
+      ],
+      "citations": [
+        {
+          "start": 147,
+          "end": 160,
+          "text": "Post, at 642.",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 223,
+          "end": 236,
+          "text": "post, at 625,",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 352,
+          "end": 428,
+          "text": "A. Scalia, A Matter of Interpretation: Federal Courts and the Law 17 (1997).",
+          "type": "record",
+          "canonical": "A. Scalia, A Matter of Interpretation: Federal Courts and the Law 17 (1997)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "th[is]",
+          "to": "this"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 981,
+          "end": 1181
+        }
+      ],
+      "citations": [
+        {
+          "start": 115,
+          "end": 198,
+          "text": "Conroy v. Aniskoff, 507 U. S. 511, 519 (1993) (Scalia, J., concurring in judgment).",
+          "type": "case",
+          "canonical": "507 U.S. 511"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[w]e",
+          "to": "we"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1181,
+          "end": 1378
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1378,
+          "end": 1736
+        },
+        {
+          "page": 15,
+          "start": 89,
+          "end": 1003
+        }
+      ],
+      "citations": [
+        {
+          "start": 179,
+          "end": 184,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "507 U.S. 511"
+        },
+        {
+          "start": 309,
+          "end": 322,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 498,
+          "end": 511,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 757,
+          "end": 825,
+          "text": "H. R. Rep. No. 96– 1341, p. 27 (1980) (H. R. Rep.) (emphasis added).",
+          "type": "record",
+          "canonical": "H. R. Rep. No. 96– 1341, p. 27 (1980) (H. R. Rep.) (emphasis added)."
+        },
+        {
+          "start": 872,
+          "end": 915,
+          "text": "S. Rep. No. 96–958, p. 10 (1980) (S. Rep.).",
+          "type": "record",
+          "canonical": "S. Rep. No. 96–958, p. 10 (1980) (S. Rep.)."
+        },
+        {
+          "start": 1119,
+          "end": 1132,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1003,
+          "end": 2198
+        },
+        {
+          "page": 16,
+          "start": 86,
+          "end": 343
+        }
+      ],
+      "citations": [
+        {
+          "start": 266,
+          "end": 279,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 282,
+          "end": 295,
+          "text": "Post, at 637.",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 383,
+          "end": 409,
+          "text": "post, at 629–630, 635–636,",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 516,
+          "end": 531,
+          "text": "S. Rep., at 14.",
+          "type": "record",
+          "canonical": "S. Rep., at 14."
+        },
+        {
+          "start": 562,
+          "end": 588,
+          "text": "post, at 629–630, 635–636,",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 602,
+          "end": 623,
+          "text": "H. R. Rep., at 28–29.",
+          "type": "record",
+          "canonical": "H. R. Rep., at 28–29."
+        },
+        {
+          "start": 706,
+          "end": 719,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 880,
+          "end": 895,
+          "text": "S. Rep., at 14.",
+          "type": "record",
+          "canonical": "S. Rep., at 14."
+        },
+        {
+          "start": 1084,
+          "end": 1097,
+          "text": "Section 36(a)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-35(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1130,
+          "end": 1165,
+          "text": "H. R. Rep., at 29 (emphasis added).",
+          "type": "record",
+          "canonical": "H. R. Rep., at 29 (emphasis added)."
+        },
+        {
+          "start": 1306,
+          "end": 1319,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1332,
+          "end": 1345,
+          "text": "Post, at 625;",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        },
+        {
+          "start": 1346,
+          "end": 1367,
+          "text": "see also post, at 635",
+          "type": "case",
+          "canonical": "608 U.S. 608"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]n",
+          "to": "in"
+        },
+        {
+          "from": "expres[s]",
+          "to": "express"
+        },
+        {
+          "from": "[been]",
+          "to": "been"
+        },
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 343,
+          "end": 2081
+        }
+      ],
+      "citations": [
+        {
+          "start": 227,
+          "end": 240,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 80a-46(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 458,
+          "end": 476,
+          "text": "H. R. Rep., at 28.",
+          "type": "record",
+          "canonical": "H. R. Rep., at 28."
+        },
+        {
+          "start": 619,
+          "end": 646,
+          "text": "H. R. Rep., at 28–29, n. 6.",
+          "type": "record",
+          "canonical": "H. R. Rep., at 28–29, n. 6."
+        },
+        {
+          "start": 985,
+          "end": 1071,
+          "text": "Cf. J. Manning, The Absurdity Doctrine, 116 Harv. L. Rev. 2387, 2417 (2003) (Manning);",
+          "type": "record",
+          "canonical": "Cf. J. Manning, The Absurdity Doctrine, 116 Harv. L. Rev. 2387, 2417 (2003) (Manning);"
+        },
+        {
+          "start": 1072,
+          "end": 1255,
+          "text": "A. Gluck & L. Bressman, Statutory Interpretation From the Inside—An Empirical Study of Congressional Drafting, Delegation, and the Canons: Pt. I, 65 Stan. L. Rev. 901, 973–974 (2013).",
+          "type": "record",
+          "canonical": "A. Gluck & L. Bressman, Statutory Interpretation From the Inside—An Empirical Study of Congressional Drafting, Delegation, and the Canons: Pt. I, 65 Stan. L. Rev. 901, 973–974 (2013)."
+        },
+        {
+          "start": 1376,
+          "end": 1400,
+          "text": "Manning 2411–2412, 2417.",
+          "type": "record",
+          "canonical": "Manning 2411–2412, 2417."
+        },
+        {
+          "start": 1662,
+          "end": 1724,
+          "text": "See Congressional Directory, 96th Cong., 1st Sess. 301 (1979);",
+          "type": "record",
+          "canonical": "See Congressional Directory, 96th Cong., 1st Sess. 301 (1979);"
+        },
+        {
+          "start": 1725,
+          "end": 1740,
+          "text": "S. Rep., at II.",
+          "type": "record",
+          "canonical": "S. Rep., at II."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[has]",
+          "to": "has"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 92,
+          "end": 617
+        }
+      ],
+      "citations": [
+        {
+          "start": 86,
+          "end": 168,
+          "text": "See, e.g., Church of Holy Trinity v. United States, 143 U. S. 457, 464–465 (1892).",
+          "type": "case",
+          "canonical": "143 U.S. 457"
+        },
+        {
+          "start": 431,
+          "end": 524,
+          "text": "United States v. Public Util. Comm'n of Cal., 345 U. S. 295, 319 (1953) (concurring opinion).",
+          "type": "case",
+          "canonical": "345 U.S. 295"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 623,
+          "end": 770
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 1408,
+      "end": 1980,
+      "text": "Company Institute et al. by Douglas Hallward-Driemeier, Amy D. Roy,\nand Robert A. Skinner; for the Mutual Fund Directors Forum by Steven\nA. Engel, Michael H. McGinley, Brian A. Kulp, and David A. Kotler; and\nfor the Separation of Powers Clinic by R. Trent McCotter .\nBriefs of amici curiae urging affrmance were fled for Marlton Partners, L. P. by Andrew W. Robertson; and for Securities-Law Scholars et al.\nby Jamie Crooks.\nBriefs of amici curiae were fled for ATG Capital Management LLC by\nSean L. McGrane; and for the Freedom and Justice Foundation by David\nC. McGrail.",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 89,
+      "text": "612 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 2088,
+      "end": 2118,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 608 (2026) 613\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 364,
+      "end": 365,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 1695,
+      "end": 1697,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2027,
+      "end": 2057,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 89,
+      "text": "614 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 2113,
+      "end": 2143,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 608 (2026) 615\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1976,
+      "end": 1980,
+      "text": "2\n2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 2208,
+      "end": 2238,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 89,
+      "text": "616 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2221,
+      "end": 2251,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 608 (2026) 617\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 2077,
+      "end": 2107,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 89,
+      "text": "618 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 220,
+      "end": 222,
+      "text": "3\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 1799,
+      "end": 1801,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 2043,
+      "end": 2073,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 608 (2026) 619\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1850,
+      "end": 1854,
+      "text": "4\n4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 2137,
+      "end": 2167,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 89,
+      "text": "620 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 2033,
+      "end": 2063,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 608 (2026) 621\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 980,
+      "end": 981,
+      "text": "5",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 1736,
+      "end": 1738,
+      "text": "5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 2230,
+      "end": 2260,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 89,
+      "text": "622 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 2198,
+      "end": 2228,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 608 (2026) 623\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 92,
+      "text": "624 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 617,
+      "end": 623,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 4,
+      "start": 816,
+      "end": 820,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 4,
+      "start": 910,
+      "end": 913,
+      "expectedText": "fow",
+      "text": "flow"
+    },
+    {
+      "page": 4,
+      "start": 968,
+      "end": 971,
+      "expectedText": "fow",
+      "text": "flow"
+    },
+    {
+      "page": 4,
+      "start": 1080,
+      "end": 1088,
+      "expectedText": "netasset",
+      "text": "net-asset"
+    },
+    {
+      "page": 4,
+      "start": 1138,
+      "end": 1149,
+      "expectedText": "fuctuations",
+      "text": "fluctuations"
+    },
+    {
+      "page": 4,
+      "start": 1720,
+      "end": 1724,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 1861,
+      "end": 1865,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 315,
+      "end": 319,
+      "expectedText": "fows",
+      "text": "flows"
+    },
+    {
+      "page": 5,
+      "start": 439,
+      "end": 452,
+      "expectedText": "lowperforming",
+      "text": "low-performing"
+    },
+    {
+      "page": 5,
+      "start": 689,
+      "end": 694,
+      "expectedText": "proft",
+      "text": "profit"
+    },
+    {
+      "page": 5,
+      "start": 1884,
+      "end": 1888,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 6,
+      "start": 234,
+      "end": 241,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 6,
+      "start": 1409,
+      "end": 1411,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 6,
+      "start": 1574,
+      "end": 1582,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 7,
+      "start": 662,
+      "end": 670,
+      "expectedText": "benefted",
+      "text": "benefited"
+    },
+    {
+      "page": 7,
+      "start": 773,
+      "end": 775,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 7,
+      "start": 1540,
+      "end": 1544,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 7,
+      "start": 1772,
+      "end": 1776,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 7,
+      "start": 2071,
+      "end": 2075,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 8,
+      "start": 448,
+      "end": 456,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 8,
+      "start": 1582,
+      "end": 1592,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 8,
+      "start": 1820,
+      "end": 1827,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 8,
+      "start": 1843,
+      "end": 1851,
+      "expectedText": "fduciary",
+      "text": "fiduciary"
+    },
+    {
+      "page": 9,
+      "start": 201,
+      "end": 209,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 10,
+      "start": 956,
+      "end": 964,
+      "expectedText": "fduciary",
+      "text": "fiduciary"
+    },
+    {
+      "page": 10,
+      "start": 1115,
+      "end": 1123,
+      "expectedText": "fduciary",
+      "text": "fiduciary"
+    },
+    {
+      "page": 10,
+      "start": 1285,
+      "end": 1293,
+      "expectedText": "specifes",
+      "text": "specifies"
+    },
+    {
+      "page": 10,
+      "start": 1463,
+      "end": 1469,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 10,
+      "start": 1582,
+      "end": 1588,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 11,
+      "start": 1674,
+      "end": 1678,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 12,
+      "start": 1649,
+      "end": 1653,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 13,
+      "start": 517,
+      "end": 527,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 13,
+      "start": 1436,
+      "end": 1440,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 13,
+      "start": 2024,
+      "end": 2031,
+      "expectedText": "backfre",
+      "text": "backfire"
+    },
+    {
+      "page": 14,
+      "start": 604,
+      "end": 612,
+      "expectedText": "fctional",
+      "text": "fictional"
+    },
+    {
+      "page": 14,
+      "start": 690,
+      "end": 696,
+      "expectedText": "unifed",
+      "text": "unified"
+    },
+    {
+      "page": 14,
+      "start": 1994,
+      "end": 2004,
+      "expectedText": "objectifed",
+      "text": "objectified"
+    },
+    {
+      "page": 15,
+      "start": 726,
+      "end": 732,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 15,
+      "start": 1085,
+      "end": 1095,
+      "expectedText": "confdently",
+      "text": "confidently"
+    },
+    {
+      "page": 15,
+      "start": 1504,
+      "end": 1515,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 15,
+      "start": 2015,
+      "end": 2023,
+      "expectedText": "fduciary",
+      "text": "fiduciary"
+    },
+    {
+      "page": 16,
+      "start": 477,
+      "end": 488,
+      "expectedText": "unidentifed",
+      "text": "unidentified"
+    },
+    {
+      "page": 16,
+      "start": 1705,
+      "end": 1710,
+      "expectedText": "fnish",
+      "text": "finish"
+    },
+    {
+      "page": 17,
+      "start": 1121,
+      "end": 1124,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 4,
+      "start": 1402,
+      "end": 1407,
+      "expectedText": "coun-",
+      "text": "coun"
+    },
+    {
+      "page": 7,
+      "start": 2109,
+      "end": 2112,
+      "expectedText": "de-",
+      "text": "de"
+    },
+    {
+      "page": 7,
+      "start": 384,
+      "end": 401,
+      "expectedText": "rights -\ncreating",
+      "text": "rights-creating"
+    },
+    {
+      "page": 7,
+      "start": 1640,
+      "end": 1647,
+      "expectedText": "80a–\n46",
+      "text": "80a–46"
+    },
+    {
+      "page": 7,
+      "start": 1933,
+      "end": 1940,
+      "expectedText": "80a–\n46",
+      "text": "80a–46"
+    },
+    {
+      "page": 8,
+      "start": 1862,
+      "end": 1869,
+      "expectedText": "80a–\n35",
+      "text": "80a–35"
+    },
+    {
+      "page": 11,
+      "start": 1936,
+      "end": 1943,
+      "expectedText": "80a–\n35",
+      "text": "80a–35"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "All fourteen bundled source PDF pages and five notes reviewed. Four substantive notes read at markers, including note 2's full next-page continuation; note 1 is explicitly citation-only with individual source references preserved. Every quoted statutory/dictionary passage, parenthetical explanation, legislative-history statement and qualification retained; counsel and separate dissents excluded. Only precise source-reference/attribution spans omitted, semantic ICA/IAA sections kept inline and spoken. Reviewed extraction repairs preserve original coordinate maps."
+}

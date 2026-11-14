@@ -4,16 +4,20 @@ import {citationsIn} from '../dist/reader-authorities.js';
 import {cueAt,cueForSource,matchingCue,bufferedSpans,isBuffering} from '../dist/recorded-audio.js';
 const root=new URL('../dist/',import.meta.url),read=path=>JSON.parse(fs.readFileSync(new URL(path,root),'utf8'));
 const prepared=read('data/prepared-documents.json');
+const hostedPath=new URL('data/recorded-assets.json',root),hosted=fs.existsSync(hostedPath)?read('data/recorded-assets.json'):{};
 for(const [id,doc] of Object.entries(prepared)){
- const source=read('data/'+(doc.sourceDocumentId?'docs/'+doc.sourceDocumentId:'current-docs/'+id)+'.json');
+ const source=read(doc.sourceTextPath||'data/'+(doc.sourceDocumentId?'docs/'+doc.sourceDocumentId:'current-docs/'+id)+'.json');
  const body=read(doc.textPath);assert.equal(body.version,doc.version);assert(!doc.paragraphs,'startup inventory contains metadata only');
  for(const paragraph of body.paragraphs){
   assert.equal(paragraph.segments.map(s=>s.text).join(''),paragraph.text);
   for(const segment of paragraph.segments){let lastEnd=0;for(const citation of segment.citations||[]){assert(citation.start>=lastEnd&&citation.end>citation.start&&citation.end<=segment.text.length);assert([citation.label,citation.label.replace(/[.,]$/,'')].includes(segment.text.slice(citation.start,citation.end)));lastEnd=citation.end}assert.equal(segment.text.length,segment.map.length);assert(segment.map.every((offset,i)=>Number.isInteger(offset)&&offset>=0&&offset<source.pages[segment.page].text.length&&(i===0||offset>=segment.map[i-1])))}
  }
  for(const recording of Object.values(doc.recordings)){
-  assert(fs.statSync(new URL(recording.url,root)).size>1000);
   const data=read(recording.cuesPath);assert.equal(data.version,doc.version);assert.equal(data.duration,recording.duration);assert(data.cues.length>0);
+  if(recording.url.startsWith('https:')){
+   const proof=hosted[data.audioSha256];assert(proof&&proof.url===recording.url&&proof.bytes>1000&&Number.isInteger(proof.releaseAssetId));
+   assert.match(recording.url,new RegExp('^https://github\\.com/davidamiel/ninefold/releases/download/recorded-audio-ot\\d{2}/'+data.audioSha256.slice(0,24)+'\\.mp3$'));
+  }else assert(fs.statSync(new URL(recording.url,root)).size>1000);
   let previous=-1;
   for(const cue of data.cues){
    assert(cue.start>=previous&&cue.end>cue.start&&cue.end<=data.duration);previous=cue.start;
@@ -24,7 +28,7 @@ for(const [id,doc] of Object.entries(prepared)){
   if(id==='26A560-e0601b5a934c')assert.match(data.cues.at(-1).text,/Justice Jackson would deny/);
   if(body.reviewedCitations){
    const notes=body.paragraphs.filter(p=>p.kind==='footnote'&&!p.citationOnly);
-   for(const note of notes){assert(data.cues.some(c=>c.footnote===note.label&&c.text.startsWith('Footnote '+note.label+':')));assert(data.cues.some(c=>c.footnote===note.label&&c.transition&&c.text==='End footnote '+note.label+'.'))}
+   for(const note of notes){assert(data.cues.some(c=>c.footnote===note.label&&c.text.startsWith('Footnote '+note.label+':')));assert(data.cues.some(c=>c.footnote===note.label&&c.text.endsWith('End footnote '+note.label+'.')))}
   }
  }
 }

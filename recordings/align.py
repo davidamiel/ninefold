@@ -17,7 +17,7 @@ class AlignmentReviewError(ValueError):
 
 
 def tokens(text):
-    return [(word, match.start(), match.end()) for match in re.finditer(r'[A-Za-z0-9]+', text)
+    return [(word, match.start(), match.end()) for match in re.finditer(r'[A-Za-z]+|\d+', text)
             for word in number_words(match.group().lower())]
 
 
@@ -44,7 +44,13 @@ def timing_pairs(expected, heard):
     result = pairs(expected, heard)
     matcher = difflib.SequenceMatcher(None, expected, heard, autojunk=False)
     for tag, a, b, c, d in matcher.get_opcodes():
-        if tag != 'replace' or b-a != d-c or b-a > 4:
+        if tag != 'replace':
+            continue
+        left_words, right_words = expected[a:b], heard[c:d]
+        if joined_spelling(left_words, right_words):
+            result.update((index, c) for index in range(a, b))
+            continue
+        if b-a != d-c or b-a > 4:
             continue
         for left, right in zip(range(a, b), range(c, d)):
             if min(len(expected[left]), len(heard[right])) < 4:
@@ -52,6 +58,15 @@ def timing_pairs(expected, heard):
             if difflib.SequenceMatcher(None, expected[left], heard[right]).ratio() >= .8:
                 result[left] = right
     return result
+
+
+def joined_spelling(left, right):
+    if len(right) != 1 or not 1 < len(left) <= 8:
+        return False
+    joined = ''.join(left)
+    if joined == right[0]:
+        return True
+    return all(len(word) == 1 for word in left) and difflib.SequenceMatcher(None, joined, right[0]).ratio() >= .8
 
 
 def source_ranges(paragraph, start, end):
@@ -89,13 +104,15 @@ def sentence_cue(sentence, para, canonical, alignment, block_index):
         return None  # Closing quotation punctuation has no separately spoken words.
     timed = [alignment['heard'][alignment['timing'][i]][1] for i in indexes if i in alignment['timing']]
     mapped = [alignment['mapping'][i] for i in indexes if i in alignment['mapping']]
-    transition = bool(re.fullmatch(r'End footnote \d+\.', text.strip()))
+    announcement = text.lstrip(' \t\n”’"\')].')
+    transition = bool(re.fullmatch(r'End footnote \d+\.', announcement))
     if not timed or len(timed)/max(1, len(indexes)) < .5 or not mapped and not transition:
         raise AlignmentReviewError(block_index, f'Audio sentence needs review: block {block_index}: {text}')
     start, end = sentence_source_bounds(canonical, alignment['source'], mapped, transition)
     cue = {'start': round(max(para['start'], timed[0]['start']), 3), 'end': round(min(para['end'], timed[-1]['end']), 3),
            'paragraph': block_index, 'ranges': source_ranges(canonical, start, end), 'text': text}
     if transition:
+        cue['text'] = announcement
         cue['transition'] = True
     if canonical['kind'] == 'footnote':
         cue['footnote'] = canonical['label']
@@ -142,6 +159,7 @@ def align_with_repairs(body, narration, report, words, refine):
             return align(body, narration, report, words), words
         except AlignmentReviewError as error:
             if error.block in repaired:
+                error.words = words
                 raise
             repaired.add(error.block)
             index = narration['spokenBlocks'].index(error.block)
@@ -164,15 +182,18 @@ def decode_audio(audio):
 
 
 class Transcriber:
-    def __init__(self, audio):
+    def __init__(self, audio, model_name='base.en', device='cpu'):
         self.audio = audio
+        self.model_name = model_name
+        self.device = device
         self.model = None
         self.samples = None
 
     def words(self, start=0, end=None):
         if self.model is None:
             from faster_whisper import WhisperModel
-            self.model = WhisperModel('base.en', device='cpu', compute_type='int8', cpu_threads=6,
+            self.model = WhisperModel(self.model_name, device=self.device,
+                                      compute_type='float16' if self.device == 'mps' else 'int8', cpu_threads=6,
                                       download_root=str(ROOT/'scripts/cache/narration/whisper'), local_files_only=True)
         if self.samples is None:
             self.samples = decode_audio(self.audio)
@@ -181,11 +202,18 @@ class Transcriber:
                                             vad_filter=False, condition_on_previous_text=False)
         return [{'text': w.word, 'start': start+w.start, 'end': start+w.end} for segment in segments for w in segment.words]
 
+    def contextual_words(self, start, end):
+        # A very short sentence can lose legal vocabulary when recognized alone.
+        # Retain neighboring acoustics, then return only words in this paragraph.
+        return [word for word in self.words(max(0, start-12), end+12)
+                if start <= (word['start']+word['end'])/2 < end]
+
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('job', type=Path)
     parser.add_argument('--voice', choices=['female', 'male'], required=True)
+    parser.add_argument('--device', choices=['cpu', 'mps'], default='cpu')
     parser.add_argument('--output', type=Path, default=ROOT/'work/recordings')
     args = parser.parse_args()
     _, document_id = load_job(args.job)
@@ -200,14 +228,23 @@ def main():
     if audio_hash != report['audioSha256']:
         raise ValueError('Audio changed after generation')
     from importlib.metadata import version
-    identity = hashlib.sha256((audio_hash+'|base.en|beam5|vad:false|'+version('faster-whisper')).encode()).hexdigest()[:20]
+    identity = hashlib.sha256((audio_hash+'|base.en+small.en-context|beam5|vad:false|'+args.device+'|'+version('faster-whisper')).encode()).hexdigest()[:20]
     cache = local_path(folder/(identity+'-words.json'), folder)
-    transcriber = Transcriber(audio)
+    transcriber = Transcriber(audio, device=args.device)
     if cache.exists():
         words = json.loads(cache.read_text())
     else:
         words = transcriber.words()
-    result, words = align_with_repairs(body, narration, report, words, transcriber.words)
+    try:
+        result, words = align_with_repairs(body, narration, report, words, transcriber.words)
+    except AlignmentReviewError as error:
+        print('Rechecking unclear audio with the higher-accuracy local recognizer.', flush=True)
+        fallback = Transcriber(audio, 'small.en', device=args.device)
+        try:
+            result, words = align_with_repairs(body, narration, report, getattr(error, 'words', words), fallback.words)
+        except AlignmentReviewError as isolated_error:
+            result, words = align_with_repairs(body, narration, report,
+                                              isolated_error.words, fallback.contextual_words)
     cache.write_text(json.dumps(words)+'\n')
     destination = local_path(folder/(args.voice+'-cues.json'), folder)
     destination.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n')

@@ -1,8 +1,10 @@
 """Generate reviewed recording jobs locally; not part of the website build."""
 from pathlib import Path
-import argparse,hashlib,json,re
+import argparse,hashlib,json,re,tempfile
 
 ROOT=Path(__file__).resolve().parents[1]
+JSON_SUFFIX='.json'
+MODEL_DIRECTORY=ROOT/'scripts/cache/narration'
 
 def local_path(value,root):
     """Resolve symlinks before enforcing the allowed recording directory."""
@@ -13,7 +15,7 @@ def local_path(value,root):
 
 def load_job(value,root=ROOT/'recordings'):
     path=local_path(value,root)
-    if path.suffix!='.json':
+    if path.suffix!=JSON_SUFFIX:
         raise ValueError('A reviewed JSON job is required')
     job=json.loads(path.read_text())
     if not isinstance(job,dict):
@@ -22,6 +24,17 @@ def load_job(value,root=ROOT/'recordings'):
     if not isinstance(document_id,str) or re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{0,119}',document_id) is None:
         raise ValueError('Invalid recording document identifier')
     return job,document_id
+
+
+def save_clip(samples, rate, cache):
+    import soundfile as sf
+    with tempfile.NamedTemporaryFile(dir=cache.parent, suffix='.tmp.wav', delete=False) as file:
+        temporary=local_path(file.name,cache.parent)
+    try:
+        sf.write(temporary,samples,rate,subtype='FLOAT')
+        temporary.replace(cache)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
@@ -39,9 +52,11 @@ if __name__=='__main__':
     voice={'female':'af_sky','male':'am_michael'}[gender]
     output_root=local_path(args.output,ROOT/'work')
     output=local_path(output_root/document_id,output_root)
-    model=local_path(args.model,ROOT/'scripts/cache/narration')
-    voices=local_path(args.voices,ROOT/'scripts/cache/narration')
+    model=local_path(args.model,MODEL_DIRECTORY)
+    voices=local_path(args.voices,MODEL_DIRECTORY)
     output.mkdir(parents=True,exist_ok=True)
+    clips=local_path(output_root/'clips',output_root)
+    clips.mkdir(parents=True,exist_ok=True)
     if 'blocks' in job:
         from prepare import prepare
         body,job=prepare(job)
@@ -52,12 +67,12 @@ if __name__=='__main__':
     from importlib.metadata import version
     if args.engine=='mlx':
         import mlx_backend
-        mlx_model=local_path(args.mlx_model,ROOT/'scripts/cache/narration')
+        mlx_model=local_path(args.mlx_model,MODEL_DIRECTORY)
         fingerprint=mlx_backend.fingerprint(mlx_model)
     else:
         fingerprint=hashlib.sha256(model.read_bytes()+voices.read_bytes()+version('kokoro-onnx').encode()+version('onnxruntime').encode()+b'pause:.18,.07;rate:1').hexdigest()
     import av,numpy as np,soundfile as sf
-    report_path=local_path(output/(gender+'.json'),output)
+    report_path=local_path(output/(gender+JSON_SUFFIX),output)
     mp3_path=local_path(output/(gender+'.mp3'),output)
     script_hash=hashlib.sha256(json.dumps(job['spokenParagraphs'],ensure_ascii=False).encode()).hexdigest()
     if args.resume and report_path.exists() and mp3_path.exists():
@@ -76,22 +91,24 @@ if __name__=='__main__':
     pieces=[];paragraphs=[];offset=0;rate=24000
     for index,text in enumerate(job['spokenParagraphs']):
         text=' '.join(text.split())
-        cache=local_path(output/(hashlib.sha256((voice+'|'+fingerprint+'|'+text).encode()).hexdigest()+'.wav'),output)
+        clip_name=hashlib.sha256((voice+'|'+fingerprint+'|'+text).encode()).hexdigest()+'.wav'
+        cache=local_path(clips/clip_name,clips)
+        legacy=local_path(output/clip_name,output)
+        cached=cache if cache.exists() else legacy
         samples=None
-        if cache.exists():
+        if cached.exists():
             try:
-                candidate,cached_rate=sf.read(cache,dtype='float32')
+                candidate,cached_rate=sf.read(cached,dtype='float32')
                 if cached_rate==24000 and candidate.ndim==1 and np.isfinite(candidate).all() and len(candidate)>=cached_rate*.1:
                     samples,rate=candidate,cached_rate
+                    if cached!=cache:save_clip(samples,rate,cache)
             except (OSError,RuntimeError,ValueError):
                 pass  # An interrupted cache file is regenerated below.
         if samples is None:
             if args.engine=='mlx':samples,rate=mlx_backend.create(tts,text,voice)
             else:samples,rate=tts.create(text,voice=voice,speed=1,lang='en-us',sentence_pause=.18,clause_pause=.07)
             if rate!=24000 or samples.ndim!=1 or not np.isfinite(samples).all() or len(samples)<rate*.1:raise ValueError('Invalid generated audio')
-            temporary=local_path(cache.with_suffix('.tmp.wav'),output)
-            sf.write(temporary,samples,rate,subtype='FLOAT')
-            temporary.replace(cache)
+            save_clip(samples,rate,cache)
         samples=samples.copy();fade=min(int(rate*.005),len(samples)//2)
         samples[:fade]*=np.linspace(0,1,fade);samples[-fade:]*=np.linspace(1,0,fade)
         paragraphs.append({'paragraph':index,'start':offset/rate,'end':(offset+len(samples))/rate,'text':text})
@@ -101,7 +118,7 @@ if __name__=='__main__':
     if peak:audio*=min(1,.89125/peak)
     wav_path=local_path(output/(gender+'.wav'),output)
     mp3_path=local_path(output/(gender+'.mp3'),output)
-    report_path=local_path(output/(gender+'.json'),output)
+    report_path=local_path(output/(gender+JSON_SUFFIX),output)
     sf.write(wav_path,audio,rate,subtype='PCM_16')
     with av.open(str(mp3_path),'w') as container:
         stream=container.add_stream('libmp3lame',rate=rate);stream.bit_rate=64000;stream.layout='mono'

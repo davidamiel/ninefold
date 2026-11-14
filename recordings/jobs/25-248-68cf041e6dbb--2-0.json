@@ -1,0 +1,1046 @@
+{
+  "reviewed": true,
+  "documentId": "25-248-68cf041e6dbb--2-0",
+  "sourceDocumentId": "25-248-68cf041e6dbb",
+  "sourceTextPath": "dist/data/docs/25-248-68cf041e6dbb.json",
+  "sourceTextSha256": "f1971bb5c8a100914a799d51da326d41bc102d47b2e456711177f16af23e0233",
+  "sourcePdfPath": "dist/data/pdfs/25-248-68cf041e6dbb--2-0.pdf",
+  "sourcePdfSha256": "d383a3165c4d43be3a5c246c615c39236e0df4c85e13db5085f503002bdce19f",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-04-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r26_ppl4.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 789,
+    "endPage": 7,
+    "endOffset": 1371
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 789,
+          "end": 1621
+        }
+      ],
+      "citations": [
+        {
+          "start": 501,
+          "end": 528,
+          "text": "App. to Pet. for Cert. 48a.",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 48a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[p]olice",
+          "to": "police"
+        },
+        {
+          "from": "D. C.",
+          "to": "D C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1621,
+          "end": 1969
+        }
+      ],
+      "citations": [
+        {
+          "start": 142,
+          "end": 186,
+          "text": "In re R.W., 334 A. 3d 593, 599 (D. C. 2025).",
+          "type": "case",
+          "canonical": "334 A.3d 593"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1969,
+          "end": 2150
+        },
+        {
+          "page": 3,
+          "start": 43,
+          "end": 670
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 274,
+          "end": 383,
+          "text": "United States v. Arvizu, 534 U. S. 266, 273 (2002) (quoting United States v. Sokolow, 490 U. S. 1, 7 (1989)).",
+          "type": "case",
+          "canonical": "534 U.S. 266"
+        },
+        {
+          "start": 625,
+          "end": 655,
+          "text": "Arvizu, 534 U. S., at 273–274.",
+          "type": "case",
+          "canonical": "534 U.S. 266"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "sto[p]",
+          "to": "stop"
+        },
+        {
+          "from": "fall[s]",
+          "to": "falls"
+        },
+        {
+          "from": "[a]",
+          "to": "a"
+        },
+        {
+          "from": "D. C.",
+          "to": "D C"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 670,
+          "end": 671
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 672,
+          "end": 1770
+        }
+      ],
+      "citations": [
+        {
+          "start": 945,
+          "end": 963,
+          "text": "334 A. 3d, at 599.",
+          "type": "case",
+          "canonical": "334 A.3d 593"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]t",
+          "to": "it"
+        },
+        {
+          "from": "[was]",
+          "to": "was"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1770,
+          "end": 1888
+        },
+        {
+          "page": 4,
+          "start": 43,
+          "end": 52
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "D. C.",
+          "to": "D C"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1647,
+          "end": 2004
+        }
+      ],
+      "citations": [
+        {
+          "start": 294,
+          "end": 359,
+          "text": "334 A. 3d, at 599 (citing Terry v. Ohio, 392 U. S. 1, 21 (1968)).",
+          "type": "case",
+          "canonical": "334 A.3d 593"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "D. C.",
+          "to": "D C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 53,
+          "end": 709
+        }
+      ],
+      "citations": [
+        {
+          "start": 161,
+          "end": 208,
+          "text": "Id., at 600 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "334 A.3d 593"
+        },
+        {
+          "start": 422,
+          "end": 434,
+          "text": "Id., at 597.",
+          "type": "case",
+          "canonical": "334 A.3d 593"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "assess[ed]",
+          "to": "assessed"
+        },
+        {
+          "from": "weigh[ing]",
+          "to": "weighing"
+        },
+        {
+          "from": "excis[ed]",
+          "to": "excised"
+        },
+        {
+          "from": "D. C.",
+          "to": "D C"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 709,
+          "end": 711
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 712,
+          "end": 1646
+        },
+        {
+          "page": 5,
+          "start": 43,
+          "end": 123
+        }
+      ],
+      "citations": [
+        {
+          "start": 254,
+          "end": 281,
+          "text": "Sokolow, 490 U. S., at 7–8.",
+          "type": "case",
+          "canonical": "490 U.S. 1"
+        },
+        {
+          "start": 476,
+          "end": 563,
+          "text": "Arvizu, 534 U. S., at 273 (quoting United States v. Cortez, 449 U. S. 411, 417 (1981)).",
+          "type": "case",
+          "canonical": "534 U.S. 266"
+        },
+        {
+          "start": 725,
+          "end": 836,
+          "text": "Kansas v. Glover, 589 U. S. 376, 380 (2020) (quoting Prado Navarette v. California, 572 U. S. 393, 402 (2014)).",
+          "type": "case",
+          "canonical": "589 U.S. 376"
+        },
+        {
+          "start": 930,
+          "end": 1017,
+          "text": "Glover, 589 U. S., at 380–381 (quoting Illinois v. Wardlow, 528 U. S. 119, 125 (2000)).",
+          "type": "case",
+          "canonical": "589 U.S. 376"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 123,
+          "end": 978
+        }
+      ],
+      "citations": [
+        {
+          "start": 412,
+          "end": 424,
+          "text": "Id., at 124.",
+          "type": "case",
+          "canonical": "528 U.S. 119"
+        },
+        {
+          "start": 750,
+          "end": 858,
+          "text": "Maryland v. Pringle, 540 U. S. 366, 373 (2003) (quoting Wyoming v. Houghton, 526 U. S. 295, 304–305 (1999)).",
+          "type": "case",
+          "canonical": "540 U.S. 366"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 978,
+          "end": 1853
+        }
+      ],
+      "citations": [
+        {
+          "start": 700,
+          "end": 747,
+          "text": "See Sibron v. New York, 392 U. S. 40, 66 (1968)",
+          "type": "case",
+          "canonical": "392 U.S. 40"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1853,
+          "end": 1856
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1857,
+          "end": 1977
+        },
+        {
+          "page": 6,
+          "start": 43,
+          "end": 506
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 252,
+          "text": "334 A. 3d, at 597.",
+          "type": "case",
+          "canonical": "334 A.3d 593"
+        },
+        {
+          "start": 356,
+          "end": 382,
+          "text": "Arvizu, 534 U. S., at 274.",
+          "type": "case",
+          "canonical": "534 U.S. 266"
+        },
+        {
+          "start": 524,
+          "end": 582,
+          "text": "District of Columbia v. Wesby, 583 U. S. 48, 60–61 (2018).",
+          "type": "case",
+          "canonical": "583 U.S. 48"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "excis[ing]",
+          "to": "excising"
+        },
+        {
+          "from": "D. C.",
+          "to": "D C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 506,
+          "end": 1100
+        }
+      ],
+      "citations": [
+        {
+          "start": 289,
+          "end": 336,
+          "text": "Cf. Ybarra v. Illinois, 444 U. S. 85, 91 (1979)",
+          "type": "case",
+          "canonical": "444 U.S. 85"
+        },
+        {
+          "start": 570,
+          "end": 596,
+          "text": "Cortez, 449 U. S., at 417.",
+          "type": "case",
+          "canonical": "449 U.S. 411"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1100,
+          "end": 1966
+        }
+      ],
+      "citations": [
+        {
+          "start": 431,
+          "end": 449,
+          "text": "334 A. 3d, at 605.",
+          "type": "case",
+          "canonical": "334 A.3d 593"
+        },
+        {
+          "start": 572,
+          "end": 637,
+          "text": "Navarette, 572 U. S., at 403 (quoting Arvizu, 534 U. S., at 277).",
+          "type": "case",
+          "canonical": "572 U.S. 393"
+        },
+        {
+          "start": 843,
+          "end": 869,
+          "text": "Glover, 589 U. S., at 381.",
+          "type": "case",
+          "canonical": "589 U.S. 376"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1966,
+          "end": 2085
+        },
+        {
+          "page": 7,
+          "start": 56,
+          "end": 1034
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 196,
+          "text": "Barnes v. Felix, 605 U. S. 73, 80 (2025) (quoting Scott v. Harris, 550 U. S. 372, 383 (2007)).",
+          "type": "case",
+          "canonical": "605 U.S. 73"
+        },
+        {
+          "start": 284,
+          "end": 348,
+          "text": "Barnes, 605 U. S., at 80 (quoting Scott, 550 U. S., at 382–383),",
+          "type": "case",
+          "canonical": "605 U.S. 73"
+        },
+        {
+          "start": 461,
+          "end": 521,
+          "text": "Wesby, 583 U. S., at 60 (quoting Cortez, 449 U. S., at 417).",
+          "type": "case",
+          "canonical": "583 U.S. 48"
+        },
+        {
+          "start": 580,
+          "end": 598,
+          "text": "334 A. 3d, at 599.",
+          "type": "case",
+          "canonical": "334 A.3d 593"
+        },
+        {
+          "start": 763,
+          "end": 775,
+          "text": "Id., at 605.",
+          "type": "case",
+          "canonical": "334 A.3d 593"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "[its]",
+          "to": "its"
+        },
+        {
+          "from": "excis[ed]",
+          "to": "excised"
+        },
+        {
+          "from": "D. C.",
+          "to": "D C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1040,
+          "end": 1303
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1303,
+          "end": 1371
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 2150,
+      "end": 2180,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 43,
+      "text": "24 DISTRICT OF COLUMBIA v. R.W.\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 1888,
+      "end": 1918,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 43,
+      "text": "Cite as: 608 U. S. 22 (2026) 25\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 52,
+      "end": 53,
+      "text": "*",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 1646,
+      "end": 1647,
+      "text": "*",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 2004,
+      "end": 2034,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 43,
+      "text": "26 DISTRICT OF COLUMBIA v. R.W.\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 1977,
+      "end": 2007,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 43,
+      "text": "Cite as: 608 U. S. 22 (2026) 27\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2085,
+      "end": 2115,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 56,
+      "text": "28 DISTRICT OF COLUMBIA v. R.W.\nJackson, J., dissenting\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1034,
+      "end": 1040,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 90,
+      "end": 96,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 2,
+      "start": 512,
+      "end": 518,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 2,
+      "start": 889,
+      "end": 895,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 2,
+      "start": 1000,
+      "end": 1007,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 2,
+      "start": 1017,
+      "end": 1023,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 2,
+      "start": 1190,
+      "end": 1193,
+      "expectedText": "fee",
+      "text": "flee"
+    },
+    {
+      "page": 2,
+      "start": 1445,
+      "end": 1451,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 2,
+      "start": 1669,
+      "end": 1675,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 2,
+      "start": 1727,
+      "end": 1736,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 2,
+      "start": 1858,
+      "end": 1864,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 2,
+      "start": 1977,
+      "end": 1983,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 2,
+      "start": 2115,
+      "end": 2123,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 2,
+      "start": 2131,
+      "end": 2137,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 3,
+      "start": 267,
+      "end": 273,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 3,
+      "start": 593,
+      "end": 599,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 3,
+      "start": 710,
+      "end": 716,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 3,
+      "start": 1200,
+      "end": 1206,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 3,
+      "start": 1255,
+      "end": 1261,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 3,
+      "start": 1333,
+      "end": 1341,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 3,
+      "start": 1359,
+      "end": 1365,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 3,
+      "start": 1385,
+      "end": 1391,
+      "expectedText": "feeing",
+      "text": "fleeing"
+    },
+    {
+      "page": 3,
+      "start": 1477,
+      "end": 1483,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 4,
+      "start": 65,
+      "end": 69,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 4,
+      "start": 269,
+      "end": 273,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 4,
+      "start": 396,
+      "end": 401,
+      "expectedText": "fight",
+      "text": "flight"
+    },
+    {
+      "page": 4,
+      "start": 759,
+      "end": 765,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 4,
+      "start": 872,
+      "end": 878,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 4,
+      "start": 1095,
+      "end": 1101,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 4,
+      "start": 1557,
+      "end": 1564,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 4,
+      "start": 1687,
+      "end": 1693,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 4,
+      "start": 1726,
+      "end": 1730,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 4,
+      "start": 1841,
+      "end": 1847,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 5,
+      "start": 150,
+      "end": 156,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 5,
+      "start": 298,
+      "end": 304,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 5,
+      "start": 453,
+      "end": 458,
+      "expectedText": "fight",
+      "text": "flight"
+    },
+    {
+      "page": 5,
+      "start": 610,
+      "end": 615,
+      "expectedText": "fight",
+      "text": "flight"
+    },
+    {
+      "page": 5,
+      "start": 1125,
+      "end": 1128,
+      "expectedText": "fed",
+      "text": "fled"
+    },
+    {
+      "page": 5,
+      "start": 1550,
+      "end": 1555,
+      "expectedText": "fight",
+      "text": "flight"
+    },
+    {
+      "page": 5,
+      "start": 1776,
+      "end": 1781,
+      "expectedText": "fight",
+      "text": "flight"
+    },
+    {
+      "page": 5,
+      "start": 1811,
+      "end": 1818,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 6,
+      "start": 614,
+      "end": 619,
+      "expectedText": "fight",
+      "text": "flight"
+    },
+    {
+      "page": 6,
+      "start": 687,
+      "end": 693,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 6,
+      "start": 744,
+      "end": 750,
+      "expectedText": "feeing",
+      "text": "fleeing"
+    },
+    {
+      "page": 6,
+      "start": 1126,
+      "end": 1129,
+      "expectedText": "fee",
+      "text": "flee"
+    },
+    {
+      "page": 6,
+      "start": 1166,
+      "end": 1172,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 6,
+      "start": 1315,
+      "end": 1321,
+      "expectedText": "feeing",
+      "text": "fleeing"
+    },
+    {
+      "page": 6,
+      "start": 1759,
+      "end": 1765,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 7,
+      "start": 812,
+      "end": 815,
+      "expectedText": "fed",
+      "text": "fled"
+    },
+    {
+      "page": 7,
+      "start": 1662,
+      "end": 1668,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 3,
+      "start": 1882,
+      "end": 1887,
+      "expectedText": "adju-",
+      "text": "adju"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full Court body and substantive star footnote checked against all six bundled PDF pages. Substantive quotations and explanatory parentheticals retained; source references individually omitted. Source ligature and flee/flight artifacts repaired against PDF; no separate dissent included."
+}

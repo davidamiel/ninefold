@@ -1,0 +1,517 @@
+{
+  "reviewed": true,
+  "documentId": "25A312-160e5fa4af84--35-274",
+  "sourceDocumentId": "25A312-160e5fa4af84",
+  "sourceTextPath": "dist/data/docs/25A312-160e5fa4af84.json",
+  "sourceTextSha256": "1dd5e36bbcb09e6dff9cfd12299effb6395a5ca62f9b5db50c6e4c4dfa8a89c7",
+  "sourcePdfPath": "dist/data/pdfs/25A312-160e5fa4af84--35-274.pdf",
+  "sourcePdfSha256": "7f5a1802f06c8004d375d4128c61cd4094e588cd67bc01fec23c6ca01c100f69",
+  "title": "Concurrence",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-06-29",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf",
+  "sourceRange": {
+    "startPage": 35,
+    "startOffset": 303,
+    "endPage": 38,
+    "endOffset": 213
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 303,
+          "end": 1393
+        }
+      ],
+      "citations": [
+        {
+          "start": 399,
+          "end": 499,
+          "text": "Noem v. Doe, 605 U. S. 960, 962 (2025) (Jackson, J., dissenting from grant of application for stay).",
+          "type": "case",
+          "canonical": "605 U.S. 960"
+        },
+        {
+          "start": 655,
+          "end": 696,
+          "text": "Nken v. Holder, 556 U. S. 418, 432 (2009)",
+          "type": "case",
+          "canonical": "556 U.S. 418"
+        },
+        {
+          "start": 697,
+          "end": 764,
+          "text": "(quoting Scripps-Howard Radio, Inc. v. FCC, 316 U. S. 4, 9 (1942)),",
+          "type": "case",
+          "canonical": "316 U.S. 4"
+        },
+        {
+          "start": 989,
+          "end": 1090,
+          "text": "Trump v. Orr, 607 U. S. \u2013\u2013\u2013, \u2013\u2013\u2013 (2025) (Jackson, J., dissenting from grant of application for stay).",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Trump v. Orr"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1393,
+          "end": 1634
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1634,
+          "end": 1803
+        },
+        {
+          "page": 36,
+          "start": 58,
+          "end": 772
+        }
+      ],
+      "citations": [
+        {
+          "start": 218,
+          "end": 264,
+          "text": "Application to Stay Preliminary Injunction 36;",
+          "type": "record",
+          "canonical": "Application to stay preliminary injunction, p. 36"
+        },
+        {
+          "start": 265,
+          "end": 356,
+          "text": "see also post, at 568\u2013569, 595 (Thomas, J., dissenting from denial of application for stay)",
+          "type": "reference",
+          "canonical": "Thomas dissent, pp. 568-569, 595"
+        },
+        {
+          "start": 505,
+          "end": 539,
+          "text": "(internal quotation marks omitted)",
+          "type": "reference",
+          "canonical": "Quotation typography"
+        },
+        {
+          "start": 699,
+          "end": 748,
+          "text": "Orr, 607 U. S., at \u2013\u2013\u2013 (Jackson, J., dissenting).",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Trump v. Orr"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "allow[ed]",
+          "to": "allowed"
+        },
+        {
+          "from": "[is]",
+          "to": "is"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1725,
+          "end": 2249
+        }
+      ],
+      "label": "1"
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 774,
+          "end": 1190
+        }
+      ],
+      "citations": [
+        {
+          "start": 249,
+          "end": 308,
+          "text": "Nken, 556 U. S., at 426 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "556 U.S. 418"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1190,
+          "end": 1724
+        },
+        {
+          "page": 37,
+          "start": 42,
+          "end": 196
+        }
+      ],
+      "citations": [
+        {
+          "start": 167,
+          "end": 230,
+          "text": "Brief for Former Treasury Secretaries et al. as Amici Curiae 6.",
+          "type": "record",
+          "canonical": "Former Treasury Secretaries amicus brief, p. 6"
+        },
+        {
+          "start": 388,
+          "end": 403,
+          "text": "Id., at 10, 14.",
+          "type": "record",
+          "canonical": "Former Treasury Secretaries amicus brief, pp. 10, 14"
+        },
+        {
+          "start": 678,
+          "end": 689,
+          "text": "Id., at 11.",
+          "type": "record",
+          "canonical": "Former Treasury Secretaries amicus brief, p. 11"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 196,
+          "end": 966
+        }
+      ],
+      "citations": [
+        {
+          "start": 306,
+          "end": 324,
+          "text": "See id., at 14\u201316;",
+          "type": "record",
+          "canonical": "Former Treasury Secretaries amicus brief, pp. 14-16"
+        },
+        {
+          "start": 325,
+          "end": 338,
+          "text": "ante, at 538.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 538"
+        },
+        {
+          "start": 452,
+          "end": 519,
+          "text": "See Brief for Former Treasury Secretaries et al. as Amici Curiae 9.",
+          "type": "record",
+          "canonical": "Former Treasury Secretaries amicus brief, p. 9"
+        },
+        {
+          "start": 710,
+          "end": 774,
+          "text": "Brief for Former Government Officials et al. as Amici Curiae 10.",
+          "type": "record",
+          "canonical": "Former Government Officials amicus brief, p. 10"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 966,
+          "end": 1421
+        }
+      ],
+      "citations": [
+        {
+          "start": 322,
+          "end": 456,
+          "text": "Department of Homeland Security v. D. V. D., 606 U. S. 901, 909 (2025) (Sotomayor, J., dissenting from grant of application for stay).",
+          "type": "case",
+          "canonical": "606 U.S. 901"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1427,
+          "end": 1966
+        },
+        {
+          "page": 38,
+          "start": 57,
+          "end": 213
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 333,
+          "end": 451,
+          "text": "See, e. g., Labrador v. Poe, 601 U. S. 1110, 1134 (2024) (Jackson, J., dissenting from grant of application for stay).",
+          "type": "case",
+          "canonical": "601 U.S. 1110"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 35,
+      "start": 1803,
+      "end": 1833,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running page/author header, publication footer, ornament or footnote marker; note retained at marker."
+    },
+    {
+      "page": 36,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 609 U. S. 528 (2026) 563\nJackson, J., concurring\n",
+      "reason": "Running page/author header, publication footer, ornament or footnote marker; note retained at marker."
+    },
+    {
+      "page": 36,
+      "start": 772,
+      "end": 774,
+      "text": "*\n",
+      "reason": "Running page/author header, publication footer, ornament or footnote marker; note retained at marker."
+    },
+    {
+      "page": 36,
+      "start": 1724,
+      "end": 1725,
+      "text": "*",
+      "reason": "Running page/author header, publication footer, ornament or footnote marker; note retained at marker."
+    },
+    {
+      "page": 36,
+      "start": 2249,
+      "end": 2279,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running page/author header, publication footer, ornament or footnote marker; note retained at marker."
+    },
+    {
+      "page": 37,
+      "start": 0,
+      "end": 42,
+      "text": "564 TRUMP v. COOK\nJackson, J., concurring\n",
+      "reason": "Running page/author header, publication footer, ornament or footnote marker; note retained at marker."
+    },
+    {
+      "page": 37,
+      "start": 1421,
+      "end": 1427,
+      "text": "* * *\n",
+      "reason": "Running page/author header, publication footer, ornament or footnote marker; note retained at marker."
+    },
+    {
+      "page": 37,
+      "start": 1966,
+      "end": 1996,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running page/author header, publication footer, ornament or footnote marker; note retained at marker."
+    },
+    {
+      "page": 38,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 609 U. S. 528 (2026) 565\nThomas, J., dissenting\n",
+      "reason": "Running page/author header, publication footer, ornament or footnote marker; note retained at marker."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 35,
+      "start": 845,
+      "end": 853,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 35,
+      "start": 1674,
+      "end": 1683,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 36,
+      "start": 341,
+      "end": 347,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 36,
+      "start": 1954,
+      "end": 1960,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 36,
+      "start": 1642,
+      "end": 1650,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 36,
+      "start": 1789,
+      "end": 1793,
+      "expectedText": "fows",
+      "text": "flows"
+    },
+    {
+      "page": 36,
+      "start": 1984,
+      "end": 1987,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 36,
+      "start": 2038,
+      "end": 2041,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 36,
+      "start": 2136,
+      "end": 2141,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 37,
+      "start": 156,
+      "end": 165,
+      "expectedText": "shortterm",
+      "text": "short-term"
+    },
+    {
+      "page": 37,
+      "start": 366,
+      "end": 374,
+      "expectedText": "infation",
+      "text": "inflation"
+    },
+    {
+      "page": 37,
+      "start": 412,
+      "end": 420,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 37,
+      "start": 578,
+      "end": 586,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 37,
+      "start": 892,
+      "end": 900,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 37,
+      "start": 930,
+      "end": 938,
+      "expectedText": "Offcials",
+      "text": "Officials"
+    },
+    {
+      "page": 37,
+      "start": 1010,
+      "end": 1013,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 37,
+      "start": 1258,
+      "end": 1263,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 37,
+      "start": 1531,
+      "end": 1537,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 37,
+      "start": 1560,
+      "end": 1567,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 37,
+      "start": 1709,
+      "end": 1724,
+      "expectedText": "emergencydocket",
+      "text": "emergency-docket"
+    },
+    {
+      "page": 37,
+      "start": 1962,
+      "end": 1965,
+      "expectedText": "im-",
+      "text": "im"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

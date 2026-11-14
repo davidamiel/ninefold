@@ -1,0 +1,81 @@
+{
+  "reviewed": true,
+  "documentId": "25A1235-1ddcfa180a7b--0-674",
+  "sourceDocumentId": "25A1235-1ddcfa180a7b",
+  "sourceTextPath": "dist/data/current-docs/25A1235-1ddcfa180a7b.json",
+  "sourceTextSha256": "0034c264f1b53e44c1bf33450b373b430a38f78442c9c0915fddd276e3fe9362",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/1ca886d2f5def18dd0753ad5.pdf",
+  "sourcePdfSha256": "9346548aa063dbac8b9fed8330e977b3b5b1e38844be0ea3654ad94ae81f82e0",
+  "title": "Dissent",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-05-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1235_7648.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 779,
+    "endPage": 1,
+    "endOffset": 344
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 779,
+          "end": 1340
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1340,
+          "end": 1507
+        },
+        {
+          "page": 1,
+          "start": 44,
+          "end": 164
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 164,
+          "end": 344
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 44,
+      "text": "2 GUERRERO v. BUSBY\nJACKSON, J., dissenting\n",
+      "reason": "Running page number and author header."
+    }
+  ],
+  "repairs": [],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Sonia Sotomayor"
+    ]
+  }
+}

@@ -1,0 +1,657 @@
+{
+  "reviewed": true,
+  "documentId": "25A312-160e5fa4af84--74-58",
+  "sourceDocumentId": "25A312-160e5fa4af84",
+  "sourceTextPath": "dist/data/docs/25A312-160e5fa4af84.json",
+  "sourceTextSha256": "1dd5e36bbcb09e6dff9cfd12299effb6395a5ca62f9b5db50c6e4c4dfa8a89c7",
+  "sourcePdfPath": "dist/data/pdfs/25A312-160e5fa4af84--74-58.pdf",
+  "sourcePdfSha256": "bf095944ee6725c099c6101fe7b33a3f9f861cf76fd10aa9f0cfd922de79453e",
+  "title": "Dissent",
+  "author": "Amy Coney Barrett",
+  "date": "2026-06-29",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf",
+  "sourceRange": {
+    "startPage": 74,
+    "startOffset": 87,
+    "endPage": 77,
+    "endOffset": 2056
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 74,
+          "start": 87,
+          "end": 749
+        }
+      ],
+      "citations": [
+        {
+          "start": 168,
+          "end": 210,
+          "text": "See ante, at 596 (Alito , J., dissenting).",
+          "type": "reference",
+          "canonical": "Alito dissent, p. 596"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 74,
+          "start": 749,
+          "end": 1903
+        }
+      ],
+      "citations": [
+        {
+          "start": 335,
+          "end": 354,
+          "text": "Application 2, n. 1",
+          "type": "reference",
+          "canonical": "Application, p. 2 n. 1"
+        },
+        {
+          "start": 475,
+          "end": 499,
+          "text": "see also Reply Brief 13;",
+          "type": "reference",
+          "canonical": "Reply brief, p. 13"
+        },
+        {
+          "start": 500,
+          "end": 528,
+          "text": "Supp. Brief for Applicant 1.",
+          "type": "reference",
+          "canonical": "Supplemental brief for applicant, p. 1"
+        },
+        {
+          "start": 741,
+          "end": 798,
+          "text": "See Cutter v. Wilkinson, 544 U. S. 709, 718, n. 7 (2005);",
+          "type": "case",
+          "canonical": "544 U.S. 709"
+        },
+        {
+          "start": 799,
+          "end": 842,
+          "text": "cf. Trump v. Illinois, 607 U. S. ––– (2025)",
+          "type": "case",
+          "canonical": "Trump v. Illinois (2025)"
+        },
+        {
+          "start": 1137,
+          "end": 1154,
+          "text": "Ante, at 554–556.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 554–556"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article II",
+          "to": "Article two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 74,
+          "start": 1903,
+          "end": 2071
+        },
+        {
+          "page": 75,
+          "start": 42,
+          "end": 1494
+        },
+        {
+          "page": 75,
+          "start": 1510,
+          "end": 1620
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 256,
+          "end": 299,
+          "text": "Ante, at 566–570, 590 (dissenting opinion);",
+          "type": "reference",
+          "canonical": "Thomas dissent, pp. 566–570, 590"
+        },
+        {
+          "start": 300,
+          "end": 409,
+          "text": "see also A. Bamzai & A. Nielson, Article II and the Federal Reserve, 109 Cornell L. Rev. 843, 905–908 (2024);",
+          "type": "reference",
+          "canonical": "A. Bamzai & A. Nielson, Article II and the Federal Reserve (2024)"
+        },
+        {
+          "start": 410,
+          "end": 508,
+          "text": "L. Menand, The Unitary Executive and the Federal Reserve, 94 Ford. L. Rev. 2089, 2119–2121 (2026).",
+          "type": "reference",
+          "canonical": "L. Menand, The Unitary Executive and the Federal Reserve (2026)"
+        },
+        {
+          "start": 608,
+          "end": 629,
+          "text": "609 U. S. 422 (2026).",
+          "type": "case",
+          "canonical": "609 U.S. 422"
+        },
+        {
+          "start": 865,
+          "end": 877,
+          "text": "Id., at 451.",
+          "type": "case",
+          "canonical": "609 U.S. 422"
+        },
+        {
+          "start": 1021,
+          "end": 1034,
+          "text": "Ante, at 557.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 557"
+        },
+        {
+          "start": 1099,
+          "end": 1164,
+          "text": "See Slaughter, 609 U. S., at 524–525 (Sotomayor, J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. 422"
+        },
+        {
+          "start": 1306,
+          "end": 1351,
+          "text": "Cf. ante, at 555, n. 6 (opinion of the Court)",
+          "type": "reference",
+          "canonical": "Court opinion, p. 555 n. 6"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "” )",
+          "to": "”)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 75,
+          "start": 1620,
+          "end": 1972
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 75,
+          "start": 1972,
+          "end": 2087
+        },
+        {
+          "page": 76,
+          "start": 58,
+          "end": 564
+        }
+      ],
+      "citations": [
+        {
+          "start": 127,
+          "end": 165,
+          "text": "Ante, at 599–600 (dissenting opinion).",
+          "type": "reference",
+          "canonical": "Alito dissent, pp. 599–600"
+        },
+        {
+          "start": 512,
+          "end": 531,
+          "text": ", 12 U. S. C. § 242",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 242"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 76,
+          "start": 564,
+          "end": 1059
+        }
+      ],
+      "citations": [
+        {
+          "start": 205,
+          "end": 210,
+          "text": "§ 242",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 242",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 324,
+          "end": 337,
+          "text": "Ante, at 550.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 550"
+        },
+        {
+          "start": 469,
+          "end": 496,
+          "text": "Ante, at 558–559, and n. 8.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 558–559 n. 8"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 242",
+          "to": "section two forty-two"
+        },
+        {
+          "from": "narrow groun[d]",
+          "to": "narrow ground"
+        },
+        {
+          "from": "tr[y] again",
+          "to": "try again"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 76,
+          "start": 1059,
+          "end": 2106
+        },
+        {
+          "page": 77,
+          "start": 42,
+          "end": 495
+        }
+      ],
+      "citations": [
+        {
+          "start": 240,
+          "end": 245,
+          "text": "§ 242",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 242",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 247,
+          "end": 279,
+          "text": "804 F. Supp. 3d 14, 30 (DC 2025)",
+          "type": "case",
+          "canonical": "804 F. Supp. 3d 14"
+        },
+        {
+          "start": 841,
+          "end": 882,
+          "text": "App. to Application 23a (emphasis added).",
+          "type": "appendix",
+          "canonical": "App. to Application 23a"
+        },
+        {
+          "start": 1051,
+          "end": 1121,
+          "text": "See Complaint in No. 1:25–cv–02903 (D DC), ECF Doc. 1–3, Exh. B, p. 2.",
+          "type": "record",
+          "canonical": "No. 1:25–cv–02903, ECF Doc. 1–3, Exhibit B, p. 2"
+        },
+        {
+          "start": 1323,
+          "end": 1341,
+          "text": ", ante, at 551–552",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 551–552"
+        },
+        {
+          "start": 1490,
+          "end": 1504,
+          "text": ", ante, at 547",
+          "type": "reference",
+          "canonical": "Court opinion, p. 547"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 242",
+          "to": "section two forty-two"
+        },
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "[T]here",
+          "to": "There"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 77,
+          "start": 495,
+          "end": 1210
+        }
+      ],
+      "citations": [
+        {
+          "start": 305,
+          "end": 324,
+          "text": "Ante, at 558, n. 8.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 558 n. 8"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "i. e.,",
+          "to": "that is,"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 77,
+          "start": 1210,
+          "end": 1973
+        }
+      ],
+      "citations": [
+        {
+          "start": 114,
+          "end": 165,
+          "text": "See Trump v. Wilcox, 605 U. S. 922, 922–923 (2025);",
+          "type": "case",
+          "canonical": "605 U.S. 922"
+        },
+        {
+          "start": 166,
+          "end": 212,
+          "text": "Trump v. Boyle, 606 U. S. 989, 989–990 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 989"
+        },
+        {
+          "start": 433,
+          "end": 452,
+          "text": "See Application 26.",
+          "type": "reference",
+          "canonical": "Application, p. 26"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 77,
+          "start": 1973,
+          "end": 2056
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 74,
+      "start": 127,
+      "end": 135,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 74,
+      "start": 621,
+      "end": 626,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 75,
+      "start": 93,
+      "end": 103,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 75,
+      "start": 1659,
+      "end": 1669,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 76,
+      "start": 219,
+      "end": 223,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 76,
+      "start": 246,
+      "end": 254,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 76,
+      "start": 420,
+      "end": 428,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 76,
+      "start": 581,
+      "end": 592,
+      "expectedText": "diffculties",
+      "text": "difficulties"
+    },
+    {
+      "page": 76,
+      "start": 733,
+      "end": 742,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 76,
+      "start": 1239,
+      "end": 1244,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 76,
+      "start": 1352,
+      "end": 1356,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 76,
+      "start": 1598,
+      "end": 1603,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 76,
+      "start": 2006,
+      "end": 2015,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 77,
+      "start": 339,
+      "end": 347,
+      "expectedText": "satisfes",
+      "text": "satisfies"
+    },
+    {
+      "page": 77,
+      "start": 473,
+      "end": 478,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 77,
+      "start": 714,
+      "end": 717,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 77,
+      "start": 876,
+      "end": 881,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 77,
+      "start": 908,
+      "end": 913,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 77,
+      "start": 1302,
+      "end": 1307,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 77,
+      "start": 1782,
+      "end": 1790,
+      "expectedText": "satisfes",
+      "text": "satisfies"
+    },
+    {
+      "page": 77,
+      "start": 1869,
+      "end": 1879,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 74,
+      "start": 2066,
+      "end": 2070,
+      "expectedText": "Fed-",
+      "text": "Fed"
+    },
+    {
+      "page": 74,
+      "start": 1714,
+      "end": 1721,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 77,
+      "start": 456,
+      "end": 464,
+      "expectedText": "unftness",
+      "text": "unfitness"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 74,
+      "start": 2071,
+      "end": 2101,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 75,
+      "start": 0,
+      "end": 42,
+      "text": "602 TRUMP v. COOK\nBarrett, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 75,
+      "start": 1494,
+      "end": 1510,
+      "text": "(emphasis\nadded)",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 75,
+      "start": 2087,
+      "end": 2117,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 76,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 609 U. S. 528 (2026) 603\nBarrett, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 76,
+      "start": 2106,
+      "end": 2136,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 77,
+      "start": 0,
+      "end": 42,
+      "text": "604 TRUMP v. COOK\nBarrett, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

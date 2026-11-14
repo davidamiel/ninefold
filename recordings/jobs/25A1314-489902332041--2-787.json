@@ -1,0 +1,482 @@
+{
+  "reviewed": true,
+  "documentId": "25A1314-489902332041--2-787",
+  "sourceDocumentId": "25A1314-489902332041",
+  "sourceTextPath": "dist/data/docs/25A1314-489902332041.json",
+  "sourceTextSha256": "674f47bda26653ac046cbe3fedf0e7fc3d090516c79253cb28572796da63430c",
+  "sourcePdfPath": "dist/data/pdfs/25A1314-489902332041--2-0.pdf",
+  "sourcePdfSha256": "323ae42f012425fd31a7bd296a4c04c6300163038dd476449a757849a8fcb94f",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-06-02",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r42_q8l1.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 799,
+    "endPage": 5,
+    "endOffset": 775
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 799,
+          "end": 1074
+        }
+      ],
+      "citations": [
+        {
+          "start": 23,
+          "end": 45,
+          "text": ", 608 U. S. 85 (2026),",
+          "type": "case",
+          "canonical": "608 U.S. 85"
+        },
+        {
+          "start": 104,
+          "end": 107,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 10301",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 203,
+          "end": 206,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 10301",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 252,
+          "end": 273,
+          "text": ", 478 U. S. 30 (1986)",
+          "type": "case",
+          "canonical": "478 U.S. 30"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2",
+          "to": "Section 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1074,
+          "end": 1804
+        }
+      ],
+      "citations": [
+        {
+          "start": 26,
+          "end": 29,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 10301",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 313,
+          "end": 374,
+          "text": "Callais, 608 U. S., at 98 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "608 U.S. 85"
+        },
+        {
+          "start": 537,
+          "end": 542,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "608 U.S. 85"
+        },
+        {
+          "start": 725,
+          "end": 730,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "608 U.S. 85"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2",
+          "to": "Section 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1804,
+          "end": 2224
+        },
+        {
+          "page": 3,
+          "start": 45,
+          "end": 551
+        }
+      ],
+      "citations": [
+        {
+          "start": 253,
+          "end": 288,
+          "text": "608 U. S., at 119 (emphasis added).",
+          "type": "record",
+          "canonical": "608 U. S., at 119 (emphasis added)."
+        },
+        {
+          "start": 444,
+          "end": 449,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "608 U.S. 85"
+        },
+        {
+          "start": 546,
+          "end": 551,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "608 U.S. 85"
+        },
+        {
+          "start": 774,
+          "end": 790,
+          "text": "Id., at 119–120.",
+          "type": "case",
+          "canonical": "608 U.S. 85"
+        },
+        {
+          "start": 874,
+          "end": 877,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 10301",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2",
+          "to": "Section 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 551,
+          "end": 1296
+        }
+      ],
+      "citations": [
+        {
+          "start": 145,
+          "end": 187,
+          "text": "See Allen v. Caster, 608 U. S. ––– (2026).",
+          "type": "record",
+          "canonical": "See Allen v. Caster, 608 U. S. ––– (2026)."
+        },
+        {
+          "start": 246,
+          "end": 249,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 10301",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 387,
+          "end": 468,
+          "text": "Singleton v. Allen, 782 F. Supp. 3d 1092, 1114, 1309 (ND Ala. 2025) (per curiam).",
+          "type": "case",
+          "canonical": "782 F.Supp.3d 1092"
+        },
+        {
+          "start": 731,
+          "end": 744,
+          "text": "Id., at 1355.",
+          "type": "case",
+          "canonical": "782 F.Supp.3d 1092"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[b]lack",
+          "to": "black"
+        },
+        {
+          "from": "refus[al]",
+          "to": "refusal"
+        },
+        {
+          "from": "§ 2",
+          "to": "Section 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1296,
+          "end": 1494
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1494,
+          "end": 2095
+        },
+        {
+          "page": 4,
+          "start": 64,
+          "end": 919
+        }
+      ],
+      "citations": [
+        {
+          "start": 123,
+          "end": 211,
+          "text": "See Abbott v. League of United Latin American Citizens, 607 U. S. –––, ––– – ––– (2025).",
+          "type": "record",
+          "canonical": "See Abbott v. League of United Latin American Citizens, 607 U. S. –––, ––– – ––– (2025)."
+        },
+        {
+          "start": 384,
+          "end": 467,
+          "text": "see Alexander v. South Carolina State Conference of NAACP , 602 U. S. 1, 10 (2024),",
+          "type": "case",
+          "canonical": "602 U.S. 1"
+        },
+        {
+          "start": 597,
+          "end": 648,
+          "text": "Cf. Abbott v. Perez, 585 U. S. 579, 608–609 (2018).",
+          "type": "case",
+          "canonical": "585 U.S. 579"
+        },
+        {
+          "start": 938,
+          "end": 956,
+          "text": "608 U. S., at 119.",
+          "type": "record",
+          "canonical": "608 U. S., at 119."
+        },
+        {
+          "start": 1435,
+          "end": 1455,
+          "text": "See id., at 119–120.",
+          "type": "record",
+          "canonical": "See id., at 119–120."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 919,
+          "end": 1782
+        }
+      ],
+      "citations": [
+        {
+          "start": 233,
+          "end": 337,
+          "text": "Republican National Committee v. Democratic National Committee, 589 U. S. 423, 424 (2020) (per curiam ).",
+          "type": "case",
+          "canonical": "589 U.S. 423"
+        },
+        {
+          "start": 743,
+          "end": 749,
+          "text": "ibid.,",
+          "type": "record",
+          "canonical": "ibid.,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1782,
+          "end": 2186
+        },
+        {
+          "page": 5,
+          "start": 60,
+          "end": 775
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 2224,
+      "end": 2254,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 45,
+      "text": "Cite as: 608 U. S. 511 (2026) 513\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 2095,
+      "end": 2125,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 64,
+      "text": "Page Proof Pending Publication\n514 ALLEN v. MILLIGAN\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 511 (2026) 515\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 1898,
+      "end": 1902,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 3,
+      "start": 1420,
+      "end": 1428,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 4,
+      "start": 2134,
+      "end": 2138,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 134,
+      "end": 141,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 5,
+      "start": 473,
+      "end": 478,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 5,
+      "start": 1055,
+      "end": 1063,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 5,
+      "start": 1322,
+      "end": 1329,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 5,
+      "start": 1367,
+      "end": 1375,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 2,
+      "start": 1276,
+      "end": 1285,
+      "expectedText": "confgured",
+      "text": "configured"
+    },
+    {
+      "page": 2,
+      "start": 2163,
+      "end": 2171,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 3,
+      "start": 282,
+      "end": 292,
+      "expectedText": "affliation",
+      "text": "affiliation"
+    },
+    {
+      "page": 3,
+      "start": 382,
+      "end": 392,
+      "expectedText": "affliation",
+      "text": "affiliation"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read complete Court opinion/source PDF, excluding preceding syllabus and following dissent. Retained updated Gingles requirements, quoted standards, constitutional/political qualifications, all stay terms and full disposition. No substantive footnotes. Exact source-only omissions; grammatical Voting Rights Act section 2 references retained inline. Broader bundled PDF slice is pinned; source maps use the precise parent-document range.",
+  "aliases": [
+    "25A1315-489902332041--2-787",
+    "25A1316-489902332041--2-787"
+  ]
+}

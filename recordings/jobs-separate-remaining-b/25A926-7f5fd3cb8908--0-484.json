@@ -1,0 +1,267 @@
+{
+  "reviewed": true,
+  "documentId": "25A926-7f5fd3cb8908--0-484",
+  "sourceDocumentId": "25A926-7f5fd3cb8908",
+  "sourceTextPath": "dist/data/current-docs/25A926-7f5fd3cb8908.json",
+  "sourceTextSha256": "f27e7cf15339c49e2f85d08dcde8a7d4ce0b37a339868dabfb8099390c705e87",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/b9c265fe883621285036ce2b.pdf",
+  "sourcePdfSha256": "b677d166014a22ec663545cb95a488e8cefd82e72ebd9c49b1d0e1b1bfb56d68",
+  "title": "Statement",
+  "author": "Sonia Sotomayor",
+  "date": "2026-02-24",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a926_2dp3.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 605,
+    "endPage": 3,
+    "endOffset": 397
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 605,
+          "end": 1378
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1378,
+          "end": 1608
+        },
+        {
+          "page": 1,
+          "start": 48,
+          "end": 74
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1846,
+          "end": 2026
+        }
+      ],
+      "citations": [
+        {
+          "start": 65,
+          "end": 85,
+          "text": "see infra this page,",
+          "type": "reference",
+          "canonical": "This statement, main text"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 76,
+          "end": 1011
+        }
+      ],
+      "citations": [
+        {
+          "start": 318,
+          "end": 375,
+          "text": "Pet. for Cert. 11 (quoting App. to Pet. for Cert. 57–58).",
+          "type": "reference",
+          "canonical": "Petition for certiorari, p. 11; Appendix, pp. 57–58"
+        },
+        {
+          "start": 835,
+          "end": 934,
+          "text": "___ So. 3d ___, ___ (2026) (per curiam) (quoting Heath v. State, ___ So. 3d, ___, ___ (Fla. 2026)).",
+          "type": "case",
+          "canonical": "Heath v. State (Fla. 2026)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[f]ailure",
+          "to": "failure"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1011,
+          "end": 1502
+        }
+      ],
+      "citations": [
+        {
+          "start": 268,
+          "end": 331,
+          "text": "Glossip v. Gross, 576 U. S. 863, 877 (2015) (emphasis deleted);",
+          "type": "case",
+          "canonical": "576 U.S. 863"
+        },
+        {
+          "start": 332,
+          "end": 341,
+          "text": "see ibid.",
+          "type": "case",
+          "canonical": "576 U.S. 863"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1502,
+          "end": 1837
+        },
+        {
+          "page": 2,
+          "start": 60,
+          "end": 625
+        }
+      ],
+      "citations": [
+        {
+          "start": 442,
+          "end": 478,
+          "text": "See, e.g., Heath, ___ S. 3d, at ___.",
+          "type": "case",
+          "canonical": "Heath v. State (Fla. 2026)"
+        },
+        {
+          "start": 755,
+          "end": 760,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "Heath v. State (Fla. 2026)"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1814,
+          "end": 2178
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 627,
+          "end": 1634
+        }
+      ],
+      "citations": [
+        {
+          "start": 726,
+          "end": 862,
+          "text": "Cf. Smith v. Hamm, 601 U. S. ___, ___ (2024) (KAGAN, J., dissenting from application for stay and denial of certiorari) (slip op., at 1)",
+          "type": "case",
+          "canonical": "Smith v. Hamm (2024)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1634,
+          "end": 1804
+        },
+        {
+          "page": 3,
+          "start": 48,
+          "end": 397
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "repairs": [],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 48,
+      "text": "2 TROTTER v. FLORIDA\nStatement of SOTOMAYOR, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 1,
+      "start": 74,
+      "end": 76,
+      "text": "1 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 1,
+      "start": 1838,
+      "end": 1846,
+      "text": "—————— 1",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 607 U. S. ____ (2026) 3\nStatement of SOTOMAYOR, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 2,
+      "start": 625,
+      "end": 627,
+      "text": "2\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 2,
+      "start": 1805,
+      "end": 1814,
+      "text": "—————— 2 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 48,
+      "text": "4 TROTTER v. FLORIDA\nStatement of SOTOMAYOR, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

@@ -1,0 +1,1994 @@
+{
+  "version": "8762f8632d48983a",
+  "duration": 1138.44,
+  "voice": "af_sky",
+  "audioSha256": "762bbf063c07580bb7284b38b1cedb54b3172c799caa03a4a4e55f0d72efdfc7",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 11.98,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 107,
+          "end": 285
+        }
+      ],
+      "text": "An employer that stops participating in an underfunded Multiemployer Pension Plan must pay the plan “withdrawal liability”—that is, its share of the plan's unfunded vested benefits."
+    },
+    {
+      "start": 11.98,
+      "end": 21.98,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 286,
+          "end": 446
+        }
+      ],
+      "text": "Calculating the unfunded vested benefits is a complicated endeavor because the plan's actuary must predict the value of the plan's future assets and obligations."
+    },
+    {
+      "start": 21.98,
+      "end": 31.1,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 447,
+          "end": 601
+        }
+      ],
+      "text": "To do so, the actuary makes certain assumptions about, for example, retirees' life expectancies and the anticipated growth rate of the plan's investments."
+    },
+    {
+      "start": 31.1,
+      "end": 44.23,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 602,
+          "end": 819
+        }
+      ],
+      "text": "By statute, an employer's withdrawal liability is based on the value of the plan's unfunded vested benefits “as of” the last day of the plan year preceding the employer's withdrawal, also known as the measurement date."
+    },
+    {
+      "start": 44.23,
+      "end": 56.48,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 840,
+          "end": 1048
+        }
+      ],
+      "text": "The question presented in this case is whether the “as of” language sets the measurement date as the deadline by which actuaries must select the assumptions that underlie the withdrawal-liability calculation."
+    },
+    {
+      "start": 56.48,
+      "end": 64.04,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1049,
+          "end": 1197
+        }
+      ],
+      "text": "The Court of Appeals for the D. C. Circuit held that it does not, concluding that actuaries may select their assumptions after the measurement date."
+    },
+    {
+      "start": 64.04,
+      "end": 65.82,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1198,
+          "end": 1207
+        }
+      ],
+      "text": "We agree."
+    },
+    {
+      "start": 65.82,
+      "end": 79.06,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1208,
+          "end": 1406
+        }
+      ],
+      "text": "The statute governing the selection and use of actuarial assumptions in the withdrawal-liability context contains no requirement that actuaries use assumptions adopted prior to the measurement date."
+    },
+    {
+      "start": 79.06,
+      "end": 87.54,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1411,
+          "end": 1533
+        }
+      ],
+      "text": "The Employee Retirement Income Security Act of 1974 (ERISA) provides “comprehensive regulation for private pension plans.”"
+    },
+    {
+      "start": 87.54,
+      "end": 93.56,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1610,
+          "end": 1694
+        }
+      ],
+      "text": "One type of pension plan that ERISA regulates is a Multiemployer Pension Plan (MPP)."
+    },
+    {
+      "start": 93.56,
+      "end": 101.76,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1695,
+          "end": 1834
+        }
+      ],
+      "text": "An MPP is a plan “to which more than one employer contributes” and is “maintained to fulfill the terms of collective-bargaining agreements.”"
+    },
+    {
+      "start": 101.76,
+      "end": 113.02,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 197,
+          "end": 359
+        }
+      ],
+      "text": "As amended by the Multiemployer Pension Plan Amendments Act of 1980, ERISA requires employers that withdraw from an underfunded MPP to pay “withdrawal liability.”"
+    },
+    {
+      "start": 113.02,
+      "end": 125.66,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 471,
+          "end": 692
+        }
+      ],
+      "text": "Withdrawal liability reflects the employer's share of the plan's unfunded vested benefits (UVBs)—that is, the difference between the present value of the benefits owed to employees and the current value of the plan's assets."
+    },
+    {
+      "start": 125.66,
+      "end": 136.1,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 717,
+          "end": 853
+        }
+      ],
+      "text": "By requiring employers to pay their share of the UVBs, ERISA seeks to ensure that plans do not become insolvent when employers withdraw."
+    },
+    {
+      "start": 136.1,
+      "end": 142.8,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 896,
+          "end": 983
+        }
+      ],
+      "text": "Section 1391 specifies the methods that plans may use to calculate withdrawal liability."
+    },
+    {
+      "start": 142.8,
+      "end": 155.98,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 984,
+          "end": 1197
+        }
+      ],
+      "text": "The common feature of each method is the requirement that withdrawal liability be calculated based on the plan's UVBs “as of” the last day of the plan year preceding the employer's withdrawal—the measurement date."
+    },
+    {
+      "start": 155.98,
+      "end": 159.94,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1296,
+          "end": 1359
+        }
+      ],
+      "text": "Determining a plan's UVBs is not a matter of simple arithmetic."
+    },
+    {
+      "start": 159.94,
+      "end": 170.24,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1360,
+          "end": 1543
+        }
+      ],
+      "text": "The value of the UVBs depends upon both hard data about the plan (such as the number of beneficiaries and the value of the plan's assets) and a variety of predictions about the future."
+    },
+    {
+      "start": 170.24,
+      "end": 174.6,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1544,
+          "end": 1620
+        }
+      ],
+      "text": "For example, how many employees will draw on their benefits and for how long?"
+    },
+    {
+      "start": 174.6,
+      "end": 178.54,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1621,
+          "end": 1686
+        }
+      ],
+      "text": "And what is the value of those future benefits in today's dollars?"
+    },
+    {
+      "start": 178.54,
+      "end": 187.24,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1687,
+          "end": 1846
+        }
+      ],
+      "text": "To make these predictions, a plan's actuary must select demographic and economic assumptions about how the plan's assets and obligations will change over time."
+    },
+    {
+      "start": 187.24,
+      "end": 195.76,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1965,
+          "end": 2090
+        },
+        {
+          "page": 6,
+          "start": 55,
+          "end": 85
+        }
+      ],
+      "text": "A key actuarial assumption—the one relevant here—is the discount rate: the interest rate “used to discount future benefit payments to their present value.”"
+    },
+    {
+      "start": 195.76,
+      "end": 199.38,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 204,
+          "end": 264
+        }
+      ],
+      "text": "A higher discount rate reduces the value of the plan's UVBs."
+    },
+    {
+      "start": 199.38,
+      "end": 205.5,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 285,
+          "end": 363
+        }
+      ],
+      "text": "Lower UVBs, in turn, correspond to a lower withdrawal liability for employers."
+    },
+    {
+      "start": 205.5,
+      "end": 225.06,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 370,
+          "end": 708
+        }
+      ],
+      "text": "Actuaries select the assumptions underlying their UVB calculations based on relevant “current and historical data,” including growth in the plan's earnings, inflation, yields on securities, and other macroeconomic conditions, ERISA imposes few substantive requirements on the selection of these assumptions."
+    },
+    {
+      "start": 225.06,
+      "end": 249.77,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 709,
+          "end": 1098
+        }
+      ],
+      "text": "Section 1393, which governs the use of actuarial assumptions in calculating withdrawal liability, says only that the actuary must use “actuarial assumptions and methods which, in the aggregate, are reasonable (taking into account the experience of the plan and reasonable expectations) and which, in combination, offer the actuary's best estimate of anticipated experience under the plan.”"
+    },
+    {
+      "start": 249.77,
+      "end": 258.97,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1801,
+          "end": 1936
+        }
+      ],
+      "text": "Footnote 1: In the alternative, the actuary can use “assumptions and methods set forth in the Pension Benefit Guaranty Corporation's regulations.”",
+      "footnote": "1"
+    },
+    {
+      "start": 258.97,
+      "end": 261.29,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1981,
+          "end": 2019
+        }
+      ],
+      "text": "This alternative is not at issue here.",
+      "footnote": "1"
+    },
+    {
+      "start": 261.29,
+      "end": 266.16,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 2018,
+          "end": 2019
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 266.16,
+      "end": 274.76,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1117,
+          "end": 1305
+        }
+      ],
+      "text": "The IAM National Pension Fund (Fund) is an MPP serving employees who are covered by collective bargaining agreements with the International Association of Machinists and Aerospace Workers."
+    },
+    {
+      "start": 274.76,
+      "end": 285.6,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1306,
+          "end": 1443
+        }
+      ],
+      "text": "In November 2017, its actuarial firm, Cheiron, published the annual valuation of the Fund's assets and liabilities for the 2016 Plan Year."
+    },
+    {
+      "start": 285.6,
+      "end": 291.08,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1444,
+          "end": 1532
+        }
+      ],
+      "text": "Using a discount rate of 7.50%, Cheiron valued the Fund's UVBs at close to $500 million."
+    },
+    {
+      "start": 291.08,
+      "end": 305.1,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1533,
+          "end": 1728
+        }
+      ],
+      "text": "Two months later, on January 24, 2018, Cheiron met with the Fund's trustees to discuss the actuarial assumptions it would use to calculate withdrawal liability for employers who withdrew in 2018."
+    },
+    {
+      "start": 305.1,
+      "end": 311.94,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1729,
+          "end": 1797
+        },
+        {
+          "page": 7,
+          "start": 92,
+          "end": 105
+        }
+      ],
+      "text": "They settled on a discount rate of 6.50%, 1% lower than the rate previously used."
+    },
+    {
+      "start": 311.94,
+      "end": 318.26,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 106,
+          "end": 185
+        }
+      ],
+      "text": "Cheiron published its actuarial valuation for Plan Year 2017 on April 17, 2019."
+    },
+    {
+      "start": 318.26,
+      "end": 329.2,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 186,
+          "end": 300
+        }
+      ],
+      "text": "Using the 6.50% discount rate, it valued the Fund's UVBs at just over $3 billion—six times the prior year's figure."
+    },
+    {
+      "start": 329.2,
+      "end": 332.84,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 301,
+          "end": 367
+        }
+      ],
+      "text": "Petitioners are four employers who used to contribute to the Fund."
+    },
+    {
+      "start": 332.84,
+      "end": 336.86,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 368,
+          "end": 428
+        }
+      ],
+      "text": "Each withdrew from the Fund between April and December 2018."
+    },
+    {
+      "start": 336.86,
+      "end": 350.3,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 429,
+          "end": 604
+        }
+      ],
+      "text": "Pursuant to Section 1391, the Fund assessed each employer's withdrawal liability “as of” December 31, 2017 (the last day of the plan year preceding the year in which they withdrew)."
+    },
+    {
+      "start": 350.3,
+      "end": 359.12,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 605,
+          "end": 710
+        }
+      ],
+      "text": "The Fund applied the 6.50% discount rate adopted in January 2018 to calculate their withdrawal liability."
+    },
+    {
+      "start": 359.12,
+      "end": 382.38,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 711,
+          "end": 1034
+        }
+      ],
+      "text": "Using the 6.50% discount rate, as compared to the previously adopted 7.50% discount rate, dramatically increased petitioners' withdrawal liability; M&K Employee Solutions, for example, was assessed withdrawal liability of around $6.2 million, whereas it would have owed only around $1.8 million using the prior assumptions."
+    },
+    {
+      "start": 382.38,
+      "end": 388.16,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1035,
+          "end": 1131
+        }
+      ],
+      "text": "Petitioners initiated separate arbitrations to challenge their withdrawal-liability assessments."
+    },
+    {
+      "start": 388.16,
+      "end": 398.0,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1147,
+          "end": 1299
+        }
+      ],
+      "text": "Each of the arbitrators determined that the assessment was erroneous because the Fund had applied actuarial assumptions adopted after December 31, 2017."
+    },
+    {
+      "start": 398.0,
+      "end": 408.56,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1300,
+          "end": 1441
+        }
+      ],
+      "text": "Doing so, the arbitrators reasoned, conflicted with Section 1391's requirement that withdrawal liability be calculated “as of” the measurement date."
+    },
+    {
+      "start": 408.56,
+      "end": 419.44,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1442,
+          "end": 1594
+        }
+      ],
+      "text": "The arbitrators instead required the Fund to use the actuarial assumptions that were “in effect” on the measurement date—that is, the 7.50% discount rate."
+    },
+    {
+      "start": 419.44,
+      "end": 423.88,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1656,
+          "end": 1728
+        }
+      ],
+      "text": "The Fund sought review of the arbitral awards in Federal District Court."
+    },
+    {
+      "start": 423.88,
+      "end": 428.24,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1729,
+          "end": 1807
+        }
+      ],
+      "text": "Three of the actions were consolidated, while the fourth proceeded separately."
+    },
+    {
+      "start": 428.24,
+      "end": 439.3,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1808,
+          "end": 1989
+        }
+      ],
+      "text": "In both cases, the District Courts disagreed with the arbitrators, holding that actuaries could use assumptions adopted after the measurement date to calculate withdrawal liability."
+    },
+    {
+      "start": 439.3,
+      "end": 443.96,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 55,
+          "end": 132
+        }
+      ],
+      "text": "In a consolidated appeal, the Court of Appeals for the D. C. Circuit affirmed."
+    },
+    {
+      "start": 443.96,
+      "end": 462.6,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 160,
+          "end": 463
+        }
+      ],
+      "text": "The court reasoned that “requiring an actuary to determine what assumptions to use before the close of business on the measurement date” would conflict with Congress's instruction in Section 1393(a)(1) “that an actuary use its `best estimate' of the plan's anticipated experience as of the measurement date.”"
+    },
+    {
+      "start": 462.6,
+      "end": 474.06,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 481,
+          "end": 677
+        }
+      ],
+      "text": "Accordingly, the court held that actuaries could adopt assumptions after the measurement date as long as the assumptions were “based on the body of knowledge available up to the measurement date.”"
+    },
+    {
+      "start": 474.06,
+      "end": 486.9,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 726,
+          "end": 936
+        }
+      ],
+      "text": "The D. C. Circuit's decision conflicted with a decision of the Second Circuit, which held that MPPs must adopt their interest rate assumptions for withdrawal-liability purposes on or before the measurement date."
+    },
+    {
+      "start": 486.9,
+      "end": 496.3,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1019,
+          "end": 1160
+        }
+      ],
+      "text": "We granted certiorari to resolve this split over when actuarial assumptions may be selected for purposes of calculating withdrawal liability."
+    },
+    {
+      "start": 496.3,
+      "end": 504.98,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1721,
+          "end": 1858
+        }
+      ],
+      "text": "Footnote 2: The parties also disputed below whether actuarial assumptions must be based on only the information available as of the measurement date.",
+      "footnote": "2"
+    },
+    {
+      "start": 504.98,
+      "end": 507.74,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1859,
+          "end": 1898
+        }
+      ],
+      "text": "We leave that question for another day.",
+      "footnote": "2"
+    },
+    {
+      "start": 507.74,
+      "end": 509.525,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1897,
+          "end": 1898
+        }
+      ],
+      "text": "End footnote 2.",
+      "transition": true,
+      "footnote": "2"
+    },
+    {
+      "start": 509.525,
+      "end": 519.64,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1207,
+          "end": 1358
+        }
+      ],
+      "text": "For the reasons that follow, we now hold that withdrawal liability can be calculated based on actuarial assumptions adopted after the measurement date."
+    },
+    {
+      "start": 519.64,
+      "end": 528.86,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1362,
+          "end": 1449
+        }
+      ],
+      "text": "Two sections of ERISA govern the calculation of withdrawal liability: Sections 1391 and 1393."
+    },
+    {
+      "start": 528.86,
+      "end": 535.26,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1450,
+          "end": 1540
+        }
+      ],
+      "text": "Neither requires that actuarial assumptions be selected on or before the measurement date."
+    },
+    {
+      "start": 535.26,
+      "end": 541.62,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1543,
+          "end": 1638
+        }
+      ],
+      "text": "Section 1391 lays out the various methods that plans can use to calculate withdrawal liability."
+    },
+    {
+      "start": 541.62,
+      "end": 544.32,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1639,
+          "end": 1688
+        }
+      ],
+      "text": "It does not mention actuarial assumptions at all."
+    },
+    {
+      "start": 544.32,
+      "end": 557.06,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1689,
+          "end": 1719
+        },
+        {
+          "page": 9,
+          "start": 123,
+          "end": 300
+        }
+      ],
+      "text": "Nevertheless, petitioners ask us to identify a deadline for the selection of assumptions from Section 1391's directive that withdrawal liability be calculated based on the plan's UVBs “as of” the measurement date."
+    },
+    {
+      "start": 557.06,
+      "end": 560.9,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 333,
+          "end": 380
+        }
+      ],
+      "text": "But the “as of” language sets no such deadline."
+    },
+    {
+      "start": 560.9,
+      "end": 566.5,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 381,
+          "end": 582
+        }
+      ],
+      "text": "Dictionaries define “as of” to mean “at the date mentioned.” (“at or on (a specific time or date)”)."
+    },
+    {
+      "start": 566.5,
+      "end": 571.8,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 583,
+          "end": 688
+        }
+      ],
+      "text": "In context, the term is understood “to assign an event to one time and the recognition of it to another.”"
+    },
+    {
+      "start": 571.8,
+      "end": 575.5,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 743,
+          "end": 790
+        }
+      ],
+      "text": "Thus, Section 1391's use of “as of” means two things."
+    },
+    {
+      "start": 575.5,
+      "end": 580.78,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 791,
+          "end": 895
+        }
+      ],
+      "text": "First, the hard data about the plan that feeds the UVB calculation must be fixed on the measurement date."
+    },
+    {
+      "start": 580.78,
+      "end": 586.84,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 896,
+          "end": 993
+        }
+      ],
+      "text": "Second, and as all agree, the actual UVB calculation can be performed after the measurement date."
+    },
+    {
+      "start": 586.84,
+      "end": 603.9,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 994,
+          "end": 1271
+        }
+      ],
+      "text": "For purposes of this case, then, the key question is whether actuarial assumptions are akin to the facts about the plan that must be fixed on the measurement date, or whether they are a part of the UVB calculation itself and can therefore be selected after the measurement date."
+    },
+    {
+      "start": 603.9,
+      "end": 613.14,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1272,
+          "end": 1422
+        }
+      ],
+      "text": "Petitioners argue that actuarial assumptions are factual inputs into the UVB calculation, much like hard data such as the number of plan beneficiaries."
+    },
+    {
+      "start": 613.14,
+      "end": 621.74,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1423,
+          "end": 1527
+        }
+      ],
+      "text": "On this view, to comply with Section 1391, the actuarial assumptions must be “frozen” on the measurement date."
+    },
+    {
+      "start": 621.74,
+      "end": 634.74,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1554,
+          "end": 1754
+        }
+      ],
+      "text": "In other words, they say, the actuary must use the assumptions that are “in effect” on the measurement date—that is, the assumptions most recently adopted before the measurement date—to value the UVBs."
+    },
+    {
+      "start": 634.74,
+      "end": 639.98,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1781,
+          "end": 1866
+        }
+      ],
+      "text": "But petitioners' argument is based on a flawed understanding of actuarial assumptions."
+    },
+    {
+      "start": 639.98,
+      "end": 642.54,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1867,
+          "end": 1908
+        }
+      ],
+      "text": "These assumptions are not factual inputs."
+    },
+    {
+      "start": 642.54,
+      "end": 651.42,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1909,
+          "end": 2043
+        }
+      ],
+      "text": "Instead, they are predictive judgments about a plan's anticipated future performance—tools actuaries use to calculate the plan's UVBs."
+    },
+    {
+      "start": 651.42,
+      "end": 664.64,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 2044,
+          "end": 2122
+        },
+        {
+          "page": 10,
+          "start": 55,
+          "end": 172
+        }
+      ],
+      "text": "The distinction between tool and fact is clear from the text of ERISA: Section 1393 groups actuarial assumptions together with “methods” in prescribing how withdrawal liability must be calculated."
+    },
+    {
+      "start": 664.64,
+      "end": 676.315,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 191,
+          "end": 402
+        }
+      ],
+      "text": "The relevant similarity between assumptions and methods is that both are tools used to make actuarial valuations. (referring to actuarial assumptions as something “used” to determine UVBs)."
+    },
+    {
+      "start": 676.315,
+      "end": 688.62,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 430,
+          "end": 607
+        }
+      ],
+      "text": "The Actuarial Standards of Practice likewise support our conclusion that actuarial assumptions are not observable facts about the plan that are “in effect” on a particular date."
+    },
+    {
+      "start": 688.62,
+      "end": 700.28,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1770,
+          "end": 1956
+        }
+      ],
+      "text": "Footnote 3: Consulting the Actuarial Standards of Practice is appropriate here because this is a statute “addressed to specialists,” so it “must be read by judges with the minds of the specialists.”",
+      "footnote": "3"
+    },
+    {
+      "start": 700.28,
+      "end": 702.32,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 2091,
+          "end": 2092
+        }
+      ],
+      "text": "End footnote 3.",
+      "transition": true,
+      "footnote": "3"
+    },
+    {
+      "start": 702.32,
+      "end": 710.2,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 610,
+          "end": 747
+        }
+      ],
+      "text": "These professional guidelines instruct actuaries to select assumptions for the purpose of making a particular calculation or measurement."
+    },
+    {
+      "start": 710.2,
+      "end": 725.44,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 773,
+          "end": 1069
+        }
+      ],
+      "text": "(“The actuary should identify the types of assumptions to use for a specific measurement,” taking into account, among other things, “the purpose of the measurement”); (“The actuary should take into account the purpose of the measurement as a primary factor in selecting a discount rate”)."
+    },
+    {
+      "start": 725.44,
+      "end": 732.095,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1070,
+          "end": 1161
+        }
+      ],
+      "text": "In other words, actuaries make assumptions when the need for an actuarial valuation arises."
+    },
+    {
+      "start": 732.095,
+      "end": 739.62,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1162,
+          "end": 1280
+        }
+      ],
+      "text": "In this case, for example, the Fund's actuary adopted assumptions for purposes of its 2016 Plan Year annual valuation."
+    },
+    {
+      "start": 739.62,
+      "end": 754.1,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1281,
+          "end": 1464
+        }
+      ],
+      "text": "The Fund then adopted new actuarial assumptions for purposes of calculating withdrawal liability for employers who withdrew in 2018, and later for its 2017 Plan Year annual valuation."
+    },
+    {
+      "start": 754.1,
+      "end": 766.0,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1465,
+          "end": 1653
+        }
+      ],
+      "text": "As this case illustrates, actuarial assumptions are adopted for the purpose of a particular calculation or measurement; they are not generally “in effect” in the way that petitioners urge."
+    },
+    {
+      "start": 766.0,
+      "end": 773.9,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1654,
+          "end": 1763
+        }
+      ],
+      "text": "With this understanding of actuarial assumptions, petitioners' proposed interpretation of Section 1391 falls apart."
+    },
+    {
+      "start": 773.9,
+      "end": 782.24,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1764,
+          "end": 1766
+        },
+        {
+          "page": 11,
+          "start": 92,
+          "end": 239
+        }
+      ],
+      "text": "Because actuarial assumptions are tools used to calculate UVBs rather than hard data about the plan, they cannot be “frozen” on the measurement date."
+    },
+    {
+      "start": 782.24,
+      "end": 790.16,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 240,
+          "end": 348
+        }
+      ],
+      "text": "Section 1391's “as of” requirement sets the reference point for the factual inputs into the UVB calculation."
+    },
+    {
+      "start": 790.16,
+      "end": 799.1,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 349,
+          "end": 467
+        }
+      ],
+      "text": "It has no bearing on when actuaries must select the tools, including assumptions, they use to calculate a plan's UVBs."
+    },
+    {
+      "start": 799.1,
+      "end": 813.16,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 470,
+          "end": 688
+        }
+      ],
+      "text": "Section 1393, the section of ERISA that governs the use of actuarial assumptions for assessing withdrawal liability, confirms that the measurement date is not a deadline by which actuaries must select their assumptions."
+    },
+    {
+      "start": 813.16,
+      "end": 817.66,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 689,
+          "end": 732
+        }
+      ],
+      "text": "Indeed, Section 1393 provides no deadline at all."
+    },
+    {
+      "start": 817.66,
+      "end": 832.36,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 733,
+          "end": 979
+        }
+      ],
+      "text": "The statute merely says that the actuary's assumptions must be “reasonable,” must “take into account the experience of the plan and reasonable expectations,” and must “offer the actuary's best estimate of anticipated experience under the plan.”"
+    },
+    {
+      "start": 832.36,
+      "end": 840.085,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 994,
+          "end": 1193
+        }
+      ],
+      "text": "We generally do not read limitations into statutes that do not appear in their text, and we discern no basis for doing so here."
+    },
+    {
+      "start": 840.085,
+      "end": 850.04,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1194,
+          "end": 1334
+        }
+      ],
+      "text": "The omission of any deadline in Section 1393 is significant given Congress's inclusion of a similar deadline in a different section of the statute."
+    },
+    {
+      "start": 850.04,
+      "end": 862.06,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1335,
+          "end": 1524
+        }
+      ],
+      "text": "Specifically: The amortization period for an employer's withdrawal-liability payments must be determined based on “the assumptions used for the most recent actuarial valuation for the plan.”"
+    },
+    {
+      "start": 862.06,
+      "end": 871.14,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1546,
+          "end": 1694
+        }
+      ],
+      "text": "But Congress imposed no similar limit for the actuarial assumptions used to calculate withdrawal liability; we presume this omission is intentional."
+    },
+    {
+      "start": 871.14,
+      "end": 884.84,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1760,
+          "end": 1987
+        }
+      ],
+      "text": "(“Where Congress includes particular language in one section of a statute but omits it in another section of the same Act, it is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion” )."
+    },
+    {
+      "start": 884.84,
+      "end": 898.56,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 55,
+          "end": 301
+        }
+      ],
+      "text": "Moreover, Section 1393's instruction that actuarial assumptions reflect the actuary's “best estimate of anticipated experience under the plan,” supports the conclusion that actuaries can select their assumptions after the measurement date."
+    },
+    {
+      "start": 898.56,
+      "end": 906.24,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 302,
+          "end": 435
+        }
+      ],
+      "text": "Recall that actuaries choose assumptions based on the plan's past performance, changes in the market, and other relevant information."
+    },
+    {
+      "start": 906.24,
+      "end": 911.44,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 456,
+          "end": 545
+        }
+      ],
+      "text": "Thus, the assumptions should “reflect the actuary's knowledge as of the measurement date.”"
+    },
+    {
+      "start": 911.44,
+      "end": 921.4,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 560,
+          "end": 742
+        }
+      ],
+      "text": "But the relevant information about the plan's performance or macroeconomic conditions, as it stood on the measurement date, may not become available until after the measurement date."
+    },
+    {
+      "start": 921.4,
+      "end": 930.12,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 853,
+          "end": 1031
+        }
+      ],
+      "text": "Requiring actuaries to use assumptions selected before the measurement date could therefore prevent them from relying on the most up-to-date data when selecting their assumptions."
+    },
+    {
+      "start": 930.12,
+      "end": 936.26,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1032,
+          "end": 1117
+        }
+      ],
+      "text": "This, in turn, could mean that their assumptions do not reflect their “best estimate.”"
+    },
+    {
+      "start": 936.26,
+      "end": 944.16,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1132,
+          "end": 1258
+        }
+      ],
+      "text": "More fundamentally, requiring actuaries to use assumptions based on stale data would result in an incoherent statutory scheme."
+    },
+    {
+      "start": 944.16,
+      "end": 955.92,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1259,
+          "end": 1458
+        }
+      ],
+      "text": "Under petitioners' view, actuaries must value a plan's UVBs based on hard data as it stood on the measurement date while at the same time applying assumptions selected based on an older set of facts."
+    },
+    {
+      "start": 955.92,
+      "end": 958.9,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1459,
+          "end": 1502
+        }
+      ],
+      "text": "The statute does not mandate this mismatch."
+    },
+    {
+      "start": 958.9,
+      "end": 967.86,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1503,
+          "end": 1632
+        }
+      ],
+      "text": "Instead, actuaries may select their assumptions after the measurement date in order to value the UVBs as of the measurement date."
+    },
+    {
+      "start": 967.86,
+      "end": 981.04,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1637,
+          "end": 1833
+        }
+      ],
+      "text": "Unable to identify a deadline for adopting actuarial assumptions in the text of ERISA, petitioners turn to two other arguments—one about statutory context and the other related to policy concerns."
+    },
+    {
+      "start": 981.04,
+      "end": 982.775,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1834,
+          "end": 1852
+        }
+      ],
+      "text": "Neither has merit."
+    },
+    {
+      "start": 982.775,
+      "end": 988.22,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1853,
+          "end": 1942
+        }
+      ],
+      "text": "First, petitioners contend that the statute contains a broad antiretroactivity principle."
+    },
+    {
+      "start": 988.22,
+      "end": 993.76,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1943,
+          "end": 1977
+        },
+        {
+          "page": 13,
+          "start": 92,
+          "end": 122
+        }
+      ],
+      "text": "They point to a different section of ERISA, Section 1394, for support."
+    },
+    {
+      "start": 993.76,
+      "end": 1005.225,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 123,
+          "end": 302
+        }
+      ],
+      "text": "This section prohibits plans from applying any new “plan rule or amendment” to an employer's withdrawal liability if the rule or amendment is adopted after the employer withdraws."
+    },
+    {
+      "start": 1005.225,
+      "end": 1007.96,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 314,
+          "end": 367
+        }
+      ],
+      "text": "But this section hurts rather than helps petitioners."
+    },
+    {
+      "start": 1007.96,
+      "end": 1012.9,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 368,
+          "end": 444
+        }
+      ],
+      "text": "As they acknowledge, actuarial assumptions are not plan rules or amendments."
+    },
+    {
+      "start": 1012.9,
+      "end": 1019.48,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 445,
+          "end": 531
+        }
+      ],
+      "text": "Accordingly, the retroactivity limits in Section 1394 do not apply to actuarial assumptions."
+    },
+    {
+      "start": 1019.48,
+      "end": 1031.16,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 532,
+          "end": 694
+        }
+      ],
+      "text": "Congress chose not to enact a similar antiretroactivity rule in Section 1393, which strongly suggests that actuarial assumptions are not subject to any such limitation."
+    },
+    {
+      "start": 1031.16,
+      "end": 1038.705,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 727,
+          "end": 839
+        }
+      ],
+      "text": "Inferring an antiretroactivity rule for the selection of actuarial assumptions would override Congress's choice."
+    },
+    {
+      "start": 1038.705,
+      "end": 1041.94,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 840,
+          "end": 886
+        }
+      ],
+      "text": "So petitioners fall back on a policy argument."
+    },
+    {
+      "start": 1041.94,
+      "end": 1048.68,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 887,
+          "end": 1013
+        }
+      ],
+      "text": "They contend that allowing plans to adopt actuarial assumptions after the measurement date will open the door to manipulation."
+    },
+    {
+      "start": 1048.68,
+      "end": 1056.44,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1014,
+          "end": 1152
+        }
+      ],
+      "text": "Plans and their actuaries, petitioners worry, will retroactively select assumptions in order to increase withdrawing employers' liability."
+    },
+    {
+      "start": 1056.44,
+      "end": 1065.2,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1153,
+          "end": 1307
+        }
+      ],
+      "text": "But their proposed rule—that withdrawal liability must be based on assumptions adopted before the measurement date—does nothing to address these concerns."
+    },
+    {
+      "start": 1065.2,
+      "end": 1078.21,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1308,
+          "end": 1505
+        }
+      ],
+      "text": "Plans and actuaries could still select assumptions with an eye towards inflating withdrawal liability before the measurement date given the significant discretion they enjoy in selecting assumptions."
+    },
+    {
+      "start": 1078.21,
+      "end": 1083.86,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1506,
+          "end": 1597
+        }
+      ],
+      "text": "In any event, “policy concerns cannot trump the best interpretation of the statutory text.”"
+    },
+    {
+      "start": 1083.86,
+      "end": 1088.24,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1643,
+          "end": 1723
+        }
+      ],
+      "text": "Congress chose which limits to impose on the selection of actuarial assumptions."
+    },
+    {
+      "start": 1088.24,
+      "end": 1094.82,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1724,
+          "end": 1826
+        }
+      ],
+      "text": "The statute requires that actuarial assumptions be “reasonable” and reflect actuaries' “best estimate.”"
+    },
+    {
+      "start": 1094.82,
+      "end": 1102.5,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1841,
+          "end": 1980
+        }
+      ],
+      "text": "And the statute permits employers to challenge actuarial assumptions in arbitration, including on the ground that they were “unreasonable.”."
+    },
+    {
+      "start": 1102.5,
+      "end": 1117.38,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 2001,
+          "end": 2161
+        },
+        {
+          "page": 14,
+          "start": 55,
+          "end": 134
+        }
+      ],
+      "text": "Indeed, many of the worst-case scenarios petitioners posit—for example, that actuaries will adopt intentionally low discount rates for withdrawal liability but high discount rates for other purposes—are subject to challenge in arbitration."
+    },
+    {
+      "start": 1117.38,
+      "end": 1124.56,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 135,
+          "end": 247
+        }
+      ],
+      "text": "It is not the role of the Court to supplant Congress's choices, as reflected in the statutory text, with our own."
+    },
+    {
+      "start": 1124.56,
+      "end": 1133.6,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 254,
+          "end": 389
+        }
+      ],
+      "text": "ERISA does not require pension plans to assess withdrawal liability based on actuarial assumptions adopted before the measurement date."
+    },
+    {
+      "start": 1133.6,
+      "end": 1136.6,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 390,
+          "end": 443
+        }
+      ],
+      "text": "We therefore affirm the judgment of the D. C. Circuit."
+    },
+    {
+      "start": 1136.6,
+      "end": 1137.36,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 444,
+          "end": 461
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 116,
+      "expectedWords": 117,
+      "coverage": 0.9914529914529915
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 84,
+      "expectedWords": 87,
+      "coverage": 0.9655172413793104
+    },
+    {
+      "paragraph": 4,
+      "matchedWords": 52,
+      "expectedWords": 53,
+      "coverage": 0.9811320754716981
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 83,
+      "expectedWords": 85,
+      "coverage": 0.9764705882352941
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 50,
+      "expectedWords": 50,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 74,
+      "expectedWords": 74,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 73,
+      "expectedWords": 75,
+      "coverage": 0.9733333333333334
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 98,
+      "expectedWords": 98,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 10,
+      "matchedWords": 28,
+      "expectedWords": 32,
+      "coverage": 0.875
+    },
+    {
+      "paragraph": 12,
+      "matchedWords": 139,
+      "expectedWords": 154,
+      "coverage": 0.9025974025974026
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 117,
+      "expectedWords": 120,
+      "coverage": 0.975
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 79,
+      "expectedWords": 80,
+      "coverage": 0.9875
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 48,
+      "expectedWords": 48,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 16,
+      "matchedWords": 94,
+      "expectedWords": 96,
+      "coverage": 0.9791666666666666
+    },
+    {
+      "paragraph": 17,
+      "matchedWords": 47,
+      "expectedWords": 54,
+      "coverage": 0.8703703703703703
+    },
+    {
+      "paragraph": 18,
+      "matchedWords": 33,
+      "expectedWords": 33,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 19,
+      "matchedWords": 23,
+      "expectedWords": 23,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 21,
+      "matchedWords": 27,
+      "expectedWords": 27,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 23,
+      "matchedWords": 64,
+      "expectedWords": 66,
+      "coverage": 0.9696969696969697
+    },
+    {
+      "paragraph": 24,
+      "matchedWords": 132,
+      "expectedWords": 133,
+      "coverage": 0.9924812030075187
+    },
+    {
+      "paragraph": 25,
+      "matchedWords": 74,
+      "expectedWords": 75,
+      "coverage": 0.9866666666666667
+    },
+    {
+      "paragraph": 26,
+      "matchedWords": 93,
+      "expectedWords": 95,
+      "coverage": 0.9789473684210527
+    },
+    {
+      "paragraph": 27,
+      "matchedWords": 27,
+      "expectedWords": 27,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 28,
+      "matchedWords": 34,
+      "expectedWords": 35,
+      "coverage": 0.9714285714285714
+    },
+    {
+      "paragraph": 29,
+      "matchedWords": 76,
+      "expectedWords": 77,
+      "coverage": 0.987012987012987
+    },
+    {
+      "paragraph": 30,
+      "matchedWords": 77,
+      "expectedWords": 77,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 31,
+      "matchedWords": 74,
+      "expectedWords": 77,
+      "coverage": 0.961038961038961
+    },
+    {
+      "paragraph": 33,
+      "matchedWords": 103,
+      "expectedWords": 103,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 34,
+      "matchedWords": 111,
+      "expectedWords": 111,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 35,
+      "matchedWords": 132,
+      "expectedWords": 136,
+      "coverage": 0.9705882352941176
+    },
+    {
+      "paragraph": 36,
+      "matchedWords": 80,
+      "expectedWords": 82,
+      "coverage": 0.975609756097561
+    },
+    {
+      "paragraph": 38,
+      "matchedWords": 34,
+      "expectedWords": 34,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 39,
+      "matchedWords": 51,
+      "expectedWords": 52,
+      "coverage": 0.9807692307692307
+    },
+    {
+      "paragraph": 40,
+      "matchedWords": 66,
+      "expectedWords": 72,
+      "coverage": 0.9166666666666666
+    },
+    {
+      "paragraph": 41,
+      "matchedWords": 93,
+      "expectedWords": 94,
+      "coverage": 0.9893617021276596
+    },
+    {
+      "paragraph": 42,
+      "matchedWords": 115,
+      "expectedWords": 115,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 43,
+      "matchedWords": 33,
+      "expectedWords": 33,
+      "coverage": 1.0
+    }
+  ]
+}

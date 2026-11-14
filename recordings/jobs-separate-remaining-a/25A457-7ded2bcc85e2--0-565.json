@@ -1,0 +1,883 @@
+{
+  "reviewed": true,
+  "documentId": "25A457-7ded2bcc85e2--0-565",
+  "sourceDocumentId": "25A457-7ded2bcc85e2",
+  "sourceTextPath": "dist/data/current-docs/25A457-7ded2bcc85e2.json",
+  "sourceTextSha256": "8f7ce4c1e52e5c050ee0d89ec96d426cabdda9f9313072b64cc77364bded5fc2",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/11c7cd55aa2a62cfc176453d.pdf",
+  "sourcePdfSha256": "bd8a9f9637619c7630e752c8a8bd740401519e6c7629a72021f35f879d8dec8d",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2025-10-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a457new_j426.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 711,
+    "endPage": 8,
+    "endOffset": 940
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 711,
+          "end": 1092
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1092,
+          "end": 1373
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1373,
+          "end": 1601
+        },
+        {
+          "page": 1,
+          "start": 41,
+          "end": 265
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 265,
+          "end": 738
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 1,
+          "start": 738,
+          "end": 741
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 741,
+          "end": 1267
+        }
+      ],
+      "citations": [
+        {
+          "start": 428,
+          "end": 444,
+          "text": "See App. 36a\u201342a",
+          "type": "record",
+          "canonical": "Appendix, pp. 36a-42a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1267,
+          "end": 1897
+        },
+        {
+          "page": 2,
+          "start": 59,
+          "end": 497
+        }
+      ],
+      "citations": [
+        {
+          "start": 367,
+          "end": 474,
+          "text": "Response in Opposition to Application for Stay in Smith v. Hamm, O. T. 2023, No. 23\u2013 6562, etc., pp. 3, 21;",
+          "type": "record",
+          "canonical": "Smith v. Hamm, No. 23-6562, stay opposition, pp. 3, 21"
+        },
+        {
+          "start": 475,
+          "end": 586,
+          "text": "Dunn v. Price, 587 U. S. 929, 930\u2013931 (2019) (Breyer, J., dissenting from grant of application to vacate stay).",
+          "type": "case",
+          "canonical": "587 U.S. 929"
+        },
+        {
+          "start": 744,
+          "end": 909,
+          "text": "See Smith v. Hamm, 601 U. S. ___, ___\u2013___, ___ (2024) (SOTOMAYOR, J., dissenting from denial of application for stay and denial of certiorari) (slip op., at 1\u20132, 4).",
+          "type": "case",
+          "canonical": "601 U.S. ___ (2024), Smith v. Hamm"
+        },
+        {
+          "start": 1039,
+          "end": 1068,
+          "text": "Id., at ___ (slip op., at 1).",
+          "type": "case",
+          "canonical": "601 U.S. ___ (2024), Smith v. Hamm"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[we]re",
+          "to": "were"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 497,
+          "end": 835
+        }
+      ],
+      "citations": [
+        {
+          "start": 136,
+          "end": 174,
+          "text": "see App. to Pet. for Cert. 25a (App.);",
+          "type": "record",
+          "canonical": "Petition appendix, p. 25a"
+        },
+        {
+          "start": 175,
+          "end": 217,
+          "text": "Hoffman v. Westcott, 604 U. S. ___ (2025),",
+          "type": "case",
+          "canonical": "604 U.S. ___ (2025), Hoffman v. Westcott"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 835,
+          "end": 1827
+        },
+        {
+          "page": 3,
+          "start": 41,
+          "end": 135
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 243,
+          "text": "App. 36a.",
+          "type": "record",
+          "canonical": "Appendix, p. 36a"
+        },
+        {
+          "start": 338,
+          "end": 343,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Appendix, p. 36a"
+        },
+        {
+          "start": 503,
+          "end": 599,
+          "text": "Petitioner\u2019s Post-Hearing Brief in No. 25\u2013cv\u201300529 (ND Ala., Sept. 11, 2025), ECF Doc. 87, p. 3.",
+          "type": "record",
+          "canonical": "No. 25-cv-00529, ECF Doc. 87, p. 3"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "gasp[ed]",
+          "to": "gasped"
+        },
+        {
+          "from": "[and]",
+          "to": "and"
+        },
+        {
+          "from": "[w]e",
+          "to": "we"
+        },
+        {
+          "from": "[i]t",
+          "to": "it"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1835,
+          "end": 2078
+        }
+      ],
+      "label": "1",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 243,
+          "text": "R. Chapoco, Kenneth Eugene Smith Executed by Nitrogen Gas for 1988 Murder-for-Hire Scheme, Alabama Reflector, Jan. 25, 2024, https://alabamareflector.com/2024/01/25/kenneth-eugene-smith-executedby-nitrogen-gas-for-1988-murder-for-hire-scheme/.",
+          "type": "reference",
+          "canonical": "Chapoco, Kenneth Eugene Smith Executed by Nitrogen Gas (2024)"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1640,
+          "end": 1767
+        }
+      ],
+      "label": "2",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 126,
+          "text": "J. Beck, CNN 5 Things, Jan. 26, 2024, https://www.cnn.com/ audio/podcasts/5-things/episodes/146b819c-8f0111eea87667c76723c206.",
+          "type": "reference",
+          "canonical": "Beck, CNN 5 Things, January 26, 2024"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 135,
+          "end": 491
+        }
+      ],
+      "citations": [
+        {
+          "start": 161,
+          "end": 185,
+          "text": "See App. 37a, and n. 24;",
+          "type": "record",
+          "canonical": "Appendix, p. 37a, note 24"
+        },
+        {
+          "start": 186,
+          "end": 276,
+          "text": "Miller v. Marshall, No. 2:24\u2013cv\u2013197 (MD Ala., July 15, 2024), ECF Doc. 70, pp. 1\u20132, 14\u201321.",
+          "type": "record",
+          "canonical": "Miller v. Marshall, No. 2:24-cv-197, ECF Doc. 70"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 491,
+          "end": 1631
+        }
+      ],
+      "citations": [
+        {
+          "start": 114,
+          "end": 123,
+          "text": "App. 38a,",
+          "type": "record",
+          "canonical": "Appendix, p. 38a"
+        },
+        {
+          "start": 154,
+          "end": 172,
+          "text": "ECF Doc. 87, at 6.",
+          "type": "record",
+          "canonical": "No. 25-cv-00529, ECF Doc. 87, p. 6"
+        },
+        {
+          "start": 235,
+          "end": 244,
+          "text": "App. 38a,",
+          "type": "record",
+          "canonical": "Appendix, p. 38a"
+        },
+        {
+          "start": 281,
+          "end": 299,
+          "text": "ECF Doc. 87, p. 6.",
+          "type": "record",
+          "canonical": "No. 25-cv-00529, ECF Doc. 87, p. 6"
+        },
+        {
+          "start": 564,
+          "end": 577,
+          "text": "App. 39a\u201340a.",
+          "type": "record",
+          "canonical": "Appendix, pp. 39a-40a"
+        },
+        {
+          "start": 990,
+          "end": 1011,
+          "text": "Id., at 34a, 41a\u201342a.",
+          "type": "record",
+          "canonical": "Appendix, pp. 34a, 41a-42a"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "shook[,]",
+          "to": "shook,"
+        },
+        {
+          "from": "struggled[ ]",
+          "to": "struggled"
+        },
+        {
+          "from": "convulsions,\u2019\u201d",
+          "to": "convulsions.\u2019\u201d"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1768,
+          "end": 1984
+        }
+      ],
+      "label": "3",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 216,
+          "text": "See K. Chandler, Alabama Executes Man With Nitrogen Gas for 1997 Shooting Death of Store Clerk, Associated Press, Sept. 25, 2025, https://apnews.com/article/alabama-execution-nitrogenabbee4a788ad61f5b8d7cfe0d7afe992.",
+          "type": "reference",
+          "canonical": "Chandler, Alabama Executes Man With Nitrogen Gas (2025)"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 58,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 62,
+          "end": 497
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 497,
+          "end": 1950
+        }
+      ],
+      "citations": [
+        {
+          "start": 6,
+          "end": 25,
+          "text": "Bucklew v. Precythe",
+          "type": "case",
+          "canonical": "587 U.S. 119",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 25,
+          "end": 47,
+          "text": ", 587 U. S. 119 (2019)",
+          "type": "case",
+          "canonical": "587 U.S. 119"
+        },
+        {
+          "start": 202,
+          "end": 321,
+          "text": "Id., at 119, 133 (quoting Baze v. Rees, 553 U. S. 35, 48 (2008) (plurality opinion); internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "553 U.S. 35"
+        },
+        {
+          "start": 687,
+          "end": 705,
+          "text": "587 U. S., at 134.",
+          "type": "case",
+          "canonical": "587 U.S. 119"
+        },
+        {
+          "start": 943,
+          "end": 1049,
+          "text": "Id., at 130 (quoting 1 N. Webster, An American Dictionary of the English Language (1828); emphasis added);",
+          "type": "reference",
+          "canonical": "Noah Webster, An American Dictionary of the English Language (1828)"
+        },
+        {
+          "start": 1050,
+          "end": 1124,
+          "text": "see Watts v. Indiana, 338 U. S. 49, 52 (1949) (opinion of Frankfurter, J.)",
+          "type": "case",
+          "canonical": "338 U.S. 49"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "superadd[ition]",
+          "to": "superaddition"
+        },
+        {
+          "from": "[d]isposed",
+          "to": "disposed"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 41,
+          "end": 1202
+        }
+      ],
+      "citations": [
+        {
+          "start": 477,
+          "end": 490,
+          "text": "App. 43a\u201344a.",
+          "type": "record",
+          "canonical": "Appendix, pp. 43a-44a"
+        },
+        {
+          "start": 656,
+          "end": 672,
+          "text": "Id., at 51a\u201352a.",
+          "type": "record",
+          "canonical": "Appendix, pp. 51a-52a"
+        },
+        {
+          "start": 974,
+          "end": 986,
+          "text": "Id., at 52a.",
+          "type": "record",
+          "canonical": "Appendix, p. 52a"
+        },
+        {
+          "start": 1141,
+          "end": 1160,
+          "text": "Id., at 53a, n. 34.",
+          "type": "record",
+          "canonical": "Appendix, p. 53a, note 34"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1202,
+          "end": 1497
+        }
+      ],
+      "citations": [
+        {
+          "start": 135,
+          "end": 151,
+          "text": "Id., at 55a\u201356a.",
+          "type": "record",
+          "canonical": "Appendix, pp. 55a-56a"
+        },
+        {
+          "start": 289,
+          "end": 294,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Appendix, pp. 55a-56a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1497,
+          "end": 1983
+        }
+      ],
+      "citations": [
+        {
+          "start": 110,
+          "end": 122,
+          "text": "Id., at 64a.",
+          "type": "record",
+          "canonical": "Appendix, p. 64a"
+        },
+        {
+          "start": 260,
+          "end": 265,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Appendix, p. 64a"
+        },
+        {
+          "start": 473,
+          "end": 485,
+          "text": "Id., at 11a.",
+          "type": "record",
+          "canonical": "Appendix, p. 11a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1983,
+          "end": 2091
+        },
+        {
+          "page": 6,
+          "start": 59,
+          "end": 640
+        }
+      ],
+      "citations": [
+        {
+          "start": 469,
+          "end": 486,
+          "text": "See App. 62a\u201364a.",
+          "type": "record",
+          "canonical": "Appendix, pp. 62a-64a"
+        },
+        {
+          "start": 596,
+          "end": 608,
+          "text": "Id., at 62a.",
+          "type": "record",
+          "canonical": "Appendix, p. 62a"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "consequenc[e]",
+          "to": "consequence"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 640,
+          "end": 1884
+        }
+      ],
+      "citations": [
+        {
+          "start": 716,
+          "end": 732,
+          "text": "Id., at 52a\u201355a.",
+          "type": "record",
+          "canonical": "Appendix, pp. 52a-55a"
+        },
+        {
+          "start": 951,
+          "end": 963,
+          "text": "Id., at 51a.",
+          "type": "record",
+          "canonical": "Appendix, p. 51a"
+        },
+        {
+          "start": 1118,
+          "end": 1164,
+          "text": "Cf. Baze, 553 U. S., at 53 (plurality opinion)",
+          "type": "case",
+          "canonical": "553 U.S. 35"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1884,
+          "end": 2115
+        },
+        {
+          "page": 7,
+          "start": 41,
+          "end": 1064
+        }
+      ],
+      "citations": [
+        {
+          "start": 195,
+          "end": 204,
+          "text": "App. 66a.",
+          "type": "record",
+          "canonical": "Appendix, p. 66a"
+        },
+        {
+          "start": 536,
+          "end": 542,
+          "text": "Ibid.;",
+          "type": "record",
+          "canonical": "Appendix, p. 66a"
+        },
+        {
+          "start": 543,
+          "end": 563,
+          "text": "see id., at 63a\u201364a.",
+          "type": "record",
+          "canonical": "Appendix, pp. 63a-64a"
+        },
+        {
+          "start": 929,
+          "end": 950,
+          "text": "See id., at 55a, 64a.",
+          "type": "record",
+          "canonical": "Appendix, pp. 55a, 64a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1064,
+          "end": 1872
+        }
+      ],
+      "citations": [
+        {
+          "start": 190,
+          "end": 221,
+          "text": "See Bucklew, 587 U. S., at 136.",
+          "type": "case",
+          "canonical": "587 U.S. 119"
+        },
+        {
+          "start": 291,
+          "end": 371,
+          "text": "See Glossip v. Gross, 576 U. S. 863, 970\u2013975 (2015) (SOTOMAYOR, J., dissenting).",
+          "type": "case",
+          "canonical": "576 U.S. 863"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 65,
+          "end": 940
+        }
+      ],
+      "citations": [
+        {
+          "start": 71,
+          "end": 98,
+          "text": "Bucklew, 587 U. S., at 132.",
+          "type": "case",
+          "canonical": "587 U.S. 119"
+        },
+        {
+          "start": 625,
+          "end": 693,
+          "text": "Smith, 601 U. S., at ___ (opinion of SOTOMAYOR, J.) (slip op., at 5)",
+          "type": "case",
+          "canonical": "601 U.S. ___ (2024), Smith v. Hamm"
+        },
+        {
+          "start": 694,
+          "end": 747,
+          "text": "(quoting Hall v. Florida, 572 U. S. 701, 708 (2014)).",
+          "type": "case",
+          "canonical": "572 U.S. 701"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "protec[t]",
+          "to": "protect"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 41,
+      "text": "2 BOYD v. HAMM\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 59,
+      "text": "Cite as: 607 U. S. ____ (2025) 3\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 2,
+      "start": 1827,
+      "end": 1835,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 1",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 41,
+      "text": "4 BOYD v. HAMM\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 3,
+      "start": 1631,
+      "end": 1640,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 2 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 3,
+      "start": 1767,
+      "end": 1768,
+      "text": "3",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 607 U. S. ____ (2025) 5\nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 41,
+      "text": "6 BOYD v. HAMM\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 59,
+      "text": "Cite as: 607 U. S. ____ (2025) 7\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 41,
+      "text": "8 BOYD v. HAMM\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 65,
+      "text": "Cite as: 607 U. S. ____ (2025) 9\nSOTOMAYOR, J., dissenting\n* * *\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 872,
+      "end": 884,
+      "expectedText": "thirtysecond",
+      "text": "thirty-second"
+    },
+    {
+      "page": 2,
+      "start": 1778,
+      "end": 1779,
+      "expectedText": "1",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 67,
+      "end": 68,
+      "expectedText": "2",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1502,
+      "end": 1503,
+      "expectedText": "3",
+      "text": ""
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan",
+      "Ketanji Brown Jackson"
+    ]
+  }
+}

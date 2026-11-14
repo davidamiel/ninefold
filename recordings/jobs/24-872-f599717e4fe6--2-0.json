@@ -1,0 +1,44 @@
+{
+  "reviewed": true,
+  "documentId": "24-872-f599717e4fe6--2-0",
+  "sourceDocumentId": "24-872-f599717e4fe6",
+  "sourceTextPath": "dist/data/docs/24-872-f599717e4fe6.json",
+  "sourceTextSha256": "fe074150b9034f9c416ba430db47f07681528c2d2234a36f1104a691d617e66e",
+  "sourcePdfPath": "dist/data/pdfs/24-872-f599717e4fe6--2-0.pdf",
+  "sourcePdfSha256": "ebc31fb800705037b079c724c522928a33993e482002bbe516a0645c1b8e3de2",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-05-21",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r35_j4el.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 103,
+    "endPage": 2,
+    "endOffset": 183
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 103,
+          "end": 183
+        }
+      ]
+    }
+  ],
+  "excludedSource": [],
+  "repairs": [],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Compared the complete three-sentence dismissal with source PDF page. Contains only the Court dismissal and disposition; separate concurrence excluded. No citations or substantive notes."
+}

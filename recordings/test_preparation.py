@@ -50,6 +50,12 @@ class ReviewedPreparation(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'source changed'):
             prepare(job)
 
+    def test_authorized_revision_source_is_also_checksum_bound(self):
+        job = copy.deepcopy(self.job)
+        job['revisionSource'] = {'pdfPath': job['sourcePdfPath'], 'sha256': '0'*64}
+        with self.assertRaisesRegex(ValueError, 'source changed'):
+            prepare(job)
+
     def test_overlapping_repairs_cannot_corrupt_a_joined_word(self):
         source={'pages':[{'text':'beneft pay-'}]}
         repairs=[{'page':0,'start':0,'end':6,'expectedText':'beneft','text':'benefit'},

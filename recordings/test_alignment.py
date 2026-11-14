@@ -17,6 +17,12 @@ class WordAlignment(unittest.TestCase):
         self.assertEqual(words('Rule 60(c)(1)'),words('Rule sixty c one'))
         self.assertEqual(words('Section 78 u d 5'),words('Section seventy-eight u d five'))
 
+    def test_spelled_statute_codes_match_their_combined_asr_spelling(self):
+        expected=[word for word,_,_ in tokens('Section seventy-eight u d seven')]
+        heard=[word for word,_,_ in tokens('Section 78 UD7')]
+        self.assertEqual(len(timing_pairs(expected,heard)),len(expected))
+        self.assertEqual(len(timing_pairs(['f','a','a','a','a'],['faaaa'])),5)
+
 
 if __name__ == '__main__':
     unittest.main()

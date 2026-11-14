@@ -1,0 +1,66 @@
+{
+  "reviewed": true,
+  "documentId": "26A305-baefa5e1b024--0-566",
+  "sourceDocumentId": "26A305-baefa5e1b024",
+  "sourceTextPath": "dist/data/current-docs/26A305-baefa5e1b024.json",
+  "sourceTextSha256": "298cbf86fd1455825d1efca1b02a98dec270dfb5d55a2359ef7f6a31286e239c",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/7f82b8df2d7c7f9a4dd8dd44.pdf",
+  "sourcePdfSha256": "933fe18543d4f8712fad138e69acbb3ae5939d7ba9868a108160de059cdf1792",
+  "title": "Concurrence",
+  "author": "Brett M. Kavanaugh",
+  "date": "2026-09-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a305_4g15.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 597,
+    "endPage": 0,
+    "endOffset": 1181
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 597,
+          "end": 1181
+        }
+      ],
+      "citations": [
+        {
+          "start": 189,
+          "end": 213,
+          "text": "See 39 U. S. C. \u00a7401(2).",
+          "type": "statute",
+          "canonical": "39 U.S.C. \u00a7 401"
+        },
+        {
+          "start": 467,
+          "end": 492,
+          "text": "See 39 U. S. C. \u00a73001(m);",
+          "type": "statute",
+          "canonical": "39 U.S.C. \u00a7 3001"
+        },
+        {
+          "start": 493,
+          "end": 515,
+          "text": "5 U. S. C. \u00a7706(2)(A).",
+          "type": "statute",
+          "canonical": "5 U.S.C. \u00a7 706"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [],
+  "repairs": [],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

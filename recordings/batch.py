@@ -2,10 +2,12 @@
 import argparse
 from datetime import datetime, timezone
 import fcntl
+import hashlib
 import json
 from pathlib import Path
 import subprocess
 import sys
+import time
 
 from generate import ROOT, load_job, local_path
 from prepare import prepare
@@ -28,12 +30,12 @@ def reviewed_jobs(paths):
                 yield candidate, job, identifier
 
 
-def process(path, generation_python, alignment_python, engine, log):
+def process(path, generation_python, alignment_python, engine, alignment_device, log):
     commands = [(sys.executable, 'prepare.py', []),
                 (generation_python, 'generate.py', ['--voice', 'female', '--resume', '--engine', engine]),
                 (generation_python, 'generate.py', ['--voice', 'male', '--resume', '--engine', engine]),
-                (alignment_python, 'align.py', ['--voice', 'female']),
-                (alignment_python, 'align.py', ['--voice', 'male']),
+                (alignment_python, 'align.py', ['--voice', 'female', '--device', alignment_device]),
+                (alignment_python, 'align.py', ['--voice', 'male', '--device', alignment_device]),
                 (sys.executable, 'stage.py', [])]
     for python, script, options in commands:
         print('Running', script, path.name, ' '.join(options), flush=True)
@@ -43,7 +45,7 @@ def process(path, generation_python, alignment_python, engine, log):
 
 def pending_job(paths, attempted, inventory):
     for path, job, identifier in reviewed_jobs(paths):
-        if identifier in attempted:
+        if attempted.get(identifier) == hashlib.sha256(path.read_bytes()).hexdigest():
             continue
         try:
             body, _ = prepare(job)
@@ -63,20 +65,29 @@ def save_status(path, status):
 def run_batch(args, folder):
     status_path = local_path(folder/'batch-status.json', folder)
     status = json.loads(status_path.read_text()) if status_path.exists() else {}
-    attempted = set()
+    attempted = {}
     while True:
+        if (folder/'batch.stop').exists():
+            break
+        retry = folder/'batch.retry'
+        if retry.exists():
+            attempted.clear()
+            retry.unlink()
         inventory = json.loads((ROOT/'dist/data/prepared-documents.json').read_text())
         pending = pending_job(args.jobs, attempted, inventory)
         if not pending:
+            if args.watch:
+                time.sleep(3)
+                continue
             break
         path, identifier = pending
-        attempted.add(identifier)
+        attempted[identifier] = hashlib.sha256(path.read_bytes()).hexdigest()
         log_path = local_path(folder/(identifier+'-batch.log'), folder)
         status[identifier] = {'state': 'running', 'updatedAt': datetime.now(timezone.utc).isoformat()}
         save_status(status_path, status)
         try:
             with log_path.open('w') as log:
-                process(path, args.generation_python, args.alignment_python, args.engine, log)
+                process(path, args.generation_python, args.alignment_python, args.engine, args.alignment_device, log)
             status[identifier]['state'] = 'complete'
         except subprocess.CalledProcessError as error:
             status[identifier].update(state='failed', error=str(error), log=str(log_path.relative_to(ROOT)))
@@ -93,6 +104,8 @@ def main():
     parser.add_argument('--generation-python', type=Path, default=Path(sys.executable))
     parser.add_argument('--alignment-python', type=Path, default=Path(sys.executable))
     parser.add_argument('--engine', choices=['onnx', 'mlx'], default='onnx')
+    parser.add_argument('--alignment-device', choices=['cpu', 'mps'], default='cpu')
+    parser.add_argument('--watch', action='store_true')
     args = parser.parse_args()
     folder = local_path(ROOT/'work/recordings', ROOT/'work')
     folder.mkdir(parents=True, exist_ok=True)

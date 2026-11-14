@@ -1,0 +1,157 @@
+{
+  "version": "7117a1b97e8d1b79",
+  "duration": 52.48,
+  "voice": "af_sky",
+  "audioSha256": "fd56b9932ac22bb0fbb42fa51e1a186a30ba53b05d42fcc65d5cc6f0c34bd33c",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 5.82,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 730,
+          "end": 825
+        }
+      ],
+      "text": "Louisiana immunizes healthcare providers from civil liability during public health emergencies."
+    },
+    {
+      "start": 5.82,
+      "end": 11.66,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 880,
+          "end": 981
+        }
+      ],
+      "text": "Below, the Louisiana Court of Appeal held that this state statute barred plaintiff's federal claims."
+    },
+    {
+      "start": 11.66,
+      "end": 13.82,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1105,
+          "end": 1132
+        }
+      ],
+      "text": "That decision is incorrect."
+    },
+    {
+      "start": 13.82,
+      "end": 17.74,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1133,
+          "end": 1207
+        }
+      ],
+      "text": "Defining the scope of liability under state law is the State's prerogative."
+    },
+    {
+      "start": 17.74,
+      "end": 22.52,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1208,
+          "end": 1282
+        }
+      ],
+      "text": "But a State has no power to confer immunity from federal causes of action."
+    },
+    {
+      "start": 22.52,
+      "end": 31.98,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1436,
+          "end": 1577
+        }
+      ],
+      "text": "“The Judges in every State” are bound to follow federal law, “any Thing in the Constitution or Laws of any state to the Contrary notwithstanding.”"
+    },
+    {
+      "start": 31.98,
+      "end": 36.02,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1608,
+          "end": 1675
+        }
+      ],
+      "text": "Plaintiff's federal claims may well fail on other federal grounds."
+    },
+    {
+      "start": 36.02,
+      "end": 39.98,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1742,
+          "end": 1810
+        }
+      ],
+      "text": "But that is for the Louisiana courts to decide in the first instance."
+    },
+    {
+      "start": 39.98,
+      "end": 49.7,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1811,
+          "end": 1900
+        },
+        {
+          "page": 2,
+          "start": 51,
+          "end": 145
+        }
+      ],
+      "text": "The petition for certiorari is granted, the judgment of the Louisiana Court of Appeal is reversed, and the case is remanded for further proceedings not inconsistent with this opinion."
+    },
+    {
+      "start": 49.7,
+      "end": 51.36,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 146,
+          "end": 163
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 80,
+      "expectedWords": 83,
+      "coverage": 0.963855421686747
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 55,
+      "expectedWords": 57,
+      "coverage": 0.9649122807017544
+    }
+  ]
+}

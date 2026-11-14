@@ -1,0 +1,1761 @@
+{
+  "reviewed": true,
+  "documentId": "25A914-6f32f281156b--4-325",
+  "sourceDocumentId": "25A914-6f32f281156b",
+  "sourceTextPath": "dist/data/current-docs/25A914-6f32f281156b.json",
+  "sourceTextSha256": "429ae24970ee88cc6559cd498cf3c667577c564914dbcabb4dbe632c535ac988",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/5bec7826410c00fc81027317.pdf",
+  "sourcePdfSha256": "22ea88c2a68230627b337cada2a78a90783c6011a86e57c396c6a17f566af185",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2026-03-02",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a914_1p24.pdf",
+  "sourceRange": {
+    "startPage": 4,
+    "startOffset": 427,
+    "endPage": 16,
+    "endOffset": 1163
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 427,
+          "end": 1279
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 25,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 29,
+          "end": 236
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 237,
+          "end": 577
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 578,
+          "end": 1325
+        }
+      ],
+      "citations": [
+        {
+          "start": 303,
+          "end": 407,
+          "text": "Williams v. Board of Elections, ___ N. Y. S. 3d ___, ___, 2026 N. Y. Slip Op. 26015, *2 (Jan. 21, 2026).",
+          "type": "case",
+          "canonical": "2026 N.Y. Slip Op. 26015"
+        },
+        {
+          "start": 700,
+          "end": 715,
+          "text": "Article III, \u00a74",
+          "type": "statute",
+          "canonical": "N.Y. Const., Art. III, \u00a74",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III, \u00a74",
+          "to": "Article 3, Section 4"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1326,
+          "end": 1526
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1562,
+          "end": 2138
+        },
+        {
+          "page": 6,
+          "start": 1798,
+          "end": 2058
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 351,
+          "end": 459,
+          "text": "See Williams v. Board of Elections, ___ N. Y. S. 3d ___, ___, 2026 N. Y. Slip Op. 26015, *6 (Jan. 21, 2026);",
+          "type": "case",
+          "canonical": "2026 N.Y. Slip Op. 26015"
+        },
+        {
+          "start": 460,
+          "end": 606,
+          "text": "see also League of United Latin American Citizens v. Perry, 548 U. S. 399, 484\u2013491 (2006) (Souter, J., concurring in part and dissenting in part);",
+          "type": "case",
+          "canonical": "548 U.S. 399"
+        },
+        {
+          "start": 607,
+          "end": 629,
+          "text": "Bartlett v. Strickland",
+          "type": "case",
+          "canonical": "556 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 629,
+          "end": 681,
+          "text": ", 556 U. S. 1, 31\u201335 (2009) (Souter, J., dissenting)",
+          "type": "case",
+          "canonical": "556 U.S. 1"
+        },
+        {
+          "start": 717,
+          "end": 719,
+          "text": "\u00a72",
+          "type": "statute",
+          "canonical": "Voting Rights Act \u00a72",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 745,
+          "end": 786,
+          "text": "; see also id., at 22 (plurality opinion)",
+          "type": "case",
+          "canonical": "556 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a72",
+          "to": "Section 2"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1528,
+          "end": 1554
+        },
+        {
+          "page": 6,
+          "start": 26,
+          "end": 582
+        }
+      ],
+      "citations": [
+        {
+          "start": 464,
+          "end": 519,
+          "text": "___ N. Y. S. 3d, at ___, 2026 N. Y. Slip Op. 26015, *8.",
+          "type": "case",
+          "canonical": "2026 N.Y. Slip Op. 26015"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[its]",
+          "to": "its"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 583,
+          "end": 1314
+        }
+      ],
+      "citations": [
+        {
+          "start": 609,
+          "end": 660,
+          "text": "See 1 App. to Emergency Application 20a\u201321a (App.);",
+          "type": "record",
+          "canonical": "Stay application appendix, pp. 20a-21a"
+        },
+        {
+          "start": 661,
+          "end": 699,
+          "text": "see also N.Y. Const., Art. VI, \u00a73b(2);",
+          "type": "statute",
+          "canonical": "N.Y. Const., Art. VI, \u00a73b(2)"
+        },
+        {
+          "start": 700,
+          "end": 730,
+          "text": "N. Y. C. P. L. R. \u00a75601(b)(2).",
+          "type": "statute",
+          "canonical": "N.Y. CPLR \u00a75601(b)(2)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1315,
+          "end": 1791
+        }
+      ],
+      "citations": [
+        {
+          "start": 223,
+          "end": 242,
+          "text": "Supp. App. 102\u2013103.",
+          "type": "record",
+          "canonical": "Supplemental appendix, pp. 102-103"
+        },
+        {
+          "start": 417,
+          "end": 434,
+          "text": ", see ante, at 2;",
+          "type": "reference",
+          "canonical": "Alito concurrence, p. 2"
+        },
+        {
+          "start": 435,
+          "end": 474,
+          "text": "see also N. Y. C. P. L. R. \u00a7\u00a75519, 5602",
+          "type": "statute",
+          "canonical": "N.Y. CPLR \u00a7\u00a75519,5602"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 25,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 30,
+          "end": 570
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 570,
+          "end": 573
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 574,
+          "end": 960
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 192,
+          "text": "See, e.g., Hain Celestial Group, Inc. v. Palmquist, 607 U. S. ___, ___ (2026) (slip op., at 1);",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2026), Hain Celestial Group v. Palmquist"
+        },
+        {
+          "start": 193,
+          "end": 278,
+          "text": "Kempe\u2019s Lessee v. Kennedy, 5 Cranch 173, 185 (1809) (Marshall, C. J., for the Court).",
+          "type": "case",
+          "canonical": "5 Cranch 173"
+        },
+        {
+          "start": 344,
+          "end": 385,
+          "text": "Hain, 607 U. S., at ___ (slip op., at 5).",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2026), Hain Celestial Group v. Palmquist"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 961,
+          "end": 1715
+        }
+      ],
+      "citations": [
+        {
+          "start": 99,
+          "end": 125,
+          "text": "Title 28 U. S. C. \u00a71257(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a71257(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 283,
+          "end": 291,
+          "text": "\u00a71257(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a71257(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 614,
+          "end": 668,
+          "text": "Jefferson v. City of Tarrant, 522 U. S. 75, 81 (1997).",
+          "type": "case",
+          "canonical": "522 U.S. 75"
+        },
+        {
+          "start": 749,
+          "end": 754,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "522 U.S. 75"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title 28 U. S. C. \u00a71257(a)",
+          "to": "Title 28, United States Code, Section 1257, a"
+        },
+        {
+          "from": "\u00a71257(a)",
+          "to": "Section 1257, a"
+        },
+        {
+          "from": "[f]inal",
+          "to": "final"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1716,
+          "end": 1889
+        },
+        {
+          "page": 8,
+          "start": 26,
+          "end": 653
+        }
+      ],
+      "citations": [
+        {
+          "start": 428,
+          "end": 437,
+          "text": "\u00a71257(a).",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a71257(a)"
+        },
+        {
+          "start": 579,
+          "end": 587,
+          "text": "\u00a71257(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a71257(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 666,
+          "end": 694,
+          "text": "See N. Y. C. P. L. R. \u00a75602.",
+          "type": "statute",
+          "canonical": "N.Y. CPLR \u00a75602"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a71257(a)",
+          "to": "Section 1257, a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 654,
+          "end": 2042
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 332,
+          "text": "See, e.g., National Socialist Party of America v. Skokie, 432 U. S. 43, 43\u201344 (1977) (per curiam);",
+          "type": "case",
+          "canonical": "432 U.S. 43"
+        },
+        {
+          "start": 333,
+          "end": 408,
+          "text": "CBS Inc. v. Davis, 510 U. S. 1315, 1316 (1994) (Blackmun, J., in chambers);",
+          "type": "case",
+          "canonical": "510 U.S. 1315"
+        },
+        {
+          "start": 409,
+          "end": 502,
+          "text": "Volkswagenwerk A. G. v. Falzon, 461 U. S. 1303, 1303\u20131305 (1983) (O\u2019Connor, J., in chambers);",
+          "type": "case",
+          "canonical": "461 U.S. 1303"
+        },
+        {
+          "start": 503,
+          "end": 599,
+          "text": "M. I. C., Ltd. v. Bedford Township, 463 U. S. 1341, 1342\u20131343 (1983) (Brennan, J., in chambers);",
+          "type": "case",
+          "canonical": "463 U.S. 1341"
+        },
+        {
+          "start": 600,
+          "end": 693,
+          "text": "Nebraska Press Assn. v. Stuart, 423 U. S. 1327, 1328\u20131329 (1975) (Blackmun, J., in chambers).",
+          "type": "case",
+          "canonical": "423 U.S. 1327"
+        },
+        {
+          "start": 773,
+          "end": 807,
+          "text": "Yeshiva Univ. v. YU Pride Alliance",
+          "type": "case",
+          "canonical": "597 U.S. ___ (2022), Yeshiva University v. YU Pride Alliance",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 807,
+          "end": 829,
+          "text": ", 597 U. S. ___ (2022)",
+          "type": "case",
+          "canonical": "597 U.S. ___ (2022), Yeshiva University v. YU Pride Alliance"
+        },
+        {
+          "start": 1118,
+          "end": 1147,
+          "text": "Id., at ___ (slip op., at 1);",
+          "type": "case",
+          "canonical": "597 U.S. ___ (2022), Yeshiva University v. YU Pride Alliance"
+        },
+        {
+          "start": 1148,
+          "end": 1157,
+          "text": "see also ",
+          "type": "case",
+          "canonical": "606 U.S. 1051"
+        },
+        {
+          "start": 1157,
+          "end": 1189,
+          "text": "New Jersey Transit Corp. v. Colt",
+          "type": "case",
+          "canonical": "606 U.S. 1051",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1189,
+          "end": 1212,
+          "text": ", 606 U. S. 1051 (2025)",
+          "type": "case",
+          "canonical": "606 U.S. 1051"
+        },
+        {
+          "start": 1331,
+          "end": 1387,
+          "text": ", see Application for Stay, O. T. 2024, No. 25A287, p. 2",
+          "type": "record",
+          "canonical": "New Jersey Transit v. Colt, No. 25A287, stay application, p. 2"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "h[ad]",
+          "to": "had"
+        },
+        {
+          "from": "Yeshiva Univ. v.",
+          "to": "Yeshiva University versus"
+        },
+        {
+          "from": "Corp. v.",
+          "to": "Corporation versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 27,
+          "end": 1301
+        }
+      ],
+      "citations": [
+        {
+          "start": 315,
+          "end": 331,
+          "text": "See App. 20a\u201321a",
+          "type": "record",
+          "canonical": "Stay application appendix, pp. 20a-21a"
+        },
+        {
+          "start": 332,
+          "end": 376,
+          "text": "(citing N.Y. Const., Art. VI, \u00a7\u00a73b(2), 5(b);",
+          "type": "statute",
+          "canonical": "N.Y. Const., Art. VI, \u00a7\u00a73b(2),5(b)"
+        },
+        {
+          "start": 377,
+          "end": 408,
+          "text": "N. Y. C. P. L. R. \u00a75601(b)(2)).",
+          "type": "statute",
+          "canonical": "N.Y. CPLR \u00a75601(b)(2)"
+        },
+        {
+          "start": 559,
+          "end": 604,
+          "text": "National Socialist Party of America v. Skokie",
+          "type": "case",
+          "canonical": "432 U.S. 43",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 604,
+          "end": 618,
+          "text": ", 432 U. S. 43",
+          "type": "case",
+          "canonical": "432 U.S. 43"
+        },
+        {
+          "start": 691,
+          "end": 699,
+          "text": "\u00a71257(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a71257(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 701,
+          "end": 735,
+          "text": "Ante, at 2\u20133 (concurring opinion).",
+          "type": "reference",
+          "canonical": "Alito concurrence, pp. 2-3"
+        },
+        {
+          "start": 897,
+          "end": 917,
+          "text": "432 U. S., at 43\u201344.",
+          "type": "case",
+          "canonical": "432 U.S. 43"
+        },
+        {
+          "start": 1057,
+          "end": 1068,
+          "text": "Id., at 44.",
+          "type": "case",
+          "canonical": "432 U.S. 43"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a71257(a)",
+          "to": "Section 1257, a"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1548,
+          "end": 2298
+        }
+      ],
+      "label": "2",
+      "citations": [
+        {
+          "start": 327,
+          "end": 383,
+          "text": "Bantam Books, Inc. v. Sullivan, 372 U. S. 58, 70 (1963).",
+          "type": "case",
+          "canonical": "372 U.S. 58"
+        },
+        {
+          "start": 478,
+          "end": 576,
+          "text": "16B C. Wright, A. Miller, and E. Cooper, Federal Practice and Procedure \u00a74010 (3d ed., 2025 Supp.)",
+          "type": "reference",
+          "canonical": "16B Wright, Miller & Cooper, Federal Practice and Procedure \u00a74010 (3d ed., 2025 Supp.)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1302,
+          "end": 1539
+        },
+        {
+          "page": 10,
+          "start": 26,
+          "end": 477
+        }
+      ],
+      "citations": [
+        {
+          "start": 246,
+          "end": 265,
+          "text": "Supp. App. 102\u2013103.",
+          "type": "record",
+          "canonical": "Supplemental appendix, pp. 102-103"
+        },
+        {
+          "start": 439,
+          "end": 466,
+          "text": "N. Y. C. P. L. R. \u00a75519(c);",
+          "type": "statute",
+          "canonical": "N.Y. CPLR \u00a75519(c)"
+        },
+        {
+          "start": 467,
+          "end": 478,
+          "text": "\u00a75602(a)(2)",
+          "type": "statute",
+          "canonical": "N.Y. CPLR \u00a75602(a)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a75602(a)(2)",
+          "to": "Section 5602, a, 2"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 478,
+          "end": 691
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1635,
+          "end": 1983
+        }
+      ],
+      "label": "3",
+      "citations": [
+        {
+          "start": 52,
+          "end": 63,
+          "text": "Ante, at 4.",
+          "type": "reference",
+          "canonical": "Alito concurrence, p. 4"
+        },
+        {
+          "start": 135,
+          "end": 151,
+          "text": "Lance v. Coffman",
+          "type": "case",
+          "canonical": "549 U.S. 437",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 151,
+          "end": 191,
+          "text": ", 549 U. S. 437, 439 (2007) (per curiam)",
+          "type": "case",
+          "canonical": "549 U.S. 437"
+        },
+        {
+          "start": 285,
+          "end": 307,
+          "text": "; but see ante, at 1\u20132",
+          "type": "reference",
+          "canonical": "Alito concurrence, pp. 1-2"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "duck[ing]",
+          "to": "ducking"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 691,
+          "end": 694
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 695,
+          "end": 1626
+        },
+        {
+          "page": 11,
+          "start": 26,
+          "end": 119
+        }
+      ],
+      "citations": [
+        {
+          "start": 260,
+          "end": 314,
+          "text": "See Claflin v. Houseman, 93 U. S. 130, 136\u2013137 (1876).",
+          "type": "case",
+          "canonical": "93 U.S. 130"
+        },
+        {
+          "start": 627,
+          "end": 684,
+          "text": "Chick Kam Choo v. Exxon Corp., 486 U. S. 140, 146 (1988);",
+          "type": "case",
+          "canonical": "486 U.S. 140"
+        },
+        {
+          "start": 685,
+          "end": 707,
+          "text": "see 28 U. S. C. \u00a72283.",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a72283"
+        },
+        {
+          "start": 989,
+          "end": 1023,
+          "text": "Chick Kam Choo, 486 U. S., at 146.",
+          "type": "case",
+          "canonical": "486 U.S. 140"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "federal\u2011",
+          "to": "federal"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 120,
+          "end": 673
+        }
+      ],
+      "citations": [
+        {
+          "start": 250,
+          "end": 259,
+          "text": "\u00a71651(a).",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a71651(a)"
+        },
+        {
+          "start": 362,
+          "end": 382,
+          "text": ", see supra, at 4\u20137,",
+          "type": "reference",
+          "canonical": "This dissent, pp. 4-7"
+        },
+        {
+          "start": 501,
+          "end": 552,
+          "text": "United States v. Denedo, 556 U. S. 904, 914 (2009).",
+          "type": "case",
+          "canonical": "556 U.S. 904"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[this Court\u2019s]",
+          "to": "this Court\u2019s"
+        },
+        {
+          "from": "jurisdictio[n]",
+          "to": "jurisdiction"
+        },
+        {
+          "from": "[w]e",
+          "to": "we"
+        },
+        {
+          "from": "[that t]he",
+          "to": "that the"
+        },
+        {
+          "from": "jurisdiction,\u201d",
+          "to": "jurisdiction.\u201d"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 674,
+          "end": 864
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1771,
+          "end": 2100
+        }
+      ],
+      "label": "4",
+      "citations": [
+        {
+          "start": 0,
+          "end": 27,
+          "text": "Title 28 U. S. C. \u00a72101(f )",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a72101(f)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title 28 U. S. C. \u00a72101(f )",
+          "to": "Title 28, United States Code, Section 2101, f"
+        },
+        {
+          "from": "[that]",
+          "to": "that"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 866,
+          "end": 1291
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 82,
+          "text": "See Atlantic Coast Line R. Co. v. Locomotive Engineers, 398 U. S. 281, 295 (1970).",
+          "type": "case",
+          "canonical": "398 U.S. 281"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1292,
+          "end": 1763
+        },
+        {
+          "page": 12,
+          "start": 26,
+          "end": 382
+        }
+      ],
+      "citations": [
+        {
+          "start": 671,
+          "end": 722,
+          "text": "See Brief for Respondent Kathy Hochul et al. 16\u201320.",
+          "type": "record",
+          "canonical": "Respondent Kathy Hochul brief, pp. 16-20"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 383,
+          "end": 1268
+        }
+      ],
+      "citations": [
+        {
+          "start": 656,
+          "end": 672,
+          "text": "See Art. VI, \u00a75.",
+          "type": "statute",
+          "canonical": "N.Y. Const., Art. VI, \u00a75"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1755,
+          "end": 2099
+        }
+      ],
+      "label": "5",
+      "citations": [
+        {
+          "start": 55,
+          "end": 98,
+          "text": "Harkenrider v. Hochul, 173 N. Y. S. 3d 109.",
+          "type": "case",
+          "canonical": "173 N.Y.S.3d 109"
+        },
+        {
+          "start": 160,
+          "end": 226,
+          "text": "Harkenrider v. Hochul, 204 App. Div. 3d 1366, 167 N. Y. S. 3d 659.",
+          "type": "case",
+          "canonical": "204 App.Div.3d 1366"
+        },
+        {
+          "start": 287,
+          "end": 344,
+          "text": "Harkenrider v. Hochul, 38 N. Y. 3d 494, 197 N. E. 3d 437.",
+          "type": "case",
+          "canonical": "38 N.Y.3d 494"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1269,
+          "end": 1747
+        }
+      ],
+      "citations": [
+        {
+          "start": 317,
+          "end": 389,
+          "text": "See United States v. New York, 2022 WL 1473259, *1 (NDNY, May 10, 2022);",
+          "type": "case",
+          "canonical": "2022 WL 1473259"
+        },
+        {
+          "start": 390,
+          "end": 477,
+          "text": "see also Harkenrider v. Hochul, 38 N. Y. 3d 494, 522, 197 N. E. 3d 437, 454\u2013455 (2022).",
+          "type": "case",
+          "canonical": "38 N.Y.3d 494"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 27,
+          "end": 367
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 367,
+          "end": 370
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 371,
+          "end": 1622
+        }
+      ],
+      "citations": [
+        {
+          "start": 193,
+          "end": 296,
+          "text": "Republican National Committee v. Democratic National Committee, 589 U. S. 423, 424 (2020) (per curiam).",
+          "type": "case",
+          "canonical": "589 U.S. 423"
+        },
+        {
+          "start": 564,
+          "end": 690,
+          "text": "Merrill v. Milligan, 595 U. S. ___, ___ (2022) (KAVANAUGH, J., concurring in grant of application for stays) (slip op., at 4);",
+          "type": "case",
+          "canonical": "595 U.S. ___ (2022), Merrill v. Milligan"
+        },
+        {
+          "start": 691,
+          "end": 753,
+          "text": "see also Purcell v. Gonzalez, 549 U. S. 1 (2006) (per curiam).",
+          "type": "case",
+          "canonical": "549 U.S. 1"
+        },
+        {
+          "start": 929,
+          "end": 939,
+          "text": "ante, at 4",
+          "type": "reference",
+          "canonical": "Alito concurrence, p. 4"
+        },
+        {
+          "start": 1174,
+          "end": 1250,
+          "text": "See Milligan, 595 U. S., at ___ (slip op., at 4) (opinion of KAVANAUGH, J.).",
+          "type": "case",
+          "canonical": "595 U.S. ___ (2022), Merrill v. Milligan"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "confusion,\u201d .",
+          "to": "confusion.\u201d"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1623,
+          "end": 2036
+        },
+        {
+          "page": 14,
+          "start": 26,
+          "end": 1083
+        }
+      ],
+      "citations": [
+        {
+          "start": 362,
+          "end": 465,
+          "text": "Abbott v. League of United Latin American Citizens, 607 U. S. ___, ___ (2025) (LULAC) (slip op., at 2);",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Abbott v. LULAC"
+        },
+        {
+          "start": 466,
+          "end": 559,
+          "text": "see id., at ___ (KAGAN, J., dissenting from grant of application for stay) (slip op., at 15).",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Abbott v. LULAC"
+        },
+        {
+          "start": 748,
+          "end": 796,
+          "text": "Id., at ___ (majority opinion) (slip op., at 2).",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Abbott v. LULAC"
+        },
+        {
+          "start": 1009,
+          "end": 1054,
+          "text": "Milligan, 595 U. S., at ___ (slip op., at 1);",
+          "type": "case",
+          "canonical": "595 U.S. ___ (2022), Merrill v. Milligan"
+        },
+        {
+          "start": 1055,
+          "end": 1149,
+          "text": "see id., at ___ (KAGAN, J., dissenting from grant of application for stays) (slip op., at 10);",
+          "type": "case",
+          "canonical": "595 U.S. ___ (2022), Merrill v. Milligan"
+        },
+        {
+          "start": 1150,
+          "end": 1192,
+          "text": "Allen v. Milligan, 599 U. S. 1, 23 (2023).",
+          "type": "case",
+          "canonical": "599 U.S. 1"
+        },
+        {
+          "start": 1315,
+          "end": 1374,
+          "text": "Robinson v. Callais, 601 U. S. ___ (2024) (slip op., at 1);",
+          "type": "case",
+          "canonical": "601 U.S. ___ (2024), Robinson v. Callais"
+        },
+        {
+          "start": 1375,
+          "end": 1470,
+          "text": "see id., at ___ (JACKSON, J., dissenting from grant of applications for stay) (slip op., at 2).",
+          "type": "case",
+          "canonical": "601 U.S. ___ (2024), Robinson v. Callais"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1084,
+          "end": 1703
+        }
+      ],
+      "citations": [
+        {
+          "start": 418,
+          "end": 460,
+          "text": "LULAC, 607 U. S., at ___ (slip op., at 2),",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Abbott v. LULAC"
+        },
+        {
+          "start": 496,
+          "end": 517,
+          "text": "28 U. S. C. \u00a71651(a).",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a71651(a)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "imprope[r]",
+          "to": "improper"
+        },
+        {
+          "from": "December,",
+          "to": "December"
+        },
+        {
+          "from": "appropriate,\u201d",
+          "to": "appropriate.\u201d"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1877,
+          "end": 2107
+        }
+      ],
+      "label": "6",
+      "citations": [
+        {
+          "start": 106,
+          "end": 117,
+          "text": "Ante, at 4.",
+          "type": "reference",
+          "canonical": "Alito concurrence, p. 4"
+        },
+        {
+          "start": 191,
+          "end": 197,
+          "text": "ibid.,",
+          "type": "reference",
+          "canonical": "Alito concurrence, p. 4"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "restraint,\u201d",
+          "to": "restraint\u201d"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1704,
+          "end": 1868
+        },
+        {
+          "page": 15,
+          "start": 26,
+          "end": 1484
+        }
+      ],
+      "citations": [
+        {
+          "start": 176,
+          "end": 248,
+          "text": "Milligan, 595 U. S., at ___ (opinion of KAVANAUGH, J.) (slip op., at 5).",
+          "type": "case",
+          "canonical": "595 U.S. ___ (2022), Merrill v. Milligan"
+        },
+        {
+          "start": 540,
+          "end": 562,
+          "text": "Bartlett v. Strickland",
+          "type": "case",
+          "canonical": "556 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 562,
+          "end": 606,
+          "text": ", 556 U. S. 1, 18 (2009) (plurality opinion)",
+          "type": "case",
+          "canonical": "556 U.S. 1"
+        },
+        {
+          "start": 1269,
+          "end": 1320,
+          "text": "See Bartlett, 556 U. S., at 21 (plurality opinion);",
+          "type": "case",
+          "canonical": "556 U.S. 1"
+        },
+        {
+          "start": 1321,
+          "end": 1330,
+          "text": "see also ",
+          "type": "case",
+          "canonical": "580 U.S. 178"
+        },
+        {
+          "start": 1330,
+          "end": 1377,
+          "text": "Bethune-Hill v. Virginia State Bd. of Elections",
+          "type": "case",
+          "canonical": "580 U.S. 178",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1377,
+          "end": 1404,
+          "text": ", 580 U. S. 178, 192 (2017)",
+          "type": "case",
+          "canonical": "580 U.S. 178"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1493,
+          "end": 2357
+        },
+        {
+          "page": 16,
+          "start": 752,
+          "end": 1163
+        }
+      ],
+      "label": "7",
+      "citations": [
+        {
+          "start": 21,
+          "end": 32,
+          "text": "ante, at 4,",
+          "type": "reference",
+          "canonical": "Alito concurrence, p. 4"
+        },
+        {
+          "start": 257,
+          "end": 262,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Alito concurrence, p. 4"
+        },
+        {
+          "start": 487,
+          "end": 529,
+          "text": "Allen v. Milligan, 599 U. S. 1, 23 (2023);",
+          "type": "case",
+          "canonical": "599 U.S. 1"
+        },
+        {
+          "start": 530,
+          "end": 643,
+          "text": "Merrill v. Milligan, 595 U. S. ___, ___ (2022) (KAVANAUGH, J., joined by ALITO, J., concurring) (slip op., at 2).",
+          "type": "case",
+          "canonical": "595 U.S. ___ (2022), Merrill v. Milligan"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "faithfu[l]",
+          "to": "faithful"
+        },
+        {
+          "from": "appli[cation of]",
+          "to": "application of"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 33,
+          "end": 720
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 721,
+          "end": 745
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 1279,
+      "end": 1305,
+      "text": " 2 MALLIOTAKIS v. WILLIAMS",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 25,
+      "text": "SOTOMAYOR, J., dissenting",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 5,
+      "start": 1526,
+      "end": 1528,
+      "text": "1 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 5,
+      "start": 1554,
+      "end": 1562,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 1",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 5,
+      "start": 2138,
+      "end": 2172,
+      "text": "  Cite as: 607 U. S. ____ (2026) 3",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 6,
+      "start": 1791,
+      "end": 1798,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 6,
+      "start": 2058,
+      "end": 2084,
+      "text": " 4 MALLIOTAKIS v. WILLIAMS",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 25,
+      "text": "SOTOMAYOR, J., dissenting",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 7,
+      "start": 1889,
+      "end": 1923,
+      "text": "  Cite as: 607 U. S. ____ (2026) 5",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 8,
+      "start": 2042,
+      "end": 2068,
+      "text": " 6 MALLIOTAKIS v. WILLIAMS",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 27,
+      "text": "SOTOMAYOR, J., dissenting\n ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 9,
+      "start": 1539,
+      "end": 1548,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 2 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 9,
+      "start": 2298,
+      "end": 2332,
+      "text": "  Cite as: 607 U. S. ____ (2026) 7",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 10,
+      "start": 1626,
+      "end": 1635,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 3 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 10,
+      "start": 1983,
+      "end": 2009,
+      "text": " 8 MALLIOTAKIS v. WILLIAMS",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 11,
+      "start": 864,
+      "end": 866,
+      "text": "4 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 11,
+      "start": 1763,
+      "end": 1771,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 4",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 11,
+      "start": 2100,
+      "end": 2134,
+      "text": "  Cite as: 607 U. S. ____ (2026) 9",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 1747,
+      "end": 1755,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 5",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 2099,
+      "end": 2126,
+      "text": " 10 MALLIOTAKIS v. WILLIAMS",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 27,
+      "text": "SOTOMAYOR, J., dissenting\n ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 2036,
+      "end": 2071,
+      "text": "  Cite as: 607 U. S. ____ (2026) 11",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 1868,
+      "end": 1877,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 6 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 2107,
+      "end": 2134,
+      "text": " 12 MALLIOTAKIS v. WILLIAMS",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 1484,
+      "end": 1493,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014 7 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 2357,
+      "end": 2392,
+      "text": "  Cite as: 607 U. S. ____ (2026) 13",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 33,
+      "text": "SOTOMAYOR, J., dissenting\n* * *\n ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 16,
+      "start": 745,
+      "end": 752,
+      "text": "\u2014\u2014\u2014\u2014\u2014\u2014\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 7,
+      "start": 1307,
+      "end": 1317,
+      "expectedText": "statecourt",
+      "text": "state-court"
+    },
+    {
+      "page": 8,
+      "start": 1876,
+      "end": 1886,
+      "expectedText": "statecourt",
+      "text": "state-court"
+    },
+    {
+      "page": 9,
+      "start": 1299,
+      "end": 1300,
+      "expectedText": "2",
+      "text": ""
+    },
+    {
+      "page": 10,
+      "start": 690,
+      "end": 691,
+      "expectedText": "3",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 1266,
+      "end": 1267,
+      "expectedText": "5",
+      "text": ""
+    },
+    {
+      "page": 14,
+      "start": 1701,
+      "end": 1702,
+      "expectedText": "6",
+      "text": ""
+    },
+    {
+      "page": 15,
+      "start": 1482,
+      "end": 1483,
+      "expectedText": "7",
+      "text": ""
+    },
+    {
+      "page": 10,
+      "start": 924,
+      "end": 936,
+      "expectedText": "federal- and",
+      "text": "federal\u2011 and"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan",
+      "Ketanji Brown Jackson"
+    ]
+  }
+}

@@ -200,13 +200,7 @@
           "page": 6,
           "start": 1435,
           "end": 1436
-        }
-      ],
-      "citations": []
-    },
-    {
-      "kind": "paragraph",
-      "spans": [
+        },
         {
           "page": 6,
           "start": 1436,
@@ -220,15 +214,15 @@
       ],
       "citations": [
         {
-          "start": 97,
-          "end": 152,
+          "start": 98,
+          "end": 153,
           "text": "Cobbledick v. United States, 309 U. S. 323, 324 (1940).",
           "type": "case",
           "canonical": "309 U.S. 323"
         },
         {
-          "start": 245,
-          "end": 263,
+          "start": 246,
+          "end": 264,
           "text": "28 U. S. C. § 1291",
           "type": "statute",
           "canonical": "28 U.S.C. § 1291",
@@ -236,8 +230,8 @@
           "omitFromSpeech": false
         },
         {
-          "start": 431,
-          "end": 437,
+          "start": 432,
+          "end": 438,
           "text": "§ 1291",
           "type": "statute",
           "canonical": "28 U.S.C. § 1291",
@@ -245,15 +239,15 @@
           "omitFromSpeech": false
         },
         {
-          "start": 604,
-          "end": 675,
+          "start": 605,
+          "end": 676,
           "text": "Ritzen Group, Inc. v. Jackson Masonry, LLC, 589 U. S. 35, 37–38 (2020).",
           "type": "case",
           "canonical": "589 U.S. 35"
         },
         {
-          "start": 857,
-          "end": 910,
+          "start": 858,
+          "end": 911,
           "text": "Microsoft Corp. v. Baker, 582 U. S. 23, 36–37 (2017).",
           "type": "case",
           "canonical": "582 U.S. 23"
@@ -267,6 +261,12 @@
         {
           "from": "28 U. S. C. § 1291",
           "to": "Section 1291 of Title 28"
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
         }
       ]
     },

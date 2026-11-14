@@ -1,0 +1,585 @@
+{
+  "reviewed": true,
+  "documentId": "24-1287-2059f0a43b72--72-1640",
+  "sourceDocumentId": "24-1287-2059f0a43b72",
+  "sourceTextPath": "dist/data/docs/24-1287-2059f0a43b72.json",
+  "sourceTextSha256": "c3775c67a0c112b51d02a24f15db2bee4e366dfd35046c6339bbda6a021cbe21",
+  "sourcePdfPath": "dist/data/pdfs/24-1287-2059f0a43b72--72-1640.pdf",
+  "sourcePdfSha256": "69b68467213ccf67865adff15a69db7012d7372ae536accdfd078d011ace9e7e",
+  "title": "Concurrence",
+  "author": "Amy Coney Barrett",
+  "date": "2026-02-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r12_8nj9.pdf",
+  "sourceRange": {
+    "startPage": 72,
+    "startOffset": 1669,
+    "endPage": 76,
+    "endOffset": 353
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 72,
+          "start": 1669,
+          "end": 1926
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 73,
+          "start": 58,
+          "end": 780
+        }
+      ],
+      "citations": [
+        {
+          "start": 125,
+          "end": 142,
+          "text": "ante, at 272\u2013276,",
+          "type": "reference",
+          "canonical": "Gorsuch concurrence, pp. 272-276"
+        },
+        {
+          "start": 247,
+          "end": 264,
+          "text": "Biden v. Nebraska",
+          "type": "case",
+          "canonical": "600 U.S. 477",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 266,
+          "end": 292,
+          "text": "600 U. S. 477, 507 (2023),",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 424,
+          "end": 436,
+          "text": "Id., at 511.",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 695,
+          "end": 721,
+          "text": "Id., at 511\u2013512, 515, 509.",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[b]ackground",
+          "to": "background"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 73,
+          "start": 780,
+          "end": 1293
+        }
+      ],
+      "citations": [
+        {
+          "start": 46,
+          "end": 55,
+          "text": "Article I",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article I",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 135,
+          "end": 169,
+          "text": "Id., at 515 (quoting Art. I, \u00a7 1).",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 264,
+          "end": 273,
+          "text": "Article I",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article I",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 458,
+          "end": 512,
+          "text": "Nebraska, 600 U. S., at 515 (Barrett, J., concurring).",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article I",
+          "to": "Article 1"
+        },
+        {
+          "from": "Article I",
+          "to": "Article 1"
+        },
+        {
+          "from": "[a]ll",
+          "to": "all"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 73,
+          "start": 1692,
+          "end": 2179
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 158,
+          "end": 198,
+          "text": "Ante, at 279, n. 2 (concurring opinion).",
+          "type": "reference",
+          "canonical": "Gorsuch concurrence, p. 279, note 2"
+        },
+        {
+          "start": 440,
+          "end": 488,
+          "text": "A. Scalia, A Matter of Interpretation 17 (1997).",
+          "type": "reference",
+          "canonical": "Antonin Scalia, A Matter of Interpretation, p. 17 (1997)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 73,
+          "start": 1295,
+          "end": 1690
+        },
+        {
+          "page": 74,
+          "start": 93,
+          "end": 791
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 191,
+          "end": 233,
+          "text": "See ante, at 262\u2013268 (concurring opinion).",
+          "type": "reference",
+          "canonical": "Gorsuch concurrence, pp. 262-268"
+        },
+        {
+          "start": 493,
+          "end": 545,
+          "text": "See ante, at 267\u2013 269, 279\u2013280 (concurring opinion).",
+          "type": "reference",
+          "canonical": "Gorsuch concurrence, pp. 267-269, 279-280"
+        },
+        {
+          "start": 628,
+          "end": 686,
+          "text": "See Nebraska, 600 U. S., at 514 (Barrett, J., concurring).",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 804,
+          "end": 860,
+          "text": "See, e. g., ante, at 243\u2013244 (opinion of Roberts, C. J.)",
+          "type": "reference",
+          "canonical": "Roberts opinion, pp. 243-244"
+        },
+        {
+          "start": 939,
+          "end": 970,
+          "text": "ante, at 249 (majority opinion)",
+          "type": "reference",
+          "canonical": "Court opinion, p. 249"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 74,
+          "start": 791,
+          "end": 2002
+        }
+      ],
+      "citations": [
+        {
+          "start": 353,
+          "end": 387,
+          "text": "Ante, at 270 (concurring opinion);",
+          "type": "reference",
+          "canonical": "Gorsuch concurrence, p. 270"
+        },
+        {
+          "start": 388,
+          "end": 465,
+          "text": "see West Virginia v. EPA, 597 U. S. 697, 735 (2022) (Gorsuch, J., concurring)",
+          "type": "case",
+          "canonical": "597 U.S. 697"
+        },
+        {
+          "start": 585,
+          "end": 704,
+          "text": "National Federation of Independent Business v. OSHA, 595 U. S. 109, 124\u2013126 (2022) (Gorsuch, J., concurring) (similar).",
+          "type": "case",
+          "canonical": "595 U.S. 109"
+        },
+        {
+          "start": 1153,
+          "end": 1210,
+          "text": "A. Scalia, A Matter of Interpretation 28 (1997) (Scalia).",
+          "type": "reference",
+          "canonical": "Antonin Scalia, A Matter of Interpretation, p. 28 (1997)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "assum[ing]",
+          "to": "assuming"
+        },
+        {
+          "from": "rul[e]",
+          "to": "rule"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 74,
+          "start": 2002,
+          "end": 2166
+        },
+        {
+          "page": 75,
+          "start": 58,
+          "end": 657
+        }
+      ],
+      "citations": [
+        {
+          "start": 151,
+          "end": 205,
+          "text": "Nebraska, 600 U. S., at 509 (Barrett, J., concurring).",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 344,
+          "end": 359,
+          "text": "See ibid., n. 2",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 750,
+          "end": 763,
+          "text": "Scalia 28\u201329.",
+          "type": "reference",
+          "canonical": "Antonin Scalia, A Matter of Interpretation, pp. 28-29 (1997)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 75,
+          "start": 657,
+          "end": 1207
+        }
+      ],
+      "citations": [
+        {
+          "start": 56,
+          "end": 118,
+          "text": "See Nebraska, 600 U. S., at 508\u2013509 (Barrett, J., concurring).",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 250,
+          "end": 268,
+          "text": "Id., at 509, n. 2.",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 322,
+          "end": 327,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 537,
+          "end": 549,
+          "text": "Id., at 508.",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 75,
+          "start": 1207,
+          "end": 1301
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 75,
+          "start": 1810,
+          "end": 2172
+        }
+      ],
+      "label": "2",
+      "citations": [
+        {
+          "start": 73,
+          "end": 111,
+          "text": "Ante, at 262\u2013267 (concurring opinion).",
+          "type": "reference",
+          "canonical": "Gorsuch concurrence, pp. 262-267"
+        },
+        {
+          "start": 309,
+          "end": 320,
+          "text": "Article III",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article III",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 75,
+          "start": 1303,
+          "end": 1808
+        },
+        {
+          "page": 76,
+          "start": 59,
+          "end": 353
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 43,
+          "text": "See ante, at 267\u2013 268 (concurring opinion).",
+          "type": "reference",
+          "canonical": "Gorsuch concurrence, pp. 267-268"
+        },
+        {
+          "start": 213,
+          "end": 292,
+          "text": "See, e. g., ICC v. Cincinnati, N. O. & T. P . R. Co., 167 U. S. 479, 511 (1897)",
+          "type": "case",
+          "canonical": "167 U.S. 479"
+        },
+        {
+          "start": 396,
+          "end": 461,
+          "text": "Siler v. Louisville & Nashville R. Co., 213 U. S. 175, 196 (1909)",
+          "type": "case",
+          "canonical": "213 U.S. 175"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 72,
+      "start": 1926,
+      "end": 1956,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 73,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 607 U. S. 229 (2026) 301\nBarrett, J., concurring\n",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 73,
+      "start": 1293,
+      "end": 1295,
+      "text": "1\n",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 73,
+      "start": 1690,
+      "end": 1692,
+      "text": "1 ",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 73,
+      "start": 2179,
+      "end": 2209,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 74,
+      "start": 0,
+      "end": 93,
+      "text": "Page Proof Pending Publication\n302 LEARNING RESOURCES, INC. v. TRUMP\nBarrett, J., concurring\n",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 75,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 607 U. S. 229 (2026) 303\nBarrett, J., concurring\n",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 75,
+      "start": 1301,
+      "end": 1303,
+      "text": "2 ",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 75,
+      "start": 1808,
+      "end": 1810,
+      "text": "2 ",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 75,
+      "start": 2172,
+      "end": 2202,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    },
+    {
+      "page": 76,
+      "start": 0,
+      "end": 59,
+      "text": "304 LEARNING RESOURCES, INC. v. TRUMP\nOpinion of Kagan, J.\n",
+      "reason": "Running author/page header, publication footer or superscript note marker; substantive note retained at marker."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 73,
+      "start": 1795,
+      "end": 1804,
+      "expectedText": "confating",
+      "text": "conflating"
+    },
+    {
+      "page": 73,
+      "start": 1955,
+      "end": 1965,
+      "expectedText": "objectifed",
+      "text": "objectified"
+    },
+    {
+      "page": 73,
+      "start": 1685,
+      "end": 1689,
+      "expectedText": "Gor-",
+      "text": "Gor"
+    },
+    {
+      "page": 75,
+      "start": 1804,
+      "end": 1807,
+      "expectedText": "in-",
+      "text": "in"
+    },
+    {
+      "page": 76,
+      "start": 212,
+      "end": 215,
+      "expectedText": "fex",
+      "text": "flex"
+    },
+    {
+      "page": 76,
+      "start": 284,
+      "end": 294,
+      "expectedText": "signifcant",
+      "text": "significant"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

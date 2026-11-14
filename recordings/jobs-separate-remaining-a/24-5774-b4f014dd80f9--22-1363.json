@@ -1,0 +1,706 @@
+{
+  "reviewed": true,
+  "documentId": "24-5774-b4f014dd80f9--22-1363",
+  "sourceDocumentId": "24-5774-b4f014dd80f9",
+  "sourceTextPath": "dist/data/docs/24-5774-b4f014dd80f9.json",
+  "sourceTextSha256": "05cbf92192cf9b5e27159a48437ae729a4e20ef55171148bb76f906c2e0baf76",
+  "sourcePdfPath": "dist/data/pdfs/24-5774-b4f014dd80f9--22-1363.pdf",
+  "sourcePdfSha256": "2ab555bdcf0c7a0f3b00303a2b7c81af2ba61f8751513ce9394c6951a660da74",
+  "title": "Concurrence",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-01-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r07_7647.pdf",
+  "sourceRange": {
+    "startPage": 22,
+    "startOffset": 1400,
+    "endPage": 27,
+    "endOffset": 1696
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1400,
+          "end": 1813
+        },
+        {
+          "page": 23,
+          "start": 61,
+          "end": 425
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 225,
+          "end": 251,
+          "text": "18 U. S. C. \u00a7 924(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 291,
+          "end": 299,
+          "text": "\u00a7 924(c)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 326,
+          "end": 334,
+          "text": "\u00a7 924(j)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 336,
+          "end": 365,
+          "text": "102 F. 4th 60, 67 (CA2 2024).",
+          "type": "case",
+          "canonical": "102 F.4th 60"
+        },
+        {
+          "start": 466,
+          "end": 480,
+          "text": "\u00a7 924(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 538,
+          "end": 546,
+          "text": "\u00a7 924(j)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 753,
+          "end": 775,
+          "text": "U. S. Const., Amdt. 5.",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Amendment V"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "18 U. S. C. \u00a7 924(c)(1)(A)",
+          "to": "Title 18, United States Code, Section 924, c, 1, a"
+        },
+        {
+          "from": "\u00a7 924(c)",
+          "to": "Section 924, c"
+        },
+        {
+          "from": "\u00a7 924(j)",
+          "to": "Section 924, j"
+        },
+        {
+          "from": "\u00a7 924(c)(1)(A)",
+          "to": "Section 924, c, 1, a"
+        },
+        {
+          "from": "\u00a7 924(j)",
+          "to": "Section 924, j"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 425,
+          "end": 1066
+        }
+      ],
+      "citations": [
+        {
+          "start": 103,
+          "end": 117,
+          "text": "\u00a7 924(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 122,
+          "end": 130,
+          "text": "\u00a7 924(j)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 200,
+          "end": 228,
+          "text": "Blockburger v. United States",
+          "type": "case",
+          "canonical": "284 U.S. 299",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 228,
+          "end": 250,
+          "text": ", 284 U. S. 299 (1932)",
+          "type": "case",
+          "canonical": "284 U.S. 299"
+        },
+        {
+          "start": 393,
+          "end": 405,
+          "text": "Id., at 304.",
+          "type": "case",
+          "canonical": "284 U.S. 299"
+        },
+        {
+          "start": 427,
+          "end": 441,
+          "text": "\u00a7 924(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 462,
+          "end": 470,
+          "text": "\u00a7 924(j)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 590,
+          "end": 640,
+          "text": "United States v. Dixon, 509 U. S. 688, 696 (1993).",
+          "type": "case",
+          "canonical": "509 U.S. 688"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "\u00a7 924(c)(1)(A)",
+          "to": "Section 924, c, 1, a"
+        },
+        {
+          "from": "\u00a7 924(j)",
+          "to": "Section 924, j"
+        },
+        {
+          "from": "\u00a7 924(c)(1)(A)",
+          "to": "Section 924, c, 1, a"
+        },
+        {
+          "from": "\u00a7 924(j)",
+          "to": "Section 924, j"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1066,
+          "end": 2005
+        },
+        {
+          "page": 24,
+          "start": 66,
+          "end": 167
+        }
+      ],
+      "citations": [
+        {
+          "start": 614,
+          "end": 666,
+          "text": "Pointer v. United States, 151 U. S. 396, 403 (1894).",
+          "type": "case",
+          "canonical": "151 U.S. 396"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 167,
+          "end": 973
+        }
+      ],
+      "citations": [
+        {
+          "start": 282,
+          "end": 347,
+          "text": "E. g., Brief for Petitioner 2 (internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "Petitioner brief, p. 2"
+        },
+        {
+          "start": 356,
+          "end": 370,
+          "text": "\u00a7 924(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 375,
+          "end": 383,
+          "text": "\u00a7 924(j)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 660,
+          "end": 665,
+          "text": "\u00a7 924",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 696,
+          "end": 727,
+          "text": "See Brief for Petitioner 18\u201326;",
+          "type": "record",
+          "canonical": "Petitioner brief, pp. 18-26"
+        },
+        {
+          "start": 728,
+          "end": 758,
+          "text": "Brief for United States 15\u201323;",
+          "type": "record",
+          "canonical": "United States brief, pp. 15-23"
+        },
+        {
+          "start": 759,
+          "end": 805,
+          "text": "Brief for Court-Appointed Amicus Curiae 15\u201328.",
+          "type": "record",
+          "canonical": "Court-appointed amicus curiae brief, pp. 15-28"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "inten[t]",
+          "to": "intent"
+        },
+        {
+          "from": "\u00a7 924(c)(1)(A)",
+          "to": "Section 924, c, 1, a"
+        },
+        {
+          "from": "\u00a7 924(j)",
+          "to": "Section 924, j"
+        },
+        {
+          "from": "\u00a7 924",
+          "to": "Section 924"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 973,
+          "end": 1538
+        }
+      ],
+      "citations": [
+        {
+          "start": 91,
+          "end": 96,
+          "text": "\u00a7 924",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 190,
+          "end": 216,
+          "text": "Ante, at 131\u2013132, 138\u2013140.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 131-132, 138-140"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 924",
+          "to": "Section 924"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1538,
+          "end": 2065
+        },
+        {
+          "page": 25,
+          "start": 61,
+          "end": 823
+        }
+      ],
+      "citations": [
+        {
+          "start": 296,
+          "end": 339,
+          "text": "Schiro v. Farley, 510 U. S. 222, 229 (1994)",
+          "type": "case",
+          "canonical": "510 U.S. 222"
+        },
+        {
+          "start": 340,
+          "end": 402,
+          "text": "(quoting North Carolina v. Pearce, 395 U. S. 711, 717 (1969)).",
+          "type": "case",
+          "canonical": "395 U.S. 711"
+        },
+        {
+          "start": 539,
+          "end": 588,
+          "text": "Ball v. United States, 470 U. S. 856, 865 (1985).",
+          "type": "case",
+          "canonical": "470 U.S. 856"
+        },
+        {
+          "start": 1080,
+          "end": 1125,
+          "text": "Missouri v. Hunter, 459 U. S. 359, 368 (1983)",
+          "type": "case",
+          "canonical": "459 U.S. 359"
+        },
+        {
+          "start": 1126,
+          "end": 1225,
+          "text": "(quoting Albernaz v. United States, 450 U. S. 333, 344 (1981); emphasis added; alteration omitted);",
+          "type": "case",
+          "canonical": "450 U.S. 333"
+        },
+        {
+          "start": 1226,
+          "end": 1287,
+          "text": "see also Garrett v. United States, 471 U. S. 773, 778 (1985).",
+          "type": "case",
+          "canonical": "471 U.S. 773"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 823,
+          "end": 1780
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 224,
+          "text": "Amdt. 5,",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Amendment V"
+        },
+        {
+          "start": 933,
+          "end": 958,
+          "text": "Dixon, 509 U. S., at 704.",
+          "type": "case",
+          "canonical": "509 U.S. 688"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1780,
+          "end": 2128
+        },
+        {
+          "page": 26,
+          "start": 97,
+          "end": 415
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 415,
+          "end": 1746
+        }
+      ],
+      "citations": [
+        {
+          "start": 310,
+          "end": 356,
+          "text": "See Grady v. Corbin, 495 U. S. 508, 510 (1990)",
+          "type": "case",
+          "canonical": "495 U.S. 508"
+        },
+        {
+          "start": 667,
+          "end": 718,
+          "text": "Gamble v. United States, 587 U. S. 678, 710 (2019);",
+          "type": "case",
+          "canonical": "587 U.S. 678"
+        },
+        {
+          "start": 719,
+          "end": 757,
+          "text": "see also Dixon, 509 U. S., at 696, 704",
+          "type": "case",
+          "canonical": "509 U.S. 688"
+        },
+        {
+          "start": 1005,
+          "end": 1061,
+          "text": "Cf. Rutledge v. United States, 517 U. S. 292, 303 (1996)",
+          "type": "case",
+          "canonical": "517 U.S. 292"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1746,
+          "end": 2148
+        },
+        {
+          "page": 27,
+          "start": 61,
+          "end": 597
+        }
+      ],
+      "citations": [
+        {
+          "start": 910,
+          "end": 938,
+          "text": "See Ball, 470 U. S., at 865.",
+          "type": "case",
+          "canonical": "470 U.S. 856"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 597,
+          "end": 1177
+        }
+      ],
+      "citations": [
+        {
+          "start": 375,
+          "end": 399,
+          "text": "See ante, at 138, n. 9 (",
+          "type": "reference",
+          "canonical": "Court opinion, p. 138, note 9"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Clause\u201d).",
+          "to": "Clause\u201d."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1177,
+          "end": 1696
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Part IV\u2013C",
+          "to": "Part 4, C"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 22,
+      "start": 1813,
+      "end": 1843,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 61,
+      "text": "150 BARRETT v. UNITED STATES\nGorsuch, J., concurring in part\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 23,
+      "start": 2005,
+      "end": 2035,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 66,
+      "text": "Cite as: 607 U. S. 128 (2026) 151\nGorsuch, J., concurring in part\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 24,
+      "start": 2065,
+      "end": 2095,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 61,
+      "text": "152 BARRETT v. UNITED STATES\nGorsuch, J., concurring in part\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 25,
+      "start": 2128,
+      "end": 2158,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 97,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 128 (2026) 153\nGorsuch, J., concurring in part\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 61,
+      "text": "154 BARRETT v. UNITED STATES\nGorsuch, J., concurring in part\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 22,
+      "start": 1584,
+      "end": 1590,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 22,
+      "start": 1809,
+      "end": 1813,
+      "expectedText": "or-\n",
+      "text": "or"
+    },
+    {
+      "page": 25,
+      "start": 1101,
+      "end": 1122,
+      "expectedText": "successiveprosecution",
+      "text": "successive-prosecution"
+    },
+    {
+      "page": 25,
+      "start": 1217,
+      "end": 1238,
+      "expectedText": "concurrentprosecution",
+      "text": "concurrent-prosecution"
+    },
+    {
+      "page": 26,
+      "start": 258,
+      "end": 279,
+      "expectedText": "concurrentprosecution",
+      "text": "concurrent-prosecution"
+    },
+    {
+      "page": 26,
+      "start": 773,
+      "end": 779,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 26,
+      "start": 934,
+      "end": 944,
+      "expectedText": "reaffrming",
+      "text": "reaffirming"
+    },
+    {
+      "page": 26,
+      "start": 950,
+      "end": 964,
+      "expectedText": "Blockburger 's",
+      "text": "Blockburger's"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

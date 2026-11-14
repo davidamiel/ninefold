@@ -1,0 +1,86 @@
+{
+  "version": "5e2a9582fb847462",
+  "duration": 44.217333333333336,
+  "voice": "af_sky",
+  "audioSha256": "db35c847fda31456789f947a1f9855a11786c49ffb4c4773712af51b17e96e45",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 16.04,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 839,
+          "end": 1118
+        }
+      ],
+      "text": "The Court today rightly rejects petitioner Michael Pung's argument that anytime a government forecloses and sells an individual's home to cover an outstanding tax debt, the Fifth Amendment Takings Clause requires the government to pay the home's “hypothetical fair market value.”"
+    },
+    {
+      "start": 16.04,
+      "end": 25.32,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1132,
+          "end": 1298
+        }
+      ],
+      "text": "As the Court explains, surplus proceeds can be just compensation, assuming that the auction sale is “fairly conducted in light of our country's history of tax sales.”"
+    },
+    {
+      "start": 25.32,
+      "end": 36.08,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1305,
+          "end": 1503
+        }
+      ],
+      "text": "Based on this language, I do not read the Court's opinion as identifying the contours of a fair auction, or endorsing the parties' or the United States' articulations of what this standard requires."
+    },
+    {
+      "start": 36.08,
+      "end": 41.2,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1504,
+          "end": 1556
+        },
+        {
+          "page": 16,
+          "start": 54,
+          "end": 98
+        }
+      ],
+      "text": "The Court correctly leaves those issues for remand, should the Sixth Circuit find them preserved."
+    },
+    {
+      "start": 41.2,
+      "end": 43.48,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 116,
+          "end": 168
+        }
+      ],
+      "text": "With that understanding, I join the Court's opinion."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 128,
+      "expectedWords": 130,
+      "coverage": 0.9846153846153847
+    }
+  ]
+}

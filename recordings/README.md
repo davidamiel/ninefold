@@ -4,7 +4,7 @@ The website streams published MP3 files. Generation tools run locally and are ex
 
 The approved voices are **Female: Sky** (`af_sky`) and **Male: Michael** (`am_michael`). A reviewed job preserves the reader's opinion wording and records the exact narration script and citation omissions. Substantive quotations, explanatory parentheticals, and the disposition remain in the script.
 
-Mullin is the first completed document. `dist/data/prepared-documents.json` contains lightweight recording metadata and a `textPath` pointing to its clean paragraphs and mappings to original PDF text offsets. That text loads only when the document opens. Reviewed citation spans keep complete locators, publication details, and codification notes together in one reference marker; original wording remains available in its preview. Each voice has an independent sentence timeline under `dist/data/recordings/`. Audio and timeline filenames contain content hashes. The original extracted pages and PDF remain intact, so source-anchored notes continue to refer to the original document.
+`dist/data/prepared-documents.json` contains lightweight recording metadata and a `textPath` pointing to clean paragraphs and mappings to original PDF text offsets. That text loads only when the document opens. Each distinct reviewed citation has its own reference; a citation spanning PDF pages remains one reference with its complete locator and publication details. Each voice has an independent sentence timeline under `dist/data/recordings/`. Audio and timeline filenames contain content hashes. The original extracted pages and PDF remain intact, so source-anchored notes continue to refer to the original document.
 
 To generate a reviewed job, create a Python 3.12 environment and install `requirements.txt`. Download the full-precision `kokoro-v1.0.onnx` and `voices-v1.0.bin` from the [model release](https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0) to `scripts/cache/narration/`. The runtime is MIT licensed and the model is Apache 2.0 licensed.
 
@@ -17,7 +17,7 @@ python recordings/generate.py recordings/mullin.json --voice male
 
 Reviewed jobs must stay under `recordings/`, models under `scripts/cache/narration/`, and outputs under `work/`. Outputs and reusable paragraph clips default to ignored `work/recordings/`. Generation never uploads or publishes files. A recording must be aligned to its reviewed text before adding it to the published inventory; sentence positions must use the corresponding original-source maps. `node scripts/check_recorded_audio.mjs` checks inventory versions, source coordinates, cue ordering, durations, and both voice timelines.
 
-Only documents with recordings in the published inventory show audio as available. Further cleanup and generation should proceed through OT25 opinions, then OT26 merits briefs, after review of the Mullin workflow.
+Only documents with recordings in the published inventory show audio as available. Preparation covers OT25 Court opinions, concurrences, dissents and other published judicial writings, followed by OT26 merits briefs.
 
 ## Reviewed OT25 preparation
 
@@ -80,16 +80,47 @@ Download the files/revision recorded in `mlx-model.json` to
 English language model. All of these dependencies stay on the generating computer.
 
 ```sh
-python recordings/batch.py recordings/jobs recordings/jobs-separate recordings/jobs-separate-extra --engine mlx
+python recordings/batch.py recordings/jobs recordings/jobs-separate recordings/jobs-separate-extra --engine mlx --alignment-device mps
 ```
 
 If generation and alignment use separate environments, supply
 `--generation-python` and `--alignment-python`. GPU access must be available to
-the process. CPU-only generation remains available with `--engine onnx` and the
-original requirements/model files.
+the process. CPU alignment is the portable default; `--alignment-device mps`
+uses Apple's GPU for acoustic transcription. CPU-only generation remains
+available with `--engine onnx` and the original requirements/model files.
 
 Alignment uses acoustic transcription without the expected script as a prompt.
 Only unclear paragraphs are transcribed again in isolation; coverage checks stay
 in force. Number spellings and close ASR spellings are matched for timing without
 changing the reader or narration. Identical writings appearing under consolidated
 dockets share the staged recording only after their original text and ranges match.
+
+## Media publication and coverage
+
+Recordings stream from content-addressed GitHub release assets, outside the
+Pages deployment bundle. Local generation and staging never upload anything.
+After creating a public `recorded-audio-ot25` media release, explicitly run:
+
+```sh
+python recordings/publish.py --tag recorded-audio-ot25
+```
+
+The publisher checks the local MP3 against its sentence cues, uploads missing
+immutable assets, and verifies GitHub's SHA-256, byte size, upload state and URL
+before replacing inventory URLs. It records those proofs in
+`dist/data/recorded-assets.json`. Uploads never overwrite existing assets or deploy
+the app. Failed uploads leave current playback URLs intact; rerunning resumes
+from verified uploads. The Pages build excludes hosted copies. The player
+declares `audio/mpeg` explicitly so WebKit can stream release downloads even when
+the redirect advertises a generic binary media type.
+
+`ot25-sources.json` records the Court's public indexes and reviewed source
+revisions. `ot25-plan.json` lists individual writings and consolidated aliases.
+Run `python recordings/check_coverage.py --require-complete` before declaring
+the term complete. This requires source-index coverage, a reviewed preparation,
+both voices and the current text version for every target. Its detailed work
+list stays under ignored `work/recordings/`.
+
+Author corrections from a later official edition use exact source-mapped
+repairs and a checksum-bound `revisionSource` PDF. They never silently replace
+the raw extraction used by annotations or sentence cues.

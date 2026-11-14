@@ -1,0 +1,273 @@
+{
+  "reviewed": true,
+  "documentId": "26A428-97eab1049fc0--0-528",
+  "sourceDocumentId": "26A428-97eab1049fc0",
+  "sourceTextPath": "dist/data/current-docs/26A428-97eab1049fc0.json",
+  "sourceTextSha256": "6f6d7eb1d56c2401d6ee1d4bf8cb9de368d6abf2d7efcd8dc7c7b3b45c1d1499",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/be82f839ba1171aaba54c48f.pdf",
+  "sourcePdfSha256": "f9aea0f83af3f1d98c3303931f9260daa9abeb08161c4124ef13721b7fd6cc16",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2026-09-30",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a428_4f15.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 610,
+    "endPage": 2,
+    "endOffset": 673
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 610,
+          "end": 1273
+        }
+      ],
+      "citations": [
+        {
+          "start": 292,
+          "end": 346,
+          "text": "Order in In re Pike, No. 26\u20135864, ECF Doc. 10\u20132, p. 2.",
+          "type": "record",
+          "canonical": "In re Pike, No. 26-5864, ECF Doc. 10-2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1273,
+          "end": 1688
+        },
+        {
+          "page": 1,
+          "start": 43,
+          "end": 396
+        }
+      ],
+      "citations": [
+        {
+          "start": 297,
+          "end": 368,
+          "text": "See Pike v. State, 2011 WL 1544207 *1, *49\u2013*54 (Tenn. Crim. App. 2011).",
+          "type": "case",
+          "canonical": "2011 WL 1544207"
+        },
+        {
+          "start": 536,
+          "end": 556,
+          "text": "ECF Doc. 7, pp. 8\u20139.",
+          "type": "record",
+          "canonical": "In re Pike, No. 26-5864, ECF Doc. 7"
+        },
+        {
+          "start": 608,
+          "end": 643,
+          "text": "see Pike, 2011 WL 1544207 *52, *70,",
+          "type": "case",
+          "canonical": "2011 WL 1544207"
+        },
+        {
+          "start": 716,
+          "end": 767,
+          "text": ", see Pike v. Gross, 936 F. 3d 372, 378, 383 (2019)",
+          "type": "case",
+          "canonical": "936 F.3d 372"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 396,
+          "end": 1485
+        }
+      ],
+      "citations": [
+        {
+          "start": 155,
+          "end": 172,
+          "text": "ECF Doc. 7, p. 1.",
+          "type": "record",
+          "canonical": "In re Pike, No. 26-5864, ECF Doc. 7"
+        },
+        {
+          "start": 285,
+          "end": 325,
+          "text": "Federal Rule of Civil Procedure 60(b)(6)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 544,
+          "end": 556,
+          "text": "Id., at 6\u20137.",
+          "type": "record",
+          "canonical": "In re Pike, No. 26-5864, ECF Doc. 7"
+        },
+        {
+          "start": 666,
+          "end": 679,
+          "text": "Rule 60(b)(6)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 711,
+          "end": 777,
+          "text": "Id., at 6 (quoting Gonzalez v. Crosby, 545 U. S. 524, 532 (2005)).",
+          "type": "case",
+          "canonical": "545 U.S. 524"
+        },
+        {
+          "start": 864,
+          "end": 887,
+          "text": "See 28 U. S. C. \u00a7\u00a71631,",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 1631"
+        },
+        {
+          "start": 888,
+          "end": 902,
+          "text": "2244(b)(3)(A).",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2244"
+        },
+        {
+          "start": 1068,
+          "end": 1088,
+          "text": "ECF Doc. 10\u20132, p. 2.",
+          "type": "record",
+          "canonical": "In re Pike, No. 26-5864, ECF Doc. 10-2"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "60(b)(6)",
+          "to": "60, b, 6"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1485,
+          "end": 2132
+        },
+        {
+          "page": 2,
+          "start": 59,
+          "end": 132
+        }
+      ],
+      "citations": [
+        {
+          "start": 678,
+          "end": 721,
+          "text": "Tennessee v. Garner, 471 U. S. 1, 9 (1985).",
+          "type": "case",
+          "canonical": "471 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[her]",
+          "to": "her"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 132,
+          "end": 673
+        }
+      ],
+      "citations": [
+        {
+          "start": 160,
+          "end": 235,
+          "text": "Bowersox v. Williams, 517 U. S. 345, 347 (1996) (Ginsburg, J., dissenting).",
+          "type": "case",
+          "canonical": "517 U.S. 345"
+        },
+        {
+          "start": 321,
+          "end": 364,
+          "text": "McLane Co. v. EEOC, 581 U. S. 72, 85 (2017)",
+          "type": "case",
+          "canonical": "581 U.S. 72"
+        },
+        {
+          "start": 365,
+          "end": 428,
+          "text": "(quoting Cutter v. Wilkinson, 544 U. S. 709, 718, n. 7 (2005)).",
+          "type": "case",
+          "canonical": "544 U.S. 709"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]ppreciation",
+          "to": "appreciation"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 43,
+      "text": "2 NELSEN v. PIKE\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Running page citation and author header."
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 59,
+      "text": "Cite as: 609 U. S. ____ (2026) 3\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Running page citation and author header."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 1895,
+      "end": 1907,
+      "expectedText": "shortcircuit",
+      "text": "short-circuit"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan",
+      "Ketanji Brown Jackson"
+    ]
+  }
+}

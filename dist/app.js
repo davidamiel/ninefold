@@ -43,6 +43,7 @@ let persisted={};try{persisted=JSON.parse(localStorage.getItem(STORAGE)||'{}')}c
 const state={route:'home',caseId:null,workspaces:{},workspaceId:null,pageMarkers:false,marginNotes:true,profileTerm:'all',participation:'all',tabs:[],active:null,split:null,side:false,tool:'info',group:'All',query:'',sort:'name',docQuery:'',docGroup:'All',includeAdmin:false,tabCases:{},calendarLimit:14,refs:[],ref:null,notes:[],saved:[],recents:[],positions:{},textSize:17,focusedNote:null,month:'all',...persisted,notes:[],saved:[],recents:[],positions:{},audioProgress:{}};
 let courtOrders={documents:[],terms:[]},catalog,cases=[],caseMap=new Map(),docs=new Map(),docCache=new Map(),docPending=new Map(),selection=null,toastTimer,renderGeneration=0,audioCase=null,sourceFailed=false;
 const audio=new Audio();audio.preload='none';
+const recordingErrorMessage='The recording could not play. Check your connection and retry.';
 const validGroups=['All','Certiorari','Merits','Amicus','Argument','Decision','Lower courts','Appendices','Other'];
 let profiles={},opinionSections={},justiceQuotes={},justiceSignatures={},historyReady=false,restoringHistory=false;const quoteChoices=new Map();
 const workspaceFields=['tabs','active','split','paneOrder','refs','ref','side','tool','docGroup','pdfDocs','tabCases'];
@@ -561,8 +562,9 @@ function citationRanges(text,id,page,map,reviewed=[]) {
   const c=contextCase(id);
   const detected=preparedTextCache.get(preparedDocument(id)?.textPath)?.reviewedCitations?[]:citationsIn(text,c?.id==='24-440'||/Federal Rules? of Civil Procedure|Fed\. R\. Civ\. P/i.test(text),c?.id==='24-440',(v,r,n)=>shortCaseIn(docCache.get(id),v,r,n),preparedTextCache.get(preparedDocument(id)?.textPath)?.sectionSources);
   return [...reviewed,...detected.filter(hit=>!reviewed.some(r=>hit.start<r.end&&hit.end>r.start))].sort((a,b)=>a.start-b.start).map(hit=>{
-    const key=[hit.type,id,page,map?.[hit.start]??hit.start,hit.label].join('|');
-    const ref={key,label:hit.label,type:hit.type,canonical:hit.canonical,related:hit.related,fromDoc:id,caseName:hit.caseName,page,offset:map?.[hit.start]??displayMaps.get(id+':'+page)?.[hit.start]??hit.start,
+    const referencePage=hit.referencePage??page,referenceOffset=hit.referenceOffset??map?.[hit.start]??hit.start,label=hit.fullLabel||hit.label;
+    const key=[hit.type,id,referencePage,referenceOffset,label].join('|');
+    const ref=hit.continuation&&refsIndex.has(key)?refsIndex.get(key):{key,label,type:hit.type,canonical:hit.canonical,related:hit.related,fromDoc:id,caseName:hit.caseName,page:referencePage,offset:hit.referenceOffset??map?.[hit.start]??displayMaps.get(id+':'+page)?.[hit.start]??hit.start,
       passage:passageAround(text,hit.start,hit.end)};
     ref.number=referenceNumber(id,ref.canonical||ref.label);refsIndex.set(key,ref);
     return {...hit,ref};
@@ -816,7 +818,7 @@ function openPlayingTranscript(){
   focusActiveTab();
  }
 }
-async function listen(id,sessionId=null,start=null,{expand=true}={}){const c=caseMap.get(id),sessions=argumentAlignment[id]?.sessions||[],session=sessions.find(s=>s.id===sessionId)||sessions[0];const url=session?.audioUrl||c?.audio?.url;if(!url)return;stopDocumentAudio();playbackOptionsOpen=false;argumentError=null;if(expand)playbackExpanded=true;followTranscript=state.followAudioText!==false;if(audioCase!==id||audioSession!==(session?.id||null)||audio.error){audioCase=id;audioSession=session?.id||null;audio.src=url}audio.playbackRate=state.audioSpeed||1;if(start!==null)audio.currentTime=start;openPlayingTranscript();refreshPlayback();try{await audio.play();if(audioCase!==id||audioSession!==(session?.id||null))return;bindMediaControls(audio,c.name,'Supreme Court of the United States')}catch{if(audioCase===id){argumentError='The recording could not play. Check your connection and retry.'}}refreshPlayback();closeReaderMenu()}
+async function listen(id,sessionId=null,start=null,{expand=true}={}){const c=caseMap.get(id),sessions=argumentAlignment[id]?.sessions||[],session=sessions.find(s=>s.id===sessionId)||sessions[0];const url=session?.audioUrl||c?.audio?.url;if(!url)return;stopDocumentAudio();playbackOptionsOpen=false;argumentError=null;if(expand)playbackExpanded=true;followTranscript=state.followAudioText!==false;if(audioCase!==id||audioSession!==(session?.id||null)||audio.error){audioCase=id;audioSession=session?.id||null;audio.src=url}audio.playbackRate=state.audioSpeed||1;if(start!==null)audio.currentTime=start;openPlayingTranscript();refreshPlayback();try{await audio.play();if(audioCase!==id||audioSession!==(session?.id||null))return;bindMediaControls(audio,c.name,'Supreme Court of the United States')}catch{if(audioCase===id){argumentError=recordingErrorMessage}}refreshPlayback();closeReaderMenu()}
 
 function jumpPage(id,index){const p=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`);if(p?._pdfPreparing){p._pdfJump=index;return}const frame=nativePDF(id);if(frame){const source=pdfSources(ds(id),ds).find(s=>new URL(s.url,location.href).href.split('#')[0]===frame.src.split('#')[0]);frame.src=nativePDFURL(frame.src,source?.sliced?Math.max(0,index-(ds(id)?.sourceRange?.startPage||0)):index,location.href);state.positions[id+':pdf']={page:index,scroll:0};persist();return}p?.querySelector(`.source-page[data-page="${index}"]`)?.scrollIntoView({block:'start',behavior:'smooth'})}
 function route(name){storePositions();saveWorkspace();state.route=name;clearPeek();overlays.querySelector('.selection-tools')?.remove();render();if(name!=='reader')window.scrollTo(0,0)}
@@ -1100,7 +1102,7 @@ function preparedDocumentHTML(id,data){
  }).join('');
  if(paragraph.kind==='heading')return `<h2 class="prepared-section-heading">${content}</h2>`;
  const text=`<p class="prepared-paragraph">${content}</p>`;
- return paragraph.kind==='footnote'?`<aside class="prepared-footnote" aria-label="Footnote ${esc(paragraph.label)}"><h3>Footnote ${esc(paragraph.label)}</h3>${text}</aside>`:text;}).join('');
+ return paragraph.kind==='footnote'?`<aside class="prepared-footnote"${paragraph.citationOnly?' data-citation-only':''} aria-label="Footnote ${esc(paragraph.label)}"><h3>Footnote ${esc(paragraph.label)}</h3>${text}</aside>`:text;}).join('');
  return `<article class="document-body prepared-document ${state.marginNotes?'show-margin-notes':''}" data-document="${esc(id)}"><header class="document-title"><h1>${esc(prepared.title||documentLabel(d))}</h1><p>${esc(prepared.author)}</p></header>${paragraphs}<aside class="document-margin" aria-label="Notes and references"></aside></article>`;
 }
 
@@ -1239,7 +1241,7 @@ function updateDocumentHighlight(){
  if(followTranscript&&first&&n.highlighted!==cue.start){const scroll=first.el.closest('.doc-scroll'),box=first.range.getBoundingClientRect(),bounds=scroll.getBoundingClientRect();if(box.top<bounds.top+30||box.bottom>bounds.bottom-30)scroll.scrollBy({top:box.top-bounds.top-70,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})}
  n.highlighted=cue.start;
 }
-function stopDocumentAudio(){saveListeningProgress(true);documentRequest++;documentAudio.pause();documentAudio.removeAttribute('src');documentAudio.load();documentPlayback=null;CSS.highlights?.delete('document-audio');refreshPlayback()}
+function stopDocumentAudio(){saveListeningProgress(true);documentRequest++;documentAudio.pause();documentAudio.removeAttribute('src');documentAudio.replaceChildren();documentAudio.load();documentPlayback=null;CSS.highlights?.delete('document-audio');refreshPlayback()}
 async function startDocumentAudio(anchor=null,{paused=false,resume=false,voice=state.audioVoice||'female',expand=true,previousCue=null}={}){
  const id=anchor?.docId||state.active;
  const recording=documentRecording(id,voice);if(!recording){toast('Audio is not available for this document.');return}
@@ -1249,7 +1251,9 @@ async function startDocumentAudio(anchor=null,{paused=false,resume=false,voice=s
  if(expand)playbackExpanded=true;followTranscript=state.followAudioText!==false;
  const saved=resume?state.audioProgress[audioProgressKey('document',id)]:null;
  const seconds=saved&&!saved.completed?((saved.recording===recording.url||!saved.recording&&!saved.text&&!Number.isFinite(saved.sourceStart))?saved.seconds:previous?previousTime/previous.recording.duration*recording.duration:0):0;
- documentAudio.src=recording.url;documentAudio.playbackRate=state.audioSpeed||1;
+ const source=document.createElement('source');source.src=recording.url;source.type='audio/mpeg';
+ source.addEventListener('error',()=>{if(documentPlayback===n){n.error=recordingErrorMessage;documentAudio.pause();refreshPlayback()}});
+ documentAudio.replaceChildren(source);documentAudio.load();documentAudio.playbackRate=state.audioSpeed||1;
  documentAudio.currentTime=Math.max(0,Math.min(seconds||0,recording.duration));
  // Start in the user's gesture before any storage or network awaits.
  const playing=paused?Promise.resolve():documentAudio.play().catch(error=>{if(documentPlayback===n){n.error=error.name==='NotAllowedError'?'Tap Play to start audio.':'The recording could not play. Retry.'}});
@@ -1340,9 +1344,9 @@ for(const name of ['timeupdate','progress','loadedmetadata','durationchange','se
  documentAudio.addEventListener(name,()=>{if(documentPlayback){updateSeek();updateDocumentHighlight();saveListeningProgress()}});
  audio.addEventListener(name,()=>{if(audioCase)updateSeek()});
 }
-for(const name of ['playing','pause','ended','waiting','error','canplay'])documentAudio.addEventListener(name,()=>{
+for(const name of ['playing','pause','ended','waiting','stalled','error','canplay'])documentAudio.addEventListener(name,()=>{
  if(!documentPlayback)return;
- if(name==='error')documentPlayback.error='The recording could not play. Check your connection and retry.';
+ if(name==='error'||name==='stalled'&&isBuffering(documentAudio))documentPlayback.error=recordingErrorMessage;
  if(name==='playing'){documentPlayback.error=null;bindMediaControls(documentAudio,documentLabel(ds(documentPlayback.id)),contextCase(documentPlayback.id)?.name||'Ninefold')}
  if(['pause','ended','error'].includes(name))saveListeningProgress(true);
  refreshPlayback();
@@ -1680,7 +1684,7 @@ function untimedTranscriptHTML(id,data){
 }
 
 async function seekTranscriptText(event,turn,id){
- if(event.target.closest('.footnote-entry,.reader-footnotes'))return;
+ if(event.target.closest('.footnote-entry,.reader-footnotes,.prepared-footnote[data-citation-only]'))return;
  const d=ds(id);if(!d)return;
  const text=event.target.closest('.page-text'),page=Number(text?.dataset.page??turn.dataset.turn),offset=transcriptClickOffset(event,turn,id);
  if(documentPlayback?.id===id&&offset!==null){const cue=cueForSource(documentPlayback.cues,page,offset);if(cue){documentAudio.currentTime=cue.start;updateDocumentHighlight();try{await documentAudio.play()}catch{documentPlayback.error='Tap Play to retry audio.';refreshPlayback()}saveListeningProgress(true)}return}
@@ -1771,6 +1775,7 @@ function numberedReading(text,map,citations){
  let value='',out=[],at=0,hits=[];map=map||Array.from({length:text.length},(_,i)=>i);
  for(const hit of citations.slice().sort((a,b)=>a.start-b.start)){
   if(hit.start<at)continue;
+  if(hit.continuation){value+=text.slice(at,hit.start);out.push(...map.slice(at,hit.start));at=hit.end;continue}
   if(hit.keepInline){value+=text.slice(at,hit.start);out.push(...map.slice(at,hit.start));const start=value.length;value+=text.slice(hit.start,hit.end);out.push(...map.slice(hit.start,hit.end));hits.push({...hit,start,end:value.length});at=hit.end;continue}
   const prefix=text.slice(0,hit.start);let end=hit.end;
   // A stand-alone citation's punctuation must not add a second sentence stop,

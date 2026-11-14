@@ -1,11 +1,17 @@
 """Package a static release while retaining editable source JSON in dist."""
 from pathlib import Path
-import gzip,shutil
+import gzip,json,shutil
 repo=Path(__file__).resolve().parents[1]; source=repo/'dist'; output=repo/'out';output.mkdir(exist_ok=True)
+hosted_path=source/'data/recorded-assets.json'
+hosted=json.loads(hosted_path.read_text()) if hosted_path.exists() else {}
+hosted_audio={digest[:24]+'.mp3' for digest in hosted}
+inventory=json.loads((source/'data/prepared-documents.json').read_text())
+local_audio={recording['url'] for document in inventory.values() for recording in document['recordings'].values() if recording['url'].startswith('audio/')}
 expected=set()
 for file in source.rglob('*'):
     if not file.is_file():continue
     relative=file.relative_to(source);dest=output/relative
+    if relative.parts[0]=='audio' and file.name in hosted_audio and relative.as_posix() not in local_audio:continue
     # Full-resolution illustration masters stay in source; all public portraits
     # use the consistently cropped bench-centered assets.
     if relative.parts[:2]==('images','justice-art'):continue

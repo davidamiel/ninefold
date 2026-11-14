@@ -1,0 +1,791 @@
+{
+  "reviewed": true,
+  "documentId": "25-6-3d51d5dba6e2--16-952",
+  "sourceDocumentId": "25-6-3d51d5dba6e2",
+  "sourceTextPath": "dist/data/docs/25-6-3d51d5dba6e2.json",
+  "sourceTextSha256": "e7df44820d1e8b06b07785aee45b16640bb4b5bcef7b7c211c0ab6a7461dec1b",
+  "sourcePdfPath": "dist/data/pdfs/25-6-3d51d5dba6e2--16-952.pdf",
+  "sourcePdfSha256": "63bad467d18bd6c550a280b4576848bdcb30782b103e226c5784a644a978c92a",
+  "title": "Concurrence",
+  "author": "Sonia Sotomayor",
+  "date": "2026-06-11",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r48_k53m.pdf",
+  "sourceRange": {
+    "startPage": 16,
+    "startOffset": 983,
+    "endPage": 21,
+    "endOffset": 1706
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 983,
+          "end": 1445
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1445,
+          "end": 1448
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1448,
+          "end": 1803
+        },
+        {
+          "page": 17,
+          "start": 60,
+          "end": 509
+        }
+      ],
+      "citations": [
+        {
+          "start": 250,
+          "end": 305,
+          "text": "New Hampshire v. Maine, 532 U. S. 742, 749, 751 (2001).",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        },
+        {
+          "start": 745,
+          "end": 804,
+          "text": "Reed v. Arlington, 650 F. 3d 571, 574 (CA5 2011) (en banc).",
+          "type": "case",
+          "canonical": "650 F.3d 571"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 509,
+          "end": 1058
+        }
+      ],
+      "citations": [
+        {
+          "start": 162,
+          "end": 175,
+          "text": "Ante, at 655.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 655"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1058,
+          "end": 2113
+        },
+        {
+          "page": 18,
+          "start": 74,
+          "end": 401
+        }
+      ],
+      "citations": [
+        {
+          "start": 573,
+          "end": 615,
+          "text": "See, e. g., 11 U. S. C. \u00a7\u00a7 1329(a)(1)\u2013(2).",
+          "type": "statute",
+          "canonical": "11 U.S.C. \u00a7 1329"
+        },
+        {
+          "start": 802,
+          "end": 859,
+          "text": "Biesek v. Soo Line R. Co., 440 F. 3d 410, 413 (CA7 2006).",
+          "type": "case",
+          "canonical": "440 F.3d 410"
+        },
+        {
+          "start": 1146,
+          "end": 1152,
+          "text": "Ibid.;",
+          "type": "case",
+          "canonical": "440 F.3d 410"
+        },
+        {
+          "start": 1153,
+          "end": 1279,
+          "text": "see 18 J. Moore, D. Coquillette, G. Joseph, G. Vairo, & C. Varner, Moore's Federal Practice \u00a7 134.31, p. 134\u2013102 (3d ed. 2026)",
+          "type": "reference",
+          "canonical": "Moore's Federal Practice \u00a7 134.31 (2026)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "vaporiz[ed]",
+          "to": "vaporized"
+        },
+        {
+          "from": "[have been]",
+          "to": "have been"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 401,
+          "end": 1937
+        }
+      ],
+      "citations": [
+        {
+          "start": 606,
+          "end": 635,
+          "text": "Fed. Rule Bkrtcy. Proc. 9011,",
+          "type": "statute",
+          "canonical": "Fed. R. Bankr. P. 9011"
+        },
+        {
+          "start": 666,
+          "end": 686,
+          "text": ", 11 U. S. C. \u00a7 1329",
+          "type": "statute",
+          "canonical": "11 U.S.C. \u00a7 1329"
+        },
+        {
+          "start": 846,
+          "end": 860,
+          "text": "See \u00a7\u00a7 323(b),",
+          "type": "statute",
+          "canonical": "11 U.S.C. \u00a7 323"
+        },
+        {
+          "start": 861,
+          "end": 871,
+          "text": "704(a)(1),",
+          "type": "statute",
+          "canonical": "11 U.S.C. \u00a7 704"
+        },
+        {
+          "start": 872,
+          "end": 880,
+          "text": "1307(c);",
+          "type": "statute",
+          "canonical": "11 U.S.C. \u00a7 1307"
+        },
+        {
+          "start": 881,
+          "end": 946,
+          "text": "Marrama v. Citizens Bank of Mass., 549 U. S. 365, 372\u2013374 (2007).",
+          "type": "case",
+          "canonical": "549 U.S. 365"
+        },
+        {
+          "start": 1039,
+          "end": 1089,
+          "text": "See Brief for United States as Amicus Curiae 20\u201323",
+          "type": "record",
+          "canonical": "United States amicus brief, pp. 20-23"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1937,
+          "end": 2175
+        },
+        {
+          "page": 19,
+          "start": 60,
+          "end": 549
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 339,
+          "end": 356,
+          "text": "e. g., \u00a7 1330(a),",
+          "type": "statute",
+          "canonical": "11 U.S.C. \u00a7 1330"
+        },
+        {
+          "start": 390,
+          "end": 408,
+          "text": "\u00a7\u00a7 727(a)(2), (4),",
+          "type": "statute",
+          "canonical": "11 U.S.C. \u00a7 727"
+        },
+        {
+          "start": 426,
+          "end": 444,
+          "text": "18 U. S. C. \u00a7 401,",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 401"
+        },
+        {
+          "start": 525,
+          "end": 534,
+          "text": ", \u00a7\u00a7 152,",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 152"
+        },
+        {
+          "start": 535,
+          "end": 539,
+          "text": "1621",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 1621"
+        },
+        {
+          "start": 655,
+          "end": 688,
+          "text": "New Hampshire, 532 U. S., at 751,",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1703,
+          "end": 2239
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 528,
+          "end": 537,
+          "text": "App. 253.",
+          "type": "record",
+          "canonical": "Appendix, p. 253"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[was]",
+          "to": "was"
+        },
+        {
+          "from": "[the Keathleys]",
+          "to": "the Keathleys"
+        },
+        {
+          "from": "[tort claim]",
+          "to": "tort claim"
+        },
+        {
+          "from": "[it was]",
+          "to": "it was"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 551,
+          "end": 1046
+        }
+      ],
+      "citations": [
+        {
+          "start": 385,
+          "end": 461,
+          "text": "2025 WL 673434, *8 (CA5, Mar. 3, 2025) (Haynes, J., concurring in judgment),",
+          "type": "case",
+          "canonical": "2025 WL 673434"
+        },
+        {
+          "start": 462,
+          "end": 494,
+          "text": "App. to Pet. for Cert. 20a, 22a.",
+          "type": "record",
+          "canonical": "Petition appendix, pp. 20a, 22a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1046,
+          "end": 1702
+        },
+        {
+          "page": 20,
+          "start": 74,
+          "end": 359
+        }
+      ],
+      "citations": [
+        {
+          "start": 122,
+          "end": 155,
+          "text": "New Hampshire, 532 U. S., at 751.",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        },
+        {
+          "start": 363,
+          "end": 387,
+          "text": "Cf. 11 U. S. C. \u00a7 350(b)",
+          "type": "statute",
+          "canonical": "11 U.S.C. \u00a7 350"
+        },
+        {
+          "start": 488,
+          "end": 531,
+          "text": "Brief for United States as Amicus Curiae 22",
+          "type": "record",
+          "canonical": "United States amicus brief, p. 22"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "cause[s]",
+          "to": "causes"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 20,
+          "start": 359,
+          "end": 363
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 363,
+          "end": 1000
+        }
+      ],
+      "citations": [
+        {
+          "start": 414,
+          "end": 472,
+          "text": "New Hampshire, 532 U. S., at 750 (alteration in original).",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        },
+        {
+          "start": 588,
+          "end": 637,
+          "text": "Holmberg v. Armbrecht, 327 U. S. 392, 396 (1946).",
+          "type": "case",
+          "canonical": "327 U.S. 392"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1000,
+          "end": 1686
+        }
+      ],
+      "citations": [
+        {
+          "start": 417,
+          "end": 430,
+          "text": "Ante, at 655.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 655"
+        },
+        {
+          "start": 667,
+          "end": 688,
+          "text": "See ante, at 656\u2013657.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 656-657"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1686,
+          "end": 2051
+        },
+        {
+          "page": 21,
+          "start": 60,
+          "end": 815
+        }
+      ],
+      "citations": [
+        {
+          "start": 251,
+          "end": 325,
+          "text": "Slater v. United States Steel Corp., 871 F. 3d 1174, 1185 (2017) (en banc)",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        },
+        {
+          "start": 574,
+          "end": 592,
+          "text": "Id., at 1185\u20131186.",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        },
+        {
+          "start": 872,
+          "end": 885,
+          "text": "Id., at 1186.",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        },
+        {
+          "start": 1117,
+          "end": 1122,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "permi[t]",
+          "to": "permit"
+        },
+        {
+          "from": "[was]",
+          "to": "was"
+        },
+        {
+          "from": "risk[ed]",
+          "to": "risked"
+        },
+        {
+          "from": "[its]",
+          "to": "its"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 815,
+          "end": 1429
+        }
+      ],
+      "citations": [
+        {
+          "start": 294,
+          "end": 307,
+          "text": "Id., at 1185;",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        },
+        {
+          "start": 308,
+          "end": 325,
+          "text": "id., at 1186\u20131189",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        },
+        {
+          "start": 536,
+          "end": 613,
+          "text": "Ante, at 655\u2013657 (quoting Holland v. Florida, 560 U. S. 631, 649\u2013650 (2010)).",
+          "type": "case",
+          "canonical": "560 U.S. 631"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]",
+          "to": "a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1429,
+          "end": 1706
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 16,
+      "start": 1803,
+      "end": 1833,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 647 (2026) 663\nSotomayor, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 17,
+      "start": 2113,
+      "end": 2143,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 74,
+      "text": "664 KEA THLEY v. BUDDY AYERS CONSTRUCTION, INC.\nSotomayor, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 18,
+      "start": 2175,
+      "end": 2205,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 647 (2026) 665\nSotomayor, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 19,
+      "start": 549,
+      "end": 551,
+      "text": "* ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 19,
+      "start": 1702,
+      "end": 1703,
+      "text": "*",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 19,
+      "start": 2239,
+      "end": 2269,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 74,
+      "text": "666 KEA THLEY v. BUDDY AYERS CONSTRUCTION, INC.\nSotomayor, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 20,
+      "start": 2051,
+      "end": 2081,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 647 (2026) 667\nSotomayor, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 16,
+      "start": 1469,
+      "end": 1482,
+      "expectedText": "justifcations",
+      "text": "justifications"
+    },
+    {
+      "page": 17,
+      "start": 861,
+      "end": 867,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 17,
+      "start": 1850,
+      "end": 1856,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 18,
+      "start": 619,
+      "end": 623,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 18,
+      "start": 1039,
+      "end": 1046,
+      "expectedText": "modifed",
+      "text": "modified"
+    },
+    {
+      "page": 18,
+      "start": 1784,
+      "end": 1792,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 18,
+      "start": 2166,
+      "end": 2175,
+      "expectedText": "deliber-\n",
+      "text": "deliber"
+    },
+    {
+      "page": 19,
+      "start": 149,
+      "end": 160,
+      "expectedText": "confrmation",
+      "text": "confirmation"
+    },
+    {
+      "page": 19,
+      "start": 232,
+      "end": 235,
+      "expectedText": "fne",
+      "text": "fine"
+    },
+    {
+      "page": 19,
+      "start": 319,
+      "end": 324,
+      "expectedText": "Offce",
+      "text": "Office"
+    },
+    {
+      "page": 19,
+      "start": 1099,
+      "end": 1106,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 19,
+      "start": 1817,
+      "end": 1825,
+      "expectedText": "affdavit",
+      "text": "affidavit"
+    },
+    {
+      "page": 19,
+      "start": 2104,
+      "end": 2111,
+      "expectedText": "notifed",
+      "text": "notified"
+    },
+    {
+      "page": 20,
+      "start": 1555,
+      "end": 1558,
+      "expectedText": "fne",
+      "text": "fine"
+    },
+    {
+      "page": 20,
+      "start": 1252,
+      "end": 1259,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 20,
+      "start": 937,
+      "end": 947,
+      "expectedText": "fexibility",
+      "text": "flexibility"
+    },
+    {
+      "page": 20,
+      "start": 1368,
+      "end": 1377,
+      "expectedText": "identifes",
+      "text": "identifies"
+    },
+    {
+      "page": 21,
+      "start": 119,
+      "end": 134,
+      "expectedText": "onesize-fts-all",
+      "text": "one-size-fits-all"
+    },
+    {
+      "page": 21,
+      "start": 230,
+      "end": 241,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}
