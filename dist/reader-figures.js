@@ -1,5 +1,6 @@
 // Figure assets are extracted from pinned original PDFs. Reading never fetches a PDF.
 const escape = value => String(value ?? '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
+let retryCounter = 0;
 
 export function figureParagraphIndex(figure, paragraphs) {
   return paragraphs.findIndex(paragraph => paragraph.segments.some(segment =>
@@ -26,7 +27,13 @@ export function installReaderFigureHandlers(container) {
     const figure = button.closest('.reader-figure'), link = figure.querySelector('.reader-figure-image');
     figure.querySelector('.reader-figure-error').hidden = true;
     link.hidden = false;
-    link.querySelector('img').src = link.getAttribute('href');
+    // WebKit can retain a failed image request and defer a hidden lazy image.
+    // Explicit retries start immediately with a fresh request; the original
+    // link and the content-addressed image bytes remain unchanged.
+    const image = link.querySelector('img'), url = new URL(link.href);
+    url.searchParams.set('retry', `${Date.now()}-${++retryCounter}`);
+    image.loading = 'eager';
+    image.src = url.href;
     link.focus({preventScroll: true});
   });
 }

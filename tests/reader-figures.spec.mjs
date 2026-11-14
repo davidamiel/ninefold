@@ -34,14 +34,22 @@ for(const [id,document] of Object.entries(manifest))test('original figures and c
 
 test('an original figure image can be retried after a network failure',async({page})=>{
  const [id,document]=Object.entries(manifest)[0],figure=document.figures[0];
- let fail=true;
- await page.route('**/'+figure.path,route=>fail?route.abort():route.continue());
+ let fail=true;const attempts=[];
+ await page.route(url=>url.pathname==='/'+figure.path,route=>{attempts.push(route.request().url());return fail?route.abort():route.continue();});
  await page.goto('/#/reader/25-51?doc='+id);
  const view=page.locator(`[data-figure="${figure.id}"]`);
  await view.scrollIntoViewIfNeeded();
  await expect(view.getByRole('button',{name:'Retry image'})).toBeVisible();
+ await view.getByRole('button',{name:'Retry image'}).click();
+ await expect.poll(()=>attempts.length).toBe(2);
+ await expect(view.getByRole('button',{name:'Retry image'})).toBeVisible();
  fail=false;await view.getByRole('button',{name:'Retry image'}).click();
  await expect.poll(()=>view.locator('img').evaluate(img=>img.complete&&img.naturalWidth)).toBe(figure.width);
+ expect(attempts).toHaveLength(3);
+ expect(new Set(attempts).size).toBe(3);
+ expect(attempts.map(url=>new URL(url).pathname)).toEqual(Array(3).fill('/'+figure.path));
+ await expect(view.getByRole('link')).toHaveAttribute('href',figure.path);
+ await expect(view.locator('img')).toHaveAttribute('loading','eager');
  await expect(view.getByRole('button',{name:'Retry image'})).toBeHidden();
  await expect(view.getByRole('link')).toBeFocused();
 });
