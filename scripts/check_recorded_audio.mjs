@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {citationsIn} from '../dist/reader-authorities.js';
-import {cueAt,cueForSource,matchingCue,bufferedSpans} from '../dist/recorded-audio.js';
+import {cueAt,cueForSource,matchingCue,bufferedSpans,isBuffering} from '../dist/recorded-audio.js';
 const root=new URL('../dist/',import.meta.url),read=path=>JSON.parse(fs.readFileSync(new URL(path,root),'utf8'));
 const prepared=read('data/prepared-documents.json');
 for(const [id,doc] of Object.entries(prepared)){
@@ -27,7 +27,6 @@ for(const [id,doc] of Object.entries(prepared)){
 assert.deepEqual(bufferedSpans({buffered:{length:2,start:i=>[0,50][i],end:i=>[20,75][i]}},100),[{left:0,width:20},{left:50,width:25}]);
 assert.deepEqual(bufferedSpans({buffered:{length:0}},0),[]);
 assert.equal(citationsIn('110 Stat. 3009–554')[0].canonical,'110 Stat. 3009–554');
-console.log('Recorded audio checks passed: canonical source maps, both voice timelines, sentence seeking and buffered ranges.');
 
 const combined=citationsIn('§102(a), 110 Stat. 3009–554, as amended, note following 8 U. S. C. §1103.');
 assert.equal(combined.length,1);assert.equal(combined[0].canonical,'110 Stat. 3009–554');
@@ -35,3 +34,10 @@ assert.equal(citationsIn('91 Fed. Reg. 7298 (2026); id., at 40550')[1].canonical
 assert.equal(citationsIn('8 C. F. R. §102.3')[0].canonical,'8 C.F.R. § 102.3');
 
 assert.equal(citationsIn('§102(c)(2)(A)',false,false,null,{'102':'110 Stat. 3009–554','102(c)':'119 Stat. 306'})[0].canonical,'119 Stat. 306');
+
+// Regression: WebKit's limited readiness is not a stall when data covers the seek.
+const media={paused:false,ended:false,readyState:2,currentTime:174,duration:378,buffered:{length:1,start:()=>0,end:()=>378}};
+assert.equal(isBuffering(media),false);
+assert.equal(isBuffering({...media,buffered:{length:1,start:()=>0,end:()=>174}}),true);
+assert.equal(isBuffering({...media,paused:true,buffered:{length:0}}),false);
+console.log('Recorded audio checks passed: canonical source maps, both voice timelines, sentence seeking and buffered ranges.');

@@ -2,7 +2,7 @@ import {reconcileLibrary} from './account-sync.js';
 import {updatePlaybackView} from './playback-view.js';
 import {homeContent,renderHome,renderFeature} from './homepage.js';
 import {applicationRelief,applicationEvents,applicationState,applicationOutcome,applicationActivity} from './emergency-docket.js';
-import {cueAt,cueForSource,matchingCue,bufferedSpans} from './recorded-audio.js';
+import {cueAt,cueForSource,matchingCue,bufferedSpans,isBuffering} from './recorded-audio.js';
 import {createContentPatch,applyContentPatch,validateContentPatch} from './content-patch.js';
 import {createEditorSession} from './editor-session.js';
 import {openReaderEditor} from './reader-editor.js';
@@ -1222,8 +1222,6 @@ function loadRecordingCues(id,voice=state.audioVoice||'female'){
  return cueRequests.get(recording.cuesPath);
 }
 function currentMedia(){return documentPlayback?documentAudio:audio}
-// Read native readiness instead of retaining a waiting event after a seek.
-function mediaBuffering(){const media=currentMedia();return !media.paused&&!media.ended&&media.readyState<HTMLMediaElement.HAVE_FUTURE_DATA}
 function currentDuration(){const media=currentMedia();return Number.isFinite(media.duration)?media.duration:documentPlayback?.recording.duration||documentRecording(state.active)?.duration||0}
 function documentCue(){return documentPlayback?cueAt(documentPlayback.cues,documentAudio.currentTime):null}
 function updateDocumentHighlight(){
@@ -1272,7 +1270,7 @@ function listeningContext(){return state.route==='reader'?contextCase(state.acti
 function listeningStatus(){
  const n=documentPlayback,media=currentMedia();if(n?.error||argumentError)return n?.error||argumentError;
  if(n&&documentAudio.paused)return documentAudio.ended?'Finished':'Paused';
- if(mediaBuffering())return 'Buffering';
+ if(isBuffering(media))return 'Buffering';
  if(!documentPlayback&&!audioCase)return documentRecording(state.active)||listeningContext()?.audio?.url?'Ready':'Unavailable';
  if(media.ended)return 'Finished';return media.paused?'Paused':n?'Reading':'Court recording';
 }
@@ -1812,7 +1810,7 @@ let lastListeningSave=0;
 function audioProgressKey(kind,id,session){return 'audio:'+kind+':'+(id||'')+(kind==='argument'?':'+(session||argumentAlignment[id]?.sessions?.[0]?.id||'official'):'')}
 function saveListeningProgress(force=false){
  if(applyingAccount||(!documentPlayback&&!audioCase)||!force&&Date.now()-lastListeningSave<5000)return;
- const media=currentMedia();if(!force&&(media.paused||mediaBuffering()))return;
+ const media=currentMedia();if(!force&&media.paused)return;
  let key,value;const cue=documentCue();
  if(documentPlayback){key=audioProgressKey('document',documentPlayback.id);value={kind:'document',docId:documentPlayback.id,seconds:media.currentTime,voice:documentPlayback.voice,recording:documentPlayback.recording.url,completed:media.ended,savedAt:Date.now(),page:cue?.ranges[0]?.page||0,sourceStart:cue?.ranges[0]?.start||0,text:cue?.text||'',offset:cue?Math.max(0,media.currentTime-cue.start):0}}
  else{key=audioProgressKey('argument',audioCase,audioSession);value={kind:'argument',caseId:audioCase,session:audioSession,seconds:audio.currentTime,completed:audio.ended,savedAt:Date.now()}}

@@ -15,3 +15,12 @@ export function bufferedSpans(media,duration){
  return ranges;
 }
 export function matchingCue(cues,previous){return previous?cues.find(c=>c.paragraph===previous.paragraph&&c.text===previous.text):null}
+
+export function isBuffering(media){
+ if(media.paused||media.ended||media.readyState>=3)return false;
+ // WebKit can retain HAVE_CURRENT_DATA after a seek while its clock advances
+ // through fully buffered audio. Check the actual buffer before reporting a stall.
+ const next=Math.min(media.currentTime+.25,Number.isFinite(media.duration)?media.duration:Infinity);
+ for(let i=0;i<media.buffered.length;i++)if(media.buffered.start(i)<=media.currentTime&&media.buffered.end(i)>=next)return false;
+ return true;
+}
