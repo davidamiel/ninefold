@@ -147,7 +147,10 @@ explicit pronunciations and omitted citations. For a source-range correction
 that leaves the recording version and entire script unchanged, use
 `python recordings/remap_cues.py path/to/reviewed-job.json`, then stage the job.
 This validates the exact sentence sequence and both audio hashes and changes
-only source ranges; it preserves acoustic timestamps and coverage checks.
+source ranges, preserving acoustic timestamps and coverage checks. If an
+abbreviation fix joins adjacent sentence fragments, it may coalesce those exact
+verified cues using their existing outer boundaries; it never splits or invents
+a timing.
 
 Preparation and acoustic alignment retain Python character offsets. Staging
 exports browser UTF-16 offsets when supplementary Unicode characters occur,

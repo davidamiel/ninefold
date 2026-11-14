@@ -28,6 +28,27 @@ class CueRefresh(unittest.TestCase):
         expected['cues'][0]['ranges']=[{'page':2,'start':10,'end':30}]
         self.assertEqual(result,expected)
 
+    def test_initialism_fragments_merge_using_the_verified_outer_boundaries(self):
+        text='Talk to the D. A. today. We disagree.'
+        speech=map_speech(text)
+        body={'version':'same','paragraphs':[{'kind':'paragraph','text':text,
+              'segments':[{'page':0,'text':text,'map':list(range(len(text)))}]}]}
+        narration={'version':'same','spokenParagraphs':[text],'spokenBlocks':[0],
+                   'spokenMappings':[speech.intervals]}
+        report={'version':'same','paragraphs':[{'text':text}]}
+        cues={'version':'same','coverage':[{'coverage':1}],'audioSha256':'verified','cues':[
+            {'paragraph':0,'text':'Talk to the D.','start':1,'end':3,'ranges':[]},
+            {'paragraph':0,'text':'A. today.','start':3,'end':5,'ranges':[]},
+            {'paragraph':0,'text':'We disagree.','start':5,'end':7,'ranges':[]}]}
+        result=remap_cues(body,narration,report,cues)
+        self.assertEqual([(c['text'],c['start'],c['end']) for c in result['cues']],
+                         [('Talk to the D. A. today.',1,5),('We disagree.',5,7)])
+        self.assertEqual(result['audioSha256'],cues['audioSha256'])
+        self.assertEqual(result['coverage'],cues['coverage'])
+        cues['cues'][1]['start']=2.9
+        with self.assertRaisesRegex(ValueError,'Overlapping'):
+            remap_cues(body,narration,report,cues)
+
     def test_changed_script_sentence_or_version_cannot_reuse_verified_timings(self):
         for field in ('script','sentence','paragraph','version','sequence'):
             body,narration,report,cues=self.example()

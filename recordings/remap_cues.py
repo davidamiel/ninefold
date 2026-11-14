@@ -30,19 +30,41 @@ def expected_sentences(body, narration):
             yield block, announcement if transition else spoken, transition, source
 
 
+def matching_cue_group(existing, cursor, block, text, transition):
+    """Only coalesce exact adjacent fragments; never invent/split a timing."""
+    group, offset = [], 0
+    while offset < len(text):
+        if cursor >= len(existing):
+            raise ValueError('The verified cue sequence is incomplete')
+        cue = existing[cursor]
+        if (cue['paragraph'] != block or bool(cue.get('transition')) != transition
+                or not cue['text'] or not text.startswith(cue['text'], offset)):
+            raise ValueError('The verified cue does not match its exact reviewed sentence')
+        if group and cue['start'] < group[-1]['end']:
+            raise ValueError('Overlapping acoustic timings cannot be coalesced')
+        group.append(cue)
+        cursor += 1
+        offset += len(cue['text'])
+        while offset < len(text) and text[offset].isspace():
+            offset += 1
+    return group, cursor
+
+
 def remap_cues(body, narration, report, cues):
     if any(value['version'] != body['version'] for value in (narration, report, cues)):
         raise ValueError('Cue refresh requires the current verified recording version')
     if [paragraph['text'] for paragraph in report['paragraphs']] != narration['spokenParagraphs']:
         raise ValueError('The complete recorded script differs from the reviewed narration')
-    expected = list(expected_sentences(body, narration))
-    if len(expected) != len(cues['cues']):
-        raise ValueError('The verified cue sequence differs from the reviewed sentences')
     refreshed = copy.deepcopy(cues)
-    for cue, (block, text, transition, source) in zip(refreshed['cues'], expected):
-        if cue['paragraph'] != block or cue['text'] != text or bool(cue.get('transition')) != transition:
-            raise ValueError('The verified cue does not match its exact reviewed sentence')
-        cue['ranges'] = source
+    refreshed['cues'] = []
+    cursor = 0
+    for block, text, transition, source in expected_sentences(body, narration):
+        group, cursor = matching_cue_group(cues['cues'], cursor, block, text, transition)
+        merged = copy.deepcopy(group[0])
+        merged.update(text=text, end=group[-1]['end'], ranges=source)
+        refreshed['cues'].append(merged)
+    if cursor != len(cues['cues']):
+        raise ValueError('The verified cue sequence differs from the reviewed sentences')
     return refreshed
 
 

@@ -59,9 +59,10 @@ class PublicOffsets(unittest.TestCase):
             {'start':0,'end':3,'paragraph':0,'ranges':[{'page':0,'start':a,'end':a+len(first)},
                                                    {'page':1,'start':b,'end':b+len(second)}]},
             {'start':3,'end':5,'paragraph':1,'footnote':'1','ranges':[{'page':1,'start':n,'end':n+len(note)}]}]}
-        originals=deepcopy((body,cues,pages))
+        expected_inputs=deepcopy((body,cues,pages))
         result,timeline=public_payload(body,cues,pages)
-        self.assertEqual((body,cues,pages),originals)
+        actual_inputs=(body,cues,pages)
+        self.assertEqual(actual_inputs,expected_inputs)
         self.assertEqual(result['version'],body['version'])
         self.assertEqual(timeline['audioSha256'],cues['audioSha256'])
         self.assertEqual([(c['start'],c['end'])for c in timeline['cues']],[(0,3),(3,5)])
