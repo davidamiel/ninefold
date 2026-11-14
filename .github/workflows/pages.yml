@@ -2,6 +2,7 @@ name: Publish Ninefold
 on:
   workflow_dispatch:
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -40,8 +41,36 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Wait for uploaded release artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_ARTIFACT_NAME: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+        run: |
+          node --input-type=module <<'JS'
+          const {GITHUB_REPOSITORY, GITHUB_RUN_ID, GH_TOKEN, PAGES_ARTIFACT_NAME} = process.env;
+          const url = `https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts?per_page=100`;
+          for (let attempt = 0; attempt < 12; attempt++) {
+            const response = await fetch(url, {
+              headers: {Authorization: `Bearer ${GH_TOKEN}`, Accept: 'application/vnd.github+json'},
+              signal: AbortSignal.timeout(15000)
+            });
+            if (!response.ok) throw new Error(`Artifact listing returned HTTP ${response.status}`);
+            const {artifacts} = await response.json();
+            const matching = artifacts.filter(a => a.name === PAGES_ARTIFACT_NAME && !a.expired);
+            if (matching.length === 1) {
+              console.log('Release artifact is ready for Pages.');
+              process.exit(0);
+            }
+            if (matching.length > 1) throw new Error('Release artifact name is ambiguous');
+            await new Promise(resolve => setTimeout(resolve, 5000));
+          }
+          throw new Error('Release artifact did not become visible within one minute');
+          JS
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Verify published version
         run: node scripts/verify_pages_deployment.mjs
