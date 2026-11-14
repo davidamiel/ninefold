@@ -1,0 +1,3878 @@
+{
+  "reviewed": true,
+  "documentId": "25-365-06668450ad03--5-626",
+  "sourceDocumentId": "25-365-06668450ad03",
+  "sourceTextPath": "dist/data/docs/25-365-06668450ad03.json",
+  "sourceTextSha256": "0a44b7da87cd5e5c448047fc6e08ca87ac9208bf90d5f0da1f1abf01e369d5a0",
+  "sourcePdfPath": "dist/data/pdfs/25-365-06668450ad03--5-626.pdf",
+  "sourcePdfSha256": "9e20bb36cb896a41d1a6ad692568df570ef10827b46835c90429a95c85c64f26",
+  "title": "Opinion of the Court",
+  "author": "John G. Roberts, Jr.",
+  "date": "2026-06-30",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-365_new_5if6.pdf",
+  "sourceRange": {
+    "startPage": 5,
+    "startOffset": 685,
+    "endPage": 30,
+    "endOffset": 1289
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 685,
+          "end": 843
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 843,
+          "end": 844
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 845,
+          "end": 880
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 880,
+          "end": 1048
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1048,
+          "end": 1440
+        },
+        {
+          "page": 6,
+          "start": 40,
+          "end": 112
+        }
+      ],
+      "citations": [
+        {
+          "start": 446,
+          "end": 464,
+          "text": "90 Fed. Reg. 8449.",
+          "type": "record",
+          "canonical": "90 Fed. Reg. 8449."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "INA",
+          "to": "I N A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1365,
+          "end": 2002
+        }
+      ],
+      "citations": [
+        {
+          "start": 585,
+          "end": 633,
+          "text": "Exec. Order No. 14160, 90 Fed. Reg. 8449 (2025).",
+          "type": "record",
+          "canonical": "Exec. Order No. 14160, 90 Fed. Reg. 8449 (2025)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 114,
+          "end": 614
+        }
+      ],
+      "citations": [
+        {
+          "start": 223,
+          "end": 261,
+          "text": "790 F. Supp. 3d 80, 101–102 (NH 2025).",
+          "type": "record",
+          "canonical": "790 F. Supp. 3d 80, 101–102 (NH 2025)."
+        },
+        {
+          "start": 417,
+          "end": 433,
+          "text": "Id., at 105–106.",
+          "type": "case",
+          "canonical": "790 F.Supp.3d 80"
+        },
+        {
+          "start": 473,
+          "end": 495,
+          "text": "607 U. S. 1079 (2025).",
+          "type": "case",
+          "canonical": "607 U.S. 1079"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "INA",
+          "to": "I N A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 614,
+          "end": 616
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 617,
+          "end": 842
+        }
+      ],
+      "citations": [
+        {
+          "start": 163,
+          "end": 185,
+          "text": "Dred Scott v. Sandford",
+          "type": "case",
+          "canonical": "60 U.S. 393",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 185,
+          "end": 206,
+          "text": ", 19 How. 393 (1857),",
+          "type": "record",
+          "canonical": ", 19 How. 393 (1857),"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 842,
+          "end": 843
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 844,
+          "end": 1356
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 728
+        }
+      ],
+      "citations": [
+        {
+          "start": 202,
+          "end": 298,
+          "text": "See Inglis v. Trustees of Sailor’s Snug Harbour in City of New York, 3 Pet. 99, 120– 121 (1830).",
+          "type": "case",
+          "canonical": "28 U.S. 99"
+        },
+        {
+          "start": 523,
+          "end": 600,
+          "text": "1 W. Blackstone, Commentaries on the Laws of England 354 (1765) (Blackstone);",
+          "type": "record",
+          "canonical": "1 W. Blackstone, Commentaries on the Laws of England 354 (1765) (Blackstone);"
+        },
+        {
+          "start": 601,
+          "end": 622,
+          "text": "see also id., at 358.",
+          "type": "record",
+          "canonical": "Blackstone Commentaries"
+        },
+        {
+          "start": 765,
+          "end": 782,
+          "text": "Id., at 354, 356.",
+          "type": "record",
+          "canonical": "Blackstone Commentaries"
+        },
+        {
+          "start": 850,
+          "end": 936,
+          "text": "Doe v. Jones, 4 T. R. 300, 308, 100 Eng. Rep. 1031, 1035 (K. B. 1791) (Kenyon, C. J.).",
+          "type": "case",
+          "canonical": "100 Eng.Rep. 1031"
+        },
+        {
+          "start": 975,
+          "end": 988,
+          "text": "Calvin’s Case",
+          "type": "case",
+          "canonical": "77 Eng.Rep. 377",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 988,
+          "end": 1035,
+          "text": ", 7 Co. Rep. 1a, 77 Eng. Rep. 377 (K. B. 1608),",
+          "type": "record",
+          "canonical": ", 7 Co. Rep. 1a, 77 Eng. Rep. 377 (K. B. 1608),"
+        },
+        {
+          "start": 1116,
+          "end": 1176,
+          "text": "Id., at 4b–5a, 77 Eng. Rep., at 382 (translated from Latin).",
+          "type": "case",
+          "canonical": "77 Eng.Rep. 377"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "subject[s]",
+          "to": "subjects"
+        },
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "Lord Coke",
+          "to": "Lord Cook"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 728,
+          "end": 1774
+        }
+      ],
+      "citations": [
+        {
+          "start": 224,
+          "end": 258,
+          "text": "Id., at 18a, 77 Eng. Rep., at 399.",
+          "type": "case",
+          "canonical": "77 Eng.Rep. 377"
+        },
+        {
+          "start": 436,
+          "end": 441,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "77 Eng.Rep. 377"
+        },
+        {
+          "start": 547,
+          "end": 588,
+          "text": "See id., at 18a–18b, 77 Eng. Rep., at 399",
+          "type": "case",
+          "canonical": "77 Eng.Rep. 377"
+        },
+        {
+          "start": 900,
+          "end": 934,
+          "text": "Id., at 18a, 77 Eng. Rep., at 399;",
+          "type": "case",
+          "canonical": "77 Eng.Rep. 377"
+        },
+        {
+          "start": 935,
+          "end": 1038,
+          "text": "see also Schooner Exchange v. McFaddon, 7 Cranch 116, 138– 139 (1812) (Marshall, C. J., for the Court).",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1774,
+          "end": 2129
+        },
+        {
+          "page": 8,
+          "start": 40,
+          "end": 120
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1694,
+          "end": 2127
+        }
+      ],
+      "citations": [
+        {
+          "start": 112,
+          "end": 129,
+          "text": "1 Blackstone 358.",
+          "type": "record",
+          "canonical": "1 Blackstone 358."
+        },
+        {
+          "start": 230,
+          "end": 290,
+          "text": "J. Wharton, Law Lexicon 40 (E. Hopper ed., 2d Am. ed. 1860).",
+          "type": "record",
+          "canonical": "J. Wharton, Law Lexicon 40 (E. Hopper ed., 2d Am. ed. 1860)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]",
+          "to": "a"
+        },
+        {
+          "from": "[she]",
+          "to": "she"
+        },
+        {
+          "from": "continue[d]",
+          "to": "continued"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 121,
+          "end": 1039
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 55,
+          "text": "Calvin’s Case, 7 Co. Rep., at 6a, 77 Eng. Rep., at 384;",
+          "type": "case",
+          "canonical": "77 Eng.Rep. 377"
+        },
+        {
+          "start": 56,
+          "end": 110,
+          "text": "see also Doe, 4 T. R., at 308, 100 Eng. Rep., at 1035.",
+          "type": "case",
+          "canonical": "100 Eng.Rep. 1031"
+        },
+        {
+          "start": 452,
+          "end": 476,
+          "text": "4 Blackstone 166 (1769);",
+          "type": "record",
+          "canonical": "4 Blackstone 166 (1769);"
+        },
+        {
+          "start": 477,
+          "end": 532,
+          "text": "see Brief for Gerard N. Magliocca as Amicus Curiae 2–4;",
+          "type": "record",
+          "canonical": "see Brief for Gerard N. Magliocca as Amicus Curiae 2–4;"
+        },
+        {
+          "start": 533,
+          "end": 581,
+          "text": "cf. H. Hirota, Expelling the Poor 114–115 (2017)",
+          "type": "record",
+          "canonical": "cf. H. Hirota, Expelling the Poor 114–115 (2017)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1039,
+          "end": 1685
+        },
+        {
+          "page": 9,
+          "start": 55,
+          "end": 180
+        }
+      ],
+      "citations": [
+        {
+          "start": 174,
+          "end": 220,
+          "text": "See State v. Manuel, 20 N. C. 144, 152 (1838).",
+          "type": "case",
+          "canonical": "20 N.C. 144"
+        },
+        {
+          "start": 433,
+          "end": 511,
+          "text": "2 J. Kent, Commentaries on American Law 38–39, n. a, 40 (6th ed. 1848) (Kent).",
+          "type": "record",
+          "canonical": "2 J. Kent, Commentaries on American Law 38–39, n. a, 40 (6th ed. 1848) (Kent)."
+        },
+        {
+          "start": 625,
+          "end": 675,
+          "text": "W. Yates, Rights of Colored Men 36 (1838) (Yates);",
+          "type": "record",
+          "canonical": "W. Yates, Rights of Colored Men 36 (1838) (Yates);"
+        },
+        {
+          "start": 676,
+          "end": 766,
+          "text": "see W. Rawle, A View of the Constitution of the United States of America 86 (2d ed. 1829).",
+          "type": "record",
+          "canonical": "see W. Rawle, A View of the Constitution of the United States of America 86 (2d ed. 1829)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "subject[s]",
+          "to": "subjects"
+        },
+        {
+          "from": "[we]re",
+          "to": "were"
+        },
+        {
+          "from": "jus soli",
+          "to": "juss soh lee"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 180,
+          "end": 1513
+        }
+      ],
+      "citations": [
+        {
+          "start": 518,
+          "end": 601,
+          "text": "Goodell v. Jackson ex dem. Smith, 20 Johns. 693, 711 (N. Y. Ct. Corr. Errors 1823).",
+          "type": "case",
+          "canonical": "20 Johns. 693"
+        },
+        {
+          "start": 754,
+          "end": 766,
+          "text": "Id., at 714.",
+          "type": "case",
+          "canonical": "20 Johns. 693"
+        },
+        {
+          "start": 849,
+          "end": 866,
+          "text": "Id., at 712, 714.",
+          "type": "case",
+          "canonical": "20 Johns. 693"
+        },
+        {
+          "start": 1016,
+          "end": 1028,
+          "text": "Id., at 715.",
+          "type": "case",
+          "canonical": "20 Johns. 693"
+        },
+        {
+          "start": 1056,
+          "end": 1156,
+          "text": ", see J. Kettner, The Development of American Citizenship, 1608–1870, pp. 294– 296 (1978) (Kettner),",
+          "type": "record",
+          "canonical": "see J. Kettner, The Development of American Citizenship, 1608–1870, pp. 294– 296 (1978) (Kettner),"
+        },
+        {
+          "start": 1257,
+          "end": 1328,
+          "text": ", H. Binney, Alienigenae of the United States 16 (2d ed. 1853) (Binney)",
+          "type": "record",
+          "canonical": "H. Binney, Alienigenae of the United States 16 (2d ed. 1853) (Binney)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ha[s]",
+          "to": "has"
+        },
+        {
+          "from": "dominion[s]",
+          "to": "dominions"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1513,
+          "end": 2009
+        },
+        {
+          "page": 10,
+          "start": 40,
+          "end": 1030
+        }
+      ],
+      "citations": [
+        {
+          "start": 129,
+          "end": 205,
+          "text": "Common Sense (1776), in 1 Writings of Thomas Paine 101 (M. Conway ed. 1894).",
+          "type": "record",
+          "canonical": "Common Sense (1776), in 1 Writings of Thomas Paine 101 (M. Conway ed. 1894)."
+        },
+        {
+          "start": 418,
+          "end": 466,
+          "text": "See M. Jones, American Immigration 64–91 (1960).",
+          "type": "record",
+          "canonical": "See M. Jones, American Immigration 64–91 (1960)."
+        },
+        {
+          "start": 643,
+          "end": 718,
+          "text": "Inglis, 3 Pet., at 164 (opinion concurring in part and dissenting in part).",
+          "type": "case",
+          "canonical": "28 U.S. 99"
+        },
+        {
+          "start": 766,
+          "end": 846,
+          "text": "See 1 Z. Swift, A System of the Laws of the State of Connecticut 164, 167 (1795)",
+          "type": "record",
+          "canonical": "See 1 Z. Swift, A System of the Laws of the State of Connecticut 164, 167 (1795)"
+        },
+        {
+          "start": 1043,
+          "end": 1058,
+          "text": "Lynch v. Clarke",
+          "type": "case",
+          "canonical": "1 Sand.Ch. 583",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1058,
+          "end": 1092,
+          "text": ", 1 Sand. Ch. 583 (N. Y. Ch. 1844)",
+          "type": "record",
+          "canonical": ", 1 Sand. Ch. 583 (N. Y. Ch. 1844)."
+        },
+        {
+          "start": 1281,
+          "end": 1302,
+          "text": "Id., at 638, 663–664.",
+          "type": "case",
+          "canonical": "1 Sand.Ch. 583"
+        },
+        {
+          "start": 1432,
+          "end": 1479,
+          "text": "Id., at 668 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "1 Sand.Ch. 583"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[n]othing",
+          "to": "nothing"
+        },
+        {
+          "from": "[they]",
+          "to": "they"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "jus soli",
+          "to": "juss soh lee"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1030,
+          "end": 1031
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1032,
+          "end": 2025
+        },
+        {
+          "page": 11,
+          "start": 55,
+          "end": 1846
+        }
+      ],
+      "citations": [
+        {
+          "start": 66,
+          "end": 151,
+          "text": "United States v. Rhodes, 27 F. Cas. 785, 789 (No. 16,151) (CC Ky. 1866) (Swayne, J.).",
+          "type": "case",
+          "canonical": "27 F.Cas. 785"
+        },
+        {
+          "start": 340,
+          "end": 360,
+          "text": "See Kettner 320–324.",
+          "type": "record",
+          "canonical": "See Kettner 320–324."
+        },
+        {
+          "start": 506,
+          "end": 543,
+          "text": "Amy v. Smith, 11 Ky. 326, 332 (1822).",
+          "type": "case",
+          "canonical": "11 Ky. 326"
+        },
+        {
+          "start": 612,
+          "end": 652,
+          "text": "Bryan v. Walton, 14 Ga. 185, 202 (1853).",
+          "type": "case",
+          "canonical": "14 Ga. 185"
+        },
+        {
+          "start": 835,
+          "end": 847,
+          "text": "Id., at 198.",
+          "type": "case",
+          "canonical": "14 Ga. 185"
+        },
+        {
+          "start": 968,
+          "end": 1042,
+          "text": "African Methodist Episcopal Church v. New Orleans, 15 La. 441, 443 (1860);",
+          "type": "case",
+          "canonical": "15 La. 441"
+        },
+        {
+          "start": 1043,
+          "end": 1096,
+          "text": "see I. Berlin, Slaves Without Masters 136–137 (1974).",
+          "type": "record",
+          "canonical": "see I. Berlin, Slaves Without Masters 136–137 (1974)."
+        },
+        {
+          "start": 1212,
+          "end": 1224,
+          "text": "19 How. 393.",
+          "type": "case",
+          "canonical": "60 U.S. 393"
+        },
+        {
+          "start": 1445,
+          "end": 1457,
+          "text": "Id., at 419.",
+          "type": "case",
+          "canonical": "60 U.S. 393"
+        },
+        {
+          "start": 1593,
+          "end": 1613,
+          "text": "See id., at 422–423.",
+          "type": "case",
+          "canonical": "60 U.S. 393"
+        },
+        {
+          "start": 1781,
+          "end": 1793,
+          "text": "Id., at 420.",
+          "type": "case",
+          "canonical": "60 U.S. 393"
+        },
+        {
+          "start": 1909,
+          "end": 1921,
+          "text": "Id., at 404.",
+          "type": "case",
+          "canonical": "60 U.S. 393"
+        },
+        {
+          "start": 2224,
+          "end": 2261,
+          "text": "Id., at 576–577 (dissenting opinion).",
+          "type": "case",
+          "canonical": "60 U.S. 393"
+        },
+        {
+          "start": 2382,
+          "end": 2415,
+          "text": "Id., at 531 (dissenting opinion).",
+          "type": "case",
+          "canonical": "60 U.S. 393"
+        },
+        {
+          "start": 2569,
+          "end": 2627,
+          "text": "D. Potter, The Impending Crisis, 1848–1861, p. 281 (1976).",
+          "type": "record",
+          "canonical": "D. Potter, The Impending Crisis, 1848–1861, p. 281 (1976)."
+        },
+        {
+          "start": 2707,
+          "end": 2762,
+          "text": "3 Writings of Abraham Lincoln 55 (A. Lapsley ed. 1905).",
+          "type": "record",
+          "canonical": "3 Writings of Abraham Lincoln 55 (A. Lapsley ed. 1905)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "citizen[s]",
+          "to": "citizens"
+        },
+        {
+          "from": "make[s]",
+          "to": "makes"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "Taney",
+          "to": "Taw nee"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1846,
+          "end": 2136
+        },
+        {
+          "page": 12,
+          "start": 40,
+          "end": 454
+        }
+      ],
+      "citations": [
+        {
+          "start": 122,
+          "end": 188,
+          "text": "2 Life and Writings of Frederick Douglass 259 (P. Foner ed. 1950).",
+          "type": "record",
+          "canonical": "2 Life and Writings of Frederick Douglass 259 (P. Foner ed. 1950)."
+        },
+        {
+          "start": 329,
+          "end": 346,
+          "text": "Id., at 415, 424.",
+          "type": "record",
+          "canonical": "Life and Writings of Frederick Douglass"
+        },
+        {
+          "start": 496,
+          "end": 508,
+          "text": "Id., at 424.",
+          "type": "record",
+          "canonical": "Life and Writings of Frederick Douglass"
+        },
+        {
+          "start": 695,
+          "end": 700,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Life and Writings of Frederick Douglass"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[A]ll",
+          "to": "All"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 454,
+          "end": 455
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 456,
+          "end": 741
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 741,
+          "end": 1854
+        }
+      ],
+      "citations": [
+        {
+          "start": 377,
+          "end": 411,
+          "text": "10 Op. Atty. Gen. 382, 399 (1862).",
+          "type": "record",
+          "canonical": "10 Op. Atty. Gen. 382, 399 (1862)."
+        },
+        {
+          "start": 597,
+          "end": 609,
+          "text": "Id., at 394.",
+          "type": "record",
+          "canonical": "10 Op. Atty. Gen. 382"
+        },
+        {
+          "start": 693,
+          "end": 718,
+          "text": "See id., at 394, 396–397.",
+          "type": "record",
+          "canonical": "10 Op. Atty. Gen. 382"
+        },
+        {
+          "start": 870,
+          "end": 882,
+          "text": "Id., at 397.",
+          "type": "record",
+          "canonical": "10 Op. Atty. Gen. 382"
+        },
+        {
+          "start": 969,
+          "end": 981,
+          "text": "Id., at 394;",
+          "type": "record",
+          "canonical": "10 Op. Atty. Gen. 382"
+        },
+        {
+          "start": 982,
+          "end": 1028,
+          "text": "see also 10 Op. Atty. Gen. 328, 328–329 (1862)",
+          "type": "record",
+          "canonical": "see also 10 Op. Atty. Gen. 328, 328–329 (1862)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[E]very",
+          "to": "Every"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1854,
+          "end": 1959
+        },
+        {
+          "page": 13,
+          "start": 55,
+          "end": 943
+        }
+      ],
+      "citations": [
+        {
+          "start": 324,
+          "end": 340,
+          "text": "§1, 14 Stat. 27.",
+          "type": "record",
+          "canonical": "§1, 14 Stat. 27."
+        },
+        {
+          "start": 488,
+          "end": 550,
+          "text": "Cong. Globe, 39th Cong., 1st Sess., 1116 (1866) (Rep. Wilson),",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 636,
+          "end": 665,
+          "text": "id., at 1832 (Rep. Lawrence).",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 857,
+          "end": 869,
+          "text": "Id., at 498.",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 978,
+          "end": 991,
+          "text": "Id., at 1757.",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]n",
+          "to": "in"
+        },
+        {
+          "from": "[E]ven",
+          "to": "Even"
+        },
+        {
+          "from": "vs.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 943,
+          "end": 1400
+        }
+      ],
+      "citations": [
+        {
+          "start": 214,
+          "end": 290,
+          "text": "See, e.g., Cong. Globe, 39th Cong., 1st Sess., at 497–498 (Sen. Van Winkle);",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 291,
+          "end": 316,
+          "text": "id., at 499 (Sen. Cowan).",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1400,
+          "end": 1403
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1404,
+          "end": 1405
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1406,
+          "end": 1791
+        }
+      ],
+      "citations": [
+        {
+          "start": 319,
+          "end": 383,
+          "text": "Cong. Globe, 39th Cong., 1st Sess., at 2891, 2896 (Sen. Howard).",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1791,
+          "end": 1895
+        },
+        {
+          "page": 14,
+          "start": 41,
+          "end": 1358
+        }
+      ],
+      "citations": [
+        {
+          "start": 712,
+          "end": 732,
+          "text": "1 Sand. Ch., at 668.",
+          "type": "record",
+          "canonical": "1 Sand. Ch., at 668."
+        },
+        {
+          "start": 757,
+          "end": 778,
+          "text": "See Kent 38, and n. a",
+          "type": "record",
+          "canonical": "See Kent 38, and n. a"
+        },
+        {
+          "start": 945,
+          "end": 957,
+          "text": "See Yates 36",
+          "type": "record",
+          "canonical": "See Yates 36"
+        },
+        {
+          "start": 1082,
+          "end": 1095,
+          "text": "See Binney 20",
+          "type": "record",
+          "canonical": "See Binney 20"
+        },
+        {
+          "start": 1357,
+          "end": 1415,
+          "text": "Cong. Globe, 39th Cong., 1st Sess., at 2890 (Sen. Howard).",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1358,
+          "end": 1801
+        }
+      ],
+      "citations": [
+        {
+          "start": 245,
+          "end": 272,
+          "text": "Lynch, 1 Sand. Ch., at 668;",
+          "type": "case",
+          "canonical": "1 Sand.Ch. 583"
+        },
+        {
+          "start": 273,
+          "end": 334,
+          "text": "see Cong. Globe, 39th Cong., 1st Sess., at 570 (Sen. Morrill)",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1801,
+          "end": 1802
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1803,
+          "end": 1970
+        },
+        {
+          "page": 15,
+          "start": 56,
+          "end": 221
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 221,
+          "end": 1020
+        }
+      ],
+      "citations": [
+        {
+          "start": 119,
+          "end": 218,
+          "text": "N. Webster, An American Dictionary of the English Language 732 (C. Goodrich & N. Porter eds. 1865);",
+          "type": "record",
+          "canonical": "N. Webster, An American Dictionary of the English Language 732 (C. Goodrich & N. Porter eds. 1865);"
+        },
+        {
+          "start": 219,
+          "end": 332,
+          "text": "see also, e.g., 1 B. Abbott, Dictionary of Terms and Phrases Used in American or English Jurisprudence 671 (1879)",
+          "type": "record",
+          "canonical": "see also, e.g., 1 B. Abbott, Dictionary of Terms and Phrases Used in American or English Jurisprudence 671 (1879)"
+        },
+        {
+          "start": 498,
+          "end": 559,
+          "text": "J. Worcester, Dictionary of the English Language 1435 (1860),",
+          "type": "record",
+          "canonical": "J. Worcester, Dictionary of the English Language 1435 (1860),"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[p]ower",
+          "to": "power"
+        },
+        {
+          "from": "liv[e]",
+          "to": "live"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1020,
+          "end": 2061
+        }
+      ],
+      "citations": [
+        {
+          "start": 86,
+          "end": 115,
+          "text": "Schooner Exchange v. McFaddon",
+          "type": "case",
+          "canonical": "11 U.S. 116",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 115,
+          "end": 129,
+          "text": ", 7 Cranch 116",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        },
+        {
+          "start": 131,
+          "end": 204,
+          "text": "See H. Wheaton, Elements of International Law §96, p. 154 (8th ed. 1866).",
+          "type": "record",
+          "canonical": "See H. Wheaton, Elements of International Law §96, p. 154 (8th ed. 1866)."
+        },
+        {
+          "start": 376,
+          "end": 393,
+          "text": "7 Cranch, at 136.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        },
+        {
+          "start": 485,
+          "end": 490,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        },
+        {
+          "start": 707,
+          "end": 723,
+          "text": "Id., at 136–137.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        },
+        {
+          "start": 843,
+          "end": 863,
+          "text": "See id., at 138–139.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        },
+        {
+          "start": 1020,
+          "end": 1032,
+          "text": "Id., at 139.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[E]very",
+          "to": "Every"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "jus soli",
+          "to": "juss soh lee"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 41,
+          "end": 1019
+        }
+      ],
+      "citations": [
+        {
+          "start": 229,
+          "end": 241,
+          "text": "Id., at 144.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        },
+        {
+          "start": 488,
+          "end": 493,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        },
+        {
+          "start": 700,
+          "end": 705,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        },
+        {
+          "start": 965,
+          "end": 970,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[our territory]",
+          "to": "our territory"
+        },
+        {
+          "from": "[I]t",
+          "to": "It"
+        },
+        {
+          "from": "jus soli",
+          "to": "juss soh lee"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1019,
+          "end": 1540
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "jus soli",
+          "to": "juss soh lee"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1540,
+          "end": 2030
+        }
+      ],
+      "citations": [
+        {
+          "start": 217,
+          "end": 222,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 17,
+          "start": 56,
+          "end": 58
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 59,
+          "end": 166
+        }
+      ],
+      "citations": [
+        {
+          "start": 34,
+          "end": 63,
+          "text": "United States v. Wong Kim Ark",
+          "type": "case",
+          "canonical": "169 U.S. 649",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 63,
+          "end": 85,
+          "text": ", 169 U. S. 649 (1898)",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 17,
+          "start": 166,
+          "end": 167
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 168,
+          "end": 822
+        }
+      ],
+      "citations": [
+        {
+          "start": 197,
+          "end": 376,
+          "text": "Memorandum of Secretary of State H. Fish to Mr. Marsh (May 19, 1871), in 2 Digest of the International Law of the United States §183, p. 394 (F. Wharton ed. 2d ed. 1887) (Digest).",
+          "type": "record",
+          "canonical": "Memorandum of Secretary of State H. Fish to Mr. Marsh (May 19, 1871), in 2 Digest of the International Law of the United States §183, p. 394 (F. Wharton ed. 2d ed. 1887) (Digest)."
+        },
+        {
+          "start": 642,
+          "end": 647,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Digest of International Law"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 822,
+          "end": 1883
+        }
+      ],
+      "citations": [
+        {
+          "start": 183,
+          "end": 205,
+          "text": "14 Op. Atty. Gen. 154.",
+          "type": "record",
+          "canonical": "14 Op. Atty. Gen. 154."
+        },
+        {
+          "start": 472,
+          "end": 484,
+          "text": "Id., at 155.",
+          "type": "record",
+          "canonical": "14 Op. Atty. Gen. 154"
+        },
+        {
+          "start": 615,
+          "end": 620,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "14 Op. Atty. Gen. 154"
+        },
+        {
+          "start": 662,
+          "end": 731,
+          "text": "See Memorandum to Baron Lederer (Dec. 24, 1872), in 2 Digest 395–396.",
+          "type": "record",
+          "canonical": "See Memorandum to Baron Lederer (Dec. 24, 1872), in 2 Digest 395–396."
+        },
+        {
+          "start": 857,
+          "end": 923,
+          "text": "McKay v. Campbell, 16 F. Cas. 161, 165 (No. 8,840) (DC Ore. 1871);",
+          "type": "case",
+          "canonical": "16 F.Cas. 161"
+        },
+        {
+          "start": 924,
+          "end": 1001,
+          "text": "see also In re Look Tin Sing , 21 F. 905, 908–910 (CC Cal. 1884) (Field, J.);",
+          "type": "case",
+          "canonical": "21 F. 905"
+        },
+        {
+          "start": 1002,
+          "end": 1057,
+          "text": "Ex parte Chin King , 35 F. 354, 355–356 (CC Ore. 1888).",
+          "type": "case",
+          "canonical": "35 F. 354"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 41,
+          "end": 744
+        }
+      ],
+      "citations": [
+        {
+          "start": 156,
+          "end": 179,
+          "text": ", ch. 126, 22 Stat. 58,",
+          "type": "record",
+          "canonical": ", ch. 126, 22 Stat. 58,"
+        },
+        {
+          "start": 280,
+          "end": 377,
+          "text": "See F. Douglass, Speech (Apr. 16, 1885), in 4 Life and Writings of Frederick Douglass 413 (1955).",
+          "type": "record",
+          "canonical": "See F. Douglass, Speech (Apr. 16, 1885), in 4 Life and Writings of Frederick Douglass 413 (1955)."
+        },
+        {
+          "start": 499,
+          "end": 512,
+          "text": "2 Digest 402;",
+          "type": "record",
+          "canonical": "2 Digest 402;"
+        },
+        {
+          "start": 634,
+          "end": 698,
+          "text": "F. Wharton, Conflict of Laws §10, p. 35 (2d ed. 1881) (Wharton).",
+          "type": "record",
+          "canonical": "F. Wharton, Conflict of Laws §10, p. 35 (2d ed. 1881) (Wharton)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 744,
+          "end": 1547
+        }
+      ],
+      "citations": [
+        {
+          "start": 286,
+          "end": 322,
+          "text": "Id., §12, at 41–42 (emphasis added);",
+          "type": "record",
+          "canonical": "Conflict of Laws"
+        },
+        {
+          "start": 323,
+          "end": 379,
+          "text": "see also A. Morse, A Treatise on Citizenship 248 (1881).",
+          "type": "record",
+          "canonical": "see also A. Morse, A Treatise on Citizenship 248 (1881)."
+        },
+        {
+          "start": 448,
+          "end": 476,
+          "text": ", see id., at 238, and n. 1,",
+          "type": "record",
+          "canonical": "A Treatise on Citizenship"
+        },
+        {
+          "start": 567,
+          "end": 665,
+          "text": "A. Morse, Citizenship of Children of Aliens Born in the United States, 30 Albany L. J. 420 (1884).",
+          "type": "record",
+          "canonical": "A. Morse, Citizenship of Children of Aliens Born in the United States, 30 Albany L. J. 420 (1884)."
+        },
+        {
+          "start": 795,
+          "end": 800,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "A Treatise on Citizenship"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[F]ourteenth",
+          "to": "Fourteenth"
+        },
+        {
+          "from": "[A]mendment",
+          "to": "Amendment"
+        },
+        {
+          "from": "jus soli",
+          "to": "juss soh lee"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1547,
+          "end": 1548
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1549,
+          "end": 1741
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 191,
+          "text": "169 U. S., at 667.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1741,
+          "end": 1908
+        },
+        {
+          "page": 19,
+          "start": 56,
+          "end": 1148
+        }
+      ],
+      "citations": [
+        {
+          "start": 88,
+          "end": 104,
+          "text": "See id., at 652.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 358,
+          "end": 466,
+          "text": "Brief for Appellee in United States v. Wong Kim Ark, O. T. 1896, No. 132, p. 78 (filed by Counselor Ashton);",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 467,
+          "end": 486,
+          "text": "see also id., at 38",
+          "type": "record",
+          "canonical": "Brief for Appellee in Wong Kim Ark"
+        },
+        {
+          "start": 935,
+          "end": 1021,
+          "text": "Brief for United States in United States v. Wong Kim Ark , O. T. 1896, No. 132, p. 28.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 1243,
+          "end": 1253,
+          "text": "Id., at 6.",
+          "type": "record",
+          "canonical": "Brief for United States in Wong Kim Ark"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]here",
+          "to": "There"
+        },
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "vs.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1148,
+          "end": 1818
+        }
+      ],
+      "citations": [
+        {
+          "start": 235,
+          "end": 253,
+          "text": "169 U. S., at 688.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 376,
+          "end": 388,
+          "text": "Id., at 658.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 639,
+          "end": 665,
+          "text": "Id., at 675, 681–683, 693.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1818,
+          "end": 2099
+        },
+        {
+          "page": 20,
+          "start": 41,
+          "end": 677
+        }
+      ],
+      "citations": [
+        {
+          "start": 94,
+          "end": 120,
+          "text": "See id., at 676, 687– 688.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 360,
+          "end": 378,
+          "text": "169 U. S., at 664.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 499,
+          "end": 504,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 772,
+          "end": 788,
+          "text": "Id., at 664–665.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 888,
+          "end": 904,
+          "text": "See id., at 676.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 677,
+          "end": 1417
+        }
+      ],
+      "citations": [
+        {
+          "start": 357,
+          "end": 375,
+          "text": "169 U. S., at 687.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 529,
+          "end": 541,
+          "text": "Id., at 686.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 717,
+          "end": 737,
+          "text": "See id., at 682–688.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1417,
+          "end": 1972
+        }
+      ],
+      "citations": [
+        {
+          "start": 369,
+          "end": 455,
+          "text": "See, e.g., United States ex rel. Hintopoulos v. Shaughnessy , 353 U. S. 72, 73 (1957);",
+          "type": "case",
+          "canonical": "353 U.S. 72"
+        },
+        {
+          "start": 456,
+          "end": 503,
+          "text": "INS v. Rios-Pineda , 471 U. S. 444, 446 (1985).",
+          "type": "case",
+          "canonical": "471 U.S. 444"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 21,
+          "start": 56,
+          "end": 57
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 58,
+          "end": 729
+        }
+      ],
+      "citations": [
+        {
+          "start": 183,
+          "end": 211,
+          "text": "Brief for Petitioners 15–16;",
+          "type": "record",
+          "canonical": "Brief for Petitioners 15–16;"
+        },
+        {
+          "start": 212,
+          "end": 265,
+          "text": "see, e.g., post, at 2–3, 86 (THOMAS, J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 340,
+          "end": 365,
+          "text": "Brief for Petitioners 40;",
+          "type": "record",
+          "canonical": "Brief for Petitioners 40;"
+        },
+        {
+          "start": 366,
+          "end": 420,
+          "text": "see, e.g., post, at 1, 17–18 (THOMAS, J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 578,
+          "end": 606,
+          "text": "Brief for Petitioners 16–17;",
+          "type": "record",
+          "canonical": "Brief for Petitioners 16–17;"
+        },
+        {
+          "start": 607,
+          "end": 663,
+          "text": "see, e.g., post, at 1–2, 26–27 (THOMAS, J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 729,
+          "end": 1690
+        }
+      ],
+      "citations": [
+        {
+          "start": 326,
+          "end": 354,
+          "text": "Tr. of Oral Arg. 64–65, 136;",
+          "type": "record",
+          "canonical": "Tr. of Oral Arg. 64–65, 136;"
+        },
+        {
+          "start": 355,
+          "end": 399,
+          "text": "see post, at 75–76 (THOMAS, J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 569,
+          "end": 594,
+          "text": "Brief for Petitioners 16.",
+          "type": "record",
+          "canonical": "Brief for Petitioners 16."
+        },
+        {
+          "start": 667,
+          "end": 694,
+          "text": ", see Tr. of Oral Arg. 137,",
+          "type": "record",
+          "canonical": "see Tr. of Oral Arg. 137,"
+        },
+        {
+          "start": 717,
+          "end": 738,
+          "text": ", see id., at 26, 76,",
+          "type": "record",
+          "canonical": "see id., at 26, 76,"
+        },
+        {
+          "start": 767,
+          "end": 781,
+          "text": "see id., at 3;",
+          "type": "record",
+          "canonical": "see id., at 3;"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1690,
+          "end": 2051
+        },
+        {
+          "page": 22,
+          "start": 41,
+          "end": 335
+        }
+      ],
+      "citations": [
+        {
+          "start": 153,
+          "end": 214,
+          "text": "Brief for Petitioners 12, 14, 15, 17, 19, 21, 23, 29, 32, 42.",
+          "type": "record",
+          "canonical": "Brief for Petitioners 12, 14, 15, 17, 19, 21, 23, 29, 32, 42."
+        },
+        {
+          "start": 300,
+          "end": 328,
+          "text": "Post, at 17, 22, 25, 29, 58.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 630,
+          "end": 650,
+          "text": "Tr. of Oral Arg. 26.",
+          "type": "record",
+          "canonical": "Tr. of Oral Arg. 26."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[d]omicile",
+          "to": "domicile"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 335,
+          "end": 1197
+        }
+      ],
+      "citations": [
+        {
+          "start": 430,
+          "end": 460,
+          "text": "See Lynch, 1 Sand. Ch., at 657",
+          "type": "case",
+          "canonical": "1 Sand.Ch. 583"
+        },
+        {
+          "start": 592,
+          "end": 651,
+          "text": "Murray v. Schooner Charming Betsy , 2 Cranch 64, 120 (1804)",
+          "type": "case",
+          "canonical": "6 U.S. 64"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1197,
+          "end": 1624
+        }
+      ],
+      "citations": [
+        {
+          "start": 208,
+          "end": 233,
+          "text": "Brief for Petitioners 23;",
+          "type": "record",
+          "canonical": "Brief for Petitioners 23;"
+        },
+        {
+          "start": 234,
+          "end": 253,
+          "text": "see post, at 22–23.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1790,
+          "end": 2133
+        }
+      ],
+      "citations": [
+        {
+          "start": 100,
+          "end": 116,
+          "text": "Ludlam v. Ludlam",
+          "type": "case",
+          "canonical": "31 Barb. 486",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 116,
+          "end": 153,
+          "text": ", 31 Barb. 486 (N. Y. Gen. Term 1860)",
+          "type": "case",
+          "canonical": "31 Barb. 486"
+        },
+        {
+          "start": 295,
+          "end": 342,
+          "text": "See Ludlam v. Ludlam, 26 N. Y. 356, 376 (1863).",
+          "type": "case",
+          "canonical": "26 N.Y. 356"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1625,
+          "end": 1781
+        },
+        {
+          "page": 23,
+          "start": 56,
+          "end": 343
+        }
+      ],
+      "citations": [
+        {
+          "start": 207,
+          "end": 253,
+          "text": "Inglis, 3 Pet., at 155 (opinion of Story, J.);",
+          "type": "case",
+          "canonical": "28 U.S. 99"
+        },
+        {
+          "start": 254,
+          "end": 337,
+          "text": "see also, e.g., 1 N. Webster, An American Dictionary of the English Language (1828)",
+          "type": "record",
+          "canonical": "see also, e.g., 1 N. Webster, An American Dictionary of the English Language (1828)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[e]very",
+          "to": "every"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 343,
+          "end": 852
+        }
+      ],
+      "citations": [
+        {
+          "start": 423,
+          "end": 506,
+          "text": "J. Story, Commentaries on the Conflict of Laws §§21, 48, pp. 22, 48 (1834) (Story).",
+          "type": "record",
+          "canonical": "J. Story, Commentaries on the Conflict of Laws §§21, 48, pp. 22, 48 (1834) (Story)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[n]atural",
+          "to": "natural"
+        },
+        {
+          "from": "jus soli",
+          "to": "juss soh lee"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 852,
+          "end": 1625
+        }
+      ],
+      "citations": [
+        {
+          "start": 116,
+          "end": 148,
+          "text": "See post, at 9–10, 12–14, 40–41.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 320,
+          "end": 368,
+          "text": "F. Wharton, Conflict of Laws §40a, p. 47 (1872);",
+          "type": "record",
+          "canonical": "F. Wharton, Conflict of Laws §40a, p. 47 (1872);"
+        },
+        {
+          "start": 369,
+          "end": 414,
+          "text": "see also A. Cockburn, Nationality 204 (1869).",
+          "type": "record",
+          "canonical": "see also A. Cockburn, Nationality 204 (1869)."
+        },
+        {
+          "start": 758,
+          "end": 769,
+          "text": "Post, at 9.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1625,
+          "end": 2094
+        },
+        {
+          "page": 24,
+          "start": 41,
+          "end": 443
+        }
+      ],
+      "citations": [
+        {
+          "start": 267,
+          "end": 291,
+          "text": "See, e.g., post, at 6–7.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 465,
+          "end": 492,
+          "text": ", Brief for Petitioners 22,",
+          "type": "record",
+          "canonical": "Brief for Petitioners 22,"
+        },
+        {
+          "start": 804,
+          "end": 867,
+          "text": "1 H. Tucker, Commentaries on the Laws of Virginia 57–58 (1836).",
+          "type": "record",
+          "canonical": "1 H. Tucker, Commentaries on the Laws of Virginia 57–58 (1836)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 443,
+          "end": 1598
+        }
+      ],
+      "citations": [
+        {
+          "start": 259,
+          "end": 327,
+          "text": "See, e.g., Cong. Globe, 39th Cong., 1st Sess., at 1117 (Rep. Wilson)",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 431,
+          "end": 447,
+          "text": "(emphasis added)",
+          "type": "record",
+          "canonical": "(emphasis added)"
+        },
+        {
+          "start": 450,
+          "end": 476,
+          "text": "id., at 2890 (Sen. Howard)",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 745,
+          "end": 784,
+          "text": "See, e.g., id., at 498 (Sen. Trumbull);",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 785,
+          "end": 812,
+          "text": "id., at 570 (Sen. Morrill);",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 813,
+          "end": 838,
+          "text": "id., at 1124 (Rep. Cook);",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 839,
+          "end": 868,
+          "text": "id., at 1832 (Rep. Lawrence);",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 869,
+          "end": 894,
+          "text": "id., at 2768 (Sen. Wade);",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 895,
+          "end": 923,
+          "text": "id., at 2891 (Sen. Conness);",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 924,
+          "end": 954,
+          "text": "id., at 3032 (Sen. Henderson).",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 1127,
+          "end": 1154,
+          "text": "Lynch, 1 Sand. Ch., at 658.",
+          "type": "case",
+          "canonical": "1 Sand.Ch. 583"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "w[ould]",
+          "to": "would"
+        },
+        {
+          "from": "rule[]",
+          "to": "rule"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1598,
+          "end": 2067
+        },
+        {
+          "page": 25,
+          "start": 56,
+          "end": 154
+        }
+      ],
+      "citations": [
+        {
+          "start": 91,
+          "end": 152,
+          "text": "Cong. Globe, 42d Cong., 1st Sess. 575 (1871) (Sen. Trumbull),",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 479,
+          "end": 565,
+          "text": "Inhabitants of Abington v. Inhabitants of North Bridgewater, 40 Mass. 170, 177 (1839).",
+          "type": "case",
+          "canonical": "40 Mass. 170"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[to]",
+          "to": "to"
+        },
+        {
+          "from": "depend[s]",
+          "to": "depends"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 154,
+          "end": 837
+        }
+      ],
+      "citations": [
+        {
+          "start": 143,
+          "end": 159,
+          "text": "Story §45, at 43",
+          "type": "record",
+          "canonical": "Story §45, at 43"
+        },
+        {
+          "start": 360,
+          "end": 428,
+          "text": "See Cong. Globe, 39th Cong., 1st Sess., at 1160 (Rep. Shellabarger);",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 429,
+          "end": 456,
+          "text": "id., at 1117 (Rep. Wilson).",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 640,
+          "end": 680,
+          "text": "See id., at 3031– 3032 (Sen. Henderson).",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 837,
+          "end": 1205
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1475,
+          "end": 2308
+        }
+      ],
+      "citations": [
+        {
+          "start": 244,
+          "end": 256,
+          "text": "Post, at 72.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 518,
+          "end": 540,
+          "text": "Wharton §12, at 41–42.",
+          "type": "record",
+          "canonical": "Wharton §12, at 41–42."
+        },
+        {
+          "start": 590,
+          "end": 619,
+          "text": "United States v. Wong Kim Ark",
+          "type": "case",
+          "canonical": "169 U.S. 649",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 619,
+          "end": 641,
+          "text": ", 169 U. S. 649 (1898)",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 643,
+          "end": 731,
+          "text": "See Brief for United States in United States v. Wong Kim Ark, O. T. 1896, No. 132, p. 26",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1206,
+          "end": 1466
+        },
+        {
+          "page": 26,
+          "start": 41,
+          "end": 424
+        }
+      ],
+      "citations": [
+        {
+          "start": 470,
+          "end": 512,
+          "text": "Cong. Globe, 1st Sess., 42d Cong., at 575;",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 513,
+          "end": 594,
+          "text": "see also, e.g., Memorandum of Secretary of State H. Fish (1871), in 2 Digest 394;",
+          "type": "record",
+          "canonical": "see also, e.g., Memorandum of Secretary of State H. Fish (1871), in 2 Digest 394;"
+        },
+        {
+          "start": 595,
+          "end": 639,
+          "text": "In re Look Tin Sing, 21 F., at 906, 909–910.",
+          "type": "case",
+          "canonical": "21 F. 905"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[e]very",
+          "to": "every"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 424,
+          "end": 1236
+        }
+      ],
+      "citations": [
+        {
+          "start": 527,
+          "end": 540,
+          "text": "Amdt. 14, §1,",
+          "type": "statute",
+          "canonical": "U.S. Const. amend. XIV, § 1"
+        },
+        {
+          "start": 669,
+          "end": 718,
+          "text": "See Slaughter-House Cases, 16 Wall. 36, 74 (1873)",
+          "type": "case",
+          "canonical": "83 U.S. 36"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1236,
+          "end": 1885
+        },
+        {
+          "page": 27,
+          "start": 56,
+          "end": 169
+        }
+      ],
+      "citations": [
+        {
+          "start": 240,
+          "end": 251,
+          "text": "Post, at 3.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 732,
+          "end": 753,
+          "text": "7 Cranch 116, at 136.",
+          "type": "case",
+          "canonical": "11 U.S. 116"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1246,
+          "end": 2431
+        }
+      ],
+      "citations": [
+        {
+          "start": 37,
+          "end": 51,
+          "text": "Elk v. Wilkins",
+          "type": "case",
+          "canonical": "112 U.S. 94",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 51,
+          "end": 72,
+          "text": ", 112 U. S. 94 (1884)",
+          "type": "case",
+          "canonical": "112 U.S. 94"
+        },
+        {
+          "start": 235,
+          "end": 246,
+          "text": "Id., at 99.",
+          "type": "case",
+          "canonical": "112 U.S. 94"
+        },
+        {
+          "start": 358,
+          "end": 374,
+          "text": "See id., at 100.",
+          "type": "case",
+          "canonical": "112 U.S. 94"
+        },
+        {
+          "start": 607,
+          "end": 619,
+          "text": "Id., at 102.",
+          "type": "case",
+          "canonical": "112 U.S. 94"
+        },
+        {
+          "start": 781,
+          "end": 813,
+          "text": "Wong Kim Ark, 169 U. S., at 686.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 916,
+          "end": 948,
+          "text": "Wong Kim Ark, 169 U. S., at 682.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 1171,
+          "end": 1176,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "cede[d]",
+          "to": "ceded"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 171,
+          "end": 1067
+        }
+      ],
+      "citations": [
+        {
+          "start": 108,
+          "end": 168,
+          "text": "See post, at 2–4, 23–31, 35–36, 48–49, 59, 67–68, 87, 88–89.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 239,
+          "end": 297,
+          "text": "See post, at 13–18, 20–21, 24–25, 36 (dissenting opinion).",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 415,
+          "end": 427,
+          "text": "14 Stat. 27.",
+          "type": "record",
+          "canonical": "14 Stat. 27."
+        },
+        {
+          "start": 665,
+          "end": 683,
+          "text": "Post, at 3, 13–14.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 878,
+          "end": 890,
+          "text": "Post, at 37.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "national[]",
+          "to": "national"
+        },
+        {
+          "from": "JUSTICE ALITO",
+          "to": "Justice Alito"
+        },
+        {
+          "from": "ALITO",
+          "to": "Alito"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1067,
+          "end": 1237
+        },
+        {
+          "page": 28,
+          "start": 41,
+          "end": 864
+        }
+      ],
+      "citations": [
+        {
+          "start": 137,
+          "end": 159,
+          "text": "See Story §540, at 451",
+          "type": "record",
+          "canonical": "See Story §540, at 451"
+        },
+        {
+          "start": 397,
+          "end": 436,
+          "text": ", post, at 14 (THOMAS, J., dissenting),",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 736,
+          "end": 748,
+          "text": "Post, at 27.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "national[]",
+          "to": "national"
+        },
+        {
+          "from": "JUSTICE ALITO",
+          "to": "Justice Alito"
+        },
+        {
+          "from": "ALITO",
+          "to": "Alito"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1634,
+          "end": 2256
+        }
+      ],
+      "citations": [
+        {
+          "start": 225,
+          "end": 296,
+          "text": "See post, at 9 (opinion concurring in judgment and dissenting in part).",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 441,
+          "end": 458,
+          "text": "Post, at 5, n. 3.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 601,
+          "end": 612,
+          "text": "Post, at 9.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "JUSTICE ALITO",
+          "to": "Justice Alito"
+        },
+        {
+          "from": "JUSTICE KAVANAUGH",
+          "to": "Justice Kavanaugh"
+        },
+        {
+          "from": "ALITO",
+          "to": "Alito"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 865,
+          "end": 1338
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 12,
+          "text": "Post, at 37.",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 195,
+          "end": 255,
+          "text": "Cong. Globe, 39th Cong., 1st Sess., at 2894 (Sen. Trumbull).",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        },
+        {
+          "start": 297,
+          "end": 323,
+          "text": "See 169 U. S., at 675, 688",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1338,
+          "end": 1625
+        },
+        {
+          "page": 29,
+          "start": 56,
+          "end": 625
+        }
+      ],
+      "citations": [
+        {
+          "start": 362,
+          "end": 409,
+          "text": "Bucklew v. Precythe, 587 U. S. 119, 136 (2019).",
+          "type": "case",
+          "canonical": "587 U.S. 119"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 625,
+          "end": 1719
+        }
+      ],
+      "citations": [
+        {
+          "start": 339,
+          "end": 357,
+          "text": "169 U. S., at 718.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 544,
+          "end": 549,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 679,
+          "end": 684,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 907,
+          "end": 919,
+          "text": "Id., at 721.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "domicil[e]",
+          "to": "domicile"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "ha[d]",
+          "to": "had"
+        },
+        {
+          "from": "prevent[ed]",
+          "to": "prevented"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 1725,
+          "end": 1986
+        }
+      ],
+      "citations": [
+        {
+          "start": 122,
+          "end": 178,
+          "text": "Post, at 4–5, 45, 54, 64, 75–78 (opinion of THOMAS, J.);",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 179,
+          "end": 219,
+          "text": "see post, at 1 (opinion of GORSUCH, J.);",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        },
+        {
+          "start": 220,
+          "end": 261,
+          "text": "post, at 2, 4, 27 (opinion of ALITO, J.).",
+          "type": "case",
+          "canonical": "609 U.S. ___ (2026), Trump v. Barbara"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 41,
+          "end": 888
+        }
+      ],
+      "citations": [
+        {
+          "start": 328,
+          "end": 382,
+          "text": "H. Muller, Subjects and Sovereign 16–18, 57–58 (2017).",
+          "type": "record",
+          "canonical": "H. Muller, Subjects and Sovereign 16–18, 57–58 (2017)."
+        },
+        {
+          "start": 461,
+          "end": 482,
+          "text": "1 Blackstone 361–362.",
+          "type": "record",
+          "canonical": "1 Blackstone 361–362."
+        },
+        {
+          "start": 570,
+          "end": 643,
+          "text": "B. Bailyn, The Ideological Origins of the American Revolution 192 (1967).",
+          "type": "record",
+          "canonical": "B. Bailyn, The Ideological Origins of the American Revolution 192 (1967)."
+        },
+        {
+          "start": 773,
+          "end": 785,
+          "text": "Yates 36–37;",
+          "type": "record",
+          "canonical": "Yates 36–37;"
+        },
+        {
+          "start": 786,
+          "end": 839,
+          "text": "see also M. Jones, Birthright Citizens 89–107 (2018).",
+          "type": "record",
+          "canonical": "see also M. Jones, Birthright Citizens 89–107 (2018)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 888,
+          "end": 1190
+        }
+      ],
+      "citations": [
+        {
+          "start": 210,
+          "end": 269,
+          "text": "Cong. Globe, 39th Cong., 1st Sess., at 600 (Sen. Trumbull).",
+          "type": "record",
+          "canonical": "Congressional Globe"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1190,
+          "end": 1289
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 6,
+      "start": 0,
+      "end": 40,
+      "text": "2 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 112,
+      "end": 114,
+      "text": "1\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 1356,
+      "end": 1365,
+      "text": "——————\n1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 55,
+      "text": "3  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 40,
+      "text": "4 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 120,
+      "end": 121,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1685,
+      "end": 1694,
+      "text": "——————\n2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "5  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 40,
+      "text": "6 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 55,
+      "text": "7  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 40,
+      "text": "8 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 55,
+      "text": "9  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 41,
+      "text": "10 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 56,
+      "text": "11  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 41,
+      "text": "12 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 56,
+      "text": "13  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 41,
+      "text": "14 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 56,
+      "text": "15  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 41,
+      "text": "16 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 56,
+      "text": "17  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 41,
+      "text": "18 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 1624,
+      "end": 1625,
+      "text": "3",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 1781,
+      "end": 1790,
+      "text": "——————\n3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 56,
+      "text": "19  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 41,
+      "text": "20 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 56,
+      "text": "21  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 1205,
+      "end": 1206,
+      "text": "4",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 1466,
+      "end": 1475,
+      "text": "——————\n4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 41,
+      "text": "22 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 56,
+      "text": "23  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 169,
+      "end": 171,
+      "text": "5\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 1237,
+      "end": 1246,
+      "text": "——————\n5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 41,
+      "text": "24 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 864,
+      "end": 865,
+      "text": "6",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 1625,
+      "end": 1634,
+      "text": "——————\n6 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 0,
+      "end": 56,
+      "text": "25  Cite as: 609 U. S. ____ (2026)\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 1719,
+      "end": 1725,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 41,
+      "text": "26 TRUMP v. BARBARA\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 8,
+      "start": 1018,
+      "end": 1029,
+      "expectedText": "naturalborn",
+      "text": "natural-born"
+    },
+    {
+      "page": 9,
+      "start": 278,
+      "end": 292,
+      "expectedText": "quasisovereign",
+      "text": "quasi-sovereign"
+    },
+    {
+      "page": 16,
+      "start": 1361,
+      "end": 1372,
+      "expectedText": "19thcentury",
+      "text": "19th-century"
+    },
+    {
+      "page": 24,
+      "start": 1479,
+      "end": 1492,
+      "expectedText": "domicilebased",
+      "text": "domicile-based"
+    },
+    {
+      "page": 24,
+      "start": 1945,
+      "end": 1958,
+      "expectedText": "domicilebased",
+      "text": "domicile-based"
+    },
+    {
+      "page": 5,
+      "start": 770,
+      "end": 775,
+      "expectedText": "bo rn",
+      "text": "born"
+    },
+    {
+      "page": 6,
+      "start": 1394,
+      "end": 1403,
+      "expectedText": "declar es",
+      "text": "declares"
+    },
+    {
+      "page": 6,
+      "start": 1758,
+      "end": 1765,
+      "expectedText": "Unit ed",
+      "text": "United"
+    },
+    {
+      "page": 6,
+      "start": 1906,
+      "end": 1915,
+      "expectedText": "resi dent",
+      "text": "resident"
+    },
+    {
+      "page": 7,
+      "start": 157,
+      "end": 161,
+      "expectedText": "id .",
+      "text": "id."
+    },
+    {
+      "page": 7,
+      "start": 1462,
+      "end": 1474,
+      "expectedText": "am bassadors",
+      "text": "ambassadors"
+    },
+    {
+      "page": 7,
+      "start": 1533,
+      "end": 1555,
+      "expectedText": "extraterritorial -\nity",
+      "text": "extraterritoriality"
+    },
+    {
+      "page": 7,
+      "start": 1797,
+      "end": 1805,
+      "expectedText": "howe ver",
+      "text": "however"
+    },
+    {
+      "page": 8,
+      "start": 361,
+      "end": 368,
+      "expectedText": "ca lled",
+      "text": "called"
+    },
+    {
+      "page": 8,
+      "start": 843,
+      "end": 852,
+      "expectedText": "na -\ntive",
+      "text": "native"
+    },
+    {
+      "page": 8,
+      "start": 1865,
+      "end": 1875,
+      "expectedText": "temporar y",
+      "text": "temporary"
+    },
+    {
+      "page": 9,
+      "start": 1108,
+      "end": 1117,
+      "expectedText": "citi zens",
+      "text": "citizens"
+    },
+    {
+      "page": 11,
+      "start": 455,
+      "end": 467,
+      "expectedText": "com -\nponent",
+      "text": "component"
+    },
+    {
+      "page": 11,
+      "start": 603,
+      "end": 612,
+      "expectedText": "freedme n",
+      "text": "freedmen"
+    },
+    {
+      "page": 12,
+      "start": 375,
+      "end": 379,
+      "expectedText": "th e",
+      "text": "the"
+    },
+    {
+      "page": 12,
+      "start": 989,
+      "end": 1001,
+      "expectedText": "aut horities",
+      "text": "authorities"
+    },
+    {
+      "page": 13,
+      "start": 1277,
+      "end": 1288,
+      "expectedText": "con -\ncerns",
+      "text": "concerns"
+    },
+    {
+      "page": 13,
+      "start": 1386,
+      "end": 1398,
+      "expectedText": "Amend -\nment",
+      "text": "Amendment"
+    },
+    {
+      "page": 14,
+      "start": 1494,
+      "end": 1502,
+      "expectedText": "ficti on",
+      "text": "fiction"
+    },
+    {
+      "page": 14,
+      "start": 1700,
+      "end": 1712,
+      "expectedText": "es -\nsential",
+      "text": "essential"
+    },
+    {
+      "page": 15,
+      "start": 1179,
+      "end": 1195,
+      "expectedText": "Interna -\ntional",
+      "text": "International"
+    },
+    {
+      "page": 15,
+      "start": 1271,
+      "end": 1279,
+      "expectedText": "Justi ce",
+      "text": "Justice"
+    },
+    {
+      "page": 15,
+      "start": 1447,
+      "end": 1459,
+      "expectedText": "susceptib le",
+      "text": "susceptible"
+    },
+    {
+      "page": 15,
+      "start": 1991,
+      "end": 1995,
+      "expectedText": "o we",
+      "text": "owe"
+    },
+    {
+      "page": 16,
+      "start": 126,
+      "end": 132,
+      "expectedText": "powe r",
+      "text": "power"
+    },
+    {
+      "page": 16,
+      "start": 151,
+      "end": 165,
+      "expectedText": "individ -\nuals",
+      "text": "individuals"
+    },
+    {
+      "page": 16,
+      "start": 241,
+      "end": 250,
+      "expectedText": "busin ess",
+      "text": "business"
+    },
+    {
+      "page": 17,
+      "start": 212,
+      "end": 224,
+      "expectedText": "Amend -\nment",
+      "text": "Amendment"
+    },
+    {
+      "page": 17,
+      "start": 783,
+      "end": 790,
+      "expectedText": "ri ghts",
+      "text": "rights"
+    },
+    {
+      "page": 18,
+      "start": 123,
+      "end": 135,
+      "expectedText": "citi zenship",
+      "text": "citizenship"
+    },
+    {
+      "page": 18,
+      "start": 472,
+      "end": 478,
+      "expectedText": "be gan",
+      "text": "began"
+    },
+    {
+      "page": 19,
+      "start": 1004,
+      "end": 1013,
+      "expectedText": "ar -\ngued",
+      "text": "argued"
+    },
+    {
+      "page": 19,
+      "start": 1234,
+      "end": 1239,
+      "expectedText": "Gr ay",
+      "text": "Gray"
+    },
+    {
+      "page": 20,
+      "start": 91,
+      "end": 102,
+      "expectedText": "Chan -\ncery",
+      "text": "Chancery"
+    },
+    {
+      "page": 20,
+      "start": 320,
+      "end": 332,
+      "expectedText": "execu -\ntive",
+      "text": "executive"
+    },
+    {
+      "page": 21,
+      "start": 549,
+      "end": 566,
+      "expectedText": "allegiance-bas ed",
+      "text": "allegiance-based"
+    },
+    {
+      "page": 21,
+      "start": 1959,
+      "end": 1967,
+      "expectedText": "settl ed",
+      "text": "settled"
+    },
+    {
+      "page": 21,
+      "start": 300,
+      "end": 307,
+      "expectedText": "T HOMAS",
+      "text": "THOMAS"
+    },
+    {
+      "page": 21,
+      "start": 458,
+      "end": 465,
+      "expectedText": "T HOMAS",
+      "text": "THOMAS"
+    },
+    {
+      "page": 21,
+      "start": 1106,
+      "end": 1113,
+      "expectedText": "T HOMAS",
+      "text": "THOMAS"
+    },
+    {
+      "page": 24,
+      "start": 191,
+      "end": 195,
+      "expectedText": "fo r",
+      "text": "for"
+    },
+    {
+      "page": 24,
+      "start": 1829,
+      "end": 1838,
+      "expectedText": "Un -\nlike",
+      "text": "Unlike"
+    },
+    {
+      "page": 25,
+      "start": 1149,
+      "end": 1158,
+      "expectedText": "a ttempts",
+      "text": "attempts"
+    },
+    {
+      "page": 25,
+      "start": 1570,
+      "end": 1581,
+      "expectedText": "immigran ts",
+      "text": "immigrants"
+    },
+    {
+      "page": 25,
+      "start": 1922,
+      "end": 1930,
+      "expectedText": "Chines e",
+      "text": "Chinese"
+    },
+    {
+      "page": 26,
+      "start": 681,
+      "end": 691,
+      "expectedText": "appe aring",
+      "text": "appearing"
+    },
+    {
+      "page": 26,
+      "start": 1646,
+      "end": 1656,
+      "expectedText": "pre -\nsent",
+      "text": "present"
+    },
+    {
+      "page": 26,
+      "start": 1770,
+      "end": 1784,
+      "expectedText": "am -\nbassadors",
+      "text": "ambassadors"
+    },
+    {
+      "page": 27,
+      "start": 1609,
+      "end": 1613,
+      "expectedText": "id .",
+      "text": "id."
+    },
+    {
+      "page": 27,
+      "start": 1768,
+      "end": 1775,
+      "expectedText": "with in",
+      "text": "within"
+    },
+    {
+      "page": 27,
+      "start": 415,
+      "end": 421,
+      "expectedText": "post ,",
+      "text": "post,"
+    },
+    {
+      "page": 28,
+      "start": 1912,
+      "end": 1925,
+      "expectedText": "dis -\nsenting",
+      "text": "dissenting"
+    },
+    {
+      "page": 28,
+      "start": 1987,
+      "end": 2003,
+      "expectedText": "cir -\ncumstances",
+      "text": "circumstances"
+    },
+    {
+      "page": 30,
+      "start": 731,
+      "end": 741,
+      "expectedText": "an -\ncient",
+      "text": "ancient"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed all 26 Court-writing source PDF pages and all six substantive notes, stopping before Jackson's separate writing. Preserve every substantive historical quote, explanatory parenthetical, statutory/executive-order text, distinction and exception. Real notes stay at their original markers; only individually reviewed bibliographic/record spans are omitted. Exact extraction spacing/word repairs and quote/source-page joins verified against PDF; original raw coordinates and source checksums retained."
+}

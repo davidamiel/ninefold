@@ -1,0 +1,3 @@
+# Optional local alignment environment; audio generation uses requirements.txt.
+-r requirements.txt
+faster-whisper==1.2.1

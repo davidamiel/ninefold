@@ -1,0 +1,1444 @@
+{
+  "reviewed": true,
+  "documentId": "24-699-c233d21e7249--24-193",
+  "sourceDocumentId": "24-699-c233d21e7249",
+  "sourceTextPath": "dist/data/docs/24-699-c233d21e7249.json",
+  "sourceTextSha256": "5161c8065a2b79cd4d570a9845330ae255a686e07d1e4b18eecdfe2d4464c311",
+  "sourcePdfPath": "dist/data/pdfs/24-699-c233d21e7249--24-193.pdf",
+  "sourcePdfSha256": "8a794250cac0fa68020e76e1f799c123acbcefd60f4600b1726d92ea8bf8eb4c",
+  "title": "Dissent",
+  "author": "Elena Kagan",
+  "date": "2026-06-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r56_3e04.pdf",
+  "sourceRange": {
+    "startPage": 24,
+    "startOffset": 274,
+    "endPage": 33,
+    "endOffset": 1533
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 274,
+          "end": 1291
+        }
+      ],
+      "citations": [
+        {
+          "start": 204,
+          "end": 223,
+          "text": "28 U. S. C. § 1604.",
+          "type": "reference",
+          "canonical": "28 U. S. C. § 1604."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1291,
+          "end": 1293
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1293,
+          "end": 1886
+        },
+        {
+          "page": 25,
+          "start": 79,
+          "end": 701
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 226,
+          "end": 267,
+          "text": "FDIC v. Meyer, 510 U. S. 471, 484 (1994).",
+          "type": "reference",
+          "canonical": "FDIC v. Meyer, 510 U. S. 471, 484 (1994)."
+        },
+        {
+          "start": 390,
+          "end": 395,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 701,
+          "end": 1838
+        }
+      ],
+      "citations": [
+        {
+          "start": 113,
+          "end": 213,
+          "text": "Department of Agriculture Rural Development Rural Housing Service v. Kirtz, 601 U. S. 42, 49 (2024).",
+          "type": "reference",
+          "canonical": "Department of Agriculture Rural Development Rural Housing Service v. Kirtz, 601 U. S. 42, 49 (2024)."
+        },
+        {
+          "start": 486,
+          "end": 500,
+          "text": "Id., at 54–55.",
+          "type": "reference",
+          "canonical": "Id., at 54–55."
+        },
+        {
+          "start": 536,
+          "end": 665,
+          "text": "Financial Oversight and Management Bd. for P . R. v. Centro De Periodismo Investigativo, Inc., 598 U. S. 339, 346 (2023) (FOMB ).",
+          "type": "reference",
+          "canonical": "Financial Oversight and Management Bd. for P . R. v. Centro De Periodismo Investigativo, Inc., 598 U. S. 339, 346 (2023) (FOMB )."
+        },
+        {
+          "start": 975,
+          "end": 1033,
+          "text": "Republic of Austria v. Altmann, 541 U. S. 677, 699 (2004);",
+          "type": "reference",
+          "canonical": "Republic of Austria v. Altmann, 541 U. S. 677, 699 (2004);"
+        },
+        {
+          "start": 1034,
+          "end": 1138,
+          "text": "see Bolivarian Republic of Venezuela v. Helmerich & Payne Int'l Drilling Co., 581 U. S. 170, 179 (2017).",
+          "type": "reference",
+          "canonical": "see Bolivarian Republic of Venezuela v. Helmerich & Payne Int'l Drilling Co., 581 U. S. 170, 179 (2017)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[foreign]",
+          "to": "foreign"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1843,
+          "end": 2131
+        }
+      ],
+      "citations": [
+        {
+          "start": 156,
+          "end": 183,
+          "text": "Altmann, 541 U. S., at 699.",
+          "type": "reference",
+          "canonical": "Altmann, 541 U. S., at 699."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[domestic]",
+          "to": "domestic"
+        },
+        {
+          "from": "i.e .,",
+          "to": "that is,"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 56,
+          "end": 736
+        }
+      ],
+      "citations": [
+        {
+          "start": 397,
+          "end": 416,
+          "text": "28 U. S. C. § 1604.",
+          "type": "reference",
+          "canonical": "28 U. S. C. § 1604."
+        },
+        {
+          "start": 602,
+          "end": 626,
+          "text": "Kirtz, 601 U. S., at 49.",
+          "type": "reference",
+          "canonical": "Kirtz, 601 U. S., at 49."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 736,
+          "end": 1795
+        }
+      ],
+      "citations": [
+        {
+          "start": 354,
+          "end": 382,
+          "text": "22 U. S. C. § 6082(a)(1)(A).",
+          "type": "reference",
+          "canonical": "22 U. S. C. § 6082(a)(1)(A)."
+        },
+        {
+          "start": 575,
+          "end": 586,
+          "text": "§ 6023(11).",
+          "type": "reference",
+          "canonical": "§ 6023(11)."
+        },
+        {
+          "start": 908,
+          "end": 933,
+          "text": "Meyer, 510 U. S., at 484.",
+          "type": "reference",
+          "canonical": "Meyer, 510 U. S., at 484."
+        },
+        {
+          "start": 1059,
+          "end": 1064,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1795,
+          "end": 2083
+        },
+        {
+          "page": 27,
+          "start": 79,
+          "end": 1504
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 482,
+          "end": 501,
+          "text": "28 U. S. C. § 1609.",
+          "type": "reference",
+          "canonical": "28 U. S. C. § 1609."
+        },
+        {
+          "start": 932,
+          "end": 942,
+          "text": "§ 1611(c).",
+          "type": "reference",
+          "canonical": "§ 1611(c)."
+        },
+        {
+          "start": 1506,
+          "end": 1571,
+          "text": "Gross v. FBL Financial Services, Inc., 557 U. S. 167, 174 (2009).",
+          "type": "reference",
+          "canonical": "Gross v. FBL Financial Services, Inc., 557 U. S. 167, 174 (2009)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[,]",
+          "to": ","
+        },
+        {
+          "from": "[the FSIA]",
+          "to": "the FSIA"
+        },
+        {
+          "from": "[Helms-Burton]",
+          "to": "Helms-Burton"
+        },
+        {
+          "from": "[w]hen",
+          "to": "when"
+        },
+        {
+          "from": "presume[ ]",
+          "to": "presume"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1504,
+          "end": 2141
+        },
+        {
+          "page": 28,
+          "start": 87,
+          "end": 510
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 278,
+          "end": 329,
+          "text": "H. R. 927, 104th Cong., 1st Sess., § 302(c) (1995);",
+          "type": "reference",
+          "canonical": "H. R. 927, 104th Cong., 1st Sess., § 302(c) (1995);"
+        },
+        {
+          "start": 330,
+          "end": 378,
+          "text": "S. 381, 104th Cong., 1st Sess., § 302(c) (1995).",
+          "type": "reference",
+          "canonical": "S. 381, 104th Cong., 1st Sess., § 302(c) (1995)."
+        },
+        {
+          "start": 644,
+          "end": 683,
+          "text": "App. to Brief for Corporación CIMEX 7a.",
+          "type": "reference",
+          "canonical": "App. to Brief for Corporación CIMEX 7a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "represent[ ]",
+          "to": "represent"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1643,
+          "end": 2194
+        }
+      ],
+      "citations": [
+        {
+          "start": 163,
+          "end": 180,
+          "text": "See ante, at 130.",
+          "type": "reference",
+          "canonical": "See ante, at 130."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 513,
+          "end": 1525
+        }
+      ],
+      "citations": [
+        {
+          "start": 545,
+          "end": 570,
+          "text": ", see supra, at 132, n. 1",
+          "type": "reference",
+          "canonical": ", see supra, at 132, n. 1"
+        },
+        {
+          "start": 804,
+          "end": 828,
+          "text": "Kirtz, 601 U. S., at 50.",
+          "type": "reference",
+          "canonical": "Kirtz, 601 U. S., at 50."
+        },
+        {
+          "start": 964,
+          "end": 1011,
+          "text": "Ante, at 120 (quoting FOMB, 598 U. S., at 348).",
+          "type": "reference",
+          "canonical": "Ante, at 120 (quoting FOMB, 598 U. S., at 348)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "negat[ed]",
+          "to": "negated"
+        },
+        {
+          "from": "authorize[d]",
+          "to": "authorized"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1525,
+          "end": 1641
+        },
+        {
+          "page": 29,
+          "start": 79,
+          "end": 911
+        }
+      ],
+      "citations": [
+        {
+          "start": 168,
+          "end": 192,
+          "text": "Kirtz, 601 U. S., at 50.",
+          "type": "reference",
+          "canonical": "Kirtz, 601 U. S., at 50."
+        },
+        {
+          "start": 480,
+          "end": 507,
+          "text": "Altmann, 541 U. S., at 699.",
+          "type": "reference",
+          "canonical": "Altmann, 541 U. S., at 699."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 29,
+          "start": 1622,
+          "end": 2303
+        }
+      ],
+      "citations": [
+        {
+          "start": 148,
+          "end": 180,
+          "text": "See 111 F. 4th 12, 32–37 (2024).",
+          "type": "reference",
+          "canonical": "See 111 F. 4th 12, 32–37 (2024)."
+        },
+        {
+          "start": 322,
+          "end": 343,
+          "text": "See ante, at 121–122.",
+          "type": "reference",
+          "canonical": "See ante, at 121–122."
+        },
+        {
+          "start": 513,
+          "end": 554,
+          "text": "See 31 CFR § 515.533 to § 515.591 (2025).",
+          "type": "reference",
+          "canonical": "See 31 CFR § 515.533 to § 515.591 (2025)."
+        },
+        {
+          "start": 653,
+          "end": 682,
+          "text": "See 28 U. S. C. § 1605(a)(2).",
+          "type": "reference",
+          "canonical": "See 28 U. S. C. § 1605(a)(2)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 913,
+          "end": 1620
+        },
+        {
+          "page": 30,
+          "start": 56,
+          "end": 908
+        }
+      ],
+      "citations": [
+        {
+          "start": 307,
+          "end": 346,
+          "text": "22 U. S. C. §§ 6023(11), 6082(a)(1)(A);",
+          "type": "reference",
+          "canonical": "22 U. S. C. §§ 6023(11), 6082(a)(1)(A);"
+        },
+        {
+          "start": 347,
+          "end": 365,
+          "text": "see supra, at 133.",
+          "type": "reference",
+          "canonical": "see supra, at 133."
+        },
+        {
+          "start": 640,
+          "end": 647,
+          "text": "§ 6081.",
+          "type": "reference",
+          "canonical": "§ 6081."
+        },
+        {
+          "start": 862,
+          "end": 872,
+          "text": "§ 6081(5).",
+          "type": "reference",
+          "canonical": "§ 6081(5)."
+        },
+        {
+          "start": 1079,
+          "end": 1089,
+          "text": "§ 6081(6).",
+          "type": "reference",
+          "canonical": "§ 6081(6)."
+        },
+        {
+          "start": 1247,
+          "end": 1258,
+          "text": "§ 6081(11).",
+          "type": "reference",
+          "canonical": "§ 6081(11)."
+        },
+        {
+          "start": 1483,
+          "end": 1569,
+          "text": "See, e. g., Havana Docks Corp. v. Royal Caribbean Cruises, Ltd., 608 U. S. 235 (2026).",
+          "type": "reference",
+          "canonical": "See, e. g., Havana Docks Corp. v. Royal Caribbean Cruises, Ltd., 608 U. S. 235 (2026)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "provide[d]",
+          "to": "provided"
+        },
+        {
+          "from": "undermine[d]",
+          "to": "undermined"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 908,
+          "end": 1540
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1540,
+          "end": 1543
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1543,
+          "end": 2009
+        },
+        {
+          "page": 31,
+          "start": 79,
+          "end": 880
+        }
+      ],
+      "citations": [
+        {
+          "start": 193,
+          "end": 206,
+          "text": "Ante, at 119.",
+          "type": "reference",
+          "canonical": "Ante, at 119."
+        },
+        {
+          "start": 480,
+          "end": 502,
+          "text": "See supra, at 135–136.",
+          "type": "reference",
+          "canonical": "See supra, at 135–136."
+        },
+        {
+          "start": 682,
+          "end": 706,
+          "text": "See 601 U. S., at 50–51;",
+          "type": "reference",
+          "canonical": "See 601 U. S., at 50–51;"
+        },
+        {
+          "start": 707,
+          "end": 739,
+          "text": "see also FOMB, 598 U. S., at 348",
+          "type": "reference",
+          "canonical": "see also FOMB, 598 U. S., at 348"
+        },
+        {
+          "start": 1015,
+          "end": 1038,
+          "text": "See ante, at 127, n. 4.",
+          "type": "reference",
+          "canonical": "See ante, at 127, n. 4."
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 880,
+          "end": 2176
+        },
+        {
+          "page": 32,
+          "start": 56,
+          "end": 189
+        }
+      ],
+      "citations": [
+        {
+          "start": 122,
+          "end": 157,
+          "text": "ante, at 122 (emphasis in original)",
+          "type": "reference",
+          "canonical": "ante, at 122 (emphasis in original)"
+        },
+        {
+          "start": 422,
+          "end": 427,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 699,
+          "end": 721,
+          "text": "See supra, at 133–134.",
+          "type": "reference",
+          "canonical": "See supra, at 133–134."
+        },
+        {
+          "start": 800,
+          "end": 823,
+          "text": "see Brief for Exxon 48,",
+          "type": "reference",
+          "canonical": "see Brief for Exxon 48,"
+        },
+        {
+          "start": 847,
+          "end": 878,
+          "text": "see ante, at 129–130, and n. 5.",
+          "type": "reference",
+          "canonical": "see ante, at 129–130, and n. 5."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1487,
+          "end": 2329
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 196,
+          "text": "Ante, at 129–130, n. 5.",
+          "type": "reference",
+          "canonical": "Ante, at 129–130, n. 5."
+        },
+        {
+          "start": 806,
+          "end": 842,
+          "text": "Ante, at 122 (emphasis in original).",
+          "type": "reference",
+          "canonical": "Ante, at 122 (emphasis in original)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 191,
+          "end": 1485
+        }
+      ],
+      "citations": [
+        {
+          "start": 270,
+          "end": 283,
+          "text": "§ 6082(c)(1);",
+          "type": "reference",
+          "canonical": "§ 6082(c)(1);"
+        },
+        {
+          "start": 284,
+          "end": 301,
+          "text": "see ante, at 123.",
+          "type": "reference",
+          "canonical": "see ante, at 123."
+        },
+        {
+          "start": 354,
+          "end": 360,
+          "text": "§ 1330",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1330",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 373,
+          "end": 379,
+          "text": "§ 1331",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1331",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 483,
+          "end": 492,
+          "text": "See ibid.",
+          "type": "reference",
+          "canonical": "See ibid."
+        },
+        {
+          "start": 775,
+          "end": 781,
+          "text": "§ 1331",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1331",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 787,
+          "end": 793,
+          "text": "§ 1330",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1330",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 916,
+          "end": 922,
+          "text": "§ 1331",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1331",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 992,
+          "end": 1005,
+          "text": "Ante, at 124.",
+          "type": "reference",
+          "canonical": "Ante, at 124."
+        },
+        {
+          "start": 1042,
+          "end": 1048,
+          "text": "§ 1331",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1331",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1132,
+          "end": 1138,
+          "text": "§ 1331",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1331",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1268,
+          "end": 1292,
+          "text": "Kirtz, 601 U. S., at 49.",
+          "type": "reference",
+          "canonical": "Kirtz, 601 U. S., at 49."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1330",
+          "to": "section thirteen thirty"
+        },
+        {
+          "from": "§ 1331",
+          "to": "section thirteen thirty-one"
+        },
+        {
+          "from": "i. e.,",
+          "to": "that is,"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 79,
+          "end": 987
+        },
+        {
+          "page": 33,
+          "start": 992,
+          "end": 993
+        }
+      ],
+      "citations": [
+        {
+          "start": 109,
+          "end": 135,
+          "text": "See 22 U. S. C. § 6085(c).",
+          "type": "reference",
+          "canonical": "See 22 U. S. C. § 6085(c)."
+        },
+        {
+          "start": 306,
+          "end": 336,
+          "text": "See ante, at 115–116, 125–126.",
+          "type": "reference",
+          "canonical": "See ante, at 115–116, 125–126."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 993,
+          "end": 1533
+        }
+      ],
+      "citations": [
+        {
+          "start": 38,
+          "end": 53,
+          "text": "( ante, at 118)",
+          "type": "reference",
+          "canonical": "( ante, at 118)"
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 24,
+      "start": 1108,
+      "end": 1114,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 24,
+      "start": 1262,
+      "end": 1266,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 26,
+      "start": 740,
+      "end": 744,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 26,
+      "start": 1376,
+      "end": 1381,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 27,
+      "start": 705,
+      "end": 712,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 29,
+      "start": 1421,
+      "end": 1428,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 29,
+      "start": 1845,
+      "end": 1851,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 30,
+      "start": 323,
+      "end": 329,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 30,
+      "start": 932,
+      "end": 935,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 30,
+      "start": 1490,
+      "end": 1497,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 30,
+      "start": 1558,
+      "end": 1562,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 31,
+      "start": 1991,
+      "end": 1999,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 31,
+      "start": 2122,
+      "end": 2126,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 33,
+      "start": 607,
+      "end": 609,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 33,
+      "start": 1523,
+      "end": 1531,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 24,
+      "start": 1882,
+      "end": 1886,
+      "expectedText": "fed-",
+      "text": "fed"
+    },
+    {
+      "page": 25,
+      "start": 1488,
+      "end": 1499,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 25,
+      "start": 2106,
+      "end": 2123,
+      "expectedText": "statute-bystatute",
+      "text": "statute-by-statute"
+    },
+    {
+      "page": 26,
+      "start": 936,
+      "end": 943,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 26,
+      "start": 966,
+      "end": 976,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 26,
+      "start": 1159,
+      "end": 1165,
+      "expectedText": "defnes",
+      "text": "defines"
+    },
+    {
+      "page": 26,
+      "start": 1179,
+      "end": 1189,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 26,
+      "start": 2073,
+      "end": 2082,
+      "expectedText": "jurisdic-",
+      "text": "jurisdic"
+    },
+    {
+      "page": 27,
+      "start": 1527,
+      "end": 1538,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 27,
+      "start": 1758,
+      "end": 1768,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 27,
+      "start": 2135,
+      "end": 2140,
+      "expectedText": "prac-",
+      "text": "prac"
+    },
+    {
+      "page": 28,
+      "start": 450,
+      "end": 460,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 28,
+      "start": 436,
+      "end": 446,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 29,
+      "start": 1186,
+      "end": 1193,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 29,
+      "start": 1197,
+      "end": 1207,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 29,
+      "start": 1740,
+      "end": 1750,
+      "expectedText": "factfnding",
+      "text": "factfinding"
+    },
+    {
+      "page": 30,
+      "start": 163,
+      "end": 173,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 30,
+      "start": 247,
+      "end": 257,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 30,
+      "start": 1152,
+      "end": 1162,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 30,
+      "start": 1799,
+      "end": 1805,
+      "expectedText": "defnes",
+      "text": "defines"
+    },
+    {
+      "page": 30,
+      "start": 232,
+      "end": 242,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 30,
+      "start": 1248,
+      "end": 1258,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 30,
+      "start": 142,
+      "end": 147,
+      "expectedText": "proft",
+      "text": "profit"
+    },
+    {
+      "page": 30,
+      "start": 542,
+      "end": 547,
+      "expectedText": "proft",
+      "text": "profit"
+    },
+    {
+      "page": 30,
+      "start": 60,
+      "end": 68,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 30,
+      "start": 314,
+      "end": 322,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 30,
+      "start": 1142,
+      "end": 1148,
+      "expectedText": "traffc",
+      "text": "traffic"
+    },
+    {
+      "page": 30,
+      "start": 1599,
+      "end": 1613,
+      "expectedText": "over-simplifed",
+      "text": "over-simplified"
+    },
+    {
+      "page": 31,
+      "start": 960,
+      "end": 971,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 31,
+      "start": 1406,
+      "end": 1411,
+      "expectedText": "fnish",
+      "text": "finish"
+    },
+    {
+      "page": 31,
+      "start": 1635,
+      "end": 1652,
+      "expectedText": "executionimmunity",
+      "text": "execution-immunity"
+    },
+    {
+      "page": 32,
+      "start": 1813,
+      "end": 1816,
+      "expectedText": "fne",
+      "text": "fine"
+    },
+    {
+      "page": 33,
+      "start": 1330,
+      "end": 1337,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 30,
+      "start": 2005,
+      "end": 2009,
+      "expectedText": "re-\n",
+      "text": "re"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 25,
+      "start": 0,
+      "end": 79,
+      "text": "132 EXXON MOBIL CORP. v. CORPORACIÓN\nCIMEX, S. A. (CUBA)\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 25,
+      "start": 1839,
+      "end": 1843,
+      "text": "1\n1 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 25,
+      "start": 2131,
+      "end": 2161,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 108 (2026) 133\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 26,
+      "start": 2083,
+      "end": 2113,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 79,
+      "text": "134 EXXON MOBIL CORP. v. CORPORACIÓN\nCIMEX, S. A. (CUBA)\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 27,
+      "start": 2141,
+      "end": 2171,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 87,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 108 (2026) 135\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 28,
+      "start": 511,
+      "end": 513,
+      "text": "2\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 28,
+      "start": 1641,
+      "end": 1643,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 29,
+      "start": 0,
+      "end": 79,
+      "text": "136 EXXON MOBIL CORP. v. CORPORACIÓN\nCIMEX, S. A. (CUBA)\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 29,
+      "start": 911,
+      "end": 913,
+      "text": "3\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 29,
+      "start": 1620,
+      "end": 1622,
+      "text": "3 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 29,
+      "start": 2303,
+      "end": 2333,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 108 (2026) 137\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 30,
+      "start": 2009,
+      "end": 2039,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 31,
+      "start": 0,
+      "end": 79,
+      "text": "138 EXXON MOBIL CORP. v. CORPORACIÓN\nCIMEX, S. A. (CUBA)\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 31,
+      "start": 2176,
+      "end": 2206,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 32,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 108 (2026) 139\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 32,
+      "start": 189,
+      "end": 191,
+      "text": "4\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 32,
+      "start": 1485,
+      "end": 1487,
+      "text": "4 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 32,
+      "start": 2329,
+      "end": 2359,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 33,
+      "start": 0,
+      "end": 79,
+      "text": "140 EXXON MOBIL CORP. v. CORPORACIÓN\nCIMEX, S. A. (CUBA)\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 33,
+      "start": 987,
+      "end": 992,
+      "text": "* * *",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Sonia Sotomayor",
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

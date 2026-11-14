@@ -11,7 +11,8 @@ function joinsSentence(before, after) {
   if (/\b(?:Inc|Ltd|Co|Corp|Jr|Sr|etc)\.$/i.test(ending) && /^[\p{Ll},;]/u.test(after)) return true;
   // Preserve names, initialisms, and legal citations without swallowing a clear
   // new sentence such as “in the U.S. We disagree.”
-  if (/(?:\b[A-Za-z]\.){2,}$/.test(ending) && !sentenceStarters.test(after)) return true;
+  if (/(?:^|\s)[A-Z]\.$/.test(ending) && /^[A-Z]\.(?=\s|$)/.test(after)) return true;
+  if (/(?:\b[A-Za-z]\.\s*){2,}$/.test(ending) && !sentenceStarters.test(after)) return true;
   return /(?:^|\s)[A-HJ-Z]\.$/.test(ending) && /^\p{Lu}/u.test(after) && !sentenceStarters.test(after);
 }
 

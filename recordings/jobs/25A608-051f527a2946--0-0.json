@@ -1,0 +1,188 @@
+{
+  "reviewed": true,
+  "documentId": "25A608-051f527a2946--0-0",
+  "sourceDocumentId": "25A608-051f527a2946",
+  "sourceTextPath": "dist/data/current-docs/25A608-051f527a2946.json",
+  "sourceTextSha256": "292e725d55e2a305f18c25bd60144b82e2d342e4204a0a5cb8039b6824befc41",
+  "sourcePdfPath": "recordings/sources/980b35bc80a5e7fd33e109ea.pdf",
+  "sourcePdfSha256": "980b35bc80a5e7fd33e109ea783ecf60135405f71014a6d2cecb3adf92b6f3bc",
+  "title": "Order of the Court",
+  "author": "The Court",
+  "date": "2025-12-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a608_7khn.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 231,
+    "endPage": 1,
+    "endOffset": 1440
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 231,
+          "end": 647
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 647,
+          "end": 987
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 987,
+          "end": 1682
+        },
+        {
+          "page": 1,
+          "start": 75,
+          "end": 199
+        }
+      ],
+      "citations": [
+        {
+          "start": 111,
+          "end": 187,
+          "text": "See Indiana State Police Pension Trust v. Chrysler LLC, 556 U. S. 960 (2009)",
+          "canonical": "See Indiana State Police Pension Trust v. Chrysler LLC, 556 U. S. 960 (2009)",
+          "type": "reference"
+        },
+        {
+          "start": 188,
+          "end": 200,
+          "text": "(per curiam)",
+          "canonical": "(per curiam)",
+          "type": "reference"
+        },
+        {
+          "start": 487,
+          "end": 576,
+          "text": "Contra, Alexander v. South Carolina State Conference of the NAACP, 602 U. S. 1, 10 (2024)",
+          "canonical": "Contra, Alexander v. South Carolina State Conference of the NAACP, 602 U. S. 1, 10 (2024)",
+          "type": "reference"
+        },
+        {
+          "start": 796,
+          "end": 817,
+          "text": "Contra, id., at 34–35",
+          "canonical": "Contra, id., at 34–35",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": ".  . ",
+          "to": ". "
+        },
+        {
+          "from": ". . ",
+          "to": ". "
+        },
+        {
+          "from": ". .",
+          "to": ". "
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 199,
+          "end": 760
+        }
+      ],
+      "citations": [
+        {
+          "start": 248,
+          "end": 337,
+          "text": "Republican National Committee v. Democratic National Committee, 589 U. S. 423, 424 (2020)",
+          "canonical": "Republican National Committee v. Democratic National Committee, 589 U. S. 423, 424 (2020)",
+          "type": "reference"
+        },
+        {
+          "start": 338,
+          "end": 350,
+          "text": "(per curiam)",
+          "canonical": "(per curiam)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 760,
+          "end": 1440
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "JUSTICE ALITO",
+          "to": "Justice Alito"
+        },
+        {
+          "from": "No.",
+          "to": "number"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 193,
+      "end": 195,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 0,
+      "start": 1624,
+      "end": 1639,
+      "expectedText": "neardispositive",
+      "text": "near-dispositive"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 75,
+      "text": "2 ABBOTT v. LEAGUE OF UNITED LATIN\n AMERICAN CITIZENS\nALITO, J., concurring",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

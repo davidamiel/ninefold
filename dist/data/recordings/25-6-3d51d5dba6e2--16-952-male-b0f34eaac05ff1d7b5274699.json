@@ -1,0 +1,763 @@
+{
+  "version": "c6aecd443dab379f",
+  "duration": 629.415,
+  "voice": "am_michael",
+  "audioSha256": "27e21e71b819f61008fa9080b452095c4860be4dd05101396c73be23f861c1e9",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 15.68,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 983,
+          "end": 1227
+        }
+      ],
+      "text": "Today, the Court correctly holds that, assuming judicial estoppel applies in the bankruptcy context, the Fifth Circuit's exceedingly narrow test for determining whether an inconsistent position was based on inadvertence or mistake is erroneous."
+    },
+    {
+      "start": 15.68,
+      "end": 30.1,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1228,
+          "end": 1445
+        }
+      ],
+      "text": "I write to address why it may not ever make sense to apply judicial estoppel when bankruptcy proceedings are pending, and why, in any context, judicial estoppel should always turn on the totality of the circumstances."
+    },
+    {
+      "start": 30.1,
+      "end": 45.92,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1448,
+          "end": 1696
+        }
+      ],
+      "text": "One of the principal justifications for judicial estoppel is that it prevents a party from using the “ `judicial process' ” to “derive an unfair advantage” by taking a position in one proceeding and an inconsistent position in a separate proceeding."
+    },
+    {
+      "start": 45.92,
+      "end": 57.92,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1753,
+          "end": 1803
+        },
+        {
+          "page": 17,
+          "start": 60,
+          "end": 175
+        }
+      ],
+      "text": "In bankruptcy, the “unfair advantage” a dishonest debtor gains by failing to disclose assets comes at the creditors' expense and deprives them of potential recovery."
+    },
+    {
+      "start": 57.92,
+      "end": 76.88,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 176,
+          "end": 448
+        }
+      ],
+      "text": "From here, the argument goes, judicial estoppel is needed in other proceedings to deter that bankruptcy misconduct and to protect both the “integrity of the bankruptcy system” and “the rights of creditors to an equitable distribution of the assets of the debtor's estate.”"
+    },
+    {
+      "start": 76.88,
+      "end": 86.86,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 509,
+          "end": 670
+        }
+      ],
+      "text": "There are many reasons to doubt the logic of this argument, which may account for why “this Court has never applied judicial estoppel in the bankruptcy context.”"
+    },
+    {
+      "start": 86.86,
+      "end": 96.96,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 685,
+          "end": 826
+        }
+      ],
+      "text": "To start, applying judicial estoppel to debtors still involved in open bankruptcies is more likely to hurt creditors than it is to help them."
+    },
+    {
+      "start": 96.96,
+      "end": 112.96,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 827,
+          "end": 1057
+        }
+      ],
+      "text": "Instead, the party most likely to benefit is the potential tortfeasor in the separate proceeding: someone who is not prejudiced by the debtor's earlier, inconsistent position, but whom judicial estoppel permits to escape liability."
+    },
+    {
+      "start": 112.96,
+      "end": 116.2,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1058,
+          "end": 1100
+        }
+      ],
+      "text": "Take the facts of this case as an example."
+    },
+    {
+      "start": 116.2,
+      "end": 133.94,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1101,
+          "end": 1388
+        }
+      ],
+      "text": "At the time the District Court applied judicial estoppel to dismiss petitioner Keathley's tort claim against respondent, Keathley and his wife were operating under an amended repayment plan in which they still needed to make interest-free payments to creditors for about four more years."
+    },
+    {
+      "start": 133.94,
+      "end": 149.02,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1389,
+          "end": 1630
+        }
+      ],
+      "text": "If the District Court had not applied judicial estoppel, and if Keathley had prevailed on the merits of that tort claim, any judgment he received could have been used in turn to pay creditors interest or shorten the repayment period or both."
+    },
+    {
+      "start": 149.02,
+      "end": 160.98,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1674,
+          "end": 1858
+        }
+      ],
+      "text": "By applying judicial estoppel, the courts below prevented Keathley from recovering any money at all and thus “vaporized assets that could have been used for the creditors' benefit.”"
+    },
+    {
+      "start": 160.98,
+      "end": 173.66,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1917,
+          "end": 2112
+        }
+      ],
+      "text": "They also gave respondent, the employer of the alleged tortfeasor, a windfall even though it was not involved in the bankruptcy and thus was neither misled nor impacted by the delayed disclosure."
+    },
+    {
+      "start": 173.66,
+      "end": 187.12,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 74,
+          "end": 400
+        }
+      ],
+      "text": "“Judicial estoppel is an equitable doctrine,” but this is “not an equitable application.” (explaining that judicial estoppel should be applied “with an intent to achieve substantial justice”)."
+    },
+    {
+      "start": 187.12,
+      "end": 193.8,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 401,
+          "end": 517
+        }
+      ],
+      "text": "There were other, more equitable options available that would have served the underlying goals of judicial estoppel."
+    },
+    {
+      "start": 193.8,
+      "end": 204.42,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 518,
+          "end": 699
+        }
+      ],
+      "text": "For instance, because the Keathleys had not yet completed the repayment process at the time Keathley filed this claim, the Bankruptcy Court retained jurisdiction over the bankruptcy."
+    },
+    {
+      "start": 204.42,
+      "end": 218.32,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 700,
+          "end": 922
+        }
+      ],
+      "text": "That court was better positioned than both the District Court and Fifth Circuit in the personal-injury suit to address any harm to creditors caused by Keathley's belated disclosure of the suit in the bankruptcy proceeding."
+    },
+    {
+      "start": 218.32,
+      "end": 225.18,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 923,
+          "end": 1086
+        }
+      ],
+      "text": "In the wake of that disclosure, the Bankruptcy Court could have imposed sanctions, or modified the repayment plan."
+    },
+    {
+      "start": 225.18,
+      "end": 234.56,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1087,
+          "end": 1244
+        }
+      ],
+      "text": "It could have even converted this Chapter 13 bankruptcy to a Chapter 7 case, which would have allowed a trustee to pursue this suit on the creditors' behalf."
+    },
+    {
+      "start": 234.56,
+      "end": 245.14,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1346,
+          "end": 1539
+        }
+      ],
+      "text": "The Solicitor General of the United States, as amicus curiae, lists further options still. (surveying tools in a bankruptcy court's arsenal)."
+    },
+    {
+      "start": 245.14,
+      "end": 252.98,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1540,
+          "end": 1641
+        }
+      ],
+      "text": "Judicial estoppel, by contrast, provides one remedy and one remedy only: dismissal of the tort claim."
+    },
+    {
+      "start": 252.98,
+      "end": 272.28,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1642,
+          "end": 1936
+        }
+      ],
+      "text": "Given that bankruptcy courts can craft full remedies to alleviate any prejudice to creditors caused by a belated disclosure of a claim, it is difficult to see how using judicial estoppel to bar the debtor from pursuing a separate claim, which only harms creditors, is either needed or warranted."
+    },
+    {
+      "start": 272.28,
+      "end": 285.24,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1937,
+          "end": 2136
+        }
+      ],
+      "text": "For similar reasons, a bankruptcy court is also well positioned to mitigate any harms to the “integrity of the bankruptcy system,” and the judicial system generally, caused by inconsistent positions."
+    },
+    {
+      "start": 285.24,
+      "end": 303.76,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 2137,
+          "end": 2173
+        },
+        {
+          "page": 19,
+          "start": 60,
+          "end": 361
+        }
+      ],
+      "text": "For instance, in response to deliberate nondisclosures, a bankruptcy court may, in certain circumstances, revoke an order of confirmation, decline to discharge the debtor, fine the debtor, or refer the debtor to the United States Attorney's Office for potential perjury."
+    },
+    {
+      "start": 303.76,
+      "end": 315.185,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 362,
+          "end": 549
+        }
+      ],
+      "text": "It can also protect the broader judicial system's interest in preventing “ `inconsistent court determinations,' ” by simply modifying its earlier orders."
+    },
+    {
+      "start": 315.185,
+      "end": 322.96,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1703,
+          "end": 1810
+        }
+      ],
+      "text": "Footnote 1: Notably, after Keathley informed the Bankruptcy Court of his claim, the court did not impose any sanctions.",
+      "footnote": "1"
+    },
+    {
+      "start": 322.96,
+      "end": 348.94,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1811,
+          "end": 2228
+        }
+      ],
+      "text": "In an affidavit submitted to the District Court here, a staff attorney for the Chapter 13 trustee assigned to the case explained, moreover, that “there was nothing unusual or misleading about the Keathleys not disclosing the tort claim while it was ongoing,” and that even if they had “notified the” Bankruptcy Court “immediately,... it would not have had any effect on the administration of the bankruptcy.”",
+      "footnote": "1"
+    },
+    {
+      "start": 348.94,
+      "end": 351.015,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 2237,
+          "end": 2238
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 351.015,
+      "end": 358.32,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 551,
+          "end": 649
+        }
+      ],
+      "text": "Applying judicial estoppel to a case (and thereby dismissing it) arguably has the opposite effect."
+    },
+    {
+      "start": 358.32,
+      "end": 377.54,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 650,
+          "end": 935
+        }
+      ],
+      "text": "Although judicial estoppel might prevent inconsistent judgments in some circumstances, it likely “ `undermines the integrity' ” of both court systems when it becomes “a tool in the arsenal of potentially bad actors to reap a windfall” and secure that advantage at creditors' detriment."
+    },
+    {
+      "start": 377.54,
+      "end": 386.12,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1046,
+          "end": 1166
+        }
+      ],
+      "text": "All told, judicial estoppel is based in equity, and “specific factual contexts” must “inform the doctrine's application.”"
+    },
+    {
+      "start": 386.12,
+      "end": 419.56,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1201,
+          "end": 1702
+        },
+        {
+          "page": 20,
+          "start": 74,
+          "end": 107
+        }
+      ],
+      "text": "The above discussion has focused on the context of pending bankruptcy proceedings because the judicial estoppel calculus may look different if the debtor takes an inconsistent position long after discharge. (allowing bankruptcy courts to reopen closed cases to “administer assets” or for other “causes”); (observing that, for closed bankruptcies, a bankruptcy court can revoke a discharge within certain time periods depending on the kind of bankruptcy at issue)."
+    },
+    {
+      "start": 419.56,
+      "end": 436.55,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 108,
+          "end": 359
+        }
+      ],
+      "text": "When such a proceeding is still open, however, it is doubtful that equity ever demands the application of judicial estoppel to a claim asserted by a debtor in a different proceeding, even when that claim relies on a deliberately inconsistent position."
+    },
+    {
+      "start": 436.55,
+      "end": 450.4,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 363,
+          "end": 572
+        }
+      ],
+      "text": "This case also illustrates another important facet of judicial estoppel: In assessing whether certain circumstances warrant using this equitable tool, courts should apply tests that account for their totality."
+    },
+    {
+      "start": 450.4,
+      "end": 463.34,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 573,
+          "end": 774
+        }
+      ],
+      "text": "As this Court has explained, and reiterates today, “ `the circumstances under which judicial estoppel may appropriately be invoked are probably not reducible to any general formulation of principle.'"
+    },
+    {
+      "start": 463.34,
+      "end": 472.155,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 775,
+          "end": 949
+        }
+      ],
+      "text": "” This stems from the doctrine's grounding in equity, which “eschews mechanical rules” and “depends on flexibility.”"
+    },
+    {
+      "start": 472.155,
+      "end": 481.74,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1000,
+          "end": 1163
+        }
+      ],
+      "text": "Although Courts of Appeals have attempted to add structure to this analysis, some have more successfully captured the doctrine's underlying principles than others."
+    },
+    {
+      "start": 481.74,
+      "end": 487.46,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1164,
+          "end": 1264
+        }
+      ],
+      "text": "Take how courts have approached the judicial estoppel inquiry in the bankruptcy context specifically."
+    },
+    {
+      "start": 487.46,
+      "end": 498.86,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1265,
+          "end": 1414
+        }
+      ],
+      "text": "If the doctrine is to apply in this context, then the Fifth Circuit's approach, as the Court correctly identifies, was both “too rigid and too broad.”"
+    },
+    {
+      "start": 498.86,
+      "end": 515.61,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1429,
+          "end": 1663
+        }
+      ],
+      "text": "It distilled the test for whether a prior inconsistent position was “inadvertent or a mistake” down to two factors and then defined one of them in such a way that ensured a prior inconsistent position was never inadvertent or mistaken."
+    },
+    {
+      "start": 515.61,
+      "end": 520.76,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1686,
+          "end": 1771
+        }
+      ],
+      "text": "The Eleventh Circuit previously employed a test that suffered from a similar problem."
+    },
+    {
+      "start": 520.76,
+      "end": 532.52,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1772,
+          "end": 2050
+        }
+      ],
+      "text": "That Circuit used to “permit the inference that a plaintiff intended to make a mockery of the judicial system simply because he failed to disclose a civil claim.” (describing the Circuit's prior test)."
+    },
+    {
+      "start": 532.52,
+      "end": 546.26,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 60,
+          "end": 265
+        }
+      ],
+      "text": "Like the Fifth Circuit's test, this inference resembled a “one-size-fits-all approach,” which did not ensure that judicial estoppel applied “only when a party acted with a sufficiently culpable mental state.”"
+    },
+    {
+      "start": 546.26,
+      "end": 562.66,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 285,
+          "end": 563
+        }
+      ],
+      "text": "It also did not allow a court to factor in “any proceedings that occurred in the bankruptcy court after the omission was discovered,” which hampered a court's ability to “ensure that the integrity of the bankruptcy court was protected” by the application of judicial estoppel."
+    },
+    {
+      "start": 562.66,
+      "end": 577.79,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 578,
+          "end": 808
+        }
+      ],
+      "text": "Finally, it did not tie the application of the doctrine to the “facts and circumstances” of a given dispute, which “risked that its application” would “give the civil defendant a windfall at the expense of innocent creditors.”"
+    },
+    {
+      "start": 577.79,
+      "end": 581.56,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 815,
+          "end": 871
+        }
+      ],
+      "text": "The Eleventh Circuit in Slater retreated from this test."
+    },
+    {
+      "start": 581.56,
+      "end": 598.64,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 872,
+          "end": 1189
+        }
+      ],
+      "text": "It now applies one that considers “all the facts and circumstances of a particular case” and therefore one that does not suffer from any of the same shortfalls that arise when the application of the doctrine neglects critical context. (listing a nonexhaustive set of considerations)."
+    },
+    {
+      "start": 598.64,
+      "end": 609.415,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1190,
+          "end": 1350
+        }
+      ],
+      "text": "This new approach appears more closely to adhere to the “ `case-by-case' ” assessment that equity requires and that judicial estoppel is intended to facilitate."
+    },
+    {
+      "start": 609.415,
+      "end": 624.38,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1429,
+          "end": 1656
+        }
+      ],
+      "text": "Any test for applying judicial estoppel, not only in the bankruptcy context but in other factual contexts as well, must ensure that it captures the totality of the circumstances and consistently leads to equitable applications."
+    },
+    {
+      "start": 624.38,
+      "end": 629.065,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1657,
+          "end": 1705
+        }
+      ],
+      "text": "The Court rightfully vacates the decision below."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 71,
+      "expectedWords": 71,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 108,
+      "expectedWords": 108,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 85,
+      "expectedWords": 86,
+      "coverage": 0.9883720930232558
+    },
+    {
+      "paragraph": 4,
+      "matchedWords": 181,
+      "expectedWords": 184,
+      "coverage": 0.9836956521739131
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 211,
+      "expectedWords": 214,
+      "coverage": 0.985981308411215
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 90,
+      "expectedWords": 92,
+      "coverage": 0.9782608695652174
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 86,
+      "expectedWords": 88,
+      "coverage": 0.9772727272727273
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 57,
+      "expectedWords": 57,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 127,
+      "expectedWords": 127,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 73,
+      "expectedWords": 74,
+      "coverage": 0.9864864864864865
+    },
+    {
+      "paragraph": 12,
+      "matchedWords": 95,
+      "expectedWords": 105,
+      "coverage": 0.9047619047619048
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 164,
+      "expectedWords": 164,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 76,
+      "expectedWords": 79,
+      "coverage": 0.9620253164556962
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 42,
+      "expectedWords": 42,
+      "coverage": 1.0
+    }
+  ]
+}

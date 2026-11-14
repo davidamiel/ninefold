@@ -1,0 +1,7 @@
+# Optional local Apple Silicon generation environment. No browser dependencies.
+mlx==0.32.4
+mlx-audio==0.6.5
+misaki[en]==0.9.4
+numpy==2.5.4
+av==16.1.0
+soundfile==0.13.1

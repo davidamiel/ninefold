@@ -1,0 +1,235 @@
+{
+  "reviewed": true,
+  "documentId": "25A1197-280c6af37bba--0-1154",
+  "sourceDocumentId": "25A1197-280c6af37bba",
+  "sourceTextPath": "dist/data/current-docs/25A1197-280c6af37bba.json",
+  "sourceTextSha256": "a588ff10e1bfa5666b3cfa130d26992d15a278aa68767b1e2d32b669eb5b7494",
+  "sourcePdfPath": "recordings/sources/10bce4f78d7b157f70b8dc62.pdf",
+  "sourcePdfSha256": "10bce4f78d7b157f70b8dc6251f9f37957d8293263eb232b628c1a1493ca08fb",
+  "title": "Concurrence",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-05-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 1234,
+    "endPage": 2,
+    "endOffset": 160
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1234,
+          "end": 1440
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1591,
+          "end": 1671
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1442,
+          "end": 1582
+        },
+        {
+          "page": 1,
+          "start": 45,
+          "end": 298
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 298,
+          "end": 1058
+        }
+      ],
+      "citations": [
+        {
+          "start": 77,
+          "end": 86,
+          "text": "Rule 45.3",
+          "type": "statute",
+          "canonical": "Sup. Ct. R. 45.3",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 45.3",
+          "to": "Rule forty-five point three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1058,
+          "end": 1537
+        }
+      ],
+      "citations": [
+        {
+          "start": 144,
+          "end": 180,
+          "text": "Post, at 3 (opinion of JACKSON, J.).",
+          "type": "reference",
+          "canonical": "Jackson dissent, p. 3"
+        },
+        {
+          "start": 263,
+          "end": 272,
+          "text": "Rule 45.3",
+          "type": "statute",
+          "canonical": "Sup. Ct. R. 45.3",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 45.3",
+          "to": "Rule forty-five point three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1537,
+          "end": 2016
+        }
+      ],
+      "citations": [
+        {
+          "start": 88,
+          "end": 102,
+          "text": "See post, at 4",
+          "type": "reference",
+          "canonical": "Jackson dissent, p. 4"
+        },
+        {
+          "start": 276,
+          "end": 285,
+          "text": "Rule 45.3",
+          "type": "statute",
+          "canonical": "Sup. Ct. R. 45.3",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 45.3",
+          "to": "Rule forty-five point three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 22,
+          "end": 160
+        }
+      ],
+      "citations": [
+        {
+          "start": 76,
+          "end": 87,
+          "text": "Post, at 4.",
+          "type": "reference",
+          "canonical": "Jackson dissent, p. 4"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "unshackl[ing]",
+          "to": "unshackling"
+        }
+      ]
+    }
+  ],
+  "repairs": [],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 1440,
+      "end": 1442,
+      "text": "* ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 0,
+      "start": 1583,
+      "end": 1591,
+      "text": "——————\n*",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 1,
+      "start": 0,
+      "end": 45,
+      "text": "2 CALLAIS v. LOUISIANA\nALITO, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 1,
+      "start": 2018,
+      "end": 2050,
+      "text": "Cite as: 608 U. S. ____ (2026) 3",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 22,
+      "text": "ALITO, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Clarence Thomas",
+      "Neil M. Gorsuch"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

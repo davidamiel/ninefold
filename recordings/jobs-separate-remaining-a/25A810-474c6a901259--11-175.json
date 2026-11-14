@@ -1,0 +1,803 @@
+{
+  "reviewed": true,
+  "documentId": "25A810-474c6a901259--11-175",
+  "sourceDocumentId": "25A810-474c6a901259",
+  "sourceTextPath": "dist/data/docs/25A810-474c6a901259.json",
+  "sourceTextSha256": "ba6ea55dfef14a7577c1f21d42172b85045437be5c219ba07691444327f88558",
+  "sourcePdfPath": "dist/data/pdfs/25A810-474c6a901259--11-175.pdf",
+  "sourcePdfSha256": "1c0b465e78dae4a03402483d169fb4c31e2683b55f0afe4753056cd9924929a0",
+  "title": "Dissent",
+  "author": "Elena Kagan",
+  "date": "2026-03-02",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r17_bqmc.pdf",
+  "sourceRange": {
+    "startPage": 11,
+    "startOffset": 235,
+    "endPage": 17,
+    "endOffset": 708
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 235,
+          "end": 1481
+        }
+      ],
+      "citations": [
+        {
+          "start": 995,
+          "end": 1149,
+          "text": "See also, e. g., Department of State v. AIDS Vaccine Advocacy Coalition, 606 U. S. \u2013\u2013\u2013, \u2013\u2013\u2013 (2025) (Kagan, J., dissenting from grant of stay application);",
+          "type": "case",
+          "canonical": "606 U.S. ___ (2025), Department of State v. AIDS Vaccine Advocacy Coalition"
+        },
+        {
+          "start": 1150,
+          "end": 1248,
+          "text": "Trump v. Wilcox, 605 U. S. \u2013\u2013\u2013, \u2013\u2013\u2013 (2025) (Kagan, J., dissenting from grant of stay application).",
+          "type": "case",
+          "canonical": "605 U.S. ___ (2025), Trump v. Wilcox"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1481,
+          "end": 2018
+        },
+        {
+          "page": 12,
+          "start": 56,
+          "end": 1008
+        }
+      ],
+      "citations": [
+        {
+          "start": 411,
+          "end": 432,
+          "text": "See ante, at 495\u2013496.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 495-496"
+        },
+        {
+          "start": 1086,
+          "end": 1113,
+          "text": "Cf. Supreme Court Rule 23.3",
+          "type": "statute",
+          "canonical": "Supreme Court Rule 23"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1008,
+          "end": 1919
+        }
+      ],
+      "citations": [
+        {
+          "start": 359,
+          "end": 387,
+          "text": "Foote v. Ludlow School Comm.",
+          "type": "case",
+          "canonical": "128 F.4th 336",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 387,
+          "end": 454,
+          "text": ", 128 F. 4th 336 (CA1 2025) (per curiam ), cert. pending, No. 25\u201377",
+          "type": "case",
+          "canonical": "128 F.4th 336"
+        },
+        {
+          "start": 890,
+          "end": 910,
+          "text": "See id., at 340\u2013344.",
+          "type": "case",
+          "canonical": "128 F.4th 336"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "Comm.",
+          "to": "Committee"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1963,
+          "end": 2178
+        },
+        {
+          "page": 13,
+          "start": 1647,
+          "end": 2298
+        }
+      ],
+      "label": "1",
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 350,
+          "end": 368,
+          "text": "See infra, at 505.",
+          "type": "reference",
+          "canonical": "Kagan dissent, p. 505"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1921,
+          "end": 1961
+        },
+        {
+          "page": 13,
+          "start": 45,
+          "end": 770
+        }
+      ],
+      "citations": [
+        {
+          "start": 442,
+          "end": 500,
+          "text": "See Pet. for Cert. in Foote, O. T. 2025, No. 25\u201377, p. 32.",
+          "type": "record",
+          "canonical": "Foote v. Ludlow School Committee, No. 25-77, petition, p. 32"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 770,
+          "end": 1355
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1355,
+          "end": 1647
+        },
+        {
+          "page": 14,
+          "start": 87,
+          "end": 1599
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 390,
+          "end": 403,
+          "text": "Ante, at 496.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 496"
+        },
+        {
+          "start": 434,
+          "end": 451,
+          "text": "Mahmoud v. Taylor",
+          "type": "case",
+          "canonical": "606 U.S. 522",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 451,
+          "end": 473,
+          "text": ", 606 U. S. 522 (2025)",
+          "type": "case",
+          "canonical": "606 U.S. 522"
+        },
+        {
+          "start": 1113,
+          "end": 1147,
+          "text": "App. to Emergency Application 54a.",
+          "type": "record",
+          "canonical": "Emergency application appendix, p. 54a"
+        },
+        {
+          "start": 1306,
+          "end": 1334,
+          "text": "See supra, at 503\u2013504, n. 1.",
+          "type": "reference",
+          "canonical": "Kagan dissent, pp. 503-504, note 1"
+        },
+        {
+          "start": 1533,
+          "end": 1546,
+          "text": "Ante, at 497.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 497"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "interfere[s]",
+          "to": "interferes"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1599,
+          "end": 2240
+        },
+        {
+          "page": 15,
+          "start": 45,
+          "end": 433
+        }
+      ],
+      "citations": [
+        {
+          "start": 577,
+          "end": 649,
+          "text": "Dobbs v. Jackson Women's Health Organization, 597 U. S. 215, 239 (2022).",
+          "type": "case",
+          "canonical": "597 U.S. 215"
+        },
+        {
+          "start": 851,
+          "end": 958,
+          "text": "McDonald v. Chicago, 561 U. S. 742, 811 (2010) (Thomas, J., concurring in part and concurring in judgment);",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        },
+        {
+          "start": 959,
+          "end": 1032,
+          "text": "Obergefell v. Hodges, 576 U. S. 644, 721 (2015) (Thomas, J., dissenting).",
+          "type": "case",
+          "canonical": "576 U.S. 644"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "roa[m]",
+          "to": "roam"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1588,
+          "end": 2082
+        }
+      ],
+      "label": "2",
+      "citations": [
+        {
+          "start": 118,
+          "end": 169,
+          "text": "Dobbs, 597 U. S., at 332\u2013 333 (concurring opinion).",
+          "type": "case",
+          "canonical": "597 U.S. 215"
+        },
+        {
+          "start": 293,
+          "end": 309,
+          "text": "See ante, at 497",
+          "type": "reference",
+          "canonical": "Court opinion, p. 497"
+        },
+        {
+          "start": 310,
+          "end": 358,
+          "text": "(citing Meyer v. Nebraska, 262 U. S. 390 (1923);",
+          "type": "case",
+          "canonical": "262 U.S. 390"
+        },
+        {
+          "start": 359,
+          "end": 410,
+          "text": "Pierce v. Society of Sisters, 268 U. S. 510 (1925);",
+          "type": "case",
+          "canonical": "268 U.S. 510"
+        },
+        {
+          "start": 411,
+          "end": 454,
+          "text": "and Parham v. J. R., 442 U. S. 584 (1979));",
+          "type": "case",
+          "canonical": "442 U.S. 584"
+        },
+        {
+          "start": 455,
+          "end": 493,
+          "text": "App. to Emergency Application 38a\u201339a.",
+          "type": "record",
+          "canonical": "Emergency application appendix, pp. 38a-39a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 435,
+          "end": 1464
+        }
+      ],
+      "citations": [
+        {
+          "start": 169,
+          "end": 276,
+          "text": "Sessions v. Dimaya, 584 U. S. 148, 191 (2018) (Gorsuch, J., concurring in part and concurring in judgment).",
+          "type": "case",
+          "canonical": "584 U.S. 148"
+        },
+        {
+          "start": 537,
+          "end": 590,
+          "text": "Dobbs, 597 U. S., at 340 (Kavanaugh, J., concurring).",
+          "type": "case",
+          "canonical": "597 U.S. 215"
+        },
+        {
+          "start": 814,
+          "end": 834,
+          "text": "Compare ante, at 497",
+          "type": "reference",
+          "canonical": "Court opinion, p. 497"
+        },
+        {
+          "start": 920,
+          "end": 949,
+          "text": "with Dobbs, 597 U. S., at 231",
+          "type": "case",
+          "canonical": "597 U.S. 215"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 15,
+          "start": 2084,
+          "end": 2296
+        },
+        {
+          "page": 16,
+          "start": 1483,
+          "end": 2329
+        }
+      ],
+      "label": "3",
+      "citations": [
+        {
+          "start": 50,
+          "end": 75,
+          "text": "United States v. Skrmetti",
+          "type": "case",
+          "canonical": "605 U.S. 495",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 75,
+          "end": 97,
+          "text": ", 605 U. S. 495 (2025)",
+          "type": "case",
+          "canonical": "605 U.S. 495"
+        },
+        {
+          "start": 456,
+          "end": 502,
+          "text": "Pet. for Cert., O. T. 2023, No. 23\u2013466, p. 34;",
+          "type": "record",
+          "canonical": "Skrmetti, No. 23-466, petition, p. 34"
+        },
+        {
+          "start": 503,
+          "end": 517,
+          "text": "see id., at 18",
+          "type": "record",
+          "canonical": "Skrmetti, No. 23-466, petition, p. 18"
+        },
+        {
+          "start": 768,
+          "end": 784,
+          "text": ", 442 U. S. 584,",
+          "type": "case",
+          "canonical": "442 U.S. 584"
+        },
+        {
+          "start": 795,
+          "end": 810,
+          "text": ", 268 U. S. 510",
+          "type": "case",
+          "canonical": "268 U.S. 510"
+        },
+        {
+          "start": 812,
+          "end": 853,
+          "text": "See Pet. for Cert., No. 23\u2013466, at 34\u201336;",
+          "type": "record",
+          "canonical": "Skrmetti, No. 23-466, petition, pp. 34-36"
+        },
+        {
+          "start": 854,
+          "end": 867,
+          "text": "ante, at 497.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 497"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1466,
+          "end": 1586
+        },
+        {
+          "page": 16,
+          "start": 56,
+          "end": 832
+        }
+      ],
+      "citations": [
+        {
+          "start": 276,
+          "end": 310,
+          "text": ", see supra, at 503\u2013504, n. 1, 505",
+          "type": "reference",
+          "canonical": "Kagan dissent, pp. 503-505, note 1"
+        },
+        {
+          "start": 437,
+          "end": 501,
+          "text": "See Pierce v. Society of Sisters, 268 U. S. 510, 534\u2013535 (1925);",
+          "type": "case",
+          "canonical": "268 U.S. 510"
+        },
+        {
+          "start": 502,
+          "end": 550,
+          "text": "Parham v. J. R., 442 U. S. 584, 602\u2013 603 (1979).",
+          "type": "case",
+          "canonical": "442 U.S. 584"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 832,
+          "end": 1483
+        },
+        {
+          "page": 17,
+          "start": 45,
+          "end": 708
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 12,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 492 (2026) 503\nKagan, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 1919,
+      "end": 1921,
+      "text": "1 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 1961,
+      "end": 1963,
+      "text": "1 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 2178,
+      "end": 2208,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 45,
+      "text": "504 MIRABELLI v. BONTA\nKagan, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 2298,
+      "end": 2328,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 87,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 492 (2026) 505\nKagan, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 45,
+      "text": "506 MIRABELLI v. BONTA\nKagan, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 433,
+      "end": 435,
+      "text": "2 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 1464,
+      "end": 1466,
+      "text": "3\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 1586,
+      "end": 1588,
+      "text": "2 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 2082,
+      "end": 2084,
+      "text": "3 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 2296,
+      "end": 2326,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 492 (2026) 507\nKagan, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 16,
+      "start": 2329,
+      "end": 2359,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 45,
+      "text": "508 MIRABELLI v. BONTA\nKagan, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 11,
+      "start": 271,
+      "end": 275,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 11,
+      "start": 649,
+      "end": 656,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 11,
+      "start": 1095,
+      "end": 1104,
+      "expectedText": "refection",
+      "text": "reflection"
+    },
+    {
+      "page": 11,
+      "start": 1957,
+      "end": 1962,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 12,
+      "start": 454,
+      "end": 458,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 12,
+      "start": 195,
+      "end": 199,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 12,
+      "start": 890,
+      "end": 899,
+      "expectedText": "refective",
+      "text": "reflective"
+    },
+    {
+      "page": 12,
+      "start": 2173,
+      "end": 2178,
+      "expectedText": "pol-\n",
+      "text": "pol"
+    },
+    {
+      "page": 13,
+      "start": 1216,
+      "end": 1223,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 14,
+      "start": 820,
+      "end": 826,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 14,
+      "start": 1007,
+      "end": 1017,
+      "expectedText": "superfuous",
+      "text": "superfluous"
+    },
+    {
+      "page": 14,
+      "start": 1143,
+      "end": 1148,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 14,
+      "start": 2160,
+      "end": 2167,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 15,
+      "start": 2266,
+      "end": 2271,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 15,
+      "start": 131,
+      "end": 137,
+      "expectedText": "fction",
+      "text": "fiction"
+    },
+    {
+      "page": 15,
+      "start": 209,
+      "end": 213,
+      "expectedText": "feld",
+      "text": "field"
+    },
+    {
+      "page": 15,
+      "start": 1179,
+      "end": 1183,
+      "expectedText": "feld",
+      "text": "field"
+    },
+    {
+      "page": 16,
+      "start": 1299,
+      "end": 1306,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 16,
+      "start": 1114,
+      "end": 1122,
+      "expectedText": "confdent",
+      "text": "confident"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Ketanji Brown Jackson"
+    ]
+  }
+}

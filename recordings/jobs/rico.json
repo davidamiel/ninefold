@@ -1,0 +1,1495 @@
+{
+  "reviewed": true,
+  "documentId": "24-1056-0c422e56c79e--3-1615",
+  "sourceDocumentId": "24-1056-0c422e56c79e",
+  "sourceTextPath": "dist/data/docs/24-1056-0c422e56c79e.json",
+  "sourceTextSha256": "09be8eb57d39b0ebffdbd5651875c3728a18fd68899fb3545bacb8fb4676260d",
+  "sourcePdfPath": "dist/data/pdfs/24-1056-0c422e56c79e--3-1615.pdf",
+  "sourcePdfSha256": "2e10a15f6e052135a484a977ff1b18815ed9c6e483ff9b4a95deb3c88adf8ae7",
+  "title": "Opinion of the Court",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-03-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r23_4g15.pdf",
+  "sourceRange": {
+    "startPage": 3,
+    "startOffset": 1667,
+    "endPage": 15,
+    "endOffset": 149
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1667,
+          "end": 1840
+        },
+        {
+          "page": 4,
+          "start": 47,
+          "end": 139
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 139,
+          "end": 141
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 141,
+          "end": 1219
+        }
+      ],
+      "citations": [
+        {
+          "start": 127,
+          "end": 180,
+          "text": "See Mont v. United States, 587 U. S. 514, 523 (2019).",
+          "type": "case",
+          "canonical": "587 U.S. 514"
+        },
+        {
+          "start": 361,
+          "end": 383,
+          "text": "18 U. S. C. § 3583(d).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        },
+        {
+          "start": 449,
+          "end": 454,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        },
+        {
+          "start": 627,
+          "end": 784,
+          "text": "Administrative Office of the United States Courts, Overview of Probation and Supervised Release Conditions 16, 24 (July 2024) (quoting §§ 3563(b)(15), (17)).",
+          "type": "reference",
+          "canonical": "Administrative Office of U.S. Courts, Overview of Probation and Supervised Release Conditions (2024)"
+        },
+        {
+          "start": 939,
+          "end": 952,
+          "text": "§ 3583(e)(3).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        },
+        {
+          "start": 1070,
+          "end": 1080,
+          "text": "§ 3583(h).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "report[ing]",
+          "to": "reporting"
+        },
+        {
+          "from": "notify[ing]",
+          "to": "notifying"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1219,
+          "end": 1907
+        }
+      ],
+      "citations": [
+        {
+          "start": 215,
+          "end": 249,
+          "text": "App. to Pet. for Cert. 11a (App.);",
+          "type": "record",
+          "canonical": "Petition appendix, p. 11a"
+        },
+        {
+          "start": 250,
+          "end": 273,
+          "text": "Brief for Petitioner 8.",
+          "type": "reference",
+          "canonical": "Brief for Petitioner, p. 8"
+        },
+        {
+          "start": 537,
+          "end": 546,
+          "text": "App. 11a.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 11a"
+        },
+        {
+          "start": 679,
+          "end": 688,
+          "text": "See ibid.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 11a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 55,
+          "end": 788
+        }
+      ],
+      "citations": [
+        {
+          "start": 238,
+          "end": 243,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Petition appendix"
+        },
+        {
+          "start": 310,
+          "end": 322,
+          "text": "Id., at 12a.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 12a"
+        },
+        {
+          "start": 403,
+          "end": 414,
+          "text": "Id., at 3a.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 3a"
+        },
+        {
+          "start": 708,
+          "end": 734,
+          "text": "Brief for Petitioner 9–10.",
+          "type": "reference",
+          "canonical": "Brief for Petitioner, pp. 9–10"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 788,
+          "end": 1610
+        }
+      ],
+      "citations": [
+        {
+          "start": 434,
+          "end": 447,
+          "text": "App. 25a–32a.",
+          "type": "record",
+          "canonical": "Petition appendix, pp. 25a–32a"
+        },
+        {
+          "start": 615,
+          "end": 620,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Petition appendix"
+        },
+        {
+          "start": 807,
+          "end": 823,
+          "text": "Id., at 5a, 35a.",
+          "type": "record",
+          "canonical": "Petition appendix, pp. 5a, 35a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1610,
+          "end": 2025
+        },
+        {
+          "page": 6,
+          "start": 47,
+          "end": 314
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 314,
+          "end": 842
+        }
+      ],
+      "citations": [
+        {
+          "start": 292,
+          "end": 303,
+          "text": "Id., at 3a.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 3a"
+        },
+        {
+          "start": 522,
+          "end": 527,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Petition appendix"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 842,
+          "end": 1496
+        }
+      ],
+      "citations": [
+        {
+          "start": 58,
+          "end": 79,
+          "text": "606 U. S. 930 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 930"
+        },
+        {
+          "start": 398,
+          "end": 460,
+          "text": "Compare United States v. Crane, 979 F. 2d 687, 691 (CA9 1992);",
+          "type": "case",
+          "canonical": "979 F.2d 687"
+        },
+        {
+          "start": 461,
+          "end": 527,
+          "text": "and United States v. Buchanan, 638 F. 3d 448, 458 (CA4 2011), with",
+          "type": "case",
+          "canonical": "638 F.3d 448"
+        },
+        {
+          "start": 528,
+          "end": 594,
+          "text": "United States v. Hernandez-Ferrer, 599 F. 3d 63, 66–69 (CA1 2010);",
+          "type": "case",
+          "canonical": "599 F.3d 63"
+        },
+        {
+          "start": 595,
+          "end": 653,
+          "text": "United States v. Talley, 83 F. 4th 1296, 1297 (CA11 2023).",
+          "type": "case",
+          "canonical": "83 F.4th 1296"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1496,
+          "end": 1499
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1499,
+          "end": 2027
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 503
+        }
+      ],
+      "citations": [
+        {
+          "start": 349,
+          "end": 411,
+          "text": "See Artis v. District of Columbia, 583 U. S. 71, 80–82 (2018).",
+          "type": "case",
+          "canonical": "583 U.S. 71"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 503,
+          "end": 505
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 505,
+          "end": 867
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 867,
+          "end": 1506
+        }
+      ],
+      "citations": [
+        {
+          "start": 187,
+          "end": 197,
+          "text": "§ 3624(e).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3624"
+        },
+        {
+          "start": 396,
+          "end": 406,
+          "text": "§ 3583(b).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1506,
+          "end": 1919
+        },
+        {
+          "page": 8,
+          "start": 47,
+          "end": 246
+        }
+      ],
+      "citations": [
+        {
+          "start": 199,
+          "end": 224,
+          "text": "See §§ 3563(b)(15), (17).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3563"
+        },
+        {
+          "start": 425,
+          "end": 444,
+          "text": "§§ 3583(e)(3), (g).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 246,
+          "end": 1086
+        }
+      ],
+      "citations": [
+        {
+          "start": 299,
+          "end": 316,
+          "text": "See § 3583(e)(2);",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        },
+        {
+          "start": 317,
+          "end": 344,
+          "text": "Fed. Rule Crim. Proc. 32.1.",
+          "type": "statute",
+          "canonical": "Fed. R. Crim. P. 32.1"
+        },
+        {
+          "start": 426,
+          "end": 443,
+          "text": "See § 3583(e)(2).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        },
+        {
+          "start": 530,
+          "end": 540,
+          "text": "See ibid.;",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        },
+        {
+          "start": 541,
+          "end": 575,
+          "text": "Brief for United States 8, 38, 45.",
+          "type": "reference",
+          "canonical": "Brief for United States, pp. 8, 38, 45"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1086,
+          "end": 2094
+        },
+        {
+          "page": 9,
+          "start": 55,
+          "end": 187
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 187,
+          "end": 720
+        }
+      ],
+      "citations": [
+        {
+          "start": 85,
+          "end": 94,
+          "text": "§ 3624(e)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3624",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3624(e)",
+          "to": "Section 3624 e"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 720,
+          "end": 1377
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1377,
+          "end": 1379
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1379,
+          "end": 2020
+        },
+        {
+          "page": 10,
+          "start": 78,
+          "end": 239
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 72,
+          "end": 78,
+          "text": "§ 3601",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3601",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 238,
+          "end": 275,
+          "text": "See, e. g., §§ 3603(2), (3), 3624(e).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3603"
+        },
+        {
+          "start": 388,
+          "end": 415,
+          "text": "Brief for United States 12.",
+          "type": "reference",
+          "canonical": "Brief for United States, p. 12"
+        },
+        {
+          "start": 609,
+          "end": 614,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Brief for United States, p. 12"
+        },
+        {
+          "start": 786,
+          "end": 800,
+          "text": "Id., at 18–23.",
+          "type": "reference",
+          "canonical": "Brief for United States, pp. 18–23"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3601",
+          "to": "Section 3601"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 239,
+          "end": 917
+        }
+      ],
+      "citations": [
+        {
+          "start": 576,
+          "end": 597,
+          "text": "See §§ 3601, 3624(e).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3601"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 917,
+          "end": 1593
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1593,
+          "end": 2124
+        },
+        {
+          "page": 11,
+          "start": 55,
+          "end": 225
+        }
+      ],
+      "citations": [
+        {
+          "start": 206,
+          "end": 228,
+          "text": ", 529 U. S. 53 (2000),",
+          "type": "case",
+          "canonical": "529 U.S. 53"
+        },
+        {
+          "start": 340,
+          "end": 349,
+          "text": "§ 3624(e)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3624",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 502,
+          "end": 520,
+          "text": "587 U. S., at 521.",
+          "type": "case",
+          "canonical": "587 U.S. 514"
+        },
+        {
+          "start": 681,
+          "end": 702,
+          "text": "See Part II–A, supra.",
+          "type": "reference",
+          "canonical": "This opinion, Part II–A"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3624(e)",
+          "to": "Section 3624 e"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 225,
+          "end": 1097
+        }
+      ],
+      "citations": [
+        {
+          "start": 100,
+          "end": 117,
+          "text": "529 U. S., at 54.",
+          "type": "case",
+          "canonical": "529 U.S. 53"
+        },
+        {
+          "start": 274,
+          "end": 285,
+          "text": "Id., at 55.",
+          "type": "case",
+          "canonical": "529 U.S. 53"
+        },
+        {
+          "start": 446,
+          "end": 460,
+          "text": "Id., at 55–56.",
+          "type": "case",
+          "canonical": "529 U.S. 53"
+        },
+        {
+          "start": 553,
+          "end": 567,
+          "text": "Id., at 56–58.",
+          "type": "case",
+          "canonical": "529 U.S. 53"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1097,
+          "end": 1823
+        }
+      ],
+      "citations": [
+        {
+          "start": 414,
+          "end": 503,
+          "text": "Brief for United States 25 (quoting 2 W. Hawkins, Pleas of the Crown 200 (6th ed. 1788)).",
+          "type": "reference",
+          "canonical": "Brief for United States, p. 25"
+        },
+        {
+          "start": 698,
+          "end": 725,
+          "text": "Brief for United States 29.",
+          "type": "reference",
+          "canonical": "Brief for United States, p. 29"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1823,
+          "end": 2100
+        },
+        {
+          "page": 12,
+          "start": 47,
+          "end": 433
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 433,
+          "end": 2025
+        },
+        {
+          "page": 13,
+          "start": 86,
+          "end": 481
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 437,
+          "end": 450,
+          "text": "§ 3583(e)(3).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        },
+        {
+          "start": 608,
+          "end": 618,
+          "text": "§ 3583(i).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        },
+        {
+          "start": 1062,
+          "end": 1085,
+          "text": ", 263 U. S. 193 (1923).",
+          "type": "case",
+          "canonical": "263 U.S. 193"
+        },
+        {
+          "start": 1395,
+          "end": 1411,
+          "text": "Id., at 193–194.",
+          "type": "case",
+          "canonical": "263 U.S. 193"
+        },
+        {
+          "start": 1513,
+          "end": 1525,
+          "text": "Id., at 194.",
+          "type": "case",
+          "canonical": "263 U.S. 193"
+        },
+        {
+          "start": 1632,
+          "end": 1648,
+          "text": "Id., at 194–195.",
+          "type": "case",
+          "canonical": "263 U.S. 193"
+        },
+        {
+          "start": 1970,
+          "end": 1986,
+          "text": "Id., at 196–197.",
+          "type": "case",
+          "canonical": "263 U.S. 193"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 481,
+          "end": 1267
+        }
+      ],
+      "citations": [
+        {
+          "start": 428,
+          "end": 438,
+          "text": "§ 3624(e).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3624"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1267,
+          "end": 1964
+        }
+      ],
+      "citations": [
+        {
+          "start": 325,
+          "end": 339,
+          "text": "See § 3583(i).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1964,
+          "end": 2072
+        },
+        {
+          "page": 14,
+          "start": 47,
+          "end": 813
+        }
+      ],
+      "citations": [
+        {
+          "start": 51,
+          "end": 60,
+          "text": "§ 3583(i)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3583(i)",
+          "to": "Section 3583 i"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 14,
+          "start": 989,
+          "end": 2415
+        }
+      ],
+      "citations": [
+        {
+          "start": 309,
+          "end": 353,
+          "text": "See post, at 623–626 (opinion of Alito, J.).",
+          "type": "case",
+          "canonical": "607 U.S. 609"
+        },
+        {
+          "start": 752,
+          "end": 771,
+          "text": "post, at 626, n. 2,",
+          "type": "case",
+          "canonical": "607 U.S. 609"
+        },
+        {
+          "start": 1321,
+          "end": 1368,
+          "text": "Neder v. United States, 527 U. S. 1, 25 (1999).",
+          "type": "case",
+          "canonical": "527 U.S. 1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 816,
+          "end": 817
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 817,
+          "end": 988
+        },
+        {
+          "page": 15,
+          "start": 56,
+          "end": 149
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 3,
+      "start": 1840,
+      "end": 2310,
+      "text": "*Briefs of amici curiae urging reversal were fled for the Due Process\nInstitute by Vincent J. Brunkow and Shana-Tara O'Toole; for the National\nAssociation of Federal Defenders by Jacob Schuman, Paul Alessio Mezzina, and Keith M. Donoghue; and for the Roderick and Solange MacArthur Justice Center by Devi M. Rao .\nAdeel M. Bashir and Jeffrey L. Fisher fled a brief of amicus curiae for\nthe National Association of Criminal Defense Lawyers.\nPage Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 47,
+      "text": "612 RICO v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 4,
+      "start": 1907,
+      "end": 1937,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 609 (2026) 613\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 5,
+      "start": 2025,
+      "end": 2055,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 47,
+      "text": "614 RICO v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 6,
+      "start": 2027,
+      "end": 2057,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 609 (2026) 615\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 7,
+      "start": 1919,
+      "end": 1949,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 47,
+      "text": "616 RICO v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 8,
+      "start": 2094,
+      "end": 2124,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 609 (2026) 617\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 9,
+      "start": 2020,
+      "end": 2050,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 78,
+      "text": "Page Proof Pending Publication\n618 RICO v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 609 (2026) 619\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 11,
+      "start": 2100,
+      "end": 2130,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 47,
+      "text": "620 RICO v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 12,
+      "start": 2025,
+      "end": 2055,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 609 (2026) 621\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 47,
+      "text": "622 RICO v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 14,
+      "start": 813,
+      "end": 814,
+      "text": "*",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 14,
+      "start": 988,
+      "end": 989,
+      "text": "*",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 14,
+      "start": 2415,
+      "end": 2445,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 609 (2026) 623\nAlito, J., dissenting\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 14,
+      "start": 815,
+      "end": 816,
+      "text": "*",
+      "reason": "Ornamental separator"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 435,
+      "end": 441,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 1,
+      "start": 481,
+      "end": 487,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 1,
+      "start": 1130,
+      "end": 1136,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 2,
+      "start": 2127,
+      "end": 2133,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 2,
+      "start": 502,
+      "end": 505,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 3,
+      "start": 589,
+      "end": 594,
+      "expectedText": "proft",
+      "text": "profit"
+    },
+    {
+      "page": 4,
+      "start": 52,
+      "end": 58,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 4,
+      "start": 666,
+      "end": 672,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 4,
+      "start": 721,
+      "end": 727,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 4,
+      "start": 781,
+      "end": 786,
+      "expectedText": "Offce",
+      "text": "Office"
+    },
+    {
+      "page": 4,
+      "start": 1325,
+      "end": 1335,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 5,
+      "start": 234,
+      "end": 240,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 5,
+      "start": 1018,
+      "end": 1024,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 5,
+      "start": 125,
+      "end": 129,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 5,
+      "start": 1055,
+      "end": 1063,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 6,
+      "start": 1749,
+      "end": 1752,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 7,
+      "start": 495,
+      "end": 501,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 7,
+      "start": 1645,
+      "end": 1651,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 7,
+      "start": 1186,
+      "end": 1189,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 7,
+      "start": 1393,
+      "end": 1400,
+      "expectedText": "fouting",
+      "text": "flouting"
+    },
+    {
+      "page": 9,
+      "start": 1568,
+      "end": 1574,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 10,
+      "start": 554,
+      "end": 560,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 10,
+      "start": 720,
+      "end": 726,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 10,
+      "start": 256,
+      "end": 260,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 10,
+      "start": 321,
+      "end": 325,
+      "expectedText": "faws",
+      "text": "flaws"
+    },
+    {
+      "page": 10,
+      "start": 1695,
+      "end": 1698,
+      "expectedText": "fll",
+      "text": "fill"
+    },
+    {
+      "page": 11,
+      "start": 249,
+      "end": 254,
+      "expectedText": "afeld",
+      "text": "afield"
+    },
+    {
+      "page": 12,
+      "start": 1135,
+      "end": 1140,
+      "expectedText": "proft",
+      "text": "profit"
+    },
+    {
+      "page": 13,
+      "start": 1721,
+      "end": 1727,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 13,
+      "start": 345,
+      "end": 355,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 13,
+      "start": 782,
+      "end": 789,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 14,
+      "start": 526,
+      "end": 532,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 14,
+      "start": 2292,
+      "end": 2296,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 14,
+      "start": 444,
+      "end": 452,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 14,
+      "start": 712,
+      "end": 720,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 14,
+      "start": 1524,
+      "end": 1531,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 15,
+      "start": 614,
+      "end": 620,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 15,
+      "start": 698,
+      "end": 704,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 15,
+      "start": 1277,
+      "end": 1281,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 15,
+      "start": 1180,
+      "end": 1190,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 3,
+      "start": 1833,
+      "end": 1839,
+      "expectedText": "proba-",
+      "text": "proba"
+    },
+    {
+      "page": 8,
+      "start": 2087,
+      "end": 2093,
+      "expectedText": "super-",
+      "text": "super"
+    },
+    {
+      "page": 9,
+      "start": 2011,
+      "end": 2019,
+      "expectedText": "the dis-",
+      "text": "the dis"
+    },
+    {
+      "page": 12,
+      "start": 2009,
+      "end": 2024,
+      "expectedText": "defendant's pa-",
+      "text": "defendant's pa"
+    },
+    {
+      "page": 14,
+      "start": 696,
+      "end": 707,
+      "expectedText": "late-interm",
+      "text": "late-in-term"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete Court opinion and substantive asterisk footnote checked against PDF. Starred note normalized to spoken Footnote1; ornamental centered star excluded. Counsel/publication furniture and repeated headers removed. Repaired ligatures and page-broken probation/supervised/district/parole and late-in-term compound with original maps. Source citations omitted with context-correct targets; all prose, statutory quotations and substantive explanations retained."
+}

@@ -1,0 +1,170 @@
+{
+  "version": "7a4c4e08303a2ff0",
+  "duration": 89.06,
+  "voice": "af_sky",
+  "audioSha256": "bb3a43e6c6f6f5e4a9be84493050a26d3a5160ed14b3cfe8f96226755d9556cc",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 2.66,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 42,
+          "start": 1160,
+          "end": 1195
+        }
+      ],
+      "text": "I join the Court's opinion in full."
+    },
+    {
+      "start": 2.66,
+      "end": 13.42,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 42,
+          "start": 1196,
+          "end": 1364
+        }
+      ],
+      "text": "This Court should never have interpreted Section two of the Voting Rights Act of 1965 to effectively give racial groups “an entitlement to roughly proportional representation.”"
+    },
+    {
+      "start": 13.42,
+      "end": 22.32,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 42,
+          "start": 1473,
+          "end": 1609
+        }
+      ],
+      "text": "By doing so, the Court led legislatures and courts to “systematically divide the country into electoral districts along racial lines.”"
+    },
+    {
+      "start": 22.32,
+      "end": 32.16,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 42,
+          "start": 1690,
+          "end": 1826
+        },
+        {
+          "page": 43,
+          "start": 86,
+          "end": 125
+        }
+      ],
+      "text": "“Blacks were drawn into `black districts' and given `black representatives'; Hispanics were drawn into Hispanic districts and given `Hispanic representatives'; and so on.”"
+    },
+    {
+      "start": 32.16,
+      "end": 39.22,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 43,
+          "start": 132,
+          "end": 248
+        }
+      ],
+      "text": "That interpretation rendered Section two “repugnant to any nation that strives for the ideal of a color-blind Constitution.”"
+    },
+    {
+      "start": 39.22,
+      "end": 45.53,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 43,
+          "start": 266,
+          "end": 374
+        }
+      ],
+      "text": "Today's decision should largely put an end to this “disastrous misadventure” in voting-rights jurisprudence."
+    },
+    {
+      "start": 45.53,
+      "end": 53.36,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 43,
+          "start": 388,
+          "end": 526
+        }
+      ],
+      "text": "As I explained more than 30 years ago, I would go further and hold that Section two of the Voting Rights Act does not regulate districting at all."
+    },
+    {
+      "start": 53.36,
+      "end": 66.84,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 43,
+          "start": 548,
+          "end": 786
+        }
+      ],
+      "text": "The relevant text prohibits States from imposing or applying a “voting qualification,” “prerequisite to voting,” or “standard, practice, or procedure,” in a manner that results in a denial or abridgement of the right to vote based on race."
+    },
+    {
+      "start": 66.84,
+      "end": 71.9,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 43,
+          "start": 811,
+          "end": 893
+        }
+      ],
+      "text": "How States draw district lines does not fall within any of those three categories."
+    },
+    {
+      "start": 71.9,
+      "end": 84.44,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 43,
+          "start": 1017,
+          "end": 1236
+        }
+      ],
+      "text": "The words in Section two instead “reach only `enactments that regulate citizens' access to the ballot or the processes for counting a ballot'; they `do not include a State's... choice of one districting scheme over another.'"
+    },
+    {
+      "start": 84.44,
+      "end": 87.96,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 43,
+          "start": 1237,
+          "end": 1380
+        }
+      ],
+      "text": "” Therefore, no Section two challenge to districting should ever succeed."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 108,
+      "expectedWords": 112,
+      "coverage": 0.9642857142857143
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 123,
+      "expectedWords": 127,
+      "coverage": 0.968503937007874
+    }
+  ]
+}

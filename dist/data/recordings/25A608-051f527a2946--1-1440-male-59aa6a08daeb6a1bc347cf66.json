@@ -1,0 +1,163 @@
+{
+  "version": "8e453497b0f2ef77",
+  "duration": 102.46,
+  "voice": "am_michael",
+  "audioSha256": "75309a6d8c245577940c00f40bd8b3a406ab53acd826de42e55d0ff48600db59",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 3.22,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1559,
+          "end": 1596
+        }
+      ],
+      "text": "I join the order issued by the Court."
+    },
+    {
+      "start": 3.22,
+      "end": 15.26,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1597,
+          "end": 1776
+        }
+      ],
+      "text": "Texas needs certainty on which map will govern the 2026 midterm elections, so I will not delay the Court’s order by writing a detailed response to each of the dissent’s arguments."
+    },
+    {
+      "start": 15.26,
+      "end": 20.35,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1777,
+          "end": 1837
+        }
+      ],
+      "text": "Instead, I offer two short points which for me are decisive."
+    },
+    {
+      "start": 20.35,
+      "end": 35.35,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1838,
+          "end": 1948
+        },
+        {
+          "page": 2,
+          "start": 22,
+          "end": 115
+        }
+      ],
+      "text": "First, the dissent does not dispute—because it is indisputable—that the impetus for the adoption of the Texas map (like the map subsequently adopted in California) was partisan advantage pure and simple."
+    },
+    {
+      "start": 35.35,
+      "end": 46.0,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 116,
+          "end": 286
+        }
+      ],
+      "text": "Second, the clear-error standard of review does not apply here because the “‘trial court based its findings upon a mistaken impression of applicable legal principles.’”"
+    },
+    {
+      "start": 46.0,
+      "end": 55.0,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 370,
+          "end": 510
+        }
+      ],
+      "text": "Because of the correlation between race and partisan preference, litigants can easily use claims of racial gerrymandering for partisan ends."
+    },
+    {
+      "start": 55.0,
+      "end": 62.7,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 623,
+          "end": 726
+        }
+      ],
+      "text": "To prevent this, our precedents place the burden on the challengers “to disentangle race and politics.”"
+    },
+    {
+      "start": 62.7,
+      "end": 75.5,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 755,
+          "end": 960
+        }
+      ],
+      "text": "Thus, when the asserted reason for a map is political, it is critical for challengers to produce an alternative map that serves the State’s allegedly partisan aim just as well as the map the State adopted."
+    },
+    {
+      "start": 75.5,
+      "end": 89.46,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1021,
+          "end": 1224
+        }
+      ],
+      "text": "Although respondents’ experts could have easily produced such a map if that were possible, they did not, giving rise to a strong inference that the State’s map was indeed based on partisanship, not race."
+    },
+    {
+      "start": 89.46,
+      "end": 102.11,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1225,
+          "end": 1420
+        }
+      ],
+      "text": "Neither the duration of the District Court’s hearing nor the length of its majority opinion provides an excuse for failing to apply the correct legal standards as set out clearly in our case law."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 52,
+      "expectedWords": 52,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 32,
+      "expectedWords": 33,
+      "coverage": 0.9696969696969697
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 169,
+      "expectedWords": 169,
+      "coverage": 1.0
+    }
+  ]
+}

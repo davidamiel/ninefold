@@ -1,0 +1,681 @@
+{
+  "reviewed": true,
+  "documentId": "25-848-ea69b6d4f9d8--0-0",
+  "sourceDocumentId": "25-848-ea69b6d4f9d8",
+  "sourceTextPath": "dist/data/docs/25-848-ea69b6d4f9d8.json",
+  "sourceTextSha256": "6189a5b552d76b9f9bdf38f00610a9ccfc6388a1942790396417c5d43c21484f",
+  "sourcePdfPath": "recordings/sources/f61b159a406c4b2076531467.pdf",
+  "sourcePdfSha256": "f61b159a406c4b20765314670458538fce40a8363df09155b40a84203c6a066f",
+  "title": "Dissent",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-06-15",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-848_3146.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 500,
+    "endPage": 3,
+    "endOffset": 2016
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 500,
+          "end": 1216
+        }
+      ],
+      "citations": [
+        {
+          "start": 441,
+          "end": 463,
+          "text": ", 485 U. S. 25 (1988),",
+          "type": "reference",
+          "canonical": ", 485 U. S. 25 (1988),"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1216,
+          "end": 1219
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1219,
+          "end": 1743
+        },
+        {
+          "page": 1,
+          "start": 85,
+          "end": 420
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 420,
+          "end": 1040
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1040,
+          "end": 2162
+        },
+        {
+          "page": 2,
+          "start": 85,
+          "end": 210
+        }
+      ],
+      "citations": [
+        {
+          "start": 313,
+          "end": 397,
+          "text": "No. CR–20–727 (Ala. Ct. Crim. App., May 3, 2024), App. to Pet. for Cert. 12a (App.).",
+          "type": "reference",
+          "canonical": "No. CR–20–727 (Ala. Ct. Crim. App., May 3, 2024), App. to Pet. for Cert. 12a (App.)."
+        },
+        {
+          "start": 668,
+          "end": 683,
+          "text": "Id., at 12a–13a",
+          "type": "reference",
+          "canonical": "Id., at 12a–13a"
+        },
+        {
+          "start": 856,
+          "end": 868,
+          "text": "Id., at 13a.",
+          "type": "reference",
+          "canonical": "Id., at 13a."
+        },
+        {
+          "start": 1110,
+          "end": 1115,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 1116,
+          "end": 1134,
+          "text": "(emphasis deleted)",
+          "type": "reference",
+          "canonical": "(emphasis deleted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[y]ou",
+          "to": "you"
+        },
+        {
+          "from": "[t]here",
+          "to": "there"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 210,
+          "end": 812
+        }
+      ],
+      "citations": [
+        {
+          "start": 233,
+          "end": 245,
+          "text": "Id., at 16a.",
+          "type": "reference",
+          "canonical": "Id., at 16a."
+        },
+        {
+          "start": 295,
+          "end": 311,
+          "text": "Id., at 16a–21a.",
+          "type": "reference",
+          "canonical": "Id., at 16a–21a."
+        },
+        {
+          "start": 516,
+          "end": 528,
+          "text": "Id., at 24a.",
+          "type": "reference",
+          "canonical": "Id., at 24a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 2,
+          "start": 812,
+          "end": 816
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 816,
+          "end": 1679
+        }
+      ],
+      "citations": [
+        {
+          "start": 151,
+          "end": 174,
+          "text": ", 380 U. S. 609 (1965),",
+          "type": "reference",
+          "canonical": ", 380 U. S. 609 (1965),"
+        },
+        {
+          "start": 613,
+          "end": 640,
+          "text": "Robinson, 485 U. S., at 32.",
+          "type": "reference",
+          "canonical": "Robinson, 485 U. S., at 32."
+        },
+        {
+          "start": 834,
+          "end": 839,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[w]here",
+          "to": "where"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1679,
+          "end": 2038
+        },
+        {
+          "page": 3,
+          "start": 86,
+          "end": 722
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 194,
+          "end": 207,
+          "text": "App. 12a–13a,",
+          "type": "reference",
+          "canonical": "App. 12a–13a,"
+        },
+        {
+          "start": 310,
+          "end": 322,
+          "text": "Id., at 24a.",
+          "type": "reference",
+          "canonical": "Id., at 24a."
+        },
+        {
+          "start": 487,
+          "end": 504,
+          "text": "485 U. S., at 31.",
+          "type": "reference",
+          "canonical": "485 U. S., at 31."
+        },
+        {
+          "start": 657,
+          "end": 666,
+          "text": "App. 24a.",
+          "type": "reference",
+          "canonical": "App. 24a."
+        },
+        {
+          "start": 819,
+          "end": 836,
+          "text": "485 U. S., at 31.",
+          "type": "reference",
+          "canonical": "485 U. S., at 31."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 722,
+          "end": 1640
+        }
+      ],
+      "citations": [
+        {
+          "start": 195,
+          "end": 208,
+          "text": "App. 16a–21a.",
+          "type": "reference",
+          "canonical": "App. 16a–21a."
+        },
+        {
+          "start": 402,
+          "end": 448,
+          "text": "Michigan v. Long, 463 U. S. 1032, 1041 (1983).",
+          "type": "reference",
+          "canonical": "Michigan v. Long, 463 U. S. 1032, 1041 (1983)."
+        },
+        {
+          "start": 680,
+          "end": 725,
+          "text": "Florida v. Powell, 559 U. S. 50, 56–57 (2010)",
+          "type": "reference",
+          "canonical": "Florida v. Powell, 559 U. S. 50, 56–57 (2010)"
+        },
+        {
+          "start": 726,
+          "end": 765,
+          "text": "(quoting Long, 463 U. S., at 1040–1041)",
+          "type": "reference",
+          "canonical": "(quoting Long, 463 U. S., at 1040–1041)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[we]re",
+          "to": "were"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1640,
+          "end": 2016
+        }
+      ],
+      "citations": [
+        {
+          "start": 176,
+          "end": 258,
+          "text": "See, e.g., Capital Cities Media, Inc. v. Toole, 466 U. S. 378 (1984) (per curiam).",
+          "type": "reference",
+          "canonical": "See, e.g., Capital Cities Media, Inc. v. Toole, 466 U. S. 378 (1984) (per curiam)."
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 640,
+      "end": 649,
+      "expectedText": "evid ence",
+      "text": "evidence"
+    },
+    {
+      "page": 0,
+      "start": 1051,
+      "end": 1070,
+      "expectedText": "self-i ncrimination",
+      "text": "self-incrimination"
+    },
+    {
+      "page": 0,
+      "start": 1736,
+      "end": 1743,
+      "expectedText": "identi-",
+      "text": "identi"
+    },
+    {
+      "page": 1,
+      "start": 561,
+      "end": 567,
+      "expectedText": "hire d",
+      "text": "hired"
+    },
+    {
+      "page": 1,
+      "start": 1542,
+      "end": 1551,
+      "expectedText": "c lient’s",
+      "text": "client’s"
+    },
+    {
+      "page": 2,
+      "start": 640,
+      "end": 645,
+      "expectedText": "th is",
+      "text": "this"
+    },
+    {
+      "page": 2,
+      "start": 895,
+      "end": 904,
+      "expectedText": "crimi nal",
+      "text": "criminal"
+    },
+    {
+      "page": 2,
+      "start": 2033,
+      "end": 2038,
+      "expectedText": "Rob -",
+      "text": "Rob"
+    },
+    {
+      "page": 0,
+      "start": 455,
+      "end": 467,
+      "expectedText": "dis-\nsenting",
+      "text": "dissenting"
+    },
+    {
+      "page": 0,
+      "start": 609,
+      "end": 618,
+      "expectedText": "com-\nment",
+      "text": "comment"
+    },
+    {
+      "page": 0,
+      "start": 845,
+      "end": 857,
+      "expectedText": "con-\nviction",
+      "text": "conviction"
+    },
+    {
+      "page": 0,
+      "start": 902,
+      "end": 912,
+      "expectedText": "deci-\nsion",
+      "text": "decision"
+    },
+    {
+      "page": 0,
+      "start": 1201,
+      "end": 1210,
+      "expectedText": "re-\nverse",
+      "text": "reverse"
+    },
+    {
+      "page": 0,
+      "start": 1331,
+      "end": 1339,
+      "expectedText": "dur-\ning",
+      "text": "during"
+    },
+    {
+      "page": 1,
+      "start": 532,
+      "end": 542,
+      "expectedText": "pre-\ntrial",
+      "text": "pretrial"
+    },
+    {
+      "page": 1,
+      "start": 591,
+      "end": 600,
+      "expectedText": "Jack-\nson",
+      "text": "Jackson"
+    },
+    {
+      "page": 1,
+      "start": 888,
+      "end": 898,
+      "expectedText": "in-\nserted",
+      "text": "inserted"
+    },
+    {
+      "page": 1,
+      "start": 946,
+      "end": 957,
+      "expectedText": "pur-\nported",
+      "text": "purported"
+    },
+    {
+      "page": 1,
+      "start": 1509,
+      "end": 1524,
+      "expectedText": "im-\npermissibly",
+      "text": "impermissibly"
+    },
+    {
+      "page": 1,
+      "start": 1568,
+      "end": 1577,
+      "expectedText": "tes-\ntify",
+      "text": "testify"
+    },
+    {
+      "page": 1,
+      "start": 1628,
+      "end": 1639,
+      "expectedText": "ex-\nplained",
+      "text": "explained"
+    },
+    {
+      "page": 1,
+      "start": 1869,
+      "end": 1880,
+      "expectedText": "de-\npending",
+      "text": "depending"
+    },
+    {
+      "page": 2,
+      "start": 257,
+      "end": 266,
+      "expectedText": "be-\ncause",
+      "text": "because"
+    },
+    {
+      "page": 2,
+      "start": 314,
+      "end": 325,
+      "expectedText": "com-\nmented",
+      "text": "commented"
+    },
+    {
+      "page": 2,
+      "start": 724,
+      "end": 738,
+      "expectedText": "Constitu-\ntion",
+      "text": "Constitution"
+    },
+    {
+      "page": 2,
+      "start": 786,
+      "end": 800,
+      "expectedText": "Consti-\ntution",
+      "text": "Constitution"
+    },
+    {
+      "page": 2,
+      "start": 1035,
+      "end": 1047,
+      "expectedText": "defend -\nant",
+      "text": "defendant"
+    },
+    {
+      "page": 2,
+      "start": 1333,
+      "end": 1345,
+      "expectedText": "defend -\nant",
+      "text": "defendant"
+    },
+    {
+      "page": 2,
+      "start": 1398,
+      "end": 1410,
+      "expectedText": "com-\npulsory",
+      "text": "compulsory"
+    },
+    {
+      "page": 2,
+      "start": 1518,
+      "end": 1529,
+      "expectedText": "defend-\nant",
+      "text": "defendant"
+    },
+    {
+      "page": 2,
+      "start": 1641,
+      "end": 1652,
+      "expectedText": "vio-\nlation",
+      "text": "violation"
+    },
+    {
+      "page": 2,
+      "start": 1789,
+      "end": 1803,
+      "expectedText": "in -\nterpreted",
+      "text": "interpreted"
+    },
+    {
+      "page": 2,
+      "start": 1913,
+      "end": 1926,
+      "expectedText": "in-\nterpreted",
+      "text": "interpreted"
+    },
+    {
+      "page": 3,
+      "start": 141,
+      "end": 153,
+      "expectedText": "substi-\ntute",
+      "text": "substitute"
+    },
+    {
+      "page": 3,
+      "start": 330,
+      "end": 339,
+      "expectedText": "com-\nment",
+      "text": "comment"
+    },
+    {
+      "page": 3,
+      "start": 629,
+      "end": 638,
+      "expectedText": "Ap-\npeals",
+      "text": "Appeals"
+    },
+    {
+      "page": 3,
+      "start": 686,
+      "end": 698,
+      "expectedText": "certio-\nrari",
+      "text": "certiorari"
+    },
+    {
+      "page": 3,
+      "start": 774,
+      "end": 783,
+      "expectedText": "Al-\nabama",
+      "text": "Alabama"
+    },
+    {
+      "page": 3,
+      "start": 882,
+      "end": 893,
+      "expectedText": "along-\nside",
+      "text": "alongside"
+    },
+    {
+      "page": 3,
+      "start": 1189,
+      "end": 1201,
+      "expectedText": "sit-\nuations",
+      "text": "situations"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 43,
+      "end": 85,
+      "text": "2 ALABAMA v. POWELL \nALITO, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 2,
+      "start": 29,
+      "end": 85,
+      "text": "3  Cite as: 608 U. S. ____ (2026) \nALITO, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 3,
+      "start": 44,
+      "end": 86,
+      "text": "4 ALABAMA v. POWELL \nALITO, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Clarence Thomas"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

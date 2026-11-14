@@ -1,0 +1,156 @@
+{
+  "reviewed": true,
+  "documentId": "25-180-afa3da8082f3--1-0",
+  "sourceDocumentId": "25-180-afa3da8082f3",
+  "sourceTextPath": "dist/data/docs/25-180-afa3da8082f3.json",
+  "sourceTextSha256": "c890451bb8ae2d9196483711e8360d44257047111e091b9e2e08a10d4a5a44e8",
+  "sourcePdfPath": "dist/data/pdfs/25-180-afa3da8082f3--1-0.pdf",
+  "sourcePdfSha256": "451cc0ddd8727f222b6d7de87ac731b30c0d0c5da9e5439d82d00de9ba6eadef",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2025-12-08",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r03_1o23.pdf",
+  "sourceRange": {
+    "startPage": 1,
+    "startOffset": 730,
+    "endPage": 2,
+    "endOffset": 164
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 730,
+          "end": 1608
+        }
+      ],
+      "citations": [
+        {
+          "start": 96,
+          "end": 149,
+          "text": "La. Rev. Stat. Ann. § 29:771(B)(2)(c)(i) (West 2022).",
+          "type": "statute",
+          "canonical": "La. Rev. Stat. Ann. § 29:771"
+        },
+        {
+          "start": 251,
+          "end": 373,
+          "text": "2024–0723, pp. 11–12 (1 Cir. 12/27/24), 404 So. 3d 1008, 1017–1018, writ denied, 2025–00105 (La. 4/29/25), 407 So. 3d 623.",
+          "type": "record",
+          "canonical": "2024–0723, pp. 11–12 (1 Cir. 12/27/24), 404 So. 3d 1008, 1017–1018, writ denied, 2025–00105 (La. 4/29/25), 407 So. 3d 623."
+        },
+        {
+          "start": 553,
+          "end": 698,
+          "text": "See, e. g., Howlett v. Rose, 496 U. S. 356, 383 (1990); Haywood v. Drown, 556 U. S. 729, 740 (2009); Williams v. Reed, 604 U. S. 168, 174 (2025).",
+          "type": "case",
+          "canonical": "496 U.S. 356"
+        },
+        {
+          "start": 848,
+          "end": 877,
+          "text": "U. S. Const., Art. VI, cl. 2.",
+          "type": "statute",
+          "canonical": "U.S. Const. art. VI, cl. 2"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1608,
+          "end": 1900
+        },
+        {
+          "page": 2,
+          "start": 51,
+          "end": 164
+        }
+      ],
+      "citations": [
+        {
+          "start": 67,
+          "end": 132,
+          "text": "Cf. Cummings v. Premier Rehab Keller , 596 U. S. 212, 222 (2022).",
+          "type": "case",
+          "canonical": "596 U.S. 212"
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 1900,
+      "end": 1930,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 51,
+      "text": "12 DOE v. DYNAMIC PHYSICAL THERAPY, LLC\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 1133,
+      "end": 1140,
+      "expectedText": "Defning",
+      "text": "Defining"
+    },
+    {
+      "page": 1,
+      "start": 1796,
+      "end": 1800,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 1,
+      "start": 320,
+      "end": 332,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 1,
+      "start": 953,
+      "end": 965,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 1,
+      "start": 1608,
+      "end": 1620,
+      "expectedText": "Plaintiff 's",
+      "text": "Plaintiff's"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read the complete per-curiam opinion and checked its source PDF, separating the preceding syllabus and trailing Reporter note. Preserved the federal/state-law distinction, quoted Supremacy Clause words, reservation that federal claims may fail on federal grounds, and full disposition. No substantive notes; exact source-only omissions and extraction ligature/possessive-space repairs."
+}

@@ -1,0 +1,1906 @@
+{
+  "reviewed": true,
+  "documentId": "26A124-7f09f51afb97--2-500",
+  "sourceDocumentId": "26A124-7f09f51afb97",
+  "sourceTextPath": "dist/data/docs/26A124-7f09f51afb97.json",
+  "sourceTextSha256": "df04f0e2fbd027a0477e4a41ec7bb34c5b7243ebeb91e1882650ffeb2fa8c7bd",
+  "sourcePdfPath": "recordings/sources/14d9eade66ac72c7f1fd0577.pdf",
+  "sourcePdfSha256": "14d9eade66ac72c7f1fd0577adff6245e72d034e917223ec296e785eeaee4868",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-08-24",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r69_11o2.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 512,
+    "endPage": 11,
+    "endOffset": 812
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 512,
+          "end": 1337
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1337,
+          "end": 1338
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1339,
+          "end": 1776
+        }
+      ],
+      "citations": [
+        {
+          "start": 126,
+          "end": 179,
+          "text": "See Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026).",
+          "type": "record",
+          "canonical": "See Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1776,
+          "end": 1954
+        },
+        {
+          "page": 3,
+          "start": 36,
+          "end": 355
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 7,
+          "end": 13,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 147,
+          "end": 152,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        },
+        {
+          "start": 312,
+          "end": 317,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        },
+        {
+          "start": 476,
+          "end": 496,
+          "text": "Id., at 17125–17126.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "List[s]",
+          "to": "Lists"
+        },
+        {
+          "from": "[t]o",
+          "to": "to"
+        },
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2(a)"
+        },
+        {
+          "from": "U. S.",
+          "to": "U S"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 355,
+          "end": 576
+        }
+      ],
+      "citations": [
+        {
+          "start": 8,
+          "end": 14,
+          "text": "§ 2(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 207,
+          "end": 221,
+          "text": "Id., at 17126.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2(b)",
+          "to": "Section 2(b)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 576,
+          "end": 919
+        }
+      ],
+      "citations": [
+        {
+          "start": 7,
+          "end": 13,
+          "text": "§ 3(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 3(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 124,
+          "end": 129,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        },
+        {
+          "start": 237,
+          "end": 242,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        },
+        {
+          "start": 323,
+          "end": 343,
+          "text": "Id., at 17126–17127.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[p]roposed",
+          "to": "proposed"
+        },
+        {
+          "from": "§ 3(b)",
+          "to": "Section 3(b)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 919,
+          "end": 1016
+        }
+      ],
+      "citations": [
+        {
+          "start": 82,
+          "end": 96,
+          "text": "Id., at 17127.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1016,
+          "end": 1671
+        }
+      ],
+      "citations": [
+        {
+          "start": 195,
+          "end": 205,
+          "text": "§§ 2 and 3",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, §§ 2–3",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 494,
+          "end": 504,
+          "text": "§§ 2 and 3",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, §§ 2–3",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2",
+          "to": "Section 2"
+        },
+        {
+          "from": "§§ 2 and 3",
+          "to": "Sections 2 and 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1671,
+          "end": 2031
+        },
+        {
+          "page": 4,
+          "start": 47,
+          "end": 161
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 166,
+          "end": 211,
+          "text": "See Trump v. Cook, 609 U. S. 528, 541 (2026).",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 299,
+          "end": 308,
+          "text": "See ibid.",
+          "type": "record",
+          "canonical": "See ibid."
+        },
+        {
+          "start": 431,
+          "end": 473,
+          "text": "Nken v. Holder, 556 U. S. 418, 434 (2009).",
+          "type": "case",
+          "canonical": "556 U.S. 418"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1741,
+          "end": 1861
+        }
+      ],
+      "citations": [
+        {
+          "start": 87,
+          "end": 120,
+          "text": "Trump v. Cook, 609 U. S., at 541.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 163,
+          "end": 165
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 166,
+          "end": 322
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 322,
+          "end": 979
+        }
+      ],
+      "citations": [
+        {
+          "start": 199,
+          "end": 240,
+          "text": "Carney v. Adams, 592 U. S. 53, 60 (2020).",
+          "type": "case",
+          "canonical": "592 U.S. 53"
+        },
+        {
+          "start": 435,
+          "end": 494,
+          "text": "Trump v. New York, 592 U. S. 125, 131 (2020) (per curiam ).",
+          "type": "case",
+          "canonical": "592 U.S. 125"
+        },
+        {
+          "start": 603,
+          "end": 656,
+          "text": "TransUnion LLC v. Ramirez, 594 U. S. 413, 431 (2021).",
+          "type": "case",
+          "canonical": "594 U.S. 413"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 979,
+          "end": 980
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 981,
+          "end": 1393
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 12,
+          "text": "Section 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 294,
+          "end": 331,
+          "text": "Trump v. New York, 592 U. S., at 134.",
+          "type": "case",
+          "canonical": "592 U.S. 125"
+        },
+        {
+          "start": 381,
+          "end": 411,
+          "text": "TransUnion, 594 U. S., at 442.",
+          "type": "case",
+          "canonical": "594 U.S. 413"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1393,
+          "end": 1739
+        },
+        {
+          "page": 5,
+          "start": 36,
+          "end": 509
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 136,
+          "end": 142,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 144,
+          "end": 185,
+          "text": "Trump v. New York, 592 U. S., at 133–134.",
+          "type": "case",
+          "canonical": "592 U.S. 125"
+        },
+        {
+          "start": 205,
+          "end": 217,
+          "text": "Section 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 305,
+          "end": 324,
+          "text": "91 Fed. Reg. 17125.",
+          "type": "record",
+          "canonical": "91 Fed. Reg. 17125."
+        },
+        {
+          "start": 498,
+          "end": 504,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 593,
+          "end": 630,
+          "text": "Trump v. New York, 592 U. S., at 131.",
+          "type": "case",
+          "canonical": "592 U.S. 125"
+        },
+        {
+          "start": 782,
+          "end": 794,
+          "text": "Id., at 133;",
+          "type": "case",
+          "canonical": "592 U.S. 125"
+        },
+        {
+          "start": 795,
+          "end": 818,
+          "text": "see 91 Fed. Reg. 17125.",
+          "type": "record",
+          "canonical": "see 91 Fed. Reg. 17125."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]o",
+          "to": "to"
+        },
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2(a)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 509,
+          "end": 1802
+        }
+      ],
+      "citations": [
+        {
+          "start": 120,
+          "end": 186,
+          "text": "Clapper v. Amnesty Int'l USA, 568 U. S. 398, 414–415, n. 5 (2013).",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        },
+        {
+          "start": 338,
+          "end": 357,
+          "text": "91 Fed. Reg. 17125.",
+          "type": "record",
+          "canonical": "91 Fed. Reg. 17125."
+        },
+        {
+          "start": 362,
+          "end": 368,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 433,
+          "end": 470,
+          "text": "Trump v. New York, 592 U. S., at 132.",
+          "type": "case",
+          "canonical": "592 U.S. 125"
+        },
+        {
+          "start": 589,
+          "end": 608,
+          "text": "91 Fed. Reg. 17125.",
+          "type": "record",
+          "canonical": "91 Fed. Reg. 17125."
+        },
+        {
+          "start": 710,
+          "end": 716,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 718,
+          "end": 723,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "592 U.S. 125"
+        },
+        {
+          "start": 864,
+          "end": 901,
+          "text": "Trump v. New York, 592 U. S., at 132.",
+          "type": "case",
+          "canonical": "592 U.S. 125"
+        },
+        {
+          "start": 1038,
+          "end": 1075,
+          "text": "Clapper, 568 U. S., at 414–415, n. 5.",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2(a)"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1802,
+          "end": 2091
+        },
+        {
+          "page": 6,
+          "start": 47,
+          "end": 523
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 103,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 179,
+          "end": 224,
+          "text": "App. to Application in No. 26A124, pp. 7a–8a.",
+          "type": "record",
+          "canonical": "App. to Application in No. 26A124, pp. 7a–8a."
+        },
+        {
+          "start": 392,
+          "end": 419,
+          "text": "Clapper, 568 U. S., at 416.",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        },
+        {
+          "start": 508,
+          "end": 514,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 550,
+          "end": 555,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        },
+        {
+          "start": 760,
+          "end": 765,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "water[ed]",
+          "to": "watered"
+        },
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2(a)"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 523,
+          "end": 1090
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 103,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 176,
+          "end": 182,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 306,
+          "end": 331,
+          "text": "91 Fed. Reg. 17125–17126.",
+          "type": "record",
+          "canonical": "91 Fed. Reg. 17125–17126."
+        },
+        {
+          "start": 516,
+          "end": 566,
+          "text": "Contra, App. to Application in No. 26A124, p. 13a.",
+          "type": "record",
+          "canonical": "Contra, App. to Application in No. 26A124, p. 13a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2(a)"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1090,
+          "end": 1091
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1092,
+          "end": 1658
+        }
+      ],
+      "citations": [
+        {
+          "start": 38,
+          "end": 44,
+          "text": "§ 2(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 274,
+          "end": 315,
+          "text": "91 Fed. Reg. 17126 (collecting statutes).",
+          "type": "record",
+          "canonical": "91 Fed. Reg. 17126 (collecting statutes)."
+        },
+        {
+          "start": 526,
+          "end": 564,
+          "text": "See TransUnion, 594 U. S., at 424–425.",
+          "type": "case",
+          "canonical": "594 U.S. 413"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2(b)",
+          "to": "Section 2(b)"
+        },
+        {
+          "from": "Article II",
+          "to": "Article Two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1658,
+          "end": 2020
+        },
+        {
+          "page": 7,
+          "start": 67,
+          "end": 836
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 96,
+          "end": 102,
+          "text": "§ 2(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 190,
+          "end": 196,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 198,
+          "end": 243,
+          "text": "See Opposition to Applications 21–22, 29– 30;",
+          "type": "record",
+          "canonical": "See Opposition to Applications 21–22, 29– 30;"
+        },
+        {
+          "start": 244,
+          "end": 301,
+          "text": "see also post, at 1043–1044 (Sotomayor , J., dissenting);",
+          "type": "case",
+          "canonical": "609 U.S. 1032"
+        },
+        {
+          "start": 302,
+          "end": 347,
+          "text": "post, at 1058–1059 (Jackson, J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. 1032"
+        },
+        {
+          "start": 395,
+          "end": 398,
+          "text": "§ 2",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 424,
+          "end": 430,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 526,
+          "end": 556,
+          "text": "Opposition to Applications 21.",
+          "type": "record",
+          "canonical": "Opposition to Applications 21."
+        },
+        {
+          "start": 612,
+          "end": 618,
+          "text": "§ 2(a)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(a)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 623,
+          "end": 629,
+          "text": "§ 2(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 658,
+          "end": 670,
+          "text": "Section 2(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 857,
+          "end": 876,
+          "text": "91 Fed. Reg. 17126.",
+          "type": "record",
+          "canonical": "91 Fed. Reg. 17126."
+        },
+        {
+          "start": 1059,
+          "end": 1131,
+          "text": "Virginia v. American Booksellers Assn., Inc., 484 U. S. 383, 393 (1988).",
+          "type": "case",
+          "canonical": "484 U.S. 383"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2(b)",
+          "to": "Section 2(b)"
+        },
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2(a)"
+        },
+        {
+          "from": "§ 2",
+          "to": "Section 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 836,
+          "end": 1638
+        }
+      ],
+      "citations": [
+        {
+          "start": 113,
+          "end": 150,
+          "text": "See Opposition to Applications 29–30.",
+          "type": "record",
+          "canonical": "See Opposition to Applications 29–30."
+        },
+        {
+          "start": 159,
+          "end": 165,
+          "text": "§ 2(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 258,
+          "end": 277,
+          "text": "91 Fed. Reg. 17126,",
+          "type": "record",
+          "canonical": "91 Fed. Reg. 17126,"
+        },
+        {
+          "start": 444,
+          "end": 456,
+          "text": "Section 7(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 7(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 479,
+          "end": 485,
+          "text": "§ 2(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 538,
+          "end": 552,
+          "text": "Id., at 17127.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        },
+        {
+          "start": 573,
+          "end": 579,
+          "text": "§ 2(b)",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 630,
+          "end": 644,
+          "text": "Id., at 17126.",
+          "type": "record",
+          "canonical": "Exec. Order No. 14399, 91 Fed. Reg. 17125 (2026)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2(b)",
+          "to": "Section 2(b)"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1638,
+          "end": 1639
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1640,
+          "end": 2125
+        },
+        {
+          "page": 8,
+          "start": 47,
+          "end": 184
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 33,
+          "end": 36,
+          "text": "§ 3",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 225,
+          "end": 262,
+          "text": "See Opposition to Applications 24–26;",
+          "type": "record",
+          "canonical": "See Opposition to Applications 24–26;"
+        },
+        {
+          "start": 263,
+          "end": 323,
+          "text": "see also post, at 1045, 1047, 1051 (opinion of Jackson, J.).",
+          "type": "case",
+          "canonical": "609 U.S. 1032"
+        },
+        {
+          "start": 337,
+          "end": 346,
+          "text": "Section 3",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 184,
+          "end": 1693
+        }
+      ],
+      "citations": [
+        {
+          "start": 164,
+          "end": 201,
+          "text": "Clapper, 568 U. S., at 414–415, n. 5.",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        },
+        {
+          "start": 526,
+          "end": 586,
+          "text": "Cf. Perez v. Mortgage Bankers Assn., 575 U. S. 92, 96 (2015)",
+          "type": "case",
+          "canonical": "575 U.S. 92"
+        },
+        {
+          "start": 754,
+          "end": 823,
+          "text": "See Long Island Care at Home, Ltd. v. Coke, 551 U. S. 158, 175 (2007)",
+          "type": "case",
+          "canonical": "551 U.S. 158"
+        },
+        {
+          "start": 1014,
+          "end": 1077,
+          "text": "Cf. Encino Motorcars, LLC v. Navarro, 579 U. S. 211, 218 (2016)",
+          "type": "case",
+          "canonical": "579 U.S. 211"
+        },
+        {
+          "start": 1480,
+          "end": 1517,
+          "text": "Trump v. New York, 592 U. S., at 131.",
+          "type": "case",
+          "canonical": "592 U.S. 125"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1693,
+          "end": 2113
+        },
+        {
+          "page": 9,
+          "start": 36,
+          "end": 302
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 243,
+          "text": "Clapper, 568 U. S., at 416.",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        },
+        {
+          "start": 478,
+          "end": 483,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "568 U.S. 398"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "incu[r]",
+          "to": "incur"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 302,
+          "end": 305
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 306,
+          "end": 911
+        }
+      ],
+      "citations": [
+        {
+          "start": 222,
+          "end": 365,
+          "text": "See INS v. Legalization Assistance Project of Los Angeles County Federation of Labor , 510 U. S. 1301, 1306 (1993) (O'Connor, J., in chambers).",
+          "type": "case",
+          "canonical": "510 U.S. 1301"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1195,
+          "end": 2247
+        }
+      ],
+      "citations": [
+        {
+          "start": 156,
+          "end": 201,
+          "text": "See post, at 1044 (opinion of Sotomayor, J.).",
+          "type": "case",
+          "canonical": "609 U.S. 1032"
+        },
+        {
+          "start": 395,
+          "end": 400,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "609 U.S. 1032"
+        },
+        {
+          "start": 540,
+          "end": 545,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "609 U.S. 1032"
+        },
+        {
+          "start": 625,
+          "end": 628,
+          "text": "§ 2",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 705,
+          "end": 708,
+          "text": "§ 2",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 807,
+          "end": 810,
+          "text": "§ 2",
+          "type": "regulation",
+          "canonical": "Exec. Order No. 14399, § 2",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 829,
+          "end": 898,
+          "text": "Final Judgment in No. 1:26–cv–11581 (D Mass.), ECF Doc. 207, pp. 2–4.",
+          "type": "record",
+          "canonical": "Final Judgment in No. 1:26–cv–11581 (D Mass.), ECF Doc. 207, pp. 2–4."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2",
+          "to": "Section 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 912,
+          "end": 1193
+        },
+        {
+          "page": 10,
+          "start": 47,
+          "end": 386
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 331,
+          "end": 412,
+          "text": "Coleman v. Paccar Inc., 424 U. S. 1301, 1307 (1976) (Rehnquist, J., in chambers).",
+          "type": "case",
+          "canonical": "424 U.S. 1301"
+        },
+        {
+          "start": 521,
+          "end": 619,
+          "text": "Trump v. CASA, Inc., 606 U. S. 831, 859 (2025) (alterations and internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 386,
+          "end": 1093
+        }
+      ],
+      "citations": [
+        {
+          "start": 210,
+          "end": 224,
+          "text": "Post, at 1051.",
+          "type": "case",
+          "canonical": "609 U.S. 1032"
+        },
+        {
+          "start": 469,
+          "end": 493,
+          "text": "CASA, 606 U. S., at 860.",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        },
+        {
+          "start": 654,
+          "end": 706,
+          "text": "Legalization Assistance Project, 510 U. S., at 1306.",
+          "type": "case",
+          "canonical": "510 U.S. 1301"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1093,
+          "end": 1404
+        }
+      ],
+      "citations": [
+        {
+          "start": 100,
+          "end": 124,
+          "text": "CASA, 606 U. S., at 861.",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1410,
+          "end": 1891
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 51,
+          "end": 812
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 1954,
+      "end": 1984,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 36,
+      "text": "1034 TRUMP v. CALIFORNIA\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 2031,
+      "end": 2061,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 47,
+      "text": "Cite as: 609 U. S. 1032 (2026) 1035\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 161,
+      "end": 163,
+      "text": "1\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 1739,
+      "end": 1741,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 1861,
+      "end": 1891,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 36,
+      "text": "1036 TRUMP v. CALIFORNIA\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 2091,
+      "end": 2121,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 47,
+      "text": "Cite as: 609 U. S. 1032 (2026) 1037\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2020,
+      "end": 2050,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 67,
+      "text": "Page Proof Pending Publication\n1038 TRUMP v. CALIFORNIA\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 47,
+      "text": "Cite as: 609 U. S. 1032 (2026) 1039\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 2113,
+      "end": 2143,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 36,
+      "text": "1040 TRUMP v. CALIFORNIA\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 911,
+      "end": 912,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1193,
+      "end": 1195,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2247,
+      "end": 2277,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 47,
+      "text": "Cite as: 609 U. S. 1032 (2026) 1041\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1404,
+      "end": 1410,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1891,
+      "end": 1921,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 51,
+      "text": "1042 TRUMP v. CALIFORNIA\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 1345,
+      "end": 1348,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 2,
+      "start": 1431,
+      "end": 1440,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 3,
+      "start": 489,
+      "end": 497,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 3,
+      "start": 887,
+      "end": 891,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 3,
+      "start": 1125,
+      "end": 1129,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 1455,
+      "end": 1459,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 4,
+      "start": 176,
+      "end": 180,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 4,
+      "start": 1800,
+      "end": 1810,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 5,
+      "start": 110,
+      "end": 118,
+      "expectedText": "qualifer",
+      "text": "qualifier"
+    },
+    {
+      "page": 5,
+      "start": 360,
+      "end": 366,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 5,
+      "start": 715,
+      "end": 719,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 5,
+      "start": 2081,
+      "end": 2090,
+      "expectedText": "inficting",
+      "text": "inflicting"
+    },
+    {
+      "page": 6,
+      "start": 1563,
+      "end": 1569,
+      "expectedText": "infict",
+      "text": "inflict"
+    },
+    {
+      "page": 7,
+      "start": 217,
+      "end": 221,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 7,
+      "start": 1003,
+      "end": 1009,
+      "expectedText": "defnes",
+      "text": "defines"
+    },
+    {
+      "page": 7,
+      "start": 1039,
+      "end": 1047,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 7,
+      "start": 1581,
+      "end": 1589,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 8,
+      "start": 59,
+      "end": 63,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 8,
+      "start": 245,
+      "end": 252,
+      "expectedText": "inficts",
+      "text": "inflicts"
+    },
+    {
+      "page": 8,
+      "start": 411,
+      "end": 415,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 8,
+      "start": 515,
+      "end": 518,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 8,
+      "start": 545,
+      "end": 549,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 8,
+      "start": 834,
+      "end": 844,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 8,
+      "start": 921,
+      "end": 925,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 8,
+      "start": 1170,
+      "end": 1174,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 8,
+      "start": 1272,
+      "end": 1276,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 8,
+      "start": 1444,
+      "end": 1448,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 8,
+      "start": 1793,
+      "end": 1801,
+      "expectedText": "fnalizes",
+      "text": "finalizes"
+    },
+    {
+      "page": 8,
+      "start": 2030,
+      "end": 2034,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 8,
+      "start": 2088,
+      "end": 2092,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 9,
+      "start": 121,
+      "end": 125,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 9,
+      "start": 244,
+      "end": 248,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 10,
+      "start": 277,
+      "end": 285,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 10,
+      "start": 1392,
+      "end": 1396,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 11,
+      "start": 1707,
+      "end": 1715,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 11,
+      "start": 1910,
+      "end": 1918,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 8,
+      "start": 2109,
+      "end": 2112,
+      "expectedText": "hy-",
+      "text": "hy"
+    },
+    {
+      "page": 4,
+      "start": 1735,
+      "end": 1738,
+      "expectedText": "ex-",
+      "text": "ex"
+    },
+    {
+      "page": 6,
+      "start": 1621,
+      "end": 1633,
+      "expectedText": "Trans-\nUnion",
+      "text": "TransUnion"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete ten-page Court body and both substantive notes checked against cached original PDF pages 3–12. All quoted Executive Order constraints, hypothetical-injury reasoning, explanatory parentheticals, dissent response, final implementation-legality reservation and separate application dispositions retained. Only individually reviewed source-reference material omitted. Semantic Executive Order sections retained inline and spoken; separate dissents excluded.",
+  "aliases": [
+    "26A139-7f09f51afb97--2-500"
+  ]
+}

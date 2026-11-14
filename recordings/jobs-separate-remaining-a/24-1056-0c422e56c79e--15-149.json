@@ -1,0 +1,528 @@
+{
+  "reviewed": true,
+  "documentId": "24-1056-0c422e56c79e--15-149",
+  "sourceDocumentId": "24-1056-0c422e56c79e",
+  "sourceTextPath": "dist/data/docs/24-1056-0c422e56c79e.json",
+  "sourceTextSha256": "09be8eb57d39b0ebffdbd5651875c3728a18fd68899fb3545bacb8fb4676260d",
+  "sourcePdfPath": "dist/data/pdfs/24-1056-0c422e56c79e--15-149.pdf",
+  "sourcePdfSha256": "cb945e3a728ae8a02f9b4ccaa72780de07ca3bdad71244fcd714ba18b929aa8a",
+  "title": "Dissent",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-03-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r23_4g15.pdf",
+  "sourceRange": {
+    "startPage": 15,
+    "startOffset": 176,
+    "endPage": 18,
+    "endOffset": 392
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 176,
+          "end": 372
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 15,
+          "start": 372,
+          "end": 375
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 375,
+          "end": 1192
+        }
+      ],
+      "citations": [
+        {
+          "start": 595,
+          "end": 620,
+          "text": "18 U. S. C. \u00a7\u00a7 3583(e)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 3583",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "18 U. S. C. \u00a7\u00a7 3583(e)(3)",
+          "to": "Title 18, United States Code, Sections 3583, e, 3"
+        },
+        {
+          "from": "and (h)",
+          "to": "and h"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1192,
+          "end": 1709
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1709,
+          "end": 1713
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1713,
+          "end": 1829
+        },
+        {
+          "page": 16,
+          "start": 48,
+          "end": 829
+        }
+      ],
+      "citations": [
+        {
+          "start": 186,
+          "end": 207,
+          "text": "18 U. S. C. \u00a7 3583(e)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 3583",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 285,
+          "end": 294,
+          "text": "\u00a7 3553(a)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 3553",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 565,
+          "end": 585,
+          "text": "See \u00a7 3553(a)(2)(B).",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 3553"
+        },
+        {
+          "start": 693,
+          "end": 702,
+          "text": "See ibid.",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 3553"
+        },
+        {
+          "start": 878,
+          "end": 898,
+          "text": "See \u00a7 3553(a)(2)(C).",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 3553"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "18 U. S. C. \u00a7 3583(e)",
+          "to": "Title 18, United States Code, Section 3583, e"
+        },
+        {
+          "from": "\u00a7 3553(a)",
+          "to": "Section 3553, a"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1815,
+          "end": 2108
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 161,
+          "end": 182,
+          "text": "18 U. S. C. \u00a7 3553(a)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 3553",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 245,
+          "end": 292,
+          "text": "Brief for Petitioner 46 (emphasis in original).",
+          "type": "record",
+          "canonical": "Petitioner brief, p. 46"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "18 U. S. C. \u00a7 3553(a)",
+          "to": "Title 18, United States Code, Section 3553, a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 831,
+          "end": 1409
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1409,
+          "end": 1758
+        },
+        {
+          "page": 16,
+          "start": 1758,
+          "end": 1813
+        },
+        {
+          "page": 17,
+          "start": 56,
+          "end": 77
+        },
+        {
+          "page": 17,
+          "start": 77,
+          "end": 167
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 180,
+          "text": "\u00a7 7B1.1",
+          "type": "statute",
+          "canonical": "U.S. Sentencing Guidelines \u00a7 7B1.1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 349,
+          "end": 424,
+          "text": "United States Sentencing Commission, Guidelines Manual \u00a7 7B1.1 (Nov. 2023).",
+          "type": "reference",
+          "canonical": "U.S. Sentencing Guidelines \u00a7 7B1.1 (2023)"
+        },
+        {
+          "start": 425,
+          "end": 441,
+          "text": "Section 7B1.4(a)",
+          "type": "statute",
+          "canonical": "U.S. Sentencing Guidelines \u00a7 7B1.4",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 7B1.1",
+          "to": "Section 7, B, 1, point 1"
+        },
+        {
+          "from": "Section 7B1.4(a)",
+          "to": "Section 7, B, 1, point 4, a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 167,
+          "end": 626
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 626,
+          "end": 1116
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1116,
+          "end": 1555
+        }
+      ],
+      "citations": [
+        {
+          "start": 363,
+          "end": 372,
+          "text": "\u00a7 3553(a)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 3553",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 390,
+          "end": 439,
+          "text": "Rita v. United States, 551 U. S. 338, 351 (2007).",
+          "type": "case",
+          "canonical": "551 U.S. 338"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 3553(a)",
+          "to": "Section 3553, a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1555,
+          "end": 2070
+        },
+        {
+          "page": 18,
+          "start": 48,
+          "end": 195
+        }
+      ],
+      "citations": [
+        {
+          "start": 419,
+          "end": 446,
+          "text": "App. to Pet. for Cert. 35a.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 35a"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 18,
+          "start": 224,
+          "end": 392
+        }
+      ],
+      "label": "2",
+      "citations": [
+        {
+          "start": 34,
+          "end": 55,
+          "text": "see ante, at 622, n.,",
+          "type": "reference",
+          "canonical": "Court opinion, p. 622, note"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 197,
+          "end": 222
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 15,
+      "start": 1829,
+      "end": 1859,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 48,
+      "text": "624 RICO v. UNITED STATES\nAlito, J., dissenting\n",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    },
+    {
+      "page": 16,
+      "start": 829,
+      "end": 831,
+      "text": "1\n",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    },
+    {
+      "page": 16,
+      "start": 1813,
+      "end": 1815,
+      "text": "1 ",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    },
+    {
+      "page": 16,
+      "start": 2108,
+      "end": 2138,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 609 (2026) 625\nAlito, J., dissenting\n",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    },
+    {
+      "page": 17,
+      "start": 2070,
+      "end": 2100,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 48,
+      "text": "626 RICO v. UNITED STATES\nAlito, J., dissenting\n",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    },
+    {
+      "page": 18,
+      "start": 195,
+      "end": 197,
+      "text": "2\n",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    },
+    {
+      "page": 18,
+      "start": 222,
+      "end": 224,
+      "text": "2 ",
+      "reason": "Running author/page header, publication footer or footnote marker; substantive note retained separately."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 15,
+      "start": 614,
+      "end": 620,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 15,
+      "start": 698,
+      "end": 704,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 15,
+      "start": 1180,
+      "end": 1190,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 15,
+      "start": 1277,
+      "end": 1281,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 16,
+      "start": 642,
+      "end": 650,
+      "expectedText": "confning",
+      "text": "confining"
+    },
+    {
+      "page": 17,
+      "start": 103,
+      "end": 117,
+      "expectedText": "recom -\nmended",
+      "text": "recommended"
+    },
+    {
+      "page": 17,
+      "start": 1471,
+      "end": 1477,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 18,
+      "start": 215,
+      "end": 220,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 18,
+      "start": 312,
+      "end": 317,
+      "expectedText": "affrm",
+      "text": "affirm"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

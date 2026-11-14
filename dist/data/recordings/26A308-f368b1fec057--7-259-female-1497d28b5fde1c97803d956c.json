@@ -1,0 +1,1845 @@
+{
+  "version": "8d795ae5b9b25f8a",
+  "duration": 1223.425,
+  "voice": "af_sky",
+  "audioSha256": "0247594e77e7ed676e66ee0c3abfecb687861e239069c6512417647320ff714d",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 13.84,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 342,
+          "end": 536
+        }
+      ],
+      "text": "Since 2005, States have used a Department of Homeland Security (DHS) database called Systematic Alien Verification for Entitlements (SAVE) to ensure that registered voters are American citizens."
+    },
+    {
+      "start": 13.84,
+      "end": 19.58,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 537,
+          "end": 622
+        }
+      ],
+      "text": "For most of its life, SAVE consisted almost entirely of immigration records from DHS."
+    },
+    {
+      "start": 19.58,
+      "end": 32.52,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 624,
+          "end": 796
+        }
+      ],
+      "text": "In 2025, however, DHS and the Social Security Administration (SSA) decided to connect SSA’s database of master files, including all its sensitive information, to SAVE."
+    },
+    {
+      "start": 32.52,
+      "end": 45.76,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 797,
+          "end": 1018
+        }
+      ],
+      "text": "A group of organizations sued, arguing that the modifications to SAVE violated various federal privacy laws, and that the staleness of SSA’s citizenship records risked disenfranchising recently naturalized U. S. citizens."
+    },
+    {
+      "start": 45.76,
+      "end": 51.81,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1020,
+          "end": 1107
+        }
+      ],
+      "text": "After months of litigation, the District Court agreed and vacated the modifications."
+    },
+    {
+      "start": 51.81,
+      "end": 56.88,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1108,
+          "end": 1205
+        }
+      ],
+      "text": "The D. C. Circuit denied a stay of the District Court’s order while reviewing the pending appeal."
+    },
+    {
+      "start": 56.88,
+      "end": 66.54,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1207,
+          "end": 1380
+        }
+      ],
+      "text": "But, without full briefing or oral argument, this Court now grants one—rendering questionable interim rulings about two statutory provisions it has never before interpreted."
+    },
+    {
+      "start": 66.54,
+      "end": 78.14,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1382,
+          "end": 1594
+        }
+      ],
+      "text": "The Court also focuses only on the harms the Government will purportedly suffer absent a stay, disregarding the harms that the modified SAVE system has caused, and will likely continue to cause, to lawful voters."
+    },
+    {
+      "start": 78.14,
+      "end": 81.62,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1595,
+          "end": 1639
+        }
+      ],
+      "text": "The Court thus misuses its equitable powers."
+    },
+    {
+      "start": 81.62,
+      "end": 84.465,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1640,
+          "end": 1676
+        }
+      ],
+      "text": "Accordingly, I respectfully dissent."
+    },
+    {
+      "start": 84.465,
+      "end": 94.54,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 88,
+          "end": 249
+        }
+      ],
+      "text": "SAVE is a database that “provides point in time immigration status and U. S. citizenship information to federal, state, local, territorial, and tribal agencies.”"
+    },
+    {
+      "start": 94.54,
+      "end": 105.18,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 311,
+          "end": 491
+        }
+      ],
+      "text": "It was created in 1986 to help States verify eligibility for federally funded benefits like Medicaid and food stamps, which are typically limited to citizens and lawful immigrants."
+    },
+    {
+      "start": 105.18,
+      "end": 109.54,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 631,
+          "end": 701
+        }
+      ],
+      "text": "Since 2005, States have used SAVE for voter-verification purposes too."
+    },
+    {
+      "start": 109.54,
+      "end": 114.62,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 727,
+          "end": 783
+        }
+      ],
+      "text": "Twenty-seven States currently use SAVE for that purpose."
+    },
+    {
+      "start": 114.62,
+      "end": 130.12,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 791,
+          "end": 1025
+        }
+      ],
+      "text": "Until 2025, SAVE did not have access to natural-born citizens’ records, and it only accessed immigration and naturalization records in DHS’s systems (and occasionally, in systems at the State Department and the Department of Justice)."
+    },
+    {
+      "start": 130.12,
+      "end": 136.0,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1026,
+          "end": 1134
+        }
+      ],
+      "text": "Users could also only conduct individual searches, usually by way of a person’s alien-identification number."
+    },
+    {
+      "start": 136.0,
+      "end": 154.14,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1175,
+          "end": 1440
+        }
+      ],
+      "text": "In 2025, however, President Trump signed an Executive Order purporting to target voting by noncitizens in federal elections that, among other things, directed SSA to share its databases with state and local election officials for the purposes of voter verification."
+    },
+    {
+      "start": 154.14,
+      "end": 171.58,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1441,
+          "end": 1718
+        }
+      ],
+      "text": "The Order required this information-sharing even though the Social Security Act dictates that “social security account numbers and related records... shall be confidential, and no authorized person shall disclose any such social security account number or related record.”"
+    },
+    {
+      "start": 171.58,
+      "end": 185.12,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1809,
+          "end": 1980
+        }
+      ],
+      "text": "To comply with the Executive Order, DHS and SSA agreed to overhaul SAVE and link SSA’s master social security files, which are held in a database called NUMIDENT, to SAVE."
+    },
+    {
+      "start": 185.12,
+      "end": 202.64,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1982,
+          "end": 2011
+        },
+        {
+          "page": 9,
+          "start": 58,
+          "end": 324
+        }
+      ],
+      "text": "NUMIDENT contains information about natural-born U. S. citizens as well as naturalized citizens and noncitizens—not just social security numbers (SSNs) but also “names, dates and places of birth, citizenship indicators, death records, and information obtained while processing requests for SSNs.”"
+    },
+    {
+      "start": 202.64,
+      "end": 211.34,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 350,
+          "end": 484
+        }
+      ],
+      "text": "With the modified SAVE system, a state user can submit bulk queries using full or partial SSNs as well as alien-identification numbers."
+    },
+    {
+      "start": 211.34,
+      "end": 224.465,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 503,
+          "end": 715
+        }
+      ],
+      "text": "If a query is inconclusive, a State might respond by asking the voter to provide proof of citizenship in order to remain registered, and it might strike the voter from the rolls if she fails to timely do so."
+    },
+    {
+      "start": 224.465,
+      "end": 231.08,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 733,
+          "end": 846
+        }
+      ],
+      "text": "Before the overhaul, DHS had recognized SAVE as the sort of database that was covered by the federal Privacy Act."
+    },
+    {
+      "start": 231.08,
+      "end": 242.64,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 847,
+          "end": 1038
+        }
+      ],
+      "text": "That Act requires agencies to publish a so-called system of records notice (SORN) anytime it “establishes” or “modifies” any system of records containing personal identifying information."
+    },
+    {
+      "start": 242.64,
+      "end": 251.78,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1065,
+          "end": 1239
+        }
+      ],
+      "text": "The agency is then prohibited from disclosing anyone’s information in the system without consent, unless (among other things) the disclosure is for a “routine use.”"
+    },
+    {
+      "start": 251.78,
+      "end": 262.67,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1253,
+          "end": 1401
+        }
+      ],
+      "text": "“At least 30 days prior” to adopting a new routine use, however, the Act requires that an agency publish a SORN and offer a 30-day comment period."
+    },
+    {
+      "start": 262.67,
+      "end": 269.72,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1417,
+          "end": 1540
+        }
+      ],
+      "text": "When DHS had modified SAVE in the past, it had published a timely SORN and complied with the Act’s comment requirements."
+    },
+    {
+      "start": 269.72,
+      "end": 276.4,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1579,
+          "end": 1651
+        }
+      ],
+      "text": "But this time, neither DHS nor SSA published a SORN or invited comments."
+    },
+    {
+      "start": 276.4,
+      "end": 283.37,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1652,
+          "end": 1740
+        }
+      ],
+      "text": "Instead, on May 22, 2025, they simply announced that the modified SAVE system was ready."
+    },
+    {
+      "start": 283.37,
+      "end": 298.34,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1761,
+          "end": 1925
+        },
+        {
+          "page": 10,
+          "start": 84,
+          "end": 170
+        }
+      ],
+      "text": "Several organizations (Respondents here) promptly sued DHS and SSA under the Administrative Procedure Act (APA), alleging that the SAVE modifications were arbitrary and capricious and violated the Privacy Act’s procedural and substantive requirements."
+    },
+    {
+      "start": 298.34,
+      "end": 310.62,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 246,
+          "end": 408
+        }
+      ],
+      "text": "In fall of 2025, DHS and SSA belatedly published SORNs that announced new “routine uses” covering the NUMIDENT information and offered a 30-day comment period."
+    },
+    {
+      "start": 310.62,
+      "end": 316.14,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 565,
+          "end": 647
+        }
+      ],
+      "text": "The SORNs claimed that the new routine uses would not go into effect for 30 days."
+    },
+    {
+      "start": 316.14,
+      "end": 325.55,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 671,
+          "end": 823
+        }
+      ],
+      "text": "But the modified SAVE system (which involved disclosures that were covered by the newly announced routine uses) had already been in operation since May."
+    },
+    {
+      "start": 325.55,
+      "end": 341.12,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 857,
+          "end": 1051
+        }
+      ],
+      "text": "So, Respondents filed an amended complaint, further alleging that the modifications to SAVE violated the Social Security Act’s confidentiality provision at Title 42, United States Code, Section 405, c, 2, c, 8, 1."
+    },
+    {
+      "start": 341.12,
+      "end": 361.86,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1116,
+          "end": 1408
+        }
+      ],
+      "text": "And they bolstered their Privacy Act claims, arguing that SSA’s disclosures of NUMIDENT information did not count as a “routine use” under the Act, and regardless, DHS and SSA had unlawfully failed to timely publish a SORN, or provide a public comment period, before sharing that information."
+    },
+    {
+      "start": 361.86,
+      "end": 379.935,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1428,
+          "end": 1684
+        }
+      ],
+      "text": "Respondents also claimed that outdated SSA data put some of their recently naturalized members at risk of either being deregistered to vote or having to verify their citizenship before being allowed to cast ballots in the 2026 primary or general elections."
+    },
+    {
+      "start": 379.935,
+      "end": 402.74,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1705,
+          "end": 2062
+        }
+      ],
+      "text": "The parties then litigated the case to summary judgment, where the Government asserted that a provision of the Illegal Immigration Reform and Immigrant Responsibility Act of 1996 (IIRIRA) gave DHS and SSA the authority to implement their modifications to SAVE regardless of the requirements of the Social Security Act and the Privacy Act."
+    },
+    {
+      "start": 402.74,
+      "end": 418.54,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 2063,
+          "end": 2100
+        },
+        {
+          "page": 11,
+          "start": 58,
+          "end": 281
+        }
+      ],
+      "text": "That statutory section provides that “notwithstanding any other provision of Federal, State, or local law,” no “government entity” or “official,” “person, or agency,” may “prohibit, or in any way restrict,” the exchange of citizenship information with DHS."
+    },
+    {
+      "start": 418.54,
+      "end": 426.04,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 297,
+          "end": 410
+        }
+      ],
+      "text": "It also obligates DHS to respond to state and local officials’ inquiries regarding a person’s citizenship status."
+    },
+    {
+      "start": 426.04,
+      "end": 442.96,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 421,
+          "end": 664
+        }
+      ],
+      "text": "The District Court rejected the Government’s argument that Section 1373 overrode the Social Security Act and the Privacy Act and granted summary judgment to Respondents, concluding that the modified SAVE system violated both laws, as well as the APA."
+    },
+    {
+      "start": 442.96,
+      "end": 446.96,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 709,
+          "end": 767
+        }
+      ],
+      "text": "The District Court then vacated the modifications to SAVE."
+    },
+    {
+      "start": 446.96,
+      "end": 461.795,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 782,
+          "end": 1120
+        }
+      ],
+      "text": "At that point, the Government sought a stay in the District Court, where it raised several new arguments about why the Social Security Act’s confidentiality provision did not apply to the modified SAVE system. (describing the Government’s arguments)."
+    },
+    {
+      "start": 461.795,
+      "end": 487.3,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1633,
+          "end": 2012
+        }
+      ],
+      "text": "Footnote 1: Specifically, the Government claimed that the confidentiality provision did not apply because the information disclosed through the modified SAVE system was collected pursuant to the original Social Security Act of 1935, and the confidentiality provision only restricted disclosures of information “obtained or maintained” pursuant to laws enacted “on or after October 1, 1990.”",
+      "footnote": "1"
+    },
+    {
+      "start": 487.3,
+      "end": 499.16,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 2070,
+          "end": 2248
+        }
+      ],
+      "text": "The Government also claimed that NUMIDENT records disclosed through the modified SAVE system did not count as “social security numbers or related records” under the provision.",
+      "footnote": "1"
+    },
+    {
+      "start": 499.16,
+      "end": 501.0,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 2261,
+          "end": 2262
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 501.0,
+      "end": 513.4,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1123,
+          "end": 1311
+        }
+      ],
+      "text": "The District Court denied the stay and refused to consider the forfeited arguments in that posture, but invited the Government to raise them via a Rule 52, b motion to reopen the judgment."
+    },
+    {
+      "start": 513.4,
+      "end": 517.1,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1335,
+          "end": 1404
+        }
+      ],
+      "text": "The Government did not take the District Court up on that invitation."
+    },
+    {
+      "start": 517.1,
+      "end": 538.7,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1405,
+          "end": 1624
+        },
+        {
+          "page": 12,
+          "start": 84,
+          "end": 247
+        }
+      ],
+      "text": "Instead, it requested an emergency stay from the D. C. Circuit, even though it was too late for States to use SAVE for systematic voter-list maintenance in advance of the 2026 elections. (prohibiting States from “systematically removing the names of ineligible voters” from their rolls during the 90 days prior to any primary or general election)."
+    },
+    {
+      "start": 538.7,
+      "end": 551.0,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1678,
+          "end": 1863
+        }
+      ],
+      "text": "Footnote 2: In fact, as the D. C. Circuit recognized, the Government had conceded that the “90-day limitation was ‘fatal’ to a claim of imminent harm premised on systematic voter-roll maintenance.”",
+      "footnote": "2"
+    },
+    {
+      "start": 551.0,
+      "end": 552.8,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1909,
+          "end": 1910
+        }
+      ],
+      "text": "End footnote 2.",
+      "transition": true,
+      "footnote": "2"
+    },
+    {
+      "start": 552.8,
+      "end": 557.85,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 251,
+          "end": 314
+        }
+      ],
+      "text": "A divided panel of the D. C. Circuit denied the requested stay."
+    },
+    {
+      "start": 557.85,
+      "end": 561.88,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 403,
+          "end": 474
+        }
+      ],
+      "text": "The Government now asks this Court to stay the District Court’s ruling."
+    },
+    {
+      "start": 561.88,
+      "end": 574.9,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 475,
+          "end": 702
+        }
+      ],
+      "text": "Per the oft-repeated stay factors, a stay applicant must demonstrate that it is “likely to succeed on the merits” of its appeal, that it will be “irreparably injured” absent a stay, and that the equities weigh in its favor."
+    },
+    {
+      "start": 574.9,
+      "end": 594.975,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 858,
+          "end": 1236
+        }
+      ],
+      "text": "The majority concludes that the Government has made the necessary “strong showing” of likely success on the merits, because two IIRIRA provisions that we have never before interpreted likely authorize the modifications to SAVE and displace any other statutory restrictions on the disclosure of citizenship information."
+    },
+    {
+      "start": 594.975,
+      "end": 602.2,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1913,
+          "end": 2024
+        }
+      ],
+      "text": "Footnote 3: The per curiam properly rejects the Government’s threshold argument that Respondents lack standing to sue.",
+      "footnote": "3"
+    },
+    {
+      "start": 602.2,
+      "end": 604.125,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 2077,
+          "end": 2078
+        }
+      ],
+      "text": "End footnote 3.",
+      "transition": true,
+      "footnote": "3"
+    },
+    {
+      "start": 604.125,
+      "end": 625.56,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1284,
+          "end": 1582
+        }
+      ],
+      "text": "As the majority sees things, Congress’s “prohibiting interference with the disclosure of information regarding citizenship status to DHS” in Sections 1373, a and, b “necessarily authorizes DHS to request and receive that information” from SSA, regardless of whether some other law prohibits disclosure."
+    },
+    {
+      "start": 625.56,
+      "end": 635.92,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1595,
+          "end": 1669
+        },
+        {
+          "page": 13,
+          "start": 58,
+          "end": 129
+        }
+      ],
+      "text": "The majority thus treats Section 1373 as essentially overriding the limits that privacy laws impose on the sharing of citizenship information with DHS."
+    },
+    {
+      "start": 635.92,
+      "end": 639.93,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 130,
+          "end": 275
+        }
+      ],
+      "text": "But that “back-of-the-napkin assessment” is implausible."
+    },
+    {
+      "start": 639.93,
+      "end": 644.02,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 276,
+          "end": 331
+        }
+      ],
+      "text": "For starters, the majority misreads the statutory text."
+    },
+    {
+      "start": 644.02,
+      "end": 662.78,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 332,
+          "end": 610
+        }
+      ],
+      "text": "Subsections 1373, a and, b bar “government entities or officials” (in Section 1373, a) and “persons or agencies” (in Section 1373, b) from “prohibiting, or in any way restricting,” the exchange of citizenship information with DHS, “notwithstanding any other provision” of law."
+    },
+    {
+      "start": 662.78,
+      "end": 666.2,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 612,
+          "end": 666
+        }
+      ],
+      "text": "These provisions do not affirmatively grant any power."
+    },
+    {
+      "start": 666.2,
+      "end": 669.9,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 668,
+          "end": 742
+        }
+      ],
+      "text": "Nor do they override any explicit statutory limits on information-sharing."
+    },
+    {
+      "start": 669.9,
+      "end": 680.68,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 744,
+          "end": 962
+        }
+      ],
+      "text": "Rather, both provisions bar government entities or employees from interfering with otherwise lawful exchanges of citizenship information, notwithstanding that such interference may be permitted under some other law."
+    },
+    {
+      "start": 680.68,
+      "end": 690.98,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 964,
+          "end": 1147
+        }
+      ],
+      "text": "When a law imposes an express restriction on disclosure, it is that law—not an “entity,” “official,” “person,” or “agency”—that is doing the “prohibiting” or “restricting.”"
+    },
+    {
+      "start": 690.98,
+      "end": 697.515,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1149,
+          "end": 1215
+        }
+      ],
+      "text": "Neither Section 1373, a nor b has anything to say in that circumstance."
+    },
+    {
+      "start": 697.515,
+      "end": 723.66,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1690,
+          "end": 2122
+        }
+      ],
+      "text": "Footnote 4: This means the “impossible predicament” that causes the majority angst—i.e., the problem of agencies being forced to choose between, on the one hand, “disclosing information consistent with section 1373 but in violation of legislation like the Social Security Act and Privacy Act” and, on the other, “withholding that information consistent with those Acts but in violation of section 1373,” —is no predicament at all.",
+      "footnote": "4"
+    },
+    {
+      "start": 723.66,
+      "end": 734.02,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 2123,
+          "end": 2277
+        }
+      ],
+      "text": "DHS and SSA may exchange information consistent with the Social Security and Privacy Acts, but may not exchange information in violation of those laws.",
+      "footnote": "4"
+    },
+    {
+      "start": 734.02,
+      "end": 735.845,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 2276,
+          "end": 2277
+        }
+      ],
+      "text": "End footnote 4.",
+      "transition": true,
+      "footnote": "4"
+    },
+    {
+      "start": 735.845,
+      "end": 740.06,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1217,
+          "end": 1280
+        }
+      ],
+      "text": "Statutory context confirms that this reading is the better one."
+    },
+    {
+      "start": 740.06,
+      "end": 747.48,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1281,
+          "end": 1402
+        }
+      ],
+      "text": "Another part of IIRIRA lets SSA respond to citizenship-status inquiries to verify an individual’s employment eligibility."
+    },
+    {
+      "start": 747.48,
+      "end": 759.12,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1557,
+          "end": 1681
+        },
+        {
+          "page": 14,
+          "start": 84,
+          "end": 116
+        }
+      ],
+      "text": "But those provisions put strict limits on what information SSA can disclose—limits that would be meaningless if Section 1373 means what the majority says it means."
+    },
+    {
+      "start": 759.12,
+      "end": 763.24,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 209,
+          "end": 260
+        }
+      ],
+      "text": "IIRIRA’s enactment history also supports this view."
+    },
+    {
+      "start": 763.24,
+      "end": 773.44,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 262,
+          "end": 422
+        }
+      ],
+      "text": "Section 1373 was passed to respond to a particular problem: state and local agencies refusing to cooperate with federal officials in enforcing immigration laws."
+    },
+    {
+      "start": 773.44,
+      "end": 781.52,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 506,
+          "end": 629
+        }
+      ],
+      "text": "The language Congress ultimately chose sweeps more broadly, insofar as it covers federal, state, and local officials alike."
+    },
+    {
+      "start": 781.52,
+      "end": 791.75,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 630,
+          "end": 787
+        }
+      ],
+      "text": "But there is no reason to believe that Congress meant to repeal laws that would otherwise prohibit federal agencies from disclosing citizenship information."
+    },
+    {
+      "start": 791.75,
+      "end": 797.02,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 788,
+          "end": 863
+        }
+      ],
+      "text": "Contemporaneous Executive Branch practice reflects this same understanding."
+    },
+    {
+      "start": 797.02,
+      "end": 816.25,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 865,
+          "end": 1172
+        }
+      ],
+      "text": "Addressing the provision at issue here, the Office of Legal Counsel once maintained that Section 1373, a does “not clearly invest governmental officials or entities with the affirmative authority to disclose information in circumstances where they otherwise would be prohibited from doing so by a federal statute.”"
+    },
+    {
+      "start": 816.25,
+      "end": 828.42,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1362,
+          "end": 1610
+        }
+      ],
+      "text": "Finally, “common sense” weighs in favor of this interpretation, because it harmonizes Sections 1373, a and, b with existing restrictions on disclosures of citizenship information."
+    },
+    {
+      "start": 828.42,
+      "end": 838.78,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1611,
+          "end": 1780
+        }
+      ],
+      "text": "Under the per curiam’s reading, by contrast, those provisions trump any such restrictions and give SSA the authority to share whatever citizenship information it wants."
+    },
+    {
+      "start": 838.78,
+      "end": 851.04,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1781,
+          "end": 1935
+        }
+      ],
+      "text": "In the three decades since Congress enacted IIRIRA, the Government has never invoked Section 1373 in that way—even as it has repeatedly refined the SAVE program."
+    },
+    {
+      "start": 851.04,
+      "end": 869.335,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1936,
+          "end": 2038
+        },
+        {
+          "page": 15,
+          "start": 58,
+          "end": 226
+        }
+      ],
+      "text": "And when an agency “ ‘claims to discover in a long-extant statute an unheralded power’ representing a ‘transformative expansion in its regulatory authority,’” this Court’s recent practice has been to ask for a clear statement, absent from Section 1373, conferring such a power."
+    },
+    {
+      "start": 869.335,
+      "end": 879.02,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 484,
+          "end": 615
+        }
+      ],
+      "text": "In response to all this, the per curiam just insists that its interpretation is required by another provision of IIRIRA: Section 1373, c."
+    },
+    {
+      "start": 879.02,
+      "end": 886.36,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 628,
+          "end": 756
+        }
+      ],
+      "text": "That provision plainly vests DHS with authority to respond to citizenship-status queries submitted by state and local agencies."
+    },
+    {
+      "start": 886.36,
+      "end": 894.64,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 780,
+          "end": 916
+        }
+      ],
+      "text": "But it does not empower SSA (or any other non-DHS agency) to do anything, let alone share information that other laws make confidential."
+    },
+    {
+      "start": 894.64,
+      "end": 907.22,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 917,
+          "end": 1068
+        }
+      ],
+      "text": "And even as to DHS, Section 1373, c does not contain the “clearly expressed congressional intention” necessary to displace other laws restricting disclosures."
+    },
+    {
+      "start": 907.22,
+      "end": 915.54,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1161,
+          "end": 1284
+        }
+      ],
+      "text": "In fact, just the opposite, insofar as that provision only authorizes disclosures “for... purposes authorized by law.”"
+    },
+    {
+      "start": 915.54,
+      "end": 929.06,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1295,
+          "end": 1485
+        }
+      ],
+      "text": "As a result, nothing in Section 1373 authorizes the modified SAVE system or overrides the provisions of the Social Security Act and the Privacy Act that Respondents say the Government has violated."
+    },
+    {
+      "start": 929.06,
+      "end": 939.065,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1486,
+          "end": 1649
+        }
+      ],
+      "text": "And the Government puts forward no nonforfeited arguments that the modifications to SAVE in fact complied with the Social Security Act’s confidentiality provision."
+    },
+    {
+      "start": 939.065,
+      "end": 952.0,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1751,
+          "end": 1947
+        }
+      ],
+      "text": "Footnote 5: Recall that the Government failed to argue, at the summary judgment stage, that the Social Security Act’s confidentiality provision did not apply to the modified SAVE system on its own terms.",
+      "footnote": "5"
+    },
+    {
+      "start": 952.0,
+      "end": 958.46,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1948,
+          "end": 2059
+        }
+      ],
+      "text": "Instead, the Government raised those arguments for the first time in its stay motion before the District Court.",
+      "footnote": "5"
+    },
+    {
+      "start": 958.46,
+      "end": 970.08,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 2077,
+          "end": 2184
+        },
+        {
+          "page": 16,
+          "start": 1191,
+          "end": 1290
+        }
+      ],
+      "text": "There is little reason to forgive such a forfeiture in the stay context, where the party asking this Court to exercise its equitable discretion is the party who failed to properly raise its arguments below.",
+      "footnote": "5"
+    },
+    {
+      "start": 970.08,
+      "end": 973.92,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1346,
+          "end": 1419
+        }
+      ],
+      "text": "(“He who seeks equity at the hands of the court must first do equity”).",
+      "footnote": "5"
+    },
+    {
+      "start": 973.92,
+      "end": 975.82,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1471,
+          "end": 1472
+        }
+      ],
+      "text": "End footnote 5.",
+      "transition": true,
+      "footnote": "5"
+    },
+    {
+      "start": 975.82,
+      "end": 987.595,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1736,
+          "end": 1742
+        },
+        {
+          "page": 16,
+          "start": 85,
+          "end": 270
+        }
+      ],
+      "text": "These are reasons enough to find that the Government is unlikely to succeed on the merits of its appeal, so I would not reach the Government’s arguments regarding the Privacy Act and the APA."
+    },
+    {
+      "start": 987.595,
+      "end": 1000.66,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1475,
+          "end": 1682
+        }
+      ],
+      "text": "Footnote 6: Notably, however, Respondents’ claim that the Government ignored the procedural requirements of the Privacy Act (which it obviously did) should not be affected even under the per curiam’s reading of Section 1373.",
+      "footnote": "6"
+    },
+    {
+      "start": 1000.66,
+      "end": 1010.5,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1683,
+          "end": 1814
+        }
+      ],
+      "text": "Subsections 1373, a and, b apply only to “prohibitions” or “restrictions” on the exchange of citizenship information with DHS.",
+      "footnote": "6"
+    },
+    {
+      "start": 1010.5,
+      "end": 1023.44,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1816,
+          "end": 2000
+        }
+      ],
+      "text": "The portions of the Privacy Act requiring agencies to publish SORNs and to provide 30-day comment periods before implementing new routine uses do not “prohibit” or “restrict” anything.",
+      "footnote": "6"
+    },
+    {
+      "start": 1023.44,
+      "end": 1032.14,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 2036,
+          "end": 2139
+        }
+      ],
+      "text": "Nor do they affect DHS’s ability to respond to citizenship-status inquiries as required under Section 1373, c.",
+      "footnote": "6"
+    },
+    {
+      "start": 1032.14,
+      "end": 1040.86,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 2141,
+          "end": 2267
+        }
+      ],
+      "text": "The per curiam’s failure to grapple with this point is yet another indication that its interpretation of Section 1373 is mistaken.",
+      "footnote": "6"
+    },
+    {
+      "start": 1040.86,
+      "end": 1042.83,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 2266,
+          "end": 2267
+        }
+      ],
+      "text": "End footnote 6.",
+      "transition": true,
+      "footnote": "6"
+    },
+    {
+      "start": 1042.83,
+      "end": 1053.36,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 276,
+          "end": 449
+        }
+      ],
+      "text": "As I noted previously, a stay applicant must also show “that it will suffer irreparable harm while the case proceeds, and that, on balance, the equities... favor a stay.”"
+    },
+    {
+      "start": 1053.36,
+      "end": 1056.88,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 536,
+          "end": 587
+        }
+      ],
+      "text": "The majority’s analysis of those factors is faulty."
+    },
+    {
+      "start": 1056.88,
+      "end": 1065.76,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 589,
+          "end": 741
+        }
+      ],
+      "text": "First, the per curiam finds that the Government is irreparably harmed absent a stay because the District Court “set aside an important federal program.”"
+    },
+    {
+      "start": 1065.76,
+      "end": 1075.24,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 756,
+          "end": 941
+        }
+      ],
+      "text": "But if the Government has failed to show that modified SAVE comports with the Social Security Act, then disabling the Government from using that program is not a cognizable harm."
+    },
+    {
+      "start": 1075.24,
+      "end": 1081.1,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 942,
+          "end": 1038
+        }
+      ],
+      "text": "It cannot be that the Government is “injured whenever it is prevented from” violating the law."
+    },
+    {
+      "start": 1081.1,
+      "end": 1090.26,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 114,
+          "end": 236
+        }
+      ],
+      "text": "And anyway, the Government’s purported harm is substantially mitigated by its ability to use the pre-2025 version of SAVE."
+    },
+    {
+      "start": 1090.26,
+      "end": 1100.86,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 237,
+          "end": 419
+        }
+      ],
+      "text": "Next, in balancing the equities, the majority only looks at one side of the scale—the judicial equivalent of expecting a seesaw with weight applied on only one side to work properly."
+    },
+    {
+      "start": 1100.86,
+      "end": 1112.64,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 420,
+          "end": 633
+        }
+      ],
+      "text": "In the per curiam’s view, the sole harm here is that the District Court’s order “inhibits the Federal Government’s efforts to assist state and local agencies in the proper administration of the midterm elections.”"
+    },
+    {
+      "start": 1112.64,
+      "end": 1124.24,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 647,
+          "end": 840
+        }
+      ],
+      "text": "As a threshold matter, this overvalues the harm to the Government, since States cannot use SAVE to systematically strike people from the voter rolls within 90 days of an election in any event."
+    },
+    {
+      "start": 1124.24,
+      "end": 1134.39,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 931,
+          "end": 1106
+        }
+      ],
+      "text": "It is hard to see how the Government is harmed pending the completion of the court proceedings below when SAVE’s application to the upcoming elections will already be limited."
+    },
+    {
+      "start": 1134.39,
+      "end": 1144.14,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1107,
+          "end": 1267
+        }
+      ],
+      "text": "Even more concerning is the majority’s omission of any consideration of the harms that might occur if the modified SAVE system is allowed to continue operating."
+    },
+    {
+      "start": 1144.14,
+      "end": 1157.7,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1349,
+          "end": 1573
+        }
+      ],
+      "text": "The District Court highlighted such harms, noting the risk that States might cancel the voter registrations of at least some recently naturalized citizens or force such persons to provide proof of citizenship before voting."
+    },
+    {
+      "start": 1157.7,
+      "end": 1171.62,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1604,
+          "end": 1861
+        }
+      ],
+      "text": "That court also found that those harms have already materialized in Texas, where one of Respondents’ members “had her voter registration revoked without her knowledge,” and two more “had to provide proof of citizenship to maintain registered voter status.”"
+    },
+    {
+      "start": 1171.62,
+      "end": 1179.845,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1875,
+          "end": 1999
+        }
+      ],
+      "text": "But the per curiam’s purported balancing fails to address, much less account for, the demonstrated harms of issuing a stay."
+    },
+    {
+      "start": 1179.845,
+      "end": 1186.54,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 91,
+          "end": 198
+        }
+      ],
+      "text": "The Government has not shown that it is entitled to the “‘extraordinary’ ” remedy of a stay pending appeal."
+    },
+    {
+      "start": 1186.54,
+      "end": 1202.18,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 332,
+          "end": 603
+        }
+      ],
+      "text": "But if there is a bright side to today’s opinion deciding otherwise, it is that the per curiam will likely have minimal short-term impact, as States will at most conduct individualized voter-roll maintenance using the modified SAVE system ahead of the November elections."
+    },
+    {
+      "start": 1202.18,
+      "end": 1216.3,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 621,
+          "end": 865
+        }
+      ],
+      "text": "In my view, however, the harm caused by burdening or disenfranchising even a few lawful voters outweighs the nonexistent harm that the Government experiences when it is prevented from taking an action that it likely lacks the authority to take."
+    },
+    {
+      "start": 1216.3,
+      "end": 1223.075,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 867,
+          "end": 989
+        }
+      ],
+      "text": "This imbalance, along with the Government’s improbable merits arguments, should have compelled the Court to deny the stay."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 111,
+      "expectedWords": 111,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 89,
+      "expectedWords": 89,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 4,
+      "matchedWords": 72,
+      "expectedWords": 72,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 131,
+      "expectedWords": 133,
+      "coverage": 0.9849624060150376
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 134,
+      "expectedWords": 135,
+      "coverage": 0.9925925925925926
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 101,
+      "expectedWords": 101,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 51,
+      "expectedWords": 51,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 10,
+      "matchedWords": 97,
+      "expectedWords": 100,
+      "coverage": 0.97
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 123,
+      "expectedWords": 124,
+      "coverage": 0.9919354838709677
+    },
+    {
+      "paragraph": 12,
+      "matchedWords": 106,
+      "expectedWords": 108,
+      "coverage": 0.9814814814814815
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 89,
+      "expectedWords": 89,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 82,
+      "expectedWords": 84,
+      "coverage": 0.9761904761904762
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 33,
+      "expectedWords": 34,
+      "coverage": 0.9705882352941176
+    },
+    {
+      "paragraph": 16,
+      "matchedWords": 67,
+      "expectedWords": 69,
+      "coverage": 0.9710144927536232
+    },
+    {
+      "paragraph": 17,
+      "matchedWords": 34,
+      "expectedWords": 36,
+      "coverage": 0.9444444444444444
+    },
+    {
+      "paragraph": 18,
+      "matchedWords": 12,
+      "expectedWords": 12,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 19,
+      "matchedWords": 53,
+      "expectedWords": 53,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 21,
+      "matchedWords": 46,
+      "expectedWords": 46,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 22,
+      "matchedWords": 19,
+      "expectedWords": 21,
+      "coverage": 0.9047619047619048
+    },
+    {
+      "paragraph": 23,
+      "matchedWords": 74,
+      "expectedWords": 76,
+      "coverage": 0.9736842105263158
+    },
+    {
+      "paragraph": 24,
+      "matchedWords": 132,
+      "expectedWords": 137,
+      "coverage": 0.9635036496350365
+    },
+    {
+      "paragraph": 25,
+      "matchedWords": 94,
+      "expectedWords": 95,
+      "coverage": 0.9894736842105263
+    },
+    {
+      "paragraph": 26,
+      "matchedWords": 54,
+      "expectedWords": 55,
+      "coverage": 0.9818181818181818
+    },
+    {
+      "paragraph": 27,
+      "matchedWords": 72,
+      "expectedWords": 73,
+      "coverage": 0.9863013698630136
+    },
+    {
+      "paragraph": 28,
+      "matchedWords": 54,
+      "expectedWords": 55,
+      "coverage": 0.9818181818181818
+    },
+    {
+      "paragraph": 29,
+      "matchedWords": 117,
+      "expectedWords": 122,
+      "coverage": 0.9590163934426229
+    },
+    {
+      "paragraph": 30,
+      "matchedWords": 103,
+      "expectedWords": 106,
+      "coverage": 0.9716981132075472
+    },
+    {
+      "paragraph": 31,
+      "matchedWords": 55,
+      "expectedWords": 56,
+      "coverage": 0.9821428571428571
+    },
+    {
+      "paragraph": 32,
+      "matchedWords": 104,
+      "expectedWords": 104,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 33,
+      "matchedWords": 35,
+      "expectedWords": 35,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 34,
+      "matchedWords": 117,
+      "expectedWords": 127,
+      "coverage": 0.9212598425196851
+    },
+    {
+      "paragraph": 36,
+      "matchedWords": 38,
+      "expectedWords": 38,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 37,
+      "matchedWords": 89,
+      "expectedWords": 91,
+      "coverage": 0.978021978021978
+    },
+    {
+      "paragraph": 38,
+      "matchedWords": 129,
+      "expectedWords": 132,
+      "coverage": 0.9772727272727273
+    },
+    {
+      "paragraph": 39,
+      "matchedWords": 118,
+      "expectedWords": 121,
+      "coverage": 0.9752066115702479
+    },
+    {
+      "paragraph": 40,
+      "matchedWords": 120,
+      "expectedWords": 123,
+      "coverage": 0.975609756097561
+    }
+  ]
+}

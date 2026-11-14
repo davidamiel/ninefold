@@ -1,0 +1,376 @@
+{
+  "reviewed": true,
+  "documentId": "25-52-ffba677727bc--2-0",
+  "sourceDocumentId": "25-52-ffba677727bc",
+  "sourceTextPath": "dist/data/docs/25-52-ffba677727bc.json",
+  "sourceTextSha256": "0fb4c5b23fbd05e2bbf1caa8a7aa65acc3c10a34cebb492c8e3be6acaf1e8995",
+  "sourcePdfPath": "dist/data/pdfs/25-52-ffba677727bc--2-0.pdf",
+  "sourcePdfSha256": "8c29db9433bed37e34811bb009fca8d5f6211ec9d6cfa8963ed423857d084c2d",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2025-11-24",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r02_5426.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 42,
+    "endPage": 4,
+    "endOffset": 1455
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 42,
+          "end": 556
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 2,
+          "start": 556,
+          "end": 557
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 558,
+          "end": 913
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 913,
+          "end": 1413
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1413,
+          "end": 1890
+        },
+        {
+          "page": 3,
+          "start": 41,
+          "end": 343
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 201,
+          "text": ", 466 U. S. 668, 686 (1984),",
+          "type": "case",
+          "canonical": "466 U.S. 668"
+        },
+        {
+          "start": 475,
+          "end": 493,
+          "text": "28 U. S. C. § 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        },
+        {
+          "from": "28 U. S. C. § 2254",
+          "to": "Section 2254 of Title 28"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 343,
+          "end": 983
+        }
+      ],
+      "citations": [
+        {
+          "start": 395,
+          "end": 427,
+          "text": "App. to Pet. for Cert. 22a, 29a.",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 22a, 29a."
+        },
+        {
+          "start": 622,
+          "end": 639,
+          "text": "Id., at 99a–103a.",
+          "type": "record",
+          "canonical": "Appendix to Petition for Certiorari"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "flout[ing]",
+          "to": "flouting"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 983,
+          "end": 985
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 985,
+          "end": 987
+        },
+        {
+          "page": 3,
+          "start": 987,
+          "end": 1471
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 92,
+          "end": 151,
+          "text": "United States v. Sineneng-Smith, 590 U. S. 371, 375 (2020).",
+          "type": "case",
+          "canonical": "590 U.S. 371"
+        },
+        {
+          "start": 281,
+          "end": 350,
+          "text": "Ibid. (quoting Greenlaw v. United States, 554 U. S. 237, 243 (2008)).",
+          "type": "case",
+          "canonical": "590 U.S. 371"
+        },
+        {
+          "start": 433,
+          "end": 483,
+          "text": "Lomax v. Ortiz-Marquez, 590 U. S. 595, 599 (2020).",
+          "type": "case",
+          "canonical": "590 U.S. 595"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1471,
+          "end": 2068
+        },
+        {
+          "page": 4,
+          "start": 62,
+          "end": 421
+        }
+      ],
+      "citations": [
+        {
+          "start": 384,
+          "end": 441,
+          "text": "App. to Pet. for Cert. 53a (Quattlebaum, J., dissenting).",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 53a (Quattlebaum, J., dissenting)."
+        },
+        {
+          "start": 597,
+          "end": 609,
+          "text": "Id., at 22a.",
+          "type": "record",
+          "canonical": "Appendix to Petition for Certiorari"
+        },
+        {
+          "start": 813,
+          "end": 852,
+          "text": "Sineneng-Smith, 590 U. S., at 380, 375.",
+          "type": "case",
+          "canonical": "590 U.S. 371"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 421,
+          "end": 1271
+        }
+      ],
+      "citations": [
+        {
+          "start": 370,
+          "end": 392,
+          "text": "28 U. S. C. § 2254(d).",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254"
+        },
+        {
+          "start": 512,
+          "end": 618,
+          "text": "Dunn v. Reeves, 594 U. S. 731, 739 (2021) (per curiam ) (quoting Burt v. Titlow, 571 U. S. 12, 15 (2013)).",
+          "type": "case",
+          "canonical": "594 U.S. 731"
+        },
+        {
+          "start": 769,
+          "end": 849,
+          "text": "594 U. S., at 739–740 (quoting Harrington v. Richter, 562 U. S. 86, 101 (2011)).",
+          "type": "case",
+          "canonical": "562 U.S. 86"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[A]",
+          "to": "A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1271,
+          "end": 1455
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 1890,
+      "end": 1920,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 41,
+      "text": "Cite as: 607 U. S. 7 (2025) 9\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 2068,
+      "end": 2098,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 62,
+      "text": "Page Proof Pending Publication\n10 CLARK v. SWEENEY\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 91,
+      "end": 103,
+      "expectedText": "seconddegree",
+      "text": "second-degree"
+    },
+    {
+      "page": 2,
+      "start": 164,
+      "end": 171,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 2,
+      "start": 702,
+      "end": 705,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 2,
+      "start": 1387,
+      "end": 1394,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 2,
+      "start": 1427,
+      "end": 1431,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 908,
+      "end": 912,
+      "expectedText": "fout",
+      "text": "flout"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read entire Court opinion and source PDF. Preserved the facts, party-presentation analysis, habeas and doubly-deferential qualifications, every substantive quotation and full disposition. Preceding caption and following publication note excluded; no substantive notes. Exact source-only omissions retain the grammatical Strickland case name and section 2254 reference; repaired ligatures and cross-page paragraph/quotation breaks."
+}

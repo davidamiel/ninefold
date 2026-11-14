@@ -1,0 +1,1553 @@
+{
+  "reviewed": true,
+  "documentId": "24-7351-cd6b14e796d4--11-1744",
+  "sourceDocumentId": "24-7351-cd6b14e796d4",
+  "sourceTextPath": "dist/data/docs/24-7351-cd6b14e796d4.json",
+  "sourceTextSha256": "c3837fa2b291a8704eb577cfe8cbc8e6db6be0d1a2799a5318fed1efdb17b6f1",
+  "sourcePdfPath": "dist/data/pdfs/24-7351-cd6b14e796d4--11-1744.pdf",
+  "sourcePdfSha256": "7a2f8ab97b92c8227921e49b6829637c2c7c8897aee1d4877e68bbe671da37c8",
+  "title": "Dissent",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-05-28",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r38_l53m.pdf",
+  "sourceRange": {
+    "startPage": 11,
+    "startOffset": 1840,
+    "endPage": 20,
+    "endOffset": 1154
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1840,
+          "end": 2010
+        },
+        {
+          "page": 12,
+          "start": 46,
+          "end": 490
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 308,
+          "end": 372,
+          "text": "See, e. g., Klein v. Martin, 607 U. S. 213 (2026) (per curiam );",
+          "type": "case",
+          "canonical": "607 U.S. 213"
+        },
+        {
+          "start": 373,
+          "end": 424,
+          "text": "Dunn v. Reeves, 594 U. S. 731 (2021) (per curiam );",
+          "type": "case",
+          "canonical": "594 U.S. 731"
+        },
+        {
+          "start": 425,
+          "end": 474,
+          "text": "Mays v. Hines, 592 U. S. 385 (2021) (per curiam).",
+          "type": "case",
+          "canonical": "592 U.S. 385"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 490,
+          "end": 493
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 493,
+          "end": 987
+        }
+      ],
+      "citations": [
+        {
+          "start": 135,
+          "end": 201,
+          "text": "Pitchford v. State, 45 So. 3d 216, 222\u2013223 (Miss. 2010) (en banc).",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        },
+        {
+          "start": 479,
+          "end": 493,
+          "text": "Trial Tr. 812.",
+          "type": "record",
+          "canonical": "Trial transcript, p. 812"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "R[e]uben",
+          "to": "Reuben"
+        },
+        {
+          "from": "Britt[,]",
+          "to": "Britt,"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1502,
+          "end": 2074
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 141,
+          "end": 156,
+          "text": "See 1 App. 195.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 195"
+        },
+        {
+          "start": 238,
+          "end": 244,
+          "text": "Ibid.;",
+          "type": "record",
+          "canonical": "Appendix, vol. 1"
+        },
+        {
+          "start": 245,
+          "end": 264,
+          "text": "id., at 329, n. 54.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 329"
+        },
+        {
+          "start": 366,
+          "end": 378,
+          "text": "Id., at 329;",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 329"
+        },
+        {
+          "start": 379,
+          "end": 417,
+          "text": "see also Pitchford, 45 So. 3d, at 260.",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        },
+        {
+          "start": 559,
+          "end": 573,
+          "text": "Trial Tr. 812.",
+          "type": "record",
+          "canonical": "Trial transcript, p. 812"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "inten[tionally]",
+          "to": "intentionally"
+        },
+        {
+          "from": "R[e]uben",
+          "to": "Reuben"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 989,
+          "end": 1272
+        }
+      ],
+      "citations": [
+        {
+          "start": 226,
+          "end": 244,
+          "text": "Batson v. Kentucky",
+          "type": "case",
+          "canonical": "476 U.S. 79",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 244,
+          "end": 265,
+          "text": ", 476 U. S. 79 (1986)",
+          "type": "case",
+          "canonical": "476 U.S. 79"
+        },
+        {
+          "start": 267,
+          "end": 282,
+          "text": "1 App. 167\u2013168.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 167\u2013168"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1272,
+          "end": 1500
+        },
+        {
+          "page": 13,
+          "start": 58,
+          "end": 575
+        }
+      ],
+      "citations": [
+        {
+          "start": 198,
+          "end": 280,
+          "text": "Snyder v. Louisiana, 552 U. S. 472, 476 (2008) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "552 U.S. 472"
+        },
+        {
+          "start": 464,
+          "end": 514,
+          "text": "Flowers v. Mississippi, 588 U. S. 284, 302 (2019).",
+          "type": "case",
+          "canonical": "588 U.S. 284"
+        },
+        {
+          "start": 740,
+          "end": 745,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "588 U.S. 284"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 575,
+          "end": 1182
+        }
+      ],
+      "citations": [
+        {
+          "start": 152,
+          "end": 217,
+          "text": "Snyder, 552 U. S., at 476\u2013477 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "552 U.S. 472"
+        },
+        {
+          "start": 490,
+          "end": 507,
+          "text": "Id., at 477, 485.",
+          "type": "case",
+          "canonical": "552 U.S. 472"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1182,
+          "end": 1574
+        }
+      ],
+      "citations": [
+        {
+          "start": 240,
+          "end": 251,
+          "text": "1 App. 167.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 167"
+        },
+        {
+          "start": 376,
+          "end": 392,
+          "text": "Id., at 167\u2013168.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 167\u2013168"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ha[d]",
+          "to": "had"
+        },
+        {
+          "from": "disproportiona[tely]",
+          "to": "disproportionately"
+        },
+        {
+          "from": "[pool]",
+          "to": "pool"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1574,
+          "end": 2087
+        },
+        {
+          "page": 14,
+          "start": 77,
+          "end": 263
+        }
+      ],
+      "citations": [
+        {
+          "start": 350,
+          "end": 368,
+          "text": "1 App. 86\u201388, 169.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 86\u201388, 169"
+        },
+        {
+          "start": 430,
+          "end": 446,
+          "text": "Id., at 169\u2013170.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 169\u2013170"
+        },
+        {
+          "start": 494,
+          "end": 506,
+          "text": "Id., at 170.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 170"
+        },
+        {
+          "start": 693,
+          "end": 698,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[same]",
+          "to": "same"
+        },
+        {
+          "from": "ha[d]",
+          "to": "had"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 263,
+          "end": 1012
+        }
+      ],
+      "citations": [
+        {
+          "start": 100,
+          "end": 105,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1"
+        },
+        {
+          "start": 355,
+          "end": 367,
+          "text": "Id., at 175.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 175"
+        },
+        {
+          "start": 474,
+          "end": 479,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1"
+        },
+        {
+          "start": 737,
+          "end": 749,
+          "text": "Id., at 176.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 176"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[their]",
+          "to": "their"
+        },
+        {
+          "from": "f[ound]",
+          "to": "found"
+        },
+        {
+          "from": "[O]ne",
+          "to": "One"
+        },
+        {
+          "from": "[a]nd",
+          "to": "and"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1012,
+          "end": 1572
+        }
+      ],
+      "citations": [
+        {
+          "start": 233,
+          "end": 254,
+          "text": "1 App. 179, 184, 186.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 179, 184, 186"
+        },
+        {
+          "start": 550,
+          "end": 562,
+          "text": "Id., at 184.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 184"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1572,
+          "end": 2070
+        }
+      ],
+      "citations": [
+        {
+          "start": 199,
+          "end": 224,
+          "text": "Id., at 209\u2013210, 223\u2013225.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 209\u2013210, 223\u2013225"
+        },
+        {
+          "start": 483,
+          "end": 499,
+          "text": "Id., at 210\u2013223.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 210\u2013223"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 89,
+          "end": 631
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 249,
+          "text": "Pitchford, 45 So. 3d, at 224\u2013226.",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        },
+        {
+          "start": 349,
+          "end": 365,
+          "text": "Id., at 226\u2013227.",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        },
+        {
+          "start": 522,
+          "end": 542,
+          "text": "See id., at 227\u2013228.",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 631,
+          "end": 1415
+        }
+      ],
+      "citations": [
+        {
+          "start": 177,
+          "end": 231,
+          "text": "Id., at 227, n. 16 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        },
+        {
+          "start": 448,
+          "end": 460,
+          "text": "Id., at 227.",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        },
+        {
+          "start": 581,
+          "end": 586,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        },
+        {
+          "start": 780,
+          "end": 785,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "waive[d]",
+          "to": "waived"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1415,
+          "end": 2127
+        },
+        {
+          "page": 16,
+          "start": 46,
+          "end": 113
+        }
+      ],
+      "citations": [
+        {
+          "start": 333,
+          "end": 359,
+          "text": "App. to Pet. for Cert. 22.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 22"
+        },
+        {
+          "start": 567,
+          "end": 572,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Petition appendix"
+        },
+        {
+          "start": 703,
+          "end": 735,
+          "text": "126 F. 4th 422, 429, 431 (2025).",
+          "type": "case",
+          "canonical": "126 F.4th 422"
+        },
+        {
+          "start": 759,
+          "end": 781,
+          "text": "607 U. S. 1094 (2025).",
+          "type": "case",
+          "canonical": "607 U.S. 1094"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "view[ed]",
+          "to": "viewed"
+        },
+        {
+          "from": "rebut[ting]",
+          "to": "rebutting"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 16,
+          "start": 113,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 117,
+          "end": 910
+        }
+      ],
+      "citations": [
+        {
+          "start": 108,
+          "end": 129,
+          "text": "28 U. S. C. \u00a7 2254(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 408,
+          "end": 420,
+          "text": "\u00a7 2254(d)(1)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 594,
+          "end": 606,
+          "text": "\u00a7 2254(d)(2)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 763,
+          "end": 792,
+          "text": "See Klein, 607 U. S., at 220.",
+          "type": "case",
+          "canonical": "607 U.S. 213"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "28 U. S. C. \u00a7 2254(a)",
+          "to": "Title 28, United States Code, Section 2254, a"
+        },
+        {
+          "from": "\u00a7 2254(d)(1)",
+          "to": "Section 2254, d, 1"
+        },
+        {
+          "from": "\u00a7 2254(d)(2)",
+          "to": "Section 2254, d, 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 910,
+          "end": 1641
+        }
+      ],
+      "citations": [
+        {
+          "start": 44,
+          "end": 53,
+          "text": "\u00a7 2254(d)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 129,
+          "end": 141,
+          "text": "\u00a7 2254(d)(1)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 282,
+          "end": 379,
+          "text": "Brown v. Davenport, 596 U. S. 118, 135 (2022) (internal quotation marks and alterations omitted).",
+          "type": "case",
+          "canonical": "596 U.S. 118"
+        },
+        {
+          "start": 401,
+          "end": 413,
+          "text": "\u00a7 2254(d)(2)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 541,
+          "end": 582,
+          "text": "Ibid. (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "596 U.S. 118"
+        },
+        {
+          "start": 696,
+          "end": 709,
+          "text": "\u00a7 2254(d)(2);",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254"
+        },
+        {
+          "start": 710,
+          "end": 732,
+          "text": "see also \u00a7 2254(e)(1).",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 2254(d)",
+          "to": "Section 2254, d"
+        },
+        {
+          "from": "\u00a7 2254(d)(1)",
+          "to": "Section 2254, d, 1"
+        },
+        {
+          "from": "\u00a7 2254(d)(2)",
+          "to": "Section 2254, d, 2"
+        },
+        {
+          "from": "[factual]",
+          "to": "factual"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1641,
+          "end": 1995
+        },
+        {
+          "page": 17,
+          "start": 58,
+          "end": 467
+        }
+      ],
+      "citations": [
+        {
+          "start": 91,
+          "end": 103,
+          "text": "\u00a7 2254(d)(1)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 291,
+          "end": 304,
+          "text": "Ante, at 401.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 401"
+        },
+        {
+          "start": 312,
+          "end": 327,
+          "text": "Ford v. Georgia",
+          "type": "case",
+          "canonical": "498 U.S. 411",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 327,
+          "end": 349,
+          "text": ", 498 U. S. 411 (1991)",
+          "type": "case",
+          "canonical": "498 U.S. 411"
+        },
+        {
+          "start": 452,
+          "end": 470,
+          "text": "498 U. S., at 423.",
+          "type": "case",
+          "canonical": "498 U.S. 411"
+        },
+        {
+          "start": 633,
+          "end": 696,
+          "text": "See Pitchford, 45 So. 3d, at 227, and n. 16 (collecting cases).",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "\u00a7 2254(d)(1)",
+          "to": "Section 2254, d, 1"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1631,
+          "end": 2201
+        }
+      ],
+      "label": "2",
+      "citations": [
+        {
+          "start": 142,
+          "end": 223,
+          "text": "See Lebron v. National Railroad Passenger Corporation, 513 U. S. 374, 379 (1995).",
+          "type": "case",
+          "canonical": "513 U.S. 374"
+        },
+        {
+          "start": 300,
+          "end": 383,
+          "text": "See Hamer v. Neighborhood Housing Servs. of Chicago, 583 U. S. 17, 20, n. 1 (2017).",
+          "type": "case",
+          "canonical": "583 U.S. 17"
+        },
+        {
+          "start": 444,
+          "end": 472,
+          "text": "See Ford, 498 U. S., at 423.",
+          "type": "case",
+          "canonical": "498 U.S. 411"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 469,
+          "end": 1050
+        }
+      ],
+      "citations": [
+        {
+          "start": 336,
+          "end": 356,
+          "text": "See id., at 227\u2013228.",
+          "type": "case",
+          "canonical": "45 So.3d 216"
+        },
+        {
+          "start": 432,
+          "end": 445,
+          "text": "Ante, at 400.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 400"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "thin[ly]",
+          "to": "thinly"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1050,
+          "end": 1629
+        },
+        {
+          "page": 18,
+          "start": 46,
+          "end": 148
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 13,
+          "end": 25,
+          "text": "\u00a7 2254(d)(2)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 155,
+          "end": 168,
+          "text": "Ante, at 399.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 399"
+        },
+        {
+          "start": 356,
+          "end": 369,
+          "text": "Ante, at 400;",
+          "type": "reference",
+          "canonical": "Court opinion, p. 400"
+        },
+        {
+          "start": 370,
+          "end": 381,
+          "text": "1 App. 184.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 184"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 2254(d)(2)",
+          "to": "Section 2254, d, 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 148,
+          "end": 642
+        }
+      ],
+      "citations": [
+        {
+          "start": 60,
+          "end": 72,
+          "text": "\u00a7 2254(d)(2)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 293,
+          "end": 306,
+          "text": "Ante, at 399.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 399"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 2254(d)(2)",
+          "to": "Section 2254, d, 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 642,
+          "end": 1709
+        }
+      ],
+      "citations": [
+        {
+          "start": 346,
+          "end": 357,
+          "text": "1 App. 175.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 175"
+        },
+        {
+          "start": 466,
+          "end": 482,
+          "text": "Id., at 175\u2013176.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 175\u2013176"
+        },
+        {
+          "start": 1027,
+          "end": 1066,
+          "text": "App. to Brief for Respondents 40a, 77a.",
+          "type": "record",
+          "canonical": "Respondents brief appendix, pp. 40a, 77a"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "want[ed]",
+          "to": "wanted"
+        },
+        {
+          "from": "[their]",
+          "to": "their"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1709,
+          "end": 2112
+        },
+        {
+          "page": 19,
+          "start": 58,
+          "end": 155
+        }
+      ],
+      "citations": [
+        {
+          "start": 468,
+          "end": 499,
+          "text": "See Brief for Petitioner 33\u201335.",
+          "type": "record",
+          "canonical": "Petitioner brief, pp. 33-35"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 155,
+          "end": 899
+        }
+      ],
+      "citations": [
+        {
+          "start": 651,
+          "end": 662,
+          "text": "1 App. 171.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 171"
+        },
+        {
+          "start": 707,
+          "end": 744,
+          "text": "See, e. g., id., at 158\u2013160, 164\u2013165.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 158\u2013160, 164\u2013165"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 899,
+          "end": 1929
+        }
+      ],
+      "citations": [
+        {
+          "start": 176,
+          "end": 188,
+          "text": "\u00a7 2254(d)(2)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 323,
+          "end": 366,
+          "text": "Rice v. Collins, 546 U. S. 333, 341 (2006).",
+          "type": "case",
+          "canonical": "546 U.S. 333"
+        },
+        {
+          "start": 752,
+          "end": 763,
+          "text": "1 App. 175.",
+          "type": "record",
+          "canonical": "Appendix, vol. 1, pp. 175"
+        },
+        {
+          "start": 1011,
+          "end": 1030,
+          "text": "126 F. 4th, at 429.",
+          "type": "case",
+          "canonical": "126 F.4th 422"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 2254(d)(2)",
+          "to": "Section 2254, d, 2"
+        },
+        {
+          "from": "compel[s]",
+          "to": "compels"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1929,
+          "end": 2102
+        },
+        {
+          "page": 20,
+          "start": 46,
+          "end": 601
+        }
+      ],
+      "citations": [
+        {
+          "start": 145,
+          "end": 164,
+          "text": "Ante, at 400, n. 3.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 400, note 3"
+        },
+        {
+          "start": 522,
+          "end": 541,
+          "text": "Ante, at 400, n. 3.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 400, note 3"
+        },
+        {
+          "start": 700,
+          "end": 728,
+          "text": "See Rice, 546 U. S., at 341.",
+          "type": "case",
+          "canonical": "546 U.S. 333"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 604,
+          "end": 1154
+        }
+      ],
+      "citations": [
+        {
+          "start": 542,
+          "end": 548,
+          "text": "\u00a7 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 2254",
+          "to": "Section 2254"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 11,
+      "start": 2010,
+      "end": 2040,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 46,
+      "text": "402 PITCHFORD v. CAIN\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 987,
+      "end": 989,
+      "text": "1\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 1500,
+      "end": 1502,
+      "text": "1 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 2074,
+      "end": 2104,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 391 (2026) 403\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 2087,
+      "end": 2117,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 77,
+      "text": "Page Proof Pending Publication\n404 PITCHFORD v. CAIN\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 89,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 391 (2026) 405\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 46,
+      "text": "406 PITCHFORD v. CAIN\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 16,
+      "start": 1995,
+      "end": 2025,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 391 (2026) 407\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 17,
+      "start": 467,
+      "end": 469,
+      "text": "2\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 17,
+      "start": 1629,
+      "end": 1631,
+      "text": "2 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 17,
+      "start": 2201,
+      "end": 2231,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 46,
+      "text": "408 PITCHFORD v. CAIN\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 18,
+      "start": 2112,
+      "end": 2142,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 391 (2026) 409\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 19,
+      "start": 2102,
+      "end": 2132,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 46,
+      "text": "410 PITCHFORD v. CAIN\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 20,
+      "start": 601,
+      "end": 604,
+      "text": "\n*\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 11,
+      "start": 1995,
+      "end": 2001,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 11,
+      "start": 2002,
+      "end": 2010,
+      "expectedText": "circum-\n",
+      "text": "circum"
+    },
+    {
+      "page": 12,
+      "start": 1682,
+      "end": 1686,
+      "expectedText": "fred",
+      "text": "fired"
+    },
+    {
+      "page": 12,
+      "start": 1704,
+      "end": 1708,
+      "expectedText": "foor",
+      "text": "floor"
+    },
+    {
+      "page": 12,
+      "start": 1323,
+      "end": 1332,
+      "expectedText": "threestep",
+      "text": "three-step"
+    },
+    {
+      "page": 13,
+      "start": 1368,
+      "end": 1371,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 14,
+      "start": 855,
+      "end": 859,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 14,
+      "start": 1164,
+      "end": 1168,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 14,
+      "start": 1278,
+      "end": 1282,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 14,
+      "start": 1902,
+      "end": 1906,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 14,
+      "start": 1297,
+      "end": 1303,
+      "expectedText": "briefy",
+      "text": "briefly"
+    },
+    {
+      "page": 15,
+      "start": 1042,
+      "end": 1046,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 15,
+      "start": 1195,
+      "end": 1199,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 15,
+      "start": 264,
+      "end": 271,
+      "expectedText": "suffced",
+      "text": "sufficed"
+    },
+    {
+      "page": 15,
+      "start": 2068,
+      "end": 2074,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 16,
+      "start": 1429,
+      "end": 1435,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 16,
+      "start": 1505,
+      "end": 1511,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 17,
+      "start": 425,
+      "end": 430,
+      "expectedText": "defes",
+      "text": "defies"
+    },
+    {
+      "page": 17,
+      "start": 1032,
+      "end": 1037,
+      "expectedText": "defed",
+      "text": "defied"
+    },
+    {
+      "page": 17,
+      "start": 1681,
+      "end": 1700,
+      "expectedText": "argument-byargument",
+      "text": "argument-by-argument"
+    },
+    {
+      "page": 17,
+      "start": 1624,
+      "end": 1629,
+      "expectedText": "dur-\n",
+      "text": "dur"
+    },
+    {
+      "page": 18,
+      "start": 88,
+      "end": 92,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 19,
+      "start": 171,
+      "end": 179,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 19,
+      "start": 1663,
+      "end": 1672,
+      "expectedText": "Refecting",
+      "text": "Reflecting"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Clarence Thomas",
+      "Samuel A. Alito, Jr.",
+      "Amy Coney Barrett"
+    ]
+  }
+}

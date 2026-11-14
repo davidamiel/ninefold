@@ -1,0 +1,1145 @@
+{
+  "reviewed": true,
+  "documentId": "25-297-be6ef90ba849--2-0",
+  "sourceDocumentId": "25-297-be6ef90ba849",
+  "sourceTextPath": "dist/data/docs/25-297-be6ef90ba849.json",
+  "sourceTextSha256": "eeeb6b824adb853cce0b3fc78c3fd34ea91751b0b9f4455d07605e27c1ecf7af",
+  "sourcePdfPath": "dist/data/pdfs/25-297-be6ef90ba849--2-0.pdf",
+  "sourcePdfSha256": "6dde8ad78f807240fac2d7bf4f65096485dddd3fd5b534880c5f8f13495fe433",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-03-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r21_2bo2.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 2151,
+    "endPage": 7,
+    "endOffset": 1015
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 2151,
+          "end": 2674
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 61,
+          "end": 271
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 271,
+          "end": 272
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 273,
+          "end": 368
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1588,
+          "end": 1806
+        }
+      ],
+      "citations": [
+        {
+          "start": 146,
+          "end": 217,
+          "text": "City and County of San Francisco v. Sheehan, 575 U. S. 600, 603 (2015).",
+          "type": "case",
+          "canonical": "575 U.S. 600"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 369,
+          "end": 726
+        }
+      ],
+      "citations": [
+        {
+          "start": 268,
+          "end": 355,
+          "text": "Deposition of S. Linton in No. 5:18–cv– 5 (D Vt., June 3, 2022), ECF Doc. 74–4, p. 127.",
+          "type": "record",
+          "canonical": "Deposition of S. Linton in No. 5:18–cv– 5 (D Vt., June 3, 2022), ECF Doc. 74–4, p. 127."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 726,
+          "end": 1176
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1176,
+          "end": 1534
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1808,
+          "end": 2087
+        },
+        {
+          "page": 4,
+          "start": 1827,
+          "end": 1974
+        }
+      ],
+      "citations": [
+        {
+          "start": 166,
+          "end": 262,
+          "text": "See Dept. of Justice, Use of Force by Police: Overview of National and Local Data 49 (Oct. 1999)",
+          "type": "record",
+          "canonical": "See Dept. of Justice, Use of Force by Police: Overview of National and Local Data 49 (Oct. 1999)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[w]hen",
+          "to": "when"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1535,
+          "end": 1586
+        },
+        {
+          "page": 4,
+          "start": 45,
+          "end": 710
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 126,
+          "text": "App. to Pet. for Cert. 47–48.",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 47–48."
+        },
+        {
+          "start": 271,
+          "end": 282,
+          "text": "Id., at 48.",
+          "type": "record",
+          "canonical": "Appendix to Petition 47–48"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 710,
+          "end": 1177
+        }
+      ],
+      "citations": [
+        {
+          "start": 23,
+          "end": 41,
+          "text": "Rev. Stat. § 1979,",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983"
+        },
+        {
+          "start": 42,
+          "end": 60,
+          "text": "42 U. S. C. § 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "42 U. S. C. § 1983",
+          "to": "Section 1983 of Title 42"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1177,
+          "end": 1645
+        }
+      ],
+      "citations": [
+        {
+          "start": 58,
+          "end": 90,
+          "text": "Amnesty America v. West Hartford",
+          "type": "case",
+          "canonical": "361 F.3d 113",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 92,
+          "end": 112,
+          "text": "361 F. 3d 113 (2004)",
+          "type": "case",
+          "canonical": "361 F.3d 113"
+        },
+        {
+          "start": 251,
+          "end": 276,
+          "text": "135 F. 4th 19, 35 (2025).",
+          "type": "case",
+          "canonical": "135 F.4th 19"
+        },
+        {
+          "start": 456,
+          "end": 467,
+          "text": "Id., at 41.",
+          "type": "case",
+          "canonical": "135 F.4th 19"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1645,
+          "end": 1647
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1648,
+          "end": 1827
+        },
+        {
+          "page": 5,
+          "start": 61,
+          "end": 363
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 62,
+          "end": 68,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 124,
+          "end": 189,
+          "text": "Rivas-Villegas v. Cortesluna, 595 U. S. 1, 5 (2021) (per curiam).",
+          "type": "case",
+          "canonical": "595 U.S. 1"
+        },
+        {
+          "start": 352,
+          "end": 357,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "595 U.S. 1"
+        },
+        {
+          "start": 479,
+          "end": 484,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "595 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 363,
+          "end": 1343
+        }
+      ],
+      "citations": [
+        {
+          "start": 190,
+          "end": 283,
+          "text": "Escondido v. Emmons, 586 U. S. 38, 43 (2019) (per curiam) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "586 U.S. 38"
+        },
+        {
+          "start": 484,
+          "end": 574,
+          "text": "District of Columbia v. Wesby, 583 U. S. 48, 63 (2018) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "583 U.S. 48"
+        },
+        {
+          "start": 692,
+          "end": 750,
+          "text": "Kisela v. Hughes, 584 U. S. 100, 105 (2018) (per curiam ).",
+          "type": "case",
+          "canonical": "584 U.S. 100"
+        },
+        {
+          "start": 918,
+          "end": 989,
+          "text": "City and County of San Francisco v. Sheehan, 575 U. S. 600, 616 (2015).",
+          "type": "case",
+          "canonical": "575 U.S. 600"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "know[n]",
+          "to": "known"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1343,
+          "end": 1493
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1970,
+          "end": 2158
+        }
+      ],
+      "citations": [
+        {
+          "start": 123,
+          "end": 189,
+          "text": "Rivas-Villegas v. Cortesluna, 595 U. S. 1, 5 (2021) (per curiam ).",
+          "type": "case",
+          "canonical": "595 U.S. 1"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1494,
+          "end": 1968
+        },
+        {
+          "page": 6,
+          "start": 45,
+          "end": 266
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 132,
+          "end": 175,
+          "text": "Graham v. Connor, 490 U. S. 386, 396 (1989)",
+          "type": "case",
+          "canonical": "490 U.S. 386"
+        },
+        {
+          "start": 243,
+          "end": 284,
+          "text": "Barnes v. Felix, 605 U. S. 73, 80 (2025).",
+          "type": "case",
+          "canonical": "605 U.S. 73"
+        },
+        {
+          "start": 578,
+          "end": 596,
+          "text": "361 F. 3d, at 123.",
+          "type": "case",
+          "canonical": "361 F.3d 113"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 266,
+          "end": 916
+        }
+      ],
+      "citations": [
+        {
+          "start": 409,
+          "end": 438,
+          "text": "Id., at 124 (emphasis added).",
+          "type": "case",
+          "canonical": "361 F.3d 113"
+        },
+        {
+          "start": 581,
+          "end": 654,
+          "text": "Ibid. (citing Forrester v. San Diego , 25 F. 3d 804, 807–808 (CA9 1994)).",
+          "type": "case",
+          "canonical": "361 F.3d 113"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 916,
+          "end": 1860
+        }
+      ],
+      "citations": [
+        {
+          "start": 196,
+          "end": 220,
+          "text": "Wesby, 583 U. S., at 63;",
+          "type": "case",
+          "canonical": "583 U.S. 48"
+        },
+        {
+          "start": 221,
+          "end": 256,
+          "text": "see Sheehan, 575 U. S., at 615–616.",
+          "type": "case",
+          "canonical": "575 U.S. 600"
+        },
+        {
+          "start": 426,
+          "end": 459,
+          "text": "See App. to Pet. for Cert. 47–49.",
+          "type": "record",
+          "canonical": "See App. to Pet. for Cert. 47–49."
+        },
+        {
+          "start": 546,
+          "end": 606,
+          "text": "Emmons, 586 U. S., at 43 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "586 U.S. 38"
+        },
+        {
+          "start": 645,
+          "end": 725,
+          "text": "See Amnesty America, 361 F. 3d, at 124 (citing Forrester, 25 F. 3d, at 807–808).",
+          "type": "case",
+          "canonical": "361 F.3d 113"
+        },
+        {
+          "start": 913,
+          "end": 945,
+          "text": "Rivas-Villegas, 595 U. S., at 6.",
+          "type": "case",
+          "canonical": "595 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[ Amnesty America]",
+          "to": " Amnesty America"
+        },
+        {
+          "from": "[Zorn]",
+          "to": "Zorn"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1860,
+          "end": 2032
+        },
+        {
+          "page": 7,
+          "start": 45,
+          "end": 640
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 260,
+          "end": 291,
+          "text": "135 F. 4th, at 35 (case below).",
+          "type": "case",
+          "canonical": "135 F.4th 19"
+        },
+        {
+          "start": 466,
+          "end": 525,
+          "text": "Wesby, 583 U. S., at 63 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "583 U.S. 48"
+        },
+        {
+          "start": 677,
+          "end": 688,
+          "text": "id., at 64,",
+          "type": "case",
+          "canonical": "583 U.S. 48"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 640,
+          "end": 1015
+        }
+      ],
+      "citations": [
+        {
+          "start": 164,
+          "end": 223,
+          "text": "Emmons, 586 U. S., at 43 (internal quotation marks omitted)",
+          "type": "case",
+          "canonical": "586 U.S. 38"
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 3,
+      "start": 0,
+      "end": 61,
+      "text": "Page Proof Pending Publication\n570 ZORN v. LINTON\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 368,
+      "end": 369,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 1534,
+      "end": 1535,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 1586,
+      "end": 1588,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 1806,
+      "end": 1808,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 45,
+      "text": "Cite as: 607 U. S. 568 (2026) 571\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 1974,
+      "end": 2004,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 61,
+      "text": "Page Proof Pending Publication\n572 ZORN v. LINTON\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 1493,
+      "end": 1494,
+      "text": "3",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 1968,
+      "end": 1970,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 45,
+      "text": "Cite as: 607 U. S. 568 (2026) 573\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2032,
+      "end": 2062,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 45,
+      "text": "574 ZORN v. LINTON\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 153,
+      "end": 156,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 2,
+      "start": 245,
+      "end": 251,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 2,
+      "start": 454,
+      "end": 459,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 2,
+      "start": 493,
+      "end": 503,
+      "expectedText": "specifcity",
+      "text": "specificity"
+    },
+    {
+      "page": 2,
+      "start": 532,
+      "end": 539,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 2,
+      "start": 810,
+      "end": 817,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 2,
+      "start": 967,
+      "end": 974,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 2,
+      "start": 1069,
+      "end": 1077,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 2,
+      "start": 1650,
+      "end": 1660,
+      "expectedText": "specifcity",
+      "text": "specificity"
+    },
+    {
+      "page": 2,
+      "start": 1691,
+      "end": 1698,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 2,
+      "start": 2066,
+      "end": 2074,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 2,
+      "start": 2291,
+      "end": 2298,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 2,
+      "start": 2380,
+      "end": 2387,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 3,
+      "start": 240,
+      "end": 248,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 3,
+      "start": 845,
+      "end": 849,
+      "expectedText": "foor",
+      "text": "floor"
+    },
+    {
+      "page": 3,
+      "start": 896,
+      "end": 903,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 3,
+      "start": 992,
+      "end": 999,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 3,
+      "start": 1225,
+      "end": 1232,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 3,
+      "start": 1845,
+      "end": 1852,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 4,
+      "start": 471,
+      "end": 475,
+      "expectedText": "foor",
+      "text": "floor"
+    },
+    {
+      "page": 4,
+      "start": 539,
+      "end": 546,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 4,
+      "start": 953,
+      "end": 961,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 4,
+      "start": 1659,
+      "end": 1667,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 4,
+      "start": 1674,
+      "end": 1682,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 4,
+      "start": 1909,
+      "end": 1915,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 4,
+      "start": 1940,
+      "end": 1950,
+      "expectedText": "handcuffng",
+      "text": "handcuffing"
+    },
+    {
+      "page": 5,
+      "start": 154,
+      "end": 161,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 5,
+      "start": 366,
+      "end": 369,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 5,
+      "start": 458,
+      "end": 464,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 5,
+      "start": 673,
+      "end": 678,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 5,
+      "start": 712,
+      "end": 722,
+      "expectedText": "specifcity",
+      "text": "specificity"
+    },
+    {
+      "page": 5,
+      "start": 751,
+      "end": 758,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 5,
+      "start": 979,
+      "end": 985,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 5,
+      "start": 1040,
+      "end": 1046,
+      "expectedText": "suffce",
+      "text": "suffice"
+    },
+    {
+      "page": 5,
+      "start": 1117,
+      "end": 1124,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 5,
+      "start": 1133,
+      "end": 1141,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 5,
+      "start": 1254,
+      "end": 1261,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 5,
+      "start": 1446,
+      "end": 1453,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 5,
+      "start": 1694,
+      "end": 1700,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 5,
+      "start": 1872,
+      "end": 1879,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 5,
+      "start": 2064,
+      "end": 2072,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 6,
+      "start": 194,
+      "end": 201,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 6,
+      "start": 459,
+      "end": 462,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 6,
+      "start": 472,
+      "end": 479,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 6,
+      "start": 493,
+      "end": 501,
+      "expectedText": "inficted",
+      "text": "inflicted"
+    },
+    {
+      "page": 6,
+      "start": 569,
+      "end": 572,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 6,
+      "start": 595,
+      "end": 602,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 6,
+      "start": 1178,
+      "end": 1188,
+      "expectedText": "repeatedly",
+      "text": "repeatedly"
+    },
+    {
+      "page": 6,
+      "start": 1665,
+      "end": 1672,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 6,
+      "start": 1796,
+      "end": 1803,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 7,
+      "start": 258,
+      "end": 268,
+      "expectedText": "specifcity",
+      "text": "specificity"
+    },
+    {
+      "page": 7,
+      "start": 299,
+      "end": 306,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 7,
+      "start": 702,
+      "end": 708,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 7,
+      "start": 885,
+      "end": 893,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 7,
+      "start": 1376,
+      "end": 1384,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 5,
+      "start": 114,
+      "end": 125,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 3,
+      "start": 1582,
+      "end": 1586,
+      "expectedText": "re-\n",
+      "text": "re"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed six original Court-opinion pages, ending before Sotomayor dissent. All three substantive notes read inline; includes full wristlock/data quotation in note2 and controlling-circuit reservation in note3. Preserve every substantive quote/factual qualification and reversal. Individually reviewed citation/source-reference omissions only; semantic section1983 retained and linked. Source coordinates unchanged; exact extraction and cross-page word repairs applied."
+}

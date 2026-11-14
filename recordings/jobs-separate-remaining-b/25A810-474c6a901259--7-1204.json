@@ -1,0 +1,524 @@
+{
+  "reviewed": true,
+  "documentId": "25A810-474c6a901259--7-1204",
+  "sourceDocumentId": "25A810-474c6a901259",
+  "sourceTextPath": "dist/data/docs/25A810-474c6a901259.json",
+  "sourceTextSha256": "ba6ea55dfef14a7577c1f21d42172b85045437be5c219ba07691444327f88558",
+  "sourcePdfPath": "dist/data/pdfs/25A810-474c6a901259--7-1204.pdf",
+  "sourcePdfSha256": "ad3e3cc82ccdc7dbe69d60c7cc120b8550c71bbcacbbd4241b0f3ace470a0a6f",
+  "title": "Concurrence",
+  "author": "Amy Coney Barrett",
+  "date": "2026-03-02",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r17_bqmc.pdf",
+  "sourceRange": {
+    "startPage": 7,
+    "startOffset": 1289,
+    "endPage": 11,
+    "endOffset": 175
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1289,
+          "end": 1699
+        },
+        {
+          "page": 8,
+          "start": 89,
+          "end": 565
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 362,
+          "end": 390,
+          "text": "U. S. Const., Amdt. 14, § 1.",
+          "type": "statute",
+          "canonical": "U.S. Const. amend. XIV, § 1"
+        },
+        {
+          "start": 797,
+          "end": 884,
+          "text": "Washington v. Glucksberg, 521 U. S. 702, 721 (1997) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "521 U.S. 702"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 565,
+          "end": 908
+        }
+      ],
+      "citations": [
+        {
+          "start": 208,
+          "end": 263,
+          "text": "See Pierce v. Society of Sisters, 268 U. S. 510 (1925);",
+          "type": "case",
+          "canonical": "268 U.S. 510"
+        },
+        {
+          "start": 264,
+          "end": 304,
+          "text": "Meyer v. Nebraska, 262 U. S. 390 (1923);",
+          "type": "case",
+          "canonical": "262 U.S. 390"
+        },
+        {
+          "start": 305,
+          "end": 343,
+          "text": "Parham v. J. R., 442 U. S. 584 (1979).",
+          "type": "case",
+          "canonical": "442 U.S. 584"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 908,
+          "end": 1884
+        }
+      ],
+      "citations": [
+        {
+          "start": 799,
+          "end": 833,
+          "text": "see Parham, 442 U. S., at 601–604,",
+          "type": "case",
+          "canonical": "442 U.S. 584"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1884,
+          "end": 2178
+        },
+        {
+          "page": 9,
+          "start": 47,
+          "end": 745
+        }
+      ],
+      "citations": [
+        {
+          "start": 142,
+          "end": 164,
+          "text": ", 597 U. S. 215 (2022)",
+          "type": "case",
+          "canonical": "597 U.S. 215"
+        },
+        {
+          "start": 166,
+          "end": 202,
+          "text": "Post, at 505 (opinion of Kagan, J.).",
+          "type": "reference",
+          "canonical": "Kagan dissent, p. 505"
+        },
+        {
+          "start": 391,
+          "end": 414,
+          "text": ", 410 U. S. 113 (1973),",
+          "type": "case",
+          "canonical": "410 U.S. 113"
+        },
+        {
+          "start": 466,
+          "end": 489,
+          "text": ", 505 U. S. 833 (1992),",
+          "type": "case",
+          "canonical": "505 U.S. 833"
+        },
+        {
+          "start": 659,
+          "end": 684,
+          "text": "Dobbs, 597 U. S., at 231.",
+          "type": "case",
+          "canonical": "597 U.S. 215"
+        },
+        {
+          "start": 811,
+          "end": 827,
+          "text": "Id., at 263–290.",
+          "type": "case",
+          "canonical": "597 U.S. 215"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Pa.",
+          "to": "Pennsylvania"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 745,
+          "end": 1179
+        }
+      ],
+      "citations": [
+        {
+          "start": 293,
+          "end": 306,
+          "text": "Post, at 507.",
+          "type": "reference",
+          "canonical": "Kagan dissent, p. 507"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1179,
+          "end": 1829
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1829,
+          "end": 2067
+        },
+        {
+          "page": 10,
+          "start": 58,
+          "end": 614
+        }
+      ],
+      "citations": [
+        {
+          "start": 125,
+          "end": 138,
+          "text": "Post, at 503.",
+          "type": "reference",
+          "canonical": "Kagan dissent, p. 503"
+        },
+        {
+          "start": 239,
+          "end": 285,
+          "text": "See Nken v. Holder, 556 U. S. 418, 435 (2009).",
+          "type": "case",
+          "canonical": "556 U.S. 418"
+        },
+        {
+          "start": 427,
+          "end": 432,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "556 U.S. 418"
+        },
+        {
+          "start": 781,
+          "end": 794,
+          "text": "Ante, at 497.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 497"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 614,
+          "end": 1939
+        }
+      ],
+      "citations": [
+        {
+          "start": 296,
+          "end": 309,
+          "text": "Post, at 504.",
+          "type": "reference",
+          "canonical": "Kagan dissent, p. 504"
+        },
+        {
+          "start": 310,
+          "end": 457,
+          "text": "But see, e. g., Whole Woman's Health v. Jackson, 594 U. S. –––, ––– (2021) (Kagan, J., dissenting from denial of application for injunctive relief)",
+          "type": "case",
+          "canonical": "Whole Woman’s Health v. Jackson (2021)"
+        },
+        {
+          "start": 558,
+          "end": 658,
+          "text": "Trump v. Boyle, 606 U. S. –––, ––– (2025) (Kagan, J., dissenting from grant of application for stay)",
+          "type": "case",
+          "canonical": "Trump v. Boyle (2025)"
+        },
+        {
+          "start": 818,
+          "end": 917,
+          "text": "See Labrador v. Poe, 601 U. S. 1110, 1128–1129 (2024) (Kavanaugh, J., concurring in grant of stay).",
+          "type": "case",
+          "canonical": "601 U.S. 1110"
+        },
+        {
+          "start": 1069,
+          "end": 1092,
+          "text": ", 606 U. S. 522 (2025),",
+          "type": "case",
+          "canonical": "606 U.S. 522"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "bother[ing]",
+          "to": "bothering"
+        },
+        {
+          "from": "[their]",
+          "to": "their"
+        },
+        {
+          "from": "conclusion[s]",
+          "to": "conclusions"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1939,
+          "end": 2107
+        },
+        {
+          "page": 11,
+          "start": 76,
+          "end": 175
+        }
+      ],
+      "citations": [
+        {
+          "start": 76,
+          "end": 150,
+          "text": "Labrador, 601 U. S., at 1121 (Kavanaugh, J., concurring in grant of stay).",
+          "type": "case",
+          "canonical": "601 U.S. 1110"
+        },
+        {
+          "start": 204,
+          "end": 221,
+          "text": "ante, at 496–497,",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 496–497"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 7,
+      "start": 749,
+      "end": 761,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 7,
+      "start": 831,
+      "end": 843,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 7,
+      "start": 1507,
+      "end": 1510,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 8,
+      "start": 718,
+      "end": 728,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 8,
+      "start": 1306,
+      "end": 1319,
+      "expectedText": "identifcation",
+      "text": "identification"
+    },
+    {
+      "page": 8,
+      "start": 1551,
+      "end": 1564,
+      "expectedText": "identifcation",
+      "text": "identification"
+    },
+    {
+      "page": 9,
+      "start": 653,
+      "end": 660,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 9,
+      "start": 1222,
+      "end": 1229,
+      "expectedText": "refects",
+      "text": "reflects"
+    },
+    {
+      "page": 9,
+      "start": 1412,
+      "end": 1418,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 9,
+      "start": 1987,
+      "end": 1994,
+      "expectedText": "refects",
+      "text": "reflects"
+    },
+    {
+      "page": 11,
+      "start": 271,
+      "end": 275,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 11,
+      "start": 1957,
+      "end": 1962,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 7,
+      "start": 1695,
+      "end": 1698,
+      "expectedText": "un-",
+      "text": "un"
+    },
+    {
+      "page": 10,
+      "start": 1552,
+      "end": 1559,
+      "expectedText": "benefts",
+      "text": "benefits"
+    },
+    {
+      "page": 10,
+      "start": 1767,
+      "end": 1777,
+      "expectedText": "effciently",
+      "text": "efficiently"
+    },
+    {
+      "page": 10,
+      "start": 1637,
+      "end": 1649,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 7,
+      "start": 1699,
+      "end": 1729,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 89,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 492 (2026) 499\nBarrett, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 47,
+      "text": "500 MIRABELLI v. BONTA\nBarrett, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 9,
+      "start": 2067,
+      "end": 2097,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 607 U. S. 492 (2026) 501\nBarrett, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 10,
+      "start": 2107,
+      "end": 2137,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 76,
+      "text": "Page Proof Pending Publication\n502 MIRABELLI v. BONTA\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "John G. Roberts, Jr.",
+      "Brett M. Kavanaugh"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

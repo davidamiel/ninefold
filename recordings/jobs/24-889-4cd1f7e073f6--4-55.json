@@ -1,0 +1,2475 @@
+{
+  "reviewed": true,
+  "documentId": "24-889-4cd1f7e073f6--4-55",
+  "sourceDocumentId": "24-889-4cd1f7e073f6",
+  "sourceTextPath": "dist/data/docs/24-889-4cd1f7e073f6.json",
+  "sourceTextSha256": "995b3a3cf16d6e81cbb008c476558f2658bafaed91b4381b720f6655e51bb1b7",
+  "sourcePdfPath": "dist/data/pdfs/24-889-4cd1f7e073f6--4-55.pdf",
+  "sourcePdfSha256": "baab099f2f3b96d2e326e27105b37b7d1ae8924b88114bce822cbf3d2fb91008",
+  "title": "Opinion of the Court",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-06-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r45_i4dk.pdf",
+  "sourceRange": {
+    "startPage": 4,
+    "startOffset": 107,
+    "endPage": 17,
+    "endOffset": 228
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 107,
+          "end": 903
+        }
+      ],
+      "citations": [
+        {
+          "start": 312,
+          "end": 400,
+          "text": "Caraco Pharmaceutical Laboratories, Ltd. v. Novo Nordisk A/S, 566 U. S. 399, 405 (2012),",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        },
+        {
+          "start": 775,
+          "end": 796,
+          "text": "35 U. S. C. § 271(b).",
+          "type": "statute",
+          "canonical": "35 U.S.C. § 271(b)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "induc[e]",
+          "to": "induce"
+        },
+        {
+          "from": "[the brand manufacturer's]",
+          "to": "the brand manufacturer's"
+        },
+        {
+          "from": "FDA",
+          "to": "F D A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 903,
+          "end": 1001
+        },
+        {
+          "page": 5,
+          "start": 79,
+          "end": 740
+        }
+      ],
+      "citations": [
+        {
+          "start": 731,
+          "end": 760,
+          "text": "104 F. 4th 1370, 1380 (2024).",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "USA",
+          "to": "U S A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 740,
+          "end": 1063
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1063,
+          "end": 1064
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1065,
+          "end": 1066
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1067,
+          "end": 1722
+        }
+      ],
+      "citations": [
+        {
+          "start": 69,
+          "end": 103,
+          "text": "See Caraco, 566 U. S., at 404–405.",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        },
+        {
+          "start": 576,
+          "end": 621,
+          "text": "21 U. S. C. §§ 355(b)(1)(A)(i), (vi), (viii);",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355"
+        },
+        {
+          "start": 622,
+          "end": 656,
+          "text": "see Caraco, 566 U. S., at 404–405.",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FDA",
+          "to": "F D A"
+        },
+        {
+          "from": "NDA",
+          "to": "N D A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1722,
+          "end": 2002
+        },
+        {
+          "page": 6,
+          "start": 55,
+          "end": 453
+        }
+      ],
+      "citations": [
+        {
+          "start": 287,
+          "end": 349,
+          "text": "Id., at 404–405 (citing §§ 355(j)(2)(A)(ii), (iv) (2012 ed.)).",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        },
+        {
+          "start": 491,
+          "end": 503,
+          "text": "Id., at 405.",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        },
+        {
+          "start": 616,
+          "end": 678,
+          "text": "Eli Lilly & Co. v. Medtronic, Inc., 496 U. S. 661, 676 (1990).",
+          "type": "case",
+          "canonical": "496 U.S. 661"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "FDA",
+          "to": "F D A"
+        },
+        {
+          "from": "NDA",
+          "to": "N D A"
+        },
+        {
+          "from": "ANDA",
+          "to": "A N D A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 453,
+          "end": 1515
+        }
+      ],
+      "citations": [
+        {
+          "start": 416,
+          "end": 428,
+          "text": "paragraph IV",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355(j)(2)(A)(vii)(IV)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 566,
+          "end": 591,
+          "text": "§ 355(j)(2)(A) (vii)(IV).",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355"
+        },
+        {
+          "start": 801,
+          "end": 874,
+          "text": "Caraco, 566 U. S., at 407 (citing 35 U. S. C. § 271(e)(2)(A) (2012 ed.)).",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        },
+        {
+          "start": 1040,
+          "end": 1066,
+          "text": "Caraco, 566 U. S., at 408.",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[generic]",
+          "to": "generic"
+        },
+        {
+          "from": "FDA",
+          "to": "F D A"
+        },
+        {
+          "from": "paragraph IV",
+          "to": "paragraph four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1515,
+          "end": 2163
+        },
+        {
+          "page": 7,
+          "start": 110,
+          "end": 278
+        }
+      ],
+      "citations": [
+        {
+          "start": 34,
+          "end": 46,
+          "text": "section viii",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355(j)(2)(A)(viii)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 190,
+          "end": 202,
+          "text": "Id., at 406;",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        },
+        {
+          "start": 203,
+          "end": 241,
+          "text": "see 21 U. S. C. § 355(j)(2)(A) (viii).",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355"
+        },
+        {
+          "start": 438,
+          "end": 464,
+          "text": "Caraco, 566 U. S., at 406.",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        },
+        {
+          "start": 497,
+          "end": 509,
+          "text": "section viii",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355(j)(2)(A)(viii)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 655,
+          "end": 661,
+          "text": "Ibid.;",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        },
+        {
+          "start": 662,
+          "end": 699,
+          "text": "see 21 CFR § 314.94(a)(8)(iv) (2025).",
+          "type": "regulation",
+          "canonical": "21 C.F.R. § 314.94(a)(8)(iv)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NDA",
+          "to": "N D A"
+        },
+        {
+          "from": "ANDA",
+          "to": "A N D A"
+        },
+        {
+          "from": "section viii",
+          "to": "section eight"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 278,
+          "end": 1066
+        }
+      ],
+      "citations": [
+        {
+          "start": 221,
+          "end": 247,
+          "text": "Caraco, 566 U. S., at 405,",
+          "type": "case",
+          "canonical": "566 U.S. 399"
+        },
+        {
+          "start": 410,
+          "end": 500,
+          "text": "see Inwood Laboratories, Inc. v. Ives Laboratories, Inc., 456 U. S. 844, 847, n. 4 (1982).",
+          "type": "case",
+          "canonical": "456 U.S. 844"
+        },
+        {
+          "start": 674,
+          "end": 730,
+          "text": "See, e. g., Tex. Occ. Code Ann. § 562.008(b) (West 2018)",
+          "type": "statute",
+          "canonical": "Tex. Occ. Code Ann. § 562.008(b)"
+        },
+        {
+          "start": 745,
+          "end": 775,
+          "text": "Fla. Stat. § 465.025(2) (2025)",
+          "type": "statute",
+          "canonical": "Fla. Stat. § 465.025(2)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NDA",
+          "to": "N D A"
+        },
+        {
+          "from": "ANDA",
+          "to": "A N D A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1066,
+          "end": 1791
+        }
+      ],
+      "citations": [
+        {
+          "start": 70,
+          "end": 141,
+          "text": "see Brief for United States as Amicus Curiae 7–8 (collecting statutes),",
+          "type": "record",
+          "canonical": "see Brief for United States as Amicus Curiae 7–8 (collecting statutes),"
+        },
+        {
+          "start": 394,
+          "end": 472,
+          "text": "Metro-Goldwyn-Mayer Studios Inc. v. Grokster, Ltd., 545 U. S. 913, 937 (2005);",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 473,
+          "end": 562,
+          "text": "see also Cox Communications, Inc. v. Sony Music Entertainment, 607 U. S. 583, 594 (2026).",
+          "type": "case",
+          "canonical": "607 U.S. 583"
+        },
+        {
+          "start": 703,
+          "end": 724,
+          "text": "35 U. S. C. § 271(b).",
+          "type": "statute",
+          "canonical": "35 U.S.C. § 271(b)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[is]",
+          "to": "is"
+        },
+        {
+          "from": "[the brand manufacturer's]",
+          "to": "the brand manufacturer's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1791,
+          "end": 2187
+        },
+        {
+          "page": 8,
+          "start": 55,
+          "end": 227
+        }
+      ],
+      "citations": [
+        {
+          "start": 154,
+          "end": 240,
+          "text": "Limelight Networks, Inc. v. Akamai Technologies, Inc., 572 U. S. 915, 920– 921 (2014).",
+          "type": "case",
+          "canonical": "572 U.S. 915"
+        },
+        {
+          "start": 327,
+          "end": 396,
+          "text": "Global-Tech Appliances, Inc. v. SEB S. A., 563 U. S. 754, 766 (2011).",
+          "type": "case",
+          "canonical": "563 U.S. 754"
+        },
+        {
+          "start": 505,
+          "end": 568,
+          "text": "Grokster, 545 U. S., at 936 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 227,
+          "end": 228
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 229,
+          "end": 902
+        }
+      ],
+      "citations": [
+        {
+          "start": 94,
+          "end": 118,
+          "text": "See 104 F. 4th, at 1372.",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        },
+        {
+          "start": 295,
+          "end": 300,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        },
+        {
+          "start": 538,
+          "end": 579,
+          "text": "Ibid. (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[FDA]",
+          "to": "F D A"
+        },
+        {
+          "from": "FDA",
+          "to": "F D A"
+        },
+        {
+          "from": "CV",
+          "to": "C V"
+        },
+        {
+          "from": "SH",
+          "to": "S H"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 902,
+          "end": 1263
+        }
+      ],
+      "citations": [
+        {
+          "start": 138,
+          "end": 150,
+          "text": "paragraph IV",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355(j)(2)(A)(vii)(IV)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 247,
+          "end": 259,
+          "text": "Ibid., n. 4.",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        },
+        {
+          "start": 358,
+          "end": 363,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NDA",
+          "to": "N D A"
+        },
+        {
+          "from": "ANDA",
+          "to": "A N D A"
+        },
+        {
+          "from": "SH",
+          "to": "S H"
+        },
+        {
+          "from": "paragraph IV",
+          "to": "paragraph four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1263,
+          "end": 1751
+        }
+      ],
+      "citations": [
+        {
+          "start": 345,
+          "end": 358,
+          "text": "Id., at 1372.",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        },
+        {
+          "start": 482,
+          "end": 487,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FDA",
+          "to": "F D A"
+        },
+        {
+          "from": "NDA",
+          "to": "N D A"
+        },
+        {
+          "from": "ANDA",
+          "to": "A N D A"
+        },
+        {
+          "from": "CV",
+          "to": "C V"
+        },
+        {
+          "from": "SH",
+          "to": "S H"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1751,
+          "end": 1916
+        },
+        {
+          "page": 9,
+          "start": 110,
+          "end": 687
+        }
+      ],
+      "citations": [
+        {
+          "start": 83,
+          "end": 95,
+          "text": "section viii",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355(j)(2)(A)(viii)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 237,
+          "end": 250,
+          "text": "Id., at 1373.",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        },
+        {
+          "start": 309,
+          "end": 342,
+          "text": "see 21 U. S. C. § 355(j)(2)(A)(v)",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355"
+        },
+        {
+          "start": 717,
+          "end": 742,
+          "text": "104 F. 4th, at 1373–1374.",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FDA",
+          "to": "F D A"
+        },
+        {
+          "from": "NDA",
+          "to": "N D A"
+        },
+        {
+          "from": "ANDA",
+          "to": "A N D A"
+        },
+        {
+          "from": "CV",
+          "to": "C V"
+        },
+        {
+          "from": "SH",
+          "to": "S H"
+        },
+        {
+          "from": "AB",
+          "to": "A B"
+        },
+        {
+          "from": "section viii",
+          "to": "section eight"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 687,
+          "end": 1192
+        }
+      ],
+      "citations": [
+        {
+          "start": 319,
+          "end": 356,
+          "text": "578 F. Supp. 3d 642, 645– 647 (2022).",
+          "type": "case",
+          "canonical": "578 F.Supp.3d 642"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "CV",
+          "to": "C V"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 9,
+          "start": 2033,
+          "end": 2180
+        }
+      ],
+      "citations": [
+        {
+          "start": 129,
+          "end": 147,
+          "text": "See supra, at 587.",
+          "type": "record",
+          "canonical": "See supra, at 587."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "CV",
+          "to": "C V"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1193,
+          "end": 2031
+        },
+        {
+          "page": 10,
+          "start": 55,
+          "end": 306
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 355,
+          "end": 370,
+          "text": "2 App. 124–125.",
+          "type": "record",
+          "canonical": "2 App. 124–125."
+        },
+        {
+          "start": 557,
+          "end": 569,
+          "text": "Id., at 195.",
+          "type": "record",
+          "canonical": "2 App. 195"
+        },
+        {
+          "start": 892,
+          "end": 920,
+          "text": "Brief for Respondents 23–24.",
+          "type": "record",
+          "canonical": "Brief for Respondents 23–24."
+        },
+        {
+          "start": 994,
+          "end": 1034,
+          "text": "Federal Rule of Civil Procedure 12(b)(6)",
+          "type": "rule",
+          "canonical": "Fed. R. Civ. P. 12(b)(6)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[m]edicines",
+          "to": "medicines"
+        },
+        {
+          "from": "[h]ypertriglyceridemia",
+          "to": "hypertriglyceridemia"
+        },
+        {
+          "from": "th[e]",
+          "to": "the"
+        },
+        {
+          "from": "CV",
+          "to": "C V"
+        },
+        {
+          "from": "SH",
+          "to": "S H"
+        },
+        {
+          "from": "AB",
+          "to": "A B"
+        },
+        {
+          "from": "Vascepa®",
+          "to": "Vascepa"
+        },
+        {
+          "from": "U. S.",
+          "to": "U S"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 306,
+          "end": 986
+        }
+      ],
+      "citations": [
+        {
+          "start": 200,
+          "end": 228,
+          "text": "578 F. Supp. 3d, at 645–648.",
+          "type": "case",
+          "canonical": "578 F.Supp.3d 642"
+        },
+        {
+          "start": 353,
+          "end": 377,
+          "text": "See 104 F. 4th, at 1379;",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        },
+        {
+          "start": 378,
+          "end": 406,
+          "text": "Brief for Respondents 40–41.",
+          "type": "record",
+          "canonical": "Brief for Respondents 40–41."
+        },
+        {
+          "start": 635,
+          "end": 679,
+          "text": "104 F. 4th, at 1378–1380 (emphasis deleted).",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Hikma's generic]",
+          "to": "Hikma's generic"
+        },
+        {
+          "from": "CV",
+          "to": "C V"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 986,
+          "end": 1222
+        }
+      ],
+      "citations": [
+        {
+          "start": 21,
+          "end": 45,
+          "text": ", 607 U. S. 1147 (2026),",
+          "type": "case",
+          "canonical": "607 U.S. 1147"
+        },
+        {
+          "start": 159,
+          "end": 172,
+          "text": "Rule 12(b)(6)",
+          "type": "rule",
+          "canonical": "Fed. R. Civ. P. 12(b)(6)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1222,
+          "end": 1224
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1225,
+          "end": 2012
+        },
+        {
+          "page": 11,
+          "start": 79,
+          "end": 310
+        }
+      ],
+      "citations": [
+        {
+          "start": 192,
+          "end": 251,
+          "text": "Bell Atlantic Corp . v. Twombly, 550 U. S. 544, 570 (2007).",
+          "type": "case",
+          "canonical": "550 U.S. 544"
+        },
+        {
+          "start": 359,
+          "end": 404,
+          "text": "Ashcroft v. Iqbal, 556 U. S. 662, 678 (2009).",
+          "type": "case",
+          "canonical": "556 U.S. 662"
+        },
+        {
+          "start": 584,
+          "end": 625,
+          "text": "Ibid. (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "556 U.S. 662"
+        },
+        {
+          "start": 855,
+          "end": 907,
+          "text": "id., at 678, 680 (internal quotation marks omitted),",
+          "type": "case",
+          "canonical": "556 U.S. 662"
+        },
+        {
+          "start": 990,
+          "end": 1017,
+          "text": "Twombly, 550 U. S., at 567.",
+          "type": "case",
+          "canonical": "550 U.S. 544"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "allo[w]",
+          "to": "allow"
+        },
+        {
+          "from": "explanation[s]",
+          "to": "explanations"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 310,
+          "end": 571
+        }
+      ],
+      "citations": [
+        {
+          "start": 197,
+          "end": 260,
+          "text": "Grokster, 545 U. S., at 936 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1723,
+          "end": 1916
+        }
+      ],
+      "citations": [
+        {
+          "start": 152,
+          "end": 193,
+          "text": "See 104 F. 4th 1370, 1378 (CA Fed. 2024).",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 572,
+          "end": 1306
+        }
+      ],
+      "citations": [
+        {
+          "start": 270,
+          "end": 301,
+          "text": "Global-Tech, 563 U. S., at 760;",
+          "type": "case",
+          "canonical": "563 U.S. 754"
+        },
+        {
+          "start": 302,
+          "end": 338,
+          "text": "see also Grokster, 545 U. S., at 935",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 411,
+          "end": 448,
+          "text": "Cox Communications, 607 U. S., at 595",
+          "type": "case",
+          "canonical": "607 U.S. 583"
+        },
+        {
+          "start": 541,
+          "end": 575,
+          "text": "(internal quotation marks omitted)",
+          "type": "record",
+          "canonical": "(internal quotation marks omitted)"
+        },
+        {
+          "start": 708,
+          "end": 736,
+          "text": "Grokster, 545 U. S., at 937.",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[or]",
+          "to": "or"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1306,
+          "end": 1673
+        }
+      ],
+      "citations": [
+        {
+          "start": 291,
+          "end": 367,
+          "text": "Brief for Respondents 21 (alterations and internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "Brief for Respondents 21 (alterations and internal quotation marks omitted)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Hikma]",
+          "to": "Hikma"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1918,
+          "end": 2357
+        },
+        {
+          "page": 12,
+          "start": 1815,
+          "end": 2178
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 227,
+          "end": 340,
+          "text": "See, e. g., GlaxoSmithKline LLC v. Teva Pharmaceuticals USA, Inc., 7 F. 4th 1320, 1336–1337 (2021) (per curiam ).",
+          "type": "case",
+          "canonical": "7 F.4th 1320"
+        },
+        {
+          "start": 395,
+          "end": 423,
+          "text": "See 104 F. 4th, at 1378–1380",
+          "type": "case",
+          "canonical": "104 F.4th 1370"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1674,
+          "end": 1721
+        },
+        {
+          "page": 12,
+          "start": 55,
+          "end": 646
+        }
+      ],
+      "citations": [
+        {
+          "start": 92,
+          "end": 138,
+          "text": "National Rifle Association of America v. Vullo",
+          "type": "case",
+          "canonical": "602 U.S. 175",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 138,
+          "end": 160,
+          "text": ", 602 U. S. 175 (2024)",
+          "type": "case",
+          "canonical": "602 U.S. 175"
+        },
+        {
+          "start": 420,
+          "end": 449,
+          "text": "id., at 191 (emphasis added).",
+          "type": "case",
+          "canonical": "602 U.S. 175"
+        },
+        {
+          "start": 617,
+          "end": 638,
+          "text": "35 U. S. C. § 271(b).",
+          "type": "statute",
+          "canonical": "35 U.S.C. § 271(b)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]o",
+          "to": "to"
+        },
+        {
+          "from": "activ[e]",
+          "to": "active"
+        },
+        {
+          "from": "induce[ment]",
+          "to": "inducement"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 646,
+          "end": 1815
+        },
+        {
+          "page": 13,
+          "start": 79,
+          "end": 239
+        }
+      ],
+      "citations": [
+        {
+          "start": 226,
+          "end": 244,
+          "text": "545 U. S., at 937;",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 245,
+          "end": 274,
+          "text": "see Brief for Respondents 21.",
+          "type": "record",
+          "canonical": "see Brief for Respondents 21."
+        },
+        {
+          "start": 620,
+          "end": 638,
+          "text": "545 U. S., at 926.",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 908,
+          "end": 920,
+          "text": "Id., at 937.",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 1067,
+          "end": 1079,
+          "text": "Id., at 938.",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 1317,
+          "end": 1333,
+          "text": "Id., at 935–936.",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "entic[e]",
+          "to": "entice"
+        },
+        {
+          "from": "persuad[e]",
+          "to": "persuade"
+        },
+        {
+          "from": "overc[ame]",
+          "to": "overcame"
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 239,
+          "end": 977
+        }
+      ],
+      "citations": [
+        {
+          "start": 120,
+          "end": 227,
+          "text": "Takeda Pharmaceuticals U. S. A., Inc. v. West-Ward Pharmaceutical Corp., 785 F. 3d 625, 632 (CA Fed. 2015);",
+          "type": "case",
+          "canonical": "785 F.3d 625"
+        },
+        {
+          "start": 228,
+          "end": 264,
+          "text": "see also Grokster, 545 U. S., at 937",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 404,
+          "end": 426,
+          "text": "See Reply Brief 22–23.",
+          "type": "record",
+          "canonical": "See Reply Brief 22–23."
+        },
+        {
+          "start": 577,
+          "end": 610,
+          "text": "Grokster, 545 U. S., at 937, 938.",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 722,
+          "end": 738,
+          "text": "See id., at 937.",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[others]",
+          "to": "others"
+        },
+        {
+          "from": "suggestiv[e]",
+          "to": "suggestive"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 977,
+          "end": 980
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 981,
+          "end": 1330
+        }
+      ],
+      "citations": [
+        {
+          "start": 179,
+          "end": 205,
+          "text": "Iqbal , 556 U. S., at 678.",
+          "type": "case",
+          "canonical": "556 U.S. 662"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "CV",
+          "to": "C V"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1330,
+          "end": 1988
+        },
+        {
+          "page": 14,
+          "start": 86,
+          "end": 176
+        }
+      ],
+      "citations": [
+        {
+          "start": 85,
+          "end": 111,
+          "text": "Twombly, 550 U. S., at 567",
+          "type": "case",
+          "canonical": "550 U.S. 544"
+        },
+        {
+          "start": 564,
+          "end": 594,
+          "text": "21 U. S. C. § 355(j)(2)(A)(v);",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355"
+        },
+        {
+          "start": 595,
+          "end": 630,
+          "text": "see also 21 CFR § 314.94(a)(8)(iv);",
+          "type": "regulation",
+          "canonical": "21 C.F.R. § 314.94(a)(8)(iv)"
+        },
+        {
+          "start": 631,
+          "end": 680,
+          "text": "PLIVA, Inc. v. Mensing, 564 U. S. 604, 616 (2011)",
+          "type": "case",
+          "canonical": "564 U.S. 604"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "CV",
+          "to": "C V"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1697,
+          "end": 2129
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "CV",
+          "to": "C V"
+        },
+        {
+          "from": "SH",
+          "to": "S H"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 178,
+          "end": 874
+        }
+      ],
+      "citations": [
+        {
+          "start": 169,
+          "end": 197,
+          "text": "Brief for Respondents 23–24.",
+          "type": "record",
+          "canonical": "Brief for Respondents 23–24."
+        },
+        {
+          "start": 347,
+          "end": 394,
+          "text": "See Inwood Laboratories, 456 U. S., at 847–848;",
+          "type": "case",
+          "canonical": "456 U.S. 844"
+        },
+        {
+          "start": 395,
+          "end": 407,
+          "text": "§ 353d(a)(3)",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 353d"
+        },
+        {
+          "start": 473,
+          "end": 478,
+          "text": "§ 355",
+          "type": "statute",
+          "canonical": "21 U.S.C. § 355",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[§ 355]",
+          "to": "Section 355"
+        },
+        {
+          "from": "§ 355",
+          "to": "Section 355"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 874,
+          "end": 1695
+        },
+        {
+          "page": 15,
+          "start": 79,
+          "end": 147
+        }
+      ],
+      "citations": [
+        {
+          "start": 104,
+          "end": 156,
+          "text": "Twitter, Inc. v. Taamneh, 598 U. S. 471, 489 (2023).",
+          "type": "case",
+          "canonical": "598 U.S. 471"
+        },
+        {
+          "start": 492,
+          "end": 521,
+          "text": "Brief for Respondents 23, 26.",
+          "type": "record",
+          "canonical": "Brief for Respondents 23, 26."
+        },
+        {
+          "start": 669,
+          "end": 702,
+          "text": "Grokster, 545 U. S., at 935, 937.",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 863,
+          "end": 890,
+          "text": "Twitter, 598 U. S., at 489.",
+          "type": "case",
+          "canonical": "598 U.S. 471"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "mentio[n]",
+          "to": "mention"
+        },
+        {
+          "from": "[Hikma's]",
+          "to": "Hikma's"
+        },
+        {
+          "from": "CV",
+          "to": "C V"
+        },
+        {
+          "from": "SH",
+          "to": "S H"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 147,
+          "end": 1509
+        }
+      ],
+      "citations": [
+        {
+          "start": 199,
+          "end": 225,
+          "text": "Takeda, 785 F. 3d, at 632.",
+          "type": "case",
+          "canonical": "785 F.3d 625"
+        },
+        {
+          "start": 566,
+          "end": 626,
+          "text": "Brief for Respondents 31 (internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "Brief for Respondents 31 (internal quotation marks omitted)."
+        },
+        {
+          "start": 634,
+          "end": 642,
+          "text": "§ 271(b)",
+          "type": "statute",
+          "canonical": "35 U.S.C. § 271(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 909,
+          "end": 940,
+          "text": "Global-Tech, 563 U. S., at 760.",
+          "type": "case",
+          "canonical": "563 U.S. 754"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[medical providers]",
+          "to": "medical providers"
+        },
+        {
+          "from": "activ[e]",
+          "to": "active"
+        },
+        {
+          "from": "underst[oo]d",
+          "to": "understood"
+        },
+        {
+          "from": "§ 271(b)",
+          "to": "Section 271(b)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1509,
+          "end": 2088
+        },
+        {
+          "page": 16,
+          "start": 55,
+          "end": 681
+        }
+      ],
+      "citations": [
+        {
+          "start": 317,
+          "end": 345,
+          "text": "Grokster, 545 U. S., at 937.",
+          "type": "case",
+          "canonical": "545 U.S. 913"
+        },
+        {
+          "start": 579,
+          "end": 594,
+          "text": "Reply Brief 12.",
+          "type": "record",
+          "canonical": "Reply Brief 12."
+        },
+        {
+          "start": 928,
+          "end": 1032,
+          "text": "GlaxoSmithKline LLC v. Teva Pharmaceuticals USA, Inc., 7 F. 4th 1320, 1335 (CA Fed. 2021) (per curiam ).",
+          "type": "case",
+          "canonical": "7 F.4th 1320"
+        },
+        {
+          "start": 1196,
+          "end": 1207,
+          "text": "2 App. 195.",
+          "type": "record",
+          "canonical": "2 App. 195."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "AB",
+          "to": "A B"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 681,
+          "end": 1849
+        }
+      ],
+      "citations": [
+        {
+          "start": 122,
+          "end": 148,
+          "text": "Takeda, 785 F. 3d, at 632.",
+          "type": "case",
+          "canonical": "785 F.3d 625"
+        },
+        {
+          "start": 1020,
+          "end": 1045,
+          "text": "Iqbal, 556 U. S., at 678.",
+          "type": "case",
+          "canonical": "556 U.S. 662"
+        },
+        {
+          "start": 1154,
+          "end": 1162,
+          "text": "§ 271(b)",
+          "type": "statute",
+          "canonical": "35 U.S.C. § 271(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1164,
+          "end": 1169,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "556 U.S. 662"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "possib[le]",
+          "to": "possible"
+        },
+        {
+          "from": "§ 271(b)",
+          "to": "Section 271(b)"
+        },
+        {
+          "from": "CV",
+          "to": "C V"
+        },
+        {
+          "from": "SH",
+          "to": "S H"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1855,
+          "end": 2035
+        },
+        {
+          "page": 17,
+          "start": 79,
+          "end": 228
+        }
+      ],
+      "citations": [
+        {
+          "start": 106,
+          "end": 114,
+          "text": "§ 271(b)",
+          "type": "statute",
+          "canonical": "35 U.S.C. § 271(b)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 158,
+          "end": 171,
+          "text": "Rule 12(b)(6)",
+          "type": "rule",
+          "canonical": "Fed. R. Civ. P. 12(b)(6)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 271(b)",
+          "to": "Section 271(b)"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 1001,
+      "end": 2487,
+      "text": "for Shashank Upadhye, pro se; for Former Congressman Henry A. Waxman by William B. Schultz and Margaret M. Dotzel; and for 76 Scholars\nof Law et al. by Charles Duan and Michael A. Carrier .\nBriefs of amici curiae urging affrmance were fled for AbbVie Inc. et al.\nby Jonathan S. Massey; for Academic Medical Centers by Ronald E. Cahill, Steven P . Caltrider, and William R. Boudreaux; for the American\nIntellectual Property Law Association by Barbara A. Fiacco, Urszula\nNowak, Spenser C. Angel, and Salvatore Anastasi; for Pharmaceutical\nResearch and Manufacturers of America et al. by Sarah E. Harrington\nand David E. Korn; for Sanof by Zachary D. Tripp, Rachel Weiner Cohen,\nand Robert B. Niles-Weed; and for Former Federal Circuit Chief Judge\nPaul R. Michel et al. by Gregory A. Castanias and Jason G. Winchester .\nBriefs of amici curiae were fled for the Intellectual Property Owners\nAssociation by Paul H. Berghoff and Samantha J. Aguayo; for the Licensing Executives Society (U. S. A. and Canada), Inc., (LES) by Brian P .\nO'Shaughnessy; for the New York Intellectual Property Law Association\nby Paul A. Coletti; for the Public Interest Patent Law Institute by Christopher T. Bavitz, Michael Rosenbloom, and Alex H. Moss; for Regeneron\nPharmaceuticals, Inc. by Farheena Y . Rasheed, Kamilyn Y . Choi, Larry A.\nCoury, Petra Scamborova, and Irena Royzman; and for Patent Law Professor Paul R. Gugliuzza et al. by Phillip R. Malone and Nina K. Srejovic.\nPage Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 79,
+      "text": "584 HIKMA PHARMACEUTICALS USA INC. v. AMARIN\nPHARMA, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 2002,
+      "end": 2032,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 580 (2026) 585\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2163,
+      "end": 2193,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 110,
+      "text": "Page Proof Pending Publication\n586 HIKMA PHARMACEUTICALS USA INC. v. AMARIN\nPHARMA, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 580 (2026) 587\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1916,
+      "end": 1946,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 110,
+      "text": "Page Proof Pending Publication\n588 HIKMA PHARMACEUTICALS USA INC. v. AMARIN\nPHARMA, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1192,
+      "end": 1193,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2031,
+      "end": 2033,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 580 (2026) 589\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 2012,
+      "end": 2042,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 79,
+      "text": "590 HIKMA PHARMACEUTICALS USA INC. v. AMARIN\nPHARMA, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 571,
+      "end": 572,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 1673,
+      "end": 1674,
+      "text": "3",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 1721,
+      "end": 1723,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 1916,
+      "end": 1918,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 2357,
+      "end": 2387,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 580 (2026) 591\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 2178,
+      "end": 2208,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 79,
+      "text": "592 HIKMA PHARMACEUTICALS USA INC. v. AMARIN\nPHARMA, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 1988,
+      "end": 2018,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 580 (2026) 593\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 176,
+      "end": 178,
+      "text": "5\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 1695,
+      "end": 1697,
+      "text": "5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 79,
+      "text": "594 HIKMA PHARMACEUTICALS USA INC. v. AMARIN\nPHARMA, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 2088,
+      "end": 2118,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 580 (2026) 595\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 1849,
+      "end": 1855,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 2035,
+      "end": 2065,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 79,
+      "text": "596 HIKMA PHARMACEUTICALS USA INC. v. AMARIN\nPHARMA, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 4,
+      "start": 351,
+      "end": 360,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 4,
+      "start": 1236,
+      "end": 1240,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 1846,
+      "end": 1850,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 577,
+      "end": 583,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 5,
+      "start": 1341,
+      "end": 1350,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 5,
+      "start": 1398,
+      "end": 1405,
+      "expectedText": "effcacy",
+      "text": "efficacy"
+    },
+    {
+      "page": 5,
+      "start": 1926,
+      "end": 1929,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 6,
+      "start": 849,
+      "end": 853,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 6,
+      "start": 860,
+      "end": 863,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 6,
+      "start": 880,
+      "end": 892,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 6,
+      "start": 1047,
+      "end": 1052,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 6,
+      "start": 1151,
+      "end": 1154,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 6,
+      "start": 2037,
+      "end": 2040,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 7,
+      "start": 431,
+      "end": 440,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 8,
+      "start": 1033,
+      "end": 1036,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 8,
+      "start": 1052,
+      "end": 1064,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 8,
+      "start": 1235,
+      "end": 1247,
+      "expectedText": "method-ofuse",
+      "text": "method-of-use"
+    },
+    {
+      "page": 9,
+      "start": 159,
+      "end": 171,
+      "expectedText": "method-ofuse",
+      "text": "method-of-use"
+    },
+    {
+      "page": 9,
+      "start": 745,
+      "end": 749,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 9,
+      "start": 1226,
+      "end": 1232,
+      "expectedText": "leafet",
+      "text": "leaflet"
+    },
+    {
+      "page": 9,
+      "start": 1538,
+      "end": 1544,
+      "expectedText": "leafet",
+      "text": "leaflet"
+    },
+    {
+      "page": 9,
+      "start": 1961,
+      "end": 1976,
+      "expectedText": "far-lesserknown",
+      "text": "far-lesser-known"
+    },
+    {
+      "page": 10,
+      "start": 178,
+      "end": 182,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 11,
+      "start": 586,
+      "end": 593,
+      "expectedText": "defning",
+      "text": "defining"
+    },
+    {
+      "page": 11,
+      "start": 652,
+      "end": 671,
+      "expectedText": "inducedinfringement",
+      "text": "induced-infringement"
+    },
+    {
+      "page": 11,
+      "start": 738,
+      "end": 748,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 11,
+      "start": 1243,
+      "end": 1254,
+      "expectedText": "insuffcient",
+      "text": "insufficient"
+    },
+    {
+      "page": 11,
+      "start": 1858,
+      "end": 1865,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 11,
+      "start": 1952,
+      "end": 1959,
+      "expectedText": "refects",
+      "text": "reflects"
+    },
+    {
+      "page": 12,
+      "start": 110,
+      "end": 114,
+      "expectedText": "Rife",
+      "text": "Rifle"
+    },
+    {
+      "page": 12,
+      "start": 507,
+      "end": 526,
+      "expectedText": "inducedinfringement",
+      "text": "induced-infringement"
+    },
+    {
+      "page": 12,
+      "start": 1079,
+      "end": 1081,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 12,
+      "start": 1140,
+      "end": 1151,
+      "expectedText": "fle-sharing",
+      "text": "file-sharing"
+    },
+    {
+      "page": 12,
+      "start": 1395,
+      "end": 1406,
+      "expectedText": "fle-sharing",
+      "text": "file-sharing"
+    },
+    {
+      "page": 12,
+      "start": 1627,
+      "end": 1639,
+      "expectedText": "affrmatively",
+      "text": "affirmatively"
+    },
+    {
+      "page": 13,
+      "start": 126,
+      "end": 129,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 13,
+      "start": 947,
+      "end": 957,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 13,
+      "start": 1286,
+      "end": 1296,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 13,
+      "start": 1849,
+      "end": 1857,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 14,
+      "start": 190,
+      "end": 194,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 14,
+      "start": 586,
+      "end": 593,
+      "expectedText": "defning",
+      "text": "defining"
+    },
+    {
+      "page": 14,
+      "start": 1333,
+      "end": 1342,
+      "expectedText": "farlesser",
+      "text": "far-lesser"
+    },
+    {
+      "page": 14,
+      "start": 1411,
+      "end": 1421,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 15,
+      "start": 491,
+      "end": 497,
+      "expectedText": "leafet",
+      "text": "leaflet"
+    },
+    {
+      "page": 15,
+      "start": 538,
+      "end": 547,
+      "expectedText": "identifes",
+      "text": "identifies"
+    },
+    {
+      "page": 15,
+      "start": 687,
+      "end": 698,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 15,
+      "start": 983,
+      "end": 993,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 15,
+      "start": 1128,
+      "end": 1134,
+      "expectedText": "leafet",
+      "text": "leaflet"
+    },
+    {
+      "page": 16,
+      "start": 177,
+      "end": 184,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 16,
+      "start": 316,
+      "end": 324,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 16,
+      "start": 537,
+      "end": 545,
+      "expectedText": "clarifes",
+      "text": "clarifies"
+    },
+    {
+      "page": 16,
+      "start": 700,
+      "end": 706,
+      "expectedText": "fgures",
+      "text": "figures"
+    },
+    {
+      "page": 16,
+      "start": 872,
+      "end": 878,
+      "expectedText": "fgures",
+      "text": "figures"
+    },
+    {
+      "page": 16,
+      "start": 1397,
+      "end": 1403,
+      "expectedText": "fgures",
+      "text": "figures"
+    },
+    {
+      "page": 4,
+      "start": 994,
+      "end": 1001,
+      "expectedText": "induced",
+      "text": "induced-"
+    },
+    {
+      "page": 9,
+      "start": 2027,
+      "end": 2030,
+      "expectedText": "fg-",
+      "text": "fig"
+    },
+    {
+      "page": 11,
+      "start": 2350,
+      "end": 2356,
+      "expectedText": "rever-",
+      "text": "rever"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "All fourteen Court PDF pages and four substantive notes reviewed, preserving original labels 1,2,3,5 (the source itself skips 4). Complete note 3 continuation included. All clinical-label/factual quotations, statutory wording, pleading standards, explanations and qualifications retained; only exact individual source references and attributions omitted. Semantic Title 35 inducement and Title 21 labeling provisions retained inline/spoken. Counsel and Reporter excluded; compound/ligature repairs checked against PDF."
+}

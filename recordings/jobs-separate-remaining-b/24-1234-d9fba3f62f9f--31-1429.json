@@ -1,0 +1,850 @@
+{
+  "reviewed": true,
+  "documentId": "24-1234-d9fba3f62f9f--31-1429",
+  "sourceDocumentId": "24-1234-d9fba3f62f9f",
+  "sourceTextPath": "dist/data/docs/24-1234-d9fba3f62f9f.json",
+  "sourceTextSha256": "bcd7eebde87fd9006c64e5473acfe66d67ad09c36e20d60b99b7cd3102413880",
+  "sourcePdfPath": "dist/data/pdfs/24-1234-d9fba3f62f9f--31-1429.pdf",
+  "sourcePdfSha256": "67d5451b2a59729c67321cf3a88bb6bc3338d396e4d27b7e1a7460e9597cdec8",
+  "title": "Concurrence",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-06-18",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r51_k4lo.pdf",
+  "sourceRange": {
+    "startPage": 31,
+    "startOffset": 1493,
+    "endPage": 35,
+    "endOffset": 798
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 1493,
+          "end": 1904
+        },
+        {
+          "page": 32,
+          "start": 58,
+          "end": 190
+        }
+      ],
+      "citations": [
+        {
+          "start": 131,
+          "end": 152,
+          "text": ", 597 U. S. 1 (2022),",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 180,
+          "end": 202,
+          "text": ", 602 U. S. 680 (2024)",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 266,
+          "end": 317,
+          "text": "See Rahimi, 602 U. S., at 741 (concurring opinion).",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 190,
+          "end": 805
+        }
+      ],
+      "citations": [
+        {
+          "start": 277,
+          "end": 320,
+          "text": "597 U. S., at 107 (Breyer, J., dissenting).",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 560,
+          "end": 616,
+          "text": "See Rahimi, 602 U. S., at 743 (Jackson, J., concurring).",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1512,
+          "end": 2316
+        }
+      ],
+      "citations": [
+        {
+          "start": 101,
+          "end": 131,
+          "text": ", see 18 U. S. C. § 922(g)(1),",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922"
+        },
+        {
+          "start": 221,
+          "end": 253,
+          "text": ", 162 F. 4th 500, 504 (CA5 2025)",
+          "type": "case",
+          "canonical": "162 F.4th 500"
+        },
+        {
+          "start": 268,
+          "end": 279,
+          "text": "§ 922(g)(1)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 431,
+          "end": 473,
+          "text": ", 124 F. 4th 218, 232 (CA3 2024) (en banc)",
+          "type": "case",
+          "canonical": "124 F.4th 218"
+        },
+        {
+          "start": 593,
+          "end": 629,
+          "text": ", 137 F. 4th 743, 761–762 (CA9 2025)",
+          "type": "case",
+          "canonical": "137 F.4th 743"
+        },
+        {
+          "start": 680,
+          "end": 691,
+          "text": "§ 922(g)(1)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 754,
+          "end": 794,
+          "text": ", 110 F. 4th 1120, 1125, 1129 (CA8 2024)",
+          "type": "case",
+          "canonical": "110 F.4th 1120"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Compare, e. g.,",
+          "to": "Compare, for example,"
+        },
+        {
+          "from": "§ 922(g)(1)",
+          "to": "section nine twenty-two, g one"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 807,
+          "end": 1271
+        }
+      ],
+      "citations": [
+        {
+          "start": 127,
+          "end": 182,
+          "text": "Rahimi, 602 U. S., at 706 (Sotomayor , J., concurring).",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 422,
+          "end": 464,
+          "text": "See id., at 747 (Jackson, J., concurring).",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1271,
+          "end": 1510
+        },
+        {
+          "page": 33,
+          "start": 52,
+          "end": 964
+        }
+      ],
+      "citations": [
+        {
+          "start": 306,
+          "end": 356,
+          "text": "See Bruen, 597 U. S., at 18–19 (majority opinion).",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 487,
+          "end": 524,
+          "text": "Id., at 103 (Breyer, J., dissenting).",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 740,
+          "end": 833,
+          "text": "See, e. g., New York State Rifle & Pistol Assn., Inc. v. Cuomo, 804 F. 3d 242, 264 (CA2 2015)",
+          "type": "case",
+          "canonical": "804 F.3d 242"
+        },
+        {
+          "start": 952,
+          "end": 1002,
+          "text": ", abrogated on other grounds by Bruen, 597 U. S. 1",
+          "type": "case",
+          "canonical": "804 F.3d 242"
+        },
+        {
+          "start": 1004,
+          "end": 1060,
+          "text": "Ezell v. Chicago, 651 F. 3d 684, 708–709, 711 (CA7 2011)",
+          "type": "case",
+          "canonical": "651 F.3d 684"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 964,
+          "end": 2067
+        }
+      ],
+      "citations": [
+        {
+          "start": 317,
+          "end": 388,
+          "text": "See, e. g., Reed v. Town of Gilbert, 576 U. S. 155, 164, 171–172 (2015)",
+          "type": "case",
+          "canonical": "576 U.S. 155"
+        },
+        {
+          "start": 486,
+          "end": 575,
+          "text": "City of Austin v. Reagan Nat. Advertising of Austin, LLC , 596 U. S. 61, 69, 76–77 (2022)",
+          "type": "case",
+          "canonical": "596 U.S. 61"
+        },
+        {
+          "start": 675,
+          "end": 727,
+          "text": "Sessions v. Morales-Santana, 582 U. S. 47, 58 (2017)",
+          "type": "case",
+          "canonical": "582 U.S. 47"
+        },
+        {
+          "start": 822,
+          "end": 870,
+          "text": "Johnson v. California, 543 U. S. 499, 509 (2005)",
+          "type": "case",
+          "canonical": "543 U.S. 499"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 58,
+          "end": 202
+        }
+      ],
+      "citations": [
+        {
+          "start": 74,
+          "end": 97,
+          "text": "18 U. S. C. § 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "18 U. S. C. § 922(g)(3)",
+          "to": "section nine twenty-two, g three, of Title eighteen"
+        },
+        {
+          "from": "§ 922(g)(3)",
+          "to": "section nine twenty-two, g three"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 34,
+          "start": 1845,
+          "end": 2035
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 205,
+          "end": 585
+        }
+      ],
+      "citations": [
+        {
+          "start": 237,
+          "end": 264,
+          "text": "Brief for United States 12.",
+          "type": "reference",
+          "canonical": "Brief for United States, p. 12"
+        },
+        {
+          "start": 272,
+          "end": 283,
+          "text": "§ 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 922(g)(3)",
+          "to": "section nine twenty-two, g three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 585,
+          "end": 1312
+        }
+      ],
+      "citations": [
+        {
+          "start": 205,
+          "end": 216,
+          "text": "§ 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 300,
+          "end": 331,
+          "text": "See Brief for United States 12.",
+          "type": "reference",
+          "canonical": "Brief for United States, p. 12"
+        },
+        {
+          "start": 348,
+          "end": 359,
+          "text": "§ 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 546,
+          "end": 569,
+          "text": "Tr. of Oral Arg. 17–18;",
+          "type": "record",
+          "canonical": "Oral argument transcript, pp. 17–18"
+        },
+        {
+          "start": 570,
+          "end": 588,
+          "text": "see id., at 59–60.",
+          "type": "record",
+          "canonical": "Oral argument transcript, pp. 59–60"
+        },
+        {
+          "start": 631,
+          "end": 642,
+          "text": "§ 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 922(g)(3)",
+          "to": "section nine twenty-two, g three"
+        },
+        {
+          "from": "us[e]",
+          "to": "use"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 1312,
+          "end": 1843
+        },
+        {
+          "page": 35,
+          "start": 62,
+          "end": 245
+        }
+      ],
+      "citations": [
+        {
+          "start": 181,
+          "end": 192,
+          "text": "§ 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 236,
+          "end": 284,
+          "text": "Ante, at 791 (internal quotation marks omitted).",
+          "type": "reference",
+          "canonical": "Court opinion, p. 791"
+        },
+        {
+          "start": 334,
+          "end": 345,
+          "text": "§ 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 482,
+          "end": 503,
+          "text": "See ante, at 791–794.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 791–794"
+        },
+        {
+          "start": 556,
+          "end": 567,
+          "text": "§ 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 922(g)(3)",
+          "to": "section nine twenty-two, g three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 245,
+          "end": 798
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 31,
+      "start": 73,
+      "end": 79,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 31,
+      "start": 144,
+      "end": 150,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 31,
+      "start": 224,
+      "end": 230,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 31,
+      "start": 1589,
+      "end": 1593,
+      "expectedText": "Rife",
+      "text": "Rifle"
+    },
+    {
+      "page": 32,
+      "start": 170,
+      "end": 176,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 32,
+      "start": 293,
+      "end": 301,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 32,
+      "start": 1013,
+      "end": 1019,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 32,
+      "start": 1275,
+      "end": 1286,
+      "expectedText": "diffculties",
+      "text": "difficulties"
+    },
+    {
+      "page": 32,
+      "start": 1462,
+      "end": 1474,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 32,
+      "start": 1483,
+      "end": 1489,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 32,
+      "start": 1585,
+      "end": 1591,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 32,
+      "start": 2156,
+      "end": 2164,
+      "expectedText": "affrming",
+      "text": "affirming"
+    },
+    {
+      "page": 33,
+      "start": 577,
+      "end": 581,
+      "expectedText": "Rife",
+      "text": "Rifle"
+    },
+    {
+      "page": 33,
+      "start": 949,
+      "end": 954,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 33,
+      "start": 1155,
+      "end": 1167,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 33,
+      "start": 1227,
+      "end": 1238,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 33,
+      "start": 1264,
+      "end": 1276,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 33,
+      "start": 1903,
+      "end": 1916,
+      "expectedText": "classifcation",
+      "text": "classification"
+    },
+    {
+      "page": 34,
+      "start": 102,
+      "end": 108,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 34,
+      "start": 375,
+      "end": 381,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 34,
+      "start": 497,
+      "end": 503,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 34,
+      "start": 546,
+      "end": 557,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 34,
+      "start": 831,
+      "end": 838,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 34,
+      "start": 1041,
+      "end": 1047,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 34,
+      "start": 1229,
+      "end": 1240,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 34,
+      "start": 1297,
+      "end": 1303,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 34,
+      "start": 1784,
+      "end": 1791,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 35,
+      "start": 117,
+      "end": 128,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 35,
+      "start": 410,
+      "end": 412,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 35,
+      "start": 440,
+      "end": 452,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 35,
+      "start": 777,
+      "end": 783,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 35,
+      "start": 1048,
+      "end": 1052,
+      "expectedText": "Rife",
+      "text": "Rifle"
+    },
+    {
+      "page": 35,
+      "start": 1141,
+      "end": 1146,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 35,
+      "start": 1392,
+      "end": 1399,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 35,
+      "start": 1766,
+      "end": 1771,
+      "expectedText": "affrm",
+      "text": "affirm"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 31,
+      "start": 1904,
+      "end": 1934,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 32,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 772 (2026) 803\nJackson, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 32,
+      "start": 805,
+      "end": 807,
+      "text": "1\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 32,
+      "start": 1510,
+      "end": 1512,
+      "text": "1 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 32,
+      "start": 2316,
+      "end": 2346,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 33,
+      "start": 0,
+      "end": 52,
+      "text": "804 UNITED STATES v. HEMANI\nJackson, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 33,
+      "start": 2067,
+      "end": 2097,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 34,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 772 (2026) 805\nJackson, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 34,
+      "start": 203,
+      "end": 205,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 34,
+      "start": 1843,
+      "end": 1845,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 34,
+      "start": 2035,
+      "end": 2065,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 35,
+      "start": 0,
+      "end": 62,
+      "text": "806 UNITED STATES v. HEMANI\nAlito, J., concurring in judgment\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Sonia Sotomayor"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

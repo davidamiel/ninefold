@@ -1,0 +1,131 @@
+{
+  "version": "aed1dc225396f51e",
+  "duration": 57.475,
+  "voice": "am_michael",
+  "audioSha256": "cd4e2a9e3842b8935261eb8e3cb5175412f19b2d2fc28f616e680da5ff058cea",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 6.1,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 458,
+          "end": 543
+        }
+      ],
+      "text": "Alan Dershowitz sued respondent, a major news network, alleging that it defamed him."
+    },
+    {
+      "start": 6.1,
+      "end": 16.38,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 545,
+          "end": 725
+        }
+      ],
+      "text": "Because Dershowitz is a “public person,” our precedents required him to prove not only the elements of common-law defamation, but also that the network acted with “actual malice.”"
+    },
+    {
+      "start": 16.38,
+      "end": 24.58,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 798,
+          "end": 955
+        }
+      ],
+      "text": "Predictably, Dershowitz did not prevail under that exacting standard, which this Court created in New York Times Co. v. Sullivan."
+    },
+    {
+      "start": 24.58,
+      "end": 30.1,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 957,
+          "end": 1033
+        }
+      ],
+      "text": "Dershowitz now asks this Court to overrule Sullivan and related precedents."
+    },
+    {
+      "start": 30.1,
+      "end": 39.06,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1034,
+          "end": 1161
+        }
+      ],
+      "text": "The “actual malice” standard for public figures “bears ‘no relation to the text, history, or structure of the Constitution.’”"
+    },
+    {
+      "start": 39.06,
+      "end": 47.8,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1556,
+          "end": 1693
+        }
+      ],
+      "text": "Instead, the founding generation believed that, if anything, public figures had stronger claims for damages when they were defamed."
+    },
+    {
+      "start": 47.8,
+      "end": 53.34,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1794,
+          "end": 1867
+        },
+        {
+          "page": 1,
+          "start": 78,
+          "end": 106
+        }
+      ],
+      "text": "I and others have thus called for reconsideration of the actual-malice standard for public figures."
+    },
+    {
+      "start": 53.34,
+      "end": 57.125,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 323,
+          "end": 378
+        }
+      ],
+      "text": "I would have granted certiorari to do so in this case."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 72,
+      "expectedWords": 73,
+      "coverage": 0.9863013698630136
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 64,
+      "expectedWords": 65,
+      "coverage": 0.9846153846153847
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "reviewed": true,
+  "documentId": "24-856-72b94be09fe1--18-414",
+  "sourceDocumentId": "24-856-72b94be09fe1",
+  "sourceTextPath": "dist/data/docs/24-856-72b94be09fe1.json",
+  "sourceTextSha256": "fb2dde6c2b91297dddeb775273bcfab90bed784fcc92fc7db35427b9be617aef",
+  "sourcePdfPath": "dist/data/pdfs/24-856-72b94be09fe1--18-414.pdf",
+  "sourcePdfSha256": "462d9dfc4d4e513b8612a3cc0a29a205dbd34f550e473aa15eeb82636c0505c2",
+  "title": "Concurring in part and dissenting in part",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-06-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r57_db8e.pdf",
+  "sourceRange": {
+    "startPage": 18,
+    "startOffset": 517,
+    "endPage": 19,
+    "endOffset": 154
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 517,
+          "end": 1037
+        }
+      ],
+      "citations": [
+        {
+          "start": 71,
+          "end": 113,
+          "text": "See post, at 162–167 (dissenting opinion).",
+          "type": "reference",
+          "canonical": "Sotomayor dissent, pages 162–167"
+        },
+        {
+          "start": 352,
+          "end": 373,
+          "text": "see ante, at 156–157,",
+          "type": "reference",
+          "canonical": "Court opinion, pages 156–157"
+        },
+        {
+          "start": 490,
+          "end": 513,
+          "text": ", 511 U. S. 164 (1994),",
+          "type": "reference",
+          "canonical": "Central Bank of Denver v First Interstate Bank of Denver,511 U.S.164"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1037,
+          "end": 1738
+        },
+        {
+          "page": 19,
+          "start": 60,
+          "end": 154
+        }
+      ],
+      "citations": [
+        {
+          "start": 176,
+          "end": 188,
+          "text": "Id., at 182.",
+          "type": "reference",
+          "canonical": "Central Bank of Denver,511 U.S.182"
+        },
+        {
+          "start": 290,
+          "end": 307,
+          "text": "post, at 183–184,",
+          "type": "reference",
+          "canonical": "Sotomayor dissent, pages183–184"
+        },
+        {
+          "start": 430,
+          "end": 451,
+          "text": "Contra, ante, at 156;",
+          "type": "reference",
+          "canonical": "Court opinion, page156"
+        },
+        {
+          "start": 452,
+          "end": 504,
+          "text": "see Soto v. United States, 605 U. S. 360, 373 (2025)",
+          "type": "reference",
+          "canonical": "Soto v.United States,605 U.S.360"
+        },
+        {
+          "start": 695,
+          "end": 721,
+          "text": "See 511 U. S., at 176–180.",
+          "type": "reference",
+          "canonical": "Central Bank of Denver,511 U.S.176–180"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[W]e",
+          "to": "We"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 19,
+      "start": 998,
+      "end": 1001,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 18,
+      "start": 1148,
+      "end": 1166,
+      "expectedText": "aidingand-abetting",
+      "text": "aiding-and-abetting"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 18,
+      "start": 1739,
+      "end": 1952,
+      "text": "U. S. 449, 458 (2012); see also post, at 182 (opinion of Sotomayor, J.) (relying on this assertion). Such liability, however, is much more limited than\naiding-and-abetting liability.\nPage Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 609 U. S. 141 (2026) 159\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

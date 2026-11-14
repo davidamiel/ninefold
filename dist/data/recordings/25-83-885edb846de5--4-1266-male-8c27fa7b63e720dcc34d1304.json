@@ -1,0 +1,2566 @@
+{
+  "version": "ff7b3f7a26075954",
+  "duration": 1961.2,
+  "voice": "am_michael",
+  "audioSha256": "153a0d4cb75b92834f8e8b7a21b96986be79a314c26329c8ce4a1e06dabc6bb9",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 19.38,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1320,
+          "end": 1592
+        }
+      ],
+      "text": "This case addresses whether a federal court that has previously stayed claims in a pending action under Section 3 of the Federal Arbitration Act (F A A), has jurisdiction to confirm or vacate a resulting arbitral award as to those claims under Section 9 and Section 10."
+    },
+    {
+      "start": 19.38,
+      "end": 21.96,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1593,
+          "end": 1622
+        }
+      ],
+      "text": "The Court holds that it does."
+    },
+    {
+      "start": 21.96,
+      "end": 41.02,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1623,
+          "end": 1907
+        }
+      ],
+      "text": "Because a federal court in this scenario has jurisdiction over the original claims and does not lose that jurisdiction while the case is stayed pending arbitration, it retains jurisdiction to determine whether the arbitral award resolving those claims is valid and should be confirmed."
+    },
+    {
+      "start": 41.02,
+      "end": 46.7,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1908,
+          "end": 1989
+        }
+      ],
+      "text": "The judgment of the Court of Appeals for the Second Circuit is therefore affirmed."
+    },
+    {
+      "start": 46.7,
+      "end": 53.22,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 93,
+          "end": 207
+        }
+      ],
+      "text": "The F A A “authorizes a party to an arbitration agreement to seek several kinds of assistance from a federal court.”"
+    },
+    {
+      "start": 53.22,
+      "end": 72.8,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 252,
+          "end": 499
+        }
+      ],
+      "text": "At the front end, Section 3 of the F A A directs federal courts to stay any lawsuit that involves an issue that is “referable to arbitration,” and Section 4 allows federal courts to compel arbitration if a party to an arbitration agreement refuses to arbitrate."
+    },
+    {
+      "start": 72.8,
+      "end": 84.06,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 500,
+          "end": 649
+        }
+      ],
+      "text": "During arbitration, federal courts may facilitate the proceedings, including by appointing an arbitrator under Section 5 and enforcing subpoenas under Section 7."
+    },
+    {
+      "start": 84.06,
+      "end": 97.76,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 650,
+          "end": 805
+        }
+      ],
+      "text": "On the back end, and central here, after an arbitral award has issued, federal courts may confirm, vacate, or modify such an award under Section 9, Section 10, or Section 11."
+    },
+    {
+      "start": 97.76,
+      "end": 109.4,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 806,
+          "end": 948
+        }
+      ],
+      "text": "Under Section 9, a court must confirm an award upon request “unless the award is vacated, modified, or corrected as prescribed in sections 10 and 11.”"
+    },
+    {
+      "start": 109.4,
+      "end": 113.62,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 949,
+          "end": 1001
+        }
+      ],
+      "text": "The grounds for vacatur and modification are limited."
+    },
+    {
+      "start": 113.62,
+      "end": 134.58,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1002,
+          "end": 1266
+        }
+      ],
+      "text": "See Section 10(a) (allowing vacatur for “corruption, fraud, or undue means,” “partiality” or “misconduct” by an arbitrator, and “where the arbitrators exceeded their powers”); Section 11 (allowing modification of “material miscalculations” and in other narrow circumstances)."
+    },
+    {
+      "start": 134.58,
+      "end": 138.68,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1267,
+          "end": 1328
+        }
+      ],
+      "text": "An F A A motion can arrive in federal court in one of two ways."
+    },
+    {
+      "start": 138.68,
+      "end": 144.32,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1329,
+          "end": 1407
+        }
+      ],
+      "text": "Sometimes (like in this case), an F A A motion arises in a pre-existing lawsuit."
+    },
+    {
+      "start": 144.32,
+      "end": 153.42,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1408,
+          "end": 1556
+        }
+      ],
+      "text": "In such cases, one party files a federal suit and the other responds by arguing that the dispute is arbitrable and so should not go forward in court."
+    },
+    {
+      "start": 153.42,
+      "end": 165.2,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1557,
+          "end": 1702
+        }
+      ],
+      "text": "If the latter party is right, the court must stay proceedings pending arbitration under Section 3 and, upon request, must compel arbitration under Section 4."
+    },
+    {
+      "start": 165.2,
+      "end": 182.52,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1803,
+          "end": 2055
+        }
+      ],
+      "text": "Footnote 1: As discussed below, this Court has held that Section 3 does not authorize a district court to dismiss a case after finding it to be arbitrable; the text of Section 3 says that a federal court “shall... stay” proceedings, so a stay is required.",
+      "footnote": "1"
+    },
+    {
+      "start": 182.52,
+      "end": 184.57,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 2101,
+          "end": 2102
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 184.57,
+      "end": 198.5,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1705,
+          "end": 1801
+        },
+        {
+          "page": 6,
+          "start": 55,
+          "end": 151
+        }
+      ],
+      "text": "(What else a court may do in this scenario, including with respect to Section 9 and Section 10 motions filed after arbitration has concluded and the parties return to court, is the subject of this appeal.)"
+    },
+    {
+      "start": 198.5,
+      "end": 207.42,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 152,
+          "end": 265
+        }
+      ],
+      "text": "In other cases, a “freestanding” F A A motion can arrive in federal court outside of any pre-existing federal case."
+    },
+    {
+      "start": 207.42,
+      "end": 219.7,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 266,
+          "end": 432
+        }
+      ],
+      "text": "For example, the parties may proceed directly to arbitration under their contract but need assistance enforcing a subpoena, and so apply to a court for aid under Section 7."
+    },
+    {
+      "start": 219.7,
+      "end": 230.68,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 433,
+          "end": 584
+        }
+      ],
+      "text": "Or one party may refuse to respond to an out-of-court arbitration demand at all, and the other side may seek an order compelling arbitration under Section 4."
+    },
+    {
+      "start": 230.68,
+      "end": 237.82,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 585,
+          "end": 683
+        }
+      ],
+      "text": "Regardless of how an F A A dispute begins, federal jurisdiction is not always a foregone conclusion."
+    },
+    {
+      "start": 237.82,
+      "end": 244.3,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 684,
+          "end": 804
+        }
+      ],
+      "text": "For a federal court to have jurisdiction over an arbitral dispute, it is not enough that the dispute implicates the F A A."
+    },
+    {
+      "start": 244.3,
+      "end": 251.78,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 805,
+          "end": 897
+        }
+      ],
+      "text": "That is because the F A A is “ `something of an anomaly' in the realm of federal legislation.”"
+    },
+    {
+      "start": 251.78,
+      "end": 260.4,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 947,
+          "end": 1069
+        }
+      ],
+      "text": "Although the F A A is a federal statute that provides federal standards, it “does not itself create federal jurisdiction.”"
+    },
+    {
+      "start": 260.4,
+      "end": 271.3,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1097,
+          "end": 1240
+        }
+      ],
+      "text": "Instead, given the F A A's “nonjurisdictional cast,” a federal court must have an “ `independent jurisdictional basis' ” for granting F A A relief."
+    },
+    {
+      "start": 271.3,
+      "end": 282.06,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1266,
+          "end": 1432
+        }
+      ],
+      "text": "That could come, for example, in the form of diversity jurisdiction if a dispute under the F A A arises between citizens of different States with over $75,000 at issue."
+    },
+    {
+      "start": 282.06,
+      "end": 291.73,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1460,
+          "end": 1585
+        }
+      ],
+      "text": "Or a court may have federal-question jurisdiction if an F A A motion implicates a federal issue (other than one under the F A A)."
+    },
+    {
+      "start": 291.73,
+      "end": 302.18,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1598,
+          "end": 1735
+        }
+      ],
+      "text": "In two prior cases, this Court has addressed how to assess jurisdiction over F A A motions filed as “freestanding” actions in federal court."
+    },
+    {
+      "start": 302.18,
+      "end": 315.64,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1736,
+          "end": 1914
+        }
+      ],
+      "text": "First, in Vaden versus Discover Bank, the Court held that Section 4 permits courts to assess jurisdiction by “ `looking through' ” a motion to compel arbitration to the underlying dispute."
+    },
+    {
+      "start": 315.64,
+      "end": 329.66,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1933,
+          "end": 2133
+        }
+      ],
+      "text": "There, the parties began with a contract dispute in state court, but after one side filed counterclaims, the other side filed a Section 4 motion in federal court invoking the contract's arbitration agreement."
+    },
+    {
+      "start": 329.66,
+      "end": 337.24,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 2149,
+          "end": 2197
+        },
+        {
+          "page": 7,
+          "start": 58,
+          "end": 117
+        }
+      ],
+      "text": "The Section 4 motion itself did not present a federal question; it invoked only a contractual right to arbitrate."
+    },
+    {
+      "start": 337.24,
+      "end": 340.6,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 130,
+          "end": 171
+        }
+      ],
+      "text": "Nor was diversity jurisdiction available."
+    },
+    {
+      "start": 340.6,
+      "end": 343.8,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 190,
+          "end": 229
+        }
+      ],
+      "text": "Yet this was not the end of the matter."
+    },
+    {
+      "start": 343.8,
+      "end": 353.9,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 230,
+          "end": 379
+        }
+      ],
+      "text": "As the Court observed, Section 4's text authorizes relief if a court, “ `save for the arbitration agreement, would have jurisdiction' ” over the dispute."
+    },
+    {
+      "start": 353.9,
+      "end": 369.24,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 392,
+          "end": 609
+        }
+      ],
+      "text": "The Court thus held that courts should determine Section 4 jurisdiction “by `looking through' a Section 4 petition to the parties' underlying substantive controversy,” even though that controversy is not before the federal court."
+    },
+    {
+      "start": 369.24,
+      "end": 382.54,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 625,
+          "end": 833
+        }
+      ],
+      "text": "If that “ `controversy between the parties,' as they have framed it, could be litigated in federal court,” even if no such claim was ever filed in federal court, a court has jurisdiction to compel arbitration."
+    },
+    {
+      "start": 382.54,
+      "end": 396.66,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 846,
+          "end": 1026
+        }
+      ],
+      "text": "Second, in Badgerow versus Walters, the Court concluded that Vaden's look-through approach does not apply to freestanding motions to confirm or vacate arbitral awards under Section 9 or Section 10."
+    },
+    {
+      "start": 396.66,
+      "end": 406.92,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1044,
+          "end": 1205
+        }
+      ],
+      "text": "The parties in Badgerow began by proceeding directly to an arbitration of federal claims without filing suit in any court and without filing any Section 3 or Section 4 motion."
+    },
+    {
+      "start": 406.92,
+      "end": 416.88,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1212,
+          "end": 1363
+        }
+      ],
+      "text": "After the arbitration resolved the federal claims at issue, one party sought confirmation of the award in federal court, while the other sought vacatur."
+    },
+    {
+      "start": 416.88,
+      "end": 426.84,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1370,
+          "end": 1489
+        }
+      ],
+      "text": "Like in Vaden, the F A A motions presented no (non-F A A) federal question on their face, and the parties were not diverse."
+    },
+    {
+      "start": 426.84,
+      "end": 440.38,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1507,
+          "end": 1682
+        }
+      ],
+      "text": "The Court thus considered whether Vaden's “ `look-through' approach to jurisdiction applies to requests to confirm or vacate arbitral awards under the F A A's Sections 9 and 10.”"
+    },
+    {
+      "start": 440.38,
+      "end": 442.32,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1700,
+          "end": 1732
+        }
+      ],
+      "text": "The Court held that it does not."
+    },
+    {
+      "start": 442.32,
+      "end": 448.02,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1733,
+          "end": 1829
+        }
+      ],
+      "text": "The look-through approach, the Court emphasized, is a “highly unusual” “jurisdictional outlier.”"
+    },
+    {
+      "start": 448.02,
+      "end": 456.36,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1846,
+          "end": 2017
+        }
+      ],
+      "text": "That is because the look-through approach “locates jurisdiction not in the action actually before the court, but in another controversy neither there nor ever meant to be.”"
+    },
+    {
+      "start": 456.36,
+      "end": 470.48,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 2055,
+          "end": 2110
+        },
+        {
+          "page": 8,
+          "start": 55,
+          "end": 192
+        }
+      ],
+      "text": "Vaden grounded its anomalous approach largely in Section 4's “ `save for' ” language, whereas “Sections 9 and 10,” the Court observed, “contain none of the statutory language on which Vaden relied.”"
+    },
+    {
+      "start": 470.48,
+      "end": 487.78,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 214,
+          "end": 445
+        }
+      ],
+      "text": "Accordingly, Badgerow held that a court presented with a freestanding Section 9 or Section 10 motion may not look through that motion to a controversy involving a federal issue that is “not before the court” in order to establish jurisdiction."
+    },
+    {
+      "start": 487.78,
+      "end": 496.92,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 459,
+          "end": 569
+        }
+      ],
+      "text": "Between 2017 and 2020, petitioner Adrian Jules worked at the Chateau Marmont Hotel in Los Angeles, California."
+    },
+    {
+      "start": 496.92,
+      "end": 505.44,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 570,
+          "end": 672
+        }
+      ],
+      "text": "In March 2020, the hotel ended his employment, citing staffing issues related to the COVID–19 pandemic."
+    },
+    {
+      "start": 505.44,
+      "end": 520.36,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 673,
+          "end": 892
+        }
+      ],
+      "text": "Jules then sued in Federal District Court in New York (where several respondents are domiciled), alleging, among other things, that respondents unlawfully discriminated against him in violation of federal and state law."
+    },
+    {
+      "start": 520.36,
+      "end": 536.78,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 893,
+          "end": 1148
+        }
+      ],
+      "text": "Jules, however, had signed an arbitration agreement before beginning work at the hotel, which stated that any disputes related to his employment or termination thereof that could not be resolved by negotiation or mediation must be resolved by arbitration."
+    },
+    {
+      "start": 536.78,
+      "end": 546.48,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1149,
+          "end": 1267
+        }
+      ],
+      "text": "Citing this agreement, respondents moved, as relevant here, to stay federal proceedings pending arbitration under Section 3."
+    },
+    {
+      "start": 546.48,
+      "end": 555.42,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1268,
+          "end": 1378
+        }
+      ],
+      "text": "In 2021, the District Court held that the arbitration agreement covered Jules's claims and stayed proceedings."
+    },
+    {
+      "start": 555.42,
+      "end": 559.26,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1379,
+          "end": 1432
+        }
+      ],
+      "text": "Jules then commenced arbitration against respondents."
+    },
+    {
+      "start": 559.26,
+      "end": 566.38,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1433,
+          "end": 1512
+        }
+      ],
+      "text": "In 2023, the arbitrator issued a final award ruling against Jules on all claims."
+    },
+    {
+      "start": 566.38,
+      "end": 583.565,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1513,
+          "end": 1727
+        }
+      ],
+      "text": "In addition, the arbitrator awarded about $34,500 in sanctions to respondents based on Jules's and his attorney's misconduct (which included Jules refusing to participate in the arbitral hearing on Jules's claims)."
+    },
+    {
+      "start": 583.565,
+      "end": 595.46,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1728,
+          "end": 1885
+        }
+      ],
+      "text": "Back in District Court, before the same court that had previously stayed Jules's claims pending arbitration, respondents moved to confirm the award under Section 9."
+    },
+    {
+      "start": 595.46,
+      "end": 603.32,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1886,
+          "end": 1954
+        },
+        {
+          "page": 9,
+          "start": 58,
+          "end": 94
+        }
+      ],
+      "text": "Jules opposed confirmation while cross-moving to vacate the arbitral award under Section 10 on various grounds."
+    },
+    {
+      "start": 603.32,
+      "end": 630.22,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 95,
+          "end": 447
+        }
+      ],
+      "text": "Relevant here, Jules argued that, under Badgerow, the District Court lacked jurisdiction to confirm the award because the Section 9 and Section 10 motions did not present federal questions or satisfy the requirements for diversity jurisdiction, given that the parties to the arbitration and award were nondiverse and the amount in controversy was less than $75,000."
+    },
+    {
+      "start": 630.22,
+      "end": 634.5,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 448,
+          "end": 509
+        }
+      ],
+      "text": "The District Court disagreed and confirmed the arbitral award."
+    },
+    {
+      "start": 634.5,
+      "end": 637.08,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 510,
+          "end": 537
+        }
+      ],
+      "text": "The Second Circuit affirmed."
+    },
+    {
+      "start": 637.08,
+      "end": 645.76,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 538,
+          "end": 681
+        }
+      ],
+      "text": "Badgerow, the Second Circuit emphasized, “involved a freestanding action commenced... for the sole purpose of vacating an arbitral award.”"
+    },
+    {
+      "start": 645.76,
+      "end": 654.78,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 721,
+          "end": 859
+        }
+      ],
+      "text": "That made it fundamentally “unlike the present action, which started as a federal question suit before it was stayed pending arbitration.”"
+    },
+    {
+      "start": 654.78,
+      "end": 675.94,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 866,
+          "end": 1174
+        }
+      ],
+      "text": "In the latter situation, the Court of Appeals reasoned, “the Supreme Court has held that a `court with the power to stay the action under Section 3 has the further power to confirm any ensuing arbitration award,' ” regardless of whether there is an independent jurisdictional basis for the Section 9 and Section 10 proceedings."
+    },
+    {
+      "start": 675.94,
+      "end": 685.56,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1291,
+          "end": 1431
+        }
+      ],
+      "text": "Because nothing in Badgerow undermined this principle, the Second Circuit held that the District Court had jurisdiction to confirm the award."
+    },
+    {
+      "start": 685.56,
+      "end": 701.58,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1450,
+          "end": 1670
+        }
+      ],
+      "text": "Jules filed a timely petition for a writ of certiorari seeking review of the Second Circuit's conclusion that Badgerow's holding is limited to freestanding Section 9 and Section 10 applications without a pre-existing federal lawsuit."
+    },
+    {
+      "start": 701.58,
+      "end": 725.92,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1671,
+          "end": 2099
+        },
+        {
+          "page": 10,
+          "start": 55,
+          "end": 236
+        }
+      ],
+      "text": "Two other Courts of Appeals have agreed with the Second Circuit after Badgerow, but the Fourth Circuit has held that Badgerow's holding applies to all Section 9 and Section 10 motions, regardless of whether claims were filed in federal court before they were resolved in arbitration.,, This Court granted certiorari to resolve the division among the Courts of Appeals."
+    },
+    {
+      "start": 725.92,
+      "end": 744.42,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 263,
+          "end": 523
+        }
+      ],
+      "text": "This case asks whether a federal court with pre-existing jurisdiction over claims that it stayed pending arbitration under Section 3 can adjudicate a Section 9 or Section 10 motion even if that motion does not present, on its face, an independent basis for federal jurisdiction."
+    },
+    {
+      "start": 744.42,
+      "end": 746.38,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 524,
+          "end": 542
+        }
+      ],
+      "text": "The answer is yes."
+    },
+    {
+      "start": 746.38,
+      "end": 761.11,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 543,
+          "end": 767
+        }
+      ],
+      "text": "“A court with the power to stay the action under Section 3 has the further power to confirm or vacate any ensuing arbitration award.” (addressing a different, venue-related question under the F A A)."
+    },
+    {
+      "start": 761.11,
+      "end": 777.68,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 768,
+          "end": 1018
+        }
+      ],
+      "text": "To start, unlike with the freestanding applications at issue in Vaden and Badgerow, assessing jurisdiction over a Section 9 or Section 10 motion in a case originally filed in federal court does not require “looking through” the filed action."
+    },
+    {
+      "start": 777.68,
+      "end": 784.6,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1019,
+          "end": 1115
+        }
+      ],
+      "text": "Instead, the court may assess its jurisdiction by looking at the suit that is already before it."
+    },
+    {
+      "start": 784.6,
+      "end": 800.44,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1116,
+          "end": 1350
+        }
+      ],
+      "text": "As Badgerow explained, “jurisdiction to decide a case includes jurisdiction to decide a motion” within that case, and usually “there is no need to `look through' the motion in search of a jurisdictional basis outside the court.”"
+    },
+    {
+      "start": 800.44,
+      "end": 810.12,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1369,
+          "end": 1475
+        }
+      ],
+      "text": "Here, the District Court had original jurisdiction, under Section 1331 of Title 28, over Jules's federal claims."
+    },
+    {
+      "start": 810.12,
+      "end": 822.0,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1476,
+          "end": 1671
+        }
+      ],
+      "text": "It was this very jurisdiction that authorized the court to adjudicate the arbitrability of Jules's claims under the parties' contract to begin with, before staying litigation pending arbitration."
+    },
+    {
+      "start": 822.0,
+      "end": 828.12,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1672,
+          "end": 1749
+        }
+      ],
+      "text": "Nothing in the F A A eliminated that jurisdiction while the parties arbitrated."
+    },
+    {
+      "start": 828.12,
+      "end": 834.18,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1830,
+          "end": 1918
+        }
+      ],
+      "text": "(“As for jurisdiction over controversies touching arbitration, the FAA does nothing”)."
+    },
+    {
+      "start": 834.18,
+      "end": 848.98,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1919,
+          "end": 2025
+        },
+        {
+          "page": 11,
+          "start": 58,
+          "end": 179
+        }
+      ],
+      "text": "So when the parties returned to court after arbitration with Section 9 and Section 10 motions, the court had the same “jurisdiction to decide the case,” and thus “jurisdiction to decide those motions,” that it possessed from the start."
+    },
+    {
+      "start": 848.98,
+      "end": 854.845,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 208,
+          "end": 293
+        }
+      ],
+      "text": "“The court had federal question subject matter jurisdiction and... never lost it.”"
+    },
+    {
+      "start": 854.845,
+      "end": 861.22,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 389,
+          "end": 490
+        }
+      ],
+      "text": "The District Court's pre-existing jurisdiction means that this case is not “Badgerow all over again.”"
+    },
+    {
+      "start": 861.22,
+      "end": 869.98,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 523,
+          "end": 649
+        }
+      ],
+      "text": "In Badgerow, the first (and only) thing that had occurred in federal court was the confirm-or-vacate dispute under Section 9 and Section 10."
+    },
+    {
+      "start": 869.98,
+      "end": 884.44,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 673,
+          "end": 888
+        }
+      ],
+      "text": "In that circumstance, there were only two places a court could look to find federal jurisdiction: the face of the F A A motions, on the one hand, or the underlying dispute that “was not before” the court, on the other."
+    },
+    {
+      "start": 884.44,
+      "end": 891.7,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 900,
+          "end": 1004
+        }
+      ],
+      "text": "Here, however, there is an obvious third place to look for jurisdiction: the original claims themselves."
+    },
+    {
+      "start": 891.7,
+      "end": 912.26,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1005,
+          "end": 1265
+        }
+      ],
+      "text": "Because those claims were sufficient to establish the District Court's jurisdiction in this case under Section 1331 of Title 28, they also established the District Court's authority to resolve the motions to confirm or vacate the arbitral award resolving those claims."
+    },
+    {
+      "start": 912.26,
+      "end": 922.5,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1266,
+          "end": 1441
+        }
+      ],
+      "text": "It is true that, by the time the parties filed the Section 9 and Section 10 motions here, the arbitrator had issued an award that marked “a contractual resolution of the parties' dispute.”"
+    },
+    {
+      "start": 922.5,
+      "end": 941.14,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1459,
+          "end": 1762
+        }
+      ],
+      "text": "As Jules argues, that out-of-court resolution functioned like a release, which could serve as an affirmative defense and be used to “resolve the original claim” filed in court. (citing Federal Rule of Civil Procedure 8(c)(1), which lists “arbitration and award” as an “affirmative defense”)."
+    },
+    {
+      "start": 941.14,
+      "end": 954.72,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1763,
+          "end": 1953
+        }
+      ],
+      "text": "The fact that the arbitral award may “resolve” Jules's original claims, however, only underscores why the District Court's original jurisdiction extends to the parties' Section 9 and Section 10 motions."
+    },
+    {
+      "start": 954.72,
+      "end": 960.32,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1954,
+          "end": 2053
+        }
+      ],
+      "text": "Those motions required the District Court to assess whether there were grounds to vacate the award."
+    },
+    {
+      "start": 960.32,
+      "end": 967.78,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 2054,
+          "end": 2152
+        }
+      ],
+      "text": "See Section 9 (requiring confirmation “unless the award is vacated... as prescribed in section 10”)."
+    },
+    {
+      "start": 967.78,
+      "end": 989.26,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 2153,
+          "end": 2158
+        },
+        {
+          "page": 12,
+          "start": 55,
+          "end": 415
+        }
+      ],
+      "text": "They were thus integral to determining whether the award would continue to serve as a valid defense to the original claims that had been stayed, but were still pending, in District Court until the court confirmed the award. (confirming arbitral award against Jules and entering judgment on Jules's claims)."
+    },
+    {
+      "start": 989.26,
+      "end": 1001.58,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 416,
+          "end": 584
+        }
+      ],
+      "text": "Jules notes that, unlike dismissal based on an affirmative defense, a Section 9 motion goes further and asks a court to convert an arbitral award into a judgment of the court."
+    },
+    {
+      "start": 1001.58,
+      "end": 1011.66,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 585,
+          "end": 712
+        }
+      ],
+      "text": "See Section 13 (stating that an order confirming an arbitral award has the “same force and effect” as a judgment in a federal action)."
+    },
+    {
+      "start": 1011.66,
+      "end": 1023.12,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 713,
+          "end": 913
+        }
+      ],
+      "text": "That is correct, but this Court has held that federal courts have the power to incorporate private settlements into orders of the court when resolving claims that are the subject of those settlements."
+    },
+    {
+      "start": 1023.12,
+      "end": 1026.04,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 914,
+          "end": 947
+        }
+      ],
+      "text": "In Kokkonen versus Guardian Life Ins."
+    },
+    {
+      "start": 1026.04,
+      "end": 1039.38,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 948,
+          "end": 1164
+        }
+      ],
+      "text": "Co. of America,, for example, the Court made clear that a federal “court is authorized to embody a settlement contract in its dismissal order” and later “enforce” that “settlement agreement.”"
+    },
+    {
+      "start": 1039.38,
+      "end": 1054.02,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1666,
+          "end": 1867
+        }
+      ],
+      "text": "Footnote 2: A court's original jurisdiction to embody a private settlement in a court order is distinct from any ancillary-enforcement jurisdiction to adjudicate disputes that later arise out of such an agreement.",
+      "footnote": "2"
+    },
+    {
+      "start": 1054.02,
+      "end": 1063.0,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1868,
+          "end": 2000
+        }
+      ],
+      "text": "The former falls within a court's original jurisdiction to resolve still-pending claims under conditions deemed proper by the court.",
+      "footnote": "2"
+    },
+    {
+      "start": 1063.0,
+      "end": 1074.56,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 2001,
+          "end": 2167
+        }
+      ],
+      "text": "The Court today does not address respondents' argument that the Section 9 and Section 10 motions in this case fell within the District Court's ancillary-enforcement jurisdiction.",
+      "footnote": "2"
+    },
+    {
+      "start": 1074.56,
+      "end": 1076.795,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 2237,
+          "end": 2238
+        }
+      ],
+      "text": "End footnote 2.",
+      "transition": true,
+      "footnote": "2"
+    },
+    {
+      "start": 1076.795,
+      "end": 1091.8,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1184,
+          "end": 1490
+        }
+      ],
+      "text": "Similarly, the Court has recognized federal courts' jurisdiction to embody contracts “arrived at by negotiation between the parties” as consent judgments in certain circumstances. (noting the “dual character” of such judgments)."
+    },
+    {
+      "start": 1091.8,
+      "end": 1106.78,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1491,
+          "end": 1664
+        },
+        {
+          "page": 13,
+          "start": 58,
+          "end": 224
+        }
+      ],
+      "text": "Federal courts also routinely resolve disputes over private settlements in class actions, which can be settled “only with the court's approval.” (addressing disputes over class settlement that included an “agreed-upon injunction”)."
+    },
+    {
+      "start": 1106.78,
+      "end": 1124.36,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 225,
+          "end": 478
+        }
+      ],
+      "text": "In each scenario, as here, the parties reach a contractual resolution of claims filed in federal court, and the federal court has jurisdiction to resolve disputes over that private settlement and embody the settlement in a court order resolving the case."
+    },
+    {
+      "start": 1124.36,
+      "end": 1128.56,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 479,
+          "end": 533
+        }
+      ],
+      "text": "The F A A's structure further confirms jurisdiction here."
+    },
+    {
+      "start": 1128.56,
+      "end": 1140.94,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 534,
+          "end": 732
+        }
+      ],
+      "text": "This Court recently considered “whether Section 3 permits a court to dismiss a case instead of issuing a stay when the dispute is subject to arbitration and a party requests a stay pending arbitration.”"
+    },
+    {
+      "start": 1140.94,
+      "end": 1152.24,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 780,
+          "end": 941
+        }
+      ],
+      "text": "Given that Section 3 dictates that courts in this situation “ `shall... stay' ” proceedings, the Court easily concluded that “a stay,” not dismissal, “is required.”"
+    },
+    {
+      "start": 1152.24,
+      "end": 1190.96,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 959,
+          "end": 1557
+        }
+      ],
+      "text": "This conclusion, the Court emphasized, “comported with the supervisory role that the F A A envisions for the courts,” which includes “assisting parties in arbitration by... appointing an arbitrator, enforcing subpoenas..., and facilitating recovery on an arbitral award, ” “Keeping a suit on the court's docket makes good sense in light of this potential ongoing role, and it avoids costs and complications that might arise if a party were required to bring a new suit and pay a new filing fee to invoke the F A A's procedural protections.”"
+    },
+    {
+      "start": 1190.96,
+      "end": 1208.94,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1564,
+          "end": 1816
+        }
+      ],
+      "text": "Under the rule the Court adopts today, this scheme continues to work well: The F A A requires a stay, rather than dismissal, so that a court that has granted a Section 3 stay can superintend the arbitration to the end, including through confirmation or vacatur."
+    },
+    {
+      "start": 1208.94,
+      "end": 1213.2,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1817,
+          "end": 1869
+        }
+      ],
+      "text": "On Jules's theory, however, things would fall apart."
+    },
+    {
+      "start": 1213.2,
+      "end": 1239.02,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1870,
+          "end": 2170
+        }
+      ],
+      "text": "Without an independent jurisdictional basis (like complete diversity and more than $75,000 at stake) on the face of a Section 5, Section 7, Section 9, or Section 10 motion, Jules concedes that a court that grants a mandatory Section 3 stay has little to do but wait until the arbitration concludes and, finally, dismiss the claims."
+    },
+    {
+      "start": 1239.02,
+      "end": 1252.64,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 2171,
+          "end": 2210
+        },
+        {
+          "page": 14,
+          "start": 86,
+          "end": 273
+        }
+      ],
+      "text": "It would be curious for Section 3 to mandate keeping cases on federal dockets for essentially no reason at all in the cases where federal interests are likely at their highest: those, like this one, involving live federal questions."
+    },
+    {
+      "start": 1252.64,
+      "end": 1265.78,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 274,
+          "end": 427
+        }
+      ],
+      "text": "More plausibly, a court that grants a Section 3 stay retains jurisdiction to see the case through and provide the F A A's “procedural protections” along the way."
+    },
+    {
+      "start": 1265.78,
+      "end": 1269.48,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 438,
+          "end": 491
+        }
+      ],
+      "text": "Jules's remaining counterarguments are without merit."
+    },
+    {
+      "start": 1269.48,
+      "end": 1272.38,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 492,
+          "end": 536
+        }
+      ],
+      "text": "First, and primarily, he points to Badgerow."
+    },
+    {
+      "start": 1272.38,
+      "end": 1290.46,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 537,
+          "end": 759
+        }
+      ],
+      "text": "In his view, Badgerow makes clear that the F A A is a “reticulated” framework whose “text,” alone, governs federal jurisdiction over F A A disputes and requires an independent jurisdictional basis for all Section 9 and Section 10 motions."
+    },
+    {
+      "start": 1290.46,
+      "end": 1300.68,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 777,
+          "end": 946
+        }
+      ],
+      "text": "As explained, however, this overreads Badgerow, which nowhere converted the “nonjurisdictional” F A A, into a “reticulated” jurisdictional scheme."
+    },
+    {
+      "start": 1300.68,
+      "end": 1310.78,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 947,
+          "end": 1112
+        }
+      ],
+      "text": "The problem for the losing party in Badgerow was that, without the look-through approach authorized by Section 4, there was no federal jurisdiction to be found in the case."
+    },
+    {
+      "start": 1310.78,
+      "end": 1320.46,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1138,
+          "end": 1272
+        }
+      ],
+      "text": "Because Section 9 and Section 10 did not provide a textual basis for applying the look-through approach, the Court held that it was not available."
+    },
+    {
+      "start": 1320.46,
+      "end": 1326.62,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1285,
+          "end": 1378
+        }
+      ],
+      "text": "Respondents here, to the contrary, are not asking for any “highly unusual” look-through rule."
+    },
+    {
+      "start": 1326.62,
+      "end": 1340.8,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1391,
+          "end": 1576
+        }
+      ],
+      "text": "Instead, the court in this case secured federal jurisdiction, in one of the most usual ways imaginable, based on the federal claims Jules filed in federal court under Section 1331 of Title 28."
+    },
+    {
+      "start": 1340.8,
+      "end": 1349.56,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1577,
+          "end": 1689
+        }
+      ],
+      "text": "Respondents merely asked the District Court to use the tools provided by the F A A to finally resolve those claims."
+    },
+    {
+      "start": 1349.56,
+      "end": 1357.92,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1690,
+          "end": 1775
+        }
+      ],
+      "text": "Nothing in Badgerow or the F A A eliminates the District Court's jurisdiction to do so."
+    },
+    {
+      "start": 1357.92,
+      "end": 1368.2,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1780,
+          "end": 1942
+        }
+      ],
+      "text": "Footnote 3: Jules focuses on Badgerow's observation that confirm-or-vacate disputes like this one typically “involve only state law, like disagreements about other contracts.”",
+      "footnote": "3"
+    },
+    {
+      "start": 1368.2,
+      "end": 1374.38,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1960,
+          "end": 2061
+        }
+      ],
+      "text": "It is true that federal courts ordinarily lack freestanding authority to adjudicate state-law claims.",
+      "footnote": "3"
+    },
+    {
+      "start": 1374.38,
+      "end": 1384.86,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 2107,
+          "end": 2132
+        },
+        {
+          "page": 15,
+          "start": 1932,
+          "end": 2087
+        }
+      ],
+      "text": "That has never prohibited federal courts, however, from resolving disputes over, and giving force to, private settlements when they resolve claims that are pending in federal court.",
+      "footnote": "3"
+    },
+    {
+      "start": 1384.86,
+      "end": 1387.2,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 2126,
+          "end": 2127
+        }
+      ],
+      "text": "End footnote 3.",
+      "transition": true,
+      "footnote": "3"
+    },
+    {
+      "start": 1387.2,
+      "end": 1395.4,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 58,
+          "end": 169
+        }
+      ],
+      "text": "Second, Jules disputes whether Section 9 and Section 10 applications should really be considered motions in a pending case."
+    },
+    {
+      "start": 1395.4,
+      "end": 1414.28,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 170,
+          "end": 405
+        }
+      ],
+      "text": "Instead, he argues, they should be treated as entirely “new federal actions” for purposes of assessing jurisdiction, even when filed in pre-existing suits, because Section 9 and Section 12 of the F A A require service and notice of such applications."
+    },
+    {
+      "start": 1414.28,
+      "end": 1444.68,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 434,
+          "end": 937
+        }
+      ],
+      "text": "This Court has explained, however, that Section 3's mandatory stay is aimed precisely at “avoiding the costs and complications” of “bringing a new suit,” and even Jules admits that neither service of process nor a whole new proceeding is always necessary, The service provisions in Section 9 and Section 12 (the latter of which, governing service of Section 10 motions, does not even mention “jurisdiction”) do not impose the strict jurisdictional rule Jules favors."
+    },
+    {
+      "start": 1444.68,
+      "end": 1451.56,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 938,
+          "end": 1020
+        }
+      ],
+      "text": "Third, Jules turns to Section 8 of the F A A, which governs certain maritime arbitrations."
+    },
+    {
+      "start": 1451.56,
+      "end": 1461.74,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1021,
+          "end": 1174
+        }
+      ],
+      "text": "Section 8 provides that, when “the basis of jurisdiction” is “in admiralty,” a party may “begin his proceeding... by libel and seizure of the vessel.”"
+    },
+    {
+      "start": 1461.74,
+      "end": 1475.3,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1175,
+          "end": 1390
+        }
+      ],
+      "text": "Jules notes that in such cases, Section 8 also provides that “the court shall then have jurisdiction to direct the parties to proceed with the arbitration and shall retain jurisdiction to enter its decree upon the award.”"
+    },
+    {
+      "start": 1475.3,
+      "end": 1489.72,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1391,
+          "end": 1576
+        }
+      ],
+      "text": "To Jules, this shows that Congress knew how to authorize the kind of “jurisdictional anchor” respondents seek here, yet declined to provide such a basis for jurisdiction in Section 9 or Section 10."
+    },
+    {
+      "start": 1489.72,
+      "end": 1491.86,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1577,
+          "end": 1597
+        }
+      ],
+      "text": "The Court disagrees."
+    },
+    {
+      "start": 1491.86,
+      "end": 1510.26,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1598,
+          "end": 1931
+        }
+      ],
+      "text": "Section 8 merely instructs that, in one class of admiralty cases where a plaintiff invokes in rem jurisdiction over a vessel “as security for compliance with any arbitral award,”, the court holding the vessel must retain jurisdiction to confirm or vacate such award."
+    },
+    {
+      "start": 1510.26,
+      "end": 1524.96,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 55,
+          "end": 227
+        }
+      ],
+      "text": "District courts would likely have jurisdiction over such proceedings even without Section 8 under Section 1333 of Title 28, which provides “original jurisdiction” over admiralty cases."
+    },
+    {
+      "start": 1524.96,
+      "end": 1537.78,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 228,
+          "end": 413
+        }
+      ],
+      "text": "It appears, then, that Section 8 does little more than provide specific procedural rules governing how courts ought to handle a distinct form of admiralty arbitration involving seized vessels."
+    },
+    {
+      "start": 1537.78,
+      "end": 1546.12,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 414,
+          "end": 510
+        }
+      ],
+      "text": "It does not shed light on how jurisdiction, more broadly, should function in other F A A disputes."
+    },
+    {
+      "start": 1546.12,
+      "end": 1549.22,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 511,
+          "end": 544
+        }
+      ],
+      "text": "Finally, Jules resorts to policy."
+    },
+    {
+      "start": 1549.22,
+      "end": 1586.66,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 545,
+          "end": 1163
+        }
+      ],
+      "text": "Allowing courts to exercise jurisdiction in cases like this one, he worries, will encourage parties to “engage in useless federal litigation for the sole purpose of creating a jurisdictional anchor” later on, disrupting the “ `sensible... division of labor' ” between state and federal courts that Badgerow recognized, Even without such gamesmanship, he continues, respondents' rule will make federal jurisdiction turn on the “happenstance” of whether one party to an arbitral dispute filed a federal case before proceeding to arbitration."
+    },
+    {
+      "start": 1586.66,
+      "end": 1599.86,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1189,
+          "end": 1422
+        }
+      ],
+      "text": "Setting aside that “ `it is not for this Court to employ untethered notions of what might be good public policy to determine our jurisdiction,' ” Jules's policy arguments lack force on their own terms."
+    },
+    {
+      "start": 1599.86,
+      "end": 1605.46,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1423,
+          "end": 1497
+        }
+      ],
+      "text": "For one thing, his concerns about protective anchor suits are conjectural."
+    },
+    {
+      "start": 1605.46,
+      "end": 1624.48,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1498,
+          "end": 1738
+        }
+      ],
+      "text": "Even in courts that have long embraced Badgerow's rule for freestanding Section 9 and Section 10 motions but agree with the result the Court reaches today for pre-existing cases, Jules identifies no epidemic of useless filings clogging up federal courts."
+    },
+    {
+      "start": 1624.48,
+      "end": 1637.1,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1785,
+          "end": 2122
+        }
+      ],
+      "text": "Footnote 4: The Seventh Circuit has embraced both rules since at least 1998. (adopting today's result for pre-existing suits); (adopting the Badgerow rule for freestanding actions).",
+      "footnote": "4"
+    },
+    {
+      "start": 1637.1,
+      "end": 1650.16,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 2123,
+          "end": 2141
+        },
+        {
+          "page": 17,
+          "start": 1869,
+          "end": 2185
+        }
+      ],
+      "text": "The Third Circuit is similar. (explaining that the Third Circuit has applied the Badgerow rule for freestanding actions since at least 1994); (adopting today's result for pre-existing suits).",
+      "footnote": "4"
+    },
+    {
+      "start": 1650.16,
+      "end": 1652.7,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 2184,
+          "end": 2185
+        }
+      ],
+      "text": "End footnote 4.",
+      "transition": true,
+      "footnote": "4"
+    },
+    {
+      "start": 1652.7,
+      "end": 1660.94,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1741,
+          "end": 1783
+        },
+        {
+          "page": 17,
+          "start": 58,
+          "end": 135
+        }
+      ],
+      "text": "That may be because filing a precautionary federal anchor suit runs a serious risk of forfeiting the right to arbitrate."
+    },
+    {
+      "start": 1660.94,
+      "end": 1679.52,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 202,
+          "end": 476
+        }
+      ],
+      "text": "Or it may be because securing a postarbitration federal forum is not all that valuable to parties who, on the front end, do not know whether they will emerge from arbitration a winner or loser and thus may not be able to tell which forum's law might prove most advantageous."
+    },
+    {
+      "start": 1679.52,
+      "end": 1687.26,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 477,
+          "end": 601
+        }
+      ],
+      "text": "Either way, there is no evidence suggesting that Jules's concerns about manufactured federal jurisdiction will come to pass."
+    },
+    {
+      "start": 1687.26,
+      "end": 1693.08,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 602,
+          "end": 694
+        }
+      ],
+      "text": "There thus seems to be little risk that confirm-orvacate litigation will flood federal courts."
+    },
+    {
+      "start": 1693.08,
+      "end": 1705.62,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 695,
+          "end": 836
+        }
+      ],
+      "text": "The “typical F A A application” under Section 9 and Section 10, after all, likely involves those who adhered to their arbitration agreements to begin with."
+    },
+    {
+      "start": 1705.62,
+      "end": 1713.58,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 865,
+          "end": 985
+        }
+      ],
+      "text": "Nor is it anomalous for federal jurisdiction to turn, at least in part, on the happenstance of how litigation proceeded."
+    },
+    {
+      "start": 1713.58,
+      "end": 1721.74,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 986,
+          "end": 1104
+        }
+      ],
+      "text": "“Actual litigation” generally “defines the parties' controversy,” even if “events could have unfolded differently.”"
+    },
+    {
+      "start": 1721.74,
+      "end": 1740.3,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1130,
+          "end": 1454
+        }
+      ],
+      "text": "“A party's ability to gain adjudication... in federal court often depends on how that question happens to have been presented.” (explaining that jurisdiction may depend on whether a court happened to “retain jurisdiction” expressly over a settlement agreement)."
+    },
+    {
+      "start": 1740.3,
+      "end": 1748.22,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1455,
+          "end": 1569
+        }
+      ],
+      "text": "In any event, even if Jules's policy concerns had some merit, there are countervailing concerns on the other side."
+    },
+    {
+      "start": 1748.22,
+      "end": 1763.14,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1570,
+          "end": 1789
+        }
+      ],
+      "text": "Jules's rule would significantly diminish “the supervisory role that the F A A envisions for the courts,” by forcing them to stay proceedings under Section 3 for essentially no reason in most cases."
+    },
+    {
+      "start": 1763.14,
+      "end": 1792.52,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1790,
+          "end": 1869
+        },
+        {
+          "page": 18,
+          "start": 55,
+          "end": 441
+        }
+      ],
+      "text": "It would also undermine the efficiency interests at the heart of the F A A by forcing parties who were previously in federal court (often, as here, against their wishes) to launch a fresh state-court proceeding, complete with “a new filing fee,” to secure confirmation or vacatur of an arbitral award. (noting that §Section 9–11 “substantiate a national policy favoring arbitration” by helping to “resolve disputes straightaway”)."
+    },
+    {
+      "start": 1792.52,
+      "end": 1798.46,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 442,
+          "end": 522
+        }
+      ],
+      "text": "Jules's approach could also lead to unnecessarily complex dual-track litigation."
+    },
+    {
+      "start": 1798.46,
+      "end": 1813.16,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 523,
+          "end": 723
+        }
+      ],
+      "text": "Here, as is often the case when a Section 3 stay is needed, the parties disputed not only whether the arbitral award should be confirmed or vacated, but also whether the dispute was arbitrable to begin with."
+    },
+    {
+      "start": 1813.16,
+      "end": 1833.56,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 745,
+          "end": 1031
+        }
+      ],
+      "text": "Because orders staying an action pending arbitration under Section 3 or compelling arbitration under Section 4 can generally be appealed only after final judgment, such appeals will usually occur only after an arbitral award issues and the claims pending in federal court are dismissed."
+    },
+    {
+      "start": 1833.56,
+      "end": 1850.76,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1032,
+          "end": 1291
+        }
+      ],
+      "text": "That process neatly unfolded here: The same District Court that initially held Jules's claims to be arbitrable later confirmed the resulting award and entered judgment; then, both the arbitrability and confirmation issues went up to the Second Circuit together."
+    },
+    {
+      "start": 1850.76,
+      "end": 1862.0,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1292,
+          "end": 1454
+        }
+      ],
+      "text": "Under Jules's preferred rule, however, confirm-or-vacate proceedings would likely commence in state court just as the arbitrability appeal begins in federal court."
+    },
+    {
+      "start": 1862.0,
+      "end": 1875.18,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1455,
+          "end": 1636
+        }
+      ],
+      "text": "At that point, a state court may confirm an arbitral award on claims that a federal court of appeals may ultimately hold were never properly subject to arbitration in the first place."
+    },
+    {
+      "start": 1875.18,
+      "end": 1893.44,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1756,
+          "end": 2033
+        }
+      ],
+      "text": "Footnote 5: Alternatively, a district court seeking to avoid such bifurcated proceedings could continue holding the pending claims on its docket, precluding an appeal of the arbitrability issue, until the state-court confirm-or-vacate proceedings conclude, possibly months (or years) later.",
+      "footnote": "5"
+    },
+    {
+      "start": 1893.44,
+      "end": 1901.92,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 2034,
+          "end": 2175
+        }
+      ],
+      "text": "There is no apparent reason why Congress would have preferred these pointless, extended stays to a simple consolidated proceeding and appeal.",
+      "footnote": "5"
+    },
+    {
+      "start": 1901.92,
+      "end": 1904.045,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 2174,
+          "end": 2175
+        }
+      ],
+      "text": "End footnote 5.",
+      "transition": true,
+      "footnote": "5"
+    },
+    {
+      "start": 1904.045,
+      "end": 1913.0,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1638,
+          "end": 1753
+        }
+      ],
+      "text": "It is unclear why Congress would have wanted wasteful, bifurcated, and possibly inconsistent proceedings like that."
+    },
+    {
+      "start": 1913.0,
+      "end": 1926.52,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 64,
+          "end": 242
+        }
+      ],
+      "text": "In Badgerow, the question was whether anything in Section 9 or Section 10 of the F A A affirmatively authorized an unusual approach premising jurisdiction on claims never filed before the court."
+    },
+    {
+      "start": 1926.52,
+      "end": 1939.12,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 243,
+          "end": 438
+        }
+      ],
+      "text": "Here, the question is instead whether there is anything in the F A A that precludes the normal operation of federal jurisdiction regarding live claims that are still pending before a federal court."
+    },
+    {
+      "start": 1939.12,
+      "end": 1940.94,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 439,
+          "end": 452
+        }
+      ],
+      "text": "There is not."
+    },
+    {
+      "start": 1940.94,
+      "end": 1954.82,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 453,
+          "end": 635
+        }
+      ],
+      "text": "A federal court with jurisdiction to stay claims pending arbitration under Section 3 of the F A A has the same jurisdiction to resolve motions to confirm or vacate a resulting arbitral award."
+    },
+    {
+      "start": 1954.82,
+      "end": 1959.08,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 636,
+          "end": 698
+        }
+      ],
+      "text": "The judgment of the Court of Appeals, accordingly, is affirmed."
+    },
+    {
+      "start": 1959.08,
+      "end": 1959.98,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 699,
+          "end": 716
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 109,
+      "expectedWords": 111,
+      "coverage": 0.9819819819819819
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 191,
+      "expectedWords": 191,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 4,
+      "matchedWords": 80,
+      "expectedWords": 84,
+      "coverage": 0.9523809523809523
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 49,
+      "expectedWords": 49,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 114,
+      "expectedWords": 115,
+      "coverage": 0.991304347826087
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 156,
+      "expectedWords": 160,
+      "coverage": 0.975
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 346,
+      "expectedWords": 355,
+      "coverage": 0.9746478873239437
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 118,
+      "expectedWords": 119,
+      "coverage": 0.9915966386554622
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 62,
+      "expectedWords": 66,
+      "coverage": 0.9393939393939394
+    },
+    {
+      "paragraph": 12,
+      "matchedWords": 70,
+      "expectedWords": 73,
+      "coverage": 0.958904109589041
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 50,
+      "expectedWords": 56,
+      "coverage": 0.8928571428571429
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 95,
+      "expectedWords": 101,
+      "coverage": 0.9405940594059405
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 126,
+      "expectedWords": 128,
+      "coverage": 0.984375
+    },
+    {
+      "paragraph": 16,
+      "matchedWords": 92,
+      "expectedWords": 98,
+      "coverage": 0.9387755102040817
+    },
+    {
+      "paragraph": 18,
+      "matchedWords": 85,
+      "expectedWords": 85,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 19,
+      "matchedWords": 90,
+      "expectedWords": 93,
+      "coverage": 0.967741935483871
+    },
+    {
+      "paragraph": 20,
+      "matchedWords": 118,
+      "expectedWords": 123,
+      "coverage": 0.959349593495935
+    },
+    {
+      "paragraph": 21,
+      "matchedWords": 131,
+      "expectedWords": 143,
+      "coverage": 0.916083916083916
+    },
+    {
+      "paragraph": 22,
+      "matchedWords": 187,
+      "expectedWords": 194,
+      "coverage": 0.9639175257731959
+    },
+    {
+      "paragraph": 23,
+      "matchedWords": 121,
+      "expectedWords": 124,
+      "coverage": 0.9758064516129032
+    },
+    {
+      "paragraph": 24,
+      "matchedWords": 85,
+      "expectedWords": 86,
+      "coverage": 0.9883720930232558
+    },
+    {
+      "paragraph": 25,
+      "matchedWords": 104,
+      "expectedWords": 105,
+      "coverage": 0.9904761904761905
+    },
+    {
+      "paragraph": 26,
+      "matchedWords": 158,
+      "expectedWords": 158,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 27,
+      "matchedWords": 178,
+      "expectedWords": 181,
+      "coverage": 0.9834254143646409
+    },
+    {
+      "paragraph": 29,
+      "matchedWords": 203,
+      "expectedWords": 216,
+      "coverage": 0.9398148148148148
+    },
+    {
+      "paragraph": 30,
+      "matchedWords": 67,
+      "expectedWords": 71,
+      "coverage": 0.9436619718309859
+    },
+    {
+      "paragraph": 31,
+      "matchedWords": 134,
+      "expectedWords": 136,
+      "coverage": 0.9852941176470589
+    },
+    {
+      "paragraph": 32,
+      "matchedWords": 108,
+      "expectedWords": 111,
+      "coverage": 0.972972972972973
+    },
+    {
+      "paragraph": 33,
+      "matchedWords": 120,
+      "expectedWords": 120,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 34,
+      "matchedWords": 82,
+      "expectedWords": 83,
+      "coverage": 0.9879518072289156
+    },
+    {
+      "paragraph": 35,
+      "matchedWords": 83,
+      "expectedWords": 87,
+      "coverage": 0.9540229885057471
+    },
+    {
+      "paragraph": 36,
+      "matchedWords": 59,
+      "expectedWords": 61,
+      "coverage": 0.9672131147540983
+    },
+    {
+      "paragraph": 37,
+      "matchedWords": 126,
+      "expectedWords": 131,
+      "coverage": 0.9618320610687023
+    },
+    {
+      "paragraph": 38,
+      "matchedWords": 72,
+      "expectedWords": 73,
+      "coverage": 0.9863013698630136
+    },
+    {
+      "paragraph": 39,
+      "matchedWords": 119,
+      "expectedWords": 123,
+      "coverage": 0.967479674796748
+    },
+    {
+      "paragraph": 40,
+      "matchedWords": 184,
+      "expectedWords": 190,
+      "coverage": 0.968421052631579
+    },
+    {
+      "paragraph": 41,
+      "matchedWords": 66,
+      "expectedWords": 66,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 42,
+      "matchedWords": 16,
+      "expectedWords": 16,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 43,
+      "matchedWords": 114,
+      "expectedWords": 115,
+      "coverage": 0.991304347826087
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "reviewed": true,
+  "documentId": "25-580-475af4c72868--2-0",
+  "sourceDocumentId": "25-580-475af4c72868",
+  "sourceTextPath": "dist/data/docs/25-580-475af4c72868.json",
+  "sourceTextSha256": "27caf5a8367c1492358b1ba40bc77797a49f0e94358ed111bdec32db73c95b2a",
+  "sourcePdfPath": "dist/data/pdfs/25-580-475af4c72868--2-0.pdf",
+  "sourcePdfSha256": "a0bd6ed929ce1d91ad84428a8f2718e29e3739c2b13941183fe33d08dd1f1b33",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-06-01",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r41_4gc5.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 779,
+    "endPage": 6,
+    "endOffset": 709
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 779,
+          "end": 1747
+        }
+      ],
+      "citations": [
+        {
+          "start": 471,
+          "end": 574,
+          "text": "Whitton v. Secretary, Fla. Dept. of Corrections, 2025 WL 1305158, *2 (CA11, May 6, 2025) (per curiam ).",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        },
+        {
+          "start": 958,
+          "end": 970,
+          "text": "Id., at *15.",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "stabb[ing]",
+          "to": "stabbing"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1747,
+          "end": 2169
+        },
+        {
+          "page": 3,
+          "start": 45,
+          "end": 646
+        }
+      ],
+      "citations": [
+        {
+          "start": 510,
+          "end": 532,
+          "text": ", 405 U. S. 150 (1972)",
+          "type": "case",
+          "canonical": "405 U.S. 150"
+        },
+        {
+          "start": 724,
+          "end": 772,
+          "text": "Brecht v. Abrahamson, 507 U. S. 619, 623 (1993).",
+          "type": "case",
+          "canonical": "507 U.S. 619"
+        },
+        {
+          "start": 998,
+          "end": 1025,
+          "text": "App. to Pet. for Cert. 79a.",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 79a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 646,
+          "end": 729
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1993,
+          "end": 2101
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 730,
+          "end": 1474
+        }
+      ],
+      "citations": [
+        {
+          "start": 481,
+          "end": 502,
+          "text": "2025 WL 1305158, *16.",
+          "type": "record",
+          "canonical": "2025 WL 1305158, *16."
+        },
+        {
+          "start": 634,
+          "end": 639,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        },
+        {
+          "start": 738,
+          "end": 743,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Ozio's]",
+          "to": "Ozio's"
+        },
+        {
+          "from": "[could not]",
+          "to": "could not"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1474,
+          "end": 1991
+        },
+        {
+          "page": 4,
+          "start": 32,
+          "end": 574
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 527,
+          "end": 572,
+          "text": "Whitton v. State, 161 So. 3d 314, 334 (2014).",
+          "type": "case",
+          "canonical": "161 So.3d 314"
+        },
+        {
+          "start": 816,
+          "end": 897,
+          "text": "2025 WL 1305158, *7 (quoting 28 U. S. C. § 2254(d)(2)); see 2025 WL 1305158, *17.",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 574,
+          "end": 1589
+        }
+      ],
+      "citations": [
+        {
+          "start": 1003,
+          "end": 1015,
+          "text": "Id., at *18.",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the victim]",
+          "to": "the victim"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1616,
+          "end": 2221
+        }
+      ],
+      "citations": [
+        {
+          "start": 584,
+          "end": 605,
+          "text": "2025 WL 1305158, *18.",
+          "type": "record",
+          "canonical": "2025 WL 1305158, *18."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the victim]",
+          "to": "the victim"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1590,
+          "end": 1614
+        },
+        {
+          "page": 5,
+          "start": 76,
+          "end": 967
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 152,
+          "end": 157,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        },
+        {
+          "start": 367,
+          "end": 414,
+          "text": "Id., at *19 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        },
+        {
+          "start": 532,
+          "end": 537,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        },
+        {
+          "start": 807,
+          "end": 851,
+          "text": "Ibid. (quoting Whitton, 161 So. 3d, at 334).",
+          "type": "case",
+          "canonical": "2025 WL 1305158"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the victim]",
+          "to": "the victim"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 967,
+          "end": 2128
+        },
+        {
+          "page": 6,
+          "start": 44,
+          "end": 709
+        }
+      ],
+      "citations": [
+        {
+          "start": 521,
+          "end": 550,
+          "text": "See Brecht, 507 U. S., at 623",
+          "type": "case",
+          "canonical": "507 U.S. 619"
+        },
+        {
+          "start": 745,
+          "end": 795,
+          "text": "(emphasis added; internal quotation marks omitted)",
+          "type": "record",
+          "canonical": "(emphasis added; internal quotation marks omitted)"
+        },
+        {
+          "start": 1430,
+          "end": 1458,
+          "text": "2025 WL 1305158, *15, n. 10,",
+          "type": "record",
+          "canonical": "2025 WL 1305158, *15, n. 10,"
+        },
+        {
+          "start": 1510,
+          "end": 1563,
+          "text": "Cutter v. Wilkinson, 544 U. S. 709, 718, n. 7 (2005).",
+          "type": "case",
+          "canonical": "544 U.S. 709"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "[constitutional]",
+          "to": "constitutional"
+        },
+        {
+          "from": "[did]",
+          "to": "did"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 2169,
+      "end": 2199,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 45,
+      "text": "Cite as: 608 U. S. 493 (2026) 495\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 729,
+      "end": 730,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 1991,
+      "end": 1993,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 2102,
+      "end": 2132,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 32,
+      "text": "496 WHITTON v. DIXON\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 1589,
+      "end": 1590,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 1614,
+      "end": 1616,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 2222,
+      "end": 2252,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 76,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 493 (2026) 497\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 44,
+      "text": "498 WHITTON v. DIXON\nThomas, J., dissenting\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 38,
+      "end": 45,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 2,
+      "start": 1834,
+      "end": 1838,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 428,
+      "end": 434,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 3,
+      "start": 692,
+      "end": 699,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 3,
+      "start": 1441,
+      "end": 1447,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 5,
+      "start": 135,
+      "end": 138,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 5,
+      "start": 212,
+      "end": 223,
+      "expectedText": "Specifcally",
+      "text": "Specifically"
+    },
+    {
+      "page": 5,
+      "start": 300,
+      "end": 308,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 5,
+      "start": 930,
+      "end": 937,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 6,
+      "start": 58,
+      "end": 62,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 6,
+      "start": 375,
+      "end": 379,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 6,
+      "start": 1169,
+      "end": 1176,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 6,
+      "start": 1516,
+      "end": 1524,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 2,
+      "start": 1132,
+      "end": 1140,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 2,
+      "start": 1363,
+      "end": 1371,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 2,
+      "start": 1417,
+      "end": 1428,
+      "expectedText": "springbreak",
+      "text": "spring-break"
+    },
+    {
+      "page": 2,
+      "start": 461,
+      "end": 470,
+      "expectedText": "infuenced",
+      "text": "influenced"
+    },
+    {
+      "page": 2,
+      "start": 547,
+      "end": 556,
+      "expectedText": "infuenced",
+      "text": "influenced"
+    },
+    {
+      "page": 4,
+      "start": 960,
+      "end": 968,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 5,
+      "start": 1356,
+      "end": 1365,
+      "expectedText": "infuenced",
+      "text": "influenced"
+    },
+    {
+      "page": 5,
+      "start": 1462,
+      "end": 1471,
+      "expectedText": "infuenced",
+      "text": "influenced"
+    },
+    {
+      "page": 5,
+      "start": 549,
+      "end": 554,
+      "expectedText": "frmly",
+      "text": "firmly"
+    },
+    {
+      "page": 5,
+      "start": 393,
+      "end": 399,
+      "expectedText": "profle",
+      "text": "profile"
+    },
+    {
+      "page": 3,
+      "start": 1985,
+      "end": 1990,
+      "expectedText": "over-",
+      "text": "over"
+    },
+    {
+      "page": 4,
+      "start": 1608,
+      "end": 1613,
+      "expectedText": "Whit-",
+      "text": "Whit"
+    },
+    {
+      "page": 3,
+      "start": 298,
+      "end": 306,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 3,
+      "start": 1398,
+      "end": 1403,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 3,
+      "start": 1522,
+      "end": 1527,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 5,
+      "start": 1665,
+      "end": 1673,
+      "expectedText": "infuence",
+      "text": "influence"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read complete Court opinion and both substantive notes against source/PDF. Preserved the full quoted motel/car/boots evidence description in note 2, all Giglio/Brecht standards and qualifications, the express reservations of issues for remand and complete disposition. Notes read at their markers; preceding syllabus/following dissent excluded; exact source-only omissions and divided-word/ligature repairs."
+}

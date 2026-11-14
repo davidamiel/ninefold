@@ -1,0 +1,536 @@
+{
+  "reviewed": true,
+  "documentId": "25-524-51764986cd55--0-0",
+  "sourceDocumentId": "25-524-51764986cd55",
+  "sourceTextPath": "dist/data/docs/25-524-51764986cd55.json",
+  "sourceTextSha256": "a855a86d7e85b00518f5d4034df15f90366e8e473151020a70ca6ec3df323fcb",
+  "sourcePdfPath": "recordings/sources/cca7f1af1052af2d4724433a.pdf",
+  "sourcePdfSha256": "cca7f1af1052af2d4724433a62a7f440f1dca8fd62859e0aefa6a1a949786b5a",
+  "title": "Statement",
+  "author": "Sonia Sotomayor",
+  "date": "2026-06-30",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-524_0971.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 2,
+    "endOffset": 1520
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 429,
+          "end": 1072
+        }
+      ],
+      "citations": [
+        {
+          "start": 111,
+          "end": 133,
+          "text": ", 608 U. S. ___ (2026)",
+          "type": "case",
+          "canonical": "Hunter v. United States, 608 U.S. ___; 608 U. S. ___ (2026)"
+        },
+        {
+          "start": 231,
+          "end": 260,
+          "text": "id., at ___ (slip op., at 1),",
+          "type": "case",
+          "canonical": "Hunter v. United States, 608 U.S. ___; id., at ___ (slip op., at 1),"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1072,
+          "end": 1944
+        },
+        {
+          "page": 1,
+          "start": 104,
+          "end": 380
+        }
+      ],
+      "citations": [
+        {
+          "start": 305,
+          "end": 340,
+          "text": "Id., at ___–___ (slip op., at 8–9).",
+          "type": "case",
+          "canonical": "Hunter v. United States, 608 U.S. ___; Id., at ___–___ (slip op., at 8–9)."
+        },
+        {
+          "start": 494,
+          "end": 523,
+          "text": "Id., at ___ (slip op., at 9).",
+          "type": "case",
+          "canonical": "Hunter v. United States, 608 U.S. ___; Id., at ___ (slip op., at 9)."
+        },
+        {
+          "start": 788,
+          "end": 818,
+          "text": "Id., at ___ (slip op., at 11).",
+          "type": "case",
+          "canonical": "Hunter v. United States, 608 U.S. ___; Id., at ___ (slip op., at 11)."
+        },
+        {
+          "start": 939,
+          "end": 944,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "Hunter v. United States, 608 U.S. ___; Ibid."
+        },
+        {
+          "start": 1094,
+          "end": 1124,
+          "text": "Id., at ___ (slip op., at 13).",
+          "type": "case",
+          "canonical": "Hunter v. United States, 608 U.S. ___; Id., at ___ (slip op., at 13)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "decid[e]",
+          "to": "decide"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 380,
+          "end": 1357
+        }
+      ],
+      "citations": [
+        {
+          "start": 335,
+          "end": 364,
+          "text": "18 U. S. C. §924(c)(1)(A)(ii)",
+          "type": "statute",
+          "canonical": "18 U. S. C. §924(c)(1)(A)(ii)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 415,
+          "end": 422,
+          "text": "§924(c)",
+          "type": "statute",
+          "canonical": "18 U. S. C. §924(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 683,
+          "end": 700,
+          "text": "28 U. S. C. §2241",
+          "type": "statute",
+          "canonical": "28 U. S. C. §2241",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 705,
+          "end": 722,
+          "text": "28 U. S. C. §2255",
+          "type": "statute",
+          "canonical": "28 U. S. C. §2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 727,
+          "end": 758,
+          "text": "134 F. 4th 831, 834 (CA5 2025).",
+          "type": "case",
+          "canonical": "134 F.4th 831"
+        },
+        {
+          "start": 943,
+          "end": 950,
+          "text": "§924(c)",
+          "type": "statute",
+          "canonical": "18 U. S. C. §924(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "18 U. S. C. §924(c)(1)(A)(ii)",
+          "to": "Section nine twenty-four c one A two of Title eighteen"
+        },
+        {
+          "from": "28 U. S. C. §2241",
+          "to": "Section twenty-two forty-one of Title twenty-eight"
+        },
+        {
+          "from": "28 U. S. C. §2255",
+          "to": "Section twenty-two fifty-five of Title twenty-eight"
+        },
+        {
+          "from": "§924(c)",
+          "to": "Section nine twenty-four c"
+        },
+        {
+          "from": "waiv[ing]",
+          "to": "waiving"
+        },
+        {
+          "from": "waiv[ing]",
+          "to": "waiving"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1357,
+          "end": 2186
+        },
+        {
+          "page": 2,
+          "start": 96,
+          "end": 391
+        }
+      ],
+      "citations": [
+        {
+          "start": 61,
+          "end": 78,
+          "text": "28 U. S. C. §2255",
+          "type": "statute",
+          "canonical": "28 U. S. C. §2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 97,
+          "end": 104,
+          "text": "§924(c)",
+          "type": "statute",
+          "canonical": "18 U. S. C. §924(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 322,
+          "end": 344,
+          "text": ", 588 U. S. 445 (2019)",
+          "type": "case",
+          "canonical": "588 U.S. 445"
+        },
+        {
+          "start": 357,
+          "end": 364,
+          "text": "§924(c)",
+          "type": "statute",
+          "canonical": "18 U. S. C. §924(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1083,
+          "end": 1102,
+          "text": "134 F. 4th, at 840.",
+          "type": "reference",
+          "canonical": "134 F. 4th, at 840"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "28 U. S. C. §2255",
+          "to": "Section twenty-two fifty-five of Title twenty-eight"
+        },
+        {
+          "from": "§924(c)",
+          "to": "Section nine twenty-four c"
+        },
+        {
+          "from": "ha[d]",
+          "to": "had"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 391,
+          "end": 1520
+        }
+      ],
+      "citations": [
+        {
+          "start": 361,
+          "end": 404,
+          "text": "Hunter, 608 U. S., at ___ (slip op., at 9).",
+          "type": "case",
+          "canonical": "Hunter v. United States, 608 U.S. ___; Hunter, 608 U. S., at ___ (slip op., at 9)."
+        },
+        {
+          "start": 574,
+          "end": 618,
+          "text": "134 F. 4th, at 843 (Dennis, J., dissenting).",
+          "type": "reference",
+          "canonical": "134 F. 4th, at 843 (Dennis, J., dissenting)"
+        },
+        {
+          "start": 787,
+          "end": 826,
+          "text": "Hunter, 608 U. S. ___ (slip op., at 1).",
+          "type": "case",
+          "canonical": "Hunter v. United States, 608 U.S. ___; Hunter, 608 U. S. ___ (slip op., at 1)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "implicat[e]",
+          "to": "implicate"
+        },
+        {
+          "from": "[a]ll",
+          "to": "all"
+        },
+        {
+          "from": "bring[s]",
+          "to": "brings"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 606,
+      "end": 614,
+      "expectedText": "ap-\npeal",
+      "text": "appeal"
+    },
+    {
+      "page": 0,
+      "start": 972,
+      "end": 980,
+      "expectedText": "re-\nview",
+      "text": "review"
+    },
+    {
+      "page": 0,
+      "start": 1025,
+      "end": 1038,
+      "expectedText": "challeng-\ning",
+      "text": "challenging"
+    },
+    {
+      "page": 0,
+      "start": 1122,
+      "end": 1135,
+      "expectedText": "recogni-\ntion",
+      "text": "recognition"
+    },
+    {
+      "page": 0,
+      "start": 1369,
+      "end": 1378,
+      "expectedText": "en-\nforce",
+      "text": "enforce"
+    },
+    {
+      "page": 0,
+      "start": 1745,
+      "end": 1752,
+      "expectedText": "er-\nror",
+      "text": "error"
+    },
+    {
+      "page": 1,
+      "start": 158,
+      "end": 170,
+      "expectedText": "con-\nfidence",
+      "text": "confidence"
+    },
+    {
+      "page": 1,
+      "start": 430,
+      "end": 442,
+      "expectedText": "collat-\neral",
+      "text": "collateral"
+    },
+    {
+      "page": 1,
+      "start": 547,
+      "end": 561,
+      "expectedText": "illustra-\ntion",
+      "text": "illustration"
+    },
+    {
+      "page": 1,
+      "start": 840,
+      "end": 851,
+      "expectedText": "con-\ntained",
+      "text": "contained"
+    },
+    {
+      "page": 1,
+      "start": 1025,
+      "end": 1037,
+      "expectedText": "collat-\neral",
+      "text": "collateral"
+    },
+    {
+      "page": 1,
+      "start": 465,
+      "end": 475,
+      "expectedText": "de fendant",
+      "text": "defendant"
+    },
+    {
+      "page": 1,
+      "start": 580,
+      "end": 587,
+      "expectedText": "Cedr ic",
+      "text": "Cedric"
+    },
+    {
+      "page": 1,
+      "start": 1412,
+      "end": 1419,
+      "expectedText": "un-\nder",
+      "text": "under"
+    },
+    {
+      "page": 1,
+      "start": 1584,
+      "end": 1604,
+      "expectedText": "unconstitu-\ntionally",
+      "text": "unconstitutionally"
+    },
+    {
+      "page": 1,
+      "start": 1827,
+      "end": 1836,
+      "expectedText": "De-\nspite",
+      "text": "Despite"
+    },
+    {
+      "page": 1,
+      "start": 2000,
+      "end": 2019,
+      "expectedText": "consti-\ntutionality",
+      "text": "constitutionality"
+    },
+    {
+      "page": 2,
+      "start": 212,
+      "end": 224,
+      "expectedText": "collat-\neral",
+      "text": "collateral"
+    },
+    {
+      "page": 2,
+      "start": 500,
+      "end": 518,
+      "expectedText": "collateral-\nreview",
+      "text": "collateral-review"
+    },
+    {
+      "page": 2,
+      "start": 943,
+      "end": 950,
+      "expectedText": "un-\nder",
+      "text": "under"
+    },
+    {
+      "page": 2,
+      "start": 1055,
+      "end": 1073,
+      "expectedText": "collateral-\nreview",
+      "text": "collateral-review"
+    },
+    {
+      "page": 2,
+      "start": 1181,
+      "end": 1192,
+      "expectedText": "dis-\nrepute",
+      "text": "disrepute"
+    },
+    {
+      "page": 2,
+      "start": 1487,
+      "end": 1499,
+      "expectedText": "prin-\nciples",
+      "text": "principles"
+    },
+    {
+      "page": 2,
+      "start": 476,
+      "end": 488,
+      "expectedText": "enfo rcement",
+      "text": "enforcement"
+    },
+    {
+      "page": 2,
+      "start": 668,
+      "end": 675,
+      "expectedText": "co urts",
+      "text": "courts"
+    },
+    {
+      "page": 2,
+      "start": 914,
+      "end": 919,
+      "expectedText": "h eld",
+      "text": "held"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 41,
+      "end": 429,
+      "text": "1  Cite as: 609 U. S. ____ (2026) \nStatement of SOTOMAYOR, J. \nSUPREME COURT OF THE UNITED STATES \nCEDRIC RAY JONES v. UNITED STATES \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE FIFTH CIRCUIT \nNo. 25–524. Decided June 30, 2026 \nThe petition for a writ of certiorari is denied. \n Statement of J USTICE SOTOMAYOR respecting the denial \nof certiorari. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    },
+    {
+      "page": 1,
+      "start": 50,
+      "end": 104,
+      "text": "2 JONES v. UNITED STATES \nStatement of SOTOMAYOR, J. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    },
+    {
+      "page": 2,
+      "start": 33,
+      "end": 96,
+      "text": "3  Cite as: 609 U. S. ____ (2026) \nStatement of SOTOMAYOR, J. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    }
+  ],
+  "documentInfo": {
+    "joinedBy": []
+  },
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full original judicial writing reviewed. All substantive text and explanatory/quoted parentheticals retained; front attribution and bare order excluded, exact extraction repairs and independent source locators recorded. Meaningful statute references embedded in plea quotation remain linked and spoken."
+}

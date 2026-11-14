@@ -1,0 +1,178 @@
+{
+  "version": "848b821f5b328c5f",
+  "duration": 105.435,
+  "voice": "af_sky",
+  "audioSha256": "6495d38d961e1d3c33bcd13f8620aef7278347b66ab8b90db24e0f8a3ce55ac7",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 4.8,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 726,
+          "end": 797
+        }
+      ],
+      "text": "I concur in Parts one and three of the Court's opinion and in its judgment."
+    },
+    {
+      "start": 4.8,
+      "end": 14.7,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 798,
+          "end": 970
+        }
+      ],
+      "text": "I agree with the Court that Yearsley v. W. A. Ross Construction Company and similar decisions establish a defense from liability and not an immunity from suit."
+    },
+    {
+      "start": 14.7,
+      "end": 23.36,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 993,
+          "end": 1141
+        }
+      ],
+      "text": "Orders rejecting Yearsley defenses are therefore unlike the orders denying immunities that this Court has already held to be immediately appealable."
+    },
+    {
+      "start": 23.36,
+      "end": 30.82,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1142,
+          "end": 1273
+        }
+      ],
+      "text": "Because no other statute or rule authorized an interlocutory appeal here, the Court correctly affirms the Tenth Circuit's dismissal."
+    },
+    {
+      "start": 30.82,
+      "end": 41.46,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1274,
+          "end": 1474
+        }
+      ],
+      "text": "I do not join Part two because “we need not, and in my view should not, further justify our holding by applying” the collateral-order doctrine established by Cohen v. Beneficial Industrial Loan Corp."
+    },
+    {
+      "start": 41.46,
+      "end": 50.23,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 129,
+          "end": 293
+        }
+      ],
+      "text": "I remain of the view that we should not expand the Cohen collateral order doctrine beyond orders that our precedents have already held to be immediately appealable."
+    },
+    {
+      "start": 50.23,
+      "end": 61.56,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 294,
+          "end": 500
+        }
+      ],
+      "text": "The Cohen collateral-order doctrine, which allows federal courts to exercise appellate jurisdiction over certain interlocutory orders, conflicts with Congress's authority over federal appellate jurisdiction."
+    },
+    {
+      "start": 61.56,
+      "end": 65.6,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 550,
+          "end": 615
+        }
+      ],
+      "text": "By statute, parties generally cannot appeal before final judgment."
+    },
+    {
+      "start": 65.6,
+      "end": 73.44,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 659,
+          "end": 797
+        }
+      ],
+      "text": "Congress has established certain exceptions to that final-judgment rule that allow parties to appeal some interlocutory orders immediately."
+    },
+    {
+      "start": 73.44,
+      "end": 78.38,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 819,
+          "end": 901
+        }
+      ],
+      "text": "It has also authorized this Court to create further exceptions through rulemaking."
+    },
+    {
+      "start": 78.38,
+      "end": 94.26,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 913,
+          "end": 1196
+        }
+      ],
+      "text": "Cohen's collateral-order doctrine allows judges to create additional exceptions by judicial opinion, which bypasses “ `Congress's designation of the rulemaking process as the way to define or refine when a district court ruling is “final” and when an interlocutory order is appealable.'"
+    },
+    {
+      "start": 94.26,
+      "end": 104.44,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1197,
+          "end": 1527
+        }
+      ],
+      "text": "” For that reason, if an interlocutory order “is not on all fours with orders we previously have held to be appealable under the collateral order doctrine,” it should not be immediately appealable."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 138,
+      "expectedWords": 145,
+      "coverage": 0.9517241379310345
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 142,
+      "expectedWords": 142,
+      "coverage": 1.0
+    }
+  ]
+}

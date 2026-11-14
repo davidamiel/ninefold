@@ -1,0 +1,1299 @@
+{
+  "reviewed": true,
+  "documentId": "25-5557-5a951da15d7d--0-0",
+  "sourceDocumentId": "25-5557-5a951da15d7d",
+  "sourceTextPath": "dist/data/docs/25-5557-5a951da15d7d.json",
+  "sourceTextSha256": "4a8b7f5910386248a6ef4103eb4ca0febbe07d9542c16b213e0785ef828d2742",
+  "sourcePdfPath": "recordings/sources/14d76e6ee9445a1f1e0660bd.pdf",
+  "sourcePdfSha256": "14d76e6ee9445a1f1e0660bdd846bb69b574bd0cf9a0a05895358d953169702c",
+  "title": "Dissent",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-01-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-5557_n6io.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 982,
+    "endPage": 6,
+    "endOffset": 1150
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 982,
+          "end": 1596
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1596,
+          "end": 1771
+        },
+        {
+          "page": 1,
+          "start": 106,
+          "end": 138
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1342,
+          "end": 1578
+        }
+      ],
+      "citations": [
+        {
+          "start": 17,
+          "end": 26,
+          "text": "Rule 39.8",
+          "type": "statute",
+          "canonical": "Rule 39.8",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 139,
+          "end": 621
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 1,
+          "start": 621,
+          "end": 624
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 624,
+          "end": 1161
+        }
+      ],
+      "citations": [
+        {
+          "start": 334,
+          "end": 383,
+          "text": "In re McDonald, 489 U. S. 180, 183 (per curiam ).",
+          "type": "reference",
+          "canonical": "In re McDonald, 489 U. S. 180, 183 (per curiam )."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1580,
+          "end": 2277
+        }
+      ],
+      "citations": [
+        {
+          "start": 135,
+          "end": 168,
+          "text": "In re McDonald, 489 U. S., at 185",
+          "type": "reference",
+          "canonical": "In re McDonald, 489 U. S., at 185"
+        },
+        {
+          "start": 169,
+          "end": 224,
+          "text": "(quoting Ex parte Fahey, 332 U. S. 258, 259–260 (1947))",
+          "type": "reference",
+          "canonical": "(quoting Ex parte Fahey, 332 U. S. 258, 259–260 (1947))"
+        },
+        {
+          "start": 406,
+          "end": 424,
+          "text": "489 U. S., at 184.",
+          "type": "reference",
+          "canonical": "489 U. S., at 184."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[McDonald]",
+          "to": "McDonald"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1162,
+          "end": 1164
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1164,
+          "end": 1332
+        },
+        {
+          "page": 2,
+          "start": 101,
+          "end": 373
+        }
+      ],
+      "citations": [
+        {
+          "start": 370,
+          "end": 429,
+          "text": "In re Sindram , 498 U. S. 177, 177–178 (1991) (per curiam).",
+          "type": "reference",
+          "canonical": "In re Sindram , 498 U. S. 177, 177–178 (1991) (per curiam)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 373,
+          "end": 1134
+        }
+      ],
+      "citations": [
+        {
+          "start": 470,
+          "end": 558,
+          "text": "Martin v. District of Columbia Court of Appeals, 506 U. S. 1, 2–3 (1992) ( per curiam ).",
+          "type": "reference",
+          "canonical": "Martin v. District of Columbia Court of Appeals, 506 U. S. 1, 2–3 (1992) ( per curiam )."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1134,
+          "end": 1583
+        }
+      ],
+      "citations": [
+        {
+          "start": 412,
+          "end": 440,
+          "text": "McDonald, 489 U. S., at 184.",
+          "type": "reference",
+          "canonical": "McDonald, 489 U. S., at 184."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1583,
+          "end": 2173
+        },
+        {
+          "page": 3,
+          "start": 99,
+          "end": 492
+        }
+      ],
+      "citations": [
+        {
+          "start": 302,
+          "end": 317,
+          "text": "Id., at 185–187",
+          "type": "reference",
+          "canonical": "Id., at 185–187"
+        },
+        {
+          "start": 318,
+          "end": 343,
+          "text": "(Brennan, J., dissenting)",
+          "type": "reference",
+          "canonical": "(Brennan, J., dissenting)"
+        },
+        {
+          "start": 598,
+          "end": 615,
+          "text": "498 U. S., at 182",
+          "type": "reference",
+          "canonical": "498 U. S., at 182"
+        },
+        {
+          "start": 616,
+          "end": 642,
+          "text": "(Marshall, J., dissenting)",
+          "type": "reference",
+          "canonical": "(Marshall, J., dissenting)"
+        },
+        {
+          "start": 746,
+          "end": 751,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 900,
+          "end": 927,
+          "text": "McDonald, 489 U. S., at 187",
+          "type": "reference",
+          "canonical": "McDonald, 489 U. S., at 187"
+        },
+        {
+          "start": 928,
+          "end": 953,
+          "text": "(Brennan, J., dissenting)",
+          "type": "reference",
+          "canonical": "(Brennan, J., dissenting)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[to]",
+          "to": "to"
+        },
+        {
+          "from": "ensur[e]",
+          "to": "ensure"
+        },
+        {
+          "from": "embark[ed]",
+          "to": "embarked"
+        },
+        {
+          "from": "[an]",
+          "to": "an"
+        },
+        {
+          "from": "[its]",
+          "to": "its"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 492,
+          "end": 496
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 496,
+          "end": 653
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 653,
+          "end": 1037
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1037,
+          "end": 1535
+        }
+      ],
+      "citations": [
+        {
+          "start": 323,
+          "end": 368,
+          "text": "See, e.g., In re Nelson, 607 U. S. ___ (2025)",
+          "type": "reference",
+          "canonical": "See, e.g., In re Nelson, 607 U. S. ___ (2025)"
+        },
+        {
+          "start": 404,
+          "end": 451,
+          "text": "Navarro Martin v. Florida, 607 U. S. ___ (2025)",
+          "type": "reference",
+          "canonical": "Navarro Martin v. Florida, 607 U. S. ___ (2025)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1535,
+          "end": 2004
+        },
+        {
+          "page": 4,
+          "start": 91,
+          "end": 566
+        }
+      ],
+      "citations": [
+        {
+          "start": 232,
+          "end": 281,
+          "text": "See, e.g., Crosby v. Starr , 607 U. S. ___ (2025)",
+          "type": "reference",
+          "canonical": "See, e.g., Crosby v. Starr , 607 U. S. ___ (2025)"
+        },
+        {
+          "start": 407,
+          "end": 447,
+          "text": "Brunson v. Herring, 604 U. S. ___ (2024)",
+          "type": "reference",
+          "canonical": "Brunson v. Herring, 604 U. S. ___ (2024)"
+        },
+        {
+          "start": 569,
+          "end": 613,
+          "text": "Kaetz v. United States, 602 U. S. ___ (2024)",
+          "type": "reference",
+          "canonical": "Kaetz v. United States, 602 U. S. ___ (2024)"
+        },
+        {
+          "start": 697,
+          "end": 714,
+          "text": "28 U. S. C. §2255",
+          "type": "statute",
+          "canonical": "28 U. S. C. §2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "28 U. S. C. §2255",
+          "to": "section twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 566,
+          "end": 571
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 571,
+          "end": 921
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 921,
+          "end": 1424
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1424,
+          "end": 2025
+        },
+        {
+          "page": 5,
+          "start": 97,
+          "end": 99
+        }
+      ],
+      "citations": [
+        {
+          "start": 204,
+          "end": 227,
+          "text": ", 578 U. S. 120 (2016),",
+          "type": "reference",
+          "canonical": ", 578 U. S. 120 (2016),"
+        },
+        {
+          "start": 374,
+          "end": 396,
+          "text": ", 576 U. S. 591 (2015)",
+          "type": "reference",
+          "canonical": ", 576 U. S. 591 (2015)"
+        },
+        {
+          "start": 478,
+          "end": 496,
+          "text": "578 U. S., at 130.",
+          "type": "reference",
+          "canonical": "578 U. S., at 130."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 99,
+          "end": 651
+        }
+      ],
+      "citations": [
+        {
+          "start": 117,
+          "end": 152,
+          "text": ", 559 U. S. 34 (2010) (per curiam),",
+          "type": "reference",
+          "canonical": ", 559 U. S. 34 (2010) (per curiam),"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1793,
+          "end": 2282
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 164,
+          "text": "See, e.g., Dept. of Justice, Investigation of Alabama’s State Prisons for Men 5–6 (Apr. 2, 2019), https://www.justice.gov/crt/case-document/ file/1149971/dl?inline=",
+          "type": "reference",
+          "canonical": "See, e.g., Dept. of Justice, Investigation of Alabama’s State Prisons for Men 5–6 (Apr. 2, 2019), https://www.justice.gov/crt/case-document/ file/1149971/dl?inline="
+        },
+        {
+          "start": 241,
+          "end": 400,
+          "text": "Dept. of Justice, Investigation of Georgia Prisons 3 (Oct. 1, 2024), https://www.justice.gov/d9/2024-09/ findings_report_-_investigation_of_georgia_prisons.pdf",
+          "type": "reference",
+          "canonical": "Dept. of Justice, Investigation of Georgia Prisons 3 (Oct. 1, 2024), https://www.justice.gov/d9/2024-09/ findings_report_-_investigation_of_georgia_prisons.pdf"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 652,
+          "end": 810
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 810,
+          "end": 1250
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1250,
+          "end": 1783
+        },
+        {
+          "page": 6,
+          "start": 78,
+          "end": 232
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 232,
+          "end": 979
+        }
+      ],
+      "citations": [
+        {
+          "start": 606,
+          "end": 660,
+          "text": "See, e.g., Gideon v. Wainwright, 372 U. S. 335 (1963);",
+          "type": "reference",
+          "canonical": "See, e.g., Gideon v. Wainwright, 372 U. S. 335 (1963);"
+        },
+        {
+          "start": 661,
+          "end": 696,
+          "text": "see also Sindram, 498 U. S., at 181",
+          "type": "reference",
+          "canonical": "see also Sindram, 498 U. S., at 181"
+        },
+        {
+          "start": 697,
+          "end": 723,
+          "text": "(Marshall, J., dissenting)",
+          "type": "reference",
+          "canonical": "(Marshall, J., dissenting)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 979,
+          "end": 1150
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 1796,
+      "end": 1799,
+      "expectedText": "– \n",
+      "text": "–"
+    },
+    {
+      "page": 0,
+      "start": 1764,
+      "end": 1770,
+      "expectedText": "of pe-",
+      "text": "of pe"
+    },
+    {
+      "page": 1,
+      "start": 1374,
+      "end": 1384,
+      "expectedText": "satisf ied",
+      "text": "satisfied"
+    },
+    {
+      "page": 2,
+      "start": 1608,
+      "end": 1620,
+      "expectedText": "pe rmanently",
+      "text": "permanently"
+    },
+    {
+      "page": 2,
+      "start": 1854,
+      "end": 1868,
+      "expectedText": "unp recedented",
+      "text": "unprecedented"
+    },
+    {
+      "page": 3,
+      "start": 1061,
+      "end": 1069,
+      "expectedText": "out lier",
+      "text": "outlier"
+    },
+    {
+      "page": 3,
+      "start": 1316,
+      "end": 1326,
+      "expectedText": "Martin ize",
+      "text": "Martinize"
+    },
+    {
+      "page": 5,
+      "start": 1822,
+      "end": 1836,
+      "expectedText": "Investigat ion",
+      "text": "Investigation"
+    },
+    {
+      "page": 5,
+      "start": 2049,
+      "end": 2057,
+      "expectedText": "Ju stice",
+      "text": "Justice"
+    },
+    {
+      "page": 5,
+      "start": 1893,
+      "end": 1917,
+      "expectedText": "https://www .justice.gov",
+      "text": "https://www.justice.gov"
+    },
+    {
+      "page": 5,
+      "start": 2112,
+      "end": 2136,
+      "expectedText": "https://www.justice.g ov",
+      "text": "https://www.justice.gov"
+    },
+    {
+      "page": 6,
+      "start": 497,
+      "end": 507,
+      "expectedText": "re jecting",
+      "text": "rejecting"
+    },
+    {
+      "page": 6,
+      "start": 677,
+      "end": 684,
+      "expectedText": "shou ld",
+      "text": "should"
+    },
+    {
+      "page": 6,
+      "start": 789,
+      "end": 804,
+      "expectedText": "constitu tional",
+      "text": "constitutional"
+    },
+    {
+      "page": 6,
+      "start": 1004,
+      "end": 1010,
+      "expectedText": "ap ply",
+      "text": "apply"
+    },
+    {
+      "page": 6,
+      "start": 1064,
+      "end": 1074,
+      "expectedText": "fri volous",
+      "text": "frivolous"
+    },
+    {
+      "page": 0,
+      "start": 545,
+      "end": 557,
+      "expectedText": "repeat-\nedly",
+      "text": "repeatedly"
+    },
+    {
+      "page": 0,
+      "start": 1408,
+      "end": 1418,
+      "expectedText": "im -\nposes",
+      "text": "imposes"
+    },
+    {
+      "page": 0,
+      "start": 1528,
+      "end": 1537,
+      "expectedText": "mat-\nters",
+      "text": "matters"
+    },
+    {
+      "page": 0,
+      "start": 1706,
+      "end": 1716,
+      "expectedText": "sen-\ntence",
+      "text": "sentence"
+    },
+    {
+      "page": 1,
+      "start": 164,
+      "end": 174,
+      "expectedText": "iden-\ntify",
+      "text": "identify"
+    },
+    {
+      "page": 1,
+      "start": 350,
+      "end": 358,
+      "expectedText": "fil-\ning",
+      "text": "filing"
+    },
+    {
+      "page": 1,
+      "start": 411,
+      "end": 419,
+      "expectedText": "fil-\ning",
+      "text": "filing"
+    },
+    {
+      "page": 1,
+      "start": 596,
+      "end": 610,
+      "expectedText": "respect-\nfully",
+      "text": "respectfully"
+    },
+    {
+      "page": 1,
+      "start": 731,
+      "end": 741,
+      "expectedText": "McDon-\nald",
+      "text": "McDonald"
+    },
+    {
+      "page": 1,
+      "start": 970,
+      "end": 980,
+      "expectedText": "McDon-\nald",
+      "text": "McDonald"
+    },
+    {
+      "page": 1,
+      "start": 910,
+      "end": 922,
+      "expectedText": "convic-\ntion",
+      "text": "conviction"
+    },
+    {
+      "page": 1,
+      "start": 1217,
+      "end": 1227,
+      "expectedText": "Jus-\ntices",
+      "text": "Justices"
+    },
+    {
+      "page": 1,
+      "start": 1277,
+      "end": 1289,
+      "expectedText": "pre-\nventing",
+      "text": "preventing"
+    },
+    {
+      "page": 1,
+      "start": 1638,
+      "end": 1653,
+      "expectedText": "extraordi-\nnary",
+      "text": "extraordinary"
+    },
+    {
+      "page": 1,
+      "start": 2161,
+      "end": 2169,
+      "expectedText": "fu-\nture",
+      "text": "future"
+    },
+    {
+      "page": 1,
+      "start": 2236,
+      "end": 2244,
+      "expectedText": "bur-\nden",
+      "text": "burden"
+    },
+    {
+      "page": 2,
+      "start": 485,
+      "end": 497,
+      "expectedText": "peti-\ntioner",
+      "text": "petitioner"
+    },
+    {
+      "page": 2,
+      "start": 543,
+      "end": 554,
+      "expectedText": "peti-\ntions",
+      "text": "petitions"
+    },
+    {
+      "page": 2,
+      "start": 607,
+      "end": 616,
+      "expectedText": "va-\nriety",
+      "text": "variety"
+    },
+    {
+      "page": 2,
+      "start": 729,
+      "end": 741,
+      "expectedText": "cer-\ntiorari",
+      "text": "certiorari"
+    },
+    {
+      "page": 2,
+      "start": 784,
+      "end": 793,
+      "expectedText": "Sin-\ndram",
+      "text": "Sindram"
+    },
+    {
+      "page": 2,
+      "start": 1477,
+      "end": 1487,
+      "expectedText": "al-\nlocate",
+      "text": "allocate"
+    },
+    {
+      "page": 2,
+      "start": 1700,
+      "end": 1712,
+      "expectedText": "dis-\nsenters",
+      "text": "dissenters"
+    },
+    {
+      "page": 2,
+      "start": 1936,
+      "end": 1947,
+      "expectedText": "Simi-\nlarly",
+      "text": "Similarly"
+    },
+    {
+      "page": 2,
+      "start": 2000,
+      "end": 2011,
+      "expectedText": "lit-\nigants",
+      "text": "litigants"
+    },
+    {
+      "page": 2,
+      "start": 2061,
+      "end": 2069,
+      "expectedText": "ac-\ncess",
+      "text": "access"
+    },
+    {
+      "page": 3,
+      "start": 158,
+      "end": 170,
+      "expectedText": "dissent-\ning",
+      "text": "dissenting"
+    },
+    {
+      "page": 3,
+      "start": 398,
+      "end": 408,
+      "expectedText": "shut-\nting",
+      "text": "shutting"
+    },
+    {
+      "page": 3,
+      "start": 546,
+      "end": 556,
+      "expectedText": "ex-\npanded",
+      "text": "expanded"
+    },
+    {
+      "page": 3,
+      "start": 941,
+      "end": 951,
+      "expectedText": "sen-\ntence",
+      "text": "sentence"
+    },
+    {
+      "page": 3,
+      "start": 1270,
+      "end": 1281,
+      "expectedText": "friv-\nolous",
+      "text": "frivolous"
+    },
+    {
+      "page": 3,
+      "start": 1521,
+      "end": 1532,
+      "expectedText": "peti-\ntions",
+      "text": "petitions"
+    },
+    {
+      "page": 3,
+      "start": 1586,
+      "end": 1597,
+      "expectedText": "oc -\ncasion",
+      "text": "occasion"
+    },
+    {
+      "page": 3,
+      "start": 1697,
+      "end": 1711,
+      "expectedText": "incar-\ncerated",
+      "text": "incarcerated"
+    },
+    {
+      "page": 4,
+      "start": 152,
+      "end": 165,
+      "expectedText": "pro-\nceedings",
+      "text": "proceedings"
+    },
+    {
+      "page": 4,
+      "start": 803,
+      "end": 817,
+      "expectedText": "incar-\ncerated",
+      "text": "incarcerated"
+    },
+    {
+      "page": 4,
+      "start": 860,
+      "end": 873,
+      "expectedText": "court -\nhouse",
+      "text": "courthouse"
+    },
+    {
+      "page": 4,
+      "start": 1143,
+      "end": 1154,
+      "expectedText": "chal-\nlenge",
+      "text": "challenge"
+    },
+    {
+      "page": 4,
+      "start": 1472,
+      "end": 1483,
+      "expectedText": "chal-\nlenge",
+      "text": "challenge"
+    },
+    {
+      "page": 4,
+      "start": 1718,
+      "end": 1729,
+      "expectedText": "chal-\nlenge",
+      "text": "challenge"
+    },
+    {
+      "page": 4,
+      "start": 1268,
+      "end": 1278,
+      "expectedText": "fa-\nmously",
+      "text": "famously"
+    },
+    {
+      "page": 4,
+      "start": 1594,
+      "end": 1606,
+      "expectedText": "peti-\ntioner",
+      "text": "petitioner"
+    },
+    {
+      "page": 4,
+      "start": 1780,
+      "end": 1789,
+      "expectedText": "John-\nson",
+      "text": "Johnson"
+    },
+    {
+      "page": 4,
+      "start": 1897,
+      "end": 1912,
+      "expectedText": "retroac-\ntively",
+      "text": "retroactively"
+    },
+    {
+      "page": 5,
+      "start": 696,
+      "end": 704,
+      "expectedText": "un-\nable",
+      "text": "unable"
+    },
+    {
+      "page": 5,
+      "start": 753,
+      "end": 765,
+      "expectedText": "condi-\ntions",
+      "text": "conditions"
+    },
+    {
+      "page": 5,
+      "start": 860,
+      "end": 872,
+      "expectedText": "impris-\noned",
+      "text": "imprisoned"
+    },
+    {
+      "page": 5,
+      "start": 977,
+      "end": 988,
+      "expectedText": "frivo-\nlous",
+      "text": "frivolous"
+    },
+    {
+      "page": 5,
+      "start": 1094,
+      "end": 1107,
+      "expectedText": "fundamen-\ntal",
+      "text": "fundamental"
+    },
+    {
+      "page": 5,
+      "start": 1299,
+      "end": 1310,
+      "expectedText": "re-\nviewing",
+      "text": "reviewing"
+    },
+    {
+      "page": 5,
+      "start": 1356,
+      "end": 1367,
+      "expectedText": "prison-\ners",
+      "text": "prisoners"
+    },
+    {
+      "page": 5,
+      "start": 1594,
+      "end": 1605,
+      "expectedText": "prison-\ners",
+      "text": "prisoners"
+    },
+    {
+      "page": 5,
+      "start": 1718,
+      "end": 1727,
+      "expectedText": "fil-\nings",
+      "text": "filings"
+    },
+    {
+      "page": 5,
+      "start": 2007,
+      "end": 2019,
+      "expectedText": "con-\nditions",
+      "text": "conditions"
+    },
+    {
+      "page": 5,
+      "start": 2084,
+      "end": 2093,
+      "expectedText": "Pris-\nons",
+      "text": "Prisons"
+    },
+    {
+      "page": 6,
+      "start": 196,
+      "end": 209,
+      "expectedText": "repeti -\ntive",
+      "text": "repetitive"
+    },
+    {
+      "page": 6,
+      "start": 463,
+      "end": 475,
+      "expectedText": "ad-\nminister",
+      "text": "administer"
+    },
+    {
+      "page": 6,
+      "start": 521,
+      "end": 534,
+      "expectedText": "meritori-\nous",
+      "text": "meritorious"
+    },
+    {
+      "page": 6,
+      "start": 638,
+      "end": 654,
+      "expectedText": "administra-\ntive",
+      "text": "administrative"
+    },
+    {
+      "page": 6,
+      "start": 709,
+      "end": 719,
+      "expectedText": "in-\ndigent",
+      "text": "indigent"
+    },
+    {
+      "page": 6,
+      "start": 762,
+      "end": 775,
+      "expectedText": "develop-\nment",
+      "text": "development"
+    },
+    {
+      "page": 6,
+      "start": 877,
+      "end": 890,
+      "expectedText": "Wain -\nwright",
+      "text": "Wainwright"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 45,
+      "end": 106,
+      "text": "2 HOWELL v. CIRCUIT COURT OF INDIANA \nJACKSON, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 1,
+      "start": 138,
+      "end": 139,
+      "text": "1",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 1,
+      "start": 1161,
+      "end": 1162,
+      "text": "2",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 1,
+      "start": 1332,
+      "end": 1342,
+      "text": "—————— \n1 ",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 1,
+      "start": 1578,
+      "end": 1580,
+      "text": "2 ",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 2,
+      "start": 43,
+      "end": 101,
+      "text": "3  Cite as: 607 U. S. ____ (2026) \nJACKSON, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 38,
+      "end": 99,
+      "text": "4 HOWELL v. CIRCUIT COURT OF INDIANA \nJACKSON, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 4,
+      "start": 33,
+      "end": 91,
+      "text": "5  Cite as: 607 U. S. ____ (2026) \nJACKSON, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 36,
+      "end": 97,
+      "text": "6 HOWELL v. CIRCUIT COURT OF INDIANA \nJACKSON, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 651,
+      "end": 652,
+      "text": "3",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 1783,
+      "end": 1793,
+      "text": "—————— \n3 ",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 6,
+      "start": 20,
+      "end": 78,
+      "text": "7  Cite as: 607 U. S. ____ (2026) \nJACKSON, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

@@ -1,0 +1,454 @@
+{
+  "reviewed": true,
+  "documentId": "26A274-dbfe52b7bf3b--2-0",
+  "sourceDocumentId": "26A274-dbfe52b7bf3b",
+  "sourceTextPath": "dist/data/docs/26A274-dbfe52b7bf3b.json",
+  "sourceTextSha256": "c5118b4f55d5e12d8861274d04da547fd3f133db65a9e7d5c48b795fbdacb3b0",
+  "sourcePdfPath": "dist/data/pdfs/26A274-dbfe52b7bf3b--2-0.pdf",
+  "sourcePdfSha256": "dab7c0337c3a33b0a13e23c6b187f0bcd68511c497e24d5f0b8f52d19fed3fc8",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-09-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r71_4h25.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 290,
+    "endPage": 5,
+    "endOffset": 469
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 290,
+          "end": 1043
+        }
+      ],
+      "citations": [
+        {
+          "start": 502,
+          "end": 529,
+          "text": "47 U. S. C. § 315(b)(1)(A).",
+          "type": "statute",
+          "canonical": "47 U.S.C. § 315"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "FCC",
+          "to": "F C C"
+        },
+        {
+          "from": "LUC",
+          "to": "L U C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1043,
+          "end": 2038
+        },
+        {
+          "page": 3,
+          "start": 70,
+          "end": 177
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FCC",
+          "to": "F C C"
+        },
+        {
+          "from": "LUC",
+          "to": "L U C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 177,
+          "end": 502
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 502,
+          "end": 1082
+        }
+      ],
+      "citations": [
+        {
+          "start": 373,
+          "end": 437,
+          "text": "Hollingsworth v. Perry, 558 U. S. 183, 190 (2010) (per curiam ).",
+          "type": "case",
+          "canonical": "558 U.S. 183"
+        },
+        {
+          "start": 549,
+          "end": 554,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "558 U.S. 183"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1082,
+          "end": 2163
+        },
+        {
+          "page": 4,
+          "start": 47,
+          "end": 397
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 421,
+          "end": 445,
+          "text": "47 U. S. C. § 155(c)(7).",
+          "type": "statute",
+          "canonical": "47 U.S.C. § 155"
+        },
+        {
+          "start": 679,
+          "end": 713,
+          "text": "Ibid.; see also 28 U. S. C. § 2344",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2344"
+        },
+        {
+          "start": 1107,
+          "end": 1131,
+          "text": "47 U. S. C. § 155(c)(4).",
+          "type": "statute",
+          "canonical": "47 U.S.C. § 155"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "[judicial]",
+          "to": "judicial"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 397,
+          "end": 978
+        }
+      ],
+      "citations": [
+        {
+          "start": 276,
+          "end": 491,
+          "text": "Council Tree Communications, Inc. v. FCC, 503 F. 3d 284, 287 (CA3 2007); Alabama Power Co. v. FCC, 311 F. 3d 1357, 1366 (CA11 2002); International Telecard Assn. v. FCC, 166 F. 3d 387, 388 (CADC 1999) (per curiam ).",
+          "type": "case",
+          "canonical": "503 F.3d 284"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 978,
+          "end": 1848
+        }
+      ],
+      "citations": [
+        {
+          "start": 605,
+          "end": 704,
+          "text": "National Republican Senatorial Committee v. Federal Election Comm'n, 609 U. S. 908, 918–920 (2026),",
+          "type": "case",
+          "canonical": "609 U.S. 908"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1854,
+          "end": 2021
+        },
+        {
+          "page": 5,
+          "start": 83,
+          "end": 469
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 2038,
+      "end": 2068,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 70,
+      "text": "1084 N ATIONAL REPUBLICAN CONGRESSIONAL\nCOMMITTEE v. BROWN\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 2163,
+      "end": 2193,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 47,
+      "text": "Cite as: 609 U. S. 1082 (2026) 1085\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 1848,
+      "end": 1854,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 2021,
+      "end": 2051,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 83,
+      "text": "1086 N ATIONAL REPUBLICAN CONGRESSIONAL\nCOMMITTEE v. BROWN\nJackson, J., dissenting\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 594,
+      "end": 602,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 2,
+      "start": 628,
+      "end": 633,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 2,
+      "start": 1102,
+      "end": 1106,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 2,
+      "start": 1384,
+      "end": 1388,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 2,
+      "start": 1638,
+      "end": 1645,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 3,
+      "start": 1089,
+      "end": 1093,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 3,
+      "start": 1249,
+      "end": 1254,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 3,
+      "start": 1326,
+      "end": 1331,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 3,
+      "start": 1609,
+      "end": 1613,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 1737,
+      "end": 1741,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 1811,
+      "end": 1815,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 3,
+      "start": 1982,
+      "end": 1986,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 4,
+      "start": 466,
+      "end": 470,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 905,
+      "end": 909,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 4,
+      "start": 1761,
+      "end": 1765,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 5,
+      "start": 172,
+      "end": 177,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 5,
+      "start": 1127,
+      "end": 1132,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 3,
+      "start": 2156,
+      "end": 2162,
+      "expectedText": "appli-",
+      "text": "appli"
+    },
+    {
+      "page": 2,
+      "start": 2034,
+      "end": 2037,
+      "expectedText": "ap-",
+      "text": "ap"
+    },
+    {
+      "page": 3,
+      "start": 656,
+      "end": 667,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 3,
+      "start": 2030,
+      "end": 2033,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 4,
+      "start": 162,
+      "end": 165,
+      "expectedText": "fle",
+      "text": "file"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read all Court-opinion source/PDF pages. Excluded preceding syllabus and following dissent; no substantive footnotes. Retained every stay factor, statutory jurisdiction qualification, complete explanatory quoted paragraph from section 2344, irreparable-harm analysis and full stay terms. Exact source-only citation omissions; word/ligature/application page-join repairs and FCC/LUC pronunciation normalization."
+}

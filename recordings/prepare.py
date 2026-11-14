@@ -1,0 +1,332 @@
+"""Build source-mapped reader text and narration from an explicitly reviewed job."""
+import argparse
+import hashlib
+import json
+import re
+from pathlib import Path
+
+from generate import ROOT, load_job, local_path
+from speech_mapping import map_speech
+
+
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def replace_chars(chars, pattern, replacement):
+    text = ''.join(c[0] for c in chars)
+    for match in reversed(list(re.finditer(pattern, text))):
+        old = chars[match.start():match.end()]
+        chars[match.start():match.end()] = [
+            (letter, *old[min(i, len(old) - 1)][1:])
+            for i, letter in enumerate(replacement(match))
+        ]
+    return chars
+
+
+def span_chars(span, source, repairs):
+    """Apply reviewed repairs while retaining each character's PDF position."""
+    page, start, end = span['page'], span['start'], span['end']
+    raw = source['pages'][page]['text']
+    if not 0 <= start < end <= len(raw):
+        raise ValueError('Invalid source span')
+    chars = [(ch, page, i) for i, ch in enumerate(raw[start:end], start)]
+    page_repairs = sorted((r for r in repairs if r['page'] == page and start <= r['start'] < r['end'] <= end), key=lambda r: r['start'])
+    previous_end = start
+    for repair in page_repairs:
+        if repair['start'] < previous_end:
+            raise ValueError('Reviewed source text repairs overlap')
+        previous_end = repair['end']
+    for repair in reversed(page_repairs):
+        if raw[repair['start']:repair['end']] != repair['expectedText']:
+            raise ValueError('A reviewed text repair no longer matches its source')
+        a, b = repair['start'] - start, repair['end'] - start
+        old = chars[a:b]
+        chars[a:b] = [(ch, page, old[min(i, len(old)-1)][2]) for i, ch in enumerate(repair['text'])]
+    return chars
+
+
+def append_span(chars, part, span, separator):
+    if not separator:
+        while chars and chars[-1][0].isspace():
+            chars.pop()
+        while part and part[0][0].isspace():
+            part.pop(0)
+    chars.extend((ch, span['page'], span['start']) for ch in separator)
+    chars.extend(part)
+
+
+def normalize_chars(chars):
+    chars = replace_chars(chars, '\u00ad\\s*', lambda _: '')
+    # Only reviewed source ranges enter this step; genuine compound hyphens are
+    # retained unless the job explicitly records a repair for that line break.
+    chars = replace_chars(chars, r'\s+', lambda _: ' ')
+    chars = replace_chars(chars, r'(?<=[—-])\s+(?=\w)', lambda _: '')
+    while chars and chars[0][0].isspace():
+        chars.pop(0)
+    while chars and chars[-1][0].isspace():
+        chars.pop()
+    return chars
+
+
+def source_segments(chars):
+    segments = []
+    for ch, page, offset in chars:
+        if not segments or segments[-1]['page'] != page:
+            segments.append({'page': page, 'text': '', 'map': []})
+        segments[-1]['text'] += ch
+        segments[-1]['map'].append(offset)
+    return segments
+
+
+def clean_block(block, source, repairs):
+    chars = []
+    for span_index, span in enumerate(block['spans']):
+        part = span_chars(span, source, repairs)
+        if not chars:
+            chars.extend(part)
+            continue
+        separator = next((j['separator'] for j in block.get('joins', []) if j['afterSpan'] == span_index-1), '\n')
+        append_span(chars, part, span, separator)
+    chars = normalize_chars(chars)
+    return {'kind': block.get('kind', 'paragraph'), **({'label': block['label']} if 'label' in block else {}),
+            **({'citationOnly': True} if block.get('citationOnly') else {}),
+            'text': ''.join(c[0] for c in chars), 'segments': source_segments(chars)}
+
+
+def validate_page_coverage(raw, start, end, spans, page):
+    coverage = [0] * len(raw)
+    for span in spans:
+        if not start <= span['start'] < span['end'] <= end:
+            raise ValueError('Source span leaves the reviewed writing')
+        for i in range(span['start'], span['end']):
+            coverage[i] += 1
+    if any(coverage[i] != 1 and not raw[i].isspace() for i in range(start, end)):
+        raise ValueError(f'Unreviewed or overlapping source text on page {page + 1}')
+
+
+def validate_coverage(job, source):
+    scope = job['sourceRange']
+    spans = [s for block in job['blocks'] for s in block['spans']] + job['excludedSource']
+    for page in range(scope['startPage'], scope['endPage'] + 1):
+        raw = source['pages'][page]['text']
+        start = scope['startOffset'] if page == scope['startPage'] else 0
+        end = scope['endOffset'] if page == scope['endPage'] else len(raw)
+        validate_page_coverage(raw, start, end, [s for s in spans if s['page'] == page], page)
+
+
+def reviewed_pdf(path, checksum):
+    pdf_path = (ROOT/path).resolve()
+    allowed = [ROOT/'dist/data/pdfs', ROOT/'scripts/cache/narration/opinion-pdfs', ROOT/'recordings/sources']
+    if not any(pdf_path.is_relative_to(folder.resolve()) for folder in allowed):
+        raise ValueError('Source PDF is outside the opinion source directories')
+    if digest(pdf_path) != checksum:
+        raise ValueError('The source changed; review the PDF preparation again')
+
+
+def reviewed_source(job):
+    source_path = local_path(ROOT / job['sourceTextPath'], ROOT / 'dist/data')
+    sections = json.loads((ROOT/'dist/data/opinion-sections.json').read_text())
+    sections.update(json.loads((ROOT/'dist/data/opinion-section-overrides.json').read_text()))
+    descriptor = next((d for rows in sections.values() for d in rows if d['id'] == job['documentId']), None)
+    if descriptor and source_path != (ROOT/'dist'/descriptor['textPath']).resolve():
+        raise ValueError('Recording coordinates must use the document’s registered source text')
+    reviewed_pdf(job['sourcePdfPath'], job['sourcePdfSha256'])
+    if revision := job.get('revisionSource'):
+        reviewed_pdf(revision['pdfPath'], revision['sha256'])
+    if digest(source_path) != job['sourceTextSha256']:
+        raise ValueError('The source changed; review the preparation again')
+    source = json.loads(source_path.read_text())
+    validate_coverage(job, source)
+    return source
+
+
+def reviewed_citations(block, text):
+    citations = sorted(block.get('citations', []), key=lambda c: c['start'])
+    end = 0
+    for citation in citations:
+        if not end <= citation['start'] < citation['end'] <= len(text) or text[citation['start']:citation['end']] != citation['text']:
+            raise ValueError('Reviewed citation offsets no longer match the clean text')
+        end = citation['end']
+    return citations
+
+
+def segment_citations(segment, cursor, citations):
+    result = []
+    for citation in citations:
+        # A source-page boundary may split a citation. Each part keeps the same
+        # canonical identity and its own original coordinates.
+        a, b = max(cursor, citation['start']), min(cursor + len(segment['text']), citation['end'])
+        if b <= a:
+            continue
+        result.append({**{k: citation[k] for k in ('type', 'canonical')},
+                       **({'keepInline': True} if citation.get('keepInline') else {}),
+                       'start': a-cursor, 'end': b-cursor,
+                       'label': segment['text'][a-cursor:b-cursor]})
+    return result
+
+
+def annotate_citations(paragraph, citations):
+    cursor = 0
+    for segment in paragraph['segments']:
+        segment['citations'] = segment_citations(segment, cursor, citations)
+        cursor += len(segment['text'])
+
+
+def paragraph_citation_fragments(paragraph):
+    fragments, cursor = [], 0
+    for segment in paragraph['segments']:
+        for part in segment['citations']:
+            fragments.append((segment, part, cursor+part['start'], cursor+part['end']))
+        cursor += len(segment['text'])
+    return fragments
+
+
+def citation_fragments(fragments, citations):
+    parts = []
+    for segment, part, start, end in fragments:
+        for citation in citations:
+            if citation['start'] <= start and end <= citation['end']:
+                parts.append((segment, part))
+                break
+    return parts
+
+
+def adjoining_citation(previous, citation, text):
+    if previous is None:
+        return False
+    gap = text[previous['end']:citation['start']]
+    return previous['canonical'] == citation['canonical'] and (not gap or gap.isspace())
+
+
+def reference_citation_groups(paragraph, citations, fragments):
+    groups = []
+    for citation in citations:
+        if citation_decoration(citation):
+            for _, part in citation_fragments(fragments, [citation]):
+                part['suppressReference'] = True
+            continue
+        previous = groups[-1][-1] if groups else None
+        if adjoining_citation(previous, citation, paragraph['text']):
+            groups[-1].append(citation)
+        else:
+            groups.append([citation])
+    return groups
+
+
+def apply_reference_group(paragraph, group, fragments):
+    parts = citation_fragments(fragments, group)
+    if len(parts) < 2:
+        return
+    inline = []
+    for segment, part in parts:
+        if part.get('keepInline'):
+            inline.append((segment, part))
+    origin, first = (inline or parts)[0]
+    label = paragraph['text'][group[0]['start']:group[-1]['end']]
+    for index, (_, part) in enumerate(parts):
+        part.update(fullLabel=label, referencePage=origin['page'], referenceOffset=origin['map'][first['start']],
+                    continuation=not part.get('keepInline') if inline else index > 0)
+
+
+def reference_fragments(paragraph, citations):
+    """Keep one reader reference for adjoining pieces of the same citation."""
+    fragments = paragraph_citation_fragments(paragraph)
+    for group in reference_citation_groups(paragraph, citations, fragments):
+        apply_reference_group(paragraph, group, fragments)
+
+
+def citation_decoration(citation):
+    """Reviewed omission punctuation/bylines do not identify an authority."""
+    if citation.get('keepInline'):
+        return False
+    if citation['canonical'] in {'Citation punctuation', 'Citation signal', 'Editorial citation notation',
+                                 'Legislative statement attribution', 'Dictionary attribution'}:
+        return True
+    text = citation['text'].strip()
+    if not any(character.isalnum() for character in text):
+        return True
+    if re.fullmatch(r'(?:see(?: also| generally)?(?:,? e\.\s?g\.)?|cf\.|contra|accord|quoting|citing)[\s,;.(]*', text, re.I):
+        return True
+    if not (text.startswith('(') and text.endswith(')')):
+        return False
+    text = ' '.join(text[1:-1].split())
+    return bool(re.fullmatch(
+        r'(?:internal quotation marks(?: and alterations)? omitted|quotation marks omitted|'
+        r'citations? omitted|footnote omitted|alterations? (?:omitted|in original)|'
+        r'emphasis (?:added|deleted|in original)|per curiam|same|'
+        r'(?:majority|plurality|concurring|dissenting) opinion|'
+        r'(?:opinion of )?[A-Za-z .,’\'-]+, (?:C\. )?J\.,? '
+        r'(?:concurring|dissenting|for the Court|in chambers)[A-Za-z ,.-]*)', text, re.I))
+
+
+def outline_heading(text):
+    """Only an outline label is silent; authored English headings are read."""
+    if not re.fullmatch(r'[\w\s().:–—-]+', text):
+        return False
+    tokens = re.findall(r'[A-Za-z]+|\d+', text)
+    roman = r'M{0,3}(?:CM|CD|D?C{0,3})(?:XC|XL|L?X{0,3})(?:IX|IV|V?I{0,3})'
+    return bool(tokens) and all(token.isdecimal() or len(token) == 1 or
+                                re.fullmatch(roman, token, re.I) for token in tokens)
+
+
+def spoken_mapping(paragraph, block, citations, index):
+    if paragraph.get('citationOnly') or (paragraph['kind'] == 'heading' and outline_heading(paragraph['text'])):
+        return None
+    label = paragraph['label'] if paragraph['kind'] == 'footnote' else None
+    return map_speech(paragraph['text'], citations, block.get('pronunciations', []), index, label)
+
+
+def spoken_text(paragraph, block, citations, index):
+    mapped = spoken_mapping(paragraph, block, citations, index)
+    return mapped.text if mapped else None
+
+
+def prepare_narration(paragraphs, blocks):
+    spoken, spoken_blocks, mappings = [], [], []
+    for index, (paragraph, block) in enumerate(zip(paragraphs, blocks)):
+        citations = reviewed_citations(block, paragraph['text'])
+        annotate_citations(paragraph, citations)
+        mapped = spoken_mapping(paragraph, block, citations, index)
+        if mapped is None:
+            continue
+        spoken.append(mapped.text)
+        spoken_blocks.append(index)
+        mappings.append([list(origin) if origin is not None else None for origin in mapped.intervals])
+    return spoken, spoken_blocks, mappings
+
+
+def prepare(job):
+    source = reviewed_source(job)
+    paragraphs = [clean_block(b, source, job.get('repairs', [])) for b in job['blocks']]
+    spoken, spoken_blocks, mappings = prepare_narration(paragraphs, job['blocks'])
+    body = {'paragraphs': paragraphs, 'sectionSources': job.get('sectionSources', {}), 'reviewedCitations': True}
+    version = hashlib.sha256(json.dumps({'body': body, 'spoken': spoken}, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:16]
+    body['version'] = version
+    # These derived presentation fields do not change text, source coordinates,
+    # pronunciation or timings. Keep the existing recording identity intact.
+    for paragraph, block in zip(paragraphs, job['blocks']):
+        reference_fragments(paragraph, block.get('citations', []))
+    narration = {**job, 'version': version, 'spokenParagraphs': spoken, 'spokenBlocks': spoken_blocks,
+                 'spokenMappings': mappings}
+    return body, narration
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('job', type=Path)
+    parser.add_argument('--output', type=Path, default=ROOT / 'work/recordings')
+    args = parser.parse_args()
+    job, document_id = load_job(args.job)
+    body, narration = prepare(job)
+    output = local_path(args.output / document_id, ROOT / 'work')
+    output.mkdir(parents=True, exist_ok=True)
+    for name, value in [('prepared.json', body), ('narration.json', narration)]:
+        local_path(output / name, output).write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
+    local_path(output / 'reader.txt', output).write_text('\n\n'.join(p['text'] for p in body['paragraphs']) + '\n')
+    local_path(output / 'spoken.txt', output).write_text('\n\n'.join(narration['spokenParagraphs']) + '\n')
+    print('Reviewed reader and narration prepared:', document_id)
+
+
+if __name__ == '__main__':
+    main()

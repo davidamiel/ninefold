@@ -1,0 +1,155 @@
+{
+  "reviewed": true,
+  "documentId": "25-89-80b61447a70e--0-0",
+  "sourceDocumentId": "25-89-80b61447a70e",
+  "sourceTextPath": "dist/data/docs/25-89-80b61447a70e.json",
+  "sourceTextSha256": "79f5c07271d6322e7e8dc26988418bacaf91b4979fb6b814dec6fb87a74defcc",
+  "sourcePdfPath": "recordings/sources/89c5f9a202ddefed170e356b.pdf",
+  "sourcePdfSha256": "89c5f9a202ddefed170e356be6275a3955a8b130d29ed50249aecba91852b470",
+  "title": "Statement",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2025-10-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-89_8n5a.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 0,
+    "endOffset": 1731
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 483,
+          "end": 1731
+        }
+      ],
+      "citations": [
+        {
+          "start": 440,
+          "end": 682,
+          "text": "Parents Protecting Our Children, UA v. Eau Claire Area School Dist., 604 U. S. ___, ___–___ (2024) (ALITO, J., dissenting from denial of certiorari) (slip op., at 1–2) (citing Troxel v. Granville, 530 U. S. 57, 70 (2000) (plurality opinion)).",
+          "type": "case",
+          "canonical": "Parents Protecting Our Children v. Eau Claire Area School District, 604 U.S. ___"
+        },
+        {
+          "start": 969,
+          "end": 987,
+          "text": "Pet. for Cert. 24.",
+          "type": "record",
+          "canonical": "Pet. for Cert. 24"
+        },
+        {
+          "start": 1148,
+          "end": 1216,
+          "text": "Parents Protecting Our Children, 604 U. S., at ___ (slip op., at 1).",
+          "type": "case",
+          "canonical": "Parents Protecting Our Children v. Eau Claire Area School District, 604 U.S. ___"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "tempt[ed]",
+          "to": "tempted"
+        },
+        {
+          "from": "questio[n]",
+          "to": "question"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 721,
+      "end": 733,
+      "expectedText": "ques-\ntio[n]",
+      "text": "questio[n]"
+    },
+    {
+      "page": 0,
+      "start": 780,
+      "end": 793,
+      "expectedText": "funda-\nmental",
+      "text": "fundamental"
+    },
+    {
+      "page": 0,
+      "start": 838,
+      "end": 848,
+      "expectedText": "con -\nsent",
+      "text": "consent"
+    },
+    {
+      "page": 0,
+      "start": 957,
+      "end": 968,
+      "expectedText": "Chil -\ndren",
+      "text": "Children"
+    },
+    {
+      "page": 0,
+      "start": 1077,
+      "end": 1089,
+      "expectedText": "certio-\nrari",
+      "text": "certiorari"
+    },
+    {
+      "page": 0,
+      "start": 1268,
+      "end": 1279,
+      "expectedText": "al-\nlegedly",
+      "text": "allegedly"
+    },
+    {
+      "page": 0,
+      "start": 1327,
+      "end": 1335,
+      "expectedText": "ac-\ncess",
+      "text": "access"
+    },
+    {
+      "page": 0,
+      "start": 1501,
+      "end": 1512,
+      "expectedText": "trou-\nbling",
+      "text": "troubling"
+    },
+    {
+      "page": 0,
+      "start": 1000,
+      "end": 1007,
+      "expectedText": "Dist. ,",
+      "text": "Dist.,"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 32,
+      "end": 483,
+      "text": "1  Cite as: 607 U. S. ____ (2025) \nStatement of ALITO, J. \nSUPREME COURT OF THE UNITED STATES \nJONATHAN LEE, ET AL. v. POUDRE \nSCHOOL DISTRICT R–1 \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE TENTH CIRCUIT \nNo. 25–89. Decided October 14, 2025 \nThe petition for a writ of certiorari is denied. \nStatement of J USTICE ALITO, with whom JUSTICE \nTHOMAS and JUSTICE GORSUCH join, respecting the denial\nof certiorari. \n",
+      "reason": "Case caption, bare order/attribution, running furniture, or represented note marker"
+    }
+  ],
+  "documentInfo": {
+    "joinedBy": [
+      "Clarence Thomas",
+      "Neil M. Gorsuch"
+    ]
+  },
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full original public PDF and source text reviewed; all authored prose and quotations retained, running caption/bare order excluded, source locators individually mapped, extraction repairs exact. Meaningful grammatical statute references remain linked and spoken. Substantive comparison note, where present, occurs at its marker."
+}

@@ -1,0 +1,887 @@
+{
+  "reviewed": true,
+  "documentId": "25-5-fe3b8dc8ff65--60-1472",
+  "sourceDocumentId": "25-5-fe3b8dc8ff65",
+  "sourceTextPath": "dist/data/docs/25-5-fe3b8dc8ff65.json",
+  "sourceTextSha256": "2cba51b9e2f23e41036385a77872e92d0e6b63a46ca59b6a226e074fadbadec5",
+  "sourcePdfPath": "dist/data/pdfs/25-5-fe3b8dc8ff65--60-1472.pdf",
+  "sourcePdfSha256": "2067a3f22caf75cfaa56fbe8a4adacdfbf9c1a2cabae3cce10567e4c5e773fca",
+  "title": "Dissent",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-06-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r59_kjfl.pdf",
+  "sourceRange": {
+    "startPage": 60,
+    "startOffset": 1501,
+    "endPage": 66,
+    "endOffset": 184
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 60,
+          "start": 1501,
+          "end": 1910
+        },
+        {
+          "page": 61,
+          "start": 51,
+          "end": 445
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 749,
+          "end": 788,
+          "text": "8 U. S. C. §§ 1158(a)(1) and 1225(a)(1)",
+          "type": "statute",
+          "canonical": "8 U.S.C. §§ 1158(a)(1), 1225(a)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "8 U. S. C. §§ 1158(a)(1) and 1225(a)(1)",
+          "to": "sections eleven fifty-eight, a one, and twelve twenty-five, a one, of Title eight"
+        },
+        {
+          "from": "§§ 1158(a)(1) and 1225(a)(1)",
+          "to": "sections eleven fifty-eight, a one, and twelve twenty-five, a one"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 61,
+          "start": 445,
+          "end": 447
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 61,
+          "start": 447,
+          "end": 1289
+        }
+      ],
+      "citations": [
+        {
+          "start": 221,
+          "end": 238,
+          "text": "See App. 135–139.",
+          "type": "reference",
+          "canonical": "See App. 135–139."
+        },
+        {
+          "start": 444,
+          "end": 464,
+          "text": "See id., at 120–123.",
+          "type": "reference",
+          "canonical": "See id., at 120–123."
+        },
+        {
+          "start": 606,
+          "end": 634,
+          "text": "§§ 1158(a)(1) and 1225(a)(1)",
+          "type": "statute",
+          "canonical": "8 U.S.C. §§ 1158(a)(1), 1225(a)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§ 1158(a)(1) and 1225(a)(1)",
+          "to": "sections eleven fifty-eight, a one, and twelve twenty-five, a one"
+        },
+        {
+          "from": "arriv[e]",
+          "to": "arrive"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 61,
+          "start": 1289,
+          "end": 1994
+        },
+        {
+          "page": 62,
+          "start": 58,
+          "end": 261
+        }
+      ],
+      "citations": [
+        {
+          "start": 45,
+          "end": 73,
+          "text": "§§ 1158(a)(1) and 1225(a)(1)",
+          "type": "statute",
+          "canonical": "8 U.S.C. §§ 1158(a)(1), 1225(a)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 156,
+          "end": 195,
+          "text": "App. to Pet. for Cert. 406a–407a, 422a.",
+          "type": "reference",
+          "canonical": "App. to Pet. for Cert. 406a–407a, 422a."
+        },
+        {
+          "start": 306,
+          "end": 319,
+          "text": "App. 135–139.",
+          "type": "reference",
+          "canonical": "App. 135–139."
+        },
+        {
+          "start": 434,
+          "end": 462,
+          "text": "App. to Pet. for Cert. 253a.",
+          "type": "reference",
+          "canonical": "App. to Pet. for Cert. 253a."
+        },
+        {
+          "start": 617,
+          "end": 645,
+          "text": "§§ 1158(a)(1) and 1225(a)(1)",
+          "type": "statute",
+          "canonical": "8 U.S.C. §§ 1158(a)(1), 1225(a)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 647,
+          "end": 721,
+          "text": "Al Otro Lado, Inc. v. Mayorkas, 619 F. Supp. 3d 1029, 1049 (SD Cal. 2022).",
+          "type": "reference",
+          "canonical": "Al Otro Lado, Inc. v. Mayorkas, 619 F. Supp. 3d 1029, 1049 (SD Cal. 2022)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§ 1158(a)(1) and 1225(a)(1)",
+          "to": "sections eleven fifty-eight, a one, and twelve twenty-five, a one"
+        },
+        {
+          "from": "i. e.,",
+          "to": "that is,"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 62,
+          "start": 261,
+          "end": 264
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 62,
+          "start": 264,
+          "end": 1027
+        }
+      ],
+      "citations": [
+        {
+          "start": 276,
+          "end": 368,
+          "text": "Diamond Alternative Energy, LLC v. EPA, 606 U. S. 100, 133 (2025) (Jackson, J., dissenting).",
+          "type": "reference",
+          "canonical": "Diamond Alternative Energy, LLC v. EPA, 606 U. S. 100, 133 (2025) (Jackson, J., dissenting)."
+        },
+        {
+          "start": 644,
+          "end": 763,
+          "text": "Valley Forge Christian College v. Americans United for Separation of Church and State, Inc., 454 U. S. 464, 472 (1982).",
+          "type": "reference",
+          "canonical": "Valley Forge Christian College v. Americans United for Separation of Church and State, Inc., 454 U. S. 464, 472 (1982)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 62,
+          "start": 1027,
+          "end": 1818
+        }
+      ],
+      "citations": [
+        {
+          "start": 206,
+          "end": 283,
+          "text": "Alvarez v. Smith, 558 U. S. 87, 92 (2009) (internal quotation marks omitted).",
+          "type": "reference",
+          "canonical": "Alvarez v. Smith, 558 U. S. 87, 92 (2009) (internal quotation marks omitted)."
+        },
+        {
+          "start": 495,
+          "end": 574,
+          "text": "Chafin v. Chafin, 568 U. S. 165, 172 (2013) (internal quotation marks omitted).",
+          "type": "reference",
+          "canonical": "Chafin v. Chafin, 568 U. S. 165, 172 (2013) (internal quotation marks omitted)."
+        },
+        {
+          "start": 740,
+          "end": 793,
+          "text": "Hall v. Beals, 396 U. S. 45, 48 (1969) (per curiam ).",
+          "type": "reference",
+          "canonical": "Hall v. Beals, 396 U. S. 45, 48 (1969) (per curiam )."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 62,
+          "start": 1818,
+          "end": 2058
+        },
+        {
+          "page": 63,
+          "start": 51,
+          "end": 612
+        }
+      ],
+      "citations": [
+        {
+          "start": 254,
+          "end": 318,
+          "text": "North Carolina v. Rice, 404 U. S. 244, 246 (1971) (per curiam ).",
+          "type": "reference",
+          "canonical": "North Carolina v. Rice, 404 U. S. 244, 246 (1971) (per curiam )."
+        },
+        {
+          "start": 405,
+          "end": 446,
+          "text": "ibid. (internal quotation marks omitted),",
+          "type": "reference",
+          "canonical": "ibid. (internal quotation marks omitted),"
+        },
+        {
+          "start": 524,
+          "end": 552,
+          "text": "§§ 1158(a)(1) and 1225(a)(1)",
+          "type": "statute",
+          "canonical": "8 U.S.C. §§ 1158(a)(1), 1225(a)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 774,
+          "end": 800,
+          "text": "Alvarez, 558 U. S., at 93.",
+          "type": "reference",
+          "canonical": "Alvarez, 558 U. S., at 93."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§ 1158(a)(1) and 1225(a)(1)",
+          "to": "sections eleven fifty-eight, a one, and twelve twenty-five, a one"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        },
+        {
+          "from": "[us]",
+          "to": "us"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 63,
+          "start": 612,
+          "end": 1473
+        }
+      ],
+      "citations": [
+        {
+          "start": 311,
+          "end": 388,
+          "text": "Ante, at 268, n. 7 (quoting West Virginia v. EPA, 597 U. S. 697, 720 (2022)).",
+          "type": "reference",
+          "canonical": "Ante, at 268, n. 7 (quoting West Virginia v. EPA, 597 U. S. 697, 720 (2022))."
+        },
+        {
+          "start": 518,
+          "end": 663,
+          "text": "W. Baude, J. Goldsmith, J. Manning, J. Pfander, & A. Tyler, Hart and Wechsler's The Federal Courts and the Federal System 250–251 (8th ed. 2025).",
+          "type": "reference",
+          "canonical": "W. Baude, J. Goldsmith, J. Manning, J. Pfander, & A. Tyler, Hart and Wechsler's The Federal Courts and the Federal System 250–251 (8th ed. 2025)."
+        },
+        {
+          "start": 819,
+          "end": 860,
+          "text": "Brief for Petitioners 7 (emphasis added).",
+          "type": "reference",
+          "canonical": "Brief for Petitioners 7 (emphasis added)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 63,
+          "start": 1473,
+          "end": 2203
+        },
+        {
+          "page": 64,
+          "start": 89,
+          "end": 488
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 428,
+          "text": "Friends of the Earth, Inc. v. Laidlaw Environmental Services (TOC), Inc., 528 U. S. 167, 189 (2000) (quoting City of Mesquite v. Aladdin's Castle, Inc., 455 U. S. 283, 289, n. 10 (1982); alterations in original).",
+          "type": "reference",
+          "canonical": "Friends of the Earth, Inc. v. Laidlaw Environmental Services (TOC), Inc., 528 U. S. 167, 189 (2000) (quoting City of Mesquite v. Aladdin's Castle, Inc., 455 U. S. 283, 289, n. 10 (1982); alterations in original)."
+        },
+        {
+          "start": 616,
+          "end": 686,
+          "text": "See United States v. W. T. Grant Co., 345 U. S. 629, 632, n. 5 (1953).",
+          "type": "reference",
+          "canonical": "See United States v. W. T. Grant Co., 345 U. S. 629, 632, n. 5 (1953)."
+        },
+        {
+          "start": 832,
+          "end": 860,
+          "text": "See Brief for Petitioners 3.",
+          "type": "reference",
+          "canonical": "See Brief for Petitioners 3."
+        },
+        {
+          "start": 967,
+          "end": 995,
+          "text": "§§ 1158(a)(1) and 1225(a)(1)",
+          "type": "statute",
+          "canonical": "8 U.S.C. §§ 1158(a)(1), 1225(a)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§ 1158(a)(1) and 1225(a)(1)",
+          "to": "sections eleven fifty-eight, a one, and twelve twenty-five, a one"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "i.e.,",
+          "to": "that is,"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 64,
+          "start": 1661,
+          "end": 2204
+        }
+      ],
+      "citations": [
+        {
+          "start": 153,
+          "end": 176,
+          "text": "see ante, at 268, n. 7,",
+          "type": "reference",
+          "canonical": "see ante, at 268, n. 7,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 64,
+          "start": 490,
+          "end": 983
+        }
+      ],
+      "citations": [
+        {
+          "start": 150,
+          "end": 242,
+          "text": "See Supp. Brief for Appellants in Response to Court Order in No. 22–55988 etc., p. 42, n. 5.",
+          "type": "reference",
+          "canonical": "See Supp. Brief for Appellants in Response to Court Order in No. 22–55988 etc., p. 42, n. 5."
+        },
+        {
+          "start": 280,
+          "end": 304,
+          "text": "See Tr. of Oral Arg. 26.",
+          "type": "reference",
+          "canonical": "See Tr. of Oral Arg. 26."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 64,
+          "start": 983,
+          "end": 1483
+        }
+      ],
+      "citations": [
+        {
+          "start": 156,
+          "end": 233,
+          "text": "See Steel Co. v. Citizens for Better Environment, 523 U. S. 83, 94–95 (1998).",
+          "type": "reference",
+          "canonical": "See Steel Co. v. Citizens for Better Environment, 523 U. S. 83, 94–95 (1998)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 64,
+          "start": 1483,
+          "end": 1487
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 64,
+          "start": 1487,
+          "end": 1660
+        },
+        {
+          "page": 65,
+          "start": 82,
+          "end": 640
+        }
+      ],
+      "citations": [
+        {
+          "start": 192,
+          "end": 265,
+          "text": "Diamond Alternative Energy , 606 U. S., at 134 (Jackson, J., dissenting).",
+          "type": "reference",
+          "canonical": "Diamond Alternative Energy , 606 U. S., at 134 (Jackson, J., dissenting)."
+        },
+        {
+          "start": 397,
+          "end": 454,
+          "text": "West Virginia, 597 U. S., at 755 (Kagan, J., dissenting).",
+          "type": "reference",
+          "canonical": "West Virginia, 597 U. S., at 755 (Kagan, J., dissenting)."
+        },
+        {
+          "start": 701,
+          "end": 729,
+          "text": "§§ 1158(a)(1) and 1225(a)(1)",
+          "type": "statute",
+          "canonical": "8 U.S.C. §§ 1158(a)(1), 1225(a)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§ 1158(a)(1) and 1225(a)(1)",
+          "to": "sections eleven fifty-eight, a one, and twelve twenty-five, a one"
+        },
+        {
+          "from": "Article III",
+          "to": "Article three"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 65,
+          "start": 640,
+          "end": 1342
+        }
+      ],
+      "citations": [
+        {
+          "start": 407,
+          "end": 434,
+          "text": "See Tr. of Oral Arg. 70–72.",
+          "type": "reference",
+          "canonical": "See Tr. of Oral Arg. 70–72."
+        },
+        {
+          "start": 568,
+          "end": 596,
+          "text": "§§ 1158(a)(1) and 1225(a)(1)",
+          "type": "statute",
+          "canonical": "8 U.S.C. §§ 1158(a)(1), 1225(a)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§ 1158(a)(1) and 1225(a)(1)",
+          "to": "sections eleven fifty-eight, a one, and twelve twenty-five, a one"
+        },
+        {
+          "from": "arrive[d]",
+          "to": "arrived"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 65,
+          "start": 1342,
+          "end": 1797
+        }
+      ],
+      "citations": [
+        {
+          "start": 203,
+          "end": 220,
+          "text": "Ante, at 268–270.",
+          "type": "reference",
+          "canonical": "Ante, at 268–270."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 65,
+          "start": 1797,
+          "end": 2097
+        },
+        {
+          "page": 66,
+          "start": 58,
+          "end": 184
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 307,
+          "end": 339,
+          "text": "Valley Forge, 454 U. S., at 472.",
+          "type": "reference",
+          "canonical": "Valley Forge, 454 U. S., at 472."
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 60,
+      "start": 450,
+      "end": 457,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 60,
+      "start": 1142,
+      "end": 1145,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 61,
+      "start": 716,
+      "end": 720,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 61,
+      "start": 1622,
+      "end": 1632,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 64,
+      "start": 485,
+      "end": 487,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 65,
+      "start": 822,
+      "end": 830,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 65,
+      "start": 1037,
+      "end": 1043,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 65,
+      "start": 1851,
+      "end": 1859,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 60,
+      "start": 1622,
+      "end": 1625,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 60,
+      "start": 1906,
+      "end": 1909,
+      "expectedText": "es-",
+      "text": "es"
+    },
+    {
+      "page": 61,
+      "start": 266,
+      "end": 278,
+      "expectedText": "Sotomayor 's",
+      "text": "Sotomayor's"
+    },
+    {
+      "page": 62,
+      "start": 177,
+      "end": 189,
+      "expectedText": "clarifcation",
+      "text": "clarification"
+    },
+    {
+      "page": 62,
+      "start": 752,
+      "end": 759,
+      "expectedText": "rarifed",
+      "text": "rarified"
+    },
+    {
+      "page": 62,
+      "start": 1225,
+      "end": 1229,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 62,
+      "start": 1521,
+      "end": 1526,
+      "expectedText": "Chafn",
+      "text": "Chafin"
+    },
+    {
+      "page": 62,
+      "start": 1530,
+      "end": 1535,
+      "expectedText": "Chafn",
+      "text": "Chafin"
+    },
+    {
+      "page": 64,
+      "start": 1267,
+      "end": 1278,
+      "expectedText": "meritsstage",
+      "text": "merits-stage"
+    },
+    {
+      "page": 64,
+      "start": 1279,
+      "end": 1286,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 65,
+      "start": 2094,
+      "end": 2097,
+      "expectedText": "ac-",
+      "text": "ac"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 60,
+      "start": 1910,
+      "end": 1940,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 61,
+      "start": 0,
+      "end": 51,
+      "text": "318 MULLIN v. AL OTRO LADO\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 61,
+      "start": 1994,
+      "end": 2024,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 62,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 609 U. S. 258 (2026) 319\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 62,
+      "start": 2058,
+      "end": 2088,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 63,
+      "start": 0,
+      "end": 51,
+      "text": "320 MULLIN v. AL OTRO LADO\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 63,
+      "start": 2203,
+      "end": 2233,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 64,
+      "start": 0,
+      "end": 89,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 258 (2026) 321\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 64,
+      "start": 488,
+      "end": 490,
+      "text": "*\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 64,
+      "start": 1660,
+      "end": 1661,
+      "text": "*",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 65,
+      "start": 0,
+      "end": 82,
+      "text": "Page Proof Pending Publication\n322 MULLIN v. AL OTRO LADO\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 66,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 609 U. S. 258 (2026) 323\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

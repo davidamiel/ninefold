@@ -1,0 +1,572 @@
+{
+  "version": "4c868ef83d14fa9a",
+  "duration": 386.37,
+  "voice": "af_sky",
+  "audioSha256": "26864b20b3bbf4c9fa58b674f030475c42393c3c815b0960925e1d57575d3853",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 9.86,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 1493,
+          "end": 1695
+        }
+      ],
+      "text": "I join the Court's opinion in full because it correctly applies our decisions in New York State Rifle & Pistol Assn., Inc. v. Bruen and United States v. Rahimi."
+    },
+    {
+      "start": 9.86,
+      "end": 13.1,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 1696,
+          "end": 1757
+        }
+      ],
+      "text": "But I continue to believe that we veered off course in Bruen."
+    },
+    {
+      "start": 13.1,
+      "end": 26.25,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 1810,
+          "end": 1904
+        },
+        {
+          "page": 32,
+          "start": 58,
+          "end": 189
+        }
+      ],
+      "text": "I write separately to emphasize that means-end scrutiny—the approach courts applied before we adopted Bruen's “history and tradition” metric—offers a more rational way of assessing the constitutionality of firearm regulations."
+    },
+    {
+      "start": 26.25,
+      "end": 30.9,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 190,
+          "end": 252
+        }
+      ],
+      "text": "As I and others have elsewhere explained, Bruen is unworkable."
+    },
+    {
+      "start": 30.9,
+      "end": 43.76,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 253,
+          "end": 465
+        }
+      ],
+      "text": "It imposes on judges the unfamiliar and difficult tasks of sifting through centuries-old evidence in order to answer “contested historical questions,” and “applying those answers to resolve contemporary problems.”"
+    },
+    {
+      "start": 43.76,
+      "end": 59.305,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 510,
+          "end": 748
+        }
+      ],
+      "text": "Given those challenges, it is unsurprising that Bruen's test is vulnerable to inconsistent and arbitrary application, as judges draw different conclusions from the same historical evidence and reach divergent assessments of the same laws."
+    },
+    {
+      "start": 59.305,
+      "end": 70.82,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1512,
+          "end": 1689
+        }
+      ],
+      "text": "Footnote 1: Lower court cases addressing the constitutionality of the federal ban on firearm possession by felons provide a stark example of this inconsistency.",
+      "footnote": "1"
+    },
+    {
+      "start": 70.82,
+      "end": 100.36,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1690,
+          "end": 2315
+        }
+      ],
+      "text": "Compare, for example, United States v. Cockerham (holding that section nine twenty-two, g one is unconstitutional as applied to a defendant whose prior conviction was for failing to pay child support), and Range v. Attorney General United States (same, where the prior conviction was for making a false statement to obtain food stamps), with United States v. Duarte (categorically affirming the constitutionality of section nine twenty-two, g one as applied to nonviolent felons), and United States v. Jackson (similar).",
+      "footnote": "1"
+    },
+    {
+      "start": 100.36,
+      "end": 102.14,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 2314,
+          "end": 2315
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 102.14,
+      "end": 109.56,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 807,
+          "end": 933
+        }
+      ],
+      "text": "Perhaps worst of all, Bruen leaves no room to consider “the real and present stakes of the problems facing our society today.”"
+    },
+    {
+      "start": 109.56,
+      "end": 123.79,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 990,
+          "end": 1227
+        }
+      ],
+      "text": "Instead, to pass a new firearm regulation, legislatures and their lawyers are, as a practical matter, forced to trawl through inconclusive and incomplete historical records in search of evidence they can only hope will satisfy this Court."
+    },
+    {
+      "start": 123.79,
+      "end": 130.64,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1271,
+          "end": 1390
+        }
+      ],
+      "text": "The difficulties Bruen has created are all the more striking when compared to the test it abolished: means-end scrutiny."
+    },
+    {
+      "start": 130.64,
+      "end": 139.56,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1391,
+          "end": 1510
+        },
+        {
+          "page": 33,
+          "start": 52,
+          "end": 115
+        }
+      ],
+      "text": "Under that framework, courts measured the strength of the government's justification for the firearm restriction against the burden that restriction imposed on Second Amendment rights."
+    },
+    {
+      "start": 139.56,
+      "end": 147.64,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 167,
+          "end": 296
+        }
+      ],
+      "text": "Courts applied “strict scrutiny if the burden” on Second Amendment rights was “severe” and “intermediate scrutiny” if it was not."
+    },
+    {
+      "start": 147.64,
+      "end": 171.67,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 335,
+          "end": 963
+        }
+      ],
+      "text": "The means-end scrutiny assessment did not bind governments to the policy judgments of legislatures of yore, but neither did it operate as a blank check that allowed governments to trample on a constitutional right. (holding that a state ban on magazines loaded with more than seven rounds of ammunition violated the Second Amendment); (preliminarily enjoining, under the Second Amendment, a city ordinance banning firing ranges)."
+    },
+    {
+      "start": 171.67,
+      "end": 177.96,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 964,
+          "end": 1064
+        }
+      ],
+      "text": "Constitutional adjudication through means-ends scrutiny is squarely within the competence of courts."
+    },
+    {
+      "start": 177.96,
+      "end": 212.06,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1065,
+          "end": 1918
+        }
+      ],
+      "text": "Indeed, for other constitutional rights, courts regularly assess whether the government's justification for a law is legitimate and whether the law's operation is sufficiently tailored to promote that justification. (applying strict scrutiny, under the First Amendment, to a content-based restriction on speech); (holding that intermediate scrutiny, under the First Amendment, applied to a content-neutral law); (applying heightened scrutiny, under the Fifth Amendment, to a gender-based immigration law); (applying strict scrutiny, under the Fourteenth Amendment, to a racial classification)."
+    },
+    {
+      "start": 212.06,
+      "end": 220.73,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1919,
+          "end": 2066
+        }
+      ],
+      "text": "There is no reason why an approach that has worked well enough in these other contexts would pose a problem only for Second Amendment adjudication."
+    },
+    {
+      "start": 220.73,
+      "end": 232.105,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 58,
+          "end": 202
+        }
+      ],
+      "text": "Best of all, applying means-end scrutiny to firearm restrictions like the section nine twenty-two, g three, of Title eighteen prosecution before us would be straightforward."
+    },
+    {
+      "start": 232.105,
+      "end": 244.14,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1845,
+          "end": 2034
+        }
+      ],
+      "text": "Footnote 2: I opine only on the mechanics of the means-ends test; what result that test would produce here is not before us, since neither party asks us to overturn Bruen and apply means-ends scrutiny.",
+      "footnote": "2"
+    },
+    {
+      "start": 244.14,
+      "end": 246.005,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 2033,
+          "end": 2034
+        }
+      ],
+      "text": "End footnote 2.",
+      "transition": true,
+      "footnote": "2"
+    },
+    {
+      "start": 246.005,
+      "end": 252.6,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 205,
+          "end": 317
+        }
+      ],
+      "text": "We would be tasked with answering familiar questions: How severe is the law's burden on Second Amendment rights?"
+    },
+    {
+      "start": 252.6,
+      "end": 259.3,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 318,
+          "end": 440
+        }
+      ],
+      "text": "Does the government have a strong interest in preventing firearm possession by those “who pose a special danger of misuse”?"
+    },
+    {
+      "start": 259.3,
+      "end": 268.055,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 469,
+          "end": 584
+        }
+      ],
+      "text": "And is section nine twenty-two, g three's ban on firearm possession by unlawful users of marijuana sufficiently tailored to that interest?"
+    },
+    {
+      "start": 268.055,
+      "end": 275.46,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 585,
+          "end": 718
+        }
+      ],
+      "text": "Notably, even as the government and the Court endorse the Bruen framework, both seem to acknowledge the relevance of these questions."
+    },
+    {
+      "start": 275.46,
+      "end": 287.62,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 719,
+          "end": 883
+        }
+      ],
+      "text": "For example, the government emphasizes that the purpose (the “end”) of section nine twenty-two, g three is to restrict possession of firearms by people who pose a special risk of misuse."
+    },
+    {
+      "start": 287.62,
+      "end": 300.96,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 916,
+          "end": 1128
+        }
+      ],
+      "text": "And, it claims, section nine twenty-two, g three furthers that purpose by targeting people who, in Congress's judgment, pose an increased risk of firearm misuse because they “regularly and routinely use” illegal drugs (the “means”)."
+    },
+    {
+      "start": 300.96,
+      "end": 310.66,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1172,
+          "end": 1311
+        }
+      ],
+      "text": "This argument boils down to the idea that section nine twenty-two, g three is sufficiently tailored to Congress's legitimate purpose of preventing firearm misuse."
+    },
+    {
+      "start": 310.66,
+      "end": 314.02,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1312,
+          "end": 1364
+        }
+      ],
+      "text": "In response, this Court speaks in the same register."
+    },
+    {
+      "start": 314.02,
+      "end": 324.46,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1365,
+          "end": 1547
+        }
+      ],
+      "text": "It rejects the government's means-end calculus by suggesting that the government has not established that the actual purpose of section nine twenty-two, g three is to disarm “unusually dangerous” people."
+    },
+    {
+      "start": 324.46,
+      "end": 337.58,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1597,
+          "end": 1792
+        }
+      ],
+      "text": "Using the substances that trigger application of section nine twenty-two, g three even regularly does not, in the Court's view, necessarily make users dangerous, violent, or otherwise susceptible to misusing firearms."
+    },
+    {
+      "start": 337.58,
+      "end": 351.965,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1815,
+          "end": 1843
+        },
+        {
+          "page": 35,
+          "start": 62,
+          "end": 244
+        }
+      ],
+      "text": "In other words, the Court's discussion implies that section nine twenty-two, g three's operation is not sufficiently tailored to the government's stated purpose—precisely the issue to which means-end scrutiny would direct our focus."
+    },
+    {
+      "start": 351.965,
+      "end": 358.84,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 245,
+          "end": 366
+        }
+      ],
+      "text": "Adding to Bruen's weaknesses is the fact that its framework provides no clear role for this kind of tailoring discussion."
+    },
+    {
+      "start": 358.84,
+      "end": 361.18,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 367,
+          "end": 392
+        }
+      ],
+      "text": "But such analysis is key."
+    },
+    {
+      "start": 361.18,
+      "end": 371.0,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 393,
+          "end": 552
+        }
+      ],
+      "text": "Scrutinizing the fit between a challenged law's justification and its operation is an essential part of any sensible framework for Second Amendment adjudication."
+    },
+    {
+      "start": 371.0,
+      "end": 386.02,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 553,
+          "end": 797
+        }
+      ],
+      "text": "In a future case that squarely presents the question, we should consider whether to retire the failed Bruen experiment and return to an explicit assessment of Congress's ends and means when deciding the constitutionality of firearm restrictions."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 70,
+      "expectedWords": 75,
+      "coverage": 0.9333333333333333
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 75,
+      "expectedWords": 75,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 104,
+      "expectedWords": 108,
+      "coverage": 0.9629629629629629
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 58,
+      "expectedWords": 59,
+      "coverage": 0.9830508474576272
+    },
+    {
+      "paragraph": 4,
+      "matchedWords": 127,
+      "expectedWords": 132,
+      "coverage": 0.9621212121212122
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 119,
+      "expectedWords": 121,
+      "coverage": 0.9834710743801653
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 27,
+      "expectedWords": 27,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 39,
+      "expectedWords": 40,
+      "coverage": 0.975
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 59,
+      "expectedWords": 62,
+      "coverage": 0.9516129032258065
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 115,
+      "expectedWords": 116,
+      "coverage": 0.9913793103448276
+    },
+    {
+      "paragraph": 10,
+      "matchedWords": 112,
+      "expectedWords": 114,
+      "coverage": 0.9824561403508771
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 88,
+      "expectedWords": 88,
+      "coverage": 1.0
+    }
+  ]
+}

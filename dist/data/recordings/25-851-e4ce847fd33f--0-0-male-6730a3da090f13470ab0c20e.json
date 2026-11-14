@@ -1,0 +1,120 @@
+{
+  "version": "0e7d73cb08fb8ec0",
+  "duration": 59.455,
+  "voice": "am_michael",
+  "audioSha256": "1c1158f3cd29daef8d0fa747a9d6a8abca8436b88eb0a4d3426e4a56e1096dc3",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 6.48,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 635,
+          "end": 739
+        }
+      ],
+      "text": "Petitioner challenges the admission of a FaceTime recording that shows her offering to pay for murder."
+    },
+    {
+      "start": 6.48,
+      "end": 17.22,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 741,
+          "end": 899
+        }
+      ],
+      "text": "The Sixth Circuit held that Section twenty-five fifteen of Title eighteen did not require suppression of the recording because that provision has a freestanding clean-hands exception."
+    },
+    {
+      "start": 17.22,
+      "end": 23.14,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 900,
+          "end": 998
+        }
+      ],
+      "text": "The United States now concedes that the Sixth Circuit erred in applying a clean-hands exception."
+    },
+    {
+      "start": 23.14,
+      "end": 27.48,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1000,
+          "end": 1065
+        }
+      ],
+      "text": "Nonetheless, the Government argues that any error was harmless."
+    },
+    {
+      "start": 27.48,
+      "end": 29.26,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1067,
+          "end": 1075
+        }
+      ],
+      "text": "I agree."
+    },
+    {
+      "start": 29.26,
+      "end": 36.16,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1076,
+          "end": 1188
+        }
+      ],
+      "text": "Even setting aside the FaceTime recording, a mountain of properly admitted evidence proved petitioner’s guilt."
+    },
+    {
+      "start": 36.16,
+      "end": 51.62,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1189,
+          "end": 1455
+        }
+      ],
+      "text": "Most prominently, the evidence included a recording of a separate call petitioner made to the Federal Bureau of Investigation, in which she described the contents of the challenged FaceTime call in detail and acknowledged that she had offered to pay for murder."
+    },
+    {
+      "start": 51.62,
+      "end": 59.105,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1457,
+          "end": 1572
+        }
+      ],
+      "text": "Because the FaceTime recording was cumulative of other overwhelming evidence of guilt, I would deny the petition."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 143,
+      "expectedWords": 146,
+      "coverage": 0.9794520547945206
+    }
+  ]
+}

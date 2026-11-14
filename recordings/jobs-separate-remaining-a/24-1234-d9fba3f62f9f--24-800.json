@@ -1,0 +1,1644 @@
+{
+  "reviewed": true,
+  "documentId": "24-1234-d9fba3f62f9f--24-800",
+  "sourceDocumentId": "24-1234-d9fba3f62f9f",
+  "sourceTextPath": "dist/data/docs/24-1234-d9fba3f62f9f.json",
+  "sourceTextSha256": "bcd7eebde87fd9006c64e5473acfe66d67ad09c36e20d60b99b7cd3102413880",
+  "sourcePdfPath": "dist/data/pdfs/24-1234-d9fba3f62f9f--24-800.pdf",
+  "sourcePdfSha256": "d397234928b5d39af3808146b838defe912d8d7c6a870bb21060ad1264c95203",
+  "title": "Concurrence",
+  "author": "Clarence Thomas",
+  "date": "2026-06-18",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r51_k4lo.pdf",
+  "sourceRange": {
+    "startPage": 24,
+    "startOffset": 828,
+    "endPage": 31,
+    "endOffset": 1429
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 828,
+          "end": 1987
+        },
+        {
+          "page": 25,
+          "start": 51,
+          "end": 266
+        }
+      ],
+      "citations": [
+        {
+          "start": 28,
+          "end": 39,
+          "text": "\u00a7 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 260,
+          "end": 271,
+          "text": "\u00a7 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 477,
+          "end": 501,
+          "text": "18 U. S. C. \u00a7 922(g)(3).",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922"
+        },
+        {
+          "start": 541,
+          "end": 552,
+          "text": "\u00a7 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 719,
+          "end": 786,
+          "text": "United States v. Rawls, 85 F. 3d 240, 242 (CA5 1996) (per curiam ).",
+          "type": "case",
+          "canonical": "85 F.3d 240"
+        },
+        {
+          "start": 939,
+          "end": 1045,
+          "text": "Alderman v. United States, 562 U. S. 1163, 1167 (2011) (Thomas, J., dissenting from denial of certiorari).",
+          "type": "case",
+          "canonical": "562 U.S. 1163"
+        },
+        {
+          "start": 1196,
+          "end": 1246,
+          "text": "United States v. Lopez, 514 U. S. 549, 567 (1995).",
+          "type": "case",
+          "canonical": "514 U.S. 549"
+        },
+        {
+          "start": 1368,
+          "end": 1376,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)(3)",
+          "to": "Section 922, g, 3"
+        },
+        {
+          "from": "\u00a7 922(g)(3)",
+          "to": "Section 922, g, 3"
+        },
+        {
+          "from": "\u00a7 922(g)(3)",
+          "to": "Section 922, g, 3"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 25,
+          "start": 266,
+          "end": 269
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 269,
+          "end": 1743
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 14,
+          "text": "Section 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 197,
+          "end": 206,
+          "text": "\u00a7 922(g).",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922"
+        },
+        {
+          "start": 210,
+          "end": 238,
+          "text": "Scarborough v. United States",
+          "type": "case",
+          "canonical": "431 U.S. 563",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 238,
+          "end": 260,
+          "text": ", 431 U. S. 563 (1977)",
+          "type": "case",
+          "canonical": "431 U.S. 563"
+        },
+        {
+          "start": 440,
+          "end": 457,
+          "text": "Id., at 564, 578.",
+          "type": "case",
+          "canonical": "431 U.S. 563"
+        },
+        {
+          "start": 497,
+          "end": 505,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 618,
+          "end": 686,
+          "text": "Rawls, 85 F. 3d, at 242\u2013243 (citing Scarborough, 431 U. S., at 575).",
+          "type": "case",
+          "canonical": "85 F.3d 240"
+        },
+        {
+          "start": 941,
+          "end": 991,
+          "text": "See No. 4:23\u2013cr\u201300018 (ED Tex.), ECF Doc. 1, p. 1;",
+          "type": "record",
+          "canonical": "No. 4:23-cr-00018, ECF Doc. 1, p. 1"
+        },
+        {
+          "start": 992,
+          "end": 1009,
+          "text": "ante, at 778\u2013779.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 778-779"
+        },
+        {
+          "start": 1211,
+          "end": 1282,
+          "text": "See, e. g., United States v. Ervin, 131 F. 4th 253, 256, 260 (CA4 2025)",
+          "type": "case",
+          "canonical": "131 F.4th 253"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "Section 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1743,
+          "end": 1747
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1747,
+          "end": 1861
+        },
+        {
+          "page": 26,
+          "start": 57,
+          "end": 339
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 14,
+          "text": "Section 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 156,
+          "end": 189,
+          "text": "U. S. Const., Art. I, \u00a7 8, cl. 3.",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article I, Section 8"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Section 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 26,
+          "start": 339,
+          "end": 342
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 342,
+          "end": 969
+        }
+      ],
+      "citations": [
+        {
+          "start": 158,
+          "end": 225,
+          "text": "Gonzales v. Raich, 545 U. S. 1, 58 (2005) (Thomas, J., dissenting).",
+          "type": "case",
+          "canonical": "545 U.S. 1"
+        },
+        {
+          "start": 334,
+          "end": 384,
+          "text": "Lopez, 514 U. S., at 599 (Thomas, J., concurring).",
+          "type": "case",
+          "canonical": "514 U.S. 549"
+        },
+        {
+          "start": 615,
+          "end": 627,
+          "text": "Id., at 585.",
+          "type": "case",
+          "canonical": "514 U.S. 549"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 969,
+          "end": 1191
+        }
+      ],
+      "citations": [
+        {
+          "start": 8,
+          "end": 16,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1191,
+          "end": 1194
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1194,
+          "end": 1736
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 14,
+          "text": "Section 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 105,
+          "end": 158,
+          "text": "Alderman, 562 U. S., at 1166 (opinion of Thomas, J.).",
+          "type": "case",
+          "canonical": "562 U.S. 1163"
+        },
+        {
+          "start": 180,
+          "end": 188,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 512,
+          "end": 541,
+          "text": "Lopez, 514 U. S., at 558\u2013559.",
+          "type": "case",
+          "canonical": "514 U.S. 549"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Section 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1736,
+          "end": 1859
+        },
+        {
+          "page": 27,
+          "start": 51,
+          "end": 463
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 14,
+          "text": "Section 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Section 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 463,
+          "end": 1887
+        }
+      ],
+      "citations": [
+        {
+          "start": 18,
+          "end": 26,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 154,
+          "end": 166,
+          "text": "Id., at 559.",
+          "type": "case",
+          "canonical": "514 U.S. 549"
+        },
+        {
+          "start": 394,
+          "end": 447,
+          "text": "United States v. Morrison, 529 U. S. 598, 613 (2000).",
+          "type": "case",
+          "canonical": "529 U.S. 598"
+        },
+        {
+          "start": 571,
+          "end": 585,
+          "text": "Section 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 700,
+          "end": 727,
+          "text": "Brief for United States 10.",
+          "type": "record",
+          "canonical": "United States brief, p. 10"
+        },
+        {
+          "start": 921,
+          "end": 949,
+          "text": "Morrison, 529 U. S., at 617.",
+          "type": "case",
+          "canonical": "529 U.S. 598"
+        },
+        {
+          "start": 1175,
+          "end": 1193,
+          "text": "514 U. S., at 567.",
+          "type": "case",
+          "canonical": "514 U.S. 549"
+        },
+        {
+          "start": 1245,
+          "end": 1253,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1363,
+          "end": 1425,
+          "text": "Gun Control Act of 1968, Pub. L. 90\u2013618, \u00a7 101, 82 Stat. 1213.",
+          "type": "statute",
+          "canonical": "Pub. L. 90-618, \u00a7 101"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "Section 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1890,
+          "end": 2257
+        },
+        {
+          "page": 28,
+          "start": 1488,
+          "end": 2282
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 0,
+          "end": 17,
+          "text": "Gonzales v. Raich",
+          "type": "case",
+          "canonical": "545 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 17,
+          "end": 38,
+          "text": ", 545 U. S. 1 (2005),",
+          "type": "case",
+          "canonical": "545 U.S. 1"
+        },
+        {
+          "start": 51,
+          "end": 59,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 197,
+          "end": 243,
+          "text": "Id., at 24 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "545 U.S. 1"
+        },
+        {
+          "start": 244,
+          "end": 258,
+          "text": "Section 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 454,
+          "end": 465,
+          "text": "Id., at 18.",
+          "type": "case",
+          "canonical": "545 U.S. 1"
+        },
+        {
+          "start": 667,
+          "end": 692,
+          "text": "Brief for United States 5",
+          "type": "record",
+          "canonical": "United States brief, p. 5"
+        },
+        {
+          "start": 720,
+          "end": 728,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 731,
+          "end": 745,
+          "text": "Section 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 863,
+          "end": 920,
+          "text": "See Gun Control Act, Pub. L. 90\u2013618, \u00a7 101, 82 Stat. 1213",
+          "type": "statute",
+          "canonical": "Pub. L. 90-618, \u00a7 101"
+        },
+        {
+          "start": 1070,
+          "end": 1105,
+          "text": "accord, Brief for United States 32;",
+          "type": "record",
+          "canonical": "United States brief, p. 32"
+        },
+        {
+          "start": 1106,
+          "end": 1162,
+          "text": "Brief for Firearms Policy Coalition as Amicus Curiae 12.",
+          "type": "record",
+          "canonical": "Firearms Policy Coalition amicus brief, p. 12"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "Section 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "Section 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "par[t]",
+          "to": "part"
+        },
+        {
+          "from": "violence\u201d);",
+          "to": "violence\u201d)."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 57,
+          "end": 1044
+        }
+      ],
+      "citations": [
+        {
+          "start": 101,
+          "end": 109,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 168,
+          "end": 268,
+          "text": "See, e. g., United States v. Chesney, 86 F. 3d 564, 574\u2013575 (CA6 1996) (Batchelder, J., concurring);",
+          "type": "case",
+          "canonical": "86 F.3d 564"
+        },
+        {
+          "start": 269,
+          "end": 355,
+          "text": "United States v. Kuban, 94 F. 3d 971, 977 (CA5 1996) (DeMoss, J., dissenting in part);",
+          "type": "case",
+          "canonical": "94 F.3d 971"
+        },
+        {
+          "start": 356,
+          "end": 437,
+          "text": "United States v. Storey, 571 F. Supp. 3d 1296, 1298 (MD Fla. 2021) (Mizelle, J.);",
+          "type": "case",
+          "canonical": "571 F. Supp. 3d 1296"
+        },
+        {
+          "start": 438,
+          "end": 548,
+          "text": "United States v. Seekins, 52 F. 4th 988, 991 (CA5 2022) (Ho, J., dissenting from denial of rehearing en banc);",
+          "type": "case",
+          "canonical": "52 F.4th 988"
+        },
+        {
+          "start": 549,
+          "end": 631,
+          "text": "United States v. Bonner, 159 F. 4th 338, 343 (CA5 2025) (Willett, J., concurring);",
+          "type": "case",
+          "canonical": "159 F.4th 338"
+        },
+        {
+          "start": 632,
+          "end": 712,
+          "text": "see also United States v. Patton, 451 F. 3d 615, 634 (CA10 2006) (McConnell, J.)",
+          "type": "case",
+          "canonical": "451 F.3d 615"
+        },
+        {
+          "start": 776,
+          "end": 855,
+          "text": "United States v. Alderman, 565 F. 3d 641, 648 (CA9 2009) (Paez, J., dissenting)",
+          "type": "case",
+          "canonical": "565 F.3d 641"
+        },
+        {
+          "start": 864,
+          "end": 979,
+          "text": "United States v. Alderman, 593 F. 3d 1141 (CA9 2010) (O'Scannlain, J., dissenting from denial of rehearing en banc)",
+          "type": "case",
+          "canonical": "593 F.3d 1141"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1044,
+          "end": 1047
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1047,
+          "end": 1488
+        }
+      ],
+      "citations": [
+        {
+          "start": 13,
+          "end": 21,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 198,
+          "end": 206,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 308,
+          "end": 316,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 413,
+          "end": 421,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 51,
+          "end": 1091
+        }
+      ],
+      "citations": [
+        {
+          "start": 27,
+          "end": 35,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 256,
+          "end": 264,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 403,
+          "end": 411,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 430,
+          "end": 491,
+          "text": "See, e. g., Rawls, 85 F. 3d, at 243 (Garwood, J., concurring)",
+          "type": "case",
+          "canonical": "85 F.3d 240"
+        },
+        {
+          "start": 582,
+          "end": 590,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 771,
+          "end": 826,
+          "text": "United States v. Gateward, 84 F. 3d 670, 671 (CA3 1996)",
+          "type": "case",
+          "canonical": "84 F.3d 670"
+        },
+        {
+          "start": 906,
+          "end": 931,
+          "text": "Patton, 451 F. 3d, at 636",
+          "type": "case",
+          "canonical": "451 F.3d 615"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "bind[s]",
+          "to": "binds"
+        },
+        {
+          "from": "[W]e",
+          "to": "We"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 1091,
+          "end": 2170
+        },
+        {
+          "page": 30,
+          "start": 57,
+          "end": 133
+        }
+      ],
+      "citations": [
+        {
+          "start": 64,
+          "end": 72,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 135,
+          "end": 192,
+          "text": "See Alderman, 562 U. S., at 1168 (opinion of Thomas, J.).",
+          "type": "case",
+          "canonical": "562 U.S. 1163"
+        },
+        {
+          "start": 252,
+          "end": 299,
+          "text": "Seekins, 52 F. 4th, at 991 (opinion of Ho, J.);",
+          "type": "case",
+          "canonical": "52 F.4th 988"
+        },
+        {
+          "start": 300,
+          "end": 361,
+          "text": "accord, Bonner, 159 F. 4th, at 342 (Willett, J., concurring);",
+          "type": "case",
+          "canonical": "159 F.4th 338"
+        },
+        {
+          "start": 362,
+          "end": 421,
+          "text": "Brief for Firearms Policy Coalition as Amicus Curiae 13\u201314.",
+          "type": "record",
+          "canonical": "Firearms Policy Coalition amicus brief, pp. 13-14"
+        },
+        {
+          "start": 653,
+          "end": 711,
+          "text": "431 U. S., at 564, 577 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "431 U.S. 563"
+        },
+        {
+          "start": 812,
+          "end": 824,
+          "text": "Id., at 575.",
+          "type": "case",
+          "canonical": "431 U.S. 563"
+        },
+        {
+          "start": 934,
+          "end": 942,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 964,
+          "end": 1040,
+          "text": "See United States v. L. A. Tucker Truck Lines, Inc., 344 U. S. 33, 38 (1952)",
+          "type": "case",
+          "canonical": "344 U.S. 33"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 133,
+          "end": 1210
+        }
+      ],
+      "citations": [
+        {
+          "start": 25,
+          "end": 33,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 169,
+          "end": 239,
+          "text": "E. g., United States v. McAllister, 77 F. 3d 387, 389\u2013390 (CA11 1996);",
+          "type": "case",
+          "canonical": "77 F.3d 387"
+        },
+        {
+          "start": 240,
+          "end": 300,
+          "text": "United States v. Dorris, 236 F. 3d 582, 585\u2013586 (CA10 2000);",
+          "type": "case",
+          "canonical": "236 F.3d 582"
+        },
+        {
+          "start": 301,
+          "end": 356,
+          "text": "United States v. Lemons, 302 F. 3d 769, 772 (CA7 2002);",
+          "type": "case",
+          "canonical": "302 F.3d 769"
+        },
+        {
+          "start": 357,
+          "end": 411,
+          "text": "United States v. Smith, 101 F. 3d 202, 215 (CA1 1996);",
+          "type": "case",
+          "canonical": "101 F.3d 202"
+        },
+        {
+          "start": 412,
+          "end": 473,
+          "text": "United States v. Hanna, 55 F. 3d 1456, 1462, n. 2 (CA9 1995);",
+          "type": "case",
+          "canonical": "55 F.3d 1456"
+        },
+        {
+          "start": 474,
+          "end": 533,
+          "text": "United States v. Singletary, 268 F. 3d 196, 204 (CA3 2001).",
+          "type": "case",
+          "canonical": "268 F.3d 196"
+        },
+        {
+          "start": 553,
+          "end": 561,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 738,
+          "end": 790,
+          "text": "United States v. Bell, 70 F. 3d 495, 498 (CA7 1995);",
+          "type": "case",
+          "canonical": "70 F.3d 495"
+        },
+        {
+          "start": 791,
+          "end": 834,
+          "text": "accord, e. g., Rawls, 85 F. 3d, at 242\u2013243;",
+          "type": "case",
+          "canonical": "85 F.3d 240"
+        },
+        {
+          "start": 835,
+          "end": 890,
+          "text": "United States v. Bolton, 68 F. 3d 396, 400 (CA10 1995).",
+          "type": "case",
+          "canonical": "68 F.3d 396"
+        },
+        {
+          "start": 942,
+          "end": 950,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1048,
+          "end": 1078,
+          "text": "Singletary, 268 F. 3d, at 204.",
+          "type": "case",
+          "canonical": "268 F.3d 196"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1210,
+          "end": 1822
+        }
+      ],
+      "citations": [
+        {
+          "start": 160,
+          "end": 213,
+          "text": "Alderman, 562 U. S., at 1167 (opinion of Thomas, J.).",
+          "type": "case",
+          "canonical": "562 U.S. 1163"
+        },
+        {
+          "start": 443,
+          "end": 448,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "562 U.S. 1163"
+        },
+        {
+          "start": 583,
+          "end": 615,
+          "text": "Morrison, 529 U. S., at 608\u2013609.",
+          "type": "case",
+          "canonical": "529 U.S. 598"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1822,
+          "end": 2112
+        },
+        {
+          "page": 31,
+          "start": 52,
+          "end": 608
+        }
+      ],
+      "citations": [
+        {
+          "start": 237,
+          "end": 255,
+          "text": "514 U. S., at 561.",
+          "type": "case",
+          "canonical": "514 U.S. 549"
+        },
+        {
+          "start": 275,
+          "end": 283,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 667,
+          "end": 685,
+          "text": "529 U. S., at 613.",
+          "type": "case",
+          "canonical": "529 U.S. 598"
+        },
+        {
+          "start": 705,
+          "end": 713,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 31,
+          "start": 608,
+          "end": 613
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 613,
+          "end": 1429
+        }
+      ],
+      "citations": [
+        {
+          "start": 170,
+          "end": 215,
+          "text": "Marbury v. Madison, 1 Cranch 137, 176 (1803).",
+          "type": "case",
+          "canonical": "5 U.S. 137"
+        },
+        {
+          "start": 418,
+          "end": 426,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 769,
+          "end": 816,
+          "text": "Chesney, 86 F. 3d, at 580 (concurring opinion).",
+          "type": "case",
+          "canonical": "86 F.3d 564"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 24,
+      "start": 1987,
+      "end": 2017,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 51,
+      "text": "796 UNITED STATES v. HEMANI\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 25,
+      "start": 1861,
+      "end": 1891,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 772 (2026) 797\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 26,
+      "start": 1859,
+      "end": 1889,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 51,
+      "text": "798 UNITED STATES v. HEMANI\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 27,
+      "start": 1887,
+      "end": 1890,
+      "text": "*\n*",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 27,
+      "start": 2257,
+      "end": 2287,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 772 (2026) 799\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 28,
+      "start": 2282,
+      "end": 2312,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 29,
+      "start": 0,
+      "end": 51,
+      "text": "800 UNITED STATES v. HEMANI\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 29,
+      "start": 2170,
+      "end": 2200,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 772 (2026) 801\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 30,
+      "start": 2112,
+      "end": 2142,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 31,
+      "start": 0,
+      "end": 52,
+      "text": "802 UNITED STATES v. HEMANI\nJackson, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 24,
+      "start": 1255,
+      "end": 1261,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 24,
+      "start": 1433,
+      "end": 1439,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 24,
+      "start": 1459,
+      "end": 1465,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 25,
+      "start": 442,
+      "end": 448,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 25,
+      "start": 655,
+      "end": 661,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 25,
+      "start": 1028,
+      "end": 1034,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 25,
+      "start": 1379,
+      "end": 1385,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 25,
+      "start": 1628,
+      "end": 1634,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 26,
+      "start": 254,
+      "end": 261,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 26,
+      "start": 1013,
+      "end": 1020,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 26,
+      "start": 468,
+      "end": 477,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 26,
+      "start": 1794,
+      "end": 1798,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 27,
+      "start": 140,
+      "end": 146,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 27,
+      "start": 655,
+      "end": 661,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 28,
+      "start": 2136,
+      "end": 2144,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 28,
+      "start": 2154,
+      "end": 2158,
+      "expectedText": "fght",
+      "text": "fight"
+    },
+    {
+      "page": 29,
+      "start": 759,
+      "end": 765,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 29,
+      "start": 1646,
+      "end": 1652,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 29,
+      "start": 449,
+      "end": 452,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 29,
+      "start": 1215,
+      "end": 1223,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 30,
+      "start": 713,
+      "end": 719,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 30,
+      "start": 1998,
+      "end": 2004,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 30,
+      "start": 825,
+      "end": 834,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 30,
+      "start": 1215,
+      "end": 1227,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 30,
+      "start": 1245,
+      "end": 1252,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 30,
+      "start": 1770,
+      "end": 1776,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 31,
+      "start": 73,
+      "end": 79,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 31,
+      "start": 144,
+      "end": 150,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 31,
+      "start": 224,
+      "end": 230,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 31,
+      "start": 674,
+      "end": 680,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 30,
+      "start": 1754,
+      "end": 1769,
+      "expectedText": "power ft within",
+      "text": "power fit within"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

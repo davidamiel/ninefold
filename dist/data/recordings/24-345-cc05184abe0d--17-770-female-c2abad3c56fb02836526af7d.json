@@ -1,0 +1,81 @@
+{
+  "version": "2697078502e91091",
+  "duration": 45.43,
+  "voice": "af_sky",
+  "audioSha256": "89407100abd94e6d161a9830128ea0ed8f2f531d41be2484fa886c1aef761fc8",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 8.66,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 797,
+          "end": 947
+        }
+      ],
+      "text": "My views about the proper use of legislative history in statutory interpretation fall someplace in between the majority's and the principal dissent's."
+    },
+    {
+      "start": 8.66,
+      "end": 19.04,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 948,
+          "end": 1111
+        }
+      ],
+      "text": "The one-sentence version is: Reliance on legislative history may be appropriate when statutory text in context remains, after careful review, stubbornly ambiguous."
+    },
+    {
+      "start": 19.04,
+      "end": 23.78,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1112,
+          "end": 1173
+        }
+      ],
+      "text": "I do not find Section 47, b to exhibit such a lack of clarity."
+    },
+    {
+      "start": 23.78,
+      "end": 36.56,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1174,
+          "end": 1366
+        }
+      ],
+      "text": "For the reasons Justice Jackson gives in Parts 1 and 2 of her dissenting opinion, the text, structure, and statutory history of Section 47, b support recognition of a private right of action."
+    },
+    {
+      "start": 36.56,
+      "end": 45.08,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1367,
+          "end": 1534
+        }
+      ],
+      "text": "I therefore gladly join those parts of Justice Jackson's dissent, while abstaining from the opinions' further debate about the meaning of the House and Senate Reports."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 118,
+      "expectedWords": 123,
+      "coverage": 0.959349593495935
+    }
+  ]
+}

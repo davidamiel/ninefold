@@ -1,0 +1,113 @@
+{
+  "version": "73784523ced7b504",
+  "duration": 68.205,
+  "voice": "af_sky",
+  "audioSha256": "0ba2789d43bc3cc41a60ac32e2afaea444df4b0fea003978306b4ca8241e8a81",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 9.04,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 433,
+          "end": 583
+        }
+      ],
+      "text": "As all agree, petitioner Michael Lairy’s prison sentence for unlawful handgun possession was five years longer than the applicable statutory maximum."
+    },
+    {
+      "start": 9.04,
+      "end": 23.3,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 584,
+          "end": 773
+        }
+      ],
+      "text": "When Lairy filed a motion under Section twenty-two fifty-five of Title twenty-eight seeking relief from that sentence, however, the Government argued, and the courts below held, that Lairy’s Section twenty-two fifty-five motion was untimely."
+    },
+    {
+      "start": 23.3,
+      "end": 31.6,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 775,
+          "end": 914
+        }
+      ],
+      "text": "As the Government now informs this Court, its decision to invoke that statute-of-limitations defense below was an “inadvertent” error."
+    },
+    {
+      "start": 31.6,
+      "end": 44.1,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 939,
+          "end": 1164
+        }
+      ],
+      "text": "The Government represents that it has a policy of waiving such defenses in cases involving “undisputed legal ineligibility for an enhanced noncapital sentence—that is, a sentence above the applicable statutory maximum.”"
+    },
+    {
+      "start": 44.1,
+      "end": 49.8,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1179,
+          "end": 1279
+        }
+      ],
+      "text": "Thus, it promised to “correct its oversight by waiving the limitations defense in district court.”"
+    },
+    {
+      "start": 49.8,
+      "end": 56.7,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1293,
+          "end": 1380
+        }
+      ],
+      "text": "Shortly thereafter, the District Court granted Lairy’s Section twenty-two fifty-five motion and released him."
+    },
+    {
+      "start": 56.7,
+      "end": 67.855,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1381,
+          "end": 1545
+        }
+      ],
+      "text": "In light of the Government’s policy, and the fact that Lairy has now received all the relief he requested in his Section twenty-two fifty-five motion, I concur in the denial of certiorari."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 58,
+      "expectedWords": 62,
+      "coverage": 0.9354838709677419
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 110,
+      "expectedWords": 120,
+      "coverage": 0.9166666666666666
+    }
+  ]
+}

@@ -1,0 +1,2006 @@
+{
+  "version": "9b9496c44433fb86",
+  "duration": 1314.61,
+  "voice": "af_sky",
+  "audioSha256": "f70ac0c1c87f8d5584a7a36abc613917bb1260362b9855c194b4e72082c62bef",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 12.1,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 107,
+          "end": 320
+        }
+      ],
+      "text": "Federal law allows pharmaceutical manufacturers to market generic versions of brand-name drugs, so long as they obtain approval from the Food and Drug Administration (F D A) and do not infringe on any patented uses."
+    },
+    {
+      "start": 12.1,
+      "end": 25.56,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 321,
+          "end": 642
+        }
+      ],
+      "text": "Because a generic drug is, by definition, “biologically equivalent to... the brand-name drug,” many medical providers use brand-name and generic drugs interchangeably, regardless of whether the intended use is covered by a patent."
+    },
+    {
+      "start": 25.56,
+      "end": 41.6,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 643,
+          "end": 880
+        }
+      ],
+      "text": "Such substitution is allowed (and sometimes required) by state laws across the Nation, but generic manufacturers may be subject to liability under federal law if they “actively induce infringement of the brand manufacturer's patent.”"
+    },
+    {
+      "start": 41.6,
+      "end": 53.28,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 903,
+          "end": 1001
+        },
+        {
+          "page": 5,
+          "start": 79,
+          "end": 191
+        }
+      ],
+      "text": "Respondent Amarin Pharma, Inc., the manufacturer of brand-name icosapent ethyl, brought an induced-infringement claim against petitioner Hikma Pharmaceuticals U S A Inc., a manufacturer of generic icosapent ethyl."
+    },
+    {
+      "start": 53.28,
+      "end": 67.98,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 192,
+          "end": 442
+        }
+      ],
+      "text": "Amarin relied on a combination of Hikma's statements across its skinny label (an abbreviated label used for generic drugs), its website, and its press releases to allege that Hikma took “active steps” to induce infringement of Amarin's patented uses."
+    },
+    {
+      "start": 67.98,
+      "end": 83.66,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 443,
+          "end": 709
+        }
+      ],
+      "text": "After the District Court dismissed the complaint for failure to state a claim, the Court of Appeals for the Federal Circuit reversed, finding it “at least plausible that a physician could read” the relevant statements “as an instruction or encouragement to” infringe."
+    },
+    {
+      "start": 83.66,
+      "end": 85.02,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 740,
+          "end": 755
+        }
+      ],
+      "text": "That was error."
+    },
+    {
+      "start": 85.02,
+      "end": 97.04,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 756,
+          "end": 960
+        }
+      ],
+      "text": "The central question is whether Amarin plausibly alleged that Hikma actively encouraged infringing uses, not merely whether doctors could plausibly read the alleged statements as instructions to infringe."
+    },
+    {
+      "start": 97.04,
+      "end": 103.16,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 961,
+          "end": 1062
+        }
+      ],
+      "text": "We therefore reverse the judgment of the Federal Circuit and remand the case for further proceedings."
+    },
+    {
+      "start": 103.16,
+      "end": 108.06,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1067,
+          "end": 1135
+        }
+      ],
+      "text": "The F D A must approve new and generic drugs before they go to market."
+    },
+    {
+      "start": 108.06,
+      "end": 134.49,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1171,
+          "end": 1640
+        }
+      ],
+      "text": "For approval to market a new drug, the manufacturer must submit a new drug application (N D A) with at least three types of supporting documents: (1) reports setting forth sufficient information to establish the drug's safety and efficacy for its intended uses; (2) “the labeling proposed to be used for such drug”; and (3) the relevant drug patents, whether they protect the drug itself or the manufacturer's exclusive rights over a particular “method of using such drug.”"
+    },
+    {
+      "start": 134.49,
+      "end": 142.24,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1722,
+          "end": 1851
+        }
+      ],
+      "text": "Once the F D A has approved a new drug, federal law authorizes other manufacturers to seek approval for marketing generic versions."
+    },
+    {
+      "start": 142.24,
+      "end": 151.76,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1852,
+          "end": 2002
+        },
+        {
+          "page": 6,
+          "start": 55,
+          "end": 60
+        }
+      ],
+      "text": "In particular, the Hatch-Waxman Amendments “allow a generic competitor to file an abbreviated new drug application (A N D A) piggy-backing on the brand's N D A.”"
+    },
+    {
+      "start": 151.76,
+      "end": 160.38,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 124,
+          "end": 264
+        }
+      ],
+      "text": "“The typical A N D A shows that the generic drug has the same active ingredients as, and is biologically equivalent to, the brand-name drug.”"
+    },
+    {
+      "start": 160.38,
+      "end": 168.27,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 278,
+          "end": 389
+        }
+      ],
+      "text": "The generic manufacturer can thereby “avoid the costly and time-consuming studies required for a pioneer drug.”"
+    },
+    {
+      "start": 168.27,
+      "end": 173.0,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 453,
+          "end": 526
+        }
+      ],
+      "text": "But the F D A cannot authorize a generic drug that would infringe a patent."
+    },
+    {
+      "start": 173.0,
+      "end": 185.0,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 527,
+          "end": 734
+        }
+      ],
+      "text": "So, while the F D A does not control the approval of drug patents, it keeps track of them in a volume called Approved Drug Products With Therapeutic Equivalence Evaluations, or more memorably, the Orange Book."
+    },
+    {
+      "start": 185.0,
+      "end": 191.74,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 735,
+          "end": 844
+        }
+      ],
+      "text": "A manufacturer seeking to market a generic version of a drug that appears in the Orange Book has two options."
+    },
+    {
+      "start": 191.74,
+      "end": 202.4,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 845,
+          "end": 1015
+        }
+      ],
+      "text": "The first is to file a “paragraph four certification,” which states that a patent “is invalid or will not be infringed by the manufacture, use, or sale of the generic drug.”"
+    },
+    {
+      "start": 202.4,
+      "end": 213.64,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1042,
+          "end": 1248
+        }
+      ],
+      "text": "Such filing is an act of infringement under patent law, and it gives the brand-name manufacturer the right to file a lawsuit against the generic manufacturer to determine the validity and scope of the patent."
+    },
+    {
+      "start": 213.64,
+      "end": 224.98,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1323,
+          "end": 1487
+        }
+      ],
+      "text": "The generic manufacturer that chooses this approach wagers that it will eventually be able to “market its drug for all approved uses,” not just the unpatented ones."
+    },
+    {
+      "start": 224.98,
+      "end": 235.3,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1515,
+          "end": 1704
+        }
+      ],
+      "text": "The second option is to submit a “section eight statement,” and assert “that the generic manufacturer will market the drug for one or more methods of use not covered by the brand's patents.”"
+    },
+    {
+      "start": 235.3,
+      "end": 245.98,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1757,
+          "end": 1952
+        }
+      ],
+      "text": "This less confrontational path may be available if, for example, “the brand's patent on the drug compound has expired and the brand holds patents on only some approved methods of using the drug.”"
+    },
+    {
+      "start": 245.98,
+      "end": 258.7,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1980,
+          "end": 2163
+        },
+        {
+          "page": 7,
+          "start": 110,
+          "end": 115
+        }
+      ],
+      "text": "A manufacturer that selects the section eight option must file with its A N D A a proposed “skinny label” that “ `carves out' from the brand's approved label the still-patented methods of use.”"
+    },
+    {
+      "start": 258.7,
+      "end": 265.385,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 161,
+          "end": 277
+        }
+      ],
+      "text": "In other words, the skinny label may not give instructions for uses that would infringe the patented methods of use."
+    },
+    {
+      "start": 265.385,
+      "end": 272.6,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 278,
+          "end": 400
+        }
+      ],
+      "text": "These provisions do not foreclose the possibility that an approved A N D A may still interfere with a patented method of use."
+    },
+    {
+      "start": 272.6,
+      "end": 300.42,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 401,
+          "end": 1065
+        }
+      ],
+      "text": "Because a generic drug is, by definition, “biologically equivalent to... the brand-name drug,” medical professionals routinely prescribe (and pharmacists routinely dispense) the former interchangeably with the latter, including for patented methods of use, They do so with the blessing of their States' generic substitution laws, which, depending on the State, permit or require providing the cheaper generic version to patients. (permitting); (requiring)."
+    },
+    {
+      "start": 300.42,
+      "end": 310.24,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1066,
+          "end": 1318
+        }
+      ],
+      "text": "Given that all 50 States and the District of Columbia have such laws, generic manufacturers surely know (and perhaps even expect) that their products will be put to infringing use."
+    },
+    {
+      "start": 310.24,
+      "end": 317.58,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1319,
+          "end": 1459
+        }
+      ],
+      "text": "But “mere knowledge of infringing potential or of actual infringing uses is not... enough... to subject a distributor to liability.”"
+    },
+    {
+      "start": 317.58,
+      "end": 326.09,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1629,
+          "end": 1768
+        }
+      ],
+      "text": "Still, a generic manufacturer can cross the line into liability if it “actively induces infringement of the brand manufacturer's patent.”"
+    },
+    {
+      "start": 326.09,
+      "end": 331.76,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1791,
+          "end": 1885
+        }
+      ],
+      "text": "A trio of our patent cases illuminates the required elements of an induced-infringement claim."
+    },
+    {
+      "start": 331.76,
+      "end": 334.84,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1886,
+          "end": 1944
+        }
+      ],
+      "text": "First, there must be direct infringement by a third party."
+    },
+    {
+      "start": 334.84,
+      "end": 340.04,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 2032,
+          "end": 2117
+        }
+      ],
+      "text": "Second, the inducer must know that “the induced acts constitute patent infringement.”"
+    },
+    {
+      "start": 340.04,
+      "end": 346.92,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 55,
+          "end": 162
+        }
+      ],
+      "text": "Third, and most relevant here, the inducer must take “active steps... to encourage direct infringement.”"
+    },
+    {
+      "start": 346.92,
+      "end": 352.6,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 229,
+          "end": 322
+        }
+      ],
+      "text": "Amarin developed a drug called Vascepa, which contains the active ingredient icosapent ethyl."
+    },
+    {
+      "start": 352.6,
+      "end": 365.56,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 348,
+          "end": 523
+        }
+      ],
+      "text": "“In 2012, the F D A approved Vascepa for the treatment of severe hypertriglyceridemia (`the S H indication'),” a condition characterized by very high blood triglyceride levels."
+    },
+    {
+      "start": 365.56,
+      "end": 380.52,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 530,
+          "end": 766
+        }
+      ],
+      "text": "Vascepa's label disclosed that its effect “on cardiovascular mortality and morbidity in patients with severe hypertriglyceridemia has not been determined” (the “C V Limitation of Use”) because Vascepa was not yet approved for other uses."
+    },
+    {
+      "start": 380.52,
+      "end": 387.2,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 809,
+          "end": 901
+        }
+      ],
+      "text": "In the meantime, Amarin continued its research into Vascepa's potential cardiovascular uses."
+    },
+    {
+      "start": 387.2,
+      "end": 389.92,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 902,
+          "end": 939
+        }
+      ],
+      "text": "Hikma is a generic drug manufacturer."
+    },
+    {
+      "start": 389.92,
+      "end": 396.16,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 940,
+          "end": 1017
+        }
+      ],
+      "text": "In 2016, Hikma submitted an A N D A for approval of its generic icosapent ethyl."
+    },
+    {
+      "start": 396.16,
+      "end": 404.04,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1018,
+          "end": 1146
+        }
+      ],
+      "text": "Hikma opted to file a paragraph four certification, asserting that Amarin's method-of-use patents for the S H indication was invalid."
+    },
+    {
+      "start": 404.04,
+      "end": 410.845,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1160,
+          "end": 1256
+        }
+      ],
+      "text": "Amarin sued Hikma, and a district court invalidated Amarin's S H-indication method-of-use patents."
+    },
+    {
+      "start": 410.845,
+      "end": 413.88,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1263,
+          "end": 1311
+        }
+      ],
+      "text": "But that decision did not spell doom for Amarin."
+    },
+    {
+      "start": 413.88,
+      "end": 433.62,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1312,
+          "end": 1607
+        }
+      ],
+      "text": "In 2019, before the invalidation of Amarin's S H-indication patents, and while Hikma's A N D A remained pending, the F D A approved Vascepa for a second, much more common use: as a treatment to reduce cardiovascular risk in hypertriglyceridemia patients who already take statins (the “C V indication”)."
+    },
+    {
+      "start": 433.62,
+      "end": 442.52,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1622,
+          "end": 1744
+        }
+      ],
+      "text": "Amarin removed the C V Limitation of Use from Vascepa's label and obtained two method-of-use patents for the C V indication."
+    },
+    {
+      "start": 442.52,
+      "end": 448.6,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1751,
+          "end": 1857
+        }
+      ],
+      "text": "Hikma responded to these new developments by supplementing its pending A N D A with a section eight statement."
+    },
+    {
+      "start": 448.6,
+      "end": 455.42,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1858,
+          "end": 1916
+        },
+        {
+          "page": 9,
+          "start": 110,
+          "end": 180
+        }
+      ],
+      "text": "Hikma now sought approval of a skinny label that included only the S H indication (no longer protected by a method-of-use patent)."
+    },
+    {
+      "start": 455.42,
+      "end": 468.64,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 195,
+          "end": 451
+        }
+      ],
+      "text": "To ensure that its labeling otherwise mirrored Vascepa's, (requiring generic labeling to be the “same” as the brand-name labeling with a few exceptions), Hikma also removed the C V Limitation of Use from its proposed label."
+    },
+    {
+      "start": 468.64,
+      "end": 483.505,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 452,
+          "end": 660
+        }
+      ],
+      "text": "In 2020, the F D A approved Hikma's A N D A with the skinny label, and assigned Hikma's generic drug an “A B” rating, indicating that it is therapeutically equivalent to Vascepa when used according to its labeling."
+    },
+    {
+      "start": 483.505,
+      "end": 495.44,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 687,
+          "end": 896
+        }
+      ],
+      "text": "Soon after Hikma began marketing its generic drug, Amarin filed suit in the District of Delaware, alleging that Hikma had actively induced others to infringe Amarin's patent for the C V-indication method of use."
+    },
+    {
+      "start": 495.44,
+      "end": 501.4,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 897,
+          "end": 1004
+        }
+      ],
+      "text": "Amarin alleged that the totality of Hikma's statements across several documents encouraged infringing uses."
+    },
+    {
+      "start": 501.4,
+      "end": 510.13,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1043,
+          "end": 1191
+        }
+      ],
+      "text": "First, the label omitted the C V Limitation of Use and retained information about a clinical study in which some of the patients were taking statins."
+    },
+    {
+      "start": 510.13,
+      "end": 519.2,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 2033,
+          "end": 2161
+        }
+      ],
+      "text": "Footnote 1: Recall that the C V-indication method of use that Amarin successfully patented was the concurrent taking of Vascepa with statins.",
+      "footnote": "1"
+    },
+    {
+      "start": 519.2,
+      "end": 521.005,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 2179,
+          "end": 2180
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 521.005,
+      "end": 542.4,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1194,
+          "end": 1546
+        }
+      ],
+      "text": "Second, the patient information leaflet that accompanied the label warned against possible side effects for “people who have heart (cardiovascular) disease”—the target population for Vascepa's patented C V-indication method of use—and noted that “medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet.”"
+    },
+    {
+      "start": 542.4,
+      "end": 573.88,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1563,
+          "end": 2030
+        },
+        {
+          "page": 10,
+          "start": 55,
+          "end": 107
+        }
+      ],
+      "text": "Third, Hikma's website described its generic drug as “A B” rated, and listed the drug's therapeutic category as “hypertriglyceridemia,” a category that includes but is broader than S H. Finally, prior to the launch of its generic drug, Hikma issued a series of press releases describing the product as “ `generic Vascepa' without mentioning that the approved use was limited to the far-lesser-known S H indication,” and touting Vascepa's U S sales figures attributable to both the S H and C V indications."
+    },
+    {
+      "start": 573.88,
+      "end": 584.78,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 137,
+          "end": 305
+        }
+      ],
+      "text": "In response to Amarin's complaint, Hikma filed a motion to dismiss under Federal Rule of Civil Procedure 12(b)(6), for failure to state a claim for induced infringement."
+    },
+    {
+      "start": 584.78,
+      "end": 596.1,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 306,
+          "end": 505
+        }
+      ],
+      "text": "The District Court granted Hikma's motion to dismiss, explaining that none of Hikma's statements constituted active steps to encourage infringing Amarin's method-of-use patents for the C V indication."
+    },
+    {
+      "start": 596.1,
+      "end": 597.96,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 535,
+          "end": 564
+        }
+      ],
+      "text": "The Federal Circuit reversed."
+    },
+    {
+      "start": 597.96,
+      "end": 604.12,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 565,
+          "end": 658
+        }
+      ],
+      "text": "It held (as all agree here) that Hikma's label, standing alone, does not induce infringement."
+    },
+    {
+      "start": 604.12,
+      "end": 617.695,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 713,
+          "end": 940
+        }
+      ],
+      "text": "But the court found it “at least plausible that a physician could read” the label, website, and press releases “as an instruction or encouragement to prescribe Hikma's generic for any of the approved uses of icosapent ethyl.”"
+    },
+    {
+      "start": 617.695,
+      "end": 627.84,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 986,
+          "end": 1166
+        }
+      ],
+      "text": "We granted certiorari to decide whether Hikma's various statements, when considered in their totality, boost Amarin's lawsuit over the Rule 12(b)(6) hurdle."
+    },
+    {
+      "start": 627.84,
+      "end": 631.68,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1167,
+          "end": 1221
+        }
+      ],
+      "text": "For the reasons that follow, we hold that they do not."
+    },
+    {
+      "start": 631.68,
+      "end": 635.7,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1225,
+          "end": 1308
+        }
+      ],
+      "text": "Our well-established federal pleading standards are not up for debate in this case."
+    },
+    {
+      "start": 635.7,
+      "end": 641.36,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1309,
+          "end": 1416
+        }
+      ],
+      "text": "In order to proceed to discovery, a plaintiff must “state a claim to relief that is plausible on its face.”"
+    },
+    {
+      "start": 641.36,
+      "end": 646.96,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1477,
+          "end": 1583
+        }
+      ],
+      "text": "That plausibility standard “asks for more than a sheer possibility that a defendant has acted unlawfully.”"
+    },
+    {
+      "start": 646.96,
+      "end": 656.94,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1630,
+          "end": 1808
+        }
+      ],
+      "text": "If the complaint “pleads facts that are merely consistent with a defendant's liability, it stops short of the line between possibility and plausibility of entitlement to relief.”"
+    },
+    {
+      "start": 656.94,
+      "end": 675.15,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1851,
+          "end": 2012
+        },
+        {
+          "page": 11,
+          "start": 79,
+          "end": 281
+        }
+      ],
+      "text": "Instead, to nudge a claim “across the line from conceivable to plausible,” a plaintiff must plead facts that, if true, “allow the court to draw the reasonable inference that the defendant is liable for the misconduct alleged,” and to rule out “obvious alternative explanations” for the defendant's conduct,"
+    },
+    {
+      "start": 675.15,
+      "end": 687.425,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 310,
+          "end": 506
+        }
+      ],
+      "text": "This case requires us to apply these familiar pleading standards to the third element of an induced-infringement claim: that the inducer took “active steps... to encourage direct infringement.”"
+    },
+    {
+      "start": 687.425,
+      "end": 697.62,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1723,
+          "end": 1873
+        }
+      ],
+      "text": "Footnote 2: Hikma does not dispute before us that Amarin plausibly pleaded the other two elements of induced infringement: direct infringement and specific intent.",
+      "footnote": "2"
+    },
+    {
+      "start": 697.62,
+      "end": 699.54,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1914,
+          "end": 1915
+        }
+      ],
+      "text": "End footnote 2.",
+      "transition": true,
+      "footnote": "2"
+    },
+    {
+      "start": 699.54,
+      "end": 705.7,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 573,
+          "end": 678
+        }
+      ],
+      "text": "Our case law defining “active steps” thus governs the boundaries of a plausible induced-infringement claim."
+    },
+    {
+      "start": 705.7,
+      "end": 723.76,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 679,
+          "end": 1147
+        }
+      ],
+      "text": "Most fundamentally, “inducement must involve the taking of affirmative,” as opposed to passive, “steps to bring about the desired result” of patent infringement. (requiring “statements or actions directed to promoting infringement”); (citing lack of “evidence of express promotion or marketing” as a reason for no liability )."
+    },
+    {
+      "start": 723.76,
+      "end": 733.155,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1148,
+          "end": 1276
+        }
+      ],
+      "text": "To avoid “trenching on regular commerce,” “ordinary acts incident to product distribution” are insufficient to support liability."
+    },
+    {
+      "start": 733.155,
+      "end": 750.3,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1306,
+          "end": 1596
+        }
+      ],
+      "text": "Given these standards, Amarin misses the mark in arguing that it need not do more than “allege... a plausible chain of events through which statements made by Hikma could lead a healthcare provider... to prescribe or dispense Hikma's drug to reduce a patient's cardiovascular risk.”"
+    },
+    {
+      "start": 750.3,
+      "end": 762.7,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1918,
+          "end": 2143
+        }
+      ],
+      "text": "Footnote 3: To Amarin's credit, this argument reflects the recent approach of the Federal Circuit, which has increasingly trained its focus on whether the relevant statements could be read by medical providers as instructions to infringe.",
+      "footnote": "3"
+    },
+    {
+      "start": 762.7,
+      "end": 775.12,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 2258,
+          "end": 2355
+        },
+        {
+          "page": 12,
+          "start": 1815,
+          "end": 1971
+        }
+      ],
+      "text": "The decision below appears to follow this trend line. (resting reversal on the conclusion that it is “at least plausible that a physician could read” the relevant statements “as an instruction or encouragement” to infringe).",
+      "footnote": "3"
+    },
+    {
+      "start": 775.12,
+      "end": 786.82,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1972,
+          "end": 2177
+        }
+      ],
+      "text": "We reject that trend today, and hereby emphasize that the key question is whether a defendant actively encouraged infringement through its statements, not merely how others may understand those statements.",
+      "footnote": "3"
+    },
+    {
+      "start": 786.82,
+      "end": 789.02,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 2176,
+          "end": 2177
+        }
+      ],
+      "text": "End footnote 3.",
+      "transition": true,
+      "footnote": "3"
+    },
+    {
+      "start": 789.02,
+      "end": 793.54,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1675,
+          "end": 1721
+        },
+        {
+          "page": 12,
+          "start": 55,
+          "end": 65
+        }
+      ],
+      "text": "Amarin relies primarily on two cases to press its point."
+    },
+    {
+      "start": 793.54,
+      "end": 820.72,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 66,
+          "end": 623
+        }
+      ],
+      "text": "First, it points to our holding in National Rifle Association of America versus Vullo, that, “to state a claim that the government violated the First Amendment through coercion of a third party, a plaintiff must plausibly allege conduct that, viewed in context, could be reasonably understood to convey a threat of adverse government action,” Importing this First Amendment standard into the induced-infringement context, however, would water down the statute's express requirement of “active inducement.”"
+    },
+    {
+      "start": 820.72,
+      "end": 834.28,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 646,
+          "end": 871
+        }
+      ],
+      "text": "Amarin's second (and more germane) case is Grokster, where we described “the classic instance of inducement” as an “advertisement or solicitation that broadcasts a message designed to stimulate others to commit violations.”"
+    },
+    {
+      "start": 834.28,
+      "end": 840.58,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 921,
+          "end": 1034
+        }
+      ],
+      "text": "But statements designed to stimulate others form a narrower category than statements that could stimulate others."
+    },
+    {
+      "start": 840.58,
+      "end": 855.36,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1035,
+          "end": 1263
+        }
+      ],
+      "text": "And in Grokster, the defendants' statements fit into that narrower class: Grokster, a distributor of free file-sharing software, “sent users a newsletter promoting its ability to provide particular, popular copyrighted materials.”"
+    },
+    {
+      "start": 855.36,
+      "end": 870.94,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1283,
+          "end": 1550
+        }
+      ],
+      "text": "StreamCast, another such distributor, “beamed onto the computer screens of users of Napster,” another notorious file-sharing service, “ads urging the adoption of its OpenNap program, which was designed, as its name implied, to invite the custom of patrons of Napster.”"
+    },
+    {
+      "start": 870.94,
+      "end": 879.52,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1564,
+          "end": 1708
+        }
+      ],
+      "text": "“And both companies communicated a clear message by responding affirmatively to requests for help in locating and playing copyrighted materials.”"
+    },
+    {
+      "start": 879.52,
+      "end": 894.94,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1722,
+          "end": 1815
+        },
+        {
+          "page": 13,
+          "start": 79,
+          "end": 221
+        }
+      ],
+      "text": "We held that such overt efforts to “entice or persuade another” to engage in copyright infringement “overcame the law's reluctance to find liability when a defendant merely sells a commercial product suitable for some lawful use.”"
+    },
+    {
+      "start": 894.94,
+      "end": 904.82,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 239,
+          "end": 562
+        }
+      ],
+      "text": "All in all, inducement cannot be based only on “vague” language “combined with speculation about how others may act.” (requiring “purposeful, culpable expression and conduct”)."
+    },
+    {
+      "start": 904.82,
+      "end": 909.44,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 563,
+          "end": 642
+        }
+      ],
+      "text": "That said, Hikma overshoots by urging that active inducement must be “express.”"
+    },
+    {
+      "start": 909.44,
+      "end": 917.82,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 666,
+          "end": 815
+        }
+      ],
+      "text": "A defendant can achieve active inducement through implicit encouragement, as StreamCast did through the “suggestive” name of its “OpenNap program.”"
+    },
+    {
+      "start": 917.82,
+      "end": 924.985,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 850,
+          "end": 959
+        }
+      ],
+      "text": "But implicit or explicit, the necessary inducement must be “clear” to the relevant audience and “affirmative.”"
+    },
+    {
+      "start": 924.985,
+      "end": 935.64,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 981,
+          "end": 1159
+        }
+      ],
+      "text": "Applying these standards to the complaint here, Amarin fails to allege “more than a sheer possibility” that Hikma actively induced infringement of Amarin's C V-indication patents."
+    },
+    {
+      "start": 935.64,
+      "end": 944.585,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1187,
+          "end": 1329
+        }
+      ],
+      "text": "Amarin's allegations, whether viewed together or separately, fail to establish that Hikma took any affirmative steps to encourage infringement."
+    },
+    {
+      "start": 944.585,
+      "end": 953.5,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1330,
+          "end": 1516
+        }
+      ],
+      "text": "First, several of the relevant statements have an “obvious alternative explanation,”: Hikma was just complying with the law or with standard industry practice."
+    },
+    {
+      "start": 953.5,
+      "end": 954.84,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1517,
+          "end": 1536
+        }
+      ],
+      "text": "Start with the law."
+    },
+    {
+      "start": 954.84,
+      "end": 967.08,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1537,
+          "end": 1732
+        }
+      ],
+      "text": "It is true, as Amarin complains, that Hikma's label omitted the C V Limitation of Use and retained information about a clinical study involving patients taking statins, just as Amarin's label did."
+    },
+    {
+      "start": 967.08,
+      "end": 982.18,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1733,
+          "end": 1988
+        },
+        {
+          "page": 14,
+          "start": 86,
+          "end": 175
+        }
+      ],
+      "text": "But that is because, by statute, Hikma's label must be identical to Amarin's except for the carved-out use, barring specified circumstances not applicable here. (explaining the “duty of sameness” for generic drug manufacturers)."
+    },
+    {
+      "start": 982.18,
+      "end": 990.16,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1697,
+          "end": 1836
+        }
+      ],
+      "text": "Footnote 5: Even if Hikma could have deviated from what Amarin had put on its label, Hikma's skinny label does not come close to inducing infringement.",
+      "footnote": "5"
+    },
+    {
+      "start": 990.16,
+      "end": 998.2,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1837,
+          "end": 1991
+        }
+      ],
+      "text": "Amarin does not dispute that the clinical study on the label was for patients suffering from S H—the off-patent method of use for which Hikma was approved.",
+      "footnote": "5"
+    },
+    {
+      "start": 998.2,
+      "end": 1005.82,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1992,
+          "end": 2129
+        }
+      ],
+      "text": "And Hikma's omission of the C V Limitation of Use cannot support Amarin's case for active inducement of infringement, as we discuss below.",
+      "footnote": "5"
+    },
+    {
+      "start": 1005.82,
+      "end": 1008.36,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 2128,
+          "end": 2129
+        }
+      ],
+      "text": "End footnote 5.",
+      "transition": true,
+      "footnote": "5"
+    },
+    {
+      "start": 1008.36,
+      "end": 1017.24,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 178,
+          "end": 345
+        }
+      ],
+      "text": "Amarin also finds fault in Hikma's statements describing its product as “ `generic Vascepa' ” or the “ `generic equivalent' of Vascepa” in the prelaunch press releases."
+    },
+    {
+      "start": 1017.24,
+      "end": 1033.32,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 375,
+          "end": 704
+        }
+      ],
+      "text": "But as we have explained, it is “normal industry practice” to “truthfully describe” a generic drug as “ `equivalent' ” to the brand-name comparator. (defining the term “generic version ” as “a drug approved under Section 355 whose reference listed drug is a covered drug”)."
+    },
+    {
+      "start": 1033.32,
+      "end": 1044.36,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 705,
+          "end": 873
+        }
+      ],
+      "text": "We decline to put generic manufacturers between a rock and a hard place by turning adherence to the law and industry standards into building blocks for illegal conduct."
+    },
+    {
+      "start": 1044.36,
+      "end": 1051.74,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 874,
+          "end": 977
+        }
+      ],
+      "text": "Second, Amarin may not rely on “mere omissions, inactions, or nonfeasance” to allege active inducement."
+    },
+    {
+      "start": 1051.74,
+      "end": 1070.16,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1031,
+          "end": 1364
+        }
+      ],
+      "text": "With a healthy stretch of the imagination, one might believe that some medical providers could read between the lines and draw improper conclusions from the skinny label's omission of the C V Limitation of Use and the press releases' failure to “mention that Hikma's approved use was limited to the far-lesser-known S H indication.”"
+    },
+    {
+      "start": 1070.16,
+      "end": 1079.28,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1395,
+          "end": 1540
+        }
+      ],
+      "text": "But we look for affirmative “statements or actions” precisely to avoid “trenching on regular commerce” based on such a contingent chain of events."
+    },
+    {
+      "start": 1079.28,
+      "end": 1088.55,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1575,
+          "end": 1695
+        },
+        {
+          "page": 15,
+          "start": 79,
+          "end": 118
+        }
+      ],
+      "text": "Otherwise, “ordinary merchants could become liable for any misuse of their goods and services, no matter how attenuated their relationship with the wrongdoer.”"
+    },
+    {
+      "start": 1088.55,
+      "end": 1101.0,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 147,
+          "end": 345
+        }
+      ],
+      "text": "Third, Amarin comes up short in resting the remainder of its inducement claim on “vague” statements “combined with speculation about how medical providers may act” in response to those statements."
+    },
+    {
+      "start": 1101.0,
+      "end": 1119.28,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 373,
+          "end": 709
+        }
+      ],
+      "text": "Take, to start, Amarin's argument that medical providers “would plausibly understand” the label's patient information leaflet to encourage infringing uses because it identifies potential side effects for people with cardiovascular diseases and notes that medication is sometimes prescribed for uses other than those specifically indicated."
+    },
+    {
+      "start": 1119.28,
+      "end": 1125.66,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 771,
+          "end": 832
+        }
+      ],
+      "text": "Again, Section 271(b) requires “active,” not passive, inducement."
+    },
+    {
+      "start": 1125.66,
+      "end": 1137.14,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 833,
+          "end": 1051
+        }
+      ],
+      "text": "So the question is not merely whether the statements could be “plausibly understood” to induce infringement, but whether they plausibly constitute “affirmative steps to bring about the desired result” of infringement."
+    },
+    {
+      "start": 1137.14,
+      "end": 1146.8,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1084,
+          "end": 1244
+        }
+      ],
+      "text": "Viewed in that light, the statements in the leaflet (a warning and a disclaimer, really) are implausibly roundabout ways to induce medical providers to infringe."
+    },
+    {
+      "start": 1146.8,
+      "end": 1158.42,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1245,
+          "end": 1435
+        }
+      ],
+      "text": "Treating them otherwise would turn any statement extraneous to the unpatented method of use—even one warning people against the patented method of use—into active inducement of infringement."
+    },
+    {
+      "start": 1158.42,
+      "end": 1163.3,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1436,
+          "end": 1508
+        }
+      ],
+      "text": "Our case law leaves generic manufacturers more breathing room than that."
+    },
+    {
+      "start": 1163.3,
+      "end": 1167.98,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1509,
+          "end": 1590
+        }
+      ],
+      "text": "Amarin is wrong to rely on the statements on Hikma's website for the same reason."
+    },
+    {
+      "start": 1167.98,
+      "end": 1176.04,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1591,
+          "end": 1720
+        }
+      ],
+      "text": "The website describes the therapeutic category for its drug as “hypertriglyceridemia,” and indicates that the drug is “A B” rated."
+    },
+    {
+      "start": 1176.04,
+      "end": 1182.57,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1721,
+          "end": 1825
+        }
+      ],
+      "text": "It is not plausible that Hikma “designed” these statements “to stimulate others to commit” infringement."
+    },
+    {
+      "start": 1182.57,
+      "end": 1196.22,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1855,
+          "end": 2087
+        }
+      ],
+      "text": "For one thing, describing the therapeutic category as “hypertriglyceridemia” (as opposed to “severe hypertriglyceridemia”) is generally akin to describing a drug for leukemia as a “ `cancer drug' ” (as opposed to a “leukemia drug”)."
+    },
+    {
+      "start": 1196.22,
+      "end": 1203.96,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 71,
+          "end": 200
+        }
+      ],
+      "text": "“Cancer drug” is a broad category, not an instruction to prescribe the drug for a patented use treating a specific type of cancer."
+    },
+    {
+      "start": 1203.96,
+      "end": 1215.76,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 201,
+          "end": 401
+        }
+      ],
+      "text": "Furthermore, an “A B” rating means that the product is equivalent to the brand-name drug only “under the conditions specified in the generic's label,” which excludes unapproved, patented methods of use."
+    },
+    {
+      "start": 1215.76,
+      "end": 1226.3,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 507,
+          "end": 668
+        }
+      ],
+      "text": "In any event, Hikma's website clarifies that “Hikma's generic version is indicated for fewer than all approved indications of the Reference Listed Drug,” Vascepa."
+    },
+    {
+      "start": 1226.3,
+      "end": 1233.56,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 681,
+          "end": 801
+        }
+      ],
+      "text": "Finally, the sales figures in Hikma's press releases are the vaguest of “vague” statements alleged in Amarin's complaint."
+    },
+    {
+      "start": 1233.56,
+      "end": 1245.02,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 829,
+          "end": 1023
+        }
+      ],
+      "text": "Amarin argues that, by including the sales figures attributable to both the S H-indication and the C V-indication methods of use, Hikma encouraged using its generic for the patented C V indication."
+    },
+    {
+      "start": 1245.02,
+      "end": 1251.58,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1024,
+          "end": 1130
+        }
+      ],
+      "text": "But there are myriad steps between those statements and induced infringement that Amarin fails to mention."
+    },
+    {
+      "start": 1251.58,
+      "end": 1280.97,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1131,
+          "end": 1629
+        }
+      ],
+      "text": "For Amarin's speculation to bear out, a medical provider would have to look up and read the press releases, which were directed to investors rather than doctors and pharmacists; have enough background knowledge of pharmaceutical sales to understand the quoted sales figures to be attributable to both the S H-indication and the C V-indication methods of use; and draw from this fact a subtle encouragement to start prescribing Hikma's generic to hypertriglyceridemia patients who already take statins."
+    },
+    {
+      "start": 1280.97,
+      "end": 1284.93,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1630,
+          "end": 1698
+        }
+      ],
+      "text": "Perhaps this chain of events is “possible” (anything is possible)."
+    },
+    {
+      "start": 1284.93,
+      "end": 1293.535,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1725,
+          "end": 1842
+        }
+      ],
+      "text": "But, without more, it is not a “ `plausible' ” scenario of active inducement giving rise to liability under Section 271(b)."
+    },
+    {
+      "start": 1293.535,
+      "end": 1306.27,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1855,
+          "end": 2034
+        }
+      ],
+      "text": "For the reasons we've explained, Amarin has failed to state a claim for active inducement in violation of Section 271(b), so its complaint cannot withstand Hikma's Rule 12(b)(6) motion."
+    },
+    {
+      "start": 1306.27,
+      "end": 1312.67,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 79,
+          "end": 209
+        }
+      ],
+      "text": "We therefore reverse the judgment of the Federal Circuit and remand the case for further proceedings consistent with this opinion."
+    },
+    {
+      "start": 1312.67,
+      "end": 1313.47,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 210,
+          "end": 227
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 106,
+      "expectedWords": 106,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 108,
+      "expectedWords": 113,
+      "coverage": 0.9557522123893806
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 47,
+      "expectedWords": 47,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 95,
+      "expectedWords": 95,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 90,
+      "expectedWords": 95,
+      "coverage": 0.9473684210526315
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 162,
+      "expectedWords": 165,
+      "coverage": 0.9818181818181818
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 123,
+      "expectedWords": 123,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 85,
+      "expectedWords": 86,
+      "coverage": 0.9883720930232558
+    },
+    {
+      "paragraph": 10,
+      "matchedWords": 71,
+      "expectedWords": 71,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 49,
+      "expectedWords": 52,
+      "coverage": 0.9423076923076923
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 87,
+      "expectedWords": 89,
+      "coverage": 0.9775280898876404
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 60,
+      "expectedWords": 62,
+      "coverage": 0.967741935483871
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 79,
+      "expectedWords": 86,
+      "coverage": 0.9186046511627907
+    },
+    {
+      "paragraph": 16,
+      "matchedWords": 115,
+      "expectedWords": 122,
+      "coverage": 0.9426229508196722
+    },
+    {
+      "paragraph": 17,
+      "matchedWords": 77,
+      "expectedWords": 77,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 18,
+      "matchedWords": 25,
+      "expectedWords": 26,
+      "coverage": 0.9615384615384616
+    },
+    {
+      "paragraph": 19,
+      "matchedWords": 167,
+      "expectedWords": 169,
+      "coverage": 0.9881656804733728
+    },
+    {
+      "paragraph": 20,
+      "matchedWords": 90,
+      "expectedWords": 91,
+      "coverage": 0.989010989010989
+    },
+    {
+      "paragraph": 21,
+      "matchedWords": 36,
+      "expectedWords": 37,
+      "coverage": 0.972972972972973
+    },
+    {
+      "paragraph": 23,
+      "matchedWords": 127,
+      "expectedWords": 127,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 24,
+      "matchedWords": 29,
+      "expectedWords": 29,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 25,
+      "matchedWords": 26,
+      "expectedWords": 27,
+      "coverage": 0.9629629629629629
+    },
+    {
+      "paragraph": 26,
+      "matchedWords": 78,
+      "expectedWords": 79,
+      "coverage": 0.9873417721518988
+    },
+    {
+      "paragraph": 27,
+      "matchedWords": 47,
+      "expectedWords": 47,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 28,
+      "matchedWords": 105,
+      "expectedWords": 105,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 29,
+      "matchedWords": 84,
+      "expectedWords": 86,
+      "coverage": 0.9767441860465116
+    },
+    {
+      "paragraph": 30,
+      "matchedWords": 177,
+      "expectedWords": 179,
+      "coverage": 0.9888268156424581
+    },
+    {
+      "paragraph": 31,
+      "matchedWords": 73,
+      "expectedWords": 73,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 33,
+      "matchedWords": 47,
+      "expectedWords": 48,
+      "coverage": 0.9791666666666666
+    },
+    {
+      "paragraph": 34,
+      "matchedWords": 97,
+      "expectedWords": 97,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 35,
+      "matchedWords": 83,
+      "expectedWords": 84,
+      "coverage": 0.9880952380952381
+    },
+    {
+      "paragraph": 36,
+      "matchedWords": 93,
+      "expectedWords": 96,
+      "coverage": 0.96875
+    },
+    {
+      "paragraph": 37,
+      "matchedWords": 118,
+      "expectedWords": 119,
+      "coverage": 0.9915966386554622
+    },
+    {
+      "paragraph": 38,
+      "matchedWords": 181,
+      "expectedWords": 182,
+      "coverage": 0.9945054945054945
+    },
+    {
+      "paragraph": 39,
+      "matchedWords": 165,
+      "expectedWords": 166,
+      "coverage": 0.9939759036144579
+    },
+    {
+      "paragraph": 40,
+      "matchedWords": 179,
+      "expectedWords": 181,
+      "coverage": 0.988950276243094
+    },
+    {
+      "paragraph": 41,
+      "matchedWords": 58,
+      "expectedWords": 58,
+      "coverage": 1.0
+    }
+  ]
+}

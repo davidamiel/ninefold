@@ -1,0 +1,578 @@
+{
+  "reviewed": true,
+  "documentId": "26A388-3302677e9c0a--0-0",
+  "sourceDocumentId": "26A388-3302677e9c0a",
+  "sourceTextPath": "dist/data/docs/26A388-3302677e9c0a.json",
+  "sourceTextSha256": "8400669abd53c37af93cee67462eca1a2359a1cecf508edde1c20fb39d75862c",
+  "sourcePdfPath": "dist/data/pdfs/26A388-3302677e9c0a--0-0.pdf",
+  "sourcePdfSha256": "d03515087707c8dedaabd2f46775c41707e02809314416610627d1936b0d9540",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-09-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a388_q86b.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 240,
+    "endPage": 4,
+    "endOffset": 1034
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 240,
+          "end": 1092
+        }
+      ],
+      "citations": [
+        {
+          "start": 744,
+          "end": 848,
+          "text": "von Glahn v. Hoskins, ___ S. W. 3d ___, ___–___, n. 8 (Mo. 2026), App. to Emergency Motion 53–54a, n. 8.",
+          "type": "case",
+          "canonical": "von Glahn v. Hoskins"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "U. S.",
+          "to": "United States"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1092,
+          "end": 1207
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1207,
+          "end": 1589
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "U. S.",
+          "to": "United States"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 45,
+          "end": 626
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "JUSTICE KAVANAUGH",
+          "to": "Justice Kavanaugh"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1669,
+          "end": 1900
+        }
+      ],
+      "citations": [
+        {
+          "start": 112,
+          "end": 229,
+          "text": "Onder v. Missouri, ___ F. 4th ___, ___ (CA8, Sept. 21, 2026) (quotation marks omitted), App. to Emergency Motion 12a.",
+          "type": "case",
+          "canonical": "Onder v. Missouri"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "TRO",
+          "to": "T R O"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 627,
+          "end": 772
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 772,
+          "end": 960
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 960,
+          "end": 1552
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "U. S.",
+          "to": "United States"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1902,
+          "end": 1973
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1554,
+          "end": 1660
+        },
+        {
+          "page": 2,
+          "start": 45,
+          "end": 87
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1718,
+          "end": 1844
+        }
+      ],
+      "citations": [
+        {
+          "start": 65,
+          "end": 124,
+          "text": "Onder v. Missouri, No. 4:26–cv–01424 (ED Mo.), ECF Doc. 60.",
+          "type": "record",
+          "canonical": "Onder v. Missouri, No. 4:26–cv–01424 (ED Mo.), ECF Doc. 60."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 88,
+          "end": 158
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1846,
+          "end": 2040
+        }
+      ],
+      "citations": [
+        {
+          "start": 140,
+          "end": 193,
+          "text": "Onder v. Missouri, No. 26–2797 (CA8, Sept. 22, 2026).",
+          "type": "record",
+          "canonical": "Onder v. Missouri, No. 26–2797 (CA8, Sept. 22, 2026)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 160,
+          "end": 451
+        }
+      ],
+      "citations": [
+        {
+          "start": 239,
+          "end": 290,
+          "text": "See Nken v. Holder , 556 U. S. 418, 425–426 (2009).",
+          "type": "case",
+          "canonical": "556 U.S. 418"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 451,
+          "end": 1417
+        }
+      ],
+      "citations": [
+        {
+          "start": 81,
+          "end": 90,
+          "text": "Section 2",
+          "type": "statute",
+          "canonical": "U.S. Const. art. I, § 2",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 301,
+          "end": 379,
+          "text": "Cf. Rodriguez v. Popular Democratic Party , 457 U. S. 1, 10, and n. 10 (1982).",
+          "type": "case",
+          "canonical": "457 U.S. 1"
+        },
+        {
+          "start": 549,
+          "end": 607,
+          "text": "See Purcell v. Gonzalez, 549 U. S. 1 (2006) ( per curiam).",
+          "type": "case",
+          "canonical": "549 U.S. 1"
+        },
+        {
+          "start": 751,
+          "end": 959,
+          "text": "Allen v. Milligan, 608 U. S. 511, 514 (2026) (per curiam) (quoting Republican National Committee v. Democratic National Committee, 589 U. S. 423, 424 (2020) (per curiam)); see also Purcell, 549 U. S., at 4–6.",
+          "type": "case",
+          "canonical": "549 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article I",
+          "to": "Article one"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1417,
+          "end": 1709
+        },
+        {
+          "page": 3,
+          "start": 45,
+          "end": 249
+        }
+      ],
+      "citations": [
+        {
+          "start": 376,
+          "end": 494,
+          "text": "Brief for Missouri Association of County Clerks and Election Authorities as Amicus Curiae in No. 26–2797 (CA8), p. 12.",
+          "type": "record",
+          "canonical": "Brief for Missouri Association of County Clerks and Election Authorities as Amicus Curiae in No. 26–2797 (CA8), p. 12."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 249,
+          "end": 793
+        }
+      ],
+      "citations": [
+        {
+          "start": 491,
+          "end": 540,
+          "text": "___ F. 4th, at ___, App. to Emergency Motion 29a.",
+          "type": "record",
+          "canonical": "___ F. 4th, at ___, App. to Emergency Motion 29a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "decisio[n]",
+          "to": "decision"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 793,
+          "end": 2022
+        }
+      ],
+      "citations": [
+        {
+          "start": 323,
+          "end": 367,
+          "text": "Allen, 608 U. S., at 514 (citation omitted).",
+          "type": "case",
+          "canonical": "608 U.S. 511"
+        },
+        {
+          "start": 746,
+          "end": 945,
+          "text": "Maggard v. State, 733 S. W. 3d 411, 419–420 (Mo. 2026); see also Healey v. State , 732 S. W. 3d 827, 836, n. 1 (Mo. 2026); NAACP Mo. State Conference v. Kehoe, 734 S. W. 3d 338, 341, n. 4 (Mo. 2026).",
+          "type": "case",
+          "canonical": "733 S.W.3d 411"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 51,
+          "end": 1034
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "U. S.",
+          "to": "United States"
+        },
+        {
+          "from": "JUSTICE KAVANAUGH",
+          "to": "Justice Kavanaugh"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 45,
+      "text": "2 PEOPLE NOT POLITICIANS v. ONDER\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 1,
+      "start": 626,
+      "end": 627,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 1,
+      "start": 1552,
+      "end": 1554,
+      "text": "2\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 1,
+      "start": 1660,
+      "end": 1669,
+      "text": "——————\n1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 1,
+      "start": 1900,
+      "end": 1902,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 45,
+      "text": "3  Cite as: 609 U. S. ____ (2026)\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 2,
+      "start": 87,
+      "end": 88,
+      "text": "3",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 2,
+      "start": 158,
+      "end": 160,
+      "text": "4\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 2,
+      "start": 1709,
+      "end": 1718,
+      "text": "——————\n3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 2,
+      "start": 1844,
+      "end": 1846,
+      "text": "4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 45,
+      "text": "4 PEOPLE NOT POLITICIANS v. ONDER\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 51,
+      "text": "5  Cite as: 609 U. S. ____ (2026)\nPer Curiam\n* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 1343,
+      "end": 1349,
+      "expectedText": "cou rt",
+      "text": "court"
+    },
+    {
+      "page": 1,
+      "start": 527,
+      "end": 536,
+      "expectedText": "distri ct",
+      "text": "district"
+    },
+    {
+      "page": 1,
+      "start": 1265,
+      "end": 1269,
+      "expectedText": "fo r",
+      "text": "for"
+    },
+    {
+      "page": 1,
+      "start": 1756,
+      "end": 1768,
+      "expectedText": "pre liminary",
+      "text": "preliminary"
+    },
+    {
+      "page": 2,
+      "start": 1749,
+      "end": 1760,
+      "expectedText": "inj unction",
+      "text": "injunction"
+    },
+    {
+      "page": 2,
+      "start": 1945,
+      "end": 1953,
+      "expectedText": "ma ndate",
+      "text": "mandate"
+    },
+    {
+      "page": 2,
+      "start": 596,
+      "end": 604,
+      "expectedText": "gene ral",
+      "text": "general"
+    },
+    {
+      "page": 3,
+      "start": 1506,
+      "end": 1515,
+      "expectedText": "petiti on",
+      "text": "petition"
+    },
+    {
+      "page": 3,
+      "start": 1958,
+      "end": 1970,
+      "expectedText": "nonethel ess",
+      "text": "nonetheless"
+    },
+    {
+      "page": 4,
+      "start": 418,
+      "end": 426,
+      "expectedText": "Easter n",
+      "text": "Eastern"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read every Court-opinion source/PDF page and all four substantive numbered notes, including standing and both lower-court procedural orders. Retained all constitutional/state-law qualifications, Purcell limitations, quotations, map distinctions and complete stay/disposition terms. All four notes read at markers. Exact source-only omissions; repaired extraction word splits and removed caption/separator furniture."
+}

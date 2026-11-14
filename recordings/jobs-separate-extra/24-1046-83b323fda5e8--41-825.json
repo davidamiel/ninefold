@@ -1,0 +1,164 @@
+{
+  "reviewed": true,
+  "documentId": "24-1046-83b323fda5e8--41-825",
+  "sourceDocumentId": "24-1046-83b323fda5e8",
+  "sourceTextPath": "dist/data/docs/24-1046-83b323fda5e8.json",
+  "sourceTextSha256": "ea4d55c7425417d4c9b1780f2d22193e834114e65a00ac14e0653c61636665a7",
+  "sourcePdfPath": "dist/data/pdfs/24-1046-83b323fda5e8--41-825.pdf",
+  "sourcePdfSha256": "6e82d6233fcb7bc5618bf64c1f366c36f0b74bddb54179544c39d3d2b4ab7e40",
+  "title": "Dissent",
+  "author": "Elena Kagan",
+  "date": "2026-06-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r58_a8cf.pdf",
+  "sourceRange": {
+    "startPage": 41,
+    "startOffset": 852,
+    "endPage": 42,
+    "endOffset": 979
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 41,
+          "start": 852,
+          "end": 1546
+        },
+        {
+          "page": 42,
+          "start": 45,
+          "end": 979
+        }
+      ],
+      "citations": [
+        {
+          "start": 272,
+          "end": 294,
+          "text": "See post, at 243– 250.",
+          "type": "reference",
+          "canonical": "Jackson dissent, pp. 243–250"
+        },
+        {
+          "start": 805,
+          "end": 880,
+          "text": "New York State Rifle & Pistol Assn., Inc. v. Bruen, 597 U. S. 1, 27 (2022).",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 1011,
+          "end": 1079,
+          "text": "United States v. Rahimi, 602 U. S. 680, 692 (2024) (emphasis added).",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 1305,
+          "end": 1451,
+          "text": "1721 Pa. Laws ch. 246, § 3 (preamble), in 3 The Statutes at Large of Pennsylvania From 1682 to 1801, p. 255 (J. Mitchell & H. Flanders eds. 1896).",
+          "type": "reference",
+          "canonical": "1721 Pa. Laws ch. 246, § 3"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Part III",
+          "to": "Part three"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 41,
+      "start": 1547,
+      "end": 2057,
+      "text": "conduct. It is instead why they targeted that conduct—that is, what\n“reason” justifed the restriction. United States v. Rahimi, 602 U. S. 680,\n692 (2024). For the 18th-century laws, it was the risk of harm to persons\nand property caused by hunting. For the Black Codes, it was the ability\nof blacks to provide for themselves without working on plantations. Because the two sets of laws did not share an analogous justifcation, they\ndo not stand for the same regulatory principle.\nPage Proof Pending Publication",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 42,
+      "start": 0,
+      "end": 45,
+      "text": "226 WOLFORD v. LOPEZ\nJackson, J., dissenting\n",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 41,
+      "start": 440,
+      "end": 447,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 41,
+      "start": 1052,
+      "end": 1059,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 41,
+      "start": 1102,
+      "end": 1112,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 41,
+      "start": 1295,
+      "end": 1306,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 41,
+      "start": 1624,
+      "end": 1632,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 42,
+      "start": 65,
+      "end": 72,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 42,
+      "start": 166,
+      "end": 170,
+      "expectedText": "Rife",
+      "text": "Rifle"
+    },
+    {
+      "page": 42,
+      "start": 497,
+      "end": 504,
+      "expectedText": "refects",
+      "text": "reflects"
+    },
+    {
+      "page": 42,
+      "start": 1680,
+      "end": 1684,
+      "expectedText": "Rife",
+      "text": "Rifle"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read the complete writing and compared against rendered official PDF slice. Retained prose, quotations and substantive explanatory parentheticals; removed source-only citations, publication furniture and preceding writers’ notes."
+}

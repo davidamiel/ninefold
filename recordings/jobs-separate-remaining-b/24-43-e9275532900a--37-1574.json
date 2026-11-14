@@ -1,0 +1,817 @@
+{
+  "reviewed": true,
+  "documentId": "24-43-e9275532900a--37-1574",
+  "sourceDocumentId": "24-43-e9275532900a",
+  "sourceTextPath": "dist/data/docs/24-43-e9275532900a.json",
+  "sourceTextSha256": "bee6d08d51b1f80dac12448b25bfd8a5fa219466e30742d2db448c42674ee8f4",
+  "sourcePdfPath": "dist/data/pdfs/24-43-e9275532900a--37-1574.pdf",
+  "sourcePdfSha256": "842ac10dc580f026af9f75bebf42205f3a1cb0239c1efc12cd808dcba106266a",
+  "title": "Concurrence",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-06-30",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf",
+  "sourceRange": {
+    "startPage": 37,
+    "startOffset": 1603,
+    "endPage": 41,
+    "endOffset": 572
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1603,
+          "end": 1680
+        }
+      ],
+      "citations": [
+        {
+          "start": 67,
+          "end": 75,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title IX",
+          "to": "Title nine"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1680,
+          "end": 1966
+        },
+        {
+          "page": 38,
+          "start": 58,
+          "end": 708
+        }
+      ],
+      "citations": [
+        {
+          "start": 8,
+          "end": 16,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 92,
+          "end": 152,
+          "text": "Jackson v. Birmingham Bd. of Ed., 544 U. S. 167, 181 (2005).",
+          "type": "reference",
+          "canonical": "Jackson v. Birmingham Bd. of Ed., 544 U. S. 167, 181 (2005)."
+        },
+        {
+          "start": 286,
+          "end": 361,
+          "text": "Medina v. Planned Parenthood South Atlantic, 606 U. S. 357, 370–371 (2025).",
+          "type": "reference",
+          "canonical": "Medina v. Planned Parenthood South Atlantic, 606 U. S. 357, 370–371 (2025)."
+        },
+        {
+          "start": 434,
+          "end": 446,
+          "text": "Id., at 365.",
+          "type": "reference",
+          "canonical": "Id., at 365."
+        },
+        {
+          "start": 596,
+          "end": 607,
+          "text": "Id., at 373",
+          "type": "reference",
+          "canonical": "Id., at 373"
+        },
+        {
+          "start": 608,
+          "end": 690,
+          "text": "(quoting Pennhurst State School and Hospital v. Halderman, 451 U. S. 1, 17 (1981))",
+          "type": "reference",
+          "canonical": "(quoting Pennhurst State School and Hospital v. Halderman, 451 U. S. 1, 17 (1981))"
+        },
+        {
+          "start": 861,
+          "end": 893,
+          "text": "Medina, 606 U. S., at 373, n. 4;",
+          "type": "reference",
+          "canonical": "Medina, 606 U. S., at 373, n. 4;"
+        },
+        {
+          "start": 894,
+          "end": 935,
+          "text": "see also Pennhurst, 451 U. S., at 17, 25.",
+          "type": "reference",
+          "canonical": "see also Pennhurst, 451 U. S., at 17, 25."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title IX",
+          "to": "Title nine"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 38,
+          "start": 708,
+          "end": 2190
+        },
+        {
+          "page": 39,
+          "start": 85,
+          "end": 322
+        }
+      ],
+      "citations": [
+        {
+          "start": 11,
+          "end": 19,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 283,
+          "end": 291,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 350,
+          "end": 369,
+          "text": "20 U. S. C. § 1681.",
+          "type": "reference",
+          "canonical": "20 U. S. C. § 1681."
+        },
+        {
+          "start": 452,
+          "end": 514,
+          "text": "See, e. g., Webster's New World Dictionary 1305 (2d ed. 1972).",
+          "type": "reference",
+          "canonical": "See, e. g., Webster's New World Dictionary 1305 (2d ed. 1972)."
+        },
+        {
+          "start": 525,
+          "end": 533,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 847,
+          "end": 854,
+          "text": "§ 1686.",
+          "type": "reference",
+          "canonical": "§ 1686."
+        },
+        {
+          "start": 1019,
+          "end": 1062,
+          "text": "Pub. L. 93–380, § 844, 88 Stat. 612 (1974).",
+          "type": "reference",
+          "canonical": "Pub. L. 93–380, § 844, 88 Stat. 612 (1974)."
+        },
+        {
+          "start": 1187,
+          "end": 1254,
+          "text": "45 CFR § 86.41(b) (1975), as recodified, 34 CFR § 106.41(b) (2025);",
+          "type": "reference",
+          "canonical": "45 CFR § 86.41(b) (1975), as recodified, 34 CFR § 106.41(b) (2025);"
+        },
+        {
+          "start": 1255,
+          "end": 1353,
+          "text": "see also Loper Bright Enterprises v. Raimondo, 603 U. S. 369, 430 (2024) (Gorsuch, J., concurring)",
+          "type": "reference",
+          "canonical": "see also Loper Bright Enterprises v. Raimondo, 603 U. S. 369, 430 (2024) (Gorsuch, J., concurring)"
+        },
+        {
+          "start": 1556,
+          "end": 1564,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title IX",
+          "to": "Title nine"
+        },
+        {
+          "from": "sh[ould]",
+          "to": "should"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 322,
+          "end": 1157
+        }
+      ],
+      "citations": [
+        {
+          "start": 34,
+          "end": 57,
+          "text": ", 590 U. S. 644 (2020),",
+          "type": "reference",
+          "canonical": ", 590 U. S. 644 (2020),"
+        },
+        {
+          "start": 274,
+          "end": 283,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 285,
+          "end": 341,
+          "text": "Id., at 650–651, 655 (internal quotation marks omitted).",
+          "type": "reference",
+          "canonical": "Id., at 650–651, 655 (internal quotation marks omitted)."
+        },
+        {
+          "start": 487,
+          "end": 496,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 521,
+          "end": 537,
+          "text": "See id., at 681.",
+          "type": "reference",
+          "canonical": "See id., at 681."
+        },
+        {
+          "start": 569,
+          "end": 578,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 607,
+          "end": 619,
+          "text": "Id., at 655.",
+          "type": "reference",
+          "canonical": "Id., at 655."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title seven"
+        },
+        {
+          "from": "discriminat[ion]",
+          "to": "discrimination"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 1157,
+          "end": 1580
+        },
+        {
+          "page": 39,
+          "start": 1581,
+          "end": 1582
+        }
+      ],
+      "citations": [
+        {
+          "start": 187,
+          "end": 203,
+          "text": "Id., at 656–659.",
+          "type": "reference",
+          "canonical": "Id., at 656–659."
+        },
+        {
+          "start": 411,
+          "end": 423,
+          "text": "Id., at 660.",
+          "type": "reference",
+          "canonical": "Id., at 660."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 39,
+          "start": 1699,
+          "end": 2334
+        }
+      ],
+      "citations": [
+        {
+          "start": 25,
+          "end": 39,
+          "text": "post, at 1031,",
+          "type": "reference",
+          "canonical": "post, at 1031,"
+        },
+        {
+          "start": 497,
+          "end": 506,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 508,
+          "end": 548,
+          "text": "See Bostock, 590 U. S., at 659–660, 662;",
+          "type": "reference",
+          "canonical": "See Bostock, 590 U. S., at 659–660, 662;"
+        },
+        {
+          "start": 549,
+          "end": 637,
+          "text": "see also Price Waterhouse v. Hopkins, 490 U. S. 228, 250–251 (1989) (plurality opinion).",
+          "type": "reference",
+          "canonical": "see also Price Waterhouse v. Hopkins, 490 U. S. 228, 250–251 (1989) (plurality opinion)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title seven"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 1582,
+          "end": 1697
+        },
+        {
+          "page": 40,
+          "start": 58,
+          "end": 525
+        }
+      ],
+      "citations": [
+        {
+          "start": 65,
+          "end": 73,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 139,
+          "end": 149,
+          "text": "§ 1681(a).",
+          "type": "reference",
+          "canonical": "§ 1681(a)."
+        },
+        {
+          "start": 190,
+          "end": 198,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 258,
+          "end": 267,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 280,
+          "end": 297,
+          "text": "See ante, at 974.",
+          "type": "reference",
+          "canonical": "See ante, at 974."
+        },
+        {
+          "start": 510,
+          "end": 582,
+          "text": "See Franklin v. Gwinnett County Public Schools, 503 U. S. 60, 75 (1992).",
+          "type": "reference",
+          "canonical": "See Franklin v. Gwinnett County Public Schools, 503 U. S. 60, 75 (1992)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title seven"
+        },
+        {
+          "from": "Title IX",
+          "to": "Title nine"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 40,
+          "start": 525,
+          "end": 1257
+        }
+      ],
+      "citations": [
+        {
+          "start": 224,
+          "end": 233,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 235,
+          "end": 257,
+          "text": "See 590 U. S., at 681.",
+          "type": "reference",
+          "canonical": "See 590 U. S., at 681."
+        },
+        {
+          "start": 338,
+          "end": 346,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 539,
+          "end": 547,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 694,
+          "end": 716,
+          "text": "See supra, at 995–996;",
+          "type": "reference",
+          "canonical": "See supra, at 995–996;"
+        },
+        {
+          "start": 717,
+          "end": 734,
+          "text": "ante, at 973–977.",
+          "type": "reference",
+          "canonical": "ante, at 973–977."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title seven"
+        },
+        {
+          "from": "Title IX",
+          "to": "Title nine"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 40,
+          "start": 1257,
+          "end": 2151
+        },
+        {
+          "page": 41,
+          "start": 55,
+          "end": 149
+        }
+      ],
+      "citations": [
+        {
+          "start": 161,
+          "end": 170,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 305,
+          "end": 313,
+          "text": "Title IX",
+          "type": "statute",
+          "canonical": "Title IX",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 490,
+          "end": 499,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 615,
+          "end": 624,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 791,
+          "end": 809,
+          "text": "590 U. S., at 681;",
+          "type": "reference",
+          "canonical": "590 U. S., at 681;"
+        },
+        {
+          "start": 810,
+          "end": 824,
+          "text": "see also ibid.",
+          "type": "reference",
+          "canonical": "see also ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title seven"
+        },
+        {
+          "from": "Title IX",
+          "to": "Title nine"
+        },
+        {
+          "from": "[f]iring",
+          "to": "firing"
+        },
+        {
+          "from": "[w]hether",
+          "to": "whether"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 41,
+          "start": 149,
+          "end": 572
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 39,
+      "start": 467,
+      "end": 472,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 39,
+      "start": 747,
+      "end": 752,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 39,
+      "start": 1073,
+      "end": 1081,
+      "expectedText": "qualifes",
+      "text": "qualifies"
+    },
+    {
+      "page": 39,
+      "start": 2153,
+      "end": 2158,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 40,
+      "start": 668,
+      "end": 673,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 40,
+      "start": 827,
+      "end": 835,
+      "expectedText": "qualifes",
+      "text": "qualifies"
+    },
+    {
+      "page": 40,
+      "start": 1314,
+      "end": 1319,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 41,
+      "start": 1455,
+      "end": 1463,
+      "expectedText": "affrming",
+      "text": "affirming"
+    },
+    {
+      "page": 41,
+      "start": 1578,
+      "end": 1587,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 41,
+      "start": 1695,
+      "end": 1704,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 39,
+      "start": 617,
+      "end": 619,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 38,
+      "start": 1924,
+      "end": 1933,
+      "expectedText": "recodifed",
+      "text": "recodified"
+    },
+    {
+      "page": 41,
+      "start": 99,
+      "end": 114,
+      "expectedText": "schoolsponsored",
+      "text": "school-sponsored"
+    },
+    {
+      "page": 39,
+      "start": 1828,
+      "end": 1832,
+      "expectedText": "fres",
+      "text": "fires"
+    },
+    {
+      "page": 40,
+      "start": 712,
+      "end": 720,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 37,
+      "start": 1966,
+      "end": 1996,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed proof furniture or footnote marker"
+    },
+    {
+      "page": 38,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 609 U. S. 958 (2026) 995\nGorsuch, J., concurring\n",
+      "reason": "Reviewed proof furniture or footnote marker"
+    },
+    {
+      "page": 38,
+      "start": 2190,
+      "end": 2220,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed proof furniture or footnote marker"
+    },
+    {
+      "page": 39,
+      "start": 0,
+      "end": 85,
+      "text": "Page Proof Pending Publication\n996 WEST VIRGINIA v. B. P. J.\nGorsuch, J., concurring\n",
+      "reason": "Reviewed proof furniture or footnote marker"
+    },
+    {
+      "page": 39,
+      "start": 1580,
+      "end": 1581,
+      "text": "*",
+      "reason": "Reviewed proof furniture or footnote marker"
+    },
+    {
+      "page": 39,
+      "start": 1698,
+      "end": 1699,
+      "text": "*",
+      "reason": "Reviewed proof furniture or footnote marker"
+    },
+    {
+      "page": 40,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 609 U. S. 958 (2026) 997\nGorsuch, J., concurring\n",
+      "reason": "Reviewed proof furniture or footnote marker"
+    },
+    {
+      "page": 40,
+      "start": 2151,
+      "end": 2181,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed proof furniture or footnote marker"
+    },
+    {
+      "page": 41,
+      "start": 0,
+      "end": 55,
+      "text": "998 WEST VIRGINIA v. B. P. J.\nOpinion of Sotomayor, J.\n",
+      "reason": "Reviewed proof furniture or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

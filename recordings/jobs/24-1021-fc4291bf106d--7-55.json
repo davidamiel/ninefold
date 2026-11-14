@@ -1,0 +1,3511 @@
+{
+  "reviewed": true,
+  "documentId": "24-1021-fc4291bf106d--7-55",
+  "sourceDocumentId": "24-1021-fc4291bf106d",
+  "sourceTextPath": "dist/data/docs/24-1021-fc4291bf106d.json",
+  "sourceTextSha256": "cbf634253747c378f4909e44a5038aff3f55ac59540541bdc033f094d0621085",
+  "sourcePdfPath": "dist/data/pdfs/24-1021-fc4291bf106d--7-55.pdf",
+  "sourcePdfSha256": "f2317a6ba4259e295467765bae663165c5c3eec377ea9edca0f6a7c3df5e3c86",
+  "title": "Opinion of the Court",
+  "author": "Sonia Sotomayor",
+  "date": "2026-03-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r18_d18f.pdf",
+  "sourceRange": {
+    "startPage": 7,
+    "startOffset": 109,
+    "endPage": 28,
+    "endOffset": 1641
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 109,
+          "end": 376
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 376,
+          "end": 1075
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1075,
+          "end": 1076
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1077,
+          "end": 1078
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1079,
+          "end": 1509
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 61,
+          "end": 682
+        }
+      ],
+      "citations": [
+        {
+          "start": 110,
+          "end": 192,
+          "text": "See N. J. Public Transportation Act of 1979, N. J. Stat. § 27:25–1 et seq. (2026).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-1"
+        },
+        {
+          "start": 286,
+          "end": 299,
+          "text": "§ 27:25–4(a).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 427,
+          "end": 432,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "N.J.S.A.27:25-4"
+        },
+        {
+          "start": 616,
+          "end": 621,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "N.J.S.A.27:25-4"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 682,
+          "end": 1602
+        }
+      ],
+      "citations": [
+        {
+          "start": 411,
+          "end": 432,
+          "text": "§§ 27:25–5, 27:25–13.",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-5"
+        },
+        {
+          "start": 650,
+          "end": 662,
+          "text": "§ 27:25– 17.",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-17."
+        },
+        {
+          "start": 915,
+          "end": 920,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "N.J.S.A.27:25-17"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[n]o",
+          "to": "no"
+        },
+        {
+          "from": "[a]ll",
+          "to": "all"
+        },
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1602,
+          "end": 2095
+        },
+        {
+          "page": 9,
+          "start": 55,
+          "end": 177
+        }
+      ],
+      "citations": [
+        {
+          "start": 61,
+          "end": 74,
+          "text": "§ 27:25–4(b).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 132,
+          "end": 137,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "N.J.S.A.27:25-4"
+        },
+        {
+          "start": 403,
+          "end": 408,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "N.J.S.A.27:25-4"
+        },
+        {
+          "start": 522,
+          "end": 541,
+          "text": "§§ 27:25–4(b), (f).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 601,
+          "end": 615,
+          "text": "§ 27:25–13(h).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-13"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 177,
+          "end": 700
+        }
+      ],
+      "citations": [
+        {
+          "start": 397,
+          "end": 421,
+          "text": "Brief for NJ Transit 35.",
+          "type": "record",
+          "canonical": "Brief for NJ Transit 35."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        },
+        {
+          "from": "CEO",
+          "to": "C E O"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1698,
+          "end": 1838
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 139,
+          "text": "See NJ Transit Corp., New Jersey Transit Corporation Annual Financial Report (Year Ended June 30, 2024), p. 11, https://perma.cc/Z2H5-ZJ48.",
+          "type": "record",
+          "canonical": "See NJ Transit Corp., New Jersey Transit Corporation Annual Financial Report (Year Ended June 30, 2024), p. 11, https://perma.cc/Z2H5-ZJ48."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 701,
+          "end": 808
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1840,
+          "end": 1851
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 10,
+          "text": "Id., at 4.",
+          "type": "record",
+          "canonical": "NJTransit2024AnnualReport"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 810,
+          "end": 1007
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1007,
+          "end": 1008
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1009,
+          "end": 1313
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1313,
+          "end": 1583
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1583,
+          "end": 1696
+        },
+        {
+          "page": 10,
+          "start": 61,
+          "end": 283
+        }
+      ],
+      "citations": [
+        {
+          "start": 80,
+          "end": 132,
+          "text": "43 N. Y . 3d 463, 466, 264 N. E. 3d 774, 776 (2024).",
+          "type": "case",
+          "canonical": "264 N.E.3d 774"
+        },
+        {
+          "start": 301,
+          "end": 335,
+          "text": "Id., at 472, 264 N. E. 3d, at 780.",
+          "type": "case",
+          "canonical": "264 N.E.3d 774"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1693,
+          "end": 2247
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 152,
+          "text": "See, e. g., Fresenius Medical Care Cardiovascular Resources, Inc. v. Puerto Rico and Caribbean Cardiovascular Center Corp., 322 F. 3d 56, 68 (CA1 2003);",
+          "type": "case",
+          "canonical": "322 F.3d 56"
+        },
+        {
+          "start": 153,
+          "end": 223,
+          "text": "Mancuso v. New York State Thruway Auth., 86 F. 3d 289, 293 (CA2 1996);",
+          "type": "case",
+          "canonical": "86 F.3d 289"
+        },
+        {
+          "start": 224,
+          "end": 273,
+          "text": "Karns v. Shanahan, 879 F. 3d 504, 513 (CA3 2018);",
+          "type": "case",
+          "canonical": "879 F.3d 504"
+        },
+        {
+          "start": 274,
+          "end": 377,
+          "text": "Springboards to Education, Inc. v. McAllen Independent School Dist., 62 F. 4th 174, 178–179 (CA5 2023);",
+          "type": "case",
+          "canonical": "62 F.4th 174"
+        },
+        {
+          "start": 378,
+          "end": 453,
+          "text": "Kohn v. State Bar of Cal., 87 F. 4th 1021, 1027– 1030 (CA9 2023) (en banc);",
+          "type": "case",
+          "canonical": "87 F.4th 1021"
+        },
+        {
+          "start": 454,
+          "end": 553,
+          "text": "Puerto Rico Ports Auth. v. Federal Maritime Comm'n, 531 F. 3d 868, 874 (CADC 2008) (Kavanaugh, J.).",
+          "type": "case",
+          "canonical": "531 F.3d 868"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 284,
+          "end": 680
+        }
+      ],
+      "citations": [
+        {
+          "start": 237,
+          "end": 271,
+          "text": "Id., at 473, 264 N. E. 3d, at 781.",
+          "type": "case",
+          "canonical": "264 N.E.3d 774"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 680,
+          "end": 1691
+        },
+        {
+          "page": 11,
+          "start": 86,
+          "end": 156
+        }
+      ],
+      "citations": [
+        {
+          "start": 112,
+          "end": 138,
+          "text": "332 A. 3d 776, 779 (2025).",
+          "type": "case",
+          "canonical": "332 A.3d 776"
+        },
+        {
+          "start": 913,
+          "end": 948,
+          "text": "Id., at 785–786 (brackets omitted).",
+          "type": "case",
+          "canonical": "332 A.3d 776"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 156,
+          "end": 259
+        }
+      ],
+      "citations": [
+        {
+          "start": 82,
+          "end": 103,
+          "text": "606 U. S. 959 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 959"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1733,
+          "end": 1987
+        }
+      ],
+      "citations": [
+        {
+          "start": 233,
+          "end": 255,
+          "text": "606 U. S. 1051 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 1051"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 11,
+          "start": 261,
+          "end": 263
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 264,
+          "end": 1075
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 215,
+          "text": "Alden v. Maine, 527 U. S. 706, 713 (1999).",
+          "type": "case",
+          "canonical": "527 U.S. 706"
+        },
+        {
+          "start": 357,
+          "end": 423,
+          "text": "See Franchise Tax Bd. of Cal. v. Hyatt, 587 U. S. 230, 249 (2019).",
+          "type": "case",
+          "canonical": "587 U.S. 230"
+        },
+        {
+          "start": 569,
+          "end": 608,
+          "text": "In re Ayers, 123 U. S. 443, 505 (1887).",
+          "type": "case",
+          "canonical": "123 U.S. 443"
+        },
+        {
+          "start": 786,
+          "end": 811,
+          "text": "Alden, 527 U. S., at 749.",
+          "type": "case",
+          "canonical": "527 U.S. 706"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1075,
+          "end": 1731
+        },
+        {
+          "page": 12,
+          "start": 61,
+          "end": 163
+        }
+      ],
+      "citations": [
+        {
+          "start": 68,
+          "end": 165,
+          "text": "College Savings Bank v. Florida Prepaid Postsecondary Ed. Expense Bd., 527 U. S. 666, 675 (1999).",
+          "type": "case",
+          "canonical": "527 U.S. 666"
+        },
+        {
+          "start": 311,
+          "end": 336,
+          "text": "Alden, 527 U. S., at 756.",
+          "type": "case",
+          "canonical": "527 U.S. 706"
+        },
+        {
+          "start": 525,
+          "end": 590,
+          "text": "Regents of Univ. of Cal. v. Doe, 519 U. S. 425, 429, n. 5 (1997).",
+          "type": "case",
+          "canonical": "519 U.S. 425"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "corporation[s]",
+          "to": "corporations"
+        },
+        {
+          "from": "entit[ies]",
+          "to": "entities"
+        },
+        {
+          "from": "arm[s]",
+          "to": "arms"
+        },
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 163,
+          "end": 164
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 165,
+          "end": 166
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 167,
+          "end": 910
+        }
+      ],
+      "citations": [
+        {
+          "start": 488,
+          "end": 556,
+          "text": "Trustees of Dartmouth College v. Woodward, 4 Wheat. 518, 667 (1819).",
+          "type": "case",
+          "canonical": "17 U.S. 518"
+        },
+        {
+          "start": 727,
+          "end": 743,
+          "text": "Id., at 667–668.",
+          "type": "case",
+          "canonical": "17 U.S. 518"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 910,
+          "end": 1967
+        },
+        {
+          "page": 13,
+          "start": 55,
+          "end": 167
+        }
+      ],
+      "citations": [
+        {
+          "start": 94,
+          "end": 140,
+          "text": "Bank of United States v. Planters' Bank of Ga.",
+          "type": "case",
+          "canonical": "22 U.S. 904",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 142,
+          "end": 162,
+          "text": "9 Wheat. 904 (1824).",
+          "type": "case",
+          "canonical": "22 U.S.904"
+        },
+        {
+          "start": 375,
+          "end": 387,
+          "text": "Id., at 907.",
+          "type": "case",
+          "canonical": "22 U.S. 904"
+        },
+        {
+          "start": 657,
+          "end": 673,
+          "text": "Id., at 907–908.",
+          "type": "case",
+          "canonical": "22 U.S. 904"
+        },
+        {
+          "start": 1002,
+          "end": 1069,
+          "text": "See, e. g., Bank of Kentucky v. Wister, 2 Pet. 318, 323–324 (1829);",
+          "type": "case",
+          "canonical": "27 U.S.318"
+        },
+        {
+          "start": 1070,
+          "end": 1128,
+          "text": "Briscoe v. Bank of Kentucky , 11 Pet. 257, 326–327 (1837);",
+          "type": "case",
+          "canonical": "36 U.S.257"
+        },
+        {
+          "start": 1129,
+          "end": 1173,
+          "text": "Curran v. Arkansas, 15 How. 304, 309 (1853).",
+          "type": "case",
+          "canonical": "56 U.S.304"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "Ga.",
+          "to": "Georgia"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 167,
+          "end": 569
+        }
+      ],
+      "citations": [
+        {
+          "start": 341,
+          "end": 401,
+          "text": "See Lincoln County v. Luning, 133 U. S. 529, 530–531 (1890).",
+          "type": "case",
+          "canonical": "133 U.S. 529"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 569,
+          "end": 1097
+        }
+      ],
+      "citations": [
+        {
+          "start": 175,
+          "end": 256,
+          "text": "See, e. g., Metropolitan R. Co. v. District of Columbia, 132 U. S. 1, 7–8 (1889);",
+          "type": "case",
+          "canonical": "132 U.S. 1"
+        },
+        {
+          "start": 257,
+          "end": 368,
+          "text": "Sloan Shipyards Corp. v. United States Shipping Bd. Emergency Fleet Corporation, 258 U. S. 549, 566–568 (1922);",
+          "type": "case",
+          "canonical": "258 U.S. 549"
+        },
+        {
+          "start": 369,
+          "end": 441,
+          "text": "Federal Land Bank of St. Louis v. Priddy, 295 U. S. 229, 235–237 (1935);",
+          "type": "case",
+          "canonical": "295 U.S. 229"
+        },
+        {
+          "start": 442,
+          "end": 527,
+          "text": "Keifer & Keifer v. Reconstruction Finance Corporation, 306 U. S. 381, 393–394 (1939).",
+          "type": "case",
+          "canonical": "306 U.S. 381"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1097,
+          "end": 1098
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1099,
+          "end": 2036
+        },
+        {
+          "page": 14,
+          "start": 92,
+          "end": 772
+        }
+      ],
+      "citations": [
+        {
+          "start": 352,
+          "end": 377,
+          "text": "Moor v. County of Alameda",
+          "type": "case",
+          "canonical": "411 U.S. 693",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 379,
+          "end": 400,
+          "text": "411 U. S. 693 (1973),",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        },
+        {
+          "start": 534,
+          "end": 549,
+          "text": "Id., at 717–718",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        },
+        {
+          "start": 791,
+          "end": 807,
+          "text": "Id., at 718–719.",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        },
+        {
+          "start": 1097,
+          "end": 1109,
+          "text": "Id., at 719.",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        },
+        {
+          "start": 1278,
+          "end": 1294,
+          "text": "Id., at 719–720.",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        },
+        {
+          "start": 1446,
+          "end": 1462,
+          "text": "Id., at 720–721.",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        },
+        {
+          "start": 1605,
+          "end": 1617,
+          "text": "Id., at 721.",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "subdivisio[n]",
+          "to": "subdivision"
+        },
+        {
+          "from": "[m]ost",
+          "to": "most"
+        },
+        {
+          "from": "contract[s]",
+          "to": "contracts"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 772,
+          "end": 1601
+        }
+      ],
+      "citations": [
+        {
+          "start": 120,
+          "end": 156,
+          "text": "Mt. Healthy City Bd. of Ed. v. Doyle",
+          "type": "case",
+          "canonical": "429 U.S. 274",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 158,
+          "end": 179,
+          "text": "429 U. S. 274 (1977),",
+          "type": "case",
+          "canonical": "429 U.S. 274"
+        },
+        {
+          "start": 309,
+          "end": 321,
+          "text": "Id., at 280.",
+          "type": "case",
+          "canonical": "429 U.S. 274"
+        },
+        {
+          "start": 676,
+          "end": 681,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "429 U.S. 274"
+        },
+        {
+          "start": 813,
+          "end": 829,
+          "text": "Id., at 280–281.",
+          "type": "case",
+          "canonical": "429 U.S. 274"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "subdivisio[n]",
+          "to": "subdivision"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1601,
+          "end": 2177
+        },
+        {
+          "page": 15,
+          "start": 86,
+          "end": 1866
+        }
+      ],
+      "citations": [
+        {
+          "start": 118,
+          "end": 178,
+          "text": "Lake Country Estates, Inc. v. Tahoe Regional Planning Agency",
+          "type": "case",
+          "canonical": "440 U.S. 391",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 180,
+          "end": 206,
+          "text": "440 U. S. 391, 401 (1979).",
+          "type": "case",
+          "canonical": "440 U.S. 391"
+        },
+        {
+          "start": 383,
+          "end": 395,
+          "text": "Id., at 394.",
+          "type": "case",
+          "canonical": "440 U.S. 391"
+        },
+        {
+          "start": 602,
+          "end": 618,
+          "text": "Id., at 401–402.",
+          "type": "case",
+          "canonical": "440 U.S. 391"
+        },
+        {
+          "start": 930,
+          "end": 935,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "440 U.S. 391"
+        },
+        {
+          "start": 1011,
+          "end": 1023,
+          "text": "Id., at 402.",
+          "type": "case",
+          "canonical": "440 U.S. 391"
+        },
+        {
+          "start": 1036,
+          "end": 1083,
+          "text": "Hess v. Port Authority Trans-Hudson Corporation",
+          "type": "case",
+          "canonical": "513 U.S. 30",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1085,
+          "end": 1105,
+          "text": "513 U. S. 30 (1994),",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 1435,
+          "end": 1449,
+          "text": "Id., at 44–45.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 1687,
+          "end": 1698,
+          "text": "Id., at 46.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 2056,
+          "end": 2070,
+          "text": "Id., at 47–48.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 2346,
+          "end": 2357,
+          "text": "Id., at 52.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1866,
+          "end": 1867
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1868,
+          "end": 2028
+        },
+        {
+          "page": 16,
+          "start": 61,
+          "end": 160
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 160,
+          "end": 1022
+        }
+      ],
+      "citations": [
+        {
+          "start": 211,
+          "end": 252,
+          "text": "See Planters' Bank, 9 Wheat., at 907–908;",
+          "type": "case",
+          "canonical": "22 U.S. 904"
+        },
+        {
+          "start": 253,
+          "end": 292,
+          "text": "Lincoln County , 133 U. S., at 530–531;",
+          "type": "case",
+          "canonical": "133 U.S. 529"
+        },
+        {
+          "start": 293,
+          "end": 319,
+          "text": "Hess, 513 U. S., at 44–45.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 550,
+          "end": 647,
+          "text": "Agency for Int'l Development v. Alliance for Open Society Int'l, Inc., 591 U. S. 430, 435 (2020).",
+          "type": "case",
+          "canonical": "591 U.S. 430"
+        },
+        {
+          "start": 770,
+          "end": 861,
+          "text": "First Nat. City Bank v. Banco Para el Comercio Exterior de Cuba, 462 U. S. 611, 625 (1983).",
+          "type": "case",
+          "canonical": "462 U.S. 611"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[been]",
+          "to": "been"
+        },
+        {
+          "from": "[s]eparate",
+          "to": "separate"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1022,
+          "end": 2156
+        },
+        {
+          "page": 17,
+          "start": 86,
+          "end": 202
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 491,
+          "end": 504,
+          "text": "Art. I, § 10;",
+          "type": "record",
+          "canonical": "U.S. Constitution Article I Section10"
+        },
+        {
+          "start": 505,
+          "end": 539,
+          "text": "see Briscoe, 11 Pet., at 326– 327.",
+          "type": "case",
+          "canonical": "36 U.S. 257"
+        },
+        {
+          "start": 656,
+          "end": 748,
+          "text": "See, e. g., Schulz v. State, 84 N. Y . 2d 231, 243–244, 639 N. E. 2d 1140, 1145–1146 (1994).",
+          "type": "case",
+          "canonical": "639 N.E.2d 1140"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 202,
+          "end": 854
+        }
+      ],
+      "citations": [
+        {
+          "start": 265,
+          "end": 298,
+          "text": "Lake Country , 440 U. S., at 401.",
+          "type": "case",
+          "canonical": "440 U.S. 391"
+        },
+        {
+          "start": 383,
+          "end": 410,
+          "text": "See Moor, 411 U. S., at 719",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 854,
+          "end": 1667
+        }
+      ],
+      "citations": [
+        {
+          "start": 224,
+          "end": 247,
+          "text": "Hess, 513 U. S., at 51;",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 248,
+          "end": 281,
+          "text": "Planters' Bank, 9 Wheat., at 907;",
+          "type": "case",
+          "canonical": "22 U.S. 904"
+        },
+        {
+          "start": 282,
+          "end": 318,
+          "text": "see also Regents, 519 U. S., at 430.",
+          "type": "case",
+          "canonical": "519 U.S. 425"
+        },
+        {
+          "start": 498,
+          "end": 576,
+          "text": "Lewis v. Clarke, 581 U. S. 155, 167 (2017) (quoting Alden, 527 U. S., at 751).",
+          "type": "case",
+          "canonical": "581 U.S. 155"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[their]",
+          "to": "their"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1667,
+          "end": 2212
+        },
+        {
+          "page": 18,
+          "start": 61,
+          "end": 376
+        }
+      ],
+      "citations": [
+        {
+          "start": 325,
+          "end": 352,
+          "text": "Regents, 519 U. S., at 431,",
+          "type": "case",
+          "canonical": "519 U.S. 425"
+        },
+        {
+          "start": 489,
+          "end": 514,
+          "text": "Lewis, 581 U. S., at 165.",
+          "type": "case",
+          "canonical": "581 U.S. 155"
+        },
+        {
+          "start": 832,
+          "end": 863,
+          "text": "Mt. Healthy, 429 U. S., at 280.",
+          "type": "case",
+          "canonical": "429 U.S. 274"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "requir[ing]",
+          "to": "requiring"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 376,
+          "end": 1456
+        }
+      ],
+      "citations": [
+        {
+          "start": 319,
+          "end": 342,
+          "text": "Hess, 513 U. S., at 47.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 561,
+          "end": 566,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 686,
+          "end": 744,
+          "text": "Ibid. (quoting Note, 92 Colum. L. Rev. 1243, 1284 (1992)).",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "create[d]",
+          "to": "created"
+        },
+        {
+          "from": "[g]auging",
+          "to": "gauging"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1456,
+          "end": 2171
+        },
+        {
+          "page": 19,
+          "start": 55,
+          "end": 132
+        }
+      ],
+      "citations": [
+        {
+          "start": 363,
+          "end": 389,
+          "text": "Wister, 2 Pet., at 323–324",
+          "type": "case",
+          "canonical": "27 U.S. 318"
+        },
+        {
+          "start": 426,
+          "end": 478,
+          "text": "see Briscoe, 11 Pet., at 344 (Story, J., dissenting)",
+          "type": "case",
+          "canonical": "36 U.S. 257"
+        },
+        {
+          "start": 768,
+          "end": 794,
+          "text": "Hess, 513 U. S., at 44–47.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "manage[d]",
+          "to": "managed"
+        },
+        {
+          "from": "determine[d]",
+          "to": "determined"
+        },
+        {
+          "from": "[it]",
+          "to": "it"
+        },
+        {
+          "from": "undert[ook]",
+          "to": "undertook"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1507,
+          "end": 2187
+        }
+      ],
+      "citations": [
+        {
+          "start": 304,
+          "end": 330,
+          "text": "See Hess, 513 U. S., at 40",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 465,
+          "end": 513,
+          "text": "Auer v. Robbins, 519 U. S. 452, 456, n. 1 (1997)",
+          "type": "case",
+          "canonical": "519 U.S. 452"
+        },
+        {
+          "start": 611,
+          "end": 651,
+          "text": "Mo. Rev. Stat. §§ 84.210, 84.030 (1994),",
+          "type": "statute",
+          "canonical": "Mo.Rev.Stat. §§84.210,84.030"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[b]istate",
+          "to": "bistate"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 19,
+          "start": 134,
+          "end": 135
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 136,
+          "end": 488
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 488,
+          "end": 1505
+        },
+        {
+          "page": 20,
+          "start": 92,
+          "end": 1540
+        }
+      ],
+      "citations": [
+        {
+          "start": 312,
+          "end": 337,
+          "text": "Lewis, 581 U. S., at 162;",
+          "type": "case",
+          "canonical": "581 U.S. 155"
+        },
+        {
+          "start": 338,
+          "end": 390,
+          "text": "see Edelman v. Jordan, 415 U. S. 651, 663–665 (1974)",
+          "type": "case",
+          "canonical": "415 U.S. 651"
+        },
+        {
+          "start": 638,
+          "end": 670,
+          "text": "See Ayers, 123 U. S., at 502–503",
+          "type": "case",
+          "canonical": "123 U.S. 443"
+        },
+        {
+          "start": 837,
+          "end": 895,
+          "text": "Governor of Georgia v. Madrazo, 1 Pet. 110, 123–124 (1828)",
+          "type": "record",
+          "canonical": "Governor of Georgia v. Madrazo, 1 Pet. 110, 123–124 (1828)"
+        },
+        {
+          "start": 1220,
+          "end": 1238,
+          "text": "Hopkins v. Clemson",
+          "type": "case",
+          "canonical": "221 U.S. 636",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1240,
+          "end": 1261,
+          "text": "221 U. S. 636 (1911),",
+          "type": "case",
+          "canonical": "221 U.S. 636"
+        },
+        {
+          "start": 1507,
+          "end": 1523,
+          "text": "Id., at 641–642.",
+          "type": "case",
+          "canonical": "221 U.S. 636"
+        },
+        {
+          "start": 1818,
+          "end": 1830,
+          "text": "Id., at 646.",
+          "type": "case",
+          "canonical": "221 U.S. 636"
+        },
+        {
+          "start": 1986,
+          "end": 2002,
+          "text": "Id., at 648–649.",
+          "type": "case",
+          "canonical": "221 U.S. 636"
+        },
+        {
+          "start": 2132,
+          "end": 2137,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "221 U.S. 636"
+        },
+        {
+          "start": 2291,
+          "end": 2303,
+          "text": "Id., at 649.",
+          "type": "case",
+          "canonical": "221 U.S. 636"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "stri[ke]",
+          "to": "strike"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1744,
+          "end": 1932
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1542,
+          "end": 1545
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1546,
+          "end": 1547
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1548,
+          "end": 1628
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1628,
+          "end": 1742
+        },
+        {
+          "page": 21,
+          "start": 86,
+          "end": 976
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 157,
+          "end": 182,
+          "text": "N. J. Stat. § 27:25–4(a).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 417,
+          "end": 441,
+          "text": "§§ 27:25–5(a), (j), (r).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-5"
+        },
+        {
+          "start": 794,
+          "end": 833,
+          "text": "§§ 27:25–5(c), (g), (m), (n), (t), (u).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-5"
+        },
+        {
+          "start": 926,
+          "end": 975,
+          "text": "See, e. g., Planters' Bank, 9 Wheat., at 907–908;",
+          "type": "case",
+          "canonical": "22 U.S. 904"
+        },
+        {
+          "start": 976,
+          "end": 1002,
+          "text": "Hess, 513 U. S., at 44–46.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[s]ue",
+          "to": "sue"
+        },
+        {
+          "from": "[p]urchase",
+          "to": "purchase"
+        },
+        {
+          "from": "[m]ake",
+          "to": "make"
+        },
+        {
+          "from": "[s]et",
+          "to": "set"
+        },
+        {
+          "from": "[e]stablish",
+          "to": "establish"
+        },
+        {
+          "from": "[a]dopt",
+          "to": "adopt"
+        },
+        {
+          "from": "[o]wn",
+          "to": "own"
+        },
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 976,
+          "end": 1936
+        }
+      ],
+      "citations": [
+        {
+          "start": 85,
+          "end": 98,
+          "text": "§ 27:25–4(a).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 255,
+          "end": 293,
+          "text": "See, e. g., Regents, 519 U. S., at 429",
+          "type": "case",
+          "canonical": "519 U.S. 425"
+        },
+        {
+          "start": 708,
+          "end": 733,
+          "text": "§§ 59:1–1, 59:1–3 (2026).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 59:1-1"
+        },
+        {
+          "start": 862,
+          "end": 872,
+          "text": "§ 59:13–2.",
+          "type": "statute",
+          "canonical": "N.J.S.A. 59:13-2."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1936,
+          "end": 2179
+        },
+        {
+          "page": 22,
+          "start": 61,
+          "end": 238
+        }
+      ],
+      "citations": [
+        {
+          "start": 280,
+          "end": 291,
+          "text": "§ 27:25–17.",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-17."
+        },
+        {
+          "start": 396,
+          "end": 420,
+          "text": "Brief for NJ Transit 34.",
+          "type": "record",
+          "canonical": "Brief for NJ Transit 34."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[n]o",
+          "to": "no"
+        },
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 238,
+          "end": 1292
+        }
+      ],
+      "citations": [
+        {
+          "start": 248,
+          "end": 261,
+          "text": "§ 27:25–4(b);",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 340,
+          "end": 353,
+          "text": "§ 27:25–4(d);",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 404,
+          "end": 417,
+          "text": "§ 27:25–4(f);",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 476,
+          "end": 490,
+          "text": "§ 27:25–13(h).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-13"
+        },
+        {
+          "start": 725,
+          "end": 760,
+          "text": "§§ 27:25–4(a), 27:25– 4.1(b)(2)(d).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 870,
+          "end": 883,
+          "text": "§ 27:25–4(b).",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[transportation]",
+          "to": "transportation"
+        },
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1292,
+          "end": 1293
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1294,
+          "end": 2002
+        }
+      ],
+      "citations": [
+        {
+          "start": 303,
+          "end": 325,
+          "text": "See supra, at 523–525.",
+          "type": "record",
+          "canonical": "See supra, at 523–525."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        },
+        {
+          "from": "amici's",
+          "to": "ah mee keez"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 2002,
+          "end": 2123
+        },
+        {
+          "page": 23,
+          "start": 86,
+          "end": 1321
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 169,
+          "end": 217,
+          "text": "State Highway Comm'n of Wyo. v. Utah Constr. Co.",
+          "type": "case",
+          "canonical": "278 U.S. 194",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 219,
+          "end": 240,
+          "text": "278 U. S. 194 (1929),",
+          "type": "case",
+          "canonical": "278 U.S. 194"
+        },
+        {
+          "start": 634,
+          "end": 650,
+          "text": "Id., at 199–200.",
+          "type": "case",
+          "canonical": "278 U.S. 194"
+        },
+        {
+          "start": 891,
+          "end": 903,
+          "text": "Id., at 199.",
+          "type": "case",
+          "canonical": "278 U.S. 194"
+        },
+        {
+          "start": 1093,
+          "end": 1109,
+          "text": "Id., at 199–200.",
+          "type": "case",
+          "canonical": "278 U.S. 194"
+        },
+        {
+          "start": 1331,
+          "end": 1353,
+          "text": "See supra, at 520–523.",
+          "type": "record",
+          "canonical": "See supra, at 520–523."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[of Wyoming]",
+          "to": "of Wyoming"
+        },
+        {
+          "from": "part[y]",
+          "to": "party"
+        },
+        {
+          "from": "[wa]s",
+          "to": "was"
+        },
+        {
+          "from": "[the Court]",
+          "to": "the Court"
+        },
+        {
+          "from": "NJ",
+          "to": "N J"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "7",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1325,
+          "end": 2584
+        }
+      ],
+      "citations": [
+        {
+          "start": 204,
+          "end": 250,
+          "text": "See Thacker v. TVA, 587 U. S. 218, 221 (2019);",
+          "type": "case",
+          "canonical": "587 U.S. 218"
+        },
+        {
+          "start": 251,
+          "end": 348,
+          "text": "College Savings Bank v. Florida Prepaid Postsecondary Ed. Expense Bd., 527 U. S. 666, 676 (1999).",
+          "type": "case",
+          "canonical": "527 U.S. 666"
+        },
+        {
+          "start": 573,
+          "end": 600,
+          "text": "Thacker, 587 U. S., at 221;",
+          "type": "case",
+          "canonical": "587 U.S. 218"
+        },
+        {
+          "start": 601,
+          "end": 646,
+          "text": "College Savings Bank, 527 U. S., at 671, 676.",
+          "type": "case",
+          "canonical": "527 U.S. 666"
+        },
+        {
+          "start": 807,
+          "end": 859,
+          "text": "See Missouri v. Illinois, 180 U. S. 208, 242 (1901);",
+          "type": "case",
+          "canonical": "180 U.S. 208"
+        },
+        {
+          "start": 860,
+          "end": 910,
+          "text": "New York v. New Jersey, 256 U. S. 296, 302 (1921).",
+          "type": "case",
+          "canonical": "256 U.S. 296"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 92,
+          "end": 1339
+        }
+      ],
+      "citations": [
+        {
+          "start": 183,
+          "end": 196,
+          "text": "§ 27:25–4(a),",
+          "type": "statute",
+          "canonical": "N.J.S.A. 27:25-4"
+        },
+        {
+          "start": 359,
+          "end": 383,
+          "text": "Brief for NJ Transit 22.",
+          "type": "record",
+          "canonical": "Brief for NJ Transit 22."
+        },
+        {
+          "start": 786,
+          "end": 828,
+          "text": "See Lincoln County, 133 U. S., at 530– 531",
+          "type": "case",
+          "canonical": "133 U.S. 529"
+        },
+        {
+          "start": 855,
+          "end": 885,
+          "text": "Mt. Healthy, 429 U. S., at 281",
+          "type": "case",
+          "canonical": "429 U.S. 274"
+        },
+        {
+          "start": 1224,
+          "end": 1247,
+          "text": "Hess, 513 U. S., at 51.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "shoulder[, b]ut",
+          "to": "shoulder, but"
+        },
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1339,
+          "end": 2210
+        },
+        {
+          "page": 25,
+          "start": 55,
+          "end": 540
+        }
+      ],
+      "citations": [
+        {
+          "start": 131,
+          "end": 212,
+          "text": "Garcia v. San Antonio Metropolitan Transit Authority , 469 U. S. 528, 546 (1985).",
+          "type": "case",
+          "canonical": "469 U.S. 528"
+        },
+        {
+          "start": 493,
+          "end": 509,
+          "text": "Id., at 546–547.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 824,
+          "end": 847,
+          "text": "Hess, 513 U. S., at 45.",
+          "type": "case",
+          "canonical": "513 U.S. 30"
+        },
+        {
+          "start": 1007,
+          "end": 1024,
+          "text": "See supra, at 517",
+          "type": "record",
+          "canonical": "See supra, at 517"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[and]",
+          "to": "and"
+        },
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 540,
+          "end": 1023
+        }
+      ],
+      "citations": [
+        {
+          "start": 328,
+          "end": 355,
+          "text": "Brief for NJ Transit 34–37.",
+          "type": "record",
+          "canonical": "Brief for NJ Transit 34–37."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1023,
+          "end": 1902
+        }
+      ],
+      "citations": [
+        {
+          "start": 265,
+          "end": 283,
+          "text": "440 U. S., at 401.",
+          "type": "record",
+          "canonical": "440 U. S., at 401."
+        },
+        {
+          "start": 408,
+          "end": 533,
+          "text": "Ibid., and n. 18 (citing Edelman, 415 U. S. 651; and Ford Motor Co. v. Department of Treasury of Ind., 323 U. S. 459 (1945)).",
+          "type": "case",
+          "canonical": "440 U.S. 391"
+        },
+        {
+          "start": 630,
+          "end": 652,
+          "text": "See supra, at 527–528.",
+          "type": "record",
+          "canonical": "See supra, at 527–528."
+        },
+        {
+          "start": 841,
+          "end": 878,
+          "text": "440 U. S., at 402 (emphasis deleted).",
+          "type": "record",
+          "canonical": "440 U. S., at 402 (emphasis deleted)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "provide[d]",
+          "to": "provided"
+        },
+        {
+          "from": "[the entity]",
+          "to": "the entity"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1902,
+          "end": 2079
+        },
+        {
+          "page": 26,
+          "start": 92,
+          "end": 960
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 258,
+          "text": "513 U. S., at 45–46, 51.",
+          "type": "record",
+          "canonical": "513 U. S., at 45–46, 51."
+        },
+        {
+          "start": 580,
+          "end": 591,
+          "text": "Id., at 46.",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        },
+        {
+          "start": 778,
+          "end": 822,
+          "text": "See, e. g., Planters' Bank, 9 Wheat., at 907",
+          "type": "case",
+          "canonical": "22 U.S. 904"
+        },
+        {
+          "start": 966,
+          "end": 989,
+          "text": "Moor, 411 U. S., at 719",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[was]",
+          "to": "was"
+        },
+        {
+          "from": "responsib[ility]",
+          "to": "responsibility"
+        },
+        {
+          "from": "judgment[s]",
+          "to": "judgments"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "8",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1759,
+          "end": 2264
+        }
+      ],
+      "citations": [
+        {
+          "start": 128,
+          "end": 148,
+          "text": "513 U. S., at 49–50.",
+          "type": "record",
+          "canonical": "513 U. S., at 49–50."
+        },
+        {
+          "start": 374,
+          "end": 453,
+          "text": "See Alaska Cargo Transp., Inc. v. Alaska R. Corp., 5 F. 3d 378, 381 (CA9 1993);",
+          "type": "case",
+          "canonical": "5 F.3d 378"
+        },
+        {
+          "start": 454,
+          "end": 506,
+          "text": "Morris v. WMATA, 781 F. 2d 218, 225–227 (CADC 1986).",
+          "type": "case",
+          "canonical": "781 F.2d 218"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "place[d]",
+          "to": "placed"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 962,
+          "end": 1757
+        }
+      ],
+      "citations": [
+        {
+          "start": 343,
+          "end": 367,
+          "text": "Brief for NJ Transit 35.",
+          "type": "record",
+          "canonical": "Brief for NJ Transit 35."
+        },
+        {
+          "start": 604,
+          "end": 615,
+          "text": "Id., at 34.",
+          "type": "record",
+          "canonical": "Brief for NJTransit"
+        },
+        {
+          "start": 726,
+          "end": 771,
+          "text": "See, e. g., Planters' Bank, 9 Wheat., at 907;",
+          "type": "case",
+          "canonical": "22 U.S. 904"
+        },
+        {
+          "start": 772,
+          "end": 796,
+          "text": "Moor, 411 U. S., at 719.",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 86,
+          "end": 1232
+        }
+      ],
+      "citations": [
+        {
+          "start": 269,
+          "end": 312,
+          "text": "See Biden v. Nebraska, 600 U. S. 477 (2023)",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 325,
+          "end": 364,
+          "text": "Arkansas v. Texas, 346 U. S. 368 (1953)",
+          "type": "case",
+          "canonical": "346 U.S. 368"
+        },
+        {
+          "start": 377,
+          "end": 448,
+          "text": "Lebron v. National Railroad Passenger Corporation, 513 U. S. 374 (1995)",
+          "type": "case",
+          "canonical": "513 U.S. 374"
+        },
+        {
+          "start": 468,
+          "end": 520,
+          "text": "Osborn v. Bank of United States, 9 Wheat. 738 (1824)",
+          "type": "case",
+          "canonical": "22 U.S. 738"
+        },
+        {
+          "start": 671,
+          "end": 705,
+          "text": "Nebraska, 600 U. S., at 494, n. 3;",
+          "type": "case",
+          "canonical": "600 U.S. 477"
+        },
+        {
+          "start": 706,
+          "end": 740,
+          "text": "see Lebron, 513 U. S., at 392, 400",
+          "type": "case",
+          "canonical": "513 U.S. 374"
+        },
+        {
+          "start": 876,
+          "end": 910,
+          "text": "see also Priddy, 295 U. S., at 235",
+          "type": "case",
+          "canonical": "295 U.S. 229"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1232,
+          "end": 1600
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        },
+        {
+          "from": "amici curiae",
+          "to": "ah mee kee cure ee eye"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1600,
+          "end": 2130
+        },
+        {
+          "page": 28,
+          "start": 92,
+          "end": 896
+        }
+      ],
+      "citations": [
+        {
+          "start": 182,
+          "end": 200,
+          "text": "See supra, at 525.",
+          "type": "record",
+          "canonical": "See supra, at 525."
+        },
+        {
+          "start": 630,
+          "end": 670,
+          "text": "First Nat. City Bank, 462 U. S., at 625;",
+          "type": "case",
+          "canonical": "462 U.S. 611"
+        },
+        {
+          "start": 671,
+          "end": 702,
+          "text": "see Moor, 693 U. S., at 719–720",
+          "type": "case",
+          "canonical": "411 U.S. 693"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[s]eparate",
+          "to": "separate"
+        },
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 896,
+          "end": 1296
+        }
+      ],
+      "citations": [
+        {
+          "start": 81,
+          "end": 164,
+          "text": "Berger v. North Carolina State Conference of the NAACP , 597 U. S. 179, 183 (2022).",
+          "type": "case",
+          "canonical": "597 U.S. 179"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1296,
+          "end": 1298
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1299,
+          "end": 1641
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "NJ",
+          "to": "N J"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 7,
+      "start": 1509,
+      "end": 1882,
+      "text": "siana, Dana Nessel of Michigan, Keith Ellison of Minnesota, Lynn Fitch\nof Mississippi, Michael T. Hilgers of Nebraska, Aaron D. Ford of Nevada,\nDrew Wrigley of North Dakota, Dave Yost of Ohio, Dave Sunday of Pennsylvania, Marty Jackley of South Dakota, Jonathan Skrmetti of Tennessee, Jason Miyares of Virginia, and Keith G. Kautz of Wyoming.\nPage Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 61,
+      "text": "516 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 2095,
+      "end": 2125,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 509 (2026) 517\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 700,
+      "end": 701,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 808,
+      "end": 810,
+      "text": "2\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1696,
+      "end": 1698,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1838,
+      "end": 1840,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1851,
+      "end": 1881,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 61,
+      "text": "518 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 283,
+      "end": 284,
+      "text": "3",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1691,
+      "end": 1693,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 2247,
+      "end": 2277,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 509 (2026) 519\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 259,
+      "end": 261,
+      "text": "4\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 1731,
+      "end": 1733,
+      "text": "4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 61,
+      "text": "520 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1967,
+      "end": 1997,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 509 (2026) 521\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 2036,
+      "end": 2066,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 92,
+      "text": "Page Proof Pending Publication\n522 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 509 (2026) 523\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 61,
+      "text": "524 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 2156,
+      "end": 2186,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 509 (2026) 525\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 61,
+      "text": "526 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 2171,
+      "end": 2201,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 509 (2026) 527\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 132,
+      "end": 134,
+      "text": "5\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 1505,
+      "end": 1507,
+      "text": "5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 2187,
+      "end": 2217,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 92,
+      "text": "Page Proof Pending Publication\n528 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 1540,
+      "end": 1542,
+      "text": "6\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 1742,
+      "end": 1744,
+      "text": "6 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 509 (2026) 529\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 61,
+      "text": "530 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 2123,
+      "end": 2153,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 509 (2026) 531\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 1321,
+      "end": 1325,
+      "text": "7\n7 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 92,
+      "text": "Page Proof Pending Publication\n532 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 509 (2026) 533\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 2079,
+      "end": 2109,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 92,
+      "text": "Page Proof Pending Publication\n534 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 960,
+      "end": 962,
+      "text": "8\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 1757,
+      "end": 1759,
+      "text": "8 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 509 (2026) 535\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 92,
+      "text": "Page Proof Pending Publication\n536 GALETTE v. NEW JERSEY TRANSIT CORP.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 7,
+      "start": 1003,
+      "end": 1010,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 7,
+      "start": 1275,
+      "end": 1285,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 8,
+      "start": 659,
+      "end": 665,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 8,
+      "start": 708,
+      "end": 718,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 9,
+      "start": 729,
+      "end": 738,
+      "expectedText": "fuctuated",
+      "text": "fluctuated"
+    },
+    {
+      "page": 10,
+      "start": 91,
+      "end": 95,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 10,
+      "start": 363,
+      "end": 369,
+      "expectedText": "defnes",
+      "text": "defines"
+    },
+    {
+      "page": 11,
+      "start": 201,
+      "end": 208,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 11,
+      "start": 373,
+      "end": 384,
+      "expectedText": "ratifcation",
+      "text": "ratification"
+    },
+    {
+      "page": 11,
+      "start": 1781,
+      "end": 1785,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 12,
+      "start": 67,
+      "end": 71,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 12,
+      "start": 449,
+      "end": 458,
+      "expectedText": "artifcial",
+      "text": "artificial"
+    },
+    {
+      "page": 12,
+      "start": 921,
+      "end": 925,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 12,
+      "start": 1194,
+      "end": 1202,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 12,
+      "start": 1599,
+      "end": 1608,
+      "expectedText": "reaffrmed",
+      "text": "reaffirmed"
+    },
+    {
+      "page": 12,
+      "start": 1773,
+      "end": 1783,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 12,
+      "start": 1898,
+      "end": 1905,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 14,
+      "start": 713,
+      "end": 724,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 14,
+      "start": 787,
+      "end": 792,
+      "expectedText": "frmly",
+      "text": "firmly"
+    },
+    {
+      "page": 15,
+      "start": 1255,
+      "end": 1265,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 17,
+      "start": 1040,
+      "end": 1048,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 17,
+      "start": 1662,
+      "end": 1665,
+      "expectedText": "fsc",
+      "text": "fisc"
+    },
+    {
+      "page": 17,
+      "start": 1728,
+      "end": 1736,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 18,
+      "start": 139,
+      "end": 148,
+      "expectedText": "nonprofts",
+      "text": "nonprofits"
+    },
+    {
+      "page": 18,
+      "start": 324,
+      "end": 334,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 18,
+      "start": 606,
+      "end": 618,
+      "expectedText": "statecreated",
+      "text": "state-created"
+    },
+    {
+      "page": 18,
+      "start": 1242,
+      "end": 1249,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 1347,
+      "end": 1355,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 18,
+      "start": 1600,
+      "end": 1610,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 18,
+      "start": 1760,
+      "end": 1767,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 2133,
+      "end": 2140,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 19,
+      "start": 644,
+      "end": 650,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 19,
+      "start": 660,
+      "end": 667,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 19,
+      "start": 787,
+      "end": 794,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 19,
+      "start": 920,
+      "end": 927,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 19,
+      "start": 935,
+      "end": 942,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 19,
+      "start": 1884,
+      "end": 1896,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 20,
+      "start": 534,
+      "end": 537,
+      "expectedText": "fow",
+      "text": "flow"
+    },
+    {
+      "page": 21,
+      "start": 625,
+      "end": 631,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 21,
+      "start": 1656,
+      "end": 1665,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 21,
+      "start": 1754,
+      "end": 1762,
+      "expectedText": "specifes",
+      "text": "specifies"
+    },
+    {
+      "page": 22,
+      "start": 891,
+      "end": 897,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 23,
+      "start": 1745,
+      "end": 1750,
+      "expectedText": "armof",
+      "text": "arm-of"
+    },
+    {
+      "page": 24,
+      "start": 1364,
+      "end": 1372,
+      "expectedText": "qualifes",
+      "text": "qualifies"
+    },
+    {
+      "page": 25,
+      "start": 129,
+      "end": 137,
+      "expectedText": "fulflled",
+      "text": "fulfilled"
+    },
+    {
+      "page": 25,
+      "start": 661,
+      "end": 669,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 26,
+      "start": 599,
+      "end": 607,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 26,
+      "start": 640,
+      "end": 648,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 26,
+      "start": 788,
+      "end": 796,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 26,
+      "start": 1494,
+      "end": 1504,
+      "expectedText": "fnancially",
+      "text": "financially"
+    },
+    {
+      "page": 26,
+      "start": 1535,
+      "end": 1545,
+      "expectedText": "fnancially",
+      "text": "financially"
+    },
+    {
+      "page": 26,
+      "start": 1847,
+      "end": 1852,
+      "expectedText": "fscal",
+      "text": "fiscal"
+    },
+    {
+      "page": 27,
+      "start": 223,
+      "end": 231,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 27,
+      "start": 1359,
+      "end": 1369,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 28,
+      "start": 560,
+      "end": 572,
+      "expectedText": "statecreated",
+      "text": "state-created"
+    },
+    {
+      "page": 28,
+      "start": 1468,
+      "end": 1475,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 16,
+      "start": 2154,
+      "end": 2156,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 20,
+      "start": 1740,
+      "end": 1742,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 22,
+      "start": 2121,
+      "end": 2123,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 1779,
+      "end": 1785,
+      "expectedText": "offcio",
+      "text": "officio"
+    },
+    {
+      "page": 10,
+      "start": 889,
+      "end": 902,
+      "expectedText": "classifcation",
+      "text": "classification"
+    },
+    {
+      "page": 11,
+      "start": 1568,
+      "end": 1573,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 17,
+      "start": 522,
+      "end": 527,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 17,
+      "start": 623,
+      "end": 629,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 21,
+      "start": 1604,
+      "end": 1618,
+      "expectedText": "sue-and-besued",
+      "text": "sue-and-be-sued"
+    },
+    {
+      "page": 21,
+      "start": 1782,
+      "end": 1796,
+      "expectedText": "sue-andbe-sued",
+      "text": "sue-and-be-sued"
+    },
+    {
+      "page": 24,
+      "start": 1187,
+      "end": 1191,
+      "expectedText": "food",
+      "text": "flood"
+    },
+    {
+      "page": 24,
+      "start": 1927,
+      "end": 1936,
+      "expectedText": "classifed",
+      "text": "classified"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed all twenty-two original Court-writing pages and all eight notes against PDF, ending at judgment before Reporter publication note. Citation-only notes1–3 retain individual references; substantive notes4–8 and all quoted/explanatory qualifications read inline, including nonexhaustive-analysis and real-party-in-interest reservations. Retain both companion case dispositions. Omit only reviewed exact citation/source spans. Source checksums/coordinates unchanged; extraction and page-word joins verified against PDF."
+}

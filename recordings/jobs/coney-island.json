@@ -1,0 +1,1395 @@
+{
+  "reviewed": true,
+  "documentId": "24-808-da85ea4afe0b--3-55",
+  "sourceDocumentId": "24-808-da85ea4afe0b",
+  "sourceTextPath": "dist/data/docs/24-808-da85ea4afe0b.json",
+  "sourceTextSha256": "a4aa0a336329b74923b7d5f9250bfc18d786443700af85166ea55c5ce5d84f0e",
+  "sourcePdfPath": "dist/data/pdfs/24-808-da85ea4afe0b--3-55.pdf",
+  "sourcePdfSha256": "3247fbfe6613bc9e4aa479e24054935f8a81c06c3ec3e07312c418de474b6403",
+  "title": "Opinion of the Court",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-01-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r08_f2q3.pdf",
+  "sourceRange": {
+    "startPage": 3,
+    "startOffset": 105,
+    "endPage": 8,
+    "endOffset": 468
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 105,
+          "end": 394
+        }
+      ],
+      "citations": [
+        {
+          "start": 79,
+          "end": 119,
+          "text": "Federal Rule of Civil Procedure 60(b)(4)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 126,
+          "end": 134,
+          "text": "60(c)(1)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 165,
+          "end": 170,
+          "text": "60(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(c)(1)",
+          "to": "Rule sixty c one"
+        },
+        {
+          "from": "Rule 60(b)",
+          "to": "Rule sixty b"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        },
+        {
+          "from": "Civil Procedure 60(b)(4)",
+          "to": "Civil Procedure sixty b four"
+        },
+        {
+          "from": "Civil Procedure 60",
+          "to": "Civil Procedure sixty"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 394,
+          "end": 396
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 396,
+          "end": 829
+        }
+      ],
+      "citations": [
+        {
+          "start": 384,
+          "end": 431,
+          "text": "Federal Rule of Bankruptcy Procedure 7004(b)(3)",
+          "type": "statute",
+          "canonical": "Fed. R. Bankr. P. 7004",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bankruptcy Procedure 7004(b)(3)",
+          "to": "Bankruptcy Procedure seven thousand four b three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 829,
+          "end": 1305
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1305,
+          "end": 1635
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Civil Procedure 60",
+          "to": "Civil Procedure sixty"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1635,
+          "end": 1865
+        },
+        {
+          "page": 4,
+          "start": 75,
+          "end": 246
+        }
+      ],
+      "citations": [
+        {
+          "start": 81,
+          "end": 88,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 305,
+          "end": 312,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1444,
+          "end": 2013
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 8,
+          "end": 86,
+          "text": "In re Vista-Pro Automotive, LLC , 109 F. 4th 438, 444 (CA6 2024) (case below),",
+          "type": "case",
+          "canonical": "109 F.4th 438"
+        },
+        {
+          "start": 92,
+          "end": 140,
+          "text": "Austin v. Smith, 312 F. 2d 337, 343 (CADC 1962);",
+          "type": "case",
+          "canonical": "312 F.2d 337"
+        },
+        {
+          "start": 141,
+          "end": 213,
+          "text": "V. T. A., Inc. v. Airco, Inc., 597 F. 2d 220, 224, and n. 9 (CA10 1979);",
+          "type": "case",
+          "canonical": "597 F.2d 220"
+        },
+        {
+          "start": 214,
+          "end": 270,
+          "text": "Rodd v. Region Constr. Co., 783 F. 2d 89, 91 (CA7 1986);",
+          "type": "case",
+          "canonical": "783 F.2d 89"
+        },
+        {
+          "start": 271,
+          "end": 342,
+          "text": "Hertz Corp. v. Alamo Rent-A-Car, Inc., 16 F. 3d 1126, 1130 (CA11 1994);",
+          "type": "case",
+          "canonical": "16 F.3d 1126"
+        },
+        {
+          "start": 343,
+          "end": 423,
+          "text": "Sea-Land Serv., Inc. v. Ceramica Europa II, Inc., 160 F. 3d 849, 852 (CA1 1998);",
+          "type": "case",
+          "canonical": "160 F.3d 849"
+        },
+        {
+          "start": 424,
+          "end": 515,
+          "text": "United States v. One Toshiba Color Television, 213 F. 3d 147, 157–158 (CA3 2000) (en banc);",
+          "type": "case",
+          "canonical": "213 F.3d 147"
+        },
+        {
+          "start": 516,
+          "end": 568,
+          "text": "Jackson v. FIE Corp., 302 F. 3d 515, 523 (CA5 2002).",
+          "type": "case",
+          "canonical": "302 F.3d 515"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 247,
+          "end": 271
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 22,
+          "text": "605 U. S. 1001 (2025).",
+          "type": "case",
+          "canonical": "605 U.S. 1001"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 271,
+          "end": 274
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 274,
+          "end": 490
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Civil Procedure 60",
+          "to": "Civil Procedure sixty"
+        },
+        {
+          "from": "subdivision (b)(4)",
+          "to": "subdivision b four"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 4,
+          "start": 2015,
+          "end": 2189
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 56,
+          "end": 83,
+          "text": "Fed. Rule Civ. Proc. 55(c),",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 55"
+        },
+        {
+          "start": 132,
+          "end": 163,
+          "text": ", Fed. Rules Bkrtcy. Proc. 7055",
+          "type": "statute",
+          "canonical": "Fed. R. Bankr. P. 7055"
+        },
+        {
+          "start": 163,
+          "end": 172,
+          "text": " and 9024",
+          "type": "statute",
+          "canonical": "Fed. R. Bankr. P. 9024"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 491,
+          "end": 564
+        }
+      ],
+      "citations": [
+        {
+          "start": 30,
+          "end": 37,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 564,
+          "end": 966
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 57,
+          "end": 65,
+          "text": "60(c)(1)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 101,
+          "end": 106,
+          "text": "60(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 231,
+          "end": 236,
+          "text": "60(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 274,
+          "end": 330,
+          "text": "Accord, Kemp v. United States, 596 U. S. 528, 533 (2022)",
+          "type": "case",
+          "canonical": "596 U.S. 528"
+        },
+        {
+          "start": 343,
+          "end": 348,
+          "text": "60(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Rule 60(b) motions]",
+          "to": "Rule sixty b motions"
+        },
+        {
+          "from": "Rule 60(c)(1)",
+          "to": "Rule sixty c one"
+        },
+        {
+          "from": "Rule 60(b)",
+          "to": "Rule sixty b"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 966,
+          "end": 1442
+        }
+      ],
+      "citations": [
+        {
+          "start": 17,
+          "end": 24,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 91,
+          "end": 98,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 183,
+          "end": 191,
+          "text": "60(c)(1)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 223,
+          "end": 228,
+          "text": "60(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 303,
+          "end": 310,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 422,
+          "end": 454,
+          "text": "Cf. Kemp, 596 U. S., at 534–535.",
+          "type": "case",
+          "canonical": "596 U.S. 528"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(c)(1)",
+          "to": "Rule sixty c one"
+        },
+        {
+          "from": "Rule 60(b)",
+          "to": "Rule sixty b"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        },
+        {
+          "from": "subdivision (c)(1)",
+          "to": "subdivision c one"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 86,
+          "end": 869
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 105,
+          "text": "60(c)(1)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 175,
+          "end": 191,
+          "text": "See n. 1, supra;",
+          "type": "reference",
+          "canonical": "This opinion, footnote 1"
+        },
+        {
+          "start": 192,
+          "end": 293,
+          "text": "11 C. Wright, A. Miller, & M. Kane, Federal Practice and Procedure § 2862, pp. 431–433 (3d ed. 2012).",
+          "type": "reference",
+          "canonical": "Wright, Miller & Kane, Federal Practice and Procedure § 2862"
+        },
+        {
+          "start": 363,
+          "end": 370,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 379,
+          "end": 471,
+          "text": "See, e. g., Sea-Land Serv., Inc. v. Ceramica Europa II, Inc., 160 F. 3d 849, 852 (CA1 1998).",
+          "type": "case",
+          "canonical": "160 F.3d 849"
+        },
+        {
+          "start": 559,
+          "end": 629,
+          "text": "United Student Aid Funds, Inc. v. Espinosa, 559 U. S. 260, 270 (2010),",
+          "type": "case",
+          "canonical": "559 U.S. 260"
+        },
+        {
+          "start": 723,
+          "end": 783,
+          "text": "See, e. g., Austin v. Smith, 312 F. 2d 337, 343 (CADC 1962).",
+          "type": "case",
+          "canonical": "312 F.2d 337"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(c)(1)",
+          "to": "Rule sixty c one"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 869,
+          "end": 1368
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1368,
+          "end": 2138
+        },
+        {
+          "page": 6,
+          "start": 75,
+          "end": 332
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 663,
+          "end": 700,
+          "text": "But see Fed. Rule App. Proc. 4(a)(1).",
+          "type": "statute",
+          "canonical": "Fed. R. App. P. 4"
+        },
+        {
+          "start": 929,
+          "end": 949,
+          "text": "this Court's Rule 13",
+          "type": "statute",
+          "canonical": "Sup. Ct. R. 13",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1646,
+          "end": 2155
+        }
+      ],
+      "citations": [
+        {
+          "start": 108,
+          "end": 154,
+          "text": "Post, at 162 (opinion concurring in judgment).",
+          "type": "case",
+          "canonical": "607 U.S. 155"
+        },
+        {
+          "start": 349,
+          "end": 356,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 334,
+          "end": 500
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 6,
+          "start": 2157,
+          "end": 2264
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 501,
+          "end": 993
+        }
+      ],
+      "citations": [
+        {
+          "start": 219,
+          "end": 227,
+          "text": "60(c)(1)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(c)(1)",
+          "to": "Rule sixty c one"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 993,
+          "end": 1644
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 440
+        }
+      ],
+      "citations": [
+        {
+          "start": 329,
+          "end": 393,
+          "text": "See, e. g., Harris v. Hardeman, 14 How. 334, 338, 344–346 (1853)",
+          "type": "case",
+          "canonical": "55 U.S. 334"
+        },
+        {
+          "start": 779,
+          "end": 858,
+          "text": "E. g., Stocking v. Hanson, 35 Minn. 207, 211–212, 28 N. W. 507, 507–508 (1886);",
+          "type": "case",
+          "canonical": "28 N.W. 507"
+        },
+        {
+          "start": 859,
+          "end": 926,
+          "text": "Smith v. Jones, 174 Cal. 513, 515– 517, 163 P. 890, 890–892 (1917).",
+          "type": "case",
+          "canonical": "163 P. 890"
+        },
+        {
+          "start": 950,
+          "end": 955,
+          "text": "60(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(b)",
+          "to": "Rule sixty b"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1848,
+          "end": 2076
+        }
+      ],
+      "citations": [
+        {
+          "start": 5,
+          "end": 10,
+          "text": "60(d)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 113,
+          "end": 118,
+          "text": "60(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(b)",
+          "to": "Rule sixty b"
+        },
+        {
+          "from": "Rule 60(d)",
+          "to": "Rule sixty d"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 441,
+          "end": 501
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 58,
+          "text": "See Honeycutt v. United States, 581 U. S. 443, 453 (2017).",
+          "type": "case",
+          "canonical": "581 U.S. 443"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 501,
+          "end": 1308
+        }
+      ],
+      "citations": [
+        {
+          "start": 115,
+          "end": 137,
+          "text": ", 456 U. S. 694 (1982)",
+          "type": "case",
+          "canonical": "456 U.S. 694"
+        },
+        {
+          "start": 362,
+          "end": 374,
+          "text": "Id., at 706.",
+          "type": "case",
+          "canonical": "456 U.S. 694"
+        },
+        {
+          "start": 721,
+          "end": 733,
+          "text": "Id., at 705.",
+          "type": "case",
+          "canonical": "456 U.S. 694"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Insurance Corp .",
+          "to": "Insurance Corp."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1308,
+          "end": 1846
+        }
+      ],
+      "citations": [
+        {
+          "start": 45,
+          "end": 52,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 231,
+          "end": 312,
+          "text": "See BP p.l.c. v. Mayor and City Council of Baltimore , 593 U. S. 230, 245 (2021);",
+          "type": "case",
+          "canonical": "593 U.S. 230"
+        },
+        {
+          "start": 313,
+          "end": 370,
+          "text": "Milner v. Department of Navy , 562 U. S. 562, 572 (2011);",
+          "type": "case",
+          "canonical": "562 U.S. 562"
+        },
+        {
+          "start": 371,
+          "end": 430,
+          "text": "Van Buren v. United States, 593 U. S. 374, 393– 394 (2021).",
+          "type": "case",
+          "canonical": "593 U.S. 374"
+        },
+        {
+          "start": 498,
+          "end": 503,
+          "text": "60(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(b)",
+          "to": "Rule sixty b"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 92,
+          "end": 96
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 96,
+          "end": 468
+        }
+      ],
+      "citations": [
+        {
+          "start": 36,
+          "end": 44,
+          "text": "60(b)(4)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 67,
+          "end": 75,
+          "text": "60(c)(1)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(b)(4)",
+          "to": "Rule sixty b four"
+        },
+        {
+          "from": "Rule 60(c)(1)",
+          "to": "Rule sixty c one"
+        },
+        {
+          "from": "Rule 60(b)",
+          "to": "Rule sixty b"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 3,
+      "start": 1865,
+      "end": 1895,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 75,
+      "text": "158 CONEY ISLAND AUTO PARTS UNLIMITED, INC. v.\nBURTON\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 4,
+      "start": 246,
+      "end": 247,
+      "text": "1",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 4,
+      "start": 490,
+      "end": 491,
+      "text": "2",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 4,
+      "start": 1442,
+      "end": 1444,
+      "text": "1 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 4,
+      "start": 2013,
+      "end": 2015,
+      "text": "2 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 4,
+      "start": 2189,
+      "end": 2219,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 155 (2026) 159\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 75,
+      "text": "160 CONEY ISLAND AUTO PARTS UNLIMITED, INC. v.\nBURTON\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 6,
+      "start": 332,
+      "end": 334,
+      "text": "3\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 6,
+      "start": 500,
+      "end": 501,
+      "text": "4",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 6,
+      "start": 1644,
+      "end": 1646,
+      "text": "3 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 6,
+      "start": 2155,
+      "end": 2157,
+      "text": "4 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 6,
+      "start": 2264,
+      "end": 2294,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 155 (2026) 161\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 7,
+      "start": 440,
+      "end": 441,
+      "text": "5",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 7,
+      "start": 1846,
+      "end": 1848,
+      "text": "5 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 7,
+      "start": 2076,
+      "end": 2106,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 92,
+      "text": "162 CONEY ISLAND AUTO PARTS UNLIMITED, INC. v.\nBURTON\nSotomayor, J., concurring in judgment\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 925,
+      "end": 928,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 1,
+      "start": 1224,
+      "end": 1228,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 1,
+      "start": 1622,
+      "end": 1629,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 1,
+      "start": 2035,
+      "end": 2042,
+      "expectedText": "confrms",
+      "text": "confirms"
+    },
+    {
+      "page": 1,
+      "start": 2092,
+      "end": 2099,
+      "expectedText": "modifes",
+      "text": "modifies"
+    },
+    {
+      "page": 2,
+      "start": 2232,
+      "end": 2236,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 2,
+      "start": 2327,
+      "end": 2331,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 2,
+      "start": 2062,
+      "end": 2069,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 2,
+      "start": 722,
+      "end": 727,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 2,
+      "start": 1064,
+      "end": 1078,
+      "expectedText": "reasonabletime",
+      "text": "reasonable-time"
+    },
+    {
+      "page": 2,
+      "start": 1105,
+      "end": 1109,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 3,
+      "start": 164,
+      "end": 167,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 3,
+      "start": 850,
+      "end": 853,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 3,
+      "start": 1458,
+      "end": 1462,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 930,
+      "end": 934,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 75,
+      "end": 82,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 4,
+      "start": 358,
+      "end": 362,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 4,
+      "start": 419,
+      "end": 430,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 4,
+      "start": 533,
+      "end": 538,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 4,
+      "start": 991,
+      "end": 998,
+      "expectedText": "confrms",
+      "text": "confirms"
+    },
+    {
+      "page": 4,
+      "start": 1064,
+      "end": 1071,
+      "expectedText": "modifes",
+      "text": "modifies"
+    },
+    {
+      "page": 5,
+      "start": 2004,
+      "end": 2009,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 5,
+      "start": 194,
+      "end": 208,
+      "expectedText": "reasonabletime",
+      "text": "reasonable-time"
+    },
+    {
+      "page": 6,
+      "start": 179,
+      "end": 184,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 6,
+      "start": 816,
+      "end": 820,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 6,
+      "start": 1388,
+      "end": 1396,
+      "expectedText": "affrming",
+      "text": "affirming"
+    },
+    {
+      "page": 8,
+      "start": 176,
+      "end": 179,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 8,
+      "start": 441,
+      "end": 448,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 6,
+      "start": 957,
+      "end": 969,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete Court opinion checked against the published PDF. All substantive notes 2–5 are inserted at their markers; note 1 is a citation-only comparison and remains individually referenced in the reader. Publication furniture and author line removed; source words and explanatory quotations retained."
+}

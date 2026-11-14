@@ -1,0 +1,1901 @@
+{
+  "reviewed": true,
+  "documentId": "24-993-9689b1fae558--4-607",
+  "sourceDocumentId": "24-993-9689b1fae558",
+  "sourceTextPath": "dist/data/docs/24-993-9689b1fae558.json",
+  "sourceTextSha256": "d23c6a50a9f97d2875a79d07ec2e2f82e54a9b7850e4b2e5252b0fa400ec991a",
+  "sourcePdfPath": "dist/data/pdfs/24-993-9689b1fae558--4-607.pdf",
+  "sourcePdfSha256": "325089f59a54709f65bca9b3a6d523b6467be6d0bef0763ec838fa0201a08962",
+  "title": "Opinion of the Court",
+  "author": "Elena Kagan",
+  "date": "2026-03-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r20_h315.pdf",
+  "sourceRange": {
+    "startPage": 4,
+    "startOffset": 657,
+    "endPage": 16,
+    "endOffset": 829
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 657,
+          "end": 779
+        },
+        {
+          "page": 5,
+          "start": 52,
+          "end": 532
+        }
+      ],
+      "citations": [
+        {
+          "start": 371,
+          "end": 389,
+          "text": "42 U. S. C. § 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "42 U. S. C. § 1983",
+          "to": "Section 1983 of Title 42"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 532,
+          "end": 910
+        }
+      ],
+      "citations": [
+        {
+          "start": 64,
+          "end": 80,
+          "text": "Heck v. Humphrey",
+          "type": "case",
+          "canonical": "512 U.S. 477",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 80,
+          "end": 103,
+          "text": ", 512 U. S. 477 (1994),",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 169,
+          "end": 175,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 910,
+          "end": 911
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 912,
+          "end": 2011
+        },
+        {
+          "page": 6,
+          "start": 86,
+          "end": 370
+        }
+      ],
+      "citations": [
+        {
+          "start": 736,
+          "end": 778,
+          "text": "Supp. to App. 70 (capitalization deleted).",
+          "type": "record",
+          "canonical": "Supp. to App. 70 (capitalization deleted)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 370,
+          "end": 1107
+        }
+      ],
+      "citations": [
+        {
+          "start": 198,
+          "end": 204,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1923,
+          "end": 2157
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1108,
+          "end": 1575
+        }
+      ],
+      "citations": [
+        {
+          "start": 320,
+          "end": 343,
+          "text": "See Tr. of Oral Arg. 7.",
+          "type": "record",
+          "canonical": "See Tr. of Oral Arg. 7."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1575,
+          "end": 1921
+        },
+        {
+          "page": 7,
+          "start": 52,
+          "end": 521
+        }
+      ],
+      "citations": [
+        {
+          "start": 252,
+          "end": 258,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1506,
+          "end": 2355
+        }
+      ],
+      "citations": [
+        {
+          "start": 358,
+          "end": 405,
+          "text": "Minnesota v. Murphy, 465 U. S. 420, 430 (1984);",
+          "type": "case",
+          "canonical": "465 U.S. 420"
+        },
+        {
+          "start": 406,
+          "end": 461,
+          "text": "see Jones v. Cunningham, 371 U. S. 236, 241–243 (1963).",
+          "type": "case",
+          "canonical": "371 U.S. 236"
+        },
+        {
+          "start": 625,
+          "end": 678,
+          "text": "See 2022 WL 15047414, *10 (SD Miss., Sept. 23, 2022);",
+          "type": "case",
+          "canonical": "2022 WL 15047414"
+        },
+        {
+          "start": 679,
+          "end": 720,
+          "text": "2023 WL 5500223, *4 (CA5, Aug. 25, 2023).",
+          "type": "case",
+          "canonical": "2023 WL 5500223"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 523,
+          "end": 1504
+        },
+        {
+          "page": 8,
+          "start": 86,
+          "end": 182
+        }
+      ],
+      "citations": [
+        {
+          "start": 157,
+          "end": 163,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 272,
+          "end": 321,
+          "text": "2022 WL 15047414, *11 (SD Miss., Sept. 23, 2022).",
+          "type": "case",
+          "canonical": "2022 WL 15047414"
+        },
+        {
+          "start": 434,
+          "end": 440,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 550,
+          "end": 586,
+          "text": "2023 WL 5500223, *1 (Aug. 25, 2023);",
+          "type": "case",
+          "canonical": "2023 WL 5500223"
+        },
+        {
+          "start": 587,
+          "end": 614,
+          "text": "see Heck, 512 U. S., at 487",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 970,
+          "end": 994,
+          "text": "See 2023 WL 5500223, *4.",
+          "type": "case",
+          "canonical": "2023 WL 5500223"
+        },
+        {
+          "start": 1068,
+          "end": 1077,
+          "text": "See ibid.",
+          "type": "case",
+          "canonical": "2023 WL 5500223"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 182,
+          "end": 1017
+        }
+      ],
+      "citations": [
+        {
+          "start": 155,
+          "end": 161,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 209,
+          "end": 284,
+          "text": "121 F. 4th 511, 514 (2024) (Oldham, J., dissenting) (emphasis in original).",
+          "type": "case",
+          "canonical": "121 F.4th 511"
+        },
+        {
+          "start": 511,
+          "end": 527,
+          "text": "Id., at 514–515;",
+          "type": "case",
+          "canonical": "121 F.4th 511"
+        },
+        {
+          "start": 528,
+          "end": 575,
+          "text": "see id., at 513 (Ho, J., dissenting) (similar).",
+          "type": "case",
+          "canonical": "121 F.4th 511"
+        },
+        {
+          "start": 738,
+          "end": 834,
+          "text": "121 F. 4th, at 515 (Oldham, J., dissenting) (citing Martin v. Boise, 920 F. 3d 584, 614 (2019)).",
+          "type": "case",
+          "canonical": "121 F.4th 511"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[§ 1983]",
+          "to": "Section 1983"
+        },
+        {
+          "from": "invalidate[s]",
+          "to": "invalidates"
+        },
+        {
+          "from": "impose[s]",
+          "to": "imposes"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1017,
+          "end": 1631
+        }
+      ],
+      "citations": [
+        {
+          "start": 21,
+          "end": 44,
+          "text": ", 606 U. S. 959 (2025),",
+          "type": "case",
+          "canonical": "606 U.S. 959"
+        },
+        {
+          "start": 260,
+          "end": 281,
+          "text": "See Pet. for Cert. i.",
+          "type": "record",
+          "canonical": "See Pet. for Cert. i."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1686,
+          "end": 2281
+        }
+      ],
+      "citations": [
+        {
+          "start": 108,
+          "end": 114,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 331,
+          "end": 365,
+          "text": "See Tr. of Oral Arg. 41–42, 46–47;",
+          "type": "record",
+          "canonical": "See Tr. of Oral Arg. 41–42, 46–47;"
+        },
+        {
+          "start": 366,
+          "end": 401,
+          "text": "see also Brief for United States 27",
+          "type": "record",
+          "canonical": "see also Brief for United States 27"
+        },
+        {
+          "start": 571,
+          "end": 595,
+          "text": "See supra, at 558, n. 2.",
+          "type": "record",
+          "canonical": "See supra, at 558, n. 2."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1632,
+          "end": 1684
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 52,
+          "end": 54
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 55,
+          "end": 673
+        }
+      ],
+      "citations": [
+        {
+          "start": 168,
+          "end": 174,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 255,
+          "end": 261,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 370,
+          "end": 424,
+          "text": "See, e. g., Steffel v. Thompson, 415 U. S. 452 (1974).",
+          "type": "case",
+          "canonical": "415 U.S. 452"
+        },
+        {
+          "start": 452,
+          "end": 469,
+          "text": "Wooley v. Maynard",
+          "type": "case",
+          "canonical": "430 U.S. 705",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 471,
+          "end": 492,
+          "text": "430 U. S. 705 (1977),",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 673,
+          "end": 2032
+        }
+      ],
+      "citations": [
+        {
+          "start": 230,
+          "end": 242,
+          "text": "Id., at 707.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 587,
+          "end": 593,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 912,
+          "end": 930,
+          "text": "Id., at 712, n. 9.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 1100,
+          "end": 1124,
+          "text": "430 U. S., at 712, n. 9;",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 1125,
+          "end": 1168,
+          "text": "see Younger v. Harris, 401 U. S. 37 (1971).",
+          "type": "case",
+          "canonical": "401 U.S. 37"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "[Maynard]",
+          "to": "Maynard"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 55,
+          "end": 1272
+        }
+      ],
+      "citations": [
+        {
+          "start": 157,
+          "end": 183,
+          "text": "Wooley, 430 U. S., at 711.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 340,
+          "end": 358,
+          "text": "430 U. S., at 711.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 441,
+          "end": 446,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 604,
+          "end": 609,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 780,
+          "end": 785,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 823,
+          "end": 829,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 869,
+          "end": 885,
+          "text": "See id., at 710.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 1212,
+          "end": 1217,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "sentence[s]",
+          "to": "sentences"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "Scylla",
+          "to": "Silla"
+        },
+        {
+          "from": "Charybdis",
+          "to": "Kuh-rib-dis"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1272,
+          "end": 2073
+        }
+      ],
+      "citations": [
+        {
+          "start": 207,
+          "end": 213,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 422,
+          "end": 434,
+          "text": "Id., at 711.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 664,
+          "end": 680,
+          "text": "See id., at 710.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "Scylla",
+          "to": "Silla"
+        },
+        {
+          "from": "Charybdis",
+          "to": "Kuh-rib-dis"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 83,
+          "end": 737
+        }
+      ],
+      "citations": [
+        {
+          "start": 54,
+          "end": 70,
+          "text": "Heck v. Humphrey",
+          "type": "case",
+          "canonical": "512 U.S. 477",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 277,
+          "end": 283,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 576,
+          "end": 598,
+          "text": "512 U. S., at 489–490.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 631,
+          "end": 637,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 737,
+          "end": 2154
+        },
+        {
+          "page": 12,
+          "start": 86,
+          "end": 342
+        }
+      ],
+      "citations": [
+        {
+          "start": 83,
+          "end": 89,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 204,
+          "end": 277,
+          "text": "Id., at 481 (citing Preiser v. Rodriguez, 411 U. S. 475, 488–490 (1973)).",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 365,
+          "end": 389,
+          "text": "Heck, 512 U. S., at 481.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 437,
+          "end": 443,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 527,
+          "end": 547,
+          "text": "See id., at 486–487.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 614,
+          "end": 630,
+          "text": "See id., at 481.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 659,
+          "end": 665,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 802,
+          "end": 814,
+          "text": "Id., at 485.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 916,
+          "end": 928,
+          "text": "Id., at 484.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 1012,
+          "end": 1018,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1123,
+          "end": 1128,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 1152,
+          "end": 1158,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1275,
+          "end": 1287,
+          "text": "Id., at 486.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 1332,
+          "end": 1338,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1515,
+          "end": 1527,
+          "text": "Id., at 487.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 1633,
+          "end": 1639,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "challenge[ ]",
+          "to": "challenge "
+        },
+        {
+          "from": "seek[ ]",
+          "to": "seek "
+        },
+        {
+          "from": "[W]hen",
+          "to": "When"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 342,
+          "end": 1960
+        }
+      ],
+      "citations": [
+        {
+          "start": 124,
+          "end": 142,
+          "text": "Edwards v. Balisok",
+          "type": "case",
+          "canonical": "520 U.S. 641",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 144,
+          "end": 165,
+          "text": "520 U. S. 641 (1997),",
+          "type": "case",
+          "canonical": "520 U.S. 641"
+        },
+        {
+          "start": 544,
+          "end": 556,
+          "text": "Id., at 643.",
+          "type": "case",
+          "canonical": "520 U.S. 641"
+        },
+        {
+          "start": 825,
+          "end": 843,
+          "text": "520 U. S., at 648.",
+          "type": "case",
+          "canonical": "520 U.S. 641"
+        },
+        {
+          "start": 1058,
+          "end": 1064,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1157,
+          "end": 1162,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "520 U.S. 641"
+        },
+        {
+          "start": 1176,
+          "end": 1195,
+          "text": "Wilkinson v. Dotson",
+          "type": "case",
+          "canonical": "544 U.S. 74",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1197,
+          "end": 1221,
+          "text": "544 U. S. 74, 77 (2005),",
+          "type": "case",
+          "canonical": "544 U.S. 74"
+        },
+        {
+          "start": 1267,
+          "end": 1273,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1577,
+          "end": 1617,
+          "text": "544 U. S., at 82 (emphasis in original).",
+          "type": "case",
+          "canonical": "544 U.S. 74"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "i. e.",
+          "to": "that is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1960,
+          "end": 2143
+        },
+        {
+          "page": 13,
+          "start": 83,
+          "end": 1040
+        }
+      ],
+      "citations": [
+        {
+          "start": 202,
+          "end": 247,
+          "text": "Nance v. Ward, 597 U. S. 159, 167–168 (2022).",
+          "type": "case",
+          "canonical": "597 U.S. 159"
+        },
+        {
+          "start": 405,
+          "end": 423,
+          "text": "430 U. S., at 711.",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 542,
+          "end": 564,
+          "text": "See 520 U. S., at 648;",
+          "type": "case",
+          "canonical": "520 U.S. 641"
+        },
+        {
+          "start": 565,
+          "end": 582,
+          "text": "544 U. S., at 82.",
+          "type": "case",
+          "canonical": "544 U.S. 74"
+        },
+        {
+          "start": 672,
+          "end": 696,
+          "text": "Heck, 512 U. S., at 485.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 794,
+          "end": 806,
+          "text": "Id., at 484.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 898,
+          "end": 903,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "collateral[ly]",
+          "to": "collaterally"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1040,
+          "end": 2126
+        },
+        {
+          "page": 14,
+          "start": 86,
+          "end": 195
+        }
+      ],
+      "citations": [
+        {
+          "start": 199,
+          "end": 205,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 460,
+          "end": 472,
+          "text": "Id., at 487;",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 473,
+          "end": 495,
+          "text": "see supra, at 562–563.",
+          "type": "record",
+          "canonical": "see supra, at 562–563."
+        },
+        {
+          "start": 549,
+          "end": 555,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 685,
+          "end": 725,
+          "text": "See, e. g., Dotson, 544 U. S., at 81–82;",
+          "type": "case",
+          "canonical": "544 U.S. 74"
+        },
+        {
+          "start": 726,
+          "end": 776,
+          "text": "Skinner v. Switzer, 562 U. S. 521, 533–534 (2011).",
+          "type": "case",
+          "canonical": "562 U.S. 521"
+        },
+        {
+          "start": 1015,
+          "end": 1039,
+          "text": "Brief for Respondent 33.",
+          "type": "record",
+          "canonical": "Brief for Respondent 33."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[W]hen",
+          "to": "When"
+        },
+        {
+          "from": "seek[ ]",
+          "to": "seek "
+        },
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "conviction[ ]",
+          "to": "conviction "
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 195,
+          "end": 970
+        }
+      ],
+      "citations": [
+        {
+          "start": 580,
+          "end": 708,
+          "text": "Turkiye Halk Bankasi A. S. v. United States, 598 U. S. 264, 278 (2023) (quoting Illinois v. Lidster, 540 U. S. 419, 424 (2004)).",
+          "type": "case",
+          "canonical": "598 U.S. 264"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 970,
+          "end": 2095
+        },
+        {
+          "page": 15,
+          "start": 83,
+          "end": 580
+        }
+      ],
+      "citations": [
+        {
+          "start": 527,
+          "end": 559,
+          "text": "See 512 U. S., at 486–487, n. 6.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 672,
+          "end": 678,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 971,
+          "end": 977,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1162,
+          "end": 1167,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "i. e.",
+          "to": "that is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 580,
+          "end": 1992
+        }
+      ],
+      "citations": [
+        {
+          "start": 162,
+          "end": 168,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 374,
+          "end": 421,
+          "text": "See 121 F. 4th, at 514 (Oldham, J., dissenting)",
+          "type": "case",
+          "canonical": "121 F.4th 511"
+        },
+        {
+          "start": 790,
+          "end": 808,
+          "text": "512 U. S., at 487.",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        },
+        {
+          "start": 1108,
+          "end": 1114,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1301,
+          "end": 1307,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1390,
+          "end": 1412,
+          "text": "See supra, at 563–564.",
+          "type": "record",
+          "canonical": "See supra, at 563–564."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1992,
+          "end": 2161
+        },
+        {
+          "page": 16,
+          "start": 55,
+          "end": 677
+        }
+      ],
+      "citations": [
+        {
+          "start": 127,
+          "end": 133,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 249,
+          "end": 267,
+          "text": "See supra, at 561.",
+          "type": "record",
+          "canonical": "See supra, at 561."
+        },
+        {
+          "start": 310,
+          "end": 316,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 577,
+          "end": 607,
+          "text": "See Wooley, 430 U. S., at 710;",
+          "type": "case",
+          "canonical": "430 U.S. 705"
+        },
+        {
+          "start": 608,
+          "end": 622,
+          "text": "supra, at 561.",
+          "type": "record",
+          "canonical": "supra, at 561."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 677,
+          "end": 829
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 779,
+      "end": 2324,
+      "text": "*Briefs of amici curiae urging reversal were fled for the American\nCenter for Law and Justice by Jay Alan Sekulow, Jordan A. Sekulow,\nStuart J. Roth, Andrew J. Ekonomou, Walter M. Weber, and Liam R.\nHarrell; for the Cato Institute by Matthew P . Cavedon; for the Christian\nLegal Society et al. by Richard G. Parker and Colleen E. Roh Sinzdak;\nfor the Foundation for Individual Rights and Expression by Joshua A.\nHouse; for the Foundation for Moral Law by John A. Eidsmoe; for the\nHuman Rights Defense Center et al. by Tobias S. Loss-Eaton, Bruce\nPlaxen, and Jeffrey R. White; for the International Society for Krishna\nConsciousness (ISKCON) by David R. Dorey and William Wagner; for\nthe Liberty Justice Center by Jeffrey Schwab; for the Manhattan Institute\nby Ilya Shapiro; for the National Institute of Family and Life Advocates\net al. by Catherine Short and Sheila A. Green; for the Religious Freedom\nInstitute by Daniel M. Sullivan and Brian T. Goldman; for the Southeastern Legal Foundation by Thomas R. McCarthy, Tiffany H. Bates, Kimberly S. Hermann, and Celia Howard O'Leary; for the Young America's\nFoundation by Madison Leigh Hahn; for Stephen Nylen et al. by Joshua\nC. McDaniel; for Chike Uzuegbunam by Dominic E. Draye, John J.\nBursch, Rory T. Gray, and Travis C. Barham; and for Erma Wilson by\nJaba Tsitsuashvili and Robert McNamara.\nBriefs of amici curiae urging affrmance were fled for the Local Government Legal Center by R. Trent McCotter; and for the Texas Association of Counties by Mike Thompson, Jr., and Scott M. Tschirhart.",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 52,
+      "text": "556 OLIVIER v. CITY OF BRANDON\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 2011,
+      "end": 2041,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 552 (2026) 557\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 1107,
+      "end": 1108,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 1921,
+      "end": 1923,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 52,
+      "text": "558 OLIVIER v. CITY OF BRANDON\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 521,
+      "end": 523,
+      "text": "2\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1504,
+      "end": 1506,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 2355,
+      "end": 2385,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 552 (2026) 559\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1631,
+      "end": 1632,
+      "text": "3",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1684,
+      "end": 1686,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 52,
+      "text": "560 OLIVIER v. CITY OF BRANDON\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2032,
+      "end": 2062,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 552 (2026) 561\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 2073,
+      "end": 2103,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 83,
+      "text": "Page Proof Pending Publication\n562 OLIVIER v. CITY OF BRANDON\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 552 (2026) 563\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 83,
+      "text": "Page Proof Pending Publication\n564 OLIVIER v. CITY OF BRANDON\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 552 (2026) 565\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 83,
+      "text": "Page Proof Pending Publication\n566 OLIVIER v. CITY OF BRANDON\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 552 (2026) 567\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 4,
+      "start": 824,
+      "end": 828,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 2170,
+      "end": 2174,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 196,
+      "end": 200,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 939,
+      "end": 942,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 5,
+      "start": 1284,
+      "end": 1287,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 6,
+      "start": 170,
+      "end": 173,
+      "expectedText": "fne",
+      "text": "fine"
+    },
+    {
+      "page": 6,
+      "start": 338,
+      "end": 341,
+      "expectedText": "fne",
+      "text": "fine"
+    },
+    {
+      "page": 6,
+      "start": 454,
+      "end": 457,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 6,
+      "start": 623,
+      "end": 631,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 6,
+      "start": 1054,
+      "end": 1062,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 7,
+      "start": 635,
+      "end": 642,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 7,
+      "start": 1753,
+      "end": 1757,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 8,
+      "start": 1514,
+      "end": 1522,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 9,
+      "start": 947,
+      "end": 956,
+      "expectedText": "refective",
+      "text": "reflective"
+    },
+    {
+      "page": 9,
+      "start": 1123,
+      "end": 1127,
+      "expectedText": "fnes",
+      "text": "fines"
+    },
+    {
+      "page": 10,
+      "start": 1109,
+      "end": 1116,
+      "expectedText": "fouting",
+      "text": "flouting"
+    },
+    {
+      "page": 11,
+      "start": 289,
+      "end": 295,
+      "expectedText": "ffteen",
+      "text": "fifteen"
+    },
+    {
+      "page": 11,
+      "start": 351,
+      "end": 355,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 11,
+      "start": 872,
+      "end": 882,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 11,
+      "start": 1692,
+      "end": 1702,
+      "expectedText": "conficting",
+      "text": "conflicting"
+    },
+    {
+      "page": 11,
+      "start": 1996,
+      "end": 2006,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 12,
+      "start": 813,
+      "end": 821,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 13,
+      "start": 724,
+      "end": 734,
+      "expectedText": "conficting",
+      "text": "conflicting"
+    },
+    {
+      "page": 13,
+      "start": 1846,
+      "end": 1853,
+      "expectedText": "modifed",
+      "text": "modified"
+    },
+    {
+      "page": 14,
+      "start": 401,
+      "end": 404,
+      "expectedText": "fts",
+      "text": "fits"
+    },
+    {
+      "page": 14,
+      "start": 989,
+      "end": 995,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 14,
+      "start": 1568,
+      "end": 1574,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 14,
+      "start": 1592,
+      "end": 1598,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 14,
+      "start": 1687,
+      "end": 1693,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 15,
+      "start": 370,
+      "end": 384,
+      "expectedText": "futureoriented",
+      "text": "future-oriented"
+    },
+    {
+      "page": 15,
+      "start": 1180,
+      "end": 1183,
+      "expectedText": "fts",
+      "text": "fits"
+    },
+    {
+      "page": 16,
+      "start": 354,
+      "end": 358,
+      "expectedText": "fout",
+      "text": "flout"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete thirteen-page Court body and all three substantive notes checked against bundled source PDF; preceding counsel material and following Reporter note excluded. Every doctrinal qualification, custody/forfeiture reservation, explanatory parenthetical, hypothetical and historical quotation retained; only individually reviewed source references/attributions omitted. All semantic section 1983 mentions remain inline and spoken. Job-scoped extraction repairs checked against source PDF."
+}

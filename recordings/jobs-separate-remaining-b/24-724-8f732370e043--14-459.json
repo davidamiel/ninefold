@@ -1,0 +1,500 @@
+{
+  "reviewed": true,
+  "documentId": "24-724-8f732370e043--14-459",
+  "sourceDocumentId": "24-724-8f732370e043",
+  "sourceTextPath": "dist/data/docs/24-724-8f732370e043.json",
+  "sourceTextSha256": "0e7f5ac8fd44feafc2a76e28934e95bf980cba9a95b2cd8722d283d067c4fb22",
+  "sourcePdfPath": "dist/data/pdfs/24-724-8f732370e043--14-459.pdf",
+  "sourcePdfSha256": "f4a4d495b80d43254bfbabf404172ed5cb0aa5619115c5f47e37f5a1e5b9e444",
+  "title": "Concurrence",
+  "author": "Clarence Thomas",
+  "date": "2026-02-24",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r14_1a72.pdf",
+  "sourceRange": {
+    "startPage": 14,
+    "startOffset": 487,
+    "endPage": 17,
+    "endOffset": 1679
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 487,
+          "end": 817
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 817,
+          "end": 1603
+        }
+      ],
+      "citations": [
+        {
+          "start": 53,
+          "end": 126,
+          "text": "Kokkonen v. Guardian Life Ins. Co. of America, 511 U. S. 375, 377 (1994).",
+          "type": "case",
+          "canonical": "511 U.S. 375"
+        },
+        {
+          "start": 291,
+          "end": 362,
+          "text": "Steel Co. v. Citizens for Better Environment, 523 U. S. 83, 101 (1998).",
+          "type": "case",
+          "canonical": "523 U.S. 83"
+        },
+        {
+          "start": 479,
+          "end": 559,
+          "text": "Monsalvo Velazquez v. Bondi, 604 U. S. 712, 737 (2025) (Thomas, J., dissenting).",
+          "type": "case",
+          "canonical": "604 U.S. 712"
+        },
+        {
+          "start": 741,
+          "end": 785,
+          "text": "Ex parte McCardle , 7 Wall. 506, 514 (1869).",
+          "type": "case",
+          "canonical": "74 U.S. 506"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 57,
+          "end": 633
+        }
+      ],
+      "citations": [
+        {
+          "start": 103,
+          "end": 161,
+          "text": "Lance v. Coffman, 549 U. S. 437, 439 (2007) (per curiam ).",
+          "type": "case",
+          "canonical": "549 U.S. 437"
+        },
+        {
+          "start": 356,
+          "end": 422,
+          "text": "Steel Co., 523 U. S., at 94–95 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "523 U.S. 83"
+        },
+        {
+          "start": 561,
+          "end": 577,
+          "text": "Id., at 101–102.",
+          "type": "case",
+          "canonical": "523 U.S. 83"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "spring[s]",
+          "to": "springs"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 633,
+          "end": 1319
+        }
+      ],
+      "citations": [
+        {
+          "start": 155,
+          "end": 176,
+          "text": "28 U. S. C. § 1332(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1332",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 399,
+          "end": 408,
+          "text": "§ 1332(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1332",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 577,
+          "end": 685,
+          "text": "Carden v. Arkoma Associates, 494 U. S. 185, 187 (1990) (citing Strawbridge v. Curtiss, 3 Cranch 267 (1806)).",
+          "type": "case",
+          "canonical": "494 U.S. 185"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "28 U. S. C. § 1332(a)",
+          "to": "section thirteen thirty-two, subsection a, of Title twenty-eight"
+        },
+        {
+          "from": "§ 1332(a)",
+          "to": "section thirteen thirty-two, subsection a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1319,
+          "end": 2130
+        },
+        {
+          "page": 16,
+          "start": 67,
+          "end": 1092
+        }
+      ],
+      "citations": [
+        {
+          "start": 388,
+          "end": 508,
+          "text": "See, e. g., International Energy Ventures Mgmt., L.L.C. v. United Energy Group, Ltd., 818 F. 3d 193, 205–209 (CA5 2016).",
+          "type": "case",
+          "canonical": "818 F.3d 193"
+        },
+        {
+          "start": 978,
+          "end": 1009,
+          "text": "App. to Pet. for Cert. 25a–26a.",
+          "type": "appendix",
+          "canonical": "App. to Pet. for Cert. 25a–26a"
+        },
+        {
+          "start": 1267,
+          "end": 1298,
+          "text": "103 F. 4th 294, 302–307 (2024).",
+          "type": "case",
+          "canonical": "103 F.4th 294"
+        },
+        {
+          "start": 1409,
+          "end": 1429,
+          "text": "See id., at 305–307.",
+          "type": "case",
+          "canonical": "103 F.4th 294"
+        },
+        {
+          "start": 1517,
+          "end": 1530,
+          "text": "Rule 12(b)(6)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 12(b)(6)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1652,
+          "end": 1664,
+          "text": "Id., at 306.",
+          "type": "case",
+          "canonical": "103 F.4th 294"
+        },
+        {
+          "start": 1665,
+          "end": 1705,
+          "text": "Federal Rule of Civil Procedure 12(b)(6)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 12(b)(6)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1756,
+          "end": 1838,
+          "text": "See Federated Department Stores, Inc. v. Moitie , 452 U. S. 394, 399, n. 3 (1981).",
+          "type": "case",
+          "canonical": "452 U.S. 394"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "12(b)(6)",
+          "to": "twelve, b, six"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1092,
+          "end": 1635
+        }
+      ],
+      "citations": [
+        {
+          "start": 92,
+          "end": 173,
+          "text": "See, e. g., Johnson v. Midwest Div.-RBH, LLC , 88 F. 4th 731, 735–736 (CA8 2023);",
+          "type": "case",
+          "canonical": "88 F.4th 731"
+        },
+        {
+          "start": 174,
+          "end": 255,
+          "text": "Jerome-Duncan, Inc. v. Auto-By-Tel, L. L. C ., 176 F. 3d 904, 907–909 (CA6 1999);",
+          "type": "case",
+          "canonical": "176 F.3d 904"
+        },
+        {
+          "start": 256,
+          "end": 315,
+          "text": "Legg v. Wyeth, 428 F. 3d 1317, 1324, 1320–1325 (CA11 2005).",
+          "type": "case",
+          "canonical": "428 F.3d 1317"
+        },
+        {
+          "start": 462,
+          "end": 543,
+          "text": "See, e. g., Alabama Great Southern R. Co. v. Thompson, 200 U. S. 206, 217 (1906).",
+          "type": "case",
+          "canonical": "200 U.S. 206"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1638,
+          "end": 2260
+        }
+      ],
+      "citations": [
+        {
+          "start": 174,
+          "end": 216,
+          "text": "See, e. g., Johnson, 88 F. 4th, at 735–736",
+          "type": "case",
+          "canonical": "88 F.4th 731"
+        },
+        {
+          "start": 326,
+          "end": 368,
+          "text": "Jerome-Duncan, Inc., 176 F. 3d, at 907–909",
+          "type": "case",
+          "canonical": "176 F.3d 904"
+        },
+        {
+          "start": 458,
+          "end": 520,
+          "text": "Cline v. Dart Transit Co ., 804 Fed. Appx. 307, 312 (CA6 2020)",
+          "type": "case",
+          "canonical": "804 Fed. Appx. 307"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 57,
+          "end": 1031
+        }
+      ],
+      "citations": [
+        {
+          "start": 303,
+          "end": 355,
+          "text": "See Alabama Great Southern R. Co., 200 U. S., at 218",
+          "type": "case",
+          "canonical": "200 U.S. 206"
+        },
+        {
+          "start": 464,
+          "end": 525,
+          "text": "Illinois Central R. Co. v. Sheegog, 215 U. S. 308, 316 (1909)",
+          "type": "case",
+          "canonical": "215 U.S. 308"
+        },
+        {
+          "start": 579,
+          "end": 639,
+          "text": "Mecom v. Fitzsimmons Drilling Co., 284 U. S. 183, 190 (1931)",
+          "type": "case",
+          "canonical": "284 U.S. 183"
+        },
+        {
+          "start": 756,
+          "end": 852,
+          "text": "Murriel-Don Coal Co. v. Aspen Ins. UK Ltd., 790 F. Supp. 2d 590, 596 (ED Ky. 2011) (Thapar, J.).",
+          "type": "case",
+          "canonical": "790 F. Supp. 2d 590"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "attempt[ed]",
+          "to": "attempted"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1031,
+          "end": 1679
+        }
+      ],
+      "citations": [
+        {
+          "start": 492,
+          "end": 504,
+          "text": "Id., at 597.",
+          "type": "case",
+          "canonical": "790 F. Supp. 2d 590"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 14,
+      "start": 353,
+      "end": 360,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 15,
+      "start": 572,
+      "end": 581,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 15,
+      "start": 1588,
+      "end": 1592,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 15,
+      "start": 1648,
+      "end": 1659,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 16,
+      "start": 2009,
+      "end": 2017,
+      "expectedText": "affrming",
+      "text": "affirming"
+    },
+    {
+      "page": 16,
+      "start": 2002,
+      "end": 2004,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 15,
+      "start": 378,
+      "end": 387,
+      "expectedText": "infexible",
+      "text": "inflexible"
+    },
+    {
+      "page": 16,
+      "start": 687,
+      "end": 696,
+      "expectedText": "reaffrmed",
+      "text": "reaffirmed"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 14,
+      "start": 1603,
+      "end": 1971,
+      "text": "Court expresses no view on whether using Rule 21 to dismiss a nondiverse\nparty added after a proper removal is appropriate. The Court also expresses no view as to Rule 21's role in cases originally fled by plaintiffs\nin federal court. See, e. g., Publicker Industries, Inc. v. Roman Ceramics\nCorp., 603 F. 2d 1065, 1067, 1069 (CA3 1979).\nPage Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 607 U. S. 421 (2026) 435\nThomas, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 15,
+      "start": 2130,
+      "end": 2160,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 67,
+      "text": "436 HAIN CELESTIAL GROUP, INC. v. PALMQUIST\nThomas, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 16,
+      "start": 1635,
+      "end": 1638,
+      "text": "*\n*",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 16,
+      "start": 2260,
+      "end": 2290,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 607 U. S. 421 (2026) 437\nThomas, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

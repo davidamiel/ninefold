@@ -1,0 +1,974 @@
+{
+  "reviewed": true,
+  "documentId": "25-5749-7ea9b98a9167--0-0",
+  "sourceDocumentId": "25-5749-7ea9b98a9167",
+  "sourceTextPath": "dist/data/docs/25-5749-7ea9b98a9167.json",
+  "sourceTextSha256": "d0418bffee6f928239841b3e574f76bbb98f9a448bcc0b012b94c2dc35760ca3",
+  "sourcePdfPath": "recordings/sources/7780523b943bea2a58575a18.pdf",
+  "sourcePdfSha256": "7780523b943bea2a58575a18a0dda8df95638684addde46e8e86b981ab0579b7",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2026-06-22",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-5749_qol1.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 441,
+    "endPage": 5,
+    "endOffset": 275
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 441,
+          "end": 1284
+        }
+      ],
+      "citations": [
+        {
+          "start": 24,
+          "end": 46,
+          "text": ", 536 U. S. 304 (2002)",
+          "canonical": ", 536 U. S. 304 (2002)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "TCCA",
+          "to": "T C C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1284,
+          "end": 1814
+        },
+        {
+          "page": 1,
+          "start": 76,
+          "end": 189
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 189,
+          "end": 1036
+        }
+      ],
+      "citations": [
+        {
+          "start": 157,
+          "end": 179,
+          "text": ", 477 U. S. 399 (1986)",
+          "canonical": ", 477 U. S. 399 (1986)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IQ",
+          "to": "I Q"
+        },
+        {
+          "from": "WAIS-IV",
+          "to": "Wais Four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1036,
+          "end": 2159
+        },
+        {
+          "page": 2,
+          "start": 116,
+          "end": 118
+        }
+      ],
+      "citations": [
+        {
+          "start": 703,
+          "end": 743,
+          "text": "App. to Pet. for Cert. 97–98 (Pet. App.)",
+          "canonical": "App. to Pet. for Cert. 97–98 (Pet. App.)",
+          "type": "reference"
+        },
+        {
+          "start": 968,
+          "end": 978,
+          "text": "Id., at 96",
+          "canonical": "Id., at 96",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IQ",
+          "to": "I Q"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 118,
+          "end": 736
+        }
+      ],
+      "citations": [
+        {
+          "start": 217,
+          "end": 281,
+          "text": "Texas Code of Crim. Proc. Ann., Art. 11.071, §5(a) (Vernon 2015)",
+          "canonical": "Texas Code of Crim. Proc. Ann., Art. 11.071, §5(a) (Vernon 2015)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "TCCA",
+          "to": "T C C A"
+        },
+        {
+          "from": "Texas Code of Crim. Proc. Ann., Art. 11.071, §5(a) (Vernon 2015)",
+          "to": "Texas Code of Criminal Procedure, article eleven point oh seven one, section five A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 736,
+          "end": 1606
+        }
+      ],
+      "citations": [
+        {
+          "start": 41,
+          "end": 49,
+          "text": "§5(a)(3)",
+          "canonical": "§5(a)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 256,
+          "end": 319,
+          "text": "Ex parte Blue, 230 S. W. 3d 151, 161–162 (Tex. Crim. App. 2007)",
+          "canonical": "Ex parte Blue, 230 S. W. 3d 151, 161–162 (Tex. Crim. App. 2007)",
+          "type": "reference"
+        },
+        {
+          "start": 320,
+          "end": 338,
+          "text": "(emphasis deleted)",
+          "canonical": "(emphasis deleted)",
+          "type": "reference"
+        },
+        {
+          "start": 383,
+          "end": 391,
+          "text": "§5(a)(3)",
+          "canonical": "§5(a)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 618,
+          "end": 629,
+          "text": "Id., at 163",
+          "canonical": "Id., at 163",
+          "type": "reference"
+        },
+        {
+          "start": 709,
+          "end": 717,
+          "text": "§5(a)(3)",
+          "canonical": "§5(a)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§5(a)(3)",
+          "to": "section five A three"
+        },
+        {
+          "from": "TCCA",
+          "to": "T C C A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "spans": [
+        {
+          "page": 2,
+          "start": 1618,
+          "end": 2343
+        },
+        {
+          "page": 3,
+          "start": 1998,
+          "end": 2204
+        }
+      ],
+      "citations": [
+        {
+          "start": 37,
+          "end": 45,
+          "text": "§5(a)(1)",
+          "canonical": "§5(a)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 134,
+          "end": 142,
+          "text": "§5(a)(1)",
+          "canonical": "§5(a)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 468,
+          "end": 488,
+          "text": ", 581 U. S. 1 (2017)",
+          "canonical": ", 581 U. S. 1 (2017)",
+          "type": "reference"
+        },
+        {
+          "start": 651,
+          "end": 659,
+          "text": "§5(a)(1)",
+          "canonical": "§5(a)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 661,
+          "end": 722,
+          "text": "See, e.g., Ex parte Segundo, 663 S. W. 3d 705, 705–706 (2022)",
+          "canonical": "See, e.g., Ex parte Segundo, 663 S. W. 3d 705, 705–706 (2022)",
+          "type": "reference"
+        },
+        {
+          "start": 724,
+          "end": 773,
+          "text": "see also App. to Pet. for Cert. 105–107, and n. 6",
+          "canonical": "see also App. to Pet. for Cert. 105–107, and n. 6",
+          "type": "reference"
+        },
+        {
+          "start": 774,
+          "end": 792,
+          "text": "(collecting cases)",
+          "canonical": "(collecting cases)",
+          "type": "reference"
+        },
+        {
+          "start": 836,
+          "end": 844,
+          "text": "§5(a)(1)",
+          "canonical": "§5(a)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§5(a)(1)",
+          "to": "section five A one"
+        },
+        {
+          "from": "TCCA",
+          "to": "T C C A"
+        },
+        {
+          "from": "Moore I",
+          "to": "Moore One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 93,
+          "end": 603
+        }
+      ],
+      "citations": [
+        {
+          "start": 75,
+          "end": 83,
+          "text": "§5(a)(3)",
+          "canonical": "§5(a)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 85,
+          "end": 100,
+          "text": "See Pet. App. 4",
+          "canonical": "See Pet. App. 4",
+          "type": "reference"
+        },
+        {
+          "start": 471,
+          "end": 492,
+          "text": "Brief in Opposition 9",
+          "canonical": "Brief in Opposition 9",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§5(a)(3)",
+          "to": "section five A three"
+        },
+        {
+          "from": "TCCA",
+          "to": "T C C A"
+        },
+        {
+          "from": "plea[d]",
+          "to": "plead"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 603,
+          "end": 1990
+        },
+        {
+          "page": 4,
+          "start": 102,
+          "end": 511
+        }
+      ],
+      "citations": [
+        {
+          "start": 166,
+          "end": 176,
+          "text": "Id., at 10",
+          "canonical": "Id., at 10",
+          "type": "reference"
+        },
+        {
+          "start": 199,
+          "end": 207,
+          "text": "§5(a)(3)",
+          "canonical": "§5(a)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 381,
+          "end": 435,
+          "text": "See Glossip v. Oklahoma, 604 U. S. 226, 242–243 (2025)",
+          "canonical": "See Glossip v. Oklahoma, 604 U. S. 226, 242–243 (2025)",
+          "type": "reference"
+        },
+        {
+          "start": 580,
+          "end": 606,
+          "text": "Blue, 230 S. W. 3d, at 163",
+          "canonical": "Blue, 230 S. W. 3d, at 163",
+          "type": "reference"
+        },
+        {
+          "start": 608,
+          "end": 623,
+          "text": "see Pet. App. 4",
+          "canonical": "see Pet. App. 4",
+          "type": "reference"
+        },
+        {
+          "start": 624,
+          "end": 637,
+          "text": "(citing Blue)",
+          "canonical": "(citing Blue)",
+          "type": "reference"
+        },
+        {
+          "start": 981,
+          "end": 1036,
+          "text": "See, e.g., Brumfield v. Cain, 576 U. S. 305, 315 (2015)",
+          "canonical": "See, e.g., Brumfield v. Cain, 576 U. S. 305, 315 (2015)",
+          "type": "reference"
+        },
+        {
+          "start": 1133,
+          "end": 1183,
+          "text": "Moore v. Texas, 586 U. S. 133, 134–135, 142 (2019)",
+          "canonical": "Moore v. Texas, 586 U. S. 133, 134–135, 142 (2019)",
+          "type": "reference"
+        },
+        {
+          "start": 1184,
+          "end": 1196,
+          "text": "(per curiam)",
+          "canonical": "(per curiam)",
+          "type": "reference"
+        },
+        {
+          "start": 1329,
+          "end": 1366,
+          "text": "cf. Moore I , 581 U. S., at 10, 14–15",
+          "canonical": "cf. Moore I , 581 U. S., at 10, 14–15",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§5(a)(3)",
+          "to": "section five A three"
+        },
+        {
+          "from": "TCCA",
+          "to": "T C C A"
+        },
+        {
+          "from": "IQ",
+          "to": "I Q"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 511,
+          "end": 1864
+        }
+      ],
+      "citations": [
+        {
+          "start": 527,
+          "end": 575,
+          "text": "Berger v. United States, 295 U. S. 78, 88 (1935)",
+          "canonical": "Berger v. United States, 295 U. S. 78, 88 (1935)",
+          "type": "reference"
+        },
+        {
+          "start": 656,
+          "end": 700,
+          "text": "Hill v. McDonough, 547 U. S. 573, 584 (2006)",
+          "canonical": "Hill v. McDonough, 547 U. S. 573, 584 (2006)",
+          "type": "reference"
+        },
+        {
+          "start": 918,
+          "end": 967,
+          "text": "Young v. United States, 315 U. S. 257, 258 (1942)",
+          "canonical": "Young v. United States, 315 U. S. 257, 258 (1942)",
+          "type": "reference"
+        },
+        {
+          "start": 1116,
+          "end": 1158,
+          "text": "Cf. Escobar v. Texas, 598 U. S. ___ (2023)",
+          "canonical": "Cf. Escobar v. Texas, 598 U. S. ___ (2023)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1864,
+          "end": 2225
+        },
+        {
+          "page": 5,
+          "start": 55,
+          "end": 275
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "TCCA",
+          "to": "T C C A"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 847,
+      "end": 856,
+      "expectedText": "re -\nview",
+      "text": "review"
+    },
+    {
+      "page": 0,
+      "start": 1137,
+      "end": 1151,
+      "expectedText": "op -\nportunity",
+      "text": "opportunity"
+    },
+    {
+      "page": 1,
+      "start": 132,
+      "end": 145,
+      "expectedText": "disa -\nbility",
+      "text": "disability"
+    },
+    {
+      "page": 1,
+      "start": 820,
+      "end": 826,
+      "expectedText": "be low",
+      "text": "below"
+    },
+    {
+      "page": 2,
+      "start": 1721,
+      "end": 1728,
+      "expectedText": "me rits",
+      "text": "merits"
+    },
+    {
+      "page": 3,
+      "start": 2032,
+      "end": 2042,
+      "expectedText": "fo r Cert.",
+      "text": "for Cert."
+    },
+    {
+      "page": 3,
+      "start": 509,
+      "end": 520,
+      "expectedText": "evi -\ndence",
+      "text": "evidence"
+    },
+    {
+      "page": 4,
+      "start": 277,
+      "end": 288,
+      "expectedText": "evi -\ndence",
+      "text": "evidence"
+    },
+    {
+      "page": 4,
+      "start": 313,
+      "end": 319,
+      "expectedText": "st age",
+      "text": "stage"
+    },
+    {
+      "page": 4,
+      "start": 1619,
+      "end": 1630,
+      "expectedText": "inad equate",
+      "text": "inadequate"
+    },
+    {
+      "page": 0,
+      "start": 432,
+      "end": 434,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 551,
+      "end": 553,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 671,
+      "end": 673,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1577,
+      "end": 1579,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 246,
+      "end": 248,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 304,
+      "end": 306,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 426,
+      "end": 428,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 485,
+      "end": 487,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 907,
+      "end": 909,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1027,
+      "end": 1029,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1150,
+      "end": 1152,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1270,
+      "end": 1272,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1578,
+      "end": 1580,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1934,
+      "end": 1936,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 2110,
+      "end": 2112,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 289,
+      "end": 291,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 577,
+      "end": 579,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1087,
+      "end": 1089,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1262,
+      "end": 1264,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1383,
+      "end": 1385,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1685,
+      "end": 1687,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1902,
+      "end": 1904,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 2193,
+      "end": 2195,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 147,
+      "end": 149,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 209,
+      "end": 211,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 271,
+      "end": 273,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 392,
+      "end": 394,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 451,
+      "end": 453,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 899,
+      "end": 901,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 959,
+      "end": 961,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1438,
+      "end": 1440,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1618,
+      "end": 1620,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1862,
+      "end": 1864,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 748,
+      "end": 750,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 807,
+      "end": 809,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 868,
+      "end": 870,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 1417,
+      "end": 1419,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 1923,
+      "end": 1925,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 2047,
+      "end": 2049,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 115,
+      "end": 117,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 174,
+      "end": 176,
+      "expectedText": "-\n",
+      "text": ""
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 31,
+      "end": 76,
+      "text": "2 SALDAÑO v. TEXAS \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture or note marker"
+    },
+    {
+      "page": 2,
+      "start": 56,
+      "end": 116,
+      "text": "3  Cite as: 608 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture or note marker"
+    },
+    {
+      "page": 2,
+      "start": 1606,
+      "end": 1618,
+      "text": "* \n—————— \n*",
+      "reason": "Reviewed running furniture or note marker"
+    },
+    {
+      "page": 3,
+      "start": 46,
+      "end": 93,
+      "text": "4 SALDAÑO v. TEXAS \nSOTOMAYOR, J., dissenting \n",
+      "reason": "Reviewed running furniture or note marker"
+    },
+    {
+      "page": 3,
+      "start": 1990,
+      "end": 1998,
+      "text": "—————— \n",
+      "reason": "Reviewed running furniture or note marker"
+    },
+    {
+      "page": 4,
+      "start": 42,
+      "end": 102,
+      "text": "5  Cite as: 608 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture or note marker"
+    },
+    {
+      "page": 5,
+      "start": 10,
+      "end": 55,
+      "text": "6 SALDAÑO v. TEXAS \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture or note marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan",
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

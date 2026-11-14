@@ -1,0 +1,246 @@
+{
+  "reviewed": true,
+  "documentId": "25A443-2b561f1d14b5--23-260",
+  "sourceDocumentId": "25A443-2b561f1d14b5",
+  "sourceTextPath": "dist/data/current-docs/25A443-2b561f1d14b5.json",
+  "sourceTextSha256": "fbc00e49e3d34084dc62952d4305721476d0042a5368fa8cd6fd65c1399bf3c5",
+  "sourcePdfPath": "recordings/sources/30053f20e4215fd1241aaadc.pdf",
+  "sourcePdfSha256": "30053f20e4215fd1241aaadcfce7a58ceaaa675881d36ac4c32a8d6f871c993e",
+  "title": "Dissent",
+  "author": "Neil M. Gorsuch",
+  "date": "2025-12-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a443_new_b07d.pdf",
+  "sourceRange": {
+    "startPage": 23,
+    "startOffset": 290,
+    "endPage": 24,
+    "endOffset": 1841
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 290,
+          "end": 673
+        }
+      ],
+      "citations": [
+        {
+          "start": 267,
+          "end": 288,
+          "text": "10 U. S. C. §12406(3)",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "10 U. S. C. §12406(3)",
+          "to": "section twelve four oh six, subsection three, of Title ten"
+        },
+        {
+          "from": "§12406(3)",
+          "to": "section twelve four oh six, subsection three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 673,
+          "end": 1707
+        },
+        {
+          "page": 24,
+          "start": 44,
+          "end": 408
+        }
+      ],
+      "citations": [
+        {
+          "start": 68,
+          "end": 77,
+          "text": "§12406(3)",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 410,
+          "end": 419,
+          "text": "§12406(3)",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 585,
+          "end": 605,
+          "text": ", 18 U. S. C. §1385,",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 1385"
+        },
+        {
+          "start": 630,
+          "end": 653,
+          "text": ", 10 U. S. C. §§251–255",
+          "type": "statute",
+          "canonical": "10 U.S.C. §§ 251–255"
+        },
+        {
+          "start": 829,
+          "end": 838,
+          "text": "§12406(3)",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1107,
+          "end": 1130,
+          "text": "See Art. I, §8, cl. 15.",
+          "type": "statute",
+          "canonical": "U.S. Const. art. I, § 8, cl. 15"
+        },
+        {
+          "start": 1361,
+          "end": 1384,
+          "text": "See, e.g., Art. IV, §4;",
+          "type": "statute",
+          "canonical": "U.S. Const. art. IV, § 4"
+        },
+        {
+          "start": 1385,
+          "end": 1398,
+          "text": "Amdt. 14, §5.",
+          "type": "statute",
+          "canonical": "U.S. Const. amend. XIV, § 5"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§12406(3)",
+          "to": "section twelve four oh six, subsection three"
+        },
+        {
+          "from": "Article II",
+          "to": "Article two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 408,
+          "end": 865
+        }
+      ],
+      "citations": [
+        {
+          "start": 162,
+          "end": 171,
+          "text": "§12406(3)",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§12406(3)",
+          "to": "section twelve four oh six, subsection three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 865,
+          "end": 1841
+        }
+      ],
+      "citations": [
+        {
+          "start": 195,
+          "end": 258,
+          "text": "See United States v. Sineneng-Smith, 590 U. S. 371, 375 (2020).",
+          "type": "case",
+          "canonical": "590 U.S. 371"
+        },
+        {
+          "start": 346,
+          "end": 355,
+          "text": "§12406(3)",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 751,
+          "end": 769,
+          "text": "See ante, at 2–11.",
+          "type": "reference",
+          "canonical": "Alito dissent, pp. 2–11"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§12406(3)",
+          "to": "section twelve four oh six, subsection three"
+        },
+        {
+          "from": "JUSTICE ALITO",
+          "to": "Justice Alito"
+        },
+        {
+          "from": "Parts I–A, B–1, C, and D",
+          "to": "Parts one A, B one, C, and D"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 24,
+      "start": 1081,
+      "end": 1094,
+      "expectedText": "SinenengSmith",
+      "text": "Sineneng-Smith"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 24,
+      "start": 0,
+      "end": 44,
+      "text": "2 TRUMP v. ILLINOIS\nGORSUCH, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

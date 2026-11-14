@@ -1,0 +1,2612 @@
+{
+  "reviewed": true,
+  "documentId": "24-777-4c5acdd97e4d--3-214",
+  "sourceDocumentId": "24-777-4c5acdd97e4d",
+  "sourceTextPath": "dist/data/docs/24-777-4c5acdd97e4d.json",
+  "sourceTextSha256": "2e70c87ee0809805ffff22976c22fe267d8d976ef7b99e7bd649c2266e9b3536",
+  "sourcePdfPath": "dist/data/pdfs/24-777-4c5acdd97e4d--3-214.pdf",
+  "sourcePdfSha256": "12ade78ad6b3d7fb71583f0cf0565eb86b2d352abce279d0d4097d15b854c941",
+  "title": "Opinion of the Court",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-03-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r19_3e04.pdf",
+  "sourceRange": {
+    "startPage": 3,
+    "startOffset": 266,
+    "endPage": 15,
+    "endOffset": 304
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 266,
+          "end": 1126
+        }
+      ],
+      "citations": [
+        {
+          "start": 477,
+          "end": 520,
+          "text": ", 66 Stat. 163, 8 U. S. C. § 1101(a)(42)(A)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1101"
+        },
+        {
+          "start": 798,
+          "end": 860,
+          "text": "Urias-Orellana v. Garland, 121 F. 4th 327, 335–338 (CA1 2024).",
+          "type": "case",
+          "canonical": "121 F.4th 327"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "BIA",
+          "to": "B I A"
+        },
+        {
+          "from": "IJ",
+          "to": "I J"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        },
+        {
+          "from": "G. E. U. G.",
+          "to": "G E U G"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1126,
+          "end": 1455
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "INA",
+          "to": "I N A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 80,
+          "end": 81
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 82,
+          "end": 83
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 84,
+          "end": 490
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 490,
+          "end": 1200
+        }
+      ],
+      "citations": [
+        {
+          "start": 282,
+          "end": 294,
+          "text": "Id., at 332.",
+          "type": "case",
+          "canonical": "121 F.4th 327"
+        },
+        {
+          "start": 699,
+          "end": 711,
+          "text": "Id., at 333.",
+          "type": "case",
+          "canonical": "121 F.4th 327"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "G. E. U. G.",
+          "to": "G E U G"
+        },
+        {
+          "from": "i. e.",
+          "to": "that is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1200,
+          "end": 1478
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "G. E. U. G.",
+          "to": "G E U G"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1478,
+          "end": 1960
+        },
+        {
+          "page": 5,
+          "start": 86,
+          "end": 450
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 114,
+          "end": 141,
+          "text": "8 U. S. C. § 1158(b)(1)(A).",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1158"
+        },
+        {
+          "start": 458,
+          "end": 475,
+          "text": "§ 1101(a)(42)(A).",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1101"
+        },
+        {
+          "start": 571,
+          "end": 585,
+          "text": "see § 1158(a),",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1158"
+        },
+        {
+          "start": 662,
+          "end": 681,
+          "text": ", see § 1229a(c)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1229a"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IJ",
+          "to": "I J"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        },
+        {
+          "from": "U. S.",
+          "to": "U S"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 450,
+          "end": 1484
+        }
+      ],
+      "citations": [
+        {
+          "start": 372,
+          "end": 457,
+          "text": "App. to Pet. for Cert. 31a (quoting Bonilla v. Mukasey, 539 F. 3d 72, 77 (CA1 2008)).",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 31a (quoting Bonilla v. Mukasey, 539 F. 3d 72, 77 (CA1 2008))."
+        },
+        {
+          "start": 686,
+          "end": 717,
+          "text": "App. to Pet. for Cert. 31a–32a.",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 31a–32a."
+        },
+        {
+          "start": 1019,
+          "end": 1035,
+          "text": "Id., at 32a–35a.",
+          "type": "case",
+          "canonical": "607 U.S. 537"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IJ",
+          "to": "I J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1484,
+          "end": 1901
+        }
+      ],
+      "citations": [
+        {
+          "start": 163,
+          "end": 176,
+          "text": "§ 1101(a)(42)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1101",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 178,
+          "end": 194,
+          "text": "See id., at 44a.",
+          "type": "case",
+          "canonical": "607 U.S. 537"
+        },
+        {
+          "start": 340,
+          "end": 352,
+          "text": "Id., at 28a.",
+          "type": "case",
+          "canonical": "607 U.S. 537"
+        },
+        {
+          "start": 404,
+          "end": 416,
+          "text": "Id., at 44a.",
+          "type": "case",
+          "canonical": "607 U.S. 537"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "derivativ[e]",
+          "to": "derivative"
+        },
+        {
+          "from": "§ 1101(a)(42)",
+          "to": "Section 1101(a)(42)"
+        },
+        {
+          "from": "IJ",
+          "to": "I J"
+        },
+        {
+          "from": "G. E. U. G.",
+          "to": "G E U G"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1901,
+          "end": 1902
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1903,
+          "end": 2074
+        },
+        {
+          "page": 6,
+          "start": 80,
+          "end": 414
+        }
+      ],
+      "citations": [
+        {
+          "start": 49,
+          "end": 77,
+          "text": "See 8 CFR § 1003.1(b) (2025)",
+          "type": "regulation",
+          "canonical": "8 C.F.R. § 1003.1(b)"
+        },
+        {
+          "start": 293,
+          "end": 320,
+          "text": "App. to Pet. for Cert. 21a.",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 21a."
+        },
+        {
+          "start": 493,
+          "end": 505,
+          "text": "Id., at 22a.",
+          "type": "case",
+          "canonical": "607 U.S. 537"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "BIA",
+          "to": "B I A"
+        },
+        {
+          "from": "IJ",
+          "to": "I J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 414,
+          "end": 1370
+        }
+      ],
+      "citations": [
+        {
+          "start": 103,
+          "end": 126,
+          "text": "8 U. S. C. § 1252(b)(2)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 128,
+          "end": 151,
+          "text": "See 121 F. 4th, at 331.",
+          "type": "case",
+          "canonical": "121 F.4th 327"
+        },
+        {
+          "start": 313,
+          "end": 409,
+          "text": "Opening Brief for Petitioners in No. 24–1042 (CA1), pp. 9–10 (internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "Opening Brief for Petitioners in No. 24–1042 (CA1), pp. 9–10 (internal quotation marks omitted)."
+        },
+        {
+          "start": 729,
+          "end": 748,
+          "text": "121 F. 4th, at 335.",
+          "type": "case",
+          "canonical": "121 F.4th 327"
+        },
+        {
+          "start": 915,
+          "end": 956,
+          "text": "Ibid. (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "121 F.4th 327"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "cabin[ed]",
+          "to": "cabined"
+        },
+        {
+          "from": "[that petitioners]",
+          "to": "that petitioners"
+        },
+        {
+          "from": "§ 1252(b)(2)",
+          "to": "Section 1252(b)(2)"
+        },
+        {
+          "from": "8 U. S. C. § 1252(b)(2)",
+          "to": "Section 1252(b)(2) of Title 8"
+        },
+        {
+          "from": "U. S.",
+          "to": "U S"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1370,
+          "end": 2113
+        }
+      ],
+      "citations": [
+        {
+          "start": 183,
+          "end": 203,
+          "text": "See id., at 336–338.",
+          "type": "case",
+          "canonical": "121 F.4th 327"
+        },
+        {
+          "start": 394,
+          "end": 441,
+          "text": "Id., at 336 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "121 F.4th 327"
+        },
+        {
+          "start": 737,
+          "end": 749,
+          "text": "Id., at 338.",
+          "type": "case",
+          "canonical": "121 F.4th 327"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 86,
+          "end": 261
+        }
+      ],
+      "citations": [
+        {
+          "start": 21,
+          "end": 44,
+          "text": ", 606 U. S. 930 (2025),",
+          "type": "case",
+          "canonical": "606 U.S. 930"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1500,
+          "end": 2095
+        }
+      ],
+      "citations": [
+        {
+          "start": 244,
+          "end": 274,
+          "text": "see App. to Pet. for Cert. 31a",
+          "type": "record",
+          "canonical": "see App. to Pet. for Cert. 31a"
+        },
+        {
+          "start": 548,
+          "end": 572,
+          "text": "Brief for Respondent 40;",
+          "type": "record",
+          "canonical": "Brief for Respondent 40;"
+        },
+        {
+          "start": 573,
+          "end": 597,
+          "text": "see Tr. of Oral Arg. 48.",
+          "type": "record",
+          "canonical": "see Tr. of Oral Arg. 48."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "i. e.",
+          "to": "that is"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 263,
+          "end": 265
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 266,
+          "end": 484
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 18,
+          "text": "Section 1252(b)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[s]cope",
+          "to": "scope"
+        },
+        {
+          "from": "BIA",
+          "to": "B I A"
+        },
+        {
+          "from": "IJ",
+          "to": "I J"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 484,
+          "end": 1146
+        }
+      ],
+      "citations": [
+        {
+          "start": 26,
+          "end": 38,
+          "text": "§ 1252(b)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 545,
+          "end": 560,
+          "text": "section 1158(a)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1158",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[by the agency]",
+          "to": "by the agency"
+        },
+        {
+          "from": "[a noncitizen]",
+          "to": "a noncitizen"
+        },
+        {
+          "from": "§ 1252(b)(4)",
+          "to": "Section 1252(b)(4)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1146,
+          "end": 1498
+        },
+        {
+          "page": 8,
+          "start": 80,
+          "end": 660
+        }
+      ],
+      "citations": [
+        {
+          "start": 192,
+          "end": 208,
+          "text": "§ 1252(b)(4)(B).",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252"
+        },
+        {
+          "start": 363,
+          "end": 408,
+          "text": "Nasrallah v. Barr, 590 U. S. 573, 584 (2020).",
+          "type": "case",
+          "canonical": "590 U.S. 573"
+        },
+        {
+          "start": 617,
+          "end": 733,
+          "text": "Biestek v. Berryhill, 587 U. S. 97, 103 (2019) (quoting Consolidated Edison Co. v. NLRB, 305 U. S. 197, 229 (1938)).",
+          "type": "case",
+          "canonical": "587 U.S. 97"
+        },
+        {
+          "start": 879,
+          "end": 934,
+          "text": "Nasrallah, 590 U. S., at 584 (quoting § 1252(b)(4)(B)).",
+          "type": "case",
+          "canonical": "590 U.S. 573"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 660,
+          "end": 1077
+        }
+      ],
+      "citations": [
+        {
+          "start": 400,
+          "end": 416,
+          "text": "§ 1101(a)(42)(A)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1101",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[future]",
+          "to": "future"
+        },
+        {
+          "from": "§ 1101(a)(42)(A)",
+          "to": "Section 1101(a)(42)(A)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1077,
+          "end": 1311
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1603,
+          "end": 1881
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 58,
+          "text": "See Gómez-Medina v. Barr, 975 F. 3d 27, 31, 33 (CA1 2020);",
+          "type": "case",
+          "canonical": "975 F.3d 27"
+        },
+        {
+          "start": 59,
+          "end": 116,
+          "text": "Ai Hua Chen v. Holder, 742 F. 3d 171, 177–178 (CA4 2014);",
+          "type": "case",
+          "canonical": "742 F.3d 171"
+        },
+        {
+          "start": 117,
+          "end": 167,
+          "text": "Yu v. Ashcroft, 364 F. 3d 700, 702–703 (CA6 2004);",
+          "type": "case",
+          "canonical": "364 F.3d 700"
+        },
+        {
+          "start": 168,
+          "end": 217,
+          "text": "Ahmed v. Gonzales, 467 F. 3d 669, 673 (CA7 2006);",
+          "type": "case",
+          "canonical": "467 F.3d 669"
+        },
+        {
+          "start": 218,
+          "end": 277,
+          "text": "Vicente-Elias v. Mukasey, 532 F. 3d 1086, 1091 (CA10 2008).",
+          "type": "case",
+          "canonical": "532 F.3d 1086"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1312,
+          "end": 1464
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1883,
+          "end": 2225
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 49,
+          "text": "See Diallo v. INS, 232 F. 3d 279, 287 (CA2 2000);",
+          "type": "case",
+          "canonical": "232 F.3d 279"
+        },
+        {
+          "start": 50,
+          "end": 112,
+          "text": "Herrera-Reyes v. Attorney Gen., 952 F. 3d 101, 106 (CA3 2020);",
+          "type": "case",
+          "canonical": "952 F.3d 101"
+        },
+        {
+          "start": 113,
+          "end": 182,
+          "text": "Lopez-Gomez v. Ashcroft, 263 F. 3d 442, 444 (CA5 2001) (per curiam );",
+          "type": "case",
+          "canonical": "263 F.3d 442"
+        },
+        {
+          "start": 183,
+          "end": 232,
+          "text": "Njong v. Whitaker, 911 F. 3d 919, 922 (CA8 2018);",
+          "type": "case",
+          "canonical": "911 F.3d 919"
+        },
+        {
+          "start": 233,
+          "end": 284,
+          "text": "Kaur v. Wilkinson, 986 F. 3d 1216, 1221 (CA9 2021);",
+          "type": "case",
+          "canonical": "986 F.3d 1216"
+        },
+        {
+          "start": 285,
+          "end": 342,
+          "text": "Mejia v. Attorney Gen., 498 F. 3d 1253, 1256 (CA11 2007).",
+          "type": "case",
+          "canonical": "498 F.3d 1253"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1465,
+          "end": 1601
+        },
+        {
+          "page": 9,
+          "start": 86,
+          "end": 161
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1639,
+          "end": 1992
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 57,
+          "text": "See Scarlett v. Barr, 957 F. 3d 316, 328, 336 (CA2 2020);",
+          "type": "case",
+          "canonical": "957 F.3d 316"
+        },
+        {
+          "start": 58,
+          "end": 125,
+          "text": "Thayalan v. Attorney Gen., 997 F. 3d 132, 137–138, n. 1 (CA3 2021);",
+          "type": "case",
+          "canonical": "997 F.3d 132"
+        },
+        {
+          "start": 126,
+          "end": 187,
+          "text": "Gjetani v. Barr, 968 F. 3d 393, 396–397, and n. 2 (CA5 2020);",
+          "type": "case",
+          "canonical": "968 F.3d 393"
+        },
+        {
+          "start": 188,
+          "end": 241,
+          "text": "Brizuela v. Garland, 71 F. 4th 1087, 1093 (CA8 2023);",
+          "type": "case",
+          "canonical": "71 F.4th 1087"
+        },
+        {
+          "start": 242,
+          "end": 292,
+          "text": "Sharma v. Garland, 9 F. 4th 1052, 1060 (CA9 2021);",
+          "type": "case",
+          "canonical": "9 F.4th 1052"
+        },
+        {
+          "start": 293,
+          "end": 353,
+          "text": "Martinez v. Attorney Gen., 992 F. 3d 1283, 1292 (CA11 2021).",
+          "type": "case",
+          "canonical": "992 F.3d 1283"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 163,
+          "end": 825
+        }
+      ],
+      "citations": [
+        {
+          "start": 152,
+          "end": 168,
+          "text": "Part III, infra,",
+          "type": "record",
+          "canonical": "Part III, infra,"
+        },
+        {
+          "start": 182,
+          "end": 197,
+          "text": "§ 1252(b)(4)(B)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 522,
+          "end": 538,
+          "text": "§ 1101(a)(42)(A)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1101",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 647,
+          "end": 663,
+          "text": "§ 1252(b)(4)(B).",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)(B)",
+          "to": "Section 1252(b)(4)(B)"
+        },
+        {
+          "from": "§ 1101(a)(42)(A)",
+          "to": "Section 1101(a)(42)(A)"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 825,
+          "end": 828
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 829,
+          "end": 1637
+        }
+      ],
+      "citations": [
+        {
+          "start": 202,
+          "end": 223,
+          "text": "INS v. Elias-Zacarias",
+          "type": "case",
+          "canonical": "502 U.S. 478",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 225,
+          "end": 246,
+          "text": "502 U. S. 478 (1992),",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        },
+        {
+          "start": 498,
+          "end": 514,
+          "text": "Id., at 483–484.",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        },
+        {
+          "start": 621,
+          "end": 633,
+          "text": "§ 1252(b)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)",
+          "to": "Section 1252(b)(4)"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        },
+        {
+          "from": "INS",
+          "to": "I N S"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 80,
+          "end": 81
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 82,
+          "end": 776
+        }
+      ],
+      "citations": [
+        {
+          "start": 109,
+          "end": 121,
+          "text": "Id., at 480.",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        },
+        {
+          "start": 291,
+          "end": 307,
+          "text": "Id., at 479–480.",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        },
+        {
+          "start": 549,
+          "end": 605,
+          "text": "Id., at 480 (citing 8 U. S. C. §§ 1101(a)(42), 1158(a)).",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        },
+        {
+          "start": 677,
+          "end": 695,
+          "text": "502 U. S., at 480.",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "BIA",
+          "to": "B I A"
+        },
+        {
+          "from": "IJ",
+          "to": "I J"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 776,
+          "end": 1316
+        }
+      ],
+      "citations": [
+        {
+          "start": 333,
+          "end": 408,
+          "text": "Id., at 481 (quoting Elias-Zacarias v. INS, 921 F. 2d 844, 850 (CA9 1990)).",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        },
+        {
+          "start": 508,
+          "end": 539,
+          "text": "See 502 U. S., at 481, 483–484.",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "INA",
+          "to": "I N A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1316,
+          "end": 2096
+        },
+        {
+          "page": 11,
+          "start": 86,
+          "end": 619
+        }
+      ],
+      "citations": [
+        {
+          "start": 88,
+          "end": 103,
+          "text": "§ 1252(b)(4)(B)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 313,
+          "end": 349,
+          "text": "8 U. S. C. § 1105a(a)(4) (1988 ed.).",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1105a"
+        },
+        {
+          "start": 766,
+          "end": 784,
+          "text": "502 U. S., at 481.",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        },
+        {
+          "start": 963,
+          "end": 1005,
+          "text": "See Consolidated Edison, 305 U. S., at 229",
+          "type": "case",
+          "canonical": "305 U.S. 197"
+        },
+        {
+          "start": 1282,
+          "end": 1316,
+          "text": "(internal quotation marks omitted)",
+          "type": "record",
+          "canonical": "(internal quotation marks omitted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)(B)",
+          "to": "Section 1252(b)(4)(B)"
+        },
+        {
+          "from": "BIA",
+          "to": "B I A"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 619,
+          "end": 1324
+        }
+      ],
+      "citations": [
+        {
+          "start": 472,
+          "end": 525,
+          "text": "502 U. S., at 483 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        },
+        {
+          "start": 696,
+          "end": 708,
+          "text": "Id., at 484.",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "BIA",
+          "to": "B I A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1324,
+          "end": 2037
+        },
+        {
+          "page": 12,
+          "start": 80,
+          "end": 157
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 396,
+          "end": 454,
+          "text": "See, e.g., Klawitter v. INS, 970 F. 2d 149, 152 (CA6 1992)",
+          "type": "case",
+          "canonical": "970 F.2d 149"
+        },
+        {
+          "start": 745,
+          "end": 792,
+          "text": "(quoting Elias-Zacarias, 502 U. S., at 483–484)",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a noncitizen]",
+          "to": "a noncitizen"
+        },
+        {
+          "from": "[noncitizen]",
+          "to": "noncitizen"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1766,
+          "end": 2118
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 110,
+          "text": "See also Huaman-Cornelio v. BIA, 979 F. 2d 995, 999 (CA4 1992) (citing Elias-Zacarias, 502 U. S., at 483–484);",
+          "type": "case",
+          "canonical": "979 F.2d 995"
+        },
+        {
+          "start": 111,
+          "end": 172,
+          "text": "Chun v. INS, 40 F. 3d 76, 78 (CA5 1994) (per curiam ) (same);",
+          "type": "case",
+          "canonical": "40 F.3d 76"
+        },
+        {
+          "start": 173,
+          "end": 227,
+          "text": "Milosevic v. INS, 18 F. 3d 366, 370 (CA7 1994) (same);",
+          "type": "case",
+          "canonical": "18 F.3d 366"
+        },
+        {
+          "start": 228,
+          "end": 296,
+          "text": "Yacoub v. INS, 999 F. 2d 1296, 1297 (CA8 1993) (per curiam ) (same);",
+          "type": "case",
+          "canonical": "999 F.2d 1296"
+        },
+        {
+          "start": 297,
+          "end": 352,
+          "text": "Kazlauskas v. INS, 46 F. 3d 902, 905 (CA9 1995) (same).",
+          "type": "case",
+          "canonical": "46 F.3d 902"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 159,
+          "end": 160
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 161,
+          "end": 648
+        }
+      ],
+      "citations": [
+        {
+          "start": 214,
+          "end": 246,
+          "text": "§ 306(a)(2), 110 Stat. 3009–607.",
+          "type": "statute",
+          "canonical": "IIRIRA § 306(a)(2), 110 Stat. 3009-607"
+        },
+        {
+          "start": 280,
+          "end": 292,
+          "text": "§ 1252(b)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 373,
+          "end": 385,
+          "text": "§ 1252(b)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 455,
+          "end": 467,
+          "text": "§ 1252(b)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)",
+          "to": "Section 1252(b)(4)"
+        },
+        {
+          "from": "BIA",
+          "to": "B I A"
+        },
+        {
+          "from": "IJ",
+          "to": "I J"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        },
+        {
+          "from": "IIRIRA",
+          "to": "I I R I R A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 648,
+          "end": 1534
+        }
+      ],
+      "citations": [
+        {
+          "start": 79,
+          "end": 94,
+          "text": "§ 1252(b)(4)(B)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 247,
+          "end": 268,
+          "text": "502 U. S., at 483–484",
+          "type": "case",
+          "canonical": "502 U.S. 478"
+        },
+        {
+          "start": 524,
+          "end": 539,
+          "text": "§ 1252(b)(4)(B)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 683,
+          "end": 735,
+          "text": "Cf. Bartenwerfer v. Buckley, 598 U. S. 69, 80 (2023)",
+          "type": "case",
+          "canonical": "598 U.S. 69"
+        },
+        {
+          "start": 853,
+          "end": 887,
+          "text": "(internal quotation marks omitted)",
+          "type": "record",
+          "canonical": "(internal quotation marks omitted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)(B)",
+          "to": "Section 1252(b)(4)(B)"
+        },
+        {
+          "from": "BIA",
+          "to": "B I A"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        },
+        {
+          "from": "IIRIRA",
+          "to": "I I R I R A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1534,
+          "end": 1764
+        },
+        {
+          "page": 13,
+          "start": 86,
+          "end": 822
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 27,
+          "end": 42,
+          "text": "§ 1252(b)(4)(B)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 220,
+          "end": 235,
+          "text": "§ 1252(a)(2)(D)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 453,
+          "end": 465,
+          "text": "§ 1252(b)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)(B)",
+          "to": "Section 1252(b)(4)(B)"
+        },
+        {
+          "from": "§ 1252(a)(2)(D)",
+          "to": "Section 1252(a)(2)(D)"
+        },
+        {
+          "from": "§ 1252(b)(4)",
+          "to": "Section 1252(b)(4)"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        },
+        {
+          "from": "IIRIRA",
+          "to": "I I R I R A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 822,
+          "end": 824
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 825,
+          "end": 1355
+        }
+      ],
+      "citations": [
+        {
+          "start": 263,
+          "end": 278,
+          "text": "§ 1252(b)(4)(B)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 349,
+          "end": 361,
+          "text": "§ 1252(b)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 498,
+          "end": 530,
+          "text": "See Brief for Petitioners 15–16.",
+          "type": "record",
+          "canonical": "See Brief for Petitioners 15–16."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)(B)",
+          "to": "Section 1252(b)(4)(B)"
+        },
+        {
+          "from": "§ 1252(b)(4)",
+          "to": "Section 1252(b)(4)"
+        },
+        {
+          "from": "IIRIRA",
+          "to": "I I R I R A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1355,
+          "end": 2122
+        },
+        {
+          "page": 14,
+          "start": 80,
+          "end": 701
+        }
+      ],
+      "citations": [
+        {
+          "start": 538,
+          "end": 553,
+          "text": "§ 1252(b)(4)(B)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 929,
+          "end": 979,
+          "text": "See Garland v. Ming Dai, 593 U. S. 357, 373 (2021)",
+          "type": "case",
+          "canonical": "593 U.S. 357"
+        },
+        {
+          "start": 1258,
+          "end": 1270,
+          "text": "§ 1252(b)(4)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)(B)",
+          "to": "Section 1252(b)(4)(B)"
+        },
+        {
+          "from": "§ 1252(b)(4)",
+          "to": "Section 1252(b)(4)"
+        },
+        {
+          "from": "IJ",
+          "to": "I J"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1665,
+          "end": 2212
+        }
+      ],
+      "citations": [
+        {
+          "start": 20,
+          "end": 35,
+          "text": "§ 1252(b)(4)(B)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 179,
+          "end": 215,
+          "text": "Loper Bright Enterprises v. Raimondo",
+          "type": "case",
+          "canonical": "603 U.S. 369",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 215,
+          "end": 237,
+          "text": ", 603 U. S. 369 (2024)",
+          "type": "case",
+          "canonical": "603 U.S. 369"
+        },
+        {
+          "start": 239,
+          "end": 270,
+          "text": "See Brief for Petitioners 23–24",
+          "type": "record",
+          "canonical": "See Brief for Petitioners 23–24"
+        },
+        {
+          "start": 529,
+          "end": 547,
+          "text": "603 U. S., at 413.",
+          "type": "case",
+          "canonical": "603 U.S. 369"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)(B)",
+          "to": "Section 1252(b)(4)(B)"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 702,
+          "end": 1663
+        }
+      ],
+      "citations": [
+        {
+          "start": 17,
+          "end": 37,
+          "text": "Wilkinson v. Garland",
+          "type": "case",
+          "canonical": "601 U.S. 209",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 37,
+          "end": 59,
+          "text": ", 601 U. S. 209 (2024)",
+          "type": "case",
+          "canonical": "601 U.S. 209"
+        },
+        {
+          "start": 65,
+          "end": 91,
+          "text": "Guerrero-Lasprilla v. Barr",
+          "type": "case",
+          "canonical": "589 U.S. 221",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 91,
+          "end": 113,
+          "text": ", 589 U. S. 221 (2020)",
+          "type": "case",
+          "canonical": "589 U.S. 221"
+        },
+        {
+          "start": 251,
+          "end": 260,
+          "text": "§ 1252(a)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 287,
+          "end": 305,
+          "text": "601 U. S., at 212;",
+          "type": "case",
+          "canonical": "601 U.S. 209"
+        },
+        {
+          "start": 306,
+          "end": 324,
+          "text": "589 U. S., at 225.",
+          "type": "case",
+          "canonical": "589 U.S. 221"
+        },
+        {
+          "start": 336,
+          "end": 345,
+          "text": "§ 1252(b)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 347,
+          "end": 356,
+          "text": "§ 1252(a)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 731,
+          "end": 763,
+          "text": "See Wilkinson, 601 U. S., at 222",
+          "type": "case",
+          "canonical": "601 U.S. 209"
+        },
+        {
+          "start": 865,
+          "end": 910,
+          "text": "Guerrero-Lasprilla, 589 U. S., at 228 (same).",
+          "type": "case",
+          "canonical": "589 U.S. 221"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(a)",
+          "to": "Section 1252(a)"
+        },
+        {
+          "from": "§ 1252(b)",
+          "to": "Section 1252(b)"
+        },
+        {
+          "from": "INA",
+          "to": "I N A"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 92,
+          "end": 304
+        }
+      ],
+      "citations": [
+        {
+          "start": 68,
+          "end": 83,
+          "text": "§ 1252(b)(4)(B)",
+          "type": "statute",
+          "canonical": "8 U.S.C. § 1252",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1252(b)(4)(B)",
+          "to": "Section 1252(b)(4)(B)"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 3,
+      "start": 1455,
+      "end": 2030,
+      "text": "*Briefs of amici curiae urging reversal were fled for the Center for\nIndividual Rights by Jonathan C. Bond, Trenton J. Van Oss, Lavi M. Ben\nDor, and Caleb Kruckenberg; for Former Executive Offce for Immigration\nReview Judges by Richard W. Mark and Amer S. Ahmed; for Immigration\nLaw Professors by Minh Nguyen-Dang; and for Legal Services Providers\net al. by Ethan Nutter, Melissa Crow, Robert Pauw , and Matthew X. Etchemendy. Briefs of amici curiae urging vacatur were fled for Immigration Law Scholars et al. by Peter E. Davis; and for Nancy Morawetz by\nEugene A. Sokoloff.",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 80,
+      "text": "Page Proof Pending Publication\n540 URIAS-ORELLANA v. BONDI\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 537 (2026) 541\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 80,
+      "text": "Page Proof Pending Publication\n542 URIAS-ORELLANA v. BONDI\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 537 (2026) 543\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 261,
+      "end": 263,
+      "text": "1\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1498,
+      "end": 1500,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 80,
+      "text": "Page Proof Pending Publication\n544 URIAS-ORELLANA v. BONDI\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1311,
+      "end": 1312,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1464,
+      "end": 1465,
+      "text": "3",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1601,
+      "end": 1603,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1881,
+      "end": 1883,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 537 (2026) 545\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 161,
+      "end": 163,
+      "text": "4\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1637,
+      "end": 1639,
+      "text": "4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 80,
+      "text": "Page Proof Pending Publication\n546 URIAS-ORELLANA v. BONDI\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 537 (2026) 547\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 80,
+      "text": "Page Proof Pending Publication\n548 URIAS-ORELLANA v. BONDI\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 157,
+      "end": 159,
+      "text": "5\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1764,
+      "end": 1766,
+      "text": "5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 537 (2026) 549\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 80,
+      "text": "Page Proof Pending Publication\n550 URIAS-ORELLANA v. BONDI\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 701,
+      "end": 702,
+      "text": "6",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 1663,
+      "end": 1665,
+      "text": "6 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 92,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 537 (2026) 551\nOpinion of the Court\n* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 3,
+      "start": 951,
+      "end": 958,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 3,
+      "start": 1448,
+      "end": 1453,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 3,
+      "start": 1500,
+      "end": 1504,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 1644,
+      "end": 1649,
+      "expectedText": "Offce",
+      "text": "Office"
+    },
+    {
+      "page": 3,
+      "start": 1925,
+      "end": 1929,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 564,
+      "end": 572,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 4,
+      "start": 711,
+      "end": 723,
+      "expectedText": "halfbrothers",
+      "text": "half-brothers"
+    },
+    {
+      "page": 4,
+      "start": 1259,
+      "end": 1263,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 4,
+      "start": 1637,
+      "end": 1645,
+      "expectedText": "qualifes",
+      "text": "qualifies"
+    },
+    {
+      "page": 5,
+      "start": 111,
+      "end": 121,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 5,
+      "start": 540,
+      "end": 551,
+      "expectedText": "insuffcient",
+      "text": "insufficient"
+    },
+    {
+      "page": 5,
+      "start": 780,
+      "end": 790,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 5,
+      "start": 2035,
+      "end": 2042,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 6,
+      "start": 688,
+      "end": 698,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 6,
+      "start": 1402,
+      "end": 1409,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 6,
+      "start": 1471,
+      "end": 1477,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 6,
+      "start": 1723,
+      "end": 1733,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 6,
+      "start": 1958,
+      "end": 1969,
+      "expectedText": "diffculties",
+      "text": "difficulties"
+    },
+    {
+      "page": 6,
+      "start": 2018,
+      "end": 2027,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 6,
+      "start": 2054,
+      "end": 2057,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 7,
+      "start": 345,
+      "end": 356,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 7,
+      "start": 1223,
+      "end": 1230,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 7,
+      "start": 1622,
+      "end": 1631,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 7,
+      "start": 1705,
+      "end": 1715,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 8,
+      "start": 80,
+      "end": 87,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 8,
+      "start": 488,
+      "end": 495,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 8,
+      "start": 697,
+      "end": 700,
+      "expectedText": "fts",
+      "text": "fits"
+    },
+    {
+      "page": 8,
+      "start": 1144,
+      "end": 1151,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 8,
+      "start": 1262,
+      "end": 1269,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 8,
+      "start": 1396,
+      "end": 1403,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 8,
+      "start": 1548,
+      "end": 1555,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 9,
+      "start": 456,
+      "end": 463,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 9,
+      "start": 504,
+      "end": 511,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 9,
+      "start": 985,
+      "end": 1004,
+      "expectedText": "substantialevidence",
+      "text": "substantial-evidence"
+    },
+    {
+      "page": 9,
+      "start": 1013,
+      "end": 1024,
+      "expectedText": "Specifcally",
+      "text": "Specifically"
+    },
+    {
+      "page": 9,
+      "start": 1259,
+      "end": 1268,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 9,
+      "start": 1283,
+      "end": 1286,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 9,
+      "start": 1473,
+      "end": 1480,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 10,
+      "start": 223,
+      "end": 231,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 10,
+      "start": 701,
+      "end": 708,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 10,
+      "start": 1465,
+      "end": 1473,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 10,
+      "start": 1487,
+      "end": 1494,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 10,
+      "start": 1812,
+      "end": 1823,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 10,
+      "start": 1996,
+      "end": 2005,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 11,
+      "start": 362,
+      "end": 369,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 11,
+      "start": 905,
+      "end": 916,
+      "expectedText": "wellfounded",
+      "text": "well-founded"
+    },
+    {
+      "page": 11,
+      "start": 1064,
+      "end": 1070,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 11,
+      "start": 1247,
+      "end": 1256,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 11,
+      "start": 1271,
+      "end": 1274,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 11,
+      "start": 1344,
+      "end": 1352,
+      "expectedText": "clarifed",
+      "text": "clarified"
+    },
+    {
+      "page": 11,
+      "start": 1452,
+      "end": 1459,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 11,
+      "start": 1494,
+      "end": 1501,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 11,
+      "start": 1999,
+      "end": 2008,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 11,
+      "start": 2023,
+      "end": 2026,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 12,
+      "start": 775,
+      "end": 782,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 12,
+      "start": 1098,
+      "end": 1107,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 12,
+      "start": 1122,
+      "end": 1125,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 12,
+      "start": 1285,
+      "end": 1292,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 13,
+      "start": 474,
+      "end": 481,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 13,
+      "start": 1133,
+      "end": 1140,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 13,
+      "start": 1615,
+      "end": 1622,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 13,
+      "start": 1803,
+      "end": 1810,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 13,
+      "start": 1855,
+      "end": 1862,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 13,
+      "start": 2027,
+      "end": 2034,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 14,
+      "start": 352,
+      "end": 359,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 14,
+      "start": 685,
+      "end": 692,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 14,
+      "start": 1283,
+      "end": 1304,
+      "expectedText": "jurisdictionstripping",
+      "text": "jurisdiction-stripping"
+    },
+    {
+      "page": 15,
+      "start": 278,
+      "end": 285,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 4,
+      "start": 1956,
+      "end": 1960,
+      "expectedText": "asy-",
+      "text": "asy"
+    },
+    {
+      "page": 8,
+      "start": 1596,
+      "end": 1600,
+      "expectedText": "fnd-",
+      "text": "find"
+    },
+    {
+      "page": 11,
+      "start": 2031,
+      "end": 2037,
+      "expectedText": "requi-",
+      "text": "requi"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Entire thirteen-page Court body and all six notes checked against bundled PDF; counsel and Reporter excluded. Substantive notes 1 and 6 read completely at markers, preserving legal-standard and Loper Bright reservations; notes 2–5 explicitly citation-only with individual source references retained. All statutory, factual and judicial quotations, explanatory parentheticals and de novo distinctions preserved; only exact reviewed source-reference/attribution material omitted. Semantic statute/case mentions stay inline and spoken."
+}

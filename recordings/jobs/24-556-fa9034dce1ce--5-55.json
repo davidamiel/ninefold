@@ -1,0 +1,3935 @@
+{
+  "reviewed": true,
+  "documentId": "24-556-fa9034dce1ce--5-55",
+  "sourceDocumentId": "24-556-fa9034dce1ce",
+  "sourceTextPath": "dist/data/docs/24-556-fa9034dce1ce.json",
+  "sourceTextSha256": "adbba36a5e72fecfe1df65495c2071b9df3a532c9b79631e7bdbaad1efccf283",
+  "sourcePdfPath": "dist/data/pdfs/24-556-fa9034dce1ce--5-55.pdf",
+  "sourcePdfSha256": "49b004d8ec15479d8d045bf8ec971c472a704b17c821421eec719b2c38dbd050",
+  "title": "Opinion of the Court",
+  "author": "Amy Coney Barrett",
+  "date": "2026-05-28",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r39_5iek.pdf",
+  "sourceRange": {
+    "startPage": 5,
+    "startOffset": 107,
+    "endPage": 21,
+    "endOffset": 158
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 107,
+          "end": 620
+        }
+      ],
+      "citations": [
+        {
+          "start": 181,
+          "end": 209,
+          "text": "18 U. S. C. § 3582(c)(1)(A).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(c)(1)(A)"
+        },
+        {
+          "start": 470,
+          "end": 488,
+          "text": "28 U. S. C. § 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 494,
+          "end": 512,
+          "text": "18 U. S. C. § 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        },
+        {
+          "from": "18 U. S. C. § 3582",
+          "to": "Section 3582 of Title 18"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        },
+        {
+          "from": "18 U. S. C. § 3582",
+          "to": "Section 3582 of Title 18"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 620,
+          "end": 621
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 622,
+          "end": 924
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 924,
+          "end": 1331
+        }
+      ],
+      "citations": [
+        {
+          "start": 312,
+          "end": 344,
+          "text": "See 18 U. S. C. §§ 924(j), 1958.",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  924(j), 1958"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1331,
+          "end": 1913
+        },
+        {
+          "page": 6,
+          "start": 83,
+          "end": 696
+        }
+      ],
+      "citations": [
+        {
+          "start": 93,
+          "end": 110,
+          "text": "Brady v. Maryland",
+          "type": "case",
+          "canonical": "373 U.S. 83",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 110,
+          "end": 131,
+          "text": ", 373 U. S. 83 (1963)",
+          "type": "case",
+          "canonical": "373 U.S. 83"
+        },
+        {
+          "start": 639,
+          "end": 709,
+          "text": "United States v. Fernandez, 2014 WL 7180225, *1 (SDNY, Nov. 25, 2014).",
+          "type": "case",
+          "canonical": "2014 WL 7180225"
+        },
+        {
+          "start": 1037,
+          "end": 1048,
+          "text": "Id., at *3.",
+          "type": "case",
+          "canonical": "373 U.S. 83"
+        },
+        {
+          "start": 1190,
+          "end": 1195,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "373 U.S. 83"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "d[id]",
+          "to": "did"
+        },
+        {
+          "from": "allow[ed]",
+          "to": "allowed"
+        },
+        {
+          "from": "[had]",
+          "to": "had"
+        },
+        {
+          "from": "dismiss[ed]",
+          "to": "dismissed"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 696,
+          "end": 1711
+        }
+      ],
+      "citations": [
+        {
+          "start": 81,
+          "end": 138,
+          "text": "See United States v. Fernandez, 648 Fed. Appx. 56 (2016).",
+          "type": "case",
+          "canonical": "648 Fed. Appx.56"
+        },
+        {
+          "start": 319,
+          "end": 330,
+          "text": "Id., at 61.",
+          "type": "case",
+          "canonical": "648 Fed. Appx.56"
+        },
+        {
+          "start": 459,
+          "end": 464,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "648 Fed. Appx.56"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "d[id]",
+          "to": "did"
+        },
+        {
+          "from": "[I]n",
+          "to": "In"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1711,
+          "end": 2113
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 662
+        }
+      ],
+      "citations": [
+        {
+          "start": 68,
+          "end": 86,
+          "text": "28 U. S. C. § 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 379,
+          "end": 425,
+          "text": "Reply Brief in No. 18–06 (CA2), pp. 8–9, n. 2.",
+          "type": "record",
+          "canonical": "Reply Brief in No. 18–06 (CA2), pp. 8–9, n. 2."
+        },
+        {
+          "start": 636,
+          "end": 696,
+          "text": "Fernandez v. United States, 757 Fed. Appx. 52, 55–56 (2018).",
+          "type": "case",
+          "canonical": "757 Fed. Appx.52"
+        },
+        {
+          "start": 821,
+          "end": 843,
+          "text": "United States v. Davis",
+          "type": "case",
+          "canonical": "588 U.S. 445",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 843,
+          "end": 865,
+          "text": ", 588 U. S. 445 (2019)",
+          "type": "case",
+          "canonical": "588 U.S. 445"
+        },
+        {
+          "start": 877,
+          "end": 900,
+          "text": "18 U. S. C. § 924(c)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 924(c)(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 948,
+          "end": 1012,
+          "text": "See Fernandez v. United States, 569 F. Supp. 3d 169 (SDNY 2021).",
+          "type": "case",
+          "canonical": "569 F.Supp.3d169"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[e]ven",
+          "to": "even"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 924(c)(3)",
+          "to": "Section 924(c)(3)"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        },
+        {
+          "from": "18 U. S. C. § 924",
+          "to": "Section 924 of Title 18"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        },
+        {
+          "from": "18 U. S. C. § 924(c)(3)",
+          "to": "Section 924(c)(3) of Title 18"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 662,
+          "end": 1686
+        }
+      ],
+      "citations": [
+        {
+          "start": 430,
+          "end": 448,
+          "text": "Id., at 174, n. 4.",
+          "type": "case",
+          "canonical": "569 F.Supp.3d169"
+        },
+        {
+          "start": 670,
+          "end": 675,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "569 F.Supp.3d169"
+        },
+        {
+          "start": 1013,
+          "end": 1025,
+          "text": "Id., at 179.",
+          "type": "case",
+          "canonical": "569 F.Supp.3d169"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "kn[ew]",
+          "to": "knew"
+        },
+        {
+          "from": "[Fernandez]",
+          "to": "Fernandez"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1686,
+          "end": 2079
+        },
+        {
+          "page": 8,
+          "start": 52,
+          "end": 296
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 93,
+          "end": 111,
+          "text": "§ 3582(c)(1)(A)(i)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)(i)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 113,
+          "end": 156,
+          "text": "See No. 1:10–cr–00863 (SDNY), ECF Doc. 248.",
+          "type": "record",
+          "canonical": "See No. 1:10–cr–00863 (SDNY), ECF Doc. 248."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3582(c)(1)(A)(i)",
+          "to": "Section 3582(c)(1)(A)(i)"
+        },
+        {
+          "from": "§ 3582(c)(1)(A)(i)",
+          "to": "Section 3582(c)(1)(A)(i)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 296,
+          "end": 1076
+        }
+      ],
+      "citations": [
+        {
+          "start": 242,
+          "end": 285,
+          "text": "2022 WL 17039059, *4 (SDNY, Nov. 17, 2022).",
+          "type": "case",
+          "canonical": "2022 WL 17039059"
+        },
+        {
+          "start": 447,
+          "end": 452,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "2022 WL 17039059"
+        },
+        {
+          "start": 602,
+          "end": 607,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "2022 WL 17039059"
+        },
+        {
+          "start": 777,
+          "end": 782,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "2022 WL 17039059"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "doubt[ed]",
+          "to": "doubted"
+        },
+        {
+          "from": "sacrifice[d]",
+          "to": "sacrificed"
+        },
+        {
+          "from": "[the District Court's]",
+          "to": "the District Court's"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1712,
+          "end": 2013
+        }
+      ],
+      "citations": [
+        {
+          "start": 166,
+          "end": 187,
+          "text": "2022 WL 17039059, *4.",
+          "type": "case",
+          "canonical": "2022 WL 17039059"
+        },
+        {
+          "start": 241,
+          "end": 267,
+          "text": "104 F. 4th 420, 429 (2024)",
+          "type": "case",
+          "canonical": "104 F.4th 420"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[s]",
+          "to": "s"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1078,
+          "end": 1710
+        }
+      ],
+      "citations": [
+        {
+          "start": 153,
+          "end": 174,
+          "text": "section 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 177,
+          "end": 204,
+          "text": "104 F. 4th 420, 431 (2024).",
+          "type": "case",
+          "canonical": "104 F.4th 420"
+        },
+        {
+          "start": 286,
+          "end": 304,
+          "text": "28 U. S. C. § 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 347,
+          "end": 353,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 468,
+          "end": 480,
+          "text": "section 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 576,
+          "end": 588,
+          "text": "section 2255",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 2255",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 591,
+          "end": 631,
+          "text": "104 F. 4th, at 430 (alteration omitted).",
+          "type": "record",
+          "canonical": "104 F. 4th, at 430 (alteration omitted)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 55,
+          "end": 147
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1519,
+          "end": 2078
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 69,
+          "text": "Compare United States v. Ferguson, 55 F. 4th 262, 270–272 (CA4 2022);",
+          "type": "case",
+          "canonical": "55 F.4th 262"
+        },
+        {
+          "start": 70,
+          "end": 131,
+          "text": "United States v. Escajeda, 58 F. 4th 184, 186–187 (CA5 2023);",
+          "type": "case",
+          "canonical": "58 F.4th 184"
+        },
+        {
+          "start": 132,
+          "end": 189,
+          "text": "United States v. West, 70 F. 4th 341, 346–348 (CA6 2023);",
+          "type": "case",
+          "canonical": "70 F.4th 341"
+        },
+        {
+          "start": 190,
+          "end": 248,
+          "text": "United States v. Von Vader, 58 F. 4th 369, 371 (CA7 2023);",
+          "type": "case",
+          "canonical": "58 F.4th 369"
+        },
+        {
+          "start": 249,
+          "end": 306,
+          "text": "United States v. Crandall, 25 F. 4th 582, 586 (CA8 2022);",
+          "type": "case",
+          "canonical": "25 F.4th 582"
+        },
+        {
+          "start": 307,
+          "end": 370,
+          "text": "United States v. Wesley, 60 F. 4th 1277, 1284–1286 (CA10 2023);",
+          "type": "case",
+          "canonical": "60 F.4th 1277"
+        },
+        {
+          "start": 371,
+          "end": 435,
+          "text": "United States v. Jenkins, 50 F. 4th 1185, 1202–1204 (CADC 2022),",
+          "type": "case",
+          "canonical": "50 F.4th 1185"
+        },
+        {
+          "start": 436,
+          "end": 496,
+          "text": "with United States v. Trenkler, 47 F. 4th 42, 48 (CA1 2022);",
+          "type": "case",
+          "canonical": "47 F.4th 42"
+        },
+        {
+          "start": 497,
+          "end": 558,
+          "text": "United States v. Roper, 72 F. 4th 1097, 1102–1103 (CA9 2023).",
+          "type": "case",
+          "canonical": "72 F.4th 1097"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 148,
+          "end": 215
+        }
+      ],
+      "citations": [
+        {
+          "start": 44,
+          "end": 65,
+          "text": "605 U. S. 931 (2025).",
+          "type": "case",
+          "canonical": "605 U.S. 931"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 215,
+          "end": 217
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 218,
+          "end": 1226
+        }
+      ],
+      "citations": [
+        {
+          "start": 58,
+          "end": 76,
+          "text": "28 U. S. C. § 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 168,
+          "end": 178,
+          "text": "§ 2255(f).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §  2255(f)"
+        },
+        {
+          "start": 260,
+          "end": 278,
+          "text": "§§ 2255(h)(1)–(2).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §  2255(h)(1)–(2)"
+        },
+        {
+          "start": 381,
+          "end": 387,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 397,
+          "end": 459,
+          "text": "See Kaufman v. United States, 394 U. S. 217, 227, n. 8 (1969);",
+          "type": "case",
+          "canonical": "394 U.S. 217"
+        },
+        {
+          "start": 460,
+          "end": 562,
+          "text": "Reed v. Farley, 512 U. S. 339, 358 (1994) (Scalia, J., concurring in part and concurring in judgment).",
+          "type": "case",
+          "canonical": "512 U.S. 339"
+        },
+        {
+          "start": 724,
+          "end": 776,
+          "text": "Bousley v. United States, 523 U. S. 614, 622 (1998).",
+          "type": "case",
+          "canonical": "523 U.S. 614"
+        },
+        {
+          "start": 906,
+          "end": 918,
+          "text": "Section 2255",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 2255",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 940,
+          "end": 958,
+          "text": "28 U. S. C. § 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        },
+        {
+          "from": "28 U. S. C. § 2254",
+          "to": "Section 2254 of Title 28"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "28 U. S. C. § 2254",
+          "to": "Section 2254 of Title 28"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1226,
+          "end": 1517
+        },
+        {
+          "page": 10,
+          "start": 83,
+          "end": 460
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 75,
+          "end": 81,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 172,
+          "end": 190,
+          "text": "18 U. S. C. § 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 274,
+          "end": 280,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 303,
+          "end": 309,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 431,
+          "end": 447,
+          "text": "§ 3582(c)(1)(A).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(c)(1)(A)"
+        },
+        {
+          "start": 649,
+          "end": 668,
+          "text": "§ 3582(c)(1)(A)(i).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(c)(1)(A)(i)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "18 U. S. C. § 3582",
+          "to": "Section 3582 of Title 18"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "18 U. S. C. § 3582",
+          "to": "Section 3582 of Title 18"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 460,
+          "end": 2118
+        },
+        {
+          "page": 11,
+          "start": 55,
+          "end": 854
+        }
+      ],
+      "citations": [
+        {
+          "start": 133,
+          "end": 153,
+          "text": "Preiser v. Rodriguez",
+          "type": "case",
+          "canonical": "411 U.S. 475",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 186,
+          "end": 204,
+          "text": "42 U. S. C. § 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 334,
+          "end": 360,
+          "text": "411 U. S. 475, 488 (1973).",
+          "type": "case",
+          "canonical": "411 U.S. 475"
+        },
+        {
+          "start": 408,
+          "end": 414,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 464,
+          "end": 476,
+          "text": "Id., at 489.",
+          "type": "case",
+          "canonical": "411 U.S. 475"
+        },
+        {
+          "start": 701,
+          "end": 707,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 710,
+          "end": 722,
+          "text": "Id., at 490.",
+          "type": "case",
+          "canonical": "411 U.S. 475"
+        },
+        {
+          "start": 863,
+          "end": 869,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1004,
+          "end": 1016,
+          "text": "Id., at 489.",
+          "type": "case",
+          "canonical": "411 U.S. 475"
+        },
+        {
+          "start": 1066,
+          "end": 1072,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1152,
+          "end": 1157,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "411 U.S. 475"
+        },
+        {
+          "start": 1171,
+          "end": 1177,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1228,
+          "end": 1316,
+          "text": "District Attorney's Office for Third Judicial Dist. v. Osborne, 557 U. S. 52, 66 (2009).",
+          "type": "case",
+          "canonical": "557 U.S. 52"
+        },
+        {
+          "start": 1317,
+          "end": 1335,
+          "text": "Gonzalez v. Crosby",
+          "type": "case",
+          "canonical": "545 U.S. 524",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1335,
+          "end": 1357,
+          "text": ", 545 U. S. 524 (2005)",
+          "type": "case",
+          "canonical": "545 U.S. 524"
+        },
+        {
+          "start": 1425,
+          "end": 1462,
+          "text": "Federal Rule of Civil Procedure 60(b)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P.60(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1567,
+          "end": 1577,
+          "text": "Rule 60(b)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P.60(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1704,
+          "end": 1751,
+          "text": "Fed. Rule Civ. Proc. 60(b)(6) (emphasis added).",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P. 60(b)(6)"
+        },
+        {
+          "start": 1768,
+          "end": 1774,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1824,
+          "end": 1834,
+          "text": "Rule 60(b)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P.60(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1837,
+          "end": 1865,
+          "text": "Gonzalez, 545 U. S., at 529.",
+          "type": "case",
+          "canonical": "545 U.S. 524"
+        },
+        {
+          "start": 1896,
+          "end": 1906,
+          "text": "Rule 60(b)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P.60(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1964,
+          "end": 1970,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 2138,
+          "end": 2189,
+          "text": "Id., at 531– 532 (citing 28 U. S. C. § 2244(b)(3)).",
+          "type": "case",
+          "canonical": "545 U.S. 524"
+        },
+        {
+          "start": 2282,
+          "end": 2288,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 2290,
+          "end": 2366,
+          "text": "545 U. S., at 529 (quoting 28 U. S. C. § 2254 Rule 11 (2000 ed., Supp. IV)).",
+          "type": "case",
+          "canonical": "545 U.S. 524"
+        },
+        {
+          "start": 2373,
+          "end": 2383,
+          "text": "Rule 60(b)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P.60(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 2460,
+          "end": 2466,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        },
+        {
+          "from": "42 U. S. C. § 1983",
+          "to": "Section 1983 of Title 42"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "42 U. S. C. § 1983",
+          "to": "Section 1983 of Title 42"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 854,
+          "end": 1169
+        }
+      ],
+      "citations": [
+        {
+          "start": 307,
+          "end": 313,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1528,
+          "end": 2335
+        }
+      ],
+      "citations": [
+        {
+          "start": 62,
+          "end": 68,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 73,
+          "end": 83,
+          "text": "Rule 60(b)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P.60(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 118,
+          "end": 145,
+          "text": "18 U. S. C. § 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 161,
+          "end": 203,
+          "text": "Post, at 446–448 (opinion of Jackson, J.).",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        },
+        {
+          "start": 354,
+          "end": 369,
+          "text": "§ 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 403,
+          "end": 421,
+          "text": "28 U. S. C. § 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 708,
+          "end": 736,
+          "text": "Gonzalez, 545 U. S., at 532;",
+          "type": "case",
+          "canonical": "545 U.S. 524"
+        },
+        {
+          "start": 737,
+          "end": 773,
+          "text": "see also Preiser, 411 U. S., at 489.",
+          "type": "case",
+          "canonical": "411 U.S. 475"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "§ 3582(c)(1)(A)",
+          "to": "Section 3582(c)(1)(A)"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "18 U. S. C. § 3582",
+          "to": "Section 3582 of Title 18"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "18 U. S. C. § 3582(c)(1)(A)",
+          "to": "Section 3582(c)(1)(A) of Title 18"
+        },
+        {
+          "from": "§ 3582(c)(1)(A)",
+          "to": "Section 3582(c)(1)(A)"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section 2255 of Title 28"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1171,
+          "end": 1526
+        },
+        {
+          "page": 12,
+          "start": 52,
+          "end": 1106
+        }
+      ],
+      "citations": [
+        {
+          "start": 48,
+          "end": 54,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 233,
+          "end": 241,
+          "text": "[§ ]2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 418,
+          "end": 441,
+          "text": "Tr. of Oral Arg. 18–19.",
+          "type": "record",
+          "canonical": "Tr. of Oral Arg. 18–19."
+        },
+        {
+          "start": 518,
+          "end": 524,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 626,
+          "end": 634,
+          "text": "[§ ]2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 637,
+          "end": 648,
+          "text": "Id., at 19.",
+          "type": "record",
+          "canonical": "Transcript of Oral Argument"
+        },
+        {
+          "start": 977,
+          "end": 994,
+          "text": "Brady v. Maryland",
+          "type": "case",
+          "canonical": "373 U.S. 83",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 999,
+          "end": 1023,
+          "text": "Strickland v. Washington",
+          "type": "case",
+          "canonical": "466 U.S. 668",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1026,
+          "end": 1069,
+          "text": "Brief for Petitioner 41 (citation omitted).",
+          "type": "record",
+          "canonical": "Brief for Petitioner 41 (citation omitted)."
+        },
+        {
+          "start": 1217,
+          "end": 1222,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Transcript of Oral Argument"
+        },
+        {
+          "start": 1358,
+          "end": 1364,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1366,
+          "end": 1409,
+          "text": "Post, at 452–453 (opinion of J ackson, J.).",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[§ ]",
+          "to": "§ "
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "[the prisoner's]",
+          "to": "the prisoner's"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "[§ ]2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "[§ ]2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "[§ ]2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1106,
+          "end": 1849
+        }
+      ],
+      "citations": [
+        {
+          "start": 64,
+          "end": 76,
+          "text": "Section 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 98,
+          "end": 104,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 270,
+          "end": 276,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 498,
+          "end": 504,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 610,
+          "end": 616,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 659,
+          "end": 677,
+          "text": "§ 3582(c)(1)(A)(i)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)(i)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 3582(c)(1)(A)(i)",
+          "to": "Section 3582(c)(1)(A)(i)"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582(c)(1)(A)(i)",
+          "to": "Section 3582(c)(1)(A)(i)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1849,
+          "end": 2133
+        },
+        {
+          "page": 13,
+          "start": 55,
+          "end": 543
+        }
+      ],
+      "citations": [
+        {
+          "start": 16,
+          "end": 22,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 27,
+          "end": 33,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 92,
+          "end": 137,
+          "text": "District Attorney's Office, 557 U. S., at 66.",
+          "type": "case",
+          "canonical": "557 U.S. 52"
+        },
+        {
+          "start": 245,
+          "end": 264,
+          "text": "§ 3582(c)(1)(A)(i).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(c)(1)(A)(i)"
+        },
+        {
+          "start": 314,
+          "end": 320,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 336,
+          "end": 346,
+          "text": "Rule 60(b)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P.60(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 373,
+          "end": 379,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 540,
+          "end": 567,
+          "text": "Preiser, 411 U. S., at 489;",
+          "type": "case",
+          "canonical": "411 U.S. 475"
+        },
+        {
+          "start": 568,
+          "end": 621,
+          "text": "see also Jones v. Hendrix, 599 U. S. 465, 473 (2023).",
+          "type": "case",
+          "canonical": "599 U.S. 465"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "attack[ing]",
+          "to": "attacking"
+        },
+        {
+          "from": "[a prisoner's]",
+          "to": "a prisoner's"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 543,
+          "end": 1219
+        }
+      ],
+      "citations": [
+        {
+          "start": 243,
+          "end": 299,
+          "text": "Webster's Third New International Dictionary 807 (1976);",
+          "type": "record",
+          "canonical": "Webster's Third New International Dictionary 807 (1976);"
+        },
+        {
+          "start": 300,
+          "end": 349,
+          "text": "see 5 Oxford English Dictionary 614 (2d ed. 1989)",
+          "type": "record",
+          "canonical": "see 5 Oxford English Dictionary 614 (2d ed. 1989)"
+        },
+        {
+          "start": 494,
+          "end": 547,
+          "text": "Webster's Third New International Dictionary, at 463;",
+          "type": "record",
+          "canonical": "Webster's Third New International Dictionary, at 463;"
+        },
+        {
+          "start": 548,
+          "end": 587,
+          "text": "see 3 Oxford English Dictionary, at 600",
+          "type": "record",
+          "canonical": "see 3 Oxford English Dictionary, at 600"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[o]ut",
+          "to": "out"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1219,
+          "end": 1741
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1745,
+          "end": 2176
+        },
+        {
+          "page": 14,
+          "start": 2010,
+          "end": 2111
+        }
+      ],
+      "citations": [
+        {
+          "start": 111,
+          "end": 124,
+          "text": "Post, at 436.",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        },
+        {
+          "start": 280,
+          "end": 334,
+          "text": "Post, at 431 (Sotomayor , J., concurring in judgment).",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        },
+        {
+          "start": 518,
+          "end": 531,
+          "text": "Post, at 431.",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 52,
+          "end": 758
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 12,
+          "text": "Section 2255",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 2255",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 269,
+          "end": 275,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 470,
+          "end": 493,
+          "text": "Tr. of Oral Arg. 15–16.",
+          "type": "record",
+          "canonical": "Tr. of Oral Arg. 15–16."
+        },
+        {
+          "start": 519,
+          "end": 525,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 608,
+          "end": 614,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 758,
+          "end": 2010
+        },
+        {
+          "page": 15,
+          "start": 55,
+          "end": 193
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 72,
+          "end": 87,
+          "text": "§ 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 186,
+          "end": 245,
+          "text": "First Step Act of 2018, § 603(b), 132 Stat. 5239 (heading).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  603(b), 132 Stat. 5239 (heading)"
+        },
+        {
+          "start": 301,
+          "end": 307,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 374,
+          "end": 384,
+          "text": "§ 3582(d).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(d)"
+        },
+        {
+          "start": 520,
+          "end": 548,
+          "text": "§§ 3582(d)(2)(A)(i), (B)(i);",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(d)(2)(A)(i), (B)(i)"
+        },
+        {
+          "start": 622,
+          "end": 654,
+          "text": "§§ 3582(d)(2)(A)(iii), (B)(iii);",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(d)(2)(A)(iii), (B)(iii)"
+        },
+        {
+          "start": 751,
+          "end": 767,
+          "text": "§ 3582(d)(3)(H).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(d)(3)(H)"
+        },
+        {
+          "start": 1141,
+          "end": 1161,
+          "text": "§ 3582(c)(1)(A)(ii).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(c)(1)(A)(ii)"
+        },
+        {
+          "start": 1201,
+          "end": 1216,
+          "text": "§ 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1368,
+          "end": 1389,
+          "text": "28 U. S. C. § 994(t).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §  994(t)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3582(c)(1)(A)",
+          "to": "Section 3582(c)(1)(A)"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 3582(c)(1)(A)",
+          "to": "Section 3582(c)(1)(A)"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 3582(c)(1)(A)",
+          "to": "Section 3582(c)(1)(A)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 193,
+          "end": 1039
+        }
+      ],
+      "citations": [
+        {
+          "start": 365,
+          "end": 415,
+          "text": "Sentencing Reform Act of 1984, 98 Stat. 1998–1999.",
+          "type": "record",
+          "canonical": "Sentencing Reform Act of 1984, 98 Stat. 1998–1999."
+        },
+        {
+          "start": 616,
+          "end": 631,
+          "text": "132 Stat. 5239.",
+          "type": "record",
+          "canonical": "132 Stat. 5239."
+        },
+        {
+          "start": 824,
+          "end": 850,
+          "text": "See Tr. of Oral Arg. 9–12.",
+          "type": "record",
+          "canonical": "See Tr. of Oral Arg. 9–12."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1039,
+          "end": 2092
+        },
+        {
+          "page": 16,
+          "start": 52,
+          "end": 362
+        }
+      ],
+      "citations": [
+        {
+          "start": 337,
+          "end": 359,
+          "text": "18 U. S. C. § 4042(a).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  4042(a)"
+        },
+        {
+          "start": 478,
+          "end": 488,
+          "text": "§ 3582(d).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(d)"
+        },
+        {
+          "start": 782,
+          "end": 802,
+          "text": "Tr. of Oral Arg. 10.",
+          "type": "record",
+          "canonical": "Tr. of Oral Arg. 10."
+        },
+        {
+          "start": 1002,
+          "end": 1019,
+          "text": "Brady v. Maryland",
+          "type": "case",
+          "canonical": "373 U.S. 83",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1021,
+          "end": 1034,
+          "text": "373 U. S. 83,",
+          "type": "case",
+          "canonical": "373 U.S. 83"
+        },
+        {
+          "start": 1039,
+          "end": 1063,
+          "text": "Strickland v. Washington",
+          "type": "case",
+          "canonical": "466 U.S. 668",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1063,
+          "end": 1085,
+          "text": ", 466 U. S. 668 (1984)",
+          "type": "case",
+          "canonical": "466 U.S. 668"
+        },
+        {
+          "start": 1087,
+          "end": 1105,
+          "text": "Supra, at 421–422.",
+          "type": "record",
+          "canonical": "Supra, at 421–422."
+        },
+        {
+          "start": 1343,
+          "end": 1362,
+          "text": "§ 3582(c)(1)(A)(i).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(c)(1)(A)(i)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "warrant[ing]",
+          "to": "warranting"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 362,
+          "end": 1371
+        }
+      ],
+      "citations": [
+        {
+          "start": 164,
+          "end": 184,
+          "text": "28 U. S. C. § 994(t)",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 994(t)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 276,
+          "end": 303,
+          "text": "18 U. S. C. § 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 436,
+          "end": 531,
+          "text": "See United States Sentencing Commission, Guidelines Manual App. C, Amdt. 698 (Nov. 2007) (USSG)",
+          "type": "record",
+          "canonical": "See United States Sentencing Commission, Guidelines Manual App. C, Amdt. 698 (Nov. 2007) (USSG)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "§ 994(t)",
+          "to": "Section 994(t)"
+        },
+        {
+          "from": "§ 3582(c)(1)(A)",
+          "to": "Section 3582(c)(1)(A)"
+        },
+        {
+          "from": "28 U. S. C. § 994",
+          "to": "Section 994 of Title 28"
+        },
+        {
+          "from": "18 U. S. C. § 3582",
+          "to": "Section 3582 of Title 18"
+        },
+        {
+          "from": "28 U. S. C. § 994(t)",
+          "to": "Section 994(t) of Title 28"
+        },
+        {
+          "from": "18 U. S. C. § 3582(c)(1)(A)",
+          "to": "Section 3582(c)(1)(A) of Title 18"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1830,
+          "end": 2152
+        }
+      ],
+      "citations": [
+        {
+          "start": 145,
+          "end": 184,
+          "text": "USSG Supp. to App. C, Amdt. 814 (Nov.).",
+          "type": "record",
+          "canonical": "USSG Supp. to App. C, Amdt. 814 (Nov.)."
+        },
+        {
+          "start": 262,
+          "end": 321,
+          "text": "Rutherford v. United States, 608 U. S. 454, 472–473 (2026).",
+          "type": "case",
+          "canonical": "608 U.S. 454"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Sentence[s]",
+          "to": "Sentences"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1372,
+          "end": 1588
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 49,
+          "text": "See USSG § 1B1.13(1), comment., n. 1 (Nov. 2021).",
+          "type": "record",
+          "canonical": "USSG §1B1.13(1),comment n1 (2021)"
+        },
+        {
+          "start": 196,
+          "end": 215,
+          "text": "§ 3582(c)(1)(A)(i).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(c)(1)(A)(i)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "reaso[n]",
+          "to": "reason"
+        },
+        {
+          "from": "warrant[ing]",
+          "to": "warranting"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1588,
+          "end": 1828
+        },
+        {
+          "page": 17,
+          "start": 55,
+          "end": 201
+        }
+      ],
+      "citations": [
+        {
+          "start": 75,
+          "end": 81,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 287,
+          "end": 293,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 319,
+          "end": 325,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 378,
+          "end": 384,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 17,
+          "start": 201,
+          "end": 204
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 205,
+          "end": 896
+        }
+      ],
+      "citations": [
+        {
+          "start": 31,
+          "end": 37,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 42,
+          "end": 48,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 155,
+          "end": 161,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 349,
+          "end": 355,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 576,
+          "end": 582,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 638,
+          "end": 690,
+          "text": "See also post, at 442–443 (Jackson, J., dissenting).",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 896,
+          "end": 1514
+        }
+      ],
+      "citations": [
+        {
+          "start": 505,
+          "end": 511,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 525,
+          "end": 531,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1514,
+          "end": 2033
+        },
+        {
+          "page": 18,
+          "start": 52,
+          "end": 171
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 166,
+          "end": 172,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 380,
+          "end": 398,
+          "text": "411 U. S., at 489.",
+          "type": "record",
+          "canonical": "411 U. S., at 489."
+        },
+        {
+          "start": 632,
+          "end": 637,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "411 U.S. 475"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "attack[s]",
+          "to": "attacks"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 171,
+          "end": 1913
+        }
+      ],
+      "citations": [
+        {
+          "start": 248,
+          "end": 292,
+          "text": "See, e. g., Gonzalez, 545 U. S., at 531, 533",
+          "type": "case",
+          "canonical": "545 U.S. 524"
+        },
+        {
+          "start": 342,
+          "end": 352,
+          "text": "Rule 60(b)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P.60(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 389,
+          "end": 395,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1133,
+          "end": 1147,
+          "text": "Schlup v. Delo",
+          "type": "case",
+          "canonical": "513 U.S. 298",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1147,
+          "end": 1169,
+          "text": ", 513 U. S. 298 (1995)",
+          "type": "case",
+          "canonical": "513 U.S. 298"
+        },
+        {
+          "start": 1231,
+          "end": 1261,
+          "text": "See ECF Doc. 248, pp. 7–9, 14.",
+          "type": "record",
+          "canonical": "See ECF Doc. 248, pp. 7–9, 14."
+        },
+        {
+          "start": 1420,
+          "end": 1451,
+          "text": "18 U. S. C. § 3582(c)(1)(A)(i).",
+          "type": "statute",
+          "canonical": "18 U.S.C. §  3582(c)(1)(A)(i)"
+        },
+        {
+          "start": 1632,
+          "end": 1653,
+          "text": "2022 WL 17039059, *4.",
+          "type": "case",
+          "canonical": "2022 WL 17039059"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "reaso[n]",
+          "to": "reason"
+        },
+        {
+          "from": "[r]eason",
+          "to": "reason"
+        },
+        {
+          "from": "[q]uestion",
+          "to": "question"
+        },
+        {
+          "from": "[v]erdict",
+          "to": "verdict"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "§ 2254",
+          "to": "Section 2254"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1917,
+          "end": 2233
+        },
+        {
+          "page": 19,
+          "start": 928,
+          "end": 2658
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 149,
+          "end": 190,
+          "text": "post, at 448–449 (alteration in original)",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        },
+        {
+          "start": 236,
+          "end": 258,
+          "text": "post, at 441, 448–451;",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        },
+        {
+          "start": 259,
+          "end": 321,
+          "text": "see also post, at 431 (Sotomayor, J., concurring in judgment).",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        },
+        {
+          "start": 607,
+          "end": 656,
+          "text": "Cf. Gonzalez v. Crosby, 545 U. S. 524, 532 (2005)",
+          "type": "case",
+          "canonical": "545 U.S. 524"
+        },
+        {
+          "start": 707,
+          "end": 717,
+          "text": "Rule 60(b)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P.60(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 980,
+          "end": 1053,
+          "text": "See, e. g., Esteras v. United States, 606 U. S. 185, 200, and n. 9 (2025)",
+          "type": "case",
+          "canonical": "606 U.S. 185"
+        },
+        {
+          "start": 1482,
+          "end": 1488,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1566,
+          "end": 1734,
+          "text": "Post, at 448–449 (citing W. Baude, J. Goldsmith, J. Manning, J. Pfander, & A. Tyler, Hart and Wechsler's The Federal Courts and the Federal System 1687 (8th ed. 2025)).",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        },
+        {
+          "start": 1963,
+          "end": 1979,
+          "text": "Heck v. Humphrey",
+          "type": "case",
+          "canonical": "512 U.S. 477",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1979,
+          "end": 2006,
+          "text": ", 512 U. S. 477, 487 (1994)",
+          "type": "case",
+          "canonical": "512 U.S. 477"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "attac[k]",
+          "to": "attack"
+        },
+        {
+          "from": "[the plaintiff's]",
+          "to": "the plaintiff's"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 86,
+          "end": 760
+        }
+      ],
+      "citations": [
+        {
+          "start": 44,
+          "end": 63,
+          "text": "§ 3582(c)(1) (A)(i)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)(i)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 170,
+          "end": 176,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 419,
+          "end": 502,
+          "text": "Brief for Petitioner 41–42 (quoting Herrera v. Collins, 506 U. S. 390, 400 (1993)).",
+          "type": "case",
+          "canonical": "506 U.S. 390"
+        },
+        {
+          "start": 556,
+          "end": 562,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 612,
+          "end": 673,
+          "text": "See also post, at 441–442, 449–450 (Jackson, J., dissenting).",
+          "type": "case",
+          "canonical": "608 U.S. 411"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ha[s]",
+          "to": "has"
+        },
+        {
+          "from": "§ 3582(c)(1)",
+          "to": "Section 3582(c)(1)"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 3582(c)(1) (A)(i)",
+          "to": "Section 3582(c)(1)(A)(i)"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 760,
+          "end": 928
+        },
+        {
+          "page": 20,
+          "start": 52,
+          "end": 388
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 380,
+          "end": 401,
+          "text": "2022 WL 17039059, *4.",
+          "type": "case",
+          "canonical": "2022 WL 17039059"
+        },
+        {
+          "start": 461,
+          "end": 467,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 388,
+          "end": 1281
+        }
+      ],
+      "citations": [
+        {
+          "start": 153,
+          "end": 159,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 224,
+          "end": 255,
+          "text": "See Herrera, 506 U. S., at 417.",
+          "type": "case",
+          "canonical": "506 U.S. 390"
+        },
+        {
+          "start": 444,
+          "end": 456,
+          "text": "id., at 406,",
+          "type": "record",
+          "canonical": "id., at 406,"
+        },
+        {
+          "start": 539,
+          "end": 566,
+          "text": "Preiser, 411 U. S., at 489.",
+          "type": "case",
+          "canonical": "411 U.S. 475"
+        },
+        {
+          "start": 773,
+          "end": 801,
+          "text": "Gonzalez, 545 U. S., at 531.",
+          "type": "case",
+          "canonical": "545 U.S. 524"
+        },
+        {
+          "start": 846,
+          "end": 852,
+          "text": "§ 3582",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "challenge[s]",
+          "to": "challenges"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        },
+        {
+          "from": "§ 2255",
+          "to": "Section 2255"
+        },
+        {
+          "from": "§ 3582",
+          "to": "Section 3582"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1281,
+          "end": 1884
+        }
+      ],
+      "citations": [
+        {
+          "start": 98,
+          "end": 152,
+          "text": "See Rutherford v. United States, 608 U. S. 454 (2026).",
+          "type": "case",
+          "canonical": "608 U.S. 454"
+        },
+        {
+          "start": 438,
+          "end": 454,
+          "text": "Id., at 468–472.",
+          "type": "case",
+          "canonical": "608 U.S. 454"
+        },
+        {
+          "start": 591,
+          "end": 603,
+          "text": "Id., at 468.",
+          "type": "case",
+          "canonical": "608 U.S. 454"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1890,
+          "end": 2004
+        },
+        {
+          "page": 21,
+          "start": 72,
+          "end": 158
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 5,
+      "start": 1913,
+      "end": 1943,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 83,
+      "text": "Page Proof Pending Publication\n416 FERNANDEZ v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 411 (2026) 417\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 2079,
+      "end": 2109,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 52,
+      "text": "418 FERNANDEZ v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1076,
+      "end": 1078,
+      "text": "1\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1710,
+      "end": 1712,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 2013,
+      "end": 2043,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 411 (2026) 419\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 147,
+      "end": 148,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1517,
+      "end": 1519,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2078,
+      "end": 2108,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 83,
+      "text": "Page Proof Pending Publication\n420 FERNANDEZ v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 411 (2026) 421\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 1169,
+      "end": 1171,
+      "text": "3\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 1526,
+      "end": 1528,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 2335,
+      "end": 2365,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 52,
+      "text": "422 FERNANDEZ v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 2133,
+      "end": 2163,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 411 (2026) 423\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 1741,
+      "end": 1745,
+      "text": "4\n4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 2176,
+      "end": 2206,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 52,
+      "text": "424 FERNANDEZ v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 2111,
+      "end": 2141,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 411 (2026) 425\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 2092,
+      "end": 2122,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 52,
+      "text": "426 FERNANDEZ v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 1371,
+      "end": 1372,
+      "text": "5",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 1828,
+      "end": 1830,
+      "text": "5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 2152,
+      "end": 2182,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 411 (2026) 427\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 2033,
+      "end": 2063,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 52,
+      "text": "428 FERNANDEZ v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 1913,
+      "end": 1917,
+      "text": "6\n6 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 2233,
+      "end": 2263,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 411 (2026) 429\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 52,
+      "text": "430 FERNANDEZ v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 1884,
+      "end": 1890,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 2004,
+      "end": 2034,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 72,
+      "text": "Cite as: 608 U. S. 411 (2026) 431\nSotomayor, J., concurring in judgment\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 5,
+      "start": 277,
+      "end": 285,
+      "expectedText": "infrmity",
+      "text": "infirmity"
+    },
+    {
+      "page": 5,
+      "start": 886,
+      "end": 890,
+      "expectedText": "fred",
+      "text": "fired"
+    },
+    {
+      "page": 5,
+      "start": 986,
+      "end": 994,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 5,
+      "start": 1217,
+      "end": 1224,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 5,
+      "start": 1504,
+      "end": 1508,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 6,
+      "start": 739,
+      "end": 746,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 6,
+      "start": 951,
+      "end": 957,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 6,
+      "start": 1186,
+      "end": 1197,
+      "expectedText": "insuffcient",
+      "text": "insufficient"
+    },
+    {
+      "page": 6,
+      "start": 1495,
+      "end": 1507,
+      "expectedText": "insuffciency",
+      "text": "insufficiency"
+    },
+    {
+      "page": 6,
+      "start": 1666,
+      "end": 1675,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 6,
+      "start": 1803,
+      "end": 1807,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 7,
+      "start": 213,
+      "end": 221,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 7,
+      "start": 448,
+      "end": 455,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 7,
+      "start": 919,
+      "end": 926,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 7,
+      "start": 1302,
+      "end": 1310,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 7,
+      "start": 1732,
+      "end": 1736,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 8,
+      "start": 767,
+      "end": 775,
+      "expectedText": "sacrifce",
+      "text": "sacrifice"
+    },
+    {
+      "page": 8,
+      "start": 963,
+      "end": 969,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 10,
+      "start": 161,
+      "end": 165,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 10,
+      "start": 262,
+      "end": 266,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 10,
+      "start": 428,
+      "end": 438,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 10,
+      "start": 476,
+      "end": 480,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 10,
+      "start": 1080,
+      "end": 1090,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 10,
+      "start": 1101,
+      "end": 1108,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 10,
+      "start": 1267,
+      "end": 1274,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 10,
+      "start": 1446,
+      "end": 1456,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 10,
+      "start": 1703,
+      "end": 1708,
+      "expectedText": "Offce",
+      "text": "Office"
+    },
+    {
+      "page": 10,
+      "start": 1813,
+      "end": 1817,
+      "expectedText": "fows",
+      "text": "flows"
+    },
+    {
+      "page": 10,
+      "start": 2075,
+      "end": 2079,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 11,
+      "start": 73,
+      "end": 81,
+      "expectedText": "justifes",
+      "text": "justifies"
+    },
+    {
+      "page": 11,
+      "start": 486,
+      "end": 497,
+      "expectedText": "precertifed",
+      "text": "precertified"
+    },
+    {
+      "page": 11,
+      "start": 1275,
+      "end": 1281,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 11,
+      "start": 1678,
+      "end": 1685,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 11,
+      "start": 2066,
+      "end": 2073,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 11,
+      "start": 2158,
+      "end": 2168,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 12,
+      "start": 1468,
+      "end": 1472,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 12,
+      "start": 1961,
+      "end": 1966,
+      "expectedText": "Offce",
+      "text": "Office"
+    },
+    {
+      "page": 13,
+      "start": 296,
+      "end": 306,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 13,
+      "start": 566,
+      "end": 572,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 14,
+      "start": 1562,
+      "end": 1571,
+      "expectedText": "identifes",
+      "text": "identifies"
+    },
+    {
+      "page": 15,
+      "start": 227,
+      "end": 234,
+      "expectedText": "refects",
+      "text": "reflects"
+    },
+    {
+      "page": 15,
+      "start": 423,
+      "end": 427,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 15,
+      "start": 901,
+      "end": 905,
+      "expectedText": "fler",
+      "text": "filer"
+    },
+    {
+      "page": 16,
+      "start": 1477,
+      "end": 1485,
+      "expectedText": "qualifes",
+      "text": "qualifies"
+    },
+    {
+      "page": 17,
+      "start": 1038,
+      "end": 1043,
+      "expectedText": "infrm",
+      "text": "infirm"
+    },
+    {
+      "page": 17,
+      "start": 1365,
+      "end": 1371,
+      "expectedText": "ftting",
+      "text": "fitting"
+    },
+    {
+      "page": 17,
+      "start": 1970,
+      "end": 1980,
+      "expectedText": "confnement",
+      "text": "confinement"
+    },
+    {
+      "page": 18,
+      "start": 865,
+      "end": 870,
+      "expectedText": "fawed",
+      "text": "flawed"
+    },
+    {
+      "page": 18,
+      "start": 1968,
+      "end": 1973,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 19,
+      "start": 1122,
+      "end": 1126,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 19,
+      "start": 1562,
+      "end": 1566,
+      "expectedText": "fner",
+      "text": "finer"
+    },
+    {
+      "page": 19,
+      "start": 1802,
+      "end": 1808,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 19,
+      "start": 2007,
+      "end": 2015,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 19,
+      "start": 2374,
+      "end": 2383,
+      "expectedText": "diffculty",
+      "text": "difficulty"
+    },
+    {
+      "page": 20,
+      "start": 227,
+      "end": 236,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 20,
+      "start": 372,
+      "end": 378,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 20,
+      "start": 1827,
+      "end": 1834,
+      "expectedText": "fexible",
+      "text": "flexible"
+    },
+    {
+      "page": 21,
+      "start": 131,
+      "end": 138,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 21,
+      "start": 344,
+      "end": 350,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 21,
+      "start": 1364,
+      "end": 1371,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 21,
+      "start": 1876,
+      "end": 1883,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 15,
+      "start": 647,
+      "end": 650,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 15,
+      "start": 786,
+      "end": 789,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 18,
+      "start": 1253,
+      "end": 1264,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 18,
+      "start": 52,
+      "end": 59,
+      "expectedText": "fnement",
+      "text": "finement"
+    },
+    {
+      "page": 7,
+      "start": 2068,
+      "end": 2078,
+      "expectedText": "identifca-",
+      "text": "identifica"
+    },
+    {
+      "page": 9,
+      "start": 1509,
+      "end": 1516,
+      "expectedText": "reticu-",
+      "text": "reticu"
+    },
+    {
+      "page": 17,
+      "start": 2028,
+      "end": 2032,
+      "expectedText": "con-",
+      "text": "con"
+    },
+    {
+      "page": 18,
+      "start": 2227,
+      "end": 2232,
+      "expectedText": "judg-",
+      "text": "judg"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed all seventeen original Court-opinion pages through affirmance before Sotomayor concurrence. Five substantive notes read inline including full4/6 continuations; note2 citationOnly with nine individual references. All quoted testimony, explanatory parentheticals, doctrinal distinctions and actual-innocence reservation preserved. Only individually reviewed source-reference material omitted; semantic statute mentions retained/linked under actualTitles18,28,42. Source coordinates unchanged with exact extraction repairs and page-word joins."
+}

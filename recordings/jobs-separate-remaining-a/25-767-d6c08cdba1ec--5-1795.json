@@ -1,0 +1,322 @@
+{
+  "reviewed": true,
+  "documentId": "25-767-d6c08cdba1ec--5-1795",
+  "sourceDocumentId": "25-767-d6c08cdba1ec",
+  "sourceTextPath": "dist/data/docs/25-767-d6c08cdba1ec.json",
+  "sourceTextSha256": "38ff9b58b1e5edfc03d1b6af7459b97c0586a14f175dab3267b84a772e17a1c3",
+  "sourcePdfPath": "dist/data/pdfs/25-767-d6c08cdba1ec--5-1795.pdf",
+  "sourcePdfSha256": "ed52ad977f850fba9feba0324a1ad13d803bc963f65788941650919f567debb3",
+  "title": "Concurrence",
+  "author": "Clarence Thomas",
+  "date": "2026-05-26",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r36_n758.pdf",
+  "sourceRange": {
+    "startPage": 5,
+    "startOffset": 1856,
+    "endPage": 7,
+    "endOffset": 1819
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1856,
+          "end": 1970
+        },
+        {
+          "page": 6,
+          "start": 44,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 136,
+          "end": 1429
+        }
+      ],
+      "citations": [
+        {
+          "start": 211,
+          "end": 240,
+          "text": ", 5 U. S. C. \u00a7 1101 et seq .,",
+          "type": "statute",
+          "canonical": "5 U.S.C. \u00a7 1101"
+        },
+        {
+          "start": 537,
+          "end": 545,
+          "text": "\u00a7\u00a7 1214,",
+          "type": "statute",
+          "canonical": "5 U.S.C. \u00a7 1214"
+        },
+        {
+          "start": 546,
+          "end": 551,
+          "text": "7512,",
+          "type": "statute",
+          "canonical": "5 U.S.C. \u00a7 7512"
+        },
+        {
+          "start": 552,
+          "end": 557,
+          "text": "7703;",
+          "type": "statute",
+          "canonical": "5 U.S.C. \u00a7 7703"
+        },
+        {
+          "start": 558,
+          "end": 583,
+          "text": "28 U. S. C. \u00a7 1295(a)(9).",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a7 1295"
+        },
+        {
+          "start": 587,
+          "end": 618,
+          "text": "Elgin v. Department of Treasury",
+          "type": "case",
+          "canonical": "567 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 621,
+          "end": 640,
+          "text": "567 U. S. 1 (2012),",
+          "type": "case",
+          "canonical": "567 U.S. 1"
+        },
+        {
+          "start": 779,
+          "end": 790,
+          "text": "Id., at 10.",
+          "type": "case",
+          "canonical": "567 U.S. 1"
+        },
+        {
+          "start": 940,
+          "end": 1017,
+          "text": "National Assn. of Immigration Judges v. Owen, 139 F. 4th 293, 308\u2013313 (2025).",
+          "type": "case",
+          "canonical": "139 F.4th 293"
+        },
+        {
+          "start": 1252,
+          "end": 1271,
+          "text": "139 F. 4th, at 299;",
+          "type": "case",
+          "canonical": "139 F.4th 293"
+        },
+        {
+          "start": 1272,
+          "end": 1293,
+          "text": "see also id., at 305.",
+          "type": "case",
+          "canonical": "139 F.4th 293"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[this]",
+          "to": "this"
+        },
+        {
+          "from": "Elgin v. Department of Treasury ,",
+          "to": "Elgin versus Department of Treasury,"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1429,
+          "end": 2057
+        },
+        {
+          "page": 7,
+          "start": 57,
+          "end": 632
+        }
+      ],
+      "citations": [
+        {
+          "start": 283,
+          "end": 295,
+          "text": "Id., at 313.",
+          "type": "case",
+          "canonical": "139 F.4th 293"
+        },
+        {
+          "start": 540,
+          "end": 552,
+          "text": "Id., at 305.",
+          "type": "case",
+          "canonical": "139 F.4th 293"
+        },
+        {
+          "start": 841,
+          "end": 853,
+          "text": "Id., at 308.",
+          "type": "case",
+          "canonical": "139 F.4th 293"
+        },
+        {
+          "start": 1199,
+          "end": 1204,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "139 F.4th 293"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[it]",
+          "to": "it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 632,
+          "end": 1519
+        }
+      ],
+      "citations": [
+        {
+          "start": 157,
+          "end": 205,
+          "text": "see Myers v. United States, 272 U. S. 52 (1926),",
+          "type": "case",
+          "canonical": "272 U.S. 52"
+        },
+        {
+          "start": 380,
+          "end": 444,
+          "text": "United States ex rel. Marcus v. Hess, 317 U. S. 537, 547 (1943).",
+          "type": "case",
+          "canonical": "317 U.S. 537"
+        },
+        {
+          "start": 670,
+          "end": 729,
+          "text": "Seminole Tribe of Fla. v. Florida, 517 U. S. 44, 76 (1996).",
+          "type": "case",
+          "canonical": "517 U.S. 44"
+        },
+        {
+          "start": 853,
+          "end": 887,
+          "text": "See U. S. Const., Art. I, \u00a7\u00a7 1, 7.",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article I"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1519,
+          "end": 1819
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 299,
+          "text": "National Assn. of Immigration Judges v. Owen, 160 F. 4th 100, 118 (2025) (en banc).",
+          "type": "case",
+          "canonical": "160 F.4th 100"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 5,
+      "start": 1970,
+      "end": 2000,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header or publication footer."
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 44,
+      "text": "344 MARGOLIN v. NAIJ\nThomas, J., concurring\n",
+      "reason": "Running author/page header or publication footer."
+    },
+    {
+      "page": 6,
+      "start": 2057,
+      "end": 2087,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header or publication footer."
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 339 (2026) 345\nThomas, J., concurring\n",
+      "reason": "Running author/page header or publication footer."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 6,
+      "start": 641,
+      "end": 646,
+      "expectedText": "Offce",
+      "text": "Office"
+    },
+    {
+      "page": 6,
+      "start": 1725,
+      "end": 1736,
+      "expectedText": "Specifcally",
+      "text": "Specifically"
+    },
+    {
+      "page": 7,
+      "start": 466,
+      "end": 476,
+      "expectedText": "factfnding",
+      "text": "factfinding"
+    },
+    {
+      "page": 7,
+      "start": 778,
+      "end": 786,
+      "expectedText": "offcials",
+      "text": "officials"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Amy Coney Barrett"
+    ]
+  }
+}

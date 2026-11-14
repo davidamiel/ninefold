@@ -1,0 +1,77 @@
+{
+  "reviewed": true,
+  "documentId": "25A1197-280c6af37bba--0-0",
+  "sourceDocumentId": "25A1197-280c6af37bba",
+  "sourceTextPath": "dist/data/current-docs/25A1197-280c6af37bba.json",
+  "sourceTextSha256": "a588ff10e1bfa5666b3cfa130d26992d15a278aa68767b1e2d32b669eb5b7494",
+  "sourcePdfPath": "recordings/sources/10bce4f78d7b157f70b8dc62.pdf",
+  "sourcePdfSha256": "10bce4f78d7b157f70b8dc6251f9f37957d8293263eb232b628c1a1493ca08fb",
+  "title": "Order of the Court",
+  "author": "The Court",
+  "date": "2026-05-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 277,
+    "endPage": 0,
+    "endOffset": 1154
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 277,
+          "end": 1154
+        }
+      ],
+      "citations": [
+        {
+          "start": 240,
+          "end": 258,
+          "text": "Sup. Ct. Rule 45.3",
+          "canonical": "Sup. Ct. Rule 45.3",
+          "type": "reference"
+        },
+        {
+          "start": 380,
+          "end": 385,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 563,
+          "end": 569,
+          "text": "App. 3",
+          "canonical": "App. 3",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "JUSTICE ALITO",
+          "to": "Justice Alito"
+        },
+        {
+          "from": ". . ",
+          "to": ". "
+        }
+      ]
+    }
+  ],
+  "repairs": [],
+  "excludedSource": [],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

@@ -1,0 +1,505 @@
+{
+  "reviewed": true,
+  "documentId": "24-624-c6f18a6d5168--18-795",
+  "sourceDocumentId": "24-624-c6f18a6d5168",
+  "sourceTextPath": "dist/data/docs/24-624-c6f18a6d5168.json",
+  "sourceTextSha256": "94f4199a3984610ad5e0fbfe5783911f2d42934882c03585652782210f080c0b",
+  "sourcePdfPath": "dist/data/pdfs/24-624-c6f18a6d5168--18-795.pdf",
+  "sourcePdfSha256": "ab7f5ce40477f8f43c9100cfab08324c6d5a3cee2955b94d99ee799cc63e3e0b",
+  "title": "Concurrence",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-01-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r06_19m1.pdf",
+  "sourceRange": {
+    "startPage": 18,
+    "startOffset": 824,
+    "endPage": 21,
+    "endOffset": 309
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 824,
+          "end": 1462
+        }
+      ],
+      "citations": [
+        {
+          "start": 298,
+          "end": 371,
+          "text": "Ante, at 116 (quoting Brigham City v. Stuart, 547 U. S. 398, 400 (2006)).",
+          "type": "case",
+          "canonical": "547 U.S. 398"
+        },
+        {
+          "start": 598,
+          "end": 615,
+          "text": "See ante, at 117.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 117"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1462,
+          "end": 1800
+        },
+        {
+          "page": 19,
+          "start": 58,
+          "end": 130
+        }
+      ],
+      "citations": [
+        {
+          "start": 292,
+          "end": 372,
+          "text": "Carpenter v. United States, 585 U. S. 296, 397 (2018) (Gorsuch, J., dissenting).",
+          "type": "case",
+          "canonical": "585 U.S. 296"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 130,
+          "end": 1032
+        }
+      ],
+      "citations": [
+        {
+          "start": 316,
+          "end": 346,
+          "text": "See, e. g., 37 Hen. 6, pl. 26;",
+          "type": "reference",
+          "canonical": "37 Hen. 6, pl. 26"
+        },
+        {
+          "start": 347,
+          "end": 408,
+          "text": "Mouse's Case, 12 Co. Rep. 63, 77 Eng. Rep. 1341 (K. B. 1608);",
+          "type": "case",
+          "canonical": "77 Eng. Rep. 1341"
+        },
+        {
+          "start": 409,
+          "end": 461,
+          "text": "Respublica v. Sparhawk, 1 Dall. 357, 363 (Pa. 1788);",
+          "type": "case",
+          "canonical": "1 U.S. 357"
+        },
+        {
+          "start": 462,
+          "end": 522,
+          "text": "Ploof v. Putnam, 81 Vt. 471, 474–475, 71 A. 188, 189 (1908).",
+          "type": "case",
+          "canonical": "81 Vt. 471"
+        },
+        {
+          "start": 703,
+          "end": 764,
+          "text": "See, e. g., Mitchell v. Harmony, 13 How. 115, 134–135 (1852);",
+          "type": "case",
+          "canonical": "54 U.S. 115"
+        },
+        {
+          "start": 765,
+          "end": 862,
+          "text": "Stone v. Mayor of City of New York, 25 Wend. 157, 176 (N. Y . 1840) (opinion of Verplanck, Sen.);",
+          "type": "case",
+          "canonical": "25 Wend. 157"
+        },
+        {
+          "start": 863,
+          "end": 902,
+          "text": "Surocco v. Geary, 3 Cal. 69, 72 (1853).",
+          "type": "case",
+          "canonical": "3 Cal. 69"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1514,
+          "end": 2273
+        }
+      ],
+      "citations": [
+        {
+          "start": 46,
+          "end": 89,
+          "text": ", Lofft. 73, 98 Eng. Rep. 539 (K. B. 1772),",
+          "type": "case",
+          "canonical": "98 Eng. Rep. 539"
+        },
+        {
+          "start": 363,
+          "end": 396,
+          "text": "Id., at 75, 98 Eng. Rep., at 540.",
+          "type": "case",
+          "canonical": "98 Eng. Rep. 539"
+        },
+        {
+          "start": 525,
+          "end": 558,
+          "text": "Id., at 74, 98 Eng. Rep., at 539.",
+          "type": "case",
+          "canonical": "98 Eng. Rep. 539"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "confin[e]",
+          "to": "confine"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1034,
+          "end": 1513
+        },
+        {
+          "page": 20,
+          "start": 75,
+          "end": 515
+        }
+      ],
+      "citations": [
+        {
+          "start": 407,
+          "end": 458,
+          "text": "Restatement (Second) of Torts § 197(1) (1963–1964).",
+          "type": "reference",
+          "canonical": "Restatement (Second) of Torts § 197(1)"
+        },
+        {
+          "start": 728,
+          "end": 754,
+          "text": "Id., § 214, and Comment a;",
+          "type": "reference",
+          "canonical": "Restatement (Second) of Torts § 214"
+        },
+        {
+          "start": 755,
+          "end": 786,
+          "text": "see also id., § 197, Comment a;",
+          "type": "reference",
+          "canonical": "Restatement (Second) of Torts § 197"
+        },
+        {
+          "start": 787,
+          "end": 853,
+          "text": "Des Moines v. Webster, 861 N. W. 2d 878, 883–885 (Iowa App. 2014);",
+          "type": "case",
+          "canonical": "861 N.W.2d 878"
+        },
+        {
+          "start": 854,
+          "end": 918,
+          "text": "State v. Lukus, 149 Mont. 45, 50–51, 423 P. 2d 49, 52–53 (1967).",
+          "type": "case",
+          "canonical": "149 Mont. 45"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[,]",
+          "to": " ,"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 515,
+          "end": 1462
+        }
+      ],
+      "citations": [
+        {
+          "start": 357,
+          "end": 431,
+          "text": "See, e. g., Entick v. Carrington, 19 How. St. Tr. 1029, 1066 (C. P. 1765);",
+          "type": "case",
+          "canonical": "19 How. St. Tr. 1029"
+        },
+        {
+          "start": 432,
+          "end": 468,
+          "text": "1 J. Chitty, Criminal Law 36 (1819);",
+          "type": "reference",
+          "canonical": "J. Chitty, Criminal Law (1819)"
+        },
+        {
+          "start": 469,
+          "end": 518,
+          "text": "2 M. Hale, Historia Placitorum Coronae 91 (1736).",
+          "type": "reference",
+          "canonical": "M. Hale, Historia Placitorum Coronae (1736)"
+        },
+        {
+          "start": 736,
+          "end": 816,
+          "text": "Caniglia v. Strom, 593 U. S. 194, 198 (2021) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "593 U.S. 194"
+        },
+        {
+          "start": 863,
+          "end": 907,
+          "text": "Kentucky v. King, 563 U. S. 452, 469 (2011);",
+          "type": "case",
+          "canonical": "563 U.S. 452"
+        },
+        {
+          "start": 908,
+          "end": 950,
+          "text": "see also Entick, 19 How. St. Tr., at 1066.",
+          "type": "case",
+          "canonical": "19 How. St. Tr. 1029"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1462,
+          "end": 2159
+        },
+        {
+          "page": 21,
+          "start": 58,
+          "end": 309
+        }
+      ],
+      "citations": [
+        {
+          "start": 521,
+          "end": 593,
+          "text": "See Carpenter, 585 U. S., at 394–395, 405–406 (Gorsuch, J., dissenting).",
+          "type": "case",
+          "canonical": "585 U.S. 296"
+        },
+        {
+          "start": 882,
+          "end": 949,
+          "text": "3 Commentaries on the Constitution of the United States 748 (1833).",
+          "type": "reference",
+          "canonical": "J. Story, Commentaries on the Constitution of the United States (1833)"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 18,
+      "start": 100,
+      "end": 107,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 281,
+      "end": 288,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 428,
+      "end": 435,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 478,
+      "end": 485,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 720,
+      "end": 727,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 880,
+      "end": 887,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 1381,
+      "end": 1388,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 1852,
+      "end": 1859,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 19,
+      "start": 1377,
+      "end": 1383,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 20,
+      "start": 659,
+      "end": 665,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 20,
+      "start": 799,
+      "end": 806,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 20,
+      "start": 1136,
+      "end": 1143,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 20,
+      "start": 426,
+      "end": 428,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 18,
+      "start": 1610,
+      "end": 1613,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 19,
+      "start": 1735,
+      "end": 1743,
+      "expectedText": "Mansfeld",
+      "text": "Mansfield"
+    },
+    {
+      "page": 19,
+      "start": 1957,
+      "end": 1962,
+      "expectedText": "confn",
+      "text": "confin"
+    },
+    {
+      "page": 21,
+      "start": 176,
+      "end": 185,
+      "expectedText": "affrmance",
+      "text": "affirmance"
+    },
+    {
+      "page": 20,
+      "start": 1037,
+      "end": 1046,
+      "expectedText": "refecting",
+      "text": "reflecting"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 18,
+      "start": 1800,
+      "end": 2039,
+      "text": "8 Case has not challenged the reasonableness of the offcers' manner of\nentry or their conduct inside his house after entry. As a result, neither\nthe decision below nor this Court had occasion to consider the reasonableness of that conduct.",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 607 U. S. 107 (2026) 125\nGorsuch, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 19,
+      "start": 1032,
+      "end": 1034,
+      "text": "*\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 19,
+      "start": 1513,
+      "end": 1514,
+      "text": "*",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 19,
+      "start": 2273,
+      "end": 2303,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n126 CASE v. MONTANA\nGorsuch, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 607 U. S. 107 (2026) 127\nGorsuch, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

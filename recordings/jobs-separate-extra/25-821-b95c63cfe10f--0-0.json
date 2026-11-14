@@ -1,0 +1,196 @@
+{
+  "reviewed": true,
+  "documentId": "25-821-b95c63cfe10f--0-0",
+  "sourceDocumentId": "25-821-b95c63cfe10f",
+  "sourceTextPath": "dist/data/docs/25-821-b95c63cfe10f.json",
+  "sourceTextSha256": "9da6f0b25920b51479e0710412347a105212e9277a927984970c4c8906e5ae6a",
+  "sourcePdfPath": "recordings/sources/960ff36ddca4a4f123f19a12.pdf",
+  "sourcePdfSha256": "960ff36ddca4a4f123f19a1241748bca67609bed34da0d522f01a6acdd13b716",
+  "title": "Statement",
+  "author": "Sonia Sotomayor",
+  "date": "2026-05-18",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-821_e29g.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 0,
+    "endOffset": 1546
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 433,
+          "end": 775
+        }
+      ],
+      "citations": [
+        {
+          "start": 182,
+          "end": 199,
+          "text": "28 U. S. C. §2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 307,
+          "end": 312,
+          "text": "§2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "28 U. S. C. §2255",
+          "to": "Section twenty-two fifty-five of Title twenty-eight"
+        },
+        {
+          "from": "§2255",
+          "to": "Section twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 775,
+          "end": 1546
+        }
+      ],
+      "citations": [
+        {
+          "start": 137,
+          "end": 159,
+          "text": "Brief in Opposition 6.",
+          "type": "record",
+          "canonical": "Brief in Opposition 6"
+        },
+        {
+          "start": 380,
+          "end": 392,
+          "text": "Id., at 5–6.",
+          "type": "record",
+          "canonical": "Id., at 5–6"
+        },
+        {
+          "start": 492,
+          "end": 502,
+          "text": "Id., at 6.",
+          "type": "record",
+          "canonical": "Id., at 6"
+        },
+        {
+          "start": 558,
+          "end": 563,
+          "text": "§2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 702,
+          "end": 707,
+          "text": "§2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§2255",
+          "to": "Section twenty-two fifty-five"
+        },
+        {
+          "from": "inadverten[t]",
+          "to": "inadvertent"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 603,
+      "end": 611,
+      "expectedText": "mo-\ntion",
+      "text": "motion"
+    },
+    {
+      "page": 0,
+      "start": 661,
+      "end": 671,
+      "expectedText": "sen-\ntence",
+      "text": "sentence"
+    },
+    {
+      "page": 0,
+      "start": 720,
+      "end": 727,
+      "expectedText": "be-\nlow",
+      "text": "below"
+    },
+    {
+      "page": 0,
+      "start": 797,
+      "end": 805,
+      "expectedText": "infor ms",
+      "text": "informs"
+    },
+    {
+      "page": 0,
+      "start": 1004,
+      "end": 1014,
+      "expectedText": "de-\nfenses",
+      "text": "defenses"
+    },
+    {
+      "page": 0,
+      "start": 1340,
+      "end": 1348,
+      "expectedText": "Lairy’ s",
+      "text": "Lairy’s"
+    },
+    {
+      "page": 0,
+      "start": 943,
+      "end": 955,
+      "expectedText": "Govern-\nment",
+      "text": "Government"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 39,
+      "end": 433,
+      "text": "1  Cite as: 608 U. S. ____ (2026) \nStatement of SOTOMAYOR, J. \nSUPREME COURT OF THE UNITED STATES \nMICHAEL DEWAYNE LAIRY v. UNITED STATES \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE SEVENTH CIRCUIT \nNo. 25–821. Decided May 18, 2026 \nThe petition for a writ of certiorari is denied. \n Statement of J USTICE SOTOMAYOR respecting the denial \nof certiorari. \n",
+      "reason": "Case caption, bare order/attribution, running furniture, or represented note marker"
+    }
+  ],
+  "documentInfo": {
+    "joinedBy": []
+  },
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full original public PDF and source text reviewed; all authored prose and quotations retained, running caption/bare order excluded, source locators individually mapped, extraction repairs exact. Meaningful grammatical statute references remain linked and spoken. Substantive comparison note, where present, occurs at its marker."
+}

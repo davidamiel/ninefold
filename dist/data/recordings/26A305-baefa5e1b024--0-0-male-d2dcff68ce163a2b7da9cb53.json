@@ -1,0 +1,55 @@
+{
+  "version": "0cd400513375fb44",
+  "duration": 21.45,
+  "voice": "am_michael",
+  "audioSha256": "b067a57f3691e6cc66a83b749f601350a9590452d2f7cfc3f47de55538cade5b",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 6.84,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 246,
+          "end": 343
+        }
+      ],
+      "text": "The application for stay presented to Justice Jackson and by her referred to the Court is denied."
+    },
+    {
+      "start": 6.84,
+      "end": 14.14,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 344,
+          "end": 460
+        }
+      ],
+      "text": "The Government is unlikely to succeed on the merits of its challenge to the District Court’s preliminary injunction."
+    },
+    {
+      "start": 14.14,
+      "end": 21.1,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 461,
+          "end": 565
+        }
+      ],
+      "text": "And the equitable factors applicable for obtaining emergency relief from this Court do not favor a stay."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 53,
+      "expectedWords": 53,
+      "coverage": 1.0
+    }
+  ]
+}

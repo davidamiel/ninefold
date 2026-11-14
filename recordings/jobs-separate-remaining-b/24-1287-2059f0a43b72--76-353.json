@@ -1,0 +1,969 @@
+{
+  "reviewed": true,
+  "documentId": "24-1287-2059f0a43b72--76-353",
+  "sourceDocumentId": "24-1287-2059f0a43b72",
+  "sourceTextPath": "dist/data/docs/24-1287-2059f0a43b72.json",
+  "sourceTextSha256": "c3775c67a0c112b51d02a24f15db2bee4e366dfd35046c6339bbda6a021cbe21",
+  "sourcePdfPath": "dist/data/pdfs/24-1287-2059f0a43b72--76-353.pdf",
+  "sourcePdfSha256": "3584bcd6a6b50b4d673eabde63ebcc55a0c3cc9594993f04fac5a1cc9f61f1ce",
+  "title": "Concurring in part and in the judgment",
+  "author": "Elena Kagan",
+  "date": "2026-02-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r12_8nj9.pdf",
+  "sourceRange": {
+    "startPage": 76,
+    "startOffset": 473,
+    "endPage": 82,
+    "endOffset": 622
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 76,
+          "start": 473,
+          "end": 883
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 76,
+          "start": 883,
+          "end": 1649
+        }
+      ],
+      "citations": [
+        {
+          "start": 217,
+          "end": 240,
+          "text": "Ante, at 242, 248, 255.",
+          "type": "reference",
+          "canonical": "Ante, at 242, 248, 255."
+        },
+        {
+          "start": 397,
+          "end": 466,
+          "text": "See, e. g., West Virginia v. EPA, 597 U. S. 697, 721–724, 732 (2022);",
+          "type": "reference",
+          "canonical": "See, e. g., West Virginia v. EPA, 597 U. S. 697, 721–724, 732 (2022);"
+        },
+        {
+          "start": 467,
+          "end": 516,
+          "text": "Biden v. Nebraska, 600 U. S. 477, 505–506 (2023).",
+          "type": "reference",
+          "canonical": "Biden v. Nebraska, 600 U. S. 477, 505–506 (2023)."
+        },
+        {
+          "start": 727,
+          "end": 745,
+          "text": "Ante, at 242, 246;",
+          "type": "reference",
+          "canonical": "Ante, at 242, 246;"
+        },
+        {
+          "start": 746,
+          "end": 767,
+          "text": "see ante, at 242–246.",
+          "type": "reference",
+          "canonical": "see ante, at 242–246."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 76,
+          "start": 1649,
+          "end": 2010
+        },
+        {
+          "page": 77,
+          "start": 55,
+          "end": 1245
+        }
+      ],
+      "citations": [
+        {
+          "start": 100,
+          "end": 165,
+          "text": "See West Virginia, 597 U. S., at 764–784 (Kagan, J., dissenting);",
+          "type": "reference",
+          "canonical": "See West Virginia, 597 U. S., at 764–784 (Kagan, J., dissenting);"
+        },
+        {
+          "start": 166,
+          "end": 222,
+          "text": "Nebraska, 600 U. S., at 542–550 (Kagan, J., dissenting).",
+          "type": "reference",
+          "canonical": "Nebraska, 600 U. S., at 542–550 (Kagan, J., dissenting)."
+        },
+        {
+          "start": 480,
+          "end": 545,
+          "text": "See West Virginia, 597 U. S., at 765–766 (Kagan, J., dissenting).",
+          "type": "reference",
+          "canonical": "See West Virginia, 597 U. S., at 765–766 (Kagan, J., dissenting)."
+        },
+        {
+          "start": 829,
+          "end": 865,
+          "text": "Id., at 764 (Kagan, J., dissenting);",
+          "type": "reference",
+          "canonical": "Id., at 764 (Kagan, J., dissenting);"
+        },
+        {
+          "start": 866,
+          "end": 937,
+          "text": "see FDA v. Brown & Williamson Tobacco Corp., 529 U. S. 120, 133 (2000).",
+          "type": "reference",
+          "canonical": "see FDA v. Brown & Williamson Tobacco Corp., 529 U. S. 120, 133 (2000)."
+        },
+        {
+          "start": 1150,
+          "end": 1171,
+          "text": "See ante, at 243–245;",
+          "type": "reference",
+          "canonical": "See ante, at 243–245;"
+        },
+        {
+          "start": 1172,
+          "end": 1239,
+          "text": "Nebraska, 600 U. S., at 512–514, 517–519 (Barrett, J., concurring);",
+          "type": "reference",
+          "canonical": "Nebraska, 600 U. S., at 512–514, 517–519 (Barrett, J., concurring);"
+        },
+        {
+          "start": 1240,
+          "end": 1282,
+          "text": "id., at 546, n. 3 (Kagan, J., dissenting).",
+          "type": "reference",
+          "canonical": "id., at 546, n. 3 (Kagan, J., dissenting)."
+        },
+        {
+          "start": 1432,
+          "end": 1493,
+          "text": "See West Virginia, 597 U. S., at 756 (Kagan, J., dissenting);",
+          "type": "reference",
+          "canonical": "See West Virginia, 597 U. S., at 756 (Kagan, J., dissenting);"
+        },
+        {
+          "start": 1494,
+          "end": 1549,
+          "text": "Nebraska , 600 U. S., at 543 ( Kagan, J. , dissenting).",
+          "type": "reference",
+          "canonical": "Nebraska , 600 U. S., at 543 ( Kagan, J. , dissenting)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 77,
+          "start": 1245,
+          "end": 1434
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 77,
+          "start": 1482,
+          "end": 2291
+        },
+        {
+          "page": 78,
+          "start": 1654,
+          "end": 2196
+        }
+      ],
+      "citations": [
+        {
+          "start": 160,
+          "end": 197,
+          "text": "See ante, at 271 (concurring opinion)",
+          "type": "reference",
+          "canonical": "See ante, at 271 (concurring opinion)"
+        },
+        {
+          "start": 253,
+          "end": 294,
+          "text": "ante, at 256–257, 261–262, 272 (similar).",
+          "type": "reference",
+          "canonical": "ante, at 256–257, 261–262, 272 (similar)."
+        },
+        {
+          "start": 346,
+          "end": 367,
+          "text": "see ante, at 256–280,",
+          "type": "reference",
+          "canonical": "see ante, at 256–280,"
+        },
+        {
+          "start": 686,
+          "end": 766,
+          "text": "See West Virginia v. EPA, 597 U. S. 697, 756–766 (2022) (Kagan, J., dissenting);",
+          "type": "reference",
+          "canonical": "See West Virginia v. EPA, 597 U. S. 697, 756–766 (2022) (Kagan, J., dissenting);"
+        },
+        {
+          "start": 767,
+          "end": 840,
+          "text": "Biden v. Nebraska, 600 U. S. 477, 534–542 (2023) (Kagan, J., dissenting).",
+          "type": "reference",
+          "canonical": "Biden v. Nebraska, 600 U. S. 477, 534–542 (2023) (Kagan, J., dissenting)."
+        },
+        {
+          "start": 883,
+          "end": 904,
+          "text": "see ante, at 257–261,",
+          "type": "reference",
+          "canonical": "see ante, at 257–261,"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 77,
+          "start": 1437,
+          "end": 1480
+        },
+        {
+          "page": 78,
+          "start": 59,
+          "end": 781
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 78,
+          "start": 781,
+          "end": 1654
+        },
+        {
+          "page": 79,
+          "start": 55,
+          "end": 1247
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 258,
+          "end": 286,
+          "text": "50 U. S. C. § 1702(a)(1)(B).",
+          "type": "reference",
+          "canonical": "50 U. S. C. § 1702(a)(1)(B)."
+        },
+        {
+          "start": 400,
+          "end": 421,
+          "text": "See ante, at 249–250.",
+          "type": "reference",
+          "canonical": "See ante, at 249–250."
+        },
+        {
+          "start": 653,
+          "end": 735,
+          "text": "Brief for Federal Parties 24 (quoting Black's Law Dictionary 1156 (5th ed. 1979)).",
+          "type": "reference",
+          "canonical": "Brief for Federal Parties 24 (quoting Black's Law Dictionary 1156 (5th ed. 1979))."
+        },
+        {
+          "start": 1053,
+          "end": 1077,
+          "text": "See Tr. of Oral Arg. 30.",
+          "type": "reference",
+          "canonical": "See Tr. of Oral Arg. 30."
+        },
+        {
+          "start": 1234,
+          "end": 1284,
+          "text": "See ante, at 243 (citing representative statutes);",
+          "type": "reference",
+          "canonical": "See ante, at 243 (citing representative statutes);"
+        },
+        {
+          "start": 1285,
+          "end": 1366,
+          "text": "see also ante, at 254 (discussing, in particular, 19 U. S. C. § 1862 (1970 ed.)).",
+          "type": "reference",
+          "canonical": "see also ante, at 254 (discussing, in particular, 19 U. S. C. § 1862 (1970 ed.))."
+        },
+        {
+          "start": 1475,
+          "end": 1519,
+          "text": "See ante, at 249–250 (also citing statutes).",
+          "type": "reference",
+          "canonical": "See ante, at 249–250 (also citing statutes)."
+        },
+        {
+          "start": 1863,
+          "end": 1908,
+          "text": "Gibbons v. Ogden, 9 Wheat. 1, 201–202 (1824);",
+          "type": "reference",
+          "canonical": "Gibbons v. Ogden, 9 Wheat. 1, 201–202 (1824);"
+        },
+        {
+          "start": 1909,
+          "end": 1926,
+          "text": "see ante, at 250.",
+          "type": "reference",
+          "canonical": "see ante, at 250."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 79,
+          "start": 1247,
+          "end": 2144
+        },
+        {
+          "page": 80,
+          "start": 90,
+          "end": 747
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 159,
+          "end": 176,
+          "text": "See ante, at 250.",
+          "type": "reference",
+          "canonical": "See ante, at 250."
+        },
+        {
+          "start": 283,
+          "end": 299,
+          "text": "§ 1702(a)(1)(B).",
+          "type": "reference",
+          "canonical": "§ 1702(a)(1)(B)."
+        },
+        {
+          "start": 496,
+          "end": 501,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 805,
+          "end": 822,
+          "text": "See ante, at 250.",
+          "type": "reference",
+          "canonical": "See ante, at 250."
+        },
+        {
+          "start": 1327,
+          "end": 1340,
+          "text": "Ante, at 243;",
+          "type": "reference",
+          "canonical": "Ante, at 243;"
+        },
+        {
+          "start": 1341,
+          "end": 1362,
+          "text": "see ante, at 240–244.",
+          "type": "reference",
+          "canonical": "see ante, at 240–244."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 80,
+          "start": 1718,
+          "end": 2379
+        }
+      ],
+      "citations": [
+        {
+          "start": 296,
+          "end": 328,
+          "text": "S. Rep. No. 95–466, p. 5 (1977).",
+          "type": "reference",
+          "canonical": "S. Rep. No. 95–466, p. 5 (1977)."
+        },
+        {
+          "start": 530,
+          "end": 566,
+          "text": "H. R. Rep. No. 95–459, p. 15 (1977).",
+          "type": "reference",
+          "canonical": "H. R. Rep. No. 95–459, p. 15 (1977)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        },
+        {
+          "from": "authoriz[ing]",
+          "to": "authorizing"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 80,
+          "start": 750,
+          "end": 1716
+        },
+        {
+          "page": 81,
+          "start": 55,
+          "end": 490
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 243,
+          "end": 264,
+          "text": "See ante, at 243–244.",
+          "type": "reference",
+          "canonical": "See ante, at 243–244."
+        },
+        {
+          "start": 375,
+          "end": 393,
+          "text": "see supra, at 307,",
+          "type": "reference",
+          "canonical": "see supra, at 307,"
+        },
+        {
+          "start": 702,
+          "end": 723,
+          "text": "See ante, at 243–244.",
+          "type": "reference",
+          "canonical": "See ante, at 243–244."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        },
+        {
+          "from": "e . g.,",
+          "to": "for example,"
+        },
+        {
+          "from": "e. g.,",
+          "to": "for example,"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 81,
+          "start": 490,
+          "end": 1187
+        }
+      ],
+      "citations": [
+        {
+          "start": 333,
+          "end": 350,
+          "text": "See ante, at 245.",
+          "type": "reference",
+          "canonical": "See ante, at 245."
+        },
+        {
+          "start": 424,
+          "end": 433,
+          "text": "See ibid.",
+          "type": "reference",
+          "canonical": "See ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 81,
+          "start": 1192,
+          "end": 2419
+        }
+      ],
+      "citations": [
+        {
+          "start": 241,
+          "end": 285,
+          "text": "12 U. S. C. § 95a(1)(B) (1940 ed., Supp. I).",
+          "type": "reference",
+          "canonical": "12 U. S. C. § 95a(1)(B) (1940 ed., Supp. I)."
+        },
+        {
+          "start": 646,
+          "end": 713,
+          "text": "See Presidential Proclamation No. 4074, 3 CFR 60 (1971–1975 Comp.).",
+          "type": "reference",
+          "canonical": "See Presidential Proclamation No. 4074, 3 CFR 60 (1971–1975 Comp.)."
+        },
+        {
+          "start": 978,
+          "end": 1060,
+          "text": "See United States v. Yoshida Int'l, Inc., 526 F. 2d 560, 572, 577–578 (CCPA 1975);",
+          "type": "reference",
+          "canonical": "See United States v. Yoshida Int'l, Inc., 526 F. 2d 560, 572, 577–578 (CCPA 1975);"
+        },
+        {
+          "start": 1061,
+          "end": 1074,
+          "text": "ante, at 252.",
+          "type": "reference",
+          "canonical": "ante, at 252."
+        },
+        {
+          "start": 1194,
+          "end": 1225,
+          "text": "See ante, at 252–253, and n. 5.",
+          "type": "reference",
+          "canonical": "See ante, at 252–253, and n. 5."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 82,
+          "start": 61,
+          "end": 622
+        }
+      ],
+      "citations": [
+        {
+          "start": 540,
+          "end": 561,
+          "text": "See ante, at 240–241.",
+          "type": "reference",
+          "canonical": "See ante, at 240–241."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IEEPA",
+          "to": "eye ee pa"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 76,
+      "start": 284,
+      "end": 294,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 76,
+      "start": 1188,
+      "end": 1195,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 78,
+      "start": 936,
+      "end": 942,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 78,
+      "start": 1257,
+      "end": 1266,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 78,
+      "start": 1530,
+      "end": 1539,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 78,
+      "start": 1846,
+      "end": 1854,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 79,
+      "start": 1282,
+      "end": 1289,
+      "expectedText": "confrms",
+      "text": "confirms"
+    },
+    {
+      "page": 80,
+      "start": 1074,
+      "end": 1081,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 81,
+      "start": 113,
+      "end": 120,
+      "expectedText": "confned",
+      "text": "confined"
+    },
+    {
+      "page": 81,
+      "start": 1070,
+      "end": 1077,
+      "expectedText": "confned",
+      "text": "confined"
+    },
+    {
+      "page": 82,
+      "start": 232,
+      "end": 242,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 82,
+      "start": 1560,
+      "end": 1567,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 82,
+      "start": 1208,
+      "end": 1210,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 76,
+      "start": 1243,
+      "end": 1249,
+      "expectedText": "suffce",
+      "text": "suffice"
+    },
+    {
+      "page": 76,
+      "start": 1594,
+      "end": 1605,
+      "expectedText": "signifcance",
+      "text": "significance"
+    },
+    {
+      "page": 77,
+      "start": 1474,
+      "end": 1479,
+      "expectedText": "argu-",
+      "text": "argu"
+    },
+    {
+      "page": 78,
+      "start": 171,
+      "end": 185,
+      "expectedText": "clearstatement",
+      "text": "clear-statement"
+    },
+    {
+      "page": 78,
+      "start": 1278,
+      "end": 1280,
+      "expectedText": "fx",
+      "text": "fix"
+    },
+    {
+      "page": 78,
+      "start": 1647,
+      "end": 1653,
+      "expectedText": "provi-",
+      "text": "provi"
+    },
+    {
+      "page": 79,
+      "start": 2138,
+      "end": 2143,
+      "expectedText": "quan-",
+      "text": "quan"
+    },
+    {
+      "page": 80,
+      "start": 223,
+      "end": 226,
+      "expectedText": "fts",
+      "text": "fits"
+    },
+    {
+      "page": 80,
+      "start": 1707,
+      "end": 1715,
+      "expectedText": "unparal-",
+      "text": "unparal"
+    },
+    {
+      "page": 80,
+      "start": 1215,
+      "end": 1224,
+      "expectedText": "tariff 's",
+      "text": "tariff's"
+    },
+    {
+      "page": 80,
+      "start": 1259,
+      "end": 1268,
+      "expectedText": "tariff 's",
+      "text": "tariff's"
+    },
+    {
+      "page": 81,
+      "start": 1699,
+      "end": 1705,
+      "expectedText": "defcit",
+      "text": "deficit"
+    },
+    {
+      "page": 81,
+      "start": 1677,
+      "end": 1689,
+      "expectedText": "balance-of -",
+      "text": "balance-of-"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 76,
+      "start": 2010,
+      "end": 2040,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 77,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 229 (2026) 305\nOpinion of Kagan, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 77,
+      "start": 1435,
+      "end": 1437,
+      "text": "1 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 77,
+      "start": 1480,
+      "end": 1482,
+      "text": "1 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 77,
+      "start": 2291,
+      "end": 2321,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 78,
+      "start": 0,
+      "end": 59,
+      "text": "306 LEARNING RESOURCES, INC. v. TRUMP\nOpinion of Kagan, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 78,
+      "start": 2196,
+      "end": 2226,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 79,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 229 (2026) 307\nOpinion of Kagan, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 79,
+      "start": 2144,
+      "end": 2174,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 80,
+      "start": 0,
+      "end": 90,
+      "text": "Page Proof Pending Publication\n308 LEARNING RESOURCES, INC. v. TRUMP\nOpinion of Kagan, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 80,
+      "start": 748,
+      "end": 750,
+      "text": "2\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 80,
+      "start": 1716,
+      "end": 1718,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 81,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 229 (2026) 309\nOpinion of Kagan, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 81,
+      "start": 1188,
+      "end": 1192,
+      "text": "3\n3 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 81,
+      "start": 2419,
+      "end": 2449,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 82,
+      "start": 0,
+      "end": 61,
+      "text": "310 LEARNING RESOURCES, INC. v. TRUMP\nOpinion of Jackson, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Sonia Sotomayor",
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

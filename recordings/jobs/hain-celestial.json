@@ -1,0 +1,1640 @@
+{
+  "reviewed": true,
+  "documentId": "24-724-8f732370e043--4-445",
+  "sourceDocumentId": "24-724-8f732370e043",
+  "sourceTextPath": "dist/data/docs/24-724-8f732370e043.json",
+  "sourceTextSha256": "0e7f5ac8fd44feafc2a76e28934e95bf980cba9a95b2cd8722d283d067c4fb22",
+  "sourcePdfPath": "dist/data/pdfs/24-724-8f732370e043--4-445.pdf",
+  "sourcePdfSha256": "22c5d81c404fa1f6b3be492da24f0c611d1345113eff4b684560ab1f3ac5f9b4",
+  "title": "Opinion of the Court",
+  "author": "Sonia Sotomayor",
+  "date": "2026-02-24",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r14_1a72.pdf",
+  "sourceRange": {
+    "startPage": 4,
+    "startOffset": 499,
+    "endPage": 14,
+    "endOffset": 1940
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 499,
+          "end": 792
+        }
+      ],
+      "citations": [
+        {
+          "start": 270,
+          "end": 292,
+          "text": "28 U. S. C. § 1332(a).",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1332"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 792,
+          "end": 1226
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1226,
+          "end": 1457
+        },
+        {
+          "page": 5,
+          "start": 55,
+          "end": 184
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 184,
+          "end": 185
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 186,
+          "end": 1286
+        }
+      ],
+      "citations": [
+        {
+          "start": 935,
+          "end": 1102,
+          "text": "See Staff Report, Subcommittee on Economic and Consumer Policy, Baby Foods Are Tainted With Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury 2–4 (Feb. 4, 2021).",
+          "type": "record",
+          "canonical": "See Staff Report, Subcommittee on Economic and Consumer Policy, Baby Foods Are Tainted With Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury 2–4 (Feb. 4, 2021)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "2½",
+          "to": "two and a half"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1286,
+          "end": 1657
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1657,
+          "end": 2006
+        },
+        {
+          "page": 6,
+          "start": 96,
+          "end": 620
+        }
+      ],
+      "citations": [
+        {
+          "start": 158,
+          "end": 179,
+          "text": "28 U. S. C. § 1332(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1332",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 378,
+          "end": 433,
+          "text": "Lincoln Property Co. v. Roche, 546 U. S. 81, 89 (2005).",
+          "type": "case",
+          "canonical": "546 U.S. 81"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1332(a)",
+          "to": "Section 1332(a)"
+        },
+        {
+          "from": "28 U. S. C. § 1332",
+          "to": "Section 1332 of Title 28"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 620,
+          "end": 1000
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1955,
+          "end": 2140
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1002,
+          "end": 1540
+        }
+      ],
+      "citations": [
+        {
+          "start": 232,
+          "end": 338,
+          "text": "103 F. 4th 294, 304 (2024); see Smallwood v. Illinois Central R. Co., 385 F. 3d 568, 573 (2004) (en banc).",
+          "type": "case",
+          "canonical": "385 F.3d 568"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1540,
+          "end": 1953
+        },
+        {
+          "page": 7,
+          "start": 86,
+          "end": 331
+        }
+      ],
+      "citations": [
+        {
+          "start": 511,
+          "end": 530,
+          "text": "103 F. 4th, at 300.",
+          "type": "case",
+          "canonical": "103 F.4th 294"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[E. P.]",
+          "to": "E. P."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 331,
+          "end": 884
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 884,
+          "end": 1199
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1790,
+          "end": 1949
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 8,
+          "end": 74,
+          "text": "Junk v. Terminix Int'l Co., 628 F. 3d 439, 447, 450–451 (CA8 2010)",
+          "type": "case",
+          "canonical": "628 F.3d 439"
+        },
+        {
+          "start": 81,
+          "end": 159,
+          "text": "Henderson v. Washington Nat. Ins. Co., 454 F. 3d 1278, 1284– 1285 (CA11 2006).",
+          "type": "case",
+          "canonical": "454 F.3d 1278"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1200,
+          "end": 1308
+        }
+      ],
+      "citations": [
+        {
+          "start": 80,
+          "end": 106,
+          "text": "See 604 U. S. 1267 (2025).",
+          "type": "case",
+          "canonical": "604 U.S. 1267"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1308,
+          "end": 1310
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1311,
+          "end": 1788
+        },
+        {
+          "page": 8,
+          "start": 65,
+          "end": 384
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 72,
+          "end": 123,
+          "text": "Caterpillar Inc. v. Lewis, 519 U. S. 61, 70 (1996).",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        },
+        {
+          "start": 314,
+          "end": 348,
+          "text": "See Brief for Petitioners 7, n. 1.",
+          "type": "record",
+          "canonical": "See Brief for Petitioners 7, n. 1."
+        },
+        {
+          "start": 580,
+          "end": 616,
+          "text": "See 28 U. S. C. §§ 1332(a), 1447(c).",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1332"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 384,
+          "end": 385
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 386,
+          "end": 1388
+        }
+      ],
+      "citations": [
+        {
+          "start": 131,
+          "end": 201,
+          "text": "Kempe's Lessee v. Kennedy, 5 Cranch 173, 185 (1809) (Marshall, C. J.).",
+          "type": "case",
+          "canonical": "9 U.S. 173"
+        },
+        {
+          "start": 404,
+          "end": 450,
+          "text": "Mitchell v. Maurer, 293 U. S. 237, 244 (1934).",
+          "type": "case",
+          "canonical": "293 U.S. 237"
+        },
+        {
+          "start": 598,
+          "end": 670,
+          "text": "Grupo Dataflux v. Atlas Global Group, L. P ., 541 U. S. 567, 571 (2004).",
+          "type": "case",
+          "canonical": "541 U.S. 567"
+        },
+        {
+          "start": 889,
+          "end": 1004,
+          "text": "See Williams v. Zbaraz, 448 U. S. 358, 368 (1980); American Fire & Casualty Co. v. Finn, 341 U. S. 6, 17–18 (1951).",
+          "type": "case",
+          "canonical": "448 U.S. 358"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1388,
+          "end": 1690
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1690,
+          "end": 1980
+        },
+        {
+          "page": 9,
+          "start": 55,
+          "end": 377
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 63,
+          "end": 77,
+          "text": ", 519 U. S. 61",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        },
+        {
+          "start": 329,
+          "end": 343,
+          "text": "Id., at 64–65.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        },
+        {
+          "start": 473,
+          "end": 484,
+          "text": "Id., at 65.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 377,
+          "end": 1228
+        }
+      ],
+      "citations": [
+        {
+          "start": 46,
+          "end": 51,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        },
+        {
+          "start": 188,
+          "end": 193,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        },
+        {
+          "start": 326,
+          "end": 340,
+          "text": "Id., at 65–66.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        },
+        {
+          "start": 473,
+          "end": 484,
+          "text": "Id., at 66.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        },
+        {
+          "start": 607,
+          "end": 644,
+          "text": "Federal Rule of Civil Procedure 54(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 54",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 646,
+          "end": 682,
+          "text": "See App. A to Brief for Respondents.",
+          "type": "record",
+          "canonical": "See App. A to Brief for Respondents."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1228,
+          "end": 1510
+        }
+      ],
+      "citations": [
+        {
+          "start": 61,
+          "end": 81,
+          "text": "519 U. S., at 66–67.",
+          "type": "record",
+          "canonical": "519 U. S., at 66–67."
+        },
+        {
+          "start": 270,
+          "end": 281,
+          "text": "Id., at 67.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1510,
+          "end": 2034
+        },
+        {
+          "page": 10,
+          "start": 65,
+          "end": 213
+        }
+      ],
+      "citations": [
+        {
+          "start": 199,
+          "end": 210,
+          "text": "Id., at 73.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        },
+        {
+          "start": 477,
+          "end": 496,
+          "text": "Id., at 73, 75, 77.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        },
+        {
+          "start": 659,
+          "end": 673,
+          "text": "Id., at 76–77.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[had been]",
+          "to": "had been"
+        },
+        {
+          "from": "i. e.",
+          "to": "that is"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 213,
+          "end": 214
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 215,
+          "end": 497
+        }
+      ],
+      "citations": [
+        {
+          "start": 271,
+          "end": 282,
+          "text": "Id., at 77.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 497,
+          "end": 938
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 938,
+          "end": 1686
+        }
+      ],
+      "citations": [
+        {
+          "start": 139,
+          "end": 184,
+          "text": "Dupree v. Younger, 598 U. S. 729, 734 (2023).",
+          "type": "case",
+          "canonical": "598 U.S. 729"
+        },
+        {
+          "start": 421,
+          "end": 503,
+          "text": "Id., at 735 (quoting Quackenbush v. Allstate Ins. Co., 517 U. S. 706, 712 (1996)).",
+          "type": "case",
+          "canonical": "598 U.S. 729"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]nterlocutory",
+          "to": "interlocutory"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1686,
+          "end": 1920
+        },
+        {
+          "page": 11,
+          "start": 86,
+          "end": 188
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 188,
+          "end": 859
+        }
+      ],
+      "citations": [
+        {
+          "start": 283,
+          "end": 351,
+          "text": "Royal Canin U. S. A., Inc. v. Wullschleger, 604 U. S. 22, 33 (2025).",
+          "type": "case",
+          "canonical": "604 U.S. 22"
+        },
+        {
+          "start": 641,
+          "end": 671,
+          "text": "Caterpillar, 519 U. S., at 77.",
+          "type": "case",
+          "canonical": "519 U.S. 61"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 859,
+          "end": 1494
+        }
+      ],
+      "citations": [
+        {
+          "start": 402,
+          "end": 478,
+          "text": "Cf. Kokkonen v. Guardian Life Ins. Co. of America, 511 U. S. 375, 377 (1994)",
+          "type": "case",
+          "canonical": "511 U.S. 375"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1494,
+          "end": 2086
+        },
+        {
+          "page": 12,
+          "start": 65,
+          "end": 478
+        }
+      ],
+      "citations": [
+        {
+          "start": 320,
+          "end": 337,
+          "text": "519 U. S., at 75.",
+          "type": "record",
+          "canonical": "519 U. S., at 75."
+        },
+        {
+          "start": 578,
+          "end": 612,
+          "text": "Grupo Dataflux, 541 U. S., at 574.",
+          "type": "case",
+          "canonical": "541 U.S. 567"
+        },
+        {
+          "start": 756,
+          "end": 776,
+          "text": "519 U. S., at 76–77,",
+          "type": "record",
+          "canonical": "519 U. S., at 76–77,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1236,
+          "end": 1723
+        }
+      ],
+      "citations": [
+        {
+          "start": 124,
+          "end": 161,
+          "text": "Federal Rule of Civil Procedure 54(b)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 54",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 186,
+          "end": 207,
+          "text": "28 U. S. C. § 1292(b)",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1292",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 454,
+          "end": 488,
+          "text": "See Tr. of Oral Arg. 20–23, 34–36.",
+          "type": "record",
+          "canonical": "See Tr. of Oral Arg. 20–23, 34–36."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1292(b)",
+          "to": "Section 1292(b)"
+        },
+        {
+          "from": "28 U. S. C. § 1292",
+          "to": "Section 1292 of Title 28"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 480,
+          "end": 483
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 484,
+          "end": 762
+        }
+      ],
+      "citations": [
+        {
+          "start": 124,
+          "end": 158,
+          "text": "Federal Rule of Civil Procedure 21",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 21",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1725,
+          "end": 2266
+        }
+      ],
+      "citations": [
+        {
+          "start": 27,
+          "end": 34,
+          "text": "Rule 21",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 21",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 201,
+          "end": 228,
+          "text": "See Pet. for Cert. i, 22–24",
+          "type": "record",
+          "canonical": "See Pet. for Cert. i, 22–24"
+        },
+        {
+          "start": 372,
+          "end": 451,
+          "text": "and citing Newman-Green, Inc. v. Alfonzo-Larrain, 490 U. S. 826, 834–836 (1989)",
+          "type": "case",
+          "canonical": "490 U.S. 826"
+        },
+        {
+          "start": 452,
+          "end": 541,
+          "text": "; Brief for Whole Foods in No. 23–40197 (CA5), p. 16; see also this Court's Rule 14.1(a).",
+          "type": "record",
+          "canonical": "; Brief for Whole Foods in No. 23–40197 (CA5), p. 16; see also this Court's Rule 14.1(a)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ha[ve]",
+          "to": "have"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 763,
+          "end": 1234
+        }
+      ],
+      "citations": [
+        {
+          "start": 40,
+          "end": 63,
+          "text": ", 490 U. S. 826 (1989),",
+          "type": "case",
+          "canonical": "490 U.S. 826"
+        },
+        {
+          "start": 131,
+          "end": 138,
+          "text": "Rule 21",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 21",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 184,
+          "end": 201,
+          "text": "Id., at 833, 837.",
+          "type": "case",
+          "canonical": "490 U.S. 826"
+        },
+        {
+          "start": 457,
+          "end": 469,
+          "text": "Id., at 838.",
+          "type": "case",
+          "canonical": "490 U.S. 826"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]t",
+          "to": "it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 55,
+          "end": 733
+        }
+      ],
+      "citations": [
+        {
+          "start": 178,
+          "end": 190,
+          "text": "Id., at 829.",
+          "type": "case",
+          "canonical": "490 U.S. 826"
+        },
+        {
+          "start": 400,
+          "end": 430,
+          "text": "Royal Canin, 604 U. S., at 35.",
+          "type": "case",
+          "canonical": "604 U.S. 22"
+        },
+        {
+          "start": 663,
+          "end": 677,
+          "text": "Id., at 35–36.",
+          "type": "case",
+          "canonical": "604 U.S. 22"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 733,
+          "end": 1910
+        }
+      ],
+      "citations": [
+        {
+          "start": 23,
+          "end": 30,
+          "text": "Rule 21",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 21",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 230,
+          "end": 237,
+          "text": "Rule 21",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 21",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 630,
+          "end": 738,
+          "text": "Atlantic Marine Constr. Co. v. United States Dist. Court for Western Dist. of Tex., 571 U. S. 49, 63 (2013).",
+          "type": "case",
+          "canonical": "571 U.S. 49"
+        },
+        {
+          "start": 1081,
+          "end": 1088,
+          "text": "Rule 21",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 21",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1914,
+          "end": 2197
+        },
+        {
+          "page": 14,
+          "start": 1603,
+          "end": 1940
+        }
+      ],
+      "citations": [
+        {
+          "start": 22,
+          "end": 29,
+          "text": "Rule 21",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 21",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 121,
+          "end": 198,
+          "text": "See, e. g., Gorfinkle v. U. S. Airways, Inc., 431 F. 3d 19, 21–23 (CA1 2005).",
+          "type": "case",
+          "canonical": "431 F.3d 19"
+        },
+        {
+          "start": 326,
+          "end": 333,
+          "text": "Rule 21",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 21",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 448,
+          "end": 455,
+          "text": "Rule 21",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 21",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 521,
+          "end": 623,
+          "text": "See, e. g., Publicker Industries, Inc. v. Roman Ceramics Corp., 603 F. 2d 1065, 1067, 1069 (CA3 1979).",
+          "type": "case",
+          "canonical": "603 F.2d 1065"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 67,
+          "end": 69
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 70,
+          "end": 459
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 1457,
+      "end": 2147,
+      "text": "*Briefs of amici curiae urging reversal were fled for the National Association of Manufacturers et al. by Jaime A. Santos, Rohiniyurie Tashima,\nJennifer B. Dickey, and Erica Klenicki; for the Product Liability Advisory Council, Inc., by Nicole Saharsky and Minh Nguyen-Dang; and for\nthe Washington Legal Foundation by Cory L. Andrews and Zac Morgan.\nLawrence S. Ebner fled a brief for the Atlantic Legal Foundation as amicus curiae urging vacatur and remand.\nBriefs of amici curiae urging affrmance were fled for the American\nAssociation for Justice by Deepak Gupta and Jonathan E. Taylor; and for\nCivil Procedure Professors by David Freeman Engstrom, pro se.\nPage Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 421 (2026) 425\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 2006,
+      "end": 2036,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 96,
+      "text": "Page Proof Pending Publication\n426 HAIN CELESTIAL GROUP, INC. v. PALMQUIST\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 1000,
+      "end": 1002,
+      "text": "1\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 1953,
+      "end": 1955,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 421 (2026) 427\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1199,
+      "end": 1200,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1788,
+      "end": 1790,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 65,
+      "text": "428 HAIN CELESTIAL GROUP, INC. v. PALMQUIST\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1980,
+      "end": 2010,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 421 (2026) 429\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2034,
+      "end": 2064,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 65,
+      "text": "430 HAIN CELESTIAL GROUP, INC. v. PALMQUIST\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1920,
+      "end": 1950,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 421 (2026) 431\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 65,
+      "text": "432 HAIN CELESTIAL GROUP, INC. v. PALMQUIST\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 478,
+      "end": 480,
+      "text": "3\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 762,
+      "end": 763,
+      "text": "4",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1234,
+      "end": 1236,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1723,
+      "end": 1725,
+      "text": "4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 2267,
+      "end": 2297,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 607 U. S. 421 (2026) 433\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 1910,
+      "end": 1914,
+      "text": "5\n5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 2198,
+      "end": 2228,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 67,
+      "text": "434 HAIN CELESTIAL GROUP, INC. v. PALMQUIST\nThomas, J., concurring\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 459,
+      "end": 1603,
+      "text": "Justice Thomas, concurring.\nI join the Court's opinion in full. I write separately to\nnote my skepticism of the doctrine of “improper joinder,”\nwhich the District Court invoked to dismiss Whole Foods in\nthis case. The doctrine appears to allow federal courts to\nenlarge their jurisdiction by assessing the merits of claims\nover which they lack jurisdiction.\n“Federal courts are courts of limited jurisdiction.” Kokkonen v. Guardian Life Ins. Co. of America, 511 U. S. 375,\n377 (1994). As “an essential ingredient of separation and\nequilibration of powers,” the Constitution gives Congress\nbroad power over the scope of federal courts' jurisdiction.\nSteel Co. v. Citizens for Better Environment, 523 U. S. 83,\n101 (1998). “When we assume jurisdiction too hastily, we risk\naggrandizing ourselves at the expense of the political\nbranches.” Monsalvo Velazquez v. Bondi, 604 U. S. 712, 737\n(2025) (Thomas, J., dissenting). Accordingly, if a federal\ncourt determines that it lacks jurisdiction in a case, “the only\nfunction remaining to the court is that of announcing the fact\nand dismissing the cause.” Ex parte McCardle , 7 Wall. 506,\n514 (1869).\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 4,
+      "start": 822,
+      "end": 826,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 4,
+      "start": 1146,
+      "end": 1150,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 4,
+      "start": 1317,
+      "end": 1321,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 4,
+      "start": 1502,
+      "end": 1506,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 1825,
+      "end": 1829,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 1961,
+      "end": 1965,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 128,
+      "end": 132,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 5,
+      "start": 289,
+      "end": 293,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 5,
+      "start": 478,
+      "end": 482,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 5,
+      "start": 1019,
+      "end": 1025,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 5,
+      "start": 1514,
+      "end": 1522,
+      "expectedText": "statelaw",
+      "text": "state-law"
+    },
+    {
+      "page": 6,
+      "start": 1804,
+      "end": 1813,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 7,
+      "start": 905,
+      "end": 909,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 8,
+      "start": 346,
+      "end": 350,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 8,
+      "start": 975,
+      "end": 980,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 8,
+      "start": 989,
+      "end": 996,
+      "expectedText": "Datafux",
+      "text": "Dataflux"
+    },
+    {
+      "page": 8,
+      "start": 1159,
+      "end": 1163,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 8,
+      "start": 1525,
+      "end": 1529,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 9,
+      "start": 963,
+      "end": 967,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 9,
+      "start": 1748,
+      "end": 1755,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 9,
+      "start": 1757,
+      "end": 1766,
+      "expectedText": "effciency",
+      "text": "efficiency"
+    },
+    {
+      "page": 10,
+      "start": 297,
+      "end": 301,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 10,
+      "start": 1292,
+      "end": 1296,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 10,
+      "start": 1498,
+      "end": 1502,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 11,
+      "start": 334,
+      "end": 338,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 11,
+      "start": 1020,
+      "end": 1024,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 11,
+      "start": 1515,
+      "end": 1524,
+      "expectedText": "effciency",
+      "text": "efficiency"
+    },
+    {
+      "page": 11,
+      "start": 1700,
+      "end": 1707,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 11,
+      "start": 1709,
+      "end": 1718,
+      "expectedText": "effciency",
+      "text": "efficiency"
+    },
+    {
+      "page": 11,
+      "start": 2074,
+      "end": 2081,
+      "expectedText": "Datafux",
+      "text": "Dataflux"
+    },
+    {
+      "page": 12,
+      "start": 262,
+      "end": 270,
+      "expectedText": "effcient",
+      "text": "efficient"
+    },
+    {
+      "page": 12,
+      "start": 1339,
+      "end": 1343,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 12,
+      "start": 1401,
+      "end": 1413,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 13,
+      "start": 2047,
+      "end": 2055,
+      "expectedText": "Gorfnkle",
+      "text": "Gorfinkle"
+    },
+    {
+      "page": 14,
+      "start": 353,
+      "end": 360,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 14,
+      "start": 1801,
+      "end": 1805,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 1452,
+      "end": 1456,
+      "expectedText": "can-",
+      "text": "can"
+    },
+    {
+      "page": 7,
+      "start": 1784,
+      "end": 1787,
+      "expectedText": "re-",
+      "text": "re"
+    },
+    {
+      "page": 8,
+      "start": 1975,
+      "end": 1979,
+      "expectedText": "com-",
+      "text": "com"
+    },
+    {
+      "page": 10,
+      "start": 1917,
+      "end": 1919,
+      "expectedText": "f-",
+      "text": "fi"
+    },
+    {
+      "page": 11,
+      "start": 2054,
+      "end": 2060,
+      "expectedText": "fnally",
+      "text": "finally"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read every Court-opinion body paragraph and all five notes. The circuit-comparison note 2 is citationOnly with both authorities individually linked; notes 1,3,4,5 are substantive and narrated in place. Note 5 includes continuation beneath the following concurrence; the concurrence is explicitly excluded. Retained all jurisdictional qualifications, quotations, procedural explanations and disposition; source-only citation omissions and semantic statutory mentions retained inline; ligatures/compounds/divided-word joins corrected."
+}

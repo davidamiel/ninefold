@@ -1,0 +1,115 @@
+{
+  "reviewed": true,
+  "documentId": "25-851-e4ce847fd33f--0-0",
+  "sourceDocumentId": "25-851-e4ce847fd33f",
+  "sourceTextPath": "dist/data/docs/25-851-e4ce847fd33f.json",
+  "sourceTextSha256": "5d4f589e767509835932f0aba3ab7826daf38e54a1110e1749165964d290afaa",
+  "sourcePdfPath": "recordings/sources/9656b32ac4b26182d31fd698.pdf",
+  "sourcePdfSha256": "9656b32ac4b26182d31fd698877d0e5092a67a75e34c98e00c8475ae67e8332e",
+  "title": "Dissent",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-06-22",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-851_ed9f.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 0,
+    "endOffset": 1573
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 635,
+          "end": 1573
+        }
+      ],
+      "citations": [
+        {
+          "start": 131,
+          "end": 148,
+          "text": "18 U. S. C. §2515",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 2515",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "18 U. S. C. §2515",
+          "to": "Section twenty-five fifteen of Title eighteen"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 685,
+      "end": 696,
+      "expectedText": "re-\ncording",
+      "text": "recording"
+    },
+    {
+      "page": 0,
+      "start": 1028,
+      "end": 1036,
+      "expectedText": "ar-\ngues",
+      "text": "argues"
+    },
+    {
+      "page": 0,
+      "start": 1142,
+      "end": 1152,
+      "expectedText": "ad-\nmitted",
+      "text": "admitted"
+    },
+    {
+      "page": 0,
+      "start": 1194,
+      "end": 1207,
+      "expectedText": "promi-\nnently",
+      "text": "prominently"
+    },
+    {
+      "page": 0,
+      "start": 1427,
+      "end": 1436,
+      "expectedText": "of-\nfered",
+      "text": "offered"
+    },
+    {
+      "page": 0,
+      "start": 1457,
+      "end": 1465,
+      "expectedText": "Be cause",
+      "text": "Because"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 36,
+      "end": 635,
+      "text": "1  Cite as: 608 U. S. ____ (2026) \nALITO, J., dissenting \nSUPREME COURT OF THE UNITED STATES \nASHLEY GRAYSON v. UNITED STATES \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE SIXTH CIRCUIT \nNo. 25–851. Decided June 22, 2026 \nThe petition for a writ of certiorari is granted.  The judg-\nment is vacated, and the case is remanded to the United \nStates Court of Appeals for the Sixth Circuit for further con-\nsideration in light of the position asserted by the Solicitor \nGeneral in his brief for the United States filed on May 12, \n2026. \nJUSTICE ALITO, dissenting. \n",
+      "reason": "Case caption, bare order/attribution, running furniture, or represented note marker"
+    }
+  ],
+  "documentInfo": {
+    "joinedBy": []
+  },
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full original public PDF and source text reviewed; all authored prose and quotations retained, running caption/bare order excluded, source locators individually mapped, extraction repairs exact. Meaningful grammatical statute references remain linked and spoken. Substantive comparison note, where present, occurs at its marker."
+}

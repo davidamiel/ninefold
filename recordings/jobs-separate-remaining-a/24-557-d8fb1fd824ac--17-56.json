@@ -1,0 +1,333 @@
+{
+  "reviewed": true,
+  "documentId": "24-557-d8fb1fd824ac--17-56",
+  "sourceDocumentId": "24-557-d8fb1fd824ac",
+  "sourceTextPath": "dist/data/docs/24-557-d8fb1fd824ac.json",
+  "sourceTextSha256": "826e8e23c7f5018f906c8f458b7c6c412f4c25c973735dc193d8dbacf3eada31",
+  "sourcePdfPath": "dist/data/pdfs/24-557-d8fb1fd824ac--17-56.pdf",
+  "sourcePdfSha256": "2be5963a5c9f5e3b1bc4472fdd239b5be42be2862f12442e3c6f57953e6557fc",
+  "title": "Concurrence",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-02-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r16_869c.pdf",
+  "sourceRange": {
+    "startPage": 17,
+    "startOffset": 83,
+    "endPage": 20,
+    "endOffset": 2081
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 83,
+          "end": 468
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 17,
+          "start": 468,
+          "end": 471
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 471,
+          "end": 1880
+        }
+      ],
+      "citations": [
+        {
+          "start": 451,
+          "end": 500,
+          "text": "See Rock v. Arkansas, 483 U. S. 44, 49\u201350 (1987).",
+          "type": "case",
+          "canonical": "483 U.S. 44"
+        },
+        {
+          "start": 675,
+          "end": 743,
+          "text": "see Ferguson v. Georgia, 365 U. S. 570, 576\u2013577, and nn. 5\u20136 (1961),",
+          "type": "case",
+          "canonical": "365 U.S. 570"
+        },
+        {
+          "start": 882,
+          "end": 900,
+          "text": ", 483 U. S., at 49",
+          "type": "case",
+          "canonical": "483 U.S. 44"
+        },
+        {
+          "start": 1106,
+          "end": 1121,
+          "text": "See id., at 51.",
+          "type": "case",
+          "canonical": "483 U.S. 44"
+        },
+        {
+          "start": 1272,
+          "end": 1297,
+          "text": "Id., at 55\u201356, and n. 11.",
+          "type": "case",
+          "canonical": "483 U.S. 44"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 18,
+          "start": 45,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 49,
+          "end": 802
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 802,
+          "end": 1248
+        }
+      ],
+      "citations": [
+        {
+          "start": 171,
+          "end": 194,
+          "text": "Fed. Rule Evid. 611(c).",
+          "type": "statute",
+          "canonical": "Fed. R. Evid. 611"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1248,
+          "end": 2013
+        },
+        {
+          "page": 19,
+          "start": 87,
+          "end": 729
+        }
+      ],
+      "citations": [
+        {
+          "start": 324,
+          "end": 366,
+          "text": "Perry v. Leeke, 488 U. S. 272, 281 (1989).",
+          "type": "case",
+          "canonical": "488 U.S. 272"
+        },
+        {
+          "start": 534,
+          "end": 550,
+          "text": "Id., at 283\u2013284.",
+          "type": "case",
+          "canonical": "488 U.S. 272"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 729,
+          "end": 1405
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1405,
+          "end": 1410
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1410,
+          "end": 2006
+        },
+        {
+          "page": 20,
+          "start": 46,
+          "end": 218
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 218,
+          "end": 978
+        }
+      ],
+      "citations": [
+        {
+          "start": 83,
+          "end": 106,
+          "text": "Geders v. United States",
+          "type": "case",
+          "canonical": "425 U.S. 80",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 106,
+          "end": 128,
+          "text": ", 425 U. S. 80 (1976),",
+          "type": "case",
+          "canonical": "425 U.S. 80"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 978,
+          "end": 1814
+        }
+      ],
+      "citations": [
+        {
+          "start": 804,
+          "end": 837,
+          "text": "Ante, at 475, 478, and n. 5, 479.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 475, 478-479, note 5"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1814,
+          "end": 2081
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 17,
+      "start": 1880,
+      "end": 1910,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 45,
+      "text": "482 VILLARREAL v. TEXAS\nAlito, J., concurring",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 18,
+      "start": 2013,
+      "end": 2043,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 87,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 465 (2026) 483\nAlito, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 46,
+      "text": "484 VILLARREAL v. TEXAS\nAlito, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 18,
+      "start": 557,
+      "end": 565,
+      "expectedText": "affdavit",
+      "text": "affidavit"
+    },
+    {
+      "page": 19,
+      "start": 1959,
+      "end": 1964,
+      "expectedText": "fnish",
+      "text": "finish"
+    },
+    {
+      "page": 20,
+      "start": 1301,
+      "end": 1304,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 20,
+      "start": 1649,
+      "end": 1655,
+      "expectedText": "fngers",
+      "text": "fingers"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

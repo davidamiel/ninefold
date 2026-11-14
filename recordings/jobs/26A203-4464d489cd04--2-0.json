@@ -1,0 +1,1098 @@
+{
+  "reviewed": true,
+  "documentId": "26A203-4464d489cd04--2-0",
+  "sourceDocumentId": "26A203-4464d489cd04",
+  "sourceTextPath": "dist/data/docs/26A203-4464d489cd04.json",
+  "sourceTextSha256": "37412ed496e235f83ad5590db7916d37395fc10e20efc521d2e68b3fed1c7114",
+  "sourcePdfPath": "dist/data/pdfs/26A203-4464d489cd04--2-0.pdf",
+  "sourcePdfSha256": "cb88a2854c40602151d54864ff667fe77b6ba18be531df7b697d23b9fffe506d",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-08-31",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r70_3e04.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 228,
+    "endPage": 9,
+    "endOffset": 289
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 228,
+          "end": 608
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 608,
+          "end": 1019
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1019,
+          "end": 1427
+        }
+      ],
+      "citations": [
+        {
+          "start": 378,
+          "end": 408,
+          "text": "App. to Application 231a–233a.",
+          "type": "record",
+          "canonical": "App. to Application 231a–233a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1427,
+          "end": 1908
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1908,
+          "end": 2026
+        },
+        {
+          "page": 3,
+          "start": 105,
+          "end": 441
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 299,
+          "end": 313,
+          "text": "Application 1.",
+          "type": "record",
+          "canonical": "Application 1."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 441,
+          "end": 689
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 689,
+          "end": 690
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 691,
+          "end": 1454
+        }
+      ],
+      "citations": [
+        {
+          "start": 357,
+          "end": 451,
+          "text": "Lujan v. Defenders of Wildlife , 504 U. S. 555, 560 (1992) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        },
+        {
+          "start": 579,
+          "end": 620,
+          "text": "Ibid. (internal quotation marks omitted);",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        },
+        {
+          "start": 621,
+          "end": 682,
+          "text": "see also TransUnion LLC v. Ramirez, 594 U. S. 413, 423 (2021)",
+          "type": "case",
+          "canonical": "594 U.S. 413"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1454,
+          "end": 2037
+        },
+        {
+          "page": 4,
+          "start": 47,
+          "end": 161
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 264,
+          "end": 292,
+          "text": "App. to Application 73a–74a.",
+          "type": "record",
+          "canonical": "App. to Application 73a–74a."
+        },
+        {
+          "start": 565,
+          "end": 577,
+          "text": "Id., at 75a.",
+          "type": "record",
+          "canonical": "App. to Application"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "D. C.",
+          "to": "D C"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 161,
+          "end": 1310
+        }
+      ],
+      "citations": [
+        {
+          "start": 424,
+          "end": 499,
+          "text": "FDA v. Alliance for Hippocratic Medicine , 602 U. S. 367, 390, n. 3 (2024).",
+          "type": "case",
+          "canonical": "602 U.S. 367"
+        },
+        {
+          "start": 709,
+          "end": 828,
+          "text": "Valley Forge Christian College v. Americans United for Separation of Church and State, Inc., 454 U. S. 464, 485 (1982);",
+          "type": "case",
+          "canonical": "454 U.S. 464"
+        },
+        {
+          "start": 829,
+          "end": 913,
+          "text": "see also Schlesinger v. Reservists Comm. to Stop the War , 418 U. S. 208, 227 (1974)",
+          "type": "case",
+          "canonical": "418 U.S. 208"
+        },
+        {
+          "start": 1007,
+          "end": 1061,
+          "text": "United States v. Richardson, 418 U. S. 166, 177 (1974)",
+          "type": "case",
+          "canonical": "418 U.S. 166"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1310,
+          "end": 2109
+        }
+      ],
+      "citations": [
+        {
+          "start": 643,
+          "end": 675,
+          "text": "Alliance, 602 U. S., at 391–392.",
+          "type": "case",
+          "canonical": "602 U.S. 367"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 136,
+          "end": 1388
+        }
+      ],
+      "citations": [
+        {
+          "start": 157,
+          "end": 190,
+          "text": "See Opposition to Application 25;",
+          "type": "record",
+          "canonical": "See Opposition to Application 25;"
+        },
+        {
+          "start": 191,
+          "end": 239,
+          "text": "post, at 1077–1081 (Roberts, C. J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. 1068"
+        },
+        {
+          "start": 260,
+          "end": 332,
+          "text": "Friends of the Earth, Inc. v. Laidlaw Environmental Services (TOC), Inc.",
+          "type": "case",
+          "canonical": "528 U.S. 167",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 332,
+          "end": 355,
+          "text": ", 528 U. S. 167 (2000),",
+          "type": "case",
+          "canonical": "528 U.S. 167"
+        },
+        {
+          "start": 590,
+          "end": 606,
+          "text": "Id., at 181–183.",
+          "type": "case",
+          "canonical": "528 U.S. 167"
+        },
+        {
+          "start": 614,
+          "end": 647,
+          "text": "Summers v. Earth Island Institute",
+          "type": "case",
+          "canonical": "555 U.S. 488",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 648,
+          "end": 671,
+          "text": ", 555 U. S. 488 (2009),",
+          "type": "case",
+          "canonical": "555 U.S. 488"
+        },
+        {
+          "start": 968,
+          "end": 984,
+          "text": "Id., at 494–496.",
+          "type": "case",
+          "canonical": "555 U.S. 488"
+        },
+        {
+          "start": 1219,
+          "end": 1253,
+          "text": "Alliance, 602 U. S., at 390, n. 3.",
+          "type": "case",
+          "canonical": "602 U.S. 367"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "fish[ing]",
+          "to": "fishing"
+        },
+        {
+          "from": "camp[ing]",
+          "to": "camping"
+        },
+        {
+          "from": "swim[ming]",
+          "to": "swimming"
+        },
+        {
+          "from": "picnic[king]",
+          "to": "picnicking"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1388,
+          "end": 2286
+        },
+        {
+          "page": 6,
+          "start": 47,
+          "end": 481
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 32,
+          "end": 37,
+          "text": "Lujan",
+          "type": "case",
+          "canonical": "504 U.S. 555",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 203,
+          "end": 225,
+          "text": "504 U. S., at 562–563;",
+          "type": "record",
+          "canonical": "504 U. S., at 562–563;"
+        },
+        {
+          "start": 226,
+          "end": 272,
+          "text": "see also Summers, 555 U. S., at 494 (similar).",
+          "type": "case",
+          "canonical": "555 U.S. 488"
+        },
+        {
+          "start": 549,
+          "end": 630,
+          "text": "See post, at 1078 (opinion of Roberts, C. J.) (internal quotation marks omitted);",
+          "type": "case",
+          "canonical": "609 U.S. 1068"
+        },
+        {
+          "start": 631,
+          "end": 663,
+          "text": "Opposition to Application 25–26.",
+          "type": "record",
+          "canonical": "Opposition to Application 25–26."
+        },
+        {
+          "start": 935,
+          "end": 988,
+          "text": "504 U. S., at 563 (internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "504 U. S., at 563 (internal quotation marks omitted)."
+        },
+        {
+          "start": 1094,
+          "end": 1106,
+          "text": "Id., at 560;",
+          "type": "case",
+          "canonical": "609 U.S. 1068"
+        },
+        {
+          "start": 1107,
+          "end": 1151,
+          "text": "see also TransUnion LLC , 594 U. S., at 423.",
+          "type": "case",
+          "canonical": "594 U.S. 413"
+        },
+        {
+          "start": 1300,
+          "end": 1334,
+          "text": "Alliance, 602 U. S., at 390, n. 3.",
+          "type": "case",
+          "canonical": "602 U.S. 367"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 481,
+          "end": 1284
+        }
+      ],
+      "citations": [
+        {
+          "start": 232,
+          "end": 274,
+          "text": "post, at 1081 (opinion of Roberts, C. J.),",
+          "type": "case",
+          "canonical": "609 U.S. 1068"
+        },
+        {
+          "start": 365,
+          "end": 379,
+          "text": "post, at 1078;",
+          "type": "case",
+          "canonical": "609 U.S. 1068"
+        },
+        {
+          "start": 380,
+          "end": 418,
+          "text": "see also Opposition to Application 26.",
+          "type": "record",
+          "canonical": "see also Opposition to Application 26."
+        },
+        {
+          "start": 595,
+          "end": 646,
+          "text": "Valley Forge Christian College , 454 U. S., at 486,",
+          "type": "case",
+          "canonical": "454 U.S. 464"
+        },
+        {
+          "start": 701,
+          "end": 803,
+          "text": "Lujan, 504 U. S., at 563 (quoting Sierra Club v. Morton, 405 U. S. 727, 739 (1972); brackets omitted).",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1284,
+          "end": 1286
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1287,
+          "end": 1460
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1460,
+          "end": 2048
+        },
+        {
+          "page": 7,
+          "start": 136,
+          "end": 313
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 141,
+          "end": 192,
+          "text": "Cf. Trump v. CASA, Inc., 606 U. S. 831, 859 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        },
+        {
+          "start": 323,
+          "end": 351,
+          "text": "See Lujan, 504 U. S., at 560",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        },
+        {
+          "start": 515,
+          "end": 549,
+          "text": "(internal quotation marks omitted)",
+          "type": "record",
+          "canonical": "(internal quotation marks omitted)"
+        },
+        {
+          "start": 552,
+          "end": 579,
+          "text": "Alliance, 602 U. S., at 379",
+          "type": "case",
+          "canonical": "602 U.S. 367"
+        },
+        {
+          "start": 729,
+          "end": 763,
+          "text": "(internal quotation marks omitted)",
+          "type": "record",
+          "canonical": "(internal quotation marks omitted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 313,
+          "end": 1281
+        }
+      ],
+      "citations": [
+        {
+          "start": 560,
+          "end": 653,
+          "text": "See, e. g., App. to Application 229a, 246a–247a, 397a–398a, 426a–429a, 431a–433a, 437a– 439a.",
+          "type": "record",
+          "canonical": "See, e. g., App. to Application 229a, 246a–247a, 397a–398a, 426a–429a, 431a–433a, 437a– 439a."
+        },
+        {
+          "start": 955,
+          "end": 968,
+          "text": "Id., at 247a.",
+          "type": "record",
+          "canonical": "App. to Application"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "below-and",
+          "to": "below and"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1281,
+          "end": 2172
+        },
+        {
+          "page": 8,
+          "start": 47,
+          "end": 703
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 279,
+          "end": 301,
+          "text": "See id., at 232a– 233a",
+          "type": "record",
+          "canonical": "See id., at 232a– 233a"
+        },
+        {
+          "start": 385,
+          "end": 445,
+          "text": "see also post, at 1080–1081, n. (opinion of Roberts, C. J.).",
+          "type": "case",
+          "canonical": "609 U.S. 1068"
+        },
+        {
+          "start": 695,
+          "end": 720,
+          "text": "App. to Application 247a;",
+          "type": "record",
+          "canonical": "App. to Application 247a;"
+        },
+        {
+          "start": 827,
+          "end": 851,
+          "text": "id., at 229a, 428a–429a;",
+          "type": "record",
+          "canonical": "id., at 229a, 428a–429a;"
+        },
+        {
+          "start": 1031,
+          "end": 1066,
+          "text": "id., at 116a–117a, 397a–398a, 420a;",
+          "type": "record",
+          "canonical": "id., at 116a–117a, 397a–398a, 420a;"
+        },
+        {
+          "start": 1182,
+          "end": 1201,
+          "text": "id., at 437a– 439a;",
+          "type": "record",
+          "canonical": "id., at 437a– 439a;"
+        },
+        {
+          "start": 1523,
+          "end": 1547,
+          "text": "id., at 443a, 445a–446a.",
+          "type": "record",
+          "canonical": "id., at 443a, 445a–446a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 703,
+          "end": 1261
+        }
+      ],
+      "citations": [
+        {
+          "start": 241,
+          "end": 253,
+          "text": "Id., at 75a.",
+          "type": "record",
+          "canonical": "App. to Application"
+        },
+        {
+          "start": 308,
+          "end": 388,
+          "text": "See Winter v. Natural Resources Defense Council, Inc., 555 U. S. 7, 25–26 (2008)",
+          "type": "case",
+          "canonical": "555 U.S. 7"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "outweigh[ed]",
+          "to": "outweighed"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1267,
+          "end": 1978
+        },
+        {
+          "page": 9,
+          "start": 121,
+          "end": 289
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 2026,
+      "end": 2056,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 105,
+      "text": "1070 N ATIONAL PARK SERVICE v. NATIONAL TRUST FOR\nHISTORIC PRESERV ATION IN THE UNITED STATES\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 2037,
+      "end": 2067,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 47,
+      "text": "Cite as: 609 U. S. 1068 (2026) 1071\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 2109,
+      "end": 2139,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 136,
+      "text": "Page Proof Pending Publication\n1072 N ATIONAL PARK SERVICE v. NATIONAL TRUST FOR\nHISTORIC PRESERV ATION IN THE UNITED STATES\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 47,
+      "text": "Cite as: 609 U. S. 1068 (2026) 1073\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2048,
+      "end": 2078,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 136,
+      "text": "Page Proof Pending Publication\n1074 N ATIONAL PARK SERVICE v. NATIONAL TRUST FOR\nHISTORIC PRESERV ATION IN THE UNITED STATES\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 47,
+      "text": "Cite as: 609 U. S. 1068 (2026) 1075\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1261,
+      "end": 1267,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1978,
+      "end": 2008,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 121,
+      "text": "1076 N ATIONAL PARK SERVICE v. NATIONAL TRUST FOR\nHISTORIC PRESERV ATION IN THE UNITED STATES\nRoberts, C. J., dissenting\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 335,
+      "end": 339,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 2,
+      "start": 682,
+      "end": 686,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 2,
+      "start": 798,
+      "end": 802,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 110,
+      "end": 114,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 549,
+      "end": 559,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 3,
+      "start": 1783,
+      "end": 1790,
+      "expectedText": "fnished",
+      "text": "finished"
+    },
+    {
+      "page": 3,
+      "start": 1935,
+      "end": 1939,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 4,
+      "start": 1135,
+      "end": 1144,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 4,
+      "start": 1361,
+      "end": 1372,
+      "expectedText": "concreteand",
+      "text": "concrete-and"
+    },
+    {
+      "page": 4,
+      "start": 1639,
+      "end": 1646,
+      "expectedText": "suffces",
+      "text": "suffices"
+    },
+    {
+      "page": 4,
+      "start": 1912,
+      "end": 1917,
+      "expectedText": "fatly",
+      "text": "flatly"
+    },
+    {
+      "page": 5,
+      "start": 627,
+      "end": 630,
+      "expectedText": "fsh",
+      "text": "fish"
+    },
+    {
+      "page": 5,
+      "start": 1736,
+      "end": 1744,
+      "expectedText": "qualifes",
+      "text": "qualifies"
+    },
+    {
+      "page": 5,
+      "start": 2237,
+      "end": 2246,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 6,
+      "start": 1854,
+      "end": 1859,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 7,
+      "start": 842,
+      "end": 850,
+      "expectedText": "belowand",
+      "text": "below- and"
+    },
+    {
+      "page": 7,
+      "start": 1422,
+      "end": 1431,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 8,
+      "start": 399,
+      "end": 409,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 8,
+      "start": 1160,
+      "end": 1169,
+      "expectedText": "scientifc",
+      "text": "scientific"
+    },
+    {
+      "page": 8,
+      "start": 1836,
+      "end": 1841,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 9,
+      "start": 1324,
+      "end": 1328,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 7,
+      "start": 2169,
+      "end": 2172,
+      "expectedText": "en-",
+      "text": "en"
+    },
+    {
+      "page": 2,
+      "start": 2018,
+      "end": 2025,
+      "expectedText": "govern-",
+      "text": "govern"
+    },
+    {
+      "page": 2,
+      "start": 1130,
+      "end": 1138,
+      "expectedText": "clarifed",
+      "text": "clarified"
+    },
+    {
+      "page": 5,
+      "start": 1199,
+      "end": 1207,
+      "expectedText": "longheld",
+      "text": "long-held"
+    },
+    {
+      "page": 6,
+      "start": 953,
+      "end": 961,
+      "expectedText": "carveout",
+      "text": "carve-out"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "All eight bundled PDF pages reviewed through Court disposition; syllabus and Roberts dissent excluded. No footnotes. All substantive case explanations, quoted parentheticals, security assertions and final reservation about project legality retained; individually reviewed source-reference material omitted. Job-scoped extraction repairs checked against PDF."
+}

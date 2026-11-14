@@ -1,0 +1,234 @@
+{
+  "reviewed": true,
+  "documentId": "24-1063-22d936bf1cef--34-680",
+  "sourceDocumentId": "24-1063-22d936bf1cef",
+  "sourceTextPath": "dist/data/docs/24-1063-22d936bf1cef.json",
+  "sourceTextSha256": "c5f8931e397907b5102789bb3e45e1e45daff4832f4083aa877ab7a367f0f3ab",
+  "sourcePdfPath": "dist/data/pdfs/24-1063-22d936bf1cef--34-680.pdf",
+  "sourcePdfSha256": "b9d1ce919ebe8413a2c77b18d994068bcb12a98cfef1fafcabbd2691638b6dbe",
+  "title": "Concurrence",
+  "author": "Amy Coney Barrett",
+  "date": "2026-06-18",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r50_lkgn.pdf",
+  "sourceRange": {
+    "startPage": 34,
+    "startOffset": 709,
+    "endPage": 35,
+    "endOffset": 2087
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 709,
+          "end": 955
+        }
+      ],
+      "citations": [
+        {
+          "start": 90,
+          "end": 132,
+          "text": "See post, at 761–763 (dissenting opinion).",
+          "type": "reference",
+          "canonical": "Thomas dissent, pp. 761–763"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 955,
+          "end": 1550
+        }
+      ],
+      "citations": [
+        {
+          "start": 134,
+          "end": 224,
+          "text": "See A. Barrett, The Supervisory Power of the Supreme Court, 106 Colum. L. Rev. 324 (2006).",
+          "type": "reference",
+          "canonical": "A. Barrett, The Supervisory Power of the Supreme Court (2006)"
+        },
+        {
+          "start": 339,
+          "end": 413,
+          "text": "See A. Barrett, Procedural Common Law, 94 Va. L. Rev. 813, 883–884 (2008).",
+          "type": "reference",
+          "canonical": "A. Barrett, Procedural Common Law (2008)"
+        },
+        {
+          "start": 582,
+          "end": 594,
+          "text": "Id., at 884.",
+          "type": "reference",
+          "canonical": "A. Barrett, Procedural Common Law (2008)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 1550,
+          "end": 1972
+        },
+        {
+          "page": 35,
+          "start": 58,
+          "end": 1134
+        }
+      ],
+      "citations": [
+        {
+          "start": 108,
+          "end": 143,
+          "text": "See ante, at 725 (majority opinion)",
+          "type": "reference",
+          "canonical": "Court opinion, p. 725"
+        },
+        {
+          "start": 338,
+          "end": 383,
+          "text": "Johnson v. Zerbst, 304 U. S. 458, 464 (1938);",
+          "type": "case",
+          "canonical": "304 U.S. 458"
+        },
+        {
+          "start": 384,
+          "end": 432,
+          "text": "see Shutte v. Thompson, 15 Wall. 151, 159 (1873)",
+          "type": "case",
+          "canonical": "82 U.S. 151"
+        },
+        {
+          "start": 772,
+          "end": 862,
+          "text": "United States v. Mezzanatto, 513 U. S. 196, 204 (1995) (internal quotation marks omitted);",
+          "type": "case",
+          "canonical": "513 U.S. 196"
+        },
+        {
+          "start": 863,
+          "end": 952,
+          "text": "see 1 J. Bishop, Commentaries on the Law of Criminal Procedure § 118, p. 71 (2d ed. 1872)",
+          "type": "reference",
+          "canonical": "J. Bishop, Commentaries on the Law of Criminal Procedure § 118 (1872)"
+        },
+        {
+          "start": 1103,
+          "end": 1154,
+          "text": "R. Bowers, Treatise on the Law of Waiver 390 (1914)",
+          "type": "reference",
+          "canonical": "R. Bowers, Treatise on the Law of Waiver (1914)"
+        },
+        {
+          "start": 1461,
+          "end": 1497,
+          "text": "See Barrett, 94 Va. L. Rev., at 884.",
+          "type": "reference",
+          "canonical": "A. Barrett, Procedural Common Law (2008)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "intentional[ly]",
+          "to": "intentionally"
+        },
+        {
+          "from": "relinquis[h]",
+          "to": "relinquish"
+        },
+        {
+          "from": "abando[n]",
+          "to": "abandon"
+        },
+        {
+          "from": "[A] court",
+          "to": "A court"
+        },
+        {
+          "from": "discredi[t]",
+          "to": "discredit"
+        },
+        {
+          "from": "[T]hough",
+          "to": "Though"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1134,
+          "end": 2087
+        }
+      ],
+      "citations": [
+        {
+          "start": 169,
+          "end": 181,
+          "text": "Id., at 886;",
+          "type": "reference",
+          "canonical": "A. Barrett, Procedural Common Law (2008)"
+        },
+        {
+          "start": 182,
+          "end": 218,
+          "text": "see ante, at 720–721, and n. 1, 727.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 720–721, 727"
+        },
+        {
+          "start": 820,
+          "end": 833,
+          "text": "Ante, at 727.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 727"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 34,
+      "start": 1972,
+      "end": 2002,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 35,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 713 (2026) 747\nBarrett, J., concurring\n",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 35,
+      "start": 1694,
+      "end": 1697,
+      "expectedText": "fle",
+      "text": "file"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read the complete writing and compared against rendered official PDF slice. Retained prose, quotations and substantive explanatory parentheticals; removed source-only citations, publication furniture and preceding writers’ notes."
+}

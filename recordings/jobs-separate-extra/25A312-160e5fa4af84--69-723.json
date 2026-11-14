@@ -1,0 +1,774 @@
+{
+  "reviewed": true,
+  "documentId": "25A312-160e5fa4af84--69-723",
+  "sourceDocumentId": "25A312-160e5fa4af84",
+  "sourceTextPath": "dist/data/docs/25A312-160e5fa4af84.json",
+  "sourceTextSha256": "1dd5e36bbcb09e6dff9cfd12299effb6395a5ca62f9b5db50c6e4c4dfa8a89c7",
+  "sourcePdfPath": "recordings/sources/7cd22ef99a872038d179a8d6.pdf",
+  "sourcePdfSha256": "7cd22ef99a872038d179a8d66102fab0660d0dc846f5f2cd5d17c8ce26138f17",
+  "title": "Dissent",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-06-29",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf",
+  "sourceRange": {
+    "startPage": 69,
+    "startOffset": 784,
+    "endPage": 73,
+    "endOffset": 2128
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 69,
+          "start": 784,
+          "end": 1944
+        },
+        {
+          "page": 70,
+          "start": 55,
+          "end": 56
+        }
+      ],
+      "citations": [
+        {
+          "start": 147,
+          "end": 164,
+          "text": "12 U. S. C. § 242",
+          "canonical": "12 U. S. C. § 242",
+          "type": "reference"
+        },
+        {
+          "start": 247,
+          "end": 303,
+          "text": "See Alexander v. Sandoval, 532 U. S. 275, 286–287 (2001)",
+          "canonical": "See Alexander v. Sandoval, 532 U. S. 275, 286–287 (2001)",
+          "type": "reference"
+        },
+        {
+          "start": 405,
+          "end": 459,
+          "text": "See Reagan v. United States, 182 U. S. 419, 425 (1901)",
+          "canonical": "See Reagan v. United States, 182 U. S. 419, 425 (1901)",
+          "type": "reference"
+        },
+        {
+          "start": 582,
+          "end": 639,
+          "text": "See Sampson v. Murray, 415 U. S. 61, 84, 92, n. 68 (1974)",
+          "canonical": "See Sampson v. Murray, 415 U. S. 61, 84, 92, n. 68 (1974)",
+          "type": "reference"
+        },
+        {
+          "start": 818,
+          "end": 878,
+          "text": "See Whole Woman's Health v. Jackson, 595 U. S. 30, 48 (2021)",
+          "canonical": "See Whole Woman's Health v. Jackson, 595 U. S. 30, 48 (2021)",
+          "type": "reference"
+        },
+        {
+          "start": 908,
+          "end": 927,
+          "text": "Articles II and III",
+          "canonical": "Articles II and III",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1029,
+          "end": 1086,
+          "text": "See Trump v. United States, 603 U. S. 593, 608–609 (2024)",
+          "canonical": "See Trump v. United States, 603 U. S. 593, 608–609 (2024)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Articles II and III",
+          "to": "Articles two and three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 70,
+          "start": 56,
+          "end": 477
+        }
+      ],
+      "citations": [
+        {
+          "start": 304,
+          "end": 356,
+          "text": "Cutter v. Wilkinson, 544 U. S. 709, 718, n. 7 (2005)",
+          "canonical": "Cutter v. Wilkinson, 544 U. S. 709, 718, n. 7 (2005)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 70,
+          "start": 477,
+          "end": 1129
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 70,
+          "start": 1129,
+          "end": 1130
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 70,
+          "start": 1131,
+          "end": 1446
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 70,
+          "start": 1446,
+          "end": 2024
+        },
+        {
+          "page": 71,
+          "start": 39,
+          "end": 432
+        }
+      ],
+      "citations": [
+        {
+          "start": 440,
+          "end": 475,
+          "text": "804 F. Supp. 3d 14, 32–33 (DC 2025)",
+          "canonical": "804 F. Supp. 3d 14, 32–33 (DC 2025)",
+          "type": "reference"
+        },
+        {
+          "start": 508,
+          "end": 526,
+          "text": "Due Process Clause",
+          "canonical": "Due Process Clause",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 589,
+          "end": 602,
+          "text": "id., at 33–39",
+          "canonical": "id., at 33–39",
+          "type": "reference"
+        },
+        {
+          "start": 796,
+          "end": 915,
+          "text": "Order in No. 25–5326 (Sept. 15, 2025), App. to Application 1a–7a (Garcia, J., joined by Childs, J., concurring) (Order)",
+          "canonical": "Order in No. 25–5326 (Sept. 15, 2025), App. to Application 1a–7a (Garcia, J., joined by Childs, J., concurring) (Order)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 71,
+          "start": 432,
+          "end": 719
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 71,
+          "start": 719,
+          "end": 1603
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 71,
+          "start": 1603,
+          "end": 2196
+        },
+        {
+          "page": 72,
+          "start": 55,
+          "end": 387
+        }
+      ],
+      "citations": [
+        {
+          "start": 154,
+          "end": 231,
+          "text": "See, e. g., Doe v. Mills, No. 21A83 (Oct. 19, 2021) (Breyer, J., in chambers)",
+          "canonical": "See, e. g., Doe v. Mills, No. 21A83 (Oct. 19, 2021) (Breyer, J., in chambers)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 72,
+          "start": 387,
+          "end": 1216
+        }
+      ],
+      "citations": [
+        {
+          "start": 162,
+          "end": 183,
+          "text": "606 U. S. 1062 (2025)",
+          "canonical": "606 U. S. 1062 (2025)",
+          "type": "reference"
+        },
+        {
+          "start": 755,
+          "end": 831,
+          "text": "PGA TOUR, Inc. v. Martin, 532 U. S. 661, 700 (2001) (Scalia, J., dissenting)",
+          "canonical": "PGA TOUR, Inc. v. Martin, 532 U. S. 661, 700 (2001) (Scalia, J., dissenting)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 72,
+          "start": 1216,
+          "end": 1218
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 72,
+          "start": 1219,
+          "end": 1365
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 72,
+          "start": 1365,
+          "end": 1857
+        }
+      ],
+      "citations": [
+        {
+          "start": 238,
+          "end": 311,
+          "text": "See F. Hoffmann-La Roche Ltd v. Empagran S. A., 542 U. S. 155, 175 (2004)",
+          "canonical": "See F. Hoffmann-La Roche Ltd v. Empagran S. A., 542 U. S. 155, 175 (2004)",
+          "type": "reference"
+        },
+        {
+          "start": 475,
+          "end": 493,
+          "text": "Due Process Clause",
+          "canonical": "Due Process Clause",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 72,
+          "start": 1857,
+          "end": 2025
+        },
+        {
+          "page": 73,
+          "start": 39,
+          "end": 703
+        }
+      ],
+      "citations": [
+        {
+          "start": 253,
+          "end": 275,
+          "text": "804 F. Supp. 3d, at 30",
+          "canonical": "804 F. Supp. 3d, at 30",
+          "type": "reference"
+        },
+        {
+          "start": 277,
+          "end": 297,
+          "text": "see ante, at 544–547",
+          "canonical": "see ante, at 544–547",
+          "type": "reference"
+        },
+        {
+          "start": 299,
+          "end": 336,
+          "text": "ante, at 578–579 (dissenting opinion)",
+          "canonical": "ante, at 578–579 (dissenting opinion)",
+          "type": "reference"
+        },
+        {
+          "start": 471,
+          "end": 491,
+          "text": "See ante, at 577–578",
+          "canonical": "See ante, at 577–578",
+          "type": "reference"
+        },
+        {
+          "start": 493,
+          "end": 531,
+          "text": "Order 16a–19a (Katsas, J., dissenting)",
+          "canonical": "Order 16a–19a (Katsas, J., dissenting)",
+          "type": "reference"
+        },
+        {
+          "start": 605,
+          "end": 623,
+          "text": "Due Process Clause",
+          "canonical": "Due Process Clause",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 625,
+          "end": 694,
+          "text": "See American Mfrs. Mut. Ins. Co. v. Sullivan, 526 U. S. 40, 59 (1999)",
+          "canonical": "See American Mfrs. Mut. Ins. Co. v. Sullivan, 526 U. S. 40, 59 (1999)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the officer is]",
+          "to": "the officer is"
+        },
+        {
+          "from": "[defendant's]",
+          "to": "defendant's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 73,
+          "start": 703,
+          "end": 947
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 73,
+          "start": 1234,
+          "end": 2128
+        }
+      ],
+      "citations": [
+        {
+          "start": 193,
+          "end": 205,
+          "text": "Ante, at 557",
+          "canonical": "Ante, at 557",
+          "type": "reference"
+        },
+        {
+          "start": 207,
+          "end": 260,
+          "text": "See also ante, at 560–561 (Kavanaugh, J., concurring)",
+          "canonical": "See also ante, at 560–561 (Kavanaugh, J., concurring)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "sow[n]",
+          "to": "sown"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 73,
+          "start": 949,
+          "end": 1203
+        },
+        {
+          "page": 73,
+          "start": 1208,
+          "end": 1209
+        }
+      ],
+      "citations": [
+        {
+          "start": 168,
+          "end": 218,
+          "text": "See Trump v. Wilcox, 605 U. S. 922, 922–924 (2025)",
+          "canonical": "See Trump v. Wilcox, 605 U. S. 922, 922–924 (2025)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 73,
+          "start": 1209,
+          "end": 1233
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 69,
+      "start": 283,
+      "end": 290,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 69,
+      "start": 1323,
+      "end": 1329,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 69,
+      "start": 1803,
+      "end": 1809,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 70,
+      "start": 98,
+      "end": 102,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 70,
+      "start": 346,
+      "end": 350,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 70,
+      "start": 1291,
+      "end": 1296,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 70,
+      "start": 1999,
+      "end": 2008,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 71,
+      "start": 1909,
+      "end": 1913,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 72,
+      "start": 1086,
+      "end": 1094,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 72,
+      "start": 1326,
+      "end": 1334,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 72,
+      "start": 1374,
+      "end": 1378,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 72,
+      "start": 1552,
+      "end": 1559,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 72,
+      "start": 1754,
+      "end": 1759,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 73,
+      "start": 101,
+      "end": 107,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 73,
+      "start": 115,
+      "end": 120,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 73,
+      "start": 578,
+      "end": 584,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 73,
+      "start": 933,
+      "end": 937,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 73,
+      "start": 1017,
+      "end": 1025,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 73,
+      "start": 1107,
+      "end": 1113,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 70,
+      "start": 1333,
+      "end": 1337,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 70,
+      "start": 1502,
+      "end": 1509,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 71,
+      "start": 552,
+      "end": 559,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 72,
+      "start": 615,
+      "end": 622,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 72,
+      "start": 637,
+      "end": 641,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 72,
+      "start": 1276,
+      "end": 1283,
+      "expectedText": "confnes",
+      "text": "confines"
+    },
+    {
+      "page": 73,
+      "start": 1402,
+      "end": 1410,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 72,
+      "start": 740,
+      "end": 747,
+      "expectedText": "incourt",
+      "text": "in-court"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 69,
+      "start": 1944,
+      "end": 1974,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 70,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 597\nAlito, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 70,
+      "start": 2024,
+      "end": 2054,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 71,
+      "start": 0,
+      "end": 39,
+      "text": "598 TRUMP v. COOK\nAlito, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 71,
+      "start": 2196,
+      "end": 2226,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 72,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 599\nAlito, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 72,
+      "start": 2025,
+      "end": 2055,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 73,
+      "start": 0,
+      "end": 39,
+      "text": "600 TRUMP v. COOK\nAlito, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 73,
+      "start": 947,
+      "end": 949,
+      "text": "* ",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 73,
+      "start": 1203,
+      "end": 1208,
+      "text": "* * *",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 73,
+      "start": 1233,
+      "end": 1234,
+      "text": "*",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Neil M. Gorsuch"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

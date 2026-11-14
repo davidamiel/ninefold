@@ -1,0 +1,237 @@
+{
+  "reviewed": true,
+  "documentId": "24-758-71263489c308--15-659",
+  "sourceDocumentId": "24-758-71263489c308",
+  "sourceTextPath": "dist/data/docs/24-758-71263489c308.json",
+  "sourceTextSha256": "c873ac61e632b8c2292f2c40fdfd406a90d91765f831342ef37a3a27e603fc36",
+  "sourcePdfPath": "dist/data/pdfs/24-758-71263489c308--15-659.pdf",
+  "sourcePdfSha256": "959c22d3898c01a6958949d8755770f1fe2d92b68f6d259441f51659de5427cf",
+  "title": "Concurring in part and in the judgment",
+  "author": "Clarence Thomas",
+  "date": "2026-02-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r15_bqmc.pdf",
+  "sourceRange": {
+    "startPage": 15,
+    "startOffset": 726,
+    "endPage": 16,
+    "endOffset": 1590
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 726,
+          "end": 1561
+        },
+        {
+          "page": 16,
+          "start": 68,
+          "end": 294
+        }
+      ],
+      "citations": [
+        {
+          "start": 134,
+          "end": 156,
+          "text": ", 309 U. S. 18 (1940),",
+          "type": "case",
+          "canonical": "309 U.S. 18"
+        },
+        {
+          "start": 245,
+          "end": 266,
+          "text": "See ante, at 448–449.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 448–449"
+        },
+        {
+          "start": 749,
+          "end": 772,
+          "text": ", 337 U. S. 541 (1949).",
+          "type": "case",
+          "canonical": "337 U.S. 541"
+        },
+        {
+          "start": 773,
+          "end": 897,
+          "text": "Mohawk Industries, Inc. v. Carpenter, 558 U. S. 100, 115 (2009) (Thomas, J., concurring in part and concurring in judgment).",
+          "type": "case",
+          "canonical": "558 U.S. 100"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Parts I and III",
+          "to": "Parts one and three"
+        },
+        {
+          "from": "Part II",
+          "to": "Part two"
+        },
+        {
+          "from": "Constr. Co.",
+          "to": "Construction Company"
+        },
+        {
+          "from": "[w]e",
+          "to": "we"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 294,
+          "end": 1590
+        }
+      ],
+      "citations": [
+        {
+          "start": 208,
+          "end": 241,
+          "text": "U. S. Const., Art. I, § 8, cl. 9;",
+          "type": "statute",
+          "canonical": "U.S. Const. art. I, § 8, cl. 9"
+        },
+        {
+          "start": 242,
+          "end": 256,
+          "text": "Art. III, § 1.",
+          "type": "statute",
+          "canonical": "U.S. Const. art. III, § 1"
+        },
+        {
+          "start": 324,
+          "end": 366,
+          "text": "See 28 U. S. C. § 1291; ante, at 443– 444.",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1291"
+        },
+        {
+          "start": 507,
+          "end": 527,
+          "text": "E. g., § 1292(a)(1).",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1292"
+        },
+        {
+          "start": 611,
+          "end": 621,
+          "text": "§ 1292(e).",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1292"
+        },
+        {
+          "start": 911,
+          "end": 1043,
+          "text": "Mohawk Industries, 558 U. S., at 114–115 (opinion of Thomas, J.) (quoting Swint v. Chambers County Comm'n, 514 U. S. 35, 48 (1995)).",
+          "type": "case",
+          "canonical": "558 U.S. 100"
+        },
+        {
+          "start": 1240,
+          "end": 1301,
+          "text": "Mohawk Industries, 558 U. S., at 115 (opinion of Thomas, J.).",
+          "type": "case",
+          "canonical": "558 U.S. 100"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 15,
+      "start": 1561,
+      "end": 2003,
+      "text": "5 This holding still allows review of a given Yearsley denial by means of\n§ 1292(b)'s separate appeal-certifcation process. Under that provision, a\ndistrict court may fnd that the special diffculty and importance of an\notherwise unappealable order counsels in favor of immediate review, and\nan appellate court may accept that determination. Here, though, the District Court saw no reason to act under § 1292(b).\nPage Proof Pending Publication",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 68,
+      "text": "Cite as: 607 U. S. 438 (2026) 453\nAlito, J., concurring in judgment\n",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 15,
+      "start": 1236,
+      "end": 1242,
+      "expectedText": "affrms",
+      "text": "affirms"
+    },
+    {
+      "page": 15,
+      "start": 1442,
+      "end": 1451,
+      "expectedText": "Benefcial",
+      "text": "Beneficial"
+    },
+    {
+      "page": 15,
+      "start": 1749,
+      "end": 1758,
+      "expectedText": "diffculty",
+      "text": "difficulty"
+    },
+    {
+      "page": 16,
+      "start": 429,
+      "end": 437,
+      "expectedText": "conficts",
+      "text": "conflicts"
+    },
+    {
+      "page": 16,
+      "start": 601,
+      "end": 605,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 16,
+      "start": 711,
+      "end": 715,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 16,
+      "start": 1095,
+      "end": 1100,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 16,
+      "start": 1104,
+      "end": 1109,
+      "expectedText": "refne",
+      "text": "refine"
+    },
+    {
+      "page": 16,
+      "start": 1143,
+      "end": 1147,
+      "expectedText": "fnal",
+      "text": "final"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read the complete writing and compared against rendered official PDF slice. Retained prose, quotations and substantive explanatory parentheticals; removed source-only citations, publication furniture and preceding writers’ notes."
+}

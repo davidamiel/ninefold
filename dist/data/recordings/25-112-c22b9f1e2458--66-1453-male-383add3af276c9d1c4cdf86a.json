@@ -1,0 +1,60 @@
+{
+  "version": "484998a818b0e49d",
+  "duration": 24.734,
+  "voice": "am_michael",
+  "audioSha256": "d1a360d731949793a4ae3f0f9b62a9070a365bed66227fa7602d08f914dc1e90",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 8.02,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 66,
+          "start": 1482,
+          "end": 1599
+        },
+        {
+          "page": 67,
+          "start": 58,
+          "end": 76
+        }
+      ],
+      "text": "I have no quarrel with Carpenter v. United States or with the Court's decision to grant certiorari in this case."
+    },
+    {
+      "start": 8.02,
+      "end": 22.36,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 67,
+          "start": 77,
+          "end": 296
+        }
+      ],
+      "text": "But I agree with Justice Alito that under our Fourth Amendment precedent, including Carpenter, Chatrie had no reasonable expectation of privacy in data about his public movements that he voluntarily disclosed to Google."
+    },
+    {
+      "start": 22.36,
+      "end": 23.54,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 67,
+          "start": 297,
+          "end": 330
+        }
+      ],
+      "text": "I therefore respectfully dissent."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 54,
+      "expectedWords": 58,
+      "coverage": 0.9310344827586207
+    }
+  ]
+}

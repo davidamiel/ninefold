@@ -1,0 +1,1413 @@
+{
+  "reviewed": true,
+  "documentId": "25-6-3d51d5dba6e2--3-656",
+  "sourceDocumentId": "25-6-3d51d5dba6e2",
+  "sourceTextPath": "dist/data/docs/25-6-3d51d5dba6e2.json",
+  "sourceTextSha256": "e7df44820d1e8b06b07785aee45b16640bb4b5bcef7b7c211c0ab6a7461dec1b",
+  "sourcePdfPath": "dist/data/pdfs/25-6-3d51d5dba6e2--3-656.pdf",
+  "sourcePdfSha256": "4946ff0c48d114a1168f0a9ac0cffd749eb9f15d2d5c2783b3af714d38640d36",
+  "title": "Opinion of the Court",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-06-11",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r48_k53m.pdf",
+  "sourceRange": {
+    "startPage": 3,
+    "startOffset": 708,
+    "endPage": 11,
+    "endOffset": 1831
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 708,
+          "end": 1104
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1104,
+          "end": 1465
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1465,
+          "end": 1581
+        },
+        {
+          "page": 4,
+          "start": 69,
+          "end": 559
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 284,
+          "text": "New Hampshire v. Maine, 532 U. S. 742, 753 (2001).",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 559,
+          "end": 842
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 842,
+          "end": 843
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 844,
+          "end": 845
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 846,
+          "end": 1607
+        }
+      ],
+      "citations": [
+        {
+          "start": 101,
+          "end": 122,
+          "text": "11 U. S. C. § 541(a).",
+          "type": "statute",
+          "canonical": "11 U.S.C. § 541"
+        },
+        {
+          "start": 322,
+          "end": 424,
+          "text": "§ 541(a)(1); see 5 Collier on Bankruptcy ¶541.07 (R. Levin & H. Sommer eds., 16th ed. 2026) (Collier).",
+          "type": "statute",
+          "canonical": "11 U.S.C. § 541"
+        },
+        {
+          "start": 691,
+          "end": 761,
+          "text": "§ 1306(a)(1); see also Harris v. Viegelahn, 575 U. S. 510, 514 (2015).",
+          "type": "statute",
+          "canonical": "11 U.S.C. § 1306"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1607,
+          "end": 1899
+        },
+        {
+          "page": 5,
+          "start": 86,
+          "end": 801
+        }
+      ],
+      "citations": [
+        {
+          "start": 231,
+          "end": 260,
+          "text": "§§ 1306(b), 1322(d), 1327(b).",
+          "type": "statute",
+          "canonical": "11 U.S.C. § 1306"
+        },
+        {
+          "start": 465,
+          "end": 545,
+          "text": "See §§ 1302(b)(2)(B), 1324(a), 1325(b); 8 Collier ¶1302.03, at 1302–8 to 1302–9.",
+          "type": "statute",
+          "canonical": "11 U.S.C. § 1302"
+        },
+        {
+          "start": 816,
+          "end": 829,
+          "text": "§ 1325(a)(4).",
+          "type": "statute",
+          "canonical": "11 U.S.C. § 1325"
+        },
+        {
+          "start": 993,
+          "end": 1007,
+          "text": "See § 1322(b).",
+          "type": "statute",
+          "canonical": "11 U.S.C. § 1322"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 801,
+          "end": 1576
+        }
+      ],
+      "citations": [
+        {
+          "start": 201,
+          "end": 256,
+          "text": "See § 521(a)(1)(B); Fed. Rule Bkrtcy. Proc. 1007(b)(1).",
+          "type": "statute",
+          "canonical": "11 U.S.C. § 521"
+        },
+        {
+          "start": 422,
+          "end": 487,
+          "text": "Official Form 106A/B, Schedule A/B: Property, Pt. 4, Question 33.",
+          "type": "record",
+          "canonical": "Official Form 106A/B, Schedule A/B: Property, Pt. 4, Question 33."
+        },
+        {
+          "start": 577,
+          "end": 602,
+          "text": "Ibid. (emphasis deleted).",
+          "type": "case",
+          "canonical": "608 U.S. 647"
+        },
+        {
+          "start": 706,
+          "end": 779,
+          "text": "Official Form 106Dec, Declaration About an Individual Debtor's Schedules.",
+          "type": "record",
+          "canonical": "Official Form 106Dec, Declaration About an Individual Debtor's Schedules."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[c]laims",
+          "to": "claims"
+        },
+        {
+          "from": "[the debtor]",
+          "to": "the debtor"
+        },
+        {
+          "from": "ha[s]",
+          "to": "has"
+        },
+        {
+          "from": "[a]ccidents",
+          "to": "accidents"
+        },
+        {
+          "from": "[e]xamples",
+          "to": "examples"
+        },
+        {
+          "from": "[u]nder",
+          "to": "under"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1693,
+          "end": 2145
+        }
+      ],
+      "citations": [
+        {
+          "start": 224,
+          "end": 253,
+          "text": "See Brief for Petitioner 5–6.",
+          "type": "record",
+          "canonical": "See Brief for Petitioner 5–6."
+        },
+        {
+          "start": 322,
+          "end": 406,
+          "text": "See Brief for National Consumer Bankruptcy Rights Center et al. as Amici Curiae 6–12",
+          "type": "record",
+          "canonical": "See Brief for National Consumer Bankruptcy Rights Center et al. as Amici Curiae 6–12"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1578,
+          "end": 1579
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1580,
+          "end": 1691
+        },
+        {
+          "page": 6,
+          "start": 69,
+          "end": 275
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "U. S. Bankruptcy Court",
+          "to": "United States Bankruptcy Court"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 275,
+          "end": 1006
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1006,
+          "end": 1888
+        }
+      ],
+      "citations": [
+        {
+          "start": 642,
+          "end": 651,
+          "text": "App. 184.",
+          "type": "record",
+          "canonical": "App. 184."
+        },
+        {
+          "start": 800,
+          "end": 812,
+          "text": "Id., at 182.",
+          "type": "record",
+          "canonical": "Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[he]",
+          "to": "he"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1888,
+          "end": 2064
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 914
+        }
+      ],
+      "citations": [
+        {
+          "start": 327,
+          "end": 527,
+          "text": "686 F. Supp. 3d 495, 497, 500– 501 (ND Miss. 2023) (citing United States ex rel. Long v. GS-DMIdea City, LLC , 798 F. 3d 265, 273 (CA5 2015); Love v. Tyson Foods, Inc., 677 F. 3d 258, 262 (CA5 2012)).",
+          "type": "case",
+          "canonical": "677 F.3d 258"
+        },
+        {
+          "start": 1004,
+          "end": 1033,
+          "text": "686 F. Supp. 3d, at 501, 503.",
+          "type": "record",
+          "canonical": "686 F. Supp. 3d, at 501, 503."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1689,
+          "end": 2142
+        }
+      ],
+      "citations": [
+        {
+          "start": 415,
+          "end": 456,
+          "text": "706 F. Supp. 3d 628, 630 (ND Miss. 2023).",
+          "type": "record",
+          "canonical": "706 F. Supp. 3d 628, 630 (ND Miss. 2023)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 916,
+          "end": 1569
+        }
+      ],
+      "citations": [
+        {
+          "start": 81,
+          "end": 125,
+          "text": "2025 WL 673434 (Mar. 3, 2025) (per curiam ).",
+          "type": "record",
+          "canonical": "2025 WL 673434 (Mar. 3, 2025) (per curiam )."
+        },
+        {
+          "start": 428,
+          "end": 439,
+          "text": "Id., at *8.",
+          "type": "case",
+          "canonical": "2025 WL 673434"
+        },
+        {
+          "start": 628,
+          "end": 653,
+          "text": "Ibid. (collecting cases).",
+          "type": "case",
+          "canonical": "2025 WL 673434"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[o]ther",
+          "to": "other"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1569,
+          "end": 1687
+        },
+        {
+          "page": 8,
+          "start": 69,
+          "end": 152
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1546,
+          "end": 1612
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 66,
+          "text": "Eastman v. Union Pacific R. Co., 493 F. 3d 1151, 1157 (CA10 2007).",
+          "type": "case",
+          "canonical": "493 F.3d 1151"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 153,
+          "end": 268
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1614,
+          "end": 1961
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 52,
+          "text": "Martineau v. Wier, 934 F. 3d 385, 393–396 (CA4 2019)",
+          "type": "case",
+          "canonical": "934 F.3d 385"
+        },
+        {
+          "start": 54,
+          "end": 107,
+          "text": "Stanley v. FCA US, LLC, 51 F. 4th 215, 221 (CA6 2022)",
+          "type": "case",
+          "canonical": "51 F.4th 215"
+        },
+        {
+          "start": 109,
+          "end": 174,
+          "text": "Spaine v. Community Contacts, Inc., 756 F. 3d 542, 548 (CA7 2014)",
+          "type": "case",
+          "canonical": "756 F.3d 542"
+        },
+        {
+          "start": 176,
+          "end": 254,
+          "text": "Ah Quin v. County of Kauai Dept. of Transp., 733 F. 3d 267, 276–277 (CA9 2013)",
+          "type": "case",
+          "canonical": "733 F.3d 267"
+        },
+        {
+          "start": 256,
+          "end": 347,
+          "text": "Slater v. United States Steel Corp., 871 F. 3d 1174, 1189, and n. 17 (CA11 2017) (en banc).",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 269,
+          "end": 339
+        }
+      ],
+      "citations": [
+        {
+          "start": 48,
+          "end": 69,
+          "text": "607 U. S. 992 (2025).",
+          "type": "case",
+          "canonical": "607 U.S. 992"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 339,
+          "end": 341
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 342,
+          "end": 343
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 344,
+          "end": 700
+        }
+      ],
+      "citations": [
+        {
+          "start": 283,
+          "end": 355,
+          "text": "New Hampshire, 532 U. S., at 749–751 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 700,
+          "end": 1134
+        }
+      ],
+      "citations": [
+        {
+          "start": 344,
+          "end": 434,
+          "text": "Cannon-Stokes v. Potter, 453 F. 3d 446, 448 (CA7 2006) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "453 F.3d 446"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1134,
+          "end": 1544
+        },
+        {
+          "page": 9,
+          "start": 55,
+          "end": 342
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 196,
+          "end": 323,
+          "text": "18B C. Wright, A. Miller, & E. Cooper, Federal Practice and Procedure § 4477.9 (3d ed. 2019 and Supp. 2026) (collecting cases).",
+          "type": "statute",
+          "canonical": "11 U.S.C. § 4477"
+        },
+        {
+          "start": 614,
+          "end": 695,
+          "text": "Slater v. United States Steel Corp ., 871 F. 3d 1174, 1176 (CA11 2017) (en banc).",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 342,
+          "end": 746
+        }
+      ],
+      "citations": [
+        {
+          "start": 329,
+          "end": 405,
+          "text": "Ah Quin v. County of Kauai Dept. of Transp ., 733 F. 3d 267, 271 (CA9 2013).",
+          "type": "case",
+          "canonical": "733 F.3d 267"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 746,
+          "end": 747
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 748,
+          "end": 1398
+        }
+      ],
+      "citations": [
+        {
+          "start": 274,
+          "end": 307,
+          "text": "New Hampshire, 532 U. S., at 753.",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1398,
+          "end": 1987
+        },
+        {
+          "page": 10,
+          "start": 69,
+          "end": 249
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 122,
+          "end": 169,
+          "text": "Id., at 750 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        },
+        {
+          "start": 263,
+          "end": 331,
+          "text": "United States Nat. Bank v. Chase Nat. Bank, 331 U. S. 28, 36 (1947).",
+          "type": "case",
+          "canonical": "331 U.S. 28"
+        },
+        {
+          "start": 409,
+          "end": 458,
+          "text": "Holmberg v. Armbrecht, 327 U. S. 392, 396 (1946).",
+          "type": "case",
+          "canonical": "327 U.S. 392"
+        },
+        {
+          "start": 598,
+          "end": 683,
+          "text": "Holland v. Florida, 560 U. S. 631, 649–650 (2010) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "560 U.S. 631"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 249,
+          "end": 1251
+        }
+      ],
+      "citations": [
+        {
+          "start": 252,
+          "end": 339,
+          "text": "See In re Coastal Plains, Inc., 179 F. 3d 197, 210 (CA5 1999); Love, 677 F. 3d, at 262.",
+          "type": "case",
+          "canonical": "179 F.3d 197"
+        },
+        {
+          "start": 719,
+          "end": 757,
+          "text": "See, e. g., Ah Quin, 733 F. 3d, at 276",
+          "type": "case",
+          "canonical": "733 F.3d 267"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[R]ather",
+          "to": "Rather"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1251,
+          "end": 2130
+        }
+      ],
+      "citations": [
+        {
+          "start": 828,
+          "end": 881,
+          "text": "2025 WL 673434, *5 (quoting Love, 677 F. 3d, at 262).",
+          "type": "case",
+          "canonical": "677 F.3d 258"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 57,
+          "end": 414
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1461,
+          "end": 1831
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 169,
+          "text": "See, e. g., Brief for Petitioner 11–24; Brief for Respondent 20–35.",
+          "type": "record",
+          "canonical": "See, e. g., Brief for Petitioner 11–24; Brief for Respondent 20–35."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 422,
+          "end": 921
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 3,
+      "start": 1581,
+      "end": 1969,
+      "text": "*Briefs of amici curiae urging reversal were fled for the American\nAssociation for Justice by Jeffrey R. White and Bruce Plaxen; and for the\nHon. Melanie Cyganowski et al. by David R. Kuney.\nBriefs of amici curiae were fled for the National Association of Bankruptcy Trustees et al. by Catherine L. Steege; and for the National Consumer Bankruptcy Rights Center et al. by James J. Haller.",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 69,
+      "text": "650 KEA THLEY v. BUDDY AYERS CONSTRUCTION, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 1899,
+      "end": 1929,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 647 (2026) 651\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 1576,
+      "end": 1578,
+      "text": "1\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 1691,
+      "end": 1693,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 69,
+      "text": "652 KEA THLEY v. BUDDY AYERS CONSTRUCTION, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2064,
+      "end": 2094,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 647 (2026) 653\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 914,
+      "end": 916,
+      "text": "2\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1687,
+      "end": 1689,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 2143,
+      "end": 2173,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 69,
+      "text": "654 KEA THLEY v. BUDDY AYERS CONSTRUCTION, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 152,
+      "end": 153,
+      "text": "3",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 268,
+      "end": 269,
+      "text": "4",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1544,
+      "end": 1546,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1612,
+      "end": 1614,
+      "text": "4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1962,
+      "end": 1992,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 647 (2026) 655\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1987,
+      "end": 2017,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 69,
+      "text": "656 KEA THLEY v. BUDDY AYERS CONSTRUCTION, INC.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 2130,
+      "end": 2160,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 647 (2026) 657\nThomas, J., concurring\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 414,
+      "end": 422,
+      "text": "5\n* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 921,
+      "end": 1461,
+      "text": "Justice Thomas, with whom Justice Gorsuch joins,\nconcurring.\nThe Court's opinion correctly concludes that the Fifth Circuit's approach to judicial estoppel is not defensible on its\nown terms. I join it in full. I write separately to express\ndoubt about the foundation of the doctrine of judicial estoppel. Judicial estoppel generally prevents a party from asserting a position in one lawsuit that contradicts its position\nin a previous proceeding. Lower federal courts have applied this doctrine broadly without clear authority to do so,\n5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 3,
+      "start": 988,
+      "end": 992,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 1626,
+      "end": 1630,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 1800,
+      "end": 1804,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 860,
+      "end": 864,
+      "expectedText": "fles",
+      "text": "files"
+    },
+    {
+      "page": 4,
+      "start": 1775,
+      "end": 1782,
+      "expectedText": "confrms",
+      "text": "confirms"
+    },
+    {
+      "page": 5,
+      "start": 432,
+      "end": 438,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 5,
+      "start": 1175,
+      "end": 1179,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 1221,
+      "end": 1228,
+      "expectedText": "Offcial",
+      "text": "Official"
+    },
+    {
+      "page": 5,
+      "start": 1504,
+      "end": 1511,
+      "expectedText": "Offcial",
+      "text": "Official"
+    },
+    {
+      "page": 5,
+      "start": 1609,
+      "end": 1613,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 1832,
+      "end": 1837,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 6,
+      "start": 138,
+      "end": 146,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 6,
+      "start": 264,
+      "end": 267,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 6,
+      "start": 434,
+      "end": 448,
+      "expectedText": "personalinjury",
+      "text": "personal-injury"
+    },
+    {
+      "page": 6,
+      "start": 666,
+      "end": 680,
+      "expectedText": "personalinjury",
+      "text": "personal-injury"
+    },
+    {
+      "page": 6,
+      "start": 727,
+      "end": 731,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 6,
+      "start": 1228,
+      "end": 1232,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 6,
+      "start": 1383,
+      "end": 1397,
+      "expectedText": "personalinjury",
+      "text": "personal-injury"
+    },
+    {
+      "page": 6,
+      "start": 1491,
+      "end": 1499,
+      "expectedText": "affdavit",
+      "text": "affidavit"
+    },
+    {
+      "page": 6,
+      "start": 1563,
+      "end": 1577,
+      "expectedText": "personalinjury",
+      "text": "personal-injury"
+    },
+    {
+      "page": 6,
+      "start": 1662,
+      "end": 1666,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 6,
+      "start": 1670,
+      "end": 1678,
+      "expectedText": "affdavit",
+      "text": "affidavit"
+    },
+    {
+      "page": 6,
+      "start": 1741,
+      "end": 1747,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 7,
+      "start": 934,
+      "end": 941,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 7,
+      "start": 1736,
+      "end": 1744,
+      "expectedText": "affdavit",
+      "text": "affidavit"
+    },
+    {
+      "page": 7,
+      "start": 1837,
+      "end": 1845,
+      "expectedText": "affdavit",
+      "text": "affidavit"
+    },
+    {
+      "page": 7,
+      "start": 1946,
+      "end": 1952,
+      "expectedText": "flings",
+      "text": "filings"
+    },
+    {
+      "page": 8,
+      "start": 158,
+      "end": 161,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 8,
+      "start": 206,
+      "end": 213,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 8,
+      "start": 1034,
+      "end": 1040,
+      "expectedText": "flings",
+      "text": "filings"
+    },
+    {
+      "page": 8,
+      "start": 1488,
+      "end": 1492,
+      "expectedText": "fles",
+      "text": "files"
+    },
+    {
+      "page": 9,
+      "start": 542,
+      "end": 546,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 9,
+      "start": 1793,
+      "end": 1803,
+      "expectedText": "fexibility",
+      "text": "flexibility"
+    },
+    {
+      "page": 9,
+      "start": 1924,
+      "end": 1935,
+      "expectedText": "caseby-case",
+      "text": "case-by-case"
+    },
+    {
+      "page": 10,
+      "start": 1135,
+      "end": 1140,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 10,
+      "start": 1473,
+      "end": 1479,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 10,
+      "start": 1638,
+      "end": 1644,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 10,
+      "start": 1747,
+      "end": 1763,
+      "expectedText": "one-size-fts-all",
+      "text": "one-size-fits-all"
+    },
+    {
+      "page": 11,
+      "start": 136,
+      "end": 144,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 11,
+      "start": 317,
+      "end": 319,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 11,
+      "start": 477,
+      "end": 488,
+      "expectedText": "artifcially",
+      "text": "artificially"
+    },
+    {
+      "page": 8,
+      "start": 308,
+      "end": 315,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 8,
+      "start": 1563,
+      "end": 1569,
+      "expectedText": "Pacifc",
+      "text": "Pacific"
+    },
+    {
+      "page": 5,
+      "start": 1685,
+      "end": 1690,
+      "expectedText": "East-",
+      "text": "East"
+    },
+    {
+      "page": 8,
+      "start": 1537,
+      "end": 1543,
+      "expectedText": "incon-",
+      "text": "incon"
+    },
+    {
+      "page": 9,
+      "start": 1979,
+      "end": 1986,
+      "expectedText": "circum-",
+      "text": "circum"
+    },
+    {
+      "page": 11,
+      "start": 278,
+      "end": 296,
+      "expectedText": "near -\ndispositive",
+      "text": "near-dispositive"
+    },
+    {
+      "page": 9,
+      "start": 619,
+      "end": 630,
+      "expectedText": "confrmation",
+      "text": "confirmation"
+    },
+    {
+      "page": 5,
+      "start": 952,
+      "end": 955,
+      "expectedText": "fle",
+      "text": "file"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read every Court-opinion paragraph and all five notes. Notes 3 and 4 consist only of cited authorities and remain individually linked in reader text with citationOnly true; the other three substantive notes are narrated at their markers. Note 5 includes text printed beneath the subsequent concurrence. Retained all equitable-doctrine qualifications, quotations and explanatory parentheticals; explicit source-only omissions; corrected ligatures, compounds and cross-page divided words."
+}

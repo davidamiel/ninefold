@@ -1,0 +1,888 @@
+{
+  "reviewed": true,
+  "documentId": "24-826-12209f2be2f7--0-0",
+  "sourceDocumentId": "24-826-12209f2be2f7",
+  "sourceTextPath": "dist/data/docs/24-826-12209f2be2f7.json",
+  "sourceTextSha256": "f4a2adaa826f0f67762e164194baca57bbd698d9de67b20a85341cc5eba2921c",
+  "sourcePdfPath": "recordings/sources/c3a9aa5800c2cff2d23144ca.pdf",
+  "sourcePdfSha256": "c3a9aa5800c2cff2d23144cab000831b970a4cfa3d38b5b357eeedf546fb7ec6",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2025-10-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-826_10n2.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 503,
+    "endPage": 7,
+    "endOffset": 1262
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 503,
+          "end": 1360
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1360,
+          "end": 1810
+        },
+        {
+          "page": 1,
+          "start": 117,
+          "end": 587
+        }
+      ],
+      "citations": [
+        {
+          "start": 771,
+          "end": 798,
+          "text": "App. to Pet. for Cert. 72a.",
+          "type": "reference",
+          "canonical": "App. to Pet. for Cert. 72a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 587,
+          "end": 922
+        }
+      ],
+      "citations": [
+        {
+          "start": 316,
+          "end": 328,
+          "text": "Id., at 71a.",
+          "type": "reference",
+          "canonical": "Id., at 71a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "deserve[d]",
+          "to": "deserved"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 922,
+          "end": 1576
+        }
+      ],
+      "citations": [
+        {
+          "start": 167,
+          "end": 183,
+          "text": "Id., at 71a–72a.",
+          "type": "reference",
+          "canonical": "Id., at 71a–72a."
+        },
+        {
+          "start": 390,
+          "end": 401,
+          "text": "Id., at 9a.",
+          "type": "reference",
+          "canonical": "Id., at 9a."
+        },
+        {
+          "start": 570,
+          "end": 585,
+          "text": "Id., at 9a–10a.",
+          "type": "reference",
+          "canonical": "Id., at 9a–10a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1576,
+          "end": 2216
+        },
+        {
+          "page": 2,
+          "start": 108,
+          "end": 175
+        }
+      ],
+      "citations": [
+        {
+          "start": 24,
+          "end": 113,
+          "text": "Humphreys v. Sellers , No. 1:18–cv–02534 (ND Ga., Sept. 19, 2018), ECF Doc. 42–7, p. 443.",
+          "type": "reference",
+          "canonical": "Humphreys v. Sellers , No. 1:18–cv–02534 (ND Ga., Sept. 19, 2018), ECF Doc. 42–7, p. 443."
+        },
+        {
+          "start": 247,
+          "end": 273,
+          "text": "App. to Pet. for Cert. 9a.",
+          "type": "reference",
+          "canonical": "App. to Pet. for Cert. 9a."
+        },
+        {
+          "start": 391,
+          "end": 397,
+          "text": "Ibid .",
+          "type": "reference",
+          "canonical": "Ibid ."
+        },
+        {
+          "start": 598,
+          "end": 603,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]here",
+          "to": "there"
+        },
+        {
+          "from": "[Humphreys]",
+          "to": "Humphreys"
+        },
+        {
+          "from": "[D]o",
+          "to": "Do"
+        },
+        {
+          "from": "[Humphreys]",
+          "to": "Humphreys"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 175,
+          "end": 983
+        }
+      ],
+      "citations": [
+        {
+          "start": 194,
+          "end": 199,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 328,
+          "end": 350,
+          "text": "ECF Doc. 33–12, p. 13.",
+          "type": "reference",
+          "canonical": "ECF Doc. 33–12, p. 13."
+        },
+        {
+          "start": 475,
+          "end": 502,
+          "text": "App. to Pet. for Cert. 12a.",
+          "type": "reference",
+          "canonical": "App. to Pet. for Cert. 12a."
+        },
+        {
+          "start": 589,
+          "end": 638,
+          "text": "See Allen v. United States, 164 U. S. 492 (1896).",
+          "type": "reference",
+          "canonical": "See Allen v. United States, 164 U. S. 492 (1896)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 983,
+          "end": 1665
+        }
+      ],
+      "citations": [
+        {
+          "start": 436,
+          "end": 467,
+          "text": "See App. to Pet. for Cert. 325a",
+          "type": "reference",
+          "canonical": "See App. to Pet. for Cert. 325a"
+        },
+        {
+          "start": 468,
+          "end": 541,
+          "text": "(citing Spencer v. State, 260 Ga. 640, 643, 398 S. E. 2d 179, 184 (1990))",
+          "type": "reference",
+          "canonical": "(citing Spencer v. State, 260 Ga. 640, 643, 398 S. E. 2d 179, 184 (1990))"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1665,
+          "end": 2006
+        },
+        {
+          "page": 3,
+          "start": 103,
+          "end": 177
+        }
+      ],
+      "citations": [
+        {
+          "start": 352,
+          "end": 406,
+          "text": "Pena-Rodriguez v. Colorado, 580 U. S. 206, 218 (2017).",
+          "type": "reference",
+          "canonical": "Pena-Rodriguez v. Colorado, 580 U. S. 206, 218 (2017)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1777,
+          "end": 2202
+        }
+      ],
+      "citations": [
+        {
+          "start": 115,
+          "end": 146,
+          "text": "Federal Rule of Evidence 606(b)",
+          "type": "statute",
+          "canonical": "Federal Rule of Evidence 606(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 148,
+          "end": 170,
+          "text": "See 580 U. S., at 218.",
+          "type": "reference",
+          "canonical": "See 580 U. S., at 218."
+        },
+        {
+          "start": 171,
+          "end": 182,
+          "text": "Rule 606(b)",
+          "type": "statute",
+          "canonical": "Rule 606(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 255,
+          "end": 286,
+          "text": "See App. to Pet. for Cert. 36a.",
+          "type": "reference",
+          "canonical": "See App. to Pet. for Cert. 36a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 178,
+          "end": 180
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 180,
+          "end": 1217
+        }
+      ],
+      "citations": [
+        {
+          "start": 145,
+          "end": 195,
+          "text": "McDonald v. Pless , 238 U. S. 264, 268–269 (1915).",
+          "type": "reference",
+          "canonical": "McDonald v. Pless , 238 U. S. 264, 268–269 (1915)."
+        },
+        {
+          "start": 318,
+          "end": 367,
+          "text": "Warger v. Shauers, 574 U. S. 40, 51, n. 3 (2014).",
+          "type": "reference",
+          "canonical": "Warger v. Shauers, 574 U. S. 40, 51, n. 3 (2014)."
+        },
+        {
+          "start": 523,
+          "end": 528,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 756,
+          "end": 795,
+          "text": "Pena-Rodriguez, 580 U. S., at 225, 229.",
+          "type": "reference",
+          "canonical": "Pena-Rodriguez, 580 U. S., at 225, 229."
+        },
+        {
+          "start": 1006,
+          "end": 1018,
+          "text": "Id., at 229.",
+          "type": "reference",
+          "canonical": "Id., at 229."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "cas[e]",
+          "to": "case"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1217,
+          "end": 1470
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 247,
+          "text": "Warger, 574 U. S., at 51, n. 3.",
+          "type": "reference",
+          "canonical": "Warger, 574 U. S., at 51, n. 3."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1470,
+          "end": 1768
+        },
+        {
+          "page": 4,
+          "start": 116,
+          "end": 913
+        }
+      ],
+      "citations": [
+        {
+          "start": 92,
+          "end": 97,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 228,
+          "end": 280,
+          "text": "Tanner v. United States , 483 U. S. 107, 127 (1987).",
+          "type": "reference",
+          "canonical": "Tanner v. United States , 483 U. S. 107, 127 (1987)."
+        },
+        {
+          "start": 768,
+          "end": 773,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 1050,
+          "end": 1077,
+          "text": "App. to Pet. for Cert. 12a.",
+          "type": "reference",
+          "canonical": "App. to Pet. for Cert. 12a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 913,
+          "end": 2018
+        }
+      ],
+      "citations": [
+        {
+          "start": 302,
+          "end": 330,
+          "text": "McDonald, 238 U. S., at 269.",
+          "type": "reference",
+          "canonical": "McDonald, 238 U. S., at 269."
+        },
+        {
+          "start": 511,
+          "end": 585,
+          "text": "Woodson v. North Carolina , 428 U. S. 280, 305 (1976) (plurality opinion);",
+          "type": "reference",
+          "canonical": "Woodson v. North Carolina , 428 U. S. 280, 305 (1976) (plurality opinion);"
+        },
+        {
+          "start": 586,
+          "end": 641,
+          "text": "see California v. Ramos , 463 U. S. 992, 998–999 (1983)",
+          "type": "reference",
+          "canonical": "see California v. Ramos , 463 U. S. 992, 998–999 (1983)"
+        },
+        {
+          "start": 1023,
+          "end": 1089,
+          "text": "Gardner v. Florida, 430 U. S. 349, 358 (1977) (plurality opinion).",
+          "type": "reference",
+          "canonical": "Gardner v. Florida, 430 U. S. 349, 358 (1977) (plurality opinion)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 2018,
+          "end": 2185
+        },
+        {
+          "page": 5,
+          "start": 91,
+          "end": 791
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 791,
+          "end": 1618
+        }
+      ],
+      "citations": [
+        {
+          "start": 448,
+          "end": 478,
+          "text": "See App. to Pet. for Cert. 34a",
+          "type": "reference",
+          "canonical": "See App. to Pet. for Cert. 34a"
+        },
+        {
+          "start": 608,
+          "end": 645,
+          "text": "[v. Washington, 466 U. S. 668 (1984)]",
+          "type": "reference",
+          "canonical": "[v. Washington, 466 U. S. 668 (1984)]"
+        },
+        {
+          "start": 659,
+          "end": 670,
+          "text": "id., at 74a",
+          "type": "reference",
+          "canonical": "id., at 74a"
+        },
+        {
+          "start": 671,
+          "end": 698,
+          "text": "(Rosenbaum, J., concurring)",
+          "type": "reference",
+          "canonical": "(Rosenbaum, J., concurring)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "AEDPA",
+          "to": "ed pah"
+        },
+        {
+          "from": "apply[ing]",
+          "to": "applying"
+        },
+        {
+          "from": "faithfu[l]",
+          "to": "faithful"
+        },
+        {
+          "from": "appl[ication of]",
+          "to": "application of"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1618,
+          "end": 2077
+        },
+        {
+          "page": 6,
+          "start": 112,
+          "end": 719
+        }
+      ],
+      "citations": [
+        {
+          "start": 128,
+          "end": 149,
+          "text": "28 U. S. C. §2254(d).",
+          "type": "reference",
+          "canonical": "28 U. S. C. §2254(d)."
+        },
+        {
+          "start": 358,
+          "end": 401,
+          "text": "Davila v. Davis, 582 U. S. 521, 528 (2017);",
+          "type": "reference",
+          "canonical": "Davila v. Davis, 582 U. S. 521, 528 (2017);"
+        },
+        {
+          "start": 402,
+          "end": 453,
+          "text": "see Coleman v. Thompson, 501 U. S. 722, 750 (1991);",
+          "type": "reference",
+          "canonical": "see Coleman v. Thompson, 501 U. S. 722, 750 (1991);"
+        },
+        {
+          "start": 454,
+          "end": 502,
+          "text": "Wainwright v. Sykes, 433 U. S. 72, 90–91 (1977).",
+          "type": "reference",
+          "canonical": "Wainwright v. Sykes, 433 U. S. 72, 90–91 (1977)."
+        },
+        {
+          "start": 822,
+          "end": 882,
+          "text": "See Fischetti v. Johnson, 384 F. 3d 140, 154–155 (CA3 2004);",
+          "type": "reference",
+          "canonical": "See Fischetti v. Johnson, 384 F. 3d 140, 154–155 (CA3 2004);"
+        },
+        {
+          "start": 883,
+          "end": 936,
+          "text": "Hall v. Vasbinder, 563 F. 3d 222, 236–237 (CA6 2009);",
+          "type": "reference",
+          "canonical": "Hall v. Vasbinder, 563 F. 3d 222, 236–237 (CA6 2009);"
+        },
+        {
+          "start": 937,
+          "end": 988,
+          "text": "Visciotti v. Martel, 862 F. 3d 749, 769 (CA9 2016);",
+          "type": "reference",
+          "canonical": "Visciotti v. Martel, 862 F. 3d 749, 769 (CA9 2016);"
+        },
+        {
+          "start": 989,
+          "end": 1049,
+          "text": "but see Richardson v. Lemke , 745 F. 3d 258, 273 (CA7 2014).",
+          "type": "reference",
+          "canonical": "but see Richardson v. Lemke , 745 F. 3d 258, 273 (CA7 2014)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "AEDPA",
+          "to": "ed pah"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 719,
+          "end": 1521
+        }
+      ],
+      "citations": [
+        {
+          "start": 461,
+          "end": 491,
+          "text": "See Brief in Opposition 13–16.",
+          "type": "reference",
+          "canonical": "See Brief in Opposition 13–16."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "AEDPA",
+          "to": "ed pah"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1521,
+          "end": 2040
+        },
+        {
+          "page": 7,
+          "start": 82,
+          "end": 155
+        }
+      ],
+      "citations": [
+        {
+          "start": 474,
+          "end": 526,
+          "text": "Hamm v. Smith, 604 U. S. 1, 2–3 (2024) (per curiam).",
+          "type": "reference",
+          "canonical": "Hamm v. Smith, 604 U. S. 1, 2–3 (2024) (per curiam)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 155,
+          "end": 609
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 609,
+          "end": 1262
+        }
+      ],
+      "citations": [
+        {
+          "start": 462,
+          "end": 496,
+          "text": "Pena-Rodriguez, 580 U. S., at 225,",
+          "type": "reference",
+          "canonical": "Pena-Rodriguez, 580 U. S., at 225,"
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 527,
+      "end": 537,
+      "expectedText": "conv icted",
+      "text": "convicted"
+    },
+    {
+      "page": 0,
+      "start": 1066,
+      "end": 1073,
+      "expectedText": "bur ied",
+      "text": "buried"
+    },
+    {
+      "page": 0,
+      "start": 1495,
+      "end": 1502,
+      "expectedText": "ro bbed",
+      "text": "robbed"
+    },
+    {
+      "page": 2,
+      "start": 852,
+      "end": 862,
+      "expectedText": "couns el’s",
+      "text": "counsel’s"
+    },
+    {
+      "page": 2,
+      "start": 1171,
+      "end": 1182,
+      "expectedText": "affida vits",
+      "text": "affidavits"
+    },
+    {
+      "page": 3,
+      "start": 1875,
+      "end": 1880,
+      "expectedText": "ru le",
+      "text": "rule"
+    },
+    {
+      "page": 4,
+      "start": 1763,
+      "end": 1767,
+      "expectedText": "“I t",
+      "text": "“It"
+    },
+    {
+      "page": 5,
+      "start": 117,
+      "end": 125,
+      "expectedText": "de spite",
+      "text": "despite"
+    },
+    {
+      "page": 5,
+      "start": 989,
+      "end": 1002,
+      "expectedText": "proc edurally",
+      "text": "procedurally"
+    },
+    {
+      "page": 6,
+      "start": 1767,
+      "end": 1775,
+      "expectedText": "uncle ar",
+      "text": "unclear"
+    },
+    {
+      "page": 7,
+      "start": 912,
+      "end": 924,
+      "expectedText": "reflexiv ely",
+      "text": "reflexively"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 69,
+      "end": 117,
+      "text": "2 HUMPHREYS v. EMMONS \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 2,
+      "start": 47,
+      "end": 108,
+      "text": "3  Cite as: 607 U.\n S. ____ (2025) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 55,
+      "end": 103,
+      "text": "4 HUMPHREYS v. EMMONS \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 177,
+      "end": 178,
+      "text": "✻",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 1768,
+      "end": 1777,
+      "text": "—————— \n✻",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 4,
+      "start": 55,
+      "end": 116,
+      "text": "5  Cite as: 607 U.\n S. ____ (2025) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 43,
+      "end": 91,
+      "text": "6 HUMPHREYS v. EMMONS \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 6,
+      "start": 51,
+      "end": 112,
+      "text": "7  Cite as: 607 U.\n S. ____ (2025) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    },
+    {
+      "page": 7,
+      "start": 34,
+      "end": 82,
+      "text": "8 HUMPHREYS v. EMMONS \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed caption, running head, byline, divider or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan",
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

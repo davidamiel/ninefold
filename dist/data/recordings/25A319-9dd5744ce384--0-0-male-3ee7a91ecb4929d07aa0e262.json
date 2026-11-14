@@ -1,0 +1,221 @@
+{
+  "version": "de4c415381c9233c",
+  "duration": 140.56,
+  "voice": "am_michael",
+  "audioSha256": "ce889ce848790e7089729a003e41e50c9eb4c85801efb93778bc4154ab5b496c",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 9.06,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 237,
+          "end": 362
+        }
+      ],
+      "text": "This case concerns an Executive Branch policy requiring all new passports to display an individual’s biological sex at birth."
+    },
+    {
+      "start": 9.06,
+      "end": 20.44,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 363,
+          "end": 564
+        }
+      ],
+      "text": "The United States District Court for the District of Massachusetts preliminarily enjoined the Government from enforcing the policy, and the First Circuit declined to stay the injunction pending appeal."
+    },
+    {
+      "start": 20.44,
+      "end": 23.46,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 565,
+          "end": 613
+        }
+      ],
+      "text": "The Government then filed this stay application."
+    },
+    {
+      "start": 23.46,
+      "end": 29.875,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 614,
+          "end": 701
+        }
+      ],
+      "text": "Applying our familiar stay factors at this preliminary stage, we grant the application."
+    },
+    {
+      "start": 29.875,
+      "end": 45.96,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 703,
+          "end": 951
+        }
+      ],
+      "text": "Displaying passport holders’ sex at birth no more offends equal protection principles than displaying their country of birth—in both cases, the Government is merely attesting to a historical fact without subjecting anyone to differential treatment."
+    },
+    {
+      "start": 45.96,
+      "end": 59.18,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 952,
+          "end": 1234
+        }
+      ],
+      "text": "And on this record, respondents have failed to establish that the Government’s choice to display biological sex “lacks any purpose other than a bare.. desire to harm a politically unpopular group.”."
+    },
+    {
+      "start": 59.18,
+      "end": 73.98,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1235,
+          "end": 1438
+        }
+      ],
+      "text": "Nor are respondents likely to prevail in arguing that the State Department acted arbitrarily and capriciously by declining to depart from Presidential rules that Congress expressly required it to follow."
+    },
+    {
+      "start": 73.98,
+      "end": 78.6,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1462,
+          "end": 1531
+        }
+      ],
+      "text": "For these reasons, the Government is likely to succeed on the merits."
+    },
+    {
+      "start": 78.6,
+      "end": 90.0,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1532,
+          "end": 1701
+        }
+      ],
+      "text": "And the District Court’s grant of class-wide relief enjoins enforcement of an Executive Branch policy with foreign affairs implications concerning a Government document."
+    },
+    {
+      "start": 90.0,
+      "end": 97.38,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1702,
+          "end": 1748
+        },
+        {
+          "page": 1,
+          "start": 38,
+          "end": 93
+        }
+      ],
+      "text": "In light of the foregoing, the Government will “suffer a form of irreparable injury” absent a stay."
+    },
+    {
+      "start": 97.38,
+      "end": 103.84,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 177,
+          "end": 275
+        }
+      ],
+      "text": "The application for stay presented to Justice Jackson and by her referred to the Court is granted."
+    },
+    {
+      "start": 103.84,
+      "end": 127.9,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 276,
+          "end": 591
+        }
+      ],
+      "text": "The June 17, 2025 order of the United States District Court for the District of Massachusetts, case number 1:25–cv–10313, is stayed pending the disposition of the appeal in the United States Court of Appeals for the First Circuit and disposition of a petition for a writ of certiorari, if such a writ is timely sought."
+    },
+    {
+      "start": 127.9,
+      "end": 133.0,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 592,
+          "end": 661
+        }
+      ],
+      "text": "Should certiorari be denied, this stay shall terminate automatically."
+    },
+    {
+      "start": 133.0,
+      "end": 140.21,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 662,
+          "end": 775
+        }
+      ],
+      "text": "In the event certiorari is granted, the stay shall terminate upon the sending down of the judgment of this Court."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 69,
+      "expectedWords": 69,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 97,
+      "expectedWords": 98,
+      "coverage": 0.9897959183673469
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 53,
+      "expectedWords": 54,
+      "coverage": 0.9814814814814815
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 96,
+      "expectedWords": 105,
+      "coverage": 0.9142857142857143
+    }
+  ]
+}

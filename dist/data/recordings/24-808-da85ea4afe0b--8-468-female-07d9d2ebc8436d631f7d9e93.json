@@ -1,0 +1,139 @@
+{
+  "version": "a2b0eeb8bceaa1ca",
+  "duration": 61.168,
+  "voice": "af_sky",
+  "audioSha256": "ce5cd7492c24178c0b64f356313ac5aa8e5bf98554e53e831ab7239cc824198f",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 11.18,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 515,
+          "end": 692
+        }
+      ],
+      "text": "The Court today rightly holds that a Rule sixty b four motion to set aside a default judgment that is void for lack of personal jurisdiction must be made “within a reasonable time.”"
+    },
+    {
+      "start": 11.18,
+      "end": 16.8,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 698,
+          "end": 803
+        }
+      ],
+      "text": "Rule sixty's text and structure require that conclusion, as the majority explains."
+    },
+    {
+      "start": 16.8,
+      "end": 27.58,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 804,
+          "end": 987
+        }
+      ],
+      "text": "I concur in the judgment because the majority unnecessarily opines on the potential validity of a constitutional challenge to the “reasonable time” limit under the Due Process Clause."
+    },
+    {
+      "start": 27.58,
+      "end": 32.42,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1002,
+          "end": 1091
+        }
+      ],
+      "text": "Coney Island did not make this argument below and the Sixth Circuit did not pass upon it."
+    },
+    {
+      "start": 32.42,
+      "end": 36.16,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1159,
+          "end": 1218
+        }
+      ],
+      "text": "(“Coney Island does not mount a constitutional attack on Rule sixty”)."
+    },
+    {
+      "start": 36.16,
+      "end": 40.54,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1225,
+          "end": 1299
+        }
+      ],
+      "text": "In this Court, Coney Island expressly disclaimed any due process argument."
+    },
+    {
+      "start": 40.54,
+      "end": 47.26,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1330,
+          "end": 1427
+        }
+      ],
+      "text": "(“To be clear, Coney Island does not contend that Rule sixty or Rule sixty c one is unconstitutional”)."
+    },
+    {
+      "start": 47.26,
+      "end": 54.62,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1428,
+          "end": 1555
+        }
+      ],
+      "text": "This Court does “not generally entertain arguments that were not raised below and are not advanced in this Court by any party.”"
+    },
+    {
+      "start": 54.62,
+      "end": 60.6,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1620,
+          "end": 1735
+        }
+      ],
+      "text": "There is no reason to depart from that practice absent unusual circumstances, which certainly are not present here."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 42,
+      "expectedWords": 46,
+      "coverage": 0.9130434782608695
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 116,
+      "expectedWords": 125,
+      "coverage": 0.928
+    }
+  ]
+}

@@ -1,0 +1,2391 @@
+{
+  "reviewed": true,
+  "documentId": "24-621-c06758505ff0--32-1006",
+  "sourceDocumentId": "24-621-c06758505ff0",
+  "sourceTextPath": "dist/data/docs/24-621-c06758505ff0.json",
+  "sourceTextSha256": "7344e277d64854a5c1d632a0113a9c0448ceeda619f75ceecaf816dd74965df3",
+  "sourcePdfPath": "dist/data/pdfs/24-621-c06758505ff0--32-1006.pdf",
+  "sourcePdfSha256": "f6e9957342f9c05645de3456fa3cd53f4966c248d21745e880375100a823eb7c",
+  "title": "Dissent",
+  "author": "Elena Kagan",
+  "date": "2026-06-30",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r67_g3bi.pdf",
+  "sourceRange": {
+    "startPage": 32,
+    "startOffset": 1087,
+    "endPage": 50,
+    "endOffset": 1071
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1087,
+          "end": 1499
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1499,
+          "end": 1907
+        },
+        {
+          "page": 33,
+          "start": 126,
+          "end": 737
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 737,
+          "end": 1348
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 1348,
+          "end": 2139
+        },
+        {
+          "page": 34,
+          "start": 56,
+          "end": 416
+        }
+      ],
+      "citations": [
+        {
+          "start": 711,
+          "end": 807,
+          "text": "See Federal Election Comm'n v. Colorado Republican Federal Campaign Comm., 533 U. S. 431 (2001).",
+          "type": "reference",
+          "canonical": "See Federal Election Comm'n v. Colorado Republican Federal Campaign Comm., 533 U. S. 431 (2001)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 34,
+          "start": 416,
+          "end": 418
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 34,
+          "start": 418,
+          "end": 420
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 420,
+          "end": 1933
+        },
+        {
+          "page": 35,
+          "start": 126,
+          "end": 265
+        }
+      ],
+      "citations": [
+        {
+          "start": 419,
+          "end": 537,
+          "text": "See Final Report of the Select Committee on Presidential Campaign Activities, S. Rep. No. 93–981, pp. 623, 680 (1974).",
+          "type": "reference",
+          "canonical": "See Final Report of the Select Committee on Presidential Campaign Activities, S. Rep. No. 93–981, pp. 623, 680 (1974)."
+        },
+        {
+          "start": 647,
+          "end": 668,
+          "text": "See id., at 622, 633.",
+          "type": "reference",
+          "canonical": "See id., at 622, 633."
+        },
+        {
+          "start": 939,
+          "end": 956,
+          "text": "Id., at 648, 682;",
+          "type": "reference",
+          "canonical": "Id., at 648, 682;"
+        },
+        {
+          "start": 957,
+          "end": 981,
+          "text": "see also id., at 642–643",
+          "type": "reference",
+          "canonical": "see also id., at 642–643"
+        },
+        {
+          "start": 1236,
+          "end": 1248,
+          "text": "Id., at 682.",
+          "type": "reference",
+          "canonical": "Id., at 682."
+        },
+        {
+          "start": 1416,
+          "end": 1501,
+          "text": "McCutcheon v. Federal Election Comm'n, 572 U. S. 185, 197 (2014) (plurality opinion).",
+          "type": "reference",
+          "canonical": "McCutcheon v. Federal Election Comm'n, 572 U. S. 185, 197 (2014) (plurality opinion)."
+        },
+        {
+          "start": 1600,
+          "end": 1655,
+          "text": "Buckley v. Valeo, 424 U. S. 1, 27 (1976) (per curiam ).",
+          "type": "reference",
+          "canonical": "Buckley v. Valeo, 424 U. S. 1, 27 (1976) (per curiam )."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a milk subsidy]",
+          "to": "a milk subsidy"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 265,
+          "end": 1253
+        }
+      ],
+      "citations": [
+        {
+          "start": 731,
+          "end": 745,
+          "text": "Id., at 26–27.",
+          "type": "reference",
+          "canonical": "Id., at 26–27."
+        },
+        {
+          "start": 790,
+          "end": 805,
+          "text": "See id., at 26.",
+          "type": "reference",
+          "canonical": "See id., at 26."
+        },
+        {
+          "start": 901,
+          "end": 989,
+          "text": "See FEC, Contribution Limits for 2025–2026 (Jan. 30, 2025) (https://perma.cc/57Q5-PYKG).",
+          "type": "reference",
+          "canonical": "See FEC, Contribution Limits for 2025–2026 (Jan. 30, 2025) (https://perma.cc/57Q5-PYKG)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1253,
+          "end": 1927
+        }
+      ],
+      "citations": [
+        {
+          "start": 202,
+          "end": 233,
+          "text": "McCutcheon , 572 U. S., at 199;",
+          "type": "reference",
+          "canonical": "McCutcheon , 572 U. S., at 199;"
+        },
+        {
+          "start": 234,
+          "end": 267,
+          "text": "see Buckley, 424 U. S., at 25–27.",
+          "type": "reference",
+          "canonical": "see Buckley, 424 U. S., at 25–27."
+        },
+        {
+          "start": 334,
+          "end": 345,
+          "text": "Id., at 25.",
+          "type": "reference",
+          "canonical": "Id., at 25."
+        },
+        {
+          "start": 531,
+          "end": 542,
+          "text": "Id., at 28.",
+          "type": "reference",
+          "canonical": "Id., at 28."
+        },
+        {
+          "start": 668,
+          "end": 673,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "focus[ ]",
+          "to": "focus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1927,
+          "end": 2093
+        },
+        {
+          "page": 36,
+          "start": 56,
+          "end": 1134
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 121,
+          "end": 159,
+          "text": "See McCutcheon, 572 U. S., at 222–223;",
+          "type": "reference",
+          "canonical": "See McCutcheon, 572 U. S., at 222–223;"
+        },
+        {
+          "start": 160,
+          "end": 227,
+          "text": "McConnell v. Federal Election Comm'n, 540 U. S. 93, 171–173 (2003);",
+          "type": "reference",
+          "canonical": "McConnell v. Federal Election Comm'n, 540 U. S. 93, 171–173 (2003);"
+        },
+        {
+          "start": 228,
+          "end": 257,
+          "text": "Buckley, 424 U. S., at 46–47.",
+          "type": "reference",
+          "canonical": "Buckley, 424 U. S., at 46–47."
+        },
+        {
+          "start": 688,
+          "end": 718,
+          "text": "McCutcheon, 572 U. S., at 218.",
+          "type": "reference",
+          "canonical": "McCutcheon, 572 U. S., at 218."
+        },
+        {
+          "start": 758,
+          "end": 775,
+          "text": "See ante, at 937.",
+          "type": "reference",
+          "canonical": "See ante, at 937."
+        },
+        {
+          "start": 979,
+          "end": 1035,
+          "text": "Ante, at 927 (citing McCutcheon, 572 U. S., at 222–223).",
+          "type": "reference",
+          "canonical": "Ante, at 927 (citing McCutcheon, 572 U. S., at 222–223)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1134,
+          "end": 1136
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1136,
+          "end": 1708
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1712,
+          "end": 2142
+        },
+        {
+          "page": 37,
+          "start": 1835,
+          "end": 2163
+        }
+      ],
+      "citations": [
+        {
+          "start": 36,
+          "end": 53,
+          "text": "see ante, at 925,",
+          "type": "reference",
+          "canonical": "see ante, at 925,"
+        },
+        {
+          "start": 735,
+          "end": 757,
+          "text": "See infra, at 953–954.",
+          "type": "reference",
+          "canonical": "See infra, at 953–954."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 95,
+          "end": 1718
+        }
+      ],
+      "citations": [
+        {
+          "start": 393,
+          "end": 406,
+          "text": "Ante, at 917.",
+          "type": "reference",
+          "canonical": "Ante, at 917."
+        },
+        {
+          "start": 571,
+          "end": 580,
+          "text": "See ibid.",
+          "type": "reference",
+          "canonical": "See ibid."
+        },
+        {
+          "start": 932,
+          "end": 947,
+          "text": "1 App. 202–203;",
+          "type": "reference",
+          "canonical": "1 App. 202–203;"
+        },
+        {
+          "start": 948,
+          "end": 962,
+          "text": "2 id., at 481.",
+          "type": "reference",
+          "canonical": "2 id., at 481."
+        },
+        {
+          "start": 1535,
+          "end": 1557,
+          "text": "533 U. S., at 444–445;",
+          "type": "reference",
+          "canonical": "533 U. S., at 444–445;"
+        },
+        {
+          "start": 1558,
+          "end": 1598,
+          "text": "see id., at 467 (Thomas, J., dissenting)",
+          "type": "reference",
+          "canonical": "see id., at 467 (Thomas, J., dissenting)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1718,
+          "end": 1835
+        },
+        {
+          "page": 38,
+          "start": 56,
+          "end": 1896
+        }
+      ],
+      "citations": [
+        {
+          "start": 169,
+          "end": 200,
+          "text": "Id., at 446 (majority opinion).",
+          "type": "reference",
+          "canonical": "Id., at 446 (majority opinion)."
+        },
+        {
+          "start": 604,
+          "end": 637,
+          "text": "See 52 U. S. C. § 30116(a)(7)(B).",
+          "type": "reference",
+          "canonical": "See 52 U. S. C. § 30116(a)(7)(B)."
+        },
+        {
+          "start": 829,
+          "end": 855,
+          "text": "Buckley, 424 U. S., at 47.",
+          "type": "reference",
+          "canonical": "Buckley, 424 U. S., at 47."
+        },
+        {
+          "start": 905,
+          "end": 928,
+          "text": "see ante, at 936, n. 6,",
+          "type": "reference",
+          "canonical": "see ante, at 936, n. 6,"
+        },
+        {
+          "start": 1234,
+          "end": 1255,
+          "text": "See ante, at 921–922.",
+          "type": "reference",
+          "canonical": "See ante, at 921–922."
+        },
+        {
+          "start": 1777,
+          "end": 1795,
+          "text": "See ante , at 914;",
+          "type": "reference",
+          "canonical": "See ante , at 914;"
+        },
+        {
+          "start": 1796,
+          "end": 1807,
+          "text": "§ 30116(d).",
+          "type": "reference",
+          "canonical": "§ 30116(d)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "prevent[s]",
+          "to": "prevents"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 38,
+          "start": 1896,
+          "end": 2071
+        },
+        {
+          "page": 39,
+          "start": 126,
+          "end": 208
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 39,
+          "start": 1697,
+          "end": 2336
+        }
+      ],
+      "citations": [
+        {
+          "start": 246,
+          "end": 311,
+          "text": "See Brief for Campaign Legal Center et al. as Amici Curiae 28–29.",
+          "type": "reference",
+          "canonical": "See Brief for Campaign Legal Center et al. as Amici Curiae 28–29."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 211,
+          "end": 1577
+        }
+      ],
+      "citations": [
+        {
+          "start": 143,
+          "end": 161,
+          "text": "See supra, at 942.",
+          "type": "reference",
+          "canonical": "See supra, at 942."
+        },
+        {
+          "start": 725,
+          "end": 768,
+          "text": "See FEC, Contribution Limits for 2025–2026.",
+          "type": "reference",
+          "canonical": "See FEC, Contribution Limits for 2025–2026."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 1577,
+          "end": 1695
+        },
+        {
+          "page": 40,
+          "start": 56,
+          "end": 405
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 40,
+          "start": 1375,
+          "end": 2350
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 65,
+          "text": "See, e. g., C. Levine, Soft Money Is Back, POLITICO, Aug. 4, 2017",
+          "type": "reference",
+          "canonical": "See, e. g., C. Levine, Soft Money Is Back, POLITICO, Aug. 4, 2017"
+        },
+        {
+          "start": 188,
+          "end": 286,
+          "text": "K. Vogel & I. Arnsdorf, Clinton Fundraising Leaves Little for State Parties, POLITICO, May 2, 2016",
+          "type": "reference",
+          "canonical": "K. Vogel & I. Arnsdorf, Clinton Fundraising Leaves Little for State Parties, POLITICO, May 2, 2016"
+        },
+        {
+          "start": 439,
+          "end": 557,
+          "text": "K. Evers-Hillstrom, Trump Raised Record Money for State Parties, Then His RNC Took It Back, OpenSecrets, Feb. 24, 2021",
+          "type": "reference",
+          "canonical": "K. Evers-Hillstrom, Trump Raised Record Money for State Parties, Then His RNC Took It Back, OpenSecrets, Feb. 24, 2021"
+        },
+        {
+          "start": 716,
+          "end": 721,
+          "text": "ibid.",
+          "type": "reference",
+          "canonical": "ibid."
+        },
+        {
+          "start": 880,
+          "end": 885,
+          "text": "ibid.",
+          "type": "reference",
+          "canonical": "ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[S]tate",
+          "to": "State"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 40,
+          "start": 408,
+          "end": 731
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 17,
+          "text": "See § 30116(a)(4)",
+          "type": "reference",
+          "canonical": "See § 30116(a)(4)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 40,
+          "start": 731,
+          "end": 1373
+        },
+        {
+          "page": 41,
+          "start": 95,
+          "end": 621
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 253,
+          "end": 271,
+          "text": "See § 30116(a)(2).",
+          "type": "reference",
+          "canonical": "See § 30116(a)(2)."
+        },
+        {
+          "start": 431,
+          "end": 449,
+          "text": "See supra, at 945;",
+          "type": "reference",
+          "canonical": "See supra, at 945;"
+        },
+        {
+          "start": 450,
+          "end": 482,
+          "text": "Brief for Federal Respondents 21",
+          "type": "reference",
+          "canonical": "Brief for Federal Respondents 21"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 41,
+          "start": 621,
+          "end": 1436
+        }
+      ],
+      "citations": [
+        {
+          "start": 292,
+          "end": 310,
+          "text": "See supra, at 944.",
+          "type": "reference",
+          "canonical": "See supra, at 944."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 41,
+          "start": 1436,
+          "end": 2154
+        },
+        {
+          "page": 42,
+          "start": 56,
+          "end": 656
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 42,
+          "start": 656,
+          "end": 2105
+        }
+      ],
+      "citations": [
+        {
+          "start": 276,
+          "end": 294,
+          "text": "533 U. S., at 465.",
+          "type": "reference",
+          "canonical": "533 U. S., at 465."
+        },
+        {
+          "start": 516,
+          "end": 528,
+          "text": "Id., at 456.",
+          "type": "reference",
+          "canonical": "Id., at 456."
+        },
+        {
+          "start": 713,
+          "end": 729,
+          "text": "See id., at 444.",
+          "type": "reference",
+          "canonical": "See id., at 444."
+        },
+        {
+          "start": 1001,
+          "end": 1013,
+          "text": "Id., at 464.",
+          "type": "reference",
+          "canonical": "Id., at 464."
+        },
+        {
+          "start": 1208,
+          "end": 1213,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 1289,
+          "end": 1301,
+          "text": "Id., at 457.",
+          "type": "reference",
+          "canonical": "Id., at 457."
+        },
+        {
+          "start": 1439,
+          "end": 1451,
+          "text": "Id., at 441.",
+          "type": "reference",
+          "canonical": "Id., at 441."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[A]",
+          "to": "A"
+        },
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 43,
+          "start": 95,
+          "end": 1114
+        }
+      ],
+      "citations": [
+        {
+          "start": 552,
+          "end": 570,
+          "text": "572 U. S., at 193.",
+          "type": "reference",
+          "canonical": "572 U. S., at 193."
+        },
+        {
+          "start": 725,
+          "end": 743,
+          "text": "See supra, at 946.",
+          "type": "reference",
+          "canonical": "See supra, at 946."
+        },
+        {
+          "start": 949,
+          "end": 976,
+          "text": "see 572 U. S., at 214, 216;",
+          "type": "reference",
+          "canonical": "see 572 U. S., at 214, 216;"
+        },
+        {
+          "start": 977,
+          "end": 1017,
+          "text": "id., at 247–248 (Breyer, J., dissenting)",
+          "type": "reference",
+          "canonical": "id., at 247–248 (Breyer, J., dissenting)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 43,
+          "start": 1165,
+          "end": 2529
+        }
+      ],
+      "citations": [
+        {
+          "start": 299,
+          "end": 322,
+          "text": "572 U. S., at 214, 216.",
+          "type": "reference",
+          "canonical": "572 U. S., at 214, 216."
+        },
+        {
+          "start": 739,
+          "end": 756,
+          "text": "www.fec.gov/data,",
+          "type": "reference",
+          "canonical": "www.fec.gov/data,"
+        },
+        {
+          "start": 935,
+          "end": 959,
+          "text": "See supra, at 947, n. 3;",
+          "type": "reference",
+          "canonical": "See supra, at 947, n. 3;"
+        },
+        {
+          "start": 960,
+          "end": 1032,
+          "text": "FEC, Contributions to Harris Victory Fund ( https://perma.cc/K8GB-WWGY);",
+          "type": "reference",
+          "canonical": "FEC, Contributions to Harris Victory Fund ( https://perma.cc/K8GB-WWGY);"
+        },
+        {
+          "start": 1033,
+          "end": 1105,
+          "text": "FEC, Disbursements of Harris Victory Fund ( https://perma.cc/H3V4-DJVQ);",
+          "type": "reference",
+          "canonical": "FEC, Disbursements of Harris Victory Fund ( https://perma.cc/H3V4-DJVQ);"
+        },
+        {
+          "start": 1106,
+          "end": 1157,
+          "text": "FEC, Receipts of DNC ( https://perma.cc/T93L-WVA7);",
+          "type": "reference",
+          "canonical": "FEC, Receipts of DNC ( https://perma.cc/T93L-WVA7);"
+        },
+        {
+          "start": 1158,
+          "end": 1235,
+          "text": "FEC, Contributions to Trump 47 Committee, Inc. ( https://perma.cc/R9CE-43QU);",
+          "type": "reference",
+          "canonical": "FEC, Contributions to Trump 47 Committee, Inc. ( https://perma.cc/R9CE-43QU);"
+        },
+        {
+          "start": 1236,
+          "end": 1312,
+          "text": "FEC, Disbursements of Trump 47 Committee, Inc. (https://perma.cc/2SSA-6XA4);",
+          "type": "reference",
+          "canonical": "FEC, Disbursements of Trump 47 Committee, Inc. (https://perma.cc/2SSA-6XA4);"
+        },
+        {
+          "start": 1313,
+          "end": 1363,
+          "text": "FEC, Receipts of RNC (https://perma.cc/49P8-9BSN).",
+          "type": "reference",
+          "canonical": "FEC, Receipts of RNC (https://perma.cc/49P8-9BSN)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "foreclose[d]",
+          "to": "foreclosed"
+        },
+        {
+          "from": "giv[ing]",
+          "to": "giving"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 43,
+          "start": 1117,
+          "end": 1163
+        },
+        {
+          "page": 44,
+          "start": 56,
+          "end": 277
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 44,
+          "start": 277,
+          "end": 280
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 44,
+          "start": 280,
+          "end": 1157
+        }
+      ],
+      "citations": [
+        {
+          "start": 142,
+          "end": 221,
+          "text": "E. g., Halliburton Co. v. Erica P . John Fund, Inc., 573 U. S. 258, 266 (2014).",
+          "type": "reference",
+          "canonical": "E. g., Halliburton Co. v. Erica P . John Fund, Inc., 573 U. S. 258, 266 (2014)."
+        },
+        {
+          "start": 455,
+          "end": 501,
+          "text": "Payne v. Tennessee, 501 U. S. 808, 827 (1991).",
+          "type": "reference",
+          "canonical": "Payne v. Tennessee, 501 U. S. 808, 827 (1991)."
+        },
+        {
+          "start": 698,
+          "end": 715,
+          "text": "See ante, at 933.",
+          "type": "reference",
+          "canonical": "See ante, at 933."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 44,
+          "start": 1157,
+          "end": 2047
+        },
+        {
+          "page": 45,
+          "start": 126,
+          "end": 479
+        }
+      ],
+      "citations": [
+        {
+          "start": 325,
+          "end": 346,
+          "text": "See ante, at 933–934.",
+          "type": "reference",
+          "canonical": "See ante, at 933–934."
+        },
+        {
+          "start": 544,
+          "end": 622,
+          "text": "See also Citizens United v. Federal Election Comm'n, 558 U. S. 310, 319 (2010)",
+          "type": "reference",
+          "canonical": "See also Citizens United v. Federal Election Comm'n, 558 U. S. 310, 319 (2010)"
+        },
+        {
+          "start": 674,
+          "end": 696,
+          "text": ", 494 U. S. 652 (1990)",
+          "type": "reference",
+          "canonical": ", 494 U. S. 652 (1990)"
+        },
+        {
+          "start": 726,
+          "end": 749,
+          "text": ", 540 U. S., at 203–209",
+          "type": "reference",
+          "canonical": ", 540 U. S., at 203–209"
+        },
+        {
+          "start": 762,
+          "end": 786,
+          "text": ", 572 U. S., at 202, 204",
+          "type": "reference",
+          "canonical": ", 572 U. S., at 202, 204"
+        },
+        {
+          "start": 814,
+          "end": 832,
+          "text": ", 424 U. S., at 38",
+          "type": "reference",
+          "canonical": ", 424 U. S., at 38"
+        },
+        {
+          "start": 835,
+          "end": 913,
+          "text": "cf. Federal Election Comm'n v. Ted Cruz for Senate , 596 U. S. 289, 313 (2022)",
+          "type": "reference",
+          "canonical": "cf. Federal Election Comm'n v. Ted Cruz for Senate , 596 U. S. 289, 313 (2022)"
+        },
+        {
+          "start": 928,
+          "end": 950,
+          "text": "52 U. S. C. § 30116(j)",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 30116(j)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 953,
+          "end": 1012,
+          "text": "Davis v. Federal Election Comm'n, 554 U. S. 724, 744 (2008)",
+          "type": "reference",
+          "canonical": "Davis v. Federal Election Comm'n, 554 U. S. 724, 744 (2008)"
+        },
+        {
+          "start": 1027,
+          "end": 1034,
+          "text": "§ 30117",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 30117",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        },
+        {
+          "from": "52 U. S. C. § 30116(j)",
+          "to": "title fifty-two United States Code, section thirty thousand one hundred sixteen, subsection j"
+        },
+        {
+          "from": "§ 30117",
+          "to": "section thirty thousand one hundred seventeen"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 45,
+          "start": 479,
+          "end": 1820
+        }
+      ],
+      "citations": [
+        {
+          "start": 281,
+          "end": 298,
+          "text": "See ante, at 934.",
+          "type": "reference",
+          "canonical": "See ante, at 934."
+        },
+        {
+          "start": 572,
+          "end": 590,
+          "text": "533 U. S., at 456;",
+          "type": "reference",
+          "canonical": "533 U. S., at 456;"
+        },
+        {
+          "start": 591,
+          "end": 628,
+          "text": "see Buckley, 424 U. S., at 25 (same);",
+          "type": "reference",
+          "canonical": "see Buckley, 424 U. S., at 25 (same);"
+        },
+        {
+          "start": 629,
+          "end": 666,
+          "text": "McCutcheon, 572 U. S., at 197 (same).",
+          "type": "reference",
+          "canonical": "McCutcheon, 572 U. S., at 197 (same)."
+        },
+        {
+          "start": 727,
+          "end": 743,
+          "text": "See ante, at 920",
+          "type": "reference",
+          "canonical": "See ante, at 920"
+        },
+        {
+          "start": 977,
+          "end": 1003,
+          "text": "See ante, at 922–923, 937.",
+          "type": "reference",
+          "canonical": "See ante, at 922–923, 937."
+        },
+        {
+          "start": 1311,
+          "end": 1342,
+          "text": "Colorado II, 533 U. S., at 464.",
+          "type": "reference",
+          "canonical": "Colorado II, 533 U. S., at 464."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 45,
+          "start": 1820,
+          "end": 2231
+        },
+        {
+          "page": 46,
+          "start": 87,
+          "end": 701
+        }
+      ],
+      "citations": [
+        {
+          "start": 255,
+          "end": 268,
+          "text": "Ante, at 935;",
+          "type": "reference",
+          "canonical": "Ante, at 935;"
+        },
+        {
+          "start": 269,
+          "end": 278,
+          "text": "see ibid.",
+          "type": "reference",
+          "canonical": "see ibid."
+        },
+        {
+          "start": 568,
+          "end": 603,
+          "text": "See Citizens United, 558 U. S. 310;",
+          "type": "reference",
+          "canonical": "See Citizens United, 558 U. S. 310;"
+        },
+        {
+          "start": 604,
+          "end": 682,
+          "text": "SpeechNow.org v. Federal Election Comm'n, 599 F. 3d 686 (CADC 2010) (en banc).",
+          "type": "reference",
+          "canonical": "SpeechNow.org v. Federal Election Comm'n, 599 F. 3d 686 (CADC 2010) (en banc)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 46,
+          "start": 701,
+          "end": 1741
+        }
+      ],
+      "citations": [
+        {
+          "start": 482,
+          "end": 503,
+          "text": "See ante, at 921–923;",
+          "type": "reference",
+          "canonical": "See ante, at 921–923;"
+        },
+        {
+          "start": 504,
+          "end": 528,
+          "text": "see, e. g., ante, at 921",
+          "type": "reference",
+          "canonical": "see, e. g., ante, at 921"
+        },
+        {
+          "start": 835,
+          "end": 848,
+          "text": "Ante, at 931.",
+          "type": "reference",
+          "canonical": "Ante, at 931."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[N]o",
+          "to": "No"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 46,
+          "start": 1741,
+          "end": 2151
+        },
+        {
+          "page": 47,
+          "start": 126,
+          "end": 995
+        }
+      ],
+      "citations": [
+        {
+          "start": 258,
+          "end": 275,
+          "text": "See ante, at 926.",
+          "type": "reference",
+          "canonical": "See ante, at 926."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 47,
+          "start": 1867,
+          "end": 2300
+        }
+      ],
+      "citations": [
+        {
+          "start": 157,
+          "end": 181,
+          "text": "See supra, at 944, n. 1.",
+          "type": "reference",
+          "canonical": "See supra, at 944, n. 1."
+        },
+        {
+          "start": 424,
+          "end": 433,
+          "text": "See ibid.",
+          "type": "reference",
+          "canonical": "See ibid."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 47,
+          "start": 998,
+          "end": 1865
+        },
+        {
+          "page": 48,
+          "start": 56,
+          "end": 926
+        }
+      ],
+      "citations": [
+        {
+          "start": 1110,
+          "end": 1132,
+          "text": "cf. ante, at 924, 928,",
+          "type": "reference",
+          "canonical": "cf. ante, at 924, 928,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 48,
+          "start": 1169,
+          "end": 2495
+        }
+      ],
+      "citations": [
+        {
+          "start": 125,
+          "end": 137,
+          "text": "ante, at 937",
+          "type": "reference",
+          "canonical": "ante, at 937"
+        },
+        {
+          "start": 466,
+          "end": 484,
+          "text": "572 U. S., at 215.",
+          "type": "reference",
+          "canonical": "572 U. S., at 215."
+        },
+        {
+          "start": 660,
+          "end": 669,
+          "text": "See ibid.",
+          "type": "reference",
+          "canonical": "See ibid."
+        },
+        {
+          "start": 857,
+          "end": 875,
+          "text": "572 U. S., at 215.",
+          "type": "reference",
+          "canonical": "572 U. S., at 215."
+        },
+        {
+          "start": 967,
+          "end": 994,
+          "text": "see supra, at 950, and n. 4",
+          "type": "reference",
+          "canonical": "see supra, at 950, and n. 4"
+        },
+        {
+          "start": 1168,
+          "end": 1186,
+          "text": "See supra, at 954.",
+          "type": "reference",
+          "canonical": "See supra, at 954."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 48,
+          "start": 929,
+          "end": 1167
+        },
+        {
+          "page": 49,
+          "start": 126,
+          "end": 675
+        }
+      ],
+      "citations": [
+        {
+          "start": 140,
+          "end": 158,
+          "text": "See supra, at 949.",
+          "type": "reference",
+          "canonical": "See supra, at 949."
+        },
+        {
+          "start": 422,
+          "end": 440,
+          "text": "533 U. S., at 462.",
+          "type": "reference",
+          "canonical": "533 U. S., at 462."
+        },
+        {
+          "start": 566,
+          "end": 571,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 783,
+          "end": 788,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 49,
+          "start": 675,
+          "end": 1818
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 247,
+          "text": "Ante, at 927.",
+          "type": "reference",
+          "canonical": "Ante, at 927."
+        },
+        {
+          "start": 649,
+          "end": 666,
+          "text": "424 U. S., at 28;",
+          "type": "reference",
+          "canonical": "424 U. S., at 28;"
+        },
+        {
+          "start": 667,
+          "end": 676,
+          "text": "see ibid.",
+          "type": "reference",
+          "canonical": "see ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[to]",
+          "to": "to"
+        },
+        {
+          "from": "[C]orruption",
+          "to": "Corruption"
+        },
+        {
+          "from": "[is]",
+          "to": "is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 49,
+          "start": 1818,
+          "end": 2174
+        },
+        {
+          "page": 50,
+          "start": 56,
+          "end": 487
+        }
+      ],
+      "citations": [
+        {
+          "start": 212,
+          "end": 230,
+          "text": "533 U. S., at 464.",
+          "type": "reference",
+          "canonical": "533 U. S., at 464."
+        },
+        {
+          "start": 276,
+          "end": 298,
+          "text": "See supra, at 950–951.",
+          "type": "reference",
+          "canonical": "See supra, at 950–951."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 50,
+          "start": 487,
+          "end": 1071
+        }
+      ],
+      "citations": [
+        {
+          "start": 292,
+          "end": 310,
+          "text": "572 U. S., at 233.",
+          "type": "reference",
+          "canonical": "572 U. S., at 233."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]oday",
+          "to": "Today"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 32,
+      "start": 819,
+      "end": 821,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 32,
+      "start": 1353,
+      "end": 1360,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 33,
+      "start": 2030,
+      "end": 2034,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 35,
+      "start": 476,
+      "end": 481,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 36,
+      "start": 298,
+      "end": 305,
+      "expectedText": "effcacy",
+      "text": "efficacy"
+    },
+    {
+      "page": 36,
+      "start": 1077,
+      "end": 1085,
+      "expectedText": "justifes",
+      "text": "justifies"
+    },
+    {
+      "page": 37,
+      "start": 104,
+      "end": 108,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 38,
+      "start": 160,
+      "end": 164,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 39,
+      "start": 1879,
+      "end": 1884,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 39,
+      "start": 2208,
+      "end": 2213,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 41,
+      "start": 1176,
+      "end": 1182,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 42,
+      "start": 1848,
+      "end": 1853,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 44,
+      "start": 364,
+      "end": 376,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 44,
+      "start": 924,
+      "end": 936,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 45,
+      "start": 971,
+      "end": 982,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 45,
+      "start": 1409,
+      "end": 1417,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 46,
+      "start": 551,
+      "end": 559,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 46,
+      "start": 1116,
+      "end": 1120,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 47,
+      "start": 1720,
+      "end": 1727,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 48,
+      "start": 597,
+      "end": 601,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 48,
+      "start": 620,
+      "end": 625,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 48,
+      "start": 1385,
+      "end": 1388,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 48,
+      "start": 1771,
+      "end": 1775,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 49,
+      "start": 377,
+      "end": 386,
+      "expectedText": "diffculty",
+      "text": "difficulty"
+    },
+    {
+      "page": 33,
+      "start": 153,
+      "end": 159,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 33,
+      "start": 1497,
+      "end": 1503,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 33,
+      "start": 1929,
+      "end": 1932,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 34,
+      "start": 1731,
+      "end": 1737,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 34,
+      "start": 1530,
+      "end": 1538,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 34,
+      "start": 1234,
+      "end": 1241,
+      "expectedText": "reaffrm",
+      "text": "reaffirm"
+    },
+    {
+      "page": 34,
+      "start": 1647,
+      "end": 1650,
+      "expectedText": "fow",
+      "text": "flow"
+    },
+    {
+      "page": 35,
+      "start": 512,
+      "end": 520,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 35,
+      "start": 936,
+      "end": 945,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 36,
+      "start": 420,
+      "end": 426,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 36,
+      "start": 625,
+      "end": 632,
+      "expectedText": "reaffrm",
+      "text": "reaffirm"
+    },
+    {
+      "page": 37,
+      "start": 1401,
+      "end": 1409,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 37,
+      "start": 1081,
+      "end": 1097,
+      "expectedText": "partycoordinated",
+      "text": "party-coordinated"
+    },
+    {
+      "page": 38,
+      "start": 422,
+      "end": 428,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 38,
+      "start": 921,
+      "end": 927,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 38,
+      "start": 1310,
+      "end": 1316,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 38,
+      "start": 976,
+      "end": 992,
+      "expectedText": "partycoordinated",
+      "text": "party-coordinated"
+    },
+    {
+      "page": 38,
+      "start": 1157,
+      "end": 1160,
+      "expectedText": "fne",
+      "text": "fine"
+    },
+    {
+      "page": 39,
+      "start": 2055,
+      "end": 2061,
+      "expectedText": "offces",
+      "text": "offices"
+    },
+    {
+      "page": 40,
+      "start": 835,
+      "end": 841,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 41,
+      "start": 260,
+      "end": 267,
+      "expectedText": "benefts",
+      "text": "benefits"
+    },
+    {
+      "page": 42,
+      "start": 1267,
+      "end": 1274,
+      "expectedText": "reaffrm",
+      "text": "reaffirm"
+    },
+    {
+      "page": 42,
+      "start": 1988,
+      "end": 1997,
+      "expectedText": "fctitious",
+      "text": "fictitious"
+    },
+    {
+      "page": 43,
+      "start": 298,
+      "end": 304,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 43,
+      "start": 1864,
+      "end": 1872,
+      "expectedText": "refected",
+      "text": "reflected"
+    },
+    {
+      "page": 44,
+      "start": 1687,
+      "end": 1693,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 44,
+      "start": 1327,
+      "end": 1332,
+      "expectedText": "faunt",
+      "text": "flaunt"
+    },
+    {
+      "page": 46,
+      "start": 1582,
+      "end": 1593,
+      "expectedText": "insuffcient",
+      "text": "insufficient"
+    },
+    {
+      "page": 47,
+      "start": 452,
+      "end": 458,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 47,
+      "start": 1118,
+      "end": 1124,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 47,
+      "start": 1844,
+      "end": 1850,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 47,
+      "start": 1097,
+      "end": 1105,
+      "expectedText": "specifcs",
+      "text": "specifics"
+    },
+    {
+      "page": 48,
+      "start": 1036,
+      "end": 1042,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 48,
+      "start": 531,
+      "end": 540,
+      "expectedText": "profcient",
+      "text": "proficient"
+    },
+    {
+      "page": 49,
+      "start": 1414,
+      "end": 1422,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 49,
+      "start": 1654,
+      "end": 1676,
+      "expectedText": "coordinatedexpenditure",
+      "text": "coordinated-expenditure"
+    },
+    {
+      "page": 50,
+      "start": 634,
+      "end": 640,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 35,
+      "start": 1223,
+      "end": 1250,
+      "expectedText": "https://perma.cc/\n57Q5-PYKG",
+      "text": "https://perma.cc/57Q5-PYKG"
+    },
+    {
+      "page": 43,
+      "start": 2310,
+      "end": 2320,
+      "expectedText": "T93L-WV A7",
+      "text": "T93L-WVA7"
+    },
+    {
+      "page": 33,
+      "start": 1670,
+      "end": 1682,
+      "expectedText": "fying colors",
+      "text": "flying colors"
+    },
+    {
+      "page": 32,
+      "start": 1897,
+      "end": 1906,
+      "expectedText": "contribu-",
+      "text": "contribu"
+    },
+    {
+      "page": 35,
+      "start": 2087,
+      "end": 2093,
+      "expectedText": "McCon-",
+      "text": "McCon"
+    },
+    {
+      "page": 40,
+      "start": 1366,
+      "end": 1372,
+      "expectedText": "major-",
+      "text": "major"
+    },
+    {
+      "page": 41,
+      "start": 2147,
+      "end": 2153,
+      "expectedText": "under-",
+      "text": "under"
+    },
+    {
+      "page": 43,
+      "start": 976,
+      "end": 988,
+      "expectedText": "Mc-\nCutcheon",
+      "text": "McCutcheon"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 32,
+      "start": 1907,
+      "end": 1937,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 33,
+      "start": 0,
+      "end": 126,
+      "text": "Page Proof Pending Publication\n940 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 34,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 908 (2026) 941\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 34,
+      "start": 1933,
+      "end": 1963,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 35,
+      "start": 0,
+      "end": 126,
+      "text": "Page Proof Pending Publication\n942 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 36,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 908 (2026) 943\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 36,
+      "start": 1708,
+      "end": 1712,
+      "text": "1\n1 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 36,
+      "start": 2142,
+      "end": 2172,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 37,
+      "start": 0,
+      "end": 95,
+      "text": "944 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 37,
+      "start": 2163,
+      "end": 2193,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 38,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 908 (2026) 945\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 38,
+      "start": 2071,
+      "end": 2101,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 39,
+      "start": 0,
+      "end": 126,
+      "text": "Page Proof Pending Publication\n946 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 39,
+      "start": 209,
+      "end": 211,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 39,
+      "start": 1695,
+      "end": 1697,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 40,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 908 (2026) 947\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 40,
+      "start": 406,
+      "end": 408,
+      "text": "3\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 40,
+      "start": 1373,
+      "end": 1375,
+      "text": "3 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 40,
+      "start": 2350,
+      "end": 2380,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 41,
+      "start": 0,
+      "end": 95,
+      "text": "948 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 41,
+      "start": 2154,
+      "end": 2184,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 42,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 908 (2026) 949\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 42,
+      "start": 2105,
+      "end": 2135,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 43,
+      "start": 0,
+      "end": 95,
+      "text": "950 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 43,
+      "start": 1114,
+      "end": 1117,
+      "text": ".4 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 43,
+      "start": 1163,
+      "end": 1165,
+      "text": "4 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 43,
+      "start": 2529,
+      "end": 2559,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 44,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 908 (2026) 951\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 44,
+      "start": 2047,
+      "end": 2077,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 45,
+      "start": 0,
+      "end": 126,
+      "text": "Page Proof Pending Publication\n952 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 46,
+      "start": 0,
+      "end": 87,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 908 (2026) 953\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 47,
+      "start": 0,
+      "end": 126,
+      "text": "Page Proof Pending Publication\n954 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 47,
+      "start": 996,
+      "end": 998,
+      "text": "5\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 47,
+      "start": 1865,
+      "end": 1867,
+      "text": "5 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 48,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 908 (2026) 955\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 48,
+      "start": 927,
+      "end": 929,
+      "text": "6\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 48,
+      "start": 1167,
+      "end": 1169,
+      "text": "6 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 48,
+      "start": 2495,
+      "end": 2525,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 49,
+      "start": 0,
+      "end": 126,
+      "text": "Page Proof Pending Publication\n956 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 50,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 908 (2026) 957\nKagan, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Sonia Sotomayor",
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

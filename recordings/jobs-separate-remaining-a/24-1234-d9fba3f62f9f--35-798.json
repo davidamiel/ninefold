@@ -1,0 +1,476 @@
+{
+  "reviewed": true,
+  "documentId": "24-1234-d9fba3f62f9f--35-798",
+  "sourceDocumentId": "24-1234-d9fba3f62f9f",
+  "sourceTextPath": "dist/data/docs/24-1234-d9fba3f62f9f.json",
+  "sourceTextSha256": "bcd7eebde87fd9006c64e5473acfe66d67ad09c36e20d60b99b7cd3102413880",
+  "sourcePdfPath": "dist/data/pdfs/24-1234-d9fba3f62f9f--35-798.pdf",
+  "sourcePdfSha256": "c6d646f6a98347c8a6080a90e327c66ae9e4e2192b5e9d0bb5c2ed9cf9c6c895",
+  "title": "Concurrence in the judgment",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-06-18",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r51_k4lo.pdf",
+  "sourceRange": {
+    "startPage": 35,
+    "startOffset": 872,
+    "endPage": 37,
+    "endOffset": 1709
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 872,
+          "end": 1709
+        }
+      ],
+      "citations": [
+        {
+          "start": 111,
+          "end": 134,
+          "text": "18 U. S. C. \u00a7 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 161,
+          "end": 236,
+          "text": "New York State Rifle & Pistol Assn., Inc. v. Bruen, 597 U. S. 1, 29 (2022).",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 443,
+          "end": 451,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 461,
+          "end": 473,
+          "text": "\u00a7\u00a7 922(g)(1)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 564,
+          "end": 622,
+          "text": "District of Columbia v. Heller, 554 U. S. 570, 626 (2008),",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 685,
+          "end": 735,
+          "text": "United States v. Rahimi, 602 U. S. 680, 699 (2024)",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 736,
+          "end": 779,
+          "text": "(quoting Heller, 554 U. S., at 627, n. 26).",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 780,
+          "end": 839,
+          "text": "See ante, at 791, n. 6 (quoting Heller, 554 U. S., at 626).",
+          "type": "reference",
+          "canonical": "Court opinion, p. 791, note 6"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "18 U. S. C. \u00a7 922(g)(3)",
+          "to": "Title 18, United States Code, Section 922, g, 3"
+        },
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        },
+        {
+          "from": "\u00a7\u00a7 922(g)(1)",
+          "to": "Sections 922, g, 1"
+        },
+        {
+          "from": "and (4)",
+          "to": "and 4"
+        },
+        {
+          "from": "\u201c `presumptively lawful,' \u201d",
+          "to": "\u201cpresumptively lawful.\u201d"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1709,
+          "end": 1934
+        },
+        {
+          "page": 36,
+          "start": 99,
+          "end": 776
+        }
+      ],
+      "citations": [
+        {
+          "start": 352,
+          "end": 365,
+          "text": "Ante, at 785.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 785"
+        },
+        {
+          "start": 533,
+          "end": 550,
+          "text": "Ante, at 785\u2013786.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 785-786"
+        },
+        {
+          "start": 890,
+          "end": 903,
+          "text": "Ante, at 786.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 786"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 776,
+          "end": 1527
+        }
+      ],
+      "citations": [
+        {
+          "start": 131,
+          "end": 142,
+          "text": "\u00a7 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)(3)",
+          "to": "Section 922, g, 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1527,
+          "end": 1935
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 36,
+          "start": 2048,
+          "end": 2177
+        }
+      ],
+      "label": "1",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 129,
+          "text": "See Congressional Research Service, L. Sacco & J. Lampe, The Federal Status of Marijuana and the Policy Gap With States 2 (2026).",
+          "type": "reference",
+          "canonical": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap With States, p. 2 (2026)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1937,
+          "end": 2046
+        },
+        {
+          "page": 37,
+          "start": 62,
+          "end": 253
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1703,
+          "end": 1709
+        }
+      ],
+      "label": "2",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap With States, p. 2 (2026)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 255,
+          "end": 507
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 507,
+          "end": 1050
+        }
+      ],
+      "citations": [
+        {
+          "start": 397,
+          "end": 408,
+          "text": "\u00a7 922(g)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)(3)",
+          "to": "Section 922, g, 3"
+        },
+        {
+          "from": "us[e]",
+          "to": "use"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1050,
+          "end": 1570
+        }
+      ],
+      "citations": [
+        {
+          "start": 127,
+          "end": 153,
+          "text": "Rahimi, 602 U. S., at 692.",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 476,
+          "end": 484,
+          "text": "\u00a7 922(g)",
+          "type": "statute",
+          "canonical": "18 U.S.C. \u00a7 922",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 922(g)",
+          "to": "Section 922, g"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1570,
+          "end": 1701
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 35,
+      "start": 1934,
+      "end": 1964,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained separately."
+    },
+    {
+      "page": 36,
+      "start": 0,
+      "end": 99,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 772 (2026) 807\nAlito, J., concurring in judgment\n",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained separately."
+    },
+    {
+      "page": 36,
+      "start": 1935,
+      "end": 1937,
+      "text": "1 ",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained separately."
+    },
+    {
+      "page": 36,
+      "start": 2046,
+      "end": 2048,
+      "text": "1 ",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained separately."
+    },
+    {
+      "page": 37,
+      "start": 0,
+      "end": 62,
+      "text": "808 UNITED STATES v. HEMANI\nAlito, J., concurring in judgment\n",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained separately."
+    },
+    {
+      "page": 37,
+      "start": 253,
+      "end": 255,
+      "text": "2\n",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained separately."
+    },
+    {
+      "page": 37,
+      "start": 1701,
+      "end": 1703,
+      "text": "2 ",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained separately."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 35,
+      "start": 1048,
+      "end": 1052,
+      "expectedText": "Rife",
+      "text": "Rifle"
+    },
+    {
+      "page": 35,
+      "start": 1141,
+      "end": 1146,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 35,
+      "start": 1766,
+      "end": 1771,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 35,
+      "start": 1392,
+      "end": 1399,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 36,
+      "start": 105,
+      "end": 113,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 37,
+      "start": 541,
+      "end": 550,
+      "expectedText": "defciency",
+      "text": "deficiency"
+    },
+    {
+      "page": 37,
+      "start": 660,
+      "end": 668,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 37,
+      "start": 1434,
+      "end": 1441,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 37,
+      "start": 1488,
+      "end": 1493,
+      "expectedText": "afeld",
+      "text": "afield"
+    },
+    {
+      "page": 37,
+      "start": 1673,
+      "end": 1678,
+      "expectedText": "affrm",
+      "text": "affirm"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan"
+    ]
+  }
+}
