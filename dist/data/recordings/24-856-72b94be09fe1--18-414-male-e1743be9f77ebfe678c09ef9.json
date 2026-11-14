@@ -1,0 +1,139 @@
+{
+  "version": "c0ac20266d10900b",
+  "duration": 75.73,
+  "voice": "am_michael",
+  "audioSha256": "04245ed2b3a777c71d699f4a20c48d15a7541dcd8bdbe379cf5955e48c81b31a",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 4.78,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 517,
+          "end": 587
+        }
+      ],
+      "text": "I agree with Justice Sotomayor's discussion of the Alien Tort Statute."
+    },
+    {
+      "start": 4.78,
+      "end": 15.36,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 631,
+          "end": 779
+        }
+      ],
+      "text": "But I think the Court is correct to conclude that the Torture Victim Protection Act of 1991 (TVPA) does not encompass aiding-and-abetting liability."
+    },
+    {
+      "start": 15.36,
+      "end": 30.725,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 780,
+          "end": 1036
+        }
+      ],
+      "text": "I write separately because, while my textual analysis of the TVPA tracks the majority's, I do not agree with how the majority deploys Central Bank of Denver, N. A. v. First Interstate Bank of Denver, N. A. here."
+    },
+    {
+      "start": 30.725,
+      "end": 42.18,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1037,
+          "end": 1211
+        }
+      ],
+      "text": "Central Bank is relevant insofar as it instructs that “there is no general presumption” that a statute imposes aiding-and-abetting liability; rather, Congress must provide it."
+    },
+    {
+      "start": 42.18,
+      "end": 46.14,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1225,
+          "end": 1288
+        }
+      ],
+      "text": "And here, Congress's use of the term “subjects” does not do so."
+    },
+    {
+      "start": 46.14,
+      "end": 55.92,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1289,
+          "end": 1465
+        }
+      ],
+      "text": "But, as Justice Sotomayor discusses, the majority is wrong to treat Central Bank as creating a “magic words” test for aiding-and-abetting liability generally."
+    },
+    {
+      "start": 55.92,
+      "end": 60.18,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1541,
+          "end": 1598
+        }
+      ],
+      "text": "(“We have so often denounced” a “ `magic words' test”)."
+    },
+    {
+      "start": 60.18,
+      "end": 68.84,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1599,
+          "end": 1730
+        }
+      ],
+      "text": "Instead, the absence of the words “aid” and “abet” in the statute we interpreted in Central Bank was but one consideration of many."
+    },
+    {
+      "start": 68.84,
+      "end": 75.38,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 79,
+          "end": 153
+        }
+      ],
+      "text": "I therefore concur only in the judgment as to the majority's TVPA holding."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 74,
+      "expectedWords": 76,
+      "coverage": 0.9736842105263158
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 109,
+      "expectedWords": 111,
+      "coverage": 0.9819819819819819
+    }
+  ]
+}
