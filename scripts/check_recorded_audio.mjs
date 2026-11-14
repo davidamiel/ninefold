@@ -23,7 +23,7 @@ for(const [id,doc] of Object.entries(prepared)){
   }
   if(id==='26A560-e0601b5a934c')assert.match(data.cues.at(-1).text,/Justice Jackson would deny/);
   if(body.reviewedCitations){
-   const notes=body.paragraphs.filter(p=>p.kind==='footnote');
+   const notes=body.paragraphs.filter(p=>p.kind==='footnote'&&!p.citationOnly);
    for(const note of notes){assert(data.cues.some(c=>c.footnote===note.label&&c.text.startsWith('Footnote '+note.label+':')));assert(data.cues.some(c=>c.footnote===note.label&&c.transition&&c.text==='End footnote '+note.label+'.'))}
   }
  }

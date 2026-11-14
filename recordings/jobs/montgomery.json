@@ -1,0 +1,1231 @@
+{
+  "reviewed": true,
+  "documentId": "24-1238-22029ed4e44d--4-65",
+  "sourceDocumentId": "24-1238-22029ed4e44d",
+  "sourceTextPath": "dist/data/docs/24-1238-22029ed4e44d.json",
+  "sourceTextSha256": "1ca22078bc7b61ac22c0f0064215bf8c5705004fc8ffed8755934a9ced7f086a",
+  "sourcePdfPath": "dist/data/pdfs/24-1238-22029ed4e44d--4-65.pdf",
+  "sourcePdfSha256": "affabc5ad1cdebd830167d518cd73d4bc6436588d59a28bc396df2be0dd6ee46",
+  "title": "Opinion of the Court",
+  "author": "Amy Coney Barrett",
+  "date": "2026-05-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r32_g3bi.pdf",
+  "sourceRange": {
+    "startPage": 4,
+    "startOffset": 117,
+    "endPage": 11,
+    "endOffset": 410
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 117,
+          "end": 523
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 523,
+          "end": 525
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 525,
+          "end": 527
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 527,
+          "end": 763
+        },
+        {
+          "page": 5,
+          "start": 55,
+          "end": 127
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 127,
+          "end": 575
+        }
+      ],
+      "citations": [
+        {
+          "start": 146,
+          "end": 258,
+          "text": "Dept. of Transp., Federal Motor Carrier Safety Admin., 2024 Pocket Guide to Large Truck and Bus Statistics 9–10;",
+          "type": "reference",
+          "canonical": "FMCSA, 2024 Pocket Guide to Large Truck and Bus Statistics"
+        },
+        {
+          "start": 259,
+          "end": 319,
+          "text": "Brief for Truck Safety Coalition et al. as Amici Curiae 7−8.",
+          "type": "reference",
+          "canonical": "Brief for Truck Safety Coalition, pp. 7–8"
+        },
+        {
+          "start": 437,
+          "end": 447,
+          "text": "Id., at 7.",
+          "type": "reference",
+          "canonical": "Brief for Truck Safety Coalition"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 575,
+          "end": 1471
+        }
+      ],
+      "citations": [
+        {
+          "start": 71,
+          "end": 180,
+          "text": "P. Teske, S. Best, & M. Mintrom, Deregulating Freight Transportation: Delivering the Goods 60 (1995) (Teske).",
+          "type": "reference",
+          "canonical": "Teske, Best & Mintrom, Deregulating Freight Transportation"
+        },
+        {
+          "start": 309,
+          "end": 322,
+          "text": "49 Stat. 543.",
+          "type": "statute",
+          "canonical": "49 Stat. 543"
+        },
+        {
+          "start": 475,
+          "end": 488,
+          "text": "94 Stat. 793.",
+          "type": "statute",
+          "canonical": "94 Stat. 793"
+        },
+        {
+          "start": 539,
+          "end": 658,
+          "text": "J. Kinsler, Motor Freight Brokers: A Tale of Federal Regulatory Pandemonium, 14 Nw. J. Int'l L. & Bus. 289, 290 (1994).",
+          "type": "reference",
+          "canonical": "Kinsler, Motor Freight Brokers, 14 Nw. J. Int’l L. & Bus. 289"
+        },
+        {
+          "start": 748,
+          "end": 753,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Kinsler, Motor Freight Brokers, 14 Nw. J. Int’l L. & Bus. 289"
+        },
+        {
+          "start": 889,
+          "end": 898,
+          "text": "Teske 69.",
+          "type": "reference",
+          "canonical": "Teske, Best & Mintrom, Deregulating Freight Transportation"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ease[d]",
+          "to": "eased"
+        },
+        {
+          "from": "reduce[d]",
+          "to": "reduced"
+        },
+        {
+          "from": "encourage[d]",
+          "to": "encouraged"
+        },
+        {
+          "from": "inhibit[ed]",
+          "to": "inhibited"
+        },
+        {
+          "from": "[and]",
+          "to": "and"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1471,
+          "end": 2048
+        },
+        {
+          "page": 6,
+          "start": 65,
+          "end": 397
+        }
+      ],
+      "citations": [
+        {
+          "start": 76,
+          "end": 90,
+          "text": "108 Stat. 1605",
+          "type": "statute",
+          "canonical": "108 Stat. 1605"
+        },
+        {
+          "start": 436,
+          "end": 454,
+          "text": "Id., at 1605−1607.",
+          "type": "statute",
+          "canonical": "108 Stat. 1605"
+        },
+        {
+          "start": 598,
+          "end": 612,
+          "text": "109 Stat. 899.",
+          "type": "statute",
+          "canonical": "109 Stat. 899"
+        },
+        {
+          "start": 884,
+          "end": 910,
+          "text": "49 U. S. C. § 14501(c)(1).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "enact[ing]",
+          "to": "enacting"
+        },
+        {
+          "from": "enforc[ing]",
+          "to": "enforcing"
+        },
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 397,
+          "end": 1247
+        }
+      ],
+      "citations": [
+        {
+          "start": 73,
+          "end": 92,
+          "text": "§§ 14501(c)(2)–(4).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        },
+        {
+          "start": 272,
+          "end": 289,
+          "text": "§ 14501(c)(2)(A).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        },
+        {
+          "start": 523,
+          "end": 528,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        },
+        {
+          "start": 747,
+          "end": 849,
+          "text": "Columbus v. Ours Garage & Wrecker Service, Inc., 536 U. S. 424, 439 (2002) (quoting § 14501(c)(2)(A)).",
+          "type": "case",
+          "canonical": "536 U.S. 424"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[did]",
+          "to": "did"
+        },
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1247,
+          "end": 1249
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1249,
+          "end": 1746
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1746,
+          "end": 1970
+        },
+        {
+          "page": 7,
+          "start": 86,
+          "end": 760
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 413,
+          "end": 421,
+          "text": "App. 21.",
+          "type": "record",
+          "canonical": "Application, p. 21"
+        },
+        {
+          "start": 635,
+          "end": 684,
+          "text": "Id., at 20–21 (internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "Application, pp. 20–21"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 760,
+          "end": 1172
+        }
+      ],
+      "citations": [
+        {
+          "start": 36,
+          "end": 99,
+          "text": "see Ye v. Global-Tranz Enterprises, Inc., 74 F. 4th 453 (2023),",
+          "type": "case",
+          "canonical": "74 F.4th 453"
+        },
+        {
+          "start": 278,
+          "end": 351,
+          "text": "No. 19– cv–1300, App. to Pet. for Cert. 11a–12a (SD Ill., Jan. 11, 2024).",
+          "type": "record",
+          "canonical": "No. 19–cv–1300, decision January 11, 2024"
+        },
+        {
+          "start": 382,
+          "end": 411,
+          "text": "124 F. 4th 1053, 1058 (2025).",
+          "type": "case",
+          "canonical": "124 F.4th 1053"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1172,
+          "end": 1288
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1494,
+          "end": 1806
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 8,
+          "end": 76,
+          "text": "Ye v. Global-Tranz Enterprises, Inc., 74 F. 4th 453, 456 (CA7 2023),",
+          "type": "case",
+          "canonical": "74 F.4th 453"
+        },
+        {
+          "start": 81,
+          "end": 154,
+          "text": "Aspen Am. Ins. Co. v. Landstar Ranger , 65 F. 4th 1261, 1264 (CA11 2023),",
+          "type": "case",
+          "canonical": "65 F.4th 1261"
+        },
+        {
+          "start": 160,
+          "end": 233,
+          "text": "Cox v. Total Quality Logistics, Inc., 142 F. 4th 847, 853−858 (CA6 2025),",
+          "type": "case",
+          "canonical": "142 F.4th 847"
+        },
+        {
+          "start": 238,
+          "end": 311,
+          "text": "Miller v. C.H. Robinson Worldwide, Inc., 976 F. 3d 1016, 1020 (CA9 2020).",
+          "type": "case",
+          "canonical": "976 F.3d 1016"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1289,
+          "end": 1336
+        }
+      ],
+      "citations": [
+        {
+          "start": 23,
+          "end": 45,
+          "text": "606 U. S. 1066 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 1066"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1336,
+          "end": 1339
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1339,
+          "end": 1490
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1808,
+          "end": 1977
+        }
+      ],
+      "citations": [
+        {
+          "start": 83,
+          "end": 108,
+          "text": "49 U. S. C. § 14501(c)(1)",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "49 U. S. C. § 14501(c)(1)",
+          "to": "Section 14501 c one of Title 49"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 65,
+          "end": 829
+        }
+      ],
+      "citations": [
+        {
+          "start": 147,
+          "end": 164,
+          "text": "§ 14501(c)(2)(A).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        },
+        {
+          "start": 273,
+          "end": 297,
+          "text": "Tr. of Oral Arg. 52, 61;",
+          "type": "record",
+          "canonical": "Oral argument transcript, pp. 52, 61"
+        },
+        {
+          "start": 298,
+          "end": 345,
+          "text": "Brief for United States as Amicus Curiae 20–22;",
+          "type": "reference",
+          "canonical": "Brief for United States, pp. 20–22"
+        },
+        {
+          "start": 346,
+          "end": 418,
+          "text": "see Kurns v. Railroad Friction Products Corp., 565 U. S. 625, 637 (2012)",
+          "type": "case",
+          "canonical": "565 U.S. 625"
+        },
+        {
+          "start": 716,
+          "end": 763,
+          "text": "See Restatement (Second) of Torts § 411 (1964).",
+          "type": "reference",
+          "canonical": "Restatement (Second) of Torts § 411"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "(internal quotation marks omitted)",
+          "to": ""
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 829,
+          "end": 1560
+        }
+      ],
+      "citations": [
+        {
+          "start": 151,
+          "end": 168,
+          "text": "§ 14501(c)(2)(A).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        },
+        {
+          "start": 367,
+          "end": 424,
+          "text": "Oxford American Dictionary and Language Guide 853 (1999);",
+          "type": "reference",
+          "canonical": "Oxford American Dictionary and Language Guide (1999)"
+        },
+        {
+          "start": 425,
+          "end": 483,
+          "text": "Webster's New Universal Unabridged Dictionary 1640 (1996).",
+          "type": "reference",
+          "canonical": "Webster's New Universal Unabridged Dictionary (1996)"
+        },
+        {
+          "start": 605,
+          "end": 668,
+          "text": "Dan's City Used Cars, Inc. v. Pelkey, 569 U. S. 251, 261 (2013)",
+          "type": "case",
+          "canonical": "569 U.S. 251"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "concern[s]",
+          "to": "concerns"
+        },
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1802,
+          "end": 2218
+        }
+      ],
+      "citations": [
+        {
+          "start": 134,
+          "end": 262,
+          "text": "569 U. S., at 261 (quoting Columbus v. Ours Garage & Wrecker Service, Inc., 536 U. S. 424, 449 (2002) (Scalia, J., dissenting)).",
+          "type": "case",
+          "canonical": "569 U.S. 251"
+        },
+        {
+          "start": 382,
+          "end": 415,
+          "text": "Contra, Brief for Respondents 27.",
+          "type": "reference",
+          "canonical": "Brief for Respondents, p. 27"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1561,
+          "end": 1800
+        },
+        {
+          "page": 9,
+          "start": 55,
+          "end": 147
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 176,
+          "end": 188,
+          "text": "§ 13102(16).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 13102"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 147,
+          "end": 858
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 858,
+          "end": 862
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 862,
+          "end": 961
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 961,
+          "end": 1787
+        }
+      ],
+      "citations": [
+        {
+          "start": 466,
+          "end": 480,
+          "text": "§ 14501(c)(1).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        },
+        {
+          "start": 604,
+          "end": 621,
+          "text": "§ 14501(c)(2)(A).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1787,
+          "end": 1963
+        },
+        {
+          "page": 10,
+          "start": 65,
+          "end": 769
+        }
+      ],
+      "citations": [
+        {
+          "start": 339,
+          "end": 344,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 769,
+          "end": 1376
+        }
+      ],
+      "citations": [
+        {
+          "start": 286,
+          "end": 300,
+          "text": "§ 14501(b)(1).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "subsection (b)",
+          "to": "subsection b"
+        },
+        {
+          "from": "subsection (c)",
+          "to": "subsection c"
+        },
+        {
+          "from": "FAAAA",
+          "to": "F A A A A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1876,
+          "end": 2170
+        }
+      ],
+      "citations": [
+        {
+          "start": 199,
+          "end": 222,
+          "text": "Tr. of Oral Arg. 34−35.",
+          "type": "record",
+          "canonical": "Oral argument transcript, pp. 34–35"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "subsection (b)",
+          "to": "subsection b"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1377,
+          "end": 1577
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "subsection (c)",
+          "to": "subsection c"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1577,
+          "end": 1874
+        },
+        {
+          "page": 11,
+          "start": 91,
+          "end": 257
+        }
+      ],
+      "citations": [
+        {
+          "start": 341,
+          "end": 358,
+          "text": "§ 14501(c)(2)(A).",
+          "type": "statute",
+          "canonical": "49 U.S.C. § 14501"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "subsection (c)(2)(A)",
+          "to": "subsection c two A"
+        },
+        {
+          "from": "subsection (c)",
+          "to": "subsection c"
+        },
+        {
+          "from": "in (c)",
+          "to": "in c"
+        },
+        {
+          "from": "in (b)",
+          "to": "in b"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 263,
+          "end": 410
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 763,
+      "end": 2193,
+      "text": "et al. by Hyland Hunt, Ruthanne Deutsch, and Jeffrey Burns; and for\nRobert Cox by Adina H. Rosenbaum, Allison M. Zieve, and Christopher\nT. Saucedo.\nBriefs of amici curiae urging affrmance were fled for the State of\nNebraska et al. by Michael T. Hilgers, Attorney General of Nebraska,\nCody S. Barnett, Solicitor General, and Frederick R. Yarger, Kevin D.\nHomiak, and by Christopher M. Carr, Attorney General of Georgia; for\nAmazon.com, Inc., by Roman Martinez and Margaret A. Upshaw; for the\nChamber of Commerce of the United States of America et al. by Noel J.\nFrancisco, Kelly Holt Rodriguez, Stephanie A. Maloney, Elizabeth Milito, and Karen R. Harned; for Interested Freight Brokers by Robert D.\nMoseley, Jr., C. Fredric Marcinak III, and Martin E. Cain; for the National Association of Manufacturers by James H. Burnley IV, Ronald M.\nJacobs, Megan Barbero, and Erica Klenicki; for OurBus, Inc., by Patricia\nL. Gatling; for Tokio Marine Houston Casualty Co. by Conte Cicala and\nJovana Crncevic; for the Transportation Intermediaries Association, Inc.,\nby Marc S. Blubaugh; for the Washington Legal Foundation by Cory L.\nAndrews and Zac Morgan; and for Keith Hylton et al. by Trisha Anderson\nand Martin Totaro.\nBriefs of amici curiae were fled for Airlines for America by Shay Dvoretzky, Parker Rider-Longmaid, and Raza Rasheed; and for Gergana\nFranco by Jonathan L. Hilton and Geoffrey C. Parker.\nPage Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 219 (2026) 223\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 5,
+      "start": 2048,
+      "end": 2078,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 65,
+      "text": "224 MONTGOMER Y v. CARIBE TRANSPORT II, LLC\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 6,
+      "start": 1970,
+      "end": 2000,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 219 (2026) 225\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 7,
+      "start": 1288,
+      "end": 1289,
+      "text": "1",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 7,
+      "start": 1490,
+      "end": 1494,
+      "text": "2\n1 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 7,
+      "start": 1806,
+      "end": 1808,
+      "text": "2 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 65,
+      "text": "226 MONTGOMER Y v. CARIBE TRANSPORT II, LLC\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 8,
+      "start": 1560,
+      "end": 1561,
+      "text": "3",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 8,
+      "start": 1800,
+      "end": 1802,
+      "text": "3 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 8,
+      "start": 2218,
+      "end": 2248,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 219 (2026) 227\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 9,
+      "start": 1963,
+      "end": 1993,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 65,
+      "text": "228 MONTGOMER Y v. CARIBE TRANSPORT II, LLC\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 10,
+      "start": 1376,
+      "end": 1377,
+      "text": "4",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 10,
+      "start": 1874,
+      "end": 1876,
+      "text": "4 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 10,
+      "start": 2170,
+      "end": 2200,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 219 (2026) 229\nKavanaugh, J., concurring\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 11,
+      "start": 257,
+      "end": 262,
+      "text": "* * *",
+      "reason": "Ornamental separator"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 1603,
+      "end": 1610,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 2,
+      "start": 314,
+      "end": 323,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 2,
+      "start": 416,
+      "end": 426,
+      "expectedText": "defnitions",
+      "text": "definitions"
+    },
+    {
+      "page": 2,
+      "start": 594,
+      "end": 600,
+      "expectedText": "defnes",
+      "text": "defines"
+    },
+    {
+      "page": 2,
+      "start": 1817,
+      "end": 1823,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 4,
+      "start": 608,
+      "end": 614,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 5,
+      "start": 1000,
+      "end": 1013,
+      "expectedText": "ineffciencies",
+      "text": "inefficiencies"
+    },
+    {
+      "page": 5,
+      "start": 1083,
+      "end": 1089,
+      "expectedText": "stifed",
+      "text": "stifled"
+    },
+    {
+      "page": 5,
+      "start": 1437,
+      "end": 1447,
+      "expectedText": "fexibility",
+      "text": "flexibility"
+    },
+    {
+      "page": 5,
+      "start": 1598,
+      "end": 1601,
+      "expectedText": "fow",
+      "text": "flow"
+    },
+    {
+      "page": 5,
+      "start": 1612,
+      "end": 1618,
+      "expectedText": "traffc",
+      "text": "traffic"
+    },
+    {
+      "page": 6,
+      "start": 1412,
+      "end": 1426,
+      "expectedText": "tractortrailer",
+      "text": "tractor-trailer"
+    },
+    {
+      "page": 7,
+      "start": 340,
+      "end": 348,
+      "expectedText": "defcient",
+      "text": "deficient"
+    },
+    {
+      "page": 7,
+      "start": 366,
+      "end": 378,
+      "expectedText": "qualifcation",
+      "text": "qualification"
+    },
+    {
+      "page": 7,
+      "start": 1133,
+      "end": 1140,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 8,
+      "start": 1047,
+      "end": 1056,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 8,
+      "start": 1136,
+      "end": 1141,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 8,
+      "start": 1327,
+      "end": 1337,
+      "expectedText": "defnitions",
+      "text": "definitions"
+    },
+    {
+      "page": 8,
+      "start": 1576,
+      "end": 1582,
+      "expectedText": "defnes",
+      "text": "defines"
+    },
+    {
+      "page": 10,
+      "start": 458,
+      "end": 464,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 8,
+      "start": 1790,
+      "end": 1799,
+      "expectedText": "“with re-",
+      "text": "“with re"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete Court opinion checked against published PDF. Removed counsel material interrupting the matchmakers paragraph and running furniture. Four notes individually separated and inserted at markers; note1 is citation-only and retains individual references. Joined Varela-Mojena and respect across source page boundaries. All substantive quotations and explanatory parentheticals retained; source-only citations omitted from speech."
+}

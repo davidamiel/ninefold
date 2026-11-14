@@ -1,0 +1,1158 @@
+{
+  "reviewed": true,
+  "documentId": "24-935-f3be30f7d76e--4-55",
+  "sourceDocumentId": "24-935-f3be30f7d76e",
+  "sourceTextPath": "dist/data/docs/24-935-f3be30f7d76e.json",
+  "sourceTextSha256": "64b8873492b1bc789f199c8299db978402022721bd9d0ca35d8e15492a345429",
+  "sourcePdfPath": "dist/data/pdfs/24-935-f3be30f7d76e--4-55.pdf",
+  "sourcePdfSha256": "0a4931b6045266c4cb792ba07e73334a579a3ae4264c8263d0907af471da993c",
+  "title": "Opinion of the Court",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-05-28",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r37_i425.pdf",
+  "sourceRange": {
+    "startPage": 4,
+    "startOffset": 107,
+    "endPage": 11,
+    "endOffset": 309
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 107,
+          "end": 522
+        }
+      ],
+      "citations": [
+        {
+          "start": 105,
+          "end": 114,
+          "text": "Section 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 313,
+          "end": 328,
+          "text": "9 U. S. C. § 1.",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 522,
+          "end": 523
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 524,
+          "end": 964
+        }
+      ],
+      "citations": [
+        {
+          "start": 282,
+          "end": 355,
+          "text": "Bissonnette v. LePage Bakeries Park St., LLC , 601 U. S. 246, 249 (2024).",
+          "type": "case",
+          "canonical": "601 U.S. 246"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 964,
+          "end": 1349
+        }
+      ],
+      "citations": [
+        {
+          "start": 168,
+          "end": 173,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "601 U.S. 246"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Flowers['s]",
+          "to": "Flowers's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1349,
+          "end": 1467
+        },
+        {
+          "page": 5,
+          "start": 54,
+          "end": 720
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 720,
+          "end": 1782
+        }
+      ],
+      "citations": [
+        {
+          "start": 41,
+          "end": 55,
+          "text": "9 U. S. C. § 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 144,
+          "end": 147,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 401,
+          "end": 405,
+          "text": "§ 1.",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1"
+        },
+        {
+          "start": 692,
+          "end": 728,
+          "text": "121 F. 4th 753, 757–761 (CA10 2024).",
+          "type": "case",
+          "canonical": "121 F.4th 753"
+        },
+        {
+          "start": 786,
+          "end": 798,
+          "text": "Id., at 761.",
+          "type": "case",
+          "canonical": "121 F.4th 753"
+        },
+        {
+          "start": 1027,
+          "end": 1061,
+          "text": "Id., at 764; see also id., at 766.",
+          "type": "case",
+          "canonical": "121 F.4th 753"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1",
+          "to": "Section 1"
+        },
+        {
+          "from": "9 U. S. C. § 1",
+          "to": "Section 1 of Title 9"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1782,
+          "end": 2112
+        }
+      ],
+      "citations": [
+        {
+          "start": 175,
+          "end": 178,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 254,
+          "end": 271,
+          "text": "Pet. for Cert. i.",
+          "type": "record",
+          "canonical": "Pet. for Cert. i."
+        },
+        {
+          "start": 308,
+          "end": 329,
+          "text": "607 U. S. 992 (2025).",
+          "type": "case",
+          "canonical": "607 U.S. 992"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1",
+          "to": "Section 1"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 55,
+          "end": 57
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 58,
+          "end": 944
+        }
+      ],
+      "citations": [
+        {
+          "start": 62,
+          "end": 65,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 200,
+          "end": 223,
+          "text": ", 586 U. S. 105 (2019),",
+          "type": "case",
+          "canonical": "586 U.S. 105"
+        },
+        {
+          "start": 267,
+          "end": 270,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 353,
+          "end": 365,
+          "text": "Id., at 116.",
+          "type": "case",
+          "canonical": "586 U.S. 105"
+        },
+        {
+          "start": 406,
+          "end": 429,
+          "text": ", 596 U. S. 450 (2022),",
+          "type": "case",
+          "canonical": "596 U.S. 450"
+        },
+        {
+          "start": 497,
+          "end": 500,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 580,
+          "end": 597,
+          "text": "Id., at 459, 461.",
+          "type": "case",
+          "canonical": "596 U.S. 450"
+        },
+        {
+          "start": 660,
+          "end": 663,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 835,
+          "end": 888,
+          "text": "601 U. S., at 256 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "601 U.S. 246"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "play[s]",
+          "to": "plays"
+        },
+        {
+          "from": "§ 1",
+          "to": "Section 1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 944,
+          "end": 1580
+        }
+      ],
+      "citations": [
+        {
+          "start": 122,
+          "end": 125,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 317,
+          "end": 320,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 368,
+          "end": 391,
+          "text": "596 U. S., at 459, 461.",
+          "type": "case",
+          "canonical": "596 U.S. 450"
+        },
+        {
+          "start": 414,
+          "end": 417,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 575,
+          "end": 578,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1",
+          "to": "Section 1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1580,
+          "end": 2097
+        },
+        {
+          "page": 7,
+          "start": 54,
+          "end": 482
+        }
+      ],
+      "citations": [
+        {
+          "start": 31,
+          "end": 40,
+          "text": "Section 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 237,
+          "end": 347,
+          "text": "Black's Law Dictionary 661 (3d ed. 1933) (Black's); see also Webster's New International Dictionary 725 (1913)",
+          "type": "record",
+          "canonical": "Black's Law Dictionary 661 (3d ed. 1933) (Black's); see also Webster's New International Dictionary 725 (1913)"
+        },
+        {
+          "start": 683,
+          "end": 762,
+          "text": "Black's 1001; see also Cyclopedic Law Dictionary 548 (2d ed. 1922) (Cyclopedic)",
+          "type": "record",
+          "canonical": "Black's 1001; see also Cyclopedic Law Dictionary 548 (2d ed. 1922) (Cyclopedic)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "employ[ed]",
+          "to": "employed"
+        },
+        {
+          "from": "involve[d]",
+          "to": "involved"
+        },
+        {
+          "from": "[t]raffic",
+          "to": "traffic"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 482,
+          "end": 1131
+        }
+      ],
+      "citations": [
+        {
+          "start": 215,
+          "end": 228,
+          "text": "Black's 1001.",
+          "type": "record",
+          "canonical": "Black's 1001."
+        },
+        {
+          "start": 453,
+          "end": 468,
+          "text": "Cyclopedic 548.",
+          "type": "record",
+          "canonical": "Cyclopedic 548."
+        },
+        {
+          "start": 636,
+          "end": 648,
+          "text": "Black's 661.",
+          "type": "record",
+          "canonical": "Black's 661."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "employ[ed]",
+          "to": "employed"
+        },
+        {
+          "from": "involve[d]",
+          "to": "involved"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1131,
+          "end": 1625
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1625,
+          "end": 2030
+        },
+        {
+          "page": 8,
+          "start": 86,
+          "end": 564
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 564,
+          "end": 2112
+        },
+        {
+          "page": 9,
+          "start": 54,
+          "end": 567
+        }
+      ],
+      "citations": [
+        {
+          "start": 138,
+          "end": 159,
+          "text": ", 10 Wall. 557 (1871)",
+          "type": "record",
+          "canonical": ", 10 Wall. 557 (1871)"
+        },
+        {
+          "start": 276,
+          "end": 288,
+          "text": "Id., at 565.",
+          "type": "case",
+          "canonical": "77 U.S. 557"
+        },
+        {
+          "start": 577,
+          "end": 582,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "77 U.S. 557"
+        },
+        {
+          "start": 664,
+          "end": 669,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "77 U.S. 557"
+        },
+        {
+          "start": 935,
+          "end": 940,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "77 U.S. 557"
+        },
+        {
+          "start": 1198,
+          "end": 1221,
+          "text": ", 203 U. S. 507 (1906),",
+          "type": "case",
+          "canonical": "203 U.S. 507"
+        },
+        {
+          "start": 1476,
+          "end": 1493,
+          "text": "Id., at 510– 513.",
+          "type": "case",
+          "canonical": "203 U.S. 507"
+        },
+        {
+          "start": 1511,
+          "end": 1534,
+          "text": ", 170 U. S. 412 (1898),",
+          "type": "case",
+          "canonical": "170 U.S. 412"
+        },
+        {
+          "start": 1748,
+          "end": 1769,
+          "text": "Id., at 413–414, 426.",
+          "type": "case",
+          "canonical": "170 U.S. 412"
+        },
+        {
+          "start": 1817,
+          "end": 1840,
+          "text": ", 136 U. S. 114 (1890),",
+          "type": "case",
+          "canonical": "136 U.S. 114"
+        },
+        {
+          "start": 1965,
+          "end": 2046,
+          "text": "Id., at 119–120; see also id., at 119 (citing The Daniel Ball, 10 Wall., at 565).",
+          "type": "case",
+          "canonical": "77 U.S. 557"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "[a]",
+          "to": "a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 567,
+          "end": 1848
+        }
+      ],
+      "citations": [
+        {
+          "start": 131,
+          "end": 134,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 204,
+          "end": 207,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 337,
+          "end": 340,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 420,
+          "end": 499,
+          "text": "Circuit City Stores, Inc. v. Adams, 532 U. S. 105, 119 (2001) (emphasis added).",
+          "type": "case",
+          "canonical": "532 U.S. 105"
+        },
+        {
+          "start": 772,
+          "end": 832,
+          "text": "Saxon, 596 U. S., at 458 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "596 U.S. 450"
+        },
+        {
+          "start": 1037,
+          "end": 1071,
+          "text": "The Daniel Ball, 10 Wall., at 565.",
+          "type": "case",
+          "canonical": "77 U.S. 557"
+        },
+        {
+          "start": 1114,
+          "end": 1117,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1",
+          "to": "Section 1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1848,
+          "end": 2138
+        },
+        {
+          "page": 10,
+          "start": 55,
+          "end": 412
+        }
+      ],
+      "citations": [
+        {
+          "start": 104,
+          "end": 107,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 193,
+          "end": 253,
+          "text": "Saxon, 596 U. S., at 458 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "596 U.S. 450"
+        },
+        {
+          "start": 634,
+          "end": 647,
+          "text": "Black's 1001.",
+          "type": "record",
+          "canonical": "Black's 1001."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "activ[e]",
+          "to": "active"
+        },
+        {
+          "from": "§ 1",
+          "to": "Section 1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 412,
+          "end": 1898
+        }
+      ],
+      "citations": [
+        {
+          "start": 134,
+          "end": 137,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 315,
+          "end": 339,
+          "text": "Brief for Petitioners 9.",
+          "type": "record",
+          "canonical": "Brief for Petitioners 9."
+        },
+        {
+          "start": 475,
+          "end": 478,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 492,
+          "end": 576,
+          "text": "Compare Fli-Lo Falcon, LLC v. Amazon.com, Inc., 97 F. 4th 1190, 1197–1198 (CA9 2024)",
+          "type": "case",
+          "canonical": "97 F.4th 1190"
+        },
+        {
+          "start": 586,
+          "end": 589,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 656,
+          "end": 734,
+          "text": "Silva v. Schmidt Baking Distribution, LLC , 162 F. 4th 354, 356–357 (CA2 2025)",
+          "type": "case",
+          "canonical": "162 F.4th 354"
+        },
+        {
+          "start": 744,
+          "end": 747,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 944,
+          "end": 973,
+          "text": "Brief for Petitioners 21, 42.",
+          "type": "record",
+          "canonical": "Brief for Petitioners 21, 42."
+        },
+        {
+          "start": 1056,
+          "end": 1059,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1069,
+          "end": 1140,
+          "text": "See, e. g., Rittmann v. Amazon.com, Inc., 971 F. 3d 904, 916 (CA9 2020)",
+          "type": "case",
+          "canonical": "971 F.3d 904"
+        },
+        {
+          "start": 1244,
+          "end": 1266,
+          "text": "121 F. 4th, at 766–767",
+          "type": "case",
+          "canonical": "121 F.4th 753"
+        },
+        {
+          "start": 1303,
+          "end": 1364,
+          "text": "Immediato v. Postmates, Inc., 54 F. 4th 67, 72, 78 (CA1 2022)",
+          "type": "case",
+          "canonical": "54 F.4th 67"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "compan[y]",
+          "to": "company"
+        },
+        {
+          "from": "destinatio[n]",
+          "to": "destination"
+        },
+        {
+          "from": "§ 1",
+          "to": "Section 1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1898,
+          "end": 2146
+        },
+        {
+          "page": 11,
+          "start": 54,
+          "end": 243
+        }
+      ],
+      "citations": [
+        {
+          "start": 243,
+          "end": 246,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 351,
+          "end": 354,
+          "text": "§ 1",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1",
+          "to": "Section 1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 245,
+          "end": 309
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 1467,
+      "end": 2128,
+      "text": "J. Ginsburg and Darin M. Dalmat; for the Constitutional Accountability\nCenter by Elizabeth B. Wydra and Brianne J. Gorod; for the National\nEmployment Law Project by Catherine Ruckelshaus, Harold L. Lichten,\nShannon Liss-Riordan, and Matthew Thomson; and for Professors and\nScholars of Linguistics and Law by Peter Romer-Friedman.\nBriefs of amici curiae were fled for the Coalition for Workforce Innovation by Alex T. MacDonald; for the National Academy of Arbitrators by\nBarry Winograd and Joshua M. Javits; and for Public Justice et al. by\nShelby Leighton, Leah M. Nicholls, Sachin S. Pandya, Bruce Plaxen, and\nJeffrey R. White .\nPage Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 54,
+      "text": "384 FLOWERS FOODS, INC. v. BROCK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 2112,
+      "end": 2142,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 380 (2026) 385\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2097,
+      "end": 2127,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 54,
+      "text": "386 FLOWERS FOODS, INC. v. BROCK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 2030,
+      "end": 2060,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 380 (2026) 387\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 54,
+      "text": "388 FLOWERS FOODS, INC. v. BROCK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2138,
+      "end": 2168,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 380 (2026) 389\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 2146,
+      "end": 2176,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 54,
+      "text": "390 FLOWERS FOODS, INC. v. BROCK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 243,
+      "end": 245,
+      "text": "*\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 4,
+      "start": 776,
+      "end": 780,
+      "expectedText": "foat",
+      "text": "float"
+    },
+    {
+      "page": 4,
+      "start": 1825,
+      "end": 1829,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 128,
+      "end": 132,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 711,
+      "end": 718,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 6,
+      "start": 544,
+      "end": 546,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 6,
+      "start": 594,
+      "end": 596,
+      "expectedText": "fy",
+      "text": "fly"
+    },
+    {
+      "page": 6,
+      "start": 860,
+      "end": 863,
+      "expectedText": "fow",
+      "text": "flow"
+    },
+    {
+      "page": 8,
+      "start": 1897,
+      "end": 1901,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 9,
+      "start": 2105,
+      "end": 2112,
+      "expectedText": "reaffrm",
+      "text": "reaffirm"
+    },
+    {
+      "page": 10,
+      "start": 864,
+      "end": 873,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 10,
+      "start": 1809,
+      "end": 1818,
+      "expectedText": "fulflling",
+      "text": "fulfilling"
+    },
+    {
+      "page": 10,
+      "start": 2008,
+      "end": 2019,
+      "expectedText": "signifcance",
+      "text": "significance"
+    },
+    {
+      "page": 11,
+      "start": 282,
+      "end": 289,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 6,
+      "start": 2074,
+      "end": 2079,
+      "expectedText": "raffc",
+      "text": "raffic"
+    },
+    {
+      "page": 10,
+      "start": 464,
+      "end": 475,
+      "expectedText": "crossor-tag",
+      "text": "cross-or-tag"
+    },
+    {
+      "page": 4,
+      "start": 1457,
+      "end": 1466,
+      "expectedText": "distribu-",
+      "text": "distribu"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read all Court-opinion source prose through the disposition; there are no substantive footnotes. Counsel continuation and Reporter publication note excluded. Reviewed cross-page distributors join, ligatures and cross-or-tag compound. Exact source-only citation omissions retain all dictionary definitions, hypothetical examples, quotations and explanatory parentheticals. Grammatical statutory mentions retained in speech and linked inline."
+}

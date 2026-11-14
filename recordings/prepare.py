@@ -30,10 +30,13 @@ def span_chars(span, source, repairs):
     if not 0 <= start < end <= len(raw):
         raise ValueError('Invalid source span')
     chars = [(ch, page, i) for i, ch in enumerate(raw[start:end], start)]
-    page_repairs = sorted((r for r in repairs if r['page'] == page), key=lambda r: r['start'], reverse=True)
+    page_repairs = sorted((r for r in repairs if r['page'] == page and start <= r['start'] < r['end'] <= end), key=lambda r: r['start'])
+    previous_end = start
     for repair in page_repairs:
-        if not start <= repair['start'] < repair['end'] <= end:
-            continue
+        if repair['start'] < previous_end:
+            raise ValueError('Reviewed source text repairs overlap')
+        previous_end = repair['end']
+    for repair in reversed(page_repairs):
         if raw[repair['start']:repair['end']] != repair['expectedText']:
             raise ValueError('A reviewed text repair no longer matches its source')
         a, b = repair['start'] - start, repair['end'] - start
@@ -86,6 +89,7 @@ def clean_block(block, source, repairs):
         append_span(chars, part, span, separator)
     chars = normalize_chars(chars)
     return {'kind': block.get('kind', 'paragraph'), **({'label': block['label']} if 'label' in block else {}),
+            **({'citationOnly': True} if block.get('citationOnly') else {}),
             'text': ''.join(c[0] for c in chars), 'segments': source_segments(chars)}
 
 
@@ -164,6 +168,8 @@ def pronounce(text, changes, block_index):
 
 
 def spoken_text(paragraph, block, citations, index):
+    if paragraph.get('citationOnly'):
+        return None
     text = paragraph['text']
     for citation in reversed(citations):
         if citation.get('omitFromSpeech', True):

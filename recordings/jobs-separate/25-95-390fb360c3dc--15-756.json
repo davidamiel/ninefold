@@ -1,0 +1,101 @@
+{
+  "documentId": "25-95-390fb360c3dc--15-756",
+  "sourceDocumentId": "25-95-390fb360c3dc",
+  "sourceTextPath": "dist/data/docs/25-95-390fb360c3dc.json",
+  "sourceTextSha256": "fb143565af8a24e2d812d4b225e23b498005f991ba9d7a3b68f6149af48ec4d9",
+  "sourcePdfPath": "dist/data/pdfs/25-95-390fb360c3dc--15-756.pdf",
+  "sourcePdfSha256": "c88a8d87ad5731b0251b6ead944588e0a5ebc4aaedd3d74ccc3d9cf44288e03a",
+  "title": "Concurrence",
+  "author": "Sonia Sotomayor",
+  "date": "2026-06-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r54_d18e.pdf",
+  "sourceRange": {
+    "startPage": 15,
+    "startOffset": 839,
+    "endPage": 16,
+    "endOffset": 169
+  },
+  "review": "Reviewed complete separate writing against Court PDF, including page continuations. Running headers, publication footer and footnotes belonging to another writing excluded. No substantive footnote belongs to this writing.",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 839,
+          "end": 1556
+        },
+        {
+          "page": 16,
+          "start": 54,
+          "end": 169
+        }
+      ],
+      "citations": [
+        {
+          "start": 280,
+          "end": 292,
+          "text": "Ante, at 33.",
+          "type": "case",
+          "canonical": "609 U.S. 30"
+        },
+        {
+          "start": 460,
+          "end": 465,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "609 U.S. 30"
+        },
+        {
+          "start": 763,
+          "end": 779,
+          "text": "See ante, at 43.",
+          "type": "case",
+          "canonical": "609 U.S. 30"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 15,
+      "start": 1556,
+      "end": 1907,
+      "text": "5 The County argues that the Fifth and Eighth Amendments cannot both\napply to the same government action, and the United States argues that\nthe Excessive Fines Clause applies only to fnes connected with crimes.\nBecause we reject Pung's Eighth Amendment claim on other grounds, we\nneed not address these broader theories.\nPage Proof Pending Publication",
+      "reason": "Footnote belongs to the preceding writing, not this separate opinion; retained in that writing and the original PDF"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 54,
+      "text": "Cite as: 609 U. S. 30 (2026) 45\nOpinion of Thomas, J.\n",
+      "reason": "Running header or publication footer"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 16,
+      "start": 79,
+      "end": 82,
+      "expectedText": "fnd",
+      "text": "find"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Neil M. Gorsuch",
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "reviewed": true
+}

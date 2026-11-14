@@ -1,0 +1,172 @@
+{
+  "reviewed": true,
+  "documentId": "24-43-e9275532900a--36-1217",
+  "sourceDocumentId": "24-43-e9275532900a",
+  "sourceTextPath": "dist/data/docs/24-43-e9275532900a.json",
+  "sourceTextSha256": "bee6d08d51b1f80dac12448b25bfd8a5fa219466e30742d2db448c42674ee8f4",
+  "sourcePdfPath": "dist/data/pdfs/24-43-e9275532900a--36-1217.pdf",
+  "sourcePdfSha256": "c37eb83b89cf3b6cf2ed657d82c36eb8c5f4e969f3a753b98db0f3571953a8d4",
+  "title": "Concurrence",
+  "author": "Clarence Thomas",
+  "date": "2026-06-30",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf",
+  "sourceRange": {
+    "startPage": 36,
+    "startOffset": 1245,
+    "endPage": 37,
+    "endOffset": 1574
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1245,
+          "end": 1559
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Title IX",
+          "to": "Title nine"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1559,
+          "end": 1908
+        },
+        {
+          "page": 37,
+          "start": 54,
+          "end": 855
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 180,
+          "text": "United States v. Skrmetti, 605 U. S. 495, 547–557 (2025) (Barrett, J., concurring).",
+          "type": "case",
+          "canonical": "605 U.S. 495"
+        },
+        {
+          "start": 349,
+          "end": 400,
+          "text": "Id., at 550–551 (internal quotation marks omitted);",
+          "type": "case",
+          "canonical": "605 U.S. 495"
+        },
+        {
+          "start": 401,
+          "end": 486,
+          "text": "see also id., at 566–567 (Alito , J., concurring in part and concurring in judgment).",
+          "type": "case",
+          "canonical": "605 U.S. 495"
+        },
+        {
+          "start": 873,
+          "end": 925,
+          "text": "See, e. g., Heller v. Doe, 509 U. S. 312, 321 (1993)",
+          "type": "case",
+          "canonical": "509 U.S. 312"
+        },
+        {
+          "start": 944,
+          "end": 984,
+          "text": "Plyler v. Doe, 457 U. S. 202, 220 (1982)",
+          "type": "case",
+          "canonical": "457 U.S. 202"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 855,
+          "end": 1574
+        }
+      ],
+      "citations": [
+        {
+          "start": 103,
+          "end": 121,
+          "text": "Ante, at 975, 991.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 975, 991"
+        },
+        {
+          "start": 266,
+          "end": 287,
+          "text": "see ante, at 974–975;",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 974–975"
+        },
+        {
+          "start": 409,
+          "end": 503,
+          "text": "See A. Byrne, Are Women Adult Human Females? 177 Philosophical Studies 3783, 3786–3787 (2020).",
+          "type": "reference",
+          "canonical": "A. Byrne, Are Women Adult Human Females? (2020)"
+        },
+        {
+          "start": 660,
+          "end": 718,
+          "text": "J. Pieper, Abuse of Language—Abuse of Power 17, 21 (1992).",
+          "type": "reference",
+          "canonical": "J. Pieper, Abuse of Language—Abuse of Power (1992)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "equal[s]",
+          "to": "equals"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 36,
+      "start": 1908,
+      "end": 1938,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 37,
+      "start": 0,
+      "end": 54,
+      "text": "994 WEST VIRGINIA v. B. P. J.\nGorsuch, J., concurring\n",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 36,
+      "start": 1356,
+      "end": 1368,
+      "expectedText": "sexseparated",
+      "text": "sex-separated"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read the complete writing and compared against rendered official PDF slice. Retained prose, quotations and substantive explanatory parentheticals; removed source-only citations, publication furniture and preceding writers’ notes."
+}

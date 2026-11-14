@@ -4,7 +4,7 @@ import json
 import unittest
 
 from generate import ROOT
-from prepare import prepare, validate_coverage
+from prepare import prepare, validate_coverage, span_chars
 
 
 class ReviewedPreparation(unittest.TestCase):
@@ -49,6 +49,13 @@ class ReviewedPreparation(unittest.TestCase):
         job['sourcePdfSha256'] = '0'*64
         with self.assertRaisesRegex(ValueError, 'source changed'):
             prepare(job)
+
+    def test_overlapping_repairs_cannot_corrupt_a_joined_word(self):
+        source={'pages':[{'text':'beneft pay-'}]}
+        repairs=[{'page':0,'start':0,'end':6,'expectedText':'beneft','text':'benefit'},
+                 {'page':0,'start':0,'end':10,'expectedText':'beneft pay-','text':'benefit pay'}]
+        with self.assertRaisesRegex(ValueError,'repairs overlap'):
+            span_chars({'page':0,'start':0,'end':10},source,repairs)
         job = copy.deepcopy(self.job)
         next(b for b in job['blocks'] if b.get('citations'))['citations'][0]['start'] += 1
         with self.assertRaisesRegex(ValueError, 'citation offsets'):

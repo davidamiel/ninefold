@@ -10,14 +10,47 @@ from pathlib import Path
 from generate import ROOT, load_job, local_path
 
 
+class AlignmentReviewError(ValueError):
+    def __init__(self, block, message):
+        super().__init__(message)
+        self.block = block
+
+
 def tokens(text):
-    return [(m.group().lower(), m.start(), m.end()) for m in re.finditer(r'[A-Za-z0-9]+', text)]
+    return [(word, match.start(), match.end()) for match in re.finditer(r'[A-Za-z0-9]+', text)
+            for word in number_words(match.group().lower())]
+
+
+def number_words(value):
+    small = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split()
+    tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
+    if not value.isdigit() or len(value) > 2:
+        return [value]
+    number = int(value)
+    if number < 20:
+        return [small[number]]
+    return [tens[number//10]] + ([small[number % 10]] if number % 10 else [])
 
 
 def pairs(left, right):
     result = {}
     for block in difflib.SequenceMatcher(None, left, right, autojunk=False).get_matching_blocks():
         result.update((block.a+i, block.b+i) for i in range(block.size))
+    return result
+
+
+def timing_pairs(expected, heard):
+    """Accept close ASR spellings within an otherwise aligned word sequence."""
+    result = pairs(expected, heard)
+    matcher = difflib.SequenceMatcher(None, expected, heard, autojunk=False)
+    for tag, a, b, c, d in matcher.get_opcodes():
+        if tag != 'replace' or b-a != d-c or b-a > 4:
+            continue
+        for left, right in zip(range(a, b), range(c, d)):
+            if min(len(expected[left]), len(heard[right])) < 4:
+                continue
+            if difflib.SequenceMatcher(None, expected[left], heard[right]).ratio() >= .8:
+                result[left] = right
     return result
 
 
@@ -34,7 +67,7 @@ def source_ranges(paragraph, start, end):
 def paragraph_alignment(para, canonical, words):
     expected = tokens(para['text'])
     heard = [(token, w) for w in words if w['end'] > para['start'] and w['start'] < para['end'] for token, _, _ in tokens(w['text'])]
-    timing = pairs([t[0] for t in expected], [t[0] for t in heard])
+    timing = timing_pairs([t[0] for t in expected], [t[0] for t in heard])
     source = tokens(canonical['text'])
     mapping = pairs([t[0] for t in expected], [t[0] for t in source])
     return {'expected': expected, 'heard': heard, 'timing': timing, 'source': source, 'mapping': mapping}
@@ -52,11 +85,13 @@ def sentence_source_bounds(canonical, source, mapped, transition):
 def sentence_cue(sentence, para, canonical, alignment, block_index):
     text = para['text'][sentence['start']:sentence['end']]
     indexes = [i for i, t in enumerate(alignment['expected']) if sentence['start'] <= t[1] < sentence['end']]
+    if not indexes:
+        return None  # Closing quotation punctuation has no separately spoken words.
     timed = [alignment['heard'][alignment['timing'][i]][1] for i in indexes if i in alignment['timing']]
     mapped = [alignment['mapping'][i] for i in indexes if i in alignment['mapping']]
     transition = bool(re.fullmatch(r'End footnote \d+\.', text.strip()))
     if not timed or len(timed)/max(1, len(indexes)) < .5 or not mapped and not transition:
-        raise ValueError(f'Audio sentence needs review: block {block_index}: {text}')
+        raise AlignmentReviewError(block_index, f'Audio sentence needs review: block {block_index}: {text}')
     start, end = sentence_source_bounds(canonical, alignment['source'], mapped, transition)
     cue = {'start': round(max(para['start'], timed[0]['start']), 3), 'end': round(min(para['end'], timed[-1]['end']), 3),
            'paragraph': block_index, 'ranges': source_ranges(canonical, start, end), 'text': text}
@@ -92,11 +127,59 @@ def align(body, narration, report, words):
         ratio = matched/max(1, expected)
         coverage.append({'paragraph': block_index, 'matchedWords': matched, 'expectedWords': expected, 'coverage': ratio})
         if ratio < .8:
-            raise ValueError(f'Audio needs review: block {block_index}, word coverage {ratio:.1%}')
-        cues.extend(sentence_cue(sentence, para, canonical, alignment, block_index) for sentence in ranges)
+            raise AlignmentReviewError(block_index, f'Audio needs review: block {block_index}, word coverage {ratio:.1%}')
+        cues.extend(cue for sentence in ranges if (cue := sentence_cue(sentence, para, canonical, alignment, block_index)))
     close_cue_gaps(cues)
     return {'version': body['version'], 'duration': report['duration'], 'voice': report['voice'],
             'audioSha256': report['audioSha256'], 'cues': cues, 'coverage': coverage}
+
+
+def align_with_repairs(body, narration, report, words, refine):
+    """Recheck only failed acoustic paragraphs; never supply the expected text."""
+    repaired = set()
+    while True:
+        try:
+            return align(body, narration, report, words), words
+        except AlignmentReviewError as error:
+            if error.block in repaired:
+                raise
+            repaired.add(error.block)
+            index = narration['spokenBlocks'].index(error.block)
+            paragraph = report['paragraphs'][index]
+            replacement = refine(paragraph['start'], paragraph['end'])
+            words = [w for w in words if w['end'] <= paragraph['start'] or w['start'] >= paragraph['end']]
+            words = sorted(words+replacement, key=lambda word: word['start'])
+
+
+def decode_audio(audio):
+    import av
+    import numpy as np
+    resampler = av.AudioResampler(format='fltp', layout='mono', rate=16000)
+    frames = []
+    with av.open(str(audio)) as media:
+        for frame in media.decode(audio=0):
+            frames.extend(f.to_ndarray().reshape(-1) for f in resampler.resample(frame))
+    frames.extend(f.to_ndarray().reshape(-1) for f in resampler.resample(None))
+    return np.concatenate(frames)
+
+
+class Transcriber:
+    def __init__(self, audio):
+        self.audio = audio
+        self.model = None
+        self.samples = None
+
+    def words(self, start=0, end=None):
+        if self.model is None:
+            from faster_whisper import WhisperModel
+            self.model = WhisperModel('base.en', device='cpu', compute_type='int8', cpu_threads=6,
+                                      download_root=str(ROOT/'scripts/cache/narration/whisper'), local_files_only=True)
+        if self.samples is None:
+            self.samples = decode_audio(self.audio)
+        samples = self.samples[round(start*16000):round(end*16000) if end is not None else None]
+        segments, _ = self.model.transcribe(samples, language='en', beam_size=5, word_timestamps=True,
+                                            vad_filter=False, condition_on_previous_text=False)
+        return [{'text': w.word, 'start': start+w.start, 'end': start+w.end} for segment in segments for w in segment.words]
 
 
 def main():
@@ -117,29 +200,15 @@ def main():
     if audio_hash != report['audioSha256']:
         raise ValueError('Audio changed after generation')
     from importlib.metadata import version
-    identity = hashlib.sha256((audio_hash+'|base.en|beam5|'+version('faster-whisper')).encode()).hexdigest()[:20]
+    identity = hashlib.sha256((audio_hash+'|base.en|beam5|vad:false|'+version('faster-whisper')).encode()).hexdigest()[:20]
     cache = local_path(folder/(identity+'-words.json'), folder)
+    transcriber = Transcriber(audio)
     if cache.exists():
         words = json.loads(cache.read_text())
     else:
-        from faster_whisper import WhisperModel
-        model = WhisperModel('base.en', device='cpu', compute_type='int8', cpu_threads=6,
-                             download_root=str(ROOT/'scripts/cache/narration/whisper'), local_files_only=True)
-        # Decode explicitly so alignment does not depend on PyAV's changing
-        # container metadata keyword arguments in the transcription wrapper.
-        import av
-        import numpy as np
-        resampler = av.AudioResampler(format='fltp', layout='mono', rate=16000)
-        frames = []
-        with av.open(str(audio)) as media:
-            for frame in media.decode(audio=0):
-                frames.extend(f.to_ndarray().reshape(-1) for f in resampler.resample(frame))
-        frames.extend(f.to_ndarray().reshape(-1) for f in resampler.resample(None))
-        segments, _ = model.transcribe(np.concatenate(frames), language='en', beam_size=5, word_timestamps=True,
-                                       vad_filter=True, condition_on_previous_text=False)
-        words = [{'text': w.word, 'start': w.start, 'end': w.end} for segment in segments for w in segment.words]
-        cache.write_text(json.dumps(words)+'\n')
-    result = align(body, narration, report, words)
+        words = transcriber.words()
+    result, words = align_with_repairs(body, narration, report, words, transcriber.words)
+    cache.write_text(json.dumps(words)+'\n')
     destination = local_path(folder/(args.voice+'-cues.json'), folder)
     destination.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n')
     print('Aligned reviewed recording:', document_id, args.voice, flush=True)

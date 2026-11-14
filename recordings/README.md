@@ -59,3 +59,37 @@ are keyed by the MP3 and alignment settings. Staging requires both approved
 voices and matching text, audio hashes and cues, then replaces the public
 inventory last. These commands never upload or deploy. Review the resulting
 reader and playback in desktop and mobile browsers before publishing.
+
+## Continuous batches
+
+Reviewed jobs live under `recordings/jobs/`, `jobs-separate/`, and
+`jobs-separate-extra/`. Drafts stay `reviewed:false`; finish source, citation and
+pronunciation review before setting `reviewed:true`. Freeze a reviewed file while
+its audio is being generated.
+
+The batch command processes ready jobs with one generation worker, skips already
+staged matching versions, resumes validated clips/recordings, and records progress
+under ignored `work/recordings/`. A failed alignment holds that writing for review
+and the next ready job continues. Source-only footnotes may be explicitly marked
+`citationOnly:true`; their references remain individually available in the reader.
+
+On Apple Silicon, install `mlx-requirements.txt` and `alignment-requirements.txt`
+in a Python 3.12 environment. The GPU uses the same Kokoro Sky and Michael voices.
+Download the files/revision recorded in `mlx-model.json` to
+`scripts/cache/narration/mlx-kokoro/`, and install spaCy's `en_core_web_sm` 3.8.0
+English language model. All of these dependencies stay on the generating computer.
+
+```sh
+python recordings/batch.py recordings/jobs recordings/jobs-separate recordings/jobs-separate-extra --engine mlx
+```
+
+If generation and alignment use separate environments, supply
+`--generation-python` and `--alignment-python`. GPU access must be available to
+the process. CPU-only generation remains available with `--engine onnx` and the
+original requirements/model files.
+
+Alignment uses acoustic transcription without the expected script as a prompt.
+Only unclear paragraphs are transcribed again in isolation; coverage checks stay
+in force. Number spellings and close ASR spellings are matched for timing without
+changing the reader or narration. Identical writings appearing under consolidated
+dockets share the staged recording only after their original text and ranges match.

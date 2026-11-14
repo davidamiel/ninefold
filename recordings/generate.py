@@ -30,8 +30,12 @@ if __name__=='__main__':
     parser.add_argument('--output',type=Path,default=Path('work/recordings'))
     parser.add_argument('--model',type=Path,default=Path('scripts/cache/narration/kokoro-v1.0.onnx'))
     parser.add_argument('--voices',type=Path,default=Path('scripts/cache/narration/voices-v1.0.bin'))
+    parser.add_argument('--resume',action='store_true')
+    parser.add_argument('--engine',choices=['onnx','mlx'],default='onnx')
+    parser.add_argument('--mlx-model',type=Path,default=Path('scripts/cache/narration/mlx-kokoro'))
     args=parser.parse_args()
     job,document_id=load_job(args.job);gender={'female':'female','male':'male'}[args.voice]
+    if job.get('reviewed') is False:raise ValueError('Review this preparation before generating audio')
     voice={'female':'af_sky','male':'am_michael'}[gender]
     output_root=local_path(args.output,ROOT/'work')
     output=local_path(output_root/document_id,output_root)
@@ -46,10 +50,30 @@ if __name__=='__main__':
     # Cache identity includes the actual local model and runtime, so changing
     # either cannot silently reuse audio made by a different generator.
     from importlib.metadata import version
-    fingerprint=hashlib.sha256(model.read_bytes()+voices.read_bytes()+version('kokoro-onnx').encode()+version('onnxruntime').encode()+b'pause:.18,.07;rate:1').hexdigest()
+    if args.engine=='mlx':
+        import mlx_backend
+        mlx_model=local_path(args.mlx_model,ROOT/'scripts/cache/narration')
+        fingerprint=mlx_backend.fingerprint(mlx_model)
+    else:
+        fingerprint=hashlib.sha256(model.read_bytes()+voices.read_bytes()+version('kokoro-onnx').encode()+version('onnxruntime').encode()+b'pause:.18,.07;rate:1').hexdigest()
     import av,numpy as np,soundfile as sf
-    from kokoro_onnx import Kokoro
-    tts=Kokoro(str(model),str(voices));pieces=[];paragraphs=[];offset=0;rate=24000
+    report_path=local_path(output/(gender+'.json'),output)
+    mp3_path=local_path(output/(gender+'.mp3'),output)
+    script_hash=hashlib.sha256(json.dumps(job['spokenParagraphs'],ensure_ascii=False).encode()).hexdigest()
+    if args.resume and report_path.exists() and mp3_path.exists():
+        report=json.loads(report_path.read_text())
+        valid=(report.get('generator')==fingerprint and report.get('version')==job.get('version')
+               and report.get('scriptSha256')==script_hash and report.get('voice')==voice
+               and report.get('audioSha256')==hashlib.sha256(mp3_path.read_bytes()).hexdigest())
+        if valid:
+            print('Reusing validated recording:',document_id,gender,flush=True)
+            raise SystemExit(0)
+    if args.engine=='mlx':
+        tts=mlx_backend.load(mlx_model)
+    else:
+        from kokoro_onnx import Kokoro
+        tts=Kokoro(str(model),str(voices))
+    pieces=[];paragraphs=[];offset=0;rate=24000
     for index,text in enumerate(job['spokenParagraphs']):
         text=' '.join(text.split())
         cache=local_path(output/(hashlib.sha256((voice+'|'+fingerprint+'|'+text).encode()).hexdigest()+'.wav'),output)
@@ -62,7 +86,8 @@ if __name__=='__main__':
             except (OSError,RuntimeError,ValueError):
                 pass  # An interrupted cache file is regenerated below.
         if samples is None:
-            samples,rate=tts.create(text,voice=voice,speed=1,lang='en-us',sentence_pause=.18,clause_pause=.07)
+            if args.engine=='mlx':samples,rate=mlx_backend.create(tts,text,voice)
+            else:samples,rate=tts.create(text,voice=voice,speed=1,lang='en-us',sentence_pause=.18,clause_pause=.07)
             if rate!=24000 or samples.ndim!=1 or not np.isfinite(samples).all() or len(samples)<rate*.1:raise ValueError('Invalid generated audio')
             temporary=local_path(cache.with_suffix('.tmp.wav'),output)
             sf.write(temporary,samples,rate,subtype='FLOAT')
@@ -89,4 +114,4 @@ if __name__=='__main__':
     peak=float(np.abs(decoded).max());rms=float(np.sqrt(np.mean(decoded**2)))
     if not np.isfinite(decoded).all() or peak>=1 or rms<.005 or abs(len(decoded)-len(audio))/rate>.1:
         raise ValueError('Encoded recording failed the audio integrity check')
-    report_path.write_text(json.dumps({'voice':voice,'version':job.get('version'),'generator':fingerprint,'audioSha256':hashlib.sha256(mp3_path.read_bytes()).hexdigest(),'decodedPeak':peak,'decodedRms':rms,'duration':len(audio)/rate,'sampleRate':rate,'paragraphs':paragraphs},indent=2)+'\n')
+    report_path.write_text(json.dumps({'voice':voice,'version':job.get('version'),'generator':fingerprint,'scriptSha256':script_hash,'audioSha256':hashlib.sha256(mp3_path.read_bytes()).hexdigest(),'decodedPeak':peak,'decodedRms':rms,'duration':len(audio)/rate,'sampleRate':rate,'paragraphs':paragraphs},indent=2)+'\n')
