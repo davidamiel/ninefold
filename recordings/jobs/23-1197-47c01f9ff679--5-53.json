@@ -439,6 +439,14 @@
         {
           "from": "coertion",
           "to": "coercion"
+        },
+        {
+          "from": "Article I",
+          "to": "Article One"
+        },
+        {
+          "from": "Article I",
+          "to": "Article One"
         }
       ]
     },
@@ -511,6 +519,10 @@
         {
           "from": "RLUIPA",
           "to": "ruh loo pah"
+        },
+        {
+          "from": "Article I",
+          "to": "Article One"
         }
       ]
     },
@@ -564,6 +576,10 @@
         {
           "from": "[any]",
           "to": "any"
+        },
+        {
+          "from": "Article I",
+          "to": "Article One"
         }
       ]
     },

@@ -689,7 +689,12 @@
           "canonical": "173 U.S. 509"
         }
       ],
-      "pronunciations": []
+      "pronunciations": [
+        {
+          "from": "Article I",
+          "to": "Article One"
+        }
+      ]
     },
     {
       "kind": "paragraph",
@@ -3027,6 +3032,10 @@
         {
           "from": "EPA",
           "to": "E P A"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
         }
       ]
     },

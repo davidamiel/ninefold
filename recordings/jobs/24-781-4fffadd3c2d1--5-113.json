@@ -523,6 +523,10 @@
         {
           "from": "[be]",
           "to": "be"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
         }
       ]
     },
@@ -597,7 +601,12 @@
           "canonical": "See ibid."
         }
       ],
-      "pronunciations": []
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
     },
     {
       "kind": "paragraph",
@@ -1377,6 +1386,10 @@
         {
           "from": "[and]",
           "to": "and"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
         }
       ]
     },
@@ -1434,6 +1447,10 @@
         {
           "from": "[the]",
           "to": "the"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
         }
       ]
     },
@@ -1474,7 +1491,12 @@
           "canonical": "Brief for Respondent"
         }
       ],
-      "pronunciations": []
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
     },
     {
       "kind": "paragraph",
@@ -2049,6 +2071,10 @@
         {
           "from": "[i]t",
           "to": "it"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
         }
       ]
     },
@@ -2218,6 +2244,10 @@
         {
           "from": "attack[s]",
           "to": "attacks"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
         }
       ]
     },

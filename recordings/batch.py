@@ -1,5 +1,6 @@
 """Process reviewed recording jobs sequentially, reusing completed audio work."""
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import fcntl
 import hashlib
@@ -30,17 +31,29 @@ def reviewed_jobs(paths):
                 yield candidate, job, identifier
 
 
-def process(path, generation_python, alignment_python, engine, alignment_device, log):
+def run_command(python, script, path, options, log):
+    print('Running', script, path.name, ' '.join(options), flush=True)
+    subprocess.run([str(python), str(ROOT/'recordings'/script), str(path), *options],
+                   cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, check=True)
+
+
+def process(path, generation_python, alignment_python, engine, alignment_device, log, parallel_align=False):
     commands = [(sys.executable, 'prepare.py', []),
                 (generation_python, 'generate.py', ['--voice', 'female', '--resume', '--engine', engine]),
-                (generation_python, 'generate.py', ['--voice', 'male', '--resume', '--engine', engine]),
-                (alignment_python, 'align.py', ['--voice', 'female', '--device', alignment_device]),
-                (alignment_python, 'align.py', ['--voice', 'male', '--device', alignment_device]),
-                (sys.executable, 'stage.py', [])]
+                (generation_python, 'generate.py', ['--voice', 'male', '--resume', '--engine', engine])]
     for python, script, options in commands:
-        print('Running', script, path.name, ' '.join(options), flush=True)
-        subprocess.run([str(python), str(ROOT/'recordings'/script), str(path), *options],
-                       cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, check=True)
+        run_command(python, script, path, options, log)
+    alignment = [[alignment_python, 'align.py', path, ['--voice', voice, '--device', alignment_device], log]
+                 for voice in ('female', 'male')]
+    if parallel_align:
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            pending = [pool.submit(run_command, *command) for command in alignment]
+            for result in pending:
+                result.result()
+    else:
+        for command in alignment:
+            run_command(*command)
+    run_command(sys.executable, 'stage.py', path, [], log)
 
 
 def pending_job(paths, attempted, inventory):
@@ -87,7 +100,7 @@ def run_batch(args, folder):
         save_status(status_path, status)
         try:
             with log_path.open('w') as log:
-                process(path, args.generation_python, args.alignment_python, args.engine, args.alignment_device, log)
+                process(path, args.generation_python, args.alignment_python, args.engine, args.alignment_device, log, args.parallel_align)
             status[identifier]['state'] = 'complete'
         except subprocess.CalledProcessError as error:
             status[identifier].update(state='failed', error=str(error), log=str(log_path.relative_to(ROOT)))
@@ -105,6 +118,7 @@ def main():
     parser.add_argument('--alignment-python', type=Path, default=Path(sys.executable))
     parser.add_argument('--engine', choices=['onnx', 'mlx'], default='onnx')
     parser.add_argument('--alignment-device', choices=['cpu', 'mps'], default='cpu')
+    parser.add_argument('--parallel-align', action='store_true', help='Align the two independent voices concurrently before staging')
     parser.add_argument('--watch', action='store_true')
     args = parser.parse_args()
     folder = local_path(ROOT/'work/recordings', ROOT/'work')

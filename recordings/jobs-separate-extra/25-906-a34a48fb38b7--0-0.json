@@ -1,0 +1,438 @@
+{
+  "reviewed": true,
+  "documentId": "25-906-a34a48fb38b7--0-0",
+  "sourceDocumentId": "25-906-a34a48fb38b7",
+  "sourceTextPath": "dist/data/docs/25-906-a34a48fb38b7.json",
+  "sourceTextSha256": "0debe6e17f704c8d993cdd6866320d53ff87e737d510a63a60085ec9cf14cb70",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/a34a48fb38b76f8987b4f33b.pdf",
+  "sourcePdfSha256": "9ff2356e9c5597e1d9e12b299e7122e85d36fdcb123d4eaa28b880ce9855297c",
+  "title": "Dissent",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-06-15",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-906_e2qg.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 2,
+    "endOffset": 539
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 489,
+          "end": 937
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "E. D.",
+          "to": "E D"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 937,
+          "end": 1403
+        }
+      ],
+      "citations": [
+        {
+          "start": 151,
+          "end": 173,
+          "text": ", 393 U. S. 503 (1969)",
+          "type": "case",
+          "canonical": "393 U.S. 503"
+        },
+        {
+          "start": 215,
+          "end": 237,
+          "text": ", 484 U. S. 260 (1988)",
+          "type": "case",
+          "canonical": "484 U.S. 260"
+        },
+        {
+          "start": 272,
+          "end": 328,
+          "text": "151 F. 4th 907, 914 (CA7 2025) (some citations omitted).",
+          "type": "case",
+          "canonical": "151 F.4th 907"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1403,
+          "end": 1871
+        },
+        {
+          "page": 1,
+          "start": 101,
+          "end": 171
+        }
+      ],
+      "citations": [
+        {
+          "start": 498,
+          "end": 521,
+          "text": "393 U. S., at 506, 513.",
+          "type": "case",
+          "canonical": "393 U.S. 503"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 171,
+          "end": 984
+        }
+      ],
+      "citations": [
+        {
+          "start": 255,
+          "end": 273,
+          "text": "484 U. S., at 271.",
+          "type": "case",
+          "canonical": "484 U.S. 260"
+        },
+        {
+          "start": 465,
+          "end": 477,
+          "text": "Id., at 273.",
+          "type": "case",
+          "canonical": "484 U.S. 260"
+        },
+        {
+          "start": 701,
+          "end": 713,
+          "text": "Id., at 262;",
+          "type": "case",
+          "canonical": "484 U.S. 260"
+        },
+        {
+          "start": 714,
+          "end": 793,
+          "text": "see also Morse v. Frederick, 551 U. S. 393, 423 (2007) (ALITO, J., concurring).",
+          "type": "case",
+          "canonical": "551 U.S. 393"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 984,
+          "end": 2173
+        },
+        {
+          "page": 2,
+          "start": 76,
+          "end": 374
+        }
+      ],
+      "citations": [
+        {
+          "start": 408,
+          "end": 462,
+          "text": "See, e.g., Garcetti v. Ceballos, 547 U. S. 410 (2006);",
+          "type": "case",
+          "canonical": "547 U.S. 410"
+        },
+        {
+          "start": 463,
+          "end": 515,
+          "text": "Pleasant Grove City v. Summum, 555 U. S. 460 (2009);",
+          "type": "case",
+          "canonical": "555 U.S. 460"
+        },
+        {
+          "start": 516,
+          "end": 595,
+          "text": "Walker v. Texas Div., Sons of Confederate Veterans, Inc., 576 U. S. 200 (2015);",
+          "type": "case",
+          "canonical": "576 U.S. 200"
+        },
+        {
+          "start": 596,
+          "end": 631,
+          "text": "Matal v. Tam, 582 U. S. 218 (2017);",
+          "type": "case",
+          "canonical": "582 U.S. 218"
+        },
+        {
+          "start": 632,
+          "end": 674,
+          "text": "Shurtleff v. Boston, 596 U. S. 243 (2022);",
+          "type": "case",
+          "canonical": "596 U.S. 243"
+        },
+        {
+          "start": 675,
+          "end": 731,
+          "text": "Kennedy v. Bremerton School Dist., 597 U. S. 507 (2022).",
+          "type": "case",
+          "canonical": "597 U.S. 507"
+        },
+        {
+          "start": 909,
+          "end": 946,
+          "text": "See Shurtleff, 596 U. S., at 247–248.",
+          "type": "case",
+          "canonical": "596 U.S. 243"
+        },
+        {
+          "start": 1261,
+          "end": 1345,
+          "text": "Id., at 262 (ALITO, J., concurring in judgment) (quoting Summum, 555 U. S., at 473).",
+          "type": "case",
+          "canonical": "596 U.S. 243"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 374,
+          "end": 539
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 0,
+      "end": 489,
+      "text": " \n \n  \n \n   \n \n \n   \n \n  \n \n \n  \n   \n \n \n \n \n \n \n1  Cite as: 608 U. S. ____ (2026) \nALITO, J., dissenting \nSUPREME COURT OF THE UNITED STATES \nE. D., A MINOR, BY HER PARENT AND NEXT FRIEND, LISA \nDUELL, ET AL. v. NOBLESVILLE SCHOOL \nDISTRICT, ET AL. \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE SEVENTH CIRCUIT \nNo. 25–906. Decided June 15, 2026 \nThe petition for a writ of certiorari is denied. \nJUSTICE ALITO, dissenting from denial of certiorari. \n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 1,
+      "start": 0,
+      "end": 101,
+      "text": "  \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n2 E. D. v. NOBLESVILLE SCHOOL DISTRICT \nALITO, J., dissenting",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 76,
+      "text": " \n \n  \n \n \n \n  \n \n \n3  Cite as: 608 U. S. ____ (2026) \nALITO, J., dissenting",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 717,
+      "end": 725,
+      "expectedText": "fly-\ners",
+      "text": "flyers"
+    },
+    {
+      "page": 0,
+      "start": 777,
+      "end": 785,
+      "expectedText": "De-\nfund",
+      "text": "Defund"
+    },
+    {
+      "page": 0,
+      "start": 749,
+      "end": 758,
+      "expectedText": "pi ctures",
+      "text": "pictures"
+    },
+    {
+      "page": 0,
+      "start": 1280,
+      "end": 1290,
+      "expectedText": "ques-\ntion",
+      "text": "question"
+    },
+    {
+      "page": 0,
+      "start": 962,
+      "end": 974,
+      "expectedText": "petiti oners",
+      "text": "petitioners"
+    },
+    {
+      "page": 0,
+      "start": 1083,
+      "end": 1093,
+      "expectedText": "District ,",
+      "text": "District,"
+    },
+    {
+      "page": 0,
+      "start": 1512,
+      "end": 1522,
+      "expectedText": "arm-\nbands",
+      "text": "armbands"
+    },
+    {
+      "page": 0,
+      "start": 1751,
+      "end": 1759,
+      "expectedText": "un-\nless",
+      "text": "unless"
+    },
+    {
+      "page": 0,
+      "start": 1808,
+      "end": 1818,
+      "expectedText": "cen-\nsored",
+      "text": "censored"
+    },
+    {
+      "page": 1,
+      "start": 454,
+      "end": 466,
+      "expectedText": "reg-\nulating",
+      "text": "regulating"
+    },
+    {
+      "page": 1,
+      "start": 572,
+      "end": 584,
+      "expectedText": "cen-\nsorship",
+      "text": "censorship"
+    },
+    {
+      "page": 1,
+      "start": 634,
+      "end": 644,
+      "expectedText": "con-\ncerns",
+      "text": "concerns"
+    },
+    {
+      "page": 1,
+      "start": 756,
+      "end": 766,
+      "expectedText": "ex-\nercise",
+      "text": "exercise"
+    },
+    {
+      "page": 1,
+      "start": 875,
+      "end": 887,
+      "expectedText": "cur-\nriculum",
+      "text": "curriculum"
+    },
+    {
+      "page": 1,
+      "start": 728,
+      "end": 733,
+      "expectedText": "wi th",
+      "text": "with"
+    },
+    {
+      "page": 1,
+      "start": 171,
+      "end": 182,
+      "expectedText": "Hazelwood ,",
+      "text": "Hazelwood,"
+    },
+    {
+      "page": 1,
+      "start": 1031,
+      "end": 1042,
+      "expectedText": "strug-\ngled",
+      "text": "struggled"
+    },
+    {
+      "page": 1,
+      "start": 1092,
+      "end": 1107,
+      "expectedText": "clarifi-\ncation",
+      "text": "clarification"
+    },
+    {
+      "page": 1,
+      "start": 1215,
+      "end": 1227,
+      "expectedText": "expres-\nsion",
+      "text": "expression"
+    },
+    {
+      "page": 1,
+      "start": 1339,
+      "end": 1348,
+      "expectedText": "de-\ncided",
+      "text": "decided"
+    },
+    {
+      "page": 1,
+      "start": 1644,
+      "end": 1652,
+      "expectedText": "Bos-\nton",
+      "text": "Boston"
+    },
+    {
+      "page": 1,
+      "start": 1876,
+      "end": 1888,
+      "expectedText": "censor-\nship",
+      "text": "censorship"
+    },
+    {
+      "page": 1,
+      "start": 1676,
+      "end": 1687,
+      "expectedText": "Kennedy  v.",
+      "text": "Kennedy v."
+    },
+    {
+      "page": 2,
+      "start": 133,
+      "end": 143,
+      "expectedText": "speak-\ners",
+      "text": "speakers"
+    },
+    {
+      "page": 2,
+      "start": 429,
+      "end": 438,
+      "expectedText": "be-\ntween",
+      "text": "between"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": []
+  },
+  "review": "Full original public writing, all source pages, clean reader text and spoken script reviewed; no footnotes in source. Every substantive word and explanatory/quoted parenthetical retained. Bare order/byline/furniture excluded; individual source locators explicitly mapped. Case names embedded in grammatical quotations remain spoken."
+}

@@ -1,0 +1,301 @@
+{
+  "reviewed": true,
+  "documentId": "25A443-2b561f1d14b5--0-0",
+  "sourceDocumentId": "25A443-2b561f1d14b5",
+  "sourceTextPath": "dist/data/current-docs/25A443-2b561f1d14b5.json",
+  "sourceTextSha256": "fbc00e49e3d34084dc62952d4305721476d0042a5368fa8cd6fd65c1399bf3c5",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/d9eb98897b5b950d302ae428.pdf",
+  "sourcePdfSha256": "30053f20e4215fd1241aaadcfce7a58ceaaa675881d36ac4c32a8d6f871c993e",
+  "title": "Order of the Court",
+  "author": "The Court",
+  "date": "2025-12-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a443_new_b07d.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 237,
+    "endPage": 2,
+    "endOffset": 1266
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 237,
+          "end": 845
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 845,
+          "end": 1359
+        }
+      ],
+      "citations": [
+        {
+          "start": 353,
+          "end": 374,
+          "text": "10 U. S. C. §12406(3)",
+          "canonical": "10 U. S. C. §12406(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§12406(3)",
+          "to": "section twelve thousand four hundred six, subsection three"
+        },
+        {
+          "from": "10 U. S. C. §12406(3)",
+          "to": "title ten, section twelve thousand four hundred six, subsection three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1359,
+          "end": 1639
+        },
+        {
+          "page": 1,
+          "start": 19,
+          "end": 94
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 94,
+          "end": 792
+        }
+      ],
+      "citations": [
+        {
+          "start": 358,
+          "end": 367,
+          "text": "§12406(3)",
+          "canonical": "§12406(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "JUSTICE BARRETT",
+          "to": "Justice Barrett"
+        },
+        {
+          "from": "§12406(3)",
+          "to": "section twelve thousand four hundred six, subsection three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 792,
+          "end": 1753
+        }
+      ],
+      "citations": [
+        {
+          "start": 46,
+          "end": 55,
+          "text": "§12406(3)",
+          "canonical": "§12406(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 206,
+          "end": 215,
+          "text": "§12406(3)",
+          "canonical": "§12406(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 707,
+          "end": 724,
+          "text": "18 U. S. C. §1385",
+          "canonical": "18 U. S. C. §1385",
+          "type": "reference"
+        },
+        {
+          "start": 781,
+          "end": 790,
+          "text": "§12406(3)",
+          "canonical": "§12406(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§12406(3)",
+          "to": "section twelve thousand four hundred six, subsection three"
+        },
+        {
+          "from": "execut[ing]",
+          "to": "executing"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1753,
+          "end": 1984
+        },
+        {
+          "page": 2,
+          "start": 37,
+          "end": 1230
+        }
+      ],
+      "citations": [
+        {
+          "start": 635,
+          "end": 680,
+          "text": "See Supp. Letter Reply Brief for Applicants 8",
+          "canonical": "See Supp. Letter Reply Brief for Applicants 8",
+          "type": "reference"
+        },
+        {
+          "start": 682,
+          "end": 714,
+          "text": "1 Supp. Op. OLC 343, n. 1 (1971)",
+          "canonical": "1 Supp. Op. OLC 343, n. 1 (1971)",
+          "type": "reference"
+        },
+        {
+          "start": 715,
+          "end": 735,
+          "text": "(collecting sources)",
+          "canonical": "(collecting sources)",
+          "type": "reference"
+        },
+        {
+          "start": 852,
+          "end": 861,
+          "text": "§12406(3)",
+          "canonical": "§12406(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 863,
+          "end": 924,
+          "text": "See Azar v. Allina Health Services, 587 U. S. 566, 574 (2019)",
+          "canonical": "See Azar v. Allina Health Services, 587 U. S. 566, 574 (2019)",
+          "type": "reference"
+        },
+        {
+          "start": 1152,
+          "end": 1161,
+          "text": "§12406(3)",
+          "canonical": "§12406(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1390,
+          "end": 1399,
+          "text": "§12406(3)",
+          "canonical": "§12406(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§12406(3)",
+          "to": "section twelve thousand four hundred six, subsection three"
+        },
+        {
+          "from": "execut[ing]",
+          "to": "executing"
+        },
+        {
+          "from": ". ;  . ",
+          "to": "; "
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1230,
+          "end": 1266
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 19,
+      "text": "2 TRUMP v. ILLINOIS",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 1,
+      "start": 1984,
+      "end": 2016,
+      "text": "Cite as: 607 U. S. ____ (2025) 3",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 37,
+      "text": "KAVANAUGH, J., concurring in judgment",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

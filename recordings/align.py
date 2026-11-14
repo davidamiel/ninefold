@@ -130,12 +130,14 @@ def sentence_cue(sentence, para, canonical, alignment, block_index):
         return None  # Closing quotation punctuation has no separately spoken words.
     timed = [alignment['heard'][alignment['timing'][i]][1] for i in indexes if i in alignment['timing']]
     mapped = [alignment['mapping'][i] for i in indexes if i in alignment['mapping']]
-    announcement = text.lstrip(' \t\n”’"\')].')
+    announcement = re.sub(r'^[^\w]*', '', text)
     transition = canonical['kind'] == 'footnote' and announcement == f'End footnote {canonical["label"]}.'
     if not timed or len(timed)/max(1, len(indexes)) < .5 or not mapped and not transition:
         raise AlignmentReviewError(block_index, f'Audio sentence needs review: block {block_index}: {text}')
     start, end = sentence_source_bounds(canonical, alignment['source'], mapped, transition)
-    cue = {'start': round(max(para['start'], timed[0]['start']), 3), 'end': round(min(para['end'], timed[-1]['end']), 3),
+    start_time = para['start'] if sentence['start'] == 0 else max(para['start'], timed[0]['start'])
+    end_time = para['end'] if sentence['end'] == len(para['text']) else min(para['end'], timed[-1]['end'])
+    cue = {'start': round(start_time, 3), 'end': round(end_time, 3),
            'paragraph': block_index, 'ranges': source_ranges(canonical, start, end), 'text': text}
     if transition:
         cue['text'] = announcement
@@ -160,8 +162,7 @@ def align(body, narration, report, words):
     texts = [p['text'] for p in report['paragraphs']]
     if texts != narration['spokenParagraphs'] or len(texts) != len(narration['spokenBlocks']):
         raise ValueError('Generated narration differs from the reviewed script')
-    program = "import {sentenceRanges} from './dist/transcript-timing.js';let s='';for await(const p of process.stdin)s+=p;console.log(JSON.stringify(JSON.parse(s).map(sentenceRanges)));"
-    sentences = json.loads(subprocess.check_output(['node', '--input-type=module', '-e', program], input=json.dumps(texts).encode(), cwd=ROOT))
+    sentences = sentence_ranges(texts)
     cues, coverage = [], []
     for pi, (para, ranges) in enumerate(zip(report['paragraphs'], sentences)):
         block_index = narration['spokenBlocks'][pi]
@@ -178,6 +179,27 @@ def align(body, narration, report, words):
             'audioSha256': report['audioSha256'], 'cues': cues, 'coverage': coverage}
 
 
+def sentence_ranges(texts):
+    program = "import {sentenceRanges} from './dist/transcript-timing.js';let s='';for await(const p of process.stdin)s+=p;console.log(JSON.stringify(JSON.parse(s).map(sentenceRanges)));"
+    ranges = json.loads(subprocess.check_output(['node', '--input-type=module', '-e', program], input=json.dumps(texts).encode(), cwd=ROOT))
+    # The browser splitter returns UTF-16 positions; all Python text slices and
+    # token positions below use Unicode code points, including mathematical text.
+    result = []
+    for text, sentences in zip(texts, ranges, strict=True):
+        offsets, utf16 = {0: 0}, 0
+        for index, character in enumerate(text, 1):
+            utf16 += 2 if ord(character) > 0xFFFF else 1
+            offsets[utf16] = index
+        result.append([{**sentence, 'start': offsets[sentence['start']], 'end': offsets[sentence['end']]}
+                       for sentence in sentences])
+    return result
+
+
+def replace_words(words, paragraph, replacement):
+    retained = [word for word in words if word['end'] <= paragraph['start'] or word['start'] >= paragraph['end']]
+    return sorted(retained+replacement, key=lambda word: word['start'])
+
+
 def align_with_repairs(body, narration, report, words, refine):
     """Recheck only failed acoustic paragraphs; never supply the expected text."""
     repaired = set()
@@ -192,8 +214,7 @@ def align_with_repairs(body, narration, report, words, refine):
             index = narration['spokenBlocks'].index(error.block)
             paragraph = report['paragraphs'][index]
             replacement = refine(paragraph['start'], paragraph['end'])
-            words = [w for w in words if w['end'] <= paragraph['start'] or w['start'] >= paragraph['end']]
-            words = sorted(words+replacement, key=lambda word: word['start'])
+            words = replace_words(words, paragraph, replacement)
 
 
 def decode_audio(audio):
@@ -216,7 +237,7 @@ class Transcriber:
         self.model = None
         self.samples = None
 
-    def words(self, start=0, end=None):
+    def load(self):
         if self.model is None:
             from faster_whisper import WhisperModel
             self.model = WhisperModel(self.model_name, device=self.device,
@@ -224,6 +245,9 @@ class Transcriber:
                                       download_root=str(ROOT/'scripts/cache/narration/whisper'), local_files_only=True)
         if self.samples is None:
             self.samples = decode_audio(self.audio)
+
+    def words(self, start=0, end=None):
+        self.load()
         samples = self.samples[round(start*16000):round(end*16000) if end is not None else None]
         segments, _ = self.model.transcribe(samples, language='en', beam_size=5, word_timestamps=True,
                                             vad_filter=False, condition_on_previous_text=False)

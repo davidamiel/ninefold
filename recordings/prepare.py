@@ -173,18 +173,69 @@ def annotate_citations(paragraph, citations):
 
 
 def reference_fragments(paragraph, citations):
-    """A citation split by a PDF page remains one reader reference."""
+    """Keep one reader reference for adjoining pieces of the same citation."""
     fragments, cursor = [], 0
     for segment in paragraph['segments']:
         fragments.extend((segment, part, cursor+part['start'], cursor+part['end']) for part in segment['citations'])
         cursor += len(segment['text'])
+    groups = []
     for citation in citations:
-        parts = [(segment, part) for segment, part, start, end in fragments if citation['start'] <= start and end <= citation['end']]
+        if citation_decoration(citation):
+            for _, part, start, end in fragments:
+                if citation['start'] <= start and end <= citation['end']:
+                    part['suppressReference'] = True
+            continue
+        previous = groups[-1][-1] if groups else None
+        gap = paragraph['text'][previous['end']:citation['start']] if previous else None
+        if previous and previous['canonical'] == citation['canonical'] and (not gap or gap.isspace()):
+            groups[-1].append(citation)
+        else:
+            groups.append([citation])
+    for group in groups:
+        parts = [(segment, part) for segment, part, start, end in fragments
+                 if any(citation['start'] <= start and end <= citation['end'] for citation in group)]
         if len(parts) < 2:
             continue
-        origin, first = parts[0]
+        inline = [(segment, part) for segment, part in parts if part.get('keepInline')]
+        origin, first = (inline or parts)[0]
+        label = paragraph['text'][group[0]['start']:group[-1]['end']]
         for index, (_, part) in enumerate(parts):
-            part.update(fullLabel=citation['text'], referencePage=origin['page'], referenceOffset=origin['map'][first['start']], continuation=index > 0)
+            part.update(fullLabel=label, referencePage=origin['page'], referenceOffset=origin['map'][first['start']],
+                        continuation=not part.get('keepInline') if inline else index > 0)
+
+
+def citation_decoration(citation):
+    """Reviewed omission punctuation/bylines do not identify an authority."""
+    if citation.get('keepInline'):
+        return False
+    if citation['canonical'] in {'Citation punctuation', 'Citation signal', 'Editorial citation notation',
+                                 'Legislative statement attribution', 'Dictionary attribution'}:
+        return True
+    text = citation['text'].strip()
+    if not any(character.isalnum() for character in text):
+        return True
+    if re.fullmatch(r'(?:see(?: also| generally)?(?:,? e\.\s?g\.)?|cf\.|contra|accord|quoting|citing)[\s,;.(]*', text, re.I):
+        return True
+    if not (text.startswith('(') and text.endswith(')')):
+        return False
+    text = ' '.join(text[1:-1].split())
+    return bool(re.fullmatch(
+        r'(?:internal quotation marks(?: and alterations)? omitted|quotation marks omitted|'
+        r'citations? omitted|footnote omitted|alterations? (?:omitted|in original)|'
+        r'emphasis (?:added|deleted|in original)|per curiam|same|'
+        r'(?:majority|plurality|concurring|dissenting) opinion|'
+        r'(?:opinion of )?[A-Za-z .,’\'-]+, (?:C\. )?J\.,? '
+        r'(?:concurring|dissenting|for the Court|in chambers)[A-Za-z ,.-]*)', text, re.I))
+
+
+def outline_heading(text):
+    """Only an outline label is silent; authored English headings are read."""
+    if not re.fullmatch(r'[\w\s().:–—-]+', text):
+        return False
+    tokens = re.findall(r'[A-Za-z]+|\d+', text)
+    roman = r'M{0,3}(?:CM|CD|D?C{0,3})(?:XC|XL|L?X{0,3})(?:IX|IV|V?I{0,3})'
+    return bool(tokens) and all(token.isdecimal() or len(token) == 1 or
+                                re.fullmatch(roman, token, re.I) for token in tokens)
 
 
 def pronounce(text, changes, block_index):
@@ -199,7 +250,7 @@ def pronounce(text, changes, block_index):
 
 
 def spoken_text(paragraph, block, citations, index):
-    if paragraph.get('citationOnly'):
+    if paragraph.get('citationOnly') or (paragraph['kind'] == 'heading' and outline_heading(paragraph['text'])):
         return None
     text = paragraph['text']
     for citation in reversed(citations):
@@ -209,7 +260,7 @@ def spoken_text(paragraph, block, citations, index):
     text = ' '.join(text.split())
     for punctuation in ',.;:!?':
         text = text.replace(' '+punctuation, punctuation)
-    if paragraph['kind'] == 'heading' or not any(character.isalnum() for character in text):
+    if not any(character.isalnum() for character in text):
         return None
     if paragraph['kind'] == 'footnote':
         label = paragraph['label']

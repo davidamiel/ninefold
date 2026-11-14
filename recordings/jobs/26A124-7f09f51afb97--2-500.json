@@ -627,6 +627,14 @@
         {
           "from": "§ 2(a)",
           "to": "Section 2(a)"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
         }
       ]
     },
@@ -706,6 +714,10 @@
         {
           "from": "§ 2(a)",
           "to": "Section 2(a)"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
         }
       ]
     },
@@ -809,6 +821,10 @@
         {
           "from": "§ 2(b)",
           "to": "Section 2(b)"
+        },
+        {
+          "from": "Article II",
+          "to": "Article Two"
         }
       ]
     },
@@ -1155,7 +1171,12 @@
           "canonical": "592 U.S. 125"
         }
       ],
-      "pronunciations": []
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
     },
     {
       "kind": "paragraph",
@@ -1197,6 +1218,10 @@
         {
           "from": "incu[r]",
           "to": "incur"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
         }
       ]
     },
@@ -1230,7 +1255,12 @@
           "canonical": "510 U.S. 1301"
         }
       ],
-      "pronunciations": []
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
     },
     {
       "kind": "footnote",

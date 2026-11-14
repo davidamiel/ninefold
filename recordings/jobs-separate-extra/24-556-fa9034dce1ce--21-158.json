@@ -1,0 +1,441 @@
+{
+  "reviewed": true,
+  "documentId": "24-556-fa9034dce1ce--21-158",
+  "sourceDocumentId": "24-556-fa9034dce1ce",
+  "sourceTextPath": "dist/data/docs/24-556-fa9034dce1ce.json",
+  "sourceTextSha256": "adbba36a5e72fecfe1df65495c2071b9df3a532c9b79631e7bdbaad1efccf283",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/158a422f8d7246322d86dd9a.pdf",
+  "sourcePdfSha256": "e7328293dc720c7923bb46560ba4a484c4dd8957654b84189dcc65a663698378",
+  "title": "Concurrence",
+  "author": "Sonia Sotomayor",
+  "date": "2026-05-28",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r39_5iek.pdf",
+  "sourceRange": {
+    "startPage": 21,
+    "startOffset": 158,
+    "endPage": 23,
+    "endOffset": 2005
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 237,
+          "end": 1326
+        }
+      ],
+      "citations": [
+        {
+          "start": 265,
+          "end": 293,
+          "text": "18 U. S. C. § 3582(c)(1)(A).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582"
+        },
+        {
+          "start": 479,
+          "end": 494,
+          "text": "§ 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 692,
+          "end": 707,
+          "text": "§ 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3582(c)(1)(A)",
+          "to": "Section three five eight two c one A"
+        },
+        {
+          "from": "[a]",
+          "to": "a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1326,
+          "end": 1707
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1707,
+          "end": 1940
+        },
+        {
+          "page": 22,
+          "start": 100,
+          "end": 1004
+        }
+      ],
+      "citations": [
+        {
+          "start": 86,
+          "end": 96,
+          "text": "§ 3582(c).",
+          "type": "statute",
+          "canonical": "§ 3582(c)"
+        },
+        {
+          "start": 97,
+          "end": 118,
+          "text": "Section 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 514,
+          "end": 529,
+          "text": "§ 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 630,
+          "end": 696,
+          "text": "See, e. g., Setser v. United States, 566 U. S. 231, 242–243 (2012)",
+          "type": "case",
+          "canonical": "566 U.S. 231"
+        },
+        {
+          "start": 714,
+          "end": 729,
+          "text": "§ 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1129,
+          "end": 1138,
+          "text": "§ 3582(c)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Section 3582(c)(1)(A)",
+          "to": "Section three five eight two c one A"
+        },
+        {
+          "from": "§ 3582(c)(1)(A)",
+          "to": "Section three five eight two c one A"
+        },
+        {
+          "from": "§ 3582(c)",
+          "to": "Section three five eight two c"
+        },
+        {
+          "from": "produc[e]",
+          "to": "produce"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1004,
+          "end": 1978
+        }
+      ],
+      "citations": [
+        {
+          "start": 146,
+          "end": 161,
+          "text": "§ 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 448,
+          "end": 467,
+          "text": ", see ante, at 415,",
+          "type": "reference",
+          "canonical": "see ante, at 415"
+        },
+        {
+          "start": 485,
+          "end": 502,
+          "text": ", see App. 57–62,",
+          "type": "appendix",
+          "canonical": "App. 57"
+        },
+        {
+          "start": 541,
+          "end": 564,
+          "text": ", see ante, at 415–416,",
+          "type": "reference",
+          "canonical": "see ante, at 415–416"
+        },
+        {
+          "start": 602,
+          "end": 620,
+          "text": "28 U. S. C. § 2255",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 668,
+          "end": 684,
+          "text": "ante, at 416–417",
+          "type": "reference",
+          "canonical": "ante, at 416–417"
+        },
+        {
+          "start": 792,
+          "end": 807,
+          "text": "§ 3582(c)(1)(A)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3582(c)(1)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 962,
+          "end": 975,
+          "text": "Ante, at 418.",
+          "type": "reference",
+          "canonical": "Ante, at 418"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3582(c)(1)(A)",
+          "to": "Section three five eight two c one A"
+        },
+        {
+          "from": "28 U. S. C. § 2255",
+          "to": "Section two two five five of Title twenty-eight"
+        },
+        {
+          "from": "[n]o",
+          "to": "no"
+        },
+        {
+          "from": "doub[t]",
+          "to": "doubt"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1981,
+          "end": 2203
+        },
+        {
+          "page": 23,
+          "start": 1853,
+          "end": 1975
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 21,
+          "end": 42,
+          "text": ", ante, at 418, n. 1,",
+          "type": "reference",
+          "canonical": "ante, at 418, n. 1"
+        },
+        {
+          "start": 311,
+          "end": 343,
+          "text": ", 104 F. 4th 420, 428–429 (2024)",
+          "type": "case",
+          "canonical": "104 F.4th 420"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 58,
+          "end": 669
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 21,
+      "start": 158,
+      "end": 237,
+      "text": "Justice Sotomayor , with whom Justice Kagan joins,\nconcurring in the judgment.\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 21,
+      "start": 1940,
+      "end": 1970,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 100,
+      "text": "Page Proof Pending Publication\n432 FERNANDEZ v. UNITED STATES\nSotomayor, J., concurring in judgment\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 22,
+      "start": 1978,
+      "end": 1981,
+      "text": "*\n*",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 411 (2026) 433\nJackson, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 23,
+      "start": 669,
+      "end": 1853,
+      "text": "Justice Jackson, dissenting.\nSection 3582(c)(1)(A) of Title 18 of the U. S. Code—known\nas the compassionate-release statute—authorizes district\ncourts to reduce federal prison sentences under specifed circumstances. This case is about the scope of that authority.\nBy its terms, the compassionate-release statute is fexible,\npermitting sentence reductions for “extraordinary and compelling reasons.” 18 U. S. C. § 3582(c)(1)(A)(i). The breadth\nof this language is no accident: It refects Congress's intent\nto preserve some of the traditional discretion afforded to district courts to ensure just treatment of defendants in criminal cases.\nToday, the Court arbitrarily restricts that discretion by\ngrafting an atextual rule onto § 3582(c)(1)(A). It holds that\na district court may not base its “extraordinary and compelling” fndings on any reason that “collaterally attacks the\nvalidity” of the prisoner's conviction. Ante, at 415. Such\n“attacks,” the majority says, must be brought through motions for habeas relief under 28 U. S. C. § 2255. Ibid. But\nthis restriction comes of out nowhere—it fnds no support in\nthe statute's text or history, nor can it be justifed by our\nprecedents.\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 23,
+      "start": 1975,
+      "end": 2005,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 21,
+      "start": 344,
+      "end": 350,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 21,
+      "start": 1364,
+      "end": 1371,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 21,
+      "start": 1876,
+      "end": 1883,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 22,
+      "start": 960,
+      "end": 967,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 22,
+      "start": 664,
+      "end": 668,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 22,
+      "start": 779,
+      "end": 788,
+      "expectedText": "indefnite",
+      "text": "indefinite"
+    },
+    {
+      "page": 22,
+      "start": 1768,
+      "end": 1774,
+      "expectedText": "fnally",
+      "text": "finally"
+    },
+    {
+      "page": 23,
+      "start": 192,
+      "end": 197,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 23,
+      "start": 599,
+      "end": 604,
+      "expectedText": "affrm",
+      "text": "affirm"
+    },
+    {
+      "page": 21,
+      "start": 1804,
+      "end": 1826,
+      "expectedText": "Section 3582(c)\n(1)(A)",
+      "text": "Section 3582(c)(1)(A)"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan"
+    ]
+  },
+  "review": "Full original writing, all source pages, reader text and complete spoken script reviewed. Every substantive body word, quotation, numerical example and explanatory parenthetical retained; citation-only locators mapped individually. Prior/following judicial writings and prior-writer footnotes excluded; own footnote retained at marker, with continuation included where applicable."
+}

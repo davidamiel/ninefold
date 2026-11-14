@@ -2,9 +2,10 @@
 import copy
 import json
 import unittest
+from unittest.mock import patch
 
 from generate import ROOT
-from prepare import prepare, validate_coverage, span_chars
+from prepare import prepare, validate_coverage, span_chars, annotate_citations, reference_fragments, spoken_text
 
 
 class ReviewedPreparation(unittest.TestCase):
@@ -66,6 +67,108 @@ class ReviewedPreparation(unittest.TestCase):
         next(b for b in job['blocks'] if b.get('citations'))['citations'][0]['start'] += 1
         with self.assertRaisesRegex(ValueError, 'citation offsets'):
             prepare(job)
+
+    def test_reference_presentation_does_not_change_recording_identity(self):
+        body, narration = prepare(self.job)
+        with patch('prepare.reference_fragments'):
+            original, original_narration = prepare(self.job)
+        self.assertEqual(body['version'], original['version'])
+        self.assertEqual(narration['spokenParagraphs'], original_narration['spokenParagraphs'])
+
+
+class ReaderReferences(unittest.TestCase):
+    @staticmethod
+    def paragraph(text, split=None):
+        cuts = [0, len(text)] if split is None else [0, split, len(text)]
+        return {'kind': 'paragraph', 'text': text, 'segments': [
+            {'page': page, 'text': text[a:b], 'map': list(range(a, b))}
+            for page, (a, b) in enumerate(zip(cuts, cuts[1:]))]}
+
+    @staticmethod
+    def citation(text, label, canonical, inline=False, start=0):
+        at = text.index(label, start)
+        return {'start': at, 'end': at+len(label), 'text': label, 'type': 'case',
+                'canonical': canonical, **({'keepInline': True} if inline else {})}
+
+    def test_inline_name_and_metadata_have_one_reference_without_extra_markers(self):
+        text = 'See Smith v. State, 1 U. S. 2 (2000) (emphasis added).'
+        citations = [self.citation(text, 'See ', '1 U.S. 2'),
+                     self.citation(text, 'Smith v. State', '1 U.S. 2', True),
+                     self.citation(text, ', 1 U. S. 2 (2000)', '1 U.S. 2'),
+                     self.citation(text, '(emphasis added)', 'Editorial citation notation')]
+        paragraph = self.paragraph(text)
+        annotate_citations(paragraph, citations)
+        reference_fragments(paragraph, citations)
+        signal, name, locator, byline = paragraph['segments'][0]['citations']
+        self.assertTrue(signal['suppressReference'])
+        self.assertTrue(byline['suppressReference'])
+        self.assertFalse(name['continuation'])
+        self.assertTrue(locator['continuation'])
+        self.assertEqual(name['fullLabel'], 'Smith v. State, 1 U. S. 2 (2000)')
+        self.assertEqual(name['referenceOffset'], locator['referenceOffset'])
+        self.assertEqual(paragraph['text'], text)
+
+    def test_page_break_keeps_every_word_of_inline_case_name(self):
+        text = 'Smith v. State, 1 U. S. 2 (2000)'
+        citations = [self.citation(text, 'Smith v. State', '1 U.S. 2', True),
+                     self.citation(text, ', 1 U. S. 2 (2000)', '1 U.S. 2')]
+        paragraph = self.paragraph(text, len('Smith v. '))
+        annotate_citations(paragraph, citations)
+        reference_fragments(paragraph, citations)
+        parts = [part for segment in paragraph['segments'] for part in segment['citations']]
+        self.assertEqual(''.join(part['label'] for part in parts if part.get('keepInline')), 'Smith v. State')
+        self.assertTrue(all(not part['continuation'] for part in parts if part.get('keepInline')))
+        self.assertTrue(parts[-1]['continuation'])
+        self.assertEqual({part['referenceOffset'] for part in parts}, {0})
+
+    def test_distinct_authorities_and_separate_pinpoints_remain_separate(self):
+        text = '1 U. S. 2; 3 U. S. 4; 1 U. S. 2, 5'
+        citations = [self.citation(text, '1 U. S. 2', '1 U.S. 2'),
+                     self.citation(text, '; ', 'Citation punctuation'),
+                     self.citation(text, '3 U. S. 4', '3 U.S. 4'),
+                     self.citation(text, '1 U. S. 2, 5', '1 U.S. 2', start=10)]
+        paragraph = self.paragraph(text)
+        annotate_citations(paragraph, citations)
+        reference_fragments(paragraph, citations)
+        sources = [part for part in paragraph['segments'][0]['citations'] if not part.get('suppressReference')]
+        self.assertEqual(len(sources), 3)
+        self.assertTrue(all(not part.get('continuation') for part in sources))
+
+    def test_plain_citation_across_pages_has_one_marker(self):
+        text = 'Smith v. State, 1 U. S. 2 (2000)'
+        citations = [self.citation(text, text, '1 U.S. 2')]
+        paragraph = self.paragraph(text, 16)
+        annotate_citations(paragraph, citations)
+        reference_fragments(paragraph, citations)
+        first, second = [part for segment in paragraph['segments'] for part in segment['citations']]
+        self.assertFalse(first['continuation'])
+        self.assertTrue(second['continuation'])
+        self.assertEqual(first['fullLabel'], second['fullLabel'])
+        self.assertEqual(first['referencePage'], second['referencePage'])
+
+    def test_english_headings_are_read_but_outline_labels_are_silent(self):
+        for text in ['IV', 'A', '1', 'II–A–2', '1(a)', 'I.A.1']:
+            with self.subTest(text=text):
+                self.assertIsNone(spoken_text({'kind': 'heading', 'text': text}, {}, [], 0))
+        self.assertIsNone(spoken_text({'kind': 'heading', 'text': 'III'},
+                                     {'pronunciations': [{'from': 'III', 'to': 'Three'}]}, [], 0))
+        for text in ['1. First Gingles Precondition', '2. Second and Third Gingles Preconditions',
+                     '3. Totality of Circumstances', 'Introduction', 'Civil Rights']:
+            with self.subTest(text=text):
+                self.assertEqual(spoken_text({'kind': 'heading', 'text': text}, {}, [], 0), text)
+
+    def test_consecutive_distinct_pinpoints_of_same_authority_remain_separate(self):
+        text = '1 U. S. 2, 5; 1 U. S. 2, 8'
+        citations = [self.citation(text, '1 U. S. 2, 5', '1 U.S. 2'),
+                     self.citation(text, '; ', 'Citation punctuation'),
+                     self.citation(text, '1 U. S. 2, 8', '1 U.S. 2')]
+        paragraph = self.paragraph(text)
+        annotate_citations(paragraph, citations)
+        reference_fragments(paragraph, citations)
+        sources = [part for part in paragraph['segments'][0]['citations'] if not part.get('suppressReference')]
+        self.assertEqual(len(sources), 2)
+        self.assertTrue(all(not part.get('continuation') for part in sources))
+        self.assertNotEqual(sources[0]['start'], sources[1]['start'])
 
 
 if __name__ == '__main__':

@@ -36,6 +36,26 @@ def save_clip(samples, rate, cache):
     finally:
         temporary.unlink(missing_ok=True)
 
+
+def read_report(path):
+    try:
+        report=json.loads(path.read_text())
+    except (OSError,json.JSONDecodeError):
+        return {}
+    return report if isinstance(report,dict) else {}
+
+
+def save_report(path, report):
+    temporary=path.with_suffix('.tmp')
+    temporary.write_text(json.dumps(report,indent=2)+'\n')
+    temporary.replace(path)
+
+
+def reusable_recording(report, generator, script_hash, voice, audio):
+    return (report.get('generator') == generator and report.get('scriptSha256') == script_hash
+            and report.get('voice') == voice
+            and report.get('audioSha256') == hashlib.sha256(audio.read_bytes()).hexdigest())
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('job',type=Path)
@@ -76,11 +96,14 @@ if __name__=='__main__':
     mp3_path=local_path(output/(gender+'.mp3'),output)
     script_hash=hashlib.sha256(json.dumps(job['spokenParagraphs'],ensure_ascii=False).encode()).hexdigest()
     if args.resume and report_path.exists() and mp3_path.exists():
-        report=json.loads(report_path.read_text())
-        valid=(report.get('generator')==fingerprint and report.get('version')==job.get('version')
-               and report.get('scriptSha256')==script_hash and report.get('voice')==voice
-               and report.get('audioSha256')==hashlib.sha256(mp3_path.read_bytes()).hexdigest())
-        if valid:
+        report=read_report(report_path)
+        if reusable_recording(report,fingerprint,script_hash,voice,mp3_path):
+            # Source/citation maps can change while the complete spoken script
+            # remains identical. Keep verified audio; alignment rebuilds cues
+            # against the new source maps before staging accepts this version.
+            if report.get('version')!=job.get('version'):
+                report['version']=job.get('version')
+                save_report(report_path,report)
             print('Reusing validated recording:',document_id,gender,flush=True)
             raise SystemExit(0)
     if args.engine=='mlx':
@@ -129,4 +152,4 @@ if __name__=='__main__':
     peak=float(np.abs(decoded).max());rms=float(np.sqrt(np.mean(decoded**2)))
     if not np.isfinite(decoded).all() or peak>=1 or rms<.005 or abs(len(decoded)-len(audio))/rate>.1:
         raise ValueError('Encoded recording failed the audio integrity check')
-    report_path.write_text(json.dumps({'voice':voice,'version':job.get('version'),'generator':fingerprint,'scriptSha256':script_hash,'audioSha256':hashlib.sha256(mp3_path.read_bytes()).hexdigest(),'decodedPeak':peak,'decodedRms':rms,'duration':len(audio)/rate,'sampleRate':rate,'paragraphs':paragraphs},indent=2)+'\n')
+    save_report(report_path,{'voice':voice,'version':job.get('version'),'generator':fingerprint,'scriptSha256':script_hash,'audioSha256':hashlib.sha256(mp3_path.read_bytes()).hexdigest(),'decodedPeak':peak,'decodedRms':rms,'duration':len(audio)/rate,'sampleRate':rate,'paragraphs':paragraphs})

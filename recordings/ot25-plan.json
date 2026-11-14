@@ -29,17 +29,37 @@
       "opinionAuthor": "Per curiam",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r03_1o23.pdf",
       "textPath": "data/docs/25-180-afa3da8082f3.json",
-      "pdfPath": "data/pdfs/25-180-afa3da8082f3--1-0.pdf",
+      "pdfPath": "data/pdfs/25-180-afa3da8082f3--1-0-pages-9a6075cdddb7.pdf",
       "sourceRange": {
         "startPage": 1,
         "startOffset": 0,
         "endPage": 4,
         "endOffset": 0
       },
-      "pageCount": 3,
+      "pageCount": 2,
       "caseName": "Doe v. Dynamic Physical Therapy, LLC",
       "aliases": [],
       "job": "recordings/jobs/25-180-afa3da8082f3--1-0.json",
+      "priority": 0
+    },
+    {
+      "id": "25-52-ffba677727bc--2-0",
+      "caseId": "25-52",
+      "opinionType": "Per curiam",
+      "opinionAuthor": "Per curiam",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r02_5426.pdf",
+      "textPath": "data/docs/25-52-ffba677727bc.json",
+      "pdfPath": "data/pdfs/25-52-ffba677727bc--2-0-pages-72b62efd0dc5.pdf",
+      "sourceRange": {
+        "startPage": 2,
+        "startOffset": 0,
+        "endPage": 6,
+        "endOffset": 0
+      },
+      "pageCount": 3,
+      "caseName": "Clark v. Sweeney",
+      "aliases": [],
+      "job": "recordings/jobs/25-52-ffba677727bc--2-0.json",
       "priority": 0
     },
     {
@@ -49,7 +69,7 @@
       "opinionAuthor": "Per curiam",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r42_q8l1.pdf",
       "textPath": "data/docs/25A1314-489902332041.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A1314-489902332041--2-787-pages-e4cfee8808a7.pdf",
       "sourceRange": {
         "startPage": 2,
         "startOffset": 787,
@@ -63,26 +83,6 @@
         "25A1316-489902332041--2-787"
       ],
       "job": "recordings/jobs/25A1314-489902332041--2-787.json",
-      "priority": 0
-    },
-    {
-      "id": "25-52-ffba677727bc--2-0",
-      "caseId": "25-52",
-      "opinionType": "Per curiam",
-      "opinionAuthor": "Per curiam",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r02_5426.pdf",
-      "textPath": "data/docs/25-52-ffba677727bc.json",
-      "pdfPath": "data/pdfs/25-52-ffba677727bc--2-0.pdf",
-      "sourceRange": {
-        "startPage": 2,
-        "startOffset": 0,
-        "endPage": 6,
-        "endOffset": 0
-      },
-      "pageCount": 4,
-      "caseName": "Clark v. Sweeney",
-      "aliases": [],
-      "job": "recordings/jobs/25-52-ffba677727bc--2-0.json",
       "priority": 0
     },
     {
@@ -143,6 +143,26 @@
       "caseName": "People Not Politicians v. Onder",
       "aliases": [],
       "job": "recordings/jobs/26A388-3302677e9c0a--0-0.json",
+      "priority": 0
+    },
+    {
+      "id": "24-1159-122d6d046069--2-0",
+      "caseId": "24-1159",
+      "opinionType": "Per curiam",
+      "opinionAuthor": "Per curiam",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r01_kjfm.pdf",
+      "textPath": "data/docs/24-1159-122d6d046069.json",
+      "pdfPath": "data/pdfs/24-1159-122d6d046069--2-0-pages-4eb1629ec8f1.pdf",
+      "sourceRange": {
+        "startPage": 2,
+        "startOffset": 0,
+        "endPage": 8,
+        "endOffset": 0
+      },
+      "pageCount": 5,
+      "caseName": "Pitts v. Mississippi",
+      "aliases": [],
+      "job": "recordings/jobs/24-1159-122d6d046069--2-0.json",
       "priority": 0
     },
     {
@@ -226,33 +246,13 @@
       "priority": 0
     },
     {
-      "id": "24-1159-122d6d046069--2-0",
-      "caseId": "24-1159",
-      "opinionType": "Per curiam",
-      "opinionAuthor": "Per curiam",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r01_kjfm.pdf",
-      "textPath": "data/docs/24-1159-122d6d046069.json",
-      "pdfPath": "data/pdfs/24-1159-122d6d046069--2-0.pdf",
-      "sourceRange": {
-        "startPage": 2,
-        "startOffset": 0,
-        "endPage": 8,
-        "endOffset": 0
-      },
-      "pageCount": 6,
-      "caseName": "Pitts v. Mississippi",
-      "aliases": [],
-      "job": "recordings/jobs/24-1159-122d6d046069--2-0.json",
-      "priority": 0
-    },
-    {
       "id": "25-297-be6ef90ba849--2-0",
       "caseId": "25-297",
       "opinionType": "Per curiam",
       "opinionAuthor": "Per curiam",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r21_2bo2.pdf",
       "textPath": "data/docs/25-297-be6ef90ba849.json",
-      "pdfPath": "data/pdfs/25-297-be6ef90ba849--2-0.pdf",
+      "pdfPath": "data/pdfs/25-297-be6ef90ba849--2-0-pages-a24eb8434528.pdf",
       "sourceRange": {
         "startPage": 2,
         "startOffset": 0,
@@ -263,6 +263,26 @@
       "caseName": "Zorn v. Linton",
       "aliases": [],
       "job": "recordings/jobs/25-297-be6ef90ba849--2-0.json",
+      "priority": 0
+    },
+    {
+      "id": "26A308-f368b1fec057--0-0",
+      "caseId": "26A308",
+      "opinionType": "Per curiam",
+      "opinionAuthor": "Per curiam",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a308_pok0.pdf",
+      "textPath": "data/docs/26A308-f368b1fec057.json",
+      "pdfPath": "data/pdfs/26A308-f368b1fec057--0-0-pages-8242c1c8a06d.pdf",
+      "sourceRange": {
+        "startPage": 0,
+        "startOffset": 0,
+        "endPage": 7,
+        "endOffset": 259
+      },
+      "pageCount": 7,
+      "caseName": "Department of Homeland Security v. League of Women Voters",
+      "aliases": [],
+      "job": "recordings/jobs/26A308-f368b1fec057--0-0.json",
       "priority": 0
     },
     {
@@ -286,23 +306,23 @@
       "priority": 0
     },
     {
-      "id": "26A308-f368b1fec057--0-0",
-      "caseId": "26A308",
-      "opinionType": "Per curiam",
-      "opinionAuthor": "Per curiam",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a308_pok0.pdf",
-      "textPath": "data/docs/26A308-f368b1fec057.json",
-      "pdfPath": "data/pdfs/26A308-f368b1fec057--0-0.pdf",
+      "id": "24-935-f3be30f7d76e--4-55",
+      "caseId": "24-935",
+      "opinionType": "Opinion of the Court",
+      "opinionAuthor": "Neil M. Gorsuch",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r37_i425.pdf",
+      "textPath": "data/docs/24-935-f3be30f7d76e.json",
+      "pdfPath": "data/pdfs/24-935-f3be30f7d76e--4-55-pages-2a980f01a279.pdf",
       "sourceRange": {
-        "startPage": 0,
-        "startOffset": 0,
-        "endPage": 7,
-        "endOffset": 259
+        "startPage": 4,
+        "startOffset": 55,
+        "endPage": 13,
+        "endOffset": 0
       },
       "pageCount": 8,
-      "caseName": "Department of Homeland Security v. League of Women Voters",
+      "caseName": "Flowers Foods, Inc. v. Brock",
       "aliases": [],
-      "job": "recordings/jobs/26A308-f368b1fec057--0-0.json",
+      "job": "recordings/jobs/flowers-foods.json",
       "priority": 0
     },
     {
@@ -372,7 +392,7 @@
       "opinionAuthor": "Elena Kagan",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r46_2c8f.pdf",
       "textPath": "data/docs/25-5146-2ec91392fbac.json",
-      "pdfPath": "data/pdfs/25-5146-2ec91392fbac--3-1293.pdf",
+      "pdfPath": "data/pdfs/25-5146-2ec91392fbac--3-1293-pages-f2767898414a.pdf",
       "sourceRange": {
         "startPage": 3,
         "startOffset": 1343,
@@ -403,26 +423,6 @@
       "caseName": "Blanche v. Lau",
       "aliases": [],
       "job": "recordings/jobs/blanche.json",
-      "priority": 0
-    },
-    {
-      "id": "24-935-f3be30f7d76e--4-55",
-      "caseId": "24-935",
-      "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Neil M. Gorsuch",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r37_i425.pdf",
-      "textPath": "data/docs/24-935-f3be30f7d76e.json",
-      "pdfPath": "data/pdfs/24-935-f3be30f7d76e--4-55.pdf",
-      "sourceRange": {
-        "startPage": 4,
-        "startOffset": 55,
-        "endPage": 13,
-        "endOffset": 0
-      },
-      "pageCount": 9,
-      "caseName": "Flowers Foods, Inc. v. Brock",
-      "aliases": [],
-      "job": "recordings/jobs/flowers-foods.json",
       "priority": 0
     },
     {
@@ -492,7 +492,7 @@
       "opinionAuthor": "Per curiam",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r69_11o2.pdf",
       "textPath": "data/docs/26A124-7f09f51afb97.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/26A124-7f09f51afb97--2-500-pages-b5f891c62c4f.pdf",
       "sourceRange": {
         "startPage": 2,
         "startOffset": 500,
@@ -545,6 +545,46 @@
       "caseName": "Hain Celestial Group, Inc. v. Palmquist",
       "aliases": [],
       "job": "recordings/jobs/hain-celestial.json",
+      "priority": 0
+    },
+    {
+      "id": "23-1209-103a8e69fdc2--4-55",
+      "caseId": "23-1209",
+      "opinionType": "Opinion of the Court",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r34_f2bh.pdf",
+      "textPath": "data/docs/23-1209-103a8e69fdc2.json",
+      "pdfPath": "data/pdfs/23-1209-103a8e69fdc2--4-55-pages-94bc6350160d.pdf",
+      "sourceRange": {
+        "startPage": 4,
+        "startOffset": 55,
+        "endPage": 16,
+        "endOffset": 0
+      },
+      "pageCount": 11,
+      "caseName": "M & K Employee Solutions, Inc. v. Trustees of IAM Nat. Pension",
+      "aliases": [],
+      "job": "recordings/jobs/m-and-k.json",
+      "priority": 0
+    },
+    {
+      "id": "25-748-c7101de1d883--3-0",
+      "caseId": "25-748",
+      "opinionType": "Per curiam",
+      "opinionAuthor": "Per curiam",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r52_k5fm.pdf",
+      "textPath": "data/docs/25-748-c7101de1d883.json",
+      "pdfPath": "data/pdfs/25-748-c7101de1d883--3-0-pages-a2d32c210e86.pdf",
+      "sourceRange": {
+        "startPage": 3,
+        "startOffset": 0,
+        "endPage": 15,
+        "endOffset": 0
+      },
+      "pageCount": 11,
+      "caseName": "McCarthy v. Hernandez",
+      "aliases": [],
+      "job": "recordings/jobs/25-748-c7101de1d883--3-0.json",
       "priority": 0
     },
     {
@@ -608,43 +648,23 @@
       "priority": 0
     },
     {
-      "id": "23-1209-103a8e69fdc2--4-55",
-      "caseId": "23-1209",
-      "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r34_f2bh.pdf",
-      "textPath": "data/docs/23-1209-103a8e69fdc2.json",
-      "pdfPath": "data/pdfs/23-1209-103a8e69fdc2--4-55.pdf",
-      "sourceRange": {
-        "startPage": 4,
-        "startOffset": 55,
-        "endPage": 16,
-        "endOffset": 0
-      },
-      "pageCount": 12,
-      "caseName": "M & K Employee Solutions, Inc. v. Trustees of IAM Nat. Pension",
-      "aliases": [],
-      "job": "recordings/jobs/m-and-k.json",
-      "priority": 0
-    },
-    {
-      "id": "25-748-c7101de1d883--3-0",
-      "caseId": "25-748",
+      "id": "25-51-f8f2259fc1e0--2-0",
+      "caseId": "25-51",
       "opinionType": "Per curiam",
       "opinionAuthor": "Per curiam",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r52_k5fm.pdf",
-      "textPath": "data/docs/25-748-c7101de1d883.json",
-      "pdfPath": "data/pdfs/25-748-c7101de1d883--3-0.pdf",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r11_7l48.pdf",
+      "textPath": "data/docs/25-51-f8f2259fc1e0.json",
+      "pdfPath": "data/pdfs/25-51-f8f2259fc1e0--2-0-pages-e375e1e1cd78.pdf",
       "sourceRange": {
-        "startPage": 3,
+        "startPage": 2,
         "startOffset": 0,
-        "endPage": 15,
+        "endPage": 18,
         "endOffset": 0
       },
       "pageCount": 12,
-      "caseName": "McCarthy v. Hernandez",
+      "caseName": "Klein v. Martin",
       "aliases": [],
-      "job": "recordings/jobs/25-748-c7101de1d883--3-0.json",
+      "job": "recordings/jobs/25-51-f8f2259fc1e0--2-0.json",
       "priority": 0
     },
     {
@@ -665,6 +685,26 @@
       "caseName": "Pung v. Isabella County",
       "aliases": [],
       "job": "recordings/jobs/pung.json",
+      "priority": 0
+    },
+    {
+      "id": "24-993-9689b1fae558--4-607",
+      "caseId": "24-993",
+      "opinionType": "Opinion of the Court",
+      "opinionAuthor": "Elena Kagan",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r20_h315.pdf",
+      "textPath": "data/docs/24-993-9689b1fae558.json",
+      "pdfPath": "data/pdfs/24-993-9689b1fae558--4-607-pages-c3f2f87bc175.pdf",
+      "sourceRange": {
+        "startPage": 4,
+        "startOffset": 607,
+        "endPage": 18,
+        "endOffset": 0
+      },
+      "pageCount": 13,
+      "caseName": "Olivier v. City of Brandon",
+      "aliases": [],
+      "job": "recordings/jobs/24-993-9689b1fae558--4-607.json",
       "priority": 0
     },
     {
@@ -728,6 +768,26 @@
       "priority": 0
     },
     {
+      "id": "24-777-4c5acdd97e4d--3-214",
+      "caseId": "24-777",
+      "opinionType": "Opinion of the Court",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r19_3e04.pdf",
+      "textPath": "data/docs/24-777-4c5acdd97e4d.json",
+      "pdfPath": "data/pdfs/24-777-4c5acdd97e4d--3-214-pages-5a5bd3fb4599.pdf",
+      "sourceRange": {
+        "startPage": 3,
+        "startOffset": 214,
+        "endPage": 17,
+        "endOffset": 0
+      },
+      "pageCount": 13,
+      "caseName": "Urias-Orellana v. Bondi",
+      "aliases": [],
+      "job": "recordings/jobs/24-777-4c5acdd97e4d--3-214.json",
+      "priority": 0
+    },
+    {
       "id": "24-856-72b94be09fe1--5-55",
       "caseId": "24-856",
       "opinionType": "Opinion of the Court",
@@ -745,6 +805,26 @@
       "caseName": "Cisco Systems, Inc. v. Doe",
       "aliases": [],
       "job": "recordings/jobs/24-856-72b94be09fe1--5-55.json",
+      "priority": 0
+    },
+    {
+      "id": "24-783-ef361de4ca30--5-53",
+      "caseId": "24-783",
+      "opinionType": "Opinion of the Court",
+      "opinionAuthor": "Sonia Sotomayor",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r28_i4dk.pdf",
+      "textPath": "data/docs/24-783-ef361de4ca30.json",
+      "pdfPath": "data/pdfs/24-783-ef361de4ca30--5-53-pages-526f0cddd044.pdf",
+      "sourceRange": {
+        "startPage": 5,
+        "startOffset": 53,
+        "endPage": 20,
+        "endOffset": 0
+      },
+      "pageCount": 14,
+      "caseName": "Enbridge Energy, LP v. Nessel",
+      "aliases": [],
+      "job": "recordings/jobs/24-783-ef361de4ca30--5-53.json",
       "priority": 0
     },
     {
@@ -768,6 +848,26 @@
       "priority": 0
     },
     {
+      "id": "24-889-4cd1f7e073f6--4-55",
+      "caseId": "24-889",
+      "opinionType": "Opinion of the Court",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r45_i4dk.pdf",
+      "textPath": "data/docs/24-889-4cd1f7e073f6.json",
+      "pdfPath": "data/pdfs/24-889-4cd1f7e073f6--4-55-pages-c17377e536ad.pdf",
+      "sourceRange": {
+        "startPage": 4,
+        "startOffset": 55,
+        "endPage": 19,
+        "endOffset": 0
+      },
+      "pageCount": 14,
+      "caseName": "Hikma Pharmaceuticals USA Inc. v. Amarin Pharma, Inc.",
+      "aliases": [],
+      "job": "recordings/jobs/24-889-4cd1f7e073f6--4-55.json",
+      "priority": 0
+    },
+    {
       "id": "24-1063-22d936bf1cef--5-779",
       "caseId": "24-1063",
       "opinionType": "Opinion of the Court",
@@ -788,100 +888,20 @@
       "priority": 0
     },
     {
-      "id": "24-993-9689b1fae558--4-607",
-      "caseId": "24-993",
-      "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Elena Kagan",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r20_h315.pdf",
-      "textPath": "data/docs/24-993-9689b1fae558.json",
-      "pdfPath": "data/pdfs/24-993-9689b1fae558--4-607.pdf",
-      "sourceRange": {
-        "startPage": 4,
-        "startOffset": 607,
-        "endPage": 18,
-        "endOffset": 0
-      },
-      "pageCount": 14,
-      "caseName": "Olivier v. City of Brandon",
-      "aliases": [],
-      "job": "recordings/jobs/24-993-9689b1fae558--4-607.json",
-      "priority": 0
-    },
-    {
-      "id": "24-777-4c5acdd97e4d--3-214",
-      "caseId": "24-777",
-      "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r19_3e04.pdf",
-      "textPath": "data/docs/24-777-4c5acdd97e4d.json",
-      "pdfPath": "data/pdfs/24-777-4c5acdd97e4d--3-214.pdf",
-      "sourceRange": {
-        "startPage": 3,
-        "startOffset": 214,
-        "endPage": 17,
-        "endOffset": 0
-      },
-      "pageCount": 14,
-      "caseName": "Urias-Orellana v. Bondi",
-      "aliases": [],
-      "job": "recordings/jobs/24-777-4c5acdd97e4d--3-214.json",
-      "priority": 0
-    },
-    {
-      "id": "24-783-ef361de4ca30--5-53",
-      "caseId": "24-783",
-      "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Sonia Sotomayor",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r28_i4dk.pdf",
-      "textPath": "data/docs/24-783-ef361de4ca30.json",
-      "pdfPath": "data/pdfs/24-783-ef361de4ca30--5-53.pdf",
-      "sourceRange": {
-        "startPage": 5,
-        "startOffset": 53,
-        "endPage": 20,
-        "endOffset": 0
-      },
-      "pageCount": 15,
-      "caseName": "Enbridge Energy, LP v. Nessel",
-      "aliases": [],
-      "job": "recordings/jobs/24-783-ef361de4ca30--5-53.json",
-      "priority": 0
-    },
-    {
-      "id": "24-889-4cd1f7e073f6--4-55",
-      "caseId": "24-889",
-      "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r45_i4dk.pdf",
-      "textPath": "data/docs/24-889-4cd1f7e073f6.json",
-      "pdfPath": "data/pdfs/24-889-4cd1f7e073f6--4-55.pdf",
-      "sourceRange": {
-        "startPage": 4,
-        "startOffset": 55,
-        "endPage": 19,
-        "endOffset": 0
-      },
-      "pageCount": 15,
-      "caseName": "Hikma Pharmaceuticals USA Inc. v. Amarin Pharma, Inc.",
-      "aliases": [],
-      "job": "recordings/jobs/24-889-4cd1f7e073f6--4-55.json",
-      "priority": 0
-    },
-    {
       "id": "25-406-54426579de5d--5-564",
       "caseId": "25-567",
       "opinionType": "Opinion of the Court",
       "opinionAuthor": "John G. Roberts, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r43_m648.pdf",
       "textPath": "data/docs/25-406-54426579de5d.json",
-      "pdfPath": "data/pdfs/25-406-54426579de5d--5-564.pdf",
+      "pdfPath": "data/pdfs/25-406-54426579de5d--5-564-pages-b85744c0ac85.pdf",
       "sourceRange": {
         "startPage": 5,
         "startOffset": 564,
         "endPage": 19,
         "endOffset": 88
       },
-      "pageCount": 15,
+      "pageCount": 14,
       "caseName": "Verizon Communications Inc. v. FCC",
       "aliases": [],
       "job": "recordings/jobs/25-406-54426579de5d--5-564.json",
@@ -894,17 +914,37 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r16_869c.pdf",
       "textPath": "data/docs/24-557-d8fb1fd824ac.json",
-      "pdfPath": "data/pdfs/24-557-d8fb1fd824ac--3-645.pdf",
+      "pdfPath": "data/pdfs/24-557-d8fb1fd824ac--3-645-pages-f09343f2ecf1.pdf",
       "sourceRange": {
         "startPage": 3,
         "startOffset": 645,
         "endPage": 17,
         "endOffset": 56
       },
-      "pageCount": 15,
+      "pageCount": 14,
       "caseName": "Villarreal v. Texas",
       "aliases": [],
       "job": "recordings/jobs/24-557-d8fb1fd824ac--3-645.json",
+      "priority": 0
+    },
+    {
+      "id": "24-924-a99d1fbfaa6b--4-47",
+      "caseId": "24-924",
+      "opinionType": "Opinion of the Court",
+      "opinionAuthor": "Clarence Thomas",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r27_bq7c.pdf",
+      "textPath": "data/docs/24-924-a99d1fbfaa6b.json",
+      "pdfPath": "data/pdfs/24-924-a99d1fbfaa6b--4-47-pages-a862a10b7a9a.pdf",
+      "sourceRange": {
+        "startPage": 4,
+        "startOffset": 47,
+        "endPage": 19,
+        "endOffset": 54
+      },
+      "pageCount": 15,
+      "caseName": "Hencely v. Fluor Corp.",
+      "aliases": [],
+      "job": "recordings/jobs/24-924-a99d1fbfaa6b--4-47.json",
       "priority": 0
     },
     {
@@ -914,7 +954,7 @@
       "opinionAuthor": "Clarence Thomas",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r33_fcgj.pdf",
       "textPath": "data/docs/24-983-15300020d9c9.json",
-      "pdfPath": "data/pdfs/24-983-15300020d9c9--4-1398.pdf",
+      "pdfPath": "data/pdfs/24-983-15300020d9c9--4-1398-pages-49f6b830727c.pdf",
       "sourceRange": {
         "startPage": 4,
         "startOffset": 1398,
@@ -928,43 +968,23 @@
       "priority": 0
     },
     {
-      "id": "24-924-a99d1fbfaa6b--4-47",
-      "caseId": "24-924",
+      "id": "25-83-885edb846de5--4-1266",
+      "caseId": "25-83",
       "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r27_bq7c.pdf",
-      "textPath": "data/docs/24-924-a99d1fbfaa6b.json",
-      "pdfPath": "data/pdfs/24-924-a99d1fbfaa6b--4-47.pdf",
+      "opinionAuthor": "Sonia Sotomayor",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r31_8759.pdf",
+      "textPath": "data/docs/25-83-885edb846de5.json",
+      "pdfPath": "data/pdfs/25-83-885edb846de5--4-1266-pages-13709cdbb413.pdf",
       "sourceRange": {
         "startPage": 4,
-        "startOffset": 47,
-        "endPage": 19,
-        "endOffset": 54
-      },
-      "pageCount": 16,
-      "caseName": "Hencely v. Fluor Corp.",
-      "aliases": [],
-      "job": "recordings/jobs/24-924-a99d1fbfaa6b--4-47.json",
-      "priority": 0
-    },
-    {
-      "id": "25-51-f8f2259fc1e0--2-0",
-      "caseId": "25-51",
-      "opinionType": "Per curiam",
-      "opinionAuthor": "Per curiam",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r11_7l48.pdf",
-      "textPath": "data/docs/25-51-f8f2259fc1e0.json",
-      "pdfPath": "data/pdfs/25-51-f8f2259fc1e0--2-0.pdf",
-      "sourceRange": {
-        "startPage": 2,
-        "startOffset": 0,
-        "endPage": 18,
+        "startOffset": 1266,
+        "endPage": 21,
         "endOffset": 0
       },
       "pageCount": 16,
-      "caseName": "Klein v. Martin",
+      "caseName": "Jules v. Andre Balazs Properties",
       "aliases": [],
-      "job": "recordings/jobs/25-51-f8f2259fc1e0--2-0.json",
+      "job": "recordings/jobs/25-83-885edb846de5--4-1266.json",
       "priority": 0
     },
     {
@@ -984,7 +1004,7 @@
       "pageCount": 16,
       "caseName": "Rutherford v. United States",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-820-6b4e3fb895fe--5-168.json",
       "priority": 0
     },
     {
@@ -994,7 +1014,7 @@
       "opinionAuthor": "Amy Coney Barrett",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r39_5iek.pdf",
       "textPath": "data/docs/24-556-fa9034dce1ce.json",
-      "pdfPath": "data/pdfs/24-556-fa9034dce1ce--5-55.pdf",
+      "pdfPath": "data/pdfs/24-556-fa9034dce1ce--5-55-pages-628ebc6e4d10.pdf",
       "sourceRange": {
         "startPage": 5,
         "startOffset": 55,
@@ -1008,23 +1028,43 @@
       "priority": 0
     },
     {
-      "id": "25-83-885edb846de5--4-1266",
-      "caseId": "25-83",
+      "id": "25-5-fe3b8dc8ff65--5-79",
+      "caseId": "25-5",
       "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Sonia Sotomayor",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r31_8759.pdf",
-      "textPath": "data/docs/25-83-885edb846de5.json",
-      "pdfPath": "data/pdfs/25-83-885edb846de5--4-1266.pdf",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r59_kjfl.pdf",
+      "textPath": "data/docs/25-5-fe3b8dc8ff65.json",
+      "pdfPath": "data/pdfs/25-5-fe3b8dc8ff65--5-79-pages-c234f3026e92.pdf",
       "sourceRange": {
-        "startPage": 4,
-        "startOffset": 1266,
-        "endPage": 21,
-        "endOffset": 0
+        "startPage": 5,
+        "startOffset": 79,
+        "endPage": 22,
+        "endOffset": 57
       },
       "pageCount": 17,
-      "caseName": "Jules v. Andre Balazs Properties",
+      "caseName": "Mullin v. Al Otro Lado",
       "aliases": [],
-      "job": "recordings/jobs/25-83-885edb846de5--4-1266.json",
+      "job": "recordings/jobs/25-5-fe3b8dc8ff65--5-79.json",
+      "priority": 0
+    },
+    {
+      "id": "25-197-4c3fcefdc563--5-160",
+      "caseId": "25-197",
+      "opinionType": "Opinion of the Court",
+      "opinionAuthor": "Sonia Sotomayor",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r49_mlho.pdf",
+      "textPath": "data/docs/25-197-4c3fcefdc563.json",
+      "pdfPath": "data/pdfs/25-197-4c3fcefdc563--5-160-pages-31858d5a32ad.pdf",
+      "sourceRange": {
+        "startPage": 5,
+        "startOffset": 160,
+        "endPage": 22,
+        "endOffset": 57
+      },
+      "pageCount": 17,
+      "caseName": "T. M. v. University of Md. Medical System Corporation",
+      "aliases": [],
+      "job": "recordings/jobs/25-197-4c3fcefdc563--5-160.json",
       "priority": 0
     },
     {
@@ -1045,46 +1085,6 @@
       "caseName": "Landor v. Louisiana Dept of Corrections and Public Safety",
       "aliases": [],
       "job": "recordings/jobs/23-1197-47c01f9ff679--5-53.json",
-      "priority": 0
-    },
-    {
-      "id": "25-5-fe3b8dc8ff65--5-79",
-      "caseId": "25-5",
-      "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r59_kjfl.pdf",
-      "textPath": "data/docs/25-5-fe3b8dc8ff65.json",
-      "pdfPath": "data/pdfs/25-5-fe3b8dc8ff65--5-79.pdf",
-      "sourceRange": {
-        "startPage": 5,
-        "startOffset": 79,
-        "endPage": 22,
-        "endOffset": 57
-      },
-      "pageCount": 18,
-      "caseName": "Mullin v. Al Otro Lado",
-      "aliases": [],
-      "job": "recordings/jobs/25-5-fe3b8dc8ff65--5-79.json",
-      "priority": 0
-    },
-    {
-      "id": "25-197-4c3fcefdc563--5-160",
-      "caseId": "25-197",
-      "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Sonia Sotomayor",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r49_mlho.pdf",
-      "textPath": "data/docs/25-197-4c3fcefdc563.json",
-      "pdfPath": "data/pdfs/25-197-4c3fcefdc563--5-160.pdf",
-      "sourceRange": {
-        "startPage": 5,
-        "startOffset": 160,
-        "endPage": 22,
-        "endOffset": 57
-      },
-      "pageCount": 18,
-      "caseName": "T. M. v. University of Md. Medical System Corporation",
-      "aliases": [],
-      "job": "recordings/jobs/25-197-4c3fcefdc563--5-160.json",
       "priority": 0
     },
     {
@@ -1168,6 +1168,26 @@
       "priority": 0
     },
     {
+      "id": "24-781-4fffadd3c2d1--5-113",
+      "caseId": "24-781",
+      "opinionType": "Opinion of the Court",
+      "opinionAuthor": "Neil M. Gorsuch",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r30_3f14.pdf",
+      "textPath": "data/docs/24-781-4fffadd3c2d1.json",
+      "pdfPath": "data/pdfs/24-781-4fffadd3c2d1--5-113-pages-e8c76aed19fa.pdf",
+      "sourceRange": {
+        "startPage": 5,
+        "startOffset": 113,
+        "endPage": 28,
+        "endOffset": 0
+      },
+      "pageCount": 22,
+      "caseName": "First Choice Women’s Resource Centers, Inc. v. Davenport",
+      "aliases": [],
+      "job": "recordings/jobs/24-781-4fffadd3c2d1--5-113.json",
+      "priority": 0
+    },
+    {
       "id": "24-1068-0d88dd38f1d2--4-76",
       "caseId": "24-1068",
       "opinionType": "Opinion of the Court",
@@ -1184,27 +1204,7 @@
       "pageCount": 22,
       "caseName": "Monsanto v. Durnell",
       "aliases": [],
-      "job": null,
-      "priority": 0
-    },
-    {
-      "id": "24-781-4fffadd3c2d1--5-113",
-      "caseId": "24-781",
-      "opinionType": "Opinion of the Court",
-      "opinionAuthor": "Neil M. Gorsuch",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r30_3f14.pdf",
-      "textPath": "data/docs/24-781-4fffadd3c2d1.json",
-      "pdfPath": "data/pdfs/24-781-4fffadd3c2d1--5-113.pdf",
-      "sourceRange": {
-        "startPage": 5,
-        "startOffset": 113,
-        "endPage": 28,
-        "endOffset": 0
-      },
-      "pageCount": 23,
-      "caseName": "First Choice Women’s Resource Centers, Inc. v. Davenport",
-      "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-1068-0d88dd38f1d2--4-76.json",
       "priority": 0
     },
     {
@@ -1214,17 +1214,17 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r18_d18f.pdf",
       "textPath": "data/docs/24-1021-fc4291bf106d.json",
-      "pdfPath": "data/pdfs/24-1021-fc4291bf106d--7-55.pdf",
+      "pdfPath": "data/pdfs/24-1021-fc4291bf106d--7-55-pages-d76fd0f6d82b.pdf",
       "sourceRange": {
         "startPage": 7,
         "startOffset": 55,
         "endPage": 30,
         "endOffset": 0
       },
-      "pageCount": 23,
+      "pageCount": 22,
       "caseName": "NJ Transit Corp. v. Colt",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-1021-fc4291bf106d--7-55.json",
       "priority": 0
     },
     {
@@ -1234,17 +1234,17 @@
       "opinionAuthor": "Amy Coney Barrett",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r65_g314.pdf",
       "textPath": "data/docs/24-1260-bf067461418d.json",
-      "pdfPath": "data/pdfs/24-1260-bf067461418d--5-97.pdf",
+      "pdfPath": "data/pdfs/24-1260-bf067461418d--5-97-pages-5715492d6c1b.pdf",
       "sourceRange": {
         "startPage": 5,
         "startOffset": 97,
         "endPage": 27,
         "endOffset": 67
       },
-      "pageCount": 23,
+      "pageCount": 22,
       "caseName": "Watson v. Republican National Committee",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-1260-bf067461418d--5-97.json",
       "priority": 0
     },
     {
@@ -1264,7 +1264,7 @@
       "pageCount": 24,
       "caseName": "Chiles v. Salazar",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-539-cd3ac2b6b65d--6-43.json",
       "priority": 0
     },
     {
@@ -1284,7 +1284,7 @@
       "pageCount": 24,
       "caseName": "Trump v. Miot",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/25-1083-f96e8482bff5--4-86.json",
       "priority": 0
     },
     {
@@ -1294,17 +1294,17 @@
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r58_a8cf.pdf",
       "textPath": "data/docs/24-1046-83b323fda5e8.json",
-      "pdfPath": "data/pdfs/24-1046-83b323fda5e8--5-86.pdf",
+      "pdfPath": "data/pdfs/24-1046-83b323fda5e8--5-86-pages-949256240f46.pdf",
       "sourceRange": {
         "startPage": 5,
         "startOffset": 86,
         "endPage": 29,
         "endOffset": 89
       },
-      "pageCount": 25,
+      "pageCount": 24,
       "caseName": "Wolford v. Lopez",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-1046-83b323fda5e8--5-86.json",
       "priority": 0
     },
     {
@@ -1324,7 +1324,7 @@
       "pageCount": 26,
       "caseName": "Bowe v. United States",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-5438-d1825e31b9cd--5-1016.json",
       "priority": 0
     },
     {
@@ -1344,7 +1344,7 @@
       "pageCount": 26,
       "caseName": "Trump v. Cook",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/25A312-160e5fa4af84--7-39.json",
       "priority": 0
     },
     {
@@ -1364,7 +1364,7 @@
       "pageCount": 27,
       "caseName": "Trump v. Barbara",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/25-365-06668450ad03--5-626.json",
       "priority": 0
     },
     {
@@ -1384,7 +1384,7 @@
       "pageCount": 28,
       "caseName": "National Republican Senatorial Committee v. Federal Election Comm’n",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-621-c06758505ff0--5-94.json",
       "priority": 0
     },
     {
@@ -1404,7 +1404,7 @@
       "pageCount": 30,
       "caseName": "West Virginia v. B. P. J.",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-43-e9275532900a--7-82.json",
       "priority": 0
     },
     {
@@ -1424,7 +1424,7 @@
       "pageCount": 33,
       "caseName": "Chatrie v. United States",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/25-112-c22b9f1e2458--6-50.json",
       "priority": 0
     },
     {
@@ -1444,7 +1444,7 @@
       "pageCount": 36,
       "caseName": "Louisiana v. Callais",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/24-109-1ca9df9cb0ae--7-53.json",
       "priority": 0
     },
     {
@@ -1464,7 +1464,7 @@
       "pageCount": 36,
       "caseName": "Trump v. Slaughter",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/25-332-7e839c10c516--8-86.json",
       "priority": 0
     },
     {
@@ -1484,7 +1484,27 @@
       "pageCount": 1,
       "caseName": "Callais v. Louisiana",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/25A1197-280c6af37bba--0-0.json",
+      "priority": 1
+    },
+    {
+      "id": "24-808-da85ea4afe0b--8-468",
+      "caseId": "24-808",
+      "opinionType": "Concurrence in the judgment",
+      "opinionAuthor": "Sonia Sotomayor",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r08_f2q3.pdf",
+      "textPath": "data/docs/24-808-da85ea4afe0b.json",
+      "pdfPath": "data/pdfs/24-808-da85ea4afe0b--8-468-pages-0f2300bc8f1a.pdf",
+      "sourceRange": {
+        "startPage": 8,
+        "startOffset": 468,
+        "endPage": 10,
+        "endOffset": 0
+      },
+      "pageCount": 1,
+      "caseName": "Coney Island Auto Parts Unlimited, Inc. v. Burton",
+      "aliases": [],
+      "job": "recordings/jobs-separate/24-808-da85ea4afe0b--8-468.json",
       "priority": 1
     },
     {
@@ -1494,7 +1514,7 @@
       "opinionAuthor": "Elena Kagan",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r47_m64o.pdf",
       "textPath": "data/docs/24-345-cc05184abe0d.json",
-      "pdfPath": "data/pdfs/24-345-cc05184abe0d--17-770.pdf",
+      "pdfPath": "data/pdfs/24-345-cc05184abe0d--17-770-pages-d32035e74260.pdf",
       "sourceRange": {
         "startPage": 17,
         "startOffset": 770,
@@ -1514,7 +1534,7 @@
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-851_ed9f.pdf",
       "textPath": "data/docs/25-851-e4ce847fd33f.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-851-e4ce847fd33f--0-0-pages-06520259e17e.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -1534,7 +1554,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-821_e29g.pdf",
       "textPath": "data/docs/25-821-b95c63cfe10f.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-821-b95c63cfe10f--0-0-pages-f02e18a4790e.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -1554,7 +1574,7 @@
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-89_8n5a.pdf",
       "textPath": "data/docs/25-89-80b61447a70e.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-89-80b61447a70e--0-0-pages-65af33141b61.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -1565,6 +1585,26 @@
       "caseName": "Lee v. Poudre School Dist. R–1",
       "aliases": [],
       "job": "recordings/jobs-separate-extra/25-89-80b61447a70e--0-0.json",
+      "priority": 1
+    },
+    {
+      "id": "26A274-dbfe52b7bf3b--5-469",
+      "caseId": "26A274",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r71_4h25.pdf",
+      "textPath": "data/docs/26A274-dbfe52b7bf3b.json",
+      "pdfPath": "data/pdfs/26A274-dbfe52b7bf3b--5-469-pages-87a61b7478ad.pdf",
+      "sourceRange": {
+        "startPage": 5,
+        "startOffset": 469,
+        "endPage": 7,
+        "endOffset": 0
+      },
+      "pageCount": 1,
+      "caseName": "National Republican Congressional Committee v. Brown",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/26A274-dbfe52b7bf3b--5-469.json",
       "priority": 1
     },
     {
@@ -1584,7 +1624,27 @@
       "pageCount": 1,
       "caseName": "Postal Service v. California",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/26A305-baefa5e1b024--0-0.json",
+      "priority": 1
+    },
+    {
+      "id": "26A305-baefa5e1b024--0-566",
+      "caseId": "26A305",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Brett M. Kavanaugh",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a305_4g15.pdf",
+      "textPath": "data/current-docs/26A305-baefa5e1b024.json",
+      "pdfPath": "data/pdfs/26A305-baefa5e1b024--0-566-pages-16f5f70810f2.pdf",
+      "sourceRange": {
+        "startPage": 0,
+        "startOffset": 566,
+        "endPage": 1,
+        "endOffset": 224
+      },
+      "pageCount": 1,
+      "caseName": "Postal Service v. California",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/26A305-baefa5e1b024--0-566.json",
       "priority": 1
     },
     {
@@ -1604,7 +1664,67 @@
       "pageCount": 2,
       "caseName": "Abbott v. League of United Latin American Citizens",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/25A608-051f527a2946--0-0.json",
+      "priority": 1
+    },
+    {
+      "id": "25A608-051f527a2946--1-1440",
+      "caseId": "25A608",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a608_7khn.pdf",
+      "textPath": "data/current-docs/25A608-051f527a2946.json",
+      "pdfPath": "data/pdfs/25A608-051f527a2946--1-1440-pages-fdce14f0e80e.pdf",
+      "sourceRange": {
+        "startPage": 1,
+        "startOffset": 1440,
+        "endPage": 3,
+        "endOffset": 253
+      },
+      "pageCount": 2,
+      "caseName": "Abbott v. League of United Latin American Citizens",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/25A608-051f527a2946--1-1440.json",
+      "priority": 1
+    },
+    {
+      "id": "25-112-c22b9f1e2458--38-53",
+      "caseId": "25-112",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf",
+      "textPath": "data/docs/25-112-c22b9f1e2458.json",
+      "pdfPath": "data/pdfs/25-112-c22b9f1e2458--38-53-pages-fb68cd96065d.pdf",
+      "sourceRange": {
+        "startPage": 38,
+        "startOffset": 53,
+        "endPage": 40,
+        "endOffset": 65
+      },
+      "pageCount": 2,
+      "caseName": "Chatrie v. United States",
+      "aliases": [],
+      "job": "recordings/jobs-separate-extra/25-112-c22b9f1e2458--38-53.json",
+      "priority": 1
+    },
+    {
+      "id": "25-112-c22b9f1e2458--66-1453",
+      "caseId": "25-112",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Amy Coney Barrett",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf",
+      "textPath": "data/docs/25-112-c22b9f1e2458.json",
+      "pdfPath": "data/pdfs/25-112-c22b9f1e2458--66-1453-pages-75e7dd0dfedd.pdf",
+      "sourceRange": {
+        "startPage": 66,
+        "startOffset": 1453,
+        "endPage": 69,
+        "endOffset": 0
+      },
+      "pageCount": 2,
+      "caseName": "Chatrie v. United States",
+      "aliases": [],
+      "job": "recordings/jobs-separate/25-112-c22b9f1e2458--66-1453.json",
       "priority": 1
     },
     {
@@ -1614,7 +1734,7 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r57_db8e.pdf",
       "textPath": "data/docs/24-856-72b94be09fe1.json",
-      "pdfPath": "data/pdfs/24-856-72b94be09fe1--18-414.pdf",
+      "pdfPath": "data/pdfs/24-856-72b94be09fe1--18-414-pages-e2ec69733d96.pdf",
       "sourceRange": {
         "startPage": 18,
         "startOffset": 414,
@@ -1628,23 +1748,25 @@
       "priority": 1
     },
     {
-      "id": "24-808-da85ea4afe0b--8-468",
-      "caseId": "24-808",
-      "opinionType": "Concurrence in the judgment",
-      "opinionAuthor": "Sonia Sotomayor",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r08_f2q3.pdf",
-      "textPath": "data/docs/24-808-da85ea4afe0b.json",
-      "pdfPath": "data/pdfs/24-808-da85ea4afe0b--8-468.pdf",
+      "id": "25A1207-6fbbbc7dd311--0-911",
+      "caseId": "25A1207",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Clarence Thomas",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1207_new_3d9g.pdf",
+      "textPath": "data/current-docs/25A1207-6fbbbc7dd311.json",
+      "pdfPath": "data/pdfs/25A1207-6fbbbc7dd311--0-911-pages-be5cb66712fb.pdf",
       "sourceRange": {
-        "startPage": 8,
-        "startOffset": 468,
-        "endPage": 10,
-        "endOffset": 0
+        "startPage": 0,
+        "startOffset": 911,
+        "endPage": 2,
+        "endOffset": 298
       },
       "pageCount": 2,
-      "caseName": "Coney Island Auto Parts Unlimited, Inc. v. Burton",
-      "aliases": [],
-      "job": "recordings/jobs-separate/24-808-da85ea4afe0b--8-468.json",
+      "caseName": "Danco Laboratories, LLC v. Louisiana",
+      "aliases": [
+        "25A1208-6fbbbc7dd311--0-911"
+      ],
+      "job": "recordings/jobs-separate-remaining-b/25A1207-6fbbbc7dd311--0-911.json",
       "priority": 1
     },
     {
@@ -1654,7 +1776,7 @@
       "opinionAuthor": "Clarence Thomas",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-770_2c8f.pdf",
       "textPath": "data/docs/25-770-a2ca5bc9ccad.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-770-a2ca5bc9ccad--0-0-pages-bcd3c5131ad1.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -1694,7 +1816,7 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1235_7648.pdf",
       "textPath": "data/current-docs/25A1235-1ddcfa180a7b.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A1235-1ddcfa180a7b--0-674-pages-f8af433e1a4b.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 674,
@@ -1728,13 +1850,33 @@
       "priority": 1
     },
     {
+      "id": "24-1063-22d936bf1cef--34-680",
+      "caseId": "24-1063",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Amy Coney Barrett",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r50_lkgn.pdf",
+      "textPath": "data/docs/24-1063-22d936bf1cef.json",
+      "pdfPath": "data/pdfs/24-1063-22d936bf1cef--34-680-pages-ff81d9741ecd.pdf",
+      "sourceRange": {
+        "startPage": 34,
+        "startOffset": 680,
+        "endPage": 36,
+        "endOffset": 51
+      },
+      "pageCount": 2,
+      "caseName": "Hunter v. United States",
+      "aliases": [],
+      "job": "recordings/jobs-separate-extra/24-1063-22d936bf1cef--34-680.json",
+      "priority": 1
+    },
+    {
       "id": "24-1022-03cd7505d99a--0-0",
       "caseId": "24-1022",
       "opinionType": "Dissent",
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1022_5iek.pdf",
       "textPath": "data/docs/24-1022-03cd7505d99a.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/24-1022-03cd7505d99a--0-0-pages-e348783be16f.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -1768,46 +1910,6 @@
       "priority": 1
     },
     {
-      "id": "26A274-dbfe52b7bf3b--5-469",
-      "caseId": "26A274",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r71_4h25.pdf",
-      "textPath": "data/docs/26A274-dbfe52b7bf3b.json",
-      "pdfPath": "data/pdfs/26A274-dbfe52b7bf3b--5-469.pdf",
-      "sourceRange": {
-        "startPage": 5,
-        "startOffset": 469,
-        "endPage": 7,
-        "endOffset": 0
-      },
-      "pageCount": 2,
-      "caseName": "National Republican Congressional Committee v. Brown",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/26A274-dbfe52b7bf3b--5-469.json",
-      "priority": 1
-    },
-    {
-      "id": "26A305-baefa5e1b024--0-566",
-      "caseId": "26A305",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Brett M. Kavanaugh",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a305_4g15.pdf",
-      "textPath": "data/current-docs/26A305-baefa5e1b024.json",
-      "pdfPath": null,
-      "sourceRange": {
-        "startPage": 0,
-        "startOffset": 566,
-        "endPage": 1,
-        "endOffset": 224
-      },
-      "pageCount": 2,
-      "caseName": "Postal Service v. California",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/26A305-baefa5e1b024--0-566.json",
-      "priority": 1
-    },
-    {
       "id": "25-95-390fb360c3dc--15-756",
       "caseId": "25-95",
       "opinionType": "Concurrence",
@@ -1834,7 +1936,7 @@
       "opinionAuthor": "Neil M. Gorsuch",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a443_new_b07d.pdf",
       "textPath": "data/current-docs/25A443-2b561f1d14b5.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A443-2b561f1d14b5--23-260-pages-bfd5d0122db4.pdf",
       "sourceRange": {
         "startPage": 23,
         "startOffset": 260,
@@ -1864,7 +1966,7 @@
       "pageCount": 2,
       "caseName": "Trump v. Orr",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/25A319-9dd5744ce384--0-0.json",
       "priority": 1
     },
     {
@@ -1908,33 +2010,13 @@
       "priority": 1
     },
     {
-      "id": "25A608-051f527a2946--1-1440",
-      "caseId": "25A608",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a608_7khn.pdf",
-      "textPath": "data/current-docs/25A608-051f527a2946.json",
-      "pdfPath": null,
-      "sourceRange": {
-        "startPage": 1,
-        "startOffset": 1440,
-        "endPage": 3,
-        "endOffset": 253
-      },
-      "pageCount": 3,
-      "caseName": "Abbott v. League of United Latin American Citizens",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25A608-051f527a2946--1-1440.json",
-      "priority": 1
-    },
-    {
       "id": "24-1078-823d3aa4cdae--0-0",
       "caseId": "24-1078",
       "opinionType": "Statement",
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1078_7758.pdf",
       "textPath": "data/docs/24-1078-823d3aa4cdae.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/24-1078-823d3aa4cdae--0-0-pages-c33a5d136bc7.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -1951,10 +2033,10 @@
       "id": "25-5442-f0b877d89980--0-0",
       "caseId": "25-5442",
       "opinionType": "Dissent",
-      "opinionAuthor": "Neil Gorsuch",
+      "opinionAuthor": "Neil M. Gorsuch",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-5442_fd9g.pdf",
       "textPath": "data/docs/25-5442-f0b877d89980.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-5442-f0b877d89980--0-0-pages-5254fa967223.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -1968,65 +2050,23 @@
       "priority": 1
     },
     {
-      "id": "25-112-c22b9f1e2458--38-53",
-      "caseId": "25-112",
+      "id": "25A1197-280c6af37bba--0-1154",
+      "caseId": "25A1197",
       "opinionType": "Concurrence",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf",
-      "textPath": "data/docs/25-112-c22b9f1e2458.json",
-      "pdfPath": "data/pdfs/25-112-c22b9f1e2458--38-53.pdf",
-      "sourceRange": {
-        "startPage": 38,
-        "startOffset": 53,
-        "endPage": 40,
-        "endOffset": 65
-      },
-      "pageCount": 3,
-      "caseName": "Chatrie v. United States",
-      "aliases": [],
-      "job": "recordings/jobs-separate-extra/25-112-c22b9f1e2458--38-53.json",
-      "priority": 1
-    },
-    {
-      "id": "25-112-c22b9f1e2458--66-1453",
-      "caseId": "25-112",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Amy Coney Barrett",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf",
-      "textPath": "data/docs/25-112-c22b9f1e2458.json",
-      "pdfPath": "data/pdfs/25-112-c22b9f1e2458--66-1453.pdf",
-      "sourceRange": {
-        "startPage": 66,
-        "startOffset": 1453,
-        "endPage": 69,
-        "endOffset": 0
-      },
-      "pageCount": 3,
-      "caseName": "Chatrie v. United States",
-      "aliases": [],
-      "job": "recordings/jobs-separate/25-112-c22b9f1e2458--66-1453.json",
-      "priority": 1
-    },
-    {
-      "id": "25A1207-6fbbbc7dd311--0-911",
-      "caseId": "25A1207",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1207_new_3d9g.pdf",
-      "textPath": "data/current-docs/25A1207-6fbbbc7dd311.json",
-      "pdfPath": null,
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf",
+      "textPath": "data/current-docs/25A1197-280c6af37bba.json",
+      "pdfPath": "data/pdfs/25A1197-280c6af37bba--0-1154-pages-443f828c54c5.pdf",
       "sourceRange": {
         "startPage": 0,
-        "startOffset": 911,
-        "endPage": 2,
-        "endOffset": 298
+        "startOffset": 1154,
+        "endPage": 3,
+        "endOffset": 261
       },
       "pageCount": 3,
-      "caseName": "Danco Laboratories, LLC v. Louisiana",
-      "aliases": [
-        "25A1208-6fbbbc7dd311--0-911"
-      ],
-      "job": "recordings/jobs-separate-remaining-b/25A1207-6fbbbc7dd311--0-911.json",
+      "caseName": "Callais v. Louisiana",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/25A1197-280c6af37bba--0-1154.json",
       "priority": 1
     },
     {
@@ -2036,7 +2076,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-7435_5if6.pdf",
       "textPath": "data/docs/24-7435-efd873be040b.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/24-7435-efd873be040b--0-0-pages-498015b06570.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -2047,6 +2087,26 @@
       "caseName": "Davenport v. United States",
       "aliases": [],
       "job": "recordings/jobs-separate-extra/24-7435-efd873be040b--0-0.json",
+      "priority": 1
+    },
+    {
+      "id": "25-248-68cf041e6dbb--7-1371",
+      "caseId": "25-248",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r26_ppl4.pdf",
+      "textPath": "data/docs/25-248-68cf041e6dbb.json",
+      "pdfPath": "data/pdfs/25-248-68cf041e6dbb--7-1371-pages-a22f0a06c844.pdf",
+      "sourceRange": {
+        "startPage": 7,
+        "startOffset": 1371,
+        "endPage": 11,
+        "endOffset": 0
+      },
+      "pageCount": 3,
+      "caseName": "District of Columbia v. R.W.",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/25-248-68cf041e6dbb--7-1371.json",
       "priority": 1
     },
     {
@@ -2066,7 +2126,7 @@
       "pageCount": 3,
       "caseName": "E.D. v. Noblesville School District",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/25-906-a34a48fb38b7--0-0.json",
       "priority": 1
     },
     {
@@ -2086,27 +2146,7 @@
       "pageCount": 3,
       "caseName": "Fernandez v. United States",
       "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
-      "id": "24-1063-22d936bf1cef--34-680",
-      "caseId": "24-1063",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Amy Coney Barrett",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r50_lkgn.pdf",
-      "textPath": "data/docs/24-1063-22d936bf1cef.json",
-      "pdfPath": "data/pdfs/24-1063-22d936bf1cef--34-680.pdf",
-      "sourceRange": {
-        "startPage": 34,
-        "startOffset": 680,
-        "endPage": 36,
-        "endOffset": 51
-      },
-      "pageCount": 3,
-      "caseName": "Hunter v. United States",
-      "aliases": [],
-      "job": "recordings/jobs-separate-extra/24-1063-22d936bf1cef--34-680.json",
+      "job": "recordings/jobs-separate-extra/24-556-fa9034dce1ce--21-158.json",
       "priority": 1
     },
     {
@@ -2116,7 +2156,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-524_0971.pdf",
       "textPath": "data/docs/25-524-51764986cd55.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-524-51764986cd55--0-0-pages-1d2b1c214136.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -2130,13 +2170,33 @@
       "priority": 1
     },
     {
+      "id": "25-767-d6c08cdba1ec--5-1795",
+      "caseId": "25-767",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Clarence Thomas",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r36_n758.pdf",
+      "textPath": "data/docs/25-767-d6c08cdba1ec.json",
+      "pdfPath": "data/pdfs/25-767-d6c08cdba1ec--5-1795-pages-57925b206f96.pdf",
+      "sourceRange": {
+        "startPage": 5,
+        "startOffset": 1795,
+        "endPage": 9,
+        "endOffset": 0
+      },
+      "pageCount": 3,
+      "caseName": "Margolin v. NAIJ",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/25-767-d6c08cdba1ec--5-1795.json",
+      "priority": 1
+    },
+    {
       "id": "26A428-97eab1049fc0--0-528",
       "caseId": "26A428",
       "opinionType": "Dissent",
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a428_4f15.pdf",
       "textPath": "data/current-docs/26A428-97eab1049fc0.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/26A428-97eab1049fc0--0-528-pages-304f0a0795c5.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 528,
@@ -2147,6 +2207,26 @@
       "caseName": "Nelsen v. Pike",
       "aliases": [],
       "job": "recordings/jobs-separate-remaining-a/26A428-97eab1049fc0--0-528.json",
+      "priority": 1
+    },
+    {
+      "id": "24-110-47037d72c88e--0-0",
+      "caseId": "24-110",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf",
+      "textPath": "data/docs/24-110-47037d72c88e.json",
+      "pdfPath": "data/pdfs/24-110-47037d72c88e--0-0-pages-3aa30f6c233c.pdf",
+      "sourceRange": {
+        "startPage": 0,
+        "startOffset": 0,
+        "endPage": 3,
+        "endOffset": 279
+      },
+      "pageCount": 3,
+      "caseName": "Robinson v. Callais",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/24-110-47037d72c88e--0-0.json",
       "priority": 1
     },
     {
@@ -2186,7 +2266,7 @@
       "pageCount": 3,
       "caseName": "Trump v. Illinois",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs/25A443-2b561f1d14b5--0-0.json",
       "priority": 1
     },
     {
@@ -2196,7 +2276,7 @@
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-885_5h26.pdf",
       "textPath": "data/docs/25-885-7379e9acaf0f.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-885-7379e9acaf0f--0-0-pages-1f29fdfe68c5.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -2210,13 +2290,53 @@
       "priority": 1
     },
     {
+      "id": "24-1234-d9fba3f62f9f--35-798",
+      "caseId": "24-1234",
+      "opinionType": "Concurrence in the judgment",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r51_k4lo.pdf",
+      "textPath": "data/docs/24-1234-d9fba3f62f9f.json",
+      "pdfPath": "data/pdfs/24-1234-d9fba3f62f9f--35-798-pages-977c5dee873a.pdf",
+      "sourceRange": {
+        "startPage": 35,
+        "startOffset": 798,
+        "endPage": 39,
+        "endOffset": 0
+      },
+      "pageCount": 3,
+      "caseName": "United States v. Hemani",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/24-1234-d9fba3f62f9f--35-798.json",
+      "priority": 1
+    },
+    {
+      "id": "24-43-e9275532900a--72-1719",
+      "caseId": "24-43",
+      "opinionType": "Concurring in part and dissenting in part",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf",
+      "textPath": "data/docs/24-43-e9275532900a.json",
+      "pdfPath": "data/pdfs/24-43-e9275532900a--72-1719-pages-58a190d6a5bb.pdf",
+      "sourceRange": {
+        "startPage": 72,
+        "startOffset": 1719,
+        "endPage": 76,
+        "endOffset": 0
+      },
+      "pageCount": 3,
+      "caseName": "West Virginia v. B. P. J.",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/24-43-e9275532900a--72-1719.json",
+      "priority": 1
+    },
+    {
       "id": "25-848-ea69b6d4f9d8--0-0",
       "caseId": "25-848",
       "opinionType": "Dissent",
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-848_3146.pdf",
       "textPath": "data/docs/25-848-ea69b6d4f9d8.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-848-ea69b6d4f9d8--0-0-pages-4d24ba92fc9e.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -2226,27 +2346,7 @@
       "pageCount": 4,
       "caseName": "Alabama v. Powell",
       "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
-      "id": "25A1197-280c6af37bba--0-1154",
-      "caseId": "25A1197",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf",
-      "textPath": "data/current-docs/25A1197-280c6af37bba.json",
-      "pdfPath": null,
-      "sourceRange": {
-        "startPage": 0,
-        "startOffset": 1154,
-        "endPage": 3,
-        "endOffset": 261
-      },
-      "pageCount": 4,
-      "caseName": "Callais v. Louisiana",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25A1197-280c6af37bba--0-1154.json",
+      "job": "recordings/jobs-separate-remaining-b/25-848-ea69b6d4f9d8--0-0.json",
       "priority": 1
     },
     {
@@ -2256,7 +2356,7 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf",
       "textPath": "data/current-docs/25A1197-280c6af37bba.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A1197-280c6af37bba--3-261-pages-63f029f9b03a.pdf",
       "sourceRange": {
         "startPage": 3,
         "startOffset": 261,
@@ -2270,13 +2370,33 @@
       "priority": 1
     },
     {
+      "id": "24-624-c6f18a6d5168--18-795",
+      "caseId": "24-624",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Neil M. Gorsuch",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r06_19m1.pdf",
+      "textPath": "data/docs/24-624-c6f18a6d5168.json",
+      "pdfPath": "data/pdfs/24-624-c6f18a6d5168--18-795-pages-f20f56dd7756.pdf",
+      "sourceRange": {
+        "startPage": 18,
+        "startOffset": 795,
+        "endPage": 23,
+        "endOffset": 0
+      },
+      "pageCount": 4,
+      "caseName": "Case v. Montana",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/24-624-c6f18a6d5168--18-795.json",
+      "priority": 1
+    },
+    {
       "id": "25-666-ac1f0cc3d67e--0-0",
       "caseId": "25-666",
       "opinionType": "Statement",
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-666_k5fm.pdf",
       "textPath": "data/docs/25-666-ac1f0cc3d67e.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-666-ac1f0cc3d67e--0-0-pages-e63089747724.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -2286,47 +2406,49 @@
       "pageCount": 4,
       "caseName": "Castro v. Guevara",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/25-666-ac1f0cc3d67e--0-0.json",
       "priority": 1
     },
     {
-      "id": "25-248-68cf041e6dbb--7-1371",
-      "caseId": "25-248",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r26_ppl4.pdf",
-      "textPath": "data/docs/25-248-68cf041e6dbb.json",
-      "pdfPath": "data/pdfs/25-248-68cf041e6dbb--7-1371.pdf",
-      "sourceRange": {
-        "startPage": 7,
-        "startOffset": 1371,
-        "endPage": 11,
-        "endOffset": 0
-      },
-      "pageCount": 4,
-      "caseName": "District of Columbia v. R.W.",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25-248-68cf041e6dbb--7-1371.json",
-      "priority": 1
-    },
-    {
-      "id": "25-767-d6c08cdba1ec--5-1795",
-      "caseId": "25-767",
+      "id": "24-724-8f732370e043--14-459",
+      "caseId": "24-724",
       "opinionType": "Concurrence",
       "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r36_n758.pdf",
-      "textPath": "data/docs/25-767-d6c08cdba1ec.json",
-      "pdfPath": "data/pdfs/25-767-d6c08cdba1ec--5-1795.pdf",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r14_1a72.pdf",
+      "textPath": "data/docs/24-724-8f732370e043.json",
+      "pdfPath": "data/pdfs/24-724-8f732370e043--14-459-pages-a6c848060573.pdf",
       "sourceRange": {
-        "startPage": 5,
-        "startOffset": 1795,
-        "endPage": 9,
+        "startPage": 14,
+        "startOffset": 459,
+        "endPage": 19,
         "endOffset": 0
       },
       "pageCount": 4,
-      "caseName": "Margolin v. NAIJ",
+      "caseName": "Hain Celestial Group, Inc. v. Palmquist",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25-767-d6c08cdba1ec--5-1795.json",
+      "job": "recordings/jobs-separate-remaining-b/24-724-8f732370e043--14-459.json",
+      "priority": 1
+    },
+    {
+      "id": "25A914-6f32f281156b--0-939",
+      "caseId": "25A914",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a914_1p24.pdf",
+      "textPath": "data/current-docs/25A914-6f32f281156b.json",
+      "pdfPath": "data/pdfs/25A914-6f32f281156b--0-939-pages-3d51d1b5507f.pdf",
+      "sourceRange": {
+        "startPage": 0,
+        "startOffset": 939,
+        "endPage": 4,
+        "endOffset": 325
+      },
+      "pageCount": 4,
+      "caseName": "Malliotakis v. Williams",
+      "aliases": [
+        "25A915-6f32f281156b--0-939"
+      ],
+      "job": "recordings/jobs-separate-remaining-a/25A914-6f32f281156b--0-939.json",
       "priority": 1
     },
     {
@@ -2350,23 +2472,23 @@
       "priority": 1
     },
     {
-      "id": "24-110-47037d72c88e--0-0",
-      "caseId": "24-110",
-      "opinionType": "Concurrence",
+      "id": "24-1056-0c422e56c79e--15-149",
+      "caseId": "24-1056",
+      "opinionType": "Dissent",
       "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf",
-      "textPath": "data/docs/24-110-47037d72c88e.json",
-      "pdfPath": "data/pdfs/24-110-47037d72c88e--0-0.pdf",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r23_4g15.pdf",
+      "textPath": "data/docs/24-1056-0c422e56c79e.json",
+      "pdfPath": "data/pdfs/24-1056-0c422e56c79e--15-149-pages-b62ca7a51d81.pdf",
       "sourceRange": {
-        "startPage": 0,
-        "startOffset": 0,
-        "endPage": 3,
-        "endOffset": 279
+        "startPage": 15,
+        "startOffset": 149,
+        "endPage": 20,
+        "endOffset": 0
       },
       "pageCount": 4,
-      "caseName": "Robinson v. Callais",
+      "caseName": "Rico v. United States",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-110-47037d72c88e--0-0.json",
+      "job": "recordings/jobs-separate-remaining-a/24-1056-0c422e56c79e--15-149.json",
       "priority": 1
     },
     {
@@ -2393,7 +2515,7 @@
       "id": "24-1180-1362d4b6efe8--0-0",
       "caseId": "24-1180",
       "opinionType": "Statement",
-      "opinionAuthor": "Neil Gorsuch",
+      "opinionAuthor": "Neil M. Gorsuch",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1180_dc8f.pdf",
       "textPath": "data/docs/24-1180-1362d4b6efe8.json",
       "pdfPath": null,
@@ -2406,7 +2528,7 @@
       "pageCount": 4,
       "caseName": "Thomas v. Humboldt Cty.",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/24-1180-1362d4b6efe8--0-0.json",
       "priority": 1
     },
     {
@@ -2416,7 +2538,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a926_2dp3.pdf",
       "textPath": "data/current-docs/25A926-7f5fd3cb8908.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A926-7f5fd3cb8908--0-484-pages-bcfedb25d5e7.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 484,
@@ -2436,7 +2558,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r69_11o2.pdf",
       "textPath": "data/docs/26A124-7f09f51afb97.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/26A124-7f09f51afb97--11-812-pages-9e1143e696f3.pdf",
       "sourceRange": {
         "startPage": 11,
         "startOffset": 812,
@@ -2492,6 +2614,26 @@
       "priority": 1
     },
     {
+      "id": "25A312-160e5fa4af84--74-58",
+      "caseId": "25A312",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Amy Coney Barrett",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf",
+      "textPath": "data/docs/25A312-160e5fa4af84.json",
+      "pdfPath": "data/pdfs/25A312-160e5fa4af84--74-58-pages-2ee9b17f3228.pdf",
+      "sourceRange": {
+        "startPage": 74,
+        "startOffset": 58,
+        "endPage": 79,
+        "endOffset": 0
+      },
+      "pageCount": 4,
+      "caseName": "Trump v. Cook",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/25A312-160e5fa4af84--74-58.json",
+      "priority": 1
+    },
+    {
       "id": "24-1287-2059f0a43b72--82-622",
       "caseId": "25-250",
       "opinionType": "Concurring in part and in the judgment",
@@ -2512,43 +2654,23 @@
       "priority": 1
     },
     {
-      "id": "24-1234-d9fba3f62f9f--35-798",
-      "caseId": "24-1234",
-      "opinionType": "Concurrence in the judgment",
+      "id": "24-557-d8fb1fd824ac--17-56",
+      "caseId": "24-557",
+      "opinionType": "Concurrence",
       "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r51_k4lo.pdf",
-      "textPath": "data/docs/24-1234-d9fba3f62f9f.json",
-      "pdfPath": "data/pdfs/24-1234-d9fba3f62f9f--35-798.pdf",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r16_869c.pdf",
+      "textPath": "data/docs/24-557-d8fb1fd824ac.json",
+      "pdfPath": "data/pdfs/24-557-d8fb1fd824ac--17-56-pages-e6f93a5dbb42.pdf",
       "sourceRange": {
-        "startPage": 35,
-        "startOffset": 798,
-        "endPage": 39,
-        "endOffset": 0
+        "startPage": 17,
+        "startOffset": 56,
+        "endPage": 21,
+        "endOffset": 100
       },
       "pageCount": 4,
-      "caseName": "United States v. Hemani",
+      "caseName": "Villarreal v. Texas",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/24-1234-d9fba3f62f9f--35-798.json",
-      "priority": 1
-    },
-    {
-      "id": "24-43-e9275532900a--72-1719",
-      "caseId": "24-43",
-      "opinionType": "Concurring in part and dissenting in part",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf",
-      "textPath": "data/docs/24-43-e9275532900a.json",
-      "pdfPath": "data/pdfs/24-43-e9275532900a--72-1719.pdf",
-      "sourceRange": {
-        "startPage": 72,
-        "startOffset": 1719,
-        "endPage": 76,
-        "endOffset": 0
-      },
-      "pageCount": 4,
-      "caseName": "West Virginia v. B. P. J.",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-43-e9275532900a--72-1719.json",
+      "job": "recordings/jobs-separate-remaining-a/24-557-d8fb1fd824ac--17-56.json",
       "priority": 1
     },
     {
@@ -2568,7 +2690,7 @@
       "pageCount": 5,
       "caseName": "Allen v. Caster",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/25-243-4e2a51cede84--0-0.json",
       "priority": 1
     },
     {
@@ -2589,26 +2711,6 @@
       "caseName": "Bost v. Illinois Bd. of Elections",
       "aliases": [],
       "job": "recordings/jobs-separate-remaining-a/24-568-21c0dda89321--13-568.json",
-      "priority": 1
-    },
-    {
-      "id": "24-624-c6f18a6d5168--18-795",
-      "caseId": "24-624",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Neil M. Gorsuch",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r06_19m1.pdf",
-      "textPath": "data/docs/24-624-c6f18a6d5168.json",
-      "pdfPath": "data/pdfs/24-624-c6f18a6d5168--18-795.pdf",
-      "sourceRange": {
-        "startPage": 18,
-        "startOffset": 795,
-        "endPage": 23,
-        "endOffset": 0
-      },
-      "pageCount": 5,
-      "caseName": "Case v. Montana",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-624-c6f18a6d5168--18-795.json",
       "priority": 1
     },
     {
@@ -2648,27 +2750,7 @@
       "pageCount": 5,
       "caseName": "Florida v. California",
       "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
-      "id": "24-724-8f732370e043--14-459",
-      "caseId": "24-724",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r14_1a72.pdf",
-      "textPath": "data/docs/24-724-8f732370e043.json",
-      "pdfPath": "data/pdfs/24-724-8f732370e043--14-459.pdf",
-      "sourceRange": {
-        "startPage": 14,
-        "startOffset": 459,
-        "endPage": 19,
-        "endOffset": 0
-      },
-      "pageCount": 5,
-      "caseName": "Hain Celestial Group, Inc. v. Palmquist",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-724-8f732370e043--14-459.json",
+      "job": "recordings/jobs-separate-extra/162-orig-08c60a9e79f5--0-0.json",
       "priority": 1
     },
     {
@@ -2688,29 +2770,7 @@
       "pageCount": 5,
       "caseName": "Havana Docks Corp. v. Royal Caribbean Cruises, Ltd.",
       "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
-      "id": "25A914-6f32f281156b--0-939",
-      "caseId": "25A914",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a914_1p24.pdf",
-      "textPath": "data/current-docs/25A914-6f32f281156b.json",
-      "pdfPath": null,
-      "sourceRange": {
-        "startPage": 0,
-        "startOffset": 939,
-        "endPage": 4,
-        "endOffset": 325
-      },
-      "pageCount": 5,
-      "caseName": "Malliotakis v. Williams",
-      "aliases": [
-        "25A915-6f32f281156b--0-939"
-      ],
-      "job": "recordings/jobs-separate-remaining-a/25A914-6f32f281156b--0-939.json",
+      "job": "recordings/jobs-separate-extra/24-983-15300020d9c9--19-1180.json",
       "priority": 1
     },
     {
@@ -2734,43 +2794,23 @@
       "priority": 1
     },
     {
-      "id": "24-1056-0c422e56c79e--15-149",
-      "caseId": "24-1056",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r23_4g15.pdf",
-      "textPath": "data/docs/24-1056-0c422e56c79e.json",
-      "pdfPath": "data/pdfs/24-1056-0c422e56c79e--15-149.pdf",
+      "id": "25A443-2b561f1d14b5--2-1266",
+      "caseId": "25A443",
+      "opinionType": "Concurrence in the Judgment",
+      "opinionAuthor": "Brett M. Kavanaugh",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a443_new_b07d.pdf",
+      "textPath": "data/current-docs/25A443-2b561f1d14b5.json",
+      "pdfPath": "data/pdfs/25A443-2b561f1d14b5--2-1266-pages-6aa3cca1befd.pdf",
       "sourceRange": {
-        "startPage": 15,
-        "startOffset": 149,
-        "endPage": 20,
-        "endOffset": 0
+        "startPage": 2,
+        "startOffset": 1266,
+        "endPage": 7,
+        "endOffset": 224
       },
       "pageCount": 5,
-      "caseName": "Rico v. United States",
+      "caseName": "Trump v. Illinois",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/24-1056-0c422e56c79e--15-149.json",
-      "priority": 1
-    },
-    {
-      "id": "25A312-160e5fa4af84--74-58",
-      "caseId": "25A312",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Amy Coney Barrett",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf",
-      "textPath": "data/docs/25A312-160e5fa4af84.json",
-      "pdfPath": "data/pdfs/25A312-160e5fa4af84--74-58.pdf",
-      "sourceRange": {
-        "startPage": 74,
-        "startOffset": 58,
-        "endPage": 79,
-        "endOffset": 0
-      },
-      "pageCount": 5,
-      "caseName": "Trump v. Cook",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25A312-160e5fa4af84--74-58.json",
+      "job": "recordings/jobs-separate-remaining-b/25A443-2b561f1d14b5--2-1266.json",
       "priority": 1
     },
     {
@@ -2814,33 +2854,13 @@
       "priority": 1
     },
     {
-      "id": "24-557-d8fb1fd824ac--17-56",
-      "caseId": "24-557",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r16_869c.pdf",
-      "textPath": "data/docs/24-557-d8fb1fd824ac.json",
-      "pdfPath": "data/pdfs/24-557-d8fb1fd824ac--17-56.pdf",
-      "sourceRange": {
-        "startPage": 17,
-        "startOffset": 56,
-        "endPage": 21,
-        "endOffset": 100
-      },
-      "pageCount": 5,
-      "caseName": "Villarreal v. Texas",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/24-557-d8fb1fd824ac--17-56.json",
-      "priority": 1
-    },
-    {
       "id": "24-43-e9275532900a--37-1574",
       "caseId": "24-43",
       "opinionType": "Concurrence",
       "opinionAuthor": "Neil M. Gorsuch",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf",
       "textPath": "data/docs/24-43-e9275532900a.json",
-      "pdfPath": "data/pdfs/24-43-e9275532900a--37-1574.pdf",
+      "pdfPath": "data/pdfs/24-43-e9275532900a--37-1574-pages-37ebd2dcee3f.pdf",
       "sourceRange": {
         "startPage": 37,
         "startOffset": 1574,
@@ -2851,6 +2871,26 @@
       "caseName": "West Virginia v. B. P. J.",
       "aliases": [],
       "job": "recordings/jobs-separate-remaining-b/24-43-e9275532900a--37-1574.json",
+      "priority": 1
+    },
+    {
+      "id": "24-5774-b4f014dd80f9--22-1363",
+      "caseId": "24-5774",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Neil M. Gorsuch",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r07_7647.pdf",
+      "textPath": "data/docs/24-5774-b4f014dd80f9.json",
+      "pdfPath": "data/pdfs/24-5774-b4f014dd80f9--22-1363-pages-2dd971f774b2.pdf",
+      "sourceRange": {
+        "startPage": 22,
+        "startOffset": 1363,
+        "endPage": 29,
+        "endOffset": 0
+      },
+      "pageCount": 6,
+      "caseName": "Barrett v. United States",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/24-5774-b4f014dd80f9--22-1363.json",
       "priority": 1
     },
     {
@@ -2894,13 +2934,33 @@
       "priority": 1
     },
     {
+      "id": "24-813-20664cf8f9bc--16-309",
+      "caseId": "24-813",
+      "opinionType": "Concurrence in the judgment",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r25_2q24.pdf",
+      "textPath": "data/docs/24-813-20664cf8f9bc.json",
+      "pdfPath": "data/pdfs/24-813-20664cf8f9bc--16-309-pages-9843944df1d4.pdf",
+      "sourceRange": {
+        "startPage": 16,
+        "startOffset": 309,
+        "endPage": 23,
+        "endOffset": 0
+      },
+      "pageCount": 6,
+      "caseName": "Chevron USA Inc. v. Plaquemines Parish",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/24-813-20664cf8f9bc--16-309.json",
+      "priority": 1
+    },
+    {
       "id": "25-6846-cc7f99d758d9--0-0",
       "caseId": "25-6846",
       "opinionType": "Statement",
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-6846_db8e.pdf",
       "textPath": "data/docs/25-6846-cc7f99d758d9.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-6846-cc7f99d758d9--0-0-pages-9468e4f76ff0.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -2910,7 +2970,7 @@
       "pageCount": 6,
       "caseName": "Clark v. Mississippi",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/25-6846-cc7f99d758d9--0-0.json",
       "priority": 1
     },
     {
@@ -2920,7 +2980,7 @@
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1207_new_3d9g.pdf",
       "textPath": "data/current-docs/25A1207-6fbbbc7dd311.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A1207-6fbbbc7dd311--2-298-pages-a8ef0d06881f.pdf",
       "sourceRange": {
         "startPage": 2,
         "startOffset": 298,
@@ -2956,13 +3016,53 @@
       "priority": 1
     },
     {
+      "id": "25-6-3d51d5dba6e2--16-952",
+      "caseId": "25-6",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Sonia Sotomayor",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r48_k53m.pdf",
+      "textPath": "data/docs/25-6-3d51d5dba6e2.json",
+      "pdfPath": "data/pdfs/25-6-3d51d5dba6e2--16-952-pages-8b251ee01ebf.pdf",
+      "sourceRange": {
+        "startPage": 16,
+        "startOffset": 952,
+        "endPage": 23,
+        "endOffset": 0
+      },
+      "pageCount": 6,
+      "caseName": "Keathley v. Buddy Ayers Construction, Inc.",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/25-6-3d51d5dba6e2--16-952.json",
+      "priority": 1
+    },
+    {
+      "id": "24-1238-22029ed4e44d--11-410",
+      "caseId": "24-1238",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Brett M. Kavanaugh",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r32_g3bi.pdf",
+      "textPath": "data/docs/24-1238-22029ed4e44d.json",
+      "pdfPath": "data/pdfs/24-1238-22029ed4e44d--11-410-pages-e3e03863d730.pdf",
+      "sourceRange": {
+        "startPage": 11,
+        "startOffset": 410,
+        "endPage": 18,
+        "endOffset": 0
+      },
+      "pageCount": 6,
+      "caseName": "Montgomery v. Caribe Transport II, LLC",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/24-1238-22029ed4e44d--11-410.json",
+      "priority": 1
+    },
+    {
       "id": "25-5-fe3b8dc8ff65--22-57",
       "caseId": "25-5",
       "opinionType": "Concurrence",
       "opinionAuthor": "Clarence Thomas",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r59_kjfl.pdf",
       "textPath": "data/docs/25-5-fe3b8dc8ff65.json",
-      "pdfPath": "data/pdfs/25-5-fe3b8dc8ff65--22-57.pdf",
+      "pdfPath": "data/pdfs/25-5-fe3b8dc8ff65--22-57-pages-2a35aa4c51e3.pdf",
       "sourceRange": {
         "startPage": 22,
         "startOffset": 57,
@@ -2976,13 +3076,33 @@
       "priority": 1
     },
     {
+      "id": "26A203-4464d489cd04--9-289",
+      "caseId": "26A203",
+      "opinionType": "Dissent",
+      "opinionAuthor": "John G. Roberts, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r70_3e04.pdf",
+      "textPath": "data/docs/26A203-4464d489cd04.json",
+      "pdfPath": "data/pdfs/26A203-4464d489cd04--9-289-pages-172853174a8c.pdf",
+      "sourceRange": {
+        "startPage": 9,
+        "startOffset": 289,
+        "endPage": 16,
+        "endOffset": 0
+      },
+      "pageCount": 6,
+      "caseName": "National Park Service v. National Trust for Historic Preservation in the United States",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/26A203-4464d489cd04--9-289.json",
+      "priority": 1
+    },
+    {
       "id": "24-1268-240e22147731--0-0",
       "caseId": "24-1268",
       "opinionType": "Dissent",
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1268_10n2.pdf",
       "textPath": "data/docs/24-1268-240e22147731.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/24-1268-240e22147731--0-0-pages-156ccaca7815.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -2992,7 +3112,7 @@
       "pageCount": 6,
       "caseName": "Reed v. Goertz",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/24-1268-240e22147731--0-0.json",
       "priority": 1
     },
     {
@@ -3012,7 +3132,7 @@
       "pageCount": 6,
       "caseName": "Saldaño v. Texas",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/25-5749-7ea9b98a9167--0-0.json",
       "priority": 1
     },
     {
@@ -3032,67 +3152,47 @@
       "pageCount": 6,
       "caseName": "Trump v. Cook",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/25A312-160e5fa4af84--69-723.json",
       "priority": 1
     },
     {
-      "id": "25A443-2b561f1d14b5--2-1266",
-      "caseId": "25A443",
-      "opinionType": "Concurrence in the Judgment",
-      "opinionAuthor": "Brett M. Kavanaugh",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a443_new_b07d.pdf",
-      "textPath": "data/current-docs/25A443-2b561f1d14b5.json",
-      "pdfPath": null,
+      "id": "25-406-54426579de5d--19-88",
+      "caseId": "25-567",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Clarence Thomas",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r43_m648.pdf",
+      "textPath": "data/docs/25-406-54426579de5d.json",
+      "pdfPath": "data/pdfs/25-406-54426579de5d--19-88-pages-38b52917bc88.pdf",
       "sourceRange": {
-        "startPage": 2,
-        "startOffset": 1266,
-        "endPage": 7,
-        "endOffset": 224
+        "startPage": 19,
+        "startOffset": 88,
+        "endPage": 26,
+        "endOffset": 0
       },
       "pageCount": 6,
-      "caseName": "Trump v. Illinois",
+      "caseName": "Verizon Communications Inc. v. FCC",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25A443-2b561f1d14b5--2-1266.json",
+      "job": "recordings/jobs-separate-remaining-a/25-406-54426579de5d--19-88.json",
       "priority": 1
     },
     {
-      "id": "24-5774-b4f014dd80f9--22-1363",
-      "caseId": "24-5774",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Neil M. Gorsuch",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r07_7647.pdf",
-      "textPath": "data/docs/24-5774-b4f014dd80f9.json",
-      "pdfPath": "data/pdfs/24-5774-b4f014dd80f9--22-1363.pdf",
+      "id": "24-983-15300020d9c9--23-1338",
+      "caseId": "24-983",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Elena Kagan",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r33_fcgj.pdf",
+      "textPath": "data/docs/24-983-15300020d9c9.json",
+      "pdfPath": "data/pdfs/24-983-15300020d9c9--23-1338-pages-e20683e3b3f9.pdf",
       "sourceRange": {
-        "startPage": 22,
-        "startOffset": 1363,
-        "endPage": 29,
+        "startPage": 23,
+        "startOffset": 1338,
+        "endPage": 31,
         "endOffset": 0
       },
       "pageCount": 7,
-      "caseName": "Barrett v. United States",
+      "caseName": "Havana Docks Corp. v. Royal Caribbean Cruises, Ltd.",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/24-5774-b4f014dd80f9--22-1363.json",
-      "priority": 1
-    },
-    {
-      "id": "24-813-20664cf8f9bc--16-309",
-      "caseId": "24-813",
-      "opinionType": "Concurrence in the judgment",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r25_2q24.pdf",
-      "textPath": "data/docs/24-813-20664cf8f9bc.json",
-      "pdfPath": "data/pdfs/24-813-20664cf8f9bc--16-309.pdf",
-      "sourceRange": {
-        "startPage": 16,
-        "startOffset": 309,
-        "endPage": 23,
-        "endOffset": 0
-      },
-      "pageCount": 7,
-      "caseName": "Chevron USA Inc. v. Plaquemines Parish",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-813-20664cf8f9bc--16-309.json",
+      "job": "recordings/jobs-separate-remaining-b/24-983-15300020d9c9--23-1338.json",
       "priority": 1
     },
     {
@@ -3102,7 +3202,7 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-5557_n6io.pdf",
       "textPath": "data/docs/25-5557-5a951da15d7d.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-5557-5a951da15d7d--0-0-pages-1544c332d5ad.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -3112,67 +3212,47 @@
       "pageCount": 7,
       "caseName": "Howell v. Circuit Court of Indiana",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/25-5557-5a951da15d7d--0-0.json",
       "priority": 1
     },
     {
-      "id": "25-6-3d51d5dba6e2--16-952",
-      "caseId": "25-6",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Sonia Sotomayor",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r48_k53m.pdf",
-      "textPath": "data/docs/25-6-3d51d5dba6e2.json",
-      "pdfPath": "data/pdfs/25-6-3d51d5dba6e2--16-952.pdf",
-      "sourceRange": {
-        "startPage": 16,
-        "startOffset": 952,
-        "endPage": 23,
-        "endOffset": 0
-      },
-      "pageCount": 7,
-      "caseName": "Keathley v. Buddy Ayers Construction, Inc.",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25-6-3d51d5dba6e2--16-952.json",
-      "priority": 1
-    },
-    {
-      "id": "24-1238-22029ed4e44d--11-410",
-      "caseId": "24-1238",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Brett M. Kavanaugh",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r32_g3bi.pdf",
-      "textPath": "data/docs/24-1238-22029ed4e44d.json",
-      "pdfPath": "data/pdfs/24-1238-22029ed4e44d--11-410.pdf",
+      "id": "25A810-474c6a901259--11-175",
+      "caseId": "25A810",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Elena Kagan",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r17_bqmc.pdf",
+      "textPath": "data/docs/25A810-474c6a901259.json",
+      "pdfPath": "data/pdfs/25A810-474c6a901259--11-175-pages-87b870e40235.pdf",
       "sourceRange": {
         "startPage": 11,
-        "startOffset": 410,
-        "endPage": 18,
+        "startOffset": 175,
+        "endPage": 19,
         "endOffset": 0
       },
       "pageCount": 7,
-      "caseName": "Montgomery v. Caribe Transport II, LLC",
+      "caseName": "Mirabelli v. Bonta",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-1238-22029ed4e44d--11-410.json",
+      "job": "recordings/jobs-separate-remaining-a/25A810-474c6a901259--11-175.json",
       "priority": 1
     },
     {
-      "id": "26A203-4464d489cd04--9-289",
-      "caseId": "26A203",
+      "id": "25-5-fe3b8dc8ff65--60-1472",
+      "caseId": "25-5",
       "opinionType": "Dissent",
-      "opinionAuthor": "John G. Roberts, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r70_3e04.pdf",
-      "textPath": "data/docs/26A203-4464d489cd04.json",
-      "pdfPath": "data/pdfs/26A203-4464d489cd04--9-289.pdf",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r59_kjfl.pdf",
+      "textPath": "data/docs/25-5-fe3b8dc8ff65.json",
+      "pdfPath": "data/pdfs/25-5-fe3b8dc8ff65--60-1472-pages-22068da6e30c.pdf",
       "sourceRange": {
-        "startPage": 9,
-        "startOffset": 289,
-        "endPage": 16,
+        "startPage": 60,
+        "startOffset": 1472,
+        "endPage": 68,
         "endOffset": 0
       },
       "pageCount": 7,
-      "caseName": "National Park Service v. National Trust for Historic Preservation in the United States",
+      "caseName": "Mullin v. Al Otro Lado",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/26A203-4464d489cd04--9-289.json",
+      "job": "recordings/jobs-separate-remaining-b/25-5-fe3b8dc8ff65--60-1472.json",
       "priority": 1
     },
     {
@@ -3199,7 +3279,7 @@
       "id": "24-5191-66ee9b69dec2--0-0",
       "caseId": "24-5191",
       "opinionType": "Dissent",
-      "opinionAuthor": "Neil Gorsuch",
+      "opinionAuthor": "Neil M. Gorsuch",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-5191_6479.pdf",
       "textPath": "data/docs/24-5191-66ee9b69dec2.json",
       "pdfPath": null,
@@ -3212,27 +3292,27 @@
       "pageCount": 7,
       "caseName": "Veneno v. United States",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/24-5191-66ee9b69dec2--0-0.json",
       "priority": 1
     },
     {
-      "id": "25-406-54426579de5d--19-88",
-      "caseId": "25-567",
-      "opinionType": "Dissent",
+      "id": "24-557-d8fb1fd824ac--21-100",
+      "caseId": "24-557",
+      "opinionType": "Concurrence in the judgment",
       "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r43_m648.pdf",
-      "textPath": "data/docs/25-406-54426579de5d.json",
-      "pdfPath": "data/pdfs/25-406-54426579de5d--19-88.pdf",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r16_869c.pdf",
+      "textPath": "data/docs/24-557-d8fb1fd824ac.json",
+      "pdfPath": "data/pdfs/24-557-d8fb1fd824ac--21-100-pages-7206f2c74288.pdf",
       "sourceRange": {
-        "startPage": 19,
-        "startOffset": 88,
-        "endPage": 26,
+        "startPage": 21,
+        "startOffset": 100,
+        "endPage": 29,
         "endOffset": 0
       },
       "pageCount": 7,
-      "caseName": "Verizon Communications Inc. v. FCC",
+      "caseName": "Villarreal v. Texas",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25-406-54426579de5d--19-88.json",
+      "job": "recordings/jobs-separate-remaining-b/24-557-d8fb1fd824ac--21-100.json",
       "priority": 1
     },
     {
@@ -3242,7 +3322,7 @@
       "opinionAuthor": "Neil M. Gorsuch",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf",
       "textPath": "data/docs/25-112-c22b9f1e2458.json",
-      "pdfPath": "data/pdfs/25-112-c22b9f1e2458--40-65.pdf",
+      "pdfPath": "data/pdfs/25-112-c22b9f1e2458--40-65-pages-06891c81b310.pdf",
       "sourceRange": {
         "startPage": 40,
         "startOffset": 65,
@@ -3252,17 +3332,17 @@
       "pageCount": 8,
       "caseName": "Chatrie v. United States",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-a/25-112-c22b9f1e2458--40-65.json",
       "priority": 1
     },
     {
       "id": "24-1015-f502f3e03508--0-0",
       "caseId": "24-1015",
       "opinionType": "Dissent",
-      "opinionAuthor": "Neil Gorsuch",
+      "opinionAuthor": "Neil M. Gorsuch",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1015_hfjm.pdf",
       "textPath": "data/docs/24-1015-f502f3e03508.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/24-1015-f502f3e03508--0-0-pages-ea2b254ed7bd.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -3272,27 +3352,7 @@
       "pageCount": 8,
       "caseName": "Doe v. Hochul",
       "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
-      "id": "24-983-15300020d9c9--23-1338",
-      "caseId": "24-983",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Elena Kagan",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r33_fcgj.pdf",
-      "textPath": "data/docs/24-983-15300020d9c9.json",
-      "pdfPath": "data/pdfs/24-983-15300020d9c9--23-1338.pdf",
-      "sourceRange": {
-        "startPage": 23,
-        "startOffset": 1338,
-        "endPage": 31,
-        "endOffset": 0
-      },
-      "pageCount": 8,
-      "caseName": "Havana Docks Corp. v. Royal Caribbean Cruises, Ltd.",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-983-15300020d9c9--23-1338.json",
+      "job": "recordings/jobs-separate-remaining-b/24-1015-f502f3e03508--0-0.json",
       "priority": 1
     },
     {
@@ -3302,7 +3362,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-826_10n2.pdf",
       "textPath": "data/docs/24-826-12209f2be2f7.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/24-826-12209f2be2f7--0-0-pages-2d2cb5cd88d4.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -3312,7 +3372,7 @@
       "pageCount": 8,
       "caseName": "Humphreys v. Emmons",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/24-826-12209f2be2f7--0-0.json",
       "priority": 1
     },
     {
@@ -3332,47 +3392,7 @@
       "pageCount": 8,
       "caseName": "Johnson v. High Desert State Prison",
       "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
-      "id": "25A810-474c6a901259--11-175",
-      "caseId": "25A810",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Elena Kagan",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r17_bqmc.pdf",
-      "textPath": "data/docs/25A810-474c6a901259.json",
-      "pdfPath": "data/pdfs/25A810-474c6a901259--11-175.pdf",
-      "sourceRange": {
-        "startPage": 11,
-        "startOffset": 175,
-        "endPage": 19,
-        "endOffset": 0
-      },
-      "pageCount": 8,
-      "caseName": "Mirabelli v. Bonta",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25A810-474c6a901259--11-175.json",
-      "priority": 1
-    },
-    {
-      "id": "25-5-fe3b8dc8ff65--60-1472",
-      "caseId": "25-5",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r59_kjfl.pdf",
-      "textPath": "data/docs/25-5-fe3b8dc8ff65.json",
-      "pdfPath": "data/pdfs/25-5-fe3b8dc8ff65--60-1472.pdf",
-      "sourceRange": {
-        "startPage": 60,
-        "startOffset": 1472,
-        "endPage": 68,
-        "endOffset": 0
-      },
-      "pageCount": 8,
-      "caseName": "Mullin v. Al Otro Lado",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25-5-fe3b8dc8ff65--60-1472.json",
+      "job": "recordings/jobs-separate-extra/25-457-b41b661e52cb--0-0.json",
       "priority": 1
     },
     {
@@ -3382,7 +3402,7 @@
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a305_4g15.pdf",
       "textPath": "data/current-docs/26A305-baefa5e1b024.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/26A305-baefa5e1b024--1-224-pages-c02c51a19e1f.pdf",
       "sourceRange": {
         "startPage": 1,
         "startOffset": 224,
@@ -3402,7 +3422,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-943_h3ci.pdf",
       "textPath": "data/docs/25-943-6336bbd96305.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25-943-6336bbd96305--0-0-pages-dbe7e332a252.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 0,
@@ -3412,7 +3432,7 @@
       "pageCount": 8,
       "caseName": "Smith v. Kind",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/25-943-6336bbd96305--0-0.json",
       "priority": 1
     },
     {
@@ -3456,33 +3476,13 @@
       "priority": 1
     },
     {
-      "id": "24-557-d8fb1fd824ac--21-100",
-      "caseId": "24-557",
-      "opinionType": "Concurrence in the judgment",
-      "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r16_869c.pdf",
-      "textPath": "data/docs/24-557-d8fb1fd824ac.json",
-      "pdfPath": "data/pdfs/24-557-d8fb1fd824ac--21-100.pdf",
-      "sourceRange": {
-        "startPage": 21,
-        "startOffset": 100,
-        "endPage": 29,
-        "endOffset": 0
-      },
-      "pageCount": 8,
-      "caseName": "Villarreal v. Texas",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-557-d8fb1fd824ac--21-100.json",
-      "priority": 1
-    },
-    {
       "id": "24-1078-823d3aa4cdae--3-0",
       "caseId": "24-1078",
       "opinionType": "Dissent",
       "opinionAuthor": "Clarence Thomas",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1078_7758.pdf",
       "textPath": "data/docs/24-1078-823d3aa4cdae.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/24-1078-823d3aa4cdae--3-0-pages-432c22e41ffd.pdf",
       "sourceRange": {
         "startPage": 3,
         "startOffset": 0,
@@ -3492,7 +3492,7 @@
       "pageCount": 9,
       "caseName": "Beck v. United States",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/24-1078-823d3aa4cdae--3-0.json",
       "priority": 1
     },
     {
@@ -3502,7 +3502,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a457new_j426.pdf",
       "textPath": "data/current-docs/25A457-7ded2bcc85e2.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A457-7ded2bcc85e2--0-565-pages-a240f45a6438.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 565,
@@ -3513,6 +3513,66 @@
       "caseName": "Boyd v. Hamm",
       "aliases": [],
       "job": "recordings/jobs-separate-remaining-a/25A457-7ded2bcc85e2--0-565.json",
+      "priority": 1
+    },
+    {
+      "id": "24-699-c233d21e7249--24-193",
+      "caseId": "24-699",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Elena Kagan",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r56_3e04.pdf",
+      "textPath": "data/docs/24-699-c233d21e7249.json",
+      "pdfPath": "data/pdfs/24-699-c233d21e7249--24-193-pages-395e27b327f0.pdf",
+      "sourceRange": {
+        "startPage": 24,
+        "startOffset": 193,
+        "endPage": 35,
+        "endOffset": 0
+      },
+      "pageCount": 10,
+      "caseName": "Exxon Mobil Corp. v. Corporación Cimex, S. A. (Cuba)",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/24-699-c233d21e7249--24-193.json",
+      "priority": 1
+    },
+    {
+      "id": "24-7351-cd6b14e796d4--11-1744",
+      "caseId": "24-7351",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Neil M. Gorsuch",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r38_l53m.pdf",
+      "textPath": "data/docs/24-7351-cd6b14e796d4.json",
+      "pdfPath": "data/pdfs/24-7351-cd6b14e796d4--11-1744-pages-2116cfa07858.pdf",
+      "sourceRange": {
+        "startPage": 11,
+        "startOffset": 1744,
+        "endPage": 22,
+        "endOffset": 0
+      },
+      "pageCount": 10,
+      "caseName": "Pitchford v. Cain",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/24-7351-cd6b14e796d4--11-1744.json",
+      "priority": 1
+    },
+    {
+      "id": "25-365-06668450ad03--51-343",
+      "caseId": "25-365",
+      "opinionType": "Concurring in part and dissenting in part",
+      "opinionAuthor": "Brett M. Kavanaugh",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-365_new_5if6.pdf",
+      "textPath": "data/docs/25-365-06668450ad03.json",
+      "pdfPath": "data/pdfs/25-365-06668450ad03--51-343-pages-112a0496c3d8.pdf",
+      "sourceRange": {
+        "startPage": 51,
+        "startOffset": 343,
+        "endPage": 61,
+        "endOffset": 341
+      },
+      "pageCount": 10,
+      "caseName": "Trump v. Barbara",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/25-365-06668450ad03--51-343.json",
       "priority": 1
     },
     {
@@ -3532,67 +3592,47 @@
       "pageCount": 10,
       "caseName": "Zorn v. Linton",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/25-297-be6ef90ba849--7-1015.json",
       "priority": 1
     },
     {
-      "id": "24-699-c233d21e7249--24-193",
-      "caseId": "24-699",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Elena Kagan",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r56_3e04.pdf",
-      "textPath": "data/docs/24-699-c233d21e7249.json",
-      "pdfPath": "data/pdfs/24-699-c233d21e7249--24-193.pdf",
+      "id": "25-466-f85d9ddf4cee--15-1615",
+      "caseId": "25-466",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Clarence Thomas",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r44_j42l.pdf",
+      "textPath": "data/docs/25-466-f85d9ddf4cee.json",
+      "pdfPath": "data/pdfs/25-466-f85d9ddf4cee--15-1615-pages-1f28e04da0ca.pdf",
       "sourceRange": {
-        "startPage": 24,
-        "startOffset": 193,
-        "endPage": 35,
+        "startPage": 15,
+        "startOffset": 1615,
+        "endPage": 27,
         "endOffset": 0
       },
       "pageCount": 11,
-      "caseName": "Exxon Mobil Corp. v. Corporación Cimex, S. A. (Cuba)",
+      "caseName": "Sripetch v. SEC",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-699-c233d21e7249--24-193.json",
+      "job": "recordings/jobs-separate-remaining-b/25-466-f85d9ddf4cee--15-1615.json",
       "priority": 1
     },
     {
-      "id": "24-7351-cd6b14e796d4--11-1744",
-      "caseId": "24-7351",
+      "id": "25-197-4c3fcefdc563--35-83",
+      "caseId": "25-197",
       "opinionType": "Dissent",
-      "opinionAuthor": "Neil M. Gorsuch",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r38_l53m.pdf",
-      "textPath": "data/docs/24-7351-cd6b14e796d4.json",
-      "pdfPath": "data/pdfs/24-7351-cd6b14e796d4--11-1744.pdf",
+      "opinionAuthor": "Amy Coney Barrett",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r49_mlho.pdf",
+      "textPath": "data/docs/25-197-4c3fcefdc563.json",
+      "pdfPath": "data/pdfs/25-197-4c3fcefdc563--35-83-pages-546a2c2212d0.pdf",
       "sourceRange": {
-        "startPage": 11,
-        "startOffset": 1744,
-        "endPage": 22,
+        "startPage": 35,
+        "startOffset": 83,
+        "endPage": 47,
         "endOffset": 0
       },
       "pageCount": 11,
-      "caseName": "Pitchford v. Cain",
+      "caseName": "T. M. v. University of Md. Medical System Corporation",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/24-7351-cd6b14e796d4--11-1744.json",
-      "priority": 1
-    },
-    {
-      "id": "25-365-06668450ad03--51-343",
-      "caseId": "25-365",
-      "opinionType": "Concurring in part and dissenting in part",
-      "opinionAuthor": "Brett M. Kavanaugh",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-365_new_5if6.pdf",
-      "textPath": "data/docs/25-365-06668450ad03.json",
-      "pdfPath": "data/pdfs/25-365-06668450ad03--51-343.pdf",
-      "sourceRange": {
-        "startPage": 51,
-        "startOffset": 343,
-        "endPage": 61,
-        "endOffset": 341
-      },
-      "pageCount": 11,
-      "caseName": "Trump v. Barbara",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25-365-06668450ad03--51-343.json",
+      "job": "recordings/jobs-separate-remaining-a/25-197-4c3fcefdc563--35-83.json",
       "priority": 1
     },
     {
@@ -3616,43 +3656,23 @@
       "priority": 1
     },
     {
-      "id": "25-466-f85d9ddf4cee--15-1615",
-      "caseId": "25-466",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r44_j42l.pdf",
-      "textPath": "data/docs/25-466-f85d9ddf4cee.json",
-      "pdfPath": "data/pdfs/25-466-f85d9ddf4cee--15-1615.pdf",
+      "id": "24-758-71263489c308--16-1590",
+      "caseId": "24-758",
+      "opinionType": "Concurrence in the judgment",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r15_bqmc.pdf",
+      "textPath": "data/docs/24-758-71263489c308.json",
+      "pdfPath": "data/pdfs/24-758-71263489c308--16-1590-pages-2bb8f1013e0e.pdf",
       "sourceRange": {
-        "startPage": 15,
-        "startOffset": 1615,
-        "endPage": 27,
+        "startPage": 16,
+        "startOffset": 1590,
+        "endPage": 29,
         "endOffset": 0
       },
       "pageCount": 12,
-      "caseName": "Sripetch v. SEC",
+      "caseName": "Geo Group, Inc. v. Menocal",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25-466-f85d9ddf4cee--15-1615.json",
-      "priority": 1
-    },
-    {
-      "id": "25-197-4c3fcefdc563--35-83",
-      "caseId": "25-197",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Amy Coney Barrett",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r49_mlho.pdf",
-      "textPath": "data/docs/25-197-4c3fcefdc563.json",
-      "pdfPath": "data/pdfs/25-197-4c3fcefdc563--35-83.pdf",
-      "sourceRange": {
-        "startPage": 35,
-        "startOffset": 83,
-        "endPage": 47,
-        "endOffset": 0
-      },
-      "pageCount": 12,
-      "caseName": "T. M. v. University of Md. Medical System Corporation",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25-197-4c3fcefdc563--35-83.json",
+      "job": "recordings/jobs-separate-remaining-b/24-758-71263489c308--16-1590.json",
       "priority": 1
     },
     {
@@ -3662,7 +3682,7 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a319_i4dj.pdf",
       "textPath": "data/current-docs/25A319-9dd5744ce384.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A319-9dd5744ce384--1-776-pages-1b4eb728b783.pdf",
       "sourceRange": {
         "startPage": 1,
         "startOffset": 776,
@@ -3676,13 +3696,53 @@
       "priority": 1
     },
     {
+      "id": "24-440-1bba7e3379d6--14-206",
+      "caseId": "24-440",
+      "opinionType": "Concurrence in the judgment",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r10_5hek.pdf",
+      "textPath": "data/docs/24-440-1bba7e3379d6.json",
+      "pdfPath": "data/pdfs/24-440-1bba7e3379d6--14-206-pages-21f2c6450eef.pdf",
+      "sourceRange": {
+        "startPage": 14,
+        "startOffset": 206,
+        "endPage": 28,
+        "endOffset": 0
+      },
+      "pageCount": 13,
+      "caseName": "Berk v. Choy",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/24-440-1bba7e3379d6--14-206.json",
+      "priority": 1
+    },
+    {
+      "id": "24-171-06cbfc137ec1--14-1461",
+      "caseId": "24-171",
+      "opinionType": "Concurrence in the judgment",
+      "opinionAuthor": "Sonia Sotomayor",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r22_k4lo.pdf",
+      "textPath": "data/docs/24-171-06cbfc137ec1.json",
+      "pdfPath": "data/pdfs/24-171-06cbfc137ec1--14-1461-pages-a7f47d216f2b.pdf",
+      "sourceRange": {
+        "startPage": 14,
+        "startOffset": 1461,
+        "endPage": 28,
+        "endOffset": 0
+      },
+      "pageCount": 13,
+      "caseName": "Cox Communications, Inc. v. Sony Music Entertainment",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/24-171-06cbfc137ec1--14-1461.json",
+      "priority": 1
+    },
+    {
       "id": "25A378-0a2153be42b9--0-486",
       "caseId": "25A378",
       "opinionType": "Dissent",
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a378_0pm1.pdf",
       "textPath": "data/current-docs/25A378-0a2153be42b9.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A378-0a2153be42b9--0-486-pages-4db88eae61d5.pdf",
       "sourceRange": {
         "startPage": 0,
         "startOffset": 486,
@@ -3696,33 +3756,13 @@
       "priority": 1
     },
     {
-      "id": "24-758-71263489c308--16-1590",
-      "caseId": "24-758",
-      "opinionType": "Concurrence in the judgment",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r15_bqmc.pdf",
-      "textPath": "data/docs/24-758-71263489c308.json",
-      "pdfPath": "data/pdfs/24-758-71263489c308--16-1590.pdf",
-      "sourceRange": {
-        "startPage": 16,
-        "startOffset": 1590,
-        "endPage": 29,
-        "endOffset": 0
-      },
-      "pageCount": 13,
-      "caseName": "Geo Group, Inc. v. Menocal",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-758-71263489c308--16-1590.json",
-      "priority": 1
-    },
-    {
       "id": "25A914-6f32f281156b--4-325",
       "caseId": "25A914",
       "opinionType": "Dissent",
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a914_1p24.pdf",
       "textPath": "data/current-docs/25A914-6f32f281156b.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A914-6f32f281156b--4-325-pages-b0606c38bbe4.pdf",
       "sourceRange": {
         "startPage": 4,
         "startOffset": 325,
@@ -3735,6 +3775,46 @@
         "25A915-6f32f281156b--4-325"
       ],
       "job": "recordings/jobs-separate-remaining-a/25A914-6f32f281156b--4-325.json",
+      "priority": 1
+    },
+    {
+      "id": "25-197-4c3fcefdc563--22-57",
+      "caseId": "25-197",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Clarence Thomas",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r49_mlho.pdf",
+      "textPath": "data/docs/25-197-4c3fcefdc563.json",
+      "pdfPath": "data/pdfs/25-197-4c3fcefdc563--22-57-pages-fe0704eeba57.pdf",
+      "sourceRange": {
+        "startPage": 22,
+        "startOffset": 57,
+        "endPage": 35,
+        "endOffset": 83
+      },
+      "pageCount": 13,
+      "caseName": "T. M. v. University of Md. Medical System Corporation",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/25-197-4c3fcefdc563--22-57.json",
+      "priority": 1
+    },
+    {
+      "id": "25-580-475af4c72868--6-709",
+      "caseId": "25-580",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Clarence Thomas",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r41_4gc5.pdf",
+      "textPath": "data/docs/25-580-475af4c72868.json",
+      "pdfPath": "data/pdfs/25-580-475af4c72868--6-709-pages-9feea284dac2.pdf",
+      "sourceRange": {
+        "startPage": 6,
+        "startOffset": 709,
+        "endPage": 20,
+        "endOffset": 0
+      },
+      "pageCount": 13,
+      "caseName": "Whitton v. Dixon",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/25-580-475af4c72868--6-709.json",
       "priority": 1
     },
     {
@@ -3758,83 +3838,43 @@
       "priority": 1
     },
     {
-      "id": "24-440-1bba7e3379d6--14-206",
-      "caseId": "24-440",
-      "opinionType": "Concurrence in the judgment",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r10_5hek.pdf",
-      "textPath": "data/docs/24-440-1bba7e3379d6.json",
-      "pdfPath": "data/pdfs/24-440-1bba7e3379d6--14-206.pdf",
-      "sourceRange": {
-        "startPage": 14,
-        "startOffset": 206,
-        "endPage": 28,
-        "endOffset": 0
-      },
-      "pageCount": 14,
-      "caseName": "Berk v. Choy",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/24-440-1bba7e3379d6--14-206.json",
-      "priority": 1
-    },
-    {
-      "id": "24-171-06cbfc137ec1--14-1461",
-      "caseId": "24-171",
-      "opinionType": "Concurrence in the judgment",
-      "opinionAuthor": "Sonia Sotomayor",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r22_k4lo.pdf",
-      "textPath": "data/docs/24-171-06cbfc137ec1.json",
-      "pdfPath": "data/pdfs/24-171-06cbfc137ec1--14-1461.pdf",
-      "sourceRange": {
-        "startPage": 14,
-        "startOffset": 1461,
-        "endPage": 28,
-        "endOffset": 0
-      },
-      "pageCount": 14,
-      "caseName": "Cox Communications, Inc. v. Sony Music Entertainment",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-171-06cbfc137ec1--14-1461.json",
-      "priority": 1
-    },
-    {
-      "id": "25-197-4c3fcefdc563--22-57",
-      "caseId": "25-197",
-      "opinionType": "Concurrence",
+      "id": "25-95-390fb360c3dc--16-169",
+      "caseId": "25-95",
+      "opinionType": "Concurring in part and in the judgment",
       "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r49_mlho.pdf",
-      "textPath": "data/docs/25-197-4c3fcefdc563.json",
-      "pdfPath": "data/pdfs/25-197-4c3fcefdc563--22-57.pdf",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r54_d18e.pdf",
+      "textPath": "data/docs/25-95-390fb360c3dc.json",
+      "pdfPath": "data/pdfs/25-95-390fb360c3dc--16-169-pages-4442c82887ef.pdf",
       "sourceRange": {
-        "startPage": 22,
-        "startOffset": 57,
-        "endPage": 35,
-        "endOffset": 83
+        "startPage": 16,
+        "startOffset": 169,
+        "endPage": 31,
+        "endOffset": 0
       },
       "pageCount": 14,
-      "caseName": "T. M. v. University of Md. Medical System Corporation",
+      "caseName": "Pung v. Isabella County",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25-197-4c3fcefdc563--22-57.json",
+      "job": "recordings/jobs-separate-remaining-b/25-95-390fb360c3dc--16-169.json",
       "priority": 1
     },
     {
-      "id": "25-580-475af4c72868--6-709",
-      "caseId": "25-580",
+      "id": "25-1083-f96e8482bff5--34-1155",
+      "caseId": "25-1084",
       "opinionType": "Dissent",
-      "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r41_4gc5.pdf",
-      "textPath": "data/docs/25-580-475af4c72868.json",
-      "pdfPath": "data/pdfs/25-580-475af4c72868--6-709.pdf",
+      "opinionAuthor": "Elena Kagan",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r60_7mip.pdf",
+      "textPath": "data/docs/25-1083-f96e8482bff5.json",
+      "pdfPath": "data/pdfs/25-1083-f96e8482bff5--34-1155-pages-0d15ce9352be.pdf",
       "sourceRange": {
-        "startPage": 6,
-        "startOffset": 709,
-        "endPage": 20,
+        "startPage": 34,
+        "startOffset": 1155,
+        "endPage": 49,
         "endOffset": 0
       },
       "pageCount": 14,
-      "caseName": "Whitton v. Dixon",
+      "caseName": "Trump v. Miot",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25-580-475af4c72868--6-709.json",
+      "job": "recordings/jobs-separate-remaining-a/25-1083-f96e8482bff5--34-1155.json",
       "priority": 1
     },
     {
@@ -3858,46 +3898,6 @@
       "priority": 1
     },
     {
-      "id": "25-95-390fb360c3dc--16-169",
-      "caseId": "25-95",
-      "opinionType": "Concurring in part and in the judgment",
-      "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r54_d18e.pdf",
-      "textPath": "data/docs/25-95-390fb360c3dc.json",
-      "pdfPath": "data/pdfs/25-95-390fb360c3dc--16-169.pdf",
-      "sourceRange": {
-        "startPage": 16,
-        "startOffset": 169,
-        "endPage": 31,
-        "endOffset": 0
-      },
-      "pageCount": 15,
-      "caseName": "Pung v. Isabella County",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25-95-390fb360c3dc--16-169.json",
-      "priority": 1
-    },
-    {
-      "id": "25-1083-f96e8482bff5--34-1155",
-      "caseId": "25-1084",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Elena Kagan",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r60_7mip.pdf",
-      "textPath": "data/docs/25-1083-f96e8482bff5.json",
-      "pdfPath": "data/pdfs/25-1083-f96e8482bff5--34-1155.pdf",
-      "sourceRange": {
-        "startPage": 34,
-        "startOffset": 1155,
-        "endPage": 49,
-        "endOffset": 0
-      },
-      "pageCount": 15,
-      "caseName": "Trump v. Miot",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25-1083-f96e8482bff5--34-1155.json",
-      "priority": 1
-    },
-    {
       "id": "25-29-66b4114999bc--0-0",
       "caseId": "25-29",
       "opinionType": "Dissent",
@@ -3914,7 +3914,7 @@
       "pageCount": 15,
       "caseName": "Villarreal v. Alaniz",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/25-29-66b4114999bc--0-0.json",
       "priority": 1
     },
     {
@@ -3924,7 +3924,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r42_q8l1.pdf",
       "textPath": "data/docs/25A1314-489902332041.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A1314-489902332041--5-775-pages-0e722858d85f.pdf",
       "sourceRange": {
         "startPage": 5,
         "startOffset": 775,
@@ -3957,7 +3957,7 @@
       "pageCount": 16,
       "caseName": "Hamm v. Smith",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-a/24-872-f599717e4fe6--23-1021.json",
       "priority": 1
     },
     {
@@ -3981,13 +3981,53 @@
       "priority": 1
     },
     {
+      "id": "25A443-2b561f1d14b5--7-224",
+      "caseId": "25A443",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a443_new_b07d.pdf",
+      "textPath": "data/current-docs/25A443-2b561f1d14b5.json",
+      "pdfPath": "data/pdfs/25A443-2b561f1d14b5--7-224-pages-85970608877f.pdf",
+      "sourceRange": {
+        "startPage": 7,
+        "startOffset": 224,
+        "endPage": 23,
+        "endOffset": 260
+      },
+      "pageCount": 16,
+      "caseName": "Trump v. Illinois",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/25A443-2b561f1d14b5--7-224.json",
+      "priority": 1
+    },
+    {
+      "id": "25-332-7e839c10c516--43-1608",
+      "caseId": "25-332",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Neil M. Gorsuch",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r62_g314.pdf",
+      "textPath": "data/docs/25-332-7e839c10c516.json",
+      "pdfPath": "data/pdfs/25-332-7e839c10c516--43-1608-pages-51d46b25b5ce.pdf",
+      "sourceRange": {
+        "startPage": 43,
+        "startOffset": 1608,
+        "endPage": 59,
+        "endOffset": 49
+      },
+      "pageCount": 16,
+      "caseName": "Trump v. Slaughter",
+      "aliases": [],
+      "job": "recordings/jobs-separate-extra/25-332-7e839c10c516--43-1608.json",
+      "priority": 1
+    },
+    {
       "id": "25A608-051f527a2946--3-253",
       "caseId": "25A608",
       "opinionType": "Dissent",
       "opinionAuthor": "Elena Kagan",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a608_7khn.pdf",
       "textPath": "data/current-docs/25A608-051f527a2946.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/25A608-051f527a2946--3-253-pages-674eaa0eec3b.pdf",
       "sourceRange": {
         "startPage": 3,
         "startOffset": 253,
@@ -4001,43 +4041,63 @@
       "priority": 1
     },
     {
-      "id": "25A443-2b561f1d14b5--7-224",
-      "caseId": "25A443",
+      "id": "25-429-1a36af8833d3--12-1481",
+      "caseId": "25-429",
       "opinionType": "Dissent",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a443_new_b07d.pdf",
-      "textPath": "data/current-docs/25A443-2b561f1d14b5.json",
-      "pdfPath": null,
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r53_i4dk.pdf",
+      "textPath": "data/docs/25-429-1a36af8833d3.json",
+      "pdfPath": "data/pdfs/25-429-1a36af8833d3--12-1481-pages-f47432ce00d4.pdf",
       "sourceRange": {
-        "startPage": 7,
-        "startOffset": 224,
-        "endPage": 23,
-        "endOffset": 260
+        "startPage": 12,
+        "startOffset": 1481,
+        "endPage": 31,
+        "endOffset": 0
       },
-      "pageCount": 17,
-      "caseName": "Trump v. Illinois",
+      "pageCount": 18,
+      "caseName": "Blanche v. Lau",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25A443-2b561f1d14b5--7-224.json",
+      "job": "recordings/jobs-separate-remaining-a/25-429-1a36af8833d3--12-1481.json",
       "priority": 1
     },
     {
-      "id": "25-332-7e839c10c516--43-1608",
-      "caseId": "25-332",
+      "id": "24-482-1f5120e06330--7-710",
+      "caseId": "24-482",
       "opinionType": "Concurrence",
-      "opinionAuthor": "Neil M. Gorsuch",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r62_g314.pdf",
-      "textPath": "data/docs/25-332-7e839c10c516.json",
-      "pdfPath": "data/pdfs/25-332-7e839c10c516--43-1608.pdf",
+      "opinionAuthor": "Clarence Thomas",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r09_4fb4.pdf",
+      "textPath": "data/docs/24-482-1f5120e06330.json",
+      "pdfPath": "data/pdfs/24-482-1f5120e06330--7-710-pages-c103a414d5dc.pdf",
       "sourceRange": {
-        "startPage": 43,
-        "startOffset": 1608,
-        "endPage": 59,
-        "endOffset": 49
+        "startPage": 7,
+        "startOffset": 710,
+        "endPage": 26,
+        "endOffset": 0
       },
-      "pageCount": 17,
-      "caseName": "Trump v. Slaughter",
+      "pageCount": 18,
+      "caseName": "Ellingburg v. United States",
       "aliases": [],
-      "job": "recordings/jobs-separate-extra/25-332-7e839c10c516--43-1608.json",
+      "job": "recordings/jobs-separate-remaining-b/24-482-1f5120e06330--7-710.json",
+      "priority": 1
+    },
+    {
+      "id": "24-924-a99d1fbfaa6b--19-54",
+      "caseId": "24-924",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r27_bq7c.pdf",
+      "textPath": "data/docs/24-924-a99d1fbfaa6b.json",
+      "pdfPath": "data/pdfs/24-924-a99d1fbfaa6b--19-54-pages-031b58ce43e6.pdf",
+      "sourceRange": {
+        "startPage": 19,
+        "startOffset": 54,
+        "endPage": 38,
+        "endOffset": 0
+      },
+      "pageCount": 18,
+      "caseName": "Hencely v. Fluor Corp.",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/24-924-a99d1fbfaa6b--19-54.json",
       "priority": 1
     },
     {
@@ -4061,63 +4121,23 @@
       "priority": 1
     },
     {
-      "id": "25-429-1a36af8833d3--12-1481",
-      "caseId": "25-429",
+      "id": "24-621-c06758505ff0--32-1006",
+      "caseId": "24-621",
       "opinionType": "Dissent",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r53_i4dk.pdf",
-      "textPath": "data/docs/25-429-1a36af8833d3.json",
-      "pdfPath": "data/pdfs/25-429-1a36af8833d3--12-1481.pdf",
+      "opinionAuthor": "Elena Kagan",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r67_g3bi.pdf",
+      "textPath": "data/docs/24-621-c06758505ff0.json",
+      "pdfPath": "data/pdfs/24-621-c06758505ff0--32-1006-pages-bb814b9c0ea6.pdf",
       "sourceRange": {
-        "startPage": 12,
-        "startOffset": 1481,
-        "endPage": 31,
+        "startPage": 32,
+        "startOffset": 1006,
+        "endPage": 52,
         "endOffset": 0
       },
       "pageCount": 19,
-      "caseName": "Blanche v. Lau",
+      "caseName": "National Republican Senatorial Committee v. Federal Election Comm’n",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/25-429-1a36af8833d3--12-1481.json",
-      "priority": 1
-    },
-    {
-      "id": "24-482-1f5120e06330--7-710",
-      "caseId": "24-482",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Clarence Thomas",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r09_4fb4.pdf",
-      "textPath": "data/docs/24-482-1f5120e06330.json",
-      "pdfPath": "data/pdfs/24-482-1f5120e06330--7-710.pdf",
-      "sourceRange": {
-        "startPage": 7,
-        "startOffset": 710,
-        "endPage": 26,
-        "endOffset": 0
-      },
-      "pageCount": 19,
-      "caseName": "Ellingburg v. United States",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-482-1f5120e06330--7-710.json",
-      "priority": 1
-    },
-    {
-      "id": "24-924-a99d1fbfaa6b--19-54",
-      "caseId": "24-924",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r27_bq7c.pdf",
-      "textPath": "data/docs/24-924-a99d1fbfaa6b.json",
-      "pdfPath": "data/pdfs/24-924-a99d1fbfaa6b--19-54.pdf",
-      "sourceRange": {
-        "startPage": 19,
-        "startOffset": 54,
-        "endPage": 38,
-        "endOffset": 0
-      },
-      "pageCount": 19,
-      "caseName": "Hencely v. Fluor Corp.",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/24-924-a99d1fbfaa6b--19-54.json",
+      "job": "recordings/jobs-separate-remaining-b/24-621-c06758505ff0--32-1006.json",
       "priority": 1
     },
     {
@@ -4137,47 +4157,7 @@
       "pageCount": 19,
       "caseName": "Skinner v. Louisiana",
       "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
-      "id": "25-112-c22b9f1e2458--47-1175",
-      "caseId": "25-112",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf",
-      "textPath": "data/docs/25-112-c22b9f1e2458.json",
-      "pdfPath": null,
-      "sourceRange": {
-        "startPage": 47,
-        "startOffset": 1175,
-        "endPage": 66,
-        "endOffset": 1453
-      },
-      "pageCount": 20,
-      "caseName": "Chatrie v. United States",
-      "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
-      "id": "24-621-c06758505ff0--32-1006",
-      "caseId": "24-621",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Elena Kagan",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r67_g3bi.pdf",
-      "textPath": "data/docs/24-621-c06758505ff0.json",
-      "pdfPath": "data/pdfs/24-621-c06758505ff0--32-1006.pdf",
-      "sourceRange": {
-        "startPage": 32,
-        "startOffset": 1006,
-        "endPage": 52,
-        "endOffset": 0
-      },
-      "pageCount": 20,
-      "caseName": "National Republican Senatorial Committee v. Federal Election Comm’n",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/24-621-c06758505ff0--32-1006.json",
+      "job": "recordings/jobs-separate-extra/25-1-ddaed31af627--0-0.json",
       "priority": 1
     },
     {
@@ -4187,17 +4167,77 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r05_e2q3.pdf",
       "textPath": "data/docs/24-568-21c0dda89321.json",
-      "pdfPath": "data/pdfs/24-568-21c0dda89321--17-601.pdf",
+      "pdfPath": "data/pdfs/24-568-21c0dda89321--17-601-pages-33a32f7b883e.pdf",
       "sourceRange": {
         "startPage": 17,
         "startOffset": 601,
         "endPage": 38,
         "endOffset": 0
       },
-      "pageCount": 21,
+      "pageCount": 20,
       "caseName": "Bost v. Illinois Bd. of Elections",
       "aliases": [],
       "job": "recordings/jobs-separate-remaining-a/24-568-21c0dda89321--17-601.json",
+      "priority": 1
+    },
+    {
+      "id": "25-112-c22b9f1e2458--47-1175",
+      "caseId": "25-112",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf",
+      "textPath": "data/docs/25-112-c22b9f1e2458.json",
+      "pdfPath": "data/pdfs/25-112-c22b9f1e2458--47-1175-pages-964c3dd5d61b.pdf",
+      "sourceRange": {
+        "startPage": 47,
+        "startOffset": 1175,
+        "endPage": 66,
+        "endOffset": 1453
+      },
+      "pageCount": 20,
+      "caseName": "Chatrie v. United States",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/25-112-c22b9f1e2458--47-1175.json",
+      "priority": 1
+    },
+    {
+      "id": "25-365-06668450ad03--31-342",
+      "caseId": "25-365",
+      "opinionType": "Concurrence",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-365_new_5if6.pdf",
+      "textPath": "data/docs/25-365-06668450ad03.json",
+      "pdfPath": "data/pdfs/25-365-06668450ad03--31-342-pages-a7bd4d0b936d.pdf",
+      "sourceRange": {
+        "startPage": 31,
+        "startOffset": 342,
+        "endPage": 51,
+        "endOffset": 343
+      },
+      "pageCount": 20,
+      "caseName": "Trump v. Barbara",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-b/25-365-06668450ad03--31-342.json",
+      "priority": 1
+    },
+    {
+      "id": "24-556-fa9034dce1ce--23-669",
+      "caseId": "24-556",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r39_5iek.pdf",
+      "textPath": "data/docs/24-556-fa9034dce1ce.json",
+      "pdfPath": "data/pdfs/24-556-fa9034dce1ce--23-669-pages-e55c0f749df0.pdf",
+      "sourceRange": {
+        "startPage": 23,
+        "startOffset": 669,
+        "endPage": 45,
+        "endOffset": 0
+      },
+      "pageCount": 21,
+      "caseName": "Fernandez v. United States",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/24-556-fa9034dce1ce--23-669.json",
       "priority": 1
     },
     {
@@ -4217,47 +4257,27 @@
       "pageCount": 21,
       "caseName": "Rutherford v. United States",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/24-820-6b4e3fb895fe--20-1699.json",
       "priority": 1
     },
     {
-      "id": "25-365-06668450ad03--31-342",
-      "caseId": "25-365",
-      "opinionType": "Concurrence",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-365_new_5if6.pdf",
-      "textPath": "data/docs/25-365-06668450ad03.json",
-      "pdfPath": "data/pdfs/25-365-06668450ad03--31-342.pdf",
-      "sourceRange": {
-        "startPage": 31,
-        "startOffset": 342,
-        "endPage": 51,
-        "endOffset": 343
-      },
-      "pageCount": 21,
-      "caseName": "Trump v. Barbara",
-      "aliases": [],
-      "job": "recordings/jobs-separate-remaining-b/25-365-06668450ad03--31-342.json",
-      "priority": 1
-    },
-    {
-      "id": "24-556-fa9034dce1ce--23-669",
-      "caseId": "24-556",
+      "id": "24-1260-bf067461418d--27-67",
+      "caseId": "24-1260",
       "opinionType": "Dissent",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r39_5iek.pdf",
-      "textPath": "data/docs/24-556-fa9034dce1ce.json",
-      "pdfPath": "data/pdfs/24-556-fa9034dce1ce--23-669.pdf",
+      "opinionAuthor": "Samuel A. Alito, Jr.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r65_g314.pdf",
+      "textPath": "data/docs/24-1260-bf067461418d.json",
+      "pdfPath": "data/pdfs/24-1260-bf067461418d--27-67-pages-58a31c907c96.pdf",
       "sourceRange": {
-        "startPage": 23,
-        "startOffset": 669,
-        "endPage": 45,
+        "startPage": 27,
+        "startOffset": 67,
+        "endPage": 49,
         "endOffset": 0
       },
-      "pageCount": 22,
-      "caseName": "Fernandez v. United States",
+      "pageCount": 21,
+      "caseName": "Watson v. Republican National Committee",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/24-556-fa9034dce1ce--23-669.json",
+      "job": "recordings/jobs-separate-remaining-a/24-1260-bf067461418d--27-67.json",
       "priority": 1
     },
     {
@@ -4281,23 +4301,23 @@
       "priority": 1
     },
     {
-      "id": "24-1260-bf067461418d--27-67",
-      "caseId": "24-1260",
+      "id": "24-345-cc05184abe0d--17-1535",
+      "caseId": "24-345",
       "opinionType": "Dissent",
-      "opinionAuthor": "Samuel A. Alito, Jr.",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r65_g314.pdf",
-      "textPath": "data/docs/24-1260-bf067461418d.json",
-      "pdfPath": "data/pdfs/24-1260-bf067461418d--27-67.pdf",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r47_m64o.pdf",
+      "textPath": "data/docs/24-345-cc05184abe0d.json",
+      "pdfPath": "data/pdfs/24-345-cc05184abe0d--17-1535-pages-15820e630a0e.pdf",
       "sourceRange": {
-        "startPage": 27,
-        "startOffset": 67,
-        "endPage": 49,
-        "endOffset": 0
+        "startPage": 17,
+        "startOffset": 1535,
+        "endPage": 40,
+        "endOffset": 756
       },
-      "pageCount": 22,
-      "caseName": "Watson v. Republican National Committee",
+      "pageCount": 23,
+      "caseName": "FS Credit Opportunities Corp. v. Saba Capital Master Fund, Ltd.",
       "aliases": [],
-      "job": "recordings/jobs-separate-remaining-a/24-1260-bf067461418d--27-67.json",
+      "job": "recordings/jobs-separate-remaining-b/24-345-cc05184abe0d--17-1535.json",
       "priority": 1
     },
     {
@@ -4307,7 +4327,7 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r69_11o2.pdf",
       "textPath": "data/docs/26A124-7f09f51afb97.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/26A124-7f09f51afb97--14-1148-pages-6b7e38e06d3b.pdf",
       "sourceRange": {
         "startPage": 14,
         "startOffset": 1148,
@@ -4323,40 +4343,20 @@
       "priority": 1
     },
     {
-      "id": "24-345-cc05184abe0d--17-1535",
-      "caseId": "24-345",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r47_m64o.pdf",
-      "textPath": "data/docs/24-345-cc05184abe0d.json",
-      "pdfPath": null,
-      "sourceRange": {
-        "startPage": 17,
-        "startOffset": 1535,
-        "endPage": 40,
-        "endOffset": 756
-      },
-      "pageCount": 24,
-      "caseName": "FS Credit Opportunities Corp. v. Saba Capital Master Fund, Ltd.",
-      "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
       "id": "24-5438-d1825e31b9cd--35-608",
       "caseId": "24-5438",
       "opinionType": "Dissent",
       "opinionAuthor": "Neil M. Gorsuch",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf",
       "textPath": "data/docs/24-5438-d1825e31b9cd.json",
-      "pdfPath": "data/pdfs/24-5438-d1825e31b9cd--35-608.pdf",
+      "pdfPath": "data/pdfs/24-5438-d1825e31b9cd--35-608-pages-ba5d189bf783.pdf",
       "sourceRange": {
         "startPage": 35,
         "startOffset": 608,
         "endPage": 60,
         "endOffset": 0
       },
-      "pageCount": 25,
+      "pageCount": 24,
       "caseName": "Bowe v. United States",
       "aliases": [],
       "job": "recordings/jobs-separate-remaining-b/24-5438-d1825e31b9cd--35-608.json",
@@ -4369,17 +4369,17 @@
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r35_j4el.pdf",
       "textPath": "data/docs/24-872-f599717e4fe6.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/24-872-f599717e4fe6--38-1304-pages-fea9021082ba.pdf",
       "sourceRange": {
         "startPage": 38,
         "startOffset": 1304,
         "endPage": 62,
         "endOffset": 892
       },
-      "pageCount": 25,
+      "pageCount": 24,
       "caseName": "Hamm v. Smith",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/24-872-f599717e4fe6--38-1304.json",
       "priority": 1
     },
     {
@@ -4389,14 +4389,14 @@
       "opinionAuthor": "Clarence Thomas",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r50_lkgn.pdf",
       "textPath": "data/docs/24-1063-22d936bf1cef.json",
-      "pdfPath": "data/pdfs/24-1063-22d936bf1cef--36-51.pdf",
+      "pdfPath": "data/pdfs/24-1063-22d936bf1cef--36-51-pages-6d53557145dc.pdf",
       "sourceRange": {
         "startPage": 36,
         "startOffset": 51,
         "endPage": 61,
         "endOffset": 0
       },
-      "pageCount": 25,
+      "pageCount": 24,
       "caseName": "Hunter v. United States",
       "aliases": [],
       "job": "recordings/jobs-separate-remaining-a/24-1063-22d936bf1cef--36-51.json",
@@ -4409,14 +4409,14 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r61_3314.pdf",
       "textPath": "data/docs/24-1068-0d88dd38f1d2.json",
-      "pdfPath": "data/pdfs/24-1068-0d88dd38f1d2--28-1251.pdf",
+      "pdfPath": "data/pdfs/24-1068-0d88dd38f1d2--28-1251-pages-1bec58f5968f.pdf",
       "sourceRange": {
         "startPage": 28,
         "startOffset": 1251,
         "endPage": 53,
         "endOffset": 0
       },
-      "pageCount": 25,
+      "pageCount": 24,
       "caseName": "Monsanto v. Durnell",
       "aliases": [],
       "job": "recordings/jobs-separate-remaining-b/24-1068-0d88dd38f1d2--28-1251.json",
@@ -4439,7 +4439,7 @@
       "pageCount": 27,
       "caseName": "Cisco Systems, Inc. v. Doe",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/24-856-72b94be09fe1--19-154.json",
       "priority": 1
     },
     {
@@ -4449,17 +4449,17 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r55_h315.pdf",
       "textPath": "data/docs/23-1197-47c01f9ff679.json",
-      "pdfPath": "data/pdfs/23-1197-47c01f9ff679--22-326.pdf",
+      "pdfPath": "data/pdfs/23-1197-47c01f9ff679--22-326-pages-50ce1f731af1.pdf",
       "sourceRange": {
         "startPage": 22,
         "startOffset": 326,
         "endPage": 51,
         "endOffset": 0
       },
-      "pageCount": 29,
+      "pageCount": 28,
       "caseName": "Landor v. Louisiana Dept of Corrections and Public Safety",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-a/23-1197-47c01f9ff679--22-326.json",
       "priority": 1
     },
     {
@@ -4469,7 +4469,7 @@
       "opinionAuthor": "Clarence Thomas",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf",
       "textPath": "data/docs/25A312-160e5fa4af84.json",
-      "pdfPath": "data/pdfs/25A312-160e5fa4af84--38-213.pdf",
+      "pdfPath": "data/pdfs/25A312-160e5fa4af84--38-213-pages-dbd575eb30b9.pdf",
       "sourceRange": {
         "startPage": 38,
         "startOffset": 213,
@@ -4479,7 +4479,7 @@
       "pageCount": 32,
       "caseName": "Trump v. Cook",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-a/25A312-160e5fa4af84--38-213.json",
       "priority": 1
     },
     {
@@ -4489,7 +4489,7 @@
       "opinionAuthor": "Sonia Sotomayor",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r68_hgci.pdf",
       "textPath": "data/docs/24-43-e9275532900a.json",
-      "pdfPath": null,
+      "pdfPath": "data/pdfs/24-43-e9275532900a--41-572-pages-0d8aef2e5453.pdf",
       "sourceRange": {
         "startPage": 41,
         "startOffset": 572,
@@ -4499,7 +4499,7 @@
       "pageCount": 32,
       "caseName": "West Virginia v. B. P. J.",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-extra/24-43-e9275532900a--41-572.json",
       "priority": 1
     },
     {
@@ -4509,17 +4509,37 @@
       "opinionAuthor": "Ketanji Brown Jackson",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r58_a8cf.pdf",
       "textPath": "data/docs/24-1046-83b323fda5e8.json",
-      "pdfPath": "data/pdfs/24-1046-83b323fda5e8--42-979.pdf",
+      "pdfPath": "data/pdfs/24-1046-83b323fda5e8--42-979-pages-d23c98e58ad5.pdf",
       "sourceRange": {
         "startPage": 42,
         "startOffset": 979,
         "endPage": 75,
         "endOffset": 0
       },
-      "pageCount": 33,
+      "pageCount": 32,
       "caseName": "Wolford v. Lopez",
       "aliases": [],
       "job": "recordings/jobs-separate-remaining-b/24-1046-83b323fda5e8--42-979.json",
+      "priority": 1
+    },
+    {
+      "id": "24-539-cd3ac2b6b65d--33-466",
+      "caseId": "24-539",
+      "opinionType": "Dissent",
+      "opinionAuthor": "Ketanji Brown Jackson",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r24_4315.pdf",
+      "textPath": "data/docs/24-539-cd3ac2b6b65d.json",
+      "pdfPath": "data/pdfs/24-539-cd3ac2b6b65d--33-466-pages-1ec7817385d8.pdf",
+      "sourceRange": {
+        "startPage": 33,
+        "startOffset": 466,
+        "endPage": 68,
+        "endOffset": 0
+      },
+      "pageCount": 34,
+      "caseName": "Chiles v. Salazar",
+      "aliases": [],
+      "job": "recordings/jobs-separate-remaining-a/24-539-cd3ac2b6b65d--33-466.json",
       "priority": 1
     },
     {
@@ -4539,27 +4559,7 @@
       "pageCount": 34,
       "caseName": "Mullin v. Al Otro Lado",
       "aliases": [],
-      "job": null,
-      "priority": 1
-    },
-    {
-      "id": "24-539-cd3ac2b6b65d--33-466",
-      "caseId": "24-539",
-      "opinionType": "Dissent",
-      "opinionAuthor": "Ketanji Brown Jackson",
-      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r24_4315.pdf",
-      "textPath": "data/docs/24-539-cd3ac2b6b65d.json",
-      "pdfPath": "data/pdfs/24-539-cd3ac2b6b65d--33-466.pdf",
-      "sourceRange": {
-        "startPage": 33,
-        "startOffset": 466,
-        "endPage": 68,
-        "endOffset": 0
-      },
-      "pageCount": 35,
-      "caseName": "Chiles v. Salazar",
-      "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/25-5-fe3b8dc8ff65--27-1453.json",
       "priority": 1
     },
     {
@@ -4569,17 +4569,17 @@
       "opinionAuthor": "Samuel A. Alito, Jr.",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-365_new_5if6.pdf",
       "textPath": "data/docs/25-365-06668450ad03.json",
-      "pdfPath": "data/pdfs/25-365-06668450ad03--152-340.pdf",
+      "pdfPath": "data/pdfs/25-365-06668450ad03--152-340-pages-3aaf3e67449d.pdf",
       "sourceRange": {
         "startPage": 152,
         "startOffset": 340,
         "endPage": 191,
         "endOffset": 342
       },
-      "pageCount": 40,
+      "pageCount": 39,
       "caseName": "Trump v. Barbara",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/25-365-06668450ad03--152-340.json",
       "priority": 1
     },
     {
@@ -4599,7 +4599,7 @@
       "pageCount": 46,
       "caseName": "Trump, President Of United States v. V.O.S. Selections, Inc.",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-a/24-1287-2059f0a43b72--27-1512.json",
       "priority": 1
     },
     {
@@ -4609,17 +4609,17 @@
       "opinionAuthor": "Elena Kagan",
       "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r29_n648.pdf",
       "textPath": "data/docs/24-109-1ca9df9cb0ae.json",
-      "pdfPath": "data/pdfs/24-109-1ca9df9cb0ae--43-1381.pdf",
+      "pdfPath": "data/pdfs/24-109-1ca9df9cb0ae--43-1381-pages-17b8f2d3cae6.pdf",
       "sourceRange": {
         "startPage": 43,
         "startOffset": 1381,
         "endPage": 91,
         "endOffset": 0
       },
-      "pageCount": 48,
+      "pageCount": 47,
       "caseName": "Louisiana v. Callais",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/24-109-1ca9df9cb0ae--43-1381.json",
       "priority": 1
     },
     {
@@ -4639,7 +4639,7 @@
       "pageCount": 49,
       "caseName": "Trump v. Slaughter",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-b/25-332-7e839c10c516--59-49.json",
       "priority": 1
     },
     {
@@ -4659,7 +4659,7 @@
       "pageCount": 62,
       "caseName": "Trump, President Of United States v. V.O.S. Selections, Inc.",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-a/24-1287-2059f0a43b72--102-884.json",
       "priority": 1
     },
     {
@@ -4679,7 +4679,7 @@
       "pageCount": 92,
       "caseName": "Trump v. Barbara",
       "aliases": [],
-      "job": null,
+      "job": "recordings/jobs-separate-remaining-a/25-365-06668450ad03--61-341.json",
       "priority": 1
     }
   ],

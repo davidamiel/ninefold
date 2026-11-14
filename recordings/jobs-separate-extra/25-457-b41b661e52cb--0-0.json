@@ -1,0 +1,1643 @@
+{
+  "reviewed": true,
+  "documentId": "25-457-b41b661e52cb--0-0",
+  "sourceDocumentId": "25-457-b41b661e52cb",
+  "sourceTextPath": "dist/data/docs/25-457-b41b661e52cb.json",
+  "sourceTextSha256": "47f58501bd60facd5dfeb202194c50e77089caca14ebcb1a8440ba8312feb071",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/b41b661e52cb9386bc87d44f.pdf",
+  "sourcePdfSha256": "9da39925021d22d8e7b1c52e913a19680a6854c64779b4a1d2ae24b3443511fe",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2026-03-02",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-457_o7jp.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 538,
+    "endPage": 7,
+    "endOffset": 219
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 538,
+          "end": 914
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 0,
+          "start": 914,
+          "end": 916
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 0,
+          "start": 917,
+          "end": 919
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 920,
+          "end": 1209
+        }
+      ],
+      "citations": [
+        {
+          "start": 56,
+          "end": 64,
+          "text": "§1914(a)",
+          "canonical": "§1914(a)",
+          "type": "reference"
+        },
+        {
+          "start": 269,
+          "end": 281,
+          "text": "See §1914(a)",
+          "canonical": "See §1914(a)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1209,
+          "end": 1627
+        }
+      ],
+      "citations": [
+        {
+          "start": 217,
+          "end": 225,
+          "text": "§1915(a)",
+          "canonical": "§1915(a)",
+          "type": "reference"
+        },
+        {
+          "start": 402,
+          "end": 407,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IFP",
+          "to": "I F P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1627,
+          "end": 1744
+        },
+        {
+          "page": 1,
+          "start": 111,
+          "end": 613
+        }
+      ],
+      "citations": [
+        {
+          "start": 191,
+          "end": 202,
+          "text": "§1915(b)(1)",
+          "canonical": "§1915(b)(1)",
+          "type": "reference"
+        },
+        {
+          "start": 409,
+          "end": 414,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 591,
+          "end": 602,
+          "text": "§1915(b)(3)",
+          "canonical": "§1915(b)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section "
+        },
+        {
+          "from": "PLRA",
+          "to": "P L R A"
+        },
+        {
+          "from": "IFP",
+          "to": "I F P"
+        },
+        {
+          "from": "[i]n",
+          "to": "in"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 1,
+          "start": 613,
+          "end": 615
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 616,
+          "end": 1073
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1073,
+          "end": 1321
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "IFP",
+          "to": "I F P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1321,
+          "end": 1817
+        }
+      ],
+      "citations": [
+        {
+          "start": 378,
+          "end": 395,
+          "text": "§§1915(b)(1), (3)",
+          "canonical": "§§1915(b)(1), (3)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "PLRA",
+          "to": "P L R A"
+        },
+        {
+          "from": "IFP",
+          "to": "I F P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1817,
+          "end": 1999
+        },
+        {
+          "page": 2,
+          "start": 97,
+          "end": 566
+        }
+      ],
+      "citations": [
+        {
+          "start": 174,
+          "end": 200,
+          "text": "127 F. 4th 123, 134 (2025)",
+          "canonical": "127 F. 4th 123, 134 (2025)",
+          "type": "reference"
+        },
+        {
+          "start": 403,
+          "end": 414,
+          "text": "Id., at 137",
+          "canonical": "Id., at 137",
+          "type": "reference"
+        },
+        {
+          "start": 462,
+          "end": 484,
+          "text": "145 F. 4th 1052 (2025)",
+          "canonical": "145 F. 4th 1052 (2025)",
+          "type": "reference"
+        },
+        {
+          "start": 619,
+          "end": 631,
+          "text": "Id., at 1058",
+          "canonical": "Id., at 1058",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "PLRA",
+          "to": "P L R A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 2,
+          "start": 566,
+          "end": 569
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 570,
+          "end": 1477
+        }
+      ],
+      "citations": [
+        {
+          "start": 74,
+          "end": 86,
+          "text": "§§1915(a)(1)",
+          "canonical": "§§1915(a)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 165,
+          "end": 183,
+          "text": "Section 1915(a)(1)",
+          "canonical": "Section 1915(a)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 364,
+          "end": 382,
+          "text": "Section 1915(b)(1)",
+          "canonical": "Section 1915(b)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 593,
+          "end": 604,
+          "text": "§1915(b)(1)",
+          "canonical": "§1915(b)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 763,
+          "end": 775,
+          "text": "§§1915(b)(1)",
+          "canonical": "§§1915(b)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections "
+        },
+        {
+          "from": "§",
+          "to": "section "
+        },
+        {
+          "from": "IFP",
+          "to": "I F P"
+        },
+        {
+          "from": "[s]ubject",
+          "to": "subject"
+        },
+        {
+          "from": "[n]otwithstanding",
+          "to": "notwithstanding"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1477,
+          "end": 1708
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "IFP",
+          "to": "I F P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1708,
+          "end": 2135
+        },
+        {
+          "page": 3,
+          "start": 102,
+          "end": 351
+        }
+      ],
+      "citations": [
+        {
+          "start": 81,
+          "end": 86,
+          "text": "§1915",
+          "canonical": "§1915",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 111,
+          "end": 119,
+          "text": "§1914(a)",
+          "canonical": "§1914(a)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 392,
+          "end": 397,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 436,
+          "end": 444,
+          "text": "§1914(a)",
+          "canonical": "§1914(a)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 564,
+          "end": 572,
+          "text": "§1914(a)",
+          "canonical": "§1914(a)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section "
+        },
+        {
+          "from": "IFP",
+          "to": "I F P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 351,
+          "end": 681
+        }
+      ],
+      "citations": [
+        {
+          "start": 120,
+          "end": 164,
+          "text": "See Jones v. Bock, 549 U. S. 199, 216 (2007)",
+          "canonical": "See Jones v. Bock, 549 U. S. 199, 216 (2007)",
+          "type": "reference"
+        },
+        {
+          "start": 316,
+          "end": 321,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "PLRA",
+          "to": "P L R A"
+        },
+        {
+          "from": "IFP",
+          "to": "I F P"
+        },
+        {
+          "from": "[said]",
+          "to": "said"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 681,
+          "end": 1470
+        }
+      ],
+      "citations": [
+        {
+          "start": 282,
+          "end": 293,
+          "text": "§1915(b)(3)",
+          "canonical": "§1915(b)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 418,
+          "end": 429,
+          "text": "§1915(b)(3)",
+          "canonical": "§1915(b)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 573,
+          "end": 581,
+          "text": "§1914(a)",
+          "canonical": "§1914(a)",
+          "type": "reference"
+        },
+        {
+          "start": 719,
+          "end": 727,
+          "text": "§1914(a)",
+          "canonical": "§1914(a)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section "
+        },
+        {
+          "from": "PLRA",
+          "to": "P L R A"
+        },
+        {
+          "from": "IFP",
+          "to": "I F P"
+        },
+        {
+          "from": "institut[e]",
+          "to": "institute"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1470,
+          "end": 2170
+        },
+        {
+          "page": 4,
+          "start": 101,
+          "end": 103
+        }
+      ],
+      "citations": [
+        {
+          "start": 41,
+          "end": 52,
+          "text": "§1915(b)(1)",
+          "canonical": "§1915(b)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 154,
+          "end": 165,
+          "text": "§1915(b)(3)",
+          "canonical": "§1915(b)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 220,
+          "end": 238,
+          "text": "127 F. 4th, at 129",
+          "canonical": "127 F. 4th, at 129",
+          "type": "reference"
+        },
+        {
+          "start": 267,
+          "end": 278,
+          "text": "§1915(b)(3)",
+          "canonical": "§1915(b)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 366,
+          "end": 389,
+          "text": "Brief in Opposition 7–8",
+          "canonical": "Brief in Opposition 7–8",
+          "type": "reference"
+        },
+        {
+          "start": 443,
+          "end": 454,
+          "text": "§1915(b)(3)",
+          "canonical": "§1915(b)(3)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section "
+        },
+        {
+          "from": "IFP",
+          "to": "I F P"
+        },
+        {
+          "from": "refe[r]",
+          "to": "refer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 103,
+          "end": 718
+        }
+      ],
+      "citations": [
+        {
+          "start": 23,
+          "end": 34,
+          "text": "§1915(b)(1)",
+          "canonical": "§1915(b)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 68,
+          "end": 79,
+          "text": "§1915(b)(1)",
+          "canonical": "§1915(b)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section "
+        },
+        {
+          "from": "IFP",
+          "to": "I F P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 718,
+          "end": 1482
+        }
+      ],
+      "citations": [
+        {
+          "start": 144,
+          "end": 170,
+          "text": "See 127 F. 4th, at 131–132",
+          "canonical": "See 127 F. 4th, at 131–132",
+          "type": "reference"
+        },
+        {
+          "start": 366,
+          "end": 377,
+          "text": "Id., at 139",
+          "canonical": "Id., at 139",
+          "type": "reference"
+        },
+        {
+          "start": 654,
+          "end": 720,
+          "text": "Bowe v. United States, 607 U. S. ___, ___ (2026) (slip op., at 19)",
+          "canonical": "Bowe v. United States, 607 U. S. ___, ___ (2026) (slip op., at 19)",
+          "type": "reference"
+        },
+        {
+          "start": 721,
+          "end": 745,
+          "text": "(alteration in original)",
+          "canonical": "(alteration in original)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[n]o",
+          "to": "no"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1482,
+          "end": 1922
+        }
+      ],
+      "citations": [
+        {
+          "start": 121,
+          "end": 132,
+          "text": "§1915(b)(1)",
+          "canonical": "§1915(b)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 199,
+          "end": 208,
+          "text": "§§1914(a)",
+          "canonical": "§§1914(a)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections "
+        },
+        {
+          "from": "§",
+          "to": "section "
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1935,
+          "end": 2062
+        },
+        {
+          "page": 5,
+          "start": 1026,
+          "end": 1930
+        }
+      ],
+      "citations": [
+        {
+          "start": 32,
+          "end": 53,
+          "text": "§§1914(a), 1915(b)(1)",
+          "canonical": "§§1914(a), 1915(b)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 213,
+          "end": 292,
+          "text": "Jones v. High Desert State Prison, 2022 WL 3969635, *1 (ED Cal., Aug. 31, 2022)",
+          "canonical": "Jones v. High Desert State Prison, 2022 WL 3969635, *1 (ED Cal., Aug. 31, 2022)",
+          "type": "reference"
+        },
+        {
+          "start": 372,
+          "end": 412,
+          "text": "Federal Rule of Civil Procedure 20(a)(1)",
+          "canonical": "Federal Rule of Civil Procedure 20(a)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 601,
+          "end": 608,
+          "text": "Rule 20",
+          "canonical": "Rule 20",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 630,
+          "end": 643,
+          "text": "Rule 20(a)(1)",
+          "canonical": "Rule 20(a)(1)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 835,
+          "end": 918,
+          "text": "National Assn. of Home Builders v. Defenders of Wildlife, 551 U. S. 644, 662 (2007)",
+          "canonical": "National Assn. of Home Builders v. Defenders of Wildlife, 551 U. S. 644, 662 (2007)",
+          "type": "reference"
+        },
+        {
+          "start": 919,
+          "end": 970,
+          "text": "(quoting Watt v. Alaska, 451 U. S. 259, 267 (1981))",
+          "canonical": "(quoting Watt v. Alaska, 451 U. S. 259, 267 (1981))",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections "
+        },
+        {
+          "from": "§",
+          "to": "section "
+        },
+        {
+          "from": "PLRA",
+          "to": "P L R A"
+        },
+        {
+          "from": "IFP",
+          "to": "I F P"
+        },
+        {
+          "from": "[R]epeals",
+          "to": "Repeals"
+        },
+        {
+          "from": "[is]",
+          "to": "is"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 130,
+          "end": 134
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 135,
+          "end": 763
+        }
+      ],
+      "citations": [
+        {
+          "start": 68,
+          "end": 92,
+          "text": "See this Court’s Rule 10",
+          "canonical": "See this Court’s Rule 10",
+          "type": "reference"
+        },
+        {
+          "start": 304,
+          "end": 354,
+          "text": "See Hagan v. Rogers, 570 F. 3d 146, 155 (CA3 2009)",
+          "canonical": "See Hagan v. Rogers, 570 F. 3d 146, 155 (CA3 2009)",
+          "type": "reference"
+        },
+        {
+          "start": 356,
+          "end": 405,
+          "text": "Boriboune v. Berge, 391 F. 3d 852, 856 (CA7 2004)",
+          "canonical": "Boriboune v. Berge, 391 F. 3d 852, 856 (CA7 2004)",
+          "type": "reference"
+        },
+        {
+          "start": 407,
+          "end": 457,
+          "text": "Hubbard v. Haley, 262 F. 3d 1194, 1195 (CA11 2001)",
+          "canonical": "Hubbard v. Haley, 262 F. 3d 1194, 1195 (CA11 2001)",
+          "type": "reference"
+        },
+        {
+          "start": 534,
+          "end": 611,
+          "text": "In re Prison Litigation Reform Act , 105 F. 3d 1131, 1138 (1997) (In re PLRA)",
+          "canonical": "In re Prison Litigation Reform Act , 105 F. 3d 1131, 1138 (1997) (In re PLRA)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IFP",
+          "to": "I F P"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1932,
+          "end": 2663
+        }
+      ],
+      "citations": [
+        {
+          "start": 118,
+          "end": 154,
+          "text": "127 F. 4th 123, 130, n. 6 (CA9 2025)",
+          "canonical": "127 F. 4th 123, 130, n. 6 (CA9 2025)",
+          "type": "reference"
+        },
+        {
+          "start": 331,
+          "end": 388,
+          "text": "See, e.g., Talley-Bey v. Knebl, 168 F. 3d 884, 885 (1999)",
+          "canonical": "See, e.g., Talley-Bey v. Knebl, 168 F. 3d 884, 885 (1999)",
+          "type": "reference"
+        },
+        {
+          "start": 627,
+          "end": 685,
+          "text": "see also Singleton v. Smith, 241 F. 3d 534, 543 (CA6 2001)",
+          "canonical": "see also Singleton v. Smith, 241 F. 3d 534, 543 (CA6 2001)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "PLRA",
+          "to": "P L R A"
+        },
+        {
+          "from": "[ PLRA]",
+          "to": " P L R A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 764,
+          "end": 1018
+        },
+        {
+          "page": 6,
+          "start": 106,
+          "end": 108
+        }
+      ],
+      "citations": [
+        {
+          "start": 66,
+          "end": 94,
+          "text": "See 127 F. 4th, at 130, n. 6",
+          "canonical": "See 127 F. 4th, at 130, n. 6",
+          "type": "reference"
+        },
+        {
+          "start": 147,
+          "end": 180,
+          "text": "see also Hagan, 570 F. 3d, at 154",
+          "canonical": "see also Hagan, 570 F. 3d, at 154",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 108,
+          "end": 431
+        }
+      ],
+      "citations": [
+        {
+          "start": 183,
+          "end": 200,
+          "text": "Pet. for Cert. 17",
+          "canonical": "Pet. for Cert. 17",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1960,
+          "end": 2188
+        }
+      ],
+      "citations": [
+        {
+          "start": 196,
+          "end": 220,
+          "text": "See Pet. for Cert. 16–17",
+          "canonical": "See Pet. for Cert. 16–17",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 434,
+          "end": 1365
+        }
+      ],
+      "citations": [
+        {
+          "start": 177,
+          "end": 227,
+          "text": "Brief for Public Justice et al. as Amici Curiae 12",
+          "canonical": "Brief for Public Justice et al. as Amici Curiae 12",
+          "type": "reference"
+        },
+        {
+          "start": 651,
+          "end": 667,
+          "text": "See id., at 4–11",
+          "canonical": "See id., at 4–11",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1365,
+          "end": 1950
+        },
+        {
+          "page": 7,
+          "start": 77,
+          "end": 219
+        }
+      ],
+      "citations": [
+        {
+          "start": 116,
+          "end": 132,
+          "text": "See §1915(b)(1);",
+          "canonical": "See §1915(b)(1);",
+          "type": "reference"
+        },
+        {
+          "start": 133,
+          "end": 322,
+          "text": "Administrative Office of the U. S. Courts, Court of Appeals Miscellaneous Fee Schedule (Dec. 1, 2023), https://www.uscourts.gov/court-programs/ fees/court-appeals-miscellaneous-fee-schedule",
+          "canonical": "Administrative Office of the U. S. Courts, Court of Appeals Miscellaneous Fee Schedule (Dec. 1, 2023), https://www.uscourts.gov/court-programs/ fees/court-appeals-miscellaneous-fee-schedule",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 656,
+      "end": 658,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 717,
+      "end": 719,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 778,
+      "end": 780,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1323,
+      "end": 1325,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1383,
+      "end": 1385,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1444,
+      "end": 1446,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 667,
+      "end": 669,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 849,
+      "end": 851,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 910,
+      "end": 912,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1130,
+      "end": 1132,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1186,
+      "end": 1188,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1246,
+      "end": 1248,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1796,
+      "end": 1798,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1873,
+      "end": 1875,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 273,
+      "end": 275,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 512,
+      "end": 514,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 814,
+      "end": 816,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 996,
+      "end": 998,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1529,
+      "end": 1531,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1656,
+      "end": 1658,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 462,
+      "end": 464,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 523,
+      "end": 525,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 737,
+      "end": 739,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1044,
+      "end": 1046,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1221,
+      "end": 1223,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1713,
+      "end": 1715,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1825,
+      "end": 1827,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 2070,
+      "end": 2072,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 216,
+      "end": 218,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 278,
+      "end": 280,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 774,
+      "end": 776,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 1083,
+      "end": 1085,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 1267,
+      "end": 1269,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 253,
+      "end": 255,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 790,
+      "end": 792,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 908,
+      "end": 910,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 969,
+      "end": 971,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 1099,
+      "end": 1101,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 1318,
+      "end": 1320,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 1465,
+      "end": 1467,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 1616,
+      "end": 1618,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 1839,
+      "end": 1841,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 2374,
+      "end": 2376,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 2523,
+      "end": 2525,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 493,
+      "end": 495,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 901,
+      "end": 903,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 962,
+      "end": 964,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 1330,
+      "end": 1332,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 2029,
+      "end": 2031,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 202,
+      "end": 204,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1474,
+      "end": 1485,
+      "expectedText": "plai ntiffs",
+      "text": "plaintiffs"
+    },
+    {
+      "page": 1,
+      "start": 533,
+      "end": 545,
+      "expectedText": "per -\nmitted",
+      "text": "permitted"
+    },
+    {
+      "page": 4,
+      "start": 1354,
+      "end": 1367,
+      "expectedText": "it s purposes",
+      "text": "its purposes"
+    },
+    {
+      "page": 5,
+      "start": 1911,
+      "end": 1922,
+      "expectedText": "ap -\nparent",
+      "text": "apparent"
+    },
+    {
+      "page": 5,
+      "start": 2479,
+      "end": 2489,
+      "expectedText": "prisoner s",
+      "text": "prisoners"
+    },
+    {
+      "page": 6,
+      "start": 1696,
+      "end": 1711,
+      "expectedText": "con -\nsiderable",
+      "text": "considerable"
+    },
+    {
+      "page": 6,
+      "start": 1815,
+      "end": 1828,
+      "expectedText": "plain -\ntiffs",
+      "text": "plaintiffs"
+    },
+    {
+      "page": 6,
+      "start": 2122,
+      "end": 2134,
+      "expectedText": "unav ailable",
+      "text": "unavailable"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 47,
+      "end": 111,
+      "text": "2 JOHNSON v. HIGH DESERT STATE PRISON \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 2,
+      "start": 37,
+      "end": 97,
+      "text": "3  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 38,
+      "end": 102,
+      "text": "4 JOHNSON v. HIGH DESERT STATE PRISON \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 4,
+      "start": 41,
+      "end": 101,
+      "text": "5  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 4,
+      "start": 1922,
+      "end": 1935,
+      "text": "1 \n—————— \n1 ",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 64,
+      "end": 130,
+      "text": "6 JOHNSON v. HIGH DESERT STATE PRISON \nSOTOMAYOR, J., dissenting \n",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 763,
+      "end": 764,
+      "text": "2",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 1018,
+      "end": 1026,
+      "text": "—————— \n",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 1930,
+      "end": 1932,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 6,
+      "start": 46,
+      "end": 106,
+      "text": "7  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 6,
+      "start": 431,
+      "end": 434,
+      "text": "3 \n",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 6,
+      "start": 1950,
+      "end": 1960,
+      "text": "—————— \n3 ",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 7,
+      "start": 13,
+      "end": 77,
+      "text": "8 JOHNSON v. HIGH DESERT STATE PRISON \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

@@ -7,6 +7,7 @@ import {createContentPatch,applyContentPatch,validateContentPatch} from './conte
 import {createEditorSession} from './editor-session.js';
 import {openReaderEditor} from './reader-editor.js';
 import {renderReaderContent,readerOutline} from './reader-content.js';
+import {figureParagraphIndex,readerFigureHTML,installReaderFigureHandlers} from './reader-figures.js';
 
 import {openCaseEditor} from './case-editor.js';
 import {compileDocument,validateContent,escapeMarkdown} from './content-model.js';
@@ -26,6 +27,7 @@ function loadPDFLibrary(){
  ]).then(([library])=>{pdfjsLib=library;library.GlobalWorkerOptions.workerSrc='./vendor/pdfjs/pdf.worker.mjs';return library}).catch(error=>{pdfLibrary=null;throw error});
 }
 const app=document.querySelector('#app'),overlays=document.querySelector('#overlays');
+installReaderFigureHandlers(app);
 const paths={book:'M10 13a5 5 0 0 0 7 .1l3-3a5 5 0 0 0-7-7l-1.7 1.7 M14 11a5 5 0 0 0-7-.1l-3 3a5 5 0 0 0 7 7l1.7-1.7',back:'M15 5l-7 7 7 7 M8 12h13',arrow:'M9 5l7 7-7 7 M3 12h13',external:'M14 3h7v7 M21 3l-11 11 M10 3H4v17h17v-6',close:'M6 6l12 12 M18 6L6 18',plus:'M12 5v14 M5 12h14',file:'M14 2H5v20h14V7z M14 2v6h5 M8 12h8 M8 16h8',files:'M7 5h12v16H7z M4 17V2h12',list:'M8 6h13 M8 12h13 M8 18h13 M3 6h1 M3 12h1 M3 18h1',note:'M4 3h16v13l-5 5H4z M15 21v-5h5 M8 7h8 M8 11h6',info:'M12 8h.01 M12 11v6 M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20',view:'M4 6h16 M4 12h16 M4 18h16 M8 3v6 M16 9v6 M10 15v6',audio:'M3 14v-3a9 9 0 0 1 18 0v3 M3 12h4v8H3z M17 12h4v8h-4z',save:'M6 3h12v19l-6-4-6 4z',search:'M21 21l-6-6 M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16',split:'M3 4h18v16H3z M12 4v16',sidebar:'M3 4h18v16H3z M16 4v16',play:'M7 3l14 9-14 9z',pause:'M7 4v16 M17 4v16',trash:'M3 6h18 M9 6V3h6v3 M6 6l1 15h10l1-15 M10 10v7 M14 10v7',download:'M12 3v12 M7 10l5 5 5-5 M4 16v5h16v-5',check:'M4 12l5 5L20 6',float:'M3 9V3h12 M3 15v6h6 M9 9h12v12H9z',highlight:'M4 17L15 6l5 5-11 11H4z M15 6l2-2 5 5-2 2 M2 22h10',calendar:'M3 5h18v16H3z M7 2v6 M17 2v6 M3 10h18'};
 const icon=n=>`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[n]||paths.file}"/></svg>`;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -562,6 +564,7 @@ function citationRanges(text,id,page,map,reviewed=[]) {
   const c=contextCase(id);
   const detected=preparedTextCache.get(preparedDocument(id)?.textPath)?.reviewedCitations?[]:citationsIn(text,c?.id==='24-440'||/Federal Rules? of Civil Procedure|Fed\. R\. Civ\. P/i.test(text),c?.id==='24-440',(v,r,n)=>shortCaseIn(docCache.get(id),v,r,n),preparedTextCache.get(preparedDocument(id)?.textPath)?.sectionSources);
   return [...reviewed,...detected.filter(hit=>!reviewed.some(r=>hit.start<r.end&&hit.end>r.start))].sort((a,b)=>a.start-b.start).map(hit=>{
+    if(hit.suppressReference)return hit;
     const referencePage=hit.referencePage??page,referenceOffset=hit.referenceOffset??map?.[hit.start]??hit.start,label=hit.fullLabel||hit.label;
     const key=[hit.type,id,referencePage,referenceOffset,label].join('|');
     const ref=hit.continuation&&refsIndex.has(key)?refsIndex.get(key):{key,label,type:hit.type,canonical:hit.canonical,related:hit.related,fromDoc:id,caseName:hit.caseName,page:referencePage,offset:hit.referenceOffset??map?.[hit.start]??displayMaps.get(id+':'+page)?.[hit.start]??hit.start,
@@ -1046,7 +1049,7 @@ function layoutMargins(){
    for(const el of article.querySelectorAll('.page-text [data-annotation],.page-text .citation,.reader-edit-content .citation')){
     const noteId=el.dataset.annotation,key=noteId||el.dataset.refKey;if(!key)continue;
     if(noteId){const n=state.notes.find(n=>n.id===noteId);add(el,'note:'+key,button(icon(n?.comment?'note':'highlight')+`<span class="margin-label">${esc(n?.comment||'Highlight')}</span>`,'edit-margin-note',noteId,'margin-note',`aria-label="${esc(n?.comment||'Highlight')}" title="${esc(n?.comment||'Highlight')}" data-note-preview="${esc(noteId)}"`))}
-    else{if(matchMedia('(max-width:760px)').matches)continue;const ref=refsIndex.get(key),number=ref?.number||el.dataset.refNumber;add(el,'ref:'+key,`<button class="margin-reference" data-ref-key="${esc(key)}" aria-label="Preview ${esc(el.textContent)}" title="${esc(el.textContent)}">${icon('book')}${number?`<small>${esc(number)}</small>`:''}<span class="margin-label">${esc(el.textContent)}</span></button>`)}
+    else{if(matchMedia('(max-width:760px)').matches||seen.has('ref:'+key))continue;const ref=refsIndex.get(key),number=ref?.number||el.dataset.refNumber;add(el,'ref:'+key,`<button class="margin-reference" data-ref-key="${esc(key)}" aria-label="Preview ${esc(el.textContent)}" title="${esc(el.textContent)}">${icon('book')}${number?`<small>${esc(number)}</small>`:''}<span class="margin-label">${esc(el.textContent)}</span></button>`)}
    }
    for(const n of state.notes.filter(n=>noteMatches(n,article.dataset.document)&&!seen.has('note:'+n.id))){const target=article.querySelector(`.page-text[data-page="${n.page??0}"]`);if(target)add(target,'note:'+n.id,button(icon('note')+`<span class="margin-label">${esc(n.comment||'Note')}</span>`,'edit-margin-note',n.id,'margin-note',`data-note-preview="${esc(n.id)}" aria-label="Open note" title="${esc(n.comment||'Note')}"`))}
    let bottom=0;
@@ -1064,11 +1067,11 @@ document.fonts?.addEventListener('loadingdone',scheduleMargins);
 
 async function init(){try{
  loadedContentBase=await readContentBase().catch(()=>null);
- const names=['catalog','reader-assets/index','reader-assets/arguments','pdf-paths','reference-summaries','case-display','profiles','opinion-sections','justice-quotes','justice-signatures','current-term','current-text-index','case-issues','court-photo','collection-photo','verified-votes','case-milestones','record-supplement','opinion-section-overrides','current-areas','term-benches','court-orders','advocate-portraits'];
+ const names=['catalog','reader-assets/index','reader-assets/arguments','pdf-paths','reference-summaries','case-display','profiles','opinion-sections','justice-quotes','justice-signatures','current-term','current-text-index','case-issues','court-photo','collection-photo','verified-votes','case-milestones','record-supplement','opinion-section-overrides','current-areas','term-benches','court-orders','advocate-portraits','opinion-figures'];
  const [values,inventory]=await Promise.all([Promise.all(names.map(name=>sourceJSON('data/'+name+'.json'))),sourceJSON('data/prepared-documents.json')]);
  preparedDocuments=inventory;
  let overrides,photos;
- [catalog,readerAssetsIndex,argumentAlignment,pdfPaths,referenceSummaries,caseDisplay,profiles,opinionSections,justiceQuotes,justiceSignatures,currentTerm,currentTextIndex,caseIssues,courtPhoto,collectionPhoto,verifiedVotes,milestones,recordSupplement,overrides,currentAreas,termBenches,courtOrders,photos]=values;
+ [catalog,readerAssetsIndex,argumentAlignment,pdfPaths,referenceSummaries,caseDisplay,profiles,opinionSections,justiceQuotes,justiceSignatures,currentTerm,currentTextIndex,caseIssues,courtPhoto,collectionPhoto,verifiedVotes,milestones,recordSupplement,overrides,currentAreas,termBenches,courtOrders,photos,opinionFigures]=values;
  Object.assign(opinionSections,overrides);
  for(const [name,photo] of Object.entries(photos))profiles[name]={name,type:'advocate',...profiles[name],...photo};
  for(const list of Object.values(opinionSections)){
@@ -1080,7 +1083,7 @@ async function init(){try{
  cases=[...catalog.cases,...(currentTerm.cases||[])].map(mergeCaseSources).map(c=>({...c,id:String(c.id||c.docket),docket:String(c.docket||c.id),documents:(c.documents||[]).map(d=>({...d,...(currentTextIndex[d.id]||{}),id:String(d.id),caseId:String(c.id||c.docket)}))}));caseMap=new Map(cases.map(c=>[c.id,c]));docs=new Map(cases.flatMap(c=>c.documents).map(d=>[d.id,d]));for(const d of catalog.authorities||[])docs.set(d.id,d);for(const list of Object.values(opinionSections))for(const d of list)docs.set(d.id,d);for(const c of cases){const cite=validCitation(c);if(cite&&!caseByCitation.has(authorityKey(cite)))caseByCitation.set(authorityKey(cite),c);const opinion=c.documents.find(d=>category(d)==='Decision'&&d.textPath);if(opinion&&c.citation)opinion.citation=c.citation}registerCourtOrders();registerReferenceSummaries();registerTimedTranscripts();normalizeReaderDocuments();state.notes=state.notes.filter(meaningfulNote);for(const [id,path]of Object.entries(pdfPaths))if(docs.has(id)&&!docs.get(id).pdfPath)docs.get(id).pdfPath=path;if(location.hash.startsWith('#/reader'))await loadExtendedAuthorities();state.pdfDocs=(state.pdfDocs||[]).filter(id=>embeddedPDF(ds(id))&&state.documentFormats?.[id]==='pdf');for(const w of Object.values(state.workspaces))w.pdfDocs=(w.pdfDocs||[]).filter(id=>embeddedPDF(ds(id))&&state.documentFormats?.[id]==='pdf');state.tabs=state.tabs.filter(id=>docs.has(id));if(!docs.has(state.active))state.active=state.tabs[0]||null;if(!docs.has(state.split))state.split=null;if(!caseMap.has(state.caseId))state.caseId=cases[0]?.id;state.saved=state.saved.filter(id=>caseMap.has(id));state.recents=state.recents.filter(id=>docs.has(id));for(const ref of state.refs){ref.canonical=ref.canonical||ref.summary?.citation;refsIndex.set(ref.key,ref)}document.title='Ninefold · U.S. Supreme Court';if(!state.workspaceId&&state.tabs.length){state.workspaceId=state.tabCases[state.active]||ds(state.active)?.caseId;saveWorkspace()}for(const [id,w] of Object.entries(state.workspaces)){w.tabs=(w.tabs||[]).filter(id=>docs.has(id));if(!docs.has(w.active))w.active=w.tabs[0]||null;if(!docs.has(w.split))w.split=null}restoringHistory=true;readLocation();restoringHistory=false;history.replaceState(null,'',locationKey());historyReady=true;document.documentElement.style.setProperty('--reader-size',state.textSize+'px');if(loadedContentBase&&await readContentBase().catch(()=>null)!==loadedContentBase)loadedContentBase=null;captureImportedContent();appReady=true;render();initializeAccount();window.dispatchEvent(new Event('ninefold:ready'));window.__court={get state(){return state},get catalog(){return catalog},get docs(){return docs},get cache(){return docCache}}}catch(e){sourceFailed=true;window.dispatchEvent(new Event('ninefold:failed'));console.error(e)}}
 
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('.term-case')){e.preventDefault();e.target.click()}});
-let preparedDocuments={},readerAssetsIndex={},readingLayout={},argumentAlignment={},pdfPaths={},readerStructure={},referenceSummaries={},selectionRange=null,peekAnchor=null,readerMenu=null,readerMenuTrigger=null;
+let preparedDocuments={},opinionFigures={},readerAssetsIndex={},readingLayout={},argumentAlignment={},pdfPaths={},readerStructure={},referenceSummaries={},selectionRange=null,peekAnchor=null,readerMenu=null,readerMenuTrigger=null;
 let audioSession=null,followTranscript=state.followAudioText!==false,documentPlayback=null,playbackExpanded=false,playbackOptionsOpen=false,lastSpokenKey=null,argumentError=null;
 const pdfCache=new Map(),pdfLoading=new Map();
 function layoutPage(id,page){const key=textSourceId(id),layout=readingLayout[key]?.[page]||{},footnotes=readerStructure[key]?.footnotes?.filter(f=>f.page===page);return footnotes?.length?{...layout,footnotes}:layout}
@@ -1096,14 +1099,24 @@ function readerDocumentInfo(d){
 function preparedDocumentHTML(id,data){
  const prepared=preparedDocument(id),d=ds(id),body=preparedTextCache.get(prepared.textPath);
  if(!body)return '<div class="loading">Opening document…</div>';
+ const figures=opinionFigures[id]||opinionFigures[textSourceId(id)],placed=new Set(),figuresByParagraph=new Map();
+ for(const figure of figures?.figures||[]){const index=figureParagraphIndex(figure,body.paragraphs);if(!figuresByParagraph.has(index))figuresByParagraph.set(index,[]);figuresByParagraph.get(index).push(figure);}
+ const sourceAnchorHTML=(anchor,key)=>{
+  const map=Array.from({length:anchor.text.length},(_,index)=>anchor.start+index);displayMaps.set(key,map);
+  return `<span class="source-page" data-page="${anchor.page}"><span class="page-text" data-text-doc="${esc(id)}" data-page="${anchor.page}" data-map-key="${esc(key)}">${renderText(anchor.text,id,anchor.page,map,key,[])}</span></span>`;
+ };
  const paragraphs=body.paragraphs.map((paragraph,index)=>{const content=paragraph.segments.map((part,segment)=>{
   const key=id+':prepared:'+index+':'+segment;displayMaps.set(key,part.map);
   return `<span class="source-page" data-page="${part.page}"><span class="page-text" data-text-doc="${esc(id)}" data-page="${part.page}" data-map-key="${key}">${renderText(part.text,id,part.page,part.map,key,part.citations)}</span></span>`;
  }).join('');
  if(paragraph.kind==='heading')return `<h2 class="prepared-section-heading">${content}</h2>`;
  const text=`<p class="prepared-paragraph">${content}</p>`;
+ const matches=figuresByParagraph.get(index)||[];
+ if(matches.length){for(const figure of matches)placed.add(figure.id);if(matches.length===1&&paragraph.text.trim()===matches[0].caption.text.trim())return readerFigureHTML(matches[0],text);return matches.map(figure=>readerFigureHTML(figure,'')).join('')+text;}
  return paragraph.kind==='footnote'?`<aside class="prepared-footnote"${paragraph.citationOnly?' data-citation-only':''} aria-label="Footnote ${esc(paragraph.label)}"><h3>Footnote ${esc(paragraph.label)}</h3>${text}</aside>`:text;}).join('');
- return `<article class="document-body prepared-document ${state.marginNotes?'show-margin-notes':''}" data-document="${esc(id)}"><header class="document-title"><h1>${esc(prepared.title||documentLabel(d))}</h1><p>${esc(prepared.author)}</p></header>${paragraphs}<aside class="document-margin" aria-label="Notes and references"></aside></article>`;
+ const appendix=(figures?.figures||[]).filter(figure=>!placed.has(figure.id));
+ const appendixHTML=appendix.length?(figures.appendixHeading?`<h2 class="prepared-section-heading">${sourceAnchorHTML(figures.appendixHeading,id+':figure-heading')}</h2>`:'')+appendix.map(figure=>readerFigureHTML(figure,sourceAnchorHTML(figure.caption,id+':figure:'+figure.id))).join(''):'';
+ return `<article class="document-body prepared-document ${state.marginNotes?'show-margin-notes':''}" data-document="${esc(id)}"><header class="document-title"><h1>${esc(prepared.title||documentLabel(d))}</h1><p>${esc(prepared.author)}</p></header>${paragraphs}${appendixHTML}<aside class="document-margin" aria-label="Notes and references"></aside></article>`;
 }
 
 function readerCaseInfo(c) {
@@ -1160,7 +1173,15 @@ function sidebarContent(){const d=ds(state.active),c=contextCase(d?.id);
  if(state.tool==='contents'){const data=docCache.get(state.pdfDocs?.includes(d?.id)&&d?.pdfSourceId?d.pdfSourceId:d?.id);if(!data)return '<p class="small muted">Open a document to see its contents.</p>';if(!d.readerContent&&category(d)==='Argument'&&!d.timedSession&&!state.pdfDocs?.includes(d.id))return '<p class="small muted">Speaker conversation · Synchronized timing is not yet available for this recording.</p>';if(!d.readerContent&&d.timedSession&&!state.pdfDocs?.includes(d.id))return `<div class="conversation-contents">${d.timedSession.turns.filter((t,i)=>i===0||t.section!==d.timedSession.turns[i-1].section).map(t=>button(`<span>${time(t.start)}</span>${esc((t.section===0?'Argument · ':'')+t.speaker)}`,'transcript-seek',d.id+'|'+t.start,'listbutton')).join('')}</div>`;const headings=d.readerContent&&!state.pdfDocs?.includes(d.id)?readerOutline(d.readerContent):contentsFor(d,data),pdf=state.pdfDocs?.includes(d.id),count=d.sourceRange?d.sourceRange.endPage+(d.sourceRange.endOffset?1:0):data.pages.length;return `${pdf&&!nativePDF(d.id)?`<div class="document-navigation"><label>Page <input type="number" data-page-input="${esc(d.id)}" min="${(d.sourceRange?.startPage||0)+1}" max="${count}" value="${Number(state.positions[d.id+':pdf']?.page??d.sourceRange?.startPage??0)+1}" aria-label="Go to page"></label><span>of ${count}</span></div>`:''}<nav class="contents-outline" aria-label="Document sections">${headings.length?headings.map(h=>button(`<span class="contents-label">${esc(h.label||h.text)}</span>${h.excerpt?`<span class="contents-excerpt">${esc(h.excerpt)}</span>`:''}`,h.index===undefined?'heading-jump':'edited-heading',h.index===undefined?d.id+'|'+h.page+'|'+h.offset:String(h.index),'contents-entry '+(h.level?'subheading':'')+(h.level>1?' deeper':''))).join(''):'<p class="small muted">This document has no section headings.</p>'}</nav>`}
  if(state.tool==='notes'){const ns=state.notes.filter(n=>noteBelongsToDocument(n,state.active)&&meaningfulNote(n));return `<div class="notes-toolbar">${button(icon('download'),'export','','',`aria-label="Export notes" title="Export notes"`)}</div>${ns.slice().reverse().map(n=>noteCard(n)).join('')||'<p class="small muted">Select text to highlight it or add a comment.</p>'}`}
  if(state.tool==='refs')return referencesSidebar();return ''}
-function contentsFor(d,data){if(preparedDocument(d.id))return (preparedTextCache.get(preparedDocument(d.id).textPath)?.paragraphs||[]).filter(p=>p.kind==='heading').map(p=>({text:p.text,label:p.text,page:p.segments[0].page,offset:p.segments[0].map[0],level:0})); const structure=structureFor(d.id,data),range=d.sourceRange;return structure.headings.filter(h=>!range||(h.page>range.startPage||h.page===range.startPage&&h.start>=range.startOffset)&&(h.page<range.endPage||h.page===range.endPage&&h.start<range.endOffset)).filter(h=>!/^(?:table of (?:contents|authorities)|contents|authorities)$/i.test(h.text)).map(h=>({text:h.text,label:h.text,page:h.page,offset:h.start,level:h.level||0}))}
+function contentsFor(d,data){
+ if(preparedDocument(d.id)){
+  const headings=(preparedTextCache.get(preparedDocument(d.id).textPath)?.paragraphs||[]).filter(p=>p.kind==='heading').map(p=>({text:p.text,label:p.text,page:p.segments[0].page,offset:p.segments[0].map[0],level:0}));
+  const appendix=(opinionFigures[d.id]||opinionFigures[textSourceId(d.id)])?.appendixHeading;
+  if(appendix)headings.push({text:appendix.text,label:appendix.text,page:appendix.page,offset:appendix.start,level:0});
+  return headings;
+ }
+ const structure=structureFor(d.id,data),range=d.sourceRange;return structure.headings.filter(h=>!range||(h.page>range.startPage||h.page===range.startPage&&h.start>=range.startOffset)&&(h.page<range.endPage||h.page===range.endPage&&h.start<range.endOffset)).filter(h=>!/^(?:table of (?:contents|authorities)|contents|authorities)$/i.test(h.text)).map(h=>({text:h.text,label:h.text,page:h.page,offset:h.start,level:h.level||0}));
+}
 function clearSelection(){selection=null;selectionRange=null;overlays.querySelector('.selection-tools')?.remove()}
 function clearTransient(){overlays.querySelector('.global-search-dialog[open]')?.close();clearPeek();closeReaderMenu();clearSelection()}
 function positionSelection(){const t=overlays.querySelector('.selection-tools');if(!t||!selectionRange)return;const anchor=selectionRange.startContainer.parentElement,scroll=anchor?.closest('.doc-scroll');if(!scroll?.isConnected){t.hidden=true;return}const bounds=scroll.getBoundingClientRect(),rects=[...selectionRange.getClientRects()],r=rects.find(x=>x.bottom>bounds.top+2&&x.top<bounds.bottom-4);t.hidden=!r;if(!r)return;t.style.left=Math.max(bounds.left+8,Math.min(r.left,Math.min(bounds.right,innerWidth)-t.offsetWidth-8))+'px';t.style.top=Math.max(bounds.top+5,Math.min(r.top-t.offsetHeight-8,bounds.bottom-t.offsetHeight-5))+'px'}
@@ -1775,7 +1796,7 @@ function numberedReading(text,map,citations){
  let value='',out=[],at=0,hits=[];map=map||Array.from({length:text.length},(_,i)=>i);
  for(const hit of citations.slice().sort((a,b)=>a.start-b.start)){
   if(hit.start<at)continue;
-  if(hit.continuation){value+=text.slice(at,hit.start);out.push(...map.slice(at,hit.start));at=hit.end;continue}
+  if(hit.suppressReference||hit.continuation&&!hit.keepInline){value+=text.slice(at,hit.start);out.push(...map.slice(at,hit.start));at=hit.end;continue}
   if(hit.keepInline){value+=text.slice(at,hit.start);out.push(...map.slice(at,hit.start));const start=value.length;value+=text.slice(hit.start,hit.end);out.push(...map.slice(hit.start,hit.end));hits.push({...hit,start,end:value.length});at=hit.end;continue}
   const prefix=text.slice(0,hit.start);let end=hit.end;
   // A stand-alone citation's punctuation must not add a second sentence stop,

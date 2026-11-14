@@ -149,4 +149,13 @@
 .prepared-document .prepared-footnote{margin:1.2em 0;padding:1em 1.2em;background:var(--surface);border-radius:8px;font-size:.88em;line-height:1.65}
 .prepared-document .prepared-footnote h3{margin:0 0 .65em;font:600 13px/1.4 "Source Sans 3",system-ui,sans-serif;color:var(--muted);text-align:left}
 #app .prepared-document .prepared-footnote .prepared-paragraph{margin:0}
+.reader-figure{margin:1.5em auto;max-width:100%;text-align:center;break-inside:avoid}
+.reader-figure-image{display:block;width:100%;max-width:38rem;margin:auto;cursor:zoom-in}
+.reader-figure-image[hidden],.reader-figure-error[hidden]{display:none}
+.reader-figure-image:focus-visible{outline:2px solid var(--green);outline-offset:5px}
+.reader-figure img{display:block;width:100%;max-width:100%;height:auto;margin:auto}
+#app .reader-figure figcaption{margin-top:.65em;text-align:center;text-align-last:center}
+#app .reader-figure figcaption .prepared-paragraph{margin:0;text-align:center;text-align-last:center}
+.reader-figure figcaption .page-text{font-size:.9em}
+.reader-figure-error{padding:1em;display:flex;gap:.8em;justify-content:center;align-items:center;flex-wrap:wrap;font:14px "Source Sans 3",system-ui,sans-serif}
 @media(max-width:600px){.document-body .counsel-block:not(:has(.counsel-cell)){white-space:pre-line;overflow-wrap:anywhere;overflow-x:visible;font:14px/1.55 "Source Sans 3",system-ui,sans-serif;}}

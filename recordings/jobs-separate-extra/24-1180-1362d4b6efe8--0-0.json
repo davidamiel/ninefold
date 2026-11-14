@@ -1,0 +1,545 @@
+{
+  "reviewed": true,
+  "documentId": "24-1180-1362d4b6efe8--0-0",
+  "sourceDocumentId": "24-1180-1362d4b6efe8",
+  "sourceTextPath": "dist/data/docs/24-1180-1362d4b6efe8.json",
+  "sourceTextSha256": "9d92bb0f7e113fadf87bf7ddac4c42eff3789431fc40b6ce88c73a6283711816",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/1362d4b6efe861d55ed57d3f.pdf",
+  "sourcePdfSha256": "c8bcd37a6e67a4fc0e7e8eeb90662f3f914dbd46691effca342bfbd27e55cc20",
+  "title": "Statement",
+  "author": "Neil M. Gorsuch",
+  "date": "2025-10-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1180_dc8f.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 3,
+    "endOffset": 443
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 467,
+          "end": 958
+        }
+      ],
+      "citations": [
+        {
+          "start": 45,
+          "end": 73,
+          "text": ", 241 U. S. 211, 217 (1916),",
+          "type": "case",
+          "canonical": "241 U.S. 211"
+        },
+        {
+          "start": 315,
+          "end": 345,
+          "text": "See Brief in Opposition 21–44.",
+          "type": "reference",
+          "canonical": "See Brief in Opposition 21–44"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 958,
+          "end": 1542
+        }
+      ],
+      "citations": [
+        {
+          "start": 224,
+          "end": 246,
+          "text": "241 U. S., at 217–218.",
+          "type": "case",
+          "canonical": "241 U.S. 211"
+        },
+        {
+          "start": 523,
+          "end": 570,
+          "text": "McDonald v. Chicago, 561 U. S. 742, 764 (2010).",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "incorporate[s]",
+          "to": "incorporates"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1542,
+          "end": 1838
+        },
+        {
+          "page": 1,
+          "start": 83,
+          "end": 687
+        }
+      ],
+      "citations": [
+        {
+          "start": 305,
+          "end": 389,
+          "text": "See generally Timbs v. Indiana, 586 U. S. 146, 157 (2019) (GORSUCH, J., concurring).",
+          "type": "case",
+          "canonical": "586 U.S. 146"
+        },
+        {
+          "start": 701,
+          "end": 750,
+          "text": "Compare Wolf v. Colorado, 338 U. S. 25, 27 (1949)",
+          "type": "case",
+          "canonical": "338 U.S. 25"
+        },
+        {
+          "start": 751,
+          "end": 801,
+          "text": "(overruled by Mapp v. Ohio, 367 U. S. 643 (1961)),",
+          "type": "case",
+          "canonical": "367 U.S. 643"
+        },
+        {
+          "start": 802,
+          "end": 881,
+          "text": "with Adamson v. California, 332 U. S. 46, 74–75 (1947) (Black, J., dissenting).",
+          "type": "case",
+          "canonical": "332 U.S. 46"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 687,
+          "end": 1346
+        }
+      ],
+      "citations": [
+        {
+          "start": 483,
+          "end": 529,
+          "text": "See, e.g., McDonald, 561 U. S., at 764, n. 12;",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        },
+        {
+          "start": 530,
+          "end": 574,
+          "text": "Timbs, 586 U. S., at 150 (majority opinion).",
+          "type": "case",
+          "canonical": "586 U.S. 146"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1346,
+          "end": 2125
+        },
+        {
+          "page": 2,
+          "start": 86,
+          "end": 411
+        }
+      ],
+      "citations": [
+        {
+          "start": 115,
+          "end": 161,
+          "text": "See SEC v. Jarkesy, 603 U. S. 109, 121 (2024).",
+          "type": "case",
+          "canonical": "603 U.S. 109"
+        },
+        {
+          "start": 296,
+          "end": 301,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "603 U.S. 109"
+        },
+        {
+          "start": 411,
+          "end": 501,
+          "text": "Parklane Hosiery Co. v. Shore, 439 U. S. 322, 340– 341 (1979) (Rehnquist, J., dissenting).",
+          "type": "case",
+          "canonical": "439 U.S. 322"
+        },
+        {
+          "start": 630,
+          "end": 677,
+          "text": "Id., at 341 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "439 U.S. 322"
+        },
+        {
+          "start": 928,
+          "end": 1077,
+          "text": "K. Klein, The Myth of How to Interpret the Seventh Amendment Right to a Civil Jury Trial, 53 Ohio St. L. J. 1005, 1010 (1992) (emphasis in original).",
+          "type": "reference",
+          "canonical": "K. Klein, The Myth of How to Interpret the Seventh Amendment Right to a Civil Jury Trial, 53 Ohio St. L. J. 1005, 1010 (1992) (emphasis in original)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 411,
+          "end": 1226
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 372,
+          "text": "See S. Calabresi & S. Agudo, Individual Rights Under State Constitutions When the Fourteenth Amendment Was Ratified in 1868, 87 Texas L. Rev. 7, 116 (2008).",
+          "type": "reference",
+          "canonical": "See S. Calabresi & S. Agudo, Individual Rights Under State Constitutions When the Fourteenth Amendment Was Ratified in 1868, 87 Texas L. Rev. 7, 116 (2008)"
+        },
+        {
+          "start": 544,
+          "end": 572,
+          "text": "See Timbs, 586 U. S., at 152",
+          "type": "case",
+          "canonical": "586 U.S. 146"
+        },
+        {
+          "start": 681,
+          "end": 708,
+          "text": "McDonald, 561 U. S., at 777",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1226,
+          "end": 2114
+        },
+        {
+          "page": 3,
+          "start": 71,
+          "end": 152
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 423,
+          "end": 458,
+          "text": "See Jarkesy, 603 U. S., at 120–121.",
+          "type": "case",
+          "canonical": "603 U.S. 109"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 152,
+          "end": 443
+        }
+      ],
+      "citations": [
+        {
+          "start": 200,
+          "end": 282,
+          "text": "Jarkesy, 603 U. S., at 121 (quoting Dimick v. Schiedt, 293 U. S. 474, 486 (1935)).",
+          "type": "case",
+          "canonical": "603 U.S. 109"
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 0,
+      "end": 467,
+      "text": " \n \n \n \n \n \n \n  \n \n \n \n \n \n \n   \n  \n \n  \n \n \n1  Cite as: 607 U. S. ____ (2025) \nStatement of GORSUCH, J. \nSUPREME COURT OF THE UNITED STATES \nCORRINE MORGAN THOMAS, ET AL. v. HUMBOLDT \nCOUNTY, CALIFORNIA, ET AL. \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE NINTH CIRCUIT \nNo. 24–1180. Decided October 14, 2025 \nThe petition for a writ of certiorari is denied. \nStatement of J USTICE GORSUCH respecting the denial of\ncertiorari.\n ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 1,
+      "start": 0,
+      "end": 83,
+      "text": " \n  \n \n \n \n \n  \n \n \n \n \n \n \n \n2 THOMAS v. HUMBOLDT COUNTY \nStatement of GORSUCH, J.",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 86,
+      "text": " \n \n \n \n   \n \n  \n \n \n \n \n \n3  Cite as: 607 U. S. ____ (2025) \nStatement of GORSUCH, J.",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 71,
+      "text": " \n  \n \n \n \n \n  \n \n4 THOMAS v. HUMBOLDT COUNTY \nStatement of GORSUCH, J.",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 575,
+      "end": 586,
+      "expectedText": "Amend-\nment",
+      "text": "Amendment"
+    },
+    {
+      "page": 0,
+      "start": 819,
+      "end": 832,
+      "expectedText": "Ac-\ncordingly",
+      "text": "Accordingly"
+    },
+    {
+      "page": 0,
+      "start": 1250,
+      "end": 1258,
+      "expectedText": "al-\nmost",
+      "text": "almost"
+    },
+    {
+      "page": 0,
+      "start": 1306,
+      "end": 1316,
+      "expectedText": "Bom-\nbolis",
+      "text": "Bombolis"
+    },
+    {
+      "page": 1,
+      "start": 255,
+      "end": 269,
+      "expectedText": "incor-\nporates",
+      "text": "incorporates"
+    },
+    {
+      "page": 1,
+      "start": 552,
+      "end": 563,
+      "expectedText": "over-\nruled",
+      "text": "overruled"
+    },
+    {
+      "page": 1,
+      "start": 672,
+      "end": 684,
+      "expectedText": "dissent-\ning",
+      "text": "dissenting"
+    },
+    {
+      "page": 1,
+      "start": 516,
+      "end": 526,
+      "expectedText": "Colorado ,",
+      "text": "Colorado,"
+    },
+    {
+      "page": 1,
+      "start": 959,
+      "end": 974,
+      "expectedText": "Establish-\nment",
+      "text": "Establishment"
+    },
+    {
+      "page": 1,
+      "start": 1073,
+      "end": 1088,
+      "expectedText": "incrimina-\ntion",
+      "text": "incrimination"
+    },
+    {
+      "page": 1,
+      "start": 1136,
+      "end": 1147,
+      "expectedText": "Ex-\ncessive",
+      "text": "Excessive"
+    },
+    {
+      "page": 1,
+      "start": 1580,
+      "end": 1594,
+      "expectedText": "au -\nthorities",
+      "text": "authorities"
+    },
+    {
+      "page": 1,
+      "start": 1640,
+      "end": 1649,
+      "expectedText": "Eng-\nland",
+      "text": "England"
+    },
+    {
+      "page": 1,
+      "start": 1755,
+      "end": 1767,
+      "expectedText": "promi-\nnence",
+      "text": "prominence"
+    },
+    {
+      "page": 1,
+      "start": 1939,
+      "end": 1948,
+      "expectedText": "se-\ncured",
+      "text": "secured"
+    },
+    {
+      "page": 2,
+      "start": 310,
+      "end": 321,
+      "expectedText": "Amend-\nment",
+      "text": "Amendment"
+    },
+    {
+      "page": 2,
+      "start": 517,
+      "end": 528,
+      "expectedText": "re -\nmained",
+      "text": "remained"
+    },
+    {
+      "page": 2,
+      "start": 693,
+      "end": 708,
+      "expectedText": "Con-\nstitutions",
+      "text": "Constitutions"
+    },
+    {
+      "page": 2,
+      "start": 866,
+      "end": 878,
+      "expectedText": "protec-\ntion",
+      "text": "protection"
+    },
+    {
+      "page": 2,
+      "start": 1333,
+      "end": 1344,
+      "expectedText": "two-\ntiered",
+      "text": "two-tiered"
+    },
+    {
+      "page": 2,
+      "start": 1502,
+      "end": 1514,
+      "expectedText": "indi-\nvidual",
+      "text": "individual"
+    },
+    {
+      "page": 2,
+      "start": 1860,
+      "end": 1869,
+      "expectedText": "prov-\ning",
+      "text": "proving"
+    },
+    {
+      "page": 2,
+      "start": 1923,
+      "end": 1935,
+      "expectedText": "cross-\nhairs",
+      "text": "cross-hairs"
+    },
+    {
+      "page": 2,
+      "start": 2050,
+      "end": 2060,
+      "expectedText": "check-\ning",
+      "text": "checking"
+    },
+    {
+      "page": 2,
+      "start": 1712,
+      "end": 1722,
+      "expectedText": "Bombolis ,",
+      "text": "Bombolis,"
+    },
+    {
+      "page": 2,
+      "start": 1592,
+      "end": 1602,
+      "expectedText": "offi cials",
+      "text": "officials"
+    },
+    {
+      "page": 2,
+      "start": 2113,
+      "end": 2114,
+      "expectedText": "-",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 202,
+      "end": 212,
+      "expectedText": "con-\nfront",
+      "text": "confront"
+    },
+    {
+      "page": 3,
+      "start": 386,
+      "end": 395,
+      "expectedText": "quot-\ning",
+      "text": "quoting"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": []
+  },
+  "review": "Full original public writing, all source pages, clean reader text and spoken script reviewed; no footnotes in source. Every substantive word and explanatory/quoted parenthetical retained. Bare order/byline/furniture excluded; individual source locators explicitly mapped. Case names embedded in grammatical quotations remain spoken."
+}

@@ -16,6 +16,18 @@ def page_text(page):
     return ' '.join(page.extract_text().split())
 
 
+def page_fidelity(page):
+    """Verify drawings and embedded image/form streams as well as text."""
+    content = page.get_contents()
+    objects = page.get('/Resources', {}).get('/XObject', {})
+    embedded = {name: hashlib.sha256(value.get_object().get_data()).hexdigest()
+                for name, value in objects.items()}
+    return {'text': page_text(page),
+            'drawing': hashlib.sha256(content.get_data() if content is not None else b'').hexdigest(),
+            'objects': embedded, 'mediaBox': list(page.mediabox),
+            'cropBox': list(page.cropbox), 'rotation': page.rotation}
+
+
 def create_slice(item):
     from pypdf import PdfReader, PdfWriter
     source = local_path(ROOT/item['source'], ROOT)
@@ -34,7 +46,7 @@ def create_slice(item):
         with temporary.open('wb') as output:
             writer.write(output)
         checked = PdfReader(temporary)
-        if len(checked.pages) != end-start or any(page_text(checked.pages[index]) != page_text(original.pages[page])
+        if len(checked.pages) != end-start or any(page_fidelity(checked.pages[index]) != page_fidelity(original.pages[page])
                                                   for index, page in enumerate(range(start, end))):
             raise ValueError('Writing PDF changed the original page content')
         temporary.replace(destination)

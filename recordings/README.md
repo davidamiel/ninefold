@@ -31,7 +31,7 @@ in the original source; the document information panel identifies argument couns
 Use the following stages for another reviewed writing. Keep the complete body,
 substantive quotations, explanatory parentheticals and footnotes; omit source
 locators from speech. A statute used as the subject or object of a sentence keeps
-its name and link. Explicit pronunciation replacements change speech only.
+its name and link. Read descriptive section headings; omit outline labels alone. Explicit pronunciation replacements change speech only.
 
 ```sh
 python recordings/prepare.py recordings/abouammo.json
@@ -54,7 +54,10 @@ highlighting and seeking. Coverage is a diagnostic and does not replace a review
 of the text or audio.
 
 Generation resumes from validated paragraph clips keyed by the voice, text,
-actual model files, runtime versions and synthesis settings. Transcription caches
+actual model files, runtime versions and synthesis settings. If source mappings or metadata change while the entire spoken script, voice,
+model and verified audio bytes remain identical, generation reuses that recording;
+alignment must still rebuild and validate its cues for the new source version.
+Transcription caches
 are keyed by the MP3 and alignment settings. Staging requires both approved
 voices and matching text, audio hashes and cues, then replaces the public
 inventory last. These commands never upload or deploy. Review the resulting
@@ -63,7 +66,8 @@ reader and playback in desktop and mobile browsers before publishing.
 ## Continuous batches
 
 Reviewed jobs live under `recordings/jobs/`, `jobs-separate/`, and
-`jobs-separate-extra/`. Drafts stay `reviewed:false`; finish source, citation and
+`jobs-separate-extra/`, `jobs-separate-remaining-a/`, and
+`jobs-separate-remaining-b/`. Drafts stay `reviewed:false`; finish source, citation and
 pronunciation review before setting `reviewed:true`. Freeze a reviewed file while
 its audio is being generated.
 
@@ -80,13 +84,17 @@ Download the files/revision recorded in `mlx-model.json` to
 English language model. All of these dependencies stay on the generating computer.
 
 ```sh
-python recordings/batch.py recordings/jobs recordings/jobs-separate recordings/jobs-separate-extra --engine mlx --alignment-device mps
+python recordings/batch.py recordings/jobs recordings/jobs-separate recordings/jobs-separate-extra \
+  recordings/jobs-separate-remaining-a recordings/jobs-separate-remaining-b \
+  --engine mlx --alignment-device mps --parallel-align
 ```
 
 If generation and alignment use separate environments, supply
 `--generation-python` and `--alignment-python`. GPU access must be available to
 the process. CPU alignment is the portable default; `--alignment-device mps`
-uses Apple's GPU for acoustic transcription. CPU-only generation remains
+uses Apple's GPU for acoustic transcription. `--parallel-align` checks the two
+independent voice recordings concurrently and stages only after both succeed;
+generation still uses one worker. CPU-only generation remains
 available with `--engine onnx` and the original requirements/model files.
 
 Alignment uses acoustic transcription without the expected script as a prompt.
@@ -124,3 +132,10 @@ list stays under ignored `work/recordings/`.
 Author corrections from a later official edition use exact source-mapped
 repairs and a checksum-bound `revisionSource` PDF. They never silently replace
 the raw extraction used by annotations or sentence cues.
+
+Original diagrams and photo appendices are registered in `figures.json` and
+extracted by `extract_figures.py`. The reader lazily loads the exact embedded
+JPEG streams and keeps each caption once; its image links open the source image.
+Writing PDF slices preserve source drawing streams, embedded images, page boxes
+and rotation as well as text. Keep any non-text appendix pages when choosing a
+writing's final PDF page; its last text block alone does not establish that end.
