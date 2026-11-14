@@ -14,6 +14,17 @@ from generate import ROOT, load_job, local_path
 from prepare import prepare
 
 
+SCRIPTS = {name: ROOT/'recordings'/name for name in ('prepare.py', 'generate.py', 'align.py', 'stage.py')}
+STAGE_OPTIONS = {
+    'prepare.py': ((),),
+    'stage.py': ((),),
+    'generate.py': tuple(('--voice', voice, '--resume', '--engine', engine)
+                         for voice in ('female', 'male') for engine in ('onnx', 'mlx')),
+    'align.py': tuple(('--voice', voice, '--device', device)
+                      for voice in ('female', 'male') for device in ('cpu', 'mps')),
+}
+
+
 def reviewed_jobs(paths):
     for path in paths:
         path = local_path(path, ROOT/'recordings')
@@ -31,19 +42,34 @@ def reviewed_jobs(paths):
                 yield candidate, job, identifier
 
 
-def run_command(python, script, path, options, log):
+def run_command(script, path, options, log):
+    if not isinstance(script, str) or script not in SCRIPTS:
+        raise ValueError('Unknown recording stage')
+    if not isinstance(options, (list, tuple)):
+        raise ValueError('Invalid recording stage options')
+    allowed = next((value for value in STAGE_OPTIONS[script] if tuple(options) == value), None)
+    if allowed is None:
+        raise ValueError('Invalid recording stage options')
+    path = local_path(path, ROOT/'recordings').resolve(strict=True)
+    if not path.is_file() or path.suffix != '.json':
+        raise ValueError('A reviewed JSON job is required')
+    job, _ = load_job(path, root=ROOT/'recordings')
+    if job.get('reviewed') is not True:
+        raise ValueError('A reviewed JSON job is required')
     print('Running', script, path.name, ' '.join(options), flush=True)
-    subprocess.run([str(python), str(ROOT/'recordings'/script), str(path), *options],
+    subprocess.run([sys.executable, str(SCRIPTS[script]), str(path), *allowed],
                    cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, check=True)
 
 
-def process(path, generation_python, alignment_python, engine, alignment_device, log, parallel_align=False):
-    commands = [(sys.executable, 'prepare.py', []),
-                (generation_python, 'generate.py', ['--voice', 'female', '--resume', '--engine', engine]),
-                (generation_python, 'generate.py', ['--voice', 'male', '--resume', '--engine', engine])]
-    for python, script, options in commands:
-        run_command(python, script, path, options, log)
-    alignment = [[alignment_python, 'align.py', path, ['--voice', voice, '--device', alignment_device], log]
+def process(path, engine, alignment_device, log, parallel_align=False):
+    if engine not in ('onnx', 'mlx') or alignment_device not in ('cpu', 'mps'):
+        raise ValueError('Invalid recording engine or alignment device')
+    commands = [('prepare.py', []),
+                ('generate.py', ['--voice', 'female', '--resume', '--engine', engine]),
+                ('generate.py', ['--voice', 'male', '--resume', '--engine', engine])]
+    for script, options in commands:
+        run_command(script, path, options, log)
+    alignment = [['align.py', path, ['--voice', voice, '--device', alignment_device], log]
                  for voice in ('female', 'male')]
     if parallel_align:
         with ThreadPoolExecutor(max_workers=2) as pool:
@@ -53,7 +79,7 @@ def process(path, generation_python, alignment_python, engine, alignment_device,
     else:
         for command in alignment:
             run_command(*command)
-    run_command(sys.executable, 'stage.py', path, [], log)
+    run_command('stage.py', path, [], log)
 
 
 def pending_job(paths, attempted, inventory):
@@ -100,9 +126,9 @@ def run_batch(args, folder):
         save_status(status_path, status)
         try:
             with log_path.open('w') as log:
-                process(path, args.generation_python, args.alignment_python, args.engine, args.alignment_device, log, args.parallel_align)
+                process(path, args.engine, args.alignment_device, log, args.parallel_align)
             status[identifier]['state'] = 'complete'
-        except subprocess.CalledProcessError as error:
+        except (subprocess.CalledProcessError, ValueError) as error:
             status[identifier].update(state='failed', error=str(error), log=str(log_path.relative_to(ROOT)))
         status[identifier]['updatedAt'] = datetime.now(timezone.utc).isoformat()
         save_status(status_path, status)
@@ -114,8 +140,6 @@ def run_batch(args, folder):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('jobs', nargs='+', type=Path)
-    parser.add_argument('--generation-python', type=Path, default=Path(sys.executable))
-    parser.add_argument('--alignment-python', type=Path, default=Path(sys.executable))
     parser.add_argument('--engine', choices=['onnx', 'mlx'], default='onnx')
     parser.add_argument('--alignment-device', choices=['cpu', 'mps'], default='cpu')
     parser.add_argument('--parallel-align', action='store_true', help='Align the two independent voices concurrently before staging')

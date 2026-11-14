@@ -172,36 +172,67 @@ def annotate_citations(paragraph, citations):
         cursor += len(segment['text'])
 
 
-def reference_fragments(paragraph, citations):
-    """Keep one reader reference for adjoining pieces of the same citation."""
+def paragraph_citation_fragments(paragraph):
     fragments, cursor = [], 0
     for segment in paragraph['segments']:
-        fragments.extend((segment, part, cursor+part['start'], cursor+part['end']) for part in segment['citations'])
+        for part in segment['citations']:
+            fragments.append((segment, part, cursor+part['start'], cursor+part['end']))
         cursor += len(segment['text'])
+    return fragments
+
+
+def citation_fragments(fragments, citations):
+    parts = []
+    for segment, part, start, end in fragments:
+        for citation in citations:
+            if citation['start'] <= start and end <= citation['end']:
+                parts.append((segment, part))
+                break
+    return parts
+
+
+def adjoining_citation(previous, citation, text):
+    if previous is None:
+        return False
+    gap = text[previous['end']:citation['start']]
+    return previous['canonical'] == citation['canonical'] and (not gap or gap.isspace())
+
+
+def reference_citation_groups(paragraph, citations, fragments):
     groups = []
     for citation in citations:
         if citation_decoration(citation):
-            for _, part, start, end in fragments:
-                if citation['start'] <= start and end <= citation['end']:
-                    part['suppressReference'] = True
+            for _, part in citation_fragments(fragments, [citation]):
+                part['suppressReference'] = True
             continue
         previous = groups[-1][-1] if groups else None
-        gap = paragraph['text'][previous['end']:citation['start']] if previous else None
-        if previous and previous['canonical'] == citation['canonical'] and (not gap or gap.isspace()):
+        if adjoining_citation(previous, citation, paragraph['text']):
             groups[-1].append(citation)
         else:
             groups.append([citation])
-    for group in groups:
-        parts = [(segment, part) for segment, part, start, end in fragments
-                 if any(citation['start'] <= start and end <= citation['end'] for citation in group)]
-        if len(parts) < 2:
-            continue
-        inline = [(segment, part) for segment, part in parts if part.get('keepInline')]
-        origin, first = (inline or parts)[0]
-        label = paragraph['text'][group[0]['start']:group[-1]['end']]
-        for index, (_, part) in enumerate(parts):
-            part.update(fullLabel=label, referencePage=origin['page'], referenceOffset=origin['map'][first['start']],
-                        continuation=not part.get('keepInline') if inline else index > 0)
+    return groups
+
+
+def apply_reference_group(paragraph, group, fragments):
+    parts = citation_fragments(fragments, group)
+    if len(parts) < 2:
+        return
+    inline = []
+    for segment, part in parts:
+        if part.get('keepInline'):
+            inline.append((segment, part))
+    origin, first = (inline or parts)[0]
+    label = paragraph['text'][group[0]['start']:group[-1]['end']]
+    for index, (_, part) in enumerate(parts):
+        part.update(fullLabel=label, referencePage=origin['page'], referenceOffset=origin['map'][first['start']],
+                    continuation=not part.get('keepInline') if inline else index > 0)
+
+
+def reference_fragments(paragraph, citations):
+    """Keep one reader reference for adjoining pieces of the same citation."""
+    fragments = paragraph_citation_fragments(paragraph)
+    for group in reference_citation_groups(paragraph, citations, fragments):
+        apply_reference_group(paragraph, group, fragments)
 
 
 def citation_decoration(citation):

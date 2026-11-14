@@ -89,9 +89,11 @@ python recordings/batch.py recordings/jobs recordings/jobs-separate recordings/j
   --engine mlx --alignment-device mps --parallel-align
 ```
 
-If generation and alignment use separate environments, supply
-`--generation-python` and `--alignment-python`. GPU access must be available to
-the process. CPU alignment is the portable default; `--alignment-device mps`
+Run the batch with the Python executable from the environment containing both
+the generation and alignment requirements; every stage uses that same environment.
+For CPU generation, install `requirements.txt` and `alignment-requirements.txt`
+in the same environment.
+GPU access must be available to the process. CPU alignment is the portable default; `--alignment-device mps`
 uses Apple's GPU for acoustic transcription. `--parallel-align` checks the two
 independent voice recordings concurrently and stages only after both succeed;
 generation still uses one worker. CPU-only generation remains

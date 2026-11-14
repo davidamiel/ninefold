@@ -414,7 +414,12 @@
           "canonical": "609 U.S. 672"
         }
       ],
-      "pronunciations": []
+      "pronunciations": [
+        {
+          "from": "World War I",
+          "to": "World War one"
+        }
+      ]
     },
     {
       "kind": "paragraph",
@@ -1616,7 +1621,12 @@
         }
       ],
       "citations": [],
-      "pronunciations": []
+      "pronunciations": [
+        {
+          "from": "World War I",
+          "to": "World War one"
+        }
+      ]
     },
     {
       "kind": "footnote",
@@ -1662,6 +1672,10 @@
         {
           "from": "outlier[s]",
           "to": "outliers"
+        },
+        {
+          "from": "World War I",
+          "to": "World War one"
         }
       ]
     },
