@@ -10,6 +10,12 @@ from pathlib import Path
 
 from generate import ROOT, load_job, local_path
 from speech_mapping import map_speech, source_bounds
+from stage import validate_source_seeking
+
+
+SHORT_PASSAGE_SECONDS = 4
+SHORT_CONTEXT_SECONDS = 45
+CONTEXT_SECONDS = 12
 
 
 class AlignmentReviewError(ValueError):
@@ -276,6 +282,58 @@ def align_with_repairs(body, narration, report, words, refine):
             words = replace_words(words, paragraph, replacement)
 
 
+def short_failed_paragraph(narration, report, error, attempted):
+    index = narration['spokenBlocks'].index(error.block)
+    paragraph = report['paragraphs'][index]
+    duration = paragraph['end']-paragraph['start']
+    if error.block in attempted or not 0 < duration <= SHORT_PASSAGE_SECONDS:
+        raise error
+    return paragraph
+
+
+def align_short_cpu(body, narration, report, error, recognizer, device):
+    """Recheck only unresolved short MPS clips, once each, with CPU acoustics."""
+    if device != 'mps':
+        raise error
+    words, attempted, cpu = error.words, set(), None
+    while True:
+        paragraph = short_failed_paragraph(narration, report, error, attempted)
+        if cpu is None:
+            print('Rechecking short unclear passage on CPU.', flush=True)
+            cpu = Transcriber(recognizer.audio, 'small.en', device='cpu')
+            cpu.samples = recognizer.samples
+        attempted.add(error.block)
+        replacement = cpu.contextual_words(paragraph['start'], paragraph['end'])
+        words = replace_words(words, paragraph, replacement)
+        try:
+            result = align(body, narration, report, words)
+            validate_source_seeking(result)
+            return result, words
+        except AlignmentReviewError as next_error:
+            error = next_error
+            error.words = words
+
+
+def align_small_model(body, narration, report, words, recognizer, device):
+    try:
+        return align_with_repairs(body, narration, report, words, recognizer.words)
+    except AlignmentReviewError as error:
+        try:
+            return align_with_repairs(body, narration, report, error.words, recognizer.contextual_words)
+        except AlignmentReviewError as contextual_error:
+            return align_short_cpu(body, narration, report, contextual_error, recognizer, device)
+
+
+def align_recording(body, narration, report, words, recognizer, device):
+    try:
+        return align_with_repairs(body, narration, report, words, recognizer.words)
+    except AlignmentReviewError as error:
+        print('Rechecking unclear audio with the higher-accuracy local recognizer.', flush=True)
+        fallback = Transcriber(recognizer.audio, 'small.en', device=device)
+        fallback.samples = recognizer.samples
+        return align_small_model(body, narration, report, error.words, fallback, device)
+
+
 def decode_audio(audio):
     import av
     import numpy as np
@@ -315,8 +373,8 @@ class Transcriber:
     def contextual_words(self, start, end):
         # A very short sentence can lose legal vocabulary when recognized alone.
         # Retain neighboring acoustics, then return only words in this paragraph.
-        context = 45 if end-start <= 4 else 12
-        return [word for word in self.words(max(0, start-context), end+12)
+        context = SHORT_CONTEXT_SECONDS if end-start <= SHORT_PASSAGE_SECONDS else CONTEXT_SECONDS
+        return [word for word in self.words(max(0, start-context), end+CONTEXT_SECONDS)
                 if start <= (word['start']+word['end'])/2 < end]
 
 
@@ -324,6 +382,27 @@ def save_words(path, words):
     temporary = path.with_suffix('.tmp')
     temporary.write_text(json.dumps(words)+'\n')
     temporary.replace(path)
+
+
+def recognition_identity(audio_hash, device, recognizer_version):
+    policy = {'audioSha256': audio_hash, 'device': device, 'fasterWhisper': recognizer_version,
+              'models': ['base.en', 'small.en'], 'beam': 5, 'vad': False, 'unprompted': True,
+              'context': {'shortMaxSeconds': SHORT_PASSAGE_SECONDS, 'precedingShort': SHORT_CONTEXT_SECONDS,
+                          'precedingNormal': CONTEXT_SECONDS, 'following': CONTEXT_SECONDS},
+              'finalRepair': {'model': 'small.en', 'device': 'cpu', 'onlyAfterDevice': 'mps',
+                              'computeType': 'int8', 'unprompted': True,
+                              'shortMaxSeconds': SHORT_PASSAGE_SECONDS, 'preceding': SHORT_CONTEXT_SECONDS,
+                              'following': CONTEXT_SECONDS, 'attemptsPerParagraph': 1}}
+    return hashlib.sha256(json.dumps(policy, sort_keys=True).encode()).hexdigest()[:20]
+
+
+def recognition_words(folder, audio_hash, device, recognizer_version, recognizer):
+    cache = local_path(folder/(recognition_identity(audio_hash, device, recognizer_version)+'-words.json'), folder)
+    if cache.exists():
+        return cache, json.loads(cache.read_text())
+    words = recognizer.words()
+    save_words(cache, words)
+    return cache, words
 
 
 def main():
@@ -345,26 +424,10 @@ def main():
     if audio_hash != report['audioSha256']:
         raise ValueError('Audio changed after generation')
     from importlib.metadata import version
-    identity = hashlib.sha256((audio_hash+'|base.en+small.en-context|beam5|vad:false|'+args.device+'|'+version('faster-whisper')).encode()).hexdigest()[:20]
-    cache = local_path(folder/(identity+'-words.json'), folder)
     transcriber = Transcriber(audio, device=args.device)
-    if cache.exists():
-        words = json.loads(cache.read_text())
-    else:
-        words = transcriber.words()
-        # Acoustic recognition is reusable even when a later text/timing check
-        # needs attention. Strict alignment and staging validation still follow.
-        save_words(cache, words)
-    try:
-        result, words = align_with_repairs(body, narration, report, words, transcriber.words)
-    except AlignmentReviewError as error:
-        print('Rechecking unclear audio with the higher-accuracy local recognizer.', flush=True)
-        fallback = Transcriber(audio, 'small.en', device=args.device)
-        try:
-            result, words = align_with_repairs(body, narration, report, getattr(error, 'words', words), fallback.words)
-        except AlignmentReviewError as isolated_error:
-            result, words = align_with_repairs(body, narration, report,
-                                              isolated_error.words, fallback.contextual_words)
+    cache, words = recognition_words(folder, audio_hash, args.device, version('faster-whisper'), transcriber)
+    result, words = align_recording(body, narration, report, words, transcriber, args.device)
+    validate_source_seeking(result)
     save_words(cache, words)
     destination = local_path(folder/(args.voice+'-cues.json'), folder)
     destination.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n')

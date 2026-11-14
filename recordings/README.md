@@ -105,8 +105,10 @@ reviewed jobs must remain frozen throughout the process. CPU-only generation rem
 available with `--engine onnx` and the original requirements/model files.
 
 Alignment uses acoustic transcription without the expected script as a prompt.
-Only unclear paragraphs are transcribed again in isolation; coverage checks stay
-in force. Number spellings and close ASR spellings are matched for timing without
+Only unclear paragraphs are transcribed again, with neighboring acoustics when
+needed. A failed GPU passage of at most four seconds gets one final CPU check
+using bounded context; coverage and source-seeking checks stay in force.
+Number spellings and close ASR spellings are matched for timing without
 changing the reader or narration. Identical writings appearing under consolidated
 dockets share the staged recording only after their original text and ranges match.
 
