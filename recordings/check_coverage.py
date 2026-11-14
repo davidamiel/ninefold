@@ -2,11 +2,28 @@
 import argparse
 from collections import defaultdict
 import json
-import re
 from urllib.parse import urldefrag
 
 from generate import ROOT
 from prepare import prepare
+
+JUSTICE_SURNAMES = {'roberts', 'thomas', 'alito', 'sotomayor', 'kagan', 'gorsuch', 'kavanaugh', 'barrett', 'jackson'}
+
+
+def running_author(text):
+    for line in text[:250].splitlines():
+        header = line.strip().lower().removeprefix('opinion of ').removeprefix('statement of ')
+        surname, _, rest = header.partition(',')
+        if surname.strip() not in JUSTICE_SURNAMES:
+            continue
+        compact = ''.join(rest.split())
+        prefix = next((prefix for prefix in ('c.j.', 'j.') if compact.startswith(prefix)), None)
+        if prefix is None:
+            continue
+        tail = compact[len(prefix):]
+        if ')' not in tail and (not tail or tail.startswith((',concurring', ',dissenting'))):
+            return surname.strip().title()
+    return None
 
 
 def read(path):
@@ -32,15 +49,14 @@ def unrepresented_writers(plan):
     for target in plan['targets']:
         grouped[target['textPath']].append(target)
     missing = []
-    byline = re.compile(r'^(Roberts|Thomas|Alito|Sotomayor|Kagan|Gorsuch|Kavanaugh|Barrett|Jackson)\s*,\s*(?:J\.|C\.\s*J\.)\s*,\s*(dissenting|concurring)', re.I | re.M)
     for path, targets in grouped.items():
         authors = ' '.join(target.get('opinionAuthor') or '' for target in targets).lower()
         seen = set()
         for page, raw in enumerate(read('dist/'+path)['pages']):
-            match = byline.search(raw['text'][:200])
-            if match and match[1].lower() not in authors and match[1].lower() not in seen:
-                seen.add(match[1].lower())
-                missing.append({'textPath': path, 'page': page, 'author': match[1]})
+            author = running_author(raw['text'])
+            if author and author.lower() not in authors and author.lower() not in seen:
+                seen.add(author.lower())
+                missing.append({'textPath': path, 'page': page, 'author': author})
     return missing
 
 

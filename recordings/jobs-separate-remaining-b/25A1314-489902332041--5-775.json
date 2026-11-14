@@ -1,0 +1,2397 @@
+{
+  "reviewed": true,
+  "documentId": "25A1314-489902332041--5-775",
+  "sourceDocumentId": "25A1314-489902332041",
+  "sourceTextPath": "dist/data/docs/25A1314-489902332041.json",
+  "sourceTextSha256": "674f47bda26653ac046cbe3fedf0e7fc3d090516c79253cb28572796da63430c",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/7bc993fc42ec52b8185bc761.pdf",
+  "sourcePdfSha256": "381639d589eef131d974624b9648d433c2748d3510436651ecef29a359345d10",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2026-06-02",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r42_q8l1.pdf",
+  "sourceRange": {
+    "startPage": 5,
+    "startOffset": 857,
+    "endPage": 20,
+    "endOffset": 1138
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 857,
+          "end": 1529
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1529,
+          "end": 1649
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1649,
+          "end": 1651
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1651,
+          "end": 1826
+        },
+        {
+          "page": 6,
+          "start": 48,
+          "end": 137
+        }
+      ],
+      "citations": [
+        {
+          "start": 67,
+          "end": 114,
+          "text": "See Merrill v. Milligan, 595 U. S. 1197 (2022);",
+          "type": "reference",
+          "canonical": "See Merrill v. Milligan, 595 U. S. 1197 (2022);"
+        },
+        {
+          "start": 115,
+          "end": 153,
+          "text": "Allen v. Milligan, 599 U. S. 1 (2023);",
+          "type": "reference",
+          "canonical": "Allen v. Milligan, 599 U. S. 1 (2023);"
+        },
+        {
+          "start": 154,
+          "end": 192,
+          "text": "Allen v. Caster, 608 U. S. ––– (2026).",
+          "type": "reference",
+          "canonical": "Allen v. Caster, 608 U. S. ––– (2026)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 137,
+          "end": 1000
+        }
+      ],
+      "citations": [
+        {
+          "start": 229,
+          "end": 232,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. §10301",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 257,
+          "end": 278,
+          "text": ", 52 U. S. C. § 10301",
+          "type": "reference",
+          "canonical": ", 52 U. S. C. § 10301"
+        },
+        {
+          "start": 736,
+          "end": 798,
+          "text": "Singleton v. Merrill, 582 F. Supp. 3d 924, 936 (ND Ala. 2022).",
+          "type": "reference",
+          "canonical": "Singleton v. Merrill, 582 F. Supp. 3d 924, 936 (ND Ala. 2022)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "include[d]",
+          "to": "included"
+        },
+        {
+          "from": "§ 2",
+          "to": "section two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1000,
+          "end": 1762
+        }
+      ],
+      "citations": [
+        {
+          "start": 552,
+          "end": 640,
+          "text": "Application in Merrill v. Milligan, O. T. 2021, No. 21A375, p. 38 (Merrill Application).",
+          "type": "reference",
+          "canonical": "Application in Merrill v. Milligan, O. T. 2021, No. 21A375, p. 38 (Merrill Application)."
+        },
+        {
+          "start": 757,
+          "end": 762,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1762,
+          "end": 2112
+        },
+        {
+          "page": 7,
+          "start": 91,
+          "end": 285
+        }
+      ],
+      "citations": [
+        {
+          "start": 29,
+          "end": 57,
+          "text": "Merrill, 595 U. S., at 1197.",
+          "type": "reference",
+          "canonical": "Merrill, 595 U. S., at 1197."
+        },
+        {
+          "start": 122,
+          "end": 131,
+          "text": "See ibid.",
+          "type": "reference",
+          "canonical": "See ibid."
+        },
+        {
+          "start": 381,
+          "end": 443,
+          "text": "Id., at 1199 (Kavanaugh, J., joined by Alito, J., concurring).",
+          "type": "reference",
+          "canonical": "Id., at 1199 (Kavanaugh, J., joined by Alito, J., concurring)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 285,
+          "end": 966
+        }
+      ],
+      "citations": [
+        {
+          "start": 333,
+          "end": 357,
+          "text": "Allen, 599 U. S., at 23.",
+          "type": "reference",
+          "canonical": "Allen, 599 U. S., at 23."
+        },
+        {
+          "start": 672,
+          "end": 683,
+          "text": "Id., at 42.",
+          "type": "reference",
+          "canonical": "Id., at 42."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "d[id]",
+          "to": "did"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 966,
+          "end": 2204
+        },
+        {
+          "page": 8,
+          "start": 79,
+          "end": 415
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 1106,
+          "end": 1182,
+          "text": "Singleton v. Allen, 782 F. Supp. 3d 1092, 1355 (ND Ala. 2025) (per curiam ).",
+          "type": "reference",
+          "canonical": "Singleton v. Allen, 782 F. Supp. 3d 1092, 1355 (ND Ala. 2025) (per curiam )."
+        },
+        {
+          "start": 1441,
+          "end": 1454,
+          "text": "Id., at 1118.",
+          "type": "reference",
+          "canonical": "Id., at 1118."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "refuse[d]",
+          "to": "refused"
+        },
+        {
+          "from": "[W]ith",
+          "to": "With"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 415,
+          "end": 1198
+        }
+      ],
+      "citations": [
+        {
+          "start": 122,
+          "end": 143,
+          "text": ", 608 U. S. 85 (2026)",
+          "type": "reference",
+          "canonical": ", 608 U. S. 85 (2026)"
+        },
+        {
+          "start": 246,
+          "end": 249,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. §10301",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 321,
+          "end": 333,
+          "text": "Id., at 125.",
+          "type": "reference",
+          "canonical": "Id., at 125."
+        },
+        {
+          "start": 571,
+          "end": 603,
+          "text": "Caster, 608 U. S., at ––– – –––.",
+          "type": "reference",
+          "canonical": "Caster, 608 U. S., at ––– – –––."
+        },
+        {
+          "start": 744,
+          "end": 784,
+          "text": "Id., at ––– (Sotomayor, J., dissenting).",
+          "type": "reference",
+          "canonical": "Id., at ––– (Sotomayor, J., dissenting)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "overrul[e]",
+          "to": "overrule"
+        },
+        {
+          "from": "§ 2",
+          "to": "section two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1198,
+          "end": 1879
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1879,
+          "end": 2175
+        },
+        {
+          "page": 9,
+          "start": 60,
+          "end": 566
+        }
+      ],
+      "citations": [
+        {
+          "start": 281,
+          "end": 315,
+          "text": "833 F. Supp. 3d 1222, 1246 (2026).",
+          "type": "reference",
+          "canonical": "833 F. Supp. 3d 1222, 1246 (2026)."
+        },
+        {
+          "start": 701,
+          "end": 720,
+          "text": "Id., at 1247, 1248.",
+          "type": "reference",
+          "canonical": "Id., at 1247, 1248."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "revisit[ing]",
+          "to": "revisiting"
+        },
+        {
+          "from": "draw[ing]",
+          "to": "drawing"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 566,
+          "end": 569
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 569,
+          "end": 1165
+        }
+      ],
+      "citations": [
+        {
+          "start": 311,
+          "end": 379,
+          "text": "See Hollingsworth v. Perry, 558 U. S. 183, 190 (2010) (per curiam ).",
+          "type": "reference",
+          "canonical": "See Hollingsworth v. Perry, 558 U. S. 183, 190 (2010) (per curiam )."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1165,
+          "end": 1167
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1167,
+          "end": 1726
+        }
+      ],
+      "citations": [
+        {
+          "start": 242,
+          "end": 380,
+          "text": "Alexander v. South Carolina State Conference of the NAACP , 602 U. S. 1, 38 (2024) (quoting Miller v. Johnson, 515 U. S. 900, 911 (1995)).",
+          "type": "reference",
+          "canonical": "Alexander v. South Carolina State Conference of the NAACP , 602 U. S. 1, 38 (2024) (quoting Miller v. Johnson, 515 U. S. 900, 911 (1995))."
+        },
+        {
+          "start": 460,
+          "end": 488,
+          "text": "Alexander, 602 U. S., at 39.",
+          "type": "reference",
+          "canonical": "Alexander, 602 U. S., at 39."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1731,
+          "end": 1933
+        },
+        {
+          "page": 10,
+          "start": 2057,
+          "end": 2177
+        }
+      ],
+      "citations": [
+        {
+          "start": 121,
+          "end": 155,
+          "text": "833 F. Supp. 3d 1222, 1247 (2026),",
+          "type": "reference",
+          "canonical": "833 F. Supp. 3d 1222, 1247 (2026),"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 48,
+          "end": 1017
+        }
+      ],
+      "citations": [
+        {
+          "start": 263,
+          "end": 266,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. §10301",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 320,
+          "end": 344,
+          "text": "Allen, 599 U. S., at 19.",
+          "type": "reference",
+          "canonical": "Allen, 599 U. S., at 19."
+        },
+        {
+          "start": 384,
+          "end": 387,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. §10301",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 463,
+          "end": 490,
+          "text": "608 U. S., at 121–122, 125.",
+          "type": "reference",
+          "canonical": "608 U. S., at 121–122, 125."
+        },
+        {
+          "start": 663,
+          "end": 710,
+          "text": "Caster, 608 U. S., at ––– (dissenting opinion).",
+          "type": "reference",
+          "canonical": "Caster, 608 U. S., at ––– (dissenting opinion)."
+        },
+        {
+          "start": 827,
+          "end": 839,
+          "text": "id., at –––,",
+          "type": "reference",
+          "canonical": "id., at –––,"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "overrul[e]",
+          "to": "overrule"
+        },
+        {
+          "from": "agree[d]",
+          "to": "agreed"
+        },
+        {
+          "from": "[t]hese",
+          "to": "these"
+        },
+        {
+          "from": "§ 2",
+          "to": "section two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1017,
+          "end": 1826
+        }
+      ],
+      "citations": [
+        {
+          "start": 345,
+          "end": 436,
+          "text": "Arlington Heights v. Metropolitan Housing Development Corp., 429 U. S. 252, 265–266 (1977);",
+          "type": "reference",
+          "canonical": "Arlington Heights v. Metropolitan Housing Development Corp., 429 U. S. 252, 265–266 (1977);"
+        },
+        {
+          "start": 457,
+          "end": 505,
+          "text": ", 446 U. S. 55, 66–74 (1980) (plurality opinion)",
+          "type": "reference",
+          "canonical": ", 446 U. S. 55, 66–74 (1980) (plurality opinion)"
+        },
+        {
+          "start": 764,
+          "end": 809,
+          "text": "Cooper v. Harris, 581 U. S. 285, 293 (2017)).",
+          "type": "reference",
+          "canonical": "Cooper v. Harris, 581 U. S. 285, 293 (2017))."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "sol[e]",
+          "to": "sole"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1826,
+          "end": 2057
+        },
+        {
+          "page": 11,
+          "start": 91,
+          "end": 555
+        }
+      ],
+      "citations": [
+        {
+          "start": 453,
+          "end": 489,
+          "text": "Singleton, 782 F. Supp. 3d, at 1348.",
+          "type": "reference",
+          "canonical": "Singleton, 782 F. Supp. 3d, at 1348."
+        },
+        {
+          "start": 691,
+          "end": 696,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[in Allen]",
+          "to": "in Allen"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 555,
+          "end": 2005
+        }
+      ],
+      "citations": [
+        {
+          "start": 198,
+          "end": 211,
+          "text": "Id., at 1345.",
+          "type": "reference",
+          "canonical": "Id., at 1345."
+        },
+        {
+          "start": 524,
+          "end": 537,
+          "text": "Id., at 1343;",
+          "type": "reference",
+          "canonical": "Id., at 1343;"
+        },
+        {
+          "start": 538,
+          "end": 560,
+          "text": "see id., at 1343–1344.",
+          "type": "reference",
+          "canonical": "see id., at 1343–1344."
+        },
+        {
+          "start": 652,
+          "end": 665,
+          "text": "id., at 1345,",
+          "type": "reference",
+          "canonical": "id., at 1345,"
+        },
+        {
+          "start": 690,
+          "end": 703,
+          "text": "id., at 1117,",
+          "type": "reference",
+          "canonical": "id., at 1117,"
+        },
+        {
+          "start": 864,
+          "end": 876,
+          "text": "id., at 1344",
+          "type": "reference",
+          "canonical": "id., at 1344"
+        },
+        {
+          "start": 961,
+          "end": 974,
+          "text": "id., at 1345,",
+          "type": "reference",
+          "canonical": "id., at 1345,"
+        },
+        {
+          "start": 1136,
+          "end": 1149,
+          "text": "id., at 1340;",
+          "type": "reference",
+          "canonical": "id., at 1340;"
+        },
+        {
+          "start": 1150,
+          "end": 1171,
+          "text": "see id., at 1356–1357",
+          "type": "reference",
+          "canonical": "see id., at 1356–1357"
+        },
+        {
+          "start": 1400,
+          "end": 1454,
+          "text": "Caster, 608 U. S., at ––– (Sotomayor, J., dissenting).",
+          "type": "reference",
+          "canonical": "Caster, 608 U. S., at ––– (Sotomayor, J., dissenting)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "exalt[ed]",
+          "to": "exalted"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 2005,
+          "end": 2181
+        },
+        {
+          "page": 12,
+          "start": 48,
+          "end": 1040
+        }
+      ],
+      "citations": [
+        {
+          "start": 151,
+          "end": 176,
+          "text": "833 F. Supp. 3d, at 1255.",
+          "type": "reference",
+          "canonical": "833 F. Supp. 3d, at 1255."
+        },
+        {
+          "start": 313,
+          "end": 318,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 453,
+          "end": 458,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 735,
+          "end": 740,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 876,
+          "end": 898,
+          "text": ", 588 U. S. 684 (2019)",
+          "type": "reference",
+          "canonical": ", 588 U. S. 684 (2019)"
+        },
+        {
+          "start": 994,
+          "end": 1006,
+          "text": "Id., at 718.",
+          "type": "reference",
+          "canonical": "Id., at 718."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1040,
+          "end": 2096
+        },
+        {
+          "page": 13,
+          "start": 60,
+          "end": 388
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 127,
+          "text": "Contra, ante, at 513–514.",
+          "type": "reference",
+          "canonical": "Contra, ante, at 513–514."
+        },
+        {
+          "start": 309,
+          "end": 337,
+          "text": "Alexander, 602 U. S., at 10.",
+          "type": "reference",
+          "canonical": "Alexander, 602 U. S., at 10."
+        },
+        {
+          "start": 682,
+          "end": 718,
+          "text": "Singleton, 782 F. Supp. 3d, at 1346.",
+          "type": "reference",
+          "canonical": "Singleton, 782 F. Supp. 3d, at 1346."
+        },
+        {
+          "start": 987,
+          "end": 1012,
+          "text": "833 F. Supp. 3d, at 1248.",
+          "type": "reference",
+          "canonical": "833 F. Supp. 3d, at 1248."
+        },
+        {
+          "start": 1239,
+          "end": 1244,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 1366,
+          "end": 1386,
+          "text": "Id., at 1253, n. 15.",
+          "type": "reference",
+          "canonical": "Id., at 1253, n. 15."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[I]n",
+          "to": "In"
+        },
+        {
+          "from": "discount[ed]",
+          "to": "discounted"
+        },
+        {
+          "from": "[its]",
+          "to": "its"
+        },
+        {
+          "from": "dr[e]w",
+          "to": "drew"
+        },
+        {
+          "from": "[it could]",
+          "to": "it could"
+        },
+        {
+          "from": "[made]",
+          "to": "made"
+        },
+        {
+          "from": "accuse[d]",
+          "to": "accused"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 388,
+          "end": 1027
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1027,
+          "end": 2078
+        },
+        {
+          "page": 14,
+          "start": 48,
+          "end": 671
+        }
+      ],
+      "citations": [
+        {
+          "start": 342,
+          "end": 355,
+          "text": "Ante, at 514.",
+          "type": "reference",
+          "canonical": "Ante, at 514."
+        },
+        {
+          "start": 494,
+          "end": 548,
+          "text": "Caster, 608 U. S., at ––– (Sotomayor, J., dissenting).",
+          "type": "reference",
+          "canonical": "Caster, 608 U. S., at ––– (Sotomayor, J., dissenting)."
+        },
+        {
+          "start": 623,
+          "end": 626,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. §10301",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 697,
+          "end": 715,
+          "text": "608 U. S., at 109.",
+          "type": "reference",
+          "canonical": "608 U. S., at 109."
+        },
+        {
+          "start": 771,
+          "end": 774,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. §10301",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 849,
+          "end": 852,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "52 U.S.C. §10301",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 912,
+          "end": 924,
+          "text": "Id., at 113.",
+          "type": "reference",
+          "canonical": "Id., at 113."
+        },
+        {
+          "start": 1028,
+          "end": 1040,
+          "text": "Id., at 125.",
+          "type": "reference",
+          "canonical": "Id., at 125."
+        },
+        {
+          "start": 1430,
+          "end": 1475,
+          "text": "See id., at 151, n. 5 (Kagan, J., dissenting)",
+          "type": "reference",
+          "canonical": "See id., at 151, n. 5 (Kagan, J., dissenting)"
+        },
+        {
+          "start": 1659,
+          "end": 1677,
+          "text": "(citation omitted)",
+          "type": "reference",
+          "canonical": "(citation omitted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "§ 2",
+          "to": "section two"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 671,
+          "end": 673
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 673,
+          "end": 1030
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1030,
+          "end": 1032
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1032,
+          "end": 1470
+        }
+      ],
+      "citations": [
+        {
+          "start": 301,
+          "end": 380,
+          "text": "Malliotakis v. Williams, 607 U. S. –––, ––– (2026) (Sotomayor, J., dissenting).",
+          "type": "reference",
+          "canonical": "Malliotakis v. Williams, 607 U. S. –––, ––– (2026) (Sotomayor, J., dissenting)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1470,
+          "end": 1879
+        },
+        {
+          "page": 15,
+          "start": 60,
+          "end": 195
+        }
+      ],
+      "citations": [
+        {
+          "start": 402,
+          "end": 413,
+          "text": "2 App. 135.",
+          "type": "reference",
+          "canonical": "2 App. 135."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 195,
+          "end": 641
+        }
+      ],
+      "citations": [
+        {
+          "start": 302,
+          "end": 318,
+          "text": "Id., at 121–122.",
+          "type": "reference",
+          "canonical": "Id., at 121–122."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1907,
+          "end": 2101
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 193,
+          "text": "Alabama Secretary of State, Voter Registration Statistics—2026, https://www.sos.alabama.gov/sites/default/files/election-data/2026-05 / AL VR-2026.xlsx (archived at https://perma.cc/6QHZ-7GFC).",
+          "type": "reference",
+          "canonical": "Alabama Secretary of State, Voter Registration Statistics—2026, https://www.sos.alabama.gov/sites/default/files/election-data/2026-05 / AL VR-2026.xlsx (archived at https://perma.cc/6QHZ-7GFC)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 644,
+          "end": 1616
+        }
+      ],
+      "citations": [
+        {
+          "start": 266,
+          "end": 278,
+          "text": "Id., at 146.",
+          "type": "reference",
+          "canonical": "Id., at 146."
+        },
+        {
+          "start": 528,
+          "end": 544,
+          "text": "Id., at 156–157.",
+          "type": "reference",
+          "canonical": "Id., at 156–157."
+        },
+        {
+          "start": 821,
+          "end": 837,
+          "text": "Id., at 147–148.",
+          "type": "reference",
+          "canonical": "Id., at 147–148."
+        },
+        {
+          "start": 962,
+          "end": 974,
+          "text": "Id., at 140.",
+          "type": "reference",
+          "canonical": "Id., at 140."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1616,
+          "end": 1905
+        },
+        {
+          "page": 16,
+          "start": 48,
+          "end": 129
+        }
+      ],
+      "citations": [
+        {
+          "start": 352,
+          "end": 372,
+          "text": "ECF Doc. 82–7, p. 4.",
+          "type": "reference",
+          "canonical": "ECF Doc. 82–7, p. 4."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1575,
+          "end": 1683
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 108,
+          "text": "ECF citations are to documents filed in the District Court in Milligan v. Allen, No. 2:21–cv–1530 (ND Ala.).",
+          "type": "reference",
+          "canonical": "ECF citations are to documents filed in the District Court in Milligan v. Allen, No. 2:21–cv–1530 (ND Ala.)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 132,
+          "end": 349
+        }
+      ],
+      "citations": [
+        {
+          "start": 212,
+          "end": 217,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 349,
+          "end": 1570
+        }
+      ],
+      "citations": [
+        {
+          "start": 411,
+          "end": 433,
+          "text": "ECF Doc. 530–1, p. 17.",
+          "type": "reference",
+          "canonical": "ECF Doc. 530–1, p. 17."
+        },
+        {
+          "start": 877,
+          "end": 888,
+          "text": "2 App. 122.",
+          "type": "reference",
+          "canonical": "2 App. 122."
+        },
+        {
+          "start": 1212,
+          "end": 1228,
+          "text": "See id., at 181.",
+          "type": "reference",
+          "canonical": "See id., at 181."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1685,
+          "end": 2206
+        }
+      ],
+      "citations": [
+        {
+          "start": 115,
+          "end": 134,
+          "text": "See 2 App. 136–140.",
+          "type": "reference",
+          "canonical": "See 2 App. 136–140."
+        },
+        {
+          "start": 268,
+          "end": 280,
+          "text": "Id., at 206.",
+          "type": "reference",
+          "canonical": "Id., at 206."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 60,
+          "end": 921
+        }
+      ],
+      "citations": [
+        {
+          "start": 396,
+          "end": 404,
+          "text": "Reply 5;",
+          "type": "reference",
+          "canonical": "Reply 5;"
+        },
+        {
+          "start": 405,
+          "end": 414,
+          "text": "see ibid.",
+          "type": "reference",
+          "canonical": "see ibid."
+        },
+        {
+          "start": 838,
+          "end": 863,
+          "text": "833 F. Supp. 3d, at 1238.",
+          "type": "reference",
+          "canonical": "833 F. Supp. 3d, at 1238."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 921,
+          "end": 1891
+        }
+      ],
+      "citations": [
+        {
+          "start": 89,
+          "end": 109,
+          "text": ", 549 U. S. 1 (2006)",
+          "type": "reference",
+          "canonical": ", 549 U. S. 1 (2006)"
+        },
+        {
+          "start": 197,
+          "end": 221,
+          "text": "Application for Stay 35.",
+          "type": "reference",
+          "canonical": "Application for Stay 35."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1891,
+          "end": 1893
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1893,
+          "end": 2061
+        },
+        {
+          "page": 18,
+          "start": 48,
+          "end": 875
+        }
+      ],
+      "citations": [
+        {
+          "start": 218,
+          "end": 315,
+          "text": "Precision Instrument Mfg. Co. v. Automotive Maintenance Machinery Co., 324 U. S. 806, 814 (1945).",
+          "type": "reference",
+          "canonical": "Precision Instrument Mfg. Co. v. Automotive Maintenance Machinery Co., 324 U. S. 806, 814 (1945)."
+        },
+        {
+          "start": 487,
+          "end": 503,
+          "text": "Id., at 814–815;",
+          "type": "reference",
+          "canonical": "Id., at 814–815;"
+        },
+        {
+          "start": 530,
+          "end": 557,
+          "text": ", 532 U. S. 742, 749 (2001)",
+          "type": "reference",
+          "canonical": ", 532 U. S. 742, 749 (2001)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[A]bsent",
+          "to": "Absent"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 875,
+          "end": 1372
+        }
+      ],
+      "citations": [
+        {
+          "start": 320,
+          "end": 360,
+          "text": "See Singleton, 782 F. Supp. 3d, at 1125;",
+          "type": "reference",
+          "canonical": "See Singleton, 782 F. Supp. 3d, at 1125;"
+        },
+        {
+          "start": 361,
+          "end": 375,
+          "text": "supra, at 516.",
+          "type": "reference",
+          "canonical": "supra, at 516."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1372,
+          "end": 2147
+        },
+        {
+          "page": 19,
+          "start": 60,
+          "end": 286
+        }
+      ],
+      "citations": [
+        {
+          "start": 70,
+          "end": 83,
+          "text": "ante, at 513,",
+          "type": "reference",
+          "canonical": "ante, at 513,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 286,
+          "end": 1793
+        }
+      ],
+      "citations": [
+        {
+          "start": 425,
+          "end": 442,
+          "text": "See ECF Doc. 110.",
+          "type": "reference",
+          "canonical": "See ECF Doc. 110."
+        },
+        {
+          "start": 847,
+          "end": 858,
+          "text": "Id., at 20.",
+          "type": "reference",
+          "canonical": "Id., at 20."
+        },
+        {
+          "start": 1141,
+          "end": 1174,
+          "text": "Id., at 21 (alterations omitted).",
+          "type": "reference",
+          "canonical": "Id., at 21 (alterations omitted)."
+        },
+        {
+          "start": 1296,
+          "end": 1322,
+          "text": "See Merrill Application 38",
+          "type": "reference",
+          "canonical": "See Merrill Application 38"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "thr[ew]",
+          "to": "threw"
+        },
+        {
+          "from": "[2022]",
+          "to": "2022"
+        },
+        {
+          "from": "[on]",
+          "to": "on"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1793,
+          "end": 2143
+        },
+        {
+          "page": 20,
+          "start": 79,
+          "end": 580
+        },
+        {
+          "page": 20,
+          "start": 585,
+          "end": 586
+        }
+      ],
+      "citations": [
+        {
+          "start": 369,
+          "end": 375,
+          "text": "ibid.,",
+          "type": "reference",
+          "canonical": "ibid.,"
+        },
+        {
+          "start": 675,
+          "end": 734,
+          "text": "See Merrill, 595 U. S., at 1199 (Kavanaugh, J., concurring)",
+          "type": "reference",
+          "canonical": "See Merrill, 595 U. S., at 1199 (Kavanaugh, J., concurring)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 586,
+          "end": 1138
+        }
+      ],
+      "citations": [
+        {
+          "start": 129,
+          "end": 176,
+          "text": "Caster, 608 U. S., at ––– (dissenting opinion).",
+          "type": "reference",
+          "canonical": "Caster, 608 U. S., at ––– (dissenting opinion)."
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 5,
+      "start": 134,
+      "end": 141,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 5,
+      "start": 473,
+      "end": 478,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 5,
+      "start": 1055,
+      "end": 1063,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 5,
+      "start": 1322,
+      "end": 1329,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 5,
+      "start": 1367,
+      "end": 1375,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 6,
+      "start": 329,
+      "end": 333,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 6,
+      "start": 1029,
+      "end": 1033,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 7,
+      "start": 359,
+      "end": 366,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 7,
+      "start": 398,
+      "end": 404,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 7,
+      "start": 1039,
+      "end": 1046,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 9,
+      "start": 454,
+      "end": 461,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 9,
+      "start": 1783,
+      "end": 1789,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 10,
+      "start": 773,
+      "end": 779,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 10,
+      "start": 1613,
+      "end": 1619,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 10,
+      "start": 1985,
+      "end": 1991,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 11,
+      "start": 729,
+      "end": 736,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 11,
+      "start": 913,
+      "end": 921,
+      "expectedText": "conficts",
+      "text": "conflicts"
+    },
+    {
+      "page": 11,
+      "start": 1177,
+      "end": 1184,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 11,
+      "start": 1746,
+      "end": 1753,
+      "expectedText": "refects",
+      "text": "reflects"
+    },
+    {
+      "page": 11,
+      "start": 1940,
+      "end": 1947,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 13,
+      "start": 218,
+      "end": 224,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 13,
+      "start": 605,
+      "end": 609,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 13,
+      "start": 1171,
+      "end": 1177,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 13,
+      "start": 1896,
+      "end": 1902,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 14,
+      "start": 77,
+      "end": 83,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 14,
+      "start": 219,
+      "end": 222,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 15,
+      "start": 267,
+      "end": 275,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 687,
+      "end": 695,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 840,
+      "end": 848,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 1086,
+      "end": 1094,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 1284,
+      "end": 1292,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 1756,
+      "end": 1760,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 16,
+      "start": 260,
+      "end": 268,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 16,
+      "start": 362,
+      "end": 370,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 16,
+      "start": 603,
+      "end": 611,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 16,
+      "start": 936,
+      "end": 944,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 16,
+      "start": 1184,
+      "end": 1192,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 16,
+      "start": 1289,
+      "end": 1297,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 16,
+      "start": 1372,
+      "end": 1380,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 17,
+      "start": 87,
+      "end": 95,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 17,
+      "start": 248,
+      "end": 256,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 17,
+      "start": 584,
+      "end": 592,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 18,
+      "start": 760,
+      "end": 767,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 18,
+      "start": 959,
+      "end": 966,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 18,
+      "start": 1029,
+      "end": 1036,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 18,
+      "start": 1812,
+      "end": 1816,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 19,
+      "start": 1275,
+      "end": 1287,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 19,
+      "start": 1711,
+      "end": 1721,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 20,
+      "start": 209,
+      "end": 217,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 20,
+      "start": 511,
+      "end": 519,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 1179,
+      "end": 1181,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 15,
+      "start": 1472,
+      "end": 1474,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 5,
+      "start": 1282,
+      "end": 1289,
+      "expectedText": "defance",
+      "text": "defiance"
+    },
+    {
+      "page": 6,
+      "start": 418,
+      "end": 428,
+      "expectedText": "threejudge",
+      "text": "three-judge"
+    },
+    {
+      "page": 7,
+      "start": 326,
+      "end": 333,
+      "expectedText": "briefng",
+      "text": "briefing"
+    },
+    {
+      "page": 8,
+      "start": 576,
+      "end": 588,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 8,
+      "start": 428,
+      "end": 432,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 11,
+      "start": 229,
+      "end": 232,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 12,
+      "start": 109,
+      "end": 117,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 12,
+      "start": 1031,
+      "end": 1038,
+      "expectedText": "fg leaf",
+      "text": "fig leaf"
+    },
+    {
+      "page": 12,
+      "start": 1793,
+      "end": 1818,
+      "expectedText": "intentionaldiscrimination",
+      "text": "intentional-discrimination"
+    },
+    {
+      "page": 13,
+      "start": 1484,
+      "end": 1509,
+      "expectedText": "intentionaldiscrimination",
+      "text": "intentional-discrimination"
+    },
+    {
+      "page": 13,
+      "start": 170,
+      "end": 184,
+      "expectedText": "welldocumented",
+      "text": "well-documented"
+    },
+    {
+      "page": 13,
+      "start": 1834,
+      "end": 1845,
+      "expectedText": "intentbased",
+      "text": "intent-based"
+    },
+    {
+      "page": 14,
+      "start": 1005,
+      "end": 1012,
+      "expectedText": "defance",
+      "text": "defiance"
+    },
+    {
+      "page": 14,
+      "start": 736,
+      "end": 743,
+      "expectedText": "inficts",
+      "text": "inflicts"
+    },
+    {
+      "page": 14,
+      "start": 1143,
+      "end": 1155,
+      "expectedText": "latebreaking",
+      "text": "late-breaking"
+    },
+    {
+      "page": 15,
+      "start": 650,
+      "end": 658,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 15,
+      "start": 1814,
+      "end": 1818,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 16,
+      "start": 1691,
+      "end": 1699,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 16,
+      "start": 409,
+      "end": 413,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 16,
+      "start": 1606,
+      "end": 1610,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 17,
+      "start": 1946,
+      "end": 1953,
+      "expectedText": "defance",
+      "text": "defiance"
+    },
+    {
+      "page": 17,
+      "start": 1097,
+      "end": 1103,
+      "expectedText": "infict",
+      "text": "inflict"
+    },
+    {
+      "page": 17,
+      "start": 1679,
+      "end": 1690,
+      "expectedText": "fx the mess",
+      "text": "fix the mess"
+    },
+    {
+      "page": 18,
+      "start": 690,
+      "end": 695,
+      "expectedText": "defed",
+      "text": "defied"
+    },
+    {
+      "page": 18,
+      "start": 913,
+      "end": 917,
+      "expectedText": "fout",
+      "text": "flout"
+    },
+    {
+      "page": 18,
+      "start": 2076,
+      "end": 2080,
+      "expectedText": "fout",
+      "text": "flout"
+    },
+    {
+      "page": 7,
+      "start": 2201,
+      "end": 2204,
+      "expectedText": "re-",
+      "text": "re"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 5,
+      "start": 1826,
+      "end": 1856,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 48,
+      "text": "516 ALLEN v. MILLIGAN\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 6,
+      "start": 2112,
+      "end": 2142,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 511 (2026) 517\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 79,
+      "text": "Page Proof Pending Publication\n518 ALLEN v. MILLIGAN\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 511 (2026) 519\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 9,
+      "start": 1727,
+      "end": 1731,
+      "text": "1\n1 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 9,
+      "start": 1933,
+      "end": 1963,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 48,
+      "text": "520 ALLEN v. MILLIGAN\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 10,
+      "start": 2177,
+      "end": 2207,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 511 (2026) 521\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 48,
+      "text": "522 ALLEN v. MILLIGAN\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 12,
+      "start": 2096,
+      "end": 2126,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 511 (2026) 523\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 13,
+      "start": 2078,
+      "end": 2108,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 48,
+      "text": "524 ALLEN v. MILLIGAN\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 14,
+      "start": 1879,
+      "end": 1909,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 511 (2026) 525\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 15,
+      "start": 642,
+      "end": 644,
+      "text": "2\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 15,
+      "start": 1905,
+      "end": 1907,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 15,
+      "start": 2101,
+      "end": 2131,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 48,
+      "text": "526 ALLEN v. MILLIGAN\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 16,
+      "start": 130,
+      "end": 132,
+      "text": "3 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 16,
+      "start": 1571,
+      "end": 1575,
+      "text": "4\n3 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 16,
+      "start": 1683,
+      "end": 1685,
+      "text": "4 ",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 16,
+      "start": 2206,
+      "end": 2236,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 511 (2026) 527\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 17,
+      "start": 2061,
+      "end": 2091,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 48,
+      "text": "528 ALLEN v. MILLIGAN\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 18,
+      "start": 2147,
+      "end": 2177,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 511 (2026) 529\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 19,
+      "start": 2143,
+      "end": 2173,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 79,
+      "text": "Page Proof Pending Publication\n530 ALLEN v. MILLIGAN\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture or author metadata"
+    },
+    {
+      "page": 20,
+      "start": 580,
+      "end": 585,
+      "text": "* * *",
+      "reason": "Reviewed publication furniture or author metadata"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan",
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

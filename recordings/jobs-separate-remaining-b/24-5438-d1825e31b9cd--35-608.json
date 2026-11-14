@@ -1,0 +1,5278 @@
+{
+  "reviewed": true,
+  "documentId": "24-5438-d1825e31b9cd--35-608",
+  "sourceDocumentId": "24-5438-d1825e31b9cd",
+  "sourceTextPath": "dist/data/docs/24-5438-d1825e31b9cd.json",
+  "sourceTextSha256": "2191818311cb9bcca120f8b2dcee93840ec9626e08beaaea610dd94438aeb422",
+  "sourcePdfPath": "dist/data/pdfs/24-5438-d1825e31b9cd--35-608.pdf",
+  "sourcePdfSha256": "177a2560bf7986c2dac475e714ff6fc9abecb2fa6e122aedc9569bd79ee935c8",
+  "title": "Dissent",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-01-09",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf",
+  "sourceRange": {
+    "startPage": 35,
+    "startOffset": 736,
+    "endPage": 58,
+    "endOffset": 2307
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 736,
+          "end": 1338
+        }
+      ],
+      "citations": [
+        {
+          "start": 291,
+          "end": 309,
+          "text": "28 U. S. C. § 2254",
+          "type": "statute",
+          "canonical": "28 U. S. C. § 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 506,
+          "end": 512,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2254",
+          "to": "twenty-two fifty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1338,
+          "end": 1715
+        }
+      ],
+      "citations": [
+        {
+          "start": 152,
+          "end": 165,
+          "text": "§ 2244(b)(1).",
+          "type": "reference",
+          "canonical": "§ 2244(b)(1)."
+        },
+        {
+          "start": 362,
+          "end": 378,
+          "text": "§ 2244(b)(3)(E).",
+          "type": "reference",
+          "canonical": "§ 2244(b)(3)(E)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1715,
+          "end": 1895
+        },
+        {
+          "page": 36,
+          "start": 49,
+          "end": 438
+        }
+      ],
+      "citations": [
+        {
+          "start": 214,
+          "end": 220,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 318,
+          "end": 330,
+          "text": "section 2244",
+          "type": "statute",
+          "canonical": "section 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 380,
+          "end": 390,
+          "text": "§ 2255(h).",
+          "type": "reference",
+          "canonical": "§ 2255(h)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 438,
+          "end": 975
+        }
+      ],
+      "citations": [
+        {
+          "start": 311,
+          "end": 331,
+          "text": "18 U. S. C. § 924(c)",
+          "type": "statute",
+          "canonical": "18 U. S. C. § 924(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 515,
+          "end": 537,
+          "text": ", 588 U. S. 445 (2019)",
+          "type": "reference",
+          "canonical": ", 588 U. S. 445 (2019)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 975,
+          "end": 1524
+        }
+      ],
+      "citations": [
+        {
+          "start": 252,
+          "end": 264,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 1524,
+          "end": 1995
+        }
+      ],
+      "citations": [
+        {
+          "start": 76,
+          "end": 91,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 56,
+          "end": 207
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 37,
+          "start": 207,
+          "end": 209
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 209,
+          "end": 569
+        }
+      ],
+      "citations": [
+        {
+          "start": 206,
+          "end": 221,
+          "text": "Ante, at 21–22.",
+          "type": "reference",
+          "canonical": "Ante, at 21–22."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 569,
+          "end": 1303
+        }
+      ],
+      "citations": [
+        {
+          "start": 178,
+          "end": 190,
+          "text": "Section 2244",
+          "type": "statute",
+          "canonical": "Section 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 392,
+          "end": 408,
+          "text": "§ 2244(b)(3)(E).",
+          "type": "reference",
+          "canonical": "§ 2244(b)(3)(E)."
+        },
+        {
+          "start": 599,
+          "end": 608,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1303,
+          "end": 1949
+        }
+      ],
+      "citations": [
+        {
+          "start": 179,
+          "end": 188,
+          "text": "§ 1254(1)",
+          "type": "statute",
+          "canonical": "§ 1254(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 305,
+          "end": 353,
+          "text": "Felker v. Turpin, 518 U. S. 651, 660–661 (1996).",
+          "type": "reference",
+          "canonical": "Felker v. Turpin, 518 U. S. 651, 660–661 (1996)."
+        },
+        {
+          "start": 552,
+          "end": 561,
+          "text": "§ 1254(2)",
+          "type": "statute",
+          "canonical": "§ 1254(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1254",
+          "to": "twelve fifty-four"
+        },
+        {
+          "from": "question[s]",
+          "to": "questions"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 38,
+          "start": 49,
+          "end": 740
+        }
+      ],
+      "citations": [
+        {
+          "start": 62,
+          "end": 71,
+          "text": "§ 1254(1)",
+          "type": "statute",
+          "canonical": "§ 1254(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 138,
+          "end": 147,
+          "text": "§ 1254(2)",
+          "type": "statute",
+          "canonical": "§ 1254(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 323,
+          "end": 329,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 511,
+          "end": 567,
+          "text": "Cf. United States v. Rice, 327 U. S. 742, 746–747 (1946)",
+          "type": "reference",
+          "canonical": "Cf. United States v. Rice, 327 U. S. 742, 746–747 (1946)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "1254",
+          "to": "twelve fifty-four"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 38,
+          "start": 740,
+          "end": 742
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 38,
+          "start": 742,
+          "end": 898
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 38,
+          "start": 898,
+          "end": 1848
+        }
+      ],
+      "citations": [
+        {
+          "start": 63,
+          "end": 105,
+          "text": "Mayle v. Felix, 545 U. S. 644, 662 (2005).",
+          "type": "reference",
+          "canonical": "Mayle v. Felix, 545 U. S. 644, 662 (2005)."
+        },
+        {
+          "start": 264,
+          "end": 312,
+          "text": "See Jones v. Hendrix, 599 U. S. 465, 476 (2023).",
+          "type": "reference",
+          "canonical": "See Jones v. Hendrix, 599 U. S. 465, 476 (2023)."
+        },
+        {
+          "start": 469,
+          "end": 479,
+          "text": "§ 2255(h).",
+          "type": "reference",
+          "canonical": "§ 2255(h)."
+        },
+        {
+          "start": 647,
+          "end": 664,
+          "text": "See § 2255(h)(1).",
+          "type": "reference",
+          "canonical": "See § 2255(h)(1)."
+        },
+        {
+          "start": 875,
+          "end": 892,
+          "text": "See § 2255(h)(2).",
+          "type": "reference",
+          "canonical": "See § 2255(h)(2)."
+        },
+        {
+          "start": 938,
+          "end": 950,
+          "text": "§ 2244(b)(2)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "stric[t] limit[s]",
+          "to": "strict limits"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 38,
+          "start": 1852,
+          "end": 2003
+        }
+      ],
+      "citations": [
+        {
+          "start": 132,
+          "end": 151,
+          "text": "See Part II, infra.",
+          "type": "reference",
+          "canonical": "See Part II, infra."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 56,
+          "end": 394
+        }
+      ],
+      "citations": [
+        {
+          "start": 95,
+          "end": 101,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 204,
+          "end": 216,
+          "text": "section 2244",
+          "type": "statute",
+          "canonical": "section 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 219,
+          "end": 229,
+          "text": "§ 2255(h).",
+          "type": "reference",
+          "canonical": "§ 2255(h)."
+        },
+        {
+          "start": 281,
+          "end": 293,
+          "text": "§ 2244(b)(3)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 394,
+          "end": 632
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 632,
+          "end": 744
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 744,
+          "end": 971
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 971,
+          "end": 1095
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 1095,
+          "end": 1257
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 39,
+          "start": 1257,
+          "end": 1831
+        }
+      ],
+      "citations": [
+        {
+          "start": 87,
+          "end": 108,
+          "text": "Section 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "Section 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 313,
+          "end": 343,
+          "text": "Felker, 518 U. S., at 658–659.",
+          "type": "reference",
+          "canonical": "Felker, 518 U. S., at 658–659."
+        },
+        {
+          "start": 348,
+          "end": 357,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 492,
+          "end": 504,
+          "text": "section 2244",
+          "type": "statute",
+          "canonical": "section 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 40,
+          "start": 49,
+          "end": 901
+        }
+      ],
+      "citations": [
+        {
+          "start": 86,
+          "end": 101,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 585,
+          "end": 667,
+          "text": "See, e. g., In re Clark, 837 F. 3d 1080, 1082–1083 (CA10 2016) (collecting cases);",
+          "type": "reference",
+          "canonical": "See, e. g., In re Clark, 837 F. 3d 1080, 1082–1083 (CA10 2016) (collecting cases);"
+        },
+        {
+          "start": 668,
+          "end": 718,
+          "text": "In re Baptiste , 828 F. 3d 1337, 1340 (CA11 2016);",
+          "type": "reference",
+          "canonical": "In re Baptiste , 828 F. 3d 1337, 1340 (CA11 2016);"
+        },
+        {
+          "start": 719,
+          "end": 802,
+          "text": "Págan-San Miguel v. United States, 736 F. 3d 44, 46, n. 1 (CA1 2013) (per curiam );",
+          "type": "reference",
+          "canonical": "Págan-San Miguel v. United States, 736 F. 3d 44, 46, n. 1 (CA1 2013) (per curiam );"
+        },
+        {
+          "start": 803,
+          "end": 852,
+          "text": "In re Sonshine , 132 F. 3d 1133, 1134 (CA6 1997).",
+          "type": "reference",
+          "canonical": "In re Sonshine , 132 F. 3d 1133, 1134 (CA6 1997)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 40,
+          "start": 901,
+          "end": 2001
+        }
+      ],
+      "citations": [
+        {
+          "start": 70,
+          "end": 93,
+          "text": ", 540 U. S. 375 (2003),",
+          "type": "reference",
+          "canonical": ", 540 U. S. 375 (2003),"
+        },
+        {
+          "start": 478,
+          "end": 494,
+          "text": "Id., at 380–381.",
+          "type": "reference",
+          "canonical": "Id., at 380–381."
+        },
+        {
+          "start": 848,
+          "end": 868,
+          "text": "See id., at 379–380.",
+          "type": "reference",
+          "canonical": "See id., at 379–380."
+        },
+        {
+          "start": 1086,
+          "end": 1102,
+          "text": "Id., at 380–381.",
+          "type": "reference",
+          "canonical": "Id., at 380–381."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "anomal[ou]s",
+          "to": "anomalous"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 40,
+          "start": 2001,
+          "end": 2117
+        },
+        {
+          "page": 41,
+          "start": 56,
+          "end": 598
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 585,
+          "end": 603,
+          "text": "ante, at 26, n. 3,",
+          "type": "reference",
+          "canonical": "ante, at 26, n. 3,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 41,
+          "start": 598,
+          "end": 1738
+        }
+      ],
+      "citations": [
+        {
+          "start": 37,
+          "end": 60,
+          "text": ", 524 U. S. 236 (1998),",
+          "type": "reference",
+          "canonical": ", 524 U. S. 236 (1998),"
+        },
+        {
+          "start": 101,
+          "end": 122,
+          "text": "28 U. S. C. § 2253(c)",
+          "type": "statute",
+          "canonical": "28 U. S. C. § 2253(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 267,
+          "end": 273,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 413,
+          "end": 422,
+          "text": "§ 1254(1)",
+          "type": "statute",
+          "canonical": "§ 1254(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 458,
+          "end": 476,
+          "text": "524 U. S., at 241.",
+          "type": "reference",
+          "canonical": "524 U. S., at 241."
+        },
+        {
+          "start": 549,
+          "end": 558,
+          "text": "§ 2253(c)",
+          "type": "statute",
+          "canonical": "§ 2253(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 563,
+          "end": 578,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 663,
+          "end": 675,
+          "text": "Id., at 250.",
+          "type": "reference",
+          "canonical": "Id., at 250."
+        },
+        {
+          "start": 789,
+          "end": 798,
+          "text": "§ 2253(c)",
+          "type": "statute",
+          "canonical": "§ 2253(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 891,
+          "end": 911,
+          "text": "See id., at 249–250.",
+          "type": "reference",
+          "canonical": "See id., at 249–250."
+        },
+        {
+          "start": 996,
+          "end": 1011,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        },
+        {
+          "from": "1254",
+          "to": "twelve fifty-four"
+        },
+        {
+          "from": "2253",
+          "to": "twenty-two fifty-three"
+        },
+        {
+          "from": "clear[ ly]",
+          "to": "clearly"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 41,
+          "start": 1738,
+          "end": 2094
+        },
+        {
+          "page": 42,
+          "start": 49,
+          "end": 520
+        }
+      ],
+      "citations": [
+        {
+          "start": 22,
+          "end": 37,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 465,
+          "end": 562,
+          "text": "In re Bowe , 601 U. S. 1015 (2024) (Sotomayor, J., statement respecting denial of habeas corpus).",
+          "type": "reference",
+          "canonical": "In re Bowe , 601 U. S. 1015 (2024) (Sotomayor, J., statement respecting denial of habeas corpus)."
+        },
+        {
+          "start": 653,
+          "end": 668,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 769,
+          "end": 782,
+          "text": "Id., at 1016.",
+          "type": "reference",
+          "canonical": "Id., at 1016."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 42,
+          "start": 520,
+          "end": 522
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 42,
+          "start": 522,
+          "end": 963
+        }
+      ],
+      "citations": [
+        {
+          "start": 78,
+          "end": 94,
+          "text": "§§ 2244(b)(3)(A)",
+          "type": "statute",
+          "canonical": "§§ 2244(b)(3)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 349,
+          "end": 355,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 433,
+          "end": 442,
+          "text": "§ 1254(2)",
+          "type": "statute",
+          "canonical": "§ 1254(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections"
+        },
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "1254",
+          "to": "twelve fifty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 42,
+          "start": 963,
+          "end": 1536
+        }
+      ],
+      "citations": [
+        {
+          "start": 84,
+          "end": 93,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 172,
+          "end": 188,
+          "text": "§§ 2244(b)(3)(A)",
+          "type": "statute",
+          "canonical": "§§ 2244(b)(3)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 209,
+          "end": 233,
+          "text": "Brief for Petitioner 32.",
+          "type": "reference",
+          "canonical": "Brief for Petitioner 32."
+        },
+        {
+          "start": 368,
+          "end": 388,
+          "text": "Tr. of Oral Arg. 15.",
+          "type": "reference",
+          "canonical": "Tr. of Oral Arg. 15."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections"
+        },
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 42,
+          "start": 1536,
+          "end": 1987
+        }
+      ],
+      "citations": [
+        {
+          "start": 26,
+          "end": 41,
+          "text": "Section 2255(h)",
+          "type": "statute",
+          "canonical": "Section 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 140,
+          "end": 152,
+          "text": "section 2244",
+          "type": "statute",
+          "canonical": "section 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 218,
+          "end": 224,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 378,
+          "end": 390,
+          "text": "§ 2244(b)(3)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 43,
+          "start": 56,
+          "end": 1094
+        }
+      ],
+      "citations": [
+        {
+          "start": 187,
+          "end": 199,
+          "text": "§ 2244(b)(3)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 348,
+          "end": 358,
+          "text": "§ 2255(h).",
+          "type": "reference",
+          "canonical": "§ 2255(h)."
+        },
+        {
+          "start": 827,
+          "end": 836,
+          "text": "§ 1254(2)",
+          "type": "statute",
+          "canonical": "§ 1254(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "1254",
+          "to": "twelve fifty-four"
+        },
+        {
+          "from": "question[s]",
+          "to": "questions"
+        },
+        {
+          "from": "provide[s]",
+          "to": "provides"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 43,
+          "start": 1094,
+          "end": 1695
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 43,
+          "start": 1695,
+          "end": 2099
+        },
+        {
+          "page": 44,
+          "start": 49,
+          "end": 383
+        }
+      ],
+      "citations": [
+        {
+          "start": 466,
+          "end": 544,
+          "text": "Rhines v. Weber, 544 U. S. 269, 276 (2005) (internal quotation marks omitted),",
+          "type": "reference",
+          "canonical": "Rhines v. Weber, 544 U. S. 269, 276 (2005) (internal quotation marks omitted),"
+        },
+        {
+          "start": 597,
+          "end": 622,
+          "text": "Mayle, 545 U. S., at 662.",
+          "type": "reference",
+          "canonical": "Mayle, 545 U. S., at 662."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 44,
+          "start": 1503,
+          "end": 2096
+        }
+      ],
+      "citations": [
+        {
+          "start": 449,
+          "end": 458,
+          "text": "§ 1254(2)",
+          "type": "statute",
+          "canonical": "§ 1254(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1254",
+          "to": "twelve fifty-four"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 44,
+          "start": 385,
+          "end": 387
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 44,
+          "start": 387,
+          "end": 974
+        }
+      ],
+      "citations": [
+        {
+          "start": 299,
+          "end": 311,
+          "text": "Ante, at 32.",
+          "type": "reference",
+          "canonical": "Ante, at 32."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 44,
+          "start": 974,
+          "end": 1500
+        },
+        {
+          "page": 45,
+          "start": 56,
+          "end": 240
+        }
+      ],
+      "citations": [
+        {
+          "start": 129,
+          "end": 141,
+          "text": "Section 2255",
+          "type": "statute",
+          "canonical": "Section 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 240,
+          "end": 252,
+          "text": "section 2244",
+          "type": "statute",
+          "canonical": "section 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 529,
+          "end": 545,
+          "text": "§ 2244(b)(3)(E).",
+          "type": "reference",
+          "canonical": "§ 2244(b)(3)(E)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        },
+        {
+          "from": "provide[s]",
+          "to": "provides"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 45,
+          "start": 240,
+          "end": 773
+        }
+      ],
+      "citations": [
+        {
+          "start": 204,
+          "end": 213,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 235,
+          "end": 241,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 258,
+          "end": 273,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 292,
+          "end": 304,
+          "text": "Ante, at 35.",
+          "type": "reference",
+          "canonical": "Ante, at 35."
+        },
+        {
+          "start": 418,
+          "end": 430,
+          "text": "ante, at 25,",
+          "type": "reference",
+          "canonical": "ante, at 25,"
+        },
+        {
+          "start": 517,
+          "end": 532,
+          "text": "ante, at 28–31.",
+          "type": "reference",
+          "canonical": "ante, at 28–31."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 45,
+          "start": 773,
+          "end": 1644
+        }
+      ],
+      "citations": [
+        {
+          "start": 410,
+          "end": 479,
+          "text": "Wisniewski v. United States, 353 U. S. 901, 902 (1957) (per curiam ).",
+          "type": "reference",
+          "canonical": "Wisniewski v. United States, 353 U. S. 901, 902 (1957) (per curiam )."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "reconcile[s]",
+          "to": "reconciles"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 45,
+          "start": 1644,
+          "end": 2108
+        },
+        {
+          "page": 46,
+          "start": 49,
+          "end": 324
+        }
+      ],
+      "citations": [
+        {
+          "start": 295,
+          "end": 315,
+          "text": "See Part I–A, supra.",
+          "type": "reference",
+          "canonical": "See Part I–A, supra."
+        },
+        {
+          "start": 485,
+          "end": 494,
+          "text": "§ 1254(2)",
+          "type": "statute",
+          "canonical": "§ 1254(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 530,
+          "end": 539,
+          "text": "§ 1254(1)",
+          "type": "statute",
+          "canonical": "§ 1254(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 588,
+          "end": 597,
+          "text": "§ 1254(2)",
+          "type": "statute",
+          "canonical": "§ 1254(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 726,
+          "end": 741,
+          "text": "See App. 78–79.",
+          "type": "reference",
+          "canonical": "See App. 78–79."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1254",
+          "to": "twelve fifty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 46,
+          "start": 324,
+          "end": 526
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 46,
+          "start": 526,
+          "end": 1212
+        }
+      ],
+      "citations": [
+        {
+          "start": 278,
+          "end": 339,
+          "text": "See, e. g., Clark v. Martinez, 543 U. S. 371, 381–382 (2005).",
+          "type": "reference",
+          "canonical": "See, e. g., Clark v. Martinez, 543 U. S. 371, 381–382 (2005)."
+        },
+        {
+          "start": 486,
+          "end": 498,
+          "text": "§ 2244(b)(3)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 651,
+          "end": 685,
+          "text": "See Felker, 518 U. S., at 661–664.",
+          "type": "reference",
+          "canonical": "See Felker, 518 U. S., at 661–664."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 46,
+          "start": 1212,
+          "end": 2115
+        }
+      ],
+      "citations": [
+        {
+          "start": 262,
+          "end": 278,
+          "text": "See id., at 663;",
+          "type": "reference",
+          "canonical": "See id., at 663;"
+        },
+        {
+          "start": 279,
+          "end": 329,
+          "text": "Brown v. Davenport, 596 U. S. 118, 128–129 (2022).",
+          "type": "reference",
+          "canonical": "Brown v. Davenport, 596 U. S. 118, 128–129 (2022)."
+        },
+        {
+          "start": 480,
+          "end": 527,
+          "text": "Cf. Glasgow v. Moyer, 225 U. S. 420, 429 (1912)",
+          "type": "reference",
+          "canonical": "Cf. Glasgow v. Moyer, 225 U. S. 420, 429 (1912)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 47,
+          "start": 56,
+          "end": 772
+        }
+      ],
+      "citations": [
+        {
+          "start": 161,
+          "end": 184,
+          "text": ", 596 U. S. 199 (2022),",
+          "type": "reference",
+          "canonical": ", 596 U. S. 199 (2022),"
+        },
+        {
+          "start": 418,
+          "end": 430,
+          "text": "Ante, at 27.",
+          "type": "reference",
+          "canonical": "Ante, at 27."
+        },
+        {
+          "start": 494,
+          "end": 513,
+          "text": "See ante, at 27–28.",
+          "type": "reference",
+          "canonical": "See ante, at 27–28."
+        },
+        {
+          "start": 652,
+          "end": 670,
+          "text": "ante, at 28, n. 5,",
+          "type": "reference",
+          "canonical": "ante, at 28, n. 5,"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "contro[l]",
+          "to": "control"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 47,
+          "start": 772,
+          "end": 1457
+        }
+      ],
+      "citations": [
+        {
+          "start": 356,
+          "end": 449,
+          "text": "Loper Bright Enterprises v. Raimondo, 603 U. S. 369, 455, n. 1 (2024) (Kagan, J., dissenting)",
+          "type": "reference",
+          "canonical": "Loper Bright Enterprises v. Raimondo, 603 U. S. 369, 455, n. 1 (2024) (Kagan, J., dissenting)"
+        },
+        {
+          "start": 568,
+          "end": 604,
+          "text": "603 U. S., at 399 (majority opinion)",
+          "type": "reference",
+          "canonical": "603 U. S., at 399 (majority opinion)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "approximat[e] rea[l]",
+          "to": "approximate real"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 47,
+          "start": 1457,
+          "end": 2164
+        },
+        {
+          "page": 48,
+          "start": 49,
+          "end": 116
+        }
+      ],
+      "citations": [
+        {
+          "start": 343,
+          "end": 392,
+          "text": "Henderson v. Shinseki, 562 U. S. 428, 434 (2011).",
+          "type": "reference",
+          "canonical": "Henderson v. Shinseki, 562 U. S. 428, 434 (2011)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 48,
+          "start": 116,
+          "end": 385
+        }
+      ],
+      "citations": [
+        {
+          "start": 127,
+          "end": 142,
+          "text": "Ante, at 25–27.",
+          "type": "reference",
+          "canonical": "Ante, at 25–27."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 48,
+          "start": 385,
+          "end": 1619
+        }
+      ],
+      "citations": [
+        {
+          "start": 77,
+          "end": 92,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 332,
+          "end": 350,
+          "text": "540 U. S., at 380.",
+          "type": "reference",
+          "canonical": "540 U. S., at 380."
+        },
+        {
+          "start": 696,
+          "end": 708,
+          "text": "Id., at 381.",
+          "type": "reference",
+          "canonical": "Id., at 381."
+        },
+        {
+          "start": 893,
+          "end": 909,
+          "text": "Id., at 380–381.",
+          "type": "reference",
+          "canonical": "Id., at 380–381."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "anomal[ous]",
+          "to": "anomalous"
+        },
+        {
+          "from": "close[d]",
+          "to": "closed"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 48,
+          "start": 1619,
+          "end": 2083
+        },
+        {
+          "page": 49,
+          "start": 56,
+          "end": 237
+        }
+      ],
+      "citations": [
+        {
+          "start": 91,
+          "end": 111,
+          "text": "See Part I–A, supra.",
+          "type": "reference",
+          "canonical": "See Part I–A, supra."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 49,
+          "start": 237,
+          "end": 762
+        }
+      ],
+      "citations": [
+        {
+          "start": 314,
+          "end": 355,
+          "text": "Hohn, 524 U. S., at 250 (emphasis added);",
+          "type": "reference",
+          "canonical": "Hohn, 524 U. S., at 250 (emphasis added);"
+        },
+        {
+          "start": 356,
+          "end": 396,
+          "text": "see also In re Bowe , 601 U. S., at 1016",
+          "type": "reference",
+          "canonical": "see also In re Bowe , 601 U. S., at 1016"
+        },
+        {
+          "start": 418,
+          "end": 433,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 49,
+          "start": 1426,
+          "end": 2280
+        }
+      ],
+      "citations": [
+        {
+          "start": 94,
+          "end": 117,
+          "text": ", 536 U. S. 452 (2002),",
+          "type": "reference",
+          "canonical": ", 536 U. S. 452 (2002),"
+        },
+        {
+          "start": 203,
+          "end": 250,
+          "text": "Ante, at 26 (internal quotation marks omitted).",
+          "type": "reference",
+          "canonical": "Ante, at 26 (internal quotation marks omitted)."
+        },
+        {
+          "start": 372,
+          "end": 393,
+          "text": "See 536 U. S., at 463",
+          "type": "reference",
+          "canonical": "See 536 U. S., at 463"
+        },
+        {
+          "start": 394,
+          "end": 513,
+          "text": "(citing Webster v. Doe, 486 U. S. 592 (1988), and Bowen v. Michigan Academy of Family Physicians, 476 U. S. 667 (1986))",
+          "type": "reference",
+          "canonical": "(citing Webster v. Doe, 486 U. S. 592 (1988), and Bowen v. Michigan Academy of Family Physicians, 476 U. S. 667 (1986))"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 49,
+          "start": 764,
+          "end": 1424
+        }
+      ],
+      "citations": [
+        {
+          "start": 373,
+          "end": 420,
+          "text": "Hertz Corp. v. Friend, 559 U. S. 77, 83 (2010);",
+          "type": "reference",
+          "canonical": "Hertz Corp. v. Friend, 559 U. S. 77, 83 (2010);"
+        },
+        {
+          "start": 421,
+          "end": 451,
+          "text": "Felker, 518 U. S., at 660–661.",
+          "type": "reference",
+          "canonical": "Felker, 518 U. S., at 660–661."
+        },
+        {
+          "start": 645,
+          "end": 661,
+          "text": "See ante, at 25.",
+          "type": "reference",
+          "canonical": "See ante, at 25."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 50,
+          "start": 49,
+          "end": 828
+        }
+      ],
+      "citations": [
+        {
+          "start": 187,
+          "end": 196,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 232,
+          "end": 244,
+          "text": "§ 2244(b)(3)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 261,
+          "end": 276,
+          "text": "§ 2244(b)(3)(E)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(E)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 584,
+          "end": 611,
+          "text": "Hertz, 559 U. S., at 83–84,",
+          "type": "reference",
+          "canonical": "Hertz, 559 U. S., at 83–84,"
+        },
+        {
+          "start": 684,
+          "end": 710,
+          "text": "Felker, 518 U. S., at 661.",
+          "type": "reference",
+          "canonical": "Felker, 518 U. S., at 661."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        },
+        {
+          "from": "petition[s]",
+          "to": "petitions"
+        },
+        {
+          "from": "writ[s]",
+          "to": "writs"
+        },
+        {
+          "from": "silen[t]",
+          "to": "silent"
+        },
+        {
+          "from": "mak[e]",
+          "to": "make"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 50,
+          "start": 828,
+          "end": 1481
+        }
+      ],
+      "citations": [
+        {
+          "start": 323,
+          "end": 329,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 457,
+          "end": 469,
+          "text": "Section 2255",
+          "type": "statute",
+          "canonical": "Section 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 50,
+          "start": 1485,
+          "end": 2217
+        },
+        {
+          "page": 51,
+          "start": 1192,
+          "end": 2109
+        }
+      ],
+      "citations": [
+        {
+          "start": 533,
+          "end": 545,
+          "text": "See App. 79.",
+          "type": "reference",
+          "canonical": "See App. 79."
+        },
+        {
+          "start": 667,
+          "end": 710,
+          "text": "Abbott v. Perez, 585 U. S. 579, 594 (2018).",
+          "type": "reference",
+          "canonical": "Abbott v. Perez, 585 U. S. 579, 594 (2018)."
+        },
+        {
+          "start": 996,
+          "end": 1029,
+          "text": "Ante, at 43 (concurring opinion).",
+          "type": "reference",
+          "canonical": "Ante, at 43 (concurring opinion)."
+        },
+        {
+          "start": 1097,
+          "end": 1109,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1198,
+          "end": 1210,
+          "text": "Ante, at 45.",
+          "type": "reference",
+          "canonical": "Ante, at 45."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "den[y]",
+          "to": "deny"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 51,
+          "start": 56,
+          "end": 59
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 51,
+          "start": 59,
+          "end": 550
+        }
+      ],
+      "citations": [
+        {
+          "start": 276,
+          "end": 288,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 51,
+          "start": 550,
+          "end": 1018
+        }
+      ],
+      "citations": [
+        {
+          "start": 70,
+          "end": 82,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 51,
+          "start": 1018,
+          "end": 1020
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 51,
+          "start": 1020,
+          "end": 1192
+        },
+        {
+          "page": 52,
+          "start": 49,
+          "end": 501
+        }
+      ],
+      "citations": [
+        {
+          "start": 60,
+          "end": 72,
+          "text": "Section 2255",
+          "type": "statute",
+          "canonical": "Section 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 277,
+          "end": 289,
+          "text": "§ 2255(h)(1)",
+          "type": "statute",
+          "canonical": "§ 2255(h)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 390,
+          "end": 396,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 429,
+          "end": 435,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 496,
+          "end": 512,
+          "text": "§§ 2244(b)(3)(A)",
+          "type": "statute",
+          "canonical": "§§ 2244(b)(3)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 533,
+          "end": 545,
+          "text": "Ante, at 29.",
+          "type": "reference",
+          "canonical": "Ante, at 29."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections"
+        },
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 52,
+          "start": 501,
+          "end": 1219
+        }
+      ],
+      "citations": [
+        {
+          "start": 56,
+          "end": 77,
+          "text": "Section 2244(b)(3)(C)",
+          "type": "statute",
+          "canonical": "Section 2244(b)(3)(C)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 317,
+          "end": 334,
+          "text": "(Emphasis added.)",
+          "type": "reference",
+          "canonical": "(Emphasis added.)"
+        },
+        {
+          "start": 420,
+          "end": 444,
+          "text": "Brief for Petitioner 32;",
+          "type": "reference",
+          "canonical": "Brief for Petitioner 32;"
+        },
+        {
+          "start": 445,
+          "end": 475,
+          "text": "Brief for United States 25–26;",
+          "type": "reference",
+          "canonical": "Brief for United States 25–26;"
+        },
+        {
+          "start": 476,
+          "end": 488,
+          "text": "ante, at 29.",
+          "type": "reference",
+          "canonical": "ante, at 29."
+        },
+        {
+          "start": 713,
+          "end": 719,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 52,
+          "start": 1219,
+          "end": 1658
+        }
+      ],
+      "citations": [
+        {
+          "start": 120,
+          "end": 132,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 52,
+          "start": 1658,
+          "end": 2020
+        },
+        {
+          "page": 53,
+          "start": 87,
+          "end": 118
+        }
+      ],
+      "citations": [
+        {
+          "start": 342,
+          "end": 351,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 53,
+          "start": 945,
+          "end": 1709
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 21,
+          "text": "Section 2244(b)(2)(B)",
+          "type": "statute",
+          "canonical": "Section 2244(b)(2)(B)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 486,
+          "end": 498,
+          "text": "§ 2255(h)(1)",
+          "type": "statute",
+          "canonical": "§ 2255(h)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 53,
+          "start": 119,
+          "end": 941
+        }
+      ],
+      "citations": [
+        {
+          "start": 12,
+          "end": 21,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 100,
+          "end": 112,
+          "text": "§ 2244(b)(2)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 147,
+          "end": 225,
+          "text": "See Baltimore Nat. Bank v. State Tax Comm'n of Md., 297 U. S. 209, 215 (1936).",
+          "type": "reference",
+          "canonical": "See Baltimore Nat. Bank v. State Tax Comm'n of Md., 297 U. S. 209, 215 (1936)."
+        },
+        {
+          "start": 397,
+          "end": 412,
+          "text": "§ 2244(b)(3)(C)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(C)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 434,
+          "end": 451,
+          "text": "§§ 2255(h)(1)–(2)",
+          "type": "statute",
+          "canonical": "§§ 2255(h)(1)–(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 477,
+          "end": 489,
+          "text": "§ 2244(b)(2)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 532,
+          "end": 541,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 646,
+          "end": 658,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 728,
+          "end": 740,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections"
+        },
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 53,
+          "start": 1712,
+          "end": 2379
+        }
+      ],
+      "citations": [
+        {
+          "start": 44,
+          "end": 56,
+          "text": "§ 2244(b)(2)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 61,
+          "end": 70,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 88,
+          "end": 100,
+          "text": "§ 2255(h)(2)",
+          "type": "statute",
+          "canonical": "§ 2255(h)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 120,
+          "end": 132,
+          "text": "Ante, at 39.",
+          "type": "reference",
+          "canonical": "Ante, at 39."
+        },
+        {
+          "start": 172,
+          "end": 184,
+          "text": "§ 2255(h)(2)",
+          "type": "statute",
+          "canonical": "§ 2255(h)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 306,
+          "end": 315,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 569,
+          "end": 578,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 630,
+          "end": 642,
+          "text": "§ 2255(h)(1)",
+          "type": "statute",
+          "canonical": "§ 2255(h)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 656,
+          "end": 668,
+          "text": "§ 2255(h)(2)",
+          "type": "statute",
+          "canonical": "§ 2255(h)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 54,
+          "start": 49,
+          "end": 1137
+        }
+      ],
+      "citations": [
+        {
+          "start": 66,
+          "end": 81,
+          "text": "§ 2244(b)(3)(C)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(C)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 105,
+          "end": 120,
+          "text": "§ 2244(b)(3)(D)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(D)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 897,
+          "end": 908,
+          "text": "ante, at 39",
+          "type": "reference",
+          "canonical": "ante, at 39"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 54,
+          "start": 1137,
+          "end": 2056
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 179,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 351,
+          "end": 384,
+          "text": "28 U. S. C. § 2244(a) (1988 ed.);",
+          "type": "reference",
+          "canonical": "28 U. S. C. § 2244(a) (1988 ed.);"
+        },
+        {
+          "start": 385,
+          "end": 402,
+          "text": "62 Stat. 965–966.",
+          "type": "reference",
+          "canonical": "62 Stat. 965–966."
+        },
+        {
+          "start": 414,
+          "end": 420,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 548,
+          "end": 582,
+          "text": "See 28 U. S. C. § 2255 (1988 ed.).",
+          "type": "reference",
+          "canonical": "See 28 U. S. C. § 2255 (1988 ed.)."
+        },
+        {
+          "start": 632,
+          "end": 641,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 672,
+          "end": 678,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 699,
+          "end": 705,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 762,
+          "end": 768,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 885,
+          "end": 898,
+          "text": "§ 2244(b)(1);",
+          "type": "reference",
+          "canonical": "§ 2244(b)(1);"
+        },
+        {
+          "start": 899,
+          "end": 919,
+          "text": "110 Stat. 1220–1221.",
+          "type": "reference",
+          "canonical": "110 Stat. 1220–1221."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        },
+        {
+          "from": "present[ed]",
+          "to": "presented"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 55,
+          "start": 56,
+          "end": 685
+        }
+      ],
+      "citations": [
+        {
+          "start": 359,
+          "end": 384,
+          "text": "Jones, 599 U. S., at 476.",
+          "type": "reference",
+          "canonical": "Jones, 599 U. S., at 476."
+        },
+        {
+          "start": 457,
+          "end": 472,
+          "text": "§ 2244(b)(3)(C)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(C)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "strict[er] limit[s]",
+          "to": "stricter limits"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 55,
+          "start": 685,
+          "end": 687
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 55,
+          "start": 687,
+          "end": 900
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 55,
+          "start": 900,
+          "end": 1843
+        }
+      ],
+      "citations": [
+        {
+          "start": 34,
+          "end": 43,
+          "text": "§ 2244(a)",
+          "type": "statute",
+          "canonical": "§ 2244(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 69,
+          "end": 81,
+          "text": "section 2255",
+          "type": "statute",
+          "canonical": "section 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 153,
+          "end": 165,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 318,
+          "end": 330,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 390,
+          "end": 437,
+          "text": "Ante, at 37 (internal quotation marks omitted).",
+          "type": "reference",
+          "canonical": "Ante, at 37 (internal quotation marks omitted)."
+        },
+        {
+          "start": 464,
+          "end": 476,
+          "text": "Section 2244",
+          "type": "statute",
+          "canonical": "Section 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 487,
+          "end": 499,
+          "text": "section 2255",
+          "type": "statute",
+          "canonical": "section 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 519,
+          "end": 528,
+          "text": "§ 2244(a)",
+          "type": "statute",
+          "canonical": "§ 2244(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 591,
+          "end": 607,
+          "text": "§§ 2244(b)(3)(A)",
+          "type": "statute",
+          "canonical": "§§ 2244(b)(3)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 759,
+          "end": 768,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 790,
+          "end": 796,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 903,
+          "end": 918,
+          "text": "Ante, at 28–29;",
+          "type": "reference",
+          "canonical": "Ante, at 28–29;"
+        },
+        {
+          "start": 919,
+          "end": 943,
+          "text": "Brief for Petitioner 32.",
+          "type": "reference",
+          "canonical": "Brief for Petitioner 32."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections"
+        },
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 55,
+          "start": 1843,
+          "end": 1964
+        },
+        {
+          "page": 56,
+          "start": 49,
+          "end": 557
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 156,
+          "end": 168,
+          "text": "section 2254",
+          "type": "statute",
+          "canonical": "section 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 171,
+          "end": 188,
+          "text": "(Emphasis added.)",
+          "type": "reference",
+          "canonical": "(Emphasis added.)"
+        },
+        {
+          "start": 259,
+          "end": 265,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "§ 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 366,
+          "end": 372,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 611,
+          "end": 627,
+          "text": "See ante, at 36.",
+          "type": "reference",
+          "canonical": "See ante, at 36."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        },
+        {
+          "from": "2254",
+          "to": "twenty-two fifty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 56,
+          "start": 557,
+          "end": 1268
+        }
+      ],
+      "citations": [
+        {
+          "start": 104,
+          "end": 110,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 149,
+          "end": 165,
+          "text": "§§ 2244(b)(3)(A)",
+          "type": "statute",
+          "canonical": "§§ 2244(b)(3)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 341,
+          "end": 347,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 540,
+          "end": 597,
+          "text": "Cf. Magwood v. Patterson, 561 U. S. 320, 324, n. 1 (2010)",
+          "type": "reference",
+          "canonical": "Cf. Magwood v. Patterson, 561 U. S. 320, 324, n. 1 (2010)"
+        },
+        {
+          "start": 609,
+          "end": 630,
+          "text": "28 U. S. C. § 2244(b)",
+          "type": "statute",
+          "canonical": "28 U. S. C. § 2244(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections"
+        },
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 56,
+          "start": 1268,
+          "end": 1968
+        }
+      ],
+      "citations": [
+        {
+          "start": 92,
+          "end": 108,
+          "text": "§§ 2244(b)(3)(A)",
+          "type": "statute",
+          "canonical": "§§ 2244(b)(3)(A)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 213,
+          "end": 225,
+          "text": "section 2254",
+          "type": "statute",
+          "canonical": "section 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 229,
+          "end": 246,
+          "text": "(Emphasis added.)",
+          "type": "reference",
+          "canonical": "(Emphasis added.)"
+        },
+        {
+          "start": 374,
+          "end": 380,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 510,
+          "end": 516,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 553,
+          "end": 559,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 605,
+          "end": 617,
+          "text": "section 2254",
+          "type": "statute",
+          "canonical": "section 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 622,
+          "end": 628,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 686,
+          "end": 698,
+          "text": "section 2255",
+          "type": "statute",
+          "canonical": "section 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§",
+          "to": "sections"
+        },
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        },
+        {
+          "from": "2254",
+          "to": "twenty-two fifty-four"
+        },
+        {
+          "from": "application[s]",
+          "to": "applications"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "7",
+      "spans": [
+        {
+          "page": 56,
+          "start": 1972,
+          "end": 2185
+        },
+        {
+          "page": 57,
+          "start": 1645,
+          "end": 2349
+        }
+      ],
+      "citations": [
+        {
+          "start": 66,
+          "end": 72,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "§ 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 227,
+          "end": 233,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "§ 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 540,
+          "end": 546,
+          "text": "§ 2241",
+          "type": "statute",
+          "canonical": "§ 2241",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 559,
+          "end": 565,
+          "text": "§ 2254",
+          "type": "statute",
+          "canonical": "§ 2254",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2254",
+          "to": "twenty-two fifty-four"
+        },
+        {
+          "from": "2241",
+          "to": "twenty-two forty-one"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 57,
+          "start": 56,
+          "end": 401
+        }
+      ],
+      "citations": [
+        {
+          "start": 35,
+          "end": 44,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 66,
+          "end": 72,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 178,
+          "end": 190,
+          "text": "Ante, at 37.",
+          "type": "reference",
+          "canonical": "Ante, at 37."
+        },
+        {
+          "start": 215,
+          "end": 227,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 343,
+          "end": 348,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        },
+        {
+          "from": "contai[n]",
+          "to": "contain"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 57,
+          "start": 401,
+          "end": 996
+        }
+      ],
+      "citations": [
+        {
+          "start": 23,
+          "end": 35,
+          "text": "Section 2255",
+          "type": "statute",
+          "canonical": "Section 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 116,
+          "end": 125,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 181,
+          "end": 187,
+          "text": "§ 2244",
+          "type": "statute",
+          "canonical": "§ 2244",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 245,
+          "end": 260,
+          "text": "§ 2244(b)(3)(C)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(C)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 294,
+          "end": 306,
+          "text": "Ante, at 29.",
+          "type": "reference",
+          "canonical": "Ante, at 29."
+        },
+        {
+          "start": 396,
+          "end": 408,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 535,
+          "end": 544,
+          "text": "§ 2255(h)",
+          "type": "statute",
+          "canonical": "§ 2255(h)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 567,
+          "end": 582,
+          "text": "§ 2244(b)(3)(C)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(3)(C)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        },
+        {
+          "from": "certif[y]",
+          "to": "certify"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 57,
+          "start": 996,
+          "end": 1645
+        },
+        {
+          "page": 58,
+          "start": 80,
+          "end": 250
+        }
+      ],
+      "citations": [
+        {
+          "start": 337,
+          "end": 346,
+          "text": "§ 2253(c)",
+          "type": "statute",
+          "canonical": "§ 2253(c)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 444,
+          "end": 450,
+          "text": "§ 2255",
+          "type": "statute",
+          "canonical": "§ 2255",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 561,
+          "end": 575,
+          "text": "See § 2253(c);",
+          "type": "reference",
+          "canonical": "See § 2253(c);"
+        },
+        {
+          "start": 576,
+          "end": 589,
+          "text": "cf. § 2266(a)",
+          "type": "reference",
+          "canonical": "cf. § 2266(a)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2255",
+          "to": "twenty-two fifty-five"
+        },
+        {
+          "from": "2253",
+          "to": "twenty-two fifty-three"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "8",
+      "spans": [
+        {
+          "page": 58,
+          "start": 1233,
+          "end": 2307
+        }
+      ],
+      "citations": [
+        {
+          "start": 408,
+          "end": 442,
+          "text": "See Brief for United States 44–45.",
+          "type": "reference",
+          "canonical": "See Brief for United States 44–45."
+        },
+        {
+          "start": 706,
+          "end": 718,
+          "text": "§ 2244(b)(1)",
+          "type": "statute",
+          "canonical": "§ 2244(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 936,
+          "end": 954,
+          "text": "Reply Brief 10–11.",
+          "type": "reference",
+          "canonical": "Reply Brief 10–11."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "2244",
+          "to": "twenty-two forty-four"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 58,
+          "start": 254,
+          "end": 1230
+        }
+      ],
+      "citations": [
+        {
+          "start": 721,
+          "end": 746,
+          "text": "Jones, 599 U. S., at 482.",
+          "type": "reference",
+          "canonical": "Jones, 599 U. S., at 482."
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 35,
+      "start": 961,
+      "end": 965,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 35,
+      "start": 1563,
+      "end": 1566,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 35,
+      "start": 1684,
+      "end": 1696,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 35,
+      "start": 1864,
+      "end": 1868,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 36,
+      "start": 161,
+      "end": 169,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 36,
+      "start": 848,
+      "end": 852,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 36,
+      "start": 1167,
+      "end": 1172,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 36,
+      "start": 1755,
+      "end": 1758,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 36,
+      "start": 1949,
+      "end": 1961,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 37,
+      "start": 841,
+      "end": 844,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 37,
+      "start": 1121,
+      "end": 1133,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 37,
+      "start": 1705,
+      "end": 1713,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 38,
+      "start": 161,
+      "end": 169,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 38,
+      "start": 517,
+      "end": 529,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 38,
+      "start": 625,
+      "end": 637,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 38,
+      "start": 926,
+      "end": 933,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 38,
+      "start": 1296,
+      "end": 1304,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 39,
+      "start": 235,
+      "end": 243,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 39,
+      "start": 788,
+      "end": 793,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 39,
+      "start": 1074,
+      "end": 1079,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 39,
+      "start": 1478,
+      "end": 1481,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 39,
+      "start": 1718,
+      "end": 1730,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 40,
+      "start": 77,
+      "end": 81,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 40,
+      "start": 1160,
+      "end": 1163,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 40,
+      "start": 1497,
+      "end": 1502,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 40,
+      "start": 1977,
+      "end": 1982,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 41,
+      "start": 365,
+      "end": 369,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 42,
+      "start": 719,
+      "end": 727,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 42,
+      "start": 763,
+      "end": 775,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 42,
+      "start": 933,
+      "end": 945,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 42,
+      "start": 1651,
+      "end": 1659,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 42,
+      "start": 1841,
+      "end": 1846,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 42,
+      "start": 1973,
+      "end": 1985,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 43,
+      "start": 343,
+      "end": 351,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 43,
+      "start": 442,
+      "end": 454,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 43,
+      "start": 678,
+      "end": 686,
+      "expectedText": "specifes",
+      "text": "specifies"
+    },
+    {
+      "page": 43,
+      "start": 755,
+      "end": 767,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 43,
+      "start": 796,
+      "end": 808,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 43,
+      "start": 1209,
+      "end": 1221,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 43,
+      "start": 1596,
+      "end": 1608,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 43,
+      "start": 1799,
+      "end": 1811,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 43,
+      "start": 1936,
+      "end": 1940,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 44,
+      "start": 63,
+      "end": 75,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 44,
+      "start": 204,
+      "end": 211,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 44,
+      "start": 295,
+      "end": 307,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 44,
+      "start": 1189,
+      "end": 1197,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 44,
+      "start": 1395,
+      "end": 1407,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 44,
+      "start": 1735,
+      "end": 1742,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 44,
+      "start": 1822,
+      "end": 1829,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 44,
+      "start": 1930,
+      "end": 1942,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 45,
+      "start": 1168,
+      "end": 1179,
+      "expectedText": "diffculties",
+      "text": "difficulties"
+    },
+    {
+      "page": 46,
+      "start": 49,
+      "end": 61,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 46,
+      "start": 220,
+      "end": 232,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 47,
+      "start": 1996,
+      "end": 2003,
+      "expectedText": "fnality",
+      "text": "finality"
+    },
+    {
+      "page": 47,
+      "start": 2136,
+      "end": 2148,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 48,
+      "start": 155,
+      "end": 159,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 48,
+      "start": 590,
+      "end": 602,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 48,
+      "start": 701,
+      "end": 713,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 48,
+      "start": 1570,
+      "end": 1582,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 48,
+      "start": 1875,
+      "end": 1887,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 49,
+      "start": 2211,
+      "end": 2215,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 49,
+      "start": 2249,
+      "end": 2253,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 50,
+      "start": 458,
+      "end": 460,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 50,
+      "start": 486,
+      "end": 488,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 50,
+      "start": 1260,
+      "end": 1272,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 50,
+      "start": 1490,
+      "end": 1494,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 50,
+      "start": 1815,
+      "end": 1827,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 50,
+      "start": 1993,
+      "end": 2005,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 51,
+      "start": 829,
+      "end": 832,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 52,
+      "start": 82,
+      "end": 87,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 52,
+      "start": 131,
+      "end": 140,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 52,
+      "start": 188,
+      "end": 193,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 52,
+      "start": 203,
+      "end": 211,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 52,
+      "start": 282,
+      "end": 294,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 52,
+      "start": 633,
+      "end": 638,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 52,
+      "start": 769,
+      "end": 777,
+      "expectedText": "satisfes",
+      "text": "satisfies"
+    },
+    {
+      "page": 52,
+      "start": 1132,
+      "end": 1137,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 52,
+      "start": 1138,
+      "end": 1146,
+      "expectedText": "satisfes",
+      "text": "satisfies"
+    },
+    {
+      "page": 52,
+      "start": 1263,
+      "end": 1267,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 52,
+      "start": 1591,
+      "end": 1594,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 52,
+      "start": 1717,
+      "end": 1724,
+      "expectedText": "confrms",
+      "text": "confirms"
+    },
+    {
+      "page": 53,
+      "start": 189,
+      "end": 196,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 53,
+      "start": 455,
+      "end": 460,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 53,
+      "start": 462,
+      "end": 470,
+      "expectedText": "satisfes",
+      "text": "satisfies"
+    },
+    {
+      "page": 53,
+      "start": 692,
+      "end": 699,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 53,
+      "start": 1234,
+      "end": 1243,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 53,
+      "start": 1573,
+      "end": 1582,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 54,
+      "start": 292,
+      "end": 304,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 54,
+      "start": 877,
+      "end": 882,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 54,
+      "start": 1097,
+      "end": 1106,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 56,
+      "start": 505,
+      "end": 511,
+      "expectedText": "briefy",
+      "text": "briefly"
+    },
+    {
+      "page": 56,
+      "start": 1529,
+      "end": 1536,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 56,
+      "start": 2016,
+      "end": 2023,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 57,
+      "start": 223,
+      "end": 228,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 57,
+      "start": 372,
+      "end": 377,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 57,
+      "start": 819,
+      "end": 827,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 57,
+      "start": 835,
+      "end": 847,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 57,
+      "start": 899,
+      "end": 903,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 57,
+      "start": 2125,
+      "end": 2134,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 58,
+      "start": 1471,
+      "end": 1483,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 58,
+      "start": 1542,
+      "end": 1554,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 58,
+      "start": 1795,
+      "end": 1807,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 58,
+      "start": 1853,
+      "end": 1865,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 58,
+      "start": 2235,
+      "end": 2242,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 37,
+      "start": 1643,
+      "end": 1645,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 52,
+      "start": 970,
+      "end": 972,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 40,
+      "start": 2112,
+      "end": 2116,
+      "expectedText": "col-",
+      "text": "col"
+    },
+    {
+      "page": 55,
+      "start": 1956,
+      "end": 1963,
+      "expectedText": "succes-",
+      "text": "succes"
+    },
+    {
+      "page": 35,
+      "start": 1164,
+      "end": 1174,
+      "expectedText": "certifcate",
+      "text": "certificate"
+    },
+    {
+      "page": 36,
+      "start": 614,
+      "end": 617,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 36,
+      "start": 1202,
+      "end": 1208,
+      "expectedText": "doover",
+      "text": "do-over"
+    },
+    {
+      "page": 37,
+      "start": 1578,
+      "end": 1582,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 38,
+      "start": 1915,
+      "end": 1921,
+      "expectedText": "doover",
+      "text": "do-over"
+    },
+    {
+      "page": 38,
+      "start": 218,
+      "end": 223,
+      "expectedText": "befts",
+      "text": "befits"
+    },
+    {
+      "page": 39,
+      "start": 470,
+      "end": 474,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 41,
+      "start": 768,
+      "end": 778,
+      "expectedText": "certifcate",
+      "text": "certificate"
+    },
+    {
+      "page": 43,
+      "start": 985,
+      "end": 995,
+      "expectedText": "threejudge",
+      "text": "three-judge"
+    },
+    {
+      "page": 45,
+      "start": 2054,
+      "end": 2063,
+      "expectedText": "identifes",
+      "text": "identifies"
+    },
+    {
+      "page": 46,
+      "start": 375,
+      "end": 407,
+      "expectedText": "federalprisoners-clear-statement",
+      "text": "federal-prisoners-clear-statement"
+    },
+    {
+      "page": 47,
+      "start": 164,
+      "end": 178,
+      "expectedText": "clearstatement",
+      "text": "clear-statement"
+    },
+    {
+      "page": 47,
+      "start": 1311,
+      "end": 1318,
+      "expectedText": "fctions",
+      "text": "fictions"
+    },
+    {
+      "page": 48,
+      "start": 1935,
+      "end": 1941,
+      "expectedText": "flings",
+      "text": "filings"
+    },
+    {
+      "page": 48,
+      "start": 106,
+      "end": 111,
+      "expectedText": "defes",
+      "text": "defies"
+    },
+    {
+      "page": 48,
+      "start": 1320,
+      "end": 1328,
+      "expectedText": "refected",
+      "text": "reflected"
+    },
+    {
+      "page": 49,
+      "start": 1115,
+      "end": 1126,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 51,
+      "start": 1839,
+      "end": 1848,
+      "expectedText": "identifes",
+      "text": "identifies"
+    },
+    {
+      "page": 51,
+      "start": 2033,
+      "end": 2037,
+      "expectedText": "faws",
+      "text": "flaws"
+    },
+    {
+      "page": 52,
+      "start": 1823,
+      "end": 1829,
+      "expectedText": "flings",
+      "text": "filings"
+    },
+    {
+      "page": 53,
+      "start": 623,
+      "end": 626,
+      "expectedText": "fll",
+      "text": "fill"
+    },
+    {
+      "page": 53,
+      "start": 1870,
+      "end": 1878,
+      "expectedText": "falsifed",
+      "text": "falsified"
+    },
+    {
+      "page": 53,
+      "start": 2220,
+      "end": 2228,
+      "expectedText": "newfacts",
+      "text": "new-facts"
+    },
+    {
+      "page": 53,
+      "start": 1340,
+      "end": 1349,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 53,
+      "start": 1648,
+      "end": 1657,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 54,
+      "start": 674,
+      "end": 677,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 54,
+      "start": 1973,
+      "end": 1978,
+      "expectedText": "fatly",
+      "text": "flatly"
+    },
+    {
+      "page": 55,
+      "start": 944,
+      "end": 955,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 56,
+      "start": 2102,
+      "end": 2112,
+      "expectedText": "superfuous",
+      "text": "superfluous"
+    },
+    {
+      "page": 57,
+      "start": 191,
+      "end": 199,
+      "expectedText": "certifes",
+      "text": "certifies"
+    },
+    {
+      "page": 57,
+      "start": 1375,
+      "end": 1385,
+      "expectedText": "certifcate",
+      "text": "certificate"
+    },
+    {
+      "page": 57,
+      "start": 1958,
+      "end": 1962,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 57,
+      "start": 1298,
+      "end": 1304,
+      "expectedText": "flings",
+      "text": "filings"
+    },
+    {
+      "page": 57,
+      "start": 103,
+      "end": 117,
+      "expectedText": "crossreference",
+      "text": "cross-reference"
+    },
+    {
+      "page": 58,
+      "start": 2074,
+      "end": 2078,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 58,
+      "start": 89,
+      "end": 95,
+      "expectedText": "flings",
+      "text": "filings"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 35,
+      "start": 1895,
+      "end": 1925,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 36,
+      "start": 0,
+      "end": 49,
+      "text": "48 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 36,
+      "start": 1995,
+      "end": 2025,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 37,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 49\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 37,
+      "start": 1949,
+      "end": 1979,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 38,
+      "start": 0,
+      "end": 49,
+      "text": "50 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 38,
+      "start": 1848,
+      "end": 1852,
+      "text": "1\n1 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 38,
+      "start": 2003,
+      "end": 2033,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 39,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 51\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 39,
+      "start": 1831,
+      "end": 1861,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 40,
+      "start": 0,
+      "end": 49,
+      "text": "52 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 40,
+      "start": 2117,
+      "end": 2147,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 41,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 53\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 41,
+      "start": 2094,
+      "end": 2124,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 42,
+      "start": 0,
+      "end": 49,
+      "text": "54 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 42,
+      "start": 1987,
+      "end": 2017,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 43,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 55\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 43,
+      "start": 2099,
+      "end": 2129,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 44,
+      "start": 0,
+      "end": 49,
+      "text": "56 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 44,
+      "start": 383,
+      "end": 385,
+      "text": "2\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 44,
+      "start": 1501,
+      "end": 1503,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 44,
+      "start": 2096,
+      "end": 2126,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 45,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 57\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 45,
+      "start": 2108,
+      "end": 2138,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 46,
+      "start": 0,
+      "end": 49,
+      "text": "58 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 46,
+      "start": 2115,
+      "end": 2145,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 47,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 59\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 47,
+      "start": 2164,
+      "end": 2194,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 48,
+      "start": 0,
+      "end": 49,
+      "text": "60 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 48,
+      "start": 2083,
+      "end": 2113,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 49,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 61\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 49,
+      "start": 762,
+      "end": 764,
+      "text": "3\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 49,
+      "start": 1425,
+      "end": 1426,
+      "text": "3",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 49,
+      "start": 2280,
+      "end": 2310,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 50,
+      "start": 0,
+      "end": 49,
+      "text": "62 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 50,
+      "start": 1481,
+      "end": 1485,
+      "text": "4\n4 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 50,
+      "start": 2217,
+      "end": 2247,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 51,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 63\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 51,
+      "start": 2109,
+      "end": 2139,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 52,
+      "start": 0,
+      "end": 49,
+      "text": "64 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 52,
+      "start": 2020,
+      "end": 2050,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 53,
+      "start": 0,
+      "end": 87,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 13 (2026) 65\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 53,
+      "start": 118,
+      "end": 119,
+      "text": "5",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 53,
+      "start": 941,
+      "end": 945,
+      "text": "6\n5 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 53,
+      "start": 1710,
+      "end": 1712,
+      "text": "6 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 54,
+      "start": 0,
+      "end": 49,
+      "text": "66 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 54,
+      "start": 2056,
+      "end": 2086,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 55,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 67\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 55,
+      "start": 1964,
+      "end": 1994,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 56,
+      "start": 0,
+      "end": 49,
+      "text": "68 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 56,
+      "start": 1968,
+      "end": 1972,
+      "text": "7\n7 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 56,
+      "start": 2185,
+      "end": 2215,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 57,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 13 (2026) 69\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 57,
+      "start": 2349,
+      "end": 2379,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 58,
+      "start": 0,
+      "end": 80,
+      "text": "Page Proof Pending Publication\n70 BOWE v. UNITED STATES\nGorsuch, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 58,
+      "start": 250,
+      "end": 254,
+      "text": "8\n*\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 58,
+      "start": 1231,
+      "end": 1233,
+      "text": "8 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Clarence Thomas",
+      "Samuel A. Alito, Jr.",
+      "Amy Coney Barrett (Part I)"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

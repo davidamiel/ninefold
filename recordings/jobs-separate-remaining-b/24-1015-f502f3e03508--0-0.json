@@ -1,0 +1,1630 @@
+{
+  "reviewed": true,
+  "documentId": "24-1015-f502f3e03508--0-0",
+  "sourceDocumentId": "24-1015-f502f3e03508",
+  "sourceTextPath": "dist/data/docs/24-1015-f502f3e03508.json",
+  "sourceTextSha256": "8ca4369bafe377e6dbc59dc8fb390000fc3c45d32960b4e9a4cbfe09e0e66cf3",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/f502f3e0350834790310d919.pdf",
+  "sourcePdfSha256": "9509f1788dc9a50f9314bcd15ae9263a702b03aacd1a9986acd4091e95cc5c0a",
+  "title": "Dissent",
+  "author": "Neil Gorsuch",
+  "date": "2026-06-29",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1015_hfjm.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 504,
+    "endPage": 7,
+    "endOffset": 2159
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 504,
+          "end": 1170
+        }
+      ],
+      "citations": [
+        {
+          "start": 185,
+          "end": 303,
+          "text": "Doe v. Mills, 595 U. S. 1029, 1035 (2021) (GORSUCH, J., dissenting from denial of application for injunctive relief );",
+          "type": "reference",
+          "canonical": "Doe v. Mills, 595 U. S. 1029, 1035 (2021) (GORSUCH, J., dissenting from denial of application for injunctive relief );"
+        },
+        {
+          "start": 304,
+          "end": 441,
+          "text": "see also Dr. A. v. Hochul, 595 U. S. ___ (2021) ( Dr. A. I ) (GORSUCH, J., dissenting from denial of application for injunctive relief );",
+          "type": "reference",
+          "canonical": "see also Dr. A. v. Hochul, 595 U. S. ___ (2021) ( Dr. A. I ) (GORSUCH, J., dissenting from denial of application for injunctive relief );"
+        },
+        {
+          "start": 442,
+          "end": 546,
+          "text": "Dr. A. v. Hochul, 597 U. S. ___ (2022) (Dr. A. II ) (T HOMAS, J., dissenting from denial of certiorari).",
+          "type": "reference",
+          "canonical": "Dr. A. v. Hochul, 597 U. S. ___ (2022) (Dr. A. II ) (T HOMAS, J., dissenting from denial of certiorari)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1170,
+          "end": 1173
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1173,
+          "end": 1839
+        },
+        {
+          "page": 1,
+          "start": 77,
+          "end": 79
+        }
+      ],
+      "citations": [
+        {
+          "start": 66,
+          "end": 75,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 109,
+          "end": 159,
+          "text": "See Dr. A. I, 595 U. S., at ___ (slip op., at 14).",
+          "type": "reference",
+          "canonical": "See Dr. A. I, 595 U. S., at ___ (slip op., at 14)."
+        },
+        {
+          "start": 461,
+          "end": 514,
+          "text": "78 Stat. 255, as amended, 42 U. S. C. §2000e–2(a)(1).",
+          "type": "reference",
+          "canonical": "78 Stat. 255, as amended, 42 U. S. C. §2000e–2(a)(1)."
+        },
+        {
+          "start": 638,
+          "end": 648,
+          "text": "§2000e(j).",
+          "type": "reference",
+          "canonical": "§2000e(j)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        },
+        {
+          "from": "includ[e]",
+          "to": "include"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 79,
+          "end": 587
+        }
+      ],
+      "citations": [
+        {
+          "start": 6,
+          "end": 15,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 337,
+          "end": 342,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 454,
+          "end": 496,
+          "text": "Groff v. DeJoy, 600 U. S. 447, 468 (2023).",
+          "type": "reference",
+          "canonical": "Groff v. DeJoy, 600 U. S. 447, 468 (2023)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        },
+        {
+          "from": "demonstrat[e]",
+          "to": "demonstrate"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 587,
+          "end": 1160
+        }
+      ],
+      "citations": [
+        {
+          "start": 244,
+          "end": 278,
+          "text": "App. to Pet. for Cert. 90a (App.).",
+          "type": "reference",
+          "canonical": "App. to Pet. for Cert. 90a (App.)."
+        },
+        {
+          "start": 402,
+          "end": 414,
+          "text": "Id., at 87a.",
+          "type": "reference",
+          "canonical": "Id., at 87a."
+        },
+        {
+          "start": 548,
+          "end": 560,
+          "text": "Id., at 90a.",
+          "type": "reference",
+          "canonical": "Id., at 90a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NYP",
+          "to": "N Y P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1160,
+          "end": 1659
+        }
+      ],
+      "citations": [
+        {
+          "start": 424,
+          "end": 469,
+          "text": "Dr. A. I, 595 U. S., at ___ (slip op., at 2);",
+          "type": "reference",
+          "canonical": "Dr. A. I, 595 U. S., at ___ (slip op., at 2);"
+        },
+        {
+          "start": 470,
+          "end": 483,
+          "text": "App. 80a–86a.",
+          "type": "reference",
+          "canonical": "App. 80a–86a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "COVID–19",
+          "to": "COVID nineteen"
+        },
+        {
+          "from": "[their]",
+          "to": "their"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1659,
+          "end": 2050
+        },
+        {
+          "page": 2,
+          "start": 109,
+          "end": 111
+        }
+      ],
+      "citations": [
+        {
+          "start": 301,
+          "end": 317,
+          "text": "Id., at 78a–79a.",
+          "type": "reference",
+          "canonical": "Id., at 78a–79a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "COVID–19",
+          "to": "COVID nineteen"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 111,
+          "end": 571
+        }
+      ],
+      "citations": [
+        {
+          "start": 283,
+          "end": 389,
+          "text": "Governor Hochul Attends Service at Christian Cultural Center (Sept. 26, 2021), https://perma.cc/BW3P-3S2U;",
+          "type": "reference",
+          "canonical": "Governor Hochul Attends Service at Christian Cultural Center (Sept. 26, 2021), https://perma.cc/BW3P-3S2U;"
+        },
+        {
+          "start": 390,
+          "end": 450,
+          "text": "see also Dr. A. I, 595 U. S., at ___–___ (slip op., at 3–5).",
+          "type": "reference",
+          "canonical": "see also Dr. A. I, 595 U. S., at ___–___ (slip op., at 3–5)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[we]ren’t",
+          "to": "weren’t"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 571,
+          "end": 874
+        }
+      ],
+      "citations": [
+        {
+          "start": 116,
+          "end": 129,
+          "text": "App. 4a, 91a.",
+          "type": "reference",
+          "canonical": "App. 4a, 91a."
+        },
+        {
+          "start": 231,
+          "end": 293,
+          "text": "Complaint in No. 1:21–CV–05067 (EDNY), ECF Doc. 1–11 (Exh. E).",
+          "type": "reference",
+          "canonical": "Complaint in No. 1:21–CV–05067 (EDNY), ECF Doc. 1–11 (Exh. E)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "NYP",
+          "to": "N Y P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 874,
+          "end": 1305
+        }
+      ],
+      "citations": [
+        {
+          "start": 256,
+          "end": 271,
+          "text": "App. 113a–116a.",
+          "type": "reference",
+          "canonical": "App. 113a–116a."
+        },
+        {
+          "start": 385,
+          "end": 394,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 396,
+          "end": 421,
+          "text": "Id., at 4a, 27a–30a, 52a.",
+          "type": "reference",
+          "canonical": "Id., at 4a, 27a–30a, 52a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1305,
+          "end": 2079
+        },
+        {
+          "page": 3,
+          "start": 84,
+          "end": 183
+        }
+      ],
+      "citations": [
+        {
+          "start": 309,
+          "end": 318,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 346,
+          "end": 358,
+          "text": "Id., at 10a.",
+          "type": "reference",
+          "canonical": "Id., at 10a."
+        },
+        {
+          "start": 469,
+          "end": 474,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 841,
+          "end": 853,
+          "text": "Id., at 11a.",
+          "type": "reference",
+          "canonical": "Id., at 11a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        },
+        {
+          "from": "[employers]",
+          "to": "employers"
+        },
+        {
+          "from": "[vaccine]",
+          "to": "vaccine"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 183,
+          "end": 618
+        }
+      ],
+      "citations": [
+        {
+          "start": 84,
+          "end": 93,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 333,
+          "end": 425,
+          "text": "Russo v. Patchogue-Medford School Dist. , 129 F. 4th 182, 186, and n. 1 (2025) (per curiam).",
+          "type": "reference",
+          "canonical": "Russo v. Patchogue-Medford School Dist. , 129 F. 4th 182, 186, and n. 1 (2025) (per curiam)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 618,
+          "end": 622
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 622,
+          "end": 1245
+        }
+      ],
+      "citations": [
+        {
+          "start": 63,
+          "end": 72,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 218,
+          "end": 240,
+          "text": "42 U. S. C. §2000e(j).",
+          "type": "reference",
+          "canonical": "42 U. S. C. §2000e(j)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        },
+        {
+          "from": "NYP",
+          "to": "N Y P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1245,
+          "end": 2025
+        },
+        {
+          "page": 4,
+          "start": 106,
+          "end": 188
+        }
+      ],
+      "citations": [
+        {
+          "start": 56,
+          "end": 65,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 260,
+          "end": 269,
+          "text": "§2000h–4.",
+          "type": "reference",
+          "canonical": "§2000h–4."
+        },
+        {
+          "start": 288,
+          "end": 297,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 587,
+          "end": 596,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 598,
+          "end": 607,
+          "text": "§2000e–7.",
+          "type": "reference",
+          "canonical": "§2000e–7."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        },
+        {
+          "from": "th[e]",
+          "to": "the"
+        },
+        {
+          "from": "exempt[s and]",
+          "to": "exempts and"
+        },
+        {
+          "from": "relieve[s]",
+          "to": "relieves"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 188,
+          "end": 1933
+        }
+      ],
+      "citations": [
+        {
+          "start": 227,
+          "end": 244,
+          "text": "§§12112(b)(5)(A),",
+          "type": "reference",
+          "canonical": "§§12112(b)(5)(A),"
+        },
+        {
+          "start": 245,
+          "end": 254,
+          "text": "12131(2),",
+          "type": "reference",
+          "canonical": "12131(2),"
+        },
+        {
+          "start": 255,
+          "end": 273,
+          "text": "12182(b)(2)(A)(ii)",
+          "type": "reference",
+          "canonical": "12182(b)(2)(A)(ii)"
+        },
+        {
+          "start": 315,
+          "end": 327,
+          "text": "§3604(f )(3)",
+          "type": "reference",
+          "canonical": "§3604(f )(3)"
+        },
+        {
+          "start": 348,
+          "end": 409,
+          "text": "Alexander v. Choate, 469 U. S. 287, 301–302, and n. 21 (1985)",
+          "type": "reference",
+          "canonical": "Alexander v. Choate, 469 U. S. 287, 301–302, and n. 21 (1985)"
+        },
+        {
+          "start": 904,
+          "end": 1000,
+          "text": "See Mary Jo C. v. New York State and Local Retirement System, 707 F. 3d 144, 161–164 (CA2 2013);",
+          "type": "reference",
+          "canonical": "See Mary Jo C. v. New York State and Local Retirement System, 707 F. 3d 144, 161–164 (CA2 2013);"
+        },
+        {
+          "start": 1001,
+          "end": 1079,
+          "text": "National Federation of the Blind v. Lamone, 813 F. 3d 494, 508–509 (CA4 2016);",
+          "type": "reference",
+          "canonical": "National Federation of the Blind v. Lamone, 813 F. 3d 494, 508–509 (CA4 2016);"
+        },
+        {
+          "start": 1080,
+          "end": 1161,
+          "text": "cf. T. B. v. San Diego Unified School Dist., 806 F. 3d 451, 468, n. 5 (CA9 2015).",
+          "type": "reference",
+          "canonical": "cf. T. B. v. San Diego Unified School Dist., 806 F. 3d 451, 468, n. 5 (CA9 2015)."
+        },
+        {
+          "start": 1364,
+          "end": 1434,
+          "text": "Barber v. Colorado Dept. of Revenue , 562 F. 3d 1222, 1233 (CA10 2009)",
+          "type": "reference",
+          "canonical": "Barber v. Colorado Dept. of Revenue , 562 F. 3d 1222, 1233 (CA10 2009)"
+        },
+        {
+          "start": 1435,
+          "end": 1495,
+          "text": "(quoting Quinones v. Evanston, 58 F. 3d 275, 277 (CA7 1995))",
+          "type": "reference",
+          "canonical": "(quoting Quinones v. Evanston, 58 F. 3d 275, 277 (CA7 1995))"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "E .g.",
+          "to": "For example"
+        },
+        {
+          "from": "ADA",
+          "to": "A D A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1933,
+          "end": 2163
+        },
+        {
+          "page": 5,
+          "start": 64,
+          "end": 1618
+        }
+      ],
+      "citations": [
+        {
+          "start": 128,
+          "end": 152,
+          "text": ", 72 F. 4th 1245 (2023).",
+          "type": "reference",
+          "canonical": ", 72 F. 4th 1245 (2023)."
+        },
+        {
+          "start": 161,
+          "end": 170,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 310,
+          "end": 319,
+          "text": "Title III",
+          "type": "statute",
+          "canonical": "Title III",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 521,
+          "end": 540,
+          "text": "§12182(b)(2)(A)(i).",
+          "type": "reference",
+          "canonical": "§12182(b)(2)(A)(i)."
+        },
+        {
+          "start": 687,
+          "end": 700,
+          "text": "Id., at 1256.",
+          "type": "reference",
+          "canonical": "Id., at 1256."
+        },
+        {
+          "start": 799,
+          "end": 812,
+          "text": "Id., at 1248.",
+          "type": "reference",
+          "canonical": "Id., at 1248."
+        },
+        {
+          "start": 1054,
+          "end": 1072,
+          "text": "Id., at 1256–1258.",
+          "type": "reference",
+          "canonical": "Id., at 1256–1258."
+        },
+        {
+          "start": 1317,
+          "end": 1335,
+          "text": "Id., at 1257–1259.",
+          "type": "reference",
+          "canonical": "Id., at 1257–1259."
+        },
+        {
+          "start": 1480,
+          "end": 1493,
+          "text": "Id., at 1258.",
+          "type": "reference",
+          "canonical": "Id., at 1258."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        },
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        },
+        {
+          "from": "ADA",
+          "to": "A D A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1618,
+          "end": 2216
+        },
+        {
+          "page": 6,
+          "start": 96,
+          "end": 259
+        }
+      ],
+      "citations": [
+        {
+          "start": 469,
+          "end": 478,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        },
+        {
+          "from": "ADA",
+          "to": "A D A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 259,
+          "end": 264
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 264,
+          "end": 925
+        }
+      ],
+      "citations": [
+        {
+          "start": 193,
+          "end": 201,
+          "text": "App. 6a.",
+          "type": "reference",
+          "canonical": "App. 6a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "COVID–19",
+          "to": "COVID nineteen"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 925,
+          "end": 2047
+        },
+        {
+          "page": 7,
+          "start": 82,
+          "end": 924
+        }
+      ],
+      "citations": [
+        {
+          "start": 124,
+          "end": 133,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 252,
+          "end": 296,
+          "text": "Brief for United States as Amicus Curiae 11.",
+          "type": "reference",
+          "canonical": "Brief for United States as Amicus Curiae 11."
+        },
+        {
+          "start": 486,
+          "end": 495,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 617,
+          "end": 628,
+          "text": "Id., at 14.",
+          "type": "reference",
+          "canonical": "Id., at 14."
+        },
+        {
+          "start": 679,
+          "end": 696,
+          "text": "See App. 10a– 11a",
+          "type": "reference",
+          "canonical": "See App. 10a– 11a"
+        },
+        {
+          "start": 758,
+          "end": 767,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1323,
+          "end": 1332,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1405,
+          "end": 1424,
+          "text": "129 F. 4th, at 186.",
+          "type": "reference",
+          "canonical": "129 F. 4th, at 186."
+        },
+        {
+          "start": 1601,
+          "end": 1695,
+          "text": "See Bowlin v. Board of Directors, Judah Christian School , 167 F. 4th 469, 477–478 (CA7 2026);",
+          "type": "reference",
+          "canonical": "See Bowlin v. Board of Directors, Judah Christian School , 167 F. 4th 469, 477–478 (CA7 2026);"
+        },
+        {
+          "start": 1696,
+          "end": 1745,
+          "text": "Lowe v. Mills, 68 F. 4th 706, 720–725 (CA1 2023);",
+          "type": "reference",
+          "canonical": "Lowe v. Mills, 68 F. 4th 706, 720–725 (CA1 2023);"
+        },
+        {
+          "start": 1746,
+          "end": 1847,
+          "text": "United States v. Board of Educ. for School Dist. of Philadelphia , 911 F. 2d 882, 890–891 (CA3 1990);",
+          "type": "reference",
+          "canonical": "United States v. Board of Educ. for School Dist. of Philadelphia , 911 F. 2d 882, 890–891 (CA3 1990);"
+        },
+        {
+          "start": 1848,
+          "end": 1914,
+          "text": "Bhatia v. Chevron U. S. A., Inc., 734 F. 2d 1382, 1384 (CA9 1984).",
+          "type": "reference",
+          "canonical": "Bhatia v. Chevron U. S. A., Inc., 734 F. 2d 1382, 1384 (CA9 1984)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        },
+        {
+          "from": "[employers]",
+          "to": "employers"
+        },
+        {
+          "from": "[employer]",
+          "to": "employer"
+        },
+        {
+          "from": "[vaccine]",
+          "to": "vaccine"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 924,
+          "end": 2159
+        }
+      ],
+      "citations": [
+        {
+          "start": 489,
+          "end": 547,
+          "text": "Doe v. Dynamic Physical Therapy, LLC, 607 U. S. 11 (2025).",
+          "type": "reference",
+          "canonical": "Doe v. Dynamic Physical Therapy, LLC, 607 U. S. 11 (2025)."
+        },
+        {
+          "start": 951,
+          "end": 960,
+          "text": "Title VII",
+          "type": "statute",
+          "canonical": "Title VII",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title VII",
+          "to": "Title Seven"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 7,
+      "start": 733,
+      "end": 736,
+      "expectedText": "– \n",
+      "text": "–"
+    },
+    {
+      "page": 0,
+      "start": 527,
+      "end": 533,
+      "expectedText": "face s",
+      "text": "faces"
+    },
+    {
+      "page": 2,
+      "start": 949,
+      "end": 962,
+      "expectedText": "precipitat ed",
+      "text": "precipitated"
+    },
+    {
+      "page": 2,
+      "start": 1330,
+      "end": 1336,
+      "expectedText": "co urt",
+      "text": "court"
+    },
+    {
+      "page": 2,
+      "start": 1869,
+      "end": 1879,
+      "expectedText": "relig ious",
+      "text": "religious"
+    },
+    {
+      "page": 3,
+      "start": 1634,
+      "end": 1645,
+      "expectedText": "punish ment",
+      "text": "punishment"
+    },
+    {
+      "page": 4,
+      "start": 215,
+      "end": 222,
+      "expectedText": "co urts",
+      "text": "courts"
+    },
+    {
+      "page": 4,
+      "start": 683,
+      "end": 693,
+      "expectedText": "employer s",
+      "text": "employers"
+    },
+    {
+      "page": 4,
+      "start": 758,
+      "end": 773,
+      "expectedText": "“reason- \nable”",
+      "text": "“reasonable”"
+    },
+    {
+      "page": 4,
+      "start": 1226,
+      "end": 1239,
+      "expectedText": "Fed -\neration",
+      "text": "Federation"
+    },
+    {
+      "page": 5,
+      "start": 1231,
+      "end": 1241,
+      "expectedText": "conclu ded",
+      "text": "concluded"
+    },
+    {
+      "page": 0,
+      "start": 681,
+      "end": 690,
+      "expectedText": "be-\nliefs",
+      "text": "beliefs"
+    },
+    {
+      "page": 0,
+      "start": 803,
+      "end": 811,
+      "expectedText": "re-\nlief",
+      "text": "relief"
+    },
+    {
+      "page": 0,
+      "start": 1225,
+      "end": 1234,
+      "expectedText": "law-\nsuit",
+      "text": "lawsuit"
+    },
+    {
+      "page": 0,
+      "start": 1417,
+      "end": 1429,
+      "expectedText": "in-\ndividual",
+      "text": "individual"
+    },
+    {
+      "page": 0,
+      "start": 1472,
+      "end": 1484,
+      "expectedText": "individ-\nual",
+      "text": "individual"
+    },
+    {
+      "page": 0,
+      "start": 1779,
+      "end": 1792,
+      "expectedText": "ob -\nservance",
+      "text": "observance"
+    },
+    {
+      "page": 1,
+      "start": 128,
+      "end": 139,
+      "expectedText": "dis-\ncharge",
+      "text": "discharge"
+    },
+    {
+      "page": 1,
+      "start": 187,
+      "end": 197,
+      "expectedText": "be -\ncause",
+      "text": "because"
+    },
+    {
+      "page": 1,
+      "start": 305,
+      "end": 315,
+      "expectedText": "em-\nployee",
+      "text": "employee"
+    },
+    {
+      "page": 1,
+      "start": 933,
+      "end": 943,
+      "expectedText": "vac-\ncines",
+      "text": "vaccines"
+    },
+    {
+      "page": 1,
+      "start": 1057,
+      "end": 1066,
+      "expectedText": "be-\nliefs",
+      "text": "beliefs"
+    },
+    {
+      "page": 1,
+      "start": 1113,
+      "end": 1124,
+      "expectedText": "manda-\ntory",
+      "text": "mandatory"
+    },
+    {
+      "page": 1,
+      "start": 1330,
+      "end": 1340,
+      "expectedText": "sin -\ncere",
+      "text": "sincere"
+    },
+    {
+      "page": 1,
+      "start": 1508,
+      "end": 1519,
+      "expectedText": "de -\npended",
+      "text": "depended"
+    },
+    {
+      "page": 1,
+      "start": 1570,
+      "end": 1582,
+      "expectedText": "pro-\nduction",
+      "text": "production"
+    },
+    {
+      "page": 1,
+      "start": 1766,
+      "end": 1775,
+      "expectedText": "man-\ndate",
+      "text": "mandate"
+    },
+    {
+      "page": 1,
+      "start": 1825,
+      "end": 1838,
+      "expectedText": "ex -\nemptions",
+      "text": "exemptions"
+    },
+    {
+      "page": 1,
+      "start": 1879,
+      "end": 1888,
+      "expectedText": "rea-\nsons",
+      "text": "reasons"
+    },
+    {
+      "page": 2,
+      "start": 332,
+      "end": 340,
+      "expectedText": "peo-\nple",
+      "text": "people"
+    },
+    {
+      "page": 2,
+      "start": 445,
+      "end": 455,
+      "expectedText": "Cul-\ntural",
+      "text": "Cultural"
+    },
+    {
+      "page": 2,
+      "start": 744,
+      "end": 759,
+      "expectedText": "ac-\ncommodation",
+      "text": "accommodation"
+    },
+    {
+      "page": 2,
+      "start": 793,
+      "end": 805,
+      "expectedText": "compli-\nance",
+      "text": "compliance"
+    },
+    {
+      "page": 2,
+      "start": 1047,
+      "end": 1059,
+      "expectedText": "pre-\nventing",
+      "text": "preventing"
+    },
+    {
+      "page": 2,
+      "start": 1954,
+      "end": 1963,
+      "expectedText": "be-\ncause",
+      "text": "because"
+    },
+    {
+      "page": 3,
+      "start": 235,
+      "end": 247,
+      "expectedText": "reiter-\nated",
+      "text": "reiterated"
+    },
+    {
+      "page": 3,
+      "start": 296,
+      "end": 305,
+      "expectedText": "de-\nfense",
+      "text": "defense"
+    },
+    {
+      "page": 3,
+      "start": 739,
+      "end": 750,
+      "expectedText": "re-\nligious",
+      "text": "religious"
+    },
+    {
+      "page": 3,
+      "start": 969,
+      "end": 980,
+      "expectedText": "reli-\ngious",
+      "text": "religious"
+    },
+    {
+      "page": 3,
+      "start": 1086,
+      "end": 1104,
+      "expectedText": "unconstitu-\ntional",
+      "text": "unconstitutional"
+    },
+    {
+      "page": 3,
+      "start": 1602,
+      "end": 1614,
+      "expectedText": "li -\nability",
+      "text": "liability"
+    },
+    {
+      "page": 4,
+      "start": 242,
+      "end": 257,
+      "expectedText": "cir-\ncumstances",
+      "text": "circumstances"
+    },
+    {
+      "page": 4,
+      "start": 302,
+      "end": 311,
+      "expectedText": "par-\nties",
+      "text": "parties"
+    },
+    {
+      "page": 4,
+      "start": 658,
+      "end": 665,
+      "expectedText": "un-\nder",
+      "text": "under"
+    },
+    {
+      "page": 4,
+      "start": 717,
+      "end": 732,
+      "expectedText": "ac-\ncommodation",
+      "text": "accommodation"
+    },
+    {
+      "page": 4,
+      "start": 822,
+      "end": 831,
+      "expectedText": "how-\never",
+      "text": "however"
+    },
+    {
+      "page": 4,
+      "start": 992,
+      "end": 1001,
+      "expectedText": "fed-\neral",
+      "text": "federal"
+    },
+    {
+      "page": 4,
+      "start": 1466,
+      "end": 1477,
+      "expectedText": "some-\ntimes",
+      "text": "sometimes"
+    },
+    {
+      "page": 5,
+      "start": 122,
+      "end": 130,
+      "expectedText": "suf-\nfer",
+      "text": "suffer"
+    },
+    {
+      "page": 5,
+      "start": 300,
+      "end": 311,
+      "expectedText": "provi-\nsion",
+      "text": "provision"
+    },
+    {
+      "page": 5,
+      "start": 768,
+      "end": 779,
+      "expectedText": "exclu-\nsion",
+      "text": "exclusion"
+    },
+    {
+      "page": 5,
+      "start": 957,
+      "end": 966,
+      "expectedText": "con-\ntrol",
+      "text": "control"
+    },
+    {
+      "page": 5,
+      "start": 1075,
+      "end": 1083,
+      "expectedText": "can-\nnot",
+      "text": "cannot"
+    },
+    {
+      "page": 5,
+      "start": 1796,
+      "end": 1804,
+      "expectedText": "can-\nnot",
+      "text": "cannot"
+    },
+    {
+      "page": 5,
+      "start": 1137,
+      "end": 1148,
+      "expectedText": "nec-\nessary",
+      "text": "necessary"
+    },
+    {
+      "page": 5,
+      "start": 1320,
+      "end": 1331,
+      "expectedText": "requir-\ning",
+      "text": "requiring"
+    },
+    {
+      "page": 5,
+      "start": 1441,
+      "end": 1451,
+      "expectedText": "con-\ntours",
+      "text": "contours"
+    },
+    {
+      "page": 5,
+      "start": 1857,
+      "end": 1873,
+      "expectedText": "ac -\ncommodation",
+      "text": "accommodation"
+    },
+    {
+      "page": 5,
+      "start": 1913,
+      "end": 1924,
+      "expectedText": "admis-\nsion",
+      "text": "admission"
+    },
+    {
+      "page": 5,
+      "start": 2034,
+      "end": 2047,
+      "expectedText": "pro-\ntections",
+      "text": "protections"
+    },
+    {
+      "page": 5,
+      "start": 2091,
+      "end": 2101,
+      "expectedText": "stat-\nutes",
+      "text": "statutes"
+    },
+    {
+      "page": 5,
+      "start": 2152,
+      "end": 2168,
+      "expectedText": "Re-\nhabilitation",
+      "text": "Rehabilitation"
+    },
+    {
+      "page": 6,
+      "start": 149,
+      "end": 158,
+      "expectedText": "fed-\neral",
+      "text": "federal"
+    },
+    {
+      "page": 6,
+      "start": 435,
+      "end": 443,
+      "expectedText": "al-\nmost",
+      "text": "almost"
+    },
+    {
+      "page": 6,
+      "start": 730,
+      "end": 744,
+      "expectedText": "un -\ncorrected",
+      "text": "uncorrected"
+    },
+    {
+      "page": 6,
+      "start": 1030,
+      "end": 1042,
+      "expectedText": "govern-\nment",
+      "text": "government"
+    },
+    {
+      "page": 6,
+      "start": 1092,
+      "end": 1106,
+      "expectedText": "incom-\npatible",
+      "text": "incompatible"
+    },
+    {
+      "page": 6,
+      "start": 1212,
+      "end": 1220,
+      "expectedText": "Ami-\ncus",
+      "text": "Amicus"
+    },
+    {
+      "page": 6,
+      "start": 1329,
+      "end": 1340,
+      "expectedText": "deci -\nsion",
+      "text": "decision"
+    },
+    {
+      "page": 6,
+      "start": 1450,
+      "end": 1459,
+      "expectedText": "de-\nfense",
+      "text": "defense"
+    },
+    {
+      "page": 6,
+      "start": 1507,
+      "end": 1520,
+      "expectedText": "obli-\ngations",
+      "text": "obligations"
+    },
+    {
+      "page": 6,
+      "start": 1690,
+      "end": 1700,
+      "expectedText": "hard-\nship",
+      "text": "hardship"
+    },
+    {
+      "page": 6,
+      "start": 1928,
+      "end": 1939,
+      "expectedText": "re -\nsolved",
+      "text": "resolved"
+    },
+    {
+      "page": 7,
+      "start": 195,
+      "end": 211,
+      "expectedText": "ac -\ncommodating",
+      "text": "accommodating"
+    },
+    {
+      "page": 7,
+      "start": 489,
+      "end": 498,
+      "expectedText": "mis-\ntake",
+      "text": "mistake"
+    },
+    {
+      "page": 7,
+      "start": 1864,
+      "end": 1878,
+      "expectedText": "success-\nfully",
+      "text": "successfully"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 37,
+      "end": 77,
+      "text": "2 DOE v. HOCHUL \nGORSUCH, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 2,
+      "start": 51,
+      "end": 109,
+      "text": "3  Cite as: 609 U. S. ____ (2026) \nGORSUCH, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 3,
+      "start": 44,
+      "end": 84,
+      "text": "4 DOE v. HOCHUL \nGORSUCH, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 4,
+      "start": 48,
+      "end": 106,
+      "text": "5  Cite as: 609 U. S. ____ (2026) \nGORSUCH, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 5,
+      "start": 24,
+      "end": 64,
+      "text": "6 DOE v. HOCHUL \nGORSUCH, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 6,
+      "start": 38,
+      "end": 96,
+      "text": "7  Cite as: 609 U. S. ____ (2026) \nGORSUCH, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 7,
+      "start": 42,
+      "end": 82,
+      "text": "8 DOE v. HOCHUL \nGORSUCH, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Clarence Thomas",
+      "Samuel A. Alito, Jr."
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

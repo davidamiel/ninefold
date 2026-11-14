@@ -314,8 +314,8 @@
           "canonical": "589 U.S. 423"
         },
         {
-          "start": 743,
-          "end": 749,
+          "start": 744,
+          "end": 750,
           "text": "ibid.,",
           "type": "record",
           "canonical": "ibid.,"
@@ -462,6 +462,13 @@
       "end": 392,
       "expectedText": "affliation",
       "text": "affiliation"
+    },
+    {
+      "page": 4,
+      "start": 1557,
+      "end": 1569,
+      "expectedText": "justifcation",
+      "text": "justification"
     }
   ],
   "voices": {

@@ -5,6 +5,7 @@ import hashlib
 import json
 import re
 import subprocess
+import unicodedata
 from pathlib import Path
 
 from generate import ROOT, load_job, local_path
@@ -17,8 +18,9 @@ class AlignmentReviewError(ValueError):
 
 
 def tokens(text):
-    return [(word, match.start(), match.end()) for match in re.finditer(r'[A-Za-z]+|\d+', text)
-            for word in number_words(match.group().lower())]
+    return [(word, match.start(), match.end()) for match in re.finditer(r'[^\W\d_]+|\d+', text)
+            for word in number_words(''.join(character for character in unicodedata.normalize('NFKD', match.group().casefold())
+                                            if not unicodedata.combining(character)))]
 
 
 def number_words(value):
@@ -47,10 +49,32 @@ def timing_pairs(expected, heard):
         if tag != 'replace':
             continue
         left_words, right_words = expected[a:b], heard[c:d]
+        joined = exact_join_pairs(left_words, right_words)
+        if joined:
+            result.update((a+left, c+right) for left, right in joined.items())
+            continue
         if joined_spelling(left_words, right_words):
             result.update((index, c) for index in range(a, b))
             continue
         result.update(close_spellings(expected, heard, a, b, c, d))
+    return result
+
+
+def exact_join_pairs(left, right):
+    """Match adjacent abbreviation/possessive joins without changing letters."""
+    if not left or not right or max(len(left), len(right)) > 8 or ''.join(left) != ''.join(right):
+        return {}
+    spans, cursor = [], 0
+    for index, word in enumerate(right):
+        spans.append((cursor, cursor+len(word), index))
+        cursor += len(word)
+    result, cursor = {}, 0
+    for index, word in enumerate(left):
+        match = next((heard for start, end, heard in spans if start <= cursor and cursor+len(word) <= end), None)
+        if match is None:
+            return {}
+        result[index] = match
+        cursor += len(word)
     return result
 
 
@@ -107,7 +131,7 @@ def sentence_cue(sentence, para, canonical, alignment, block_index):
     timed = [alignment['heard'][alignment['timing'][i]][1] for i in indexes if i in alignment['timing']]
     mapped = [alignment['mapping'][i] for i in indexes if i in alignment['mapping']]
     announcement = text.lstrip(' \t\n”’"\')].')
-    transition = bool(re.fullmatch(r'End footnote \d+\.', announcement))
+    transition = canonical['kind'] == 'footnote' and announcement == f'End footnote {canonical["label"]}.'
     if not timed or len(timed)/max(1, len(indexes)) < .5 or not mapped and not transition:
         raise AlignmentReviewError(block_index, f'Audio sentence needs review: block {block_index}: {text}')
     start, end = sentence_source_bounds(canonical, alignment['source'], mapped, transition)
@@ -126,7 +150,8 @@ def close_cue_gaps(cues):
         if i+1 < len(cues):
             cue['end'] = max(cue['end'], cues[i+1]['start'])
         if cue['end'] <= cue['start'] or i and cue['start'] < cues[i-1]['end']:
-            raise ValueError('Overlapping sentence timings require review')
+            previous = cues[i-1] if i and cue['start'] < cues[i-1]['end'] else cue
+            raise AlignmentReviewError(previous['paragraph'], f'Overlapping sentence timings require review: {cues[max(0, i-1):i+1]}')
 
 
 def align(body, narration, report, words):
@@ -211,6 +236,12 @@ class Transcriber:
                 if start <= (word['start']+word['end'])/2 < end]
 
 
+def save_words(path, words):
+    temporary = path.with_suffix('.tmp')
+    temporary.write_text(json.dumps(words)+'\n')
+    temporary.replace(path)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('job', type=Path)
@@ -237,6 +268,9 @@ def main():
         words = json.loads(cache.read_text())
     else:
         words = transcriber.words()
+        # Acoustic recognition is reusable even when a later text/timing check
+        # needs attention. Strict alignment and staging validation still follow.
+        save_words(cache, words)
     try:
         result, words = align_with_repairs(body, narration, report, words, transcriber.words)
     except AlignmentReviewError as error:
@@ -247,7 +281,7 @@ def main():
         except AlignmentReviewError as isolated_error:
             result, words = align_with_repairs(body, narration, report,
                                               isolated_error.words, fallback.contextual_words)
-    cache.write_text(json.dumps(words)+'\n')
+    save_words(cache, words)
     destination = local_path(folder/(args.voice+'-cues.json'), folder)
     destination.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n')
     print('Aligned reviewed recording:', document_id, args.voice, flush=True)

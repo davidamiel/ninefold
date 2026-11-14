@@ -1,0 +1,4247 @@
+{
+  "reviewed": true,
+  "documentId": "24-345-cc05184abe0d--17-1535",
+  "sourceDocumentId": "24-345-cc05184abe0d",
+  "sourceTextPath": "dist/data/docs/24-345-cc05184abe0d.json",
+  "sourceTextSha256": "b8f2ac552f5b403fc92d29fad067c6b3980e8c7cd4e3c1e6487ee4ba3c9567f0",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/9890b5e3d361983cdeb5137a.pdf",
+  "sourcePdfSha256": "741f6ce163bdb49751df7b96bed6004d85c2c7a3a37f6b2e11716c814d4c7ec5",
+  "title": "Dissent",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-06-11",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r47_m64o.pdf",
+  "sourceRange": {
+    "startPage": 17,
+    "startOffset": 1655,
+    "endPage": 39,
+    "endOffset": 308
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1655,
+          "end": 1776
+        },
+        {
+          "page": 18,
+          "start": 57,
+          "end": 720
+        }
+      ],
+      "citations": [
+        {
+          "start": 92,
+          "end": 104,
+          "text": "Ante, at 611",
+          "type": "reference",
+          "canonical": "Ante, at 611"
+        },
+        {
+          "start": 319,
+          "end": 332,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 720,
+          "end": 1168
+        }
+      ],
+      "citations": [
+        {
+          "start": 40,
+          "end": 53,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1168,
+          "end": 1169
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1170,
+          "end": 1171
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1172,
+          "end": 1475
+        }
+      ],
+      "citations": [
+        {
+          "start": 110,
+          "end": 179,
+          "text": "SEC v. Capital Gains Research Bureau, Inc., 375 U. S. 180, 186 (1963)",
+          "type": "reference",
+          "canonical": "SEC v. Capital Gains Research Bureau, Inc., 375 U. S. 180, 186 (1963)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "IAA",
+          "to": "I A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1475,
+          "end": 1893
+        },
+        {
+          "page": 19,
+          "start": 91,
+          "end": 454
+        }
+      ],
+      "citations": [
+        {
+          "start": 247,
+          "end": 272,
+          "text": "15 U. S. C. § 80a–1(b)(3)",
+          "type": "reference",
+          "canonical": "15 U. S. C. § 80a–1(b)(3)"
+        },
+        {
+          "start": 545,
+          "end": 555,
+          "text": "§ 80a–1(b)",
+          "type": "reference",
+          "canonical": "§ 80a–1(b)"
+        },
+        {
+          "start": 767,
+          "end": 779,
+          "text": "§ 80a– 18(i)",
+          "type": "reference",
+          "canonical": "§ 80a– 18(i)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "[the statute]",
+          "to": "the statute"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 19,
+          "start": 2047,
+          "end": 2153
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 456,
+          "end": 847
+        }
+      ],
+      "citations": [
+        {
+          "start": 316,
+          "end": 361,
+          "text": "§ 47(b), 54 Stat. 846 (ICA) (emphasis added);",
+          "type": "reference",
+          "canonical": "§ 47(b), 54 Stat. 846 (ICA) (emphasis added);"
+        },
+        {
+          "start": 362,
+          "end": 390,
+          "text": "§ 215(b), id., at 856 (IAA).",
+          "type": "reference",
+          "canonical": "§ 215(b), id., at 856 (IAA)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "IAA",
+          "to": "I A A"
+        },
+        {
+          "from": "[the ICA or the IAA]",
+          "to": "the I C A or the I A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 847,
+          "end": 1690
+        }
+      ],
+      "citations": [
+        {
+          "start": 26,
+          "end": 39,
+          "text": "Section 29(b)",
+          "type": "statute",
+          "canonical": "Section 29(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 122,
+          "end": 139,
+          "text": "See 48 Stat. 903.",
+          "type": "reference",
+          "canonical": "See 48 Stat. 903."
+        },
+        {
+          "start": 140,
+          "end": 153,
+          "text": "Section 29(b)",
+          "type": "statute",
+          "canonical": "Section 29(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 328,
+          "end": 367,
+          "text": "Aaron v. SEC, 446 U. S. 680, 711 (1980)",
+          "type": "reference",
+          "canonical": "Aaron v. SEC, 446 U. S. 680, 711 (1980)"
+        },
+        {
+          "start": 368,
+          "end": 425,
+          "text": "(Blackmun, J., concurring in part and dissenting in part)",
+          "type": "reference",
+          "canonical": "(Blackmun, J., concurring in part and dissenting in part)"
+        },
+        {
+          "start": 427,
+          "end": 491,
+          "text": "see Brief for Securities-Law Scholars et al. as Amici Curiae 6–8",
+          "type": "reference",
+          "canonical": "see Brief for Securities-Law Scholars et al. as Amici Curiae 6–8"
+        },
+        {
+          "start": 599,
+          "end": 615,
+          "text": ", 396 U. S. 375,",
+          "type": "reference",
+          "canonical": ", 396 U. S. 375,"
+        },
+        {
+          "start": 700,
+          "end": 707,
+          "text": "§ 29(b)",
+          "type": "statute",
+          "canonical": "§ 29(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 827,
+          "end": 842,
+          "text": "Id., at 387–388",
+          "type": "reference",
+          "canonical": "Id., at 387–388"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "IAA",
+          "to": "I A A"
+        },
+        {
+          "from": "ha[d]",
+          "to": "had"
+        },
+        {
+          "from": "[ICA]",
+          "to": "I C A"
+        },
+        {
+          "from": "[IAA]",
+          "to": "I A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1690,
+          "end": 2045
+        },
+        {
+          "page": 20,
+          "start": 57,
+          "end": 402
+        }
+      ],
+      "citations": [
+        {
+          "start": 108,
+          "end": 129,
+          "text": ", 444 U. S. 11 (1979)",
+          "type": "reference",
+          "canonical": ", 444 U. S. 11 (1979)"
+        },
+        {
+          "start": 153,
+          "end": 164,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "Section 215",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 326,
+          "end": 336,
+          "text": "Id., at 18",
+          "type": "reference",
+          "canonical": "Id., at 18"
+        },
+        {
+          "start": 606,
+          "end": 619,
+          "text": "Id., at 15–16",
+          "type": "reference",
+          "canonical": "Id., at 15–16"
+        },
+        {
+          "start": 620,
+          "end": 699,
+          "text": "(citing, inter alia, Touche Ross & Co. v. Redington, 442 U. S. 560, 568 (1979))",
+          "type": "reference",
+          "canonical": "(citing, inter alia, Touche Ross & Co. v. Redington, 442 U. S. 560, 568 (1979))"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IAA",
+          "to": "I A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 402,
+          "end": 1681
+        }
+      ],
+      "citations": [
+        {
+          "start": 48,
+          "end": 59,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "Section 215",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 126,
+          "end": 149,
+          "text": "See 444 U. S., at 18–19",
+          "type": "reference",
+          "canonical": "See 444 U. S., at 18–19"
+        },
+        {
+          "start": 190,
+          "end": 201,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "Section 215",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 424,
+          "end": 437,
+          "text": "Id., at 16–17",
+          "type": "reference",
+          "canonical": "Id., at 16–17"
+        },
+        {
+          "start": 487,
+          "end": 492,
+          "text": "§ 215",
+          "type": "statute",
+          "canonical": "§ 215",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 608,
+          "end": 618,
+          "text": "Id., at 18",
+          "type": "reference",
+          "canonical": "Id., at 18"
+        },
+        {
+          "start": 632,
+          "end": 643,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "Section 215",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 684,
+          "end": 689,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 761,
+          "end": 766,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 978,
+          "end": 1000,
+          "text": "TAMA, 444 U. S., at 18",
+          "type": "reference",
+          "canonical": "TAMA, 444 U. S., at 18"
+        },
+        {
+          "start": 1002,
+          "end": 1016,
+          "text": "see id., at 19",
+          "type": "reference",
+          "canonical": "see id., at 19"
+        },
+        {
+          "start": 1017,
+          "end": 1050,
+          "text": "(citing Mills, 396 U. S., at 388)",
+          "type": "reference",
+          "canonical": "(citing Mills, 396 U. S., at 388)"
+        },
+        {
+          "start": 1096,
+          "end": 1101,
+          "text": "§ 215",
+          "type": "statute",
+          "canonical": "§ 215",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1262,
+          "end": 1278,
+          "text": "444 U. S., at 19",
+          "type": "reference",
+          "canonical": "444 U. S., at 19"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "proscribe[d]",
+          "to": "proscribed"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        },
+        {
+          "from": "[of]",
+          "to": "of"
+        },
+        {
+          "from": "[b]y",
+          "to": "by"
+        },
+        {
+          "from": "contemplate[d]",
+          "to": "contemplated"
+        },
+        {
+          "from": "[a]",
+          "to": "a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1681,
+          "end": 1817
+        }
+      ],
+      "citations": [
+        {
+          "start": 123,
+          "end": 134,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "Section 215",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1866,
+          "end": 2218
+        }
+      ],
+      "citations": [
+        {
+          "start": 277,
+          "end": 304,
+          "text": ", 441 U. S. 677, 730 (1979)",
+          "type": "reference",
+          "canonical": ", 441 U. S. 677, 730 (1979)"
+        },
+        {
+          "start": 307,
+          "end": 329,
+          "text": "TAMA, 444 U. S., at 25",
+          "type": "reference",
+          "canonical": "TAMA, 444 U. S., at 25"
+        },
+        {
+          "start": 330,
+          "end": 350,
+          "text": "(concurring opinion)",
+          "type": "reference",
+          "canonical": "(concurring opinion)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[his]",
+          "to": "his"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1818,
+          "end": 1864
+        },
+        {
+          "page": 21,
+          "start": 91,
+          "end": 945
+        }
+      ],
+      "citations": [
+        {
+          "start": 169,
+          "end": 179,
+          "text": "Id., at 20",
+          "type": "reference",
+          "canonical": "Id., at 20"
+        },
+        {
+          "start": 180,
+          "end": 196,
+          "text": "(emphasis added)",
+          "type": "reference",
+          "canonical": "(emphasis added)"
+        },
+        {
+          "start": 198,
+          "end": 215,
+          "text": "see id., at 29–33",
+          "type": "reference",
+          "canonical": "see id., at 29–33"
+        },
+        {
+          "start": 216,
+          "end": 239,
+          "text": "(White, J., dissenting)",
+          "type": "reference",
+          "canonical": "(White, J., dissenting)"
+        },
+        {
+          "start": 475,
+          "end": 485,
+          "text": "Id., at 20",
+          "type": "reference",
+          "canonical": "Id., at 20"
+        },
+        {
+          "start": 486,
+          "end": 502,
+          "text": "(emphasis added)",
+          "type": "reference",
+          "canonical": "(emphasis added)"
+        },
+        {
+          "start": 628,
+          "end": 638,
+          "text": "Id., at 21",
+          "type": "reference",
+          "canonical": "Id., at 21"
+        },
+        {
+          "start": 639,
+          "end": 679,
+          "text": "(quoting Touche Ross, 442 U. S., at 572)",
+          "type": "reference",
+          "canonical": "(quoting Touche Ross, 442 U. S., at 572)"
+        },
+        {
+          "start": 874,
+          "end": 896,
+          "text": "TAMA, 444 U. S., at 22",
+          "type": "reference",
+          "canonical": "TAMA, 444 U. S., at 22"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "IAA",
+          "to": "I A A"
+        },
+        {
+          "from": "authoriz[e]",
+          "to": "authorize"
+        },
+        {
+          "from": "[IAA]",
+          "to": "I A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 945,
+          "end": 1507
+        }
+      ],
+      "citations": [
+        {
+          "start": 65,
+          "end": 78,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 146,
+          "end": 159,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 209,
+          "end": 220,
+          "text": "Section 215",
+          "type": "statute",
+          "canonical": "Section 215",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 233,
+          "end": 288,
+          "text": "See Smith v. City of Jackson, 544 U. S. 228, 233 (2005)",
+          "type": "reference",
+          "canonical": "See Smith v. City of Jackson, 544 U. S. 228, 233 (2005)"
+        },
+        {
+          "start": 289,
+          "end": 313,
+          "text": "(opinion of Stevens, J.)",
+          "type": "reference",
+          "canonical": "(opinion of Stevens, J.)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "IAA",
+          "to": "I A A"
+        },
+        {
+          "from": "[W]hen",
+          "to": "When"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1507,
+          "end": 1677
+        }
+      ],
+      "citations": [
+        {
+          "start": 41,
+          "end": 54,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 152,
+          "end": 168,
+          "text": "See ante, at 619",
+          "type": "reference",
+          "canonical": "See ante, at 619"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1681,
+          "end": 2273
+        }
+      ],
+      "citations": [
+        {
+          "start": 197,
+          "end": 209,
+          "text": "Ante, at 620",
+          "type": "reference",
+          "canonical": "Ante, at 620"
+        },
+        {
+          "start": 210,
+          "end": 242,
+          "text": "(quoting TAMA, 444 U. S., at 24)",
+          "type": "reference",
+          "canonical": "(quoting TAMA, 444 U. S., at 24)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "IAA",
+          "to": "I A A"
+        },
+        {
+          "from": "contract[s]",
+          "to": "contracts"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 22,
+          "start": 58,
+          "end": 59
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 60,
+          "end": 936
+        }
+      ],
+      "citations": [
+        {
+          "start": 74,
+          "end": 87,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 138,
+          "end": 151,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 853,
+          "end": 876,
+          "text": "15 U. S. C. § 80a–46(b)",
+          "type": "reference",
+          "canonical": "15 U. S. C. § 80a–46(b)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "[the ICA]",
+          "to": "the I C A"
+        },
+        {
+          "from": "[the ICA]",
+          "to": "the I C A"
+        },
+        {
+          "from": "[the ICA]",
+          "to": "the I C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 936,
+          "end": 1416
+        }
+      ],
+      "citations": [
+        {
+          "start": 59,
+          "end": 72,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 256,
+          "end": 270,
+          "text": "§ 80a–46(b)(1)",
+          "type": "reference",
+          "canonical": "§ 80a–46(b)(1)"
+        },
+        {
+          "start": 464,
+          "end": 479,
+          "text": "§ 80a– 46(b)(2)",
+          "type": "reference",
+          "canonical": "§ 80a– 46(b)(2)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1416,
+          "end": 1889
+        },
+        {
+          "page": 23,
+          "start": 91,
+          "end": 447
+        }
+      ],
+      "citations": [
+        {
+          "start": 270,
+          "end": 302,
+          "text": "S. Rep. No. 96–958, p. 14 (1980)",
+          "type": "reference",
+          "canonical": "S. Rep. No. 96–958, p. 14 (1980)"
+        },
+        {
+          "start": 304,
+          "end": 349,
+          "text": "see also H. R. Rep. No. 96–1341, p. 29 (1980)",
+          "type": "reference",
+          "canonical": "see also H. R. Rep. No. 96–1341, p. 29 (1980)"
+        },
+        {
+          "start": 724,
+          "end": 749,
+          "text": "S. Rep. No. 96–958, at 14",
+          "type": "reference",
+          "canonical": "S. Rep. No. 96–958, at 14"
+        },
+        {
+          "start": 751,
+          "end": 789,
+          "text": "see also H. R. Rep. No. 96–1341, at 28",
+          "type": "reference",
+          "canonical": "see also H. R. Rep. No. 96–1341, at 28"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the amendments]",
+          "to": "the amendments"
+        },
+        {
+          "from": "[were]",
+          "to": "were"
+        },
+        {
+          "from": "[original statute]",
+          "to": "original statute"
+        },
+        {
+          "from": "[w]ith",
+          "to": "with"
+        },
+        {
+          "from": "[Securities and Exchange]",
+          "to": "Securities and Exchange"
+        },
+        {
+          "from": "[could not]",
+          "to": "could not"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 23,
+          "start": 447,
+          "end": 449
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 450,
+          "end": 1079
+        }
+      ],
+      "citations": [
+        {
+          "start": 179,
+          "end": 231,
+          "text": "See Alexander v. Sandoval, 532 U. S. 275, 288 (2001)",
+          "type": "reference",
+          "canonical": "See Alexander v. Sandoval, 532 U. S. 275, 288 (2001)"
+        },
+        {
+          "start": 379,
+          "end": 429,
+          "text": "United States v. Hansen, 599 U. S. 762, 775 (2023)",
+          "type": "reference",
+          "canonical": "United States v. Hansen, 599 U. S. 762, 775 (2023)"
+        },
+        {
+          "start": 579,
+          "end": 627,
+          "text": "Lorillard v. Pons, 434 U. S. 575, 580–581 (1978)",
+          "type": "reference",
+          "canonical": "Lorillard v. Pons, 434 U. S. 575, 580–581 (1978)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the]",
+          "to": "the"
+        },
+        {
+          "from": "[the words]",
+          "to": "the words"
+        },
+        {
+          "from": "presum[e]",
+          "to": "presume"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1079,
+          "end": 1274
+        }
+      ],
+      "citations": [
+        {
+          "start": 45,
+          "end": 58,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 159,
+          "end": 172,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "U. S. Code",
+          "to": "United States Code"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1615,
+          "end": 2073
+        }
+      ],
+      "citations": [
+        {
+          "start": 128,
+          "end": 146,
+          "text": "Ante, at 619, n. 4",
+          "type": "reference",
+          "canonical": "Ante, at 619, n. 4"
+        },
+        {
+          "start": 286,
+          "end": 299,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 437,
+          "end": 457,
+          "text": "See ante, at 613–618",
+          "type": "reference",
+          "canonical": "See ante, at 613–618"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1275,
+          "end": 1439
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1439,
+          "end": 1613
+        },
+        {
+          "page": 24,
+          "start": 57,
+          "end": 300
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 110,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 129,
+          "end": 141,
+          "text": "Ante, at 619",
+          "type": "reference",
+          "canonical": "Ante, at 619"
+        },
+        {
+          "start": 312,
+          "end": 324,
+          "text": "Ante, at 620",
+          "type": "reference",
+          "canonical": "Ante, at 620"
+        },
+        {
+          "start": 374,
+          "end": 387,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "renovation[s]",
+          "to": "renovations"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 24,
+          "start": 300,
+          "end": 301
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 302,
+          "end": 550
+        }
+      ],
+      "citations": [
+        {
+          "start": 21,
+          "end": 34,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 173,
+          "end": 186,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 550,
+          "end": 1232
+        }
+      ],
+      "citations": [
+        {
+          "start": 75,
+          "end": 88,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 231,
+          "end": 247,
+          "text": "See ante, at 619",
+          "type": "reference",
+          "canonical": "See ante, at 619"
+        },
+        {
+          "start": 557,
+          "end": 570,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "i. e.",
+          "to": "that is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1232,
+          "end": 1676
+        }
+      ],
+      "citations": [
+        {
+          "start": 177,
+          "end": 203,
+          "text": "See TAMA, 444 U. S., at 19",
+          "type": "reference",
+          "canonical": "See TAMA, 444 U. S., at 19"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1676,
+          "end": 1972
+        },
+        {
+          "page": 25,
+          "start": 91,
+          "end": 812
+        }
+      ],
+      "citations": [
+        {
+          "start": 167,
+          "end": 180,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 296,
+          "end": 323,
+          "text": "Sandoval, 532 U. S., at 288",
+          "type": "reference",
+          "canonical": "Sandoval, 532 U. S., at 288"
+        },
+        {
+          "start": 325,
+          "end": 389,
+          "text": "see, e. g., Thompson v. Thompson, 484 U. S. 174, 177, 183 (1988)",
+          "type": "reference",
+          "canonical": "see, e. g., Thompson v. Thompson, 484 U. S. 174, 177, 183 (1988)"
+        },
+        {
+          "start": 429,
+          "end": 448,
+          "text": "28 U. S. C. § 1738A",
+          "type": "statute",
+          "canonical": "28 U. S. C. § 1738A",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 645,
+          "end": 658,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 778,
+          "end": 790,
+          "text": "ante, at 615",
+          "type": "reference",
+          "canonical": "ante, at 615"
+        },
+        {
+          "start": 791,
+          "end": 846,
+          "text": "(some alterations and internal quotation marks omitted)",
+          "type": "reference",
+          "canonical": "(some alterations and internal quotation marks omitted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "28 U. S. C. § 1738A",
+          "to": "title twenty-eight, section seventeen thirty-eight A"
+        },
+        {
+          "from": "§",
+          "to": "section"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 812,
+          "end": 2088
+        }
+      ],
+      "citations": [
+        {
+          "start": 135,
+          "end": 147,
+          "text": "ante, at 615",
+          "type": "reference",
+          "canonical": "ante, at 615"
+        },
+        {
+          "start": 233,
+          "end": 283,
+          "text": "See 7 Oxford English Dictionary 1040 (2d ed. 1989)",
+          "type": "reference",
+          "canonical": "See 7 Oxford English Dictionary 1040 (2d ed. 1989)"
+        },
+        {
+          "start": 379,
+          "end": 436,
+          "text": "Webster's New International Dictionary 1287 (2d ed. 1954)",
+          "type": "reference",
+          "canonical": "Webster's New International Dictionary 1287 (2d ed. 1954)"
+        },
+        {
+          "start": 844,
+          "end": 962,
+          "text": "1 H. Black, Rescission of Contracts and Cancellation of Written Instruments § 1, p. 4 (1916) (Black) (emphasis added);",
+          "type": "reference",
+          "canonical": "1 H. Black, Rescission of Contracts and Cancellation of Written Instruments § 1, p. 4 (1916) (Black) (emphasis added);"
+        },
+        {
+          "start": 963,
+          "end": 995,
+          "text": "cf. TAMA, 444 U. S., at 19, n. 8",
+          "type": "reference",
+          "canonical": "cf. TAMA, 444 U. S., at 19, n. 8"
+        },
+        {
+          "start": 1087,
+          "end": 1092,
+          "text": "§ 215",
+          "type": "statute",
+          "canonical": "§ 215",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "[A]",
+          "to": "A"
+        },
+        {
+          "from": "remit[ting]",
+          "to": "remitting"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 25,
+          "start": 2092,
+          "end": 2316
+        },
+        {
+          "page": 26,
+          "start": 1850,
+          "end": 2138
+        }
+      ],
+      "citations": [
+        {
+          "start": 247,
+          "end": 265,
+          "text": "Ante, at 616, n. 2",
+          "type": "reference",
+          "canonical": "Ante, at 616, n. 2"
+        },
+        {
+          "start": 266,
+          "end": 286,
+          "text": "(quoting Black § 14)",
+          "type": "reference",
+          "canonical": "(quoting Black § 14)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[e]lsewhere",
+          "to": "elsewhere"
+        },
+        {
+          "from": "[Black's]",
+          "to": "Black's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 58,
+          "end": 988
+        }
+      ],
+      "citations": [
+        {
+          "start": 104,
+          "end": 132,
+          "text": "See Brief for Respondents 2.",
+          "type": "reference",
+          "canonical": "See Brief for Respondents 2."
+        },
+        {
+          "start": 179,
+          "end": 207,
+          "text": "See Brief for Petitioners 2.",
+          "type": "reference",
+          "canonical": "See Brief for Petitioners 2."
+        },
+        {
+          "start": 661,
+          "end": 677,
+          "text": "Section 47(b)(2)",
+          "type": "statute",
+          "canonical": "Section 47(b)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 988,
+          "end": 1614
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 88,
+          "end": 104,
+          "text": "Section 47(b)(2)",
+          "type": "statute",
+          "canonical": "Section 47(b)(2)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 198,
+          "end": 214,
+          "text": "Section 47(b)(1)",
+          "type": "statute",
+          "canonical": "Section 47(b)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 326,
+          "end": 339,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 465,
+          "end": 478,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1614,
+          "end": 1615
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1616,
+          "end": 1850
+        },
+        {
+          "page": 27,
+          "start": 91,
+          "end": 615
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 150,
+          "end": 166,
+          "text": "Ante, at 616–618",
+          "type": "reference",
+          "canonical": "Ante, at 616–618"
+        },
+        {
+          "start": 332,
+          "end": 344,
+          "text": "Ante, at 616",
+          "type": "reference",
+          "canonical": "Ante, at 616"
+        },
+        {
+          "start": 466,
+          "end": 479,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 557,
+          "end": 578,
+          "text": "532 U. S., at 289–290",
+          "type": "reference",
+          "canonical": "532 U. S., at 289–290"
+        },
+        {
+          "start": 589,
+          "end": 602,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 676,
+          "end": 757,
+          "text": "See Oxford Univ. Bank v. Lansuppe Feeder, LLC , 933 F. 3d 99, 105–106 (CA2 2019).",
+          "type": "reference",
+          "canonical": "See Oxford Univ. Bank v. Lansuppe Feeder, LLC , 933 F. 3d 99, 105–106 (CA2 2019)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "empower[ed]",
+          "to": "empowered"
+        },
+        {
+          "from": "[the relevant]",
+          "to": "the relevant"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 615,
+          "end": 1595
+        }
+      ],
+      "citations": [
+        {
+          "start": 190,
+          "end": 203,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 205,
+          "end": 221,
+          "text": "See ante, at 617",
+          "type": "reference",
+          "canonical": "See ante, at 617"
+        },
+        {
+          "start": 222,
+          "end": 262,
+          "text": "(quoting Touche Ross, 442 U. S., at 572)",
+          "type": "reference",
+          "canonical": "(quoting Touche Ross, 442 U. S., at 572)"
+        },
+        {
+          "start": 423,
+          "end": 464,
+          "text": "See 15 U. S. C. §§ 80a–35(b), 80a– 29(h).",
+          "type": "reference",
+          "canonical": "See 15 U. S. C. §§ 80a–35(b), 80a– 29(h)."
+        },
+        {
+          "start": 950,
+          "end": 981,
+          "text": "See 444 U. S., at 20, and n. 10",
+          "type": "reference",
+          "canonical": "See 444 U. S., at 20, and n. 10"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "IAA",
+          "to": "I A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1595,
+          "end": 2001
+        },
+        {
+          "page": 28,
+          "start": 57,
+          "end": 58
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 28,
+          "start": 58,
+          "end": 61
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 62,
+          "end": 508
+        }
+      ],
+      "citations": [
+        {
+          "start": 91,
+          "end": 104,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 28,
+          "start": 508,
+          "end": 509
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 510,
+          "end": 1202
+        }
+      ],
+      "citations": [
+        {
+          "start": 47,
+          "end": 60,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 123,
+          "end": 135,
+          "text": "ante, at 620",
+          "type": "reference",
+          "canonical": "ante, at 620"
+        },
+        {
+          "start": 536,
+          "end": 561,
+          "text": "S. Rep. No. 96–958, at 14",
+          "type": "reference",
+          "canonical": "S. Rep. No. 96–958, at 14"
+        },
+        {
+          "start": 563,
+          "end": 601,
+          "text": "see also H. R. Rep. No. 96–1341, at 29",
+          "type": "reference",
+          "canonical": "see also H. R. Rep. No. 96–1341, at 29"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "[the amendments]",
+          "to": "the amendments"
+        },
+        {
+          "from": "[were]",
+          "to": "were"
+        },
+        {
+          "from": "[ICA]",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1202,
+          "end": 1911
+        },
+        {
+          "page": 29,
+          "start": 122,
+          "end": 456
+        }
+      ],
+      "citations": [
+        {
+          "start": 338,
+          "end": 350,
+          "text": "Ante, at 616",
+          "type": "reference",
+          "canonical": "Ante, at 616"
+        },
+        {
+          "start": 709,
+          "end": 734,
+          "text": "S. Rep. No. 96–958, at 14",
+          "type": "reference",
+          "canonical": "S. Rep. No. 96–958, at 14"
+        },
+        {
+          "start": 736,
+          "end": 765,
+          "text": "H. R. Rep. No. 96–1341, at 28",
+          "type": "reference",
+          "canonical": "H. R. Rep. No. 96–1341, at 28"
+        },
+        {
+          "start": 907,
+          "end": 912,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 914,
+          "end": 948,
+          "text": "see also S. Rep. No. 96–958, at 14",
+          "type": "reference",
+          "canonical": "see also S. Rep. No. 96–958, at 14"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "[w]ith",
+          "to": "with"
+        },
+        {
+          "from": "[could not]",
+          "to": "could not"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 456,
+          "end": 1703
+        }
+      ],
+      "citations": [
+        {
+          "start": 412,
+          "end": 441,
+          "text": "H. R. Rep. No. 96–1341, at 28",
+          "type": "reference",
+          "canonical": "H. R. Rep. No. 96–1341, at 28"
+        },
+        {
+          "start": 723,
+          "end": 761,
+          "text": "H. R. Rep. No. 96–1341, at 28–29, n. 6",
+          "type": "reference",
+          "canonical": "H. R. Rep. No. 96–1341, at 28–29, n. 6"
+        },
+        {
+          "start": 938,
+          "end": 948,
+          "text": "Id., at 29",
+          "type": "reference",
+          "canonical": "Id., at 29"
+        },
+        {
+          "start": 949,
+          "end": 965,
+          "text": "(emphasis added)",
+          "type": "reference",
+          "canonical": "(emphasis added)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "i. e.",
+          "to": "that is"
+        },
+        {
+          "from": "[had]",
+          "to": "had"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 1703,
+          "end": 2185
+        },
+        {
+          "page": 30,
+          "start": 57,
+          "end": 502
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 94,
+          "end": 116,
+          "text": ", 504 U. S. 255 (1992)",
+          "type": "reference",
+          "canonical": ", 504 U. S. 255 (1992)"
+        },
+        {
+          "start": 402,
+          "end": 413,
+          "text": "Id., at 269",
+          "type": "reference",
+          "canonical": "Id., at 269"
+        },
+        {
+          "start": 704,
+          "end": 717,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 846,
+          "end": 888,
+          "text": "H. R. Rep. No. 96–1341, at 28–29, and n. 6",
+          "type": "reference",
+          "canonical": "H. R. Rep. No. 96–1341, at 28–29, and n. 6"
+        },
+        {
+          "start": 890,
+          "end": 924,
+          "text": "see also S. Rep. No. 96–958, at 14",
+          "type": "reference",
+          "canonical": "see also S. Rep. No. 96–958, at 14"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[prevailing judicial interpretation]",
+          "to": "prevailing judicial interpretation"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 502,
+          "end": 1093
+        }
+      ],
+      "citations": [
+        {
+          "start": 303,
+          "end": 315,
+          "text": "Ante, at 622",
+          "type": "reference",
+          "canonical": "Ante, at 622"
+        },
+        {
+          "start": 565,
+          "end": 590,
+          "text": "S. Rep. No. 96–958, at 14",
+          "type": "reference",
+          "canonical": "S. Rep. No. 96–958, at 14"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1580,
+          "end": 2240
+        }
+      ],
+      "citations": [
+        {
+          "start": 201,
+          "end": 214,
+          "text": "Section 36(a)",
+          "type": "statute",
+          "canonical": "Section 36(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 261,
+          "end": 274,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 276,
+          "end": 288,
+          "text": "Ante, at 622",
+          "type": "reference",
+          "canonical": "Ante, at 622"
+        },
+        {
+          "start": 289,
+          "end": 328,
+          "text": "(quoting H. R. Rep. No. 96–1341, at 29)",
+          "type": "reference",
+          "canonical": "(quoting H. R. Rep. No. 96–1341, at 29)"
+        },
+        {
+          "start": 405,
+          "end": 418,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 522,
+          "end": 535,
+          "text": "Section 36(a)",
+          "type": "statute",
+          "canonical": "Section 36(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 649,
+          "end": 659,
+          "text": "Id., at 29",
+          "type": "reference",
+          "canonical": "Id., at 29"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        },
+        {
+          "from": "[i]n",
+          "to": "in"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1095,
+          "end": 1578
+        },
+        {
+          "page": 31,
+          "start": 122,
+          "end": 900
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 189,
+          "text": "Ante, at 621–622",
+          "type": "reference",
+          "canonical": "Ante, at 621–622"
+        },
+        {
+          "start": 356,
+          "end": 369,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 371,
+          "end": 376,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 409,
+          "end": 422,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 526,
+          "end": 555,
+          "text": "H. R. Rep. No. 96–1341, at 27",
+          "type": "reference",
+          "canonical": "H. R. Rep. No. 96–1341, at 27"
+        },
+        {
+          "start": 557,
+          "end": 586,
+          "text": "see S. Rep. No. 96–958, at 10",
+          "type": "reference",
+          "canonical": "see S. Rep. No. 96–958, at 10"
+        },
+        {
+          "start": 744,
+          "end": 756,
+          "text": "Ante, at 622",
+          "type": "reference",
+          "canonical": "Ante, at 622"
+        },
+        {
+          "start": 757,
+          "end": 773,
+          "text": "(emphasis added)",
+          "type": "reference",
+          "canonical": "(emphasis added)"
+        },
+        {
+          "start": 916,
+          "end": 932,
+          "text": "See n. 5, supra.",
+          "type": "reference",
+          "canonical": "See n. 5, supra."
+        },
+        {
+          "start": 967,
+          "end": 980,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1124,
+          "end": 1143,
+          "text": "See Black § 1, p. 4",
+          "type": "reference",
+          "canonical": "See Black § 1, p. 4"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ignor[e]",
+          "to": "ignore"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        },
+        {
+          "from": "confirm[s]",
+          "to": "confirms"
+        },
+        {
+          "from": "[A]",
+          "to": "A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 900,
+          "end": 1320
+        }
+      ],
+      "citations": [
+        {
+          "start": 142,
+          "end": 155,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 216,
+          "end": 229,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 336,
+          "end": 365,
+          "text": "See TAMA, 444 U. S., at 18–19",
+          "type": "reference",
+          "canonical": "See TAMA, 444 U. S., at 18–19"
+        },
+        {
+          "start": 367,
+          "end": 405,
+          "text": "H. R. Rep. No. 96–1341, at 28–29, n. 6",
+          "type": "reference",
+          "canonical": "H. R. Rep. No. 96–1341, at 28–29, n. 6"
+        },
+        {
+          "start": 406,
+          "end": 419,
+          "text": "(citing TAMA)",
+          "type": "reference",
+          "canonical": "(citing TAMA)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 1320,
+          "end": 1592
+        }
+      ],
+      "citations": [
+        {
+          "start": 21,
+          "end": 33,
+          "text": "ante, at 623",
+          "type": "reference",
+          "canonical": "ante, at 623"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[o]ne",
+          "to": "one"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 31,
+          "start": 1592,
+          "end": 1593
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 1594,
+          "end": 2079
+        },
+        {
+          "page": 32,
+          "start": 57,
+          "end": 479
+        }
+      ],
+      "citations": [
+        {
+          "start": 220,
+          "end": 245,
+          "text": "See ante, at 620–621, 624",
+          "type": "reference",
+          "canonical": "See ante, at 620–621, 624"
+        },
+        {
+          "start": 441,
+          "end": 453,
+          "text": "ante, at 621",
+          "type": "reference",
+          "canonical": "ante, at 621"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "divin[e]",
+          "to": "divine"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "7",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1772,
+          "end": 2148
+        }
+      ],
+      "citations": [
+        {
+          "start": 106,
+          "end": 128,
+          "text": "see ante, at 619, n. 4",
+          "type": "reference",
+          "canonical": "see ante, at 619, n. 4"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 32,
+          "start": 481,
+          "end": 482
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 483,
+          "end": 1462
+        }
+      ],
+      "citations": [
+        {
+          "start": 183,
+          "end": 195,
+          "text": "ante, at 624",
+          "type": "reference",
+          "canonical": "ante, at 624"
+        },
+        {
+          "start": 311,
+          "end": 421,
+          "text": "See S. Breyer, On the Uses of Legislative History in Interpreting Statutes, 65 S. Cal. L. Rev. 845, 846 (1992)",
+          "type": "reference",
+          "canonical": "See S. Breyer, On the Uses of Legislative History in Interpreting Statutes, 65 S. Cal. L. Rev. 845, 846 (1992)"
+        },
+        {
+          "start": 682,
+          "end": 815,
+          "text": "see also P. Wald, Some Observations on the Use of Legislative History in the 1981 Supreme Court Term, 68 Iowa L. Rev. 195, 197 (1983)",
+          "type": "reference",
+          "canonical": "see also P. Wald, Some Observations on the Use of Legislative History in the 1981 Supreme Court Term, 68 Iowa L. Rev. 195, 197 (1983)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the Court]",
+          "to": "the Court"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1462,
+          "end": 1770
+        },
+        {
+          "page": 33,
+          "start": 122,
+          "end": 462
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 126,
+          "text": "see, e. g., ante, at 624",
+          "type": "reference",
+          "canonical": "see, e. g., ante, at 624"
+        },
+        {
+          "start": 439,
+          "end": 499,
+          "text": "Learning Resources, Inc. v. Trump, 607 U. S. 229, 241 (2026)",
+          "type": "reference",
+          "canonical": "Learning Resources, Inc. v. Trump, 607 U. S. 229, 241 (2026)"
+        },
+        {
+          "start": 501,
+          "end": 550,
+          "text": "Moore v. Harper, 600 U. S. 1, 21–22, 26–27 (2023)",
+          "type": "reference",
+          "canonical": "Moore v. Harper, 600 U. S. 1, 21–22, 26–27 (2023)"
+        },
+        {
+          "start": 552,
+          "end": 643,
+          "text": "U. S. Term Limits, Inc. v. Thornton, 514 U. S. 779, 789–822, 832–838, and nn. 23, 24 (1995)",
+          "type": "reference",
+          "canonical": "U. S. Term Limits, Inc. v. Thornton, 514 U. S. 779, 789–822, 832–838, and nn. 23, 24 (1995)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 462,
+          "end": 1428
+        }
+      ],
+      "citations": [
+        {
+          "start": 262,
+          "end": 296,
+          "text": "Breyer, 65 S. Cal. L. Rev., at 848",
+          "type": "reference",
+          "canonical": "Breyer, 65 S. Cal. L. Rev., at 848"
+        },
+        {
+          "start": 564,
+          "end": 576,
+          "text": "Ante, at 611",
+          "type": "reference",
+          "canonical": "Ante, at 611"
+        },
+        {
+          "start": 578,
+          "end": 639,
+          "text": "see also Brown v. United States, 8 Cranch 110, 128–129 (1814)",
+          "type": "reference",
+          "canonical": "see also Brown v. United States, 8 Cranch 110, 128–129 (1814)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[A]ll",
+          "to": "All"
+        },
+        {
+          "from": "[are]",
+          "to": "are"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 1428,
+          "end": 1985
+        }
+      ],
+      "citations": [
+        {
+          "start": 506,
+          "end": 540,
+          "text": "Breyer, 65 S. Cal. L. Rev., at 861",
+          "type": "reference",
+          "canonical": "Breyer, 65 S. Cal. L. Rev., at 861"
+        },
+        {
+          "start": 541,
+          "end": 557,
+          "text": "(emphasis added)",
+          "type": "reference",
+          "canonical": "(emphasis added)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 1985,
+          "end": 2156
+        },
+        {
+          "page": 34,
+          "start": 57,
+          "end": 906
+        }
+      ],
+      "citations": [
+        {
+          "start": 227,
+          "end": 258,
+          "text": "see Sandoval, 532 U. S., at 287",
+          "type": "reference",
+          "canonical": "see Sandoval, 532 U. S., at 287"
+        },
+        {
+          "start": 259,
+          "end": 304,
+          "text": "(citing Cort v. Ash, 422 U. S. 66, 78 (1975))",
+          "type": "reference",
+          "canonical": "(citing Cort v. Ash, 422 U. S. 66, 78 (1975))"
+        },
+        {
+          "start": 434,
+          "end": 508,
+          "text": "See Northwest Airlines, Inc. v. Transport Workers, 451 U. S. 77, 91 (1981)",
+          "type": "reference",
+          "canonical": "See Northwest Airlines, Inc. v. Transport Workers, 451 U. S. 77, 91 (1981)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "swor[e]",
+          "to": "swore"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "8",
+      "spans": [
+        {
+          "page": 34,
+          "start": 1048,
+          "end": 2550
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 112,
+          "text": "Morse v. Republican Party of Va., 517 U. S. 186, 232–234 (1996) (opinion of Stevens, J., joined by Ginsburg, J.)",
+          "type": "reference",
+          "canonical": "Morse v. Republican Party of Va., 517 U. S. 186, 232–234 (1996) (opinion of Stevens, J., joined by Ginsburg, J.)"
+        },
+        {
+          "start": 113,
+          "end": 198,
+          "text": " id., at 240 (Breyer, J., joined by O'Connor and Souter, JJ., concurring in judgment)",
+          "type": "reference",
+          "canonical": " id., at 240 (Breyer, J., joined by O'Connor and Souter, JJ., concurring in judgment)"
+        },
+        {
+          "start": 199,
+          "end": 298,
+          "text": " Central Bank of Denver, N. A. v. First Interstate Bank of Denver, N. A., 511 U. S. 164, 189 (1994)",
+          "type": "reference",
+          "canonical": " Central Bank of Denver, N. A. v. First Interstate Bank of Denver, N. A., 511 U. S. 164, 189 (1994)"
+        },
+        {
+          "start": 299,
+          "end": 371,
+          "text": " Virginia Bankshares, Inc. v. Sandberg, 501 U. S. 1083, 1103–1104 (1991)",
+          "type": "reference",
+          "canonical": " Virginia Bankshares, Inc. v. Sandberg, 501 U. S. 1083, 1103–1104 (1991)"
+        },
+        {
+          "start": 372,
+          "end": 429,
+          "text": " Thompson v. Thompson, 484 U. S. 174, 179, 183–187 (1988)",
+          "type": "reference",
+          "canonical": " Thompson v. Thompson, 484 U. S. 174, 179, 183–187 (1988)"
+        },
+        {
+          "start": 430,
+          "end": 522,
+          "text": " Wright v. Roanoke Redevelopment and Housing Authority , 479 U. S. 418, 425, and n. 7 (1987)",
+          "type": "reference",
+          "canonical": " Wright v. Roanoke Redevelopment and Housing Authority , 479 U. S. 418, 425, and n. 7 (1987)"
+        },
+        {
+          "start": 523,
+          "end": 585,
+          "text": " Daily Income Fund, Inc. v. Fox, 464 U. S. 523, 536–539 (1984)",
+          "type": "reference",
+          "canonical": " Daily Income Fund, Inc. v. Fox, 464 U. S. 523, 536–539 (1984)"
+        },
+        {
+          "start": 586,
+          "end": 721,
+          "text": " Guardians Assn. v. Civil Serv. Comm'n of New York City , 463 U. S. 582, 599–602 (1983) (opinion of White, J., joined by Rehnquist, J.)",
+          "type": "reference",
+          "canonical": " Guardians Assn. v. Civil Serv. Comm'n of New York City , 463 U. S. 582, 599–602 (1983) (opinion of White, J., joined by Rehnquist, J.)"
+        },
+        {
+          "start": 722,
+          "end": 796,
+          "text": " id., at 609 (Powell, J., joined by Burger, C. J., concurring in judgment)",
+          "type": "reference",
+          "canonical": " id., at 609 (Powell, J., joined by Burger, C. J., concurring in judgment)"
+        },
+        {
+          "start": 797,
+          "end": 868,
+          "text": " Jackson Transit Authority v. Transit Union, 457 U. S. 15, 24–28 (1982)",
+          "type": "reference",
+          "canonical": " Jackson Transit Authority v. Transit Union, 457 U. S. 15, 24–28 (1982)"
+        },
+        {
+          "start": 869,
+          "end": 954,
+          "text": " Merrill Lynch, Pierce, Fenner & Smith, Inc. v. Curran, 456 U. S. 353, 382–388 (1982)",
+          "type": "reference",
+          "canonical": " Merrill Lynch, Pierce, Fenner & Smith, Inc. v. Curran, 456 U. S. 353, 382–388 (1982)"
+        },
+        {
+          "start": 955,
+          "end": 1060,
+          "text": " Middlesex County Sewerage Authority v. National Sea Clammers Assn., 453 U. S. 1, 17–18, and n. 27 (1981)",
+          "type": "reference",
+          "canonical": " Middlesex County Sewerage Authority v. National Sea Clammers Assn., 453 U. S. 1, 17–18, and n. 27 (1981)"
+        },
+        {
+          "start": 1061,
+          "end": 1119,
+          "text": " California v. Sierra Club , 451 U. S. 287, 294–296 (1981)",
+          "type": "reference",
+          "canonical": " California v. Sierra Club , 451 U. S. 287, 294–296 (1981)"
+        },
+        {
+          "start": 1120,
+          "end": 1194,
+          "text": " Northwest Airlines, Inc. v. Transport Workers, 451 U. S. 77, 94–95 (1981)",
+          "type": "reference",
+          "canonical": " Northwest Airlines, Inc. v. Transport Workers, 451 U. S. 77, 94–95 (1981)"
+        },
+        {
+          "start": 1195,
+          "end": 1269,
+          "text": " Universities Research Assn., Inc. v. Coutu, 450 U. S. 754, 773–781 (1981)",
+          "type": "reference",
+          "canonical": " Universities Research Assn., Inc. v. Coutu, 450 U. S. 754, 773–781 (1981)"
+        },
+        {
+          "start": 1270,
+          "end": 1303,
+          "text": " TAMA, 444 U. S. 11, 17–18 (1979)",
+          "type": "reference",
+          "canonical": " TAMA, 444 U. S. 11, 17–18 (1979)"
+        },
+        {
+          "start": 1304,
+          "end": 1369,
+          "text": " Touche Ross & Co. v. Redington, 442 U. S. 560, 571, n. 11 (1979)",
+          "type": "reference",
+          "canonical": " Touche Ross & Co. v. Redington, 442 U. S. 560, 571, n. 11 (1979)"
+        },
+        {
+          "start": 1370,
+          "end": 1444,
+          "text": " Cannon v. University of Chicago, 441 U. S. 677, 686, n. 7, 694–701 (1979)",
+          "type": "reference",
+          "canonical": " Cannon v. University of Chicago, 441 U. S. 677, 686, n. 7, 694–701 (1979)"
+        },
+        {
+          "start": 1445,
+          "end": 1501,
+          "text": " Chrysler Corp. v. Brown, 441 U. S. 281, 293–294 (1979).",
+          "type": "reference",
+          "canonical": " Chrysler Corp. v. Brown, 441 U. S. 281, 293–294 (1979)."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 907,
+          "end": 1046
+        },
+        {
+          "page": 35,
+          "start": 91,
+          "end": 92
+        }
+      ],
+      "citations": [
+        {
+          "start": 109,
+          "end": 136,
+          "text": "Sandoval, 532 U. S., at 286",
+          "type": "reference",
+          "canonical": "Sandoval, 532 U. S., at 286"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[s]tatutory",
+          "to": "statutory"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 92,
+          "end": 1179
+        }
+      ],
+      "citations": [
+        {
+          "start": 50,
+          "end": 104,
+          "text": "Epic Systems Corp. v. Lewis, 584 U. S. 497, 523 (2018)",
+          "type": "reference",
+          "canonical": "Epic Systems Corp. v. Lewis, 584 U. S. 497, 523 (2018)"
+        },
+        {
+          "start": 1036,
+          "end": 1087,
+          "text": "R. Katzmann, Judging Statutes 10 (2014) (Katzmann).",
+          "type": "reference",
+          "canonical": "R. Katzmann, Judging Statutes 10 (2014) (Katzmann)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1179,
+          "end": 1180
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1181,
+          "end": 1862
+        }
+      ],
+      "citations": [
+        {
+          "start": 236,
+          "end": 248,
+          "text": "Ante, at 621",
+          "type": "reference",
+          "canonical": "Ante, at 621"
+        },
+        {
+          "start": 415,
+          "end": 464,
+          "text": "See, e. g., Learning Resources, 607 U. S., at 243",
+          "type": "reference",
+          "canonical": "See, e. g., Learning Resources, 607 U. S., at 243"
+        },
+        {
+          "start": 465,
+          "end": 484,
+          "text": "(plurality opinion)",
+          "type": "reference",
+          "canonical": "(plurality opinion)"
+        },
+        {
+          "start": 644,
+          "end": 678,
+          "text": "(internal quotation marks omitted)",
+          "type": "reference",
+          "canonical": "(internal quotation marks omitted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[is]",
+          "to": "is"
+        },
+        {
+          "from": "[un]knowable",
+          "to": "unknowable"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "9",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1866,
+          "end": 2160
+        },
+        {
+          "page": 36,
+          "start": 1816,
+          "end": 2237
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 61,
+          "text": "See also, e. g., Biden v. Nebraska, 600 U. S. 477, 506 (2023)",
+          "type": "reference",
+          "canonical": "See also, e. g., Biden v. Nebraska, 600 U. S. 477, 506 (2023)"
+        },
+        {
+          "start": 280,
+          "end": 337,
+          "text": "(quoting West Virginia v. EPA, 597 U. S. 697, 730 (2022))",
+          "type": "reference",
+          "canonical": "(quoting West Virginia v. EPA, 597 U. S. 697, 730 (2022))"
+        },
+        {
+          "start": 340,
+          "end": 357,
+          "text": "600 U. S., at 521",
+          "type": "reference",
+          "canonical": "600 U. S., at 521"
+        },
+        {
+          "start": 358,
+          "end": 383,
+          "text": "(Barrett, J., concurring)",
+          "type": "reference",
+          "canonical": "(Barrett, J., concurring)"
+        },
+        {
+          "start": 506,
+          "end": 573,
+          "text": "FDA v. Brown & Williamson Tobacco Corp ., 529 U. S. 120, 160 (2000)",
+          "type": "reference",
+          "canonical": "FDA v. Brown & Williamson Tobacco Corp ., 529 U. S. 120, 160 (2000)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 58,
+          "end": 574
+        }
+      ],
+      "citations": [
+        {
+          "start": 162,
+          "end": 174,
+          "text": "Ante, at 617",
+          "type": "reference",
+          "canonical": "Ante, at 617"
+        },
+        {
+          "start": 175,
+          "end": 225,
+          "text": "(internal quotation marks and alterations omitted)",
+          "type": "reference",
+          "canonical": "(internal quotation marks and alterations omitted)"
+        },
+        {
+          "start": 380,
+          "end": 402,
+          "text": "See ante, at 621, n. 5",
+          "type": "reference",
+          "canonical": "See ante, at 621, n. 5"
+        },
+        {
+          "start": 480,
+          "end": 514,
+          "text": "(internal quotation marks omitted)",
+          "type": "reference",
+          "canonical": "(internal quotation marks omitted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ICA",
+          "to": "I C A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 574,
+          "end": 1816
+        },
+        {
+          "page": 37,
+          "start": 91,
+          "end": 347
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 589,
+          "end": 616,
+          "text": "Katzmann 20, 130–131, n. 62",
+          "type": "reference",
+          "canonical": "Katzmann 20, 130–131, n. 62"
+        },
+        {
+          "start": 617,
+          "end": 794,
+          "text": "(citing A. LaRue, Senate Manual Containing the Standing Rules, Orders, Laws, and Resolutions Affecting the Business of the United States Senate, S. Doc. No. 107–1, p. 17 (2001))",
+          "type": "reference",
+          "canonical": "(citing A. LaRue, Senate Manual Containing the Standing Rules, Orders, Laws, and Resolutions Affecting the Business of the United States Senate, S. Doc. No. 107–1, p. 17 (2001))"
+        },
+        {
+          "start": 1018,
+          "end": 1061,
+          "text": "Learning Resources, Inc., 607 U. S., at 310",
+          "type": "reference",
+          "canonical": "Learning Resources, Inc., 607 U. S., at 310"
+        },
+        {
+          "start": 1062,
+          "end": 1122,
+          "text": "(Jackson, J., concurring in part and concurring in judgment)",
+          "type": "reference",
+          "canonical": "(Jackson, J., concurring in part and concurring in judgment)"
+        },
+        {
+          "start": 1123,
+          "end": 1324,
+          "text": "(citing A. Gluck & L. Bressman, Statutory Interpretation From the Inside—An Empirical Study of Congressional Drafting, Delegation, and the Canons: Part I, 65 Stan. L. Rev. 901, 965–966, 968–969 (2013))",
+          "type": "reference",
+          "canonical": "(citing A. Gluck & L. Bressman, Statutory Interpretation From the Inside—An Empirical Study of Congressional Drafting, Delegation, and the Canons: Part I, 65 Stan. L. Rev. 901, 965–966, 968–969 (2013))"
+        },
+        {
+          "start": 1326,
+          "end": 1350,
+          "text": "see also Katzmann 37–38.",
+          "type": "reference",
+          "canonical": "see also Katzmann 37–38."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 347,
+          "end": 781
+        }
+      ],
+      "citations": [
+        {
+          "start": 159,
+          "end": 171,
+          "text": "Ante, at 621",
+          "type": "reference",
+          "canonical": "Ante, at 621"
+        },
+        {
+          "start": 290,
+          "end": 336,
+          "text": "Cf. Gluck & Bressman, 65 Stan. L. Rev., at 978",
+          "type": "reference",
+          "canonical": "Cf. Gluck & Bressman, 65 Stan. L. Rev., at 978"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 781,
+          "end": 1373
+        }
+      ],
+      "citations": [
+        {
+          "start": 387,
+          "end": 450,
+          "text": "Digital Realty Trust, Inc. v. Somers, 583 U. S. 149, 170 (2018)",
+          "type": "reference",
+          "canonical": "Digital Realty Trust, Inc. v. Somers, 583 U. S. 149, 170 (2018)"
+        },
+        {
+          "start": 451,
+          "end": 478,
+          "text": "(Sotomayor, J., concurring)",
+          "type": "reference",
+          "canonical": "(Sotomayor, J., concurring)"
+        },
+        {
+          "start": 479,
+          "end": 591,
+          "text": "(quoting Garcia v. United States, 469 U. S. 70, 76 (1984); alteration and some internal quotation marks omitted)",
+          "type": "reference",
+          "canonical": "(quoting Garcia v. United States, 469 U. S. 70, 76 (1984); alteration and some internal quotation marks omitted)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1373,
+          "end": 1855
+        }
+      ],
+      "citations": [
+        {
+          "start": 135,
+          "end": 151,
+          "text": "see ante, at 624",
+          "type": "reference",
+          "canonical": "see ante, at 624"
+        },
+        {
+          "start": 386,
+          "end": 460,
+          "text": "Schwegmann Brothers v. Calvert Distillers Corp., 341 U. S. 384, 395 (1951)",
+          "type": "reference",
+          "canonical": "Schwegmann Brothers v. Calvert Distillers Corp., 341 U. S. 384, 395 (1951)"
+        },
+        {
+          "start": 461,
+          "end": 481,
+          "text": "(concurring opinion)",
+          "type": "reference",
+          "canonical": "(concurring opinion)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "10",
+      "spans": [
+        {
+          "page": 37,
+          "start": 1861,
+          "end": 2149
+        },
+        {
+          "page": 38,
+          "start": 1391,
+          "end": 2269
+        }
+      ],
+      "citations": [
+        {
+          "start": 14,
+          "end": 66,
+          "text": "See Simpson v. United States, 435 U. S. 6, 17 (1978)",
+          "type": "reference",
+          "canonical": "See Simpson v. United States, 435 U. S. 6, 17 (1978)"
+        },
+        {
+          "start": 67,
+          "end": 94,
+          "text": "(Rehnquist, J., dissenting)",
+          "type": "reference",
+          "canonical": "(Rehnquist, J., dissenting)"
+        },
+        {
+          "start": 365,
+          "end": 444,
+          "text": "Bank One Chicago, N. A. v. Midwest Bank & Trust Co ., 516 U. S. 264, 276 (1996)",
+          "type": "reference",
+          "canonical": "Bank One Chicago, N. A. v. Midwest Bank & Trust Co ., 516 U. S. 264, 276 (1996)"
+        },
+        {
+          "start": 445,
+          "end": 470,
+          "text": "(Stevens, J., concurring)",
+          "type": "reference",
+          "canonical": "(Stevens, J., concurring)"
+        },
+        {
+          "start": 733,
+          "end": 779,
+          "text": "Commissioner v. Acker, 361 U. S. 87, 94 (1959)",
+          "type": "reference",
+          "canonical": "Commissioner v. Acker, 361 U. S. 87, 94 (1959)"
+        },
+        {
+          "start": 780,
+          "end": 809,
+          "text": "(Frankfurter, J., dissenting)",
+          "type": "reference",
+          "canonical": "(Frankfurter, J., dissenting)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 38,
+          "start": 58,
+          "end": 1039
+        },
+        {
+          "page": 38,
+          "start": 1044,
+          "end": 1045
+        }
+      ],
+      "citations": [
+        {
+          "start": 142,
+          "end": 265,
+          "text": "V . Nourse, A Decision Theory of Statutory Interpretation: Legislative History by the Rules, 122 Yale L. J. 70, 142 (2012).",
+          "type": "reference",
+          "canonical": "V . Nourse, A Decision Theory of Statutory Interpretation: Legislative History by the Rules, 122 Yale L. J. 70, 142 (2012)."
+        },
+        {
+          "start": 458,
+          "end": 505,
+          "text": "Leal Garcia v. Texas, 564 U. S. 940, 942 (2011)",
+          "type": "reference",
+          "canonical": "Leal Garcia v. Texas, 564 U. S. 940, 942 (2011)"
+        },
+        {
+          "start": 506,
+          "end": 519,
+          "text": "(per curiam )",
+          "type": "reference",
+          "canonical": "(per curiam )"
+        },
+        {
+          "start": 627,
+          "end": 638,
+          "text": "Katzmann 8.",
+          "type": "reference",
+          "canonical": "Katzmann 8."
+        },
+        {
+          "start": 745,
+          "end": 758,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "Section 47(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 825,
+          "end": 867,
+          "text": "Gluck & Bressman, 65 Stan. L. Rev., at 989",
+          "type": "reference",
+          "canonical": "Gluck & Bressman, 65 Stan. L. Rev., at 989"
+        },
+        {
+          "start": 967,
+          "end": 979,
+          "text": "ante, at 623",
+          "type": "reference",
+          "canonical": "ante, at 623"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 38,
+          "start": 1045,
+          "end": 1391
+        },
+        {
+          "page": 39,
+          "start": 91,
+          "end": 308
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 60,
+          "end": 82,
+          "text": ", 441 U. S. 677 (1979)",
+          "type": "reference",
+          "canonical": ", 441 U. S. 677 (1979)"
+        },
+        {
+          "start": 242,
+          "end": 253,
+          "text": "Id., at 740",
+          "type": "reference",
+          "canonical": "Id., at 740"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "substitut[ing]",
+          "to": "substituting"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 17,
+      "start": 1121,
+      "end": 1124,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 19,
+      "start": 1892,
+      "end": 1899,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 20,
+      "start": 731,
+      "end": 737,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 22,
+      "start": 409,
+      "end": 413,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 22,
+      "start": 736,
+      "end": 740,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 22,
+      "start": 1069,
+      "end": 1073,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 23,
+      "start": 1871,
+      "end": 1881,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 24,
+      "start": 489,
+      "end": 496,
+      "expectedText": "confrms",
+      "text": "confirms"
+    },
+    {
+      "page": 24,
+      "start": 858,
+      "end": 865,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 25,
+      "start": 545,
+      "end": 553,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 25,
+      "start": 1342,
+      "end": 1352,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 26,
+      "start": 2002,
+      "end": 2012,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 26,
+      "start": 2111,
+      "end": 2114,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 27,
+      "start": 375,
+      "end": 382,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 27,
+      "start": 1380,
+      "end": 1386,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 28,
+      "start": 234,
+      "end": 237,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 30,
+      "start": 302,
+      "end": 309,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 33,
+      "start": 1454,
+      "end": 1457,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 36,
+      "start": 649,
+      "end": 653,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 36,
+      "start": 777,
+      "end": 784,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 36,
+      "start": 866,
+      "end": 876,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 36,
+      "start": 1400,
+      "end": 1404,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 37,
+      "start": 952,
+      "end": 958,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 37,
+      "start": 1577,
+      "end": 1585,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 38,
+      "start": 1686,
+      "end": 1693,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 22,
+      "start": 1700,
+      "end": 1702,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 33,
+      "start": 356,
+      "end": 358,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 19,
+      "start": 1693,
+      "end": 1701,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 19,
+      "start": 1367,
+      "end": 1377,
+      "expectedText": "statecourt",
+      "text": "state-court"
+    },
+    {
+      "page": 23,
+      "start": 433,
+      "end": 436,
+      "expectedText": "fll",
+      "text": "fill"
+    },
+    {
+      "page": 25,
+      "start": 1097,
+      "end": 1104,
+      "expectedText": "defning",
+      "text": "defining"
+    },
+    {
+      "page": 25,
+      "start": 1249,
+      "end": 1256,
+      "expectedText": "defning",
+      "text": "defining"
+    },
+    {
+      "page": 26,
+      "start": 342,
+      "end": 354,
+      "expectedText": "affrmatively",
+      "text": "affirmatively"
+    },
+    {
+      "page": 26,
+      "start": 930,
+      "end": 942,
+      "expectedText": "affrmatively",
+      "text": "affirmatively"
+    },
+    {
+      "page": 27,
+      "start": 887,
+      "end": 907,
+      "expectedText": "expressauthorization",
+      "text": "express-authorization"
+    },
+    {
+      "page": 27,
+      "start": 1229,
+      "end": 1232,
+      "expectedText": "fow",
+      "text": "flow"
+    },
+    {
+      "page": 29,
+      "start": 652,
+      "end": 664,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 30,
+      "start": 1711,
+      "end": 1719,
+      "expectedText": "fduciary",
+      "text": "fiduciary"
+    },
+    {
+      "page": 30,
+      "start": 1425,
+      "end": 1436,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 31,
+      "start": 326,
+      "end": 332,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 31,
+      "start": 964,
+      "end": 970,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 32,
+      "start": 1324,
+      "end": 1329,
+      "expectedText": "furry",
+      "text": "flurry"
+    },
+    {
+      "page": 32,
+      "start": 1400,
+      "end": 1404,
+      "expectedText": "ffty",
+      "text": "fifty"
+    },
+    {
+      "page": 32,
+      "start": 1731,
+      "end": 1742,
+      "expectedText": "ratifcation",
+      "text": "ratification"
+    },
+    {
+      "page": 33,
+      "start": 1707,
+      "end": 1714,
+      "expectedText": "benefts",
+      "text": "benefits"
+    },
+    {
+      "page": 33,
+      "start": 1997,
+      "end": 2006,
+      "expectedText": "fattering",
+      "text": "flattering"
+    },
+    {
+      "page": 35,
+      "start": 318,
+      "end": 330,
+      "expectedText": "clarifcation",
+      "text": "clarification"
+    },
+    {
+      "page": 36,
+      "start": 518,
+      "end": 528,
+      "expectedText": "objectifed",
+      "text": "objectified"
+    },
+    {
+      "page": 36,
+      "start": 759,
+      "end": 769,
+      "expectedText": "refections",
+      "text": "reflections"
+    },
+    {
+      "page": 36,
+      "start": 1028,
+      "end": 1032,
+      "expectedText": "foor",
+      "text": "floor"
+    },
+    {
+      "page": 36,
+      "start": 2185,
+      "end": 2196,
+      "expectedText": "signifcance",
+      "text": "significance"
+    },
+    {
+      "page": 37,
+      "start": 746,
+      "end": 767,
+      "expectedText": "implementationrelated",
+      "text": "implementation-related"
+    },
+    {
+      "page": 38,
+      "start": 2212,
+      "end": 2219,
+      "expectedText": "defning",
+      "text": "defining"
+    },
+    {
+      "page": 38,
+      "start": 1444,
+      "end": 1448,
+      "expectedText": "foor",
+      "text": "floor"
+    },
+    {
+      "page": 38,
+      "start": 1355,
+      "end": 1361,
+      "expectedText": "unifed",
+      "text": "unified"
+    },
+    {
+      "page": 29,
+      "start": 2176,
+      "end": 2185,
+      "expectedText": "than “si-",
+      "text": "than “si"
+    },
+    {
+      "page": 30,
+      "start": 1568,
+      "end": 1577,
+      "expectedText": "in inter-",
+      "text": "in inter"
+    },
+    {
+      "page": 32,
+      "start": 1756,
+      "end": 1769,
+      "expectedText": "Framers' pri-",
+      "text": "Framers' pri"
+    },
+    {
+      "page": 36,
+      "start": 1800,
+      "end": 1815,
+      "expectedText": "Drafting, Dele-",
+      "text": "Drafting, Dele"
+    },
+    {
+      "page": 28,
+      "start": 62,
+      "end": 176,
+      "expectedText": "Thus far I have rested my analysis solely on\nstructure, and statutory history of Section 47(b).\nthe text,\nThe fact",
+      "text": "Thus far I have rested my analysis solely on the text, structure, and statutory history of Section 47(b). The fact"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 17,
+      "start": 1776,
+      "end": 1806,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 608 (2026) 625\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 18,
+      "start": 1893,
+      "end": 1923,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 91,
+      "text": "626 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 19,
+      "start": 454,
+      "end": 456,
+      "text": "1\n",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 19,
+      "start": 2045,
+      "end": 2047,
+      "text": "1 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 19,
+      "start": 2153,
+      "end": 2183,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 608 (2026) 627\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 20,
+      "start": 1817,
+      "end": 1818,
+      "text": "2",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 20,
+      "start": 1864,
+      "end": 1866,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 20,
+      "start": 2218,
+      "end": 2248,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 91,
+      "text": "628 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 21,
+      "start": 1677,
+      "end": 1681,
+      "text": "3\n3 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 21,
+      "start": 2273,
+      "end": 2303,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 608 (2026) 629\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 22,
+      "start": 1889,
+      "end": 1919,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 91,
+      "text": "630 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 1274,
+      "end": 1275,
+      "text": "4",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 1613,
+      "end": 1615,
+      "text": "4 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 2073,
+      "end": 2103,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 608 (2026) 631\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 24,
+      "start": 1972,
+      "end": 2002,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 91,
+      "text": "632 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 25,
+      "start": 2088,
+      "end": 2092,
+      "text": "5\n5 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 25,
+      "start": 2316,
+      "end": 2346,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 608 (2026) 633\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 26,
+      "start": 2138,
+      "end": 2168,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 91,
+      "text": "634 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 27,
+      "start": 2001,
+      "end": 2031,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 608 (2026) 635\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 28,
+      "start": 1911,
+      "end": 1941,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 29,
+      "start": 0,
+      "end": 122,
+      "text": "Page Proof Pending Publication\n636 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 608 (2026) 637\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 30,
+      "start": 1093,
+      "end": 1095,
+      "text": "6\n",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 30,
+      "start": 1578,
+      "end": 1580,
+      "text": "6 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 30,
+      "start": 2240,
+      "end": 2270,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 31,
+      "start": 0,
+      "end": 122,
+      "text": "Page Proof Pending Publication\n638 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 32,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 608 (2026) 639\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 32,
+      "start": 479,
+      "end": 481,
+      "text": "7\n",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 32,
+      "start": 1770,
+      "end": 1772,
+      "text": "7 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 32,
+      "start": 2148,
+      "end": 2178,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 33,
+      "start": 0,
+      "end": 122,
+      "text": "Page Proof Pending Publication\n640 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 34,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 608 (2026) 641\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 34,
+      "start": 906,
+      "end": 907,
+      "text": "8",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 34,
+      "start": 1046,
+      "end": 1048,
+      "text": "8 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 34,
+      "start": 2550,
+      "end": 2580,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 35,
+      "start": 0,
+      "end": 91,
+      "text": "642 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 35,
+      "start": 1862,
+      "end": 1866,
+      "text": "9\n9 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 35,
+      "start": 2160,
+      "end": 2190,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 36,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 608 (2026) 643\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 36,
+      "start": 2237,
+      "end": 2267,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 37,
+      "start": 0,
+      "end": 91,
+      "text": "644 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 37,
+      "start": 1855,
+      "end": 1861,
+      "text": "10\n10 ",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 37,
+      "start": 2149,
+      "end": 2179,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 38,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 608 U. S. 608 (2026) 645\nJackson, J., dissenting\n",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 38,
+      "start": 1039,
+      "end": 1044,
+      "text": "* * *",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 38,
+      "start": 2269,
+      "end": 2299,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    },
+    {
+      "page": 39,
+      "start": 0,
+      "end": 91,
+      "text": "646 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL\nMASTER FUND, LTD.\nJackson, J., dissenting",
+      "reason": "Reviewed publication furniture, byline, divider or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Sonia Sotomayor",
+      "Elena Kagan (Parts I and II)"
+    ]
+  },
+  "review": "Complete Jackson dissent and all footnotes visually reviewed against the official PDF, including note continuations. Prior majority/Kagan writing and Reporter’s Note excluded. Corrected one extracted sentence with out-of-order words, source typography and compound joins. Substantive notes and explanation preserved; citation-only note 8 retained as individual source references but omitted from narration. Semantic statutory references remain linked and spoken."
+}

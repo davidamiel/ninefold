@@ -1,0 +1,2775 @@
+{
+  "reviewed": true,
+  "documentId": "24-1287-2059f0a43b72--85-1475",
+  "sourceDocumentId": "24-1287-2059f0a43b72",
+  "sourceTextPath": "dist/data/docs/24-1287-2059f0a43b72.json",
+  "sourceTextSha256": "c3775c67a0c112b51d02a24f15db2bee4e366dfd35046c6339bbda6a021cbe21",
+  "sourcePdfPath": "dist/data/pdfs/24-1287-2059f0a43b72--85-1475.pdf",
+  "sourcePdfSha256": "80d6ec1f911cbd0676f8faf0ecd5152c66d0fa6505313f53e803acdf1ec55283",
+  "title": "Dissent",
+  "author": "Clarence Thomas",
+  "date": "2026-02-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r12_8nj9.pdf",
+  "sourceRange": {
+    "startPage": 85,
+    "startOffset": 1503,
+    "endPage": 102,
+    "endOffset": 884
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 85,
+          "start": 1503,
+          "end": 1739
+        },
+        {
+          "page": 86,
+          "start": 61,
+          "end": 693
+        }
+      ],
+      "citations": [
+        {
+          "start": 225,
+          "end": 253,
+          "text": "50 U. S. C. § 1702(a)(1)(B).",
+          "type": "reference",
+          "canonical": "50 U. S. C. § 1702(a)(1)(B)."
+        },
+        {
+          "start": 397,
+          "end": 451,
+          "text": "Post, at 338–342, 350–357 (Kavanaugh, J., dissenting).",
+          "type": "reference",
+          "canonical": "Post, at 338–342, 350–357 (Kavanaugh, J., dissenting)."
+        },
+        {
+          "start": 653,
+          "end": 670,
+          "text": "Post, at 342–350.",
+          "type": "reference",
+          "canonical": "Post, at 342–350."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 86,
+          "start": 693,
+          "end": 1601
+        }
+      ],
+      "citations": [
+        {
+          "start": 377,
+          "end": 389,
+          "text": "Art. I, § 1;",
+          "type": "reference",
+          "canonical": "Art. I, § 1;"
+        },
+        {
+          "start": 390,
+          "end": 398,
+          "text": "Amdt. 5.",
+          "type": "reference",
+          "canonical": "Amdt. 5."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 86,
+          "start": 1601,
+          "end": 1656
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 86,
+          "start": 1711,
+          "end": 2352
+        },
+        {
+          "page": 87,
+          "start": 1081,
+          "end": 2525
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 223,
+          "end": 303,
+          "text": "See N. Webster, A Compendious Dictionary of the English Language 75, 152 (1806);",
+          "type": "reference",
+          "canonical": "See N. Webster, A Compendious Dictionary of the English Language 75, 152 (1806);"
+        },
+        {
+          "start": 304,
+          "end": 324,
+          "text": "Art. I, § 10, cl. 2.",
+          "type": "reference",
+          "canonical": "Art. I, § 10, cl. 2."
+        },
+        {
+          "start": 436,
+          "end": 476,
+          "text": "Webster, Compendious Dictionary, at 305.",
+          "type": "reference",
+          "canonical": "Webster, Compendious Dictionary, at 305."
+        },
+        {
+          "start": 611,
+          "end": 761,
+          "text": "R. Natelson, What the Constitution Means by “Duties, Imposts, and Excises”—and “Taxes” (Direct or Otherwise), 66 Case W. Res. L. Rev. 297, 306 (2015).",
+          "type": "reference",
+          "canonical": "R. Natelson, What the Constitution Means by “Duties, Imposts, and Excises”—and “Taxes” (Direct or Otherwise), 66 Case W. Res. L. Rev. 297, 306 (2015)."
+        },
+        {
+          "start": 1003,
+          "end": 1008,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 1089,
+          "end": 1143,
+          "text": "E. Morgan & H. Morgan, The Stamp Act Crisis 71 (1953),",
+          "type": "reference",
+          "canonical": "E. Morgan & H. Morgan, The Stamp Act Crisis 71 (1953),"
+        },
+        {
+          "start": 1429,
+          "end": 1539,
+          "text": "Considerations on the Propriety of Imposing Taxes in the British Colonies 34 (2d ed. 1765) (emphasis deleted).",
+          "type": "reference",
+          "canonical": "Considerations on the Propriety of Imposing Taxes in the British Colonies 34 (2d ed. 1765) (emphasis deleted)."
+        },
+        {
+          "start": 1698,
+          "end": 1771,
+          "text": "B. Bailyn, The Ideological Origins of the American Revolution 214 (1967);",
+          "type": "reference",
+          "canonical": "B. Bailyn, The Ideological Origins of the American Revolution 214 (1967);"
+        },
+        {
+          "start": 1772,
+          "end": 1792,
+          "text": "see also id., at 212",
+          "type": "reference",
+          "canonical": "see also id., at 212"
+        },
+        {
+          "start": 1942,
+          "end": 1987,
+          "text": "E. Nelson, The Royalist Revolution 32 (2014);",
+          "type": "reference",
+          "canonical": "E. Nelson, The Royalist Revolution 32 (2014);"
+        },
+        {
+          "start": 1988,
+          "end": 2084,
+          "text": "C. Becker, The Declaration of Independence: A Study in the History of Political Ideas 90 (1922).",
+          "type": "reference",
+          "canonical": "C. Becker, The Declaration of Independence: A Study in the History of Political Ideas 90 (1922)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "exclude[d]",
+          "to": "excluded"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 86,
+          "start": 1658,
+          "end": 1709
+        },
+        {
+          "page": 87,
+          "start": 88,
+          "end": 968
+        }
+      ],
+      "citations": [
+        {
+          "start": 620,
+          "end": 753,
+          "text": "Department of Transportation v. Association of American Railroads, 575 U. S. 43, 80–81, n. 5 (2015) (opinion concurring in judgment).",
+          "type": "reference",
+          "canonical": "Department of Transportation v. Association of American Railroads, 575 U. S. 43, 80–81, n. 5 (2015) (opinion concurring in judgment)."
+        },
+        {
+          "start": 873,
+          "end": 914,
+          "text": "ante, at 243 (opinion of Roberts, C. J.),",
+          "type": "reference",
+          "canonical": "ante, at 243 (opinion of Roberts, C. J.),"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 87,
+          "start": 968,
+          "end": 970
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 87,
+          "start": 970,
+          "end": 1081
+        },
+        {
+          "page": 88,
+          "start": 61,
+          "end": 398
+        }
+      ],
+      "citations": [
+        {
+          "start": 220,
+          "end": 321,
+          "text": "J. Locke, Two Treatises of Government § 141, p. 380 (P. Laslett ed. 1964) (Locke) (emphasis deleted).",
+          "type": "reference",
+          "canonical": "J. Locke, Two Treatises of Government § 141, p. 380 (P. Laslett ed. 1964) (Locke) (emphasis deleted)."
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "[Branch]",
+          "to": "Branch"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 88,
+          "start": 398,
+          "end": 400
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 88,
+          "start": 400,
+          "end": 821
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 228,
+          "text": "Art. I, § 1.",
+          "type": "reference",
+          "canonical": "Art. I, § 1."
+        },
+        {
+          "start": 339,
+          "end": 420,
+          "text": "See Association of American Railroads , 575 U. S., at 74 (opinion of Thomas, J.).",
+          "type": "reference",
+          "canonical": "See Association of American Railroads , 575 U. S., at 74 (opinion of Thomas, J.)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]ll",
+          "to": "all"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 88,
+          "start": 821,
+          "end": 1625
+        }
+      ],
+      "citations": [
+        {
+          "start": 303,
+          "end": 314,
+          "text": "Id., at 80.",
+          "type": "reference",
+          "canonical": "Id., at 80."
+        },
+        {
+          "start": 530,
+          "end": 545,
+          "text": "Id., at 73, 76.",
+          "type": "reference",
+          "canonical": "Id., at 73, 76."
+        },
+        {
+          "start": 627,
+          "end": 712,
+          "text": "See 1 W. Blackstone, Commentaries on the Laws of England 123–136 (1765) (Blackstone);",
+          "type": "reference",
+          "canonical": "See 1 W. Blackstone, Commentaries on the Laws of England 123–136 (1765) (Blackstone);"
+        },
+        {
+          "start": 713,
+          "end": 803,
+          "text": "C. Nelson, Adjudication in the Political Branches, 107 Colum. L. Rev. 559, 566–567 (2007).",
+          "type": "reference",
+          "canonical": "C. Nelson, Adjudication in the Political Branches, 107 Colum. L. Rev. 559, 566–567 (2007)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 88,
+          "start": 1625,
+          "end": 1977
+        },
+        {
+          "page": 89,
+          "start": 57,
+          "end": 694
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 201,
+          "end": 209,
+          "text": "Amdt. 5.",
+          "type": "reference",
+          "canonical": "Amdt. 5."
+        },
+        {
+          "start": 405,
+          "end": 468,
+          "text": "A. Howard, Magna Carta: Text and Commentary 45 (rev. ed. 1998);",
+          "type": "reference",
+          "canonical": "A. Howard, Magna Carta: Text and Commentary 45 (rev. ed. 1998);"
+        },
+        {
+          "start": 469,
+          "end": 546,
+          "text": "see Obergefell v. Hodges, 576 U. S. 644, 723 (2015) (Thomas, J., dissenting).",
+          "type": "reference",
+          "canonical": "see Obergefell v. Hodges, 576 U. S. 644, 723 (2015) (Thomas, J., dissenting)."
+        },
+        {
+          "start": 804,
+          "end": 986,
+          "text": "Association of American Railroads, 575 U. S., at 72 (opinion of Thomas, J.) (citing N. Chapman & M. McConnell, Due Process as Separation of Powers, 121 Yale L. J. 1672, 1688 (2012)).",
+          "type": "reference",
+          "canonical": "Association of American Railroads, 575 U. S., at 72 (opinion of Thomas, J.) (citing N. Chapman & M. McConnell, Due Process as Separation of Powers, 121 Yale L. J. 1672, 1688 (2012))."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 89,
+          "start": 694,
+          "end": 1609
+        }
+      ],
+      "citations": [
+        {
+          "start": 104,
+          "end": 180,
+          "text": "Association of American Railroads, 575 U. S., at 72 (opinion of Thomas, J.).",
+          "type": "reference",
+          "canonical": "Association of American Railroads, 575 U. S., at 72 (opinion of Thomas, J.)."
+        },
+        {
+          "start": 352,
+          "end": 435,
+          "text": "Case of Proclamations, 12 Co. Rep. 74, 74–75, 77 Eng. Rep. 1352, 1353 (K. B. 1611);",
+          "type": "reference",
+          "canonical": "Case of Proclamations, 12 Co. Rep. 74, 74–75, 77 Eng. Rep. 1352, 1353 (K. B. 1611);"
+        },
+        {
+          "start": 436,
+          "end": 515,
+          "text": "see Association of American Railroads, 575 U. S., at 72 (opinion of Thomas, J.)",
+          "type": "reference",
+          "canonical": "see Association of American Railroads, 575 U. S., at 72 (opinion of Thomas, J.)"
+        },
+        {
+          "start": 900,
+          "end": 914,
+          "text": "Id., at 75–76.",
+          "type": "reference",
+          "canonical": "Id., at 75–76."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 89,
+          "start": 1609,
+          "end": 1611
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 89,
+          "start": 1611,
+          "end": 1984
+        }
+      ],
+      "citations": [
+        {
+          "start": 283,
+          "end": 372,
+          "text": "Wayman v. Southard, 10 Wheat. 1, 42–43 (1825) (opinion for the Court by Marshall, C. J.).",
+          "type": "reference",
+          "canonical": "Wayman v. Southard, 10 Wheat. 1, 42–43 (1825) (opinion for the Court by Marshall, C. J.)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 90,
+          "start": 61,
+          "end": 1213
+        }
+      ],
+      "citations": [
+        {
+          "start": 198,
+          "end": 217,
+          "text": "Art. I, § 8, cl. 3.",
+          "type": "reference",
+          "canonical": "Art. I, § 8, cl. 3."
+        },
+        {
+          "start": 376,
+          "end": 447,
+          "text": "Cf. Gonzales v. Raich, 545 U. S. 1, 58 (2005) (Thomas, J., dissenting).",
+          "type": "reference",
+          "canonical": "Cf. Gonzales v. Raich, 545 U. S. 1, 58 (2005) (Thomas, J., dissenting)."
+        },
+        {
+          "start": 621,
+          "end": 640,
+          "text": "Art. I, § 8, cl. 6;",
+          "type": "reference",
+          "canonical": "Art. I, § 8, cl. 6;"
+        },
+        {
+          "start": 693,
+          "end": 714,
+          "text": "Art. III, § 3, cl. 2;",
+          "type": "reference",
+          "canonical": "Art. III, § 3, cl. 2;"
+        },
+        {
+          "start": 755,
+          "end": 774,
+          "text": "Art. I, § 8, cl. 1;",
+          "type": "reference",
+          "canonical": "Art. I, § 8, cl. 1;"
+        },
+        {
+          "start": 775,
+          "end": 784,
+          "text": "Amdt. 16.",
+          "type": "reference",
+          "canonical": "Amdt. 16."
+        },
+        {
+          "start": 851,
+          "end": 939,
+          "text": "See, e. g., Association of American Railroads, 575 U. S., at 77 (opinion of Thomas, J.);",
+          "type": "reference",
+          "canonical": "See, e. g., Association of American Railroads, 575 U. S., at 77 (opinion of Thomas, J.);"
+        },
+        {
+          "start": 940,
+          "end": 1034,
+          "text": "Whitman v. American Trucking Assns., Inc., 531 U. S. 457, 487 (2001) (Thomas, J., concurring).",
+          "type": "reference",
+          "canonical": "Whitman v. American Trucking Assns., Inc., 531 U. S. 457, 487 (2001) (Thomas, J., concurring)."
+        },
+        {
+          "start": 1107,
+          "end": 1152,
+          "text": "Cf. ante, at 243 (opinion of Roberts, C. J.).",
+          "type": "reference",
+          "canonical": "Cf. ante, at 243 (opinion of Roberts, C. J.)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 90,
+          "start": 1213,
+          "end": 2162
+        },
+        {
+          "page": 91,
+          "start": 88,
+          "end": 434
+        }
+      ],
+      "citations": [
+        {
+          "start": 120,
+          "end": 140,
+          "text": "Article I, Section 8",
+          "type": "constitution",
+          "canonical": "U.S. Constitution, Article I, Section 8",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 319,
+          "end": 392,
+          "text": "M. McConnell, The President Who Would Not Be King 274 (2020) (McConnell);",
+          "type": "reference",
+          "canonical": "M. McConnell, The President Who Would Not Be King 274 (2020) (McConnell);"
+        },
+        {
+          "start": 393,
+          "end": 513,
+          "text": "accord, Zivotofsky v. Kerry, 576 U. S. 1, 36 (2015) (Thomas, J., concurring in judgment in part and dissenting in part).",
+          "type": "reference",
+          "canonical": "accord, Zivotofsky v. Kerry, 576 U. S. 1, 36 (2015) (Thomas, J., concurring in judgment in part and dissenting in part)."
+        },
+        {
+          "start": 722,
+          "end": 734,
+          "text": "Art. I, § 8;",
+          "type": "reference",
+          "canonical": "Art. I, § 8;"
+        },
+        {
+          "start": 735,
+          "end": 749,
+          "text": "Art. IV , § 3.",
+          "type": "reference",
+          "canonical": "Art. IV , § 3."
+        },
+        {
+          "start": 914,
+          "end": 968,
+          "text": "See 1 Blackstone 242, 245, 255–262, 264–265, 276, 279;",
+          "type": "reference",
+          "canonical": "See 1 Blackstone 242, 245, 255–262, 264–265, 276, 279;"
+        },
+        {
+          "start": 969,
+          "end": 995,
+          "text": "2 id., at 407, 410 (1766);",
+          "type": "reference",
+          "canonical": "2 id., at 407, 410 (1766);"
+        },
+        {
+          "start": 996,
+          "end": 1097,
+          "text": "1 W. Crosskey, Politics and the Constitution in the History of the United States 416, 421–425 (1953);",
+          "type": "reference",
+          "canonical": "1 W. Crosskey, Politics and the Constitution in the History of the United States 416, 421–425 (1953);"
+        },
+        {
+          "start": 1098,
+          "end": 1116,
+          "text": "McConnell 274–275.",
+          "type": "reference",
+          "canonical": "McConnell 274–275."
+        },
+        {
+          "start": 1172,
+          "end": 1181,
+          "text": "Article I",
+          "type": "constitution",
+          "canonical": "U.S. Constitution, Article I",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1245,
+          "end": 1295,
+          "text": "1 Crosskey, Politics and the Constitution, at 428.",
+          "type": "reference",
+          "canonical": "1 Crosskey, Politics and the Constitution, at 428."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article I, Section 8",
+          "to": "Article one, Section eight"
+        },
+        {
+          "from": "Article I",
+          "to": "Article one"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 91,
+          "start": 434,
+          "end": 2045
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 153,
+          "text": "Contra, ante, at 296–300 (Gorsuch, J., concurring).",
+          "type": "reference",
+          "canonical": "ante, at 296–300 (Gorsuch, J., concurring)."
+        },
+        {
+          "start": 254,
+          "end": 268,
+          "text": "McConnell 333.",
+          "type": "reference",
+          "canonical": "McConnell 333."
+        },
+        {
+          "start": 336,
+          "end": 356,
+          "text": "Art. I, § 8, cl. 12,",
+          "type": "reference",
+          "canonical": "Art. I, § 8, cl. 12,"
+        },
+        {
+          "start": 499,
+          "end": 545,
+          "text": "See Act of Sept. 29, 1789, ch. 24, 1 Stat. 95.",
+          "type": "reference",
+          "canonical": "See Act of Sept. 29, 1789, ch. 24, 1 Stat. 95."
+        },
+        {
+          "start": 606,
+          "end": 625,
+          "text": "Art. I, § 8, cl. 8,",
+          "type": "reference",
+          "canonical": "Art. I, § 8, cl. 8,"
+        },
+        {
+          "start": 728,
+          "end": 782,
+          "text": "See Act of Apr. 10, 1790, ch. 7, § 1, 1 Stat. 109–110.",
+          "type": "reference",
+          "canonical": "See Act of Apr. 10, 1790, ch. 7, § 1, 1 Stat. 109–110."
+        },
+        {
+          "start": 842,
+          "end": 861,
+          "text": "Art. I, § 8, cl. 2,",
+          "type": "reference",
+          "canonical": "Art. I, § 8, cl. 2,"
+        },
+        {
+          "start": 998,
+          "end": 1040,
+          "text": "See Act of Aug. 4, 1790, § 2, 1 Stat. 139.",
+          "type": "reference",
+          "canonical": "See Act of Aug. 4, 1790, § 2, 1 Stat. 139."
+        },
+        {
+          "start": 1100,
+          "end": 1120,
+          "text": "Art. I, § 8, cl. 12,",
+          "type": "reference",
+          "canonical": "Art. I, § 8, cl. 12,"
+        },
+        {
+          "start": 1231,
+          "end": 1273,
+          "text": "See Act of Mar. 3, 1791, § 8, 1 Stat. 223.",
+          "type": "reference",
+          "canonical": "See Act of Mar. 3, 1791, § 8, 1 Stat. 223."
+        },
+        {
+          "start": 1307,
+          "end": 1329,
+          "text": "see infra, at 325–327,",
+          "type": "reference",
+          "canonical": "see infra, at 325–327,"
+        },
+        {
+          "start": 1402,
+          "end": 1421,
+          "text": "Art. I, § 8, cl. 3,",
+          "type": "reference",
+          "canonical": "Art. I, § 8, cl. 3,"
+        },
+        {
+          "start": 1516,
+          "end": 1570,
+          "text": "See, e. g., Act of July 22, 1790, ch. 33, 1 Stat. 137;",
+          "type": "reference",
+          "canonical": "See, e. g., Act of July 22, 1790, ch. 33, 1 Stat. 137;"
+        },
+        {
+          "start": 1571,
+          "end": 1612,
+          "text": "Act of June 4, 1794, ch. 41, 1 Stat. 372.",
+          "type": "reference",
+          "canonical": "Act of June 4, 1794, ch. 41, 1 Stat. 372."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 91,
+          "start": 2045,
+          "end": 2158
+        },
+        {
+          "page": 92,
+          "start": 61,
+          "end": 418
+        }
+      ],
+      "citations": [
+        {
+          "start": 232,
+          "end": 246,
+          "text": "McConnell 333;",
+          "type": "reference",
+          "canonical": "McConnell 333;"
+        },
+        {
+          "start": 247,
+          "end": 411,
+          "text": "cf. A. Bamzai, Comment, Delegation and Interpretive Discretion: Gundy, Kisor, and the Formation and Future of Administrative Law, 133 Harv. L. Rev. 164, 178 (2019).",
+          "type": "reference",
+          "canonical": "cf. A. Bamzai, Comment, Delegation and Interpretive Discretion: Gundy, Kisor, and the Formation and Future of Administrative Law, 133 Harv. L. Rev. 164, 178 (2019)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 92,
+          "start": 418,
+          "end": 1485
+        }
+      ],
+      "citations": [
+        {
+          "start": 85,
+          "end": 132,
+          "text": "Contra, ante, at 296 (Gorsuch, J., concurring).",
+          "type": "reference",
+          "canonical": "ante, at 296 (Gorsuch, J., concurring)."
+        },
+        {
+          "start": 395,
+          "end": 468,
+          "text": "1 Records of the Federal Convention of 1787, p. 67 (M. Farrand ed. 1966).",
+          "type": "reference",
+          "canonical": "1 Records of the Federal Convention of 1787, p. 67 (M. Farrand ed. 1966)."
+        },
+        {
+          "start": 586,
+          "end": 591,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 669,
+          "end": 674,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 784,
+          "end": 789,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 875,
+          "end": 881,
+          "text": "Ibid.;",
+          "type": "reference",
+          "canonical": "Ibid.;"
+        },
+        {
+          "start": 882,
+          "end": 904,
+          "text": "see also McConnell 332",
+          "type": "reference",
+          "canonical": "see also McConnell 332"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[W]e",
+          "to": "We"
+        },
+        {
+          "from": "[from Madison's motion]",
+          "to": "from Madison's motion"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 92,
+          "start": 1490,
+          "end": 2277
+        },
+        {
+          "page": 93,
+          "start": 1553,
+          "end": 1840
+        }
+      ],
+      "citations": [
+        {
+          "start": 137,
+          "end": 180,
+          "text": "ante, at 296–297 (Gorsuch, J., concurring),",
+          "type": "reference",
+          "canonical": "ante, at 296–297 (Gorsuch, J., concurring),"
+        },
+        {
+          "start": 295,
+          "end": 423,
+          "text": "Department of Transportation v. Association of American Railroads, 575 U. S. 43, 80 (2015) (Thomas, J., concurring in judgment).",
+          "type": "reference",
+          "canonical": "Department of Transportation v. Association of American Railroads, 575 U. S. 43, 80 (2015) (Thomas, J., concurring in judgment)."
+        },
+        {
+          "start": 639,
+          "end": 750,
+          "text": "S. Prakash & M. Ramsey, Foreign Affairs and the Jeffersonian Executive, 89 Minn. L. Rev 1591, 1612–1617 (2005);",
+          "type": "reference",
+          "canonical": "S. Prakash & M. Ramsey, Foreign Affairs and the Jeffersonian Executive, 89 Minn. L. Rev 1591, 1612–1617 (2005);"
+        },
+        {
+          "start": 751,
+          "end": 838,
+          "text": "see 1 B. de Montesquieu, The Spirit of Laws 151–153 (T. Nugent transl., rev. ed. 1899).",
+          "type": "reference",
+          "canonical": "see 1 B. de Montesquieu, The Spirit of Laws 151–153 (T. Nugent transl., rev. ed. 1899)."
+        },
+        {
+          "start": 1059,
+          "end": 1073,
+          "text": "McConnell 327.",
+          "type": "reference",
+          "canonical": "McConnell 327."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 93,
+          "start": 57,
+          "end": 60
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 93,
+          "start": 60,
+          "end": 301
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 93,
+          "start": 301,
+          "end": 303
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 93,
+          "start": 303,
+          "end": 469
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 93,
+          "start": 469,
+          "end": 471
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 93,
+          "start": 471,
+          "end": 602
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 93,
+          "start": 602,
+          "end": 1553
+        },
+        {
+          "page": 94,
+          "start": 61,
+          "end": 271
+        }
+      ],
+      "citations": [
+        {
+          "start": 119,
+          "end": 273,
+          "text": "Haaland v. Brackeen, 599 U. S. 255, 356 (2023) (Thomas, J., dissenting) (quoting United States v. Curtiss-Wright Export Corp., 299 U. S. 304, 319 (1936)).",
+          "type": "reference",
+          "canonical": "Haaland v. Brackeen, 599 U. S. 255, 356 (2023) (Thomas, J., dissenting) (quoting United States v. Curtiss-Wright Export Corp., 299 U. S. 304, 319 (1936))."
+        },
+        {
+          "start": 455,
+          "end": 488,
+          "text": "See Locke §§ 145–148, at 383–384;",
+          "type": "reference",
+          "canonical": "See Locke §§ 145–148, at 383–384;"
+        },
+        {
+          "start": 489,
+          "end": 506,
+          "text": "1 Blackstone 264;",
+          "type": "reference",
+          "canonical": "1 Blackstone 264;"
+        },
+        {
+          "start": 507,
+          "end": 530,
+          "text": "4 id., at 66–68 (1769);",
+          "type": "reference",
+          "canonical": "4 id., at 66–68 (1769);"
+        },
+        {
+          "start": 531,
+          "end": 611,
+          "text": "E. de Vattel, The Law of Nations 161–163, 281–289 (J. Chitty ed. 1852) (Vattel).",
+          "type": "reference",
+          "canonical": "E. de Vattel, The Law of Nations 161–163, 281–289 (J. Chitty ed. 1852) (Vattel)."
+        },
+        {
+          "start": 735,
+          "end": 755,
+          "text": "Locke § 147, at 384.",
+          "type": "reference",
+          "canonical": "Locke § 147, at 384."
+        },
+        {
+          "start": 1005,
+          "end": 1033,
+          "text": "See Vattel 161–163, 281–289;",
+          "type": "reference",
+          "canonical": "See Vattel 161–163, 281–289;"
+        },
+        {
+          "start": 1034,
+          "end": 1109,
+          "text": "2 F. Wharton, Digest of International Law § 222, pp. 575–576 (2d ed. 1887);",
+          "type": "reference",
+          "canonical": "2 F. Wharton, Digest of International Law § 222, pp. 575–576 (2d ed. 1887);"
+        },
+        {
+          "start": 1110,
+          "end": 1161,
+          "text": "see also id., §§ 189, 213–221, at 432–445, 539–575.",
+          "type": "reference",
+          "canonical": "see also id., §§ 189, 213–221, at 432–445, 539–575."
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[is]",
+          "to": "is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 94,
+          "start": 271,
+          "end": 1033
+        }
+      ],
+      "citations": [
+        {
+          "start": 120,
+          "end": 180,
+          "text": "See Zivotofsky, 576 U. S., at 35–37 (opinion of Thomas, J.).",
+          "type": "reference",
+          "canonical": "See Zivotofsky, 576 U. S., at 35–37 (opinion of Thomas, J.)."
+        },
+        {
+          "start": 306,
+          "end": 323,
+          "text": "1 Blackstone 245;",
+          "type": "reference",
+          "canonical": "1 Blackstone 245;"
+        },
+        {
+          "start": 324,
+          "end": 340,
+          "text": "see id., at 232.",
+          "type": "reference",
+          "canonical": "see id., at 232."
+        },
+        {
+          "start": 409,
+          "end": 483,
+          "text": "Zivotofsky, 576 U. S., at 35 (opinion of Thomas, J.) (citing Locke § 148).",
+          "type": "reference",
+          "canonical": "Zivotofsky, 576 U. S., at 35 (opinion of Thomas, J.) (citing Locke § 148)."
+        },
+        {
+          "start": 616,
+          "end": 676,
+          "text": "1 The Spirit of Laws 151 (T. Nugent transl., rev. ed. 1899).",
+          "type": "reference",
+          "canonical": "1 The Spirit of Laws 151 (T. Nugent transl., rev. ed. 1899)."
+        },
+        {
+          "start": 748,
+          "end": 762,
+          "text": "McConnell 214.",
+          "type": "reference",
+          "canonical": "McConnell 214."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 94,
+          "start": 1033,
+          "end": 2154
+        },
+        {
+          "page": 95,
+          "start": 57,
+          "end": 246
+        }
+      ],
+      "citations": [
+        {
+          "start": 204,
+          "end": 257,
+          "text": "Zivotofsky, 576 U. S., at 36 (opinion of Thomas, J.).",
+          "type": "reference",
+          "canonical": "Zivotofsky, 576 U. S., at 36 (opinion of Thomas, J.)."
+        },
+        {
+          "start": 322,
+          "end": 336,
+          "text": "McConnell 107,",
+          "type": "reference",
+          "canonical": "McConnell 107,"
+        },
+        {
+          "start": 471,
+          "end": 483,
+          "text": "id., at 216,",
+          "type": "reference",
+          "canonical": "id., at 216,"
+        },
+        {
+          "start": 546,
+          "end": 563,
+          "text": "1 Blackstone 261;",
+          "type": "reference",
+          "canonical": "1 Blackstone 261;"
+        },
+        {
+          "start": 564,
+          "end": 647,
+          "text": "accord, East India Co. v. Sandys, Skin. 223, 223–224, 90 Eng. Rep. 103 (K. B. 1684)",
+          "type": "reference",
+          "canonical": "accord, East India Co. v. Sandys, Skin. 223, 223–224, 90 Eng. Rep. 103 (K. B. 1684)"
+        },
+        {
+          "start": 863,
+          "end": 915,
+          "text": "Zivotofsky, 576 U. S., at 36 (opinion of Thomas, J.)",
+          "type": "reference",
+          "canonical": "Zivotofsky, 576 U. S., at 36 (opinion of Thomas, J.)"
+        },
+        {
+          "start": 1046,
+          "end": 1087,
+          "text": "2 Institutes of Natural Law 55–56 (1756);",
+          "type": "reference",
+          "canonical": "2 Institutes of Natural Law 55–56 (1756);"
+        },
+        {
+          "start": 1088,
+          "end": 1116,
+          "text": "accord, Locke § 146, at 383.",
+          "type": "reference",
+          "canonical": "accord, Locke § 146, at 383."
+        },
+        {
+          "start": 1262,
+          "end": 1310,
+          "text": "N. Gras, Early English Customs System 21 (1918).",
+          "type": "reference",
+          "canonical": "N. Gras, Early English Customs System 21 (1918)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 95,
+          "start": 1629,
+          "end": 2096
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 110,
+          "text": "See also P. Einzig, The Control of the Purse: Progress and Decline of Parliament's Financial Control 65 (1959)",
+          "type": "reference",
+          "canonical": "See also P. Einzig, The Control of the Purse: Progress and Decline of Parliament's Financial Control 65 (1959)"
+        },
+        {
+          "start": 378,
+          "end": 396,
+          "text": "see id., at 65–70,",
+          "type": "reference",
+          "canonical": "see id., at 65–70,"
+        },
+        {
+          "start": 448,
+          "end": 466,
+          "text": "McConnell 107–110.",
+          "type": "reference",
+          "canonical": "McConnell 107–110."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 95,
+          "start": 249,
+          "end": 251
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 95,
+          "start": 251,
+          "end": 551
+        }
+      ],
+      "citations": [
+        {
+          "start": 192,
+          "end": 263,
+          "text": "Gutierrez v. Saenz, 606 U. S. 305, 331 (2025) (Thomas, J., dissenting).",
+          "type": "reference",
+          "canonical": "Gutierrez v. Saenz, 606 U. S. 305, 331 (2025) (Thomas, J., dissenting)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 95,
+          "start": 551,
+          "end": 1627
+        },
+        {
+          "page": 96,
+          "start": 61,
+          "end": 459
+        }
+      ],
+      "citations": [
+        {
+          "start": 525,
+          "end": 557,
+          "text": "ante, at 241 (majority opinion),",
+          "type": "reference",
+          "canonical": "ante, at 241 (majority opinion),"
+        },
+        {
+          "start": 605,
+          "end": 623,
+          "text": "Supra, at 316–317.",
+          "type": "reference",
+          "canonical": "Supra, at 316–317."
+        },
+        {
+          "start": 851,
+          "end": 907,
+          "text": "United States v. Grimaud, 220 U. S. 506, 522–523 (1911);",
+          "type": "reference",
+          "canonical": "United States v. Grimaud, 220 U. S. 506, 522–523 (1911);"
+        },
+        {
+          "start": 908,
+          "end": 955,
+          "text": "see also Bamzai, 133 Harv. L. Rev., at 180–182;",
+          "type": "reference",
+          "canonical": "see also Bamzai, 133 Harv. L. Rev., at 180–182;"
+        },
+        {
+          "start": 956,
+          "end": 1005,
+          "text": "contra, ante, at 243 (opinion of Roberts, C. J.).",
+          "type": "reference",
+          "canonical": "ante, at 243 (opinion of Roberts, C. J.)."
+        },
+        {
+          "start": 1116,
+          "end": 1138,
+          "text": "See 16 U. S. C. § 6802",
+          "type": "reference",
+          "canonical": "See 16 U. S. C. § 6802"
+        },
+        {
+          "start": 1227,
+          "end": 1245,
+          "text": "17 U. S. C. § 1316",
+          "type": "reference",
+          "canonical": "17 U. S. C. § 1316"
+        },
+        {
+          "start": 1326,
+          "end": 1344,
+          "text": "39 U. S. C. § 3622",
+          "type": "reference",
+          "canonical": "39 U. S. C. § 3622"
+        },
+        {
+          "start": 1389,
+          "end": 1407,
+          "text": "28 U. S. C. § 1911",
+          "type": "reference",
+          "canonical": "28 U. S. C. § 1911"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "raise[s]",
+          "to": "raises"
+        },
+        {
+          "from": "exercis[ing]",
+          "to": "exercising"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 96,
+          "start": 459,
+          "end": 1473
+        },
+        {
+          "page": 96,
+          "start": 1478,
+          "end": 1479
+        }
+      ],
+      "citations": [
+        {
+          "start": 225,
+          "end": 260,
+          "text": "Nelson, 107 Colum. L. Rev., at 580.",
+          "type": "reference",
+          "canonical": "Nelson, 107 Colum. L. Rev., at 580."
+        },
+        {
+          "start": 376,
+          "end": 387,
+          "text": "Vattel 285.",
+          "type": "reference",
+          "canonical": "Vattel 285."
+        },
+        {
+          "start": 521,
+          "end": 564,
+          "text": "Cross v. Harrison, 16 How. 164, 196 (1854).",
+          "type": "reference",
+          "canonical": "Cross v. Harrison, 16 How. 164, 196 (1854)."
+        },
+        {
+          "start": 698,
+          "end": 726,
+          "text": "Vattel §§ 90, 99, at 38, 43.",
+          "type": "reference",
+          "canonical": "Vattel §§ 90, 99, at 38, 43."
+        },
+        {
+          "start": 978,
+          "end": 1013,
+          "text": "Nelson, 107 Colum. L. Rev., at 580.",
+          "type": "reference",
+          "canonical": "Nelson, 107 Colum. L. Rev., at 580."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[A]ny",
+          "to": "Any"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 96,
+          "start": 1479,
+          "end": 2013
+        },
+        {
+          "page": 97,
+          "start": 57,
+          "end": 246
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 314,
+          "end": 404,
+          "text": "See FCC v. Consumers' Research, 606 U. S. 656, 742, n. 19 (2025) (Gorsuch, J., dissenting)",
+          "type": "reference",
+          "canonical": "See FCC v. Consumers' Research, 606 U. S. 656, 742, n. 19 (2025) (Gorsuch, J., dissenting)"
+        },
+        {
+          "start": 530,
+          "end": 624,
+          "text": "accord, Association of American Railroads, 575 U. S., at 80, and n. 5 (opinion of Thomas, J.).",
+          "type": "reference",
+          "canonical": "accord, Association of American Railroads, 575 U. S., at 80, and n. 5 (opinion of Thomas, J.)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[I]t",
+          "to": "It"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 97,
+          "start": 246,
+          "end": 248
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 97,
+          "start": 248,
+          "end": 355
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 97,
+          "start": 355,
+          "end": 357
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 97,
+          "start": 357,
+          "end": 718
+        }
+      ],
+      "citations": [
+        {
+          "start": 286,
+          "end": 360,
+          "text": "Id., at 80, n. 5 (quoting Curtiss-Wright Export Corp., 299 U. S., at 324).",
+          "type": "reference",
+          "canonical": "Id., at 80, n. 5 (quoting Curtiss-Wright Export Corp., 299 U. S., at 324)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 97,
+          "start": 718,
+          "end": 1704
+        }
+      ],
+      "citations": [
+        {
+          "start": 152,
+          "end": 164,
+          "text": "1 Stat. 137.",
+          "type": "reference",
+          "canonical": "1 Stat. 137."
+        },
+        {
+          "start": 234,
+          "end": 248,
+          "text": "McConnell 333.",
+          "type": "reference",
+          "canonical": "McConnell 333."
+        },
+        {
+          "start": 363,
+          "end": 401,
+          "text": "Act of July 22, 1790, 1 Stat. 137–138.",
+          "type": "reference",
+          "canonical": "Act of July 22, 1790, 1 Stat. 137–138."
+        },
+        {
+          "start": 669,
+          "end": 749,
+          "text": "61 Timothy Pickering Papers, Massachusetts Historical Society 4 (Aug. 28, 1790);",
+          "type": "reference",
+          "canonical": "61 Timothy Pickering Papers, Massachusetts Historical Society 4 (Aug. 28, 1790);"
+        },
+        {
+          "start": 750,
+          "end": 875,
+          "text": "see also Letter from G. Washington to H. Knox (Aug. 13, 1790), in 6 Papers of George Washington 244–245 (D. Twohig ed. 1996).",
+          "type": "reference",
+          "canonical": "see also Letter from G. Washington to H. Knox (Aug. 13, 1790), in 6 Papers of George Washington 244–245 (D. Twohig ed. 1996)."
+        },
+        {
+          "start": 973,
+          "end": 985,
+          "text": "1 Stat. 137.",
+          "type": "reference",
+          "canonical": "1 Stat. 137."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "gover[n]",
+          "to": "govern"
+        },
+        {
+          "from": "[d]istilled [s]pirits",
+          "to": "distilled spirits"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 97,
+          "start": 1704,
+          "end": 1938
+        },
+        {
+          "page": 98,
+          "start": 61,
+          "end": 1480
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 302,
+          "end": 335,
+          "text": "Act of June 4, 1794, 1 Stat. 372.",
+          "type": "reference",
+          "canonical": "Act of June 4, 1794, 1 Stat. 372."
+        },
+        {
+          "start": 472,
+          "end": 477,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 588,
+          "end": 593,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 795,
+          "end": 836,
+          "text": "Act of Mar. 3, 1795, ch. 53, 1 Stat. 444.",
+          "type": "reference",
+          "canonical": "Act of Mar. 3, 1795, ch. 53, 1 Stat. 444."
+        },
+        {
+          "start": 962,
+          "end": 1000,
+          "text": "Act of June 13, 1798, 1 Stat. 565–566;",
+          "type": "reference",
+          "canonical": "Act of June 13, 1798, 1 Stat. 565–566;"
+        },
+        {
+          "start": 1001,
+          "end": 1062,
+          "text": "see also, e. g., Act of Mar. 3, 1817, ch. 39, 3 Stat. 361–362",
+          "type": "reference",
+          "canonical": "see also, e. g., Act of Mar. 3, 1817, ch. 39, 3 Stat. 361–362"
+        },
+        {
+          "start": 1391,
+          "end": 1424,
+          "text": "Act of Feb. 9, 1799, 1 Stat. 615.",
+          "type": "reference",
+          "canonical": "Act of Feb. 9, 1799, 1 Stat. 615."
+        },
+        {
+          "start": 1616,
+          "end": 1651,
+          "text": "Act of Feb. 27, 1800, 2 Stat. 9–10.",
+          "type": "reference",
+          "canonical": "Act of Feb. 27, 1800, 2 Stat. 9–10."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "deem[ed]",
+          "to": "deemed"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 98,
+          "start": 1959,
+          "end": 2136
+        }
+      ],
+      "citations": [
+        {
+          "start": 71,
+          "end": 105,
+          "text": "ante, at 297 (concurring opinion),",
+          "type": "reference",
+          "canonical": "ante, at 297 (concurring opinion),"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 98,
+          "start": 1483,
+          "end": 1957
+        },
+        {
+          "page": 99,
+          "start": 57,
+          "end": 503
+        }
+      ],
+      "citations": [
+        {
+          "start": 286,
+          "end": 327,
+          "text": "Act of Mar. 3, 1815, ch. 77, 3 Stat. 224.",
+          "type": "reference",
+          "canonical": "Act of Mar. 3, 1815, ch. 77, 3 Stat. 224."
+        },
+        {
+          "start": 464,
+          "end": 501,
+          "text": "See Act of Jan. 7, 1824, 4 Stat. 2–3.",
+          "type": "reference",
+          "canonical": "See Act of Jan. 7, 1824, 4 Stat. 2–3."
+        },
+        {
+          "start": 654,
+          "end": 708,
+          "text": "See, e. g., Act of May 24, 1828, ch. 111, 4 Stat. 308;",
+          "type": "reference",
+          "canonical": "See, e. g., Act of May 24, 1828, ch. 111, 4 Stat. 308;"
+        },
+        {
+          "start": 709,
+          "end": 751,
+          "text": "Act of May 31, 1830, ch. 219, 4 Stat. 425;",
+          "type": "reference",
+          "canonical": "Act of May 31, 1830, ch. 219, 4 Stat. 425;"
+        },
+        {
+          "start": 752,
+          "end": 799,
+          "text": "Act of July 13, 1832, ch. 207, 4 Stat. 578–579.",
+          "type": "reference",
+          "canonical": "Act of July 13, 1832, ch. 207, 4 Stat. 578–579."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 99,
+          "start": 1227,
+          "end": 2331
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 139,
+          "text": "See, e. g., July 24, 1818, Proclamation of President J. Monroe, in 2 Messages and Papers of the Presidents 606–607 (J. Richardson ed. 1897)",
+          "type": "reference",
+          "canonical": "See, e. g., July 24, 1818, Proclamation of President J. Monroe, in 2 Messages and Papers of the Presidents 606–607 (J. Richardson ed. 1897)"
+        },
+        {
+          "start": 269,
+          "end": 354,
+          "text": "see also, e. g., Aug. 1, 1818, Proclamation of President J. Monroe, in 2 id., at 607;",
+          "type": "reference",
+          "canonical": "see also, e. g., Aug. 1, 1818, Proclamation of President J. Monroe, in 2 id., at 607;"
+        },
+        {
+          "start": 355,
+          "end": 422,
+          "text": "May 4, 1820, Proclamation of President J. Monroe, in 2 id., at 642;",
+          "type": "reference",
+          "canonical": "May 4, 1820, Proclamation of President J. Monroe, in 2 id., at 642;"
+        },
+        {
+          "start": 423,
+          "end": 496,
+          "text": "Aug. 20, 1821, Proclamation of President J. Monroe, in 2 id., at 665–666;",
+          "type": "reference",
+          "canonical": "Aug. 20, 1821, Proclamation of President J. Monroe, in 2 id., at 665–666;"
+        },
+        {
+          "start": 497,
+          "end": 570,
+          "text": "Nov. 22, 1821, Proclamation of President J. Monroe, in 2 id., at 666–667;",
+          "type": "reference",
+          "canonical": "Nov. 22, 1821, Proclamation of President J. Monroe, in 2 id., at 666–667;"
+        },
+        {
+          "start": 571,
+          "end": 649,
+          "text": "June 7, 1827, Proclamation of President J. Quincy Adams, in 2 id., at 942–943;",
+          "type": "reference",
+          "canonical": "June 7, 1827, Proclamation of President J. Quincy Adams, in 2 id., at 942–943;"
+        },
+        {
+          "start": 650,
+          "end": 728,
+          "text": "July 1, 1828, Proclamation of President J. Quincy Adams, in 2 id., at 970–971;",
+          "type": "reference",
+          "canonical": "July 1, 1828, Proclamation of President J. Quincy Adams, in 2 id., at 970–971;"
+        },
+        {
+          "start": 729,
+          "end": 799,
+          "text": "May 11, 1829, Proclamation of President A. Jackson, in 3 id., at 1003;",
+          "type": "reference",
+          "canonical": "May 11, 1829, Proclamation of President A. Jackson, in 3 id., at 1003;"
+        },
+        {
+          "start": 800,
+          "end": 875,
+          "text": "June 3, 1829, Proclamation of President A. Jackson, in 3 id., at 1004–1005;",
+          "type": "reference",
+          "canonical": "June 3, 1829, Proclamation of President A. Jackson, in 3 id., at 1004–1005;"
+        },
+        {
+          "start": 876,
+          "end": 952,
+          "text": "Apr. 28, 1835, Proclamation of President A. Jackson, in 3 id., at 1365–1366;",
+          "type": "reference",
+          "canonical": "Apr. 28, 1835, Proclamation of President A. Jackson, in 3 id., at 1365–1366;"
+        },
+        {
+          "start": 953,
+          "end": 1029,
+          "text": "Sept. 1, 1836, Proclamation of President A. Jackson, in 3 id., at 1452–1453;",
+          "type": "reference",
+          "canonical": "Sept. 1, 1836, Proclamation of President A. Jackson, in 3 id., at 1452–1453;"
+        },
+        {
+          "start": 1030,
+          "end": 1103,
+          "text": "June 14, 1837, Proclamation of President M. Van Buren, in 4 id., at 1539.",
+          "type": "reference",
+          "canonical": "June 14, 1837, Proclamation of President M. Van Buren, in 4 id., at 1539."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 99,
+          "start": 506,
+          "end": 508
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 99,
+          "start": 508,
+          "end": 646
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 99,
+          "start": 646,
+          "end": 1225
+        },
+        {
+          "page": 100,
+          "start": 61,
+          "end": 582
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 200,
+          "end": 257,
+          "text": "Marshall Field & Co. v. Clark, 143 U. S. 649, 691 (1892).",
+          "type": "reference",
+          "canonical": "Marshall Field & Co. v. Clark, 143 U. S. 649, 691 (1892)."
+        },
+        {
+          "start": 373,
+          "end": 450,
+          "text": "See Cargo of Brig Aurora v. United States, 7 Cranch 382, 386, 387–389 (1813).",
+          "type": "reference",
+          "canonical": "See Cargo of Brig Aurora v. United States, 7 Cranch 382, 386, 387–389 (1813)."
+        },
+        {
+          "start": 584,
+          "end": 637,
+          "text": "Curtiss-Wright Export Corp ., 299 U. S., at 315, 322.",
+          "type": "reference",
+          "canonical": "Curtiss-Wright Export Corp ., 299 U. S., at 315, 322."
+        },
+        {
+          "start": 774,
+          "end": 786,
+          "text": "Id., at 315.",
+          "type": "reference",
+          "canonical": "Id., at 315."
+        },
+        {
+          "start": 898,
+          "end": 985,
+          "text": "Chicago & Southern Air Lines, Inc. v. Waterman S. S. Corp ., 333 U. S. 103, 109 (1948),",
+          "type": "reference",
+          "canonical": "Chicago & Southern Air Lines, Inc. v. Waterman S. S. Corp ., 333 U. S. 103, 109 (1948),"
+        },
+        {
+          "start": 1043,
+          "end": 1097,
+          "text": "Curtiss-Wright Export Corp ., 299 U. S., at 325, n. 2.",
+          "type": "reference",
+          "canonical": "Curtiss-Wright Export Corp ., 299 U. S., at 325, n. 2."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 100,
+          "start": 582,
+          "end": 1523
+        }
+      ],
+      "citations": [
+        {
+          "start": 133,
+          "end": 149,
+          "text": ", 143 U. S. 649,",
+          "type": "reference",
+          "canonical": ", 143 U. S. 649,"
+        },
+        {
+          "start": 333,
+          "end": 345,
+          "text": "Id., at 680.",
+          "type": "reference",
+          "canonical": "Id., at 680."
+        },
+        {
+          "start": 515,
+          "end": 527,
+          "text": "Id., at 683.",
+          "type": "reference",
+          "canonical": "Id., at 683."
+        },
+        {
+          "start": 573,
+          "end": 596,
+          "text": ", 276 U. S. 394 (1928),",
+          "type": "reference",
+          "canonical": ", 276 U. S. 394 (1928),"
+        },
+        {
+          "start": 731,
+          "end": 748,
+          "text": "Id., at 401, 409.",
+          "type": "reference",
+          "canonical": "Id., at 401, 409."
+        },
+        {
+          "start": 809,
+          "end": 832,
+          "text": ", 426 U. S. 548 (1976),",
+          "type": "reference",
+          "canonical": ", 426 U. S. 548 (1976),"
+        },
+        {
+          "start": 920,
+          "end": 941,
+          "text": "Id., at 555, 558–560.",
+          "type": "reference",
+          "canonical": "Id., at 555, 558–560."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 100,
+          "start": 1527,
+          "end": 2246
+        },
+        {
+          "page": 101,
+          "start": 1568,
+          "end": 1644
+        }
+      ],
+      "citations": [
+        {
+          "start": 358,
+          "end": 401,
+          "text": "Cross v. Harrison, 16 How. 164, 190 (1854);",
+          "type": "reference",
+          "canonical": "Cross v. Harrison, 16 How. 164, 190 (1854);"
+        },
+        {
+          "start": 402,
+          "end": 432,
+          "text": "see also id., at 192, 194–196.",
+          "type": "reference",
+          "canonical": "see also id., at 192, 194–196."
+        },
+        {
+          "start": 530,
+          "end": 542,
+          "text": "Id., at 193.",
+          "type": "reference",
+          "canonical": "Id., at 193."
+        },
+        {
+          "start": 781,
+          "end": 797,
+          "text": "Id., at 196–197.",
+          "type": "reference",
+          "canonical": "Id., at 196–197."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 101,
+          "start": 57,
+          "end": 297
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 240,
+          "text": "Ante, at 241 (majority opinion) (internal quotation marks omitted).",
+          "type": "reference",
+          "canonical": "Ante, at 241 (majority opinion) (internal quotation marks omitted)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "raise[d]",
+          "to": "raised"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "7",
+      "spans": [
+        {
+          "page": 101,
+          "start": 1646,
+          "end": 1826
+        }
+      ],
+      "citations": [
+        {
+          "start": 125,
+          "end": 179,
+          "text": "FCC v. Consumers' Research, 606 U. S. 656, 674 (2025).",
+          "type": "reference",
+          "canonical": "FCC v. Consumers' Research, 606 U. S. 656, 674 (2025)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 101,
+          "start": 299,
+          "end": 303
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 101,
+          "start": 303,
+          "end": 681
+        }
+      ],
+      "citations": [
+        {
+          "start": 350,
+          "end": 378,
+          "text": "50 U. S. C. § 1702(a)(1)(B).",
+          "type": "reference",
+          "canonical": "50 U. S. C. § 1702(a)(1)(B)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 101,
+          "start": 681,
+          "end": 1568
+        }
+      ],
+      "citations": [
+        {
+          "start": 246,
+          "end": 268,
+          "text": "See supra, at 325–329.",
+          "type": "reference",
+          "canonical": "See supra, at 325–329."
+        },
+        {
+          "start": 323,
+          "end": 343,
+          "text": "See § 1702(a)(1)(B);",
+          "type": "reference",
+          "canonical": "See § 1702(a)(1)(B);"
+        },
+        {
+          "start": 344,
+          "end": 360,
+          "text": "see also § 1701.",
+          "type": "reference",
+          "canonical": "see also § 1701."
+        },
+        {
+          "start": 844,
+          "end": 886,
+          "text": "See post, at 366–373 (dissenting opinion).",
+          "type": "reference",
+          "canonical": "See post, at 366–373 (dissenting opinion)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 102,
+          "start": 64,
+          "end": 884
+        }
+      ],
+      "citations": [
+        {
+          "start": 74,
+          "end": 119,
+          "text": "Ante, at 242–248 (opinion of Roberts, C. J.).",
+          "type": "reference",
+          "canonical": "Ante, at 242–248 (opinion of Roberts, C. J.)."
+        },
+        {
+          "start": 285,
+          "end": 324,
+          "text": "See, e. g., Whitman, 531 U. S., at 468;",
+          "type": "reference",
+          "canonical": "See, e. g., Whitman, 531 U. S., at 468;"
+        },
+        {
+          "start": 325,
+          "end": 370,
+          "text": "see ante, at 243 (opinion of Roberts, C. J.);",
+          "type": "reference",
+          "canonical": "see ante, at 243 (opinion of Roberts, C. J.);"
+        },
+        {
+          "start": 371,
+          "end": 429,
+          "text": "see also Biden v. Nebraska, 600 U. S. 477, 501–503 (2023).",
+          "type": "reference",
+          "canonical": "see also Biden v. Nebraska, 600 U. S. 477, 501–503 (2023)."
+        },
+        {
+          "start": 576,
+          "end": 636,
+          "text": "See, e. g., West Virginia v. EPA, 597 U. S. 697, 723 (2022);",
+          "type": "reference",
+          "canonical": "See, e. g., West Virginia v. EPA, 597 U. S. 697, 723 (2022);"
+        },
+        {
+          "start": 637,
+          "end": 678,
+          "text": "ante, at 243 (opinion of Roberts, C. J.).",
+          "type": "reference",
+          "canonical": "ante, at 243 (opinion of Roberts, C. J.)."
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 85,
+      "start": 1610,
+      "end": 1618,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 90,
+      "start": 414,
+      "end": 418,
+      "expectedText": "fnes",
+      "text": "fines"
+    },
+    {
+      "page": 91,
+      "start": 1103,
+      "end": 1111,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 94,
+      "start": 105,
+      "end": 112,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 95,
+      "start": 821,
+      "end": 824,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 98,
+      "start": 1659,
+      "end": 1667,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 98,
+      "start": 2073,
+      "end": 2081,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 99,
+      "start": 1144,
+      "end": 1151,
+      "expectedText": "confned",
+      "text": "confined"
+    },
+    {
+      "page": 100,
+      "start": 1685,
+      "end": 1693,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 100,
+      "start": 1973,
+      "end": 1981,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 100,
+      "start": 2151,
+      "end": 2159,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 101,
+      "start": 550,
+      "end": 558,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 95,
+      "start": 1445,
+      "end": 1447,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 102,
+      "start": 481,
+      "end": 483,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 87,
+      "start": 1390,
+      "end": 1398,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 90,
+      "start": 1784,
+      "end": 1790,
+      "expectedText": "fx the",
+      "text": "fix the"
+    },
+    {
+      "page": 91,
+      "start": 878,
+      "end": 885,
+      "expectedText": "benefts",
+      "text": "benefits"
+    },
+    {
+      "page": 94,
+      "start": 776,
+      "end": 785,
+      "expectedText": "classifed",
+      "text": "classified"
+    },
+    {
+      "page": 96,
+      "start": 417,
+      "end": 423,
+      "expectedText": "fx the",
+      "text": "fix the"
+    },
+    {
+      "page": 97,
+      "start": 282,
+      "end": 288,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 86,
+      "start": 2344,
+      "end": 2351,
+      "expectedText": "Consti-",
+      "text": "Consti"
+    },
+    {
+      "page": 88,
+      "start": 1972,
+      "end": 1976,
+      "expectedText": "law-",
+      "text": "law"
+    },
+    {
+      "page": 96,
+      "start": 2009,
+      "end": 2012,
+      "expectedText": "ac-",
+      "text": "ac"
+    },
+    {
+      "page": 97,
+      "start": 1934,
+      "end": 1937,
+      "expectedText": "in-",
+      "text": "in"
+    },
+    {
+      "page": 99,
+      "start": 1217,
+      "end": 1224,
+      "expectedText": "delega-",
+      "text": "delega"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 85,
+      "start": 1739,
+      "end": 2070,
+      "text": "2 This reasoning appears to follow the Court's relatively recent practice\nof picking what it deems the best reading of a statute without consideration of Congress's intent. See, e. g., Stanley v. City of Sanford, 606 U. S.\n46, 51–54 (2025); accord, id., at 96–97, and n. 12 (Jackson, J., dissenting).\nPage Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 86,
+      "start": 0,
+      "end": 61,
+      "text": "314 LEARNING RESOURCES, INC. v. TRUMP\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 86,
+      "start": 1656,
+      "end": 1658,
+      "text": "1 ",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 86,
+      "start": 1709,
+      "end": 1711,
+      "text": "1 ",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 86,
+      "start": 2352,
+      "end": 2382,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 87,
+      "start": 0,
+      "end": 88,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 229 (2026) 315\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 88,
+      "start": 0,
+      "end": 61,
+      "text": "316 LEARNING RESOURCES, INC. v. TRUMP\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 88,
+      "start": 1977,
+      "end": 2007,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 89,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 607 U. S. 229 (2026) 317\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 89,
+      "start": 1984,
+      "end": 2014,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 90,
+      "start": 0,
+      "end": 61,
+      "text": "318 LEARNING RESOURCES, INC. v. TRUMP\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 90,
+      "start": 2162,
+      "end": 2192,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 91,
+      "start": 0,
+      "end": 88,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 229 (2026) 319\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 92,
+      "start": 0,
+      "end": 61,
+      "text": "320 LEARNING RESOURCES, INC. v. TRUMP\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 92,
+      "start": 1486,
+      "end": 1490,
+      "text": "2\n2 ",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 92,
+      "start": 2277,
+      "end": 2307,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 93,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 607 U. S. 229 (2026) 321\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 93,
+      "start": 1840,
+      "end": 1870,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 94,
+      "start": 0,
+      "end": 61,
+      "text": "322 LEARNING RESOURCES, INC. v. TRUMP\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 94,
+      "start": 2154,
+      "end": 2184,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 95,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 607 U. S. 229 (2026) 323\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 95,
+      "start": 247,
+      "end": 249,
+      "text": "3\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 95,
+      "start": 1627,
+      "end": 1629,
+      "text": "3 ",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 95,
+      "start": 2096,
+      "end": 2126,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 96,
+      "start": 0,
+      "end": 61,
+      "text": "324 LEARNING RESOURCES, INC. v. TRUMP\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 96,
+      "start": 1473,
+      "end": 1478,
+      "text": "* * *",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 96,
+      "start": 2013,
+      "end": 2043,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 97,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 607 U. S. 229 (2026) 325\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 97,
+      "start": 1938,
+      "end": 1968,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 98,
+      "start": 0,
+      "end": 61,
+      "text": "326 LEARNING RESOURCES, INC. v. TRUMP\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 98,
+      "start": 1481,
+      "end": 1483,
+      "text": "4\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 98,
+      "start": 1957,
+      "end": 1959,
+      "text": "4 ",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 98,
+      "start": 2136,
+      "end": 2166,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 99,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 607 U. S. 229 (2026) 327\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 99,
+      "start": 504,
+      "end": 506,
+      "text": "5\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 99,
+      "start": 1225,
+      "end": 1227,
+      "text": "5 ",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 99,
+      "start": 2331,
+      "end": 2361,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 100,
+      "start": 0,
+      "end": 61,
+      "text": "328 LEARNING RESOURCES, INC. v. TRUMP\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 100,
+      "start": 1523,
+      "end": 1527,
+      "text": "6\n6 ",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 100,
+      "start": 2246,
+      "end": 2276,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 101,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 607 U. S. 229 (2026) 329\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 101,
+      "start": 297,
+      "end": 299,
+      "text": "7\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 101,
+      "start": 1644,
+      "end": 1646,
+      "text": "7 ",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 101,
+      "start": 1826,
+      "end": 1856,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    },
+    {
+      "page": 102,
+      "start": 0,
+      "end": 64,
+      "text": "330 LEARNING RESOURCES, INC. v. TRUMP\nKavanaugh, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

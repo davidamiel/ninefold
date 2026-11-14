@@ -116,10 +116,8 @@ if __name__=='__main__':
         print(f'{args.voice}: paragraph {index+1}/{len(job["spokenParagraphs"])}',flush=True)
     audio=np.concatenate(pieces);peak=np.abs(audio).max()
     if peak:audio*=min(1,.89125/peak)
-    wav_path=local_path(output/(gender+'.wav'),output)
     mp3_path=local_path(output/(gender+'.mp3'),output)
     report_path=local_path(output/(gender+JSON_SUFFIX),output)
-    sf.write(wav_path,audio,rate,subtype='PCM_16')
     with av.open(str(mp3_path),'w') as container:
         stream=container.add_stream('libmp3lame',rate=rate);stream.bit_rate=64000;stream.layout='mono'
         for start in range(0,len(audio),1152):

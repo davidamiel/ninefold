@@ -1,0 +1,421 @@
+{
+  "reviewed": true,
+  "documentId": "25-5442-f0b877d89980--0-0",
+  "sourceDocumentId": "25-5442-f0b877d89980",
+  "sourceTextPath": "dist/data/docs/25-5442-f0b877d89980.json",
+  "sourceTextSha256": "3983d6b0773c8da38c091d32bc9da9d358d302b51f2a32ea60561c32b4e5e251",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/f0b877d89980d5bdce56aeee.pdf",
+  "sourcePdfSha256": "1ae69bf766baec237eedbf010f7817c152bbfbf7a2339120a4a975442dd1a83c",
+  "title": "Dissent",
+  "author": "Neil Gorsuch",
+  "date": "2026-03-09",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-5442_fd9g.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 2,
+    "endOffset": 1668
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 417,
+          "end": 685
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 685,
+          "end": 1312
+        }
+      ],
+      "citations": [
+        {
+          "start": 214,
+          "end": 241,
+          "text": "See 18 U. S. C. §3583(e)(3)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3583"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1312,
+          "end": 1778
+        },
+        {
+          "page": 1,
+          "start": 101,
+          "end": 197
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 197,
+          "end": 675
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 675,
+          "end": 1388
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1388,
+          "end": 2157
+        },
+        {
+          "page": 2,
+          "start": 100,
+          "end": 626
+        }
+      ],
+      "citations": [
+        {
+          "start": 276,
+          "end": 365,
+          "text": "See United States v. Henderson, 998 F. 3d 1071, 1086 (CA9 2021) (Rakoff, J., dissenting).",
+          "type": "case",
+          "canonical": "998 F.3d 1071"
+        },
+        {
+          "start": 587,
+          "end": 606,
+          "text": "See §§3583(b), (h).",
+          "type": "statute",
+          "canonical": "§§3583(b)"
+        },
+        {
+          "start": 652,
+          "end": 665,
+          "text": "See §3583(k).",
+          "type": "statute",
+          "canonical": "§3583(k)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 626,
+          "end": 1668
+        }
+      ],
+      "citations": [
+        {
+          "start": 456,
+          "end": 523,
+          "text": "Apprendi v. New Jersey, 530 U. S. 466, 490 (2000) (emphasis added);",
+          "type": "case",
+          "canonical": "530 U.S. 466"
+        },
+        {
+          "start": 524,
+          "end": 586,
+          "text": "see also Erlinger v. United States, 602 U. S. 821, 833 (2024);",
+          "type": "case",
+          "canonical": "602 U.S. 821"
+        },
+        {
+          "start": 587,
+          "end": 678,
+          "text": "United States v. Haymond, 588 U. S. 634, 644 (2019) (plurality opinion) (collecting cases).",
+          "type": "case",
+          "canonical": "588 U.S. 634"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[o]ther",
+          "to": "other"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 736,
+      "end": 748,
+      "expectedText": "govern-\nment",
+      "text": "government"
+    },
+    {
+      "page": 0,
+      "start": 855,
+      "end": 866,
+      "expectedText": "sen-\ntenced",
+      "text": "sentenced"
+    },
+    {
+      "page": 0,
+      "start": 973,
+      "end": 981,
+      "expectedText": "im-\npose",
+      "text": "impose"
+    },
+    {
+      "page": 0,
+      "start": 1199,
+      "end": 1211,
+      "expectedText": "un-\nderlying",
+      "text": "underlying"
+    },
+    {
+      "page": 0,
+      "start": 710,
+      "end": 718,
+      "expectedText": "rele ase",
+      "text": "release"
+    },
+    {
+      "page": 0,
+      "start": 825,
+      "end": 834,
+      "expectedText": "re sponse",
+      "text": "response"
+    },
+    {
+      "page": 0,
+      "start": 1228,
+      "end": 1236,
+      "expectedText": "Burn ett",
+      "text": "Burnett"
+    },
+    {
+      "page": 0,
+      "start": 1362,
+      "end": 1371,
+      "expectedText": "Bur-\nnett",
+      "text": "Burnett"
+    },
+    {
+      "page": 0,
+      "start": 1541,
+      "end": 1553,
+      "expectedText": "under-\nlying",
+      "text": "underlying"
+    },
+    {
+      "page": 1,
+      "start": 425,
+      "end": 434,
+      "expectedText": "fac-\ntual",
+      "text": "factual"
+    },
+    {
+      "page": 1,
+      "start": 787,
+      "end": 799,
+      "expectedText": "super-\nvised",
+      "text": "supervised"
+    },
+    {
+      "page": 1,
+      "start": 1026,
+      "end": 1035,
+      "expectedText": "maxi-\nmum",
+      "text": "maximum"
+    },
+    {
+      "page": 1,
+      "start": 1085,
+      "end": 1094,
+      "expectedText": "Bur-\nnett",
+      "text": "Burnett"
+    },
+    {
+      "page": 1,
+      "start": 1264,
+      "end": 1275,
+      "expectedText": "defend-\nant",
+      "text": "defendant"
+    },
+    {
+      "page": 1,
+      "start": 702,
+      "end": 710,
+      "expectedText": "Bu rnett",
+      "text": "Burnett"
+    },
+    {
+      "page": 1,
+      "start": 756,
+      "end": 766,
+      "expectedText": "receivin g",
+      "text": "receiving"
+    },
+    {
+      "page": 1,
+      "start": 1558,
+      "end": 1568,
+      "expectedText": "pro-\nspect",
+      "text": "prospect"
+    },
+    {
+      "page": 1,
+      "start": 1851,
+      "end": 1860,
+      "expectedText": "fed-\neral",
+      "text": "federal"
+    },
+    {
+      "page": 1,
+      "start": 1907,
+      "end": 1919,
+      "expectedText": "super-\nvised",
+      "text": "supervised"
+    },
+    {
+      "page": 1,
+      "start": 2027,
+      "end": 2039,
+      "expectedText": "super-\nvised",
+      "text": "supervised"
+    },
+    {
+      "page": 1,
+      "start": 1523,
+      "end": 1534,
+      "expectedText": "violatio ns",
+      "text": "violations"
+    },
+    {
+      "page": 1,
+      "start": 1691,
+      "end": 1702,
+      "expectedText": "Henderson ,",
+      "text": "Henderson,"
+    },
+    {
+      "page": 2,
+      "start": 385,
+      "end": 400,
+      "expectedText": "prepon-\nderance",
+      "text": "preponderance"
+    },
+    {
+      "page": 2,
+      "start": 441,
+      "end": 452,
+      "expectedText": "war-\nranted",
+      "text": "warranted"
+    },
+    {
+      "page": 2,
+      "start": 551,
+      "end": 561,
+      "expectedText": "Con-\ngress",
+      "text": "Congress"
+    },
+    {
+      "page": 2,
+      "start": 611,
+      "end": 623,
+      "expectedText": "con-\nviction",
+      "text": "conviction"
+    },
+    {
+      "page": 2,
+      "start": 677,
+      "end": 687,
+      "expectedText": "stand-\nard",
+      "text": "standard"
+    },
+    {
+      "page": 2,
+      "start": 737,
+      "end": 750,
+      "expectedText": "pros-\necutors",
+      "text": "prosecutors"
+    },
+    {
+      "page": 2,
+      "start": 1143,
+      "end": 1153,
+      "expectedText": "empha-\nsis",
+      "text": "emphasis"
+    },
+    {
+      "page": 2,
+      "start": 1243,
+      "end": 1252,
+      "expectedText": "Haymond ,",
+      "text": "Haymond,"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 44,
+      "end": 417,
+      "text": "1  Cite as: 607 U. S. ____ (2026) \nGORSUCH, J., dissenting \nSUPREME COURT OF THE UNITED STATES \nJARON BURNETT v. UNITED STATES \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE THIRD CIRCUIT \nNo. 25–5442. Decided March 9, 2026 \nThe petition for a writ of certiorari is denied. \nJUSTICE GORSUCH, dissenting from the denial of certio-\nrari. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    },
+    {
+      "page": 1,
+      "start": 48,
+      "end": 101,
+      "text": "2 BURNETT v. UNITED STATES \nGORSUCH, J., dissenting \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    },
+    {
+      "page": 2,
+      "start": 40,
+      "end": 100,
+      "text": "3  Cite as: 607 U. S. ____ (2026) \nGORSUCH, J., dissenting \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    }
+  ],
+  "documentInfo": {
+    "joinedBy": []
+  },
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full original judicial writing reviewed. All substantive text and explanatory/quoted parentheticals retained; front attribution and bare order excluded, exact extraction repairs and independent source locators recorded. Meaningful statute references embedded in plea quotation remain linked and spoken."
+}

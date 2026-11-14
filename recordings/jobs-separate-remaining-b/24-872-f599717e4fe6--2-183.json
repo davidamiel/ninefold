@@ -1,0 +1,3622 @@
+{
+  "reviewed": true,
+  "documentId": "24-872-f599717e4fe6--2-183",
+  "sourceDocumentId": "24-872-f599717e4fe6",
+  "sourceTextPath": "dist/data/docs/24-872-f599717e4fe6.json",
+  "sourceTextSha256": "fe074150b9034f9c416ba430db47f07681528c2d2234a36f1104a691d617e66e",
+  "sourcePdfPath": "dist/data/pdfs/24-872-f599717e4fe6--2-183.pdf",
+  "sourcePdfSha256": "d9aea8597b5fcdaff56916bbba788c94fa0458a85cab6f0086260ad07b40448b",
+  "title": "Concurrence",
+  "author": "Sonia Sotomayor",
+  "date": "2026-05-21",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r35_j4el.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 247,
+    "endPage": 23,
+    "endOffset": 1021
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 247,
+          "end": 826
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 347,
+          "end": 369,
+          "text": ", 536 U. S. 304 (2002)",
+          "type": "reference",
+          "canonical": ", 536 U. S. 304 (2002)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 2,
+          "start": 826,
+          "end": 828
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 2,
+          "start": 828,
+          "end": 830
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 830,
+          "end": 1126
+        },
+        {
+          "page": 3,
+          "start": 75,
+          "end": 109
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1939,
+          "end": 2185
+        }
+      ],
+      "citations": [
+        {
+          "start": 205,
+          "end": 248,
+          "text": "Hall v. Florida, 572 U. S. 701, 713 (2014).",
+          "type": "reference",
+          "canonical": "Hall v. Florida, 572 U. S. 701, 713 (2014)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 110,
+          "end": 904
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 214,
+          "end": 273,
+          "text": "Smith v. State, 71 So. 3d 12, 19–20 (Ala. Crim. App. 2008).",
+          "type": "reference",
+          "canonical": "Smith v. State, 71 So. 3d 12, 19–20 (Ala. Crim. App. 2008)."
+        },
+        {
+          "start": 567,
+          "end": 624,
+          "text": "See Penry v. Lynaugh, 492 U. S. 302, 328, 330–335 (1989).",
+          "type": "reference",
+          "canonical": "See Penry v. Lynaugh, 492 U. S. 302, 328, 330–335 (1989)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 904,
+          "end": 1702
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 56,
+          "end": 79,
+          "text": ", 536 U. S. 304 (2002),",
+          "type": "reference",
+          "canonical": ", 536 U. S. 304 (2002),"
+        },
+        {
+          "start": 294,
+          "end": 306,
+          "text": "Id., at 317.",
+          "type": "reference",
+          "canonical": "Id., at 317."
+        },
+        {
+          "start": 756,
+          "end": 801,
+          "text": "Ex parte Perkins, 851 So. 2d 453, 456 (2002).",
+          "type": "reference",
+          "canonical": "Ex parte Perkins, 851 So. 2d 453, 456 (2002)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "develo[p]",
+          "to": "develop"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1702,
+          "end": 1937
+        },
+        {
+          "page": 4,
+          "start": 91,
+          "end": 281
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 281,
+          "end": 283
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 283,
+          "end": 909
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 317,
+          "end": 338,
+          "text": "28 U. S. C. § 2254(d)",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2254(d)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 505,
+          "end": 555,
+          "text": "Smith v. Campbell, 620 Fed. Appx. 734 (CA11 2015).",
+          "type": "reference",
+          "canonical": "Smith v. Campbell, 620 Fed. Appx. 734 (CA11 2015)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "28 U. S. C. § 2254(d)",
+          "to": "title twenty-eight United States Code, section twenty-two fifty-four, subsection d"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 909,
+          "end": 1637
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 85,
+          "end": 161,
+          "text": "See Smith v. Thomas, No. 1:05–cv–00474 (SD Ala., July 1, 2016), ECF Doc. 75.",
+          "type": "reference",
+          "canonical": "See Smith v. Thomas, No. 1:05–cv–00474 (SD Ala., July 1, 2016), ECF Doc. 75."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1637,
+          "end": 2061
+        },
+        {
+          "page": 5,
+          "start": 75,
+          "end": 931
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 360,
+          "end": 371,
+          "text": "2 App. 596.",
+          "type": "reference",
+          "canonical": "2 App. 596."
+        },
+        {
+          "start": 659,
+          "end": 675,
+          "text": "Id., at 596–597.",
+          "type": "reference",
+          "canonical": "Id., at 596–597."
+        },
+        {
+          "start": 853,
+          "end": 865,
+          "text": "Id., at 598.",
+          "type": "reference",
+          "canonical": "Id., at 598."
+        },
+        {
+          "start": 1130,
+          "end": 1144,
+          "text": "1 id., at 271.",
+          "type": "reference",
+          "canonical": "1 id., at 271."
+        },
+        {
+          "start": 1267,
+          "end": 1283,
+          "text": "Id., at 271–272.",
+          "type": "reference",
+          "canonical": "Id., at 271–272."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Smith in]",
+          "to": "Smith in"
+        },
+        {
+          "from": "disabilit[y]",
+          "to": "disability"
+        },
+        {
+          "from": "[he]",
+          "to": "he"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 931,
+          "end": 2042
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 208,
+          "end": 220,
+          "text": "id., at 244,",
+          "type": "reference",
+          "canonical": "id., at 244,"
+        },
+        {
+          "start": 328,
+          "end": 344,
+          "text": "id., at 179–180.",
+          "type": "reference",
+          "canonical": "id., at 179–180."
+        },
+        {
+          "start": 600,
+          "end": 612,
+          "text": "Id., at 180.",
+          "type": "reference",
+          "canonical": "Id., at 180."
+        },
+        {
+          "start": 866,
+          "end": 871,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 1079,
+          "end": 1091,
+          "text": "Id., at 111;",
+          "type": "reference",
+          "canonical": "Id., at 111;"
+        },
+        {
+          "start": 1092,
+          "end": 1115,
+          "text": "see also 3 id., at 875.",
+          "type": "reference",
+          "canonical": "see also 3 id., at 875."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "need[s]",
+          "to": "needs"
+        },
+        {
+          "from": "cognitively[, Smith is]",
+          "to": "cognitively, Smith is"
+        },
+        {
+          "from": "consider[ing]",
+          "to": "considering"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 2042,
+          "end": 2161
+        },
+        {
+          "page": 6,
+          "start": 91,
+          "end": 578
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 499,
+          "end": 604,
+          "text": "Smith v. Dunn, Civ. Action No. 05–00474 (SD Ala., Aug. 17, 2021), App. to Pet. for Cert. 73a (Pet. App.).",
+          "type": "reference",
+          "canonical": "Smith v. Dunn, Civ. Action No. 05–00474 (SD Ala., Aug. 17, 2021), App. to Pet. for Cert. 73a (Pet. App.)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 578,
+          "end": 1991
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 195,
+          "end": 207,
+          "text": "Id., at 74a.",
+          "type": "reference",
+          "canonical": "Id., at 74a."
+        },
+        {
+          "start": 552,
+          "end": 564,
+          "text": "Id., at 70a.",
+          "type": "reference",
+          "canonical": "Id., at 70a."
+        },
+        {
+          "start": 954,
+          "end": 959,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 1183,
+          "end": 1195,
+          "text": "Id., at 74a.",
+          "type": "reference",
+          "canonical": "Id., at 74a."
+        },
+        {
+          "start": 1416,
+          "end": 1421,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "function[ing]",
+          "to": "functioning"
+        },
+        {
+          "from": "[,]",
+          "to": ","
+        },
+        {
+          "from": "[this evidence]",
+          "to": "this evidence"
+        },
+        {
+          "from": "[District]",
+          "to": "District"
+        },
+        {
+          "from": "[wa]s",
+          "to": "was"
+        },
+        {
+          "from": "Smith['s]",
+          "to": "Smith's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1991,
+          "end": 2159
+        },
+        {
+          "page": 7,
+          "start": 75,
+          "end": 177
+        }
+      ],
+      "citations": [
+        {
+          "start": 255,
+          "end": 271,
+          "text": "Id., at 75a–92a.",
+          "type": "reference",
+          "canonical": "Id., at 75a–92a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1873,
+          "end": 2081
+        }
+      ],
+      "citations": [
+        {
+          "start": 177,
+          "end": 208,
+          "text": "See App. to Pet. for Cert. 89a.",
+          "type": "reference",
+          "canonical": "See App. to Pet. for Cert. 89a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "question[ed]",
+          "to": "questioned"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 178,
+          "end": 357
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 161,
+          "end": 177,
+          "text": "Id., at 90a–92a.",
+          "type": "reference",
+          "canonical": "Id., at 90a–92a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 357,
+          "end": 873
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 225,
+          "end": 237,
+          "text": "Id., at 92a.",
+          "type": "reference",
+          "canonical": "Id., at 92a."
+        },
+        {
+          "start": 364,
+          "end": 376,
+          "text": "Id., at 96a.",
+          "type": "reference",
+          "canonical": "Id., at 96a."
+        },
+        {
+          "start": 503,
+          "end": 519,
+          "text": "Id., at 96a–97a.",
+          "type": "reference",
+          "canonical": "Id., at 96a–97a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 873,
+          "end": 875
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 875,
+          "end": 1758
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 111,
+          "end": 162,
+          "text": "Hamm v. Smith, 604 U. S. 1, 2 (2024) (per curiam ).",
+          "type": "reference",
+          "canonical": "Hamm v. Smith, 604 U. S. 1, 2 (2024) (per curiam )."
+        },
+        {
+          "start": 525,
+          "end": 530,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 726,
+          "end": 731,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 879,
+          "end": 884,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1758,
+          "end": 1870
+        },
+        {
+          "page": 8,
+          "start": 91,
+          "end": 713
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 85,
+          "end": 191,
+          "text": "Smith v. Commissioner, Ala. Dept. of Corrections, No. 21–14519 (Nov. 14, 2024) (per curiam), Pet. App. 2a.",
+          "type": "reference",
+          "canonical": "Smith v. Commissioner, Ala. Dept. of Corrections, No. 21–14519 (Nov. 14, 2024) (per curiam), Pet. App. 2a."
+        },
+        {
+          "start": 477,
+          "end": 482,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 726,
+          "end": 737,
+          "text": "Id., at 5a.",
+          "type": "reference",
+          "canonical": "Id., at 5a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "reject[ed]",
+          "to": "rejected"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 713,
+          "end": 715
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 715,
+          "end": 1556
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 371,
+          "end": 388,
+          "text": "Pet. for Cert. i.",
+          "type": "reference",
+          "canonical": "Pet. for Cert. i."
+        },
+        {
+          "start": 660,
+          "end": 721,
+          "text": "Brief for United States as Amicus Curiae on Pet. for Cert. I;",
+          "type": "reference",
+          "canonical": "Brief for United States as Amicus Curiae on Pet. for Cert. I;"
+        },
+        {
+          "start": 722,
+          "end": 740,
+          "text": "see id., at 20–22.",
+          "type": "reference",
+          "canonical": "see id., at 20–22."
+        },
+        {
+          "start": 824,
+          "end": 842,
+          "text": "See id., at 20–22.",
+          "type": "reference",
+          "canonical": "See id., at 20–22."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[w]hether",
+          "to": "whether"
+        },
+        {
+          "from": "[w]hether",
+          "to": "whether"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1556,
+          "end": 1559
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1559,
+          "end": 1954
+        },
+        {
+          "page": 9,
+          "start": 75,
+          "end": 537
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 364,
+          "end": 382,
+          "text": "536 U. S., at 317.",
+          "type": "reference",
+          "canonical": "536 U. S., at 317."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 537,
+          "end": 539
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 539,
+          "end": 1451
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 212,
+          "end": 284,
+          "text": "Reply Brief 12 (internal quotation marks omitted; ellipsis in original).",
+          "type": "reference",
+          "canonical": "Reply Brief 12 (internal quotation marks omitted; ellipsis in original)."
+        },
+        {
+          "start": 482,
+          "end": 496,
+          "text": "Id., at 1, 10.",
+          "type": "reference",
+          "canonical": "Id., at 1, 10."
+        },
+        {
+          "start": 740,
+          "end": 758,
+          "text": "Id., at 10–12, 19.",
+          "type": "reference",
+          "canonical": "Id., at 10–12, 19."
+        },
+        {
+          "start": 889,
+          "end": 913,
+          "text": "Brief for Petitioner 28.",
+          "type": "reference",
+          "canonical": "Brief for Petitioner 28."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "combine[d]",
+          "to": "combined"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1451,
+          "end": 1985
+        },
+        {
+          "page": 10,
+          "start": 91,
+          "end": 209
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 128,
+          "end": 172,
+          "text": "Brief for United States as Amicus Curiae 19.",
+          "type": "reference",
+          "canonical": "Brief for United States as Amicus Curiae 19."
+        },
+        {
+          "start": 394,
+          "end": 408,
+          "text": "Id., at 18–19.",
+          "type": "reference",
+          "canonical": "Id., at 18–19."
+        },
+        {
+          "start": 643,
+          "end": 654,
+          "text": "Id., at 19.",
+          "type": "reference",
+          "canonical": "Id., at 19."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "prescrib[e]",
+          "to": "prescribe"
+        },
+        {
+          "from": "[o]f",
+          "to": "of"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 209,
+          "end": 733
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 295,
+          "end": 318,
+          "text": "Brief for Respondent 2.",
+          "type": "reference",
+          "canonical": "Brief for Respondent 2."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 733,
+          "end": 934
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 934,
+          "end": 936
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 936,
+          "end": 2052
+        },
+        {
+          "page": 11,
+          "start": 75,
+          "end": 140
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 416,
+          "end": 477,
+          "text": "See Respondent's Post-Hearing Brief, ECF Doc. 129, pp. 36–46.",
+          "type": "reference",
+          "canonical": "See Respondent's Post-Hearing Brief, ECF Doc. 129, pp. 36–46."
+        },
+        {
+          "start": 698,
+          "end": 712,
+          "text": "See id., at 36",
+          "type": "reference",
+          "canonical": "See id., at 36"
+        },
+        {
+          "start": 1174,
+          "end": 1184,
+          "text": "Id., at 4.",
+          "type": "reference",
+          "canonical": "Id., at 4."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[,]",
+          "to": ","
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 140,
+          "end": 817
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 817,
+          "end": 1284
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1284,
+          "end": 1995
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 700,
+          "end": 713,
+          "text": "Pet. App. 2a.",
+          "type": "reference",
+          "canonical": "Pet. App. 2a."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1995,
+          "end": 2113
+        },
+        {
+          "page": 12,
+          "start": 91,
+          "end": 442
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1346,
+          "end": 1796
+        }
+      ],
+      "citations": [
+        {
+          "start": 90,
+          "end": 126,
+          "text": "Post, at 335 (opinion of Alito, J.).",
+          "type": "reference",
+          "canonical": "Post, at 335 (opinion of Alito, J.)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 444,
+          "end": 446
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 446,
+          "end": 1342
+        }
+      ],
+      "citations": [
+        {
+          "start": 130,
+          "end": 166,
+          "text": "Post, at 316 (opinion of Alito, J.).",
+          "type": "reference",
+          "canonical": "Post, at 316 (opinion of Alito, J.)."
+        },
+        {
+          "start": 391,
+          "end": 456,
+          "text": "See, e. g., Black v. Carpenter, 866 F. 3d 734, 743–749 (CA6 2017)",
+          "type": "reference",
+          "canonical": "See, e. g., Black v. Carpenter, 866 F. 3d 734, 743–749 (CA6 2017)"
+        },
+        {
+          "start": 558,
+          "end": 615,
+          "text": "Jackson v. Payne, 9 F. 4th 646, 653 (CA8 2021) (similar).",
+          "type": "reference",
+          "canonical": "Jackson v. Payne, 9 F. 4th 646, 653 (CA8 2021) (similar)."
+        },
+        {
+          "start": 722,
+          "end": 738,
+          "text": ", 572 U. S. 701,",
+          "type": "reference",
+          "canonical": ", 572 U. S. 701,"
+        },
+        {
+          "start": 865,
+          "end": 898,
+          "text": "Brief for Respondent 9, and n. 1.",
+          "type": "reference",
+          "canonical": "Brief for Respondent 9, and n. 1."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1798,
+          "end": 2210
+        }
+      ],
+      "citations": [
+        {
+          "start": 247,
+          "end": 280,
+          "text": "Brief for Respondent 9, and n. 1;",
+          "type": "reference",
+          "canonical": "Brief for Respondent 9, and n. 1;"
+        },
+        {
+          "start": 281,
+          "end": 320,
+          "text": "cf. post, at 321 (opinion of Alito, J.)",
+          "type": "reference",
+          "canonical": "cf. post, at 321 (opinion of Alito, J.)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 75,
+          "end": 753
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 239,
+          "end": 252,
+          "text": "Post, at 322.",
+          "type": "reference",
+          "canonical": "Post, at 322."
+        },
+        {
+          "start": 495,
+          "end": 519,
+          "text": "Hall, 572 U. S., at 710,",
+          "type": "reference",
+          "canonical": "Hall, 572 U. S., at 710,"
+        },
+        {
+          "start": 560,
+          "end": 599,
+          "text": "Moore v. Texas, 581 U. S. 1, 13 (2017);",
+          "type": "reference",
+          "canonical": "Moore v. Texas, 581 U. S. 1, 13 (2017);"
+        },
+        {
+          "start": 600,
+          "end": 629,
+          "text": "see Atkins, 536 U. S., at 318",
+          "type": "reference",
+          "canonical": "see Atkins, 536 U. S., at 318"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]n",
+          "to": "in"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 753,
+          "end": 1091
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 182,
+          "end": 199,
+          "text": "Post, at 322–324.",
+          "type": "reference",
+          "canonical": "Post, at 322–324."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1091,
+          "end": 2154
+        },
+        {
+          "page": 14,
+          "start": 91,
+          "end": 627
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 460,
+          "end": 473,
+          "text": "Post, at 325.",
+          "type": "reference",
+          "canonical": "Post, at 325."
+        },
+        {
+          "start": 718,
+          "end": 774,
+          "text": "Brief for AAIDD et al. as Amici Curiae 26 (AAIDD Brief).",
+          "type": "reference",
+          "canonical": "Brief for AAIDD et al. as Amici Curiae 26 (AAIDD Brief)."
+        },
+        {
+          "start": 1072,
+          "end": 1097,
+          "text": "Ibid. (emphasis deleted);",
+          "type": "reference",
+          "canonical": "Ibid. (emphasis deleted);"
+        },
+        {
+          "start": 1098,
+          "end": 1215,
+          "text": "see also D. Watson, Intelligence Testing, in The Death Penalty and Intellectual Disability 124 (E. Polloway ed. 2015)",
+          "type": "reference",
+          "canonical": "see also D. Watson, Intelligence Testing, in The Death Penalty and Intellectual Disability 124 (E. Polloway ed. 2015)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[,]",
+          "to": ","
+        },
+        {
+          "from": "[I]t",
+          "to": "It"
+        },
+        {
+          "from": "[a]",
+          "to": "a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 627,
+          "end": 736
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 736,
+          "end": 740
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 740,
+          "end": 1616
+        }
+      ],
+      "citations": [
+        {
+          "start": 343,
+          "end": 360,
+          "text": "See post, at 324.",
+          "type": "reference",
+          "canonical": "See post, at 324."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1620,
+          "end": 2164
+        }
+      ],
+      "citations": [
+        {
+          "start": 145,
+          "end": 166,
+          "text": "See post, at 324–329.",
+          "type": "reference",
+          "canonical": "See post, at 324–329."
+        },
+        {
+          "start": 334,
+          "end": 382,
+          "text": "Hamm v. Smith, 604 U. S. 1 (2024) (per curiam ).",
+          "type": "reference",
+          "canonical": "Hamm v. Smith, 604 U. S. 1 (2024) (per curiam )."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1617,
+          "end": 1618
+        },
+        {
+          "page": 15,
+          "start": 75,
+          "end": 77
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 77,
+          "end": 455
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 211,
+          "end": 233,
+          "text": "Hamm, 604 U. S., at 2,",
+          "type": "reference",
+          "canonical": "Hamm, 604 U. S., at 2,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 455,
+          "end": 727
+        }
+      ],
+      "citations": [
+        {
+          "start": 18,
+          "end": 34,
+          "text": ", 572 U. S. 701,",
+          "type": "reference",
+          "canonical": ", 572 U. S. 701,"
+        },
+        {
+          "start": 253,
+          "end": 271,
+          "text": "572 U. S., at 707.",
+          "type": "reference",
+          "canonical": "572 U. S., at 707."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1927,
+          "end": 2053
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 126,
+          "text": "Hall, 572 U. S., at 707.",
+          "type": "reference",
+          "canonical": "Hall, 572 U. S., at 707."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 728,
+          "end": 1509
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 162,
+          "end": 174,
+          "text": "Id., at 712.",
+          "type": "reference",
+          "canonical": "Id., at 712."
+        },
+        {
+          "start": 338,
+          "end": 343,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 526,
+          "end": 531,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 770,
+          "end": 782,
+          "text": "Id., at 714.",
+          "type": "reference",
+          "canonical": "Id., at 714."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "disregard[ed]",
+          "to": "disregarded"
+        },
+        {
+          "from": "[i]t",
+          "to": "it"
+        },
+        {
+          "from": "[took]",
+          "to": "took"
+        },
+        {
+          "from": "relie[d]",
+          "to": "relied"
+        },
+        {
+          "from": "[e]ven",
+          "to": "even"
+        },
+        {
+          "from": "[standard error of measurement]",
+          "to": "standard error of measurement"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1509,
+          "end": 1925
+        },
+        {
+          "page": 16,
+          "start": 91,
+          "end": 745
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 299,
+          "end": 304,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 823,
+          "end": 835,
+          "text": "Id., at 712.",
+          "type": "reference",
+          "canonical": "Id., at 712."
+        },
+        {
+          "start": 1060,
+          "end": 1072,
+          "text": "Id., at 724.",
+          "type": "reference",
+          "canonical": "Id., at 724."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[such]",
+          "to": "such"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 745,
+          "end": 872
+        }
+      ],
+      "citations": [
+        {
+          "start": 14,
+          "end": 28,
+          "text": ", 581 U. S. 1,",
+          "type": "reference",
+          "canonical": ", 581 U. S. 1,"
+        },
+        {
+          "start": 105,
+          "end": 126,
+          "text": "See 581 U. S., at 10.",
+          "type": "reference",
+          "canonical": "See 581 U. S., at 10."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "7",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1972,
+          "end": 2173
+        }
+      ],
+      "citations": [
+        {
+          "start": 178,
+          "end": 202,
+          "text": "Moore, 581 U. S., at 10.",
+          "type": "reference",
+          "canonical": "Moore, 581 U. S., at 10."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[r]eject[ed]",
+          "to": "rejected"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 873,
+          "end": 1292
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 397,
+          "end": 417,
+          "text": "581 U. S., at 14–15.",
+          "type": "reference",
+          "canonical": "581 U. S., at 14–15."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[b]ecause",
+          "to": "because"
+        },
+        {
+          "from": "[Texas court]",
+          "to": "Texas court"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1292,
+          "end": 1561
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 161,
+          "end": 174,
+          "text": "Post, at 330.",
+          "type": "reference",
+          "canonical": "Post, at 330."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "deflat[ing]",
+          "to": "deflating"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1561,
+          "end": 1970
+        },
+        {
+          "page": 17,
+          "start": 75,
+          "end": 709
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 220,
+          "end": 299,
+          "text": "581 U. S., at 25 (Roberts, C. J., joined by Thomas and Alito, JJ., dissenting).",
+          "type": "reference",
+          "canonical": "581 U. S., at 25 (Roberts, C. J., joined by Thomas and Alito, JJ., dissenting)."
+        },
+        {
+          "start": 502,
+          "end": 532,
+          "text": "Id., at 15 (majority opinion).",
+          "type": "reference",
+          "canonical": "Id., at 15 (majority opinion)."
+        },
+        {
+          "start": 828,
+          "end": 839,
+          "text": "Id., at 15.",
+          "type": "reference",
+          "canonical": "Id., at 15."
+        },
+        {
+          "start": 1034,
+          "end": 1045,
+          "text": "Id., at 14.",
+          "type": "reference",
+          "canonical": "Id., at 14."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Texas court]",
+          "to": "Texas court"
+        },
+        {
+          "from": "[must]",
+          "to": "must"
+        },
+        {
+          "from": "yield[ed]",
+          "to": "yielded"
+        },
+        {
+          "from": "requir[ed]",
+          "to": "required"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 709,
+          "end": 1829
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 234,
+          "end": 251,
+          "text": "See Pet. App. 70a",
+          "type": "reference",
+          "canonical": "See Pet. App. 70a"
+        },
+        {
+          "start": 389,
+          "end": 400,
+          "text": "id., at 68a",
+          "type": "reference",
+          "canonical": "id., at 68a"
+        },
+        {
+          "start": 834,
+          "end": 846,
+          "text": "Id., at 74a.",
+          "type": "reference",
+          "canonical": "Id., at 74a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[,]",
+          "to": ","
+        },
+        {
+          "from": "[Smith's]",
+          "to": "Smith's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1829,
+          "end": 2189
+        },
+        {
+          "page": 18,
+          "start": 91,
+          "end": 306
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 285,
+          "end": 309,
+          "text": "Hall, 572 U. S., at 723.",
+          "type": "reference",
+          "canonical": "Hall, 572 U. S., at 723."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 18,
+          "start": 306,
+          "end": 308
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 308,
+          "end": 1701
+        }
+      ],
+      "citations": [
+        {
+          "start": 121,
+          "end": 134,
+          "text": "Post, at 316.",
+          "type": "reference",
+          "canonical": "Post, at 316."
+        },
+        {
+          "start": 252,
+          "end": 276,
+          "text": "Hall, 572 U. S., at 721.",
+          "type": "reference",
+          "canonical": "Hall, 572 U. S., at 721."
+        },
+        {
+          "start": 513,
+          "end": 694,
+          "text": "R. Floyd, R. Farmer, W. Schneider, & K. McGrew, Theories and Measurement of Intelligence, in 1 APA Handbook of Intellectual and Developmental Disabilities 415 (L. Glidden ed. 2021).",
+          "type": "reference",
+          "canonical": "R. Floyd, R. Farmer, W. Schneider, & K. McGrew, Theories and Measurement of Intelligence, in 1 APA Handbook of Intellectual and Developmental Disabilities 415 (L. Glidden ed. 2021)."
+        },
+        {
+          "start": 877,
+          "end": 963,
+          "text": "See Brief for American Psychological Association et al. as Amici Curiae 22 (APA Brief)",
+          "type": "reference",
+          "canonical": "See Brief for American Psychological Association et al. as Amici Curiae 22 (APA Brief)"
+        },
+        {
+          "start": 1380,
+          "end": 1395,
+          "text": "AAIDD Brief 24.",
+          "type": "reference",
+          "canonical": "AAIDD Brief 24."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "8",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1705,
+          "end": 2140
+        },
+        {
+          "page": 19,
+          "start": 2031,
+          "end": 2160
+        }
+      ],
+      "citations": [
+        {
+          "start": 261,
+          "end": 274,
+          "text": "Post, at 336.",
+          "type": "reference",
+          "canonical": "Post, at 336."
+        },
+        {
+          "start": 545,
+          "end": 566,
+          "text": "See post, at 323–324.",
+          "type": "reference",
+          "canonical": "See post, at 323–324."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[w]hether",
+          "to": "whether"
+        },
+        {
+          "from": "[w]hether",
+          "to": "whether"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 75,
+          "end": 2031
+        },
+        {
+          "page": 20,
+          "start": 91,
+          "end": 182
+        }
+      ],
+      "citations": [
+        {
+          "start": 476,
+          "end": 486,
+          "text": "Id., at 5;",
+          "type": "reference",
+          "canonical": "Id., at 5;"
+        },
+        {
+          "start": 487,
+          "end": 608,
+          "text": "American Psychiatric Association, Diagnostic and Statistical Manual of Mental Disorders 42 (5th ed. text rev. 2022) (DSM)",
+          "type": "reference",
+          "canonical": "American Psychiatric Association, Diagnostic and Statistical Manual of Mental Disorders 42 (5th ed. text rev. 2022) (DSM)"
+        },
+        {
+          "start": 1076,
+          "end": 1126,
+          "text": "572 U. S., at 723 (quoting DSM 37 (5th ed. 2013)).",
+          "type": "reference",
+          "canonical": "572 U. S., at 723 (quoting DSM 37 (5th ed. 2013))."
+        },
+        {
+          "start": 1578,
+          "end": 1665,
+          "text": "AAIDD Brief 28 (citing R. Schalock & R. Luckasson, Clinical Judgment 29 (2d ed. 2014));",
+          "type": "reference",
+          "canonical": "AAIDD Brief 28 (citing R. Schalock & R. Luckasson, Clinical Judgment 29 (2d ed. 2014));"
+        },
+        {
+          "start": 1666,
+          "end": 1727,
+          "text": "see also AAIDD Brief 28–29 (collecting additional citations).",
+          "type": "reference",
+          "canonical": "see also AAIDD Brief 28–29 (collecting additional citations)."
+        },
+        {
+          "start": 2030,
+          "end": 2049,
+          "text": "Pet. App. 91a, 96a.",
+          "type": "reference",
+          "canonical": "Pet. App. 91a, 96a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]t",
+          "to": "it"
+        },
+        {
+          "from": "[U]sing",
+          "to": "Using"
+        },
+        {
+          "from": "[IQ scores]",
+          "to": "IQ scores"
+        },
+        {
+          "from": "[a]",
+          "to": "a"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "9",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1483,
+          "end": 2177
+        }
+      ],
+      "citations": [
+        {
+          "start": 85,
+          "end": 108,
+          "text": "post, at 332–333, n. 5,",
+          "type": "reference",
+          "canonical": "post, at 332–333, n. 5,"
+        },
+        {
+          "start": 227,
+          "end": 232,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 460,
+          "end": 478,
+          "text": "572 U. S., at 721;",
+          "type": "reference",
+          "canonical": "572 U. S., at 721;"
+        },
+        {
+          "start": 479,
+          "end": 496,
+          "text": "see APA Brief 5–6",
+          "type": "reference",
+          "canonical": "see APA Brief 5–6"
+        },
+        {
+          "start": 669,
+          "end": 695,
+          "text": "AAIDD Brief 8–9 (similar).",
+          "type": "reference",
+          "canonical": "AAIDD Brief 8–9 (similar)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 20,
+          "start": 183,
+          "end": 186
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 186,
+          "end": 1195
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 184,
+          "end": 201,
+          "text": "Post, at 333–334.",
+          "type": "reference",
+          "canonical": "Post, at 333–334."
+        },
+        {
+          "start": 480,
+          "end": 530,
+          "text": "536 U. S., at 317 (second alteration in original);",
+          "type": "reference",
+          "canonical": "536 U. S., at 317 (second alteration in original);"
+        },
+        {
+          "start": 531,
+          "end": 589,
+          "text": "see also Brumfield v. Cain, 576 U. S. 305, 308, 314 (2015)",
+          "type": "reference",
+          "canonical": "see also Brumfield v. Cain, 576 U. S. 305, 308, 314 (2015)"
+        },
+        {
+          "start": 764,
+          "end": 788,
+          "text": "Brief for Petitioner 23;",
+          "type": "reference",
+          "canonical": "Brief for Petitioner 23;"
+        },
+        {
+          "start": 789,
+          "end": 813,
+          "text": "Brief for Respondent 39;",
+          "type": "reference",
+          "canonical": "Brief for Respondent 39;"
+        },
+        {
+          "start": 814,
+          "end": 858,
+          "text": "Brief for United States as Amicus Curiae 25;",
+          "type": "reference",
+          "canonical": "Brief for United States as Amicus Curiae 25;"
+        },
+        {
+          "start": 859,
+          "end": 919,
+          "text": "see also Petitioner's Post-Hearing Brief, ECF Doc. 129, p. 2",
+          "type": "reference",
+          "canonical": "see also Petitioner's Post-Hearing Brief, ECF Doc. 129, p. 2"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "le[ft]",
+          "to": "left"
+        },
+        {
+          "from": "State[s]",
+          "to": "States"
+        },
+        {
+          "from": "[this]",
+          "to": "this"
+        },
+        {
+          "from": "[F]ederal",
+          "to": "Federal"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1195,
+          "end": 1481
+        },
+        {
+          "page": 21,
+          "start": 75,
+          "end": 856
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 188,
+          "end": 239,
+          "text": "See Thomas v. Allen, 607 F. 3d 749, 757 (CA11 2010)",
+          "type": "reference",
+          "canonical": "See Thomas v. Allen, 607 F. 3d 749, 757 (CA11 2010)"
+        },
+        {
+          "start": 757,
+          "end": 817,
+          "text": "Reeves v. State, 226 So. 3d 711, 729 (Ala. Crim. App. 2016).",
+          "type": "reference",
+          "canonical": "Reeves v. State, 226 So. 3d 711, 729 (Ala. Crim. App. 2016)."
+        },
+        {
+          "start": 975,
+          "end": 994,
+          "text": "226 So. 3d, at 741.",
+          "type": "reference",
+          "canonical": "226 So. 3d, at 741."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 21,
+          "start": 856,
+          "end": 858
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 858,
+          "end": 1496
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 554,
+          "end": 640,
+          "text": "Moore, 581 U. S., at 33 (Roberts, C. J., joined by Thomas and Alito, JJ., dissenting).",
+          "type": "reference",
+          "canonical": "Moore, 581 U. S., at 33 (Roberts, C. J., joined by Thomas and Alito, JJ., dissenting)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "judgment[s]",
+          "to": "judgments"
+        },
+        {
+          "from": "psychologist[s]",
+          "to": "psychologists"
+        },
+        {
+          "from": "[the dissent's]",
+          "to": "the dissent's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1496,
+          "end": 2091
+        },
+        {
+          "page": 22,
+          "start": 91,
+          "end": 561
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 366,
+          "end": 424,
+          "text": "Anderson v. Bessemer City , 470 U. S. 564, 573–574 (1985).",
+          "type": "reference",
+          "canonical": "Anderson v. Bessemer City , 470 U. S. 564, 573–574 (1985)."
+        },
+        {
+          "start": 626,
+          "end": 638,
+          "text": "Id., at 575.",
+          "type": "reference",
+          "canonical": "Id., at 575."
+        },
+        {
+          "start": 938,
+          "end": 1068,
+          "text": "Moore, 581 U. S., at 32 (Roberts, C. J., joined by Thomas and Alito, JJ., dissenting) (third alteration and ellipsis in original).",
+          "type": "reference",
+          "canonical": "Moore, 581 U. S., at 32 (Roberts, C. J., joined by Thomas and Alito, JJ., dissenting) (third alteration and ellipsis in original)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[b]ecause",
+          "to": "because"
+        },
+        {
+          "from": "importan[t]",
+          "to": "important"
+        },
+        {
+          "from": "factfinder[ ]",
+          "to": "factfinder"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 561,
+          "end": 1524
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 579,
+          "end": 595,
+          "text": "See APA Brief 22",
+          "type": "reference",
+          "canonical": "See APA Brief 22"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1524,
+          "end": 1907
+        }
+      ],
+      "joins": [],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1907,
+          "end": 2150
+        },
+        {
+          "page": 23,
+          "start": 72,
+          "end": 400
+        },
+        {
+          "page": 23,
+          "start": 405,
+          "end": 406
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 239,
+          "end": 295,
+          "text": "Hall, 572 U. S., at 723 (second alteration in original).",
+          "type": "reference",
+          "canonical": "Hall, 572 U. S., at 723 (second alteration in original)."
+        },
+        {
+          "start": 560,
+          "end": 572,
+          "text": "Id., at 704.",
+          "type": "reference",
+          "canonical": "Id., at 704."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]n",
+          "to": "in"
+        },
+        {
+          "from": "[i]ntellectual",
+          "to": "intellectual"
+        },
+        {
+          "from": "[intellectual disability]",
+          "to": "intellectual disability"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 406,
+          "end": 1021
+        }
+      ],
+      "joins": [],
+      "citations": [
+        {
+          "start": 170,
+          "end": 193,
+          "text": "Moore, 581 U. S., at 5.",
+          "type": "reference",
+          "canonical": "Moore, 581 U. S., at 5."
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 712,
+      "end": 721,
+      "expectedText": "scientifc",
+      "text": "scientific"
+    },
+    {
+      "page": 2,
+      "start": 869,
+      "end": 873,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 3,
+      "start": 878,
+      "end": 885,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 3,
+      "start": 1261,
+      "end": 1270,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 3,
+      "start": 1473,
+      "end": 1483,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 3,
+      "start": 1868,
+      "end": 1877,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 3,
+      "start": 1973,
+      "end": 1980,
+      "expectedText": "refects",
+      "text": "reflects"
+    },
+    {
+      "page": 4,
+      "start": 213,
+      "end": 220,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 4,
+      "start": 749,
+      "end": 758,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 4,
+      "start": 854,
+      "end": 857,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 5,
+      "start": 111,
+      "end": 117,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 5,
+      "start": 177,
+      "end": 181,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 5,
+      "start": 1244,
+      "end": 1253,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 5,
+      "start": 1741,
+      "end": 1751,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 6,
+      "start": 650,
+      "end": 658,
+      "expectedText": "qualifes",
+      "text": "qualifies"
+    },
+    {
+      "page": 6,
+      "start": 1177,
+      "end": 1180,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 6,
+      "start": 1876,
+      "end": 1886,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 7,
+      "start": 537,
+      "end": 547,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 7,
+      "start": 746,
+      "end": 753,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 7,
+      "start": 906,
+      "end": 913,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 7,
+      "start": 1640,
+      "end": 1648,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 8,
+      "start": 468,
+      "end": 475,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 8,
+      "start": 665,
+      "end": 672,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 8,
+      "start": 1008,
+      "end": 1011,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 9,
+      "start": 293,
+      "end": 299,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 9,
+      "start": 359,
+      "end": 366,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 9,
+      "start": 1528,
+      "end": 1535,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 10,
+      "start": 1474,
+      "end": 1480,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 11,
+      "start": 1481,
+      "end": 1488,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 11,
+      "start": 1835,
+      "end": 1845,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 12,
+      "start": 904,
+      "end": 912,
+      "expectedText": "affrming",
+      "text": "affirming"
+    },
+    {
+      "page": 12,
+      "start": 1680,
+      "end": 1687,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 13,
+      "start": 473,
+      "end": 481,
+      "expectedText": "qualifes",
+      "text": "qualifies"
+    },
+    {
+      "page": 13,
+      "start": 873,
+      "end": 880,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 14,
+      "start": 612,
+      "end": 616,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 14,
+      "start": 813,
+      "end": 822,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 14,
+      "start": 982,
+      "end": 989,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 14,
+      "start": 1118,
+      "end": 1125,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 14,
+      "start": 1417,
+      "end": 1423,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 15,
+      "start": 939,
+      "end": 943,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 15,
+      "start": 1109,
+      "end": 1118,
+      "expectedText": "scientifc",
+      "text": "scientific"
+    },
+    {
+      "page": 18,
+      "start": 155,
+      "end": 162,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 18,
+      "start": 670,
+      "end": 676,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 18,
+      "start": 1944,
+      "end": 1948,
+      "expectedText": "fnds",
+      "text": "finds"
+    },
+    {
+      "page": 20,
+      "start": 498,
+      "end": 507,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 20,
+      "start": 794,
+      "end": 803,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 20,
+      "start": 1155,
+      "end": 1164,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 20,
+      "start": 1998,
+      "end": 2007,
+      "expectedText": "scientifc",
+      "text": "scientific"
+    },
+    {
+      "page": 21,
+      "start": 1934,
+      "end": 1941,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 22,
+      "start": 109,
+      "end": 116,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 22,
+      "start": 650,
+      "end": 656,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 22,
+      "start": 1291,
+      "end": 1299,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 22,
+      "start": 1349,
+      "end": 1358,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 22,
+      "start": 2075,
+      "end": 2081,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 23,
+      "start": 605,
+      "end": 612,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 23,
+      "start": 753,
+      "end": 760,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 23,
+      "start": 1300,
+      "end": 1304,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 10,
+      "start": 1408,
+      "end": 1410,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 4,
+      "start": 2057,
+      "end": 2061,
+      "expectedText": "com-",
+      "text": "com"
+    },
+    {
+      "page": 5,
+      "start": 2155,
+      "end": 2161,
+      "expectedText": "admin-",
+      "text": "admin"
+    },
+    {
+      "page": 11,
+      "start": 2109,
+      "end": 2113,
+      "expectedText": "Ala-",
+      "text": "Ala"
+    },
+    {
+      "page": 2,
+      "start": 1303,
+      "end": 1307,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 2,
+      "start": 1636,
+      "end": 1640,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 3,
+      "start": 264,
+      "end": 273,
+      "expectedText": "classifed",
+      "text": "classified"
+    },
+    {
+      "page": 3,
+      "start": 1394,
+      "end": 1406,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 3,
+      "start": 1499,
+      "end": 1506,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 3,
+      "start": 2051,
+      "end": 2060,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 4,
+      "start": 1238,
+      "end": 1247,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 4,
+      "start": 1339,
+      "end": 1348,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 4,
+      "start": 1878,
+      "end": 1887,
+      "expectedText": "refective",
+      "text": "reflective"
+    },
+    {
+      "page": 4,
+      "start": 1405,
+      "end": 1408,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 5,
+      "start": 567,
+      "end": 579,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 5,
+      "start": 1200,
+      "end": 1206,
+      "expectedText": "defcit",
+      "text": "deficit"
+    },
+    {
+      "page": 5,
+      "start": 520,
+      "end": 528,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 5,
+      "start": 1043,
+      "end": 1051,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 5,
+      "start": 1827,
+      "end": 1835,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 6,
+      "start": 669,
+      "end": 681,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 6,
+      "start": 1703,
+      "end": 1715,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 6,
+      "start": 1310,
+      "end": 1317,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 6,
+      "start": 1902,
+      "end": 1909,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 6,
+      "start": 2060,
+      "end": 2067,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 6,
+      "start": 818,
+      "end": 826,
+      "expectedText": "testifed",
+      "text": "testified"
+    },
+    {
+      "page": 6,
+      "start": 1401,
+      "end": 1409,
+      "expectedText": "confdent",
+      "text": "confident"
+    },
+    {
+      "page": 7,
+      "start": 626,
+      "end": 663,
+      "expectedText": "intellectual- and adaptivefunctioning",
+      "text": "intellectual and adaptive-functioning"
+    },
+    {
+      "page": 7,
+      "start": 484,
+      "end": 496,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 7,
+      "start": 548,
+      "end": 555,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 8,
+      "start": 288,
+      "end": 300,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 8,
+      "start": 723,
+      "end": 727,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 9,
+      "start": 558,
+      "end": 570,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 9,
+      "start": 855,
+      "end": 865,
+      "expectedText": "factfnding",
+      "text": "factfinding"
+    },
+    {
+      "page": 10,
+      "start": 1301,
+      "end": 1313,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 10,
+      "start": 1868,
+      "end": 1876,
+      "expectedText": "statelaw",
+      "text": "state-law"
+    },
+    {
+      "page": 10,
+      "start": 136,
+      "end": 145,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 11,
+      "start": 1358,
+      "end": 1369,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 11,
+      "start": 511,
+      "end": 524,
+      "expectedText": "scientifcally",
+      "text": "scientifically"
+    },
+    {
+      "page": 11,
+      "start": 84,
+      "end": 91,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 12,
+      "start": 1213,
+      "end": 1222,
+      "expectedText": "identifes",
+      "text": "identifies"
+    },
+    {
+      "page": 13,
+      "start": 1137,
+      "end": 1147,
+      "expectedText": "lowercourt",
+      "text": "lower-court"
+    },
+    {
+      "page": 14,
+      "start": 1439,
+      "end": 1451,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 14,
+      "start": 2057,
+      "end": 2065,
+      "expectedText": "clarifed",
+      "text": "clarified"
+    },
+    {
+      "page": 15,
+      "start": 1028,
+      "end": 1032,
+      "expectedText": "feld",
+      "text": "field"
+    },
+    {
+      "page": 15,
+      "start": 1601,
+      "end": 1606,
+      "expectedText": "fawed",
+      "text": "flawed"
+    },
+    {
+      "page": 15,
+      "start": 1642,
+      "end": 1647,
+      "expectedText": "fawed",
+      "text": "flawed"
+    },
+    {
+      "page": 16,
+      "start": 629,
+      "end": 636,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 16,
+      "start": 1442,
+      "end": 1449,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 16,
+      "start": 2077,
+      "end": 2080,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 16,
+      "start": 1367,
+      "end": 1372,
+      "expectedText": "defat",
+      "text": "deflat"
+    },
+    {
+      "page": 17,
+      "start": 1804,
+      "end": 1816,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 17,
+      "start": 481,
+      "end": 488,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 17,
+      "start": 846,
+      "end": 853,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 17,
+      "start": 1360,
+      "end": 1367,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 17,
+      "start": 1471,
+      "end": 1478,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 17,
+      "start": 2103,
+      "end": 2110,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 17,
+      "start": 894,
+      "end": 903,
+      "expectedText": "refective",
+      "text": "reflective"
+    },
+    {
+      "page": 17,
+      "start": 1020,
+      "end": 1028,
+      "expectedText": "confdent",
+      "text": "confident"
+    },
+    {
+      "page": 17,
+      "start": 1649,
+      "end": 1655,
+      "expectedText": "defate",
+      "text": "deflate"
+    },
+    {
+      "page": 17,
+      "start": 131,
+      "end": 142,
+      "expectedText": "testspecifc",
+      "text": "test-specific"
+    },
+    {
+      "page": 18,
+      "start": 701,
+      "end": 710,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 18,
+      "start": 1068,
+      "end": 1077,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 19,
+      "start": 132,
+      "end": 139,
+      "expectedText": "defcits",
+      "text": "deficits"
+    },
+    {
+      "page": 19,
+      "start": 789,
+      "end": 800,
+      "expectedText": "insuffcient",
+      "text": "insufficient"
+    },
+    {
+      "page": 20,
+      "start": 112,
+      "end": 124,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 20,
+      "start": 725,
+      "end": 733,
+      "expectedText": "Brumfeld",
+      "text": "Brumfield"
+    },
+    {
+      "page": 21,
+      "start": 608,
+      "end": 618,
+      "expectedText": "Conficting",
+      "text": "Conflicting"
+    },
+    {
+      "page": 21,
+      "start": 1117,
+      "end": 1129,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 21,
+      "start": 1059,
+      "end": 1062,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 21,
+      "start": 731,
+      "end": 736,
+      "expectedText": "fnder",
+      "text": "finder"
+    },
+    {
+      "page": 21,
+      "start": 1275,
+      "end": 1285,
+      "expectedText": "factfnding",
+      "text": "factfinding"
+    },
+    {
+      "page": 22,
+      "start": 963,
+      "end": 975,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 22,
+      "start": 320,
+      "end": 329,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 1126,
+      "end": 1709,
+      "text": "Solicitor General, and Christopher Henry; and for the America First Legal\nFoundation by Christopher E. Mills and Daniel Z. Epstein.\nBriefs of amici curiae urging affrmance were fled for the American\nAssociation on Intellectual and Developmental Disabilities (AAIDD) et al.\nby Ann M. Delpha and James W. Ellis; for the American Psychological\nAssociation et al. by Melissa Arbus Sherry, Peter A. Prindiville, Deanne\nM. Ottaviano, and Aaron M. Panner; and for Katie Kronick by Andrew\nT. Tutt.\nKent S. Scheidegger fled a brief for the Criminal Justice Legal Foundation as amicus curiae .",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n280 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 109,
+      "end": 110,
+      "text": "1",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 1937,
+      "end": 1939,
+      "text": "1 ",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 281\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n282 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 283\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n284 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 7,
+      "start": 177,
+      "end": 178,
+      "text": "2",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 7,
+      "start": 1871,
+      "end": 1873,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 285\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n286 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 287\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n288 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 289\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 12,
+      "start": 442,
+      "end": 444,
+      "text": "3\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 12,
+      "start": 1342,
+      "end": 1346,
+      "text": "4\n3 ",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 12,
+      "start": 1796,
+      "end": 1798,
+      "text": "4 ",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n290 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 291\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 14,
+      "start": 1616,
+      "end": 1617,
+      "text": "5",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 14,
+      "start": 1618,
+      "end": 1620,
+      "text": "5 ",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n292 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 15,
+      "start": 727,
+      "end": 728,
+      "text": "6",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 15,
+      "start": 1925,
+      "end": 1927,
+      "text": "6 ",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 293\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 16,
+      "start": 872,
+      "end": 873,
+      "text": "7",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 16,
+      "start": 1970,
+      "end": 1972,
+      "text": "7 ",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n294 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 295\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 18,
+      "start": 1701,
+      "end": 1705,
+      "text": "8\n8 ",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n296 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 297\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 20,
+      "start": 182,
+      "end": 183,
+      "text": "9",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 20,
+      "start": 1481,
+      "end": 1483,
+      "text": "9 ",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 75,
+      "text": "Page Proof Pending Publication\n298 HAMM v. SMITH\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 91,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 278 (2026) 299\nSotomayor, J., concurring\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 72,
+      "text": "Page Proof Pending Publication\n300 HAMM v. SMITH\nThomas, J., dissenting\n",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 400,
+      "end": 405,
+      "text": "* * *",
+      "reason": "Reviewed publication furniture, counsel metadata or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

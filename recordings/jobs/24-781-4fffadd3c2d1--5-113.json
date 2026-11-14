@@ -1,0 +1,3253 @@
+{
+  "reviewed": true,
+  "documentId": "24-781-4fffadd3c2d1--5-113",
+  "sourceDocumentId": "24-781-4fffadd3c2d1",
+  "sourceTextPath": "dist/data/docs/24-781-4fffadd3c2d1.json",
+  "sourceTextSha256": "61dc395fb50a497178414f5a96aedb6577c4d7e7b3eeaae5f9d457311d67d0a7",
+  "sourcePdfPath": "dist/data/pdfs/24-781-4fffadd3c2d1--5-113.pdf",
+  "sourcePdfSha256": "7aae633735534388bf869f38ec294e9c079f53644db718e8a0bc78f6d2968f2c",
+  "title": "Opinion of the Court",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-04-29",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r30_3f14.pdf",
+  "sourceRange": {
+    "startPage": 5,
+    "startOffset": 165,
+    "endPage": 26,
+    "endOffset": 1322
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 165,
+          "end": 278
+        },
+        {
+          "page": 6,
+          "start": 55,
+          "end": 175
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 175,
+          "end": 176
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 177,
+          "end": 178
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 179,
+          "end": 610
+        }
+      ],
+      "citations": [
+        {
+          "start": 170,
+          "end": 219,
+          "text": "See App. to Pet. for Cert. 115a–117a (Pet. App.).",
+          "type": "record",
+          "canonical": "See App. to Pet. for Cert. 115a–117a (Pet. App.)."
+        },
+        {
+          "start": 413,
+          "end": 431,
+          "text": "Id., at 116a–117a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 610,
+          "end": 910
+        }
+      ],
+      "citations": [
+        {
+          "start": 107,
+          "end": 300,
+          "text": "Press Release, N. J. Office of the Attorney General, AG Platkin Announces Actions To Protect Reproductive Health Care Providers and Those Seeking Reproductive Care in New Jersey (Dec. 7, 2022).",
+          "type": "record",
+          "canonical": "Press Release, N. J. Office of the Attorney General, AG Platkin Announces Actions To Protect Reproductive Health Care Providers and Those Seeking Reproductive Care in New Jersey (Dec. 7, 2022)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1701,
+          "end": 1885
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 911,
+          "end": 1474
+        }
+      ],
+      "citations": [
+        {
+          "start": 268,
+          "end": 282,
+          "text": "App. 357– 358.",
+          "type": "record",
+          "canonical": "App. 357– 358."
+        },
+        {
+          "start": 549,
+          "end": 562,
+          "text": "App. 361–362.",
+          "type": "record",
+          "canonical": "App. 361–362."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "seek[ing]",
+          "to": "seeking"
+        },
+        {
+          "from": "provid[ing]",
+          "to": "providing"
+        },
+        {
+          "from": "victim[s]",
+          "to": "victims"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1474,
+          "end": 1589
+        },
+        {
+          "page": 7,
+          "start": 82,
+          "end": 582
+        }
+      ],
+      "citations": [
+        {
+          "start": 116,
+          "end": 139,
+          "text": "Tr. of Oral Arg. 81–84.",
+          "type": "record",
+          "canonical": "Tr. of Oral Arg. 81–84."
+        },
+        {
+          "start": 333,
+          "end": 347,
+          "text": "Pet. App. 90a.",
+          "type": "record",
+          "canonical": "Pet. App. 90a."
+        },
+        {
+          "start": 598,
+          "end": 615,
+          "text": "Id., at 89a–110a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[f]ailure",
+          "to": "failure"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 582,
+          "end": 1466
+        }
+      ],
+      "citations": [
+        {
+          "start": 428,
+          "end": 446,
+          "text": "Id., at 98a, 110a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 667,
+          "end": 694,
+          "text": "See id., at 95a–101a, 110a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 873,
+          "end": 885,
+          "text": "Id., at 91a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[First Choice's]",
+          "to": "First Choice's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1466,
+          "end": 2020
+        }
+      ],
+      "citations": [
+        {
+          "start": 290,
+          "end": 303,
+          "text": "App. 345–346.",
+          "type": "record",
+          "canonical": "App. 345–346."
+        },
+        {
+          "start": 450,
+          "end": 461,
+          "text": "id., at 383",
+          "type": "record",
+          "canonical": "Appendix"
+        },
+        {
+          "start": 530,
+          "end": 554,
+          "text": "see id., at 43, 308–310.",
+          "type": "record",
+          "canonical": "Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[of donors to]",
+          "to": "of donors to"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 55,
+          "end": 56
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 57,
+          "end": 495
+        }
+      ],
+      "citations": [
+        {
+          "start": 178,
+          "end": 198,
+          "text": "Pet. App. 111a–147a.",
+          "type": "record",
+          "canonical": "Pet. App. 111a–147a."
+        },
+        {
+          "start": 378,
+          "end": 389,
+          "text": "App. 50–63.",
+          "type": "record",
+          "canonical": "App. 50–63."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 495,
+          "end": 1548
+        }
+      ],
+      "citations": [
+        {
+          "start": 76,
+          "end": 94,
+          "text": "42 U. S. C. § 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 402,
+          "end": 428,
+          "text": "Pet. App. 114a, 136a–138a.",
+          "type": "record",
+          "canonical": "Pet. App. 114a, 136a–138a."
+        },
+        {
+          "start": 664,
+          "end": 677,
+          "text": "Id., at 136a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 773,
+          "end": 791,
+          "text": "Id., at 136a–138a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 1030,
+          "end": 1054,
+          "text": "Id., at 130a, 136a–137a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "42 U. S. C. § 1983",
+          "to": "Section 1983 of Title 42"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1548,
+          "end": 2017
+        },
+        {
+          "page": 9,
+          "start": 113,
+          "end": 672
+        }
+      ],
+      "citations": [
+        {
+          "start": 463,
+          "end": 476,
+          "text": "Id., at 177a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 681,
+          "end": 694,
+          "text": "Id., at 175a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 1016,
+          "end": 1029,
+          "text": "Id., at 183a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "the[ir]",
+          "to": "their"
+        },
+        {
+          "from": "donation[s]",
+          "to": "donations"
+        },
+        {
+          "from": "[e]ach",
+          "to": "each"
+        },
+        {
+          "from": "[them]",
+          "to": "them"
+        },
+        {
+          "from": "[the Attorney General's]",
+          "to": "the Attorney General's"
+        },
+        {
+          "from": "[First Choice's]",
+          "to": "First Choice's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 672,
+          "end": 1338
+        }
+      ],
+      "citations": [
+        {
+          "start": 289,
+          "end": 301,
+          "text": "Id., at 57a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 620,
+          "end": 632,
+          "text": "Id., at 31a;",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 633,
+          "end": 665,
+          "text": "see also id., at 23a, 155a–156a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the group]",
+          "to": "the group"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1338,
+          "end": 2075
+        }
+      ],
+      "citations": [
+        {
+          "start": 226,
+          "end": 263,
+          "text": "Id., at 23a, 31a–32a, 38a–39a, n. 20.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 469,
+          "end": 485,
+          "text": "Id., at 49a–50a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 726,
+          "end": 738,
+          "text": "Id., at 56a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[be]",
+          "to": "be"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 55,
+          "end": 448
+        }
+      ],
+      "citations": [
+        {
+          "start": 190,
+          "end": 201,
+          "text": "Id., at 4a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 375,
+          "end": 393,
+          "text": "See id., at 3a, n.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 448,
+          "end": 450
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 451,
+          "end": 1154
+        }
+      ],
+      "citations": [
+        {
+          "start": 258,
+          "end": 269,
+          "text": "§ 2, cl. 1.",
+          "type": "record",
+          "canonical": "U.S. Constitution Article III Section 2 Clause 1"
+        },
+        {
+          "start": 405,
+          "end": 476,
+          "text": "Diamond Alternative Energy, LLC v. EPA, 606 U. S. 100, 110– 111 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 100"
+        },
+        {
+          "start": 694,
+          "end": 703,
+          "text": "See ibid.",
+          "type": "record",
+          "canonical": "See ibid."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1154,
+          "end": 1843
+        }
+      ],
+      "citations": [
+        {
+          "start": 183,
+          "end": 230,
+          "text": "Id., at 111 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "606 U.S. 100"
+        },
+        {
+          "start": 616,
+          "end": 690,
+          "text": "See Susan B. Anthony List v. Driehaus, 573 U. S. 149, 161, 164–167 (2014).",
+          "type": "case",
+          "canonical": "573 U.S. 149"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1843,
+          "end": 1962
+        },
+        {
+          "page": 11,
+          "start": 82,
+          "end": 623
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 11,
+          "start": 623,
+          "end": 624
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 625,
+          "end": 1541
+        }
+      ],
+      "citations": [
+        {
+          "start": 274,
+          "end": 422,
+          "text": "Americans for Prosperity Foundation v. Bonta, 594 U. S. 595, 606 (2021) (AFP) (quoting Roberts v. United States Jaycees, 468 U. S. 609, 622 (1984)).",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 849,
+          "end": 915,
+          "text": "NAACP v. Alabama ex rel. Patterson, 357 U. S. 449, 460–461 (1958).",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "curtai[l]",
+          "to": "curtail"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1541,
+          "end": 2079
+        },
+        {
+          "page": 12,
+          "start": 55,
+          "end": 148
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 134,
+          "end": 150,
+          "text": "See id., at 462;",
+          "type": "record",
+          "canonical": "See id., at 462;"
+        },
+        {
+          "start": 151,
+          "end": 178,
+          "text": "Roberts, 468 U. S., at 622.",
+          "type": "case",
+          "canonical": "468 U.S. 609"
+        },
+        {
+          "start": 333,
+          "end": 417,
+          "text": "1 A. de Tocqueville, Democracy in America 196–197 (H. Reeve transl., rev. ed. 1900).",
+          "type": "record",
+          "canonical": "1 A. de Tocqueville, Democracy in America 196–197 (H. Reeve transl., rev. ed. 1900)."
+        },
+        {
+          "start": 603,
+          "end": 630,
+          "text": "Roberts, 468 U. S., at 622.",
+          "type": "case",
+          "canonical": "468 U.S. 609"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 148,
+          "end": 1759
+        }
+      ],
+      "citations": [
+        {
+          "start": 273,
+          "end": 334,
+          "text": "See Boy Scouts of America v. Dale, 530 U. S. 640, 644 (2000);",
+          "type": "case",
+          "canonical": "530 U.S. 640"
+        },
+        {
+          "start": 335,
+          "end": 386,
+          "text": "Healy v. James, 408 U. S. 169, 174, 181–182 (1972);",
+          "type": "case",
+          "canonical": "408 U.S. 169"
+        },
+        {
+          "start": 387,
+          "end": 449,
+          "text": "Elrod v. Burns, 427 U. S. 347, 355 (1976) (plurality opinion).",
+          "type": "case",
+          "canonical": "427 U.S. 347"
+        },
+        {
+          "start": 618,
+          "end": 654,
+          "text": "NAACP v. Alabama, 357 U. S., at 462.",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        },
+        {
+          "start": 655,
+          "end": 671,
+          "text": "NAACP v. Alabama",
+          "type": "case",
+          "canonical": "357 U.S. 449",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 724,
+          "end": 747,
+          "text": "AFP, 594 U. S., at 606.",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 1088,
+          "end": 1128,
+          "text": "NAACP v. Alabama, 357 U. S., at 451–453.",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        },
+        {
+          "start": 1221,
+          "end": 1233,
+          "text": "Id., at 452.",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        },
+        {
+          "start": 1396,
+          "end": 1408,
+          "text": "Id., at 453.",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        },
+        {
+          "start": 1597,
+          "end": 1613,
+          "text": "Id., at 453–454.",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "a[n]",
+          "to": "an"
+        },
+        {
+          "from": "NAACP",
+          "to": "N double A C P"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1759,
+          "end": 2101
+        },
+        {
+          "page": 13,
+          "start": 82,
+          "end": 421
+        }
+      ],
+      "citations": [
+        {
+          "start": 167,
+          "end": 179,
+          "text": "Id., at 462.",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        },
+        {
+          "start": 423,
+          "end": 432,
+          "text": "See ibid.",
+          "type": "record",
+          "canonical": "See ibid."
+        },
+        {
+          "start": 674,
+          "end": 679,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 421,
+          "end": 2057
+        }
+      ],
+      "citations": [
+        {
+          "start": 419,
+          "end": 431,
+          "text": "Id., at 463.",
+          "type": "case",
+          "canonical": "459 U.S. 87"
+        },
+        {
+          "start": 618,
+          "end": 634,
+          "text": "Id., at 463–466.",
+          "type": "case",
+          "canonical": "459 U.S. 87"
+        },
+        {
+          "start": 641,
+          "end": 657,
+          "text": "NAACP v. Alabama",
+          "type": "case",
+          "canonical": "357 U.S. 449",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1098,
+          "end": 1125,
+          "text": "AFP, 594 U. S., at 606–607.",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 1291,
+          "end": 1346,
+          "text": "Buckley v. Valeo, 424 U. S. 1, 65 (1976) (per curiam ).",
+          "type": "case",
+          "canonical": "424 U.S. 1"
+        },
+        {
+          "start": 1347,
+          "end": 1407,
+          "text": "See, e. g., Bates v. Little Rock, 361 U. S. 516, 524 (1960);",
+          "type": "case",
+          "canonical": "361 U.S. 516"
+        },
+        {
+          "start": 1408,
+          "end": 1477,
+          "text": "Louisiana ex rel. Gremillion v. NAACP, 366 U. S. 293, 296–297 (1961);",
+          "type": "case",
+          "canonical": "366 U.S. 293"
+        },
+        {
+          "start": 1478,
+          "end": 1555,
+          "text": "Gibson v. Florida Legislative Investigation Comm., 372 U. S. 539, 546 (1963);",
+          "type": "case",
+          "canonical": "372 U.S. 539"
+        },
+        {
+          "start": 1556,
+          "end": 1637,
+          "text": "Brown v. Socialist Workers '74 Campaign Comm. (Ohio), 459 U. S. 87, 91–92 (1982).",
+          "type": "case",
+          "canonical": "459 U.S. 87"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "associatio[n]",
+          "to": "association"
+        },
+        {
+          "from": "inevitabl[y]",
+          "to": "inevitably"
+        },
+        {
+          "from": "NAACP",
+          "to": "N double A C P"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 86,
+          "end": 1001
+        }
+      ],
+      "citations": [
+        {
+          "start": 489,
+          "end": 511,
+          "text": "594 U. S., at 602–603.",
+          "type": "record",
+          "canonical": "594 U. S., at 602–603."
+        },
+        {
+          "start": 642,
+          "end": 654,
+          "text": "Id., at 602.",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 903,
+          "end": 919,
+          "text": "Id., at 602–603.",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[o]ut",
+          "to": "out"
+        },
+        {
+          "from": "AFP",
+          "to": "A F P"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1001,
+          "end": 2107
+        },
+        {
+          "page": 15,
+          "start": 82,
+          "end": 173
+        }
+      ],
+      "citations": [
+        {
+          "start": 307,
+          "end": 319,
+          "text": "Id., at 615.",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 573,
+          "end": 640,
+          "text": "Id., at 616 (quoting Shelton v. Tucker, 364 U. S. 479, 486 (1960)).",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 878,
+          "end": 965,
+          "text": "AFP, 594 U. S., at 607 (opinion of Roberts, C. J.) (quoting Buckley, 424 U. S., at 65).",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 1158,
+          "end": 1199,
+          "text": "594 U. S., at 611–619 (majority opinion).",
+          "type": "record",
+          "canonical": "594 U. S., at 611–619 (majority opinion)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "trie[d]",
+          "to": "tried"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 15,
+          "start": 173,
+          "end": 174
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 175,
+          "end": 336
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 336,
+          "end": 1018
+        }
+      ],
+      "citations": [
+        {
+          "start": 244,
+          "end": 264,
+          "text": "Pet. App. 89a, 110a.",
+          "type": "record",
+          "canonical": "Pet. App. 89a, 110a."
+        },
+        {
+          "start": 479,
+          "end": 491,
+          "text": "Id., at 98a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 671,
+          "end": 683,
+          "text": "Id., at 90a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[and]",
+          "to": "and"
+        },
+        {
+          "from": "[f]ailure",
+          "to": "failure"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1018,
+          "end": 1989
+        }
+      ],
+      "citations": [
+        {
+          "start": 273,
+          "end": 304,
+          "text": "See Tr. of Oral Arg. 44, 60–67.",
+          "type": "record",
+          "canonical": "See Tr. of Oral Arg. 44, 60–67."
+        },
+        {
+          "start": 385,
+          "end": 400,
+          "text": "Pet. App. 130a.",
+          "type": "record",
+          "canonical": "Pet. App. 130a."
+        },
+        {
+          "start": 568,
+          "end": 586,
+          "text": "Id., at 119a–120a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 810,
+          "end": 823,
+          "text": "Id., at 137a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 957,
+          "end": 970,
+          "text": "Id., at 131a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[its]",
+          "to": "its"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 55,
+          "end": 842
+        }
+      ],
+      "citations": [
+        {
+          "start": 268,
+          "end": 281,
+          "text": "Id., at 177a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 455,
+          "end": 468,
+          "text": "Id., at 175a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 774,
+          "end": 787,
+          "text": "Id., at 183a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[e]ach",
+          "to": "each"
+        },
+        {
+          "from": "[the group's]",
+          "to": "the group's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 842,
+          "end": 2010
+        }
+      ],
+      "citations": [
+        {
+          "start": 294,
+          "end": 351,
+          "text": "See TransUnion LLC v. Ramirez, 594 U. S. 413, 425 (2021).",
+          "type": "case",
+          "canonical": "594 U.S. 413"
+        },
+        {
+          "start": 582,
+          "end": 622,
+          "text": "NAACP v. Alabama, 357 U. S., at 460–463.",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        },
+        {
+          "start": 746,
+          "end": 756,
+          "text": "See ibid.;",
+          "type": "record",
+          "canonical": "See ibid.;"
+        },
+        {
+          "start": 757,
+          "end": 788,
+          "text": "Shelton, 364 U. S., at 485–487.",
+          "type": "case",
+          "canonical": "364 U.S. 479"
+        },
+        {
+          "start": 1024,
+          "end": 1050,
+          "text": "Buckley, 424 U. S., at 65,",
+          "type": "case",
+          "canonical": "424 U.S. 1"
+        },
+        {
+          "start": 1131,
+          "end": 1167,
+          "text": "NAACP v. Alabama, 357 U. S., at 462.",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "discourag[e]",
+          "to": "discourage"
+        },
+        {
+          "from": "inevitabl[y]",
+          "to": "inevitably"
+        },
+        {
+          "from": "effective[ly]",
+          "to": "effectively"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 2010,
+          "end": 2130
+        },
+        {
+          "page": 17,
+          "start": 82,
+          "end": 1514
+        }
+      ],
+      "citations": [
+        {
+          "start": 251,
+          "end": 297,
+          "text": "Diamond Alternative Energy, 606 U. S., at 116.",
+          "type": "case",
+          "canonical": "606 U.S. 100"
+        },
+        {
+          "start": 536,
+          "end": 559,
+          "text": "AFP, 594 U. S., at 617.",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 1001,
+          "end": 1172,
+          "text": "Brief for Foundation for Individual Rights and Expression, American Civil Liberties Union, and American Civil Liberties Union of New Jersey as Amici Curiae 6 (FIRE Brief);",
+          "type": "record",
+          "canonical": "Brief for Foundation for Individual Rights and Expression, American Civil Liberties Union, and American Civil Liberties Union of New Jersey as Amici Curiae 6 (FIRE Brief);"
+        },
+        {
+          "start": 1173,
+          "end": 1245,
+          "text": "see also Brief for National Taxpayers Union Foundation as Amicus Curiae;",
+          "type": "record",
+          "canonical": "see also Brief for National Taxpayers Union Foundation as Amicus Curiae;"
+        },
+        {
+          "start": 1246,
+          "end": 1328,
+          "text": "Brief for The Church of Jesus Christ of Latter-day Saints et al. as Amici Curiae .",
+          "type": "record",
+          "canonical": "Brief for The Church of Jesus Christ of Latter-day Saints et al. as Amici Curiae ."
+        },
+        {
+          "start": 1498,
+          "end": 1511,
+          "text": "FIRE Brief 4;",
+          "type": "record",
+          "canonical": "FIRE Brief 4;"
+        },
+        {
+          "start": 1512,
+          "end": 1557,
+          "text": "see also id., at 12–23 (collecting examples).",
+          "type": "record",
+          "canonical": "FIRE Brief"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "span[ning]",
+          "to": "spanning"
+        },
+        {
+          "from": "[e]ven",
+          "to": "even"
+        },
+        {
+          "from": "[it]",
+          "to": "it"
+        },
+        {
+          "from": "[and]",
+          "to": "and"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1514,
+          "end": 1880
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1884,
+          "end": 2174
+        },
+        {
+          "page": 18,
+          "start": 1594,
+          "end": 2158
+        }
+      ],
+      "citations": [
+        {
+          "start": 265,
+          "end": 337,
+          "text": "Americans for Prosperity Foundation v. Bonta, 594 U. S. 595, 618 (2021);",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 338,
+          "end": 424,
+          "text": "see also Schaumburg v. Citizens for Better Environment, 444 U. S. 620, 632–633 (1980).",
+          "type": "case",
+          "canonical": "444 U.S. 620"
+        },
+        {
+          "start": 591,
+          "end": 675,
+          "text": "Riley v. National Federation of Blind of N. C., Inc., 487 U. S. 781, 799–800 (1988).",
+          "type": "case",
+          "canonical": "487 U.S. 781"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the]",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 18,
+          "start": 55,
+          "end": 58
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 59,
+          "end": 501
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 263,
+          "text": "See Brief for Respondent 1–3.",
+          "type": "record",
+          "canonical": "See Brief for Respondent 1–3."
+        },
+        {
+          "start": 425,
+          "end": 443,
+          "text": "See id., at 26–31.",
+          "type": "record",
+          "canonical": "Brief for Respondent"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 501,
+          "end": 992
+        }
+      ],
+      "citations": [
+        {
+          "start": 264,
+          "end": 278,
+          "text": "Pet. App. 56a.",
+          "type": "record",
+          "canonical": "Pet. App. 56a."
+        },
+        {
+          "start": 480,
+          "end": 491,
+          "text": "Id., at 4a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "tolera[te]",
+          "to": "tolerate"
+        },
+        {
+          "from": "ripe[n]",
+          "to": "ripen"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 992,
+          "end": 1594
+        },
+        {
+          "page": 19,
+          "start": 82,
+          "end": 438
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 115,
+          "text": "42 U. S. C. § 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 282,
+          "end": 324,
+          "text": "See Enforcement Act of Apr. 20, 1871, § 1,",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983"
+        },
+        {
+          "start": 325,
+          "end": 337,
+          "text": "17 Stat. 13;",
+          "type": "record",
+          "canonical": "17 Stat. 13;"
+        },
+        {
+          "start": 338,
+          "end": 366,
+          "text": "U. S. Const., Amdt. 14, § 5;",
+          "type": "record",
+          "canonical": "U.S. Constitution Amendment14 Section5"
+        },
+        {
+          "start": 367,
+          "end": 421,
+          "text": "Knick v. Township of Scott, 588 U. S. 180, 185 (2019).",
+          "type": "case",
+          "canonical": "588 U.S. 180"
+        },
+        {
+          "start": 523,
+          "end": 621,
+          "text": "Sprint Communications, Inc. v. Jacobs, 571 U. S. 69, 77 (2013) (internal quotation marks omitted);",
+          "type": "case",
+          "canonical": "571 U.S. 69"
+        },
+        {
+          "start": 622,
+          "end": 656,
+          "text": "see also Knick, 588 U. S., at 194.",
+          "type": "case",
+          "canonical": "588 U.S. 180"
+        },
+        {
+          "start": 773,
+          "end": 824,
+          "text": "See, e. g., Younger v. Harris, 401 U. S. 37 (1971).",
+          "type": "case",
+          "canonical": "401 U.S. 37"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        },
+        {
+          "from": "42 U. S. C. § 1983",
+          "to": "Section 1983 of Title 42"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 438,
+          "end": 1163
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1163,
+          "end": 1164
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1165,
+          "end": 1702
+        }
+      ],
+      "citations": [
+        {
+          "start": 162,
+          "end": 185,
+          "text": "Brief for Respondent 7.",
+          "type": "record",
+          "canonical": "Brief for Respondent 7."
+        },
+        {
+          "start": 252,
+          "end": 262,
+          "text": "Id., at 3.",
+          "type": "record",
+          "canonical": "Brief for Respondent"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1702,
+          "end": 2047
+        },
+        {
+          "page": 20,
+          "start": 55,
+          "end": 1173
+        }
+      ],
+      "citations": [
+        {
+          "start": 124,
+          "end": 196,
+          "text": "Arnett v. Kennedy, 416 U. S. 134, 231 (1974) (Marshall, J., dissenting).",
+          "type": "case",
+          "canonical": "416 U.S. 134"
+        },
+        {
+          "start": 316,
+          "end": 330,
+          "text": "Pet. App. 89a.",
+          "type": "record",
+          "canonical": "Pet. App. 89a."
+        },
+        {
+          "start": 444,
+          "end": 456,
+          "text": "Id., at 90a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 905,
+          "end": 961,
+          "text": "Bantam Books, Inc. v. Sullivan, 372 U. S. 58, 68 (1963).",
+          "type": "case",
+          "canonical": "372 U.S. 58"
+        },
+        {
+          "start": 1132,
+          "end": 1176,
+          "text": "See NAACP v. Alabama, 357 U. S., at 460–463;",
+          "type": "case",
+          "canonical": "357 U.S. 449"
+        },
+        {
+          "start": 1177,
+          "end": 1208,
+          "text": "Shelton, 364 U. S., at 485–487;",
+          "type": "case",
+          "canonical": "364 U.S. 479"
+        },
+        {
+          "start": 1209,
+          "end": 1284,
+          "text": "cf. Virginia v. American Booksellers Assn., Inc., 484 U. S. 383, 393 (1988)",
+          "type": "case",
+          "canonical": "484 U.S. 383"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "[the group]",
+          "to": "the group"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1173,
+          "end": 2131
+        }
+      ],
+      "citations": [
+        {
+          "start": 87,
+          "end": 101,
+          "text": "Laird v. Tatum",
+          "type": "case",
+          "canonical": "408 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 103,
+          "end": 122,
+          "text": "408 U. S. 1 (1972),",
+          "type": "case",
+          "canonical": "408 U.S. 1"
+        },
+        {
+          "start": 282,
+          "end": 296,
+          "text": "Id., at 13–14.",
+          "type": "case",
+          "canonical": "408 U.S. 1"
+        },
+        {
+          "start": 594,
+          "end": 647,
+          "text": "Id., at 3, 10, 13 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "408 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 82,
+          "end": 916
+        }
+      ],
+      "citations": [
+        {
+          "start": 77,
+          "end": 119,
+          "text": "Pakdel v. City and County of San Francisco",
+          "type": "case",
+          "canonical": "594 U.S. 474",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 121,
+          "end": 156,
+          "text": "594 U. S. 474 (2021) (per curiam ).",
+          "type": "case",
+          "canonical": "594 U.S. 474"
+        },
+        {
+          "start": 413,
+          "end": 464,
+          "text": "Id., at 478–479 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "594 U.S. 474"
+        },
+        {
+          "start": 805,
+          "end": 833,
+          "text": "Brief for Respondent 25, 27.",
+          "type": "record",
+          "canonical": "Brief for Respondent 25, 27."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "commi[t]",
+          "to": "commit"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 916,
+          "end": 1633
+        }
+      ],
+      "citations": [
+        {
+          "start": 690,
+          "end": 716,
+          "text": "Buckley, 424 U. S., at 65.",
+          "type": "case",
+          "canonical": "424 U.S. 1"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1633,
+          "end": 2109
+        },
+        {
+          "page": 22,
+          "start": 86,
+          "end": 958
+        }
+      ],
+      "citations": [
+        {
+          "start": 118,
+          "end": 135,
+          "text": "Reisman v. Caplin",
+          "type": "case",
+          "canonical": "375 U.S. 440",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 137,
+          "end": 158,
+          "text": "375 U. S. 440 (1964).",
+          "type": "case",
+          "canonical": "375 U.S. 440"
+        },
+        {
+          "start": 159,
+          "end": 192,
+          "text": "See Pet. App. 77a– 80a, and n. 4.",
+          "type": "record",
+          "canonical": "See Pet. App. 77a– 80a, and n. 4."
+        },
+        {
+          "start": 221,
+          "end": 246,
+          "text": "FTC v. Claire Furnace Co.",
+          "type": "case",
+          "canonical": "274 U.S. 160",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 248,
+          "end": 269,
+          "text": "274 U. S. 160 (1927),",
+          "type": "case",
+          "canonical": "274 U.S. 160"
+        },
+        {
+          "start": 405,
+          "end": 440,
+          "text": "See Reisman, 375 U. S., at 444–446;",
+          "type": "case",
+          "canonical": "375 U.S. 440"
+        },
+        {
+          "start": 441,
+          "end": 489,
+          "text": "Claire Furnace, 274 U. S., at 165– 166, 173–174.",
+          "type": "case",
+          "canonical": "274 U.S. 160"
+        },
+        {
+          "start": 638,
+          "end": 673,
+          "text": "See Reisman, 375 U. S., at 446–450;",
+          "type": "case",
+          "canonical": "375 U.S. 440"
+        },
+        {
+          "start": 674,
+          "end": 708,
+          "text": "Claire Furnace, 274 U. S., at 174.",
+          "type": "case",
+          "canonical": "274 U.S. 160"
+        },
+        {
+          "start": 965,
+          "end": 991,
+          "text": "Reisman, 375 U. S., at 443",
+          "type": "case",
+          "canonical": "375 U.S. 440"
+        },
+        {
+          "start": 1103,
+          "end": 1146,
+          "text": "accord, Claire Furnace , 274 U. S., at 174.",
+          "type": "case",
+          "canonical": "274 U.S. 160"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "FTC",
+          "to": "F T C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 958,
+          "end": 1801
+        }
+      ],
+      "citations": [
+        {
+          "start": 251,
+          "end": 292,
+          "text": "See Reisman, 375 U. S., at 442, 449– 450;",
+          "type": "case",
+          "canonical": "375 U.S. 440"
+        },
+        {
+          "start": 293,
+          "end": 332,
+          "text": "Claire Furnace , 274 U. S., at 165–166.",
+          "type": "case",
+          "canonical": "274 U.S. 160"
+        },
+        {
+          "start": 608,
+          "end": 639,
+          "text": "Reisman, 375 U. S., at 449–450.",
+          "type": "case",
+          "canonical": "375 U.S. 440"
+        },
+        {
+          "start": 769,
+          "end": 843,
+          "text": "See Media Matters for Am. v. Paxton, 138 F. 4th 563, 582– 583 (CADC 2025).",
+          "type": "case",
+          "canonical": "138 F.4th 563"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[f]in",
+          "to": "fin"
+        },
+        {
+          "from": "[d]",
+          "to": "d"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1801,
+          "end": 2144
+        },
+        {
+          "page": 23,
+          "start": 113,
+          "end": 575
+        }
+      ],
+      "citations": [
+        {
+          "start": 302,
+          "end": 337,
+          "text": "See Reisman, 375 U. S., at 446–450;",
+          "type": "case",
+          "canonical": "375 U.S. 440"
+        },
+        {
+          "start": 338,
+          "end": 372,
+          "text": "Claire Furnace, 274 U. S., at 174.",
+          "type": "case",
+          "canonical": "274 U.S. 160"
+        },
+        {
+          "start": 728,
+          "end": 806,
+          "text": "Petroleum Exploration, Inc. v. Public Serv. Comm'n, 304 U. S. 209, 217 (1938).",
+          "type": "case",
+          "canonical": "304 U.S. 209"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]t",
+          "to": "it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 575,
+          "end": 1383
+        }
+      ],
+      "citations": [
+        {
+          "start": 195,
+          "end": 201,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 203,
+          "end": 228,
+          "text": "Knick, 588 U. S., at 185.",
+          "type": "case",
+          "canonical": "588 U.S. 180"
+        },
+        {
+          "start": 229,
+          "end": 241,
+          "text": "Section 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 443,
+          "end": 449,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 507,
+          "end": 512,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "588 U.S. 180"
+        },
+        {
+          "start": 582,
+          "end": 587,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "588 U.S. 180"
+        },
+        {
+          "start": 744,
+          "end": 750,
+          "text": "§ 1983",
+          "type": "statute",
+          "canonical": "42 U.S.C. § 1983",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 804,
+          "end": 809,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "588 U.S. 180"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "di[e]",
+          "to": "die"
+        },
+        {
+          "from": "§ 1983",
+          "to": "Section 1983"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1383,
+          "end": 1384
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1385,
+          "end": 2081
+        },
+        {
+          "page": 24,
+          "start": 55,
+          "end": 356
+        }
+      ],
+      "citations": [
+        {
+          "start": 376,
+          "end": 405,
+          "text": "See Pet. App. 95a–101a, 110a.",
+          "type": "record",
+          "canonical": "See Pet. App. 95a–101a, 110a."
+        },
+        {
+          "start": 528,
+          "end": 545,
+          "text": "See id., at 110a.",
+          "type": "record",
+          "canonical": "Petition Appendix"
+        },
+        {
+          "start": 710,
+          "end": 734,
+          "text": "Brief for Respondent 28.",
+          "type": "record",
+          "canonical": "Brief for Respondent 28."
+        },
+        {
+          "start": 985,
+          "end": 999,
+          "text": "Id., at 27–29.",
+          "type": "record",
+          "canonical": "Brief for Respondent"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 356,
+          "end": 1361
+        }
+      ],
+      "citations": [
+        {
+          "start": 979,
+          "end": 1004,
+          "text": "Bates, 361 U. S., at 523.",
+          "type": "case",
+          "canonical": "361 U.S. 516"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "attack[s]",
+          "to": "attacks"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1361,
+          "end": 1910
+        }
+      ],
+      "citations": [
+        {
+          "start": 345,
+          "end": 405,
+          "text": "Supp. App. to Reply Brief on Pet. for Cert. 2a (Supp. App.).",
+          "type": "record",
+          "canonical": "Supp. App. to Reply Brief on Pet. for Cert. 2a (Supp. App.)."
+        },
+        {
+          "start": 521,
+          "end": 548,
+          "text": "Brief for Respondent 24–25.",
+          "type": "record",
+          "canonical": "Brief for Respondent 24–25."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1910,
+          "end": 2082
+        },
+        {
+          "page": 25,
+          "start": 82,
+          "end": 793
+        }
+      ],
+      "citations": [
+        {
+          "start": 105,
+          "end": 224,
+          "text": "Trinity Lutheran Church of Columbia, Inc. v. Comer, 582 U. S. 449, 457, n. 1 (2017) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "582 U.S. 449"
+        },
+        {
+          "start": 336,
+          "end": 411,
+          "text": "FBI v. Fikre, 601 U. S. 234, 241 (2024) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "601 U.S. 234"
+        },
+        {
+          "start": 570,
+          "end": 584,
+          "text": "Supp. App. 2a.",
+          "type": "record",
+          "canonical": "Supp. App. 2a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[he]",
+          "to": "he"
+        },
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "reserve[d]",
+          "to": "reserved"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 25,
+          "start": 793,
+          "end": 794
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 795,
+          "end": 1160
+        }
+      ],
+      "citations": [
+        {
+          "start": 341,
+          "end": 365,
+          "text": "Brief for Respondent 30.",
+          "type": "record",
+          "canonical": "Brief for Respondent 30."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1160,
+          "end": 1860
+        }
+      ],
+      "citations": [
+        {
+          "start": 250,
+          "end": 280,
+          "text": "Cf. AFP, 594 U. S., at 616, n.",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 347,
+          "end": 365,
+          "text": "See Pet. App. 182a",
+          "type": "record",
+          "canonical": "See Pet. App. 182a"
+        },
+        {
+          "start": 641,
+          "end": 699,
+          "text": "AFP, 594 U. S., at 617 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1860,
+          "end": 2035
+        },
+        {
+          "page": 26,
+          "start": 55,
+          "end": 769
+        }
+      ],
+      "citations": [
+        {
+          "start": 530,
+          "end": 557,
+          "text": "Shelton, 364 U. S., at 486;",
+          "type": "case",
+          "canonical": "364 U.S. 479"
+        },
+        {
+          "start": 558,
+          "end": 589,
+          "text": "see also AFP, 594 U. S., at 616",
+          "type": "case",
+          "canonical": "594 U.S. 595"
+        },
+        {
+          "start": 785,
+          "end": 801,
+          "text": "NAACP v. Alabama",
+          "type": "case",
+          "canonical": "357 U.S. 449",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[e]ven",
+          "to": "even"
+        },
+        {
+          "from": "[is]",
+          "to": "is"
+        },
+        {
+          "from": "NAACP",
+          "to": "N double A C P"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 771,
+          "end": 1292
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 5,
+      "start": 278,
+      "end": 2855,
+      "text": "Foundation by Cory L. Andrews and Zac Morgan; and for O. Carter Snead\net al. by Michael H. McGinley , and Brian A. Kulp .\nBriefs of amici curiae urging affrmance were fled for the Commonwealth of Massachusetts et al. by Andrea Joy Campbell, Attorney General\nof Massachusetts, Tasha Bahal, Deputy State Solicitor, and Allyson Slater\nand Morgan Carmen, Assistant Attorneys General, by Nicholas W.\nBrown, Attorney General of Washington, and Robert A. Hyde and Ben J.\nBrysacz, Assistant Attorneys General, and Peter B. Gonick, Deputy Solicitor General, and by the Attorneys General for their respective jurisdictions as follows: Kristin K. Mayes of Arizona, Rob Bonta of California,\nPhilip J. Weiser of Colorado, William Tong of Connecticut, Kathleen Jennings of Delaware, Brian L. Schwalb of the District of Columbia, Kwame\nRaoul of Illinois, Aaron M. Frey of Maine, Anthony G. Brown of Maryland, Dana Nessel of Michigan, Keith Ellison of Minnesota, Aaron D. Ford\nof Nevada, Raúl Torrez of New Mexico, Letitia James of New York, Jeff\nJackson of North Carolina, Dan Rayfeld of Oregon, Peter F. Neronha of\nRhode Island, and Charity R. Clark of Vermont; for the Federation of\nState Medical Boards by Jack R. Bierig; and for the Local Government\nLegal Center et al. by John J. Korzen, Amanda K. Karras, and Erich\nR. Eiselt.\nBriefs of amici curiae were fled for the State of Florida et al. by James\nUthmeier , Attorney General of Florida, Jeffrey Paul DeSousa, Acting Solicitor General, Jason J. Muehlhoff, Chief Deputy Solicitor General, and\nSamuel F. Elliott, Deputy Solicitor General, and by the Attorneys General\nfor their respective States as follows: Steve Marshall of Alabama, Treg\nTaylor of Alaska, Christopher M. Carr of Georgia, Raúl R. Labrador of\nIdaho, Brenna Bird of Iowa, Kris Kobach of Kansas, Russell Coleman of\nKentucky, Liz Murrill of Louisiana, Andrew Bailey of Missouri, Austin\nKnudsen of Montana, Michael T. Hilgers of Nebraska, Drew H. Wrigley\nof North Dakota, Dave Yost of Ohio, Gentner Drummond of Oklahoma,\nAlan Wilson of South Carolina, Marty J. Jackley of South Dakota, Derek\nBrown of Utah, and John B. McCuskey of West Virginia; for Advancing\nAmerican Freedom et al. by J. Marc Wheat; for the American Legislative\nExchange Council by Shawn T. Sheehy and John Cycon; for the Christian\nLegal Society et al. by Lori Kepner , Steven T. McFarland, and Laura\nNammo; for the Equal Protection Project by Timothy R. Snowball and\nWilliam A. Jacobson; for the Mountain States Legal Foundation by William E. Trachman and James L. Kerwin; for the New Jersey Family Pol-",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 174 (2026) 179\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 910,
+      "end": 911,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 1589,
+      "end": 1701,
+      "text": "icy Center et al. by Kevin T. Snider; and for the People United for Privacy\nFoundation by Allen J. Dickerson.\n1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 1885,
+      "end": 1915,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 82,
+      "text": "180 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 2020,
+      "end": 2050,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 174 (2026) 181\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 2017,
+      "end": 2047,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 113,
+      "text": "Page Proof Pending Publication\n182 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 174 (2026) 183\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1962,
+      "end": 1992,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 82,
+      "text": "184 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 2079,
+      "end": 2109,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 174 (2026) 185\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 2101,
+      "end": 2131,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 82,
+      "text": "186 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 2057,
+      "end": 2087,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 174 (2026) 187\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 82,
+      "text": "188 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 1989,
+      "end": 2019,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 174 (2026) 189\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 2130,
+      "end": 2160,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 82,
+      "text": "190 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 1880,
+      "end": 1884,
+      "text": "2\n2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 2174,
+      "end": 2204,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 174 (2026) 191\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 2158,
+      "end": 2188,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 82,
+      "text": "192 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 2047,
+      "end": 2077,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 174 (2026) 193\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 2131,
+      "end": 2161,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 82,
+      "text": "194 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 2109,
+      "end": 2139,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 174 (2026) 195\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 113,
+      "text": "Page Proof Pending Publication\n196 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 174 (2026) 197\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 2082,
+      "end": 2112,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 82,
+      "text": "198 FIRST CHOICE WOMEN'S RESOURCE CENTERS, INC. v.\nDAVENPORT\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 2035,
+      "end": 2065,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 174 (2026) 199\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 769,
+      "end": 771,
+      "text": "*\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 1292,
+      "end": 1322,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 5,
+      "start": 218,
+      "end": 226,
+      "expectedText": "nonproft",
+      "text": "nonprofit"
+    },
+    {
+      "page": 5,
+      "start": 272,
+      "end": 276,
+      "expectedText": "fnan",
+      "text": "finan"
+    },
+    {
+      "page": 5,
+      "start": 430,
+      "end": 439,
+      "expectedText": "affrmance",
+      "text": "affirmance"
+    },
+    {
+      "page": 5,
+      "start": 445,
+      "end": 449,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 1623,
+      "end": 1627,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 6,
+      "start": 239,
+      "end": 247,
+      "expectedText": "nonproft",
+      "text": "nonprofit"
+    },
+    {
+      "page": 6,
+      "start": 738,
+      "end": 743,
+      "expectedText": "Offce",
+      "text": "Office"
+    },
+    {
+      "page": 6,
+      "start": 1523,
+      "end": 1528,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 7,
+      "start": 991,
+      "end": 998,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 7,
+      "start": 1603,
+      "end": 1608,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 8,
+      "start": 121,
+      "end": 125,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 8,
+      "start": 725,
+      "end": 729,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 8,
+      "start": 923,
+      "end": 934,
+      "expectedText": "Specifcally",
+      "text": "Specifically"
+    },
+    {
+      "page": 8,
+      "start": 1591,
+      "end": 1595,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 8,
+      "start": 1891,
+      "end": 1898,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 9,
+      "start": 1861,
+      "end": 1872,
+      "expectedText": "insuffcient",
+      "text": "insufficient"
+    },
+    {
+      "page": 10,
+      "start": 92,
+      "end": 99,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 10,
+      "start": 997,
+      "end": 999,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 10,
+      "start": 1554,
+      "end": 1559,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 10,
+      "start": 1703,
+      "end": 1711,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 11,
+      "start": 138,
+      "end": 149,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 11,
+      "start": 549,
+      "end": 556,
+      "expectedText": "suffces",
+      "text": "suffices"
+    },
+    {
+      "page": 11,
+      "start": 577,
+      "end": 581,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 11,
+      "start": 1606,
+      "end": 1617,
+      "expectedText": "signifcance",
+      "text": "significance"
+    },
+    {
+      "page": 11,
+      "start": 1798,
+      "end": 1806,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 12,
+      "start": 325,
+      "end": 332,
+      "expectedText": "benefts",
+      "text": "benefits"
+    },
+    {
+      "page": 12,
+      "start": 406,
+      "end": 417,
+      "expectedText": "affliations",
+      "text": "affiliations"
+    },
+    {
+      "page": 12,
+      "start": 644,
+      "end": 654,
+      "expectedText": "affliation",
+      "text": "affiliation"
+    },
+    {
+      "page": 13,
+      "start": 890,
+      "end": 899,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 13,
+      "start": 914,
+      "end": 923,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 14,
+      "start": 153,
+      "end": 156,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 14,
+      "start": 226,
+      "end": 235,
+      "expectedText": "defciency",
+      "text": "deficiency"
+    },
+    {
+      "page": 14,
+      "start": 323,
+      "end": 327,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 14,
+      "start": 463,
+      "end": 466,
+      "expectedText": "frm",
+      "text": "firm"
+    },
+    {
+      "page": 14,
+      "start": 905,
+      "end": 909,
+      "expectedText": "fnes",
+      "text": "fines"
+    },
+    {
+      "page": 14,
+      "start": 1530,
+      "end": 1538,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 480,
+      "end": 489,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 16,
+      "start": 124,
+      "end": 128,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 16,
+      "start": 2041,
+      "end": 2048,
+      "expectedText": "confrms",
+      "text": "confirms"
+    },
+    {
+      "page": 16,
+      "start": 2053,
+      "end": 2060,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 17,
+      "start": 314,
+      "end": 320,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 17,
+      "start": 650,
+      "end": 659,
+      "expectedText": "Latterday",
+      "text": "Latter-day"
+    },
+    {
+      "page": 17,
+      "start": 672,
+      "end": 676,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 17,
+      "start": 1310,
+      "end": 1318,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 18,
+      "start": 244,
+      "end": 253,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 18,
+      "start": 351,
+      "end": 358,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 18,
+      "start": 872,
+      "end": 876,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 18,
+      "start": 1451,
+      "end": 1460,
+      "expectedText": "unfagging",
+      "text": "unflagging"
+    },
+    {
+      "page": 19,
+      "start": 335,
+      "end": 338,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 19,
+      "start": 630,
+      "end": 635,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 19,
+      "start": 1294,
+      "end": 1299,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 20,
+      "start": 1405,
+      "end": 1416,
+      "expectedText": "insuffcient",
+      "text": "insufficient"
+    },
+    {
+      "page": 20,
+      "start": 1614,
+      "end": 1621,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 22,
+      "start": 1931,
+      "end": 1940,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 23,
+      "start": 918,
+      "end": 926,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 23,
+      "start": 1224,
+      "end": 1227,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 23,
+      "start": 1425,
+      "end": 1432,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 23,
+      "start": 1975,
+      "end": 1982,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 25,
+      "start": 985,
+      "end": 996,
+      "expectedText": "confdential",
+      "text": "confidential"
+    },
+    {
+      "page": 25,
+      "start": 1919,
+      "end": 1926,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 26,
+      "start": 349,
+      "end": 357,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 26,
+      "start": 484,
+      "end": 498,
+      "expectedText": "confdentiality",
+      "text": "confidentiality"
+    },
+    {
+      "page": 26,
+      "start": 818,
+      "end": 825,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 5,
+      "start": 276,
+      "end": 278,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 11,
+      "start": 2077,
+      "end": 2079,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 18,
+      "start": 1592,
+      "end": 1594,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 1393,
+      "end": 1396,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 7,
+      "start": 817,
+      "end": 826,
+      "expectedText": "refecting",
+      "text": "reflecting"
+    },
+    {
+      "page": 14,
+      "start": 2084,
+      "end": 2095,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 15,
+      "start": 613,
+      "end": 619,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 22,
+      "start": 1447,
+      "end": 1455,
+      "expectedText": "specifed",
+      "text": "specified"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed all twenty-two original Court-writing pages and both substantive notes against PDF, ending at judgment and excluding the separate Reporter publication note. Preserve all quotations, donor/privacy explanations, statutory interpretation and narrow standing-only holding, including note2's unresolved solicitation-rights theory and continuation. Individual reviewed source/citation references alone omitted; semantic Section1983 mentions kept inline/read. Exact extraction repairs and page-word joins maintain source pins/raw coordinates."
+}

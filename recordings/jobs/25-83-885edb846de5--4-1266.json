@@ -1,0 +1,3844 @@
+{
+  "reviewed": true,
+  "documentId": "25-83-885edb846de5--4-1266",
+  "sourceDocumentId": "25-83-885edb846de5",
+  "sourceTextPath": "dist/data/docs/25-83-885edb846de5.json",
+  "sourceTextSha256": "ffe612309f4d41cb95da597956df6869a6998549a957bf628e985ae6e721bd2a",
+  "sourcePdfPath": "dist/data/pdfs/25-83-885edb846de5--4-1266.pdf",
+  "sourcePdfSha256": "b1a85a794c8340d746daea341d30f4fbb8de58380bf8993fb9311be14efa9535",
+  "title": "Opinion of the Court",
+  "author": "Sonia Sotomayor",
+  "date": "2026-05-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r31_8759.pdf",
+  "sourceRange": {
+    "startPage": 4,
+    "startOffset": 1320,
+    "endPage": 19,
+    "endOffset": 717
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1320,
+          "end": 1990
+        }
+      ],
+      "citations": [
+        {
+          "start": 104,
+          "end": 107,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 146,
+          "end": 169,
+          "text": "9 U. S. C. § 1 et seq.,",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1"
+        },
+        {
+          "start": 260,
+          "end": 263,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 268,
+          "end": 272,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 89,
+          "end": 90
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 91,
+          "end": 92
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 93,
+          "end": 1267
+        }
+      ],
+      "citations": [
+        {
+          "start": 115,
+          "end": 158,
+          "text": "Badgerow v. Walters, 596 U. S. 1, 4 (2022).",
+          "type": "case",
+          "canonical": "596 U.S. 1"
+        },
+        {
+          "start": 177,
+          "end": 180,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 298,
+          "end": 301,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 518,
+          "end": 521,
+          "text": "§ 5",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 5",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 552,
+          "end": 555,
+          "text": "§ 7",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 7",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 694,
+          "end": 697,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 699,
+          "end": 703,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 708,
+          "end": 712,
+          "text": "§ 11",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 11",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 720,
+          "end": 723,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 917,
+          "end": 924,
+          "text": "§ 10(a)",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1083,
+          "end": 1087,
+          "text": "§ 11",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 11",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "miscalculation[s]",
+          "to": "miscalculations"
+        },
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "§ 4",
+          "to": "Section 4"
+        },
+        {
+          "from": "§ 5",
+          "to": "Section 5"
+        },
+        {
+          "from": "§ 7",
+          "to": "Section 7"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "§ 11",
+          "to": "Section 11"
+        },
+        {
+          "from": "§ 10(a)",
+          "to": "Section 10(a)"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1267,
+          "end": 1703
+        }
+      ],
+      "citations": [
+        {
+          "start": 379,
+          "end": 382,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 432,
+          "end": 435,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "§ 4",
+          "to": "Section 4"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1803,
+          "end": 2102
+        }
+      ],
+      "citations": [
+        {
+          "start": 20,
+          "end": 38,
+          "text": "see infra, at 212,",
+          "type": "record",
+          "canonical": "see infra, at 212,"
+        },
+        {
+          "start": 64,
+          "end": 67,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 169,
+          "end": 172,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 254,
+          "end": 300,
+          "text": "Smith v. Spizzirri, 601 U. S. 472, 476 (2024).",
+          "type": "case",
+          "canonical": "601 U.S. 472"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1704,
+          "end": 1801
+        },
+        {
+          "page": 6,
+          "start": 55,
+          "end": 585
+        }
+      ],
+      "citations": [
+        {
+          "start": 70,
+          "end": 73,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 78,
+          "end": 82,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 470,
+          "end": 473,
+          "text": "§ 7",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 7",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 622,
+          "end": 625,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "§ 7",
+          "to": "Section 7"
+        },
+        {
+          "from": "§ 4",
+          "to": "Section 4"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 585,
+          "end": 1598
+        }
+      ],
+      "citations": [
+        {
+          "start": 313,
+          "end": 361,
+          "text": "Vaden v. Discover Bank, 556 U. S. 49, 59 (2009).",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 485,
+          "end": 511,
+          "text": "Badgerow, 596 U. S., at 4.",
+          "type": "case",
+          "canonical": "596 U.S. 1"
+        },
+        {
+          "start": 656,
+          "end": 680,
+          "text": "Vaden, 556 U. S., at 59.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 848,
+          "end": 874,
+          "text": "See 28 U. S. C. § 1332(a).",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1332"
+        },
+        {
+          "start": 1001,
+          "end": 1012,
+          "text": "See § 1331.",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 1331"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[federal]",
+          "to": "federal"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1598,
+          "end": 2197
+        },
+        {
+          "page": 7,
+          "start": 58,
+          "end": 1700
+        }
+      ],
+      "citations": [
+        {
+          "start": 149,
+          "end": 171,
+          "text": "Vaden v. Discover Bank",
+          "type": "case",
+          "canonical": "556 U.S. 49",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 193,
+          "end": 196,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 318,
+          "end": 335,
+          "text": "556 U. S., at 62.",
+          "type": "record",
+          "canonical": "556 U. S., at 62."
+        },
+        {
+          "start": 464,
+          "end": 467,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 539,
+          "end": 553,
+          "text": "Id., at 54–55.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 558,
+          "end": 561,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 662,
+          "end": 673,
+          "text": "Id., at 63.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 716,
+          "end": 733,
+          "text": "Id., at 54, n. 1.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 797,
+          "end": 800,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 924,
+          "end": 935,
+          "text": "Id., at 62.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 985,
+          "end": 988,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1026,
+          "end": 1029,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1154,
+          "end": 1168,
+          "text": "Id., at 62–63.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 1379,
+          "end": 1390,
+          "text": "Id., at 66.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 1402,
+          "end": 1421,
+          "text": "Badgerow v. Walters",
+          "type": "case",
+          "canonical": "596 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1560,
+          "end": 1563,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1567,
+          "end": 1571,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1573,
+          "end": 1589,
+          "text": "596 U. S., at 5.",
+          "type": "record",
+          "canonical": "596 U. S., at 5."
+        },
+        {
+          "start": 1735,
+          "end": 1738,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1742,
+          "end": 1745,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1754,
+          "end": 1759,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 1913,
+          "end": 1918,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 2039,
+          "end": 2055,
+          "text": "596 U. S., at 9.",
+          "type": "record",
+          "canonical": "596 U. S., at 9."
+        },
+        {
+          "start": 2213,
+          "end": 2230,
+          "text": "Sections 9 and 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. §§ 9, 10",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 2233,
+          "end": 2249,
+          "text": "596 U. S., at 5.",
+          "type": "record",
+          "canonical": "596 U. S., at 5."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the arbitration]",
+          "to": "the arbitration"
+        },
+        {
+          "from": "§ 4",
+          "to": "Section 4"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1700,
+          "end": 2110
+        },
+        {
+          "page": 8,
+          "start": 55,
+          "end": 457
+        }
+      ],
+      "citations": [
+        {
+          "start": 130,
+          "end": 145,
+          "text": "Id., at 12, 14.",
+          "type": "case",
+          "canonical": "596 U.S. 1"
+        },
+        {
+          "start": 319,
+          "end": 330,
+          "text": "Id., at 12;",
+          "type": "case",
+          "canonical": "596 U.S. 1"
+        },
+        {
+          "start": 331,
+          "end": 355,
+          "text": "see id., at 9 (similar).",
+          "type": "record",
+          "canonical": "see id., at 9 (similar)."
+        },
+        {
+          "start": 405,
+          "end": 408,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 445,
+          "end": 462,
+          "text": "Sections 9 and 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. §§ 9, 10",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 549,
+          "end": 569,
+          "text": "596 U. S., at 10–11.",
+          "type": "record",
+          "canonical": "596 U. S., at 10–11."
+        },
+        {
+          "start": 640,
+          "end": 643,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 647,
+          "end": 651,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 802,
+          "end": 812,
+          "text": "Id., at 5.",
+          "type": "case",
+          "canonical": "596 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 4",
+          "to": "Section 4"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 457,
+          "end": 458
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 459,
+          "end": 893
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 893,
+          "end": 1379
+        }
+      ],
+      "citations": [
+        {
+          "start": 370,
+          "end": 373,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1379,
+          "end": 1728
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1728,
+          "end": 1954
+        },
+        {
+          "page": 9,
+          "start": 58,
+          "end": 448
+        }
+      ],
+      "citations": [
+        {
+          "start": 154,
+          "end": 157,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 240,
+          "end": 244,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 387,
+          "end": 390,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 395,
+          "end": 399,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 448,
+          "end": 1450
+        }
+      ],
+      "citations": [
+        {
+          "start": 236,
+          "end": 274,
+          "text": "App. to Pet. for Cert. 6a (Pet. App.).",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 6a (Pet. App.)."
+        },
+        {
+          "start": 414,
+          "end": 419,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Appendix to Petition 6a"
+        },
+        {
+          "start": 558,
+          "end": 561,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 704,
+          "end": 707,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 712,
+          "end": 716,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 730,
+          "end": 845,
+          "text": "Ibid. (quoting Cortez Byrd Chips, Inc. v. Bill Harbert Constr. Co., 529 U. S. 193, 202 (2000); alteration omitted).",
+          "type": "record",
+          "canonical": "Appendix to Petition 6a"
+        },
+        {
+          "start": 988,
+          "end": 1005,
+          "text": "See Pet. App. 7a.",
+          "type": "record",
+          "canonical": "See Pet. App. 7a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a freestanding]",
+          "to": "a freestanding"
+        },
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1450,
+          "end": 2099
+        },
+        {
+          "page": 10,
+          "start": 55,
+          "end": 260
+        }
+      ],
+      "citations": [
+        {
+          "start": 156,
+          "end": 159,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 164,
+          "end": 168,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 373,
+          "end": 376,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 381,
+          "end": 385,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 494,
+          "end": 577,
+          "text": "Compare George v. Rushmore Serv. Center, LLC, 114 F. 4th 226, 238, n. 16 (CA3 2024)",
+          "type": "case",
+          "canonical": "114 F.4th 226"
+        },
+        {
+          "start": 579,
+          "end": 667,
+          "text": "and Kinsella v. Baker Hughes Oilfields Operations, LLC , 66 F. 4th 1099, 1103 (CA7 2023)",
+          "type": "case",
+          "canonical": "66 F.4th 1099"
+        },
+        {
+          "start": 669,
+          "end": 750,
+          "text": "with SmartSky Networks, LLC v. DAG Wireless, LTD., 93 F. 4th 175, 183 (CA4 2024).",
+          "type": "case",
+          "canonical": "93 F.4th 175"
+        },
+        {
+          "start": 834,
+          "end": 856,
+          "text": "607 U. S. 1079 (2025).",
+          "type": "case",
+          "canonical": "607 U.S. 1079"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 260,
+          "end": 262
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 263,
+          "end": 768
+        }
+      ],
+      "citations": [
+        {
+          "start": 123,
+          "end": 126,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 144,
+          "end": 147,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 151,
+          "end": 155,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 331,
+          "end": 334,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 412,
+          "end": 442,
+          "text": "Cortez Byrd, 529 U. S., at 202",
+          "type": "case",
+          "canonical": "529 U.S. 193"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[A]",
+          "to": "A"
+        },
+        {
+          "from": "[or vacate]",
+          "to": "or vacate"
+        },
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 768,
+          "end": 1369
+        }
+      ],
+      "citations": [
+        {
+          "start": 84,
+          "end": 106,
+          "text": "see supra, at 205–206,",
+          "type": "record",
+          "canonical": "see supra, at 205–206,"
+        },
+        {
+          "start": 137,
+          "end": 140,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 144,
+          "end": 148,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 585,
+          "end": 602,
+          "text": "596 U. S., at 15.",
+          "type": "record",
+          "canonical": "596 U. S., at 15."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[j]urisdiction",
+          "to": "jurisdiction"
+        },
+        {
+          "from": "[a]",
+          "to": "a"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1369,
+          "end": 2025
+        },
+        {
+          "page": 11,
+          "start": 58,
+          "end": 389
+        }
+      ],
+      "citations": [
+        {
+          "start": 58,
+          "end": 76,
+          "text": "28 U. S. C. § 1331",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1331",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 381,
+          "end": 460,
+          "text": "See Hall Street Associates, L. L. C. v. Mattel, Inc., 552 U. S. 576, 581 (2008)",
+          "type": "case",
+          "canonical": "552 U.S. 576"
+        },
+        {
+          "start": 611,
+          "end": 614,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 619,
+          "end": 623,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 778,
+          "end": 805,
+          "text": "Badgerow, 596 U. S., at 15.",
+          "type": "case",
+          "canonical": "596 U.S. 1"
+        },
+        {
+          "start": 892,
+          "end": 986,
+          "text": "1 I. Macneil, R. Speidel, & T. Stipanowich, Federal Arbitration Law § 9.2.3.1, p. 9:13 (1995).",
+          "type": "record",
+          "canonical": "1 Macneil, Speidel, Stipanowich, Federal Arbitration Law § 9.2.3.1 (1995)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[FAA]",
+          "to": "FAA"
+        },
+        {
+          "from": "th[ose]",
+          "to": "those"
+        },
+        {
+          "from": "motion[s]",
+          "to": "motions"
+        },
+        {
+          "from": "§ 1331",
+          "to": "Section 1331"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "28 U. S. C. § 1331",
+          "to": "Section 1331 of Title 28"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 389,
+          "end": 1266
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 133,
+          "text": "Contra, Brief for Petitioner 3.",
+          "type": "record",
+          "canonical": "Contra, Brief for Petitioner 3."
+        },
+        {
+          "start": 249,
+          "end": 252,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 257,
+          "end": 261,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 263,
+          "end": 285,
+          "text": "See 596 U. S., at 5–6.",
+          "type": "record",
+          "canonical": "See 596 U. S., at 5–6."
+        },
+        {
+          "start": 503,
+          "end": 513,
+          "text": "Id., at 9.",
+          "type": "case",
+          "canonical": "596 U.S. 1"
+        },
+        {
+          "start": 722,
+          "end": 740,
+          "text": "28 U. S. C. § 1331",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1331",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "§ 1331",
+          "to": "Section 1331"
+        },
+        {
+          "from": "28 U. S. C. § 1331",
+          "to": "Section 1331 of Title 28"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1266,
+          "end": 2158
+        },
+        {
+          "page": 12,
+          "start": 55,
+          "end": 416
+        }
+      ],
+      "citations": [
+        {
+          "start": 51,
+          "end": 54,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 59,
+          "end": 63,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 177,
+          "end": 193,
+          "text": "596 U. S., at 9.",
+          "type": "record",
+          "canonical": "596 U. S., at 9."
+        },
+        {
+          "start": 371,
+          "end": 385,
+          "text": "Reply Brief 15",
+          "type": "record",
+          "canonical": "Reply Brief 15 (citing"
+        },
+        {
+          "start": 394,
+          "end": 433,
+          "text": "Federal Rule of Civil Procedure 8(c)(1)",
+          "type": "record",
+          "canonical": "Fed. R. Civ. P. 8(c)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 670,
+          "end": 673,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 678,
+          "end": 682,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 796,
+          "end": 799,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 1116,
+          "end": 1176,
+          "text": "Cf. Judgment in No. 1:20–cv–10500 (SDNY), ECF Doc. 118, p. 1",
+          "type": "record",
+          "canonical": "Cf. Judgment in No. 1:20–cv–10500 (SDNY), ECF Doc. 118, p. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "sectio[n]",
+          "to": "section"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 416,
+          "end": 1182
+        }
+      ],
+      "citations": [
+        {
+          "start": 70,
+          "end": 73,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 174,
+          "end": 178,
+          "text": "§ 13",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 13",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 503,
+          "end": 548,
+          "text": "Kokkonen v. Guardian Life Ins. Co. of America",
+          "type": "case",
+          "canonical": "511 U.S. 375",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 550,
+          "end": 570,
+          "text": "511 U. S. 375 (1994)",
+          "type": "case",
+          "canonical": "511 U.S. 375"
+        },
+        {
+          "start": 751,
+          "end": 767,
+          "text": "Id., at 381–382.",
+          "type": "case",
+          "canonical": "511 U.S. 375"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]",
+          "to": "a"
+        },
+        {
+          "from": "enforc[e]",
+          "to": "enforce"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 13",
+          "to": "Section 13"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1666,
+          "end": 2239
+        }
+      ],
+      "citations": [
+        {
+          "start": 399,
+          "end": 402,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 407,
+          "end": 411,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 502,
+          "end": 572,
+          "text": "See Brief for Respondents 26 (citing Kokkonen, 511 U. S., at 380–381).",
+          "type": "record",
+          "canonical": "Brief for Respondents 26"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1183,
+          "end": 1664
+        },
+        {
+          "page": 13,
+          "start": 58,
+          "end": 479
+        }
+      ],
+      "citations": [
+        {
+          "start": 180,
+          "end": 257,
+          "text": "United States v. ITT Continental Baking Co., 420 U. S. 223, 237, n. 10 (1975)",
+          "type": "case",
+          "canonical": "420 U.S. 223"
+        },
+        {
+          "start": 452,
+          "end": 479,
+          "text": "Fed. Rule Civ. Proc. 23(e);",
+          "type": "record",
+          "canonical": "Fed. Rule Civ. Proc. 23(e);"
+        },
+        {
+          "start": 480,
+          "end": 559,
+          "text": "see, e. g., Sullivan v. DB Invs., Inc., 667 F. 3d 273, 293 (CA3 2011) (en banc)",
+          "type": "case",
+          "canonical": "667 F.3d 273"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 479,
+          "end": 1564
+        }
+      ],
+      "citations": [
+        {
+          "start": 96,
+          "end": 99,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 255,
+          "end": 301,
+          "text": "Smith v. Spizzirri, 601 U. S. 472, 474 (2024).",
+          "type": "case",
+          "canonical": "601 U.S. 472"
+        },
+        {
+          "start": 313,
+          "end": 316,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 464,
+          "end": 480,
+          "text": "Id., at 476–477.",
+          "type": "case",
+          "canonical": "601 U.S. 472"
+        },
+        {
+          "start": 685,
+          "end": 704,
+          "text": "see 9 U. S. C. § 5;",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 5"
+        },
+        {
+          "start": 733,
+          "end": 741,
+          "text": "see § 7;",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 7"
+        },
+        {
+          "start": 790,
+          "end": 798,
+          "text": "see § 9.",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9"
+        },
+        {
+          "start": 800,
+          "end": 812,
+          "text": "Id., at 478.",
+          "type": "case",
+          "canonical": "601 U.S. 472"
+        },
+        {
+          "start": 1081,
+          "end": 1086,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "601 U.S. 472"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]",
+          "to": "a"
+        },
+        {
+          "from": "comport[ed]",
+          "to": "comported"
+        },
+        {
+          "from": "assist[ing]",
+          "to": "assisting"
+        },
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1564,
+          "end": 2210
+        },
+        {
+          "page": 14,
+          "start": 86,
+          "end": 434
+        }
+      ],
+      "citations": [
+        {
+          "start": 158,
+          "end": 161,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 425,
+          "end": 428,
+          "text": "§ 5",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 5",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 430,
+          "end": 433,
+          "text": "§ 7",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 7",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 435,
+          "end": 438,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 443,
+          "end": 447,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 508,
+          "end": 511,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 633,
+          "end": 636,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 874,
+          "end": 877,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 990,
+          "end": 995,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "601 U.S. 472"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "§ 5",
+          "to": "Section 5"
+        },
+        {
+          "from": "§ 7",
+          "to": "Section 7"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 434,
+          "end": 437
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 438,
+          "end": 1776
+        }
+      ],
+      "citations": [
+        {
+          "start": 300,
+          "end": 303,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 308,
+          "end": 312,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 322,
+          "end": 338,
+          "text": "Reply Brief 1–2.",
+          "type": "record",
+          "canonical": "Reply Brief 1–2."
+        },
+        {
+          "start": 440,
+          "end": 464,
+          "text": "Vaden, 556 U. S., at 59,",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 612,
+          "end": 615,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 676,
+          "end": 700,
+          "text": "See 596 U. S., at 9, 12.",
+          "type": "record",
+          "canonical": "See 596 U. S., at 9, 12."
+        },
+        {
+          "start": 709,
+          "end": 712,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 717,
+          "end": 721,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 836,
+          "end": 847,
+          "text": "Id., at 14.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 942,
+          "end": 953,
+          "text": "Id., at 12.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 1121,
+          "end": 1139,
+          "text": "28 U. S. C. § 1331",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1331",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "§ 4",
+          "to": "Section 4"
+        },
+        {
+          "from": "§ 1331",
+          "to": "Section 1331"
+        },
+        {
+          "from": "28 U. S. C. § 1331",
+          "to": "Section 1331 of Title 28"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1780,
+          "end": 2132
+        },
+        {
+          "page": 15,
+          "start": 1932,
+          "end": 2128
+        }
+      ],
+      "citations": [
+        {
+          "start": 164,
+          "end": 180,
+          "text": "596 U. S., at 9.",
+          "type": "record",
+          "canonical": "596 U. S., at 9."
+        },
+        {
+          "start": 283,
+          "end": 327,
+          "text": "See, e. g., Kokkonen, 511 U. S., at 378–381.",
+          "type": "case",
+          "canonical": "511 U.S. 375"
+        },
+        {
+          "start": 510,
+          "end": 530,
+          "text": "See id., at 381–382;",
+          "type": "record",
+          "canonical": "See id., at 381–382;"
+        },
+        {
+          "start": 531,
+          "end": 549,
+          "text": "supra, at 211–212.",
+          "type": "record",
+          "canonical": "supra, at 211–212."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 58,
+          "end": 938
+        }
+      ],
+      "citations": [
+        {
+          "start": 31,
+          "end": 34,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 39,
+          "end": 43,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 276,
+          "end": 279,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 284,
+          "end": 288,
+          "text": "§ 12",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 12",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 349,
+          "end": 376,
+          "text": "Brief for Petitioner 22–23.",
+          "type": "record",
+          "canonical": "Brief for Petitioner 22–23."
+        },
+        {
+          "start": 417,
+          "end": 420,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 531,
+          "end": 560,
+          "text": "Spizzirri, 601 U. S., at 478,",
+          "type": "case",
+          "canonical": "601 U.S. 472"
+        },
+        {
+          "start": 663,
+          "end": 687,
+          "text": "see Reply Brief 6, n. 1.",
+          "type": "record",
+          "canonical": "see Reply Brief 6, n. 1."
+        },
+        {
+          "start": 714,
+          "end": 717,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 722,
+          "end": 726,
+          "text": "§ 12",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 12",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 770,
+          "end": 774,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "avoid[ing]",
+          "to": "avoiding"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        },
+        {
+          "from": "bring[ing]",
+          "to": "bringing"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "§ 12",
+          "to": "Section 12"
+        },
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 938,
+          "end": 1577
+        }
+      ],
+      "citations": [
+        {
+          "start": 22,
+          "end": 25,
+          "text": "§ 8",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 8",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 83,
+          "end": 92,
+          "text": "Section 8",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 8",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 269,
+          "end": 272,
+          "text": "§ 8",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 8",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 626,
+          "end": 629,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 633,
+          "end": 637,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 8",
+          "to": "Section 8"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1577,
+          "end": 1932
+        },
+        {
+          "page": 16,
+          "start": 55,
+          "end": 511
+        }
+      ],
+      "citations": [
+        {
+          "start": 21,
+          "end": 30,
+          "text": "Section 8",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 8",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 200,
+          "end": 268,
+          "text": "The Anaconda v. American Sugar Refining Co., 322 U. S. 42, 44 (1944)",
+          "type": "case",
+          "canonical": "322 U.S. 42"
+        },
+        {
+          "start": 439,
+          "end": 442,
+          "text": "§ 8",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 8",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 449,
+          "end": 467,
+          "text": "28 U. S. C. § 1333",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1333",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 553,
+          "end": 556,
+          "text": "§ 8",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 8",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 8",
+          "to": "Section 8"
+        },
+        {
+          "from": "§ 1333",
+          "to": "Section 1333"
+        },
+        {
+          "from": "28 U. S. C. § 1333",
+          "to": "Section 1333 of Title 28"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 511,
+          "end": 1189
+        }
+      ],
+      "citations": [
+        {
+          "start": 243,
+          "end": 267,
+          "text": "Brief for Petitioner 34,",
+          "type": "record",
+          "canonical": "Brief for Petitioner 34,"
+        },
+        {
+          "start": 381,
+          "end": 432,
+          "text": "Brief for Petitioner 31 (quoting 596 U. S., at 18).",
+          "type": "record",
+          "canonical": "Brief for Petitioner 31 (quoting 596 U. S., at 18)."
+        },
+        {
+          "start": 654,
+          "end": 678,
+          "text": "Brief for Petitioner 14.",
+          "type": "record",
+          "canonical": "Brief for Petitioner 14."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1189,
+          "end": 1739
+        }
+      ],
+      "citations": [
+        {
+          "start": 150,
+          "end": 177,
+          "text": "Badgerow, 596 U. S., at 16,",
+          "type": "case",
+          "canonical": "596 U.S. 1"
+        },
+        {
+          "start": 381,
+          "end": 384,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 389,
+          "end": 393,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]t",
+          "to": "it"
+        },
+        {
+          "from": "[determine]",
+          "to": "determine"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1785,
+          "end": 2141
+        },
+        {
+          "page": 17,
+          "start": 1869,
+          "end": 2186
+        }
+      ],
+      "citations": [
+        {
+          "start": 65,
+          "end": 162,
+          "text": "See Baltimore & Ohio Chicago Terminal R. Co. v. Wisconsin Central Ltd., 154 F. 3d 404, 407 (1998)",
+          "type": "case",
+          "canonical": "154 F.3d 404"
+        },
+        {
+          "start": 213,
+          "end": 282,
+          "text": "Minor v. Prudential Securities, Inc., 94 F. 3d 1103, 1106–1107 (1996)",
+          "type": "case",
+          "canonical": "94 F.3d 1103"
+        },
+        {
+          "start": 368,
+          "end": 444,
+          "text": "See Goldman v. Citigroup Global Markets, Inc., 834 F. 3d 242, 252–255 (2016)",
+          "type": "case",
+          "canonical": "834 F.3d 242"
+        },
+        {
+          "start": 557,
+          "end": 622,
+          "text": "Freeman v. Pittsburgh Glass Works, LLC, 709 F. 3d 240, 246 (2013)",
+          "type": "case",
+          "canonical": "709 F.3d 240"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1740,
+          "end": 1783
+        },
+        {
+          "page": 17,
+          "start": 58,
+          "end": 865
+        }
+      ],
+      "citations": [
+        {
+          "start": 121,
+          "end": 186,
+          "text": "Cf. Morgan v. Sundance, Inc., 596 U. S. 411, 413, 418–419 (2022).",
+          "type": "case",
+          "canonical": "596 U.S. 411"
+        },
+        {
+          "start": 718,
+          "end": 721,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 726,
+          "end": 730,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 824,
+          "end": 851,
+          "text": "Badgerow, 596 U. S., at 15.",
+          "type": "case",
+          "canonical": "596 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 865,
+          "end": 1455
+        }
+      ],
+      "citations": [
+        {
+          "start": 241,
+          "end": 265,
+          "text": "Vaden, 556 U. S., at 68.",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 399,
+          "end": 412,
+          "text": "Ibid., n. 17;",
+          "type": "case",
+          "canonical": "556 U.S. 49"
+        },
+        {
+          "start": 413,
+          "end": 456,
+          "text": "see, e. g., Kokkonen, 511 U. S., at 380–382",
+          "type": "case",
+          "canonical": "511 U.S. 375"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[A]ctual",
+          "to": "Actual"
+        },
+        {
+          "from": "define[s]",
+          "to": "defines"
+        },
+        {
+          "from": "[A]",
+          "to": "A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1455,
+          "end": 1869
+        },
+        {
+          "page": 18,
+          "start": 55,
+          "end": 442
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 219,
+          "end": 248,
+          "text": "Spizzirri, 601 U. S., at 478,",
+          "type": "case",
+          "canonical": "601 U.S. 472"
+        },
+        {
+          "start": 291,
+          "end": 294,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 636,
+          "end": 642,
+          "text": "Ibid.;",
+          "type": "case",
+          "canonical": "601 U.S. 472"
+        },
+        {
+          "start": 643,
+          "end": 677,
+          "text": "cf. Hall Street, 552 U. S., at 588",
+          "type": "case",
+          "canonical": "552 U.S. 576"
+        },
+        {
+          "start": 692,
+          "end": 695,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "substantiat[e]",
+          "to": "substantiate"
+        },
+        {
+          "from": "resolv[e]",
+          "to": "resolve"
+        },
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 442,
+          "end": 1636
+        }
+      ],
+      "citations": [
+        {
+          "start": 115,
+          "end": 118,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 283,
+          "end": 303,
+          "text": "See Pet. App. 4a–5a.",
+          "type": "record",
+          "canonical": "See Pet. App. 4a–5a."
+        },
+        {
+          "start": 363,
+          "end": 366,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 399,
+          "end": 402,
+          "text": "§ 4",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 4",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 456,
+          "end": 468,
+          "text": "see § 16(b),",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 16"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "§ 4",
+          "to": "Section 4"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1756,
+          "end": 2176
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1637,
+          "end": 1754
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 64,
+          "end": 717
+        }
+      ],
+      "citations": [
+        {
+          "start": 50,
+          "end": 53,
+          "text": "§ 9",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 9",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 57,
+          "end": 61,
+          "text": "§ 10",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 10",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 466,
+          "end": 469,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "9 U.S.C. § 3",
+          "omitFromSpeech": false,
+          "keepInline": true
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 9",
+          "to": "Section 9"
+        },
+        {
+          "from": "§ 10",
+          "to": "Section 10"
+        },
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        },
+        {
+          "from": "FAA",
+          "to": "F A A"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 1990,
+      "end": 2192,
+      "text": "*Peter B. Rutledge , Jennifer B. Dickey , and Jonathan D. Urick fled a\nbrief for the Chamber of Commerce of the United States of America as\namicus curiae urging affrmance.\nPage Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 89,
+      "text": "Page Proof Pending Publication\n204 JULES v. ANDRE BALAZS PROPERTIES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 1703,
+      "end": 1704,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 1801,
+      "end": 1803,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 200 (2026) 205\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2197,
+      "end": 2227,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 58,
+      "text": "206 JULES v. ANDRE BALAZS PROPERTIES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 2110,
+      "end": 2140,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 200 (2026) 207\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1954,
+      "end": 1984,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 58,
+      "text": "208 JULES v. ANDRE BALAZS PROPERTIES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2099,
+      "end": 2129,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 200 (2026) 209\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 2025,
+      "end": 2055,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 58,
+      "text": "210 JULES v. ANDRE BALAZS PROPERTIES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 2158,
+      "end": 2188,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 200 (2026) 211\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1182,
+      "end": 1183,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1664,
+      "end": 1666,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 2239,
+      "end": 2269,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 58,
+      "text": "212 JULES v. ANDRE BALAZS PROPERTIES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 2210,
+      "end": 2240,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 200 (2026) 213\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 1776,
+      "end": 1780,
+      "text": "3\n3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 58,
+      "text": "214 JULES v. ANDRE BALAZS PROPERTIES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 2128,
+      "end": 2158,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 200 (2026) 215\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 1739,
+      "end": 1740,
+      "text": "4",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 1783,
+      "end": 1785,
+      "text": "4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 2141,
+      "end": 2171,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 58,
+      "text": "216 JULES v. ANDRE BALAZS PROPERTIES\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 2186,
+      "end": 2216,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 200 (2026) 217\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 1636,
+      "end": 1637,
+      "text": "5",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 1754,
+      "end": 1756,
+      "text": "5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 2176,
+      "end": 2206,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 64,
+      "text": "218 JULES v. ANDRE BALAZS PROPERTIES\nOpinion of the Court\n* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 4,
+      "start": 477,
+      "end": 489,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 4,
+      "start": 615,
+      "end": 624,
+      "expectedText": "effciency",
+      "text": "efficiency"
+    },
+    {
+      "page": 4,
+      "start": 859,
+      "end": 865,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 4,
+      "start": 1510,
+      "end": 1516,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 4,
+      "start": 1898,
+      "end": 1906,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 4,
+      "start": 1981,
+      "end": 1988,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 4,
+      "start": 2054,
+      "end": 2058,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 740,
+      "end": 746,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 5,
+      "start": 830,
+      "end": 836,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 5,
+      "start": 889,
+      "end": 896,
+      "expectedText": "modifed",
+      "text": "modified"
+    },
+    {
+      "page": 5,
+      "start": 977,
+      "end": 988,
+      "expectedText": "modifcation",
+      "text": "modification"
+    },
+    {
+      "page": 5,
+      "start": 1187,
+      "end": 1198,
+      "expectedText": "modifcation",
+      "text": "modification"
+    },
+    {
+      "page": 5,
+      "start": 1433,
+      "end": 1437,
+      "expectedText": "fles",
+      "text": "files"
+    },
+    {
+      "page": 5,
+      "start": 1796,
+      "end": 1800,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 1931,
+      "end": 1937,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 6,
+      "start": 1687,
+      "end": 1691,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 6,
+      "start": 2017,
+      "end": 2021,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 6,
+      "start": 2052,
+      "end": 2056,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 7,
+      "start": 763,
+      "end": 767,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 7,
+      "start": 975,
+      "end": 981,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 7,
+      "start": 1141,
+      "end": 1146,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 7,
+      "start": 1177,
+      "end": 1182,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 7,
+      "start": 1614,
+      "end": 1620,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 7,
+      "start": 1866,
+      "end": 1877,
+      "expectedText": "lookthrough",
+      "text": "look-through"
+    },
+    {
+      "page": 8,
+      "start": 624,
+      "end": 631,
+      "expectedText": "staffng",
+      "text": "staffing"
+    },
+    {
+      "page": 8,
+      "start": 1466,
+      "end": 1470,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 8,
+      "start": 1858,
+      "end": 1864,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 9,
+      "start": 187,
+      "end": 193,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 9,
+      "start": 481,
+      "end": 489,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 9,
+      "start": 529,
+      "end": 536,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 9,
+      "start": 1033,
+      "end": 1039,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 9,
+      "start": 1414,
+      "end": 1420,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 9,
+      "start": 1456,
+      "end": 1460,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 9,
+      "start": 1878,
+      "end": 1882,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 9,
+      "start": 2056,
+      "end": 2064,
+      "expectedText": "Oilfelds",
+      "text": "Oilfields"
+    },
+    {
+      "page": 10,
+      "start": 623,
+      "end": 629,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 10,
+      "start": 730,
+      "end": 742,
+      "expectedText": "venuerelated",
+      "text": "venue-related"
+    },
+    {
+      "page": 10,
+      "start": 945,
+      "end": 949,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 10,
+      "start": 1006,
+      "end": 1010,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 11,
+      "start": 540,
+      "end": 544,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 11,
+      "start": 605,
+      "end": 611,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 11,
+      "start": 744,
+      "end": 747,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 11,
+      "start": 1031,
+      "end": 1040,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 11,
+      "start": 1206,
+      "end": 1212,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 11,
+      "start": 1307,
+      "end": 1311,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 11,
+      "start": 1556,
+      "end": 1566,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 11,
+      "start": 1619,
+      "end": 1623,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 11,
+      "start": 1741,
+      "end": 1751,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 12,
+      "start": 253,
+      "end": 261,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 12,
+      "start": 463,
+      "end": 473,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 13,
+      "start": 305,
+      "end": 309,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 13,
+      "start": 507,
+      "end": 514,
+      "expectedText": "confrms",
+      "text": "confirms"
+    },
+    {
+      "page": 13,
+      "start": 1503,
+      "end": 1508,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 14,
+      "start": 1014,
+      "end": 1025,
+      "expectedText": "lookthrough",
+      "text": "look-through"
+    },
+    {
+      "page": 14,
+      "start": 1529,
+      "end": 1533,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 14,
+      "start": 1825,
+      "end": 1831,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 15,
+      "start": 297,
+      "end": 301,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 15,
+      "start": 1808,
+      "end": 1815,
+      "expectedText": "Refning",
+      "text": "Refining"
+    },
+    {
+      "page": 15,
+      "start": 1903,
+      "end": 1909,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 16,
+      "start": 285,
+      "end": 292,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 16,
+      "start": 1110,
+      "end": 1114,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 16,
+      "start": 1671,
+      "end": 1680,
+      "expectedText": "identifes",
+      "text": "identifies"
+    },
+    {
+      "page": 16,
+      "start": 1704,
+      "end": 1710,
+      "expectedText": "flings",
+      "text": "filings"
+    },
+    {
+      "page": 16,
+      "start": 1761,
+      "end": 1766,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 17,
+      "start": 642,
+      "end": 648,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 17,
+      "start": 674,
+      "end": 678,
+      "expectedText": "food",
+      "text": "flood"
+    },
+    {
+      "page": 17,
+      "start": 1589,
+      "end": 1601,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 17,
+      "start": 1818,
+      "end": 1827,
+      "expectedText": "effciency",
+      "text": "efficiency"
+    },
+    {
+      "page": 18,
+      "start": 206,
+      "end": 211,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 18,
+      "start": 644,
+      "end": 652,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 18,
+      "start": 881,
+      "end": 885,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 18,
+      "start": 1149,
+      "end": 1157,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 18,
+      "start": 1331,
+      "end": 1337,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 18,
+      "start": 1488,
+      "end": 1494,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 18,
+      "start": 1625,
+      "end": 1629,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 18,
+      "start": 1961,
+      "end": 1967,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 19,
+      "start": 137,
+      "end": 149,
+      "expectedText": "affrmatively",
+      "text": "affirmatively"
+    },
+    {
+      "page": 19,
+      "start": 220,
+      "end": 224,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 19,
+      "start": 591,
+      "end": 597,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 19,
+      "start": 690,
+      "end": 697,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 4,
+      "start": 729,
+      "end": 740,
+      "expectedText": "confrmation",
+      "text": "confirmation"
+    },
+    {
+      "page": 4,
+      "start": 328,
+      "end": 333,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 7,
+      "start": 1289,
+      "end": 1300,
+      "expectedText": "confrmation",
+      "text": "confirmation"
+    },
+    {
+      "page": 8,
+      "start": 1900,
+      "end": 1911,
+      "expectedText": "confrmation",
+      "text": "confirmation"
+    },
+    {
+      "page": 11,
+      "start": 2073,
+      "end": 2084,
+      "expectedText": "confrmation",
+      "text": "confirmation"
+    },
+    {
+      "page": 12,
+      "start": 335,
+      "end": 344,
+      "expectedText": "confrming",
+      "text": "confirming"
+    },
+    {
+      "page": 12,
+      "start": 617,
+      "end": 626,
+      "expectedText": "confrming",
+      "text": "confirming"
+    },
+    {
+      "page": 13,
+      "start": 1793,
+      "end": 1804,
+      "expectedText": "confrmation",
+      "text": "confirmation"
+    },
+    {
+      "page": 13,
+      "start": 2143,
+      "end": 2149,
+      "expectedText": "fnally",
+      "text": "finally"
+    },
+    {
+      "page": 14,
+      "start": 1661,
+      "end": 1667,
+      "expectedText": "fnally",
+      "text": "finally"
+    },
+    {
+      "page": 17,
+      "start": 1019,
+      "end": 1024,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 18,
+      "start": 228,
+      "end": 239,
+      "expectedText": "confrmation",
+      "text": "confirmation"
+    },
+    {
+      "page": 18,
+      "start": 1233,
+      "end": 1244,
+      "expectedText": "confrmation",
+      "text": "confirmation"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed all sixteen original Court-opinion pages and five substantive footnotes, including full continuations of notes3 and4. Every quote, explanatory parenthetical, statutory qualification and affirmance preserved. Notes read inline. Individually annotated source references alone omitted; semantic FAA references linked to Title9 and jurisdiction references to Title28, retained in speech. Original raw coordinates and pins unchanged; exact extraction repairs, cross-page joins and counsel/running-furniture exclusions reviewed."
+}

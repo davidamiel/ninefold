@@ -1,0 +1,81 @@
+{
+  "reviewed": true,
+  "documentId": "24-345-cc05184abe0d--17-770",
+  "sourceDocumentId": "24-345-cc05184abe0d",
+  "sourceTextPath": "dist/data/docs/24-345-cc05184abe0d.json",
+  "sourceTextSha256": "b8f2ac552f5b403fc92d29fad067c6b3980e8c7cd4e3c1e6487ee4ba3c9567f0",
+  "sourcePdfPath": "dist/data/pdfs/24-345-cc05184abe0d--17-770.pdf",
+  "sourcePdfSha256": "27f001041ac8c4471b67916a40fdcf225df66e47ac3c6ed71cdd26b1facdede3",
+  "title": "Dissent",
+  "author": "Elena Kagan",
+  "date": "2026-06-11",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r47_m64o.pdf",
+  "sourceRange": {
+    "startPage": 17,
+    "startOffset": 797,
+    "endPage": 17,
+    "endOffset": 1535
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 797,
+          "end": 1535
+        }
+      ],
+      "citations": [
+        {
+          "start": 329,
+          "end": 342,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C.\u00a780a-46(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 507,
+          "end": 520,
+          "text": "Section 47(b)",
+          "type": "statute",
+          "canonical": "15 U.S.C.\u00a780a-46(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Section 47(b)",
+          "to": "Section 47, b"
+        },
+        {
+          "from": "Parts I and II",
+          "to": "Parts 1 and 2"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [],
+  "repairs": [
+    {
+      "page": 17,
+      "start": 1121,
+      "end": 1124,
+      "expectedText": "fnd",
+      "text": "find"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

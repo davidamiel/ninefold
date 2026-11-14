@@ -1,0 +1,418 @@
+{
+  "reviewed": true,
+  "documentId": "24-1078-823d3aa4cdae--0-0",
+  "sourceDocumentId": "24-1078-823d3aa4cdae",
+  "sourceTextPath": "dist/data/docs/24-1078-823d3aa4cdae.json",
+  "sourceTextSha256": "acc60fbe124260c89bcdaf6bafdf22915ef8259ff30fa8e9e94d51eb7dfec12d",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/823d3aa4cdae355408120cb2.pdf",
+  "sourcePdfSha256": "1b08d03b2f3d16f6caac2c50094b2cc71d1b0a980d5e45b55b27e3e2d2452f12",
+  "title": "Statement",
+  "author": "Sonia Sotomayor",
+  "date": "2025-11-24",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-1078_7758.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 2,
+    "endOffset": 252
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 576,
+          "end": 1583
+        }
+      ],
+      "citations": [
+        {
+          "start": 56,
+          "end": 79,
+          "text": ", 340 U. S. 135 (1950),",
+          "type": "case",
+          "canonical": "340 U.S. 135"
+        },
+        {
+          "start": 116,
+          "end": 185,
+          "text": "See post, at 3–5 (T HOMAS, J., dissenting from denial of certiorari).",
+          "type": "reference",
+          "canonical": "See post, at 3–5 (T HOMAS, J., dissenting from denial of certiorari)"
+        },
+        {
+          "start": 285,
+          "end": 313,
+          "text": ", 28 U. S. C. §2671 et seq.,",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2671"
+        },
+        {
+          "start": 518,
+          "end": 536,
+          "text": "Post, at 3–5, 7–8.",
+          "type": "reference",
+          "canonical": "Post, at 3–5, 7–8"
+        },
+        {
+          "start": 940,
+          "end": 969,
+          "text": "See Feres, 340 U. S., at 137;",
+          "type": "reference",
+          "canonical": "See Feres, 340 U. S., at 137"
+        },
+        {
+          "start": 970,
+          "end": 983,
+          "text": "post, at 7–8.",
+          "type": "reference",
+          "canonical": "post, at 7–8"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1583,
+          "end": 1894
+        },
+        {
+          "page": 1,
+          "start": 113,
+          "end": 1189
+        }
+      ],
+      "citations": [
+        {
+          "start": 352,
+          "end": 415,
+          "text": "Kimble v. Marvel Entertainment, LLC, 576 U. S. 446, 456 (2015).",
+          "type": "case",
+          "canonical": "576 U.S. 446"
+        },
+        {
+          "start": 597,
+          "end": 663,
+          "text": "Michigan v. Bay Mills Indian Community, 572 U. S. 782, 799 (2014);",
+          "type": "case",
+          "canonical": "572 U.S. 782"
+        },
+        {
+          "start": 664,
+          "end": 736,
+          "text": "see Global-Tech Appliances, Inc. v. SEB S. A., 563 U. S. 754, 765 (2011)",
+          "type": "case",
+          "canonical": "563 U.S. 754"
+        },
+        {
+          "start": 1067,
+          "end": 1141,
+          "text": "Groff v. DeJoy, 600 U. S. 447, 474–475 (2023) (SOTOMAYOR, J., concurring).",
+          "type": "case",
+          "canonical": "600 U.S. 447"
+        },
+        {
+          "start": 1339,
+          "end": 1351,
+          "text": "Id., at 475.",
+          "type": "case",
+          "canonical": "Groff v. DeJoy, 600 U.S. 447, 475"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1189,
+          "end": 1885
+        }
+      ],
+      "citations": [
+        {
+          "start": 114,
+          "end": 171,
+          "text": "See, e.g., H. R. 1517, 112th Cong., 1st Sess., §4 (2011);",
+          "type": "reference",
+          "canonical": "See, e.g., H. R. 1517, 112th Cong., 1st Sess., §4 (2011)"
+        },
+        {
+          "start": 172,
+          "end": 215,
+          "text": "S. 1347, 111th Cong., 1st Sess., §2 (2009);",
+          "type": "reference",
+          "canonical": "S. 1347, 111th Cong., 1st Sess., §2 (2009)"
+        },
+        {
+          "start": 216,
+          "end": 262,
+          "text": "H. R. 2684, 107th Cong., 1st Sess., §1 (2001);",
+          "type": "reference",
+          "canonical": "H. R. 2684, 107th Cong., 1st Sess., §1 (2001)"
+        },
+        {
+          "start": 263,
+          "end": 301,
+          "text": "S. 347, 100th Cong., 1st Sess. (1987).",
+          "type": "reference",
+          "canonical": "S. 347, 100th Cong., 1st Sess. (1987)."
+        },
+        {
+          "start": 347,
+          "end": 425,
+          "text": ", see S. 1790, 116th Cong., 1st Sess., §729 (amendment as passed in the House)",
+          "type": "reference",
+          "canonical": "see S. 1790, 116th Cong., 1st Sess., §729 (amendment as passed in the House)"
+        },
+        {
+          "start": 575,
+          "end": 683,
+          "text": ", see National Defense Authorization Act for Fiscal Year 2020, §731, 133 Stat. 1457–1460, 10 U. S. C. §2733a",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 2733a"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1885,
+          "end": 2245
+        },
+        {
+          "page": 2,
+          "start": 73,
+          "end": 252
+        }
+      ],
+      "citations": [
+        {
+          "start": 114,
+          "end": 156,
+          "text": "Allen v. Milligan, 599 U. S. 1, 39 (2023).",
+          "type": "case",
+          "canonical": "599 U.S. 1"
+        },
+        {
+          "start": 244,
+          "end": 249,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "Allen v. Milligan, 599 U.S. 1, 39"
+        },
+        {
+          "start": 508,
+          "end": 525,
+          "text": "See post, at 7–8.",
+          "type": "reference",
+          "canonical": "See post, at 7–8"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Feres]",
+          "to": "Feres"
+        },
+        {
+          "from": "[U]ntil",
+          "to": "Until"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 752,
+      "end": 764,
+      "expectedText": "certio-\nrari",
+      "text": "certiorari"
+    },
+    {
+      "page": 0,
+      "start": 925,
+      "end": 936,
+      "expectedText": "criti-\ncism",
+      "text": "criticism"
+    },
+    {
+      "page": 0,
+      "start": 1217,
+      "end": 1227,
+      "expectedText": "ex-\npected",
+      "text": "expected"
+    },
+    {
+      "page": 0,
+      "start": 1339,
+      "end": 1347,
+      "expectedText": "sex-\nual",
+      "text": "sexual"
+    },
+    {
+      "page": 0,
+      "start": 1015,
+      "end": 1024,
+      "expectedText": "fam ilies",
+      "text": "families"
+    },
+    {
+      "page": 0,
+      "start": 1638,
+      "end": 1647,
+      "expectedText": "deci-\nsis",
+      "text": "decisis"
+    },
+    {
+      "page": 0,
+      "start": 1765,
+      "end": 1777,
+      "expectedText": "cer-\ntiorari",
+      "text": "certiorari"
+    },
+    {
+      "page": 0,
+      "start": 1736,
+      "end": 1741,
+      "expectedText": "th is",
+      "text": "this"
+    },
+    {
+      "page": 0,
+      "start": 1799,
+      "end": 1813,
+      "expectedText": "ju stification",
+      "text": "justification"
+    },
+    {
+      "page": 1,
+      "start": 286,
+      "end": 297,
+      "expectedText": "di-\nmension",
+      "text": "dimension"
+    },
+    {
+      "page": 1,
+      "start": 343,
+      "end": 354,
+      "expectedText": "stat-\nutory",
+      "text": "statutory"
+    },
+    {
+      "page": 1,
+      "start": 646,
+      "end": 657,
+      "expectedText": "statu-\ntory",
+      "text": "statutory"
+    },
+    {
+      "page": 1,
+      "start": 770,
+      "end": 782,
+      "expectedText": "re -\nquiring",
+      "text": "requiring"
+    },
+    {
+      "page": 1,
+      "start": 1072,
+      "end": 1084,
+      "expectedText": "con-\nsidered",
+      "text": "considered"
+    },
+    {
+      "page": 1,
+      "start": 196,
+      "end": 201,
+      "expectedText": "LLC ,",
+      "text": "LLC,"
+    },
+    {
+      "page": 1,
+      "start": 511,
+      "end": 519,
+      "expectedText": "Inc.  v.",
+      "text": "Inc. v."
+    },
+    {
+      "page": 1,
+      "start": 1242,
+      "end": 1255,
+      "expectedText": "leg-\nislation",
+      "text": "legislation"
+    },
+    {
+      "page": 1,
+      "start": 1670,
+      "end": 1679,
+      "expectedText": "cer-\ntain",
+      "text": "certain"
+    },
+    {
+      "page": 1,
+      "start": 1937,
+      "end": 1947,
+      "expectedText": "prob-\nlems",
+      "text": "problems"
+    },
+    {
+      "page": 1,
+      "start": 2001,
+      "end": 2008,
+      "expectedText": "Al-\nlen",
+      "text": "Allen"
+    },
+    {
+      "page": 1,
+      "start": 2185,
+      "end": 2196,
+      "expectedText": "im-\nportant",
+      "text": "important"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 50,
+      "end": 576,
+      "text": "1  Cite as: 607 U. S. ____ (2025) \nStatement of SOTOMAYOR, J. \nSUPREME COURT OF THE UNITED STATES \nKARI BECK, PERSONAL REPRESENTATIVE OF THE ESTATE \nOF CAMERON GAYLE BECK, ET AL. v. \nUNITED STATES \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE EIGHTH CIRCUIT \nNo. 24–1078. Decided November 24, 2025 \nThe petition for a writ of certiorari is denied. JUSTICE \nGORSUCH would grant the petition for a writ of certiorari. \n Statement of J USTICE SOTOMAYOR respecting the denial \nof certiorari. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    },
+    {
+      "page": 1,
+      "start": 60,
+      "end": 113,
+      "text": "2 BECK v. UNITED STATES \nStatement of SOTOMAYOR, J. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    },
+    {
+      "page": 2,
+      "start": 10,
+      "end": 73,
+      "text": "3  Cite as: 607 U. S. ____ (2025) \nStatement of SOTOMAYOR, J. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    }
+  ],
+  "documentInfo": {
+    "joinedBy": []
+  },
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full original judicial writing reviewed. All substantive text and explanatory/quoted parentheticals retained; front attribution and bare order excluded, exact extraction repairs and independent source locators recorded. Meaningful statute references embedded in plea quotation remain linked and spoken."
+}

@@ -1,0 +1,2922 @@
+{
+  "reviewed": true,
+  "documentId": "24-924-a99d1fbfaa6b--19-54",
+  "sourceDocumentId": "24-924-a99d1fbfaa6b",
+  "sourceTextPath": "dist/data/docs/24-924-a99d1fbfaa6b.json",
+  "sourceTextSha256": "a380bfb176c9daed108ced18ee5a0e289edd851bfaa0e44a9ab5946cd60e281c",
+  "sourcePdfPath": "dist/data/pdfs/24-924-a99d1fbfaa6b--19-54.pdf",
+  "sourcePdfSha256": "67be89a80f9836eef2935d2fb6b487034017755696abdb9ee591a5bae84f3760",
+  "title": "Dissent",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-04-22",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r27_bq7c.pdf",
+  "sourceRange": {
+    "startPage": 19,
+    "startOffset": 137,
+    "endPage": 36,
+    "endOffset": 908
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 137,
+          "end": 594
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 594,
+          "end": 935
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 935,
+          "end": 1763
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1763,
+          "end": 2044
+        },
+        {
+          "page": 20,
+          "start": 79,
+          "end": 398
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 398,
+          "end": 810
+        }
+      ],
+      "citations": [
+        {
+          "start": 132,
+          "end": 163,
+          "text": "See Art. I, \u00a7 8, cls. 1, 11\u201316;",
+          "type": "statute",
+          "canonical": "U.S.Const.,Art.I,\u00a78,cls.1,11-16"
+        },
+        {
+          "start": 164,
+          "end": 196,
+          "text": "Art. II, \u00a7 1, cl. 1, \u00a7 2, cl. 1.",
+          "type": "statute",
+          "canonical": "U.S.Const.,Art.II,\u00a71,cl.1,\u00a72,cl.1"
+        },
+        {
+          "start": 259,
+          "end": 281,
+          "text": ", Art. I, \u00a7 10, cl. 3,",
+          "type": "statute",
+          "canonical": "U.S.Const.,Art.I,\u00a710,cl.3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 810,
+          "end": 2006
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 2006,
+          "end": 2170
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 21,
+          "start": 53,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 21,
+          "start": 56,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 58,
+          "end": 1064
+        }
+      ],
+      "citations": [
+        {
+          "start": 66,
+          "end": 81,
+          "text": "Art. VI, cl. 2,",
+          "type": "statute",
+          "canonical": "U.S.Const.,Art.VI,cl.2"
+        },
+        {
+          "start": 441,
+          "end": 464,
+          "text": "See ante, at 34, 37\u201338.",
+          "type": "reference",
+          "canonical": "Court opinion,pp.34,37-38"
+        },
+        {
+          "start": 645,
+          "end": 693,
+          "text": "Kansas v. Garcia, 589 U. S. 191, 202\u2013203 (2020).",
+          "type": "case",
+          "canonical": "589 U.S. 191"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1064,
+          "end": 1941
+        }
+      ],
+      "citations": [
+        {
+          "start": 54,
+          "end": 75,
+          "text": "McCulloch v. Maryland",
+          "type": "case",
+          "canonical": "4 Wheat.316",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 75,
+          "end": 96,
+          "text": ", 4 Wheat. 316 (1819)",
+          "type": "case",
+          "canonical": "4 Wheat.316"
+        },
+        {
+          "start": 365,
+          "end": 377,
+          "text": "Id., at 429.",
+          "type": "case",
+          "canonical": "4 Wheat.316"
+        },
+        {
+          "start": 532,
+          "end": 544,
+          "text": "Id., at 431.",
+          "type": "case",
+          "canonical": "4 Wheat.316"
+        },
+        {
+          "start": 862,
+          "end": 874,
+          "text": "Id., at 436.",
+          "type": "case",
+          "canonical": "4 Wheat.316"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "McCulloch v. Maryland",
+          "to": "McCulloch versus Maryland"
+        },
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 48,
+          "end": 373
+        }
+      ],
+      "citations": [
+        {
+          "start": 304,
+          "end": 324,
+          "text": "See id., at 430\u2013431.",
+          "type": "case",
+          "canonical": "4 Wheat.316"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 373,
+          "end": 1224
+        }
+      ],
+      "citations": [
+        {
+          "start": 208,
+          "end": 239,
+          "text": "Osborn v. Bank of United States",
+          "type": "case",
+          "canonical": "9 Wheat.738",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 239,
+          "end": 260,
+          "text": ", 9 Wheat. 738 (1824)",
+          "type": "case",
+          "canonical": "9 Wheat.738"
+        },
+        {
+          "start": 425,
+          "end": 437,
+          "text": "Id., at 865.",
+          "type": "case",
+          "canonical": "9 Wheat.738"
+        },
+        {
+          "start": 691,
+          "end": 696,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "9 Wheat.738"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Osborn v. Bank of United States",
+          "to": "Osborn versus Bank of United States"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1224,
+          "end": 2117
+        },
+        {
+          "page": 23,
+          "start": 85,
+          "end": 543
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 295,
+          "end": 364,
+          "text": "United States v. Standard Oil Co. of Cal., 332 U. S. 301, 307 (1947).",
+          "type": "case",
+          "canonical": "332 U.S. 301"
+        },
+        {
+          "start": 573,
+          "end": 615,
+          "text": "Wyeth v. Levine, 555 U. S. 555, 565 (2009)",
+          "type": "case",
+          "canonical": "555 U.S. 555"
+        },
+        {
+          "start": 616,
+          "end": 677,
+          "text": "(quoting Medtronic, Inc. v. Lohr, 518 U. S. 470, 485 (1996)).",
+          "type": "case",
+          "canonical": "518 U.S. 470"
+        },
+        {
+          "start": 998,
+          "end": 1059,
+          "text": "Boyle v. United Technologies Corp., 487 U. S. 500, 507 (1988)",
+          "type": "case",
+          "canonical": "487 U.S. 500"
+        },
+        {
+          "start": 1060,
+          "end": 1129,
+          "text": "(quoting Rice v. Santa Fe Elevator Corp., 331 U. S. 218, 230 (1947)).",
+          "type": "case",
+          "canonical": "331 U.S. 218"
+        },
+        {
+          "start": 1310,
+          "end": 1354,
+          "text": "Boyle, 487 U. S., at 508 (emphasis deleted).",
+          "type": "case",
+          "canonical": "487 U.S. 500"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "affec[t]",
+          "to": "affect"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 543,
+          "end": 1822
+        }
+      ],
+      "citations": [
+        {
+          "start": 255,
+          "end": 295,
+          "text": "In re Neagle, 135 U. S. 1, 75\u201376 (1890);",
+          "type": "case",
+          "canonical": "135 U.S. 1"
+        },
+        {
+          "start": 296,
+          "end": 349,
+          "text": "see Tennessee v. Davis, 100 U. S. 257, 262\u2013263 (1880)",
+          "type": "case",
+          "canonical": "100 U.S. 257"
+        },
+        {
+          "start": 350,
+          "end": 450,
+          "text": "(quoting Martin v. Hunter's Lessee, 1 Wheat. 304, 363 (1816) (Johnson, J., concurring in judgment)).",
+          "type": "case",
+          "canonical": "1 Wheat.304"
+        },
+        {
+          "start": 562,
+          "end": 625,
+          "text": "U. S. Term Limits, Inc. v. Thornton, 514 U. S. 779, 806 (1995).",
+          "type": "case",
+          "canonical": "514 U.S. 779"
+        },
+        {
+          "start": 748,
+          "end": 793,
+          "text": "Johnson v. Maryland, 254 U. S. 51, 57 (1920).",
+          "type": "case",
+          "canonical": "254 U.S. 51"
+        },
+        {
+          "start": 900,
+          "end": 955,
+          "text": "United States v. Washington, 596 U. S. 832, 839 (2022).",
+          "type": "case",
+          "canonical": "596 U.S. 832"
+        },
+        {
+          "start": 1062,
+          "end": 1125,
+          "text": "Yearsley v. W. A. Ross Constr. Co., 309 U. S. 18, 20\u201321 (1940).",
+          "type": "case",
+          "canonical": "309 U.S. 18"
+        },
+        {
+          "start": 1219,
+          "end": 1283,
+          "text": "United States v. Kimbell Foods, Inc., 440 U. S. 715, 726 (1979).",
+          "type": "case",
+          "canonical": "440 U.S. 715"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1822,
+          "end": 2185
+        },
+        {
+          "page": 24,
+          "start": 48,
+          "end": 530
+        }
+      ],
+      "citations": [
+        {
+          "start": 242,
+          "end": 254,
+          "text": "ante, at 38,",
+          "type": "reference",
+          "canonical": "Court opinion,p.38"
+        },
+        {
+          "start": 435,
+          "end": 461,
+          "text": "Garcia, 589 U. S., at 202.",
+          "type": "case",
+          "canonical": "589 U.S. 191"
+        },
+        {
+          "start": 563,
+          "end": 631,
+          "text": "See, e. g., Arizona v. United States, 567 U. S. 387, 411\u2013415 (2012):",
+          "type": "case",
+          "canonical": "567 U.S. 387"
+        },
+        {
+          "start": 632,
+          "end": 704,
+          "text": "id., at 424\u2013426 (Scalia, J., concurring in part and dissenting in part);",
+          "type": "case",
+          "canonical": "567 U.S. 387"
+        },
+        {
+          "start": 705,
+          "end": 777,
+          "text": "id., at 437\u2013438 (Thomas, J., concurring in part and dissenting in part);",
+          "type": "case",
+          "canonical": "567 U.S. 387"
+        },
+        {
+          "start": 778,
+          "end": 845,
+          "text": "id., at 441 (Alito, J., concurring in part and dissenting in part).",
+          "type": "case",
+          "canonical": "567 U.S. 387"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]here",
+          "to": "there"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1310,
+          "end": 2376
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 214,
+          "end": 241,
+          "text": "Arizona, 567 U. S., at 411.",
+          "type": "case",
+          "canonical": "567 U.S. 387"
+        },
+        {
+          "start": 615,
+          "end": 706,
+          "text": "See Brief for United States in Arizona v. United States, O. T. 2011, No. 11\u2013182, pp. 43\u201352.",
+          "type": "record",
+          "canonical": "Arizona v.United States,No.11-182,United States brief,pp.43-52"
+        },
+        {
+          "start": 952,
+          "end": 995,
+          "text": "See, e. g., Arizona, 567 U. S., at 412\u2013413;",
+          "type": "case",
+          "canonical": "567 U.S. 387"
+        },
+        {
+          "start": 996,
+          "end": 1068,
+          "text": "id., at 442\u2013446 (Alito, J ., concurring in part and dissenting in part).",
+          "type": "case",
+          "canonical": "567 U.S. 387"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 532,
+          "end": 650
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 24,
+          "start": 650,
+          "end": 653
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 653,
+          "end": 1308
+        },
+        {
+          "page": 25,
+          "start": 54,
+          "end": 686
+        }
+      ],
+      "citations": [
+        {
+          "start": 376,
+          "end": 421,
+          "text": "Hines v. Davidowitz, 312 U. S. 52, 63 (1941).",
+          "type": "case",
+          "canonical": "312 U.S. 52"
+        },
+        {
+          "start": 594,
+          "end": 600,
+          "text": "Ibid.;",
+          "type": "case",
+          "canonical": "312 U.S. 52"
+        },
+        {
+          "start": 601,
+          "end": 610,
+          "text": "see also ",
+          "type": "case",
+          "canonical": "301 U.S. 324"
+        },
+        {
+          "start": 610,
+          "end": 634,
+          "text": "United States v. Belmont",
+          "type": "case",
+          "canonical": "301 U.S. 324",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 634,
+          "end": 666,
+          "text": ", 301 U. S. 324, 330\u2013 331 (1937)",
+          "type": "case",
+          "canonical": "301 U.S. 324"
+        },
+        {
+          "start": 881,
+          "end": 883,
+          "text": "; ",
+          "type": "case",
+          "canonical": "389 U.S. 429"
+        },
+        {
+          "start": 883,
+          "end": 902,
+          "text": "Zschernig v. Miller",
+          "type": "case",
+          "canonical": "389 U.S. 429",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 902,
+          "end": 929,
+          "text": ", 389 U. S. 429, 432 (1968)",
+          "type": "case",
+          "canonical": "389 U.S. 429"
+        },
+        {
+          "start": 1084,
+          "end": 1086,
+          "text": "; ",
+          "type": "case",
+          "canonical": "580 F.3d1"
+        },
+        {
+          "start": 1086,
+          "end": 1106,
+          "text": "Saleh v. Titan Corp.",
+          "type": "case",
+          "canonical": "580 F.3d1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1106,
+          "end": 1151,
+          "text": ", 580 F. 3d 1, 11 (CADC 2009) (Silberman, J.)",
+          "type": "case",
+          "canonical": "580 F.3d1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "United States v. Belmont",
+          "to": "United States versus Belmont"
+        },
+        {
+          "from": "Zschernig v. Miller",
+          "to": "Zschernig versus Miller"
+        },
+        {
+          "from": "Saleh v. Titan Corp.",
+          "to": "Saleh versus Titan Corp."
+        },
+        {
+          "from": "[o]ur",
+          "to": "Our"
+        },
+        {
+          "from": ")Zschernig",
+          "to": "); Zschernig"
+        },
+        {
+          "from": ")Saleh",
+          "to": "); Saleh"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 686,
+          "end": 1366
+        }
+      ],
+      "citations": [
+        {
+          "start": 64,
+          "end": 104,
+          "text": "Crosby v. National Foreign Trade Council",
+          "type": "case",
+          "canonical": "530 U.S. 363",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 104,
+          "end": 126,
+          "text": ", 530 U. S. 363 (2000)",
+          "type": "case",
+          "canonical": "530 U.S. 363"
+        },
+        {
+          "start": 297,
+          "end": 313,
+          "text": "Id., at 373\u2013374.",
+          "type": "case",
+          "canonical": "530 U.S. 363"
+        },
+        {
+          "start": 429,
+          "end": 445,
+          "text": "Id., at 379\u2013380.",
+          "type": "case",
+          "canonical": "530 U.S. 363"
+        },
+        {
+          "start": 460,
+          "end": 492,
+          "text": "American Ins. Assn. v. Garamendi",
+          "type": "case",
+          "canonical": "539 U.S. 396",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 492,
+          "end": 514,
+          "text": ", 539 U. S. 396 (2003)",
+          "type": "case",
+          "canonical": "539 U.S. 396"
+        },
+        {
+          "start": 651,
+          "end": 679,
+          "text": "Id., at 419, and n. 11, 427.",
+          "type": "case",
+          "canonical": "539 U.S. 396"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Crosby v. National Foreign Trade Council",
+          "to": "Crosby versus National Foreign Trade Council"
+        },
+        {
+          "from": "American Ins. Assn. v. Garamendi",
+          "to": "American Ins. Assn. versus Garamendi"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1366,
+          "end": 2126
+        },
+        {
+          "page": 26,
+          "start": 48,
+          "end": 324
+        }
+      ],
+      "citations": [
+        {
+          "start": 241,
+          "end": 268,
+          "text": "Art. I, \u00a7 8, cls. 1, 11\u201316.",
+          "type": "statute",
+          "canonical": "U.S.Const.,Art.I,\u00a78,cls.1,11-16"
+        },
+        {
+          "start": 339,
+          "end": 359,
+          "text": "Art. II, \u00a7 2, cl. 1.",
+          "type": "statute",
+          "canonical": "U.S.Const.,Art.II,\u00a72,cl.1"
+        },
+        {
+          "start": 594,
+          "end": 614,
+          "text": "Art. I, \u00a7 10, cl. 3.",
+          "type": "statute",
+          "canonical": "U.S.Const.,Art.I,\u00a710,cl.3"
+        },
+        {
+          "start": 781,
+          "end": 847,
+          "text": "Torres v. Texas Dept. of Public Safety, 597 U. S. 580, 590 (2022).",
+          "type": "case",
+          "canonical": "597 U.S. 580"
+        },
+        {
+          "start": 1024,
+          "end": 1036,
+          "text": "Id., at 592.",
+          "type": "case",
+          "canonical": "597 U.S. 580"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 330,
+          "end": 720
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 26,
+          "start": 720,
+          "end": 724
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 724,
+          "end": 1428
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1611,
+          "end": 1882
+        }
+      ],
+      "label": "2",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 270,
+          "text": "P. Wellman, A Timeline of Important Moments at Bagram Airfield from 2001\u20132021, Stars & Stripes (July 2, 2021), https://www.stripes.com / theaters/middle_east/2021-07-02/ bagram-airfield-timeline-of-events-since-2001-2026849.html (archived at https://perma.cc/J3Y7-MFNQ).",
+          "type": "reference",
+          "canonical": "Wellman, Bagram Airfield timeline, Stars and Stripes,July2,2021"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1428,
+          "end": 1609
+        },
+        {
+          "page": 27,
+          "start": 54,
+          "end": 672
+        }
+      ],
+      "citations": [
+        {
+          "start": 160,
+          "end": 201,
+          "text": "554 F. Supp. 3d 770, 776, n. 7 (SC 2021).",
+          "type": "case",
+          "canonical": "554 F.Supp.3d770"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "open[ing]",
+          "to": "opening"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1606,
+          "end": 1822
+        }
+      ],
+      "label": "3",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 214,
+          "text": "President Bush Discusses Progress in Afghanistan, Global War on Terror (Feb. 15, 2007), https://georgewbush-whitehouse.archives.gov/news / releases/2007/02/20070215-1.html (archived at https://perma.cc/A6SK -VVBD).",
+          "type": "reference",
+          "canonical": "President Bush, Progress in Afghanistan,February15,2007"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1824,
+          "end": 2108
+        }
+      ],
+      "label": "4",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 281,
+          "text": "Remarks By the President in Address to the Nation on the Way Forward in Afghanistan and Pakistan (Dec. 1, 2009), https://obamawhitehouse .archives.gov/the-press-office/remarks-president-address-nation-way -forward-afghanistan-and-pakistan (archived at https://perma.cc/Z3YB -M88H).",
+          "type": "reference",
+          "canonical": "President Obama, Way Forward in Afghanistan and Pakistan,December1,2009"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 672,
+          "end": 1040
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1040,
+          "end": 1604
+        },
+        {
+          "page": 28,
+          "start": 48,
+          "end": 453
+        }
+      ],
+      "citations": [
+        {
+          "start": 328,
+          "end": 431,
+          "text": "Motion for Summary Judgment in No. 6:19\u2013cv\u201300489 (D SC, Feb. 26, 2021), ECF Doc. 128\u201318, Exh. 16, p. 2.",
+          "type": "record",
+          "canonical": "No.6:19-cv-00489,ECF Doc.128-18,Ex.16,p.2"
+        },
+        {
+          "start": 577,
+          "end": 582,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "No.6:19-cv-00489,ECF Doc.128-18,Ex.16,p.2"
+        },
+        {
+          "start": 845,
+          "end": 850,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "No.6:19-cv-00489,ECF Doc.128-18,Ex.16,p.2"
+        },
+        {
+          "start": 964,
+          "end": 969,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "No.6:19-cv-00489,ECF Doc.128-18,Ex.16,p.2"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[w]henever",
+          "to": "whenever"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 453,
+          "end": 1134
+        }
+      ],
+      "citations": [
+        {
+          "start": 286,
+          "end": 291,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "No.6:19-cv-00489,ECF Doc.128-18,Ex.16"
+        },
+        {
+          "start": 543,
+          "end": 553,
+          "text": "Id., at 3.",
+          "type": "record",
+          "canonical": "No.6:19-cv-00489,ECF Doc.128-18,Ex.16,p.3"
+        },
+        {
+          "start": 677,
+          "end": 682,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "No.6:19-cv-00489,ECF Doc.128-18,Ex.16"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[o]rders",
+          "to": "orders"
+        },
+        {
+          "from": "[t]his",
+          "to": "this"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1134,
+          "end": 1664
+        }
+      ],
+      "citations": [
+        {
+          "start": 79,
+          "end": 88,
+          "text": "\u00a7 1.07(b)",
+          "type": "statute",
+          "canonical": "Fluor contract task order,\u00a71.07(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 216,
+          "end": 247,
+          "text": "ECF Doc. 128\u201319, Exh. 17, p. 6.",
+          "type": "record",
+          "canonical": "No.6:19-cv-00489,ECF Doc.128-19,Ex.17,p.6"
+        },
+        {
+          "start": 500,
+          "end": 530,
+          "text": "ECF Doc. 128\u20137, Exh. 5, p. 17.",
+          "type": "record",
+          "canonical": "No.6:19-cv-00489,ECF Doc.128-7,Ex.5,p.17"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 1.07(b)",
+          "to": "Section 1.07, b"
+        },
+        {
+          "from": "[host nation]",
+          "to": "host nation"
+        },
+        {
+          "from": "[p]ractically",
+          "to": "Practically"
+        },
+        {
+          "from": "[local nationals]",
+          "to": "local nationals"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1664,
+          "end": 2110
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 85,
+          "end": 671
+        }
+      ],
+      "citations": [
+        {
+          "start": 378,
+          "end": 447,
+          "text": "See Green v. McGee, 446 S. C. 343, 350, 919 S. E. 2d 903, 906 (2025);",
+          "type": "case",
+          "canonical": "446 S.C.343"
+        },
+        {
+          "start": 448,
+          "end": 479,
+          "text": "120 F. 4th 412, 424 (CA4 2024).",
+          "type": "case",
+          "canonical": "120 F.4th412"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 671,
+          "end": 1601
+        }
+      ],
+      "citations": [
+        {
+          "start": 350,
+          "end": 369,
+          "text": "See id., at 424\u2013425",
+          "type": "case",
+          "canonical": "120 F.4th412"
+        },
+        {
+          "start": 632,
+          "end": 664,
+          "text": "See App. to Pet. for Cert. 150a.",
+          "type": "record",
+          "canonical": "Petition appendix,p.150a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 1601,
+          "end": 2187
+        },
+        {
+          "page": 30,
+          "start": 48,
+          "end": 213
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 574,
+          "end": 641,
+          "text": "General Dynamics Corp. v. United States, 563 U. S. 478, 492 (2011).",
+          "type": "case",
+          "canonical": "563 U.S. 478"
+        },
+        {
+          "start": 701,
+          "end": 751,
+          "text": "Brief for United States as Amicus Curiae 21, n. 1.",
+          "type": "record",
+          "canonical": "United States amicus brief,p.21,note1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 213,
+          "end": 681
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 681,
+          "end": 956
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 956,
+          "end": 1865
+        }
+      ],
+      "citations": [
+        {
+          "start": 161,
+          "end": 183,
+          "text": "See 120 F. 4th, at 427",
+          "type": "case",
+          "canonical": "120 F.4th412"
+        },
+        {
+          "start": 279,
+          "end": 313,
+          "text": "(internal quotation marks omitted)",
+          "type": "reference",
+          "canonical": "Internal quotation marks omitted"
+        },
+        {
+          "start": 314,
+          "end": 348,
+          "text": "; accord, 554 F. Supp. 3d, at 774.",
+          "type": "case",
+          "canonical": "554 F.Supp.3d770"
+        },
+        {
+          "start": 735,
+          "end": 797,
+          "text": "Brief for Retired Senior Military Officers as Amici Curiae 22.",
+          "type": "record",
+          "canonical": "Retired Senior Military Officers amicus brief,p.22"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[f]aced",
+          "to": "faced"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1865,
+          "end": 2099
+        },
+        {
+          "page": 31,
+          "start": 85,
+          "end": 534
+        }
+      ],
+      "citations": [
+        {
+          "start": 290,
+          "end": 358,
+          "text": "See Klaxon Co. v. Stentor Elec. Mfg. Co., 313 U. S. 487, 496 (1941).",
+          "type": "case",
+          "canonical": "313 U.S. 487"
+        },
+        {
+          "start": 514,
+          "end": 576,
+          "text": "Boone v. Boone, 345 S. C. 8, 13, 546 S. E. 2d 191, 193 (2001).",
+          "type": "case",
+          "canonical": "345 S.C.8"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 31,
+          "start": 699,
+          "end": 1161
+        }
+      ],
+      "label": "5",
+      "citations": [
+        {
+          "start": 108,
+          "end": 161,
+          "text": "Restatement (Second) of Conflict of Laws \u00a7 145 (1969)",
+          "type": "statute",
+          "canonical": "Restatement (Second) of Conflict of Laws \u00a7145 (1969)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 163,
+          "end": 246,
+          "text": "See, e. g., M. M. v. Islamic Republic of Iran, 708 F. Supp. 3d 22, 47\u201348 (DC 2023);",
+          "type": "case",
+          "canonical": "708 F.Supp.3d22"
+        },
+        {
+          "start": 247,
+          "end": 281,
+          "text": "Sadiqyar v. Mission Essential, LLC",
+          "type": "case",
+          "canonical": "2020 WL 5210850",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 281,
+          "end": 334,
+          "text": " , 2020 WL 5210850, *4, n. 3 (SD Ohio, Sept. 1, 2020)",
+          "type": "case",
+          "canonical": "2020 WL 5210850"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Sadiqyar v. Mission Essential, LLC",
+          "to": "Sadiqyar versus Mission Essential, LLC"
+        },
+        {
+          "from": "Restatement (Second) of Conflict of Laws \u00a7 145 (1969)",
+          "to": "Restatement Second of Conflict of Laws, Section 145"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 536,
+          "end": 599
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 31,
+          "start": 1163,
+          "end": 2365
+        }
+      ],
+      "label": "6",
+      "citations": [
+        {
+          "start": 248,
+          "end": 294,
+          "text": "Boone, 345 S. C., at 13, 546 S. E. 2d, at 193.",
+          "type": "case",
+          "canonical": "345 S.C.8"
+        },
+        {
+          "start": 564,
+          "end": 584,
+          "text": "Tr. of Oral Arg. 24;",
+          "type": "record",
+          "canonical": "Oral argument transcript,p.24"
+        },
+        {
+          "start": 585,
+          "end": 597,
+          "text": "see, e. g., ",
+          "type": "case",
+          "canonical": "708 F.Supp.3d22"
+        },
+        {
+          "start": 597,
+          "end": 602,
+          "text": "M. M.",
+          "type": "case",
+          "canonical": "708 F.Supp.3d22",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 602,
+          "end": 629,
+          "text": ", 708 F. Supp. 3d, at 47\u201348",
+          "type": "case",
+          "canonical": "708 F.Supp.3d22"
+        },
+        {
+          "start": 676,
+          "end": 678,
+          "text": "; ",
+          "type": "case",
+          "canonical": "2016 WL 3653531"
+        },
+        {
+          "start": 678,
+          "end": 728,
+          "text": "Haskins v. Midwest Air Traffic Control Serv., Inc.",
+          "type": "case",
+          "canonical": "2016 WL 3653531",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 728,
+          "end": 773,
+          "text": ", 2016 WL 3653531, *5 (ND Ill., July 8, 2016)",
+          "type": "case",
+          "canonical": "2016 WL 3653531"
+        },
+        {
+          "start": 900,
+          "end": 967,
+          "text": "Allen v. Fluor Corp., 2017 WL 2618821, *5 (ND Tex., June 15, 2017).",
+          "type": "case",
+          "canonical": "2017 WL 2618821"
+        },
+        {
+          "start": 1073,
+          "end": 1143,
+          "text": "See, e. g., McGee v. Arkel Int'l, LLC , 671 F. 3d 539, 543 (CA5 2012);",
+          "type": "case",
+          "canonical": "671 F.3d539"
+        },
+        {
+          "start": 1144,
+          "end": 1203,
+          "text": "Al-Quraishi v. Nakhla, 728 F. Supp. 2d 702, 763 (Md. 2010).",
+          "type": "case",
+          "canonical": "728 F.Supp.2d702"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Haskins v. Midwest Air Traffic Control Serv., Inc.",
+          "to": "Haskins versus Midwest Air Traffic Control Serv., Inc."
+        },
+        {
+          "from": ")Haskins",
+          "to": "); Haskins"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 601,
+          "end": 684
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 31,
+          "start": 2367,
+          "end": 2791
+        },
+        {
+          "page": 32,
+          "start": 1281,
+          "end": 2104
+        }
+      ],
+      "label": "7",
+      "citations": [
+        {
+          "start": 308,
+          "end": 432,
+          "text": "Civil Code of the Republic of Afghanistan, Art. 776 (1977 Civil Code) (transl. by Afghanistan Legal Education Project 2014).",
+          "type": "statute",
+          "canonical": "Afghanistan Civil Code (1977),Art.776"
+        },
+        {
+          "start": 529,
+          "end": 544,
+          "text": "Arts. 783, 789.",
+          "type": "statute",
+          "canonical": "Afghanistan Civil Code (1977),Arts.783,789"
+        },
+        {
+          "start": 918,
+          "end": 927,
+          "text": "Art. 130;",
+          "type": "statute",
+          "canonical": "Afghanistan Constitution (2004),Art.130"
+        },
+        {
+          "start": 928,
+          "end": 960,
+          "text": "accord, 1977 Civil Code, Art. 2.",
+          "type": "statute",
+          "canonical": "Afghanistan Civil Code (1977),Art.2"
+        },
+        {
+          "start": 961,
+          "end": 965,
+          "text": "Cf. ",
+          "type": "case",
+          "canonical": "2021 WL 5882342"
+        },
+        {
+          "start": 965,
+          "end": 1010,
+          "text": "Center Khurasan Constr. Co. v. JS Int'l, Inc.",
+          "type": "case",
+          "canonical": "2021 WL 5882342",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1010,
+          "end": 1054,
+          "text": ", 2021 WL 5882342, *2 (D Md., Dec. 10, 2021)",
+          "type": "case",
+          "canonical": "2021 WL 5882342"
+        },
+        {
+          "start": 1100,
+          "end": 1102,
+          "text": "; ",
+          "type": "case",
+          "canonical": "203 F.Supp.3d789"
+        },
+        {
+          "start": 1102,
+          "end": 1136,
+          "text": "Global Fleet Sales, LLC v. Delunas",
+          "type": "case",
+          "canonical": "203 F.Supp.3d789",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1136,
+          "end": 1178,
+          "text": ", 203 F. Supp. 3d 789, 805 (ED Mich. 2016)",
+          "type": "case",
+          "canonical": "203 F.Supp.3d789"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Center Khurasan Constr. Co. v. JS Int'l, Inc.",
+          "to": "Center Khurasan Constr. Co. versus JS Int'l, Inc."
+        },
+        {
+          "from": "Global Fleet Sales, LLC v. Delunas",
+          "to": "Global Fleet Sales, LLC versus Delunas"
+        },
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "[i]f",
+          "to": "if"
+        },
+        {
+          "from": ")Global Fleet",
+          "to": "); Global Fleet"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 686,
+          "end": 697
+        },
+        {
+          "page": 32,
+          "start": 48,
+          "end": 201
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 32,
+          "start": 201,
+          "end": 206
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 206,
+          "end": 636
+        }
+      ],
+      "citations": [
+        {
+          "start": 286,
+          "end": 310,
+          "text": ", 28 U. S. C. \u00a7 2680(j),",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a72680(j)"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 32,
+          "start": 636,
+          "end": 639
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 639,
+          "end": 1281
+        },
+        {
+          "page": 33,
+          "start": 54,
+          "end": 670
+        }
+      ],
+      "citations": [
+        {
+          "start": 421,
+          "end": 426,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a72680(j)"
+        },
+        {
+          "start": 1005,
+          "end": 1014,
+          "text": "\u00a7 2680(j)",
+          "type": "statute",
+          "canonical": "28 U.S.C. \u00a72680(j)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "\u00a7 2680(j)",
+          "to": "Section 2680, j"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 33,
+          "start": 670,
+          "end": 673
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 673,
+          "end": 2081
+        },
+        {
+          "page": 34,
+          "start": 48,
+          "end": 146
+        }
+      ],
+      "citations": [
+        {
+          "start": 113,
+          "end": 139,
+          "text": ", Brief for Petitioner 31,",
+          "type": "record",
+          "canonical": "Petitioner brief,p.31"
+        },
+        {
+          "start": 449,
+          "end": 467,
+          "text": "487 U. S., at 506.",
+          "type": "case",
+          "canonical": "487 U.S. 500"
+        },
+        {
+          "start": 998,
+          "end": 1010,
+          "text": "Id., at 512.",
+          "type": "case",
+          "canonical": "487 U.S. 500"
+        },
+        {
+          "start": 1174,
+          "end": 1186,
+          "text": "Id., at 513.",
+          "type": "case",
+          "canonical": "487 U.S. 500"
+        },
+        {
+          "start": 1498,
+          "end": 1510,
+          "text": "Id., at 506.",
+          "type": "case",
+          "canonical": "487 U.S. 500"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 146,
+          "end": 914
+        }
+      ],
+      "citations": [
+        {
+          "start": 383,
+          "end": 398,
+          "text": "Ante, at 38\u201339.",
+          "type": "reference",
+          "canonical": "Court opinion,pp.38-39"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 914,
+          "end": 1270
+        }
+      ],
+      "citations": [
+        {
+          "start": 286,
+          "end": 304,
+          "text": "487 U. S., at 504.",
+          "type": "case",
+          "canonical": "487 U.S. 500"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "interes[t]",
+          "to": "interest"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 34,
+          "start": 1270,
+          "end": 1273
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 1273,
+          "end": 1707
+        }
+      ],
+      "citations": [
+        {
+          "start": 166,
+          "end": 178,
+          "text": "Ante, at 45.",
+          "type": "reference",
+          "canonical": "Court opinion,p.45"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 1707,
+          "end": 1937
+        },
+        {
+          "page": 35,
+          "start": 54,
+          "end": 154
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 180,
+          "end": 203,
+          "text": "Ibid. (emphasis added).",
+          "type": "reference",
+          "canonical": "Court opinion,p.45"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 154,
+          "end": 699
+        }
+      ],
+      "citations": [
+        {
+          "start": 164,
+          "end": 212,
+          "text": "Penn Dairies, Inc. v. Milk Control Comm'n of Pa.",
+          "type": "case",
+          "canonical": "318 U.S. 261",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 212,
+          "end": 234,
+          "text": ", 318 U. S. 261 (1943)",
+          "type": "case",
+          "canonical": "318 U.S. 261"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Penn Dairies, Inc. v. Milk Control Comm'n of Pa.",
+          "to": "Penn Dairies, Inc. versus Milk Control Comm'n of Pa."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 699,
+          "end": 940
+        }
+      ],
+      "citations": [
+        {
+          "start": 60,
+          "end": 103,
+          "text": "See Little v. Barreme, 2 Cranch 170 (1804);",
+          "type": "case",
+          "canonical": "2 Cranch170"
+        },
+        {
+          "start": 104,
+          "end": 144,
+          "text": "Mitchell v. Harmony, 13 How. 115 (1852).",
+          "type": "case",
+          "canonical": "13 How.115"
+        },
+        {
+          "start": 165,
+          "end": 188,
+          "text": "Erie R. Co. v. Tompkins",
+          "type": "case",
+          "canonical": "304 U.S. 64",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 188,
+          "end": 209,
+          "text": ", 304 U. S. 64 (1938)",
+          "type": "case",
+          "canonical": "304 U.S. 64"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Erie R. Co. v. Tompkins",
+          "to": "Erie R. Co. versus Tompkins"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1338,
+          "end": 2005
+        }
+      ],
+      "label": "8",
+      "citations": [
+        {
+          "start": 328,
+          "end": 460,
+          "text": "See J. Pfander, Iqbal, Bivens, and the Role of Judge-Made Law in Constitutional Adjudication, 114 Pa. St. L. Rev. 1387, 1394 (2010).",
+          "type": "reference",
+          "canonical": "Pfander, Iqbal Bivens and Judge-Made Law,114 Pa.St.L.Rev.1387 (2010)"
+        },
+        {
+          "start": 515,
+          "end": 536,
+          "text": "See id., at 1393\u20131394",
+          "type": "reference",
+          "canonical": "Pfander, Iqbal Bivens and Judge-Made Law,pp.1393-1394"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 942,
+          "end": 1297
+        }
+      ],
+      "citations": [
+        {
+          "start": 126,
+          "end": 147,
+          "text": "See 2 Cranch, at 179.",
+          "type": "case",
+          "canonical": "2 Cranch170"
+        },
+        {
+          "start": 256,
+          "end": 272,
+          "text": "13 How., at 128.",
+          "type": "case",
+          "canonical": "13 How.115"
+        },
+        {
+          "start": 334,
+          "end": 354,
+          "text": "See id., at 135\u2013136.",
+          "type": "case",
+          "canonical": "13 How.115"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 35,
+          "start": 2007,
+          "end": 2366
+        },
+        {
+          "page": 36,
+          "start": 593,
+          "end": 908
+        }
+      ],
+      "label": "9",
+      "citations": [
+        {
+          "start": 159,
+          "end": 177,
+          "text": "Ante, at 46, n. 3.",
+          "type": "reference",
+          "canonical": "Court opinion,p.46,note3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 1299,
+          "end": 1336
+        },
+        {
+          "page": 36,
+          "start": 48,
+          "end": 183
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 36,
+          "start": 189,
+          "end": 593
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 19,
+      "start": 2044,
+      "end": 2074,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 79,
+      "text": "Page Proof Pending Publication\n50 HENCELY v. FLUOR CORP.\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 53,
+      "text": "Cite as: 608 U. S. 31 (2026) 51\nAlito, J., dissenting",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 21,
+      "start": 1941,
+      "end": 1971,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 48,
+      "text": "52 HENCELY v. FLUOR CORP.\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 22,
+      "start": 2117,
+      "end": 2147,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 85,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 31 (2026) 53\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 48,
+      "text": "54 HENCELY v. FLUOR CORP.\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 24,
+      "start": 530,
+      "end": 532,
+      "text": "1\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 24,
+      "start": 1308,
+      "end": 1310,
+      "text": "1 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 24,
+      "start": 2376,
+      "end": 2406,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 54,
+      "text": "Cite as: 608 U. S. 31 (2026) 55\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 25,
+      "start": 2126,
+      "end": 2156,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 48,
+      "text": "56 HENCELY v. FLUOR CORP.\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 26,
+      "start": 324,
+      "end": 330,
+      "text": "* * *\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 26,
+      "start": 1609,
+      "end": 1611,
+      "text": "2 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 26,
+      "start": 1882,
+      "end": 1912,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 54,
+      "text": "Cite as: 608 U. S. 31 (2026) 57\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 27,
+      "start": 1604,
+      "end": 1606,
+      "text": "3 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 27,
+      "start": 1822,
+      "end": 1824,
+      "text": "4 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 27,
+      "start": 2108,
+      "end": 2138,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 48,
+      "text": "58 HENCELY v. FLUOR CORP.\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 28,
+      "start": 2110,
+      "end": 2140,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 29,
+      "start": 0,
+      "end": 85,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 31 (2026) 59\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 48,
+      "text": "60 HENCELY v. FLUOR CORP.\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 30,
+      "start": 2099,
+      "end": 2129,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 31,
+      "start": 0,
+      "end": 85,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 31 (2026) 61\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 31,
+      "start": 534,
+      "end": 536,
+      "text": "5 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 31,
+      "start": 599,
+      "end": 601,
+      "text": "6 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 31,
+      "start": 684,
+      "end": 686,
+      "text": "7 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 31,
+      "start": 697,
+      "end": 699,
+      "text": "5 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 31,
+      "start": 1161,
+      "end": 1163,
+      "text": "6 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 31,
+      "start": 2365,
+      "end": 2367,
+      "text": "7 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 32,
+      "start": 0,
+      "end": 48,
+      "text": "62 HENCELY v. FLUOR CORP.\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 32,
+      "start": 2104,
+      "end": 2134,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 33,
+      "start": 0,
+      "end": 54,
+      "text": "Cite as: 608 U. S. 31 (2026) 63\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 33,
+      "start": 2081,
+      "end": 2111,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 34,
+      "start": 0,
+      "end": 48,
+      "text": "64 HENCELY v. FLUOR CORP.\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 34,
+      "start": 1937,
+      "end": 1967,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 35,
+      "start": 0,
+      "end": 54,
+      "text": "Cite as: 608 U. S. 31 (2026) 65\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 35,
+      "start": 940,
+      "end": 942,
+      "text": "8 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 35,
+      "start": 1297,
+      "end": 1299,
+      "text": "9 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 35,
+      "start": 1336,
+      "end": 1338,
+      "text": "8 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 35,
+      "start": 2005,
+      "end": 2007,
+      "text": "9 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 35,
+      "start": 2366,
+      "end": 2396,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 36,
+      "start": 0,
+      "end": 48,
+      "text": "66 HENCELY v. FLUOR CORP.\nAlito, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 36,
+      "start": 183,
+      "end": 189,
+      "text": "* * *\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 19,
+      "start": 481,
+      "end": 489,
+      "expectedText": "statelaw",
+      "text": "state-law"
+    },
+    {
+      "page": 19,
+      "start": 1231,
+      "end": 1239,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 19,
+      "start": 1505,
+      "end": 1513,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 19,
+      "start": 677,
+      "end": 684,
+      "expectedText": "Airfeld",
+      "text": "Airfield"
+    },
+    {
+      "page": 20,
+      "start": 1464,
+      "end": 1476,
+      "expectedText": "crossexamine",
+      "text": "cross-examine"
+    },
+    {
+      "page": 20,
+      "start": 1279,
+      "end": 1289,
+      "expectedText": "suffciency",
+      "text": "sufficiency"
+    },
+    {
+      "page": 20,
+      "start": 1025,
+      "end": 1032,
+      "expectedText": "Airfeld",
+      "text": "Airfield"
+    },
+    {
+      "page": 20,
+      "start": 1746,
+      "end": 1753,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 20,
+      "start": 652,
+      "end": 656,
+      "expectedText": "feld",
+      "text": "field"
+    },
+    {
+      "page": 20,
+      "start": 1252,
+      "end": 1256,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 21,
+      "start": 175,
+      "end": 184,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 21,
+      "start": 1055,
+      "end": 1062,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 22,
+      "start": 484,
+      "end": 493,
+      "expectedText": "reaffrmed",
+      "text": "reaffirmed"
+    },
+    {
+      "page": 22,
+      "start": 2033,
+      "end": 2040,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 22,
+      "start": 1274,
+      "end": 1279,
+      "expectedText": "felds",
+      "text": "fields"
+    },
+    {
+      "page": 22,
+      "start": 1743,
+      "end": 1748,
+      "expectedText": "felds",
+      "text": "fields"
+    },
+    {
+      "page": 22,
+      "start": 2021,
+      "end": 2026,
+      "expectedText": "felds",
+      "text": "fields"
+    },
+    {
+      "page": 23,
+      "start": 1011,
+      "end": 1024,
+      "expectedText": "qualifcations",
+      "text": "qualifications"
+    },
+    {
+      "page": 23,
+      "start": 1187,
+      "end": 1200,
+      "expectedText": "qualifcations",
+      "text": "qualifications"
+    },
+    {
+      "page": 23,
+      "start": 1248,
+      "end": 1261,
+      "expectedText": "qualifcations",
+      "text": "qualifications"
+    },
+    {
+      "page": 23,
+      "start": 657,
+      "end": 666,
+      "expectedText": "reaffrmed",
+      "text": "reaffirmed"
+    },
+    {
+      "page": 23,
+      "start": 782,
+      "end": 789,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 23,
+      "start": 438,
+      "end": 445,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 23,
+      "start": 133,
+      "end": 137,
+      "expectedText": "feld",
+      "text": "field"
+    },
+    {
+      "page": 24,
+      "start": 1739,
+      "end": 1748,
+      "expectedText": "conficted",
+      "text": "conflicted"
+    },
+    {
+      "page": 24,
+      "start": 1361,
+      "end": 1368,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 24,
+      "start": 2187,
+      "end": 2194,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 24,
+      "start": 1165,
+      "end": 1169,
+      "expectedText": "feld",
+      "text": "field"
+    },
+    {
+      "page": 25,
+      "start": 390,
+      "end": 394,
+      "expectedText": "feld",
+      "text": "field"
+    },
+    {
+      "page": 26,
+      "start": 938,
+      "end": 945,
+      "expectedText": "Airfeld",
+      "text": "Airfield"
+    },
+    {
+      "page": 26,
+      "start": 1665,
+      "end": 1672,
+      "expectedText": "Airfeld",
+      "text": "Airfield"
+    },
+    {
+      "page": 26,
+      "start": 210,
+      "end": 217,
+      "expectedText": "ratifed",
+      "text": "ratified"
+    },
+    {
+      "page": 28,
+      "start": 1199,
+      "end": 1210,
+      "expectedText": "Specifcally",
+      "text": "Specifically"
+    },
+    {
+      "page": 28,
+      "start": 490,
+      "end": 498,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 28,
+      "start": 592,
+      "end": 600,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 28,
+      "start": 152,
+      "end": 160,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 28,
+      "start": 1942,
+      "end": 1950,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 29,
+      "start": 1769,
+      "end": 1778,
+      "expectedText": "tradeoffs",
+      "text": "trade-offs"
+    },
+    {
+      "page": 29,
+      "start": 1779,
+      "end": 1787,
+      "expectedText": "refected",
+      "text": "reflected"
+    },
+    {
+      "page": 29,
+      "start": 1483,
+      "end": 1490,
+      "expectedText": "benefts",
+      "text": "benefits"
+    },
+    {
+      "page": 30,
+      "start": 1974,
+      "end": 1986,
+      "expectedText": "choice-oflaw",
+      "text": "choice-of-law"
+    },
+    {
+      "page": 30,
+      "start": 1579,
+      "end": 1589,
+      "expectedText": "battlefeld",
+      "text": "battlefield"
+    },
+    {
+      "page": 30,
+      "start": 1780,
+      "end": 1789,
+      "expectedText": "conficted",
+      "text": "conflicted"
+    },
+    {
+      "page": 30,
+      "start": 257,
+      "end": 264,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 30,
+      "start": 401,
+      "end": 408,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 30,
+      "start": 2068,
+      "end": 2072,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 31,
+      "start": 1562,
+      "end": 1575,
+      "expectedText": "identifcation",
+      "text": "identification"
+    },
+    {
+      "page": 31,
+      "start": 2577,
+      "end": 2585,
+      "expectedText": "inficted",
+      "text": "inflicted"
+    },
+    {
+      "page": 31,
+      "start": 831,
+      "end": 838,
+      "expectedText": "Confict",
+      "text": "Conflict"
+    },
+    {
+      "page": 31,
+      "start": 1863,
+      "end": 1869,
+      "expectedText": "Traffc",
+      "text": "Traffic"
+    },
+    {
+      "page": 32,
+      "start": 1438,
+      "end": 1449,
+      "expectedText": "insuffcient",
+      "text": "insufficient"
+    },
+    {
+      "page": 32,
+      "start": 1569,
+      "end": 1576,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 33,
+      "start": 1447,
+      "end": 1460,
+      "expectedText": "specifcations",
+      "text": "specifications"
+    },
+    {
+      "page": 33,
+      "start": 1499,
+      "end": 1512,
+      "expectedText": "specifcations",
+      "text": "specifications"
+    },
+    {
+      "page": 33,
+      "start": 1790,
+      "end": 1800,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 33,
+      "start": 1831,
+      "end": 1839,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 33,
+      "start": 1781,
+      "end": 1787,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 34,
+      "start": 314,
+      "end": 328,
+      "expectedText": "foreignaffairs",
+      "text": "foreign-affairs"
+    },
+    {
+      "page": 34,
+      "start": 412,
+      "end": 417,
+      "expectedText": "fgure",
+      "text": "figure"
+    },
+    {
+      "page": 35,
+      "start": 1904,
+      "end": 1912,
+      "expectedText": "refected",
+      "text": "reflected"
+    },
+    {
+      "page": 35,
+      "start": 1577,
+      "end": 1585,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 35,
+      "start": 1513,
+      "end": 1520,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 35,
+      "start": 1654,
+      "end": 1661,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 35,
+      "start": 299,
+      "end": 304,
+      "expectedText": "afeld",
+      "text": "afield"
+    },
+    {
+      "page": 35,
+      "start": 310,
+      "end": 314,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 19,
+      "start": 364,
+      "end": 372,
+      "expectedText": "longterm",
+      "text": "long-term"
+    },
+    {
+      "page": 21,
+      "start": 1118,
+      "end": 1129,
+      "expectedText": "Mc-\nCulloch",
+      "text": "McCulloch"
+    },
+    {
+      "page": 22,
+      "start": 544,
+      "end": 555,
+      "expectedText": "Mc-\nCulloch",
+      "text": "McCulloch"
+    },
+    {
+      "page": 30,
+      "start": 1724,
+      "end": 1731,
+      "expectedText": "Offcers",
+      "text": "Officers"
+    },
+    {
+      "page": 19,
+      "start": 2036,
+      "end": 2043,
+      "expectedText": "and as-",
+      "text": "and as"
+    },
+    {
+      "page": 22,
+      "start": 2111,
+      "end": 2116,
+      "expectedText": "ordi-",
+      "text": "ordi"
+    },
+    {
+      "page": 29,
+      "start": 2181,
+      "end": 2187,
+      "expectedText": "Dynam-",
+      "text": "Dynam"
+    },
+    {
+      "page": 34,
+      "start": 1932,
+      "end": 1936,
+      "expectedText": "pre-",
+      "text": "pre"
+    },
+    {
+      "page": 26,
+      "start": 1426,
+      "end": 1427,
+      "expectedText": "2",
+      "text": ""
+    },
+    {
+      "page": 27,
+      "start": 422,
+      "end": 423,
+      "expectedText": "3",
+      "text": ""
+    },
+    {
+      "page": 27,
+      "start": 670,
+      "end": 671,
+      "expectedText": "4",
+      "text": ""
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "John G. Roberts, Jr.",
+      "Brett M. Kavanaugh"
+    ]
+  }
+}

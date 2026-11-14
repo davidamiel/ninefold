@@ -1,0 +1,466 @@
+{
+  "reviewed": true,
+  "documentId": "24-7435-efd873be040b--0-0",
+  "sourceDocumentId": "24-7435-efd873be040b",
+  "sourceTextPath": "dist/data/docs/24-7435-efd873be040b.json",
+  "sourceTextSha256": "7e419e8568eb431885b1c3666e1e7d31f08f085cc1c062057610d2878c5d42bd",
+  "sourcePdfPath": "scripts/cache/narration/opinion-pdfs/efd873be040b13aedcc80e23.pdf",
+  "sourcePdfSha256": "630b1ed4127318b33e6aa7af19019bd53e25e9ec86429cc1169b3bbd78d06f0a",
+  "title": "Statement",
+  "author": "Sonia Sotomayor",
+  "date": "2025-12-08",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-7435_5if6.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 2,
+    "endOffset": 1400
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 450,
+          "end": 959
+        }
+      ],
+      "citations": [
+        {
+          "start": 130,
+          "end": 157,
+          "text": "See this Court’s Rule 13.1;",
+          "type": "reference",
+          "canonical": "See this Court’s Rule 13.1"
+        },
+        {
+          "start": 158,
+          "end": 207,
+          "text": "Schacht v. United States, 398 U. S. 58, 64 (1970)",
+          "type": "case",
+          "canonical": "398 U.S. 58"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 959,
+          "end": 1732
+        }
+      ],
+      "citations": [
+        {
+          "start": 73,
+          "end": 101,
+          "text": "See 18 U. S. C. §1959(a)(1).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 1959"
+        },
+        {
+          "start": 711,
+          "end": 757,
+          "text": "App. in No. 22–4660 (CA4), p. 1579 (CA4 App.).",
+          "type": "reference",
+          "canonical": "App. in No. 22–4660 (CA4), p. 1579 (CA4 App.)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 100,
+          "end": 581
+        }
+      ],
+      "citations": [
+        {
+          "start": 133,
+          "end": 146,
+          "text": "Id., at 1493.",
+          "type": "record",
+          "canonical": "CA4 App., 1493."
+        },
+        {
+          "start": 367,
+          "end": 380,
+          "text": "Id., at 1661.",
+          "type": "record",
+          "canonical": "CA4 App., 1661."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 581,
+          "end": 1626
+        }
+      ],
+      "citations": [
+        {
+          "start": 133,
+          "end": 153,
+          "text": ", 511 U. S. 1 (1994)",
+          "type": "case",
+          "canonical": "511 U.S. 1"
+        },
+        {
+          "start": 307,
+          "end": 317,
+          "text": "Id., at 5.",
+          "type": "reference",
+          "canonical": "Id., at 5"
+        },
+        {
+          "start": 380,
+          "end": 459,
+          "text": "See, e.g., United States v. Walton, 207 F. 3d 694, 696–697 (CA4 2000) (en banc)",
+          "type": "case",
+          "canonical": "207 F.3d 694"
+        },
+        {
+          "start": 641,
+          "end": 736,
+          "text": "see also United States v. Alt, 58 F. 4th 910, 921, and n. 1 (CA7 2023) (Kirsch, J., concurring)",
+          "type": "case",
+          "canonical": "58 F.4th 910"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "[the Seventh Circuit]",
+          "to": "the Seventh Circuit"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1626,
+          "end": 2223
+        }
+      ],
+      "citations": [
+        {
+          "start": 74,
+          "end": 129,
+          "text": "See Holland v. United States, 348 U. S. 121, 140 (1954)",
+          "type": "case",
+          "canonical": "348 U.S. 121"
+        },
+        {
+          "start": 564,
+          "end": 584,
+          "text": "CA4 App., 1662–1663.",
+          "type": "reference",
+          "canonical": "CA4 App., 1662–1663"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 81,
+          "end": 648
+        }
+      ],
+      "citations": [
+        {
+          "start": 223,
+          "end": 310,
+          "text": "Victor, 511 U. S., at 26 (Ginsburg, J., concurring in part and concurring in judgment).",
+          "type": "reference",
+          "canonical": "Victor, 511 U. S., at 26 (Ginsburg, J., concurring in part and concurring in judgment)"
+        },
+        {
+          "start": 467,
+          "end": 552,
+          "text": "Ibid. (quoting Note, Defining Reasonable Doubt, 90 Colum. L. Rev. 1716, 1723 (1990)).",
+          "type": "reference",
+          "canonical": "Ibid. (quoting Note, Defining Reasonable Doubt, 90 Colum. L. Rev. 1716, 1723 (1990))"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 648,
+          "end": 1400
+        }
+      ],
+      "citations": [
+        {
+          "start": 690,
+          "end": 731,
+          "text": "In re Winship, 397 U. S. 358, 364 (1970).",
+          "type": "case",
+          "canonical": "397 U.S. 358"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "command[ing]",
+          "to": "commanding"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 749,
+      "end": 759,
+      "expectedText": "exer-\ncise",
+      "text": "exercise"
+    },
+    {
+      "page": 0,
+      "start": 873,
+      "end": 883,
+      "expectedText": "Dis-\ntrict",
+      "text": "District"
+    },
+    {
+      "page": 0,
+      "start": 932,
+      "end": 943,
+      "expectedText": "re-\nquested",
+      "text": "requested"
+    },
+    {
+      "page": 0,
+      "start": 1180,
+      "end": 1190,
+      "expectedText": "Car-\nolina",
+      "text": "Carolina"
+    },
+    {
+      "page": 0,
+      "start": 1532,
+      "end": 1542,
+      "expectedText": "ele-\nments",
+      "text": "elements"
+    },
+    {
+      "page": 0,
+      "start": 1651,
+      "end": 1662,
+      "expectedText": "Defend-\nant",
+      "text": "Defendant"
+    },
+    {
+      "page": 1,
+      "start": 214,
+      "end": 226,
+      "expectedText": "rea-\nsonable",
+      "text": "reasonable"
+    },
+    {
+      "page": 1,
+      "start": 396,
+      "end": 408,
+      "expectedText": "reason-\nable",
+      "text": "reasonable"
+    },
+    {
+      "page": 1,
+      "start": 453,
+      "end": 467,
+      "expectedText": "instruc-\ntions",
+      "text": "instructions"
+    },
+    {
+      "page": 1,
+      "start": 307,
+      "end": 311,
+      "expectedText": "th e",
+      "text": "the"
+    },
+    {
+      "page": 1,
+      "start": 236,
+      "end": 240,
+      "expectedText": "Id .",
+      "text": "Id."
+    },
+    {
+      "page": 1,
+      "start": 816,
+      "end": 826,
+      "expectedText": "defin-\ning",
+      "text": "defining"
+    },
+    {
+      "page": 1,
+      "start": 1058,
+      "end": 1075,
+      "expectedText": "well-\nestablished",
+      "text": "well-established"
+    },
+    {
+      "page": 1,
+      "start": 1424,
+      "end": 1436,
+      "expectedText": "dis-\ncretion",
+      "text": "discretion"
+    },
+    {
+      "page": 1,
+      "start": 787,
+      "end": 797,
+      "expectedText": "prohib its",
+      "text": "prohibits"
+    },
+    {
+      "page": 1,
+      "start": 1211,
+      "end": 1220,
+      "expectedText": "requi red",
+      "text": "required"
+    },
+    {
+      "page": 1,
+      "start": 2108,
+      "end": 2120,
+      "expectedText": "sug-\ngesting",
+      "text": "suggesting"
+    },
+    {
+      "page": 1,
+      "start": 2166,
+      "end": 2177,
+      "expectedText": "stand-\nards",
+      "text": "standards"
+    },
+    {
+      "page": 1,
+      "start": 1957,
+      "end": 1964,
+      "expectedText": "gi ving",
+      "text": "giving"
+    },
+    {
+      "page": 2,
+      "start": 187,
+      "end": 198,
+      "expectedText": "famil -\niar",
+      "text": "familiar"
+    },
+    {
+      "page": 2,
+      "start": 374,
+      "end": 386,
+      "expectedText": "con-\ncurring",
+      "text": "concurring"
+    },
+    {
+      "page": 2,
+      "start": 548,
+      "end": 559,
+      "expectedText": "unde-\nfined",
+      "text": "undefined"
+    },
+    {
+      "page": 2,
+      "start": 760,
+      "end": 771,
+      "expectedText": "poten-\ntial",
+      "text": "potential"
+    },
+    {
+      "page": 2,
+      "start": 823,
+      "end": 833,
+      "expectedText": "dis-\ntrict",
+      "text": "district"
+    },
+    {
+      "page": 2,
+      "start": 880,
+      "end": 892,
+      "expectedText": "individ-\nual",
+      "text": "individual"
+    },
+    {
+      "page": 2,
+      "start": 997,
+      "end": 1010,
+      "expectedText": "explana-\ntion",
+      "text": "explanation"
+    },
+    {
+      "page": 2,
+      "start": 1063,
+      "end": 1077,
+      "expectedText": "mis-\nstatement",
+      "text": "misstatement"
+    },
+    {
+      "page": 2,
+      "start": 1362,
+      "end": 1371,
+      "expectedText": "Win-\nship",
+      "text": "Winship"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 0,
+      "start": 40,
+      "end": 450,
+      "text": "1  Cite as: 607 U. S. ____ (2025) \nStatement of SOTOMAYOR, J. \nSUPREME COURT OF THE UNITED STATES \nANTONIO NATHANIEL DAVENPORT, JR. v. \nUNITED STATES \nON PETITION FOR WRIT OF CERTIORARI TO THE UNITED \nSTATES COURT OF APPEALS FOR THE FOURTH CIRCUIT \nNo. 24–7435. Decided December 8, 2025 \nThe petition for a writ of certiorari is denied. \n Statement of J USTICE SOTOMAYOR respecting the denial \nof certiorari. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    },
+    {
+      "page": 1,
+      "start": 42,
+      "end": 100,
+      "text": "2 DAVENPORT v. UNITED STATES \nStatement of SOTOMAYOR, J. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    },
+    {
+      "page": 2,
+      "start": 18,
+      "end": 81,
+      "text": "3  Cite as: 607 U. S. ____ (2025) \nStatement of SOTOMAYOR, J. \n",
+      "reason": "Caption, bare order/byline or running publication furniture"
+    }
+  ],
+  "documentInfo": {
+    "joinedBy": []
+  },
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Full original judicial writing reviewed. All substantive text and explanatory/quoted parentheticals retained; front attribution and bare order excluded, exact extraction repairs and independent source locators recorded. Meaningful statute references embedded in plea quotation remain linked and spoken."
+}
