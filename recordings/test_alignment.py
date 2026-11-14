@@ -80,6 +80,15 @@ class WordAlignment(unittest.TestCase):
         self.assertNotIn(3,timing_pairs(expected+['tariffs'],['i','epa','claims']))
         self.assertNotIn(0,timing_pairs(['eye'],['i']))
 
+    def test_four_digit_statute_readings_match_only_the_same_transcribed_number(self):
+        for value,spoken in [('2255','twenty-two fifty-five'),('2244','twenty-two forty-four'),
+                             ('2254','twenty-two fifty-four')]:
+            expected=[word for word,_,_ in tokens('section '+spoken)]
+            heard=[word for word,_,_ in tokens('section '+value)]
+            self.assertEqual(len(timing_pairs(expected,heard)),len(expected))
+        self.assertNotEqual(len(timing_pairs(['twenty','two','fifty','five'],['2254'])),4)
+        self.assertNotEqual(len(timing_pairs(['twenty','two','forty','four'],['2444'])),4)
+
     def test_accents_preserve_whole_words_and_original_source_offsets(self):
         text='Unión Cuba-Petróleo and Corporación'
         actual=tokens(text)

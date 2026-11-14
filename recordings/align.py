@@ -71,9 +71,15 @@ def three_digit_readings(value):
 
 def numeric_join_pairs(left, right):
     """Match a digit token only to an exact reading of that same number."""
-    if len(right) == 1 and left in three_digit_readings(right[0]):
+    if len(right) == 1 and left in three_digit_readings(right[0])+four_digit_readings(right[0]):
         return dict.fromkeys(range(len(left)), 0)
     return {}
+
+
+def four_digit_readings(value):
+    if not value.isdigit() or len(value) != 4 or value.startswith('0'):
+        return []
+    return [number_words(value[:2])+number_words(value[2:])]
 
 
 def timing_pairs(expected, heard):
