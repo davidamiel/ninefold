@@ -1,0 +1,208 @@
+{
+  "version": "7cdd1644d82917a2",
+  "duration": 99.63,
+  "voice": "am_michael",
+  "audioSha256": "57c0e41d97967f4fb41cdea9912c140003b172113b70fe36e4d6c8eeb743f165",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 8.64,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 939,
+          "end": 1054
+        }
+      ],
+      "text": "Applicants are manufacturers and distributors of mifepristone, a drug that is primarily designed to cause abortion."
+    },
+    {
+      "start": 8.64,
+      "end": 15.0,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1055,
+          "end": 1159
+        }
+      ],
+      "text": "They complain that the Fifth Circuit’s order would reduce profits they derive from selling mifepristone."
+    },
+    {
+      "start": 15.0,
+      "end": 22.125,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1160,
+          "end": 1265
+        }
+      ],
+      "text": "I would deny their applications because they have not satisfied their burden for securing interim relief."
+    },
+    {
+      "start": 22.125,
+      "end": 30.3,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1266,
+          "end": 1393
+        }
+      ],
+      "text": "I write separately to note that, as Louisiana argued below, it is a criminal offense to ship mifepristone for use in abortions."
+    },
+    {
+      "start": 30.3,
+      "end": 35.88,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1394,
+          "end": 1441
+        },
+        {
+          "page": 1,
+          "start": 62,
+          "end": 102
+        }
+      ],
+      "text": "The Comstock Act bans using “the mails” to ship any “drug... for producing abortion.”"
+    },
+    {
+      "start": 35.88,
+      "end": 48.62,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 122,
+          "end": 328
+        }
+      ],
+      "text": "A neighboring provision makes it a felony to use “any express company or other common carrier or interactive computer service” to ship “any drug... designed, adapted, or intended for producing abortion.”"
+    },
+    {
+      "start": 48.62,
+      "end": 58.5,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 339,
+          "end": 478
+        }
+      ],
+      "text": "Applicants “ship mifepristone... to certified pharmacies,” which, in turn, must “ship mifepristone using a shipping service” to users."
+    },
+    {
+      "start": 58.5,
+      "end": 67.62,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 733,
+          "end": 855
+        }
+      ],
+      "text": "As relevant to this case, mifepristone shipped to Louisiana, which bans abortion, causes nearly 1,000 abortions per month."
+    },
+    {
+      "start": 67.62,
+      "end": 70.905,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 856,
+          "end": 896
+        }
+      ],
+      "text": "“All of this violates the Comstock Act.”"
+    },
+    {
+      "start": 70.905,
+      "end": 78.42,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1068,
+          "end": 1185
+        }
+      ],
+      "text": "Applicants are not entitled to a stay of an adverse court order based on lost profits from their criminal enterprise."
+    },
+    {
+      "start": 78.42,
+      "end": 87.36,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1186,
+          "end": 1324
+        }
+      ],
+      "text": "They cannot, in any legally relevant sense, be irreparably harmed by a court order that makes it more difficult for them to commit crimes."
+    },
+    {
+      "start": 87.36,
+      "end": 97.03,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1325,
+          "end": 1523
+        }
+      ],
+      "text": "And, whereas it would “serve the public interest” to “reduce” applicants’ “opportunity to commit crimes,” a stay would have the opposite effect."
+    },
+    {
+      "start": 97.03,
+      "end": 99.28,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1524,
+          "end": 1547
+        }
+      ],
+      "text": "I respectfully dissent."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 48,
+      "expectedWords": 48,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 111,
+      "expectedWords": 111,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 66,
+      "expectedWords": 66,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 3,
+      "expectedWords": 3,
+      "coverage": 1.0
+    }
+  ]
+}

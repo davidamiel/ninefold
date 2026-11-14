@@ -1,0 +1,42 @@
+{
+  "version": "507fc7dce5ea1b93",
+  "duration": 39.105,
+  "voice": "am_michael",
+  "audioSha256": "271a3d40c65d35c2bac394019ac6ee37acd13a1bd3c2408b2cc457f2d46f2248",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 2.24,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 498,
+          "end": 520
+        }
+      ],
+      "text": "I would deny the stay."
+    },
+    {
+      "start": 2.24,
+      "end": 38.755,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 521,
+          "end": 1284
+        }
+      ],
+      "text": "In my view, the applicants are not likely to succeed on the merits of their argument that the Fourth Circuit lacked statutory jurisdiction. (concluding there is statutory jurisdiction on constructive-denial grounds because “an agency may not reserve to itself the power to defeat judicial review through delay or inaction”); (explaining that the Court “routinely” treats threshold requirements claimants must complete before filing a lawsuit as “nonjurisdictional” and has “yet to hold that any statutory exhaustion requirement is jurisdictional” )."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 83,
+      "expectedWords": 84,
+      "coverage": 0.9880952380952381
+    }
+  ]
+}
