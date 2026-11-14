@@ -35,6 +35,7 @@ jobs:
           node scripts/check_startup.mjs
           node scripts/check_account_sync.mjs
           node scripts/check_recorded_audio.mjs
+          python -m unittest discover -s recordings -p 'test_*.py'
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

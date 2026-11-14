@@ -15,6 +15,6 @@ python recordings/generate.py recordings/mullin.json --voice female
 python recordings/generate.py recordings/mullin.json --voice male
 ```
 
-Outputs and reusable paragraph clips go into ignored `work/recordings/`. Generation never uploads or publishes files. A recording must be aligned to its reviewed text before adding it to the published inventory; sentence positions must use the corresponding original-source maps. `node scripts/check_recorded_audio.mjs` checks inventory versions, source coordinates, cue ordering, durations, and both voice timelines.
+Reviewed jobs must stay under `recordings/`, models under `scripts/cache/narration/`, and outputs under `work/`. Outputs and reusable paragraph clips default to ignored `work/recordings/`. Generation never uploads or publishes files. A recording must be aligned to its reviewed text before adding it to the published inventory; sentence positions must use the corresponding original-source maps. `node scripts/check_recorded_audio.mjs` checks inventory versions, source coordinates, cue ordering, durations, and both voice timelines.
 
 Only documents with recordings in the published inventory show audio as available. Further cleanup and generation should proceed through OT25 opinions, then OT26 merits briefs, after review of the Mullin workflow.
