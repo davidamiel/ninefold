@@ -315,7 +315,8 @@ class Transcriber:
     def contextual_words(self, start, end):
         # A very short sentence can lose legal vocabulary when recognized alone.
         # Retain neighboring acoustics, then return only words in this paragraph.
-        return [word for word in self.words(max(0, start-12), end+12)
+        context = 45 if end-start <= 4 else 12
+        return [word for word in self.words(max(0, start-context), end+12)
                 if start <= (word['start']+word['end'])/2 < end]
 
 

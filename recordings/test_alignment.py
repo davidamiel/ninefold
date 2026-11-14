@@ -2,12 +2,29 @@
 import unittest
 import json
 import subprocess
+from pathlib import Path
+from unittest.mock import Mock
 
-from align import timing_pairs, tokens, paragraph_alignment, sentence_cue, sentence_ranges, close_cue_gaps, mapped_source_ranges, AlignmentReviewError
+from align import timing_pairs, tokens, paragraph_alignment, sentence_cue, sentence_ranges, close_cue_gaps, mapped_source_ranges, Transcriber, AlignmentReviewError
 from speech_mapping import map_speech
 
 
 class WordAlignment(unittest.TestCase):
+    def test_short_failed_clips_use_bounded_preceding_acoustics_without_script_prompt(self):
+        recognizer=Transcriber(Path('unused.mp3'))
+        before={'text':'earlier','start':97,'end':98}
+        actual={'text':'dissent','start':100.5,'end':101.5}
+        after={'text':'later','start':103,'end':104}
+        recognizer.words=Mock(return_value=[before,actual,after])
+        self.assertEqual(recognizer.contextual_words(100,102),[actual])
+        recognizer.words.assert_called_once_with(55,114)
+        recognizer.words.reset_mock()
+        recognizer.contextual_words(100,125)
+        recognizer.words.assert_called_once_with(88,137)
+        recognizer.words.reset_mock()
+        recognizer.contextual_words(3,5)
+        recognizer.words.assert_called_once_with(0,17)
+
     def test_astral_symbols_keep_sentence_text_and_source_boundaries(self):
         text='A notation 𝑥 appears. Another symbol 𝛼 follows.'
         sentences=sentence_ranges([text])[0]
