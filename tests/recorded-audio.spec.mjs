@@ -43,8 +43,9 @@ test('text seeking resumes paused audio and collapses controls without opening m
  await expect(page.getByRole('button',{name:'Audio',exact:true})).toHaveAttribute('aria-expanded','false');
  await expect(page.locator('.audio-options')).toHaveCount(0);
  await page.getByRole('button',{name:'Audio',exact:true}).click();
- expect(Number(await page.locator('.recording-seek').inputValue())).toBeGreaterThan(120);
- await expect(page.locator('.recording-status')).toHaveText('Reading');
+ const position=Number(await page.locator('.recording-seek').inputValue());expect(position).toBeGreaterThan(120);
+ await expect(page.locator('.recording-status')).toHaveText('Reading',{timeout:15000});
+ await expect.poll(async()=>Number(await page.locator('.recording-seek').inputValue()),{timeout:15000}).toBeGreaterThan(position+.2);
 });
 
 test('expanded audio stays in one toolbar row at narrow and zoomed widths',async({page})=>{
