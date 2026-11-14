@@ -200,7 +200,14 @@ test('account resume restores the saved voice and exact recording position on a 
  await expect(page.getByLabel('Document voice',{exact:true})).toHaveValue('female');
  expect(await page.evaluate(()=>mediaProbe.media[1].querySelector('source').getAttribute('src'))).toBe(recordings.female.url);
  await page.getByRole('button',{name:'Stop audio',exact:true}).click();
- await page.evaluate(({id,progress})=>accountHarness.receive({audioProgress:{['audio:document:'+id]:progress}}),{id:documentId,progress});
+ // Restart is a fresh account scenario; prior page save acknowledgements must
+ // not overwrite its seeded progress or compete with newer local timestamps.
+ await page.reload();await expect(page.locator('.prepared-paragraph').first()).toBeVisible();await expect(page.locator('body')).toHaveAttribute('data-signed-in','true');
+ await page.evaluate(({id,progress})=>{
+  accountHarness.receive({audioProgress:{['audio:document:'+id]:{...progress,savedAt:Date.now()}}});
+  const media=mediaProbe.media[1],play=media.play.bind(media);
+  media.play=()=>{window.resumeStart={time:media.currentTime,src:media.querySelector('source')?.getAttribute('src')};return play()};
+ },{id:documentId,progress});
  await page.getByRole('button',{name:'Audio',exact:true}).click();
  await page.getByRole('button',{name:'Restart document',exact:true}).click();
  await expect(page.locator('.recording-status')).toHaveText('Reading');
