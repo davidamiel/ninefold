@@ -38,17 +38,35 @@ if __name__=='__main__':
     model=local_path(args.model,ROOT/'scripts/cache/narration')
     voices=local_path(args.voices,ROOT/'scripts/cache/narration')
     output.mkdir(parents=True,exist_ok=True)
+    if 'blocks' in job:
+        from prepare import prepare
+        body,job=prepare(job)
+        local_path(output/'prepared.json',output).write_text(json.dumps(body,ensure_ascii=False,indent=2)+'\n')
+        local_path(output/'narration.json',output).write_text(json.dumps(job,ensure_ascii=False,indent=2)+'\n')
+    # Cache identity includes the actual local model and runtime, so changing
+    # either cannot silently reuse audio made by a different generator.
+    from importlib.metadata import version
+    fingerprint=hashlib.sha256(model.read_bytes()+voices.read_bytes()+version('kokoro-onnx').encode()+version('onnxruntime').encode()+b'pause:.18,.07;rate:1').hexdigest()
     import av,numpy as np,soundfile as sf
     from kokoro_onnx import Kokoro
     tts=Kokoro(str(model),str(voices));pieces=[];paragraphs=[];offset=0;rate=24000
     for index,text in enumerate(job['spokenParagraphs']):
         text=' '.join(text.split())
-        cache=local_path(output/(hashlib.sha256((voice+'|fp32|1.0|'+text).encode()).hexdigest()+'.wav'),output)
-        if cache.exists():samples,rate=sf.read(cache,dtype='float32')
-        else:
+        cache=local_path(output/(hashlib.sha256((voice+'|'+fingerprint+'|'+text).encode()).hexdigest()+'.wav'),output)
+        samples=None
+        if cache.exists():
+            try:
+                candidate,cached_rate=sf.read(cache,dtype='float32')
+                if cached_rate==24000 and candidate.ndim==1 and np.isfinite(candidate).all() and len(candidate)>=cached_rate*.1:
+                    samples,rate=candidate,cached_rate
+            except (OSError,RuntimeError,ValueError):
+                pass  # An interrupted cache file is regenerated below.
+        if samples is None:
             samples,rate=tts.create(text,voice=voice,speed=1,lang='en-us',sentence_pause=.18,clause_pause=.07)
-            if not np.isfinite(samples).all() or len(samples)<rate*.1:raise ValueError('Invalid generated audio')
-            sf.write(cache,samples,rate,subtype='FLOAT')
+            if rate!=24000 or samples.ndim!=1 or not np.isfinite(samples).all() or len(samples)<rate*.1:raise ValueError('Invalid generated audio')
+            temporary=local_path(cache.with_suffix('.tmp.wav'),output)
+            sf.write(temporary,samples,rate,subtype='FLOAT')
+            temporary.replace(cache)
         samples=samples.copy();fade=min(int(rate*.005),len(samples)//2)
         samples[:fade]*=np.linspace(0,1,fade);samples[-fade:]*=np.linspace(1,0,fade)
         paragraphs.append({'paragraph':index,'start':offset/rate,'end':(offset+len(samples))/rate,'text':text})
@@ -66,4 +84,9 @@ if __name__=='__main__':
             frame=av.AudioFrame.from_ndarray(audio[start:start+1152][None,:],format='fltp',layout='mono');frame.sample_rate=rate
             for packet in stream.encode(frame):container.mux(packet)
         for packet in stream.encode():container.mux(packet)
-    report_path.write_text(json.dumps({'voice':voice,'duration':len(audio)/rate,'sampleRate':rate,'paragraphs':paragraphs},indent=2)+'\n')
+    with av.open(str(mp3_path)) as media:
+        decoded=np.concatenate([frame.to_ndarray().reshape(-1) for frame in media.decode(audio=0)])
+    peak=float(np.abs(decoded).max());rms=float(np.sqrt(np.mean(decoded**2)))
+    if not np.isfinite(decoded).all() or peak>=1 or rms<.005 or abs(len(decoded)-len(audio))/rate>.1:
+        raise ValueError('Encoded recording failed the audio integrity check')
+    report_path.write_text(json.dumps({'voice':voice,'version':job.get('version'),'generator':fingerprint,'audioSha256':hashlib.sha256(mp3_path.read_bytes()).hexdigest(),'decodedPeak':peak,'decodedRms':rms,'duration':len(audio)/rate,'sampleRate':rate,'paragraphs':paragraphs},indent=2)+'\n')

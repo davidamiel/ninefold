@@ -559,7 +559,7 @@ async function authorityBody(entry) {
 function citationRanges(text,id,page,map,reviewed=[]) {
  if(ds(id)?.editorContent)return (docCache.get(id)?.pages[page]?.citations||[]).map(hit=>{const ref={...hit.ref,key:[id,page,hit.start,hit.ref.id].join('|'),fromDoc:id,page,offset:hit.start,passage:passageAround(text,hit.start,hit.end)};refsIndex.set(ref.key,ref);return {...hit,ref}});
   const c=contextCase(id);
-  const detected=citationsIn(text,c?.id==='24-440'||/Federal Rules? of Civil Procedure|Fed\. R\. Civ\. P/i.test(text),c?.id==='24-440',(v,r,n)=>shortCaseIn(docCache.get(id),v,r,n),preparedTextCache.get(preparedDocument(id)?.textPath)?.sectionSources);
+  const detected=preparedTextCache.get(preparedDocument(id)?.textPath)?.reviewedCitations?[]:citationsIn(text,c?.id==='24-440'||/Federal Rules? of Civil Procedure|Fed\. R\. Civ\. P/i.test(text),c?.id==='24-440',(v,r,n)=>shortCaseIn(docCache.get(id),v,r,n),preparedTextCache.get(preparedDocument(id)?.textPath)?.sectionSources);
   return [...reviewed,...detected.filter(hit=>!reviewed.some(r=>hit.start<r.end&&hit.end>r.start))].sort((a,b)=>a.start-b.start).map(hit=>{
     const key=[hit.type,id,page,map?.[hit.start]??hit.start,hit.label].join('|');
     const ref={key,label:hit.label,type:hit.type,canonical:hit.canonical,related:hit.related,fromDoc:id,caseName:hit.caseName,page,offset:map?.[hit.start]??displayMaps.get(id+':'+page)?.[hit.start]??hit.start,
@@ -1086,7 +1086,7 @@ function documentLabel(d){if(!d)return 'Document';if(d.editorTitle)return d.titl
 function readerDocumentInfo(d){
  if(!d)return '<p class="small muted">Open a document to see its information.</p>';
  const prepared=preparedDocument(d.id),c=contextCase(d.id),author=d.opinionAuthor||d.author||prepared?.author;
- const rows=[['Type',d.opinionType?'Opinion':d.type||category(d)],['Date',d.date?date(d.date):prepared?.date?date(prepared.date):''],['Author',/^per curiam$/i.test(author||'')?'Per Curiam':author],['Filed by',d.filedBy||d.partyName],['Counsel of record',d.counselOfRecord],['Signatories',d.signatories],['Source pages',d.pageCount||docCache.get(d.id)?.pages.length]];
+ const rows=[['Type',d.opinionType?'Opinion':d.type||category(d)],['Date',d.date?date(d.date):prepared?.date?date(prepared.date):''],['Author',/^per curiam$/i.test(author||'')?'Per Curiam':author],['Filed by',d.filedBy||d.partyName],['Counsel of record',d.counselOfRecord||prepared?.counselOfRecord],['Signatories',d.signatories],['Source pages',d.pageCount||docCache.get(d.id)?.pages.length]];
  const value=v=>Array.isArray(v)?v.map(x=>typeof x==='string'?x:x.name).filter(Boolean).join(', '):typeof v==='object'?v?.name||'':v;
  const source=d.sourceUrl||prepared?.sourceUrl;
  return `<div class="document-information"><h2>${esc(documentLabel(d))}</h2>${c?`<p class="document-info-case">${esc(c.name)}</p>`:''}<div class="document-audio-status">${audioAvailability(d)}<span>${audioAvailable(d)?documentRecording(d.id)?'Audio · Female and Male':'Oral argument recording':'Audio unavailable'}</span></div><dl>${rows.filter(([,v])=>value(v)).map(([label,v])=>`<dt>${esc(label)}</dt><dd>${esc(value(v))}</dd>`).join('')}</dl>${documentRecording(d.id)?`<div class="document-info-audio">${button(icon('play')+'Listen','document-listen',d.id,'outline')}</div>`:''}<div class="document-info-links">${source?external(source,/\.pdf(?:$|[?#])/i.test(source)?'Original PDF':'Official source').replace('class="external"','class="external" data-open-original'):''}${embeddedPDF(d)&&!source?button(isPDF(d.id)?'Reading view':'View PDF','pdf-toggle',d.id,'listbutton'):''}</div></div>`;
@@ -1094,11 +1094,14 @@ function readerDocumentInfo(d){
 function preparedDocumentHTML(id,data){
  const prepared=preparedDocument(id),d=ds(id),body=preparedTextCache.get(prepared.textPath);
  if(!body)return '<div class="loading">Opening document…</div>';
- const paragraphs=body.paragraphs.map((paragraph,index)=>`<p class="prepared-paragraph">${paragraph.segments.map((part,segment)=>{
+ const paragraphs=body.paragraphs.map((paragraph,index)=>{const content=paragraph.segments.map((part,segment)=>{
   const key=id+':prepared:'+index+':'+segment;displayMaps.set(key,part.map);
   return `<span class="source-page" data-page="${part.page}"><span class="page-text" data-text-doc="${esc(id)}" data-page="${part.page}" data-map-key="${key}">${renderText(part.text,id,part.page,part.map,key,part.citations)}</span></span>`;
- }).join('')}</p>`).join('');
- return `<article class="document-body prepared-document ${state.marginNotes?'show-margin-notes':''}" data-document="${esc(id)}"><header class="document-title"><h1>${esc(documentLabel(d))}</h1><p>${esc(prepared.author)}</p></header>${paragraphs}<aside class="document-margin" aria-label="Notes and references"></aside></article>`;
+ }).join('');
+ if(paragraph.kind==='heading')return `<h2 class="prepared-section-heading">${content}</h2>`;
+ const text=`<p class="prepared-paragraph">${content}</p>`;
+ return paragraph.kind==='footnote'?`<aside class="prepared-footnote" aria-label="Footnote ${esc(paragraph.label)}"><h3>Footnote ${esc(paragraph.label)}</h3>${text}</aside>`:text;}).join('');
+ return `<article class="document-body prepared-document ${state.marginNotes?'show-margin-notes':''}" data-document="${esc(id)}"><header class="document-title"><h1>${esc(prepared.title||documentLabel(d))}</h1><p>${esc(prepared.author)}</p></header>${paragraphs}<aside class="document-margin" aria-label="Notes and references"></aside></article>`;
 }
 
 function readerCaseInfo(c) {
@@ -1155,7 +1158,7 @@ function sidebarContent(){const d=ds(state.active),c=contextCase(d?.id);
  if(state.tool==='contents'){const data=docCache.get(state.pdfDocs?.includes(d?.id)&&d?.pdfSourceId?d.pdfSourceId:d?.id);if(!data)return '<p class="small muted">Open a document to see its contents.</p>';if(!d.readerContent&&category(d)==='Argument'&&!d.timedSession&&!state.pdfDocs?.includes(d.id))return '<p class="small muted">Speaker conversation · Synchronized timing is not yet available for this recording.</p>';if(!d.readerContent&&d.timedSession&&!state.pdfDocs?.includes(d.id))return `<div class="conversation-contents">${d.timedSession.turns.filter((t,i)=>i===0||t.section!==d.timedSession.turns[i-1].section).map(t=>button(`<span>${time(t.start)}</span>${esc((t.section===0?'Argument · ':'')+t.speaker)}`,'transcript-seek',d.id+'|'+t.start,'listbutton')).join('')}</div>`;const headings=d.readerContent&&!state.pdfDocs?.includes(d.id)?readerOutline(d.readerContent):contentsFor(d,data),pdf=state.pdfDocs?.includes(d.id),count=d.sourceRange?d.sourceRange.endPage+(d.sourceRange.endOffset?1:0):data.pages.length;return `${pdf&&!nativePDF(d.id)?`<div class="document-navigation"><label>Page <input type="number" data-page-input="${esc(d.id)}" min="${(d.sourceRange?.startPage||0)+1}" max="${count}" value="${Number(state.positions[d.id+':pdf']?.page??d.sourceRange?.startPage??0)+1}" aria-label="Go to page"></label><span>of ${count}</span></div>`:''}<nav class="contents-outline" aria-label="Document sections">${headings.length?headings.map(h=>button(`<span class="contents-label">${esc(h.label||h.text)}</span>${h.excerpt?`<span class="contents-excerpt">${esc(h.excerpt)}</span>`:''}`,h.index===undefined?'heading-jump':'edited-heading',h.index===undefined?d.id+'|'+h.page+'|'+h.offset:String(h.index),'contents-entry '+(h.level?'subheading':'')+(h.level>1?' deeper':''))).join(''):'<p class="small muted">This document has no section headings.</p>'}</nav>`}
  if(state.tool==='notes'){const ns=state.notes.filter(n=>noteBelongsToDocument(n,state.active)&&meaningfulNote(n));return `<div class="notes-toolbar">${button(icon('download'),'export','','',`aria-label="Export notes" title="Export notes"`)}</div>${ns.slice().reverse().map(n=>noteCard(n)).join('')||'<p class="small muted">Select text to highlight it or add a comment.</p>'}`}
  if(state.tool==='refs')return referencesSidebar();return ''}
-function contentsFor(d,data){if(preparedDocument(d.id))return []; const structure=structureFor(d.id,data),range=d.sourceRange;return structure.headings.filter(h=>!range||(h.page>range.startPage||h.page===range.startPage&&h.start>=range.startOffset)&&(h.page<range.endPage||h.page===range.endPage&&h.start<range.endOffset)).filter(h=>!/^(?:table of (?:contents|authorities)|contents|authorities)$/i.test(h.text)).map(h=>({text:h.text,label:h.text,page:h.page,offset:h.start,level:h.level||0}))}
+function contentsFor(d,data){if(preparedDocument(d.id))return (preparedTextCache.get(preparedDocument(d.id).textPath)?.paragraphs||[]).filter(p=>p.kind==='heading').map(p=>({text:p.text,label:p.text,page:p.segments[0].page,offset:p.segments[0].map[0],level:0})); const structure=structureFor(d.id,data),range=d.sourceRange;return structure.headings.filter(h=>!range||(h.page>range.startPage||h.page===range.startPage&&h.start>=range.startOffset)&&(h.page<range.endPage||h.page===range.endPage&&h.start<range.endOffset)).filter(h=>!/^(?:table of (?:contents|authorities)|contents|authorities)$/i.test(h.text)).map(h=>({text:h.text,label:h.text,page:h.page,offset:h.start,level:h.level||0}))}
 function clearSelection(){selection=null;selectionRange=null;overlays.querySelector('.selection-tools')?.remove()}
 function clearTransient(){overlays.querySelector('.global-search-dialog[open]')?.close();clearPeek();closeReaderMenu();clearSelection()}
 function positionSelection(){const t=overlays.querySelector('.selection-tools');if(!t||!selectionRange)return;const anchor=selectionRange.startContainer.parentElement,scroll=anchor?.closest('.doc-scroll');if(!scroll?.isConnected){t.hidden=true;return}const bounds=scroll.getBoundingClientRect(),rects=[...selectionRange.getClientRects()],r=rects.find(x=>x.bottom>bounds.top+2&&x.top<bounds.bottom-4);t.hidden=!r;if(!r)return;t.style.left=Math.max(bounds.left+8,Math.min(r.left,Math.min(bounds.right,innerWidth)-t.offsetWidth-8))+'px';t.style.top=Math.max(bounds.top+5,Math.min(r.top-t.offsetHeight-8,bounds.bottom-t.offsetHeight-5))+'px'}
@@ -1366,7 +1369,13 @@ document.addEventListener('change',async event=>{
 });
 
 function textRange(el,start,end){const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),r=document.createRange();let n,at=0,begun=false;while(n=w.nextNode()){const next=at+n.length;if(!begun&&start<=next){r.setStart(n,Math.max(0,start-at));begun=true}if(begun&&end<=next){r.setEnd(n,Math.max(0,end-at));return r}at=next}return null}
-function jumpHeading(id,page,offset){if(state.pdfDocs?.includes(id)){jumpPage(id,page);return}const el=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"] .page-text[data-page="${page}"]`);if(!el)return;const pos=lowerBound(displayMaps.get(id+':'+page)||[],offset),r=textRange(el,pos,pos+1),scroll=el.closest('.doc-scroll');if(r)scroll.scrollBy({top:r.getBoundingClientRect().top-scroll.getBoundingClientRect().top-30,behavior:'smooth'})}
+function jumpHeading(id,page,offset){
+ if(state.pdfDocs?.includes(id)){jumpPage(id,page);return}
+ const spans=[...app.querySelectorAll(`.doc-scroll[data-doc="${CSS.escape(id)}"] .page-text[data-page="${page}"]`)];
+ const el=spans.find(span=>{const map=displayMaps.get(span.dataset.mapKey||id+':'+page);return map?.length&&map[0]<=offset&&map.at(-1)>=offset})||spans[0];
+ if(!el)return;const map=displayMaps.get(el.dataset.mapKey||id+':'+page)||[],pos=lowerBound(map,offset),r=textRange(el,pos,pos+1),scroll=el.closest('.doc-scroll');
+ if(r)scroll.scrollBy({top:r.getBoundingClientRect().top-scroll.getBoundingClientRect().top-30,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})
+}
 
 async function loadSourcePDF(url) {
   await loadPDFLibrary();
@@ -1762,6 +1771,7 @@ function numberedReading(text,map,citations){
  let value='',out=[],at=0,hits=[];map=map||Array.from({length:text.length},(_,i)=>i);
  for(const hit of citations.slice().sort((a,b)=>a.start-b.start)){
   if(hit.start<at)continue;
+  if(hit.keepInline){value+=text.slice(at,hit.start);out.push(...map.slice(at,hit.start));const start=value.length;value+=text.slice(hit.start,hit.end);out.push(...map.slice(hit.start,hit.end));hits.push({...hit,start,end:value.length});at=hit.end;continue}
   const prefix=text.slice(0,hit.start);let end=hit.end;
   // A stand-alone citation's punctuation must not add a second sentence stop,
   // or a second comma around a locator inserted into the prose.
