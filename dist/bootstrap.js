@@ -45,3 +45,9 @@ window.addEventListener('ninefold:failed', showFailure);
 requestAnimationFrame(() => requestAnimationFrame(() => {
   import('./app.js').catch(showFailure);
 }));
+
+// Stream content directly; this app does not register an offline worker.
+if('serviceWorker'in navigator)void navigator.serviceWorker.getRegistrations().then(registrations=>{
+ const scope=new URL('./',import.meta.url).href;
+ for(const registration of registrations)if(registration.scope===scope)void registration.unregister();
+}).catch(()=>{});

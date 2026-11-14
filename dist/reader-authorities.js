@@ -1,6 +1,6 @@
 // Match the reporter's first page separately from pinpoint pages. Section suffixes
 // identify distinct statutes (e.g. 2000e and 2000e-2); subsections share a source.
-export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
+export function citationsIn(text, civilRules, delawareAffidavit, shortCase, sectionSources={}) {
   const found=[];
   function add(pattern,type,identify) {
     for (const match of text.matchAll(pattern)) {
@@ -40,7 +40,8 @@ export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
   add(/\b(\d+)\s+F\.\s*App['’]x\s+(\d+)(?![\dA-Za-z])(?:,\s*\d+(?:[–-]\d+)?(?!\d|\s+(?:F\.|U\.?\s*S\.?|S\.\s*Ct\.|L\.\s*Ed\.)))?/g,'case',m=>m[1]+" F. App'x "+m[2]);
   add(/\b(\d+)\s+S\.\s*Ct\.\s*(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/g,'case',m=>m[1]+' S. Ct. '+m[2]);
   add(/\b(\d+)\s+L\.\s*Ed\.\s*(?:(2d)\s+)?(\d+)(?:,\s*\d+(?:[–-]\d+)?)?/g,'case',m=>m[1]+' L. Ed.'+(m[2]?' '+m[2]:'')+' '+m[3]);
-  add(/\b(\d+)\s+Stat\.\s*(\d+)(?:[–-]\d+)?/g,'statute',m=>m[1]+' Stat. '+m[2]);
+  add(/\b(\d+)\s+Stat\.\s*(\d+(?:[–-]\d+)?)/g,'statute',m=>m[1]+' Stat. '+m[2]);
+  add(/\b(\d+)\s+Fed\.\s*Reg\.\s*(\d+)(?:\s*\((?:19|20)\d{2}\))?/g,'regulation',m=>m[1]+' Fed. Reg. '+m[2]);
   add(/\b(\d+)\s+C\.\s*F\.\s*R\.\s*(?:§{1,2}\s*)?(\d+(?:\.\d+)?)(?:\([a-zA-Z0-9]+\))*/g,'statute',m=>m[1]+' C.F.R. § '+m[2]);
   if (shortCase) {
     add(/\b(\d+)\s+(U\.?\s*S\.?|F\s*\.\s*(?:2d|3d|4th|Supp\.?(?:\s*(?:2d|3d))?)),?\s+at\s+\d+(?:[–-]\d+)?/gi,'case',
@@ -79,6 +80,15 @@ export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
     return m[0].replace(/\s+/g,' ');
   });
   add(/\b(?:CA\s*\d{1,2}\s*[-–]?\s*)?(?:ECF|Dkt\.?|Docket)\s*(?:No\.?\s*)?\d+(?:[-–]\d+)?(?:\s*,?\s*(?:at|p{1,2}\.)\s*\d+(?:[-–]\d+)?)?/gi,'record',m=>m[0].replace(/\s+/g,' '));
+  add(/§{1,2}\s*(\d+[a-zA-Z]*(?:[-–]\d+[a-zA-Z]*)*)(?:\([a-zA-Z0-9]+\))*/g,'statute',m=>{const locator=m[0].replace(/^§+\s*/,'');const key=Object.keys(sectionSources).sort((a,b)=>b.length-a.length).find(k=>locator===k||locator.startsWith(k+'('));return sectionSources[key]||m[0].replace(/\s+/g,' ')});
+  for(const match of text.matchAll(/\b(?:[Ii]d\.|[Ii]bid\.)(?:,?\s+at\s+(\d+(?:[–-]\d+)?))?/g)){
+    const start=match.index,end=start+match[0].length;
+    if(found.some(r=>start<r.end&&end>r.start))continue;
+    const previous=found.filter(r=>r.end<=start).sort((a,b)=>b.end-a.end)[0];
+    if(!previous)continue;
+    const register=/^(\d+) Fed\. Reg\. \d+$/.exec(previous.canonical);
+    found.push({start,end,label:match[0],type:previous.type,canonical:register&&match[1]?register[1]+' Fed. Reg. '+match[1]:previous.canonical});
+  }
   for(const hit of found.filter(x=>x.type==='case')){
     // Extraction can split a pinpoint digit immediately before a year or
     // footnote. Include that digit in the source span without rewriting text.
@@ -91,7 +101,17 @@ export function citationsIn(text, civilRules, delawareAffidavit, shortCase) {
     const name=caseNameBefore(prefix) || (/\bat\s+\d/.test(hit.label)?shortNameBefore(prefix):null);
     if(name){const start=hit.start-name.trailing.length;if(!found.some(x=>x!==hit&&start<x.end&&hit.end>x.start)){hit.start=start;hit.caseName=name.name;hit.label=text.slice(start,hit.end)}}
   }
-  return found.sort((a,b)=>a.start-b.start);
+  const combined=[];
+  for(const hit of found.sort((a,b)=>a.start-b.start)){
+    const previous=combined.at(-1),gap=previous?text.slice(previous.end,hit.start):'';
+    const publication=previous&&/^§/.test(previous.label)&&/^\s*,\s*$/.test(gap)&&/^\d+ Stat\./.test(hit.canonical);
+    const codification=previous&&/^§/.test(previous.label)&&/^\s*,\s*as amended,\s*note following\s*$/i.test(gap)&&/U\.S\.C\./.test(hit.canonical);
+    if(publication||codification){
+      previous.end=hit.end;previous.label=text.slice(previous.start,previous.end);
+      if(publication)previous.canonical=hit.canonical;
+    }else combined.push(hit);
+  }
+  return combined;
 }
 
 export function passageAround(text,start,end) {
