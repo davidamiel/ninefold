@@ -1,0 +1,1998 @@
+{
+  "reviewed": true,
+  "documentId": "24-351-9c008649d2d5--dissent",
+  "sourceDocumentId": "24-351-9c008649d2d5--dissent",
+  "sourceTextPath": "dist/data/docs/24-351-9c008649d2d5--dissent.json",
+  "sourceTextSha256": "429d6dd778ef1a56a38af9c019a7b32beaf60df727bb2b40e67635f08d45cff7",
+  "sourcePdfPath": "dist/data/pdfs/24-351-9c008649d2d5--dissent.pdf",
+  "sourcePdfSha256": "a4cec38be0d168801c6376ae7b44998f9c524af8d241aca6ed5444790d5e5359",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2026-02-24",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/24-351_7648.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 0,
+    "endPage": 14,
+    "endOffset": 898
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 0,
+          "end": 449
+        }
+      ],
+      "citations": [
+        {
+          "start": 409,
+          "end": 449,
+          "text": "652 F. Supp. 3d 721, 725 (ND Tex. 2023).",
+          "type": "case",
+          "canonical": "652 F.Supp.3d 721"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "own[ed]",
+          "to": "owned"
+        },
+        {
+          "from": "lease[d]",
+          "to": "leased"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 451,
+          "end": 1305
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 1,
+          "start": 0,
+          "end": 3
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 3,
+          "end": 623
+        }
+      ],
+      "citations": [
+        {
+          "start": 114,
+          "end": 164,
+          "text": "Levin v. United States, 568 U. S. 503, 506 (2013).",
+          "type": "case",
+          "canonical": "568 U.S. 503"
+        },
+        {
+          "start": 196,
+          "end": 250,
+          "text": ", Millbrook v. United States, 569 U. S. 50, 52 (2013),",
+          "type": "case",
+          "canonical": "569 U.S. 50"
+        },
+        {
+          "start": 494,
+          "end": 518,
+          "text": "28 U. S. C. §1346(b)(1);",
+          "type": "statute",
+          "canonical": "28 U.S.C. §1346(b)(1)"
+        },
+        {
+          "start": 519,
+          "end": 523,
+          "text": "see ",
+          "type": "case",
+          "canonical": "340 U.S. 543"
+        },
+        {
+          "start": 523,
+          "end": 554,
+          "text": "United States v. Yellow Cab Co.",
+          "type": "case",
+          "canonical": "340 U.S. 543",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 554,
+          "end": 581,
+          "text": ", 340 U. S. 543, 547 (1951)",
+          "type": "case",
+          "canonical": "340 U.S. 543"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "United States v. Yellow Cab Co.",
+          "to": "United States versus Yellow Cab Co."
+        },
+        {
+          "from": "omission,”",
+          "to": "omission.”"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 625,
+          "end": 1160
+        }
+      ],
+      "citations": [
+        {
+          "start": 107,
+          "end": 116,
+          "text": "See §2680",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 263,
+          "end": 314,
+          "text": "Molzof v. United States, 502 U. S. 301, 311 (1992).",
+          "type": "case",
+          "canonical": "502 U.S. 301"
+        },
+        {
+          "start": 530,
+          "end": 535,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "502 U.S. 301"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "See §2680",
+          "to": "Section 2680"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1162,
+          "end": 1950
+        }
+      ],
+      "citations": [
+        {
+          "start": 294,
+          "end": 344,
+          "text": "Dolan v. Postal Service, 546 U. S. 481, 492 (2006)",
+          "type": "case",
+          "canonical": "546 U.S. 481"
+        },
+        {
+          "start": 345,
+          "end": 410,
+          "text": "(quoting Kosak v. United States, 465 U. S. 848, 853, n. 9 (1984);",
+          "type": "case",
+          "canonical": "465 U.S. 848"
+        },
+        {
+          "start": 411,
+          "end": 442,
+          "text": "Yellow Cab, 340 U. S., at 547).",
+          "type": "case",
+          "canonical": "340 U.S. 543"
+        },
+        {
+          "start": 678,
+          "end": 702,
+          "text": "Dolan, 546 U. S., at 492",
+          "type": "case",
+          "canonical": "546 U.S. 481"
+        },
+        {
+          "start": 703,
+          "end": 788,
+          "text": "(quoting Kosak, 465 U. S., at 853–854, n. 9 (some internal quotation marks omitted)).",
+          "type": "case",
+          "canonical": "465 U.S. 848"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[U]nduly",
+          "to": "Unduly"
+        },
+        {
+          "from": "waiv[e]",
+          "to": "waive"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 0,
+          "end": 650
+        }
+      ],
+      "citations": [
+        {
+          "start": 184,
+          "end": 193,
+          "text": "§2680(b).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(b)"
+        },
+        {
+          "start": 417,
+          "end": 426,
+          "text": "§2680(i).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(i)"
+        },
+        {
+          "start": 635,
+          "end": 655,
+          "text": "§§2680(l), (m), (n).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §§2680(l),(m),(n)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]ny",
+          "to": "any"
+        },
+        {
+          "from": "claim[s]",
+          "to": "claims"
+        },
+        {
+          "from": "cooperatives,”",
+          "to": "cooperatives.”"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 652,
+          "end": 1453
+        }
+      ],
+      "citations": [
+        {
+          "start": 467,
+          "end": 492,
+          "text": "Kosak, 465 U. S., at 855.",
+          "type": "case",
+          "canonical": "465 U.S. 848"
+        },
+        {
+          "start": 796,
+          "end": 801,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "465 U.S. 848"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "assum[e]",
+          "to": "assume"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1455,
+          "end": 1976
+        },
+        {
+          "page": 3,
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "citations": [
+        {
+          "start": 197,
+          "end": 202,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "465 U.S. 848"
+        },
+        {
+          "start": 347,
+          "end": 365,
+          "text": "546 U. S., at 483.",
+          "type": "case",
+          "canonical": "546 U.S. 481"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 105,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 109,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 112,
+          "end": 809
+        }
+      ],
+      "citations": [
+        {
+          "start": 197,
+          "end": 206,
+          "text": "§2680(b).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(b)"
+        },
+        {
+          "start": 362,
+          "end": 380,
+          "text": "465 U. S., at 855.",
+          "type": "case",
+          "canonical": "465 U.S. 848"
+        },
+        {
+          "start": 496,
+          "end": 514,
+          "text": "Ante, at 2, 5, 10.",
+          "type": "reference",
+          "canonical": "Court opinion, pp.2,5,10"
+        },
+        {
+          "start": 679,
+          "end": 697,
+          "text": "546 U. S., at 490.",
+          "type": "case",
+          "canonical": "546 U.S. 481"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "harm[s]",
+          "to": "harms"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 811,
+          "end": 1821
+        }
+      ],
+      "citations": [
+        {
+          "start": 299,
+          "end": 308,
+          "text": "§§2680(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 331,
+          "end": 334,
+          "text": "(e)",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(e)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 350,
+          "end": 368,
+          "text": "§§1–31 of Title 50",
+          "type": "statute",
+          "canonical": "50 U.S.C. §§1-31",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 524,
+          "end": 533,
+          "text": "§2680(h).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(h)"
+        },
+        {
+          "start": 618,
+          "end": 643,
+          "text": "§§2680(j), (l), (m), (n).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §§2680(j),(l),(m),(n)"
+        },
+        {
+          "start": 782,
+          "end": 791,
+          "text": "§2680(c),",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(c)"
+        },
+        {
+          "start": 843,
+          "end": 853,
+          "text": "§2680(f ),",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(f)"
+        },
+        {
+          "start": 899,
+          "end": 908,
+          "text": "§2680(i).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(i)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§1–31 of Title 50",
+          "to": "Sections 1 through 31 of Title 50"
+        },
+        {
+          "from": "act[s]",
+          "to": "acts"
+        },
+        {
+          "from": "omission[s]",
+          "to": "omissions"
+        },
+        {
+          "from": "§§2680(a)",
+          "to": "Sections 2680, a"
+        },
+        {
+          "from": "(e)",
+          "to": "Section 2680, e"
+        },
+        {
+          "from": "Treasury,”",
+          "to": "Treasury.”"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 0,
+          "end": 285
+        }
+      ],
+      "citations": [
+        {
+          "start": 126,
+          "end": 150,
+          "text": "Dolan, 546 U. S., at 492",
+          "type": "case",
+          "canonical": "546 U.S. 481"
+        },
+        {
+          "start": 151,
+          "end": 192,
+          "text": "(quoting Kosak, 465 U. S., at 854, n. 9).",
+          "type": "case",
+          "canonical": "465 U.S. 848"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 287,
+          "end": 559
+        }
+      ],
+      "citations": [
+        {
+          "start": 157,
+          "end": 182,
+          "text": "Dolan, 546 U. S., at 486.",
+          "type": "case",
+          "canonical": "546 U.S. 481"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 561,
+          "end": 1128
+        }
+      ],
+      "citations": [
+        {
+          "start": 453,
+          "end": 465,
+          "text": "Ante, at 12.",
+          "type": "reference",
+          "canonical": "Court opinion, p.12"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1752,
+          "end": 1946
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 175,
+          "end": 194,
+          "text": "See infra, at 6–12.",
+          "type": "reference",
+          "canonical": "This dissent, pp.6-12"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1130,
+          "end": 1741
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 0,
+          "end": 1192
+        }
+      ],
+      "citations": [
+        {
+          "start": 212,
+          "end": 244,
+          "text": "Brief for Petitioners 3, 17, 35.",
+          "type": "record",
+          "canonical": "Petitioners brief, pp.3,17,35"
+        },
+        {
+          "start": 682,
+          "end": 693,
+          "text": "Ante, at 6.",
+          "type": "reference",
+          "canonical": "Court opinion, p.6"
+        },
+        {
+          "start": 832,
+          "end": 843,
+          "text": "Ante, at 8.",
+          "type": "reference",
+          "canonical": "Court opinion, p.8"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "fail[s]",
+          "to": "fails"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1194,
+          "end": 1357
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1359,
+          "end": 1956
+        },
+        {
+          "page": 6,
+          "start": 0,
+          "end": 316
+        }
+      ],
+      "citations": [
+        {
+          "start": 152,
+          "end": 170,
+          "text": "Pet. for Cert. 14;",
+          "type": "record",
+          "canonical": "Certiorari petition, p.14"
+        },
+        {
+          "start": 171,
+          "end": 180,
+          "text": "see also ",
+          "type": "reference",
+          "canonical": "Webster’s New International Dictionary, p.1460 (2d ed.1934)"
+        },
+        {
+          "start": 180,
+          "end": 218,
+          "text": "Webster’s New International Dictionary",
+          "type": "reference",
+          "canonical": "Webster’s New International Dictionary, p.1460 (2d ed.1934)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 218,
+          "end": 237,
+          "text": " 1460 (2d ed. 1934)",
+          "type": "reference",
+          "canonical": "Webster’s New International Dictionary, p.1460 (2d ed.1934)"
+        },
+        {
+          "start": 449,
+          "end": 475,
+          "text": "96 F. 4th 799, 802 (2024).",
+          "type": "case",
+          "canonical": "96 F.4th 799"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]ct",
+          "to": "act"
+        },
+        {
+          "from": "esp[ecially]",
+          "to": "especially"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 318,
+          "end": 1619
+        }
+      ],
+      "citations": [
+        {
+          "start": 196,
+          "end": 207,
+          "text": "Ante, at 8.",
+          "type": "reference",
+          "canonical": "Court opinion, p.8"
+        },
+        {
+          "start": 451,
+          "end": 463,
+          "text": "Ante, at 10.",
+          "type": "reference",
+          "canonical": "Court opinion, p.10"
+        },
+        {
+          "start": 1160,
+          "end": 1178,
+          "text": "See supra, at 4–5.",
+          "type": "reference",
+          "canonical": "This dissent, pp.4-5"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1631,
+          "end": 2102
+        }
+      ],
+      "label": "2",
+      "citations": [
+        {
+          "start": 160,
+          "end": 204,
+          "text": "Brief for Petitioners 41 (emphasis deleted);",
+          "type": "record",
+          "canonical": "Petitioners brief, p.41"
+        },
+        {
+          "start": 205,
+          "end": 232,
+          "text": "Tr. of Oral Arg. 21 (same).",
+          "type": "record",
+          "canonical": "Oral argument transcript, p.21"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "miscarr[ied]",
+          "to": "miscarried"
+        },
+        {
+          "from": "los[t]",
+          "to": "lost"
+        },
+        {
+          "from": "of )",
+          "to": "of)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 0,
+          "end": 538
+        }
+      ],
+      "citations": [
+        {
+          "start": 246,
+          "end": 258,
+          "text": "Ante, at 10.",
+          "type": "reference",
+          "canonical": "Court opinion, p.10"
+        },
+        {
+          "start": 328,
+          "end": 391,
+          "text": "Utility Air Regulatory Group v. EPA, 573 U. S. 302, 320 (2014),",
+          "type": "case",
+          "canonical": "573 U.S. 302"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 540,
+          "end": 1675
+        }
+      ],
+      "citations": [
+        {
+          "start": 350,
+          "end": 362,
+          "text": "§1346(b)(1).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §1346(b)(1)"
+        },
+        {
+          "start": 469,
+          "end": 474,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "28 U.S.C. §1346(b)(1)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "plaintiff ’s",
+          "to": "plaintiff’s"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1677,
+          "end": 1857
+        },
+        {
+          "page": 8,
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "citations": [
+        {
+          "start": 165,
+          "end": 176,
+          "text": "ante, at 6,",
+          "type": "reference",
+          "canonical": "Court opinion, p.6"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "fai[l]",
+          "to": "fail"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 103,
+          "end": 912
+        }
+      ],
+      "citations": [
+        {
+          "start": 86,
+          "end": 97,
+          "text": "Ante, at 7.",
+          "type": "reference",
+          "canonical": "Court opinion, p.7"
+        },
+        {
+          "start": 261,
+          "end": 344,
+          "text": "See, e.g., Heinrich v. First Nat. Bank, 219 N. Y. 1, 113 N. E. 531, 531–532 (1916);",
+          "type": "case",
+          "canonical": "219 N.Y. 1"
+        },
+        {
+          "start": 345,
+          "end": 417,
+          "text": "Elam v. St. Louis & S. F. R. Co., 117 Mo. App. 453, 93 S. W. 851 (1906);",
+          "type": "case",
+          "canonical": "117 Mo.App.453"
+        },
+        {
+          "start": 418,
+          "end": 434,
+          "text": "see n. 3, infra.",
+          "type": "reference",
+          "canonical": "This dissent, note3"
+        },
+        {
+          "start": 685,
+          "end": 696,
+          "text": "Ante, at 6.",
+          "type": "reference",
+          "canonical": "Court opinion, p.6"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 914,
+          "end": 1425
+        }
+      ],
+      "citations": [
+        {
+          "start": 65,
+          "end": 78,
+          "text": "Ante, at 6–7.",
+          "type": "reference",
+          "canonical": "Court opinion, pp.6-7"
+        },
+        {
+          "start": 487,
+          "end": 511,
+          "text": "Brief for Respondent 23.",
+          "type": "record",
+          "canonical": "Respondent brief, p.23"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1427,
+          "end": 1728
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1785,
+          "end": 2141
+        },
+        {
+          "page": 9,
+          "start": 1314,
+          "end": 2327
+        }
+      ],
+      "label": "3",
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 28,
+          "text": "See Reply Brief 8–10 (citing",
+          "type": "record",
+          "canonical": "Petitioners reply brief, pp.8-10"
+        },
+        {
+          "start": 29,
+          "end": 44,
+          "text": "Bowen v. Wilson",
+          "type": "case",
+          "canonical": "15 F.2d 733",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 44,
+          "end": 73,
+          "text": ", 15 F. 2d 733, 734 (DC 1926)",
+          "type": "case",
+          "canonical": "15 F.2d 733"
+        },
+        {
+          "start": 171,
+          "end": 173,
+          "text": "; ",
+          "type": "case",
+          "canonical": "219 N.Y. 1"
+        },
+        {
+          "start": 173,
+          "end": 200,
+          "text": "Heinrich v. First Nat. Bank",
+          "type": "case",
+          "canonical": "219 N.Y. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 200,
+          "end": 244,
+          "text": ", 219 N. Y. 1, 113 N. E. 531, 531–532 (1916)",
+          "type": "case",
+          "canonical": "219 N.Y. 1"
+        },
+        {
+          "start": 364,
+          "end": 366,
+          "text": "; ",
+          "type": "case",
+          "canonical": "81 Ark. 1"
+        },
+        {
+          "start": 366,
+          "end": 394,
+          "text": "Southern Express Co. v. Hill",
+          "type": "case",
+          "canonical": "81 Ark. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 394,
+          "end": 435,
+          "text": ", 81 Ark. 1, 98 S. W. 371, 372–373 (1906)",
+          "type": "case",
+          "canonical": "81 Ark. 1"
+        },
+        {
+          "start": 506,
+          "end": 508,
+          "text": "; ",
+          "type": "case",
+          "canonical": "117 Mo.App.453"
+        },
+        {
+          "start": 508,
+          "end": 540,
+          "text": "Elam v. St. Louis & S. F. R. Co.",
+          "type": "case",
+          "canonical": "117 Mo.App.453",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 540,
+          "end": 579,
+          "text": ", 117 Mo. App. 453, 93 S. W. 851 (1906)",
+          "type": "case",
+          "canonical": "117 Mo.App.453"
+        },
+        {
+          "start": 641,
+          "end": 643,
+          "text": "; ",
+          "type": "case",
+          "canonical": "40 Neb. 1"
+        },
+        {
+          "start": 643,
+          "end": 678,
+          "text": "Western Home Ins. Co. v. Richardson",
+          "type": "case",
+          "canonical": "40 Neb. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 678,
+          "end": 715,
+          "text": ", 40 Neb. 1, 58 N. W. 597, 598 (1894)",
+          "type": "case",
+          "canonical": "40 Neb. 1"
+        },
+        {
+          "start": 731,
+          "end": 733,
+          "text": "; ",
+          "type": "case",
+          "canonical": "14 Pa. 168"
+        },
+        {
+          "start": 733,
+          "end": 752,
+          "text": "Fosters v. McKibben",
+          "type": "case",
+          "canonical": "14 Pa. 168",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 752,
+          "end": 776,
+          "text": ", 14 Pa. 168, 170 (1850)",
+          "type": "case",
+          "canonical": "14 Pa. 168"
+        },
+        {
+          "start": 842,
+          "end": 844,
+          "text": "; ",
+          "type": "case",
+          "canonical": "18 Wend. 675"
+        },
+        {
+          "start": 844,
+          "end": 885,
+          "text": "People ex rel. Holdsworth v. Superior Ct.",
+          "type": "case",
+          "canonical": "18 Wend. 675",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 885,
+          "end": 926,
+          "text": ", 18 Wend. 675, 678 (N. Y. Sup. Ct. 1837)",
+          "type": "case",
+          "canonical": "18 Wend. 675"
+        },
+        {
+          "start": 945,
+          "end": 954,
+          "text": "See also ",
+          "type": "case",
+          "canonical": "53 Okla. 264"
+        },
+        {
+          "start": 954,
+          "end": 987,
+          "text": "Missouri, K. & T. R. Co. v. Ellis",
+          "type": "case",
+          "canonical": "53 Okla. 264",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 987,
+          "end": 1025,
+          "text": ", 53 Okla. 264, 156 P. 226, 228 (1916)",
+          "type": "case",
+          "canonical": "53 Okla. 264"
+        },
+        {
+          "start": 1154,
+          "end": 1156,
+          "text": "; ",
+          "type": "case",
+          "canonical": "171 Okla. 355"
+        },
+        {
+          "start": 1156,
+          "end": 1172,
+          "text": "Kellogg v. Smith",
+          "type": "case",
+          "canonical": "171 Okla. 355",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1172,
+          "end": 1226,
+          "text": ", 171 Okla. 355, 42 P. 2d 493, 495 (1935) (per curiam)",
+          "type": "case",
+          "canonical": "171 Okla. 355"
+        },
+        {
+          "start": 1236,
+          "end": 1238,
+          "text": "; ",
+          "type": "case",
+          "canonical": "27 Okla. 15"
+        },
+        {
+          "start": 1238,
+          "end": 1253,
+          "text": "Hogan v. Bailey",
+          "type": "case",
+          "canonical": "27 Okla. 15",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1253,
+          "end": 1290,
+          "text": ", 27 Okla. 15, 110 P. 890, 891 (1910)",
+          "type": "case",
+          "canonical": "27 Okla. 15"
+        },
+        {
+          "start": 1300,
+          "end": 1302,
+          "text": "; ",
+          "type": "case",
+          "canonical": "3 Cow. 39"
+        },
+        {
+          "start": 1302,
+          "end": 1321,
+          "text": "Chichester v. Cande",
+          "type": "case",
+          "canonical": "3 Cow. 39",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1321,
+          "end": 1358,
+          "text": ", 3 Cow. 39, 48 (N. Y. Sup. Ct. 1824)",
+          "type": "case",
+          "canonical": "3 Cow. 39"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bowen v. Wilson",
+          "to": "Bowen versus Wilson"
+        },
+        {
+          "from": "Heinrich v. First Nat. Bank",
+          "to": "Heinrich versus First Nat. Bank"
+        },
+        {
+          "from": "Southern Express Co. v. Hill",
+          "to": "Southern Express Co. versus Hill"
+        },
+        {
+          "from": "Elam v. St. Louis & S. F. R. Co.",
+          "to": "Elam versus St. Louis & S. F. R. Co."
+        },
+        {
+          "from": "Western Home Ins. Co. v. Richardson",
+          "to": "Western Home Ins. Co. versus Richardson"
+        },
+        {
+          "from": "Fosters v. McKibben",
+          "to": "Fosters versus McKibben"
+        },
+        {
+          "from": "People ex rel. Holdsworth v. Superior Ct.",
+          "to": "People ex rel. Holdsworth versus Superior Ct."
+        },
+        {
+          "from": "Missouri, K. & T. R. Co. v. Ellis",
+          "to": "Missouri, K. & T. R. Co. versus Ellis"
+        },
+        {
+          "from": "Kellogg v. Smith",
+          "to": "Kellogg versus Smith"
+        },
+        {
+          "from": "Hogan v. Bailey",
+          "to": "Hogan versus Bailey"
+        },
+        {
+          "from": "Chichester v. Cande",
+          "to": "Chichester versus Cande"
+        },
+        {
+          "from": "miscarrie[s]",
+          "to": "miscarries"
+        },
+        {
+          "from": "unknown)).",
+          "to": "unknown)."
+        },
+        {
+          "from": ")Heinrich",
+          "to": "); Heinrich"
+        },
+        {
+          "from": ")Southern Express",
+          "to": "); Southern Express"
+        },
+        {
+          "from": ")Elam",
+          "to": "); Elam"
+        },
+        {
+          "from": ")Western Home",
+          "to": "); Western Home"
+        },
+        {
+          "from": ")Fosters",
+          "to": "); Fosters"
+        },
+        {
+          "from": ")People ex rel.",
+          "to": "); People ex rel."
+        },
+        {
+          "from": ")Kellogg",
+          "to": "); Kellogg"
+        },
+        {
+          "from": ")Hogan",
+          "to": "); Hogan"
+        },
+        {
+          "from": ")Chichester",
+          "to": "); Chichester"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1730,
+          "end": 1774
+        },
+        {
+          "page": 9,
+          "start": 0,
+          "end": 356
+        }
+      ],
+      "citations": [
+        {
+          "start": 227,
+          "end": 240,
+          "text": "Ante, at 7–8.",
+          "type": "reference",
+          "canonical": "Court opinion, pp.7-8"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 358,
+          "end": 1306
+        },
+        {
+          "page": 10,
+          "start": 0,
+          "end": 365
+        }
+      ],
+      "citations": [
+        {
+          "start": 138,
+          "end": 151,
+          "text": "Ante, at 7–8.",
+          "type": "reference",
+          "canonical": "Court opinion, pp.7-8"
+        },
+        {
+          "start": 461,
+          "end": 473,
+          "text": "Lake v. Lake",
+          "type": "case",
+          "canonical": "63 Wyo. 375",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 473,
+          "end": 521,
+          "text": ", 63 Wyo. 375, 182 P. 2d 824 (1947) (per curiam)",
+          "type": "case",
+          "canonical": "63 Wyo. 375"
+        },
+        {
+          "start": 729,
+          "end": 760,
+          "text": "Id., at 402, 182 P. 2d, at 835.",
+          "type": "case",
+          "canonical": "63 Wyo. 375"
+        },
+        {
+          "start": 775,
+          "end": 790,
+          "text": "Wagner v. Lucas",
+          "type": "case",
+          "canonical": "79 Okla. 231",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 790,
+          "end": 823,
+          "text": ", 79 Okla. 231, 193 P. 421 (1920)",
+          "type": "case",
+          "canonical": "79 Okla. 231"
+        },
+        {
+          "start": 1006,
+          "end": 1038,
+          "text": "Id., at 232–233, 193 P., at 423.",
+          "type": "case",
+          "canonical": "79 Okla. 231"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Lake v. Lake",
+          "to": "Lake versus Lake"
+        },
+        {
+          "from": "Wagner v. Lucas",
+          "to": "Wagner versus Lucas"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 367,
+          "end": 1601
+        }
+      ],
+      "citations": [
+        {
+          "start": 151,
+          "end": 175,
+          "text": "Brief for Petitioners 35",
+          "type": "record",
+          "canonical": "Petitioners brief, p.35"
+        },
+        {
+          "start": 386,
+          "end": 441,
+          "text": "Post Office Dept., Postal Law & Regs. §12.6 (1940 ed.).",
+          "type": "regulation",
+          "canonical": "Postal Laws and Regulations §12.6 (1940)"
+        },
+        {
+          "start": 937,
+          "end": 942,
+          "text": "§728.",
+          "type": "regulation",
+          "canonical": "Postal Laws and Regulations §728 (1940)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "i.e.",
+          "to": "that is"
+        },
+        {
+          "from": "exception,”",
+          "to": "exception”"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1603,
+          "end": 2009
+        },
+        {
+          "page": 11,
+          "start": 0,
+          "end": 428
+        }
+      ],
+      "citations": [
+        {
+          "start": 268,
+          "end": 279,
+          "text": "Ante, at 6.",
+          "type": "reference",
+          "canonical": "Court opinion, p.6"
+        },
+        {
+          "start": 434,
+          "end": 499,
+          "text": "Taniguchi v. Kan Pacific Saipan, Ltd., 566 U. S. 560, 568 (2012).",
+          "type": "case",
+          "canonical": "566 U.S. 560"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 430,
+          "end": 1088
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 252,
+          "text": "546 U. S., at 486.",
+          "type": "case",
+          "canonical": "546 U.S. 481"
+        },
+        {
+          "start": 384,
+          "end": 400,
+          "text": "Id., at 486–487.",
+          "type": "case",
+          "canonical": "546 U.S. 481"
+        },
+        {
+          "start": 588,
+          "end": 658,
+          "text": "Yates v. United States, 574 U. S. 528, 543 (2015) (plurality opinion).",
+          "type": "case",
+          "canonical": "574 U.S. 528"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a] word",
+          "to": "a word"
+        },
+        {
+          "from": "[w]ords",
+          "to": "words"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1090,
+          "end": 1815
+        }
+      ],
+      "citations": [
+        {
+          "start": 144,
+          "end": 164,
+          "text": ", see supra, at 6–7,",
+          "type": "reference",
+          "canonical": "This dissent, pp.6-7"
+        },
+        {
+          "start": 353,
+          "end": 371,
+          "text": "See supra, at 5–6.",
+          "type": "reference",
+          "canonical": "This dissent, pp.5-6"
+        },
+        {
+          "start": 700,
+          "end": 725,
+          "text": "Yates, 574 U. S., at 546.",
+          "type": "case",
+          "canonical": "574 U.S. 528"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 0,
+          "end": 3
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 3,
+          "end": 680
+        }
+      ],
+      "citations": [
+        {
+          "start": 203,
+          "end": 217,
+          "text": ", ante, at 13,",
+          "type": "reference",
+          "canonical": "Court opinion, p.13"
+        },
+        {
+          "start": 652,
+          "end": 677,
+          "text": "Kosak, 465 U. S., at 855.",
+          "type": "case",
+          "canonical": "465 U.S. 848"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 682,
+          "end": 1502
+        }
+      ],
+      "citations": [
+        {
+          "start": 526,
+          "end": 542,
+          "text": "See supra, at 3.",
+          "type": "reference",
+          "canonical": "This dissent, p.3"
+        },
+        {
+          "start": 686,
+          "end": 713,
+          "text": ", Kosak, 565 U. S., at 855,",
+          "type": "case",
+          "canonical": "465 U.S. 848"
+        },
+        {
+          "start": 792,
+          "end": 818,
+          "text": ", Dolan, 546 U. S., at 492",
+          "type": "case",
+          "canonical": "546 U.S. 481"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "specifi[c]",
+          "to": "specific"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1504,
+          "end": 1656
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1684,
+          "end": 2053
+        },
+        {
+          "page": 13,
+          "start": 1686,
+          "end": 2115
+        }
+      ],
+      "label": "4",
+      "citations": [
+        {
+          "start": 177,
+          "end": 188,
+          "text": "Ante, at 2.",
+          "type": "reference",
+          "canonical": "Court opinion, p.2"
+        },
+        {
+          "start": 370,
+          "end": 394,
+          "text": "Brief for Respondent 43.",
+          "type": "record",
+          "canonical": "Respondent brief, p.43"
+        },
+        {
+          "start": 613,
+          "end": 618,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Respondent brief, p.43"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "arriv[e]",
+          "to": "arrive"
+        },
+        {
+          "from": "[r]ude",
+          "to": "rude"
+        },
+        {
+          "from": "[c]omplaints",
+          "to": "complaints"
+        },
+        {
+          "from": "[f]iling",
+          "to": "filing"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1658,
+          "end": 1673
+        },
+        {
+          "page": 13,
+          "start": 0,
+          "end": 1028
+        }
+      ],
+      "citations": [
+        {
+          "start": 350,
+          "end": 375,
+          "text": "See 28 U. S. C. §2680(a).",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(a)"
+        },
+        {
+          "start": 513,
+          "end": 530,
+          "text": ", see ante, at 6,",
+          "type": "reference",
+          "canonical": "Court opinion, p.6"
+        },
+        {
+          "start": 651,
+          "end": 697,
+          "text": "see Restatement (Second) of Agency §228 (1957)",
+          "type": "reference",
+          "canonical": "Restatement (Second) of Agency §228 (1957)"
+        },
+        {
+          "start": 813,
+          "end": 845,
+          "text": "; Brief for Respondent 43, n. 21",
+          "type": "record",
+          "canonical": "Respondent brief, p.43, note21"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1030,
+          "end": 1677
+        }
+      ],
+      "citations": [
+        {
+          "start": 168,
+          "end": 198,
+          "text": "Bell Atlantic Corp. v. Twombly",
+          "type": "case",
+          "canonical": "550 U.S. 544",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 198,
+          "end": 220,
+          "text": ", 550 U. S. 544 (2007)",
+          "type": "case",
+          "canonical": "550 U.S. 544"
+        },
+        {
+          "start": 226,
+          "end": 243,
+          "text": "Ashcroft v. Iqbal",
+          "type": "case",
+          "canonical": "556 U.S. 662",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 243,
+          "end": 265,
+          "text": ", 556 U. S. 662 (2009)",
+          "type": "case",
+          "canonical": "556 U.S. 662"
+        },
+        {
+          "start": 452,
+          "end": 463,
+          "text": ", §2680(h),",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(h)"
+        },
+        {
+          "start": 490,
+          "end": 501,
+          "text": ", §2680(a),",
+          "type": "statute",
+          "canonical": "28 U.S.C. §2680(a)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bell Atlantic Corp. v. Twombly",
+          "to": "Bell Atlantic Corp. versus Twombly"
+        },
+        {
+          "from": "Ashcroft v. Iqbal",
+          "to": "Ashcroft versus Iqbal"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 0,
+          "end": 520
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 528,
+          "end": 898
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 1741,
+      "end": 1752,
+      "text": " ——————\n\n1 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 6,
+      "start": 1619,
+      "end": 1631,
+      "text": "\n\n——————\n\n2 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 8,
+      "start": 1728,
+      "end": 1730,
+      "text": "3 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 8,
+      "start": 1774,
+      "end": 1785,
+      "text": " ——————\n\n3 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 9,
+      "start": 1306,
+      "end": 1314,
+      "text": " —————— ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 1656,
+      "end": 1658,
+      "text": "4 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 1673,
+      "end": 1684,
+      "text": " ——————\n\n4 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 1677,
+      "end": 1686,
+      "text": "\n\n—————— ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 520,
+      "end": 528,
+      "text": "\n\n* * * ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 549,
+      "end": 563,
+      "expectedText": "a Federal Bank",
+      "text": "a Federal land bank"
+    },
+    {
+      "page": 5,
+      "start": 161,
+      "end": 206,
+      "expectedText": "exclude intentional conduct when it wanted to",
+      "text": "exclude intentional misconduct when it wanted to"
+    },
+    {
+      "page": 12,
+      "start": 996,
+      "end": 1043,
+      "expectedText": "“loss, miscarriage, and negligent transmission”",
+      "text": "“loss, miscarriage, or negligent transmission”"
+    },
+    {
+      "page": 10,
+      "start": 791,
+      "end": 796,
+      "expectedText": "§13.6",
+      "text": "§12.6"
+    },
+    {
+      "page": 13,
+      "start": 286,
+      "end": 293,
+      "expectedText": "duecare",
+      "text": "due-care"
+    },
+    {
+      "page": 4,
+      "start": 1127,
+      "end": 1128,
+      "expectedText": "1",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 1618,
+      "end": 1619,
+      "expectedText": "2",
+      "text": ""
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "revisionSource": {
+    "url": "https://www.supremecourt.gov/opinions/25pdf/607us2r13_m64n.pdf",
+    "pdfPath": "recordings/sources/efe94a4a9283aadba6e6bc44.pdf",
+    "sha256": "efe94a4a9283aadba6e6bc44d5a636113a4a7aa9b1a24ee386e51f3de1abee80",
+    "reason": "Reviewed the latest official preliminary print, including the Reporter’s Note: Federal land bank, intentional misconduct, and or negligent transmission; verified corrected postal-regulation source and source extraction spacing against its pages."
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan",
+      "Neil Gorsuch",
+      "Ketanji Brown Jackson"
+    ],
+    "revisionSourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r13_m64n.pdf"
+  }
+}

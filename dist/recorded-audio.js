@@ -5,8 +5,17 @@ export function cueAt(cues, seconds) {
  const cue=cues[lo-1];return cue&&seconds<cue.end?cue:null;
 }
 export function cueForSource(cues,page,offset){
- const onPage=cues.filter(c=>c.ranges.some(r=>r.page===page));
- return onPage.find(c=>c.ranges.some(r=>r.page===page&&r.start<=offset&&r.end>offset))||onPage.find(c=>c.ranges.some(r=>r.page===page&&r.end>offset))||onPage.at(-1)||null;
+ const onPage=cues.filter(c=>!c.transition&&c.ranges.some(r=>r.page===page));
+ const exact=onPage.find(c=>c.ranges.some(r=>r.page===page&&r.start<=offset&&r.end>offset));
+ if(exact)return exact;
+ // Notes are heard at their markers, so playback order can differ from PDF
+ // offset order. Find the nearest source range instead of the first later cue.
+ let nearest=null,distance=Infinity;
+ for(const cue of onPage)for(const range of cue.ranges.filter(r=>r.page===page)){
+  const gap=offset<range.start?range.start-offset:offset-range.end;
+  if(gap<distance){nearest=cue;distance=gap}
+ }
+ return nearest;
 }
 export function bufferedSpans(media,duration){
  if(!Number.isFinite(duration)||duration<=0)return [];

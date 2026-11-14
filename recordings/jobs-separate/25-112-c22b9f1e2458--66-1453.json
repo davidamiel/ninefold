@@ -1,0 +1,87 @@
+{
+  "documentId": "25-112-c22b9f1e2458--66-1453",
+  "sourceDocumentId": "25-112-c22b9f1e2458",
+  "sourceTextPath": "dist/data/docs/25-112-c22b9f1e2458.json",
+  "sourceTextSha256": "ba96b46723c9351a2e17681b0a4cda13a387d1558a4f93380ac844bb3fc4297c",
+  "sourcePdfPath": "dist/data/pdfs/25-112-c22b9f1e2458--66-1453.pdf",
+  "sourcePdfSha256": "eca927fc9ed617e5524541d94d91c05d243b835489bfdba3962655594d998b92",
+  "title": "Dissent",
+  "author": "Amy Coney Barrett",
+  "date": "2026-06-29",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf",
+  "sourceRange": {
+    "startPage": 66,
+    "startOffset": 1482,
+    "endPage": 67,
+    "endOffset": 331
+  },
+  "review": "Reviewed complete separate writing against Court PDF, including page continuations. Running headers, publication footer and footnotes belonging to another writing excluded. No substantive footnote belongs to this writing.",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 66,
+          "start": 1482,
+          "end": 1601
+        },
+        {
+          "page": 67,
+          "start": 58,
+          "end": 331
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 49,
+          "end": 72,
+          "text": ", 585 U. S. 296 (2018),",
+          "type": "case",
+          "canonical": "585 U.S. 296"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 66,
+      "start": 1601,
+      "end": 2025,
+      "text": "8 Moreover, it is common these days for a single company, such as\nGoogle, to offer cellular plans, provide location services, maintain payment\nsystems, host shopping platforms, and more. Companies have incentives\nto aggregate a user's data across these services, and this tendency will\nfurther complicate any efforts to draw Fourth Amendment lines among\ndifferent sorts of third-party records.\nPage Proof Pending Publication",
+      "reason": "Footnote belongs to the preceding writing, not this separate opinion; retained in that writing and the original PDF"
+    },
+    {
+      "page": 67,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 609 U. S. 605 (2026) 671\nBarrett, J., dissenting\n",
+      "reason": "Running header or publication footer"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 66,
+      "start": 1593,
+      "end": 1600,
+      "expectedText": "certio-",
+      "text": "certio"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "reviewed": true
+}

@@ -1,0 +1,500 @@
+{
+  "reviewed": true,
+  "documentId": "24-1287-2059f0a43b72--82-622",
+  "sourceDocumentId": "24-1287-2059f0a43b72",
+  "sourceTextPath": "dist/data/docs/24-1287-2059f0a43b72.json",
+  "sourceTextSha256": "c3775c67a0c112b51d02a24f15db2bee4e366dfd35046c6339bbda6a021cbe21",
+  "sourcePdfPath": "dist/data/pdfs/24-1287-2059f0a43b72--82-622.pdf",
+  "sourcePdfSha256": "7628338d8ca3dffd4d7ed693366b395f9e117368419832527c88326e14adba4a",
+  "title": "Concurring in part and in the judgment",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-02-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r12_8nj9.pdf",
+  "sourceRange": {
+    "startPage": 82,
+    "startOffset": 690,
+    "endPage": 85,
+    "endOffset": 2040
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 82,
+          "start": 690,
+          "end": 1448
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 284,
+          "text": ", see ante, at 242–248 (opinion of Roberts, C. J.)",
+          "type": "reference",
+          "canonical": "Roberts opinion, pp. 242–248"
+        },
+        {
+          "start": 432,
+          "end": 497,
+          "text": "West Virginia v. EPA, 597 U. S. 697, 730 (2022) (emphasis added);",
+          "type": "case",
+          "canonical": "597 U.S. 697"
+        },
+        {
+          "start": 498,
+          "end": 523,
+          "text": "see also id., at 722–723.",
+          "type": "case",
+          "canonical": "597 U.S. 697"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 82,
+          "start": 1448,
+          "end": 2023
+        },
+        {
+          "page": 83,
+          "start": 57,
+          "end": 447
+        }
+      ],
+      "citations": [
+        {
+          "start": 180,
+          "end": 238,
+          "text": "See R. Katzmann, Judging Statutes 19–20 (2014) (Katzmann).",
+          "type": "reference",
+          "canonical": "R. Katzmann, Judging Statutes (2014)"
+        },
+        {
+          "start": 398,
+          "end": 591,
+          "text": "A. Gluck & L. Bressman, Statutory Interpretation From the Inside—An Empirical Study of Congressional Drafting, Delegation, and the Canons: Part I, 65 Stan. L. Rev. 901, 965–966, 968–969 (2013);",
+          "type": "reference",
+          "canonical": "A. Gluck & L. Bressman, Statutory Interpretation From the Inside (2013)"
+        },
+        {
+          "start": 592,
+          "end": 616,
+          "text": "see also Katzmann 37–38.",
+          "type": "reference",
+          "canonical": "R. Katzmann, Judging Statutes (2014)"
+        },
+        {
+          "start": 741,
+          "end": 788,
+          "text": "post, at 344, n. 11 (opinion of Kavanaugh, J.),",
+          "type": "reference",
+          "canonical": "Kavanaugh dissent, p. 344 n. 11"
+        },
+        {
+          "start": 915,
+          "end": 965,
+          "text": "See Gluck, 65 Stan. L. Rev., at 965, 977–978, 989.",
+          "type": "reference",
+          "canonical": "A. Gluck & L. Bressman, Statutory Interpretation From the Inside (2013)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 83,
+          "start": 447,
+          "end": 786
+        }
+      ],
+      "citations": [
+        {
+          "start": 133,
+          "end": 219,
+          "text": "Accord, ante, at 308, n. 2 (Kagan, J., concurring in part and concurring in judgment).",
+          "type": "reference",
+          "canonical": "Kagan concurrence, p. 308 n. 2"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 83,
+          "start": 786,
+          "end": 1844
+        }
+      ],
+      "citations": [
+        {
+          "start": 456,
+          "end": 509,
+          "text": "H. R. Rep. No. 1507, 77th Cong., 1st Sess., 2 (1941).",
+          "type": "reference",
+          "canonical": "H.R. Rep. No. 1507 (1941)"
+        },
+        {
+          "start": 669,
+          "end": 708,
+          "text": "First War Powers Act, 55 Stat. 839–840.",
+          "type": "statute",
+          "canonical": "55 Stat. 839"
+        },
+        {
+          "start": 972,
+          "end": 1000,
+          "text": "H. R. Rep. No. 1507, at 2–3;",
+          "type": "reference",
+          "canonical": "H.R. Rep. No. 1507 (1941)"
+        },
+        {
+          "start": 1001,
+          "end": 1059,
+          "text": "see also S. Rep. No. 911, 77th Cong., 1st Sess., 2 (1941).",
+          "type": "reference",
+          "canonical": "S. Rep. No. 911 (1941)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "there [was]",
+          "to": "there was"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 83,
+          "start": 1849,
+          "end": 2139
+        },
+        {
+          "page": 84,
+          "start": 1845,
+          "end": 2014
+        }
+      ],
+      "citations": [
+        {
+          "start": 203,
+          "end": 229,
+          "text": "H. R. Rep. No. 1507, at 3.",
+          "type": "reference",
+          "canonical": "H.R. Rep. No. 1507 (1941)"
+        },
+        {
+          "start": 388,
+          "end": 401,
+          "text": "55 Stat. 840.",
+          "type": "statute",
+          "canonical": "55 Stat. 840"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 84,
+          "start": 61,
+          "end": 978
+        }
+      ],
+      "citations": [
+        {
+          "start": 193,
+          "end": 223,
+          "text": "§ 203(a)(1)(B), 91 Stat. 1626.",
+          "type": "statute",
+          "canonical": "91 Stat. 1626"
+        },
+        {
+          "start": 670,
+          "end": 702,
+          "text": "S. Rep. No. 95–466, p. 5 (1977).",
+          "type": "reference",
+          "canonical": "S. Rep. No. 95–466 (1977)"
+        },
+        {
+          "start": 879,
+          "end": 915,
+          "text": "H. R. Rep. No. 95–459, p. 15 (1977).",
+          "type": "reference",
+          "canonical": "H.R. Rep. No. 95–459 (1977)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 84,
+          "start": 978,
+          "end": 1845
+        }
+      ],
+      "citations": [
+        {
+          "start": 249,
+          "end": 276,
+          "text": "50 U. S. C. § 1702(a)(1)(B)",
+          "type": "statute",
+          "canonical": "50 U.S.C. § 1702"
+        },
+        {
+          "start": 370,
+          "end": 424,
+          "text": "See ante, at 307–308, and n. 2 (opinion of Kagan, J.).",
+          "type": "reference",
+          "canonical": "Kagan concurrence, pp. 307–308 n. 2"
+        },
+        {
+          "start": 556,
+          "end": 596,
+          "text": "See ante, at 240–241 (majority opinion).",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 240–241"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "prohibit,” —provides",
+          "to": "prohibit”—provides"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 85,
+          "start": 63,
+          "end": 386
+        }
+      ],
+      "citations": [
+        {
+          "start": 98,
+          "end": 149,
+          "text": "See post, at 344, n. 11 (opinion of Kavanaugh, J.).",
+          "type": "reference",
+          "canonical": "Kavanaugh dissent, p. 344 n. 11"
+        },
+        {
+          "start": 301,
+          "end": 323,
+          "text": "Post, at 352–353, 357.",
+          "type": "reference",
+          "canonical": "Kavanaugh dissent, pp. 352–353, 357"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 85,
+          "start": 1741,
+          "end": 2040
+        }
+      ],
+      "citations": [
+        {
+          "start": 171,
+          "end": 238,
+          "text": "See, e. g., Stanley v. City of Sanford, 606 U. S. 46, 51–54 (2025);",
+          "type": "case",
+          "canonical": "606 U.S. 46"
+        },
+        {
+          "start": 239,
+          "end": 298,
+          "text": "accord, id., at 96–97, and n. 12 (Jackson, J., dissenting).",
+          "type": "case",
+          "canonical": "606 U.S. 46"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 85,
+          "start": 389,
+          "end": 857
+        }
+      ],
+      "citations": [
+        {
+          "start": 388,
+          "end": 467,
+          "text": "See United States v. American Trucking Assns., Inc., 310 U. S. 534, 542 (1940).",
+          "type": "case",
+          "canonical": "310 U.S. 534"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 85,
+          "start": 857,
+          "end": 1475
+        }
+      ],
+      "citations": [
+        {
+          "start": 122,
+          "end": 134,
+          "text": "Katzmann 38.",
+          "type": "reference",
+          "canonical": "R. Katzmann, Judging Statutes (2014)"
+        },
+        {
+          "start": 334,
+          "end": 344,
+          "text": "See ibid.;",
+          "type": "reference",
+          "canonical": "R. Katzmann, Judging Statutes (2014)"
+        },
+        {
+          "start": 345,
+          "end": 387,
+          "text": "J. Hurst, Dealing With Statutes 33 (1982).",
+          "type": "reference",
+          "canonical": "J. Hurst, Dealing With Statutes (1982)"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 82,
+      "start": 232,
+      "end": 242,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 82,
+      "start": 1560,
+      "end": 1567,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 83,
+      "start": 862,
+      "end": 866,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 85,
+      "start": 1610,
+      "end": 1618,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 82,
+      "start": 1208,
+      "end": 1210,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 84,
+      "start": 745,
+      "end": 747,
+      "expectedText": "–\n",
+      "text": "–"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 82,
+      "start": 2023,
+      "end": 2053,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 83,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 607 U. S. 229 (2026) 311\nOpinion of Jackson, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 83,
+      "start": 1845,
+      "end": 1849,
+      "text": "1\n1 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 83,
+      "start": 2139,
+      "end": 2169,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 84,
+      "start": 0,
+      "end": 61,
+      "text": "312 LEARNING RESOURCES, INC. v. TRUMP\nOpinion of Jackson, J.\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 84,
+      "start": 2014,
+      "end": 2044,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 85,
+      "start": 0,
+      "end": 63,
+      "text": "Cite as: 607 U. S. 229 (2026) 313\nThomas, J., dissenting\n* * *\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 85,
+      "start": 387,
+      "end": 389,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 85,
+      "start": 1475,
+      "end": 1741,
+      "text": "Justice Thomas, dissenting.\nI join Justice Kavanaugh's principal dissent in full. As\nhe explains, the Court's decision today cannot be justifed as\na matter of statutory interpretation. Congress authorized\nthe President to “regulate . . . importation.” 50 U. S. C.\n2 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

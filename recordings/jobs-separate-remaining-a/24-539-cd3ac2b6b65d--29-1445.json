@@ -1,0 +1,601 @@
+{
+  "reviewed": true,
+  "documentId": "24-539-cd3ac2b6b65d--29-1445",
+  "sourceDocumentId": "24-539-cd3ac2b6b65d",
+  "sourceTextPath": "dist/data/docs/24-539-cd3ac2b6b65d.json",
+  "sourceTextSha256": "d44daec3ae8e09368b4d0f2fa3afdf851ae9064aa017ba132acd7aadd4936741",
+  "sourcePdfPath": "dist/data/pdfs/24-539-cd3ac2b6b65d--29-1445.pdf",
+  "sourcePdfSha256": "223fbc35c101f8b5b487b764bf5b9adb3ffbd84b470602a7068480151607be3b",
+  "title": "Concurrence",
+  "author": "Elena Kagan",
+  "date": "2026-03-31",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r24_4315.pdf",
+  "sourceRange": {
+    "startPage": 29,
+    "startOffset": 1507,
+    "endPage": 33,
+    "endOffset": 466
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 1507,
+          "end": 1740
+        },
+        {
+          "page": 30,
+          "start": 44,
+          "end": 179
+        }
+      ],
+      "citations": [
+        {
+          "start": 186,
+          "end": 203,
+          "text": "See ante, at 655.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 655"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 179,
+          "end": 1459
+        }
+      ],
+      "citations": [
+        {
+          "start": 106,
+          "end": 119,
+          "text": "Ante, at 641.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 641"
+        },
+        {
+          "start": 271,
+          "end": 277,
+          "text": "Ibid.;",
+          "type": "reference",
+          "canonical": "Court opinion, p. 641"
+        },
+        {
+          "start": 278,
+          "end": 327,
+          "text": "see Iancu v. Brunetti, 588 U. S. 388, 393 (2019).",
+          "type": "case",
+          "canonical": "588 U.S. 388"
+        },
+        {
+          "start": 509,
+          "end": 587,
+          "text": "Rosenberger v. Rector and Visitors of Univ. of Va., 515 U. S. 819, 829 (1995).",
+          "type": "case",
+          "canonical": "515 U.S. 819"
+        },
+        {
+          "start": 738,
+          "end": 786,
+          "text": "R. A. V. v. St. Paul, 505 U. S. 377, 386 (1992).",
+          "type": "case",
+          "canonical": "505 U.S. 377"
+        },
+        {
+          "start": 873,
+          "end": 885,
+          "text": "Id., at 390;",
+          "type": "case",
+          "canonical": "505 U.S. 377"
+        },
+        {
+          "start": 886,
+          "end": 981,
+          "text": "see Reed v. Town of Gilbert, 576 U. S. 155, 181\u2013183 (2015) (Kagan, J., concurring in judgment).",
+          "type": "case",
+          "canonical": "576 U.S. 155"
+        },
+        {
+          "start": 1245,
+          "end": 1281,
+          "text": "See R. A. V., 505 U. S., at 384\u2013390.",
+          "type": "case",
+          "canonical": "505 U.S. 377"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1459,
+          "end": 2111
+        },
+        {
+          "page": 31,
+          "start": 56,
+          "end": 870
+        }
+      ],
+      "citations": [
+        {
+          "start": 107,
+          "end": 128,
+          "text": "See ante, at 645\u2013646.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 645-646"
+        },
+        {
+          "start": 248,
+          "end": 293,
+          "text": "Colo. Rev. Stat. \u00a7 12\u2013245\u2013202(3.5)(a) (2025);",
+          "type": "statute",
+          "canonical": "Colo. Rev. Stat. \u00a7 12-245-202"
+        },
+        {
+          "start": 294,
+          "end": 320,
+          "text": "see \u00a7 12\u2013245\u2013224(1)(t)(V).",
+          "type": "statute",
+          "canonical": "Colo. Rev. Stat. \u00a7 12-245-224"
+        },
+        {
+          "start": 493,
+          "end": 522,
+          "text": "\u00a7 12\u2013245\u2013202(3.5)(b)(I)\u2013(II).",
+          "type": "statute",
+          "canonical": "Colo. Rev. Stat. \u00a7 12-245-202"
+        },
+        {
+          "start": 777,
+          "end": 801,
+          "text": "See Tr. of Oral Arg. 78.",
+          "type": "record",
+          "canonical": "Oral argument transcript, p. 78"
+        },
+        {
+          "start": 922,
+          "end": 931,
+          "text": "See ibid.",
+          "type": "record",
+          "canonical": "Oral argument transcript, p. 78"
+        },
+        {
+          "start": 1156,
+          "end": 1181,
+          "text": "Iancu, 588 U. S., at 394.",
+          "type": "case",
+          "canonical": "588 U.S. 388"
+        },
+        {
+          "start": 1389,
+          "end": 1420,
+          "text": "Rosenberger, 515 U. S., at 829;",
+          "type": "case",
+          "canonical": "515 U.S. 819"
+        },
+        {
+          "start": 1421,
+          "end": 1468,
+          "text": "McCullen v. Coakley, 573 U. S. 464, 485 (2014).",
+          "type": "case",
+          "canonical": "573 U.S. 464"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a minor's]",
+          "to": "a minor's"
+        },
+        {
+          "from": "[a]cceptance",
+          "to": "acceptance"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 870,
+          "end": 1469
+        }
+      ],
+      "citations": [
+        {
+          "start": 370,
+          "end": 397,
+          "text": "See Tr. of Oral Arg. 25\u201326;",
+          "type": "record",
+          "canonical": "Oral argument transcript, pp. 25-26"
+        },
+        {
+          "start": 398,
+          "end": 420,
+          "text": "see also id., at 37\u201338",
+          "type": "record",
+          "canonical": "Oral argument transcript, pp. 37-38"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 1469,
+          "end": 2108
+        },
+        {
+          "page": 32,
+          "start": 44,
+          "end": 957
+        }
+      ],
+      "citations": [
+        {
+          "start": 190,
+          "end": 203,
+          "text": "Ante, at 640.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 640"
+        },
+        {
+          "start": 528,
+          "end": 589,
+          "text": "Davenport v. Washington Ed. Assn., 551 U. S. 177, 189 (2007);",
+          "type": "case",
+          "canonical": "551 U.S. 177"
+        },
+        {
+          "start": 590,
+          "end": 608,
+          "text": "see supra, at 656.",
+          "type": "reference",
+          "canonical": "Kagan concurrence, p. 656"
+        },
+        {
+          "start": 802,
+          "end": 849,
+          "text": "Reed, 576 U. S., at 183 (opinion of Kagan, J.);",
+          "type": "case",
+          "canonical": "576 U.S. 155"
+        },
+        {
+          "start": 850,
+          "end": 882,
+          "text": "see Davenport, 551 U. S., at 188",
+          "type": "case",
+          "canonical": "551 U.S. 177"
+        },
+        {
+          "start": 1241,
+          "end": 1288,
+          "text": "See Vidal v. Elster, 602 U. S. 286, 295 (2024);",
+          "type": "case",
+          "canonical": "602 U.S. 286"
+        },
+        {
+          "start": 1289,
+          "end": 1335,
+          "text": "id., at 312 (Barrett, J., concurring in part);",
+          "type": "case",
+          "canonical": "602 U.S. 286"
+        },
+        {
+          "start": 1336,
+          "end": 1392,
+          "text": "id., at 329\u2013330 (Sotomayor, J., concurring in judgment).",
+          "type": "case",
+          "canonical": "602 U.S. 286"
+        },
+        {
+          "start": 1524,
+          "end": 1552,
+          "text": "R. A. V., 505 U. S., at 388.",
+          "type": "case",
+          "canonical": "505 U.S. 377"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]s",
+          "to": "as"
+        },
+        {
+          "from": "relax[ed]",
+          "to": "relaxed"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        },
+        {
+          "from": "driv[ing]",
+          "to": "driving"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 957,
+          "end": 1080
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1658,
+          "end": 2178
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 97,
+          "end": 124,
+          "text": "See post, at 679\u2013680, n. 8.",
+          "type": "reference",
+          "canonical": "Jackson dissent, pp. 679-680, note 8"
+        },
+        {
+          "start": 228,
+          "end": 260,
+          "text": "See post, at 689\u2013690, and n. 13.",
+          "type": "reference",
+          "canonical": "Jackson dissent, pp. 689-690, note 13"
+        },
+        {
+          "start": 432,
+          "end": 490,
+          "text": "See, e. g., Vidal v. Elster, 602 U. S. 286, 292\u2013293 (2024)",
+          "type": "case",
+          "canonical": "602 U.S. 286"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1082,
+          "end": 1657
+        },
+        {
+          "page": 33,
+          "start": 58,
+          "end": 466
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 209,
+          "end": 273,
+          "text": "Cf. Reed, 576 U. S., at 177 (Breyer, J., concurring in judgment)",
+          "type": "case",
+          "canonical": "576 U.S. 155"
+        },
+        {
+          "start": 522,
+          "end": 550,
+          "text": "R. A. V., 505 U. S., at 390.",
+          "type": "case",
+          "canonical": "505 U.S. 377"
+        },
+        {
+          "start": 703,
+          "end": 755,
+          "text": "Vidal, 602 U. S., at 330 (opinion of Sotomayor, J.).",
+          "type": "case",
+          "canonical": "602 U.S. 286"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[r]egulatory",
+          "to": "regulatory"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 29,
+      "start": 1740,
+      "end": 1770,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 44,
+      "text": "656 CHILES v. SALAZAR\nKagan, J., concurring\n",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    },
+    {
+      "page": 30,
+      "start": 2111,
+      "end": 2141,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    },
+    {
+      "page": 31,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 607 U. S. 627 (2026) 657\nKagan, J., concurring\n",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    },
+    {
+      "page": 31,
+      "start": 2108,
+      "end": 2138,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    },
+    {
+      "page": 32,
+      "start": 0,
+      "end": 44,
+      "text": "658 CHILES v. SALAZAR\nKagan, J., concurring\n",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    },
+    {
+      "page": 32,
+      "start": 1080,
+      "end": 1082,
+      "text": "* ",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    },
+    {
+      "page": 32,
+      "start": 1657,
+      "end": 1658,
+      "text": "*",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    },
+    {
+      "page": 32,
+      "start": 2178,
+      "end": 2208,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    },
+    {
+      "page": 33,
+      "start": 0,
+      "end": 58,
+      "text": "Cite as: 607 U. S. 627 (2026) 659\nJackson, J., dissenting\n",
+      "reason": "Running author/page header, publication footer or superscript footnote marker."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 29,
+      "start": 1598,
+      "end": 1606,
+      "expectedText": "conficts",
+      "text": "conflicts"
+    },
+    {
+      "page": 30,
+      "start": 160,
+      "end": 168,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 30,
+      "start": 1020,
+      "end": 1027,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 30,
+      "start": 1394,
+      "end": 1401,
+      "expectedText": "fghting",
+      "text": "fighting"
+    },
+    {
+      "page": 30,
+      "start": 1806,
+      "end": 1817,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 30,
+      "start": 1900,
+      "end": 1910,
+      "expectedText": "affrmation",
+      "text": "affirmation"
+    },
+    {
+      "page": 31,
+      "start": 451,
+      "end": 460,
+      "expectedText": "refecting",
+      "text": "reflecting"
+    },
+    {
+      "page": 31,
+      "start": 1126,
+      "end": 1134,
+      "expectedText": "affrming",
+      "text": "affirming"
+    },
+    {
+      "page": 31,
+      "start": 1830,
+      "end": 1837,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 32,
+      "start": 882,
+      "end": 892,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 32,
+      "start": 1073,
+      "end": 1079,
+      "expectedText": "offces",
+      "text": "offices"
+    },
+    {
+      "page": 32,
+      "start": 1519,
+      "end": 1526,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 32,
+      "start": 1652,
+      "end": 1656,
+      "expectedText": "dif-",
+      "text": "dif"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Sonia Sotomayor"
+    ]
+  }
+}

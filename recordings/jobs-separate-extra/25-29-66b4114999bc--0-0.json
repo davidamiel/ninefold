@@ -1,0 +1,2882 @@
+{
+  "reviewed": true,
+  "documentId": "25-29-66b4114999bc--0-0",
+  "sourceDocumentId": "25-29-66b4114999bc",
+  "sourceTextPath": "dist/data/docs/25-29-66b4114999bc.json",
+  "sourceTextSha256": "5988bae7dfcea31b54831935c1457e86c53c14f4cb9a28c6104632eea98934c9",
+  "sourcePdfPath": "recordings/sources/2b4416e5e36049fe79181442.pdf",
+  "sourcePdfSha256": "2b4416e5e36049fe7918144268fe99d6a1fc3a8529eccc5a84391376bb541194",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2026-03-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-29_1qe4.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 435,
+    "endPage": 14,
+    "endOffset": 915
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 435,
+          "end": 1268
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1268,
+          "end": 1538
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1538,
+          "end": 1540
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1541,
+          "end": 1842
+        },
+        {
+          "page": 1,
+          "start": 102,
+          "end": 230
+        }
+      ],
+      "citations": [
+        {
+          "start": 185,
+          "end": 234,
+          "text": "Hui v. Castaneda, 559 U. S. 799, 802, n. 1 (2010)",
+          "canonical": "Hui v. Castaneda, 559 U. S. 799, 802, n. 1 (2010)",
+          "type": "reference"
+        },
+        {
+          "start": 341,
+          "end": 416,
+          "text": "Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U. S. 308, 322–323 (2007)",
+          "canonical": "Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U. S. 308, 322–323 (2007)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 230,
+          "end": 730
+        }
+      ],
+      "citations": [
+        {
+          "start": 79,
+          "end": 113,
+          "text": "App. to Pet. for Cert. 224a (App.)",
+          "canonical": "App. to Pet. for Cert. 224a (App.)",
+          "type": "reference"
+        },
+        {
+          "start": 473,
+          "end": 485,
+          "text": "Id., at 229a",
+          "canonical": "Id., at 229a",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 730,
+          "end": 1436
+        }
+      ],
+      "citations": [
+        {
+          "start": 677,
+          "end": 689,
+          "text": "Id., at 231a",
+          "canonical": "Id., at 231a",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1436,
+          "end": 2152
+        },
+        {
+          "page": 2,
+          "start": 108,
+          "end": 110
+        }
+      ],
+      "citations": [
+        {
+          "start": 556,
+          "end": 568,
+          "text": "Id., at 230a",
+          "canonical": "Id., at 230a",
+          "type": "reference"
+        },
+        {
+          "start": 625,
+          "end": 677,
+          "text": "Villarreal v. Laredo , 94 F. 4th 374, 407 (CA5 2024)",
+          "canonical": "Villarreal v. Laredo , 94 F. 4th 374, 407 (CA5 2024)",
+          "type": "reference"
+        },
+        {
+          "start": 678,
+          "end": 703,
+          "text": "(Willett, J., dissenting)",
+          "canonical": "(Willett, J., dissenting)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[her]",
+          "to": "her"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 110,
+          "end": 814
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 814,
+          "end": 1520
+        }
+      ],
+      "citations": [
+        {
+          "start": 369,
+          "end": 400,
+          "text": "Texas Penal Code Ann. §39.06(c)",
+          "canonical": "Texas Penal Code Ann. §39.06(c)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 401,
+          "end": 423,
+          "text": "(West Cum. Supp. 2025)",
+          "canonical": "(West Cum. Supp. 2025)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Texas Penal Code Ann. §39.06(c)",
+          "to": "Texas Penal Code, section thirty-nine point oh six C"
+        },
+        {
+          "from": "§39.06(c)",
+          "to": "section thirty-nine point oh six C"
+        },
+        {
+          "from": "[a]",
+          "to": "a"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1883,
+          "end": 2252
+        }
+      ],
+      "citations": [
+        {
+          "start": 86,
+          "end": 118,
+          "text": "Tex. Penal Code Ann. §1.07(a)(7)",
+          "canonical": "Tex. Penal Code Ann. §1.07(a)(7)",
+          "type": "reference"
+        },
+        {
+          "start": 119,
+          "end": 141,
+          "text": "(West Cum. Supp. 2025)",
+          "canonical": "(West Cum. Supp. 2025)",
+          "type": "reference"
+        },
+        {
+          "start": 354,
+          "end": 363,
+          "text": "§39.06(d)",
+          "canonical": "§39.06(d)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§39.06(d)",
+          "to": "section thirty-nine point oh six D"
+        },
+        {
+          "from": "[I]nformation",
+          "to": "Information"
+        },
+        {
+          "from": "[the Texas Public Information Act]",
+          "to": "the Texas Public Information Act"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1521,
+          "end": 1757
+        }
+      ],
+      "citations": [
+        {
+          "start": 129,
+          "end": 138,
+          "text": "§39.06(c)",
+          "canonical": "§39.06(c)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 140,
+          "end": 161,
+          "text": "94 F. 4th, at 404–406",
+          "canonical": "94 F. 4th, at 404–406",
+          "type": "reference"
+        },
+        {
+          "start": 162,
+          "end": 189,
+          "text": "(Higginson, J., dissenting)",
+          "canonical": "(Higginson, J., dissenting)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§39.06(c)",
+          "to": "section thirty-nine point oh six C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1757,
+          "end": 1873
+        },
+        {
+          "page": 3,
+          "start": 83,
+          "end": 699
+        }
+      ],
+      "citations": [
+        {
+          "start": 237,
+          "end": 251,
+          "text": "App. 241a–242a",
+          "canonical": "App. 241a–242a",
+          "type": "reference"
+        },
+        {
+          "start": 666,
+          "end": 683,
+          "text": "94 F. 4th, at 402",
+          "canonical": "94 F. 4th, at 402",
+          "type": "reference"
+        },
+        {
+          "start": 684,
+          "end": 710,
+          "text": "(Higginson, J. dissenting)",
+          "canonical": "(Higginson, J. dissenting)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 699,
+          "end": 1315
+        }
+      ],
+      "citations": [
+        {
+          "start": 300,
+          "end": 312,
+          "text": "Id ., at 384",
+          "canonical": "Id ., at 384",
+          "type": "reference"
+        },
+        {
+          "start": 313,
+          "end": 331,
+          "text": "(majority opinion)",
+          "canonical": "(majority opinion)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "show[ed]",
+          "to": "showed"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1315,
+          "end": 2102
+        },
+        {
+          "page": 4,
+          "start": 102,
+          "end": 104
+        }
+      ],
+      "citations": [
+        {
+          "start": 55,
+          "end": 72,
+          "text": "42 U. S. C. §1983",
+          "canonical": "42 U. S. C. §1983",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 636,
+          "end": 653,
+          "text": "94 F. 4th, at 384",
+          "canonical": "94 F. 4th, at 384",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "42 U. S. C. §1983",
+          "to": "title forty-two, section nineteen eighty-three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 104,
+          "end": 958
+        }
+      ],
+      "citations": [
+        {
+          "start": 206,
+          "end": 229,
+          "text": " , 602 U. S. 653 (2024)",
+          "canonical": " , 602 U. S. 653 (2024)",
+          "type": "reference"
+        },
+        {
+          "start": 230,
+          "end": 243,
+          "text": "( per curiam)",
+          "canonical": "( per curiam)",
+          "type": "reference"
+        },
+        {
+          "start": 344,
+          "end": 386,
+          "text": "Villarreal v. Laredo, 604 U. S. 973 (2024)",
+          "canonical": "Villarreal v. Laredo, 604 U. S. 973 (2024)",
+          "type": "reference"
+        },
+        {
+          "start": 672,
+          "end": 725,
+          "text": "Villarreal v. Laredo, 134 F. 4th 273, 275, 276 (2025)",
+          "canonical": "Villarreal v. Laredo, 134 F. 4th 273, 275, 276 (2025)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[wa]s",
+          "to": "was"
+        },
+        {
+          "from": "[that]",
+          "to": "that"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 958,
+          "end": 961
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 962,
+          "end": 1484
+        }
+      ],
+      "citations": [
+        {
+          "start": 205,
+          "end": 246,
+          "text": "Hope v. Pelzer, 536 U. S. 730, 741 (2002)",
+          "canonical": "Hope v. Pelzer, 536 U. S. 730, 741 (2002)",
+          "type": "reference"
+        },
+        {
+          "start": 455,
+          "end": 509,
+          "text": "District of Columbia v. Wesby, 583 U. S. 48, 64 (2018)",
+          "canonical": "District of Columbia v. Wesby, 583 U. S. 48, 64 (2018)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[conduct]",
+          "to": "conduct"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1484,
+          "end": 2088
+        },
+        {
+          "page": 5,
+          "start": 109,
+          "end": 228
+        }
+      ],
+      "citations": [
+        {
+          "start": 111,
+          "end": 134,
+          "text": "Hope, 536 U. S., at 741",
+          "canonical": "Hope, 536 U. S., at 741",
+          "type": "reference"
+        },
+        {
+          "start": 416,
+          "end": 421,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 423,
+          "end": 473,
+          "text": "see also Taylor v. Riojas, 592 U. S. 7, 8–9 (2020)",
+          "canonical": "see also Taylor v. Riojas, 592 U. S. 7, 8–9 (2020)",
+          "type": "reference"
+        },
+        {
+          "start": 474,
+          "end": 486,
+          "text": "(per curiam)",
+          "canonical": "(per curiam)",
+          "type": "reference"
+        },
+        {
+          "start": 680,
+          "end": 703,
+          "text": "Wesby, 583 U. S., at 64",
+          "canonical": "Wesby, 583 U. S., at 64",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[applies]",
+          "to": "applies"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 228,
+          "end": 232
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 233,
+          "end": 530
+        }
+      ],
+      "citations": [
+        {
+          "start": 82,
+          "end": 87,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 286,
+          "end": 291,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 530,
+          "end": 532
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 533,
+          "end": 1164
+        }
+      ],
+      "citations": [
+        {
+          "start": 108,
+          "end": 178,
+          "text": "Citizens United v. Federal Election Comm’n , 558 U. S. 310, 339 (2010)",
+          "canonical": "Citizens United v. Federal Election Comm’n , 558 U. S. 310, 339 (2010)",
+          "type": "reference"
+        },
+        {
+          "start": 287,
+          "end": 331,
+          "text": "Pell v. Procunier, 417 U. S. 817, 834 (1974)",
+          "canonical": "Pell v. Procunier, 417 U. S. 817, 834 (1974)",
+          "type": "reference"
+        },
+        {
+          "start": 405,
+          "end": 465,
+          "text": "Smith v. Daily Mail Publishing Co., 443 U. S. 97, 103 (1979)",
+          "canonical": "Smith v. Daily Mail Publishing Co., 443 U. S. 97, 103 (1979)",
+          "type": "reference"
+        },
+        {
+          "start": 570,
+          "end": 615,
+          "text": "Branzburg v. Hayes, 408 U. S. 665, 681 (1972)",
+          "canonical": "Branzburg v. Hayes, 408 U. S. 665, 681 (1972)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "bar[ring]",
+          "to": "barring"
+        },
+        {
+          "from": "[the]",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1164,
+          "end": 1586
+        }
+      ],
+      "citations": [
+        {
+          "start": 387,
+          "end": 416,
+          "text": "Daily Mail, 443 U. S., at 104",
+          "canonical": "Daily Mail, 443 U. S., at 104",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1599,
+          "end": 2029
+        },
+        {
+          "page": 6,
+          "start": 1819,
+          "end": 2302
+        }
+      ],
+      "citations": [
+        {
+          "start": 188,
+          "end": 237,
+          "text": "Branzburg v. Hayes, 408 U. S. 665, 681–682 (1972)",
+          "canonical": "Branzburg v. Hayes, 408 U. S. 665, 681–682 (1972)",
+          "type": "reference"
+        },
+        {
+          "start": 625,
+          "end": 686,
+          "text": "see Villarreal v. Laredo, 94 F. 4th 374, 408, n. 9 (CA5 2024)",
+          "canonical": "see Villarreal v. Laredo, 94 F. 4th 374, 408, n. 9 (CA5 2024)",
+          "type": "reference"
+        },
+        {
+          "start": 687,
+          "end": 712,
+          "text": "(Willett, J., dissenting)",
+          "canonical": "(Willett, J., dissenting)",
+          "type": "reference"
+        },
+        {
+          "start": 801,
+          "end": 814,
+          "text": "see App. 242a",
+          "canonical": "see App. 242a",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 115,
+          "end": 855
+        }
+      ],
+      "citations": [
+        {
+          "start": 134,
+          "end": 157,
+          "text": "Pell, 417 U. S., at 834",
+          "canonical": "Pell, 417 U. S., at 834",
+          "type": "reference"
+        },
+        {
+          "start": 430,
+          "end": 476,
+          "text": "Houchins v. KQED, Inc., 438 U. S. 1, 15 (1978)",
+          "canonical": "Houchins v. KQED, Inc., 438 U. S. 1, 15 (1978)",
+          "type": "reference"
+        },
+        {
+          "start": 477,
+          "end": 496,
+          "text": "(plurality opinion)",
+          "canonical": "(plurality opinion)",
+          "type": "reference"
+        },
+        {
+          "start": 695,
+          "end": 722,
+          "text": "See Pell, 417 U. S., at 834",
+          "canonical": "See Pell, 417 U. S., at 834",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the press]",
+          "to": "the press"
+        },
+        {
+          "from": "[government functions]",
+          "to": "government functions"
+        },
+        {
+          "from": "seek[ing]",
+          "to": "seeking"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 855,
+          "end": 1692
+        }
+      ],
+      "citations": [
+        {
+          "start": 203,
+          "end": 236,
+          "text": "See Daily Mail, 443 U. S., at 103",
+          "canonical": "See Daily Mail, 443 U. S., at 103",
+          "type": "reference"
+        },
+        {
+          "start": 327,
+          "end": 389,
+          "text": "New York Times Co. v. United States, 403 U. S. 713, 714 (1971)",
+          "canonical": "New York Times Co. v. United States, 403 U. S. 713, 714 (1971)",
+          "type": "reference"
+        },
+        {
+          "start": 390,
+          "end": 402,
+          "text": "(per curiam)",
+          "canonical": "(per curiam)",
+          "type": "reference"
+        },
+        {
+          "start": 671,
+          "end": 726,
+          "text": "Florida Star v. B. J. F., 491 U. S. 524, 534–535 (1989)",
+          "canonical": "Florida Star v. B. J. F., 491 U. S. 524, 534–535 (1989)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1692,
+          "end": 1811
+        },
+        {
+          "page": 7,
+          "start": 92,
+          "end": 604
+        }
+      ],
+      "citations": [
+        {
+          "start": 600,
+          "end": 616,
+          "text": "Pet. for Cert. 2",
+          "canonical": "Pet. for Cert. 2",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 604,
+          "end": 1673
+        }
+      ],
+      "citations": [
+        {
+          "start": 275,
+          "end": 292,
+          "text": "See supra, at 6–7",
+          "canonical": "See supra, at 6–7",
+          "type": "reference"
+        },
+        {
+          "start": 456,
+          "end": 518,
+          "text": "See Brief for Reporters as Amici Curiae on Pet. for Cert. 7–14",
+          "canonical": "See Brief for Reporters as Amici Curiae on Pet. for Cert. 7–14",
+          "type": "reference"
+        },
+        {
+          "start": 756,
+          "end": 779,
+          "text": "Wesby, 583 U. S., at 64",
+          "canonical": "Wesby, 583 U. S., at 64",
+          "type": "reference"
+        },
+        {
+          "start": 781,
+          "end": 842,
+          "text": "Browder v. Albuquerque, 787 F. 3d 1076, 1082–1083 (CA10 2015)",
+          "canonical": "Browder v. Albuquerque, 787 F. 3d 1076, 1082–1083 (CA10 2015)",
+          "type": "reference"
+        },
+        {
+          "start": 843,
+          "end": 856,
+          "text": "(Gorsuch, J.)",
+          "canonical": "(Gorsuch, J.)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "obvious[ly]",
+          "to": "obviously"
+        },
+        {
+          "from": "[I]t",
+          "to": "It"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1673,
+          "end": 1675
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1676,
+          "end": 1972
+        },
+        {
+          "page": 8,
+          "start": 104,
+          "end": 133
+        }
+      ],
+      "citations": [
+        {
+          "start": 296,
+          "end": 317,
+          "text": "94 F. 4th, at 384–385",
+          "canonical": "94 F. 4th, at 384–385",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1743,
+          "end": 2305
+        }
+      ],
+      "citations": [
+        {
+          "start": 245,
+          "end": 266,
+          "text": "94 F. 4th, at 381–382",
+          "canonical": "94 F. 4th, at 381–382",
+          "type": "reference"
+        },
+        {
+          "start": 468,
+          "end": 547,
+          "text": "Harper & Row, Publishers, Inc. v. Nation Enterprises, 471 U. S. 539, 559 (1985)",
+          "canonical": "Harper & Row, Publishers, Inc. v. Nation Enterprises, 471 U. S. 539, 559 (1985)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "capitaliz[ing]",
+          "to": "capitalizing"
+        },
+        {
+          "from": "[all]",
+          "to": "all"
+        },
+        {
+          "from": "wan[t]",
+          "to": "want"
+        },
+        {
+          "from": "[them]",
+          "to": "them"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 134,
+          "end": 237
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 237,
+          "end": 1252
+        }
+      ],
+      "citations": [
+        {
+          "start": 134,
+          "end": 143,
+          "text": "§39.06(c)",
+          "canonical": "§39.06(c)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 145,
+          "end": 160,
+          "text": "Id., at 385–390",
+          "canonical": "Id., at 385–390",
+          "type": "reference"
+        },
+        {
+          "start": 267,
+          "end": 323,
+          "text": "see Bachellar v. Maryland, 397 U. S. 564, 570–571 (1970)",
+          "canonical": "see Bachellar v. Maryland, 397 U. S. 564, 570–571 (1970)",
+          "type": "reference"
+        },
+        {
+          "start": 476,
+          "end": 498,
+          "text": ", 470 U. S. 598 (1985)",
+          "canonical": ", 470 U. S. 598 (1985)",
+          "type": "reference"
+        },
+        {
+          "start": 721,
+          "end": 732,
+          "text": "Id., at 608",
+          "canonical": "Id., at 608",
+          "type": "reference"
+        },
+        {
+          "start": 733,
+          "end": 781,
+          "text": "(internal quotation marks and citations omitted)",
+          "canonical": "(internal quotation marks and citations omitted)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§39.06(c)",
+          "to": "section thirty-nine point oh six C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1252,
+          "end": 1733
+        },
+        {
+          "page": 9,
+          "start": 86,
+          "end": 241
+        }
+      ],
+      "citations": [
+        {
+          "start": 424,
+          "end": 445,
+          "text": "94 F. 4th, at 390–393",
+          "canonical": "94 F. 4th, at 390–393",
+          "type": "reference"
+        },
+        {
+          "start": 554,
+          "end": 563,
+          "text": "§39.06(c)",
+          "canonical": "§39.06(c)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§39.06(c)",
+          "to": "section thirty-nine point oh six C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 241,
+          "end": 1241
+        }
+      ],
+      "citations": [
+        {
+          "start": 278,
+          "end": 325,
+          "text": "Michigan v. DeFillippo, 443 U. S. 31, 38 (1979)",
+          "canonical": "Michigan v. DeFillippo, 443 U. S. 31, 38 (1979)",
+          "type": "reference"
+        },
+        {
+          "start": 414,
+          "end": 431,
+          "text": "94 F. 4th, at 407",
+          "canonical": "94 F. 4th, at 407",
+          "type": "reference"
+        },
+        {
+          "start": 432,
+          "end": 457,
+          "text": "(Willett, J., dissenting)",
+          "canonical": "(Willett, J., dissenting)",
+          "type": "reference"
+        },
+        {
+          "start": 834,
+          "end": 855,
+          "text": "See 42 U. S. C. §1983",
+          "canonical": "See 42 U. S. C. §1983",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "enforc[e]",
+          "to": "enforce"
+        },
+        {
+          "from": "[state]",
+          "to": "state"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1241,
+          "end": 2188
+        },
+        {
+          "page": 10,
+          "start": 98,
+          "end": 277
+        }
+      ],
+      "citations": [
+        {
+          "start": 158,
+          "end": 179,
+          "text": "94 F. 4th, at 393–394",
+          "canonical": "94 F. 4th, at 393–394",
+          "type": "reference"
+        },
+        {
+          "start": 429,
+          "end": 482,
+          "text": "Messerschmidt v. Millender, 565 U. S. 535, 547 (2012)",
+          "canonical": "Messerschmidt v. Millender, 565 U. S. 535, 547 (2012)",
+          "type": "reference"
+        },
+        {
+          "start": 640,
+          "end": 645,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 769,
+          "end": 786,
+          "text": "See supra, at 6–8",
+          "canonical": "See supra, at 6–8",
+          "type": "reference"
+        },
+        {
+          "start": 937,
+          "end": 962,
+          "text": "see supra, at 3, and n. 1",
+          "canonical": "see supra, at 3, and n. 1",
+          "type": "reference"
+        },
+        {
+          "start": 1019,
+          "end": 1053,
+          "text": "see 94 F. 4th, at 411–412, 417–418",
+          "canonical": "see 94 F. 4th, at 411–412, 417–418",
+          "type": "reference"
+        },
+        {
+          "start": 1054,
+          "end": 1074,
+          "text": "(Ho, J., dissenting)",
+          "canonical": "(Ho, J., dissenting)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "[judge]",
+          "to": "judge"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 277,
+          "end": 279
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 280,
+          "end": 1399
+        }
+      ],
+      "citations": [
+        {
+          "start": 536,
+          "end": 601,
+          "text": "See Leonard v. Robinson , 477 F. 3d 347, 352, 356, 361 (CA6 2007)",
+          "canonical": "See Leonard v. Robinson , 477 F. 3d 347, 352, 356, 361 (CA6 2007)",
+          "type": "reference"
+        },
+        {
+          "start": 728,
+          "end": 791,
+          "text": "Snider v. Cape Girardeau, 752 F. 3d 1149, 1154, 1157 (CA8 2014)",
+          "canonical": "Snider v. Cape Girardeau, 752 F. 3d 1149, 1154, 1157 (CA8 2014)",
+          "type": "reference"
+        },
+        {
+          "start": 944,
+          "end": 1001,
+          "text": "Jordan v. Jenkins, 73 F. 4th 1162, 1167, 1171 (CA10 2023)",
+          "canonical": "Jordan v. Jenkins, 73 F. 4th 1162, 1167, 1171 (CA10 2023)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1399,
+          "end": 2107
+        },
+        {
+          "page": 11,
+          "start": 89,
+          "end": 262
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 262,
+          "end": 1362
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 242,
+          "text": "94 F. 4th, at 388–390, 398",
+          "canonical": "94 F. 4th, at 388–390, 398",
+          "type": "reference"
+        },
+        {
+          "start": 243,
+          "end": 261,
+          "text": "(majority opinion)",
+          "canonical": "(majority opinion)",
+          "type": "reference"
+        },
+        {
+          "start": 437,
+          "end": 446,
+          "text": "§39.06(c)",
+          "canonical": "§39.06(c)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 638,
+          "end": 648,
+          "text": "§39.06(c).",
+          "canonical": "§39.06(c).",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§39.06(c)",
+          "to": "section thirty-nine point oh six C"
+        },
+        {
+          "from": "backchannel[ed]",
+          "to": "backchanneled"
+        },
+        {
+          "from": "servant[s]",
+          "to": "servants"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1362,
+          "end": 1365
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1366,
+          "end": 2094
+        },
+        {
+          "page": 12,
+          "start": 111,
+          "end": 113
+        }
+      ],
+      "citations": [
+        {
+          "start": 384,
+          "end": 430,
+          "text": "Nieves v. Bartlett , 587 U. S. 391, 398 (2019)",
+          "canonical": "Nieves v. Bartlett , 587 U. S. 391, 398 (2019)",
+          "type": "reference"
+        },
+        {
+          "start": 664,
+          "end": 710,
+          "text": "Houston v. Hill, 482 U. S. 451, 462–463 (1987)",
+          "canonical": "Houston v. Hill, 482 U. S. 451, 462–463 (1987)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 113,
+          "end": 973
+        }
+      ],
+      "citations": [
+        {
+          "start": 385,
+          "end": 429,
+          "text": "Morrison v. Olson, 487 U. S. 654, 728 (1988)",
+          "canonical": "Morrison v. Olson, 487 U. S. 654, 728 (1988)",
+          "type": "reference"
+        },
+        {
+          "start": 430,
+          "end": 454,
+          "text": "(Scalia, J., dissenting)",
+          "canonical": "(Scalia, J., dissenting)",
+          "type": "reference"
+        },
+        {
+          "start": 455,
+          "end": 591,
+          "text": "(quoting R. Jackson, The Federal Prosecutor, Address Delivered at the Second Annual Conference of United States Attorneys, Apr. 1, 1940)",
+          "canonical": "(quoting R. Jackson, The Federal Prosecutor, Address Delivered at the Second Annual Conference of United States Attorneys, Apr. 1, 1940)",
+          "type": "reference"
+        },
+        {
+          "start": 833,
+          "end": 838,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[,]",
+          "to": ","
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 973,
+          "end": 1751
+        }
+      ],
+      "citations": [
+        {
+          "start": 146,
+          "end": 161,
+          "text": ", 587 U. S. 391",
+          "canonical": ", 587 U. S. 391",
+          "type": "reference"
+        },
+        {
+          "start": 206,
+          "end": 221,
+          "text": ", 602 U. S. 653",
+          "canonical": ", 602 U. S. 653",
+          "type": "reference"
+        },
+        {
+          "start": 570,
+          "end": 600,
+          "text": "Nieves, 587 U. S., at 402, 407",
+          "canonical": "Nieves, 587 U. S., at 402, 407",
+          "type": "reference"
+        },
+        {
+          "start": 749,
+          "end": 760,
+          "text": "Id., at 406",
+          "canonical": "Id., at 406",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[she]",
+          "to": "she"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1751,
+          "end": 2233
+        },
+        {
+          "page": 13,
+          "start": 97,
+          "end": 319
+        }
+      ],
+      "citations": [
+        {
+          "start": 473,
+          "end": 482,
+          "text": "§39.06(c)",
+          "canonical": "§39.06(c)",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§39.06(c)",
+          "to": "section thirty-nine point oh six C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 319,
+          "end": 859
+        }
+      ],
+      "citations": [
+        {
+          "start": 150,
+          "end": 172,
+          "text": ", 566 U. S. 658 (2012)",
+          "canonical": ", 566 U. S. 658 (2012)",
+          "type": "reference"
+        },
+        {
+          "start": 332,
+          "end": 347,
+          "text": "Id., at 664–665",
+          "canonical": "Id., at 664–665",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 859,
+          "end": 1386
+        }
+      ],
+      "citations": [
+        {
+          "start": 142,
+          "end": 160,
+          "text": "See supra, at 8–11",
+          "canonical": "See supra, at 8–11",
+          "type": "reference"
+        },
+        {
+          "start": 414,
+          "end": 429,
+          "text": "Id., at 660–662",
+          "canonical": "Id., at 660–662",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1386,
+          "end": 2104
+        },
+        {
+          "page": 14,
+          "start": 90,
+          "end": 92
+        },
+        {
+          "page": 14,
+          "start": 97,
+          "end": 99
+        }
+      ],
+      "citations": [
+        {
+          "start": 169,
+          "end": 186,
+          "text": "See supra, at 3–4",
+          "canonical": "See supra, at 3–4",
+          "type": "reference"
+        },
+        {
+          "start": 346,
+          "end": 400,
+          "text": "See Hand v. Gary, 838 F. 2d 1420, 1427–1428 (CA5 1988)",
+          "canonical": "See Hand v. Gary, 838 F. 2d 1420, 1427–1428 (CA5 1988)",
+          "type": "reference"
+        },
+        {
+          "start": 577,
+          "end": 598,
+          "text": "94 F. 4th, at 401–404",
+          "canonical": "94 F. 4th, at 401–404",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 99,
+          "end": 915
+        }
+      ],
+      "citations": [
+        {
+          "start": 219,
+          "end": 262,
+          "text": "Mills v. Alabama, 384 U. S. 214, 219 (1966)",
+          "canonical": "Mills v. Alabama, 384 U. S. 214, 219 (1966)",
+          "type": "reference"
+        },
+        {
+          "start": 523,
+          "end": 528,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 425,
+      "end": 427,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 491,
+      "end": 493,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 676,
+      "end": 678,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 795,
+      "end": 797,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1034,
+      "end": 1036,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1093,
+      "end": 1095,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1596,
+      "end": 1598,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1785,
+      "end": 1787,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 460,
+      "end": 462,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 519,
+      "end": 521,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 698,
+      "end": 700,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 905,
+      "end": 907,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 961,
+      "end": 963,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1380,
+      "end": 1382,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1497,
+      "end": 1499,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 2047,
+      "end": 2049,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 398,
+      "end": 400,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 513,
+      "end": 515,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 576,
+      "end": 578,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 933,
+      "end": 935,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 995,
+      "end": 997,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1289,
+      "end": 1291,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1417,
+      "end": 1419,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1477,
+      "end": 1479,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1595,
+      "end": 1597,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 324,
+      "end": 326,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 613,
+      "end": 615,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 673,
+      "end": 675,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 818,
+      "end": 820,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 937,
+      "end": 939,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1056,
+      "end": 1058,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1554,
+      "end": 1556,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1617,
+      "end": 1619,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1682,
+      "end": 1684,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1871,
+      "end": 1873,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 410,
+      "end": 412,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 469,
+      "end": 471,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 530,
+      "end": 532,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 653,
+      "end": 655,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 1135,
+      "end": 1137,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 1322,
+      "end": 1324,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 1540,
+      "end": 1542,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 4,
+      "start": 1784,
+      "end": 1786,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 590,
+      "end": 592,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 772,
+      "end": 774,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 1515,
+      "end": 1517,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 5,
+      "start": 1877,
+      "end": 1879,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 540,
+      "end": 542,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 603,
+      "end": 605,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 662,
+      "end": 664,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 774,
+      "end": 776,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 1399,
+      "end": 1401,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 1893,
+      "end": 1895,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 6,
+      "start": 1971,
+      "end": 1973,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 267,
+      "end": 269,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 657,
+      "end": 659,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 715,
+      "end": 717,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 777,
+      "end": 779,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 955,
+      "end": 957,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 1019,
+      "end": 1021,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 1319,
+      "end": 1321,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 1794,
+      "end": 1796,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 1855,
+      "end": 1857,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 899,
+      "end": 901,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 958,
+      "end": 960,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 1020,
+      "end": 1022,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 1141,
+      "end": 1143,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 1425,
+      "end": 1427,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 1674,
+      "end": 1676,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 1811,
+      "end": 1813,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 1888,
+      "end": 1890,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 8,
+      "start": 1959,
+      "end": 1961,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 423,
+      "end": 425,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 483,
+      "end": 485,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 542,
+      "end": 544,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 791,
+      "end": 793,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 1028,
+      "end": 1030,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 1087,
+      "end": 1089,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 1594,
+      "end": 1596,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 1655,
+      "end": 1657,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 1834,
+      "end": 1836,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 1957,
+      "end": 1959,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 9,
+      "start": 2013,
+      "end": 2015,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 10,
+      "start": 160,
+      "end": 162,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 10,
+      "start": 511,
+      "end": 513,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 10,
+      "start": 751,
+      "end": 753,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 10,
+      "start": 811,
+      "end": 813,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 10,
+      "start": 1339,
+      "end": 1341,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 10,
+      "start": 1512,
+      "end": 1514,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 10,
+      "start": 1573,
+      "end": 1575,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 11,
+      "start": 810,
+      "end": 812,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 11,
+      "start": 1234,
+      "end": 1236,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 11,
+      "start": 1353,
+      "end": 1355,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 11,
+      "start": 1728,
+      "end": 1730,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 11,
+      "start": 2031,
+      "end": 2033,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 172,
+      "end": 174,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 419,
+      "end": 421,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 658,
+      "end": 660,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 780,
+      "end": 782,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 896,
+      "end": 898,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 1029,
+      "end": 1031,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 1391,
+      "end": 1393,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 1451,
+      "end": 1453,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 1923,
+      "end": 1925,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 12,
+      "start": 2047,
+      "end": 2049,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 13,
+      "start": 215,
+      "end": 217,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 13,
+      "start": 677,
+      "end": 679,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 13,
+      "start": 975,
+      "end": 977,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 13,
+      "start": 1038,
+      "end": 1040,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 13,
+      "start": 1209,
+      "end": 1211,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 13,
+      "start": 1442,
+      "end": 1444,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 13,
+      "start": 1856,
+      "end": 1858,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 14,
+      "start": 334,
+      "end": 336,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 14,
+      "start": 455,
+      "end": 457,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 14,
+      "start": 700,
+      "end": 702,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 14,
+      "start": 761,
+      "end": 763,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1122,
+      "end": 1132,
+      "expectedText": "reta liate",
+      "text": "retaliate"
+    },
+    {
+      "page": 1,
+      "start": 606,
+      "end": 616,
+      "expectedText": "o fficials",
+      "text": "officials"
+    },
+    {
+      "page": 1,
+      "start": 1709,
+      "end": 1718,
+      "expectedText": "o fficers",
+      "text": "officers"
+    },
+    {
+      "page": 3,
+      "start": 199,
+      "end": 210,
+      "expectedText": "Face -\nbook",
+      "text": "Facebook"
+    },
+    {
+      "page": 3,
+      "start": 1528,
+      "end": 1534,
+      "expectedText": "a mong",
+      "text": "among"
+    },
+    {
+      "page": 4,
+      "start": 681,
+      "end": 693,
+      "expectedText": "reta liation",
+      "text": "retaliation"
+    },
+    {
+      "page": 4,
+      "start": 1695,
+      "end": 1704,
+      "expectedText": "viol ates",
+      "text": "violates"
+    },
+    {
+      "page": 6,
+      "start": 910,
+      "end": 924,
+      "expectedText": "in -\nformation",
+      "text": "information"
+    },
+    {
+      "page": 6,
+      "start": 1511,
+      "end": 1526,
+      "expectedText": "confiden -\ntial",
+      "text": "confidential"
+    },
+    {
+      "page": 8,
+      "start": 655,
+      "end": 666,
+      "expectedText": "ac -\ntivity",
+      "text": "activity"
+    },
+    {
+      "page": 8,
+      "start": 925,
+      "end": 935,
+      "expectedText": "prot ected",
+      "text": "protected"
+    },
+    {
+      "page": 8,
+      "start": 1360,
+      "end": 1373,
+      "expectedText": "reasona -\nble",
+      "text": "reasonable"
+    },
+    {
+      "page": 8,
+      "start": 2235,
+      "end": 2248,
+      "expectedText": "Pub -\nlishers",
+      "text": "Publishers"
+    },
+    {
+      "page": 9,
+      "start": 116,
+      "end": 126,
+      "expectedText": "co mmitted",
+      "text": "committed"
+    },
+    {
+      "page": 9,
+      "start": 1148,
+      "end": 1157,
+      "expectedText": "lia -\nble",
+      "text": "liable"
+    },
+    {
+      "page": 10,
+      "start": 567,
+      "end": 579,
+      "expectedText": "ar -\nresting",
+      "text": "arresting"
+    },
+    {
+      "page": 10,
+      "start": 1187,
+      "end": 1195,
+      "expectedText": "ci tizen",
+      "text": "citizen"
+    },
+    {
+      "page": 10,
+      "start": 1540,
+      "end": 1549,
+      "expectedText": "it s view",
+      "text": "its view"
+    },
+    {
+      "page": 10,
+      "start": 1601,
+      "end": 1607,
+      "expectedText": "Firs t",
+      "text": "First"
+    },
+    {
+      "page": 10,
+      "start": 1902,
+      "end": 1908,
+      "expectedText": "tri al",
+      "text": "trial"
+    },
+    {
+      "page": 11,
+      "start": 413,
+      "end": 421,
+      "expectedText": "op posed",
+      "text": "opposed"
+    },
+    {
+      "page": 11,
+      "start": 621,
+      "end": 632,
+      "expectedText": "offi -\ncial",
+      "text": "official"
+    },
+    {
+      "page": 11,
+      "start": 1481,
+      "end": 1491,
+      "expectedText": "al -\nleged",
+      "text": "alleged"
+    },
+    {
+      "page": 11,
+      "start": 1636,
+      "end": 1646,
+      "expectedText": "proh ibits",
+      "text": "prohibits"
+    },
+    {
+      "page": 11,
+      "start": 1965,
+      "end": 1983,
+      "expectedText": "char -\nacteristics",
+      "text": "characteristics"
+    },
+    {
+      "page": 12,
+      "start": 631,
+      "end": 641,
+      "expectedText": "De livered",
+      "text": "Delivered"
+    },
+    {
+      "page": 12,
+      "start": 1328,
+      "end": 1337,
+      "expectedText": "ar -\nrest",
+      "text": "arrest"
+    },
+    {
+      "page": 12,
+      "start": 2018,
+      "end": 2023,
+      "expectedText": "mo re",
+      "text": "more"
+    },
+    {
+      "page": 13,
+      "start": 586,
+      "end": 591,
+      "expectedText": "fr ee",
+      "text": "free"
+    },
+    {
+      "page": 13,
+      "start": 911,
+      "end": 923,
+      "expectedText": "ex -\nplained",
+      "text": "explained"
+    },
+    {
+      "page": 13,
+      "start": 1235,
+      "end": 1246,
+      "expectedText": "prev iously",
+      "text": "previously"
+    },
+    {
+      "page": 14,
+      "start": 569,
+      "end": 584,
+      "expectedText": "deliber -\nately",
+      "text": "deliberately"
+    },
+    {
+      "page": 6,
+      "start": 1187,
+      "end": 1209,
+      "expectedText": "New York Times Co.  v.",
+      "text": "New York Times Co. v."
+    },
+    {
+      "page": 8,
+      "start": 512,
+      "end": 525,
+      "expectedText": "Bachellar  v.",
+      "text": "Bachellar v."
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 53,
+      "end": 102,
+      "text": "2 VILLARREAL v. ALANIZ \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 2,
+      "start": 48,
+      "end": 108,
+      "text": "3  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 2,
+      "start": 1520,
+      "end": 1521,
+      "text": "1",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 2,
+      "start": 1873,
+      "end": 1883,
+      "text": "—————— \n1 ",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 34,
+      "end": 83,
+      "text": "4 VILLARREAL v. ALANIZ \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 4,
+      "start": 42,
+      "end": 102,
+      "text": "5  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 60,
+      "end": 109,
+      "text": "6 VILLARREAL v. ALANIZ \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 5,
+      "start": 1586,
+      "end": 1599,
+      "text": "2 \n—————— \n2 ",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 6,
+      "start": 53,
+      "end": 115,
+      "text": "7  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting \n",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 6,
+      "start": 1811,
+      "end": 1819,
+      "text": "—————— \n",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 7,
+      "start": 43,
+      "end": 92,
+      "text": "8 VILLARREAL v. ALANIZ \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 8,
+      "start": 44,
+      "end": 104,
+      "text": "9  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 8,
+      "start": 133,
+      "end": 134,
+      "text": "3",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 8,
+      "start": 1733,
+      "end": 1743,
+      "text": "—————— \n3 ",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 9,
+      "start": 36,
+      "end": 86,
+      "text": "10 VILLARREAL v. ALANIZ \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 10,
+      "start": 37,
+      "end": 98,
+      "text": "11  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 11,
+      "start": 39,
+      "end": 89,
+      "text": "12 VILLARREAL v. ALANIZ \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 12,
+      "start": 50,
+      "end": 111,
+      "text": "13  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 13,
+      "start": 47,
+      "end": 97,
+      "text": "14 VILLARREAL v. ALANIZ \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 14,
+      "start": 29,
+      "end": 90,
+      "text": "15  Cite as: 607 U. S. ____ (2026) \nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 14,
+      "start": 92,
+      "end": 97,
+      "text": "* * *",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

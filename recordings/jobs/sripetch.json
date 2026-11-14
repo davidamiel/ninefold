@@ -1,0 +1,2395 @@
+{
+  "reviewed": true,
+  "documentId": "25-466-f85d9ddf4cee--3-559",
+  "sourceDocumentId": "25-466-f85d9ddf4cee",
+  "sourceTextPath": "dist/data/docs/25-466-f85d9ddf4cee.json",
+  "sourceTextSha256": "9070bf0045bd531c84e0335502a12bf406608afaf659b59211ded475ed82c65a",
+  "sourcePdfPath": "dist/data/pdfs/25-466-f85d9ddf4cee--3-559.pdf",
+  "sourcePdfSha256": "2bd4edd122ad52242d5602e81b1f421ae0093db9f243529bb8bcb7b1611fe552",
+  "title": "Opinion of the Court",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-06-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r44_j42l.pdf",
+  "sourceRange": {
+    "startPage": 3,
+    "startOffset": 611,
+    "endPage": 15,
+    "endOffset": 1615
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 611,
+          "end": 968
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 72,
+          "end": 74
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 74,
+          "end": 76
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 76,
+          "end": 885
+        }
+      ],
+      "citations": [
+        {
+          "start": 342,
+          "end": 383,
+          "text": "Kokesh v. SEC, 581 U. S. 455, 458 (2017).",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        },
+        {
+          "start": 592,
+          "end": 604,
+          "text": "Id., at 459.",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        },
+        {
+          "start": 788,
+          "end": 808,
+          "text": "See id., at 458–459.",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 885,
+          "end": 1820
+        }
+      ],
+      "citations": [
+        {
+          "start": 298,
+          "end": 383,
+          "text": "Id., at 458 (quoting SEC v. Texas Gulf Sulphur Co., 312 F. Supp. 77, 91 (SDNY 1970)).",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        },
+        {
+          "start": 479,
+          "end": 547,
+          "text": "SEC v. Texas Gulf Sulphur Co., 446 F. 2d 1301, 1307–1308 (CA2 1971).",
+          "type": "case",
+          "canonical": "446 F.2d 1301"
+        },
+        {
+          "start": 732,
+          "end": 798,
+          "text": "Kokesh, 581 U. S., at 465, 467 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        },
+        {
+          "start": 923,
+          "end": 935,
+          "text": "Id., at 466.",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "th[e] [courts']",
+          "to": "the courts'"
+        },
+        {
+          "from": "compensati[ng]",
+          "to": "compensating"
+        },
+        {
+          "from": "exceed[ed]",
+          "to": "exceeded"
+        },
+        {
+          "from": "[his]",
+          "to": "his"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1820,
+          "end": 1989
+        },
+        {
+          "page": 5,
+          "start": 55,
+          "end": 670
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 200,
+          "end": 218,
+          "text": "28 U. S. C. § 2462",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2462",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 305,
+          "end": 340,
+          "text": "581 U. S., at 457 (quoting § 2462).",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        },
+        {
+          "start": 436,
+          "end": 442,
+          "text": "§ 2462",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2462",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 465,
+          "end": 481,
+          "text": "Id., at 461–467.",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        },
+        {
+          "start": 766,
+          "end": 784,
+          "text": "Id., at 461, n. 3.",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "28 U. S. C. § 2462",
+          "to": "Section 2462 of Title 28"
+        },
+        {
+          "from": "§ 2462",
+          "to": "Section 2462"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 670,
+          "end": 1238
+        }
+      ],
+      "citations": [
+        {
+          "start": 67,
+          "end": 88,
+          "text": ", 591 U. S. 71 (2020)",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 225,
+          "end": 248,
+          "text": "15 U. S. C. § 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 539,
+          "end": 568,
+          "text": "See Liu, 591 U. S., at 76–77.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "15 U. S. C. § 78u(d)(5)",
+          "to": "Section seventy-eight u d five of Title 15"
+        },
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1238,
+          "end": 1750
+        }
+      ],
+      "citations": [
+        {
+          "start": 89,
+          "end": 107,
+          "text": "See id., at 85–87.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 238,
+          "end": 256,
+          "text": "See id., at 85–92.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 365,
+          "end": 376,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 378,
+          "end": 389,
+          "text": "id., at 87,",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1750,
+          "end": 2104
+        },
+        {
+          "page": 6,
+          "start": 72,
+          "end": 452
+        }
+      ],
+      "citations": [
+        {
+          "start": 277,
+          "end": 288,
+          "text": "Id., at 79;",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 289,
+          "end": 316,
+          "text": "see also id., at 85, 91–92.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 416,
+          "end": 427,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 528,
+          "end": 553,
+          "text": "Id., at 79, 82–85, 89–90.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 724,
+          "end": 735,
+          "text": "Id., at 88.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        },
+        {
+          "from": "depriv[e]",
+          "to": "deprive"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 452,
+          "end": 1561
+        }
+      ],
+      "citations": [
+        {
+          "start": 188,
+          "end": 199,
+          "text": "Id., at 89.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 293,
+          "end": 305,
+          "text": "Ibid., n. 5.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 486,
+          "end": 497,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 526,
+          "end": 532,
+          "text": "§ 2462",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 2462",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 662,
+          "end": 684,
+          "text": "See 581 U. S., at 467.",
+          "type": "case",
+          "canonical": "581 U.S. 455"
+        },
+        {
+          "start": 842,
+          "end": 863,
+          "text": "591 U. S., at 85, 90;",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 864,
+          "end": 920,
+          "text": "see also Marshall v. Vicksburg, 15 Wall. 146, 149 (1873)",
+          "type": "case",
+          "canonical": "82 U.S. 146"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        },
+        {
+          "from": "§ 2462",
+          "to": "Section 2462"
+        },
+        {
+          "from": "[in]feasibility",
+          "to": "infeasibility"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1561,
+          "end": 2122
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 146
+        }
+      ],
+      "citations": [
+        {
+          "start": 159,
+          "end": 170,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 180,
+          "end": 191,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 472,
+          "end": 491,
+          "text": "§ 78u(d)(3)(A)(ii).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u"
+        },
+        {
+          "start": 636,
+          "end": 652,
+          "text": "See § 78u(d)(8).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        },
+        {
+          "from": "§ 78u(d)(7)",
+          "to": "Section seventy-eight u d seven"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 146,
+          "end": 148
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 148,
+          "end": 908
+        }
+      ],
+      "citations": [
+        {
+          "start": 150,
+          "end": 181,
+          "text": "154 F. 4th 980, 984 (CA9 2025).",
+          "type": "case",
+          "canonical": "154 F.4th 980"
+        },
+        {
+          "start": 403,
+          "end": 446,
+          "text": "App. to Pet. for Cert. 25a–26a (Pet. App.).",
+          "type": "record",
+          "canonical": "Petition appendix, pp. 25a–26a"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "engage[d]",
+          "to": "engaged"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 908,
+          "end": 1654
+        }
+      ],
+      "citations": [
+        {
+          "start": 366,
+          "end": 420,
+          "text": "No. 3:20–cv–01864 (SD Cal.), ECF Doc. 142–1, pp. 9–10.",
+          "type": "record",
+          "canonical": "No. 3:20–cv–01864, ECF Doc. 142–1"
+        },
+        {
+          "start": 528,
+          "end": 579,
+          "text": "No. 3:20–cv–01864 (SD Cal.), ECF Doc. 145, pp. 2–5.",
+          "type": "record",
+          "canonical": "No. 3:20–cv–01864, ECF Doc. 145"
+        },
+        {
+          "start": 735,
+          "end": 747,
+          "text": "Id., at 5–6.",
+          "type": "record",
+          "canonical": "No. 3:20–cv–01864, ECF Doc. 145, pp. 5–6"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1654,
+          "end": 1948
+        }
+      ],
+      "citations": [
+        {
+          "start": 171,
+          "end": 185,
+          "text": "Pet. App. 30a.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 30a"
+        },
+        {
+          "start": 289,
+          "end": 294,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Petition appendix, p. 30a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 41,
+          "end": 1102
+        }
+      ],
+      "citations": [
+        {
+          "start": 213,
+          "end": 232,
+          "text": "154 F. 4th, at 985.",
+          "type": "case",
+          "canonical": "154 F.4th 980"
+        },
+        {
+          "start": 328,
+          "end": 374,
+          "text": "154 F. 4th, at 986 (quoting 591 U. S., at 75).",
+          "type": "case",
+          "canonical": "154 F.4th 980"
+        },
+        {
+          "start": 523,
+          "end": 542,
+          "text": "154 F. 4th, at 986.",
+          "type": "case",
+          "canonical": "154 F.4th 980"
+        },
+        {
+          "start": 756,
+          "end": 864,
+          "text": "Ibid. (quoting Restatement (Third) of Restitution and Unjust Enrichment § 51(1) (2010) (Third Restatement)).",
+          "type": "case",
+          "canonical": "154 F.4th 980"
+        },
+        {
+          "start": 1036,
+          "end": 1061,
+          "text": "154 F. 4th, at 985, n. 4.",
+          "type": "case",
+          "canonical": "154 F.4th 980"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1102,
+          "end": 1610
+        }
+      ],
+      "citations": [
+        {
+          "start": 75,
+          "end": 91,
+          "text": "See id., at 985.",
+          "type": "case",
+          "canonical": "154 F.4th 980"
+        },
+        {
+          "start": 278,
+          "end": 359,
+          "text": "Compare SEC v. Navellier & Assoc., Inc., 108 F. 4th 19, 41, and n. 14 (CA1 2024),",
+          "type": "case",
+          "canonical": "108 F.4th 19"
+        },
+        {
+          "start": 360,
+          "end": 388,
+          "text": "and 154 F. 4th, at 985, with",
+          "type": "case",
+          "canonical": "154 F.4th 980"
+        },
+        {
+          "start": 389,
+          "end": 432,
+          "text": "SEC v. Govil, 86 F. 4th 89, 106 (CA2 2023).",
+          "type": "case",
+          "canonical": "86 F.4th 89"
+        },
+        {
+          "start": 485,
+          "end": 507,
+          "text": "607 U. S. 1120 (2026).",
+          "type": "case",
+          "canonical": "607 U.S. 1120"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1610,
+          "end": 1613
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1613,
+          "end": 1971
+        }
+      ],
+      "citations": [
+        {
+          "start": 40,
+          "end": 52,
+          "text": "§§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 57,
+          "end": 66,
+          "text": "78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 85,
+          "end": 96,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 341,
+          "end": 358,
+          "text": "591 U. S., at 85.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§§ 78u(d)(5) and 78u(d)(7)",
+          "to": "Sections seventy-eight u d five and seventy-eight u d seven"
+        },
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 55,
+          "end": 183
+        }
+      ],
+      "citations": [
+        {
+          "start": 28,
+          "end": 39,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(7)",
+          "to": "Section seventy-eight u d seven"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 183,
+          "end": 877
+        }
+      ],
+      "citations": [
+        {
+          "start": 67,
+          "end": 78,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 231,
+          "end": 242,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 260,
+          "end": 271,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 273,
+          "end": 304,
+          "text": "See Brief for Petitioner 20–21.",
+          "type": "reference",
+          "canonical": "Brief for Petitioner, pp. 20–21"
+        },
+        {
+          "start": 386,
+          "end": 397,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 678,
+          "end": 694,
+          "text": "See § 78u(d)(8).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        },
+        {
+          "from": "§ 78u(d)(7)",
+          "to": "Section seventy-eight u d seven"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 877,
+          "end": 2070
+        }
+      ],
+      "citations": [
+        {
+          "start": 63,
+          "end": 74,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 85,
+          "end": 96,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 224,
+          "end": 255,
+          "text": "See Brief for Respondent 33–35;",
+          "type": "reference",
+          "canonical": "Brief for Respondent, pp. 33–35"
+        },
+        {
+          "start": 256,
+          "end": 288,
+          "text": "Liu, 591 U. S., at 83–84, 90–92;",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 289,
+          "end": 323,
+          "text": "Third Restatement § 51, Comment f.",
+          "type": "reference",
+          "canonical": "Restatement (Third) of Restitution and Unjust Enrichment § 51"
+        },
+        {
+          "start": 537,
+          "end": 556,
+          "text": "§ 78u(d)(3)(A)(ii).",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u"
+        },
+        {
+          "start": 595,
+          "end": 606,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 620,
+          "end": 631,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 703,
+          "end": 714,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 791,
+          "end": 808,
+          "text": "591 U. S., at 79,",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 983,
+          "end": 994,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1171,
+          "end": 1195,
+          "text": "Brief for Respondent 35.",
+          "type": "reference",
+          "canonical": "Brief for Respondent, p. 35"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        },
+        {
+          "from": "§ 78u(d)(7)",
+          "to": "Section seventy-eight u d seven"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 41,
+          "end": 933
+        }
+      ],
+      "citations": [
+        {
+          "start": 218,
+          "end": 240,
+          "text": "Liu, 591 U. S., at 79.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 416,
+          "end": 427,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 431,
+          "end": 442,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 535,
+          "end": 546,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        },
+        {
+          "from": "§ 78u(d)(7)",
+          "to": "Section seventy-eight u d seven"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 933,
+          "end": 935
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 935,
+          "end": 1713
+        }
+      ],
+      "citations": [
+        {
+          "start": 345,
+          "end": 448,
+          "text": "D. Dobbs & C. Roberts, Law of Remedies: Damages–Equity–Restitution § 3.1, p. 213 (3d ed. 2018) (Dobbs).",
+          "type": "reference",
+          "canonical": "Dobbs & Roberts, Law of Remedies § 3.1 (2018)"
+        },
+        {
+          "start": 571,
+          "end": 627,
+          "text": "3 S. Williston, Law of Contracts § 1338, p. 2392 (1920);",
+          "type": "reference",
+          "canonical": "Williston, Law of Contracts § 1338 (1920)"
+        },
+        {
+          "start": 628,
+          "end": 656,
+          "text": "see also Dobbs § 3.1, at 215",
+          "type": "reference",
+          "canonical": "Dobbs & Roberts, Law of Remedies § 3.1 (2018)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[D]amages",
+          "to": "Damages"
+        },
+        {
+          "from": "[the] plaintiff",
+          "to": "the plaintiff"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1713,
+          "end": 2065
+        },
+        {
+          "page": 11,
+          "start": 55,
+          "end": 481
+        }
+      ],
+      "citations": [
+        {
+          "start": 303,
+          "end": 325,
+          "text": "Liu, 591 U. S., at 79.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 443,
+          "end": 448,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 712,
+          "end": 736,
+          "text": "See Dobbs § 3.1, at 213;",
+          "type": "reference",
+          "canonical": "Dobbs & Roberts, Law of Remedies § 3.1 (2018)"
+        },
+        {
+          "start": 737,
+          "end": 778,
+          "text": "Third Restatement § 51, Comments f, h, i.",
+          "type": "reference",
+          "canonical": "Restatement (Third) of Restitution and Unjust Enrichment § 51"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "depriv[e]",
+          "to": "deprive"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 481,
+          "end": 1380
+        }
+      ],
+      "citations": [
+        {
+          "start": 243,
+          "end": 320,
+          "text": "Restatement (First) of Restitution § 1, Comment e (1936) (First Restatement).",
+          "type": "reference",
+          "canonical": "Restatement (First) of Restitution § 1 (1936)"
+        },
+        {
+          "start": 554,
+          "end": 595,
+          "text": "Third Restatement § 3, Reporter's Note a;",
+          "type": "reference",
+          "canonical": "Restatement (Third) of Restitution and Unjust Enrichment § 3"
+        },
+        {
+          "start": 596,
+          "end": 616,
+          "text": "id., § 1, Comment a.",
+          "type": "reference",
+          "canonical": "Restatement (Third) of Restitution and Unjust Enrichment § 1"
+        },
+        {
+          "start": 865,
+          "end": 898,
+          "text": "First Restatement § 1, Comment e.",
+          "type": "reference",
+          "canonical": "Restatement (First) of Restitution § 1 (1936)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the defendant's]",
+          "to": "the defendant's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1380,
+          "end": 2098
+        },
+        {
+          "page": 12,
+          "start": 72,
+          "end": 707
+        }
+      ],
+      "citations": [
+        {
+          "start": 63,
+          "end": 100,
+          "text": ", 185 Va. 534, 39 S. E. 2d 231 (1946)",
+          "type": "case",
+          "canonical": "39 S.E.2d 231"
+        },
+        {
+          "start": 219,
+          "end": 260,
+          "text": "Id., at 537–539, 39 S. E. 2d, at 232–233.",
+          "type": "case",
+          "canonical": "39 S.E.2d 231"
+        },
+        {
+          "start": 455,
+          "end": 460,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "39 S.E.2d 231"
+        },
+        {
+          "start": 560,
+          "end": 565,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "39 S.E.2d 231"
+        },
+        {
+          "start": 674,
+          "end": 679,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "39 S.E.2d 231"
+        },
+        {
+          "start": 766,
+          "end": 771,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "39 S.E.2d 231"
+        },
+        {
+          "start": 985,
+          "end": 990,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "39 S.E.2d 231"
+        },
+        {
+          "start": 1136,
+          "end": 1173,
+          "text": "Id., at 548, 39 S. E. 2d, at 238–239.",
+          "type": "case",
+          "canonical": "39 S.E.2d 231"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 707,
+          "end": 1852
+        }
+      ],
+      "citations": [
+        {
+          "start": 53,
+          "end": 84,
+          "text": "170 Cal. 170, 149 P. 48 (1915),",
+          "type": "case",
+          "canonical": "149 P. 48"
+        },
+        {
+          "start": 245,
+          "end": 272,
+          "text": "Id., at 171, 149 P., at 48.",
+          "type": "case",
+          "canonical": "149 P. 48"
+        },
+        {
+          "start": 347,
+          "end": 368,
+          "text": "Ibid., 149 P., at 49.",
+          "type": "case",
+          "canonical": "149 P. 48"
+        },
+        {
+          "start": 477,
+          "end": 482,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "149 P. 48"
+        },
+        {
+          "start": 615,
+          "end": 642,
+          "text": "Id., at 174, 149 P., at 50.",
+          "type": "case",
+          "canonical": "149 P. 48"
+        },
+        {
+          "start": 670,
+          "end": 707,
+          "text": "265 Ky. 418, 96 S. W. 2d 1028 (1936),",
+          "type": "case",
+          "canonical": "96 S.W.2d 1028"
+        },
+        {
+          "start": 825,
+          "end": 868,
+          "text": "Id., at 420–421, 96 S. W. 2d, at 1028–1029.",
+          "type": "case",
+          "canonical": "96 S.W.2d 1028"
+        },
+        {
+          "start": 1102,
+          "end": 1145,
+          "text": "Id., at 422–429, 96 S. W. 2d, at 1030–1033.",
+          "type": "case",
+          "canonical": "96 S.W.2d 1028"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "plo[w]",
+          "to": "plow"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1852,
+          "end": 2201
+        },
+        {
+          "page": 13,
+          "start": 55,
+          "end": 206
+        }
+      ],
+      "citations": [
+        {
+          "start": 31,
+          "end": 69,
+          "text": "26 Wash. 2d 282, 173 P. 2d 652 (1946),",
+          "type": "case",
+          "canonical": "173 P.2d 652"
+        },
+        {
+          "start": 265,
+          "end": 304,
+          "text": "Id., at 284–286, 173 P. 2d, at 653–654.",
+          "type": "case",
+          "canonical": "173 P.2d 652"
+        },
+        {
+          "start": 362,
+          "end": 445,
+          "text": "See, e. g., Leman v. Krentler-Arnold Hinge Last Co., 284 U. S. 448, 455–457 (1932);",
+          "type": "case",
+          "canonical": "284 U.S. 448"
+        },
+        {
+          "start": 446,
+          "end": 501,
+          "text": "United States v. Carter, 217 U. S. 286, 305–306 (1910).",
+          "type": "case",
+          "canonical": "217 U.S. 286"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 206,
+          "end": 725
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 725,
+          "end": 727
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 727,
+          "end": 1440
+        }
+      ],
+      "citations": [
+        {
+          "start": 317,
+          "end": 344,
+          "text": "Brief for Petitioner 15–17.",
+          "type": "reference",
+          "canonical": "Brief for Petitioner, pp. 15–17"
+        },
+        {
+          "start": 458,
+          "end": 475,
+          "text": "591 U. S., at 79.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1440,
+          "end": 1962
+        },
+        {
+          "page": 14,
+          "start": 41,
+          "end": 828
+        }
+      ],
+      "citations": [
+        {
+          "start": 260,
+          "end": 330,
+          "text": "Id., at 80 (quoting Tull v. United States, 481 U. S. 412, 424 (1987)).",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 1044,
+          "end": 1130,
+          "text": "See also Falk v. Hoffman, 233 N. Y . 199, 202, 135 N. E. 243, 244 (1922) (Cardozo, J.)",
+          "type": "case",
+          "canonical": "135 N.E. 243"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "restor[e]",
+          "to": "restore"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 828,
+          "end": 1687
+        }
+      ],
+      "citations": [
+        {
+          "start": 232,
+          "end": 243,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 349,
+          "end": 376,
+          "text": "Brief for Petitioner 22–23.",
+          "type": "reference",
+          "canonical": "Brief for Petitioner, pp. 22–23"
+        },
+        {
+          "start": 532,
+          "end": 559,
+          "text": "Marshall, 15 Wall., at 149;",
+          "type": "case",
+          "canonical": "82 U.S. 146"
+        },
+        {
+          "start": 560,
+          "end": 595,
+          "text": "see also Liu, 591 U. S., at 82, 90.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 814,
+          "end": 832,
+          "text": "See Pet. App. 31a;",
+          "type": "record",
+          "canonical": "Petition appendix, p. 31a"
+        },
+        {
+          "start": 833,
+          "end": 858,
+          "text": "ECF Doc. 142–1, pp. 9–10.",
+          "type": "record",
+          "canonical": "No. 3:20–cv–01864, ECF Doc. 142–1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(7)",
+          "to": "Section seventy-eight u d seven"
+        },
+        {
+          "from": "len[d] [their] aid",
+          "to": "lend their aid"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1687,
+          "end": 2100
+        },
+        {
+          "page": 15,
+          "start": 88,
+          "end": 521
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 172,
+          "end": 183,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 253,
+          "end": 264,
+          "text": "§ 78u(d)(5)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 276,
+          "end": 297,
+          "text": "591 U. S., at 82– 85.",
+          "type": "case",
+          "canonical": "591 U.S. 71"
+        },
+        {
+          "start": 370,
+          "end": 381,
+          "text": "§ 78u(d)(7)",
+          "type": "statute",
+          "canonical": "15 U.S.C. § 78u",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 468,
+          "end": 525,
+          "text": "See, e. g., SEC v. Jarkesy, 603 U. S. 109, 123–125 (2024)",
+          "type": "case",
+          "canonical": "603 U.S. 109"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 78u(d)(5)",
+          "to": "Section seventy-eight u d five"
+        },
+        {
+          "from": "§ 78u(d)(7)",
+          "to": "Section seventy-eight u d seven"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 521,
+          "end": 1395
+        }
+      ],
+      "citations": [
+        {
+          "start": 320,
+          "end": 460,
+          "text": "See, e. g., Brief for Chamber of Commerce of the United States of America as Amicus Curiae 11–12 (citing Third Restatement § 51, Comment a).",
+          "type": "reference",
+          "canonical": "Brief for Chamber of Commerce, pp. 11–12"
+        },
+        {
+          "start": 640,
+          "end": 658,
+          "text": "See id., at 15–20.",
+          "type": "reference",
+          "canonical": "Brief for Chamber of Commerce, pp. 15–20"
+        },
+        {
+          "start": 847,
+          "end": 872,
+          "text": "154 F. 4th, at 986, n. 6.",
+          "type": "case",
+          "canonical": "154 F.4th 980"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "suffer[ed]",
+          "to": "suffered"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1397,
+          "end": 1615
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 3,
+      "start": 968,
+      "end": 2057,
+      "text": "*Briefs of amici curiae urging reversal were fled for California Alternative Investments Association by Keri Curtis Axel and Becky S. James;\nfor Former Securities and Exchange Commission Attorneys by Nicolas\nMorgan, pro se; for Investor Choice Advocates Network by Rachel Frank\nQuinton, Sarah Heaton Concannon, and Nicolas Morgan; for the Pacifc\nLegal Foundation et al. by Oliver J. Dunford; for the Washington Legal\nFoundation by Cory L. Andrews and Zac Morgan; and for Kalistratos\nKabilafkas et al. by Matthew A. Ford and Arthur Kutoroff . Adam G.\nUnikowsky fled a brief for the Chamber of Commerce of the United\nStates of America as amicus curiae urging vacatur.\nBriefs of amici curiae urging affrmance were fled for Better Markets,\nInc., by Dennis M. Kelleher and Dominick V. Freda; for the Consumer\nFederation of America by Victor Suthammanont and Gray Proctor; and\nfor Remedies and Restitution Scholars by Elizabeth B. Wydra and Brianne J. Gorod.\nH. Hunter Bruton, John L. Gibbons, and Noel Hudson fled a brief for\nthe Cato Institute as amicus curiae .\nPage Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 72,
+      "text": "Page Proof Pending Publication\n558 SRIPETCH v. SEC\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 555 (2026) 559\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 5,
+      "start": 2104,
+      "end": 2134,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 72,
+      "text": "Page Proof Pending Publication\n560 SRIPETCH v. SEC\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 555 (2026) 561\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 7,
+      "start": 1948,
+      "end": 1978,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 41,
+      "text": "562 SRIPETCH v. SEC\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 8,
+      "start": 1971,
+      "end": 2001,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 555 (2026) 563\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 9,
+      "start": 2070,
+      "end": 2100,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 41,
+      "text": "564 SRIPETCH v. SEC\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 10,
+      "start": 2065,
+      "end": 2095,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 555 (2026) 565\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 11,
+      "start": 2098,
+      "end": 2128,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 72,
+      "text": "Page Proof Pending Publication\n566 SRIPETCH v. SEC\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 555 (2026) 567\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 13,
+      "start": 1962,
+      "end": 1992,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 41,
+      "text": "568 SRIPETCH v. SEC\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 14,
+      "start": 2100,
+      "end": 2130,
+      "text": "Page Proof Pending Publication",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 88,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 555 (2026) 569\nThomas, J., concurring\n",
+      "reason": "Publication/counsel furniture, running header, footnote number, or intervening separate-writing prose outside this opinion"
+    },
+    {
+      "page": 15,
+      "start": 1395,
+      "end": 1396,
+      "text": "*",
+      "reason": "Ornamental separator"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 2096,
+      "end": 2102,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 1,
+      "start": 1359,
+      "end": 1365,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 1,
+      "start": 895,
+      "end": 903,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 2,
+      "start": 1235,
+      "end": 1241,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 2,
+      "start": 1879,
+      "end": 1883,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 2,
+      "start": 1759,
+      "end": 1765,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 2,
+      "start": 498,
+      "end": 506,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 2,
+      "start": 1811,
+      "end": 1819,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 2,
+      "start": 1549,
+      "end": 1559,
+      "expectedText": "fnancially",
+      "text": "financially"
+    },
+    {
+      "page": 2,
+      "start": 418,
+      "end": 430,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 2,
+      "start": 1798,
+      "end": 1810,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 3,
+      "start": 71,
+      "end": 78,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 4,
+      "start": 1740,
+      "end": 1746,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 4,
+      "start": 1272,
+      "end": 1276,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 4,
+      "start": 1831,
+      "end": 1835,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 5,
+      "start": 1858,
+      "end": 1864,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 5,
+      "start": 1953,
+      "end": 1959,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 5,
+      "start": 158,
+      "end": 161,
+      "expectedText": "fne",
+      "text": "fine"
+    },
+    {
+      "page": 5,
+      "start": 1027,
+      "end": 1033,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 6,
+      "start": 1162,
+      "end": 1170,
+      "expectedText": "clarifed",
+      "text": "clarified"
+    },
+    {
+      "page": 7,
+      "start": 1930,
+      "end": 1934,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 7,
+      "start": 1081,
+      "end": 1088,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 7,
+      "start": 1177,
+      "end": 1185,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 8,
+      "start": 1802,
+      "end": 1808,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 8,
+      "start": 175,
+      "end": 181,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 8,
+      "start": 493,
+      "end": 499,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 9,
+      "start": 1035,
+      "end": 1041,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 9,
+      "start": 1913,
+      "end": 1919,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 9,
+      "start": 636,
+      "end": 640,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 9,
+      "start": 1936,
+      "end": 1943,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 10,
+      "start": 1984,
+      "end": 1990,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 10,
+      "start": 1261,
+      "end": 1273,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 10,
+      "start": 1847,
+      "end": 1859,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 11,
+      "start": 1331,
+      "end": 1339,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 11,
+      "start": 276,
+      "end": 280,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 11,
+      "start": 1251,
+      "end": 1263,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 12,
+      "start": 1636,
+      "end": 1642,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 12,
+      "start": 1963,
+      "end": 1969,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 12,
+      "start": 368,
+      "end": 375,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 12,
+      "start": 430,
+      "end": 437,
+      "expectedText": "benefts",
+      "text": "benefits"
+    },
+    {
+      "page": 13,
+      "start": 717,
+      "end": 723,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 13,
+      "start": 1432,
+      "end": 1438,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 13,
+      "start": 417,
+      "end": 429,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 14,
+      "start": 530,
+      "end": 534,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 14,
+      "start": 375,
+      "end": 381,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 14,
+      "start": 427,
+      "end": 435,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 14,
+      "start": 165,
+      "end": 175,
+      "expectedText": "fnancially",
+      "text": "financially"
+    },
+    {
+      "page": 14,
+      "start": 694,
+      "end": 701,
+      "expectedText": "effcacy",
+      "text": "efficacy"
+    },
+    {
+      "page": 14,
+      "start": 728,
+      "end": 735,
+      "expectedText": "effcacy",
+      "text": "efficacy"
+    },
+    {
+      "page": 14,
+      "start": 764,
+      "end": 769,
+      "expectedText": "baffe",
+      "text": "baffle"
+    },
+    {
+      "page": 14,
+      "start": 788,
+      "end": 794,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 14,
+      "start": 414,
+      "end": 426,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 15,
+      "start": 1588,
+      "end": 1595,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 16,
+      "start": 375,
+      "end": 381,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 16,
+      "start": 1308,
+      "end": 1314,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 16,
+      "start": 1251,
+      "end": 1255,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 17,
+      "start": 157,
+      "end": 163,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 19,
+      "start": 1532,
+      "end": 1538,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 19,
+      "start": 195,
+      "end": 202,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 20,
+      "start": 379,
+      "end": 385,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 20,
+      "start": 493,
+      "end": 499,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 20,
+      "start": 710,
+      "end": 716,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 20,
+      "start": 794,
+      "end": 800,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 20,
+      "start": 1582,
+      "end": 1588,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 20,
+      "start": 522,
+      "end": 534,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 21,
+      "start": 399,
+      "end": 405,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 21,
+      "start": 333,
+      "end": 345,
+      "expectedText": "plaintiff 's",
+      "text": "plaintiff's"
+    },
+    {
+      "page": 22,
+      "start": 814,
+      "end": 820,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 22,
+      "start": 891,
+      "end": 897,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 22,
+      "start": 742,
+      "end": 748,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 24,
+      "start": 1641,
+      "end": 1647,
+      "expectedText": "profts",
+      "text": "profits"
+    },
+    {
+      "page": 24,
+      "start": 129,
+      "end": 133,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 24,
+      "start": 1035,
+      "end": 1042,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 24,
+      "start": 1154,
+      "end": 1161,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 4,
+      "start": 1982,
+      "end": 1989,
+      "expectedText": "We dis-",
+      "text": "We dis"
+    },
+    {
+      "page": 6,
+      "start": 726,
+      "end": 746,
+      "expectedText": "“[in]-\nfeasibility.”",
+      "text": "“[in]feasibility.”"
+    },
+    {
+      "page": 14,
+      "start": 2087,
+      "end": 2099,
+      "expectedText": "from equita-",
+      "text": "from equita"
+    },
+    {
+      "page": 8,
+      "start": 555,
+      "end": 562,
+      "expectedText": "harm. ”",
+      "text": "harm.”"
+    },
+    {
+      "page": 4,
+      "start": 1410,
+      "end": 1420,
+      "expectedText": "1307–\n1308",
+      "text": "1307–1308"
+    },
+    {
+      "page": 15,
+      "start": 932,
+      "end": 938,
+      "expectedText": "11–\n12",
+      "text": "11–12"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete Court opinion checked against published PDF. No substantive footnote belongs to this Court writing; initial starred counsel note and ornamental final star excluded. Restored actual paragraph boundaries on pages with missing layout markers, repaired ligatures, possessives, and disagreed/equitable page joins. Preserved all substantive legal and historical illustrations, quotations, explanatory parentheticals and meaningful statute references. Source-only citations omitted from narration with context-correct targets."
+}

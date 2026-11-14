@@ -1,0 +1,1779 @@
+{
+  "reviewed": true,
+  "documentId": "25A378-0a2153be42b9--0-486",
+  "sourceDocumentId": "25A378-0a2153be42b9",
+  "sourceTextPath": "dist/data/current-docs/25A378-0a2153be42b9.json",
+  "sourceTextSha256": "1d9f17771fb989e71bc72f20c6aac6cae59f1220b5974900225d67ee006d48bc",
+  "sourcePdfPath": "recordings/sources/1d4c833fc1379959bb472339.pdf",
+  "sourcePdfSha256": "1d4c833fc1379959bb4723391887aaec69062b1d8d5282d56b32f09769b143ee",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2025-10-15",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a378_0pm1.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 632,
+    "endPage": 12,
+    "endOffset": 244
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 632,
+          "end": 1216
+        }
+      ],
+      "citations": [
+        {
+          "start": 300,
+          "end": 318,
+          "text": "McCoy v. Louisiana",
+          "type": "case",
+          "canonical": "584 U.S. 414",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 318,
+          "end": 340,
+          "text": ", 584 U. S. 414 (2018)",
+          "type": "case",
+          "canonical": "584 U.S. 414"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1216,
+          "end": 1661
+        },
+        {
+          "page": 1,
+          "start": 52,
+          "end": 295
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 1,
+          "start": 295,
+          "end": 298
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 298,
+          "end": 570
+        }
+      ],
+      "citations": [
+        {
+          "start": 67,
+          "end": 125,
+          "text": "See Crawford v. State, 716 So. 2d 1028, 1031 (Miss. 1998).",
+          "type": "case",
+          "canonical": "716 So.2d 1028"
+        },
+        {
+          "start": 193,
+          "end": 211,
+          "text": "Id., at 1031–1037.",
+          "type": "case",
+          "canonical": "716 So.2d 1028"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 570,
+          "end": 1113
+        }
+      ],
+      "citations": [
+        {
+          "start": 526,
+          "end": 541,
+          "text": "See Exhs. F, J.",
+          "type": "record",
+          "canonical": "Crawford postconviction petition, Exhibits F and J"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1657,
+          "end": 1840
+        }
+      ],
+      "label": "1",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 183,
+          "text": "Citations to exhibits are to the exhibits attached to Crawford’s Petition for Post-Conviction Relief before the Mississippi Supreme Court, No. 2024–DR–01386–SCT (filed Dec. 12, 2024).",
+          "type": "record",
+          "canonical": "Crawford, No. 2024-DR-01386-SCT, postconviction petition exhibits"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1113,
+          "end": 1649
+        }
+      ],
+      "citations": [
+        {
+          "start": 242,
+          "end": 299,
+          "text": "Exh. F, p. 12 (spelling corrected, emphasis in original).",
+          "type": "record",
+          "canonical": "Crawford postconviction petition, Ex. F, p. 12"
+        },
+        {
+          "start": 481,
+          "end": 535,
+          "text": "Id., at 13 (spelling corrected, emphasis in original).",
+          "type": "record",
+          "canonical": "Crawford postconviction petition, Ex. F, p. 13"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 26,
+          "end": 486
+        }
+      ],
+      "citations": [
+        {
+          "start": 289,
+          "end": 302,
+          "text": "Exh. A, at 1.",
+          "type": "record",
+          "canonical": "Crawford postconviction petition, Ex. A, p. 1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 486,
+          "end": 1604
+        }
+      ],
+      "citations": [
+        {
+          "start": 265,
+          "end": 280,
+          "text": "Exh. M, at 309.",
+          "type": "record",
+          "canonical": "Crawford trial transcript, p. 309"
+        },
+        {
+          "start": 565,
+          "end": 577,
+          "text": "Id., at 310.",
+          "type": "record",
+          "canonical": "Crawford trial transcript, p. 310"
+        },
+        {
+          "start": 645,
+          "end": 665,
+          "text": "See id., at 415–416.",
+          "type": "record",
+          "canonical": "Crawford trial transcript, pp. 415-416"
+        },
+        {
+          "start": 859,
+          "end": 872,
+          "text": "Id., at 1179.",
+          "type": "record",
+          "canonical": "Crawford trial transcript, p. 1179"
+        },
+        {
+          "start": 1099,
+          "end": 1117,
+          "text": "Id., at 1189–1190.",
+          "type": "record",
+          "canonical": "Crawford trial transcript, pp. 1189-1190"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Crawford]",
+          "to": "Crawford"
+        },
+        {
+          "from": "[the State]",
+          "to": "the State"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "[n]o",
+          "to": "no"
+        },
+        {
+          "from": "turn[ed]",
+          "to": "turned"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1605,
+          "end": 2063
+        },
+        {
+          "page": 3,
+          "start": 52,
+          "end": 263
+        }
+      ],
+      "citations": [
+        {
+          "start": 367,
+          "end": 379,
+          "text": "Id., at 409.",
+          "type": "record",
+          "canonical": "Crawford trial transcript, p. 409"
+        },
+        {
+          "start": 546,
+          "end": 562,
+          "text": "Id., at 819–820.",
+          "type": "record",
+          "canonical": "Crawford trial transcript, pp. 819-820"
+        },
+        {
+          "start": 657,
+          "end": 669,
+          "text": "Id., at 820.",
+          "type": "record",
+          "canonical": "Crawford trial transcript, p. 820"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[and]",
+          "to": "and"
+        },
+        {
+          "from": "[have]",
+          "to": "have"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 263,
+          "end": 488
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 488,
+          "end": 818
+        }
+      ],
+      "citations": [
+        {
+          "start": 125,
+          "end": 177,
+          "text": "See, e.g., Crawford v. State, 867 So. 2d 196 (2003);",
+          "type": "case",
+          "canonical": "867 So.2d 196"
+        },
+        {
+          "start": 178,
+          "end": 226,
+          "text": "Crawford v. Epps, 353 Fed. Appx. 977 (CA5 2009);",
+          "type": "case",
+          "canonical": "353 Fed.Appx. 977"
+        },
+        {
+          "start": 227,
+          "end": 275,
+          "text": "Crawford v. State, 218 So. 3d 1142 (Miss. 2016);",
+          "type": "case",
+          "canonical": "218 So.3d 1142"
+        },
+        {
+          "start": 276,
+          "end": 329,
+          "text": "see also Crawford v. Cain, 122 F. 4th 158 (CA5 2024).",
+          "type": "case",
+          "canonical": "122 F.4th 158"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 818,
+          "end": 1168
+        }
+      ],
+      "citations": [
+        {
+          "start": 163,
+          "end": 181,
+          "text": "McCoy v. Louisiana",
+          "type": "case",
+          "canonical": "584 U.S. 414",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 181,
+          "end": 196,
+          "text": ", 584 U. S. 414",
+          "type": "case",
+          "canonical": "584 U.S. 414"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1168,
+          "end": 2035
+        },
+        {
+          "page": 4,
+          "start": 26,
+          "end": 106
+        }
+      ],
+      "citations": [
+        {
+          "start": 205,
+          "end": 263,
+          "text": "___ So. 3d ___, ___, 2025 WL 2675597, *1 (Sept. 12, 2025);",
+          "type": "case",
+          "canonical": "2025 WL 2675597"
+        },
+        {
+          "start": 264,
+          "end": 280,
+          "text": "Pet. App. 5a–6a.",
+          "type": "record",
+          "canonical": "Petition appendix, pp. 5a-6a"
+        },
+        {
+          "start": 490,
+          "end": 510,
+          "text": "2025 WL 2675597, *1;",
+          "type": "case",
+          "canonical": "2025 WL 2675597"
+        },
+        {
+          "start": 511,
+          "end": 576,
+          "text": "see Miss. Code Ann. §§99–39–5(2)(a)(i), 99–39–27(9) (1973– 2020).",
+          "type": "statute",
+          "canonical": "Miss. Code Ann. §§99-39-5(2)(a)(i), 99-39-27(9)"
+        },
+        {
+          "start": 731,
+          "end": 751,
+          "text": "2025 WL 2675597, *1.",
+          "type": "case",
+          "canonical": "2025 WL 2675597"
+        },
+        {
+          "start": 844,
+          "end": 849,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "2025 WL 2675597"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[had]",
+          "to": "had"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 106,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 110,
+          "end": 328
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 328,
+          "end": 813
+        }
+      ],
+      "citations": [
+        {
+          "start": 108,
+          "end": 155,
+          "text": "Glossip v. Oklahoma, 604 U. S. 226, 242 (2025).",
+          "type": "case",
+          "canonical": "604 U.S. 226"
+        },
+        {
+          "start": 310,
+          "end": 335,
+          "text": "Ibid. (citation omitted).",
+          "type": "case",
+          "canonical": "604 U.S. 226"
+        },
+        {
+          "start": 418,
+          "end": 423,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "604 U.S. 226"
+        },
+        {
+          "start": 424,
+          "end": 485,
+          "text": "(quoting Michigan v. Long, 463 U. S. 1032, 1040–1041 (1983)).",
+          "type": "case",
+          "canonical": "463 U.S. 1032"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 813,
+          "end": 1537
+        }
+      ],
+      "citations": [
+        {
+          "start": 167,
+          "end": 187,
+          "text": "2025 WL 2675597, *1.",
+          "type": "case",
+          "canonical": "2025 WL 2675597"
+        },
+        {
+          "start": 344,
+          "end": 431,
+          "text": "American Trucking Assns., Inc. v. Smith, 496 U. S. 167, 177 (1990) (plurality opinion);",
+          "type": "case",
+          "canonical": "496 U.S. 167"
+        },
+        {
+          "start": 432,
+          "end": 468,
+          "text": "Harper v. Virginia Dept. of Taxation",
+          "type": "case",
+          "canonical": "509 U.S. 86",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 468,
+          "end": 494,
+          "text": ", 509 U. S. 86, 100 (1993)",
+          "type": "case",
+          "canonical": "509 U.S. 86"
+        },
+        {
+          "start": 656,
+          "end": 674,
+          "text": "(citation omitted)",
+          "type": "reference",
+          "canonical": "Citation omitted by the Court"
+        },
+        {
+          "start": 675,
+          "end": 723,
+          "text": "; Yates v. Aiken, 484 U. S. 211, 214–218 (1988).",
+          "type": "case",
+          "canonical": "484 U.S. 211"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1537,
+          "end": 1881
+        },
+        {
+          "page": 5,
+          "start": 52,
+          "end": 454
+        }
+      ],
+      "citations": [
+        {
+          "start": 273,
+          "end": 296,
+          "text": "Brief in Opposition 19.",
+          "type": "record",
+          "canonical": "Brief in opposition, p. 19"
+        },
+        {
+          "start": 392,
+          "end": 418,
+          "text": ", see 2025 WL 2675597, *1,",
+          "type": "case",
+          "canonical": "2025 WL 2675597"
+        },
+        {
+          "start": 457,
+          "end": 492,
+          "text": ", see Long, 463 U. S., at 1040–1041",
+          "type": "case",
+          "canonical": "463 U.S. 1032"
+        },
+        {
+          "start": 720,
+          "end": 746,
+          "text": "See 584 U. S., at 427–428.",
+          "type": "case",
+          "canonical": "584 U.S. 414"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "decisio[n]",
+          "to": "decision"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 454,
+          "end": 1351
+        }
+      ],
+      "citations": [
+        {
+          "start": 138,
+          "end": 158,
+          "text": "2025 WL 2675597, *1.",
+          "type": "case",
+          "canonical": "2025 WL 2675597"
+        },
+        {
+          "start": 286,
+          "end": 327,
+          "text": "See, e.g., Long, 463 U. S., at 1040–1401.",
+          "type": "case",
+          "canonical": "463 U.S. 1032"
+        },
+        {
+          "start": 702,
+          "end": 706,
+          "text": "See ",
+          "type": "case",
+          "canonical": "66 So.3d 90"
+        },
+        {
+          "start": 706,
+          "end": 719,
+          "text": "Bell v. State",
+          "type": "case",
+          "canonical": "66 So.3d 90",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 719,
+          "end": 744,
+          "text": ", 66 So. 3d 90, 93 (2011)",
+          "type": "case",
+          "canonical": "66 So.3d 90"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1351,
+          "end": 1356
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1356,
+          "end": 2009
+        },
+        {
+          "page": 6,
+          "start": 59,
+          "end": 316
+        }
+      ],
+      "citations": [
+        {
+          "start": 221,
+          "end": 268,
+          "text": "Barefoot v. Estelle, 463 U. S. 880, 895 (1983).",
+          "type": "case",
+          "canonical": "463 U.S. 880"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 316,
+          "end": 319
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 319,
+          "end": 613
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 613,
+          "end": 1045
+        }
+      ],
+      "citations": [
+        {
+          "start": 259,
+          "end": 325,
+          "text": "Chaidez v. United States, 568 U. S. 342, 347–348, and n. 3 (2013).",
+          "type": "case",
+          "canonical": "568 U.S. 342"
+        },
+        {
+          "start": 386,
+          "end": 431,
+          "text": "Edwards v. Vannoy, 593 U. S. 255, 273 (2021).",
+          "type": "case",
+          "canonical": "593 U.S. 255"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1045,
+          "end": 1569
+        }
+      ],
+      "citations": [
+        {
+          "start": 283,
+          "end": 287,
+          "text": "See ",
+          "type": "case",
+          "canonical": "49 Cal.App.5th 377"
+        },
+        {
+          "start": 287,
+          "end": 298,
+          "text": "In re Smith",
+          "type": "case",
+          "canonical": "49 Cal.App.5th 377",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 298,
+          "end": 365,
+          "text": ", 49 Cal. App. 5th 377, 390–392, 263 Cal. Rptr. 3d 63, 73–74 (2020)",
+          "type": "case",
+          "canonical": "49 Cal.App.5th 377"
+        },
+        {
+          "start": 417,
+          "end": 419,
+          "text": "; ",
+          "type": "case",
+          "canonical": "2023 WL 8431827"
+        },
+        {
+          "start": 419,
+          "end": 455,
+          "text": "Jan G. v. Commissioner of Correction",
+          "type": "case",
+          "canonical": "2023 WL 8431827",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 455,
+          "end": 515,
+          "text": ", 2023 WL 8431827, *18–*20 (Conn. Super. Ct., Nov. 20, 2023)",
+          "type": "case",
+          "canonical": "2023 WL 8431827"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": ")Jan G.",
+          "to": "); Jan G."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1569,
+          "end": 1907
+        }
+      ],
+      "citations": [
+        {
+          "start": 196,
+          "end": 220,
+          "text": "See 2025 WL 2675597, *1;",
+          "type": "case",
+          "canonical": "2025 WL 2675597"
+        },
+        {
+          "start": 221,
+          "end": 280,
+          "text": "see also Miss. Motion to Dismiss in No. 2024–DR–01386–SCT 7",
+          "type": "record",
+          "canonical": "No. 2024-DR-01386-SCT, Motion to dismiss, p. 7"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 52,
+          "end": 211
+        }
+      ],
+      "citations": [
+        {
+          "start": 116,
+          "end": 158,
+          "text": "Smith v. Stein, 982 F. 3d 229, 234 (2020).",
+          "type": "case",
+          "canonical": "982 F.3d 229"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 211,
+          "end": 762
+        }
+      ],
+      "citations": [
+        {
+          "start": 336,
+          "end": 389,
+          "text": "584 U. S., at 427 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "584 U.S. 414"
+        },
+        {
+          "start": 539,
+          "end": 551,
+          "text": "Id., at 428.",
+          "type": "case",
+          "canonical": "584 U.S. 414"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 762,
+          "end": 1188
+        }
+      ],
+      "citations": [
+        {
+          "start": 238,
+          "end": 250,
+          "text": "Id., at 427.",
+          "type": "case",
+          "canonical": "584 U.S. 414"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1188,
+          "end": 1402
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1636,
+          "end": 1950
+        }
+      ],
+      "label": "2",
+      "citations": [
+        {
+          "start": 0,
+          "end": 27,
+          "text": "See, e.g., Pet. for Cert., ",
+          "type": "record",
+          "canonical": "Ramirez v. Collier, No. 21-5592, certiorari petition"
+        },
+        {
+          "start": 27,
+          "end": 45,
+          "text": "Ramirez v. Collier",
+          "type": "record",
+          "canonical": "Ramirez v. Collier, No. 21-5592, certiorari petition",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 45,
+          "end": 80,
+          "text": ", No. 21-5592 (U. S. Sept. 7, 2021)",
+          "type": "record",
+          "canonical": "Ramirez v. Collier, No. 21-5592, certiorari petition"
+        },
+        {
+          "start": 91,
+          "end": 109,
+          "text": "; Pet. for Cert., ",
+          "type": "record",
+          "canonical": "Gutierrez v. Saenz, No. 19-8695, certiorari petition"
+        },
+        {
+          "start": 109,
+          "end": 127,
+          "text": "Gutierrez v. Saenz",
+          "type": "record",
+          "canonical": "Gutierrez v. Saenz, No. 19-8695, certiorari petition",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 127,
+          "end": 162,
+          "text": ", No. 19–8695 (U. S. June 15, 2020)",
+          "type": "record",
+          "canonical": "Gutierrez v. Saenz, No. 19-8695, certiorari petition"
+        },
+        {
+          "start": 173,
+          "end": 206,
+          "text": "; see also Pet. for Cert. 17–19, ",
+          "type": "record",
+          "canonical": "Glossip v. Oklahoma, No. 22-7466, certiorari petition, pp. 17-19"
+        },
+        {
+          "start": 206,
+          "end": 225,
+          "text": "Glossip v. Oklahoma",
+          "type": "record",
+          "canonical": "Glossip v. Oklahoma, No. 22-7466, certiorari petition, pp. 17-19",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 225,
+          "end": 258,
+          "text": ", No. 22-7466 (U. S. May 4, 2023)",
+          "type": "record",
+          "canonical": "Glossip v. Oklahoma, No. 22-7466, certiorari petition, pp. 17-19"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": ")Gutierrez",
+          "to": "); Gutierrez"
+        },
+        {
+          "from": ")Glossip",
+          "to": "); Glossip"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1402,
+          "end": 1405
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1405,
+          "end": 1628
+        },
+        {
+          "page": 8,
+          "start": 26,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 120,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 123,
+          "end": 855
+        }
+      ],
+      "citations": [
+        {
+          "start": 151,
+          "end": 192,
+          "text": "Chaidez, 568 U. S., at 347–348, and n. 3.",
+          "type": "case",
+          "canonical": "568 U.S. 342"
+        },
+        {
+          "start": 341,
+          "end": 408,
+          "text": "Id., at 347– 348 (brackets, emphasis, and quotation marks omitted).",
+          "type": "case",
+          "canonical": "568 U.S. 342"
+        },
+        {
+          "start": 693,
+          "end": 731,
+          "text": "Id., at 348 (quotation marks omitted).",
+          "type": "case",
+          "canonical": "568 U.S. 342"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[W]here",
+          "to": "Where"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 855,
+          "end": 1968
+        },
+        {
+          "page": 9,
+          "start": 53,
+          "end": 299
+        }
+      ],
+      "citations": [
+        {
+          "start": 179,
+          "end": 202,
+          "text": "Brief in Opposition 17.",
+          "type": "record",
+          "canonical": "Brief in opposition, p. 17"
+        },
+        {
+          "start": 445,
+          "end": 494,
+          "text": "Faretta v. California, 422 U. S. 806, 834 (1975).",
+          "type": "case",
+          "canonical": "422 U.S. 806"
+        },
+        {
+          "start": 639,
+          "end": 644,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "422 U.S. 806"
+        },
+        {
+          "start": 645,
+          "end": 730,
+          "text": "(quoting Illinois v. Allen, 397 U. S. 337, 350–351 (1970) (Brennan, J., concurring));",
+          "type": "case",
+          "canonical": "397 U.S. 337"
+        },
+        {
+          "start": 731,
+          "end": 735,
+          "text": "see ",
+          "type": "case",
+          "canonical": "443 U.S. 368"
+        },
+        {
+          "start": 735,
+          "end": 760,
+          "text": "Gannett Co. v. DePasquale",
+          "type": "case",
+          "canonical": "443 U.S. 368",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 760,
+          "end": 794,
+          "text": ", 443 U. S. 368, 382, n. 10 (1979)",
+          "type": "case",
+          "canonical": "443 U.S. 368"
+        },
+        {
+          "start": 1269,
+          "end": 1312,
+          "text": "Jones v. Barnes, 463 U. S. 745, 751 (1983);",
+          "type": "case",
+          "canonical": "463 U.S. 745"
+        },
+        {
+          "start": 1313,
+          "end": 1359,
+          "text": "see Brookhart v. Janis, 384 U. S. 1, 7 (1966).",
+          "type": "case",
+          "canonical": "384 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "[Sixth]",
+          "to": "Sixth"
+        },
+        {
+          "from": "contemplat[es]",
+          "to": "contemplates"
+        },
+        {
+          "from": "[]",
+          "to": ""
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 299,
+          "end": 1050
+        }
+      ],
+      "citations": [
+        {
+          "start": 351,
+          "end": 376,
+          "text": "McCoy, 584 U. S., at 422.",
+          "type": "case",
+          "canonical": "584 U.S. 414"
+        },
+        {
+          "start": 534,
+          "end": 563,
+          "text": "Ibid. (emphasis in original).",
+          "type": "case",
+          "canonical": "584 U.S. 414"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[him]",
+          "to": "him"
+        },
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "[t]hese",
+          "to": "these"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1627,
+          "end": 2077
+        }
+      ],
+      "label": "3",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 59,
+          "text": "See, e.g., Wiley v. Sowders, 647 F. 2d 642, 650 (CA6 1981);",
+          "type": "case",
+          "canonical": "647 F.2d 642"
+        },
+        {
+          "start": 60,
+          "end": 120,
+          "text": "Francis v. Spraggins, 720 F. 2d 1190, 1194–1195 (CA11 1983);",
+          "type": "case",
+          "canonical": "720 F.2d 1190"
+        },
+        {
+          "start": 121,
+          "end": 176,
+          "text": "State v. Anaya, 592 A. 2d 1142, 1145–1146 (N. H. 1991);",
+          "type": "case",
+          "canonical": "592 A.2d 1142"
+        },
+        {
+          "start": 177,
+          "end": 226,
+          "text": "State v. Carter, 14 P. 3d 1138, 1148 (Kan. 2000);",
+          "type": "case",
+          "canonical": "14 P.3d 1138"
+        },
+        {
+          "start": 227,
+          "end": 278,
+          "text": "Cooke v. State, 977 A. 2d 803, 849–850 (Del. 2009);",
+          "type": "case",
+          "canonical": "977 A.2d 803"
+        },
+        {
+          "start": 279,
+          "end": 331,
+          "text": "People v. Bergerud, 223 P. 3d 686, 699 (Colo. 2010);",
+          "type": "case",
+          "canonical": "223 P.3d 686"
+        },
+        {
+          "start": 332,
+          "end": 390,
+          "text": "cf. Jones v. State, 877 P. 2d 1052, 1056–1057 (Nev. 1994);",
+          "type": "case",
+          "canonical": "877 P.2d 1052"
+        },
+        {
+          "start": 391,
+          "end": 450,
+          "text": "State v. Harbison, 337 S. E. 2d 504, 506– 507 (N. C. 1985).",
+          "type": "case",
+          "canonical": "337 S.E.2d 504"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1052,
+          "end": 1344
+        }
+      ],
+      "citations": [
+        {
+          "start": 229,
+          "end": 291,
+          "text": "Am. Bar. Assn., Model Rules of Prof. Conduct R. 1.2(a) (1989).",
+          "type": "reference",
+          "canonical": "ABA Model Rules of Professional Conduct, Rule 1.2(a) (1989)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]",
+          "to": "a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1344,
+          "end": 1503
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1503,
+          "end": 1506
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1506,
+          "end": 1618
+        },
+        {
+          "page": 10,
+          "start": 60,
+          "end": 582
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 582,
+          "end": 1774
+        }
+      ],
+      "citations": [
+        {
+          "start": 232,
+          "end": 236,
+          "text": "See ",
+          "type": "case",
+          "canonical": "918 F.3d 712"
+        },
+        {
+          "start": 236,
+          "end": 257,
+          "text": "United States v. Read",
+          "type": "case",
+          "canonical": "918 F.3d 712",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 257,
+          "end": 292,
+          "text": ", 918 F. 3d 712, 719–721 (CA9 2019)",
+          "type": "case",
+          "canonical": "918 F.3d 712"
+        },
+        {
+          "start": 508,
+          "end": 543,
+          "text": "584 U. S., at 422 (emphasis added).",
+          "type": "case",
+          "canonical": "584 U.S. 414"
+        },
+        {
+          "start": 786,
+          "end": 818,
+          "text": "See Miss. Code Ann. §99-13-7(1);",
+          "type": "statute",
+          "canonical": "Miss. Code Ann. §99-13-7(1)"
+        },
+        {
+          "start": 819,
+          "end": 839,
+          "text": "Ex. M, at 1190– 1191",
+          "type": "record",
+          "canonical": "Crawford trial transcript, pp. 1190-1191"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[his]",
+          "to": "his"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1774,
+          "end": 2007
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 11,
+          "start": 52,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 55,
+          "end": 451
+        }
+      ],
+      "citations": [
+        {
+          "start": 293,
+          "end": 395,
+          "text": "Gomez v. United States Dist. Court for Northern Dist. of Cal., 503 U. S. 653, 654 (1992) (per curiam).",
+          "type": "case",
+          "canonical": "503 U.S. 653"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 451,
+          "end": 1026
+        }
+      ],
+      "citations": [
+        {
+          "start": 324,
+          "end": 347,
+          "text": "Bell, 66 So. 3d, at 93.",
+          "type": "case",
+          "canonical": "66 So.3d 90"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1026,
+          "end": 1742
+        }
+      ],
+      "citations": [
+        {
+          "start": 493,
+          "end": 573,
+          "text": "Kyles v. Whitley, 514 U. S. 419, 422 (1995) (quotation marks, brackets omitted);",
+          "type": "case",
+          "canonical": "514 U.S. 419"
+        },
+        {
+          "start": 574,
+          "end": 578,
+          "text": "cf. ",
+          "type": "case",
+          "canonical": "596 U.S. 366"
+        },
+        {
+          "start": 578,
+          "end": 603,
+          "text": "Shinn v. Martinez Ramirez",
+          "type": "case",
+          "canonical": "596 U.S. 366",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 603,
+          "end": 636,
+          "text": ", 596 U. S. 366, 375, n. 1 (2022)",
+          "type": "case",
+          "canonical": "596 U.S. 366"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[which]",
+          "to": "which"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1748,
+          "end": 1915
+        },
+        {
+          "page": 12,
+          "start": 26,
+          "end": 244
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 52,
+      "text": "2 CRAWFORD v. MISSISSIPPI\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 1,
+      "start": 1649,
+      "end": 1657,
+      "text": "—————— 1",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 1,
+      "start": 1840,
+      "end": 1874,
+      "text": "  Cite as: 607 U. S. ____ (2025) 3",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 52,
+      "text": "4 CRAWFORD v. MISSISSIPPI\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 3,
+      "start": 2035,
+      "end": 2069,
+      "text": "  Cite as: 607 U. S. ____ (2025) 5",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 52,
+      "text": "6 CRAWFORD v. MISSISSIPPI\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 59,
+      "text": "Cite as: 607 U. S. ____ (2025) 7\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 52,
+      "text": "8 CRAWFORD v. MISSISSIPPI\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 7,
+      "start": 1628,
+      "end": 1636,
+      "text": "—————— 2",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 7,
+      "start": 1950,
+      "end": 1984,
+      "text": "  Cite as: 607 U. S. ____ (2025) 9",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 53,
+      "text": "10 CRAWFORD v. MISSISSIPPI\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 9,
+      "start": 1050,
+      "end": 1052,
+      "text": "3 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 9,
+      "start": 1618,
+      "end": 1627,
+      "text": "—————— 3 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 607 U. S. ____ (2025) 11\nSOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 52,
+      "text": "12 CRAWFORD v. MISSISSIPPI\nSOTOMAYOR, J., dissenting",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 11,
+      "start": 1742,
+      "end": 1748,
+      "text": "* * *\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 11,
+      "start": 1915,
+      "end": 1950,
+      "text": "  Cite as: 607 U. S. ____ (2025) 13",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 26,
+      "text": "SOTOMAYOR, J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 4,
+      "start": 666,
+      "end": 674,
+      "expectedText": "statelaw",
+      "text": "state-law"
+    },
+    {
+      "page": 7,
+      "start": 370,
+      "end": 386,
+      "expectedText": "Amendmentsecured",
+      "text": "Amendment-secured"
+    },
+    {
+      "page": 1,
+      "start": 1111,
+      "end": 1112,
+      "expectedText": "1",
+      "text": ""
+    },
+    {
+      "page": 7,
+      "start": 1401,
+      "end": 1402,
+      "expectedText": "2",
+      "text": ""
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan",
+      "Ketanji Brown Jackson"
+    ]
+  }
+}

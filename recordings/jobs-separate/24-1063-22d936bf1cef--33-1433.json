@@ -1,0 +1,94 @@
+{
+  "documentId": "24-1063-22d936bf1cef--33-1433",
+  "sourceDocumentId": "24-1063-22d936bf1cef",
+  "sourceTextPath": "dist/data/docs/24-1063-22d936bf1cef.json",
+  "sourceTextSha256": "c5f8931e397907b5102789bb3e45e1e45daff4832f4083aa877ab7a367f0f3ab",
+  "sourcePdfPath": "dist/data/pdfs/24-1063-22d936bf1cef--33-1433.pdf",
+  "sourcePdfSha256": "ab0586fe8fe5407efe6e4481f42cf87ceccda14fd9a0014e04092a2372fd4d27",
+  "title": "Concurrence",
+  "author": "Brett M. Kavanaugh",
+  "date": "2026-06-18",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r50_lkgn.pdf",
+  "sourceRange": {
+    "startPage": 33,
+    "startOffset": 1514,
+    "endPage": 34,
+    "endOffset": 680
+  },
+  "review": "Reviewed complete separate writing against Court PDF, including page continuations. Running headers, publication footer and footnotes belonging to another writing excluded. No substantive footnote belongs to this writing.",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 1514,
+          "end": 1689
+        },
+        {
+          "page": 34,
+          "start": 52,
+          "end": 680
+        }
+      ],
+      "citations": [
+        {
+          "start": 157,
+          "end": 170,
+          "text": "Ante, at 727.",
+          "type": "case",
+          "canonical": "608 U.S. 713"
+        },
+        {
+          "start": 349,
+          "end": 366,
+          "text": "Ante, at 727–728.",
+          "type": "case",
+          "canonical": "608 U.S. 713"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 33,
+      "start": 1689,
+      "end": 1987,
+      "text": "(similar). Not only is Justice Thomas's account diffcult to reconcile\nwith our precedents. Under his view, it would seem the government\ncould go so far as to insist that defendants prospectively waive the “procedural” right to a jury in any future trial against them.\nPage Proof Pending Publication",
+      "reason": "Footnote belongs to the preceding writing, not this separate opinion; retained in that writing and the original PDF"
+    },
+    {
+      "page": 34,
+      "start": 0,
+      "end": 52,
+      "text": "746 HUNTER v. UNITED STATES\nBarrett, J., concurring\n",
+      "reason": "Running header or publication footer"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 34,
+      "start": 196,
+      "end": 205,
+      "expectedText": "confdence",
+      "text": "confidence"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Samuel A. Alito, Jr.",
+      "Amy Coney Barrett"
+    ]
+  },
+  "reviewed": true
+}

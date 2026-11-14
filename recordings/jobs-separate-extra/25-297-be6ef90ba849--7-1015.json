@@ -1,0 +1,1797 @@
+{
+  "reviewed": true,
+  "documentId": "25-297-be6ef90ba849--7-1015",
+  "sourceDocumentId": "25-297-be6ef90ba849",
+  "sourceTextPath": "dist/data/docs/25-297-be6ef90ba849.json",
+  "sourceTextSha256": "eeeb6b824adb853cce0b3fc78c3fd34ea91751b0b9f4455d07605e27c1ecf7af",
+  "sourcePdfPath": "recordings/sources/68fc38c26d9ad9cbcffb2aa9.pdf",
+  "sourcePdfSha256": "68fc38c26d9ad9cbcffb2aa9c692a4ac229bd3944f7c839d83fc0998a8a5682f",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2026-03-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r21_2bo2.pdf",
+  "sourceRange": {
+    "startPage": 7,
+    "startOffset": 1097,
+    "endPage": 15,
+    "endOffset": 1435
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1097,
+          "end": 1919
+        },
+        {
+          "page": 8,
+          "start": 59,
+          "end": 60
+        }
+      ],
+      "citations": [
+        {
+          "start": 192,
+          "end": 223,
+          "text": "135 F. 4th 19, 24–25 (CA2 2025)",
+          "canonical": "135 F. 4th 19, 24–25 (CA2 2025)",
+          "type": "reference"
+        },
+        {
+          "start": 310,
+          "end": 326,
+          "text": "Fourth Amendment",
+          "canonical": "Fourth Amendment",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 694,
+          "end": 796,
+          "text": "Major League Baseball Players Assn. v. Garvey, 532 U. S. 504, 512–513 (2001) (Stevens, J., dissenting)",
+          "canonical": "Major League Baseball Players Assn. v. Garvey, 532 U. S. 504, 512–513 (2001) (Stevens, J., dissenting)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 8,
+          "start": 60,
+          "end": 61
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 62,
+          "end": 1102
+        }
+      ],
+      "citations": [
+        {
+          "start": 200,
+          "end": 256,
+          "text": "Tolan v. Cotton, 572 U. S. 650, 657 (2014) (per curiam )",
+          "canonical": "Tolan v. Cotton, 572 U. S. 650, 657 (2014) (per curiam )",
+          "type": "reference"
+        },
+        {
+          "start": 488,
+          "end": 520,
+          "text": "App. to Pet. for Cert. 44 (App.)",
+          "canonical": "App. to Pet. for Cert. 44 (App.)",
+          "type": "reference"
+        },
+        {
+          "start": 739,
+          "end": 744,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 893,
+          "end": 903,
+          "text": "Id., at 45",
+          "canonical": "Id., at 45",
+          "type": "reference"
+        },
+        {
+          "start": 1016,
+          "end": 1046,
+          "text": "Ibid. (alteration in original)",
+          "canonical": "Ibid. (alteration in original)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "tapp[ed]",
+          "to": "tapped"
+        },
+        {
+          "from": "sp[oke]",
+          "to": "spoke"
+        },
+        {
+          "from": "[o]fficers",
+          "to": "officers"
+        },
+        {
+          "from": "[the demonstrators]",
+          "to": "the demonstrators"
+        },
+        {
+          "from": "[as]",
+          "to": "as"
+        },
+        {
+          "from": "[v]ery",
+          "to": "very"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1102,
+          "end": 1846
+        }
+      ],
+      "citations": [
+        {
+          "start": 190,
+          "end": 200,
+          "text": "Id., at 46",
+          "canonical": "Id., at 46",
+          "type": "reference"
+        },
+        {
+          "start": 528,
+          "end": 538,
+          "text": "Id., at 47",
+          "canonical": "Id., at 47",
+          "type": "reference"
+        },
+        {
+          "start": 540,
+          "end": 615,
+          "text": "Plaintiff 's Supp. Affidavit in No. 5:18–cv– 5 (D Vt.), ECF Doc. 74–3, p. 2",
+          "canonical": "Plaintiff 's Supp. Affidavit in No. 5:18–cv– 5 (D Vt.), ECF Doc. 74–3, p. 2",
+          "type": "reference"
+        },
+        {
+          "start": 665,
+          "end": 672,
+          "text": "App. 47",
+          "canonical": "App. 47",
+          "type": "reference"
+        },
+        {
+          "start": 735,
+          "end": 745,
+          "text": "Id., at 48",
+          "canonical": "Id., at 48",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "snapp[ing]",
+          "to": "snapping"
+        },
+        {
+          "from": "forc[ing]",
+          "to": "forcing"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1846,
+          "end": 2073
+        },
+        {
+          "page": 9,
+          "start": 44,
+          "end": 530
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 160,
+          "end": 165,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 269,
+          "end": 274,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 389,
+          "end": 394,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 473,
+          "end": 483,
+          "text": "Id., at 49",
+          "canonical": "Id., at 49",
+          "type": "reference"
+        },
+        {
+          "start": 630,
+          "end": 635,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 704,
+          "end": 709,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "contor[t]",
+          "to": "contort"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 530,
+          "end": 1047
+        }
+      ],
+      "citations": [
+        {
+          "start": 101,
+          "end": 111,
+          "text": "Id., at 50",
+          "canonical": "Id., at 50",
+          "type": "reference"
+        },
+        {
+          "start": 308,
+          "end": 318,
+          "text": "Id., at 51",
+          "canonical": "Id., at 51",
+          "type": "reference"
+        },
+        {
+          "start": 500,
+          "end": 517,
+          "text": "135 F. 4th, at 25",
+          "canonical": "135 F. 4th, at 25",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1047,
+          "end": 1049
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1050,
+          "end": 1474
+        }
+      ],
+      "citations": [
+        {
+          "start": 198,
+          "end": 255,
+          "text": "District of Columbia v. Wesby, 583 U. S. 48, 62–63 (2018)",
+          "canonical": "District of Columbia v. Wesby, 583 U. S. 48, 62–63 (2018)",
+          "type": "reference"
+        },
+        {
+          "start": 402,
+          "end": 418,
+          "text": "Fourth Amendment",
+          "canonical": "Fourth Amendment",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1474,
+          "end": 1475
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1476,
+          "end": 1880
+        },
+        {
+          "page": 10,
+          "start": 59,
+          "end": 580
+        }
+      ],
+      "citations": [
+        {
+          "start": 105,
+          "end": 121,
+          "text": "Fourth Amendment",
+          "canonical": "Fourth Amendment",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 323,
+          "end": 339,
+          "text": "Fourth Amendment",
+          "canonical": "Fourth Amendment",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 414,
+          "end": 457,
+          "text": "Graham v. Connor, 490 U. S. 386, 396 (1989)",
+          "canonical": "Graham v. Connor, 490 U. S. 386, 396 (1989)",
+          "type": "reference"
+        },
+        {
+          "start": 748,
+          "end": 753,
+          "text": "ibid.",
+          "canonical": "ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 876,
+          "end": 926,
+          "text": "Kingsley v. Hendrickson, 576 U. S. 389, 397 (2015)",
+          "canonical": "Kingsley v. Hendrickson, 576 U. S. 389, 397 (2015)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "used[, and]",
+          "to": "used, and"
+        },
+        {
+          "from": "[s]he",
+          "to": "she"
+        },
+        {
+          "from": "[her]",
+          "to": "her"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 580,
+          "end": 2197
+        },
+        {
+          "page": 11,
+          "start": 44,
+          "end": 208
+        }
+      ],
+      "citations": [
+        {
+          "start": 136,
+          "end": 152,
+          "text": "Fourth Amendment",
+          "canonical": "Fourth Amendment",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 154,
+          "end": 175,
+          "text": "See 135 F. 4th, at 36",
+          "canonical": "See 135 F. 4th, at 36",
+          "type": "reference"
+        },
+        {
+          "start": 270,
+          "end": 275,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 438,
+          "end": 443,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 640,
+          "end": 645,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 783,
+          "end": 788,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 1043,
+          "end": 1053,
+          "text": "Id., at 37",
+          "canonical": "Id., at 37",
+          "type": "reference"
+        },
+        {
+          "start": 1189,
+          "end": 1199,
+          "text": "Id., at 38",
+          "canonical": "Id., at 38",
+          "type": "reference"
+        },
+        {
+          "start": 1475,
+          "end": 1480,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 1647,
+          "end": 1652,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 1758,
+          "end": 1774,
+          "text": "Fourth Amendment",
+          "canonical": "Fourth Amendment",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[v]ery",
+          "to": "very"
+        },
+        {
+          "from": "us[ing]",
+          "to": "using"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 11,
+          "start": 208,
+          "end": 209
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 210,
+          "end": 912
+        }
+      ],
+      "citations": [
+        {
+          "start": 152,
+          "end": 175,
+          "text": "Wesby, 583 U. S., at 63",
+          "canonical": "Wesby, 583 U. S., at 63",
+          "type": "reference"
+        },
+        {
+          "start": 350,
+          "end": 398,
+          "text": "Anderson v. Creighton, 483 U. S. 635, 640 (1987)",
+          "canonical": "Anderson v. Creighton, 483 U. S. 635, 640 (1987)",
+          "type": "reference"
+        },
+        {
+          "start": 550,
+          "end": 591,
+          "text": "Hope v. Pelzer, 536 U. S. 730, 741 (2002)",
+          "canonical": "Hope v. Pelzer, 536 U. S. 730, 741 (2002)",
+          "type": "reference"
+        },
+        {
+          "start": 651,
+          "end": 704,
+          "text": "White v. Pauly, 580 U. S. 73, 79 (2017) (per curiam )",
+          "canonical": "White v. Pauly, 580 U. S. 73, 79 (2017) (per curiam )",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the official's]",
+          "to": "the official's"
+        },
+        {
+          "from": "[are]",
+          "to": "are"
+        },
+        {
+          "from": "[E]arlier",
+          "to": "Earlier"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 912,
+          "end": 2024
+        },
+        {
+          "page": 12,
+          "start": 59,
+          "end": 224
+        }
+      ],
+      "citations": [
+        {
+          "start": 140,
+          "end": 165,
+          "text": "Graham, 490 U. S., at 397",
+          "canonical": "Graham, 490 U. S., at 397",
+          "type": "reference"
+        },
+        {
+          "start": 232,
+          "end": 254,
+          "text": ", 361 F. 3d 113 (2004)",
+          "canonical": ", 361 F. 3d 113 (2004)",
+          "type": "reference"
+        },
+        {
+          "start": 437,
+          "end": 454,
+          "text": "135 F. 4th, at 35",
+          "canonical": "135 F. 4th, at 35",
+          "type": "reference"
+        },
+        {
+          "start": 609,
+          "end": 643,
+          "text": "Amnesty America, 361 F. 3d, at 118",
+          "canonical": "Amnesty America, 361 F. 3d, at 118",
+          "type": "reference"
+        },
+        {
+          "start": 801,
+          "end": 806,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 1014,
+          "end": 1025,
+          "text": "Id., at 123",
+          "canonical": "Id., at 123",
+          "type": "reference"
+        },
+        {
+          "start": 1267,
+          "end": 1282,
+          "text": "Id., at 123–124",
+          "canonical": "Id., at 123–124",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "establish[ed]",
+          "to": "established"
+        },
+        {
+          "from": "lift[ed]",
+          "to": "lifted"
+        },
+        {
+          "from": "pull[ed]",
+          "to": "pulled"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 224,
+          "end": 674
+        }
+      ],
+      "citations": [
+        {
+          "start": 267,
+          "end": 290,
+          "text": "Wesby, 583 U. S., at 63",
+          "canonical": "Wesby, 583 U. S., at 63",
+          "type": "reference"
+        },
+        {
+          "start": 427,
+          "end": 443,
+          "text": "Fourth Amendment",
+          "canonical": "Fourth Amendment",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 674,
+          "end": 675
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 676,
+          "end": 1782
+        }
+      ],
+      "citations": [
+        {
+          "start": 243,
+          "end": 255,
+          "text": "Ante, at 573",
+          "canonical": "Ante, at 573",
+          "type": "reference"
+        },
+        {
+          "start": 509,
+          "end": 526,
+          "text": "361 F. 3d, at 119",
+          "canonical": "361 F. 3d, at 119",
+          "type": "reference"
+        },
+        {
+          "start": 777,
+          "end": 784,
+          "text": "App. 46",
+          "canonical": "App. 46",
+          "type": "reference"
+        },
+        {
+          "start": 786,
+          "end": 809,
+          "text": "see ECF Doc. 74–3, p. 2",
+          "canonical": "see ECF Doc. 74–3, p. 2",
+          "type": "reference"
+        },
+        {
+          "start": 978,
+          "end": 1036,
+          "text": "Escondido v. Emmons, 586 U. S. 38, 43 (2019) (per curiam )",
+          "canonical": "Escondido v. Emmons, 586 U. S. 38, 43 (2019) (per curiam )",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Zorn]",
+          "to": "Zorn"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1782,
+          "end": 2018
+        },
+        {
+          "page": 13,
+          "start": 44,
+          "end": 580
+        }
+      ],
+      "citations": [
+        {
+          "start": 138,
+          "end": 145,
+          "text": "App. 48",
+          "canonical": "App. 48",
+          "type": "reference"
+        },
+        {
+          "start": 468,
+          "end": 507,
+          "text": "See, e. g., Anderson, 483 U. S., at 640",
+          "canonical": "See, e. g., Anderson, 483 U. S., at 640",
+          "type": "reference"
+        },
+        {
+          "start": 660,
+          "end": 683,
+          "text": "Hope, 536 U. S., at 741",
+          "canonical": "Hope, 536 U. S., at 741",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 580,
+          "end": 1200
+        }
+      ],
+      "citations": [
+        {
+          "start": 176,
+          "end": 188,
+          "text": "Ante, at 572",
+          "canonical": "Ante, at 572",
+          "type": "reference"
+        },
+        {
+          "start": 592,
+          "end": 623,
+          "text": "361 F. 3d, at 123–124, and n. 6",
+          "canonical": "361 F. 3d, at 123–124, and n. 6",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[were]",
+          "to": "were"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1200,
+          "end": 1620
+        }
+      ],
+      "citations": [
+        {
+          "start": 389,
+          "end": 400,
+          "text": "Id., at 124",
+          "canonical": "Id., at 124",
+          "type": "reference"
+        },
+        {
+          "start": 402,
+          "end": 422,
+          "text": "see ante, at 573–574",
+          "canonical": "see ante, at 573–574",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1620,
+          "end": 2151
+        },
+        {
+          "page": 14,
+          "start": 90,
+          "end": 1000
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 538,
+          "end": 559,
+          "text": "361 F. 3d, at 123–124",
+          "canonical": "361 F. 3d, at 123–124",
+          "type": "reference"
+        },
+        {
+          "start": 885,
+          "end": 896,
+          "text": "Id., at 124",
+          "canonical": "Id., at 124",
+          "type": "reference"
+        },
+        {
+          "start": 1096,
+          "end": 1117,
+          "text": "See 135 F. 4th, at 33",
+          "canonical": "See 135 F. 4th, at 33",
+          "type": "reference"
+        },
+        {
+          "start": 1332,
+          "end": 1342,
+          "text": "id., at 34",
+          "canonical": "id., at 34",
+          "type": "reference"
+        },
+        {
+          "start": 1374,
+          "end": 1442,
+          "text": "id., at 40 (Cabranes, J., concurring in part and dissenting in part)",
+          "canonical": "id., at 40 (Cabranes, J., concurring in part and dissenting in part)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1000,
+          "end": 1716
+        },
+        {
+          "page": 14,
+          "start": 1721,
+          "end": 1722
+        }
+      ],
+      "citations": [
+        {
+          "start": 214,
+          "end": 237,
+          "text": "White, 580 U. S., at 79",
+          "canonical": "White, 580 U. S., at 79",
+          "type": "reference"
+        },
+        {
+          "start": 354,
+          "end": 459,
+          "text": "Kisela v. Hughes, 584 U. S. 100, 120 (2018) (Sotomayor, J., dissenting) (quoting Wesby, 583 U. S., at 63)",
+          "canonical": "Kisela v. Hughes, 584 U. S. 100, 120 (2018) (Sotomayor, J., dissenting) (quoting Wesby, 583 U. S., at 63)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "case[s]",
+          "to": "cases"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1722,
+          "end": 2076
+        },
+        {
+          "page": 15,
+          "start": 44,
+          "end": 434
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 251,
+          "end": 306,
+          "text": "Garvey, 532 U. S., at 512–513 (Stevens, J., dissenting)",
+          "canonical": "Garvey, 532 U. S., at 512–513 (Stevens, J., dissenting)",
+          "type": "reference"
+        },
+        {
+          "start": 586,
+          "end": 603,
+          "text": "135 F. 4th, at 32",
+          "canonical": "135 F. 4th, at 32",
+          "type": "reference"
+        },
+        {
+          "start": 604,
+          "end": 637,
+          "text": "(quoting Wesby, 583 U. S., at 63)",
+          "canonical": "(quoting Wesby, 583 U. S., at 63)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 434,
+          "end": 1435
+        }
+      ],
+      "citations": [
+        {
+          "start": 290,
+          "end": 344,
+          "text": "Kisela, 584 U. S., at 121 (Sotomayor , J., dissenting)",
+          "canonical": "Kisela, 584 U. S., at 121 (Sotomayor , J., dissenting)",
+          "type": "reference"
+        },
+        {
+          "start": 582,
+          "end": 598,
+          "text": "Fourth Amendment",
+          "canonical": "Fourth Amendment",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 601,
+          "end": 606,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 818,
+          "end": 834,
+          "text": "Fourth Amendment",
+          "canonical": "Fourth Amendment",
+          "type": "statute",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 951,
+          "end": 976,
+          "text": "Graham, 490 U. S., at 396",
+          "canonical": "Graham, 490 U. S., at 396",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "interven[ing]",
+          "to": "intervening"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 7,
+      "start": 299,
+      "end": 306,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 7,
+      "start": 702,
+      "end": 708,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 8,
+      "start": 368,
+      "end": 375,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 8,
+      "start": 418,
+      "end": 425,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 8,
+      "start": 483,
+      "end": 489,
+      "expectedText": "briefy",
+      "text": "briefly"
+    },
+    {
+      "page": 8,
+      "start": 511,
+      "end": 518,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 8,
+      "start": 630,
+      "end": 637,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 8,
+      "start": 909,
+      "end": 916,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 8,
+      "start": 964,
+      "end": 970,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 8,
+      "start": 1127,
+      "end": 1131,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 9,
+      "start": 672,
+      "end": 678,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 9,
+      "start": 1397,
+      "end": 1400,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 9,
+      "start": 1494,
+      "end": 1498,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 10,
+      "start": 291,
+      "end": 298,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 10,
+      "start": 652,
+      "end": 655,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 10,
+      "start": 1783,
+      "end": 1790,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 11,
+      "start": 300,
+      "end": 307,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 11,
+      "start": 451,
+      "end": 462,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 11,
+      "start": 487,
+      "end": 494,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 11,
+      "start": 963,
+      "end": 970,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 11,
+      "start": 1380,
+      "end": 1387,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 11,
+      "start": 1586,
+      "end": 1593,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 12,
+      "start": 117,
+      "end": 126,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 12,
+      "start": 242,
+      "end": 249,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 12,
+      "start": 745,
+      "end": 749,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 12,
+      "start": 813,
+      "end": 820,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 12,
+      "start": 1605,
+      "end": 1611,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 13,
+      "start": 189,
+      "end": 192,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 13,
+      "start": 345,
+      "end": 352,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 13,
+      "start": 991,
+      "end": 1000,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 13,
+      "start": 1077,
+      "end": 1086,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 13,
+      "start": 1338,
+      "end": 1341,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 13,
+      "start": 1351,
+      "end": 1358,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 13,
+      "start": 1442,
+      "end": 1445,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 13,
+      "start": 1468,
+      "end": 1475,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 13,
+      "start": 1666,
+      "end": 1672,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 13,
+      "start": 1950,
+      "end": 1959,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 14,
+      "start": 196,
+      "end": 203,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 14,
+      "start": 341,
+      "end": 344,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 14,
+      "start": 354,
+      "end": 361,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 14,
+      "start": 1318,
+      "end": 1324,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 15,
+      "start": 575,
+      "end": 582,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 15,
+      "start": 674,
+      "end": 681,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 15,
+      "start": 686,
+      "end": 692,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 15,
+      "start": 963,
+      "end": 970,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 15,
+      "start": 1058,
+      "end": 1065,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 15,
+      "start": 1159,
+      "end": 1165,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 15,
+      "start": 1287,
+      "end": 1294,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 7,
+      "start": 1855,
+      "end": 1857,
+      "expectedText": "–\n",
+      "text": "–"
+    },
+    {
+      "page": 7,
+      "start": 885,
+      "end": 893,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 7,
+      "start": 1376,
+      "end": 1384,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 7,
+      "start": 258,
+      "end": 268,
+      "expectedText": "specifcity",
+      "text": "specificity"
+    },
+    {
+      "page": 8,
+      "start": 1309,
+      "end": 1312,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 8,
+      "start": 1659,
+      "end": 1667,
+      "expectedText": "Affdavit",
+      "text": "Affidavit"
+    },
+    {
+      "page": 8,
+      "start": 667,
+      "end": 676,
+      "expectedText": "[o]ffcers",
+      "text": "[o]fficers"
+    },
+    {
+      "page": 9,
+      "start": 1078,
+      "end": 1086,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 9,
+      "start": 1512,
+      "end": 1520,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 9,
+      "start": 593,
+      "end": 597,
+      "expectedText": "foor",
+      "text": "floor"
+    },
+    {
+      "page": 9,
+      "start": 1050,
+      "end": 1057,
+      "expectedText": "Offcers",
+      "text": "Officers"
+    },
+    {
+      "page": 10,
+      "start": 392,
+      "end": 397,
+      "expectedText": "fight",
+      "text": "flight"
+    },
+    {
+      "page": 10,
+      "start": 1133,
+      "end": 1145,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 11,
+      "start": 234,
+      "end": 242,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 11,
+      "start": 1823,
+      "end": 1827,
+      "expectedText": "foor",
+      "text": "floor"
+    },
+    {
+      "page": 11,
+      "start": 1778,
+      "end": 1785,
+      "expectedText": "Offcers",
+      "text": "Officers"
+    },
+    {
+      "page": 11,
+      "start": 1254,
+      "end": 1267,
+      "expectedText": "rearwristlock",
+      "text": "rear-wristlock"
+    },
+    {
+      "page": 12,
+      "start": 474,
+      "end": 484,
+      "expectedText": "specifcity",
+      "text": "specificity"
+    },
+    {
+      "page": 12,
+      "start": 149,
+      "end": 158,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 13,
+      "start": 376,
+      "end": 384,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 13,
+      "start": 1109,
+      "end": 1118,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 13,
+      "start": 1982,
+      "end": 1991,
+      "expectedText": "factfnder",
+      "text": "factfinder"
+    },
+    {
+      "page": 13,
+      "start": 691,
+      "end": 702,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 13,
+      "start": 979,
+      "end": 990,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 14,
+      "start": 1697,
+      "end": 1705,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 14,
+      "start": 1820,
+      "end": 1828,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 15,
+      "start": 214,
+      "end": 222,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 15,
+      "start": 601,
+      "end": 609,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 15,
+      "start": 696,
+      "end": 704,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 15,
+      "start": 870,
+      "end": 878,
+      "expectedText": "qualifed",
+      "text": "qualified"
+    },
+    {
+      "page": 15,
+      "start": 193,
+      "end": 203,
+      "expectedText": "specifcity",
+      "text": "specificity"
+    },
+    {
+      "page": 15,
+      "start": 503,
+      "end": 513,
+      "expectedText": "unfinching",
+      "text": "unflinching"
+    },
+    {
+      "page": 15,
+      "start": 1077,
+      "end": 1083,
+      "expectedText": "infict",
+      "text": "inflict"
+    },
+    {
+      "page": 8,
+      "start": 2071,
+      "end": 2072,
+      "expectedText": "-",
+      "text": ""
+    },
+    {
+      "page": 13,
+      "start": 2149,
+      "end": 2150,
+      "expectedText": "-",
+      "text": ""
+    },
+    {
+      "page": 14,
+      "start": 2075,
+      "end": 2076,
+      "expectedText": "-",
+      "text": ""
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 7,
+      "start": 1919,
+      "end": 1949,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 59,
+      "text": "Cite as: 607 U. S. 568 (2026) 575\nSotomayor, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 8,
+      "start": 2073,
+      "end": 2103,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 44,
+      "text": "576 ZORN v. LINTON\nSotomayor, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 9,
+      "start": 1880,
+      "end": 1910,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 59,
+      "text": "Cite as: 607 U. S. 568 (2026) 577\nSotomayor, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 10,
+      "start": 2197,
+      "end": 2227,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 44,
+      "text": "578 ZORN v. LINTON\nSotomayor, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 11,
+      "start": 2024,
+      "end": 2054,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 59,
+      "text": "Cite as: 607 U. S. 568 (2026) 579\nSotomayor, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 12,
+      "start": 2018,
+      "end": 2048,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 44,
+      "text": "580 ZORN v. LINTON\nSotomayor, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 13,
+      "start": 2151,
+      "end": 2181,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 90,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 568 (2026) 581\nSotomayor, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 14,
+      "start": 1716,
+      "end": 1721,
+      "text": "* * *",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 44,
+      "text": "582 ZORN v. LINTON\nSotomayor, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan",
+      "Ketanji Brown Jackson"
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

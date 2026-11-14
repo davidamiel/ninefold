@@ -1,0 +1,6092 @@
+{
+  "version": "82d4c0e0bc272003",
+  "duration": 3438.13,
+  "voice": "af_sky",
+  "audioSha256": "4d6ce8cdb3e510d70dd1f3ef608bc9fc1dd6662e4dfe6f82ef379fcf20edfa61",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 9.84,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 100,
+          "end": 279
+        }
+      ],
+      "text": "In recent years, law enforcement officers have employed so-called geofence warrants to obtain information that technology companies collect about their users' cell-phone locations."
+    },
+    {
+      "start": 9.84,
+      "end": 15.72,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 280,
+          "end": 392
+        }
+      ],
+      "text": "Suppose that investigators know a crime was committed at a particular place and time, but do not have a suspect."
+    },
+    {
+      "start": 15.72,
+      "end": 26.82,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 393,
+          "end": 590
+        }
+      ],
+      "text": "They may draw a “geofence”—a virtual perimeter—around the crime scene and get a warrant compelling a company to hand over data about the cell phones located in that area near the time of the crime."
+    },
+    {
+      "start": 26.82,
+      "end": 37.7,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 591,
+          "end": 671
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 138
+        }
+      ],
+      "text": "Following a process specified in the warrant, the company will turn over the cellphone data and eventually identify by name one or more of the users thus disclosed."
+    },
+    {
+      "start": 37.7,
+      "end": 42.96,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 139,
+          "end": 231
+        }
+      ],
+      "text": "The geofence warrant at issue here was directed to Google, and used to solve a bank robbery."
+    },
+    {
+      "start": 42.96,
+      "end": 51.48,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 232,
+          "end": 393
+        }
+      ],
+      "text": "Hundreds of millions of Google users have activated a service called Location History, which records the location of a user's cell phone every two minutes or so."
+    },
+    {
+      "start": 51.48,
+      "end": 62.16,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 394,
+          "end": 573
+        }
+      ],
+      "text": "Through a geofence warrant, police officers required Google to turn over Location History data revealing cell phones within the vicinity of a bank at around the time it was robbed."
+    },
+    {
+      "start": 62.16,
+      "end": 67.72,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 574,
+          "end": 672
+        }
+      ],
+      "text": "At the end of the multi-step process described in the warrant, Google gave the police three names."
+    },
+    {
+      "start": 67.72,
+      "end": 76.06,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 673,
+          "end": 801
+        }
+      ],
+      "text": "The Federal Government soon charged one of the individuals thus identified, petitioner Oh kell oh Sha tree, with committing the crime."
+    },
+    {
+      "start": 76.06,
+      "end": 80.86,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 802,
+          "end": 888
+        }
+      ],
+      "text": "Today, we consider how the Fourth Amendment applies to that use of a geofence warrant."
+    },
+    {
+      "start": 80.86,
+      "end": 93.6,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 889,
+          "end": 1159
+        }
+      ],
+      "text": "Answering that question in full would mean deciding whether the police conducted a Fourth Amendment “search” when they acquired the cellphone data leading to Sha tree's arrest and, if so, whether that search was reasonable given the features of the warrant they employed."
+    },
+    {
+      "start": 93.6,
+      "end": 101.72,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1160,
+          "end": 1302
+        }
+      ],
+      "text": "We decide the first part of that inquiry today, concluding that the police conducted a search when they gained access to Location History data."
+    },
+    {
+      "start": 101.72,
+      "end": 115.48,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1303,
+          "end": 1571
+        }
+      ],
+      "text": "An individual has a reasonable expectation of privacy in records about his cell phone's location, and police intrude on that constitutionally protected interest when they demand the information—even though for only a limited time, and from a third-party tech company."
+    },
+    {
+      "start": 115.48,
+      "end": 128.1,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1572,
+          "end": 1810
+        }
+      ],
+      "text": "We leave to the Court of Appeals the further question whether, given the warrant issued, the search here was reasonable, meaning that each of its steps was properly described with particularity and found to be supported by probable cause."
+    },
+    {
+      "start": 128.1,
+      "end": 139.24,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1815,
+          "end": 1930
+        },
+        {
+          "page": 8,
+          "start": 81,
+          "end": 174
+        }
+      ],
+      "text": "Modern cell phones, we observed a dozen years ago, are “such a pervasive and insistent part of daily life that the proverbial visitor from Mars might conclude they were an important feature of human anatomy.”"
+    },
+    {
+      "start": 139.24,
+      "end": 143.72,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 223,
+          "end": 302
+        }
+      ],
+      "text": "Since then, the percentage of Americans who own smartphones has only increased."
+    },
+    {
+      "start": 143.72,
+      "end": 147.24,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 303,
+          "end": 359
+        }
+      ],
+      "text": "Today, more than nine in ten Americans own a smartphone."
+    },
+    {
+      "start": 147.24,
+      "end": 150.72,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 431,
+          "end": 527
+        }
+      ],
+      "text": "(91%); (56%)."
+    },
+    {
+      "start": 150.72,
+      "end": 160.58,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 531,
+          "end": 687
+        }
+      ],
+      "text": "That means they are likely addicted to apps and other services, many of which collect and store “detailed information about all aspects of a person's life.”"
+    },
+    {
+      "start": 160.58,
+      "end": 166.68,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 714,
+          "end": 830
+        }
+      ],
+      "text": "Among that information is a single fact most pertinent here: where the user's cell phone is located at a given time."
+    },
+    {
+      "start": 166.68,
+      "end": 168.86,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 831,
+          "end": 869
+        }
+      ],
+      "text": "Apps of many kinds rely on that datum."
+    },
+    {
+      "start": 168.86,
+      "end": 173.74,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 870,
+          "end": 973
+        }
+      ],
+      "text": "Your maps app wants to help you navigate from Point A (where you are) to Point B (where you are going)."
+    },
+    {
+      "start": 173.74,
+      "end": 178.86,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 974,
+          "end": 1085
+        }
+      ],
+      "text": "Ride-sharing apps of course track your location when you are using them, and often do so even when you are not."
+    },
+    {
+      "start": 178.86,
+      "end": 181.8,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1086,
+          "end": 1139
+        }
+      ],
+      "text": "Weather apps want to tell you about local conditions."
+    },
+    {
+      "start": 181.8,
+      "end": 186.28,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1140,
+          "end": 1208
+        }
+      ],
+      "text": "Fast-food apps want to identify the closest burger and pizza joints."
+    },
+    {
+      "start": 186.28,
+      "end": 188.58,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1209,
+          "end": 1256
+        }
+      ],
+      "text": "Fitness apps want to track your running routes."
+    },
+    {
+      "start": 188.58,
+      "end": 190.26,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1257,
+          "end": 1267
+        }
+      ],
+      "text": "And so on."
+    },
+    {
+      "start": 190.26,
+      "end": 198.32,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1268,
+          "end": 1385
+        }
+      ],
+      "text": "This case concerns a form of cell-phone location data called “Location History,” which Google apps collect and store."
+    },
+    {
+      "start": 198.32,
+      "end": 205.44,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1863,
+          "end": 1974
+        }
+      ],
+      "text": "Footnote 1: Throughout this opinion, we describe how Location History worked at the time the warrant at issue was executed.",
+      "footnote": "1"
+    },
+    {
+      "start": 205.44,
+      "end": 214.4,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1975,
+          "end": 2117
+        }
+      ],
+      "text": "As noted below, Google has since then instituted a significant change, which apparently insulates Location History data from geofence warrants.",
+      "footnote": "1"
+    },
+    {
+      "start": 214.4,
+      "end": 216.24,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 2141,
+          "end": 2142
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 216.24,
+      "end": 221.4,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1388,
+          "end": 1487
+        }
+      ],
+      "text": "Location History is what it sounds like—a time-stamped record of every place a cell phone has been."
+    },
+    {
+      "start": 221.4,
+      "end": 227.5,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1488,
+          "end": 1592
+        }
+      ],
+      "text": "Every two minutes or so, Location History draws from an array of sources to log a cell phone's location."
+    },
+    {
+      "start": 227.5,
+      "end": 235.5,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1593,
+          "end": 1715
+        }
+      ],
+      "text": "Those sources include nearby Wi-Fi networks, Bluetooth beacons, and cell sites, as well as G P S and I P address information."
+    },
+    {
+      "start": 235.5,
+      "end": 240.94,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1716,
+          "end": 1806
+        }
+      ],
+      "text": "When combined, the signals tracked can determine a cell phone's location within 20 meters."
+    },
+    {
+      "start": 240.94,
+      "end": 246.9,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1807,
+          "end": 1861
+        },
+        {
+          "page": 9,
+          "start": 86,
+          "end": 138
+        }
+      ],
+      "text": "They can also ascertain a phone's elevation, and thus reveal which floor within a building the phone is on."
+    },
+    {
+      "start": 246.9,
+      "end": 257.8,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 139,
+          "end": 303
+        }
+      ],
+      "text": "By all accounts, those features make Location History “the most sweeping, granular, and comprehensive tool” existing today for collecting and storing location data."
+    },
+    {
+      "start": 257.8,
+      "end": 264.9,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 344,
+          "end": 454
+        }
+      ],
+      "text": "Google repeatedly prompts users to enable Location History, and over 500 million users worldwide have done so."
+    },
+    {
+      "start": 264.9,
+      "end": 268.66,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 455,
+          "end": 528
+        }
+      ],
+      "text": "The first prompt comes when a user initially establishes a Google account."
+    },
+    {
+      "start": 268.66,
+      "end": 279.4,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 529,
+          "end": 689
+        }
+      ],
+      "text": "If that spur is ignored, another will arrive when a user sets up a Google app—like Google Assistant, Google Maps, or Google Photos—on his phone or other device."
+    },
+    {
+      "start": 279.4,
+      "end": 287.12,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 690,
+          "end": 829
+        }
+      ],
+      "text": "Android (though not iPhone) users are specifically warned that their devices will not “work correctly” unless they turn on Location History."
+    },
+    {
+      "start": 287.12,
+      "end": 291.7,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 846,
+          "end": 926
+        }
+      ],
+      "text": "And once a user does so, the service runs—and runs constantly—in the background."
+    },
+    {
+      "start": 291.7,
+      "end": 298.98,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 927,
+          "end": 1049
+        }
+      ],
+      "text": "Regardless whether the user has a Google app open—or whether he is using his phone at all—Location History remains active."
+    },
+    {
+      "start": 298.98,
+      "end": 304.24,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1050,
+          "end": 1147
+        }
+      ],
+      "text": "Indeed, it continues to work even if the user deletes the app through which he first turned it on."
+    },
+    {
+      "start": 304.24,
+      "end": 308.26,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1148,
+          "end": 1208
+        }
+      ],
+      "text": "Location History stops only if a user affirmatively stops it."
+    },
+    {
+      "start": 308.26,
+      "end": 315.1,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1209,
+          "end": 1305
+        }
+      ],
+      "text": "Sans that intervention, it tracks and tracks and tracks a user's cell phone (and other devices)."
+    },
+    {
+      "start": 315.1,
+      "end": 322.86,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1306,
+          "end": 1447
+        }
+      ],
+      "text": "Google stores all Location History data in the cloud, rather than on a user's device—though that choice makes no real difference to the user."
+    },
+    {
+      "start": 322.86,
+      "end": 331.12,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1449,
+          "end": 1595
+        }
+      ],
+      "text": "“Cloud computing” refers to “the capacity of Internet-connected devices to display data stored on remote servers rather than on the device itself.”"
+    },
+    {
+      "start": 331.12,
+      "end": 338.52,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1622,
+          "end": 1748
+        }
+      ],
+      "text": "Because it exists, Google can store information on its own servers, while the user can view it as if stored on his cell phone."
+    },
+    {
+      "start": 338.52,
+      "end": 349.14,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1749,
+          "end": 1951
+        }
+      ],
+      "text": "Such remote storage, we have explained, is common: “Cell phone users often may not know whether particular information is stored on the device or in the cloud, and it generally makes little difference.”"
+    },
+    {
+      "start": 349.14,
+      "end": 356.76,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1958,
+          "end": 2091
+        }
+      ],
+      "text": "So, for example, Google usually stores users' emails, documents, and photographs on company servers instead of on individual devices."
+    },
+    {
+      "start": 356.76,
+      "end": 365.08,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 67,
+          "end": 205
+        }
+      ],
+      "text": "And the same is true of the information generated by Location History, which is stored in a single central repository on Google's servers."
+    },
+    {
+      "start": 365.08,
+      "end": 378.56,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1692,
+          "end": 1888
+        }
+      ],
+      "text": "Footnote 2: Except that in July 2025, years after the geofence warrant used in this case, Google made a change: It now stores Location History data on individual users' devices rather than on its own servers.",
+      "footnote": "2"
+    },
+    {
+      "start": 378.56,
+      "end": 385.92,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1934,
+          "end": 2062
+        }
+      ],
+      "text": "Google represents that, as a result, it is no longer capable of responding to geofence warrants that seek Location History data.",
+      "footnote": "2"
+    },
+    {
+      "start": 385.92,
+      "end": 387.72,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 2071,
+          "end": 2072
+        }
+      ],
+      "text": "End footnote 2.",
+      "transition": true,
+      "footnote": "2"
+    },
+    {
+      "start": 387.72,
+      "end": 395.16,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 208,
+          "end": 325
+        }
+      ],
+      "text": "That data exists someplace remote, but a user sees it—and the content Google creates from it—in the palm of his hand."
+    },
+    {
+      "start": 395.16,
+      "end": 407.02,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 326,
+          "end": 527
+        }
+      ],
+      "text": "The user thus can access a “Timeline” showing where he has traveled when; receive real-time updates about his daily commute; and take advantage of maps and recommendations based on his usual movements."
+    },
+    {
+      "start": 407.02,
+      "end": 420.58,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 530,
+          "end": 770
+        }
+      ],
+      "text": "In the last decade, Google's Location History data has also served another function, though this one unknown to most users: That data, as obtained through a geofence warrant, can enable law enforcement officers to solve hard-to-solve crimes."
+    },
+    {
+      "start": 420.58,
+      "end": 428.8,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 771,
+          "end": 933
+        }
+      ],
+      "text": "Such a warrant, as earlier described, seeks information about the cell phones located in the vicinity of a crime scene at around the time the crime was committed."
+    },
+    {
+      "start": 428.8,
+      "end": 433.58,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 957,
+          "end": 1037
+        }
+      ],
+      "text": "The goal, put simply, is to find out who was there and so who might have done it."
+    },
+    {
+      "start": 433.58,
+      "end": 439.58,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1039,
+          "end": 1147
+        }
+      ],
+      "text": "(There are usually better ways to investigate an already-known suspect—like seeking only his location data.)"
+    },
+    {
+      "start": 439.58,
+      "end": 443.14,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1148,
+          "end": 1227
+        }
+      ],
+      "text": "And the mechanism is to use the offender's cell phone as an identifying device."
+    },
+    {
+      "start": 443.14,
+      "end": 452.74,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1228,
+          "end": 1396
+        }
+      ],
+      "text": "The warrant specifies a timeframe and maps an area (with the geofence as its perimeter), and demands information about the cell phones—and their users—present within it."
+    },
+    {
+      "start": 452.74,
+      "end": 456.48,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1397,
+          "end": 1467
+        }
+      ],
+      "text": "There is some uncertainty about how often the technique in fact works."
+    },
+    {
+      "start": 456.48,
+      "end": 460.24,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1529,
+          "end": 1585
+        }
+      ],
+      "text": "But its use among law enforcement officers has flourished."
+    },
+    {
+      "start": 460.24,
+      "end": 464.0,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1586,
+          "end": 1636
+        }
+      ],
+      "text": "Google received its first geofence warrant in 2016."
+    },
+    {
+      "start": 464.0,
+      "end": 469.16,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1666,
+          "end": 1688
+        },
+        {
+          "page": 11,
+          "start": 55,
+          "end": 110
+        }
+      ],
+      "text": "Two years later, it received 982; and two years after that, more than 11,000."
+    },
+    {
+      "start": 469.16,
+      "end": 478.36,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 352,
+          "end": 497
+        }
+      ],
+      "text": "Though the details vary, each has made the same essential demand: Tell us, through cell-phone location data, who was there when a crime happened."
+    },
+    {
+      "start": 478.36,
+      "end": 487.06,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1854,
+          "end": 1981
+        }
+      ],
+      "text": "Footnote 3: Google is not the only tech company that has received geofence warrants; so have Apple, Lyft, Snapchat, and Uber, among others.",
+      "footnote": "3"
+    },
+    {
+      "start": 487.06,
+      "end": 491.28,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 2060,
+          "end": 2136
+        }
+      ],
+      "text": "But Google is the “most common recipient and the only one known to respond.”",
+      "footnote": "3"
+    },
+    {
+      "start": 491.28,
+      "end": 493.22,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 2141,
+          "end": 2142
+        }
+      ],
+      "text": "End footnote 3.",
+      "transition": true,
+      "footnote": "3"
+    },
+    {
+      "start": 493.22,
+      "end": 501.28,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 500,
+          "end": 644
+        }
+      ],
+      "text": "As those demands began to proliferate, Google worked with law enforcement officials to develop a three-step protocol to govern geofence warrants."
+    },
+    {
+      "start": 501.28,
+      "end": 517.64,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 645,
+          "end": 908
+        }
+      ],
+      "text": "At the first step, Google produces anonymized (i. e., no names attached) location data for all cell phones (or other devices) within the geofence—typically, a circle with a designated radius surrounding a latitude/longitude coordinate—during a specified timeframe."
+    },
+    {
+      "start": 517.64,
+      "end": 532.1,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 909,
+          "end": 1154
+        }
+      ],
+      "text": "That data generally includes each phone's latitude/longitude coordinate and corresponding timestamp; an estimate of that information's accuracy; and a description of the information's source (e. g., a Wi-Fi network, a cell site, or some other)."
+    },
+    {
+      "start": 532.1,
+      "end": 538.1,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1155,
+          "end": 1251
+        }
+      ],
+      "text": "The data at this stage shows each user's location, every two minutes or so, within the geofence."
+    },
+    {
+      "start": 538.1,
+      "end": 547.08,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1252,
+          "end": 1419
+        }
+      ],
+      "text": "At the second step of the process, officials review the data produced and typically ask Google to provide additional information for a subset of still-anonymized users."
+    },
+    {
+      "start": 547.08,
+      "end": 555.54,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1420,
+          "end": 1563
+        }
+      ],
+      "text": "That new data is usually for a longer timeframe than first specified; it also shows the user's location outside, as well as inside, the geofence."
+    },
+    {
+      "start": 555.54,
+      "end": 563.96,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1564,
+          "end": 1700
+        }
+      ],
+      "text": "Finally, at the third step, officials demand the identities of a further subset of users—their names, email addresses, and phone numbers."
+    },
+    {
+      "start": 563.96,
+      "end": 574.32,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1701,
+          "end": 1851
+        }
+      ],
+      "text": "Thus, the geofence warrant is designed to eventually produce a select number of identified users suspected of committing the crime under investigation."
+    },
+    {
+      "start": 574.32,
+      "end": 581.7,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 52,
+          "end": 141
+        }
+      ],
+      "text": "On May 20, 2019, at about 4:50 p.m., a man robbed a credit union in Midlothian, Virginia."
+    },
+    {
+      "start": 581.7,
+      "end": 591.96,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 142,
+          "end": 337
+        }
+      ],
+      "text": "The robber presented a teller with a handwritten note demanding $100,000, threatening to hurt her and her family if she did not comply, and warning her that he had “boys on the lookout out side.”"
+    },
+    {
+      "start": 591.96,
+      "end": 597.88,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 367,
+          "end": 476
+        }
+      ],
+      "text": "When the teller replied that she did not have access to that amount of money, the robber brandished a firearm."
+    },
+    {
+      "start": 597.88,
+      "end": 606.74,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 477,
+          "end": 597
+        }
+      ],
+      "text": "He ordered everyone in the bank to the ground, and forced the bank's manager to open a safe and put $195,000 into a bag."
+    },
+    {
+      "start": 606.74,
+      "end": 609.6,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 598,
+          "end": 642
+        }
+      ],
+      "text": "The robber then left on foot with the money."
+    },
+    {
+      "start": 609.6,
+      "end": 614.72,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 643,
+          "end": 714
+        }
+      ],
+      "text": "Local police officers responded to the scene and began an investigation."
+    },
+    {
+      "start": 614.72,
+      "end": 624.72,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 715,
+          "end": 911
+        }
+      ],
+      "text": "They learned, from witness interviews and surveillance-camera footage, that the robber had approached the credit union from a corner of an adjacent church, while appearing to talk on a cell phone."
+    },
+    {
+      "start": 624.72,
+      "end": 629.56,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 912,
+          "end": 987
+        }
+      ],
+      "text": "But they could not find out anything more, and the robber remained at large."
+    },
+    {
+      "start": 629.56,
+      "end": 636.88,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 988,
+          "end": 1099
+        }
+      ],
+      "text": "On June 14, the police officers thus applied to a Virginia magistrate for a geofence warrant directed to Google."
+    },
+    {
+      "start": 636.88,
+      "end": 649.14,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1100,
+          "end": 1301
+        }
+      ],
+      "text": "The application described the cell-phone location data Google collects, and explained how that data could lead to identifying the robber, his possible accomplices, or additional witnesses to the crime."
+    },
+    {
+      "start": 649.14,
+      "end": 660.4,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1302,
+          "end": 1499
+        }
+      ],
+      "text": "Success was particularly likely here, the application stated, because the robber appeared to be using his phone when he entered the credit union, and may even have been speaking with an accomplice."
+    },
+    {
+      "start": 660.4,
+      "end": 667.76,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1500,
+          "end": 1601
+        }
+      ],
+      "text": "The officers' proposed geofence was a circle with a radius of 150 meters surrounding the credit union."
+    },
+    {
+      "start": 667.76,
+      "end": 675.5,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1602,
+          "end": 1740
+        }
+      ],
+      "text": "The warrant application went on to describe the three-step process that the police would follow to obtain the location information sought."
+    },
+    {
+      "start": 675.5,
+      "end": 688.82,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1741,
+          "end": 1931
+        }
+      ],
+      "text": "At step one, Google would produce anonymized location data for all cell phones within the geofence in the hour between 4:20 and 5:20 p.m. (30 minutes before to 30 minutes after the robbery)."
+    },
+    {
+      "start": 688.82,
+      "end": 701.52,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1932,
+          "end": 2017
+        },
+        {
+          "page": 13,
+          "start": 86,
+          "end": 248
+        }
+      ],
+      "text": "At step two, police officers would “attempt to narrow down the list of devices by reviewing the time stamped location coordinates for each device and comparing that against the known time and location information that is specific to this crime.”"
+    },
+    {
+      "start": 701.52,
+      "end": 714.48,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 261,
+          "end": 460
+        }
+      ],
+      "text": "For that narrowed list, Google would provide additional (but still anonymized) data—cell-phone locations both inside and outside the geofence during a two-hour period (so now from 3:50 to 5:50 p.m.)."
+    },
+    {
+      "start": 714.48,
+      "end": 727.48,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 461,
+          "end": 683
+        }
+      ],
+      "text": "Finally, at step three, police would again “attempt to narrow down the list by comparing this additional information regarding travel and time against the known time and location information that is specific to this crime.”"
+    },
+    {
+      "start": 727.48,
+      "end": 734.74,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 697,
+          "end": 821
+        }
+      ],
+      "text": "And Google would then turn over identifying information for each user on the final list, including his name and phone number."
+    },
+    {
+      "start": 734.74,
+      "end": 740.12,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 822,
+          "end": 906
+        }
+      ],
+      "text": "The magistrate issued the warrant, and officers executed it in the manner prescribed."
+    },
+    {
+      "start": 740.12,
+      "end": 748.4,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 907,
+          "end": 1061
+        }
+      ],
+      "text": "At the first stage of the process, Google gave up anonymized data for 19 users found within the geofence during the hour within which the robbery occurred."
+    },
+    {
+      "start": 748.4,
+      "end": 752.3,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1062,
+          "end": 1127
+        }
+      ],
+      "text": "At the second stage, the officers winnowed the list to nine users."
+    },
+    {
+      "start": 752.3,
+      "end": 759.94,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1128,
+          "end": 1258
+        }
+      ],
+      "text": "And Google produced anonymized data showing their movements both inside and outside the geofence for the extended two-hour period."
+    },
+    {
+      "start": 759.94,
+      "end": 765.6,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1259,
+          "end": 1348
+        }
+      ],
+      "text": "At the third and last step, the police again narrowed the list, this time to three users."
+    },
+    {
+      "start": 765.6,
+      "end": 768.54,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1349,
+          "end": 1401
+        }
+      ],
+      "text": "Google responded with their identifying information."
+    },
+    {
+      "start": 768.54,
+      "end": 770.4,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1402,
+          "end": 1422
+        }
+      ],
+      "text": "One of the three was Sha tree."
+    },
+    {
+      "start": 770.4,
+      "end": 780.66,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1432,
+          "end": 1610
+        }
+      ],
+      "text": "The location data showed that he entered the geofenced area about ten minutes before the robbery, and headed toward a residential area of town immediately after leaving the bank."
+    },
+    {
+      "start": 780.66,
+      "end": 787.2,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1611,
+          "end": 1721
+        }
+      ],
+      "text": "Following further police work, a federal grand jury charged Sha tree with robbery and related firearms offenses."
+    },
+    {
+      "start": 787.2,
+      "end": 791.6,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1722,
+          "end": 1800
+        }
+      ],
+      "text": "He moved to suppress the information that the police had obtained from Google."
+    },
+    {
+      "start": 791.6,
+      "end": 801.0,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1801,
+          "end": 1956
+        }
+      ],
+      "text": "According to Sha tree, the officers had acquired that data through a Fourth Amendment search, and the warrant ostensibly authorizing that search was invalid."
+    },
+    {
+      "start": 801.0,
+      "end": 808.48,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1957,
+          "end": 2070
+        },
+        {
+          "page": 14,
+          "start": 81,
+          "end": 111
+        }
+      ],
+      "text": "The District Court mainly agreed with Sha tree's Fourth Amendment analysis, but still denied the motion to exclude the Location History evidence."
+    },
+    {
+      "start": 808.48,
+      "end": 817.88,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 112,
+          "end": 305
+        }
+      ],
+      "text": "Even though “this particular geofence warrant plainly violates the rights enshrined in the Fourth Amendment,” the court stated, the officers' reliance on it was not “objectively unreasonable.”"
+    },
+    {
+      "start": 817.88,
+      "end": 827.96,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 336,
+          "end": 585
+        }
+      ],
+      "text": "And because that was so, the court concluded, the good-faith exception to the exclusionary rule permitted admission of the location data. (establishing good-faith exception)."
+    },
+    {
+      "start": 827.96,
+      "end": 833.4,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 586,
+          "end": 684
+        }
+      ],
+      "text": "A divided panel of the Court of Appeals of the Fourth Circuit affirmed, but on different reasoning."
+    },
+    {
+      "start": 833.4,
+      "end": 837.7,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 685,
+          "end": 785
+        }
+      ],
+      "text": "The majority held that the government did not conduct a search and therefore did not need a warrant."
+    },
+    {
+      "start": 837.7,
+      "end": 849.86,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 786,
+          "end": 964
+        }
+      ],
+      "text": "That was so, the majority reasoned, because Sha tree “did not have a reasonable expectation of privacy in two hours' worth of Location History data voluntarily exposed to Google.”"
+    },
+    {
+      "start": 849.86,
+      "end": 865.58,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 993,
+          "end": 1255
+        }
+      ],
+      "text": "Judge Wynn dissented, arguing that “the police intrusion into Sha tree's Location History data” was “a search that triggered the Fourth Amendment's protections,” and that the warrant issued was “so lacking in particularity and probable cause that it was invalid.”"
+    },
+    {
+      "start": 865.58,
+      "end": 870.76,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1285,
+          "end": 1375
+        }
+      ],
+      "text": "After granting rehearing en banc, the Fourth Circuit affirmed in a one-sentence per curiam."
+    },
+    {
+      "start": 870.76,
+      "end": 873.22,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1409,
+          "end": 1460
+        }
+      ],
+      "text": "(“The judgment of the district court is AFFIRMED”)."
+    },
+    {
+      "start": 873.22,
+      "end": 879.7,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1461,
+          "end": 1580
+        }
+      ],
+      "text": "In multiple accompanying writings, the court divided evenly (7 to 7) on whether a Fourth Amendment search had occurred."
+    },
+    {
+      "start": 879.7,
+      "end": 884.0,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1581,
+          "end": 1666
+        }
+      ],
+      "text": "Of the seven judges who thought it had, most believed the geofence warrant defective."
+    },
+    {
+      "start": 884.0,
+      "end": 890.96,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1667,
+          "end": 1775
+        }
+      ],
+      "text": "But most also thought the exclusionary rule's good-faith exception applied, so ruled against Sha tree anyway."
+    },
+    {
+      "start": 890.96,
+      "end": 901.58,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1776,
+          "end": 1963
+        }
+      ],
+      "text": "We granted certiorari solely on the question whether the police violated the Fourth Amendment in obtaining Sha tree's location data, thus declining to consider the exclusionary rule issue."
+    },
+    {
+      "start": 901.58,
+      "end": 905.76,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1991,
+          "end": 2053
+        }
+      ],
+      "text": "The disputed Fourth Amendment question divides into two parts."
+    },
+    {
+      "start": 905.76,
+      "end": 913.08,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 2054,
+          "end": 2123
+        },
+        {
+          "page": 15,
+          "start": 86,
+          "end": 151
+        }
+      ],
+      "text": "First, did law enforcement officials conduct a search under the Fourth Amendment when they acquired Sha tree's location data from Google?"
+    },
+    {
+      "start": 913.08,
+      "end": 919.66,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 152,
+          "end": 268
+        }
+      ],
+      "text": "We hold that they did because an individual has a legitimate expectation of privacy in his cell-phone location data."
+    },
+    {
+      "start": 919.66,
+      "end": 924.3,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 269,
+          "end": 353
+        }
+      ],
+      "text": "Second, did the multi-step geofence warrant issued here make that search reasonable?"
+    },
+    {
+      "start": 924.3,
+      "end": 937.72,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 354,
+          "end": 591
+        }
+      ],
+      "text": "We leave that question—which requires deciding whether the warrant satisfied the Fourth Amendment's probable cause and particularity requirements at each stage of the search process—to the Court of Appeals to address in the first instance."
+    },
+    {
+      "start": 937.72,
+      "end": 948.5,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 716,
+          "end": 899
+        }
+      ],
+      "text": "Footnote 4: In line with our grant of certiorari, we do not address whether the good-faith exception to the exclusionary rule still allows the admission of the Location History data in this case.",
+      "footnote": "4"
+    },
+    {
+      "start": 948.5,
+      "end": 956.66,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 900,
+          "end": 1061
+        }
+      ],
+      "text": "That question remains for the Fourth Circuit to consider anew, gleaning anything it thinks relevant from our decision on the substantive Fourth Amendment issues.",
+      "footnote": "4"
+    },
+    {
+      "start": 956.66,
+      "end": 962.96,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1062,
+          "end": 1166
+        }
+      ],
+      "text": "The principal dissent seeks to rehash our limited grant of certiorari, but we see no reason to doubt it.",
+      "footnote": "4"
+    },
+    {
+      "start": 962.96,
+      "end": 967.54,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1167,
+          "end": 1243
+        }
+      ],
+      "text": "We have Article Three jurisdiction in this case, as even the dissent concedes.",
+      "footnote": "4"
+    },
+    {
+      "start": 967.54,
+      "end": 975.76,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1280,
+          "end": 1421
+        }
+      ],
+      "text": "That is because the Fourth Circuit is free to revisit the exclusionary rule issue in light of our opinion and to provide Sha tree with relief.",
+      "footnote": "4"
+    },
+    {
+      "start": 975.76,
+      "end": 984.7,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1469,
+          "end": 1615
+        }
+      ],
+      "text": "(Article Three jurisdiction disappears only when it becomes “impossible for a court to grant any effectual relief whatever to the prevailing party”).",
+      "footnote": "4"
+    },
+    {
+      "start": 984.7,
+      "end": 994.06,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1616,
+          "end": 1809
+        }
+      ],
+      "text": "So what does the dissent mean when it continually labels this opinion “advisory” —a term customarily used to describe opinions lacking a jurisdictional basis?",
+      "footnote": "4"
+    },
+    {
+      "start": 994.06,
+      "end": 1007.9,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1810,
+          "end": 2065
+        }
+      ],
+      "text": "Apparently, the dissent's objection is that we today decide a question involving the Fourth Amendment when the odds are strong (so says the dissent) that the Fourth Circuit will eventually, as it did before, resolve this case on exclusionary rule grounds.",
+      "footnote": "4"
+    },
+    {
+      "start": 1007.9,
+      "end": 1015.32,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 2066,
+          "end": 2194
+        }
+      ],
+      "text": "But to repeat, the Fourth Circuit may now consider anew, after review of our opinion, how the good-faith exception applies here.",
+      "footnote": "4"
+    },
+    {
+      "start": 1015.32,
+      "end": 1029.88,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 2195,
+          "end": 2456
+        }
+      ],
+      "text": "And the very decision establishing that exception held that courts should feel free to “resolve the Fourth Amendment issue” before the good-faith issue, either to better assess good faith or “to guide future action by law enforcement officers and magistrates.”",
+      "footnote": "4"
+    },
+    {
+      "start": 1029.88,
+      "end": 1039.58,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 2507,
+          "end": 2667
+        }
+      ],
+      "text": "So contra the dissent, there is nothing advisory (or otherwise improper) in today deciding the Fourth Amendment issue on which we previously granted certiorari.",
+      "footnote": "4"
+    },
+    {
+      "start": 1039.58,
+      "end": 1041.74,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 2666,
+          "end": 2667
+        }
+      ],
+      "text": "End footnote 4.",
+      "transition": true,
+      "footnote": "4"
+    },
+    {
+      "start": 1041.74,
+      "end": 1050.96,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 597,
+          "end": 714
+        },
+        {
+          "page": 16,
+          "start": 50,
+          "end": 94
+        }
+      ],
+      "text": "The Fourth Amendment protects “the right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures.”"
+    },
+    {
+      "start": 1050.96,
+      "end": 1061.4,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 95,
+          "end": 265
+        }
+      ],
+      "text": "The “basic purpose” of that Amendment, our precedents say, is “to safeguard the privacy and security of individuals against arbitrary invasions by governmental officials.”"
+    },
+    {
+      "start": 1061.4,
+      "end": 1066.22,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 421,
+          "end": 513
+        }
+      ],
+      "text": "That purpose is central to decisions about whether a Fourth Amendment “search” has occurred."
+    },
+    {
+      "start": 1066.22,
+      "end": 1075.5,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 514,
+          "end": 674
+        }
+      ],
+      "text": "Our early search doctrine focused on whether law enforcement officials “obtained information by physically intruding”—that is, trespassing—on private property."
+    },
+    {
+      "start": 1075.5,
+      "end": 1082.1,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 757,
+          "end": 891
+        }
+      ],
+      "text": "But the Court in Katz versus United States recognized that “the Fourth Amendment protects people, not places.”"
+    },
+    {
+      "start": 1082.1,
+      "end": 1091.78,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 892,
+          "end": 1070
+        }
+      ],
+      "text": "And so we have long held that “property rights are not the sole measure” of a constitutional violation; the Fourth Amendment “protects certain expectations of privacy as well.”"
+    },
+    {
+      "start": 1091.78,
+      "end": 1106.0,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1151,
+          "end": 1388
+        }
+      ],
+      "text": "“When an individual seeks to preserve something as private, and his expectation of privacy is one that society is prepared to recognize as reasonable,” then governmental “intrusion into that private sphere generally qualifies as a search.”"
+    },
+    {
+      "start": 1106.0,
+      "end": 1118.78,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1398,
+          "end": 1633
+        }
+      ],
+      "text": "Footnote 5: The dissent suggests that this Court has tried to curtail Katz ever since deciding it more energetically, the concurrence advocates overthrowing Katz and reverting to a solely property-based approach.",
+      "footnote": "5"
+    },
+    {
+      "start": 1118.78,
+      "end": 1123.18,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1703,
+          "end": 1764
+        }
+      ],
+      "text": "But this Court has faithfully applied Katz for some 60 years.",
+      "footnote": "5"
+    },
+    {
+      "start": 1123.18,
+      "end": 1137.4,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1765,
+          "end": 2086
+        }
+      ],
+      "text": "Our decision in Carpenter versus United States responded to the same arguments made today by reaffirming that Katz had “discredited the premise that property interests control” and that “privacy interests do not rise or fall with property rights.”",
+      "footnote": "5"
+    },
+    {
+      "start": 1137.4,
+      "end": 1151.46,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 2112,
+          "end": 2288
+        },
+        {
+          "page": 17,
+          "start": 1321,
+          "end": 1512
+        }
+      ],
+      "text": "And in saying as much, Carpenter had plenty of other decisions to cite. (refusing to “make trespass the exclusive test”); (stating that the Court has “decoupled violations of a person's Fourth Amendment rights from trespassory violation of his property”).",
+      "footnote": "5"
+    },
+    {
+      "start": 1151.46,
+      "end": 1160.78,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1513,
+          "end": 1679
+        }
+      ],
+      "text": "Of course, sometimes the privacy and property approaches will “align,” and an opinion adopting the one will resemble, in whole or part, an opinion adopting the other.",
+      "footnote": "5"
+    },
+    {
+      "start": 1160.78,
+      "end": 1170.88,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1749,
+          "end": 1884
+        }
+      ],
+      "text": "That is not because the privacy-based approach is groping toward the more “coherent” property-based one, as the concurrence suggests.",
+      "footnote": "5"
+    },
+    {
+      "start": 1170.88,
+      "end": 1179.06,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1913,
+          "end": 2103
+        }
+      ],
+      "text": "It is simply because property law “naturally enough influences” our “shared societal expectations” of what places and things count as private and should be free from governmental intrusion.",
+      "footnote": "5"
+    },
+    {
+      "start": 1179.06,
+      "end": 1184.86,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 2204,
+          "end": 2297
+        }
+      ],
+      "text": "(“Property rights are often informative” in “determining which expectations of privacy are legitimate”).",
+      "footnote": "5"
+    },
+    {
+      "start": 1184.86,
+      "end": 1188.64,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 2298,
+          "end": 2375
+        }
+      ],
+      "text": "And when such an alignment of the two approaches occurs, then all the better.",
+      "footnote": "5"
+    },
+    {
+      "start": 1188.64,
+      "end": 1190.9,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 2374,
+          "end": 2375
+        }
+      ],
+      "text": "End footnote 5.",
+      "transition": true,
+      "footnote": "5"
+    },
+    {
+      "start": 1190.9,
+      "end": 1199.92,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 55,
+          "end": 228
+        }
+      ],
+      "text": "Whether an expectation of privacy counts as legitimate is less the result of any fixed set of rules than of “guideposts” stretching back to the Fourth Amendment's beginnings."
+    },
+    {
+      "start": 1199.92,
+      "end": 1207.66,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 242,
+          "end": 395
+        }
+      ],
+      "text": "From the founding onward, we have explained, the Fourth Amendment has sought to secure the “privacies of life” against the exercise of “arbitrary power.”"
+    },
+    {
+      "start": 1207.66,
+      "end": 1215.8,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 480,
+          "end": 627
+        }
+      ],
+      "text": "So too we have recognized, and repeatedly, that the Amendment was designed “to place obstacles in the way of a too permeating police surveillance.”"
+    },
+    {
+      "start": 1215.8,
+      "end": 1228.8,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 710,
+          "end": 916
+        }
+      ],
+      "text": "Whatever the form of an attempted incursion, the Fourth Amendment protects Americans' long-held conviction that no government official should have free access to the most closely kept aspects of their lives."
+    },
+    {
+      "start": 1228.8,
+      "end": 1235.96,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 917,
+          "end": 1046
+        }
+      ],
+      "text": "In recent decades, this Court has often confronted the challenge of adhering to those principles in the face of new technologies."
+    },
+    {
+      "start": 1235.96,
+      "end": 1244.06,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1062,
+          "end": 1189
+        }
+      ],
+      "text": "“Innovations in surveillance tools” have “enhanced the Government's capacity to encroach upon areas normally guarded from inquisitive eyes.”"
+    },
+    {
+      "start": 1244.06,
+      "end": 1252.82,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1196,
+          "end": 1321
+        },
+        {
+          "page": 18,
+          "start": 50,
+          "end": 84
+        }
+      ],
+      "text": "The Court, in response, has sought to “assure preservation of that degree of privacy against government that existed when the Fourth Amendment was adopted.”"
+    },
+    {
+      "start": 1252.82,
+      "end": 1264.5,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 134,
+          "end": 345
+        }
+      ],
+      "text": "So in one decision, we rejected a “mechanical interpretation” of the Fourth Amendment to hold that the use of a thermal imager to detect heat coming from a person's home was a search in the constitutional sense."
+    },
+    {
+      "start": 1264.5,
+      "end": 1276.42,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 358,
+          "end": 578
+        }
+      ],
+      "text": "And in another, we held that the search of a cell phone incident to arrest could not proceed without a warrant (even though the search of a handbag could) because of the phone's “vast quantities of personal information.”"
+    },
+    {
+      "start": 1276.42,
+      "end": 1292.26,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 605,
+          "end": 835
+        }
+      ],
+      "text": "Most recently, in Carpenter versus United States, this Court held that accessing a form of cell-phone location information other than Location History is a Fourth Amendment search given individuals' reasonable expectations of privacy."
+    },
+    {
+      "start": 1292.26,
+      "end": 1306.92,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 863,
+          "end": 1117
+        }
+      ],
+      "text": "We begin with Carpenter in considering the Government's front-line position here: that no warrant was needed to get Location History data from Google (although the police “prophylactically secured” one) because no Fourth Amendment search ever took place."
+    },
+    {
+      "start": 1306.92,
+      "end": 1311.34,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1150,
+          "end": 1224
+        }
+      ],
+      "text": "We then explain why the result we reached in Carpenter once again follows."
+    },
+    {
+      "start": 1311.34,
+      "end": 1321.82,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1225,
+          "end": 1409
+        }
+      ],
+      "text": "Contrary to the Government's view, an individual has a legitimate expectation of privacy in the information Location History collects about his cell phone's—meaning his own—movements."
+    },
+    {
+      "start": 1321.82,
+      "end": 1333.24,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1410,
+          "end": 1602
+        }
+      ],
+      "text": "The police invade that expectation, and thus conduct a search, when they acquire that information, even though for only a limited period of time and even though via a third-party tech company."
+    },
+    {
+      "start": 1333.24,
+      "end": 1344.52,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1605,
+          "end": 1830
+        }
+      ],
+      "text": "The question presented in Carpenter was “whether the Government conducts a search under the Fourth Amendment when it accesses historical cell phone records that provide a comprehensive chronicle of the user's past movements.”"
+    },
+    {
+      "start": 1344.52,
+      "end": 1349.88,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1850,
+          "end": 1934
+        }
+      ],
+      "text": "The cell-phone records at issue were what is known as cell-site location information (C S L I)."
+    },
+    {
+      "start": 1349.88,
+      "end": 1357.22,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1943,
+          "end": 1997
+        },
+        {
+          "page": 19,
+          "start": 55,
+          "end": 107
+        }
+      ],
+      "text": "As we explained, C S L I is a “time-stamped record” generated each time a cell phone connects to a cell site."
+    },
+    {
+      "start": 1357.22,
+      "end": 1365.04,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 121,
+          "end": 252
+        }
+      ],
+      "text": "Wireless carriers collect and store that information for their own business purposes (such as finding weak spots in their networks)."
+    },
+    {
+      "start": 1365.04,
+      "end": 1374.6,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 253,
+          "end": 393
+        }
+      ],
+      "text": "But C S L I can also benefit law enforcement, because it identifies an individual's approximate location every time his phone makes a connection."
+    },
+    {
+      "start": 1374.6,
+      "end": 1387.32,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 394,
+          "end": 603
+        }
+      ],
+      "text": "In Carpenter, police officers investigating a string of Radio Shack robberies ordered a wireless carrier of a known suspect to turn over his C S L I records for a seven-day period (without first getting a warrant)."
+    },
+    {
+      "start": 1387.32,
+      "end": 1396.46,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 604,
+          "end": 768
+        }
+      ],
+      "text": "Those records showed, as the Government later put it, that the suspect, Timothy Carpenter, was “right where the... robbery was at the exact time of the robbery.”"
+    },
+    {
+      "start": 1396.46,
+      "end": 1405.22,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 782,
+          "end": 904
+        }
+      ],
+      "text": "Carpenter moved to exclude the C S L I records, arguing that the Government acquired them through an unconstitutional search."
+    },
+    {
+      "start": 1405.22,
+      "end": 1414.4,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 905,
+          "end": 1078
+        }
+      ],
+      "text": "The Court began its analysis by reviewing what it had said about a different way of tracking “physical location and movements”: the use of a G P S device to monitor a vehicle."
+    },
+    {
+      "start": 1414.4,
+      "end": 1425.16,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1092,
+          "end": 1317
+        }
+      ],
+      "text": "In United States versus Jones five Justices had agreed that such tracking counts as a Fourth Amendment search because “individuals have a reasonable expectation of privacy in the whole of their physical movements.”"
+    },
+    {
+      "start": 1425.16,
+      "end": 1430.42,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1378,
+          "end": 1455
+        }
+      ],
+      "text": "(Alito, J., concurring in judgment); (Sotomayor, J., concurring)."
+    },
+    {
+      "start": 1430.42,
+      "end": 1439.3,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1954,
+          "end": 2088
+        }
+      ],
+      "text": "Footnote 6: An overlapping set of five Justices decided the case on a different ground, based on the Government's physical trespass of the vehicle.",
+      "footnote": "6"
+    },
+    {
+      "start": 1439.3,
+      "end": 1441.155,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 2121,
+          "end": 2122
+        }
+      ],
+      "text": "End footnote 6.",
+      "transition": true,
+      "footnote": "6"
+    },
+    {
+      "start": 1441.155,
+      "end": 1445.94,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1458,
+          "end": 1549
+        }
+      ],
+      "text": "That made sense, the Carpenter Court thought, even though the movements occurred in public."
+    },
+    {
+      "start": 1445.94,
+      "end": 1453.62,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1550,
+          "end": 1685
+        }
+      ],
+      "text": "Prior to the digital age, pursuing a suspect “for any extended period of time was difficult and costly and therefore rarely undertaken.”"
+    },
+    {
+      "start": 1453.62,
+      "end": 1465.12,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1763,
+          "end": 1952
+        },
+        {
+          "page": 20,
+          "start": 50,
+          "end": 74
+        }
+      ],
+      "text": "As a result, “society's expectation has been that law enforcement agents and others would not—and indeed, in the main, simply could not—secretly monitor and catalogue every single movement of an individual's car.”"
+    },
+    {
+      "start": 1465.12,
+      "end": 1473.485,
+      "paragraph": 41,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 163,
+          "end": 281
+        }
+      ],
+      "text": "A new technology should not transform what individuals had reasonably thought they could withhold from the Government."
+    },
+    {
+      "start": 1473.485,
+      "end": 1480.98,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 282,
+          "end": 415
+        }
+      ],
+      "text": "It followed a fortiori, Carpenter held, that “allowing government access to cell-site records contravenes” expectations of privacy."
+    },
+    {
+      "start": 1480.98,
+      "end": 1489.64,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 435,
+          "end": 601
+        }
+      ],
+      "text": "To an even greater degree than G P S monitoring, C S L I can provide a full “record of the holder's whereabouts” and, with that, “an intimate window into a person's life.”"
+    },
+    {
+      "start": 1489.64,
+      "end": 1497.16,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 608,
+          "end": 724
+        }
+      ],
+      "text": "People, after all, “regularly leave their vehicles,” but they “compulsively carry” their cell phones “all the time.”"
+    },
+    {
+      "start": 1497.16,
+      "end": 1509.74,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 731,
+          "end": 981
+        }
+      ],
+      "text": "A cell phone thus “tracks nearly exactly the movements of its owner”: It “faithfully follows” him not only through “public thoroughfares but into private residences, doctor's offices, political headquarters, and other potentially revealing locales.”"
+    },
+    {
+      "start": 1509.74,
+      "end": 1520.22,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 988,
+          "end": 1152
+        }
+      ],
+      "text": "What is more, the “newfound tracking capacity” that C S L I gives the police “runs against everyone”—not just those “under investigation”—and “travels back in time.”"
+    },
+    {
+      "start": 1520.22,
+      "end": 1526.92,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1166,
+          "end": 1271
+        }
+      ],
+      "text": "Police officers need not decide in advance (as they do with G P S devices) who they want to follow and when."
+    },
+    {
+      "start": 1526.92,
+      "end": 1533.84,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1272,
+          "end": 1377
+        }
+      ],
+      "text": "Instead, they can easily and cheaply—with “just the click of a button”—reconstruct any person's movements “retrospectively.”"
+    },
+    {
+      "start": 1533.84,
+      "end": 1540.62,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1416,
+          "end": 1533
+        }
+      ],
+      "text": "What in the past was “unknowable” suddenly becomes open to view, presenting formerly unimaginable “privacy concerns.”"
+    },
+    {
+      "start": 1540.62,
+      "end": 1558.02,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1540,
+          "end": 1807
+        }
+      ],
+      "text": "The Court thus concluded: “When the Government accessed C S L I from the wireless carriers”—thereby obtaining a “detailed log” of where Carpenter had gone for seven days—“it invaded Carpenter's reasonable expectation of privacy in the whole of his physical movements.”"
+    },
+    {
+      "start": 1558.02,
+      "end": 1565.02,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1829,
+          "end": 1936
+        }
+      ],
+      "text": "Footnote 7: A significant fraction of the dissent is devoted to relitigating Carpenter, from which its author dissented.",
+      "footnote": "7"
+    },
+    {
+      "start": 1565.02,
+      "end": 1582.92,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1998,
+          "end": 2196
+        },
+        {
+          "page": 21,
+          "start": 1064,
+          "end": 1187
+        }
+      ],
+      "text": "Carpenter, the dissent complains today, “extended the Fourth Amendment's warrant requirement to encompass a category of government investigations that it had never previously covered”: The decision “thus reflected a stark departure from both traditional Fourth Amendment principles and this Court's 20th-century doctrine.”",
+      "footnote": "7"
+    },
+    {
+      "start": 1582.92,
+      "end": 1602.86,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1202,
+          "end": 1639
+        }
+      ],
+      "text": "In leveling that charge, the dissent re-ups arguments, point-for-point, that Carpenter specifically rejected. (maintaining that compelled document-production orders are never searches), with (rejecting that view); compare also (contending that the Fourth Amendment never protects documents held by third parties), with (likewise rejecting that view).",
+      "footnote": "7"
+    },
+    {
+      "start": 1602.86,
+      "end": 1613.28,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1640,
+          "end": 1832
+        }
+      ],
+      "text": "In light of that outlook, it is perhaps not so surprising that the dissent criticizes today's decision as “relying primarily” on Carpenter, rather than on earlier Fourth Amendment decisions.",
+      "footnote": "7"
+    },
+    {
+      "start": 1613.28,
+      "end": 1616.7,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1847,
+          "end": 1904
+        }
+      ],
+      "text": "But on that supposed offense, we plead guilty as charged.",
+      "footnote": "7"
+    },
+    {
+      "start": 1616.7,
+      "end": 1630.1,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1905,
+          "end": 2156
+        }
+      ],
+      "text": "Carpenter is the most recent decision of this Court to consider the Fourth Amendment's application to new surveillance technologies—indeed, to law enforcement's use of those technologies to create a “chronicle of a cell-phone user's past movements.”",
+      "footnote": "7"
+    },
+    {
+      "start": 1630.1,
+      "end": 1635.74,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 2176,
+          "end": 2270
+        }
+      ],
+      "text": "What would be grounds for complaint is if this decision did not “rely primarily” on Carpenter.",
+      "footnote": "7"
+    },
+    {
+      "start": 1635.74,
+      "end": 1643.2,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 2285,
+          "end": 2416
+        }
+      ],
+      "text": "And as the next section of this opinion shows, the more one delves into the technologies at issue, the closer the parallels become.",
+      "footnote": "7"
+    },
+    {
+      "start": 1643.2,
+      "end": 1645.44,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 2448,
+          "end": 2449
+        }
+      ],
+      "text": "End footnote 7.",
+      "transition": true,
+      "footnote": "7"
+    },
+    {
+      "start": 1645.44,
+      "end": 1653.62,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 57,
+          "end": 182
+        }
+      ],
+      "text": "The resemblances between C S L I and Location History, in their relationship to personal privacy, practically leap off the page."
+    },
+    {
+      "start": 1653.62,
+      "end": 1668.32,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 183,
+          "end": 423
+        }
+      ],
+      "text": "Everything Carpenter relied on to find that law enforcement officers conducted a Fourth Amendment search when they accessed wireless carriers' C S L I records applies as well or better to the police's accessing of Google's Location History data."
+    },
+    {
+      "start": 1668.32,
+      "end": 1674.58,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 424,
+          "end": 516
+        }
+      ],
+      "text": "First, Location History provides an even more fine-tuned picture of a person's movements than C S L I."
+    },
+    {
+      "start": 1674.58,
+      "end": 1683.28,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 523,
+          "end": 656
+        }
+      ],
+      "text": "Carpenter noted that through C S L I records, police could “achieve near perfect surveillance” of an individual holding a cell phone."
+    },
+    {
+      "start": 1683.28,
+      "end": 1686.74,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 674,
+          "end": 719
+        }
+      ],
+      "text": "But Location History is nearer perfect still."
+    },
+    {
+      "start": 1686.74,
+      "end": 1703.62,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 720,
+          "end": 988
+        }
+      ],
+      "text": "Here is one way of comparing the two: At any given time, C S L I placed Carpenter within a “sector ranging from one-eighth to four square miles,” whereas Location History pinpointed Sha tree's location within around twenty meters, which is less than two percent of a mile."
+    },
+    {
+      "start": 1703.62,
+      "end": 1719.02,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1036,
+          "end": 1064
+        },
+        {
+          "page": 22,
+          "start": 81,
+          "end": 263
+        }
+      ],
+      "text": "Or here is another measure: C S L I logged Carpenter's location an average of 101 times a day, whereas Location History commonly records a person's location every two minutes, for a daily average of 720 chartings."
+    },
+    {
+      "start": 1719.02,
+      "end": 1732.86,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 343,
+          "end": 579
+        }
+      ],
+      "text": "Or finally, a third: Unlike C S L I, Location History can estimate a phone's elevation—so, for example, can tell whether someone has gone into a doctor's office on the first floor of a multi-story building, or a private apartment on the tenth."
+    },
+    {
+      "start": 1732.86,
+      "end": 1738.32,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 580,
+          "end": 686
+        }
+      ],
+      "text": "Of course, the accuracy of each of the two techniques may vary in different places and at different times."
+    },
+    {
+      "start": 1738.32,
+      "end": 1742.64,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 687,
+          "end": 757
+        }
+      ],
+      "text": "But across the board Location History is the far more precise measure."
+    },
+    {
+      "start": 1742.64,
+      "end": 1754.94,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 758,
+          "end": 934
+        }
+      ],
+      "text": "When the Carpenter Court said that C S L I provides a “detailed” and “encyclopedic” portrait of a person's whereabouts, it did not know what further technology was on the horizon."
+    },
+    {
+      "start": 1754.94,
+      "end": 1763.54,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 954,
+          "end": 1109
+        }
+      ],
+      "text": "And next, Location History also allows police officers to reconstruct “retrospectively,” and with no real effort, people's comings and goings in any area."
+    },
+    {
+      "start": 1763.54,
+      "end": 1770.84,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1123,
+          "end": 1255
+        }
+      ],
+      "text": "As with C S L I, the Government need not decide in advance the kind of surveillance it should undertake, whether of a person or a site."
+    },
+    {
+      "start": 1770.84,
+      "end": 1778.84,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1257,
+          "end": 1378
+        }
+      ],
+      "text": "“Whoever the suspect turns out to be,” Carpenter said of C S L I, “he has effectively been tailed every moment of every day.”"
+    },
+    {
+      "start": 1778.84,
+      "end": 1790.56,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1385,
+          "end": 1593
+        }
+      ],
+      "text": "Likewise, as this case shows, wherever a location of interest turns out to be (whether a crime scene or a protest march or even a private home), it has effectively been surveilled for the same boundless time."
+    },
+    {
+      "start": 1790.56,
+      "end": 1799.78,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1594,
+          "end": 1751
+        }
+      ],
+      "text": "Google's Location History will be available to chart the movements of many individuals—or a few or one—within the vicinity, again at the “click of a button.”"
+    },
+    {
+      "start": 1799.78,
+      "end": 1814.86,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1765,
+          "end": 2132
+        }
+      ],
+      "text": "Recall that in Jones, it was thought notable that law enforcement officials of an earlier age usually could not monitor every movement of an individual's car, as a G P S device does.; (“In the past, attempts to reconstruct a person's prior movements were limited”)."
+    },
+    {
+      "start": 1814.86,
+      "end": 1825.78,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 2133,
+          "end": 2206
+        },
+        {
+          "page": 23,
+          "start": 55,
+          "end": 172
+        }
+      ],
+      "text": "Far less could those officials ever perform the “tireless and absolute surveillance” of any number of people in any number of places, public and private, that Location History can accomplish."
+    },
+    {
+      "start": 1825.78,
+      "end": 1833.28,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 179,
+          "end": 293
+        }
+      ],
+      "text": "If the one kind of intrusion clashes with “society's expectations” of what counts as private, so must the other.."
+    },
+    {
+      "start": 1833.28,
+      "end": 1841.8,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 343,
+          "end": 484
+        }
+      ],
+      "text": "Indeed, Location History records implicate those privacy interests still more than C S L I data because the former is more the individual's own."
+    },
+    {
+      "start": 1841.8,
+      "end": 1847.76,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 485,
+          "end": 586
+        }
+      ],
+      "text": "Most cell-phone users have no awareness of C S L I records, and anyway would never try to retrieve them."
+    },
+    {
+      "start": 1847.76,
+      "end": 1853.12,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 587,
+          "end": 701
+        }
+      ],
+      "text": "The records are instead the province of wireless carriers, which maintain them for an array of business functions."
+    },
+    {
+      "start": 1853.12,
+      "end": 1855.56,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 751,
+          "end": 793
+        }
+      ],
+      "text": "Location History information is different."
+    },
+    {
+      "start": 1855.56,
+      "end": 1860.6,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 794,
+          "end": 872
+        }
+      ],
+      "text": "No doubt, Google itself uses those records to improve the quality of its apps."
+    },
+    {
+      "start": 1860.6,
+      "end": 1874.62,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 873,
+          "end": 1133
+        }
+      ],
+      "text": "But Google users, too, regularly employ Location History—for example, “to remind themselves of a restaurant they ate at two weeks ago, the time they were last at a friend's home, the sites they saw on vacation, or the distance they walked on a particular day.”"
+    },
+    {
+      "start": 1874.62,
+      "end": 1882.24,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1175,
+          "end": 1309
+        }
+      ],
+      "text": "The records thus serve as a personal journal of a user's movements, which that user consults (and even can edit) for his own purposes."
+    },
+    {
+      "start": 1882.24,
+      "end": 1894.74,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1326,
+          "end": 1521
+        }
+      ],
+      "text": "In that way, Location History resembles other private materials—think of emails, documents, photographs, or calendars—that even if stored on Google's servers, a user reasonably views as his own."
+    },
+    {
+      "start": 1894.74,
+      "end": 1900.76,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1522,
+          "end": 1627
+        }
+      ],
+      "text": "And as a result, that he reasonably expects to be shielded from the “inquisitive eyes” of the government."
+    },
+    {
+      "start": 1900.76,
+      "end": 1914.88,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1660,
+          "end": 1905
+        }
+      ],
+      "text": "The Government, not much contesting any of the above, principally argues on a different ground: that accessing only a short amount of cell-phone location information (whether Location History or C S L I) does not count as a Fourth Amendment search."
+    },
+    {
+      "start": 1914.88,
+      "end": 1920.6,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1907,
+          "end": 2008
+        },
+        {
+          "page": 24,
+          "start": 81,
+          "end": 95
+        }
+      ],
+      "text": "(The dissent likewise contends that the “duration” of data obtained here is too brief for a search to have happened."
+    },
+    {
+      "start": 1920.6,
+      "end": 1924.9,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 146,
+          "end": 212
+        }
+      ],
+      "text": ") Recall that Carpenter involved seven days' worth of location data."
+    },
+    {
+      "start": 1924.9,
+      "end": 1936.14,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 236,
+          "end": 419
+        }
+      ],
+      "text": "And in deciding that case, this Court reserved the issue whether there was a more “limited period for which the Government may obtain” such data “free from Fourth Amendment scrutiny.”"
+    },
+    {
+      "start": 1936.14,
+      "end": 1946.34,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1549,
+          "end": 1689
+        }
+      ],
+      "text": "Footnote 8: In comparing Carpenter and this case, the dissent sometimes treats the former as involving not 7 days but instead 127 days of location data.",
+      "footnote": "8"
+    },
+    {
+      "start": 1946.34,
+      "end": 1948.68,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1730,
+          "end": 1765
+        }
+      ],
+      "text": "But there is no basis for doing so.",
+      "footnote": "8"
+    },
+    {
+      "start": 1948.68,
+      "end": 1956.48,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1766,
+          "end": 1885
+        }
+      ],
+      "text": "To be sure, one of the two wireless carriers involved in the case had turned over 127 days of data, as the Court noted.",
+      "footnote": "8"
+    },
+    {
+      "start": 1956.48,
+      "end": 1969.7,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1909,
+          "end": 2134
+        }
+      ],
+      "text": "But the other was ordered to turn over only 7 days, and the Court could not have been clearer that its holding applied whenever the Government accessed a week or more of C S L I data (with everything below that amount reserved).",
+      "footnote": "8"
+    },
+    {
+      "start": 1969.7,
+      "end": 1977.7,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 2159,
+          "end": 2280
+        }
+      ],
+      "text": "(“It is sufficient for our purposes today to hold that accessing seven days of C S L I constitutes a Fourth Amendment search”).",
+      "footnote": "8"
+    },
+    {
+      "start": 1977.7,
+      "end": 1986.9,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 2281,
+          "end": 2434
+        }
+      ],
+      "text": "The dissent acknowledges that fact, even as it repeatedly invokes the 127-day figure to make its comparative argument sound stronger.",
+      "footnote": "8"
+    },
+    {
+      "start": 1986.9,
+      "end": 1989.06,
+      "paragraph": 51,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 2433,
+          "end": 2434
+        }
+      ],
+      "text": "End footnote 8.",
+      "transition": true,
+      "footnote": "8"
+    },
+    {
+      "start": 1989.06,
+      "end": 1996.86,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 447,
+          "end": 601
+        }
+      ],
+      "text": "The Government now claims that the answer is yes, and that the two hours' worth of Location History acquired here falls within the Constitution-free zone."
+    },
+    {
+      "start": 1996.86,
+      "end": 2008.22,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 602,
+          "end": 826
+        }
+      ],
+      "text": "In the Government's view, a person has no reasonable expectation of privacy in “that short a time window” of location data, because his “short-term” movements will “reveal little about the details of his personal life.”"
+    },
+    {
+      "start": 2008.22,
+      "end": 2014.76,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 876,
+          "end": 979
+        }
+      ],
+      "text": "(“A single stop at a doctor's office, for example, does not in itself identify the reason for the visit”)."
+    },
+    {
+      "start": 2014.76,
+      "end": 2025.84,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 980,
+          "end": 1208
+        }
+      ],
+      "text": "The Government cites in support United States versus Knotts in which the Court held that police officers' use of a beeper to assist an hours-long tail of a car did not bring the Fourth Amendment into play."
+    },
+    {
+      "start": 2025.84,
+      "end": 2035.08,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1209,
+          "end": 1372
+        }
+      ],
+      "text": "The lesson the Government draws is that law enforcement officials accessing Location History should receive a Fourth Amendment grace period of some number of hours."
+    },
+    {
+      "start": 2035.08,
+      "end": 2041.62,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1373,
+          "end": 1493
+        }
+      ],
+      "text": "But to begin, the Government is wrong about the incapacity of short-term location information to reveal private matters."
+    },
+    {
+      "start": 2041.62,
+      "end": 2048.72,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1506,
+          "end": 1547
+        },
+        {
+          "page": 25,
+          "start": 55,
+          "end": 138
+        }
+      ],
+      "text": "“Repeated patterns,” in the Government's phrasing, are not all that individuals wish to, and reasonably expect to, keep to themselves."
+    },
+    {
+      "start": 2048.72,
+      "end": 2060.94,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 167,
+          "end": 390
+        }
+      ],
+      "text": "Return here to another of Jones's insights: “Even short-term monitoring” of a person's physical movements can provide “a wealth of detail about his familial, political, professional, religious, and sexual associations.”."
+    },
+    {
+      "start": 2060.94,
+      "end": 2074.24,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 437,
+          "end": 683
+        }
+      ],
+      "text": "Consider just a few trips that a person is apt to think “indisputably private”: to “the psychiatrist, the plastic surgeon, the abortion clinic, the AIDS treatment center, the strip club, the criminal defense attorney, or the by-the-hour motel.”"
+    },
+    {
+      "start": 2074.24,
+      "end": 2083.52,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 690,
+          "end": 833
+        }
+      ],
+      "text": "And unlike a G P S device, Location History enables police officers to focus on precisely those sites—to see, in a given time block, who shows up."
+    },
+    {
+      "start": 2083.52,
+      "end": 2094.24,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 834,
+          "end": 984
+        }
+      ],
+      "text": "Similarly, Location History—even two hours of it—allows officers to target one-off events of potential interest: a gun show, say, or a political rally."
+    },
+    {
+      "start": 2094.24,
+      "end": 2104.06,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 985,
+          "end": 1224
+        }
+      ],
+      "text": "Still more fundamentally, we have never understood Fourth Amendment protections as kicking in only once an intrusion “goes too far.” (adopting that approach for regulatory takings)."
+    },
+    {
+      "start": 2104.06,
+      "end": 2110.08,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1225,
+          "end": 1350
+        }
+      ],
+      "text": "Where the Fourth Amendment applies, it applies—regardless of “the quality or quantity of information” the government obtains."
+    },
+    {
+      "start": 2110.08,
+      "end": 2119.9,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1376,
+          "end": 1548
+        }
+      ],
+      "text": "So, for example, this Court held that thermal imaging qualified as a search even though it did not, and was not likely to, detect “private activities” or “intimate details.”"
+    },
+    {
+      "start": 2119.9,
+      "end": 2129.54,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1555,
+          "end": 1724
+        }
+      ],
+      "text": "The Amendment, we analogized, makes “no exception” for the officer “who barely cracks open the front door and sees nothing but the nonintimate rug on the vestibule floor.”"
+    },
+    {
+      "start": 2129.54,
+      "end": 2137.84,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1731,
+          "end": 1878
+        }
+      ],
+      "text": "And likewise, the Amendment does not give agents a pass if their wiretap is of limited duration and thus less likely to intrude on private matters."
+    },
+    {
+      "start": 2137.84,
+      "end": 2143.895,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1879,
+          "end": 1966
+        }
+      ],
+      "text": "Indeed, in our seminal wiretap case, the police obtained only 18 minutes of recordings."
+    },
+    {
+      "start": 2143.895,
+      "end": 2153.88,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 2003,
+          "end": 2172
+        }
+      ],
+      "text": "That approach makes all the more sense when, as with Location History, officials can select the time-limited set of materials they want from an all-encompassing database."
+    },
+    {
+      "start": 2153.88,
+      "end": 2163.36,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 81,
+          "end": 236
+        }
+      ],
+      "text": "Then, the durational bounds on the data actually acquired do little to address the Fourth Amendment's concern about “a too permeating police surveillance.”"
+    },
+    {
+      "start": 2163.36,
+      "end": 2176.66,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 283,
+          "end": 504
+        }
+      ],
+      "text": "What creates that concern is that the government can access all of a cell-phone user's movements, in both public and private places—that it possesses a virtual panopticon with which to scrutinize its citizens' activities."
+    },
+    {
+      "start": 2176.66,
+      "end": 2186.4,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 505,
+          "end": 679
+        }
+      ],
+      "text": "The sweep of the official invasion is not made less because the government, with the benefit of hindsight, can pinpoint exactly which few hours of movements it wants to review."
+    },
+    {
+      "start": 2186.4,
+      "end": 2195.9,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 680,
+          "end": 811
+        }
+      ],
+      "text": "That feature of accessing location data is, indeed, more a practical benefit to the government than a limit on its intrusive powers."
+    },
+    {
+      "start": 2195.9,
+      "end": 2202.0,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1529,
+          "end": 1650
+        }
+      ],
+      "text": "Footnote 9: The Government's grace-period approach to Fourth Amendment protection would also create a host of line-drawing questions.",
+      "footnote": "9"
+    },
+    {
+      "start": 2202.0,
+      "end": 2204.92,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1651,
+          "end": 1710
+        }
+      ],
+      "text": "At what point, exactly, would a non-search become a search?",
+      "footnote": "9"
+    },
+    {
+      "start": 2204.92,
+      "end": 2208.16,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1711,
+          "end": 1763
+        }
+      ],
+      "text": "In two hours, or six hours, or one day, or six days?",
+      "footnote": "9"
+    },
+    {
+      "start": 2208.16,
+      "end": 2210.3,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1764,
+          "end": 1800
+        }
+      ],
+      "text": "And how often would the clock reset?",
+      "footnote": "9"
+    },
+    {
+      "start": 2210.3,
+      "end": 2219.0,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1801,
+          "end": 1933
+        }
+      ],
+      "text": "If, say, the limit was six hours, could an officer request location data from 6 a.m. to noon, and then again from 12:30 to 6:30 p.m.?",
+      "footnote": "9"
+    },
+    {
+      "start": 2219.0,
+      "end": 2228.24,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1934,
+          "end": 2100
+        }
+      ],
+      "text": "And if there were concurrent federal and state investigations of a crime, as there could have been here, would law enforcement access to Location History data double?",
+      "footnote": "9"
+    },
+    {
+      "start": 2228.24,
+      "end": 2233.32,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 2101,
+          "end": 2198
+        }
+      ],
+      "text": "The approach the Government offers would “keep defendants and judges guessing for years to come.”",
+      "footnote": "9"
+    },
+    {
+      "start": 2233.32,
+      "end": 2235.66,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 2245,
+          "end": 2246
+        }
+      ],
+      "text": "End footnote 9.",
+      "transition": true,
+      "footnote": "9"
+    },
+    {
+      "start": 2235.66,
+      "end": 2242.48,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 814,
+          "end": 935
+        }
+      ],
+      "text": "And contra the Government, Knotts does not support the view that accessing two hours of Location History is not a search."
+    },
+    {
+      "start": 2242.48,
+      "end": 2248.08,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 936,
+          "end": 1031
+        }
+      ],
+      "text": "There, police officers put a beeper in a car to help them follow it from Minnesota to Wisconsin."
+    },
+    {
+      "start": 2248.08,
+      "end": 2257.06,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1032,
+          "end": 1182
+        }
+      ],
+      "text": "The Court decided that the beeper did not turn the tail into a search, but was explicit in keeping its holding cabined to that rudimentary technology."
+    },
+    {
+      "start": 2257.06,
+      "end": 2265.92,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1183,
+          "end": 1362
+        }
+      ],
+      "text": "The defendant had argued that a ruling against him would enable officials to conduct “surveillance of any citizen of this country” free from the strictures of the Fourth Amendment."
+    },
+    {
+      "start": 2265.92,
+      "end": 2275.86,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1382,
+          "end": 1525
+        },
+        {
+          "page": 27,
+          "start": 55,
+          "end": 91
+        }
+      ],
+      "text": "The Court took the concern seriously, stating that if technology progressed so as to allow more sophisticated surveillance, “different constitutional principles” could well apply."
+    },
+    {
+      "start": 2275.86,
+      "end": 2280.64,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 105,
+          "end": 179
+        }
+      ],
+      "text": "And three decades later, five Justices in two opinions found that they did."
+    },
+    {
+      "start": 2280.64,
+      "end": 2291.32,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 180,
+          "end": 360
+        }
+      ],
+      "text": "When faced in Jones with a G P S device—which unlike the beeper allowed remote monitoring—they decided, notwithstanding Knotts, that privacy was implicated and a search had occurred."
+    },
+    {
+      "start": 2291.32,
+      "end": 2293.08,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 384,
+          "end": 410
+        }
+      ],
+      "text": "Yet even that was not all."
+    },
+    {
+      "start": 2293.08,
+      "end": 2303.92,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 411,
+          "end": 589
+        }
+      ],
+      "text": "When six years further on, the Carpenter Court held that accessing C S L I was a search, it recounted the Knotts-to-Jones progression to explain why Knotts did not stand in its way."
+    },
+    {
+      "start": 2303.92,
+      "end": 2311.56,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 617,
+          "end": 753
+        }
+      ],
+      "text": "(Knotts “was careful to distinguish between the rudimentary tracking facilitated by the beeper and more sweeping modes of surveillance”)."
+    },
+    {
+      "start": 2311.56,
+      "end": 2315.84,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 754,
+          "end": 809
+        }
+      ],
+      "text": "For the third time, we reach the same conclusion today."
+    },
+    {
+      "start": 2315.84,
+      "end": 2321.72,
+      "paragraph": 58,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 810,
+          "end": 923
+        }
+      ],
+      "text": "And still another feature of Knotts makes it inapt here: that the surveillance there was confined to public roads."
+    },
+    {
+      "start": 2321.72,
+      "end": 2333.58,
+      "paragraph": 58,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 924,
+          "end": 1135
+        }
+      ],
+      "text": "That fact was crucial to the Court's decision: “A person traveling in an automobile on public thoroughfares has no reasonable expectation of privacy,” Knotts explained, because the car is always “in plain view.”"
+    },
+    {
+      "start": 2333.58,
+      "end": 2339.8,
+      "paragraph": 58,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1155,
+          "end": 1246
+        }
+      ],
+      "text": "By contrast, the movements that Location History reveals are not limited to public streets."
+    },
+    {
+      "start": 2339.8,
+      "end": 2351.205,
+      "paragraph": 58,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1247,
+          "end": 1426
+        }
+      ],
+      "text": "Recall what Carpenter observed: A “cell phone faithfully follows its owner beyond public thoroughfares and into private residences, doctor's offices, and political headquarters.”"
+    },
+    {
+      "start": 2351.205,
+      "end": 2362.14,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1470,
+          "end": 1663
+        }
+      ],
+      "text": "Footnote 10: The dissent replies that the “limited geofence procedure” authorized by the warrant here distinguishes this case from Carpenter because “the geofence's boundaries” centered on “a public place.”",
+      "footnote": "10"
+    },
+    {
+      "start": 2362.14,
+      "end": 2364.98,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1690,
+          "end": 1758
+        }
+      ],
+      "text": "But as an initial matter, those boundaries were defined by a warrant.",
+      "footnote": "10"
+    },
+    {
+      "start": 2364.98,
+      "end": 2376.92,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1759,
+          "end": 2008
+        }
+      ],
+      "text": "If accessing Location History does not count as a Fourth Amendment search, as the dissent generally suggests, there will not be a warrant (or any other means) to limit the scope of what law enforcement can demand.",
+      "footnote": "10"
+    },
+    {
+      "start": 2376.92,
+      "end": 2383.1,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 2009,
+          "end": 2131
+        }
+      ],
+      "text": "And even putting that aside, the dissent's argument is wrong because it ignores how this geofence warrant actually worked.",
+      "footnote": "10"
+    },
+    {
+      "start": 2383.1,
+      "end": 2395.06,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 2132,
+          "end": 2262
+        },
+        {
+          "page": 28,
+          "start": 1552,
+          "end": 1735
+        }
+      ],
+      "text": "The geofence was not limited to the bank; it also included a nearby church. (noting that, in Google's experience, it is “common for a geofence to cover private homes, apartment buildings,... hotels, and places of worship”).",
+      "footnote": "10"
+    },
+    {
+      "start": 2395.06,
+      "end": 2402.52,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1736,
+          "end": 1876
+        }
+      ],
+      "text": "And regardless, the Location History data the police obtained at the second stage of the search process was not constrained by the geofence.",
+      "footnote": "10"
+    },
+    {
+      "start": 2402.52,
+      "end": 2408.5,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1877,
+          "end": 1963
+        }
+      ],
+      "text": "In fact, it showed individuals' trips to private residences, a school, and a hospital.",
+      "footnote": "10"
+    },
+    {
+      "start": 2408.5,
+      "end": 2417.84,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1997,
+          "end": 2158
+        }
+      ],
+      "text": "So the geofence's boundaries do not somehow turn Location History into a public-movements-only technology or ensure a less “comprehensive” log than in Carpenter.",
+      "footnote": "10"
+    },
+    {
+      "start": 2417.84,
+      "end": 2419.915,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 2171,
+          "end": 2172
+        }
+      ],
+      "text": "End footnote 10.",
+      "transition": true,
+      "footnote": "10"
+    },
+    {
+      "start": 2419.915,
+      "end": 2432.2,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 50,
+          "end": 280
+        }
+      ],
+      "text": "In one of those places—a private residence—this Court has held even beeper technology to count as a search because it could reveal “whether a particular article—or a person, for that matter” was in the home “at a particular time.”"
+    },
+    {
+      "start": 2432.2,
+      "end": 2442.88,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 331,
+          "end": 517
+        }
+      ],
+      "text": "If that is so, accessing Location History must also be a search—even if for only two hours—because that data can far more reliably show someone within a home (indeed, on a specific floor)."
+    },
+    {
+      "start": 2442.88,
+      "end": 2445.6,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 518,
+          "end": 562
+        }
+      ],
+      "text": "The Government replies with an odd argument."
+    },
+    {
+      "start": 2445.6,
+      "end": 2454.48,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 563,
+          "end": 736
+        }
+      ],
+      "text": "It thinks that “tracking someone into a private residence”—yes, even for two hours—would “probably” be a search, but tells us not to worry because Sha tree did not go home."
+    },
+    {
+      "start": 2454.48,
+      "end": 2457.66,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 763,
+          "end": 836
+        }
+      ],
+      "text": "That approach, however, is foreign to the way the Fourth Amendment works."
+    },
+    {
+      "start": 2457.66,
+      "end": 2460.62,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 837,
+          "end": 899
+        }
+      ],
+      "text": "Whether something is a search does not depend on what it finds."
+    },
+    {
+      "start": 2460.62,
+      "end": 2463.28,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 933,
+          "end": 987
+        }
+      ],
+      "text": "(“A search is not to be made legal by what it turns up."
+    },
+    {
+      "start": 2463.28,
+      "end": 2465.5,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 988,
+          "end": 1030
+        }
+      ],
+      "text": "In law it is good or bad when it starts”)."
+    },
+    {
+      "start": 2465.5,
+      "end": 2470.16,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1031,
+          "end": 1111
+        }
+      ],
+      "text": "An officer, after all, cannot know the fruits of a given surveillance in advance."
+    },
+    {
+      "start": 2470.16,
+      "end": 2473.92,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1112,
+          "end": 1171
+        }
+      ],
+      "text": "The surveillance must be either a search or not regardless."
+    },
+    {
+      "start": 2473.92,
+      "end": 2483.06,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1172,
+          "end": 1325
+        }
+      ],
+      "text": "The Government's concession thus gives away its argument that, for purposes of the Fourth Amendment, two hours of cell-phone location data is not enough."
+    },
+    {
+      "start": 2483.06,
+      "end": 2493.98,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1328,
+          "end": 1518
+        }
+      ],
+      "text": "The Government has an additional argument, which in Carpenter was its “primary” one—that the so-called third-party doctrine precludes Sha tree from invoking the Fourth Amendment's protections."
+    },
+    {
+      "start": 2493.98,
+      "end": 2497.12,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1539,
+          "end": 1552
+        },
+        {
+          "page": 29,
+          "start": 55,
+          "end": 96
+        }
+      ],
+      "text": "(Here too the dissent reiterates the Government's view."
+    },
+    {
+      "start": 2497.12,
+      "end": 2514.08,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 138,
+          "end": 400
+        }
+      ],
+      "text": ") The idea is that in “authorizing Google to collect, retain, and use” his location information, Sha tree lost his legitimate expectation of privacy, and therefore his right to complain of a search—regardless whether it was for two hours, two weeks, or two years."
+    },
+    {
+      "start": 2514.08,
+      "end": 2531.24,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 429,
+          "end": 702
+        }
+      ],
+      "text": "The problem for the Government—and presumably the reason that its primary assertion in Carpenter has here become a secondary one—is that Carpenter refused to apply the third-party doctrine to C S L I, and no good reason exists to reach a different result for Location History."
+    },
+    {
+      "start": 2531.24,
+      "end": 2540.94,
+      "paragraph": 63,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 703,
+          "end": 874
+        }
+      ],
+      "text": "The third-party doctrine traces to two cases involving information provided by customers to a bank and telephone company, and then turned over to law enforcement officials."
+    },
+    {
+      "start": 2540.94,
+      "end": 2558.16,
+      "paragraph": 63,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 875,
+          "end": 1196
+        }
+      ],
+      "text": "In United States versus Miller this Court held that a bank depositor had no reasonable expectation of privacy in canceled checks and deposit slips in his bank's possession, because the records were “voluntarily conveyed to the bank and exposed to its employees in the ordinary course of business.”"
+    },
+    {
+      "start": 2558.16,
+      "end": 2567.62,
+      "paragraph": 63,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1210,
+          "end": 1385
+        }
+      ],
+      "text": "The depositor, the Court explained, had “taken the risk, in revealing his affairs to another,” that the third party would in turn provide that information to the government."
+    },
+    {
+      "start": 2567.62,
+      "end": 2579.96,
+      "paragraph": 63,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1399,
+          "end": 1616
+        }
+      ],
+      "text": "A few years later, the Court in Smith versus Maryland applied that principle to hold that a (landline) telephone subscriber lacked a legitimate expectation of privacy in the phone numbers he dialed."
+    },
+    {
+      "start": 2579.96,
+      "end": 2590.24,
+      "paragraph": 63,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1617,
+          "end": 1789
+        }
+      ],
+      "text": "Once again, the Court reasoned that the subscriber had “voluntarily conveyed the dialed numbers to the telephone company,” and so relinquished his Fourth Amendment right."
+    },
+    {
+      "start": 2590.24,
+      "end": 2598.08,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1803,
+          "end": 1939
+        }
+      ],
+      "text": "In Carpenter, however, the Court rejected the Government's contention that the third-party doctrine likewise governed the acquisition of C S L I."
+    },
+    {
+      "start": 2598.08,
+      "end": 2604.8,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1946,
+          "end": 2062
+        }
+      ],
+      "text": "The Court acknowledged that a cell-phone user “continuously reveals his location” to a third-party wireless carrier."
+    },
+    {
+      "start": 2604.8,
+      "end": 2611.08,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 2082,
+          "end": 2152
+        },
+        {
+          "page": 30,
+          "start": 50,
+          "end": 100
+        }
+      ],
+      "text": "But it held that cell-phone location information is “qualitatively different” from “telephone numbers and bank records.”"
+    },
+    {
+      "start": 2611.08,
+      "end": 2613.98,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 107,
+          "end": 145
+        }
+      ],
+      "text": "Those differences fell along two axes."
+    },
+    {
+      "start": 2613.98,
+      "end": 2619.2,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 146,
+          "end": 223
+        }
+      ],
+      "text": "First, the Court explained, the “nature” of C S L I is incomparably “revealing.”"
+    },
+    {
+      "start": 2619.2,
+      "end": 2628.46,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 237,
+          "end": 447
+        }
+      ],
+      "text": "There is “a world of difference” between the “exhaustive chronicle of location information casually collected by wireless carriers” and “the limited types of personal information addressed in Smith and Miller.”"
+    },
+    {
+      "start": 2628.46,
+      "end": 2632.96,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 454,
+          "end": 522
+        }
+      ],
+      "text": "The former thus “implicates privacy concerns far beyond” the latter."
+    },
+    {
+      "start": 2632.96,
+      "end": 2640.88,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 536,
+          "end": 664
+        }
+      ],
+      "text": "And second, the Court continued, “cell phone location information is not truly `shared' as one normally understands the term.”"
+    },
+    {
+      "start": 2640.88,
+      "end": 2652.94,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 671,
+          "end": 895
+        }
+      ],
+      "text": "Because “cell phones and the services they provide” are “such a pervasive and insistent part of daily life”—“indispensable to participation in modern society”—a person can hardly help but generate a “trail of location data.”"
+    },
+    {
+      "start": 2652.94,
+      "end": 2663.58,
+      "paragraph": 64,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 908,
+          "end": 1070
+        }
+      ],
+      "text": "“In no meaningful sense,” the Court thought, does that mean a person “voluntarily exposes” to any third party a “comprehensive dossier of his physical movements.”"
+    },
+    {
+      "start": 2663.58,
+      "end": 2669.7,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 1077,
+          "end": 1176
+        }
+      ],
+      "text": "Both differentiating features highlighted in Carpenter apply equally or better to Location History."
+    },
+    {
+      "start": 2669.7,
+      "end": 2678.0,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 1177,
+          "end": 1321
+        }
+      ],
+      "text": "As noted above, Location History is even more “revealing” than C S L I, because it provides a yet more precise record of an individual's movements."
+    },
+    {
+      "start": 2678.0,
+      "end": 2687.0,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 1345,
+          "end": 1472
+        }
+      ],
+      "text": "Access to that record enables officials to undertake nearly perfect, retrospective surveillance of countless persons and places."
+    },
+    {
+      "start": 2687.0,
+      "end": 2698.8,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 1496,
+          "end": 1701
+        }
+      ],
+      "text": "And for Location History, that surveillance is based on information that a user reasonably understands as his own, even though stored on Google's servers—much like his emails, photos, and calendar entries."
+    },
+    {
+      "start": 2698.8,
+      "end": 2705.32,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 1721,
+          "end": 1832
+        }
+      ],
+      "text": "Likewise, the information is “not truly shared,” in the normal sense of wanting a third party to see or use it."
+    },
+    {
+      "start": 2705.32,
+      "end": 2713.08,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 1863,
+          "end": 1997
+        }
+      ],
+      "text": "The exposure of that information to Google is merely what happens when a user avails himself of one of the services on his cell phone."
+    },
+    {
+      "start": 2713.08,
+      "end": 2723.6,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 1998,
+          "end": 2136
+        },
+        {
+          "page": 31,
+          "start": 86,
+          "end": 116
+        }
+      ],
+      "text": "Or said a bit differently, it is the automatic price of conventional cell-phone usage—which, just as Carpenter noted, is a “pervasive and insistent part of daily life.”"
+    },
+    {
+      "start": 2723.6,
+      "end": 2728.965,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 123,
+          "end": 209
+        }
+      ],
+      "text": "So just as the third-party doctrine did not apply in Carpenter, it does not apply here."
+    },
+    {
+      "start": 2728.965,
+      "end": 2740.12,
+      "paragraph": 66,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 210,
+          "end": 392
+        }
+      ],
+      "text": "The Government contests that conclusion on Carpenter's second axis alone: It claims that generating Location History, unlike producing C S L I, is a voluntary choice on the user's part."
+    },
+    {
+      "start": 2740.12,
+      "end": 2746.74,
+      "paragraph": 66,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 393,
+          "end": 517
+        }
+      ],
+      "text": "Although carrying a cell phone may be indispensable in modern society, the Government argues, using Location History is not."
+    },
+    {
+      "start": 2746.74,
+      "end": 2754.76,
+      "paragraph": 66,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 518,
+          "end": 645
+        }
+      ],
+      "text": "Rather, Location History is an “optional add-on,” which a user must enable by an “affirmative act” beyond “powering up” a phone."
+    },
+    {
+      "start": 2754.76,
+      "end": 2761.6,
+      "paragraph": 66,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 717,
+          "end": 842
+        }
+      ],
+      "text": "In support, the Government emphasizes that only around one-third of current Google accountholders have activated the service."
+    },
+    {
+      "start": 2761.6,
+      "end": 2766.4,
+      "paragraph": 66,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 890,
+          "end": 981
+        }
+      ],
+      "text": "That goes to show, says the Government, that people can “live without” Location History."
+    },
+    {
+      "start": 2766.4,
+      "end": 2774.57,
+      "paragraph": 66,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 1035,
+          "end": 1169
+        }
+      ],
+      "text": "And if that is true (the Government says), people who do use the feature have indeed “voluntarily exposed” all of their movements."
+    },
+    {
+      "start": 2774.57,
+      "end": 2781.7,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 1200,
+          "end": 1325
+        }
+      ],
+      "text": "But as an initial matter, that argument ignores some pertinent facts about how and why Google users turn on Location History."
+    },
+    {
+      "start": 2781.7,
+      "end": 2792.1,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 1326,
+          "end": 1511
+        }
+      ],
+      "text": "As described earlier, Google prompts a user, and repeatedly, to turn on the service—when he sets up a Google account, when he sets up an Android phone, and when he sets up a Google app."
+    },
+    {
+      "start": 2792.1,
+      "end": 2797.42,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 1531,
+          "end": 1620
+        }
+      ],
+      "text": "The prompt often informs him that his device will not “work correctly” unless he does so."
+    },
+    {
+      "start": 2797.42,
+      "end": 2809.56,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 1637,
+          "end": 1886
+        }
+      ],
+      "text": "By contrast, it does not tell him quite what he is signing up for: “how frequently Google would record his location”; “how precise Location History can be”; or how Google might give all that minute-by-minute location information to the government."
+    },
+    {
+      "start": 2809.56,
+      "end": 2818.72,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 31,
+          "start": 1967,
+          "end": 2126
+        }
+      ],
+      "text": "In those circumstances, it is hard to see how any user is, in the normal sense, “sharing” with third parties a comprehensive catalog of his physical movements."
+    },
+    {
+      "start": 2818.72,
+      "end": 2823.32,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 65,
+          "end": 137
+        }
+      ],
+      "text": "And that is so regardless of how many others ignore Google's entreaties."
+    },
+    {
+      "start": 2823.32,
+      "end": 2834.28,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 138,
+          "end": 366
+        }
+      ],
+      "text": "The Government's estimation of that number is almost surely overstated: It appears to include, for example, the many millions of Google accountholders in foreign countries like China where collecting Location History is illegal."
+    },
+    {
+      "start": 2834.28,
+      "end": 2849.66,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 420,
+          "end": 701
+        }
+      ],
+      "text": "But in any event, the raw user totals for Location History—one-third, two-thirds, or someplace in between—are not the most apt measure of whether that service's enlistees have, as the Government claims, self-consciously “assumed the risk of sharing” all their movements with others."
+    },
+    {
+      "start": 2849.66,
+      "end": 2856.28,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 730,
+          "end": 844
+        }
+      ],
+      "text": "More generally, the Government's approach to Fourth Amendment protection would raise a host of workability issues."
+    },
+    {
+      "start": 2856.28,
+      "end": 2862.68,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 845,
+          "end": 961
+        }
+      ],
+      "text": "At the top of the list: What percentage of users would have to sign up for a service to make doing so non-voluntary?"
+    },
+    {
+      "start": 2862.68,
+      "end": 2871.32,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 962,
+          "end": 1110
+        }
+      ],
+      "text": "The Government posited at argument that if 80 percent of active Google accountholders had enabled Location History, the case would be “much closer.”"
+    },
+    {
+      "start": 2871.32,
+      "end": 2881.58,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1132,
+          "end": 1308
+        }
+      ],
+      "text": "After all, the Government candidly noted, even possessing a cell phone is not truly “indispensable” (to use Carpenter's word): “Something like 90 percent of people have them.”"
+    },
+    {
+      "start": 2881.58,
+      "end": 2883.1,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1333,
+          "end": 1359
+        }
+      ],
+      "text": "So where to draw the line?"
+    },
+    {
+      "start": 2883.1,
+      "end": 2885.84,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1360,
+          "end": 1404
+        }
+      ],
+      "text": "And after that, the questions only multiply."
+    },
+    {
+      "start": 2885.84,
+      "end": 2892.08,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1405,
+          "end": 1515
+        }
+      ],
+      "text": "Would a user lose Fourth Amendment protection if a highly popular cell-phone feature became less so over time?"
+    },
+    {
+      "start": 2892.08,
+      "end": 2903.0,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1516,
+          "end": 1691
+        }
+      ],
+      "text": "What if the use of a given feature is ubiquitous among (but only among) a subset of the population (say, an age cohort), and an individual defendant is a member of that class?"
+    },
+    {
+      "start": 2903.0,
+      "end": 2913.66,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1692,
+          "end": 1886
+        }
+      ],
+      "text": "Would it be enough if the lion's share of cell-phone users enabled a feature similar to the one at issue—so, for example, any location-tracking service, whether Google's or some other company's?"
+    },
+    {
+      "start": 2913.66,
+      "end": 2930.76,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 32,
+          "start": 1887,
+          "end": 2132
+        },
+        {
+          "page": 33,
+          "start": 55,
+          "end": 107
+        }
+      ],
+      "text": "And finally, a more basic inquiry: In such a world, how is anyone—whether a cell-phone user or a police officer—to know in advance (which is when the knowledge is useful) whether enrollees in a given service will be found to have Fourth Amendment protection in the information that service collects?"
+    },
+    {
+      "start": 2930.76,
+      "end": 2936.44,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 108,
+          "end": 208
+        }
+      ],
+      "text": "To ask all these questions about the Government's approach is to know that it is on the wrong track."
+    },
+    {
+      "start": 2936.44,
+      "end": 2945.72,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 209,
+          "end": 393
+        }
+      ],
+      "text": "And there is yet a deeper problem: The Government's app-by-app, feature-by-feature method of granting Fourth Amendment protection misapprehends the very nature of modern cell-phone use."
+    },
+    {
+      "start": 2945.72,
+      "end": 2954.2,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 394,
+          "end": 551
+        }
+      ],
+      "text": "Pretty much everything a person does on a smartphone requires some kind of opt-in—an “affirmative act” beyond “powering up” to utilize a given app or service."
+    },
+    {
+      "start": 2954.2,
+      "end": 2961.68,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 582,
+          "end": 700
+        }
+      ],
+      "text": "Consider sending an email on Gmail, uploading a photo to Google Photos, or adding a calendar entry to Google Calendar."
+    },
+    {
+      "start": 2961.68,
+      "end": 2969.08,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 701,
+          "end": 817
+        }
+      ],
+      "text": "None happens solely by dint of the phone's operation; each requires, as Location History does, an “optional add-on.”"
+    },
+    {
+      "start": 2969.08,
+      "end": 2978.2,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 846,
+          "end": 1022
+        }
+      ],
+      "text": "And each activity, like using Location History, results in sharing information with a third-party tech company—turning over private materials to live on that company's servers."
+    },
+    {
+      "start": 2978.2,
+      "end": 2989.32,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1023,
+          "end": 1227
+        }
+      ],
+      "text": "The Government wishes to disconnect all those uses from the mere act of carrying a turned-on cell phone (the thing that generates C S L I), with only the latter receiving assured Fourth Amendment protection."
+    },
+    {
+      "start": 2989.32,
+      "end": 2993.76,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1228,
+          "end": 1300
+        }
+      ],
+      "text": "But that is to imagine that all of us are living in dumb flip-phone days."
+    },
+    {
+      "start": 2993.76,
+      "end": 3000.38,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1301,
+          "end": 1424
+        }
+      ],
+      "text": "The point of carrying smartphones is to use what is on them—as Carpenter said, to use the apps and “services they provide.”"
+    },
+    {
+      "start": 3000.38,
+      "end": 3005.32,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1444,
+          "end": 1538
+        }
+      ],
+      "text": "That is what has become a “pervasive and insistent”—even “indispensable”—“part of daily life.”"
+    },
+    {
+      "start": 3005.32,
+      "end": 3010.62,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1572,
+          "end": 1642
+        }
+      ],
+      "text": "And so that is what Carpenter insulated from the third-party doctrine."
+    },
+    {
+      "start": 3010.62,
+      "end": 3022.76,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1643,
+          "end": 1838
+        }
+      ],
+      "text": "A cell-phone user is not to be viewed as sharing private information with third parties—which then can be freely passed on to the government—just by doing the ordinary things cell-phone users do."
+    },
+    {
+      "start": 3022.76,
+      "end": 3031.78,
+      "paragraph": 70,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1845,
+          "end": 1995
+        }
+      ],
+      "text": "For all those reasons, we hold that police officers invade a cell-phone user's reasonable expectation of privacy when they access his Location History."
+    },
+    {
+      "start": 3031.78,
+      "end": 3035.42,
+      "paragraph": 70,
+      "ranges": [
+        {
+          "page": 33,
+          "start": 1996,
+          "end": 2022
+        },
+        {
+          "page": 34,
+          "start": 50,
+          "end": 93
+        }
+      ],
+      "text": "It does not matter if the time period scrutinized was only two hours."
+    },
+    {
+      "start": 3035.42,
+      "end": 3039.72,
+      "paragraph": 70,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 94,
+          "end": 188
+        }
+      ],
+      "text": "Nor does it matter that the materials obtained were handed over by a third-party tech company."
+    },
+    {
+      "start": 3039.72,
+      "end": 3049.935,
+      "paragraph": 70,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 189,
+          "end": 346
+        }
+      ],
+      "text": "When the government “accesses historical cell phone” location information—Location History as much as C S L I—it “conducts a search under the Fourth Amendment.”"
+    },
+    {
+      "start": 3049.935,
+      "end": 3056.66,
+      "paragraph": 72,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 381,
+          "end": 502
+        }
+      ],
+      "text": "That conclusion does not resolve this case, because the Fourth Amendment prohibits only searches that are “unreasonable.”"
+    },
+    {
+      "start": 3056.66,
+      "end": 3068.72,
+      "paragraph": 72,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 503,
+          "end": 698
+        }
+      ],
+      "text": "When law enforcement officials undertake a search to discover evidence of a crime, the reasonableness standard generally requires that they seek a warrant from “a neutral and detached magistrate.”"
+    },
+    {
+      "start": 3068.72,
+      "end": 3080.92,
+      "paragraph": 73,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1635,
+          "end": 1843
+        }
+      ],
+      "text": "Footnote 11: Our precedents recognize exceptions to that rule—most prominently, “when the exigencies of the situation make the needs of law enforcement so compelling that a warrantless search is objectively reasonable.”",
+      "footnote": "11"
+    },
+    {
+      "start": 3080.92,
+      "end": 3089.78,
+      "paragraph": 73,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1874,
+          "end": 2030
+        }
+      ],
+      "text": "Today's decision does not call into doubt, in such circumstances, a warrantless geofence search. (noting the same for “warrantless access to C S L I”).",
+      "footnote": "11"
+    },
+    {
+      "start": 3089.78,
+      "end": 3091.72,
+      "paragraph": 73,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 2037,
+          "end": 2038
+        }
+      ],
+      "text": "End footnote 11.",
+      "transition": true,
+      "footnote": "11"
+    },
+    {
+      "start": 3091.72,
+      "end": 3099.82,
+      "paragraph": 74,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 820,
+          "end": 956
+        }
+      ],
+      "text": "That requirement subjects the officials' assessment of a search's propriety to the “deliberate, impartial judgment of a judicial officer.”"
+    },
+    {
+      "start": 3099.82,
+      "end": 3109.935,
+      "paragraph": 74,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1007,
+          "end": 1172
+        }
+      ],
+      "text": "The magistrate, in turn, may issue a warrant only when “probable cause is properly established and the scope of the authorized search is set out with particularity.”"
+    },
+    {
+      "start": 3109.935,
+      "end": 3120.82,
+      "paragraph": 75,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1218,
+          "end": 1412
+        }
+      ],
+      "text": "When officers have obtained a warrant, as they did here, a search's legality will thus depend on whether a magistrate has properly found probable cause to support a particularly described search."
+    },
+    {
+      "start": 3120.82,
+      "end": 3132.32,
+      "paragraph": 75,
+      "ranges": [
+        {
+          "page": 34,
+          "start": 1425,
+          "end": 1593
+        }
+      ],
+      "text": "“Probable cause is a fluid concept—turning on the assessment of probabilities in particular factual contexts—not readily, or even usefully, reduced to a neat set of legal rules.”"
+    },
+    {
+      "start": 3132.32,
+      "end": 3140.74,
+      "paragraph": 75,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 63,
+          "end": 212
+        }
+      ],
+      "text": "But a magistrate must always determine that there is a “fair probability that contraband or evidence of a crime will be found” in the place searched."
+    },
+    {
+      "start": 3140.74,
+      "end": 3152.84,
+      "paragraph": 75,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 226,
+          "end": 450
+        }
+      ],
+      "text": "That means determining, to the requisite “fair probability,” both that the place searched will have the materials sought and that those materials will contain evidence “aiding” in a criminal's “apprehension or conviction.”"
+    },
+    {
+      "start": 3152.84,
+      "end": 3162.46,
+      "paragraph": 75,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 580,
+          "end": 746
+        }
+      ],
+      "text": "(“The critical element” is whether there is the requisite “cause to believe that the specific `things' to be searched for and seized are located” in the targeted place)."
+    },
+    {
+      "start": 3162.46,
+      "end": 3176.82,
+      "paragraph": 75,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 747,
+          "end": 1011
+        }
+      ],
+      "text": "The particularity requirement, for its part, ensures that the search will be of an appropriate scope—that it is “carefully tailored to its justifications, and will not take on the character of the wide-ranging exploratory searches the Framers intended to prohibit.”"
+    },
+    {
+      "start": 3176.82,
+      "end": 3187.48,
+      "paragraph": 75,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 1059,
+          "end": 1163
+        }
+      ],
+      "text": "That requirement typically looks to such matters as the geographic and durational expanse of the search."
+    },
+    {
+      "start": 3187.48,
+      "end": 3192.36,
+      "paragraph": 75,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 1208,
+          "end": 1343
+        }
+      ],
+      "text": "And it too must take account of “particular factual contexts,” including in surveillance cases the nature of the technology to be used."
+    },
+    {
+      "start": 3192.36,
+      "end": 3197.72,
+      "paragraph": 76,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 1439,
+          "end": 1518
+        }
+      ],
+      "text": "The warrant issued here, as described earlier, was an uncommon, multi-step one."
+    },
+    {
+      "start": 3197.72,
+      "end": 3206.42,
+      "paragraph": 76,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 1542,
+          "end": 1697
+        }
+      ],
+      "text": "The first step it laid out authorized police officers to obtain location data for all cell phones inside the designated geofence within a one-hour timeframe."
+    },
+    {
+      "start": 3206.42,
+      "end": 3217.44,
+      "paragraph": 76,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 1698,
+          "end": 1869
+        }
+      ],
+      "text": "The second step entitled the officers to obtain additional data (two hours, both inside and outside the geofence) for a subset of those phones—of the officers' own choosing."
+    },
+    {
+      "start": 3217.44,
+      "end": 3228.12,
+      "paragraph": 76,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 1870,
+          "end": 2045
+        }
+      ],
+      "text": "And the third step enabled them to obtain personal identifying information (including names, email addresses, and phone numbers) for a further subset—again of their selection."
+    },
+    {
+      "start": 3228.12,
+      "end": 3237.6,
+      "paragraph": 76,
+      "ranges": [
+        {
+          "page": 35,
+          "start": 2046,
+          "end": 2203
+        },
+        {
+          "page": 36,
+          "start": 81,
+          "end": 93
+        }
+      ],
+      "text": "As to how the officers would make their choices at the second and third steps—how they would pick the users subject to more intense scrutiny—the warrant said very little."
+    },
+    {
+      "start": 3237.6,
+      "end": 3250.78,
+      "paragraph": 76,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 94,
+          "end": 314
+        }
+      ],
+      "text": "In toto: They would “attempt to narrow down the list by reviewing the time stamped location coordinates for each device and comparing that against the known time and location information that is specific to this crime.”"
+    },
+    {
+      "start": 3250.78,
+      "end": 3254.96,
+      "paragraph": 77,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 363,
+          "end": 433
+        }
+      ],
+      "text": "The parties have contested the legality of each stage of that process."
+    },
+    {
+      "start": 3254.96,
+      "end": 3265.4,
+      "paragraph": 77,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 442,
+          "end": 640
+        }
+      ],
+      "text": "Sha tree analogizes the first step to an “unconstitutional general warrant,” and argues that in any event the search at that step was both insufficiently described by the warrant and lacking in probable cause."
+    },
+    {
+      "start": 3265.4,
+      "end": 3277.26,
+      "paragraph": 77,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 679,
+          "end": 886
+        }
+      ],
+      "text": "As to steps two and three, Sha tree contends that the warrant left too much authority to police officers—and too little to the magistrate—to define the search's scope and determine whether cause for it existed."
+    },
+    {
+      "start": 3277.26,
+      "end": 3290.34,
+      "paragraph": 77,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 906,
+          "end": 1128
+        }
+      ],
+      "text": "The Government, for its part, defends the warrant at every step as seeking “particularized information from Google's database” based on “probable cause to believe that Google had information” that would help solve a crime."
+    },
+    {
+      "start": 3290.34,
+      "end": 3297.76,
+      "paragraph": 77,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1157,
+          "end": 1287
+        }
+      ],
+      "text": "And the Government urges that the discretion given to the officers at steps two and three fell within the bounds of reasonableness."
+    },
+    {
+      "start": 3297.76,
+      "end": 3302.22,
+      "paragraph": 78,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1304,
+          "end": 1391
+        }
+      ],
+      "text": "We leave all of those questions to the Court of Appeals to decide in the first instance."
+    },
+    {
+      "start": 3302.22,
+      "end": 3311.26,
+      "paragraph": 78,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1392,
+          "end": 1576
+        }
+      ],
+      "text": "Because the Fourth Circuit panel concluded that no search had occurred, it did not address whether the geofence warrant issued here validly authorized each stage of the search process."
+    },
+    {
+      "start": 3311.26,
+      "end": 3315.66,
+      "paragraph": 78,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1577,
+          "end": 1657
+        }
+      ],
+      "text": "Nor did the en banc court's one-sentence per curiam opinion speak to that issue."
+    },
+    {
+      "start": 3315.66,
+      "end": 3321.16,
+      "paragraph": 78,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1658,
+          "end": 1739
+        }
+      ],
+      "text": "We are, as we have said many times before, “a court of review, not of first view.”"
+    },
+    {
+      "start": 3321.16,
+      "end": 3333.0,
+      "paragraph": 78,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1794,
+          "end": 1989
+        }
+      ],
+      "text": "It is therefore now up to the Court of Appeals to decide whether, at each step of the search process, the warrant satisfied the Fourth Amendment's requirements of particularity and probable cause."
+    },
+    {
+      "start": 3333.0,
+      "end": 3341.58,
+      "paragraph": 80,
+      "ranges": [
+        {
+          "page": 36,
+          "start": 1993,
+          "end": 2102
+        },
+        {
+          "page": 37,
+          "start": 55,
+          "end": 78
+        }
+      ],
+      "text": "In his famed and vindicated dissent, Justice Brandeis explained why a wiretap was a search, subject to Fourth Amendment requirements."
+    },
+    {
+      "start": 3341.58,
+      "end": 3345.64,
+      "paragraph": 80,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 137,
+          "end": 211
+        }
+      ],
+      "text": "Those who drafted the Amendment could not have imagined such a technology."
+    },
+    {
+      "start": 3345.64,
+      "end": 3364.7,
+      "paragraph": 80,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 212,
+          "end": 537
+        }
+      ],
+      "text": "But they understood, Justice Brandeis wrote, a matter of more transcendent importance: that Americans had “as against the Government, the right to be let alone” and that the Fourth Amendment must protect against “every unjustifiable intrusion by the Government upon the privacy of the individual, whatever the means employed.”"
+    },
+    {
+      "start": 3364.7,
+      "end": 3376.5,
+      "paragraph": 81,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 551,
+          "end": 775
+        }
+      ],
+      "text": "Far more recently, this Court in Carpenter invoked Justice Brandeis's opinion in explaining why law enforcement officials could not have “unrestricted access to a wireless carrier's database of physical location information.”"
+    },
+    {
+      "start": 3376.5,
+      "end": 3390.0,
+      "paragraph": 81,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 795,
+          "end": 1027
+        }
+      ],
+      "text": "Said Carpenter: “The Court is obligated—as `subtler and more far-reaching means of invading privacy have become available to the Government'—to ensure that the `progress of science' does not erode Fourth Amendment protections.”"
+    },
+    {
+      "start": 3390.0,
+      "end": 3402.06,
+      "paragraph": 81,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 1088,
+          "end": 1282
+        }
+      ],
+      "text": "For new technological tools, the Court continued, may “risk Government encroachment of the sort the Framers, after consulting the lessons of history, drafted the Fourth Amendment to prevent.”"
+    },
+    {
+      "start": 3402.06,
+      "end": 3408.24,
+      "paragraph": 82,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 1302,
+          "end": 1415
+        }
+      ],
+      "text": "Today's decision follows from the same judicial obligation, to guard against the same risk of undue encroachment."
+    },
+    {
+      "start": 3408.24,
+      "end": 3414.24,
+      "paragraph": 82,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 1416,
+          "end": 1527
+        }
+      ],
+      "text": "The Fourth Amendment applies, too, when officials tap into Google's “database of physical location information.”"
+    },
+    {
+      "start": 3414.24,
+      "end": 3421.06,
+      "paragraph": 82,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 1534,
+          "end": 1650
+        }
+      ],
+      "text": "That database is new, but the principle covering it is not: That principle is instead the one our history has given."
+    },
+    {
+      "start": 3421.06,
+      "end": 3427.955,
+      "paragraph": 82,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 1651,
+          "end": 1770
+        }
+      ],
+      "text": "The Fourth Amendment must, as ever, protect against unjustified governmental intrusion on the privacy of the individual."
+    },
+    {
+      "start": 3427.955,
+      "end": 3436.1,
+      "paragraph": 83,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 1771,
+          "end": 1915
+        }
+      ],
+      "text": "For the reasons stated, we vacate the judgment of the Court of Appeals and remand the case for further proceedings consistent with this opinion."
+    },
+    {
+      "start": 3436.1,
+      "end": 3437.04,
+      "paragraph": 83,
+      "ranges": [
+        {
+          "page": 37,
+          "start": 1916,
+          "end": 1933
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 108,
+      "expectedWords": 110,
+      "coverage": 0.9818181818181818
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 111,
+      "expectedWords": 114,
+      "coverage": 0.9736842105263158
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 163,
+      "expectedWords": 165,
+      "coverage": 0.9878787878787879
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 88,
+      "expectedWords": 88,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 104,
+      "expectedWords": 105,
+      "coverage": 0.9904761904761905
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 18,
+      "expectedWords": 19,
+      "coverage": 0.9473684210526315
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 42,
+      "expectedWords": 43,
+      "coverage": 0.9767441860465116
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 118,
+      "expectedWords": 120,
+      "coverage": 0.9833333333333333
+    },
+    {
+      "paragraph": 10,
+      "matchedWords": 163,
+      "expectedWords": 163,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 149,
+      "expectedWords": 149,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 12,
+      "matchedWords": 59,
+      "expectedWords": 60,
+      "coverage": 0.9833333333333333
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 56,
+      "expectedWords": 56,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 214,
+      "expectedWords": 215,
+      "coverage": 0.9953488372093023
+    },
+    {
+      "paragraph": 16,
+      "matchedWords": 39,
+      "expectedWords": 40,
+      "coverage": 0.975
+    },
+    {
+      "paragraph": 17,
+      "matchedWords": 215,
+      "expectedWords": 217,
+      "coverage": 0.9907834101382489
+    },
+    {
+      "paragraph": 19,
+      "matchedWords": 110,
+      "expectedWords": 110,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 20,
+      "matchedWords": 57,
+      "expectedWords": 57,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 21,
+      "matchedWords": 97,
+      "expectedWords": 98,
+      "coverage": 0.9897959183673469
+    },
+    {
+      "paragraph": 22,
+      "matchedWords": 190,
+      "expectedWords": 190,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 23,
+      "matchedWords": 130,
+      "expectedWords": 131,
+      "coverage": 0.9923664122137404
+    },
+    {
+      "paragraph": 24,
+      "matchedWords": 52,
+      "expectedWords": 54,
+      "coverage": 0.9629629629629629
+    },
+    {
+      "paragraph": 25,
+      "matchedWords": 74,
+      "expectedWords": 76,
+      "coverage": 0.9736842105263158
+    },
+    {
+      "paragraph": 26,
+      "matchedWords": 103,
+      "expectedWords": 106,
+      "coverage": 0.9716981132075472
+    },
+    {
+      "paragraph": 27,
+      "matchedWords": 68,
+      "expectedWords": 74,
+      "coverage": 0.918918918918919
+    },
+    {
+      "paragraph": 28,
+      "matchedWords": 125,
+      "expectedWords": 131,
+      "coverage": 0.9541984732824428
+    },
+    {
+      "paragraph": 29,
+      "matchedWords": 287,
+      "expectedWords": 294,
+      "coverage": 0.9761904761904762
+    },
+    {
+      "paragraph": 31,
+      "matchedWords": 48,
+      "expectedWords": 48,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 32,
+      "matchedWords": 116,
+      "expectedWords": 116,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 33,
+      "matchedWords": 212,
+      "expectedWords": 227,
+      "coverage": 0.933920704845815
+    },
+    {
+      "paragraph": 34,
+      "matchedWords": 108,
+      "expectedWords": 109,
+      "coverage": 0.9908256880733946
+    },
+    {
+      "paragraph": 35,
+      "matchedWords": 175,
+      "expectedWords": 175,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 36,
+      "matchedWords": 114,
+      "expectedWords": 114,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 38,
+      "matchedWords": 202,
+      "expectedWords": 206,
+      "coverage": 0.9805825242718447
+    },
+    {
+      "paragraph": 39,
+      "matchedWords": 72,
+      "expectedWords": 74,
+      "coverage": 0.972972972972973
+    },
+    {
+      "paragraph": 40,
+      "matchedWords": 27,
+      "expectedWords": 28,
+      "coverage": 0.9642857142857143
+    },
+    {
+      "paragraph": 41,
+      "matchedWords": 89,
+      "expectedWords": 89,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 42,
+      "matchedWords": 231,
+      "expectedWords": 234,
+      "coverage": 0.9871794871794872
+    },
+    {
+      "paragraph": 43,
+      "matchedWords": 235,
+      "expectedWords": 235,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 45,
+      "matchedWords": 62,
+      "expectedWords": 62,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 46,
+      "matchedWords": 244,
+      "expectedWords": 248,
+      "coverage": 0.9838709677419355
+    },
+    {
+      "paragraph": 47,
+      "matchedWords": 236,
+      "expectedWords": 238,
+      "coverage": 0.9915966386554622
+    },
+    {
+      "paragraph": 48,
+      "matchedWords": 199,
+      "expectedWords": 204,
+      "coverage": 0.9754901960784313
+    },
+    {
+      "paragraph": 50,
+      "matchedWords": 102,
+      "expectedWords": 102,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 51,
+      "matchedWords": 146,
+      "expectedWords": 148,
+      "coverage": 0.9864864864864865
+    },
+    {
+      "paragraph": 52,
+      "matchedWords": 142,
+      "expectedWords": 146,
+      "coverage": 0.9726027397260274
+    },
+    {
+      "paragraph": 53,
+      "matchedWords": 167,
+      "expectedWords": 167,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 54,
+      "matchedWords": 140,
+      "expectedWords": 141,
+      "coverage": 0.9929078014184397
+    },
+    {
+      "paragraph": 55,
+      "matchedWords": 138,
+      "expectedWords": 141,
+      "coverage": 0.9787234042553191
+    },
+    {
+      "paragraph": 56,
+      "matchedWords": 124,
+      "expectedWords": 126,
+      "coverage": 0.9841269841269841
+    },
+    {
+      "paragraph": 57,
+      "matchedWords": 228,
+      "expectedWords": 231,
+      "coverage": 0.987012987012987
+    },
+    {
+      "paragraph": 58,
+      "matchedWords": 90,
+      "expectedWords": 91,
+      "coverage": 0.989010989010989
+    },
+    {
+      "paragraph": 59,
+      "matchedWords": 201,
+      "expectedWords": 202,
+      "coverage": 0.995049504950495
+    },
+    {
+      "paragraph": 60,
+      "matchedWords": 210,
+      "expectedWords": 213,
+      "coverage": 0.9859154929577465
+    },
+    {
+      "paragraph": 62,
+      "matchedWords": 125,
+      "expectedWords": 132,
+      "coverage": 0.946969696969697
+    },
+    {
+      "paragraph": 63,
+      "matchedWords": 158,
+      "expectedWords": 161,
+      "coverage": 0.9813664596273292
+    },
+    {
+      "paragraph": 64,
+      "matchedWords": 199,
+      "expectedWords": 199,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 65,
+      "matchedWords": 182,
+      "expectedWords": 182,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 66,
+      "matchedWords": 126,
+      "expectedWords": 127,
+      "coverage": 0.9921259842519685
+    },
+    {
+      "paragraph": 67,
+      "matchedWords": 231,
+      "expectedWords": 237,
+      "coverage": 0.9746835443037974
+    },
+    {
+      "paragraph": 68,
+      "matchedWords": 261,
+      "expectedWords": 267,
+      "coverage": 0.9775280898876404
+    },
+    {
+      "paragraph": 69,
+      "matchedWords": 263,
+      "expectedWords": 265,
+      "coverage": 0.9924528301886792
+    },
+    {
+      "paragraph": 70,
+      "matchedWords": 81,
+      "expectedWords": 81,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 72,
+      "matchedWords": 46,
+      "expectedWords": 46,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 73,
+      "matchedWords": 55,
+      "expectedWords": 61,
+      "coverage": 0.9016393442622951
+    },
+    {
+      "paragraph": 74,
+      "matchedWords": 46,
+      "expectedWords": 47,
+      "coverage": 0.9787234042553191
+    },
+    {
+      "paragraph": 75,
+      "matchedWords": 216,
+      "expectedWords": 228,
+      "coverage": 0.9473684210526315
+    },
+    {
+      "paragraph": 76,
+      "matchedWords": 159,
+      "expectedWords": 161,
+      "coverage": 0.9875776397515528
+    },
+    {
+      "paragraph": 77,
+      "matchedWords": 135,
+      "expectedWords": 141,
+      "coverage": 0.9574468085106383
+    },
+    {
+      "paragraph": 78,
+      "matchedWords": 107,
+      "expectedWords": 112,
+      "coverage": 0.9553571428571429
+    },
+    {
+      "paragraph": 80,
+      "matchedWords": 81,
+      "expectedWords": 81,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 81,
+      "matchedWords": 95,
+      "expectedWords": 96,
+      "coverage": 0.9895833333333334
+    },
+    {
+      "paragraph": 82,
+      "matchedWords": 72,
+      "expectedWords": 72,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 83,
+      "matchedWords": 28,
+      "expectedWords": 28,
+      "coverage": 1.0
+    }
+  ]
+}

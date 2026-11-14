@@ -1,0 +1,929 @@
+{
+  "reviewed": true,
+  "documentId": "24-1159-122d6d046069--2-0",
+  "sourceDocumentId": "24-1159-122d6d046069",
+  "sourceTextPath": "dist/data/docs/24-1159-122d6d046069.json",
+  "sourceTextSha256": "a631af22c72003c002d1946eff72ead65ddfe03b418f859e76659f02b66a7f5e",
+  "sourcePdfPath": "dist/data/pdfs/24-1159-122d6d046069--2-0.pdf",
+  "sourcePdfSha256": "508ca4d7f30b3dc0d2184d4399e44c57a4a12522145f2f71491c283e013d0bd7",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2025-11-24",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r01_kjfm.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 212,
+    "endPage": 6,
+    "endOffset": 1383
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 212,
+          "end": 815
+        }
+      ],
+      "citations": [
+        {
+          "start": 156,
+          "end": 197,
+          "text": "Coy v. Iowa, 487 U. S. 1012, 1016 (1988).",
+          "type": "case",
+          "canonical": "487 U.S. 1012"
+        },
+        {
+          "start": 557,
+          "end": 602,
+          "text": "Maryland v. Craig, 497 U. S. 836, 857 (1990).",
+          "type": "case",
+          "canonical": "497 U.S. 836"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the child]",
+          "to": "the child"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 815,
+          "end": 1238
+        }
+      ],
+      "citations": [
+        {
+          "start": 168,
+          "end": 180,
+          "text": "Id., at 855.",
+          "type": "case",
+          "canonical": "497 U.S. 836"
+        },
+        {
+          "start": 321,
+          "end": 345,
+          "text": "Coy, 487 U. S., at 1021.",
+          "type": "case",
+          "canonical": "487 U.S. 1012"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "finding[s]",
+          "to": "findings"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1238,
+          "end": 1239
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1240,
+          "end": 1459
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "A. G. C.",
+          "to": "A G C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1459,
+          "end": 1824
+        },
+        {
+          "page": 3,
+          "start": 41,
+          "end": 133
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 415,
+          "end": 456,
+          "text": "Miss. Code Ann. § 99–43–101(2)(g) (2020).",
+          "type": "statute",
+          "canonical": "Miss. Code Ann. § 99-43-101(2)(g)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "righ[t]",
+          "to": "right"
+        },
+        {
+          "from": "A. G. C.",
+          "to": "A G C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 133,
+          "end": 537
+        }
+      ],
+      "citations": [
+        {
+          "start": 143,
+          "end": 179,
+          "text": "405 So. 3d 20, 31 (Miss. App. 2023).",
+          "type": "case",
+          "canonical": "405 So.3d 20"
+        },
+        {
+          "start": 368,
+          "end": 403,
+          "text": "405 So. 3d 1238, 1243 (Miss. 2025).",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 537,
+          "end": 806
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 268,
+          "text": "App. to Pet. for Cert. 36a (App.).",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert. 36a (App.)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[his]",
+          "to": "his"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 806,
+          "end": 1067
+        }
+      ],
+      "citations": [
+        {
+          "start": 44,
+          "end": 62,
+          "text": "405 So. 3d, at 31.",
+          "type": "case",
+          "canonical": "405 So.3d 20"
+        },
+        {
+          "start": 241,
+          "end": 262,
+          "text": "405 So. 3d, at 31–35.",
+          "type": "case",
+          "canonical": "405 So.3d 20"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1067,
+          "end": 1726
+        }
+      ],
+      "citations": [
+        {
+          "start": 176,
+          "end": 200,
+          "text": "See 405 So. 3d, at 1246.",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 276,
+          "end": 301,
+          "text": "405 So. 3d, at 1248–1252.",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 467,
+          "end": 485,
+          "text": "Id., at 1254–1255.",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 618,
+          "end": 661,
+          "text": "405 So. 3d, at 1255 (King, J., dissenting).",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1726,
+          "end": 1794
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1794,
+          "end": 1796
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1797,
+          "end": 1971
+        },
+        {
+          "page": 4,
+          "start": 65,
+          "end": 614
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 280,
+          "end": 304,
+          "text": "Coy, 487 U. S., at 1021.",
+          "type": "case",
+          "canonical": "487 U.S. 1012"
+        },
+        {
+          "start": 485,
+          "end": 514,
+          "text": "See Craig, 497 U. S., at 855.",
+          "type": "case",
+          "canonical": "497 U.S. 836"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "finding[s]",
+          "to": "findings"
+        },
+        {
+          "from": "hear[s]",
+          "to": "hears"
+        },
+        {
+          "from": "[t]he",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 614,
+          "end": 1419
+        }
+      ],
+      "citations": [
+        {
+          "start": 93,
+          "end": 118,
+          "text": "405 So. 3d, at 1246–1249.",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 247,
+          "end": 264,
+          "text": "Art. 3, § 26A(3).",
+          "type": "constitution",
+          "canonical": "Miss. Const. art. 3, § 26A(3)"
+        },
+        {
+          "start": 415,
+          "end": 435,
+          "text": "405 So. 3d, at 1249.",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 566,
+          "end": 581,
+          "text": "Art. VI, cl. 2.",
+          "type": "constitution",
+          "canonical": "U.S. Const. art. VI, cl. 2"
+        },
+        {
+          "start": 782,
+          "end": 806,
+          "text": "Coy, 487 U. S., at 1021.",
+          "type": "case",
+          "canonical": "487 U.S. 1012"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "finding[s]",
+          "to": "findings"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1419,
+          "end": 1874
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 198,
+          "text": "405 So. 3d, at 1249–1250.",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 421,
+          "end": 457,
+          "text": "Id., at 1258 (King, J., dissenting).",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1874,
+          "end": 2111
+        },
+        {
+          "page": 5,
+          "start": 72,
+          "end": 271
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 83,
+          "end": 115,
+          "text": "Id., at 1250 (majority opinion).",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 157,
+          "end": 175,
+          "text": "497 U. S., at 840.",
+          "type": "record",
+          "canonical": "497 U.S. 836"
+        },
+        {
+          "start": 423,
+          "end": 439,
+          "text": "See id., at 855.",
+          "type": "record",
+          "canonical": "497 U.S. 836"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "A. G. C.",
+          "to": "A G C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 271,
+          "end": 816
+        }
+      ],
+      "citations": [
+        {
+          "start": 196,
+          "end": 216,
+          "text": "405 So. 3d, at 1250.",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 344,
+          "end": 372,
+          "text": "See Craig, 497 U. S., at 840",
+          "type": "case",
+          "canonical": "497 U.S. 836"
+        },
+        {
+          "start": 524,
+          "end": 544,
+          "text": "See id., at 855–856.",
+          "type": "record",
+          "canonical": "See id., at 855–856."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 816,
+          "end": 1418
+        }
+      ],
+      "citations": [
+        {
+          "start": 186,
+          "end": 206,
+          "text": "405 So. 3d, at 1251.",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 324,
+          "end": 343,
+          "text": "Id., at 1244, 1251.",
+          "type": "case",
+          "canonical": "405 So.3d 1238"
+        },
+        {
+          "start": 476,
+          "end": 504,
+          "text": "See Coy, 487 U. S., at 1016;",
+          "type": "case",
+          "canonical": "487 U.S. 1012"
+        },
+        {
+          "start": 505,
+          "end": 530,
+          "text": "Craig, 497 U. S., at 844.",
+          "type": "case",
+          "canonical": "497 U.S. 836"
+        },
+        {
+          "start": 591,
+          "end": 603,
+          "text": "Id., at 855.",
+          "type": "case",
+          "canonical": "497 U.S. 836"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1418,
+          "end": 1722
+        }
+      ],
+      "citations": [
+        {
+          "start": 276,
+          "end": 305,
+          "text": "See Craig, 497 U. S., at 855.",
+          "type": "case",
+          "canonical": "497 U.S. 836"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1722,
+          "end": 2024
+        },
+        {
+          "page": 6,
+          "start": 34,
+          "end": 337
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 168,
+          "end": 176,
+          "text": "App. 6a.",
+          "type": "record",
+          "canonical": "App. 6a."
+        },
+        {
+          "start": 336,
+          "end": 350,
+          "text": "Id., at 6a–7a.",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert."
+        },
+        {
+          "start": 493,
+          "end": 505,
+          "text": "Id., at 36a.",
+          "type": "record",
+          "canonical": "App. to Pet. for Cert."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "fail[ing]",
+          "to": "failing"
+        },
+        {
+          "from": "A. G. C.",
+          "to": "A G C"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 337,
+          "end": 340
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 341,
+          "end": 1181
+        }
+      ],
+      "citations": [
+        {
+          "start": 418,
+          "end": 468,
+          "text": "Chapman v. California, 386 U. S. 18, 23–24 (1967).",
+          "type": "case",
+          "canonical": "386 U.S. 18"
+        },
+        {
+          "start": 613,
+          "end": 637,
+          "text": "Coy, 487 U. S., at 1021.",
+          "type": "case",
+          "canonical": "487 U.S. 1012"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1181,
+          "end": 1383
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 1824,
+      "end": 1854,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 41,
+      "text": "Cite as: 607 U. S. 1 (2025) 3\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 1971,
+      "end": 2001,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 65,
+      "text": "Page Proof Pending Publication\n4 PITTS v. MISSISSIPPI\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 72,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 1 (2025) 5\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 34,
+      "text": "6 PITTS v. MISSISSIPPI\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 2,
+      "start": 922,
+      "end": 933,
+      "expectedText": "casespecifc",
+      "text": "case-specific"
+    },
+    {
+      "page": 2,
+      "start": 935,
+      "end": 941,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 2,
+      "start": 1089,
+      "end": 1095,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 2,
+      "start": 1123,
+      "end": 1129,
+      "expectedText": "suffce",
+      "text": "suffice"
+    },
+    {
+      "page": 3,
+      "start": 947,
+      "end": 959,
+      "expectedText": "case-specifc",
+      "text": "case-specific"
+    },
+    {
+      "page": 3,
+      "start": 960,
+      "end": 966,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 3,
+      "start": 1207,
+      "end": 1219,
+      "expectedText": "case-specifc",
+      "text": "case-specific"
+    },
+    {
+      "page": 3,
+      "start": 1220,
+      "end": 1226,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 3,
+      "start": 1479,
+      "end": 1488,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 4,
+      "start": 119,
+      "end": 125,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 4,
+      "start": 314,
+      "end": 326,
+      "expectedText": "case-specifc",
+      "text": "case-specific"
+    },
+    {
+      "page": 4,
+      "start": 328,
+      "end": 334,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 4,
+      "start": 1118,
+      "end": 1126,
+      "expectedText": "conficts",
+      "text": "conflicts"
+    },
+    {
+      "page": 4,
+      "start": 1281,
+      "end": 1287,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 4,
+      "start": 1711,
+      "end": 1722,
+      "expectedText": "casespecifc",
+      "text": "case-specific"
+    },
+    {
+      "page": 4,
+      "start": 1723,
+      "end": 1729,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 5,
+      "start": 129,
+      "end": 141,
+      "expectedText": "case-specifc",
+      "text": "case-specific"
+    },
+    {
+      "page": 5,
+      "start": 144,
+      "end": 150,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 5,
+      "start": 237,
+      "end": 247,
+      "expectedText": "childabuse",
+      "text": "child-abuse"
+    },
+    {
+      "page": 5,
+      "start": 1371,
+      "end": 1383,
+      "expectedText": "case-specifc",
+      "text": "case-specific"
+    },
+    {
+      "page": 5,
+      "start": 1384,
+      "end": 1390,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 5,
+      "start": 1655,
+      "end": 1667,
+      "expectedText": "case-specifc",
+      "text": "case-specific"
+    },
+    {
+      "page": 5,
+      "start": 1670,
+      "end": 1676,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 5,
+      "start": 1831,
+      "end": 1839,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 6,
+      "start": 306,
+      "end": 313,
+      "expectedText": "fndings",
+      "text": "findings"
+    },
+    {
+      "page": 6,
+      "start": 862,
+      "end": 873,
+      "expectedText": "face-toface",
+      "text": "face-to-face"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete five-page Court body checked against bundled source PDF. All quoted screening conditions, explanatory parenthetical, five rejected distinctions, and final harmless-error reservation retained. No substantive footnotes. Source-only case/record/statutory/constitutional references individually reviewed for omission; source ligature artifacts repaired against PDF."
+}

@@ -1,0 +1,4382 @@
+{
+  "version": "9b20585e11165e83",
+  "duration": 3125.71,
+  "voice": "af_sky",
+  "audioSha256": "6fe7b298fe5b1a87ad0b37fca06fa7e538096146b641090d3810348208b67e9f",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 8.44,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1070,
+          "end": 1215
+        }
+      ],
+      "text": "Congress has created a comprehensive scheme to address when and how state and federal prisoners can seek postconviction relief in federal courts."
+    },
+    {
+      "start": 8.44,
+      "end": 15.32,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1216,
+          "end": 1309
+        }
+      ],
+      "text": "A state prisoner can file an application for a writ of habeas corpus under Section 2254 of Title 28."
+    },
+    {
+      "start": 15.32,
+      "end": 23.44,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1310,
+          "end": 1363
+        },
+        {
+          "page": 6,
+          "start": 46,
+          "end": 100
+        }
+      ],
+      "text": "A federal prisoner, by contrast, can file a motion to vacate, set aside, or correct a sentence under Section 2255."
+    },
+    {
+      "start": 23.44,
+      "end": 31.605,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 101,
+          "end": 205
+        }
+      ],
+      "text": "Each provision contains its own procedural and substantive requirements that an individual must satisfy."
+    },
+    {
+      "start": 31.605,
+      "end": 39.74,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 206,
+          "end": 341
+        }
+      ],
+      "text": "This case concerns the more complicated situation when a prisoner returns to federal court after a prior attempt for relief has failed."
+    },
+    {
+      "start": 39.74,
+      "end": 48.72,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 342,
+          "end": 523
+        }
+      ],
+      "text": "In this situation, Congress has enlisted the courts of appeals to play a gatekeeping role in the consideration of second or successive filings brought by federal and state prisoners."
+    },
+    {
+      "start": 48.72,
+      "end": 59.1,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 524,
+          "end": 687
+        }
+      ],
+      "text": "Under this system, before a prisoner can bring such a filing in a district court, a court of appeals must certify that the filing meets certain threshold conditions."
+    },
+    {
+      "start": 59.1,
+      "end": 71.92,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 688,
+          "end": 824
+        }
+      ],
+      "text": "Section 2244 governs authorization requests made by state prisoners, and Section 2255(h), in turn, governs requests made by federal prisoners."
+    },
+    {
+      "start": 71.92,
+      "end": 91.29,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 825,
+          "end": 1086
+        }
+      ],
+      "text": "The two have distinct requirements, but through a limited cross-reference in Section 2255(h) to Section 2244 for how a filing is “certified” by a “panel,” Congress has borrowed certain of the procedures that apply to state prisoners and applies them to federal prisoners too."
+    },
+    {
+      "start": 91.29,
+      "end": 101.32,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1087,
+          "end": 1207
+        }
+      ],
+      "text": "This case presents two questions regarding which aspects of Section 2244 fall within the scope of Section 2255(h)'s cross-reference."
+    },
+    {
+      "start": 101.32,
+      "end": 121.62,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1208,
+          "end": 1525
+        }
+      ],
+      "text": "The first is whether Section 2244(b)(3)(E), which prohibits the “denial of an authorization by a court of appeals to file a second or successive application” from being the “subject of a petition for... a writ of certiorari,” bars this Court's review of authorization decisions concerning the motions of federal prisoners."
+    },
+    {
+      "start": 121.62,
+      "end": 124.98,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1526,
+          "end": 1591
+        }
+      ],
+      "text": "If it does, this Court would lack jurisdiction to hear this case."
+    },
+    {
+      "start": 124.98,
+      "end": 126.6,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1592,
+          "end": 1625
+        }
+      ],
+      "text": "The Court holds that it does not."
+    },
+    {
+      "start": 126.6,
+      "end": 139.445,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1626,
+          "end": 1785
+        }
+      ],
+      "text": "In the narrow cross-reference to the procedures in Section 2244, Congress has not clearly indicated that it intended to incorporate Section 2244(b)(3)(E)'s certiorari bar."
+    },
+    {
+      "start": 139.445,
+      "end": 160.06,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1786,
+          "end": 2042
+        }
+      ],
+      "text": "The second question is whether Section 2244(b)(1), which directs courts to dismiss a claim “presented in a second or successive habeas corpus application under section 2254 that was presented in a prior application,” applies to motions filed by federal prisoners."
+    },
+    {
+      "start": 160.06,
+      "end": 176.62,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 2043,
+          "end": 2145
+        },
+        {
+          "page": 7,
+          "start": 53,
+          "end": 120
+        }
+      ],
+      "text": "It does not: Section 2244(b)(1), by its express terms, applies only to state prisoners' habeas applications under Section 2254, not to federal prisoners' motions under Section 2255."
+    },
+    {
+      "start": 176.62,
+      "end": 180.76,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 123,
+          "end": 172
+        }
+      ],
+      "text": "Petitioner Michael S. Bow is in federal custody."
+    },
+    {
+      "start": 180.76,
+      "end": 207.26,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 173,
+          "end": 658
+        }
+      ],
+      "text": "In 2008, he pleaded guilty to three offenses: (1) conspiracy to commit Hobbs Act robbery, (2) attempt to commit Hobbs Act robbery, and (3) the use, carrying, brandishing, or discharge of a firearm in relation to a crime of violence Bow received a 24-year sentence; 10 of those years were imposed because of the Section 924(c) conviction, which carried a mandatory 10-year sentence consecutive to the sentence for the predicate robbery offenses."
+    },
+    {
+      "start": 207.26,
+      "end": 210.16,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 683,
+          "end": 703
+        }
+      ],
+      "text": "Bow did not appeal."
+    },
+    {
+      "start": 210.16,
+      "end": 218.44,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 704,
+          "end": 823
+        }
+      ],
+      "text": "In the decade since, this Court has issued several decisions that have called Bow's Section 924(c) conviction into question."
+    },
+    {
+      "start": 218.44,
+      "end": 227.14,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 824,
+          "end": 932
+        }
+      ],
+      "text": "To appreciate the implications of those decisions, it is important first to understand how Section 924(c) operates."
+    },
+    {
+      "start": 227.14,
+      "end": 235.16,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 933,
+          "end": 1047
+        }
+      ],
+      "text": "Section 924(c) applies if, as relevant here, an individual commits a qualifying “crime of violence” with a firearm."
+    },
+    {
+      "start": 235.16,
+      "end": 238.64,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1048,
+          "end": 1102
+        }
+      ],
+      "text": "A “crime of violence,” in turn, is defined in two ways."
+    },
+    {
+      "start": 238.64,
+      "end": 248.16,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1103,
+          "end": 1276
+        }
+      ],
+      "text": "Under the “elements clause,” it is a “felony” that “has as an element the use, attempted use, or threatened use of physical force against the person or property of another.”"
+    },
+    {
+      "start": 248.16,
+      "end": 261.12,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1293,
+          "end": 1501
+        }
+      ],
+      "text": "Under the “residual clause,” it is a felony “that by its nature, involves a substantial risk that physical force against the person or property of another may be used in the course of committing the offense.”"
+    },
+    {
+      "start": 261.12,
+      "end": 279.67,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1518,
+          "end": 1803
+        }
+      ],
+      "text": "For Bow to have been properly convicted under Section 924(c)—and thus to have received the accompanying 10-year consecutive sentence—his conviction for either conspiracy or attempt to commit Hobbs Act robbery must qualify as a crime of violence under either the elements or residual clause."
+    },
+    {
+      "start": 279.67,
+      "end": 286.36,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1804,
+          "end": 1897
+        }
+      ],
+      "text": "Today, it is likely that neither clause would permissibly support Bow's Section 924(c) conviction."
+    },
+    {
+      "start": 286.36,
+      "end": 292.14,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1898,
+          "end": 2016
+        }
+      ],
+      "text": "In United States versus Davis this Court held that the residual clause is unconstitutionally vague."
+    },
+    {
+      "start": 292.14,
+      "end": 299.88,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 2030,
+          "end": 2040
+        },
+        {
+          "page": 8,
+          "start": 46,
+          "end": 200
+        }
+      ],
+      "text": "In United States versus Taylor the Court held that attempted Hobbs Act robbery does not qualify as a crime of violence under the elements clause."
+    },
+    {
+      "start": 299.88,
+      "end": 307.76,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 214,
+          "end": 336
+        }
+      ],
+      "text": "Eleventh Circuit precedent is also clear that conspiracy to commit Hobbs Act robbery does not satisfy the elements clause."
+    },
+    {
+      "start": 307.76,
+      "end": 316.74,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 408,
+          "end": 541
+        }
+      ],
+      "text": "If sentenced today, therefore, Bow likely would not be subject to the 10-year mandatory consecutive sentence that he is now serving."
+    },
+    {
+      "start": 316.74,
+      "end": 330.28,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 542,
+          "end": 760
+        }
+      ],
+      "text": "Nevertheless, the timing of this Court's decisions, coupled with the timing of Bow's efforts to take advantage of them, have produced procedural complications that have so far prevented relief, leading to this appeal."
+    },
+    {
+      "start": 330.28,
+      "end": 341.64,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 761,
+          "end": 937
+        }
+      ],
+      "text": "Bow, acting pro se, initially sought postconviction relief under Section 2255 in 2016, before the Court decided Davis, arguing that the residual clause is unconstitutionally vague."
+    },
+    {
+      "start": 341.64,
+      "end": 356.0,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 938,
+          "end": 1143
+        }
+      ],
+      "text": "A District Court rejected Bow's claim, in part, because regardless of the residual clause's constitutionality, attempted Hobbs Act robbery qualified as a crime of violence under Section 924(c)'s elements clause."
+    },
+    {
+      "start": 356.0,
+      "end": 364.46,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1153,
+          "end": 1272
+        }
+      ],
+      "text": "After Davis was decided in 2019, Bow sought permission from the Eleventh Circuit to file a second or successive motion."
+    },
+    {
+      "start": 364.46,
+      "end": 368.36,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1288,
+          "end": 1344
+        }
+      ],
+      "text": "A three-judge panel declined to authorize Bow's motion."
+    },
+    {
+      "start": 368.36,
+      "end": 394.78,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1345,
+          "end": 1825
+        }
+      ],
+      "text": "Although the panel acknowledged that Davis had announced a new, retroactive rule of constitutional law, which is one of two grounds on which a second or successive motion can proceed it held that Bow could not “make a prima facie showing that his Section 924(c) conviction and sentence were unconstitutional” because under then-prevailing Eleventh Circuit precedent, “attempted Hobbs Act robbery” still qualified as a crime of violence under the elements clause"
+    },
+    {
+      "start": 394.78,
+      "end": 403.94,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1838,
+          "end": 1975
+        }
+      ],
+      "text": "Then, after Taylor was decided in 2022, Bow once again sought permission from the Eleventh Circuit to file a second or successive motion."
+    },
+    {
+      "start": 403.94,
+      "end": 411.5,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1976,
+          "end": 2010
+        },
+        {
+          "page": 9,
+          "start": 53,
+          "end": 139
+        }
+      ],
+      "text": "This time, Bow argued that under Davis and Taylor, none of his convictions qualified as a predicate “crime of violence.”"
+    },
+    {
+      "start": 411.5,
+      "end": 429.14,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 140,
+          "end": 386
+        }
+      ],
+      "text": "A three-judge panel dismissed the part of Bow's request that rested on Davis, reasoning that because the claim was “presented in a prior application” to file a second or successive motion, the panel lacked jurisdiction over it under Section 2244(b)(1)."
+    },
+    {
+      "start": 429.14,
+      "end": 443.76,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 399,
+          "end": 583
+        }
+      ],
+      "text": "The panel also denied the part of Bow's request that rested on Taylor, concluding that Taylor did not announce a new constitutional rule as needed to secure relief under Section 2255(h)(2)."
+    },
+    {
+      "start": 443.76,
+      "end": 445.14,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 596,
+          "end": 620
+        }
+      ],
+      "text": "Bow did not stop there."
+    },
+    {
+      "start": 445.14,
+      "end": 451.3,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 621,
+          "end": 743
+        }
+      ],
+      "text": "A few months later, he again sought authorization to file a second or successive motion, again relying on Davis and Taylor."
+    },
+    {
+      "start": 451.3,
+      "end": 455.26,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 744,
+          "end": 799
+        }
+      ],
+      "text": "This time, Bow also moved for initial hearing en banc."
+    },
+    {
+      "start": 455.26,
+      "end": 468.94,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 800,
+          "end": 967
+        }
+      ],
+      "text": "As relevant, he asked the Eleventh Circuit to overturn its precedent holding that Section 2244(b)(1)'s old-claim bar applies to federal prisoners' successive Section 2255 motions."
+    },
+    {
+      "start": 468.94,
+      "end": 473.78,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 968,
+          "end": 1057
+        }
+      ],
+      "text": "In Bow's view, that bar applies only to state prisoners, not federal prisoners like him."
+    },
+    {
+      "start": 473.78,
+      "end": 486.96,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1058,
+          "end": 1217
+        }
+      ],
+      "text": "A three-judge panel dismissed Bow's request for authorization, citing Section 2244(b)(1), and the Eleventh Circuit denied Bow's motion for initial hearing en banc."
+    },
+    {
+      "start": 486.96,
+      "end": 490.4,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1218,
+          "end": 1286
+        }
+      ],
+      "text": "Bow then moved for an original writ of habeas corpus in this Court."
+    },
+    {
+      "start": 490.4,
+      "end": 491.7,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1287,
+          "end": 1301
+        }
+      ],
+      "text": "It was denied."
+    },
+    {
+      "start": 491.7,
+      "end": 508.34,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1338,
+          "end": 1601
+        }
+      ],
+      "text": "Bow returned to the Eleventh Circuit, seeking authorization, initial hearing en banc, and certification of the question whether Section 2244(b)(1) applies to federal prisoners. (allowing courts of appeals to certify questions of law to the Supreme Court)."
+    },
+    {
+      "start": 508.34,
+      "end": 517.1,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1602,
+          "end": 1701
+        }
+      ],
+      "text": "As before, a three-judge panel dismissed Bow's request for authorization, relying on Section 2244(b)(1)."
+    },
+    {
+      "start": 517.1,
+      "end": 525.62,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1702,
+          "end": 1842
+        }
+      ],
+      "text": "The panel also declined to certify the question Bow requested, and the full Eleventh Circuit denied his motion for initial hearing en banc."
+    },
+    {
+      "start": 525.62,
+      "end": 529.08,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1843,
+          "end": 1898
+        }
+      ],
+      "text": "Finally, Bow filed a petition for a writ of certiorari."
+    },
+    {
+      "start": 529.08,
+      "end": 537.48,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1899,
+          "end": 2004
+        }
+      ],
+      "text": "The Eleventh Circuit is one of six Circuits that apply Section 2244(b)(1)'s old-claim bar to federal prisoners."
+    },
+    {
+      "start": 537.48,
+      "end": 539.88,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 2005,
+          "end": 2014
+        },
+        {
+          "page": 10,
+          "start": 77,
+          "end": 90
+        }
+      ],
+      "text": "Three Circuits do not."
+    },
+    {
+      "start": 539.88,
+      "end": 543.98,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 93,
+          "end": 143
+        }
+      ],
+      "text": "The Court granted certiorari to resolve the issue."
+    },
+    {
+      "start": 543.98,
+      "end": 558.98,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 174,
+          "end": 384
+        }
+      ],
+      "text": "As a threshold matter, the Government argues that the Court cannot resolve the Circuit split concerning Section 2244(b)(1)'s old-claim bar because the Court lacks jurisdiction to hear the case under Section 2244(b)(3)(E)."
+    },
+    {
+      "start": 558.98,
+      "end": 569.72,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 385,
+          "end": 585
+        }
+      ],
+      "text": "That provision states that the “denial of an authorization by a court of appeals to file a second or successive application... shall not be the subject of a petition for... a writ of certiorari.”"
+    },
+    {
+      "start": 569.72,
+      "end": 573.32,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 653,
+          "end": 725
+        }
+      ],
+      "text": "(“Before turning to the merits, we first must address our jurisdiction”)."
+    },
+    {
+      "start": 573.32,
+      "end": 576.72,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 726,
+          "end": 794
+        }
+      ],
+      "text": "If Bow were in state custody, then the Government would be correct."
+    },
+    {
+      "start": 576.72,
+      "end": 578.02,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 858,
+          "end": 868
+        }
+      ],
+      "text": "He is not."
+    },
+    {
+      "start": 578.02,
+      "end": 589.23,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 869,
+          "end": 1024
+        }
+      ],
+      "text": "Section 2244(b)(3)(E) does not prevent the Court's review because the certiorari bar does not clearly apply to motions filed by federal prisoners like Bow."
+    },
+    {
+      "start": 589.23,
+      "end": 602.72,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1027,
+          "end": 1226
+        }
+      ],
+      "text": "In the Antiterrorism and Effective Death Penalty Act of 1996 (ed pa), “Congress established a `gatekeeping' mechanism for the consideration of `second or successive' ” filings “in the federal courts.”"
+    },
+    {
+      "start": 602.72,
+      "end": 607.38,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1294,
+          "end": 1365
+        }
+      ],
+      "text": "The associated procedural and substantive requirements are “stringent.”"
+    },
+    {
+      "start": 607.38,
+      "end": 618.455,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 53,
+          "end": 179
+        }
+      ],
+      "text": "State prisoners looking to file a second or successive application must comply with Section 2244(b), which provides in relevant part:"
+    },
+    {
+      "start": 618.455,
+      "end": 631.16,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 180,
+          "end": 420
+        }
+      ],
+      "text": "“(3)(A) Before a second or successive application permitted by this section is filed in the district court, the applicant shall move in the appropriate court of appeals for an order authorizing the district court to consider the application."
+    },
+    {
+      "start": 631.16,
+      "end": 643.08,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 421,
+          "end": 616
+        }
+      ],
+      "text": "“(B) A motion in the court of appeals for an order authorizing the district court to consider a second or successive application shall be determined by a three-judge panel of the court of appeals."
+    },
+    {
+      "start": 643.08,
+      "end": 656.4,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 617,
+          "end": 842
+        }
+      ],
+      "text": "“(C) The court of appeals may authorize the filing of a second or successive application only if it determines that the application makes a prima facie showing that the application satisfies the requirements of this subsection."
+    },
+    {
+      "start": 656.4,
+      "end": 666.96,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 843,
+          "end": 1002
+        }
+      ],
+      "text": "“(D) The court of appeals shall grant or deny the authorization to file a second or successive application not later than 30 days after the filing of the motion."
+    },
+    {
+      "start": 666.96,
+      "end": 680.84,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1003,
+          "end": 1221
+        }
+      ],
+      "text": "“(E) The grant or denial of an authorization by a court of appeals to file a second or successive application shall not be appealable and shall not be the subject of a petition for rehearing or for a writ of certiorari."
+    },
+    {
+      "start": 680.84,
+      "end": 693.56,
+      "paragraph": 23,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1222,
+          "end": 1453
+        }
+      ],
+      "text": "“(4) A district court shall dismiss any claim presented in a second or successive application that the court of appeals has authorized to be filed unless the applicant shows that the claim satisfies the requirements of this section.”"
+    },
+    {
+      "start": 693.56,
+      "end": 702.72,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1454,
+          "end": 1556
+        }
+      ],
+      "text": "By comparison, a federal prisoner seeking to file a second or successive motion must satisfy Section 2255(h)."
+    },
+    {
+      "start": 702.72,
+      "end": 705.29,
+      "paragraph": 24,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1606,
+          "end": 1636
+        }
+      ],
+      "text": "That provision states in full:"
+    },
+    {
+      "start": 705.29,
+      "end": 738.595,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1637,
+          "end": 1772
+        },
+        {
+          "page": 12,
+          "start": 77,
+          "end": 461
+        }
+      ],
+      "text": "“A second or successive motion must be certified as provided in section 2244 by a panel of the appropriate court of appeals to contain— “(1) newly discovered evidence that, if proven and viewed in light of the evidence as a whole, would be sufficient to establish by clear and convincing evidence that no reasonable factfinder would have found the movant guilty of the offense; or “(2) a new rule of constitutional law, made retroactive to cases on collateral review by the Supreme Court, that was previously unavailable.”"
+    },
+    {
+      "start": 738.595,
+      "end": 750.06,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 462,
+          "end": 634
+        }
+      ],
+      "text": "Unlike the provisions governing authorization decisions for state prisoners, Section 2255(h) does not mention this Court's certiorari jurisdiction, let alone purport to limit it."
+    },
+    {
+      "start": 750.06,
+      "end": 766.14,
+      "paragraph": 26,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 635,
+          "end": 839
+        }
+      ],
+      "text": "Nor does Section 2244(b)(3)(E) readily apply to federal prisoners on its face: Section 2244, overall, imposes several strict requirements that apply only to state prisoners with the aim of facilitating finality,"
+    },
+    {
+      "start": 766.14,
+      "end": 789.22,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1659,
+          "end": 2120
+        }
+      ],
+      "text": "Footnote 2: (“a claim presented in a second or successive habeas corpus application under section 2254”); (“in a habeas corpus proceeding brought in behalf of a person in custody pursuant to the judgment of a State court”); (“application for a writ of habeas corpus by a person in custody pursuant to the judgment of a State court”); (“application for State post-conviction or other collateral review”).",
+      "footnote": "2"
+    },
+    {
+      "start": 789.22,
+      "end": 791.4,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 2119,
+          "end": 2120
+        }
+      ],
+      "text": "End footnote 2.",
+      "transition": true,
+      "footnote": "2"
+    },
+    {
+      "start": 791.4,
+      "end": 803.58,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 842,
+          "end": 1051
+        }
+      ],
+      "text": "and the certiorari bar in particular speaks to “second or successive applications,” which federal prisoners do not file, (federal prisoners must file “motions” for habeas relief, not applications)."
+    },
+    {
+      "start": 803.58,
+      "end": 813.395,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1052,
+          "end": 1157
+        }
+      ],
+      "text": "Whether the Court has jurisdiction therefore turns on the scope of Section 2255(h)'s cross-reference to Section 2244."
+    },
+    {
+      "start": 813.395,
+      "end": 826.84,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1158,
+          "end": 1294
+        }
+      ],
+      "text": "In the Government's view, the cross-reference captures all of Sections 2244(b)(3) and (b)(4), including the certiorari bar in Section 2244(b)(3)(E)."
+    },
+    {
+      "start": 826.84,
+      "end": 835.96,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1295,
+          "end": 1474
+        }
+      ],
+      "text": "Although the Government is correct that the cross-reference incorporates some of the provisions it identifies, the Government is wrong that it also incorporates the certiorari bar."
+    },
+    {
+      "start": 835.96,
+      "end": 845.175,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1475,
+          "end": 1619
+        }
+      ],
+      "text": "That is because the cross-reference, coupled with its context, does not provide the clear indication needed to strip this Court of jurisdiction."
+    },
+    {
+      "start": 845.175,
+      "end": 856.04,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 57,
+          "end": 257
+        }
+      ],
+      "text": "This Court has certiorari jurisdiction over any “case in the courts of appeals... upon the petition of any party to any civil or criminal case, before or after rendition of judgment or decree.”"
+    },
+    {
+      "start": 856.04,
+      "end": 862.8,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 269,
+          "end": 391
+        }
+      ],
+      "text": "Given that broad grant of jurisdiction, Congress must speak clearly if it seeks to impose exceptions to that jurisdiction."
+    },
+    {
+      "start": 862.8,
+      "end": 871.34,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 392,
+          "end": 536
+        }
+      ],
+      "text": "In Castro versus United States Castro (a federal prisoner) filed a motion for postconviction relief in Federal District Court."
+    },
+    {
+      "start": 871.34,
+      "end": 880.06,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 537,
+          "end": 662
+        }
+      ],
+      "text": "He had previously filed a motion, pro se, attacking his conviction, but he had not specifically labeled it as a Section 2255 motion."
+    },
+    {
+      "start": 880.06,
+      "end": 890.32,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 663,
+          "end": 799
+        }
+      ],
+      "text": "The District Court construed Castro's previous filing as his first Section 2255 motion and the second filing before it as a second Section 2255 motion."
+    },
+    {
+      "start": 890.32,
+      "end": 897.92,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 800,
+          "end": 926
+        }
+      ],
+      "text": "Because Castro did not receive authorization from the Court of Appeals before filing the second motion, the court dismissed it."
+    },
+    {
+      "start": 897.92,
+      "end": 905.48,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 927,
+          "end": 1051
+        }
+      ],
+      "text": "The court, however, granted Castro a certificate of appealability as to its determination that the motion was his second one."
+    },
+    {
+      "start": 905.48,
+      "end": 908.88,
+      "paragraph": 32,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1067,
+          "end": 1116
+        }
+      ],
+      "text": "The Court of Appeals later affirmed the dismissal."
+    },
+    {
+      "start": 908.88,
+      "end": 914.08,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1117,
+          "end": 1204
+        }
+      ],
+      "text": "This Court granted certiorari to address the recharacterization of Castro's first filing."
+    },
+    {
+      "start": 914.08,
+      "end": 920.76,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1205,
+          "end": 1280
+        }
+      ],
+      "text": "The Court also asked the parties whether Section 2244(b)(3)(E) barred its review."
+    },
+    {
+      "start": 920.76,
+      "end": 923.16,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1281,
+          "end": 1326
+        }
+      ],
+      "text": "Like here, the Government argued that it did."
+    },
+    {
+      "start": 923.16,
+      "end": 938.72,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1327,
+          "end": 1564
+        }
+      ],
+      "text": "In the Government's view, the Court of Appeals had denied Castro authorization when it affirmed the District Court's dismissal, making that “denial” the “subject” of his “petition for... certiorari” for the purposes of Section 2244(b)(3)(E)."
+    },
+    {
+      "start": 938.72,
+      "end": 950.46,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1565,
+          "end": 1718
+        }
+      ],
+      "text": "The Court accepted that characterization of the proceedings below for the sake of argument, yet disagreed that Section 2244(b)(3)(E) posed a bar to its review."
+    },
+    {
+      "start": 950.46,
+      "end": 964.88,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1746,
+          "end": 1886
+        },
+        {
+          "page": 14,
+          "start": 77,
+          "end": 134
+        }
+      ],
+      "text": "That was because the “subject” of Castro's petition was not the denial of authorization, but rather “the lower courts' refusal to recognize that the Section 2255 motion was his first, not his second.”"
+    },
+    {
+      "start": 964.88,
+      "end": 986.66,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 884,
+          "end": 1207
+        }
+      ],
+      "text": "Footnote 3: The Government stresses, and the dissent echoes, that the Castro Court “took as a given” that Section 2244(b)(3)(E) applies to federal prisoners by concluding that it had jurisdiction because the subject of the certiorari petition fell outside of the provision's scope, not because the provision applied to state prisoners alone.",
+      "footnote": "3"
+    },
+    {
+      "start": 986.66,
+      "end": 999.18,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1243,
+          "end": 1468
+        }
+      ],
+      "text": "As the Government elsewhere acknowledges, however, the Court did not address the threshold question whether Section 2244(b)(3)(E) applies to federal prisoners. (observing that Castro “did not even comment on the issue”).",
+      "footnote": "3"
+    },
+    {
+      "start": 999.18,
+      "end": 1005.56,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1469,
+          "end": 1560
+        }
+      ],
+      "text": "Thus, at most, the Court assumed for the sake of its analysis that Section 2244(b)(3)(E) applied.",
+      "footnote": "3"
+    },
+    {
+      "start": 1005.56,
+      "end": 1009.16,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1561,
+          "end": 1626
+        }
+      ],
+      "text": "That assumption is not a holding to which the Court is now bound.",
+      "footnote": "3"
+    },
+    {
+      "start": 1009.16,
+      "end": 1011.5,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1625,
+          "end": 1626
+        }
+      ],
+      "text": "End footnote 3.",
+      "transition": true,
+      "footnote": "3"
+    },
+    {
+      "start": 1011.5,
+      "end": 1015.82,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 142,
+          "end": 222
+        }
+      ],
+      "text": "As relevant here, the Court stressed a fatal flaw with the Government's argument."
+    },
+    {
+      "start": 1015.82,
+      "end": 1036.68,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 223,
+          "end": 659
+        }
+      ],
+      "text": "As it explained, “reading the statute as the Government suggested” to bar jurisdiction in that case “would close our doors to a class of habeas petitioners seeking review without any clear indication that such was Congress' intent.” (declining to read “silence or ambiguous language as modifying or limiting the Court's pre-existing certiorari jurisdiction”)."
+    },
+    {
+      "start": 1036.68,
+      "end": 1046.06,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 660,
+          "end": 799
+        }
+      ],
+      "text": "That conclusion was also “difficult to reconcile with the basic principle that we `read limitations on our jurisdiction to review narrowly.'"
+    },
+    {
+      "start": 1046.06,
+      "end": 1049.96,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1629,
+          "end": 1675
+        }
+      ],
+      "text": "Footnote 4: The dissent's rendition of Castro is mistaken.",
+      "footnote": "4"
+    },
+    {
+      "start": 1049.96,
+      "end": 1069.1,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1676,
+          "end": 2017
+        }
+      ],
+      "text": "It suggests that the clear-indication requirement was tied to the “troublesome result” that, under the Government's interpretation, a prisoner could not appeal a panel decision characterizing a filing as his first, not his second, even though the Court had previously allowed the Government to appeal a decision reaching the opposite result.",
+      "footnote": "4"
+    },
+    {
+      "start": 1069.1,
+      "end": 1091.62,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 2169,
+          "end": 2562
+        }
+      ],
+      "text": "That was one troubling result of the Government's position, but Castro also listed two more troubling results: the “closing of our doors to a class of habeas petitioners seeking review without any clear indication that such was Congress' intent,” and the difficulty in “reconciling” that outcome “with the basic principle that we `read limitations on our jurisdiction to review narrowly.'",
+      "footnote": "4"
+    },
+    {
+      "start": 1091.62,
+      "end": 1101.98,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 2563,
+          "end": 2598
+        },
+        {
+          "page": 15,
+          "start": 1937,
+          "end": 2097
+        }
+      ],
+      "text": "” The latter two concerns arise here, and thus Castro requires a clear indication before we will “close our doors” to this distinct class of prisoners seeking habeas relief.",
+      "footnote": "4"
+    },
+    {
+      "start": 1101.98,
+      "end": 1104.16,
+      "paragraph": 36,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 2096,
+          "end": 2097
+        }
+      ],
+      "text": "End footnote 4.",
+      "transition": true,
+      "footnote": "4"
+    },
+    {
+      "start": 1104.16,
+      "end": 1118.88,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 53,
+          "end": 310
+        }
+      ],
+      "text": "Because a “clear indication” was necessary in Castro to strip the Court of jurisdiction, a “clear indication” is required here: The issue arises in the same context and the Government argues that the very same provision bars the Court's review in this case."
+    },
+    {
+      "start": 1118.88,
+      "end": 1124.92,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 311,
+          "end": 392
+        }
+      ],
+      "text": "This clear indication, importantly, is not a so-called “magic words” requirement."
+    },
+    {
+      "start": 1124.92,
+      "end": 1135.28,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 393,
+          "end": 564
+        }
+      ],
+      "text": "It simply asks whether the text and structure support the unambiguous understanding that Congress intended to prevent this Court's exercise of its certiorari jurisdiction."
+    },
+    {
+      "start": 1135.28,
+      "end": 1142.87,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 565,
+          "end": 676
+        }
+      ],
+      "text": "If a provision can reasonably be read multiple ways given its content and context, it is not sufficiently clear."
+    },
+    {
+      "start": 1142.87,
+      "end": 1147.54,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 677,
+          "end": 759
+        }
+      ],
+      "text": "The dissent contends that this clear-indication requirement comes from “thin air.”"
+    },
+    {
+      "start": 1147.54,
+      "end": 1151.3,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 801,
+          "end": 857
+        }
+      ],
+      "text": "As just explained, however, it comes from Castro itself."
+    },
+    {
+      "start": 1151.3,
+      "end": 1161.495,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 858,
+          "end": 1032
+        }
+      ],
+      "text": "It also draws support from this Court's historical practice of declining to read ambiguous statutes to limit its certiorari jurisdiction, which even the dissent acknowledges."
+    },
+    {
+      "start": 1161.495,
+      "end": 1170.7,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1053,
+          "end": 1203
+        }
+      ],
+      "text": "The dissent also argues that this clear-indication requirement must be mistaken because it is not derived from principles of constitutional avoidance."
+    },
+    {
+      "start": 1170.7,
+      "end": 1176.32,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1204,
+          "end": 1295
+        }
+      ],
+      "text": "Constitutional avoidance, however, is not the only possible source of a rule like Castro's."
+    },
+    {
+      "start": 1176.32,
+      "end": 1184.44,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1296,
+          "end": 1435
+        }
+      ],
+      "text": "This Court also has required Congress to speak clearly in other contexts when Congress wishes to do something that the Constitution allows."
+    },
+    {
+      "start": 1184.44,
+      "end": 1192.14,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1436,
+          "end": 1564
+        }
+      ],
+      "text": "For example, the Court will interpret a “procedural requirement as jurisdictional only if Congress `clearly states' that it is.”"
+    },
+    {
+      "start": 1192.14,
+      "end": 1205.06,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1618,
+          "end": 1819
+        }
+      ],
+      "text": "In that context, “Congress need not `incant magic words,' but the `traditional tools of statutory construction must plainly show that Congress imbued a procedural bar with jurisdictional consequences.'"
+    },
+    {
+      "start": 1205.06,
+      "end": 1215.8,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 15,
+          "start": 1820,
+          "end": 1937
+        },
+        {
+          "page": 16,
+          "start": 46,
+          "end": 148
+        }
+      ],
+      "text": "” Requiring this showing is driven by the harsh consequences of finding a procedural requirement jurisdictional, even though Congress, of course, maintains the power to impose such consequences."
+    },
+    {
+      "start": 1215.8,
+      "end": 1227.705,
+      "paragraph": 39,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 262,
+          "end": 429
+        }
+      ],
+      "text": "A similar logic drives the clarity required here, when reading Section 2255(h) as the Government and the dissent do would “close our doors to a class of habeas petitioners.”"
+    },
+    {
+      "start": 1227.705,
+      "end": 1232.06,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1428,
+          "end": 1477
+        }
+      ],
+      "text": "Footnote 5: No one contends that Boechler controls this case.",
+      "footnote": "5"
+    },
+    {
+      "start": 1232.06,
+      "end": 1248.38,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1502,
+          "end": 1779
+        }
+      ],
+      "text": "The Boechler line of cases simply demonstrates that this Court requires clarity in some contexts even absent constitutional concerns, undermining any suggestion that constitutional avoidance is the only permissible source of Castro's rule or other interpretative rules like it.",
+      "footnote": "5"
+    },
+    {
+      "start": 1248.38,
+      "end": 1268.18,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1780,
+          "end": 2179
+        }
+      ],
+      "text": "Nor does this line of cases stand alone. (describing the presumption against extraterritoriality, which requires a “clear indication of an extraterritorial application” for a statute to reach beyond domestic affairs, as reflecting “a canon of construction,... rather than a limit upon Congress's power to legislate”).",
+      "footnote": "5"
+    },
+    {
+      "start": 1268.18,
+      "end": 1270.26,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 2178,
+          "end": 2179
+        }
+      ],
+      "text": "End footnote 5.",
+      "transition": true,
+      "footnote": "5"
+    },
+    {
+      "start": 1270.26,
+      "end": 1278.06,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 461,
+          "end": 569
+        }
+      ],
+      "text": "Section 2255(h)'s cross-reference does not provide the clear indication required to bar this Court's review."
+    },
+    {
+      "start": 1278.06,
+      "end": 1281.56,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 570,
+          "end": 633
+        }
+      ],
+      "text": "The language of the cross-reference is both narrow and specific."
+    },
+    {
+      "start": 1281.56,
+      "end": 1296.24,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 634,
+          "end": 831
+        }
+      ],
+      "text": "It says that a second or successive Section 2255 motion “must be certified as provided in section 2244 by a panel of the appropriate court of appeals to contain” one of two threshold content requirements."
+    },
+    {
+      "start": 1296.24,
+      "end": 1305.0,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 832,
+          "end": 954
+        }
+      ],
+      "text": "(The text of the cross-reference does not end at “ `certified as provided in section 2244,' ” as the dissent would have it."
+    },
+    {
+      "start": 1305.0,
+      "end": 1327.4,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 979,
+          "end": 1302
+        }
+      ],
+      "text": ") The cross-reference thus appears to incorporate only the provisions in Section 2244 that “provide” for how a “panel of the appropriate court of appeals” “certifies” a second or successive filing and directs that those procedures be used to evaluate whether the filing “contains” the content requirements listed in Section 2255(h)."
+    },
+    {
+      "start": 1327.4,
+      "end": 1339.7,
+      "paragraph": 42,
+      "ranges": [
+        {
+          "page": 16,
+          "start": 1303,
+          "end": 1425
+        }
+      ],
+      "text": "Section 2244(b)(3)(E) is not one of those provisions, and it has nothing to do with the content requirements in Section 2255(h)."
+    },
+    {
+      "start": 1339.7,
+      "end": 1345.28,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 53,
+          "end": 145
+        }
+      ],
+      "text": "First, the cross-reference speaks to how a “panel” of the court of appeals certifies a filing."
+    },
+    {
+      "start": 1345.28,
+      "end": 1353.82,
+      "paragraph": 43,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 146,
+          "end": 293
+        }
+      ],
+      "text": "But this Court is not “a panel of the appropriate court of appeals,” so the cross-reference does not speak to this Court's jurisdiction."
+    },
+    {
+      "start": 1353.82,
+      "end": 1360.5,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 294,
+          "end": 405
+        }
+      ],
+      "text": "Second, this Court's review (or lack thereof) is not part of how a panel certifies a second or successive filing."
+    },
+    {
+      "start": 1360.5,
+      "end": 1369.26,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 406,
+          "end": 549
+        }
+      ],
+      "text": "Section 2244(b)(3)(A) identifies that the filing must be certified in the court of appeals before an individual can proceed in the district court."
+    },
+    {
+      "start": 1369.26,
+      "end": 1377.28,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 550,
+          "end": 637
+        }
+      ],
+      "text": "Section 2244(b)(3)(B) requires that a three-judge panel make the certification decision."
+    },
+    {
+      "start": 1377.28,
+      "end": 1387.38,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 638,
+          "end": 778
+        }
+      ],
+      "text": "Section 2244(b)(3)(C) tells the panel that the filing must make a prima facie showing that it satisfies the relevant gatekeeping requirements."
+    },
+    {
+      "start": 1387.38,
+      "end": 1398.06,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 779,
+          "end": 901
+        }
+      ],
+      "text": "Finally, Section 2244(b)(3)(D) instructs the panel to decide whether to certify a filing within 30 days of receiving the request."
+    },
+    {
+      "start": 1398.06,
+      "end": 1411.68,
+      "paragraph": 44,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 902,
+          "end": 1077
+        }
+      ],
+      "text": "These provisions all describe the procedures that a panel must follow in certifying a second or successive filing, and are therefore incorporated by Section 2255(h)'s cross-reference."
+    },
+    {
+      "start": 1411.68,
+      "end": 1422.6,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1078,
+          "end": 1193
+        }
+      ],
+      "text": "In stark contrast, the certiorari bar in Section 2244(b)(3)(E) says nothing about how the Section 2255 motion must be certified."
+    },
+    {
+      "start": 1422.6,
+      "end": 1431.56,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1194,
+          "end": 1359
+        }
+      ],
+      "text": "It instead speaks to what happens after a panel has acted on a certification request: specifically, whether an individual can appeal the panel's certification decision."
+    },
+    {
+      "start": 1431.56,
+      "end": 1438.04,
+      "paragraph": 45,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1360,
+          "end": 1454
+        }
+      ],
+      "text": "If the certiorari bar did not exist, no aspect of how the panel certifies a filing would change."
+    },
+    {
+      "start": 1438.04,
+      "end": 1445.32,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1913,
+          "end": 2025
+        }
+      ],
+      "text": "Footnote 6: The dissent asks “what would be the point” of subparagraph (B) without the certiorari bar in subparagraph (E).",
+      "footnote": "6"
+    },
+    {
+      "start": 1445.32,
+      "end": 1447.4,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 2039,
+          "end": 2074
+        }
+      ],
+      "text": "The point of (B) is still apparent.",
+      "footnote": "6"
+    },
+    {
+      "start": 1447.4,
+      "end": 1454.14,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 2075,
+          "end": 2198
+        }
+      ],
+      "text": "It identifies who makes the authorization determination in the first instance: a “three-judge panel of the court of appeals.”",
+      "footnote": "6"
+    },
+    {
+      "start": 1454.14,
+      "end": 1456.24,
+      "paragraph": 46,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 2197,
+          "end": 2198
+        }
+      ],
+      "text": "End footnote 6.",
+      "transition": true,
+      "footnote": "6"
+    },
+    {
+      "start": 1456.24,
+      "end": 1472.44,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1456,
+          "end": 1722
+        }
+      ],
+      "text": "Put simply, “the certiorari bar addresses an entirely different act (filing a certiorari petition, not certifying a successive motion) by an entirely different actor (the prisoner, not the panel) in an entirely different court (this Court, not the court of appeals).”"
+    },
+    {
+      "start": 1472.44,
+      "end": 1488.82,
+      "paragraph": 47,
+      "ranges": [
+        {
+          "page": 17,
+          "start": 1748,
+          "end": 1910
+        }
+      ],
+      "text": "If Congress intended Section 2255(h) to incorporate this postcertification orange alongside all the panel-certification apples in Section 2244(b)(3), it did not say so clearly."
+    },
+    {
+      "start": 1488.82,
+      "end": 1498.26,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 46,
+          "end": 206
+        }
+      ],
+      "text": "Of course, as the Government and the dissent point out, barring appeals of certification decisions has an effect on the panel's decision by making it conclusive."
+    },
+    {
+      "start": 1498.26,
+      "end": 1504.12,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 251,
+          "end": 343
+        }
+      ],
+      "text": "That effect, however, has little to do with how the “motion is certified... by a panel.”"
+    },
+    {
+      "start": 1504.12,
+      "end": 1521.3,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 355,
+          "end": 539
+        }
+      ],
+      "text": "Section 2255(h)'s reference to how the “motion must be certified” under Section 2244 thus does not incorporate Section 2244(b)(3)(E)'s postcertification bar in the clear manner that Castro requires."
+    },
+    {
+      "start": 1521.3,
+      "end": 1527.08,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 540,
+          "end": 660
+        }
+      ],
+      "text": "Contrary to the dissent's framing, Hohn versus United States does not support a different conclusion."
+    },
+    {
+      "start": 1527.08,
+      "end": 1540.1,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 661,
+          "end": 873
+        }
+      ],
+      "text": "That case concerned whether the Court had jurisdiction over a decision by a three-judge panel to deny a prisoner a certificate of appealability under Section 2253(c), and held that the Court does have such jurisdiction."
+    },
+    {
+      "start": 1540.1,
+      "end": 1554.0,
+      "paragraph": 48,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 887,
+          "end": 1106
+        }
+      ],
+      "text": "Section 2253(c) applies to federal and state prisoners and dictates that, before an individual can appeal from a district court's denial of a habeas petition, he must secure permission from “a circuit justice or judge.”"
+    },
+    {
+      "start": 1554.0,
+      "end": 1567.44,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1107,
+          "end": 1285
+        }
+      ],
+      "text": "Court-appointed ah mee kuss in Hohn argued that the decision denying permission was not a “case” in the Court of Appeals for the purposes of this Court's jurisdiction under Section 1254(1)."
+    },
+    {
+      "start": 1567.44,
+      "end": 1586.68,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1286,
+          "end": 1530
+        }
+      ],
+      "text": "The Court rejected that construction, however, in part because it would have rendered Section 2244(b)(3)(E) (which the Court suggested was a requirement for “state prisoners filing second or successive habeas applications under Section 2254”) as superfluous."
+    },
+    {
+      "start": 1586.68,
+      "end": 1602.52,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1548,
+          "end": 1809
+        }
+      ],
+      "text": "That was because all the reasons ah mee kuss gave for why a decision denying a certificate of appealability did not constitute a “case” for the purposes of Section 1254(1) would equally have applied to a decision denying authorization to bring a second or successive filing."
+    },
+    {
+      "start": 1602.52,
+      "end": 1609.24,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1816,
+          "end": 1889
+        }
+      ],
+      "text": "The Court nowhere held that Section 2244(b)(3)(E) applied to federal prisoners."
+    },
+    {
+      "start": 1609.24,
+      "end": 1613.46,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1890,
+          "end": 1962
+        }
+      ],
+      "text": "(That is not surprising because the case did not present that question.)"
+    },
+    {
+      "start": 1613.46,
+      "end": 1630.615,
+      "paragraph": 49,
+      "ranges": [
+        {
+          "page": 18,
+          "start": 1963,
+          "end": 2102
+        },
+        {
+          "page": 19,
+          "start": 53,
+          "end": 138
+        }
+      ],
+      "text": "Nor does the Court's holding today render Section 2244(b)(3)(E) superfluous: As all agree, it bars this Court's review of panel authorization decisions concerning motions to file second or successive applications by state prisoners."
+    },
+    {
+      "start": 1630.615,
+      "end": 1642.84,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 139,
+          "end": 303
+        }
+      ],
+      "text": "The dissent also relies on Hohn to argue that it already stands for the proposition that Section 2244(B)(3)(E) imposes “a `clear limit' on our jurisdiction” in this case."
+    },
+    {
+      "start": 1642.84,
+      "end": 1643.86,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 347,
+          "end": 354
+        }
+      ],
+      "text": "Not so."
+    },
+    {
+      "start": 1643.86,
+      "end": 1651.22,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 355,
+          "end": 480
+        }
+      ],
+      "text": "No one disputes that the certiorari bar clearly deprives the Court of jurisdiction over classes of cases to which it applies."
+    },
+    {
+      "start": 1651.22,
+      "end": 1663.97,
+      "paragraph": 50,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 510,
+          "end": 679
+        }
+      ],
+      "text": "What is not clear is whether, through the cross-reference in Section 2255(h), Congress intended for that bar to extend to federal prisoners—a point Hohn simply did not address."
+    },
+    {
+      "start": 1663.97,
+      "end": 1676.94,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 682,
+          "end": 817
+        }
+      ],
+      "text": "For these reasons, whether Section 2244(b)(3)(E)'s certiorari bar falls within the scope of Section 2255(h)'s cross-reference is at most ambiguous."
+    },
+    {
+      "start": 1676.94,
+      "end": 1687.695,
+      "paragraph": 52,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 818,
+          "end": 1008
+        }
+      ],
+      "text": "Ambiguous language, however, cannot provide the required clear indication, and the Government's and the dissent's remaining arguments do not supply the necessary clarity that the text lacks."
+    },
+    {
+      "start": 1687.695,
+      "end": 1699.4,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1009,
+          "end": 1194
+        }
+      ],
+      "text": "To begin, the Government contends that there is textual support in Section 2244(b)(3)(E) for the understanding that the certiorari bar applies to federal prisoners through the cross-reference."
+    },
+    {
+      "start": 1699.4,
+      "end": 1714.16,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1195,
+          "end": 1390
+        }
+      ],
+      "text": "On this score, the Government points to how Sections 2244(b)(3)(A)–(E) each use the term “second or successive application” instead of referring to Section 2254 specifically or state prisoners more generally."
+    },
+    {
+      "start": 1714.16,
+      "end": 1719.6,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1391,
+          "end": 1460
+        }
+      ],
+      "text": "This stands in contrast to nearly all the other provisions in Section 2244."
+    },
+    {
+      "start": 1719.6,
+      "end": 1740.175,
+      "paragraph": 53,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1461,
+          "end": 1747
+        }
+      ],
+      "text": "In the Government's view, this textual variation means that Congress intended for Section 2255(h)'s cross-reference to incorporate any provision in Section 2244 that uses the term “second or successive application” and the breadth of the cross-reference therefore must be understood on those terms."
+    },
+    {
+      "start": 1740.175,
+      "end": 1749.9,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1748,
+          "end": 1829
+        }
+      ],
+      "text": "If that were so, Section 2255(h)'s cross-reference would also incorporate Section 2244(b)(4)."
+    },
+    {
+      "start": 1749.9,
+      "end": 1764.82,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 19,
+          "start": 1830,
+          "end": 1986
+        },
+        {
+          "page": 20,
+          "start": 46,
+          "end": 136
+        }
+      ],
+      "text": "That provision directs district courts to review and “dismiss any claim presented in a second or successive application that the court of appeals has authorized... unless the applicant shows that the claim satisfies the requirements of” Section 2244."
+    },
+    {
+      "start": 1764.82,
+      "end": 1784.14,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 137,
+          "end": 335
+        }
+      ],
+      "text": "Put differently, once a second or successive application is certified, Section 2244(b)(4) tells a district court to doublecheck that the application satisfies Section 2244, including its gatekeeping requirements."
+    },
+    {
+      "start": 1784.14,
+      "end": 1804.16,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 336,
+          "end": 573
+        }
+      ],
+      "text": "Section 2244(b)(4), however, plainly falls outside the scope of Section 2255(h)'s cross-reference because Section 2244(b)(4) has nothing to do with how a filing is “certified as provided in section 2244 by a panel of the appropriate court of appeals.”"
+    },
+    {
+      "start": 1804.16,
+      "end": 1833.26,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 585,
+          "end": 970
+        }
+      ],
+      "text": "Thus, accepting the Government's argument that Section 2255(h)'s cross-reference should be understood to incorporate any provision in Section 2244 that uses “second or successive application” would essentially require interpreting Section 2255(h) to mean a federal prisoner's second or successive motion “must conform to all provisions in section 2244 that are not expressly limited to state prisoners.”"
+    },
+    {
+      "start": 1833.26,
+      "end": 1838.62,
+      "paragraph": 54,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 971,
+          "end": 1015
+        }
+      ],
+      "text": "That, of course, is not what Section 2255(h) says."
+    },
+    {
+      "start": 1838.62,
+      "end": 1847.02,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1016,
+          "end": 1123
+        }
+      ],
+      "text": "The Government also points to part of Section 2244(b)(3)(E) that does speak to a “panel” of “a court of appeals.”"
+    },
+    {
+      "start": 1847.02,
+      "end": 1858.66,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1124,
+          "end": 1277
+        }
+      ],
+      "text": "Specifically, Section 2244(b)(3)(E) says that an authorization decision “shall not be the subject of a petition for rehearing,” thereby barring panel rehearing."
+    },
+    {
+      "start": 1858.66,
+      "end": 1873.14,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1278,
+          "end": 1442
+        }
+      ],
+      "text": "According to the Government, because Section 2244(b)(3)(E) speaks to the panel in some regard, Section 2255(h) must have intended to incorporate that provision in its entirety."
+    },
+    {
+      "start": 1873.14,
+      "end": 1878.94,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1443,
+          "end": 1529
+        }
+      ],
+      "text": "The Government is wrong, however, that the certiorari bar is incorporated in this way."
+    },
+    {
+      "start": 1878.94,
+      "end": 1897.4,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1530,
+          "end": 1788
+        }
+      ],
+      "text": "Whether Section 2244(b)(3)(E)'s panel-rehearing bar applies to federal prisoners says little, and certainly nothing clear, about whether Congress intended Section 2244(b)(3)(E)'s separate certiorari bar to extend to authorization decisions concerning federal prisoners."
+    },
+    {
+      "start": 1897.4,
+      "end": 1904.52,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1789,
+          "end": 1904
+        }
+      ],
+      "text": "Using the former to incorporate the latter is the kind of jurisdiction stripping by implication that cannot suffice."
+    },
+    {
+      "start": 1904.52,
+      "end": 1909.16,
+      "paragraph": 55,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1935,
+          "end": 1996
+        }
+      ],
+      "text": "(“Repeals of jurisdiction by implication are not favored”)."
+    },
+    {
+      "start": 1909.16,
+      "end": 1919.66,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 20,
+          "start": 1997,
+          "end": 2102
+        },
+        {
+          "page": 21,
+          "start": 53,
+          "end": 87
+        }
+      ],
+      "text": "Next, the Government argues that allowing appeals from a panel's certification decision to this Court is inconsistent with Section 2244(b)(3)(D)."
+    },
+    {
+      "start": 1919.66,
+      "end": 1935.36,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 144,
+          "end": 531
+        }
+      ],
+      "text": "That provision, which all agree is covered by Section 2255(h)'s cross-reference, imposes a 30-day clock on a panel's certification decision after a litigant seeks authorization (though most Courts of Appeals view that requirement as advisory, )."
+    },
+    {
+      "start": 1935.36,
+      "end": 1943.26,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 532,
+          "end": 661
+        }
+      ],
+      "text": "When an individual seeks certiorari, on the other hand, he has 90 days from the date of decision to file a petition in this Court."
+    },
+    {
+      "start": 1943.26,
+      "end": 1959.54,
+      "paragraph": 56,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 686,
+          "end": 958
+        }
+      ],
+      "text": "The Government suggests that the 30-day limit for panel review indicates that Congress wanted the certification decision to occur quickly, and that allowing prisoners to seek certiorari for an additional 90 days after the panel review concludes would thwart that intention."
+    },
+    {
+      "start": 1959.54,
+      "end": 1961.44,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 959,
+          "end": 998
+        }
+      ],
+      "text": "The Government's argument is misguided."
+    },
+    {
+      "start": 1961.44,
+      "end": 1970.18,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 999,
+          "end": 1117
+        }
+      ],
+      "text": "Nothing about the Court's decision today undermines Section 2244(b)(3)(D)'s timeline for the panel's authorization decision."
+    },
+    {
+      "start": 1970.18,
+      "end": 1993.4,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1118,
+          "end": 1568
+        }
+      ],
+      "text": "Nor is this inference so compelling as to provide the needed clarity to cut off the Court's jurisdiction: It is entirely plausible that Congress intended to require panels to move quickly, while still preserving the prisoner's ability to seek further review in the rare case that warrants this Court's attention. (placing time limits on the initial review of capital cases in the lower courts but placing no limits on this Court's review)."
+    },
+    {
+      "start": 1993.4,
+      "end": 2004.74,
+      "paragraph": 57,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1569,
+          "end": 1716
+        }
+      ],
+      "text": "Panels will still have the tools needed, moreover, to facilitate that quick review under the Court's interpretation of Section 2255(h)'s cross-reference."
+    },
+    {
+      "start": 2004.74,
+      "end": 2014.44,
+      "paragraph": 58,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1751,
+          "end": 1900
+        }
+      ],
+      "text": "Footnote 7: Nor does the Court's decision today risk unduly opening the floodgates to frivolous appeals from authorization decisions concerning federal prisoners.",
+      "footnote": "7"
+    },
+    {
+      "start": 2014.44,
+      "end": 2021.34,
+      "paragraph": 58,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 1901,
+          "end": 2034
+        }
+      ],
+      "text": "Such appeals will be governed by the ordinary rules that prevent abuses of the Court's certiorari docket in every other circumstance.",
+      "footnote": "7"
+    },
+    {
+      "start": 2021.34,
+      "end": 2030.0,
+      "paragraph": 58,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 2078,
+          "end": 2249
+        }
+      ],
+      "text": "If Congress thought it best to strip the Court of jurisdiction to keep these appeals away from the Court's docket nonetheless, it failed to convey that intent sufficiently.",
+      "footnote": "7"
+    },
+    {
+      "start": 2030.0,
+      "end": 2031.95,
+      "paragraph": 58,
+      "ranges": [
+        {
+          "page": 21,
+          "start": 2248,
+          "end": 2249
+        }
+      ],
+      "text": "End footnote 7.",
+      "transition": true,
+      "footnote": "7"
+    },
+    {
+      "start": 2031.95,
+      "end": 2035.28,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 46,
+          "end": 111
+        }
+      ],
+      "text": "From here, the Government resorts to another structural argument."
+    },
+    {
+      "start": 2035.28,
+      "end": 2042.6,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 112,
+          "end": 176
+        }
+      ],
+      "text": "The certiorari bar is found in Section 2244(b)(3)'s fifth subparagraph."
+    },
+    {
+      "start": 2042.6,
+      "end": 2050.06,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 177,
+          "end": 271
+        }
+      ],
+      "text": "Everyone agrees that Section 2255(h)'s cross-reference incorporates the preceding four subparagraphs."
+    },
+    {
+      "start": 2050.06,
+      "end": 2056.82,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 272,
+          "end": 400
+        }
+      ],
+      "text": "The Government maintains that it would be odd that Congress intended to incorporate four of those subparagraphs and not all five."
+    },
+    {
+      "start": 2056.82,
+      "end": 2062.74,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 433,
+          "end": 528
+        }
+      ],
+      "text": "If Congress had intended for all five to travel together, however, it did not say so explicitly."
+    },
+    {
+      "start": 2062.74,
+      "end": 2079.16,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 529,
+          "end": 770
+        }
+      ],
+      "text": "That would have been easy to do: Congress simply could have referenced Section 2244(b)(3) specifically, rather than broadly referencing Section 2244 with a narrow cross-reference only specifying how a second or successive filing is “certified” by a “panel.”"
+    },
+    {
+      "start": 2079.16,
+      "end": 2080.94,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 771,
+          "end": 788
+        }
+      ],
+      "text": "Congress did not."
+    },
+    {
+      "start": 2080.94,
+      "end": 2090.62,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 789,
+          "end": 952
+        }
+      ],
+      "text": "The language it used instead supports the understanding that the provisions the cross-reference incorporates turn on their substance, not where they sit in a list."
+    },
+    {
+      "start": 2090.62,
+      "end": 2097.62,
+      "paragraph": 59,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 953,
+          "end": 1082
+        }
+      ],
+      "text": "As explained the certiorari bar does not clearly fall within the scope of the cross-reference on its own terms."
+    },
+    {
+      "start": 2097.62,
+      "end": 2100.82,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1083,
+          "end": 1135
+        }
+      ],
+      "text": "Finally, the Government invokes a practical concern."
+    },
+    {
+      "start": 2100.82,
+      "end": 2109.06,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1136,
+          "end": 1292
+        }
+      ],
+      "text": "The Government suggests that it would make little sense to bar certiorari review of authorization decisions concerning state prisoners but not federal ones."
+    },
+    {
+      "start": 2109.06,
+      "end": 2113.8,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1293,
+          "end": 1392
+        }
+      ],
+      "text": "That argument carries little weight when the governing standard requires Congress to speak clearly."
+    },
+    {
+      "start": 2113.8,
+      "end": 2115.36,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1393,
+          "end": 1417
+        }
+      ],
+      "text": "It also misses the mark."
+    },
+    {
+      "start": 2115.36,
+      "end": 2123.4,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1418,
+          "end": 1552
+        }
+      ],
+      "text": "Congress treated state and federal prisoners differently across ed pa, with state prisoners often facing far higher hurdles to relief."
+    },
+    {
+      "start": 2123.4,
+      "end": 2131.04,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1553,
+          "end": 1688
+        }
+      ],
+      "text": "To name a few examples: The statutory requirements for second or successive filings for federal and state prisoners are “not identical.”"
+    },
+    {
+      "start": 2131.04,
+      "end": 2136.04,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1792,
+          "end": 1886
+        }
+      ],
+      "text": "Indeed, the requirements for federal prisoners are more lenient, as explained in detail below."
+    },
+    {
+      "start": 2136.04,
+      "end": 2147.715,
+      "paragraph": 60,
+      "ranges": [
+        {
+          "page": 22,
+          "start": 1908,
+          "end": 2126
+        }
+      ],
+      "text": "Further, for state prisoners alone, Congress requires exhaustion and then, once in federal court, mandates deference to both the state court's application of federal law and its factual determinations"
+    },
+    {
+      "start": 2147.715,
+      "end": 2150.94,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 53,
+          "end": 104
+        }
+      ],
+      "text": "This differential treatment exists for good reason."
+    },
+    {
+      "start": 2150.94,
+      "end": 2156.24,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 105,
+          "end": 191
+        }
+      ],
+      "text": "Congress enacted ed pa “to further the principles of comity, finality, and federalism.”"
+    },
+    {
+      "start": 2156.24,
+      "end": 2163.58,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 239,
+          "end": 379
+        }
+      ],
+      "text": "The Act “recognizes a foundational principle of our federal system: State courts are adequate forums for the vindication of federal rights.”"
+    },
+    {
+      "start": 2163.58,
+      "end": 2173.98,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 421,
+          "end": 603
+        }
+      ],
+      "text": "Out of respect for state courts and their ability “to adjudicate claims of constitutional wrong, ed pa erected a formidable barrier to federal habeas relief for state prisoners.”"
+    },
+    {
+      "start": 2173.98,
+      "end": 2194.26,
+      "paragraph": 61,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 610,
+          "end": 1003
+        }
+      ],
+      "text": "Federal courts “will not lightly conclude that a State's criminal justice system has experienced the `extreme malfunction' for which federal habeas relief is the remedy.” (observing that “the purpose of ed pa is to ensure that federal habeas” review of state-court proceedings does not function as a “means of error correction”)."
+    },
+    {
+      "start": 2194.26,
+      "end": 2199.24,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1004,
+          "end": 1094
+        }
+      ],
+      "text": "Comity and federalism, however, fall away when a federal court reviews a federal judgment."
+    },
+    {
+      "start": 2199.24,
+      "end": 2211.64,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1095,
+          "end": 1307
+        }
+      ],
+      "text": "By the time a federal prisoner looks to file a second or successive motion, moreover, he will have had fewer bites at the apple, and fewer courts reviewing his case, than most state prisoners in the same position."
+    },
+    {
+      "start": 2211.64,
+      "end": 2226.6,
+      "paragraph": 62,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1374,
+          "end": 1714
+        }
+      ],
+      "text": "Although the Federal Government has an interest in finality too “ `no legislation pursues its purposes at all costs,' ” Allowing further review in this Court is thus consistent with both ed pa's purposes and practical considerations."
+    },
+    {
+      "start": 2226.6,
+      "end": 2238.82,
+      "paragraph": 63,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1715,
+          "end": 1841
+        }
+      ],
+      "text": "At bottom, the Government's arguments suggest that Section 2255(h)'s cross-reference might include Section 2244(b)(3)(E)'s certiorari bar."
+    },
+    {
+      "start": 2238.82,
+      "end": 2248.01,
+      "paragraph": 63,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 1842,
+          "end": 1997
+        }
+      ],
+      "text": "They do not, however, provide the necessary “clear indication” that Congress intended to “close our doors to a class of habeas petitioners seeking review.”"
+    },
+    {
+      "start": 2248.01,
+      "end": 2259.355,
+      "paragraph": 63,
+      "ranges": [
+        {
+          "page": 23,
+          "start": 2025,
+          "end": 2126
+        },
+        {
+          "page": 24,
+          "start": 46,
+          "end": 112
+        }
+      ],
+      "text": "Absent such clear indication, federal prisoners are not prohibited from seeking certiorari from a panel's denial of authorization to file a second or successive motion."
+    },
+    {
+      "start": 2259.355,
+      "end": 2276.815,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 117,
+          "end": 370
+        }
+      ],
+      "text": "Turning now to the merits upon which the Court granted certiorari, Bow and the Government agree that the Eleventh Circuit erred by applying Section 2244(b)(1) to Bow's request for authorization to file a second or successive motion to vacate under Section 2255(h)."
+    },
+    {
+      "start": 2276.815,
+      "end": 2283.615,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 371,
+          "end": 482
+        }
+      ],
+      "text": "The Court appointed Kasdin M. Mitchell as ah mee kuss cure ee eye to argue in support of the Eleventh Circuit's position."
+    },
+    {
+      "start": 2283.615,
+      "end": 2286.895,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 506,
+          "end": 551
+        }
+      ],
+      "text": "She has ably discharged her responsibilities."
+    },
+    {
+      "start": 2286.895,
+      "end": 2299.735,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 552,
+          "end": 695
+        }
+      ],
+      "text": "The Court nevertheless agrees with the parties and holds that Section 2244(b)(1) does not apply to motions filed by federal prisoners under Section 2255(h)."
+    },
+    {
+      "start": 2299.735,
+      "end": 2303.84,
+      "paragraph": 65,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 696,
+          "end": 753
+        }
+      ],
+      "text": "The contrary decision of the Eleventh Circuit is vacated."
+    },
+    {
+      "start": 2303.84,
+      "end": 2305.6,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 756,
+          "end": 776
+        }
+      ],
+      "text": "Begin with the text."
+    },
+    {
+      "start": 2305.6,
+      "end": 2319.34,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 777,
+          "end": 962
+        }
+      ],
+      "text": "Section 2244(b)(1) states that “a claim presented in a second or successive habeas corpus application under section 2254 that was presented in a prior application shall be dismissed.”"
+    },
+    {
+      "start": 2319.34,
+      "end": 2351.26,
+      "paragraph": 67,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 963,
+          "end": 1445
+        }
+      ],
+      "text": "State prisoners alone file habeas corpus applications under Section 2254. (noting that Section 2254 is limited to “a person in custody pursuant to the judgment of a State court”); (“The requirement of custody pursuant to a state-court judgment distinguishes Section 2254 from other statutory provisions authorizing relief from constitutional violations—such as Section 2255, which allows challenges to the judgments of federal courts”)."
+    },
+    {
+      "start": 2351.26,
+      "end": 2386.27,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1446,
+          "end": 1913
+        }
+      ],
+      "text": "This specific reference to Section 2254 was deliberate: Elsewhere in this very section, Section 2244 acknowledges Section 2255. (referencing Section 2255); (distinguishing a “final order” in a “habeas corpus proceeding in which the detention complained of arises out of process issued by a State court” from one “in a proceeding under section 2255”); (distinguishing an “application under section 2254” from a “motion under section 2255”)."
+    },
+    {
+      "start": 2386.27,
+      "end": 2396.88,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 24,
+          "start": 1914,
+          "end": 1921
+        },
+        {
+          "page": 25,
+          "start": 84,
+          "end": 274
+        }
+      ],
+      "text": "A cardinal rule of statutory interpretation teaches that “when we're engaged in the business of interpreting statutes, we presume differences in language like this convey differences in meaning.”"
+    },
+    {
+      "start": 2396.88,
+      "end": 2405.92,
+      "paragraph": 68,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 339,
+          "end": 426
+        }
+      ],
+      "text": "Thus, by its plain terms, Section 2244(b)(1)'s old-claim bar applies only to state prisoners."
+    },
+    {
+      "start": 2405.92,
+      "end": 2425.64,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 427,
+          "end": 633
+        }
+      ],
+      "text": "Nor does Section 2255(h)'s cross-reference to Section 2244 otherwise make Section 2244(b)(1) applicable to second or successive motions filed by federal prisoners. ah mee kuss, as well as the dissent, however, argues that it does."
+    },
+    {
+      "start": 2425.64,
+      "end": 2435.88,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 634,
+          "end": 707
+        }
+      ],
+      "text": "As they see it, Section 2255(h) incorporates Section 2244, including Section 2244(b)(3)(C)."
+    },
+    {
+      "start": 2435.88,
+      "end": 2446.66,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 708,
+          "end": 877
+        }
+      ],
+      "text": "Section 2244(b) (3)(C), in turn, requires a panel to determine that “the application makes a prima facie showing that it satisfies the requirements of this subsection.”"
+    },
+    {
+      "start": 2446.66,
+      "end": 2454.24,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 878,
+          "end": 955
+        }
+      ],
+      "text": "From here, one of the “requirements of... subsection” (b) is Section 2244(b)(1)."
+    },
+    {
+      "start": 2454.24,
+      "end": 2464.26,
+      "paragraph": 69,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 956,
+          "end": 1086
+        }
+      ],
+      "text": "Following this chain of cross-references where it leads, ah mee kuss and the dissent say, Section 2244(b)(1) must apply to federal prisoners."
+    },
+    {
+      "start": 2464.26,
+      "end": 2469.3,
+      "paragraph": 70,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1087,
+          "end": 1171
+        }
+      ],
+      "text": "The reasoning why this Court has jurisdiction also shows the error in this position."
+    },
+    {
+      "start": 2469.3,
+      "end": 2482.88,
+      "paragraph": 70,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1193,
+          "end": 1338
+        }
+      ],
+      "text": "Section 2255(h)'s cross-reference incorporates the procedures in Section 2244 only as they relate to how a panel certifies a second or successive filing."
+    },
+    {
+      "start": 2482.88,
+      "end": 2504.38,
+      "paragraph": 70,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1339,
+          "end": 1651
+        }
+      ],
+      "text": "It then tells the panel to use those procedures to evaluate whether the federal prisoner's second or successive motion “contains” either newly discovered evidence or a new rule of constitutional law Nothing in Section 2255(h) suggests that it incorporates Section 2244 for any other purposes."
+    },
+    {
+      "start": 2504.38,
+      "end": 2520.84,
+      "paragraph": 70,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1652,
+          "end": 1800
+        }
+      ],
+      "text": "Thus, by its terms, Section 2255(h)'s cross-reference does not incorporate the content requirements contained in Section 2244, like Section 2244(b)(1)'s old-claim bar."
+    },
+    {
+      "start": 2520.84,
+      "end": 2535.72,
+      "paragraph": 71,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1801,
+          "end": 1915
+        }
+      ],
+      "text": "ah mee kuss and the dissent's broad reading of Section 2244(b)(3)(C) would also put Section 2255 on a collision course with Section 2244."
+    },
+    {
+      "start": 2535.72,
+      "end": 2557.28,
+      "paragraph": 71,
+      "ranges": [
+        {
+          "page": 25,
+          "start": 1916,
+          "end": 2160
+        },
+        {
+          "page": 26,
+          "start": 46,
+          "end": 81
+        }
+      ],
+      "text": "Section 2244(b) imposes two limitations on the content of a second or successive habeas application: Section 2244(b)(1), which bars old claims; and Section 2244(b)(2), which prescribes “two grounds” in which a claim “not previously raised” can proceed in a “second or successive application.”"
+    },
+    {
+      "start": 2557.28,
+      "end": 2572.32,
+      "paragraph": 71,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 109,
+          "end": 271
+        }
+      ],
+      "text": "Section 2244(b)(3)(C), on which ah mee kuss relies, requires individuals to satisfy all the “requirements of this subsection,” including both Sections 2244(b)(1) and (b)(2)."
+    },
+    {
+      "start": 2572.32,
+      "end": 2590.72,
+      "paragraph": 71,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 272,
+          "end": 466
+        }
+      ],
+      "text": "The upshot of ah mee kuss iz argument would therefore be that Section 2255(h) incorporates not only Section 2244(b)(1)'s old-claim bar, but also Section 2244(b)(2)'s substantive gatekeeping requirements for new claims."
+    },
+    {
+      "start": 2590.72,
+      "end": 2602.94,
+      "paragraph": 71,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 467,
+          "end": 583
+        }
+      ],
+      "text": "Section 2255(h), however, contains its own substantive requirements that are irreconcilable with those in Section 2244(b)."
+    },
+    {
+      "start": 2602.94,
+      "end": 2628.46,
+      "paragraph": 72,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 584,
+          "end": 921
+        }
+      ],
+      "text": "In particular, Section 2255(h)(1) permits a second or successive Section 2255 motion if the petitioner identifies “newly discovered evidence that, if proven and viewed in light of the evidence as a whole, would be sufficient to establish by clear and convincing evidence that no reasonable factfinder would have found the movant guilty of the offense.”"
+    },
+    {
+      "start": 2628.46,
+      "end": 2637.98,
+      "paragraph": 72,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 922,
+          "end": 1034
+        }
+      ],
+      "text": "Section 2244(b)(2)(B) also concerns claims based on new facts, but it is more limited than Section 2255's in two ways."
+    },
+    {
+      "start": 2637.98,
+      "end": 2647.22,
+      "paragraph": 72,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1035,
+          "end": 1195
+        }
+      ],
+      "text": "First, it confines the new-facts exception to scenarios in which the new facts “could not have been discovered previously through the exercise of due diligence.”"
+    },
+    {
+      "start": 2647.22,
+      "end": 2659.96,
+      "paragraph": 72,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1216,
+          "end": 1417
+        }
+      ],
+      "text": "Second, it requires that the movant show “by clear and convincing evidence that, but for constitutional error, no reasonable factfinder would have found the applicant guilty of the underlying offense.”"
+    },
+    {
+      "start": 2659.96,
+      "end": 2674.7,
+      "paragraph": 73,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1456,
+          "end": 1614
+        }
+      ],
+      "text": "If Congress had incorporated Section 2244(b)(2)(B)'s more stringent exception into Section 2255(h), then Section 2255(h)(1)'s more lenient exception would become a dead letter."
+    },
+    {
+      "start": 2674.7,
+      "end": 2685.04,
+      "paragraph": 73,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1615,
+          "end": 1791
+        }
+      ],
+      "text": "Because “ `Congress presumably does not enact useless laws,' ” it makes no sense to read Section 2255(h)'s cross-reference in this way."
+    },
+    {
+      "start": 2685.04,
+      "end": 2706.36,
+      "paragraph": 74,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 1792,
+          "end": 2048
+        }
+      ],
+      "text": "Recognizing the problem with this position, ah mee kuss and the dissent attempt to limit the scope of “requirements of this subsection” in Section 2244(B)(3)(C) to capture only those content requirements in Sections 2244(b)(1) and (b)(2) that do not conflict with Section 2255(h)."
+    },
+    {
+      "start": 2706.36,
+      "end": 2722.0,
+      "paragraph": 74,
+      "ranges": [
+        {
+          "page": 26,
+          "start": 2049,
+          "end": 2090
+        },
+        {
+          "page": 27,
+          "start": 53,
+          "end": 203
+        }
+      ],
+      "text": "In their view, Congress intended for the substantive gatekeeping requirements in Section 2244(b) to apply to federal prisoners by default, unless they deviated from those requirements in Section 2255(h)."
+    },
+    {
+      "start": 2722.0,
+      "end": 2726.86,
+      "paragraph": 74,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 204,
+          "end": 265
+        }
+      ],
+      "text": "To ah mee kuss, the new-facts exception illustrates this approach."
+    },
+    {
+      "start": 2726.86,
+      "end": 2746.26,
+      "paragraph": 74,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 266,
+          "end": 501
+        }
+      ],
+      "text": "This argument, however, is undercut by the fact that in Section 2244(b)(2)(A) and Section 2255(h)(2), Congress repeated verbatim the standard for when a second or successive filing can proceed based on a new, retroactive rule of constitutional law."
+    },
+    {
+      "start": 2746.26,
+      "end": 2766.14,
+      "paragraph": 74,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 502,
+          "end": 778
+        }
+      ],
+      "text": "If Section 2244(b)(2)(A) already provided the default rule, there would have been no need for Congress to repeat it in Section 2255(h)(2), rendering its inclusion mere surplusage. (declining “to adopt a construction making another statutory provision superfluous”)."
+    },
+    {
+      "start": 2766.14,
+      "end": 2792.52,
+      "paragraph": 75,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 779,
+          "end": 1081
+        }
+      ],
+      "text": "At bottom, the best textual reading of both Section 2255(h) and Section 2244(b) is that, when a federal prisoner moves for authorization, a panel can authorize the filing if it satisfies one of the two grounds in Section 2255(h), the “two—and only two—conditions in which a second or successive Section 2255 motion may proceed.”"
+    },
+    {
+      "start": 2792.52,
+      "end": 2796.14,
+      "paragraph": 77,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1110,
+          "end": 1180
+        }
+      ],
+      "text": "ah mee kuss iz remaining nontextual arguments do not change this conclusion."
+    },
+    {
+      "start": 2796.14,
+      "end": 2814.3,
+      "paragraph": 77,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1181,
+          "end": 1415
+        }
+      ],
+      "text": "She contends that Section 2244(b)(1) is a necessary tool, indeed “central,” for panels to meet Section 2244(b)(3)(D)'s 30-day deadline, and that Congress therefore must have intended for it to apply in all cases in which authorization is needed."
+    },
+    {
+      "start": 2814.3,
+      "end": 2817.8,
+      "paragraph": 77,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1468,
+          "end": 1513
+        }
+      ],
+      "text": "That logical leap lacks sufficient foundation."
+    },
+    {
+      "start": 2817.8,
+      "end": 2833.08,
+      "paragraph": 78,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1514,
+          "end": 1755
+        }
+      ],
+      "text": "For one, it is not clear why searching through case files to see if the litigant has raised a claim before is any easier than determining whether the litigant has identified new evidence or a new rule of constitutional law that is retroactive."
+    },
+    {
+      "start": 2833.08,
+      "end": 2858.98,
+      "paragraph": 78,
+      "ranges": [
+        {
+          "page": 27,
+          "start": 1756,
+          "end": 1998
+        },
+        {
+          "page": 28,
+          "start": 46,
+          "end": 322
+        }
+      ],
+      "text": "As the parties explain, it seems just as likely that the panel's obligation to assess only whether a filing has made a prima facie showing that it satisfies Section 2255(h)'s content requirements, and not to undertake a more searching inquiry on the merits, is what facilitates the 30-day deadline. ah mee kuss certainly provides no evidence to suggest that her hypothesis is the more plausible one."
+    },
+    {
+      "start": 2858.98,
+      "end": 2907.56,
+      "paragraph": 79,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1168,
+          "end": 2054
+        }
+      ],
+      "text": "Footnote 8: For support, ah mee kuss relies on the fact that the three Circuits that do not apply Section 2244(b)(1) to federal prisoners do not consider the 30-day deadline binding, suggesting that the failure to apply Section 2244(b)(1)'s old-claim bar is the reason for their failure to comply with the 30-day deadline in all cases. ah mee kuss overlooks, however, that three out of the six Circuits that apply Section 2244(b)(1) to federal prisoners also do not treat that deadline as binding. (noting that the Second, Third, and Seventh Circuits do not treat the 30-day deadline as binding, and that the Eighth Circuit has not yet “opined on the issue”), (collecting those Circuits on the side of the Circuit split applying Section 2244(b)(1) to federal prisoners).",
+      "footnote": "8"
+    },
+    {
+      "start": 2907.56,
+      "end": 2909.405,
+      "paragraph": 79,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 2053,
+          "end": 2054
+        }
+      ],
+      "text": "End footnote 8.",
+      "transition": true,
+      "footnote": "8"
+    },
+    {
+      "start": 2909.405,
+      "end": 2921.84,
+      "paragraph": 80,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 325,
+          "end": 483
+        }
+      ],
+      "text": "Regardless, ah mee kuss iz “speculation as to Congress' intent” in enacting the old-claim bar and 30-day deadline “cannot replace the actual text” Congress enacted."
+    },
+    {
+      "start": 2921.84,
+      "end": 2928.76,
+      "paragraph": 81,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 512,
+          "end": 641
+        }
+      ],
+      "text": "ah mee kuss further argues that Congress meant for ed pa to treat second or successive filings by federal and state prisoners the same."
+    },
+    {
+      "start": 2928.76,
+      "end": 2941.94,
+      "paragraph": 81,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 642,
+          "end": 836
+        }
+      ],
+      "text": "As already explained, however, ed pa is replete with examples of Congress treating state and federal prisoners differently—including in the context of limitations on second or successive filings."
+    },
+    {
+      "start": 2941.94,
+      "end": 2948.08,
+      "paragraph": 82,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 2057,
+          "end": 2171
+        }
+      ],
+      "text": "Footnote 9: This is not the only way in which Congress has treated old claims filed by federal and state prisoners differently.",
+      "footnote": "9"
+    },
+    {
+      "start": 2948.08,
+      "end": 2960.46,
+      "paragraph": 82,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 2172,
+          "end": 2342
+        }
+      ],
+      "text": "Section 2244(c) bars state prisoners from raising a claim or challenging facts in the federal postconviction setting that were adjudicated by this Court on direct review.",
+      "footnote": "9"
+    },
+    {
+      "start": 2960.46,
+      "end": 2969.2,
+      "paragraph": 82,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 2343,
+          "end": 2496
+        }
+      ],
+      "text": "This bar does not apply to federal prisoners, even though this Court can also exercise jurisdiction over appeals on direct review of federal convictions.",
+      "footnote": "9"
+    },
+    {
+      "start": 2969.2,
+      "end": 2971.635,
+      "paragraph": 82,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 2495,
+          "end": 2496
+        }
+      ],
+      "text": "End footnote 9.",
+      "transition": true,
+      "footnote": "9"
+    },
+    {
+      "start": 2971.635,
+      "end": 2988.44,
+      "paragraph": 83,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 856,
+          "end": 1069
+        }
+      ],
+      "text": "Some courts, including the Eleventh Circuit below, have relied on this policy justification and others like it in applying Section 2244(b)(1) to bar second or successive motions filed by federal prisoners under Section 2255(h)."
+    },
+    {
+      "start": 2988.44,
+      "end": 2999.32,
+      "paragraph": 83,
+      "ranges": [
+        {
+          "page": 28,
+          "start": 1127,
+          "end": 1166
+        },
+        {
+          "page": 29,
+          "start": 53,
+          "end": 211
+        }
+      ],
+      "text": "(“It would be odd indeed if Congress had intended to allow federal prisoners to refile precisely the same non-meritorious motions over and over again while denying that right to state prisoners”)."
+    },
+    {
+      "start": 2999.32,
+      "end": 3005.64,
+      "paragraph": 83,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 212,
+          "end": 306
+        }
+      ],
+      "text": "Those courts erred: “Purposive argument simply cannot overcome the force of the plain text.”"
+    },
+    {
+      "start": 3005.64,
+      "end": 3030.84,
+      "paragraph": 83,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 335,
+          "end": 816
+        }
+      ],
+      "text": "Any concern associated with Congress allowing old-claim repeat litigation for federal prisoners, moreover, is overstated: All claims, even the repeat ones, must meet the “strictly limited” threshold requirements of Section 2255(h) and should they survive that review, they must still conform with the demanding statute of limitations contained in Section 2255(f) Very few claims will satisfy either, let alone both."
+    },
+    {
+      "start": 3030.84,
+      "end": 3043.2,
+      "paragraph": 83,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 817,
+          "end": 947
+        }
+      ],
+      "text": "Ultimately, there is “no reason to doubt” that “Congress said what it meant and meant what it said” in Section 2244(b)(1) and Section 2255(h)."
+    },
+    {
+      "start": 3043.2,
+      "end": 3053.54,
+      "paragraph": 84,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1307,
+          "end": 1479
+        }
+      ],
+      "text": "Footnote 10: Although the common law did not apply traditional res judicata principles to habeas petitions, courts developed different equitable doctrines to address abuses of the writ.",
+      "footnote": "10"
+    },
+    {
+      "start": 3053.54,
+      "end": 3071.22,
+      "paragraph": 84,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1535,
+          "end": 1853
+        }
+      ],
+      "text": "Congress can displace those doctrines, but in the absence of evidence of that intent, federal courts can continue to use those common-law tools. (concluding that ed pa did not displace the historical practice of applying Federal Rule of Civil Procedure 59(e) in habeas).",
+      "footnote": "10"
+    },
+    {
+      "start": 3071.22,
+      "end": 3077.94,
+      "paragraph": 84,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1854,
+          "end": 1943
+        }
+      ],
+      "text": "Section 2244(b) codified a “modified res judicata rule” for second or successive petitions.",
+      "footnote": "10"
+    },
+    {
+      "start": 3077.94,
+      "end": 3090.74,
+      "paragraph": 84,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1989,
+          "end": 2177
+        }
+      ],
+      "text": "As the Government argues here, ed pa may not have displaced other practices that courts can still use to address repetitive filings made by federal prisoners in the absence of Section 2244(b)(1).",
+      "footnote": "10"
+    },
+    {
+      "start": 3090.74,
+      "end": 3092.84,
+      "paragraph": 84,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 2211,
+          "end": 2212
+        }
+      ],
+      "text": "End footnote 10.",
+      "transition": true,
+      "footnote": "10"
+    },
+    {
+      "start": 3092.84,
+      "end": 3107.02,
+      "paragraph": 85,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1010,
+          "end": 1174
+        }
+      ],
+      "text": "For these reasons, Section 2244(b)(1) does not apply to second or successive motions filed by federal prisoners challenging their convictions or sentences under Section 2255(h)."
+    },
+    {
+      "start": 3107.02,
+      "end": 3117.3,
+      "paragraph": 85,
+      "ranges": [
+        {
+          "page": 29,
+          "start": 1175,
+          "end": 1304
+        },
+        {
+          "page": 30,
+          "start": 49,
+          "end": 104
+        }
+      ],
+      "text": "The Court leaves it to the Eleventh Circuit to determine in the first instance whether Bow should receive authorization to file a second or successive motion under the correct standard."
+    },
+    {
+      "start": 3117.3,
+      "end": 3123.72,
+      "paragraph": 85,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 105,
+          "end": 214
+        }
+      ],
+      "text": "The judgment below is vacated, and the case is remanded for further proceedings consistent with this opinion."
+    },
+    {
+      "start": 3123.72,
+      "end": 3124.62,
+      "paragraph": 85,
+      "ranges": [
+        {
+          "page": 30,
+          "start": 215,
+          "end": 232
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 75,
+      "expectedWords": 76,
+      "coverage": 0.9868421052631579
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 146,
+      "expectedWords": 146,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 122,
+      "expectedWords": 124,
+      "coverage": 0.9838709677419355
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 71,
+      "expectedWords": 71,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 86,
+      "expectedWords": 88,
+      "coverage": 0.9772727272727273
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 39,
+      "expectedWords": 39,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 143,
+      "expectedWords": 144,
+      "coverage": 0.9930555555555556
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 93,
+      "expectedWords": 97,
+      "coverage": 0.9587628865979382
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 34,
+      "expectedWords": 35,
+      "coverage": 0.9714285714285714
+    },
+    {
+      "paragraph": 10,
+      "matchedWords": 53,
+      "expectedWords": 60,
+      "coverage": 0.8833333333333333
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 98,
+      "expectedWords": 103,
+      "coverage": 0.9514563106796117
+    },
+    {
+      "paragraph": 12,
+      "matchedWords": 116,
+      "expectedWords": 121,
+      "coverage": 0.9586776859504132
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 99,
+      "expectedWords": 109,
+      "coverage": 0.908256880733945
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 87,
+      "expectedWords": 96,
+      "coverage": 0.90625
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 32,
+      "expectedWords": 35,
+      "coverage": 0.9142857142857143
+    },
+    {
+      "paragraph": 17,
+      "matchedWords": 8,
+      "expectedWords": 8,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 19,
+      "matchedWords": 124,
+      "expectedWords": 127,
+      "coverage": 0.9763779527559056
+    },
+    {
+      "paragraph": 21,
+      "matchedWords": 37,
+      "expectedWords": 37,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 22,
+      "matchedWords": 21,
+      "expectedWords": 21,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 23,
+      "matchedWords": 215,
+      "expectedWords": 218,
+      "coverage": 0.9862385321100917
+    },
+    {
+      "paragraph": 24,
+      "matchedWords": 23,
+      "expectedWords": 23,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 25,
+      "matchedWords": 84,
+      "expectedWords": 87,
+      "coverage": 0.9655172413793104
+    },
+    {
+      "paragraph": 26,
+      "matchedWords": 60,
+      "expectedWords": 60,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 27,
+      "matchedWords": 68,
+      "expectedWords": 69,
+      "coverage": 0.9855072463768116
+    },
+    {
+      "paragraph": 28,
+      "matchedWords": 46,
+      "expectedWords": 48,
+      "coverage": 0.9583333333333334
+    },
+    {
+      "paragraph": 29,
+      "matchedWords": 73,
+      "expectedWords": 78,
+      "coverage": 0.9358974358974359
+    },
+    {
+      "paragraph": 32,
+      "matchedWords": 165,
+      "expectedWords": 168,
+      "coverage": 0.9821428571428571
+    },
+    {
+      "paragraph": 33,
+      "matchedWords": 135,
+      "expectedWords": 138,
+      "coverage": 0.9782608695652174
+    },
+    {
+      "paragraph": 34,
+      "matchedWords": 123,
+      "expectedWords": 125,
+      "coverage": 0.984
+    },
+    {
+      "paragraph": 35,
+      "matchedWords": 90,
+      "expectedWords": 90,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 36,
+      "matchedWords": 153,
+      "expectedWords": 155,
+      "coverage": 0.9870967741935484
+    },
+    {
+      "paragraph": 37,
+      "matchedWords": 100,
+      "expectedWords": 100,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 38,
+      "matchedWords": 46,
+      "expectedWords": 47,
+      "coverage": 0.9787234042553191
+    },
+    {
+      "paragraph": 39,
+      "matchedWords": 162,
+      "expectedWords": 163,
+      "coverage": 0.9938650306748467
+    },
+    {
+      "paragraph": 40,
+      "matchedWords": 97,
+      "expectedWords": 99,
+      "coverage": 0.9797979797979798
+    },
+    {
+      "paragraph": 42,
+      "matchedWords": 163,
+      "expectedWords": 164,
+      "coverage": 0.9939024390243902
+    },
+    {
+      "paragraph": 43,
+      "matchedWords": 42,
+      "expectedWords": 42,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 44,
+      "matchedWords": 136,
+      "expectedWords": 138,
+      "coverage": 0.9855072463768116
+    },
+    {
+      "paragraph": 45,
+      "matchedWords": 65,
+      "expectedWords": 67,
+      "coverage": 0.9701492537313433
+    },
+    {
+      "paragraph": 46,
+      "matchedWords": 48,
+      "expectedWords": 50,
+      "coverage": 0.96
+    },
+    {
+      "paragraph": 47,
+      "matchedWords": 66,
+      "expectedWords": 69,
+      "coverage": 0.9565217391304348
+    },
+    {
+      "paragraph": 48,
+      "matchedWords": 165,
+      "expectedWords": 167,
+      "coverage": 0.9880239520958084
+    },
+    {
+      "paragraph": 49,
+      "matchedWords": 177,
+      "expectedWords": 184,
+      "coverage": 0.9619565217391305
+    },
+    {
+      "paragraph": 50,
+      "matchedWords": 82,
+      "expectedWords": 85,
+      "coverage": 0.9647058823529412
+    },
+    {
+      "paragraph": 52,
+      "matchedWords": 51,
+      "expectedWords": 56,
+      "coverage": 0.9107142857142857
+    },
+    {
+      "paragraph": 53,
+      "matchedWords": 123,
+      "expectedWords": 126,
+      "coverage": 0.9761904761904762
+    },
+    {
+      "paragraph": 54,
+      "matchedWords": 193,
+      "expectedWords": 203,
+      "coverage": 0.9507389162561576
+    },
+    {
+      "paragraph": 55,
+      "matchedWords": 145,
+      "expectedWords": 159,
+      "coverage": 0.9119496855345912
+    },
+    {
+      "paragraph": 56,
+      "matchedWords": 130,
+      "expectedWords": 131,
+      "coverage": 0.9923664122137404
+    },
+    {
+      "paragraph": 57,
+      "matchedWords": 127,
+      "expectedWords": 128,
+      "coverage": 0.9921875
+    },
+    {
+      "paragraph": 58,
+      "matchedWords": 76,
+      "expectedWords": 77,
+      "coverage": 0.987012987012987
+    },
+    {
+      "paragraph": 59,
+      "matchedWords": 158,
+      "expectedWords": 164,
+      "coverage": 0.9634146341463414
+    },
+    {
+      "paragraph": 60,
+      "matchedWords": 133,
+      "expectedWords": 134,
+      "coverage": 0.9925373134328358
+    },
+    {
+      "paragraph": 61,
+      "matchedWords": 121,
+      "expectedWords": 122,
+      "coverage": 0.9918032786885246
+    },
+    {
+      "paragraph": 62,
+      "matchedWords": 85,
+      "expectedWords": 88,
+      "coverage": 0.9659090909090909
+    },
+    {
+      "paragraph": 63,
+      "matchedWords": 68,
+      "expectedWords": 74,
+      "coverage": 0.918918918918919
+    },
+    {
+      "paragraph": 65,
+      "matchedWords": 101,
+      "expectedWords": 111,
+      "coverage": 0.9099099099099099
+    },
+    {
+      "paragraph": 67,
+      "matchedWords": 98,
+      "expectedWords": 98,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 68,
+      "matchedWords": 109,
+      "expectedWords": 112,
+      "coverage": 0.9732142857142857
+    },
+    {
+      "paragraph": 69,
+      "matchedWords": 112,
+      "expectedWords": 123,
+      "coverage": 0.9105691056910569
+    },
+    {
+      "paragraph": 70,
+      "matchedWords": 115,
+      "expectedWords": 116,
+      "coverage": 0.9913793103448276
+    },
+    {
+      "paragraph": 71,
+      "matchedWords": 146,
+      "expectedWords": 162,
+      "coverage": 0.9012345679012346
+    },
+    {
+      "paragraph": 72,
+      "matchedWords": 133,
+      "expectedWords": 137,
+      "coverage": 0.9708029197080292
+    },
+    {
+      "paragraph": 73,
+      "matchedWords": 54,
+      "expectedWords": 54,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 74,
+      "matchedWords": 164,
+      "expectedWords": 177,
+      "coverage": 0.9265536723163842
+    },
+    {
+      "paragraph": 75,
+      "matchedWords": 57,
+      "expectedWords": 59,
+      "coverage": 0.9661016949152542
+    },
+    {
+      "paragraph": 77,
+      "matchedWords": 57,
+      "expectedWords": 63,
+      "coverage": 0.9047619047619048
+    },
+    {
+      "paragraph": 78,
+      "matchedWords": 110,
+      "expectedWords": 113,
+      "coverage": 0.9734513274336283
+    },
+    {
+      "paragraph": 79,
+      "matchedWords": 136,
+      "expectedWords": 143,
+      "coverage": 0.951048951048951
+    },
+    {
+      "paragraph": 80,
+      "matchedWords": 23,
+      "expectedWords": 27,
+      "coverage": 0.8518518518518519
+    },
+    {
+      "paragraph": 81,
+      "matchedWords": 50,
+      "expectedWords": 53,
+      "coverage": 0.9433962264150944
+    },
+    {
+      "paragraph": 82,
+      "matchedWords": 75,
+      "expectedWords": 76,
+      "coverage": 0.9868421052631579
+    },
+    {
+      "paragraph": 83,
+      "matchedWords": 172,
+      "expectedWords": 173,
+      "coverage": 0.9942196531791907
+    },
+    {
+      "paragraph": 84,
+      "matchedWords": 121,
+      "expectedWords": 124,
+      "coverage": 0.9758064516129032
+    },
+    {
+      "paragraph": 85,
+      "matchedWords": 78,
+      "expectedWords": 79,
+      "coverage": 0.9873417721518988
+    }
+  ]
+}

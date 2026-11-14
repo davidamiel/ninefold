@@ -1,0 +1,319 @@
+{
+  "reviewed": true,
+  "documentId": "25A914-6f32f281156b--0-939",
+  "sourceDocumentId": "25A914-6f32f281156b",
+  "sourceTextPath": "dist/data/current-docs/25A914-6f32f281156b.json",
+  "sourceTextSha256": "429ae24970ee88cc6559cd498cf3c667577c564914dbcabb4dbe632c535ac988",
+  "sourcePdfPath": "recordings/sources/22ea88c2a68230627b337cad.pdf",
+  "sourcePdfSha256": "22ea88c2a68230627b337cada2a78a90783c6011a86e57c396c6a17f566af185",
+  "title": "Concurrence",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-03-02",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a914_1p24.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 984,
+    "endPage": 3,
+    "endOffset": 2112
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 984,
+          "end": 1384
+        }
+      ],
+      "citations": [
+        {
+          "start": 354,
+          "end": 399,
+          "text": "1 App. to Emergency Application for Stay 15a.",
+          "type": "record",
+          "canonical": "Emergency application for stay, vol. 1 appendix, p. 15a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 48,
+          "end": 1092
+        }
+      ],
+      "citations": [
+        {
+          "start": 181,
+          "end": 287,
+          "text": "Students for Fair Admissions, Inc. v. President and Fellows of Harvard College, 600 U. S. 181, 208 (2023).",
+          "type": "case",
+          "canonical": "600 U.S. 181"
+        },
+        {
+          "start": 688,
+          "end": 704,
+          "text": "Id., at 206–207.",
+          "type": "case",
+          "canonical": "600 U.S. 181"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1092,
+          "end": 1733
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1733,
+          "end": 2146
+        },
+        {
+          "page": 2,
+          "start": 22,
+          "end": 1439
+        }
+      ],
+      "citations": [
+        {
+          "start": 125,
+          "end": 151,
+          "text": "Title 28 U. S. C. §1257(a)",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1257",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 394,
+          "end": 439,
+          "text": "National Socialist Party of America v. Skokie",
+          "type": "case",
+          "canonical": "432 U.S. 43",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 439,
+          "end": 478,
+          "text": ", 432 U. S. 43, 44 (1977) (per curiam),",
+          "type": "case",
+          "canonical": "432 U.S. 43"
+        },
+        {
+          "start": 913,
+          "end": 1030,
+          "text": "See App. to Application for Stay in National Socialist Party of America v. Skokie, O. T. 1976, No. 76-1786, pp. 5a–7a",
+          "type": "record",
+          "canonical": "National Socialist Party of America v. Skokie, No. 76-1786, stay application appendix, pp. 5a-7a"
+        },
+        {
+          "start": 1422,
+          "end": 1450,
+          "text": "Skokie, 432 U. S., at 43–44.",
+          "type": "case",
+          "canonical": "432 U.S. 43"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title 28 U. S. C. §1257(a)",
+          "to": "Title 28, United States Code, Section 1257, a"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "[f]inal",
+          "to": "final"
+        },
+        {
+          "from": "den[ying]",
+          "to": "denying"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1439,
+          "end": 1902
+        }
+      ],
+      "citations": [
+        {
+          "start": 114,
+          "end": 135,
+          "text": "28 U. S. C. §1651(a).",
+          "type": "statute",
+          "canonical": "28 U.S.C. § 1651"
+        },
+        {
+          "start": 384,
+          "end": 462,
+          "text": "Atlantic Coast Line R. Co. v. Locomotive Engineers, 398 U. S. 281, 295 (1970).",
+          "type": "case",
+          "canonical": "398 U.S. 281"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[our]",
+          "to": "our"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1902,
+          "end": 2083
+        },
+        {
+          "page": 3,
+          "start": 48,
+          "end": 593
+        }
+      ],
+      "citations": [
+        {
+          "start": 403,
+          "end": 422,
+          "text": "Purcell v. Gonzalez",
+          "type": "case",
+          "canonical": "549 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 422,
+          "end": 456,
+          "text": ", 549 U. S. 1 (2006) (per curiam),",
+          "type": "case",
+          "canonical": "549 U.S. 1"
+        },
+        {
+          "start": 721,
+          "end": 726,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "549 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 593,
+          "end": 1285
+        }
+      ],
+      "citations": [
+        {
+          "start": 267,
+          "end": 392,
+          "text": "Merrill v. Milligan, 595 U. S. ___, ___ (2022) (KAVANAUGH, J., concurring in grant of application for stay) (slip op., at 4).",
+          "type": "case",
+          "canonical": "595 U.S. ___ (2022), Merrill v. Milligan"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[l]ate",
+          "to": "late"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1285,
+          "end": 2112
+        }
+      ],
+      "citations": [
+        {
+          "start": 151,
+          "end": 164,
+          "text": ", post, at 1,",
+          "type": "reference",
+          "canonical": "Sotomayor dissent, p. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "JUSTICE SOTOMAYOR’s",
+          "to": "Justice Sotomayor’s"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 48,
+      "text": "2 MALLIOTAKIS v. WILLIAMS\nALITO, J., concurring\n",
+      "reason": "Running citation/page number and author header."
+    },
+    {
+      "page": 1,
+      "start": 2146,
+      "end": 2179,
+      "text": " Cite as: 607 U. S. ____ (2026) 3",
+      "reason": "Running citation/page number and author header."
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 22,
+      "text": "ALITO, J., concurring\n",
+      "reason": "Running citation/page number and author header."
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 48,
+      "text": "4 MALLIOTAKIS v. WILLIAMS\nALITO, J., concurring\n",
+      "reason": "Running citation/page number and author header."
+    }
+  ],
+  "repairs": [],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

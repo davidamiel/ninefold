@@ -1,0 +1,886 @@
+{
+  "reviewed": true,
+  "documentId": "25-6-3d51d5dba6e2--11-921",
+  "sourceDocumentId": "25-6-3d51d5dba6e2",
+  "sourceTextPath": "dist/data/docs/25-6-3d51d5dba6e2.json",
+  "sourceTextSha256": "e7df44820d1e8b06b07785aee45b16640bb4b5bcef7b7c211c0ab6a7461dec1b",
+  "sourcePdfPath": "dist/data/pdfs/25-6-3d51d5dba6e2--11-921.pdf",
+  "sourcePdfSha256": "20cb425857b7d5c01b152aabd55456891c2027d55e22043608049b96d477a1e4",
+  "title": "Concurrence",
+  "author": "Clarence Thomas",
+  "date": "2026-06-11",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us2r48_k53m.pdf",
+  "sourceRange": {
+    "startPage": 11,
+    "startOffset": 982,
+    "endPage": 16,
+    "endOffset": 952
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 982,
+          "end": 1459
+        },
+        {
+          "page": 12,
+          "start": 71,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 172,
+          "end": 175
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 175,
+          "end": 1079
+        }
+      ],
+      "citations": [
+        {
+          "start": 109,
+          "end": 177,
+          "text": "See Brief for American Association for Justice as Amicus Curiae 7\u20139.",
+          "type": "record",
+          "canonical": "American Association for Justice amicus brief, pp. 7-9"
+        },
+        {
+          "start": 271,
+          "end": 310,
+          "text": "See Hamilton v. Zimmerman, 37 Tenn. 39;",
+          "type": "case",
+          "canonical": "37 Tenn. 39"
+        },
+        {
+          "start": 311,
+          "end": 425,
+          "text": "see D. Henkin, Judicial Estoppel\u2014Beating Shields Into Swords and Back Again, 139 U. Pa. L. Rev. 1711, 1719 (1991).",
+          "type": "reference",
+          "canonical": "Henkin, Judicial Estoppel, 139 U. Pa. L. Rev. 1711 (1991)"
+        },
+        {
+          "start": 573,
+          "end": 637,
+          "text": "Parkinson v. California Co., 233 F. 2d 432, 437\u2013438 (CA10 1956).",
+          "type": "case",
+          "canonical": "233 F.2d 432"
+        },
+        {
+          "start": 861,
+          "end": 904,
+          "text": "Konstantinidis v. Chen, 626 F. 2d 933, 938.",
+          "type": "case",
+          "canonical": "626 F.2d 933"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ha[d]",
+          "to": "had"
+        },
+        {
+          "from": "[was]",
+          "to": "was"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1079,
+          "end": 1183
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1257,
+          "end": 2197
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 65,
+          "end": 118,
+          "text": "See, e. g., Perry v. Blum, 629 F. 3d 1, 8 (CA1 2010);",
+          "type": "case",
+          "canonical": "629 F.3d 1"
+        },
+        {
+          "start": 119,
+          "end": 180,
+          "text": "Clark v. AII Acquisition, LLC, 886 F. 3d 261, 266 (CA2 2018);",
+          "type": "case",
+          "canonical": "886 F.3d 261"
+        },
+        {
+          "start": 181,
+          "end": 268,
+          "text": "Ryan Operations G. P . v. Santiam-Midwest Lumber Co., 81 F. 3d 355, 358\u2013359 (CA3 1996);",
+          "type": "case",
+          "canonical": "81 F.3d 355"
+        },
+        {
+          "start": 269,
+          "end": 317,
+          "text": "Lowery v. Stovall, 92 F. 3d 219, 223 (CA4 1996);",
+          "type": "case",
+          "canonical": "92 F.3d 219"
+        },
+        {
+          "start": 318,
+          "end": 376,
+          "text": "In re Coastal Plains, Inc., 179 F. 3d 197, 204 (CA5 1999);",
+          "type": "case",
+          "canonical": "179 F.3d 197"
+        },
+        {
+          "start": 377,
+          "end": 438,
+          "text": "Reynolds v. Commissioner, 861 F. 2d 469, 472, 474 (CA6 1988);",
+          "type": "case",
+          "canonical": "861 F.2d 469"
+        },
+        {
+          "start": 439,
+          "end": 498,
+          "text": "Cannon-Stokes v. Potter, 453 F. 3d 446, 447\u2013448 (CA7 2006);",
+          "type": "case",
+          "canonical": "453 F.3d 446"
+        },
+        {
+          "start": 499,
+          "end": 560,
+          "text": "Stallings v. Hussmann Corp., 447 F. 3d 1041, 1047 (CA8 2006);",
+          "type": "case",
+          "canonical": "447 F.3d 1041"
+        },
+        {
+          "start": 561,
+          "end": 647,
+          "text": "Milton H. Greene Archives, Inc. v. Marilyn Monroe LLC , 692 F. 3d 983, 986 (CA9 2012);",
+          "type": "case",
+          "canonical": "692 F.3d 983"
+        },
+        {
+          "start": 648,
+          "end": 714,
+          "text": "Eastman v. Union Pacific R. Co., 493 F. 3d 1151, 1156 (CA10 2007);",
+          "type": "case",
+          "canonical": "493 F.3d 1151"
+        },
+        {
+          "start": 715,
+          "end": 795,
+          "text": "Slater v. United States Steel Corp., 871 F. 3d 1174, 1180 (CA11 2017) (en banc);",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        },
+        {
+          "start": 796,
+          "end": 875,
+          "text": "Marshall v. Honeywell Technology Systems, Inc., 828 F. 3d 923, 931 (CADC 2016);",
+          "type": "case",
+          "canonical": "828 F.3d 923"
+        },
+        {
+          "start": 876,
+          "end": 939,
+          "text": "Data Gen. Corp. v. Johnson, 78 F. 3d 1556, 1565 (CA Fed. 1996).",
+          "type": "case",
+          "canonical": "78 F.3d 1556"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1185,
+          "end": 1255
+        },
+        {
+          "page": 13,
+          "start": 88,
+          "end": 805
+        }
+      ],
+      "citations": [
+        {
+          "start": 371,
+          "end": 428,
+          "text": "In re Flugence , 738 F. 3d 126, 129 (2013) (per curiam ).",
+          "type": "case",
+          "canonical": "738 F.3d 126"
+        },
+        {
+          "start": 748,
+          "end": 786,
+          "text": "See Konstantinidis, 626 F. 2d, at 937.",
+          "type": "case",
+          "canonical": "626 F.2d 933"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 805,
+          "end": 1730
+        }
+      ],
+      "citations": [
+        {
+          "start": 585,
+          "end": 677,
+          "text": "See, e. g., Slater v. United States Steel Corp., 871 F. 3d 1174, 1176 (CA11 2017) (en banc);",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        },
+        {
+          "start": 678,
+          "end": 744,
+          "text": "Spaine v. Community Contacts, Inc., 756 F. 3d 542, 547 (CA7 2014);",
+          "type": "case",
+          "canonical": "756 F.3d 542"
+        },
+        {
+          "start": 745,
+          "end": 820,
+          "text": "Ah Quin v. County of Kauai Dept. of Transp., 733 F. 3d 267, 271 (CA9 2013);",
+          "type": "case",
+          "canonical": "733 F.3d 267"
+        },
+        {
+          "start": 821,
+          "end": 925,
+          "text": "Payless Wholesale Distributors, Inc. v. Alberto Culver (P . R.) Inc., 989 F. 2d 570, 571\u2013572 (CA1 1993).",
+          "type": "case",
+          "canonical": "989 F.2d 570"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1730,
+          "end": 1734
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1734,
+          "end": 1832
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1832,
+          "end": 2079
+        },
+        {
+          "page": 14,
+          "start": 71,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1316,
+          "end": 1653
+        }
+      ],
+      "label": "2",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 69,
+          "text": "2025 WL 673434, *4\u2013*5 (CA5, Mar. 3, 2025) (per curiam ) (case below);",
+          "type": "case",
+          "canonical": "2025 WL 673434"
+        },
+        {
+          "start": 70,
+          "end": 120,
+          "text": "see also Ryan Operations G. P ., 81 F. 3d, at 358;",
+          "type": "case",
+          "canonical": "2025 WL 673434"
+        },
+        {
+          "start": 121,
+          "end": 199,
+          "text": "John S. Clark Co. v. Faggert & Frieden, P . C., 65 F. 3d 26, 28\u201329 (CA4 1995);",
+          "type": "case",
+          "canonical": "65 F.3d 26"
+        },
+        {
+          "start": 200,
+          "end": 277,
+          "text": "Patriot Cinemas, Inc. v. General Cinema Corp., 834 F. 2d 208, 215 (CA1 1987);",
+          "type": "case",
+          "canonical": "834 F.2d 208"
+        },
+        {
+          "start": 278,
+          "end": 336,
+          "text": "Warda v. Commissioner, 15 F. 3d 533, 538, n. 4 (CA6 1994).",
+          "type": "case",
+          "canonical": "15 F.3d 533"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 99,
+          "end": 1191
+        }
+      ],
+      "citations": [
+        {
+          "start": 252,
+          "end": 314,
+          "text": "Edwards v. Aetna Life Ins. Co., 690 F. 2d 595, 598 (CA6 1982),",
+          "type": "case",
+          "canonical": "690 F.2d 595"
+        },
+        {
+          "start": 463,
+          "end": 529,
+          "text": ", see, e. g., Link v. Wabash R. Co., 370 U. S. 626, 629\u2013630 (1962)",
+          "type": "case",
+          "canonical": "370 U.S. 626"
+        },
+        {
+          "start": 641,
+          "end": 677,
+          "text": "see Slater, 871 F. 3d, at 1187\u20131188;",
+          "type": "case",
+          "canonical": "871 F.3d 1174"
+        },
+        {
+          "start": 678,
+          "end": 761,
+          "text": "Ryan Operations G. P . v. Santiam-Midwest Lumber Co., 81 F. 3d 355, 365 (CA3 1996);",
+          "type": "case",
+          "canonical": "81 F.3d 355"
+        },
+        {
+          "start": 762,
+          "end": 801,
+          "text": "In re Flugence , 738 F. 3d, at 131\u2013132,",
+          "type": "case",
+          "canonical": "738 F.3d 126"
+        },
+        {
+          "start": 904,
+          "end": 960,
+          "text": "Trump v. CASA, Inc., 606 U. S. 831, 841, 846\u2013847 (2025);",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        },
+        {
+          "start": 961,
+          "end": 1038,
+          "text": "see also Trump v. Hawaii, 585 U. S. 667, 716 (2018) (Thomas, J., concurring).",
+          "type": "case",
+          "canonical": "585 U.S. 667"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "antecedent,\u201d",
+          "to": "antecedent.\u201d"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1655,
+          "end": 2455
+        },
+        {
+          "page": 15,
+          "start": 1228,
+          "end": 1519
+        }
+      ],
+      "label": "3",
+      "citations": [
+        {
+          "start": 244,
+          "end": 316,
+          "text": "E. g., Kirk v. Schaeffer Group USA, Inc., 887 F. 3d 376, 383 (CA8 2018).",
+          "type": "case",
+          "canonical": "887 F.3d 376"
+        },
+        {
+          "start": 388,
+          "end": 538,
+          "text": "See N. Frazer, Reassessing the Doctrine of Judicial Estoppel: The Implications of the Judicial Integrity Rationale, 101 Va. L. Rev. 1501, 1503 (2015);",
+          "type": "reference",
+          "canonical": "Frazer, Reassessing the Doctrine of Judicial Estoppel (2015)"
+        },
+        {
+          "start": 539,
+          "end": 641,
+          "text": "18B C. Wright, A. Miller, & E. Cooper, Federal Practice and Procedure \u00a7 4477.8, p. 591 (3d ed. 2019) (",
+          "type": "reference",
+          "canonical": "Wright et al., Federal Practice and Procedure \u00a7 4477.8 (2019)"
+        },
+        {
+          "start": 906,
+          "end": 929,
+          "text": "Erie R. Co. v. Tompkins",
+          "type": "case",
+          "canonical": "304 U.S. 64",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 929,
+          "end": 950,
+          "text": ", 304 U. S. 64 (1938)",
+          "type": "case",
+          "canonical": "304 U.S. 64"
+        },
+        {
+          "start": 952,
+          "end": 1015,
+          "text": "Cf. Arthur Andersen LLP v. Carlisle, 556 U. S. 624, 631 (2009);",
+          "type": "case",
+          "canonical": "556 U.S. 624"
+        },
+        {
+          "start": 1016,
+          "end": 1090,
+          "text": "see Petro Harvester Operating Co. v. Keith, 954 F. 3d 686, 698 (CA5 2020).",
+          "type": "case",
+          "canonical": "954 F.3d 686"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "answered\u201d).",
+          "to": "answered\u201d."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1193,
+          "end": 1314
+        },
+        {
+          "page": 15,
+          "start": 57,
+          "end": 262
+        }
+      ],
+      "citations": [
+        {
+          "start": 277,
+          "end": 326,
+          "text": "See New Hampshire v. Maine, 532 U. S. 742 (2001).",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1521,
+          "end": 2458
+        }
+      ],
+      "label": "4",
+      "citations": [
+        {
+          "start": 49,
+          "end": 65,
+          "text": "Davis v. Wakelee",
+          "type": "case",
+          "canonical": "156 U.S. 680",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 65,
+          "end": 81,
+          "text": ", 156 U. S. 680,",
+          "type": "case",
+          "canonical": "156 U.S. 680"
+        },
+        {
+          "start": 424,
+          "end": 477,
+          "text": "532 U. S., at 749 (quoting Davis, 156 U. S., at 689).",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        },
+        {
+          "start": 723,
+          "end": 741,
+          "text": "156 U. S., at 690.",
+          "type": "case",
+          "canonical": "156 U.S. 680"
+        },
+        {
+          "start": 822,
+          "end": 828,
+          "text": "ibid.,",
+          "type": "case",
+          "canonical": "156 U.S. 680"
+        },
+        {
+          "start": 922,
+          "end": 936,
+          "text": ", ante, at 655",
+          "type": "reference",
+          "canonical": "Court opinion, p. 655"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "[w]here",
+          "to": "where"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 264,
+          "end": 1228
+        },
+        {
+          "page": 16,
+          "start": 74,
+          "end": 148
+        }
+      ],
+      "citations": [
+        {
+          "start": 195,
+          "end": 248,
+          "text": "Cf. Massachusetts v. Missouri, 308 U. S. 1, 15 (1939)",
+          "type": "case",
+          "canonical": "308 U.S. 1"
+        },
+        {
+          "start": 916,
+          "end": 934,
+          "text": "532 U. S., at 755.",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "urge[d]",
+          "to": "urged"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 148,
+          "end": 727
+        }
+      ],
+      "citations": [
+        {
+          "start": 533,
+          "end": 580,
+          "text": "Id., at 749 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "532 U.S. 742"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 16,
+          "start": 727,
+          "end": 732
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 732,
+          "end": 952
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 11,
+      "start": 1459,
+      "end": 1862,
+      "text": "5 The parties also dispute at some length whether bad faith is required\nfor judicial estoppel to apply. See, e. g., Brief for Petitioner 11\u201324; Brief\nfor Respondent 20\u201335. In light of our narrow holding\u2014responding only\nto the analysis used by the Fifth Circuit\u2014we need not resolve any further\nquestions about the application of judicial estoppel in the bankruptcy\ncontext.\nPage Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 71,
+      "text": "658 KEA THLEY v. BUDDY AYERS CONSTRUCTION, INC.\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 1183,
+      "end": 1185,
+      "text": "1 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 1255,
+      "end": 1257,
+      "text": "1 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 2197,
+      "end": 2227,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 88,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 647 (2026) 659\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 71,
+      "text": "660 KEA THLEY v. BUDDY AYERS CONSTRUCTION, INC.\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 97,
+      "end": 99,
+      "text": "2 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 1191,
+      "end": 1193,
+      "text": "3\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 1314,
+      "end": 1316,
+      "text": "2 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 1653,
+      "end": 1655,
+      "text": "3 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 2455,
+      "end": 2485,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 608 U. S. 647 (2026) 661\nThomas, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 262,
+      "end": 264,
+      "text": "4 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 1519,
+      "end": 1521,
+      "text": "4 ",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 15,
+      "start": 2458,
+      "end": 2488,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 74,
+      "text": "662 KEA THLEY v. BUDDY AYERS CONSTRUCTION, INC.\nSotomayor, J., concurring\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 12,
+      "start": 377,
+      "end": 381,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 12,
+      "start": 1923,
+      "end": 1929,
+      "expectedText": "Pacifc",
+      "text": "Pacific"
+    },
+    {
+      "page": 14,
+      "start": 445,
+      "end": 453,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 15,
+      "start": 110,
+      "end": 130,
+      "expectedText": "originaljurisdiction",
+      "text": "original-jurisdiction"
+    },
+    {
+      "page": 15,
+      "start": 365,
+      "end": 375,
+      "expectedText": "fexibility",
+      "text": "flexibility"
+    },
+    {
+      "page": 15,
+      "start": 1040,
+      "end": 1048,
+      "expectedText": "benefted",
+      "text": "benefited"
+    },
+    {
+      "page": 15,
+      "start": 2126,
+      "end": 2134,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 16,
+      "start": 102,
+      "end": 112,
+      "expectedText": "justifable",
+      "text": "justifiable"
+    },
+    {
+      "page": 16,
+      "start": 495,
+      "end": 503,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Neil M. Gorsuch"
+    ]
+  }
+}

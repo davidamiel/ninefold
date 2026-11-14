@@ -1,0 +1,88 @@
+{
+  "reviewed": true,
+  "documentId": "26A274-dbfe52b7bf3b--5-469",
+  "sourceDocumentId": "26A274-dbfe52b7bf3b",
+  "sourceTextPath": "dist/data/docs/26A274-dbfe52b7bf3b.json",
+  "sourceTextSha256": "c5118b4f55d5e12d8861274d04da547fd3f133db65a9e7d5c48b795fbdacb3b0",
+  "sourcePdfPath": "dist/data/pdfs/26A274-dbfe52b7bf3b--5-469.pdf",
+  "sourcePdfSha256": "d67b7b652736adbac69034ec937608744b140e3a3aea69c1b828316a55872e15",
+  "title": "Dissent",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-09-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r71_4h25.pdf",
+  "sourceRange": {
+    "startPage": 5,
+    "startOffset": 498,
+    "endPage": 5,
+    "endOffset": 1285
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 498,
+          "end": 1248
+        },
+        {
+          "page": 5,
+          "start": 1282,
+          "end": 1285
+        }
+      ],
+      "citations": [
+        {
+          "start": 163,
+          "end": 281,
+          "text": "See Brown v. FCC, 189 F. 4th 362, 382–383 (CA4 2026) (Wynn, J., concurring), App. to Emergency Application for Stay 55",
+          "type": "case",
+          "canonical": "189 F.4th 362"
+        },
+        {
+          "start": 467,
+          "end": 528,
+          "text": "see also Santos-Zacaria v. Garland, 598 U. S. 411, 417 (2023)",
+          "type": "case",
+          "canonical": "598 U.S. 411"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "page": 5,
+      "start": 172,
+      "end": 177,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 5,
+      "start": 1127,
+      "end": 1132,
+      "expectedText": "fling",
+      "text": "filing"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 5,
+      "start": 1248,
+      "end": 1282,
+      "text": "(internal quotation\nmarks omitted)",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

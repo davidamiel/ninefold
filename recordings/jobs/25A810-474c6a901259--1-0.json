@@ -1,0 +1,812 @@
+{
+  "reviewed": true,
+  "documentId": "25A810-474c6a901259--1-0",
+  "sourceDocumentId": "25A810-474c6a901259",
+  "sourceTextPath": "dist/data/docs/25A810-474c6a901259.json",
+  "sourceTextSha256": "ba6ea55dfef14a7577c1f21d42172b85045437be5c219ba07691444327f88558",
+  "sourcePdfPath": "dist/data/pdfs/25A810-474c6a901259--1-0.pdf",
+  "sourcePdfSha256": "515abcefd9a167aab1be18638385e1c56ca476f4807ee58d4d0e78069e7923b8",
+  "title": "Per curiam",
+  "author": "Per curiam",
+  "date": "2026-03-02",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us2r17_bqmc.pdf",
+  "sourceRange": {
+    "startPage": 1,
+    "startOffset": 2036,
+    "endPage": 7,
+    "endOffset": 1204
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 2036,
+          "end": 2327
+        },
+        {
+          "page": 2,
+          "start": 45,
+          "end": 538
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 2,
+          "start": 538,
+          "end": 539
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 540,
+          "end": 1453
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1453,
+          "end": 2040
+        },
+        {
+          "page": 3,
+          "start": 65,
+          "end": 592
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 592,
+          "end": 1412
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1412,
+          "end": 1899
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1899,
+          "end": 2076
+        },
+        {
+          "page": 4,
+          "start": 45,
+          "end": 276
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 296,
+          "end": 337,
+          "text": "App. to Emergency Application 90a (App.).",
+          "type": "record",
+          "canonical": "App. to Emergency Application 90a (App.)."
+        },
+        {
+          "start": 394,
+          "end": 410,
+          "text": "Id., at 89a–90a.",
+          "type": "record",
+          "canonical": "App. to Emergency Application"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 276,
+          "end": 814
+        }
+      ],
+      "citations": [
+        {
+          "start": 277,
+          "end": 289,
+          "text": "Id., at 24a.",
+          "type": "record",
+          "canonical": "App. to Emergency Application"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 814,
+          "end": 1539
+        }
+      ],
+      "citations": [
+        {
+          "start": 325,
+          "end": 401,
+          "text": "App. 7a (quoting Wal-Mart Stores, Inc. v. Dukes, 564 U. S. 338, 351 (2011)).",
+          "type": "case",
+          "canonical": "564 U.S. 338"
+        },
+        {
+          "start": 595,
+          "end": 603,
+          "text": "App. 6a.",
+          "type": "record",
+          "canonical": "App. 6a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1539,
+          "end": 2008
+        },
+        {
+          "page": 5,
+          "start": 34,
+          "end": 208
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 192,
+          "end": 209,
+          "text": "Mahmoud v. Taylor",
+          "type": "case",
+          "canonical": "606 U.S. 522",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 209,
+          "end": 232,
+          "text": ", 606 U. S. 522 (2025),",
+          "type": "case",
+          "canonical": "606 U.S. 522"
+        },
+        {
+          "start": 313,
+          "end": 429,
+          "text": "App. 10a–11a (citing Doe No. 1 v. Bethel Local School Dist. Bd. of Educ., 2025 WL 2453836, *7 (CA6, Aug. 26, 2025)).",
+          "type": "record",
+          "canonical": "App. 10a–11a (citing Doe No. 1 v. Bethel Local School Dist. Bd. of Educ., 2025 WL 2453836, *7 (CA6, Aug. 26, 2025))."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 208,
+          "end": 361
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 5,
+          "start": 361,
+          "end": 363
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 364,
+          "end": 685
+        }
+      ],
+      "citations": [
+        {
+          "start": 162,
+          "end": 321,
+          "text": "Alabama Assn. of Realtors v. Department of Health and Human Servs., 594 U. S. 758, 763 (2021) (per curiam ) (citing Nken v. Holder, 556 U. S. 418, 434 (2009)).",
+          "type": "case",
+          "canonical": "594 U.S. 758"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 685,
+          "end": 1718
+        }
+      ],
+      "citations": [
+        {
+          "start": 362,
+          "end": 439,
+          "text": "Mahmoud, 606 U. S., at 559 (citing Wisconsin v. Yoder, 406 U. S. 205 (1972)).",
+          "type": "case",
+          "canonical": "606 U.S. 522"
+        },
+        {
+          "start": 764,
+          "end": 782,
+          "text": "606 U. S., at 550.",
+          "type": "record",
+          "canonical": "606 U. S., at 550."
+        },
+        {
+          "start": 1016,
+          "end": 1032,
+          "text": "See id., at 563.",
+          "type": "record",
+          "canonical": "See id., at 563."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "impos[e]",
+          "to": "impose"
+        },
+        {
+          "from": "LGBTQ",
+          "to": "L G B T Q"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1718,
+          "end": 1952
+        },
+        {
+          "page": 6,
+          "start": 45,
+          "end": 544
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 279,
+          "end": 351,
+          "text": "See Troxel v. Granville, 530 U. S. 57, 68–69 (2000) (plurality opinion).",
+          "type": "case",
+          "canonical": "530 U.S. 57"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 544,
+          "end": 1482
+        }
+      ],
+      "citations": [
+        {
+          "start": 237,
+          "end": 297,
+          "text": "Pierce v. Society of Sisters, 268 U. S. 510, 534–535 (1925);",
+          "type": "case",
+          "canonical": "268 U.S. 510"
+        },
+        {
+          "start": 298,
+          "end": 355,
+          "text": "accord, Meyer v. Nebraska, 262 U. S. 390, 399–400 (1923).",
+          "type": "case",
+          "canonical": "262 U.S. 390"
+        },
+        {
+          "start": 506,
+          "end": 549,
+          "text": "Parham v. J. R., 442 U. S. 584, 602 (1979).",
+          "type": "case",
+          "canonical": "442 U.S. 584"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1482,
+          "end": 1714
+        }
+      ],
+      "citations": [
+        {
+          "start": 148,
+          "end": 231,
+          "text": "Roman Catholic Diocese of Brooklyn v. Cuomo, 592 U. S. 14, 19 (2020) (per curiam ).",
+          "type": "case",
+          "canonical": "592 U.S. 14"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1714,
+          "end": 2124
+        },
+        {
+          "page": 7,
+          "start": 47,
+          "end": 203
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": "\n"
+        }
+      ],
+      "citations": [
+        {
+          "start": 133,
+          "end": 178,
+          "text": "Alabama Assn. of Realtors, 594 U. S., at 765.",
+          "type": "case",
+          "canonical": "594 U.S. 758"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the parents]",
+          "to": "the parents"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 203,
+          "end": 206
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 207,
+          "end": 292
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 292,
+          "end": 735
+        }
+      ],
+      "citations": [
+        {
+          "start": 136,
+          "end": 206,
+          "text": "See Diamond Alternative Energy, LLC v. EPA, 606 U. S. 100, 114 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 100"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 735,
+          "end": 909
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 915,
+          "end": 1080
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1080,
+          "end": 1150
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1150,
+          "end": 1204
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 0,
+      "end": 45,
+      "text": "Cite as: 607 U. S. 492 (2026) 493\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 2,
+      "start": 2040,
+      "end": 2070,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 65,
+      "text": "Page Proof Pending Publication\n494 MIRABELLI v. BONTA\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 45,
+      "text": "Cite as: 607 U. S. 492 (2026) 495\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 4,
+      "start": 2008,
+      "end": 2038,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 34,
+      "text": "496 MIRABELLI v. BONTA\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 1952,
+      "end": 1982,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 45,
+      "text": "Cite as: 607 U. S. 492 (2026) 497\nPer Curiam\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2124,
+      "end": 2154,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 47,
+      "text": "498 MIRABELLI v. BONTA\nBarrett, J., concurring\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 909,
+      "end": 915,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 928,
+      "end": 938,
+      "expectedText": "fourfactor",
+      "text": "four-factor"
+    },
+    {
+      "page": 1,
+      "start": 1559,
+      "end": 1574,
+      "expectedText": "longestablished",
+      "text": "long-established"
+    },
+    {
+      "page": 2,
+      "start": 273,
+      "end": 284,
+      "expectedText": "notifcation",
+      "text": "notification"
+    },
+    {
+      "page": 2,
+      "start": 957,
+      "end": 965,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 2,
+      "start": 1128,
+      "end": 1136,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 2,
+      "start": 1681,
+      "end": 1693,
+      "expectedText": "seventhgrade",
+      "text": "seventh-grade"
+    },
+    {
+      "page": 3,
+      "start": 382,
+      "end": 390,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 3,
+      "start": 719,
+      "end": 728,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 4,
+      "start": 1029,
+      "end": 1041,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 5,
+      "start": 279,
+      "end": 283,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 1652,
+      "end": 1661,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 6,
+      "start": 648,
+      "end": 663,
+      "expectedText": "longestablished",
+      "text": "long-established"
+    },
+    {
+      "page": 6,
+      "start": 2020,
+      "end": 2022,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 7,
+      "start": 94,
+      "end": 98,
+      "expectedText": "unft",
+      "text": "unfit"
+    },
+    {
+      "page": 7,
+      "start": 749,
+      "end": 761,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 7,
+      "start": 831,
+      "end": 843,
+      "expectedText": "certifcation",
+      "text": "certification"
+    },
+    {
+      "page": 7,
+      "start": 1507,
+      "end": 1510,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 1,
+      "start": 2322,
+      "end": 2327,
+      "expectedText": "Proc-",
+      "text": "Proc"
+    },
+    {
+      "page": 1,
+      "start": 899,
+      "end": 907,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 3,
+      "start": 678,
+      "end": 682,
+      "expectedText": "ffth",
+      "text": "fifth"
+    },
+    {
+      "page": 3,
+      "start": 1319,
+      "end": 1329,
+      "expectedText": "fnancially",
+      "text": "financially"
+    },
+    {
+      "page": 3,
+      "start": 1965,
+      "end": 1973,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 4,
+      "start": 249,
+      "end": 257,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 5,
+      "start": 477,
+      "end": 485,
+      "expectedText": "justifed",
+      "text": "justified"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "All seven bundled PDF pages reviewed for complete Court body; syllabus and Barrett concurrence excluded. All doctrinal qualifications, names/pronouns discussion, equities and final vote statements retained. No footnotes. Exact source-only references omitted; grammatical Mahmoud case mention and Rule 23 references retained. Ligature and compound extraction errors repaired against PDF."
+}

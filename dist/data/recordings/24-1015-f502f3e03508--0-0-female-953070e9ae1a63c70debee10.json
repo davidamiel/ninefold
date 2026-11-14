@@ -1,0 +1,1176 @@
+{
+  "version": "f20c79365b56521a",
+  "duration": 762.74,
+  "voice": "af_sky",
+  "audioSha256": "7c6d72d17004596f5511ae589c237f7308432fcddbd379de82899dfd59a92853",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 10.16,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 504,
+          "end": 692
+        }
+      ],
+      "text": "Once again, this Court faces a case involving healthcare workers who “served on the front line of a pandemic” and were then “fired... for adhering to their... religious beliefs.”"
+    },
+    {
+      "start": 10.16,
+      "end": 16.375,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1062,
+          "end": 1168
+        }
+      ],
+      "text": "Their case raises an important and recurring question of federal law that warrants this Court’s attention."
+    },
+    {
+      "start": 16.375,
+      "end": 23.36,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1173,
+          "end": 1283
+        }
+      ],
+      "text": "The present “chapter in this grim story” involves a lawsuit under Title Seven of the Civil Rights Act of 1964."
+    },
+    {
+      "start": 23.36,
+      "end": 40.74,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1338,
+          "end": 1644
+        }
+      ],
+      "text": "That statute makes it unlawful “to fail or refuse to hire or to discharge any individual, or otherwise to discriminate against any individual with respect to his compensation, terms, conditions, or privileges of employment because of such individual’s race, color, religion, sex, or national origin.”"
+    },
+    {
+      "start": 40.74,
+      "end": 48.98,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1701,
+          "end": 1826
+        }
+      ],
+      "text": "And the law broadly defines “religion” to “include all aspects of religious observance and practice, as well as belief.”"
+    },
+    {
+      "start": 48.98,
+      "end": 67.4,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 79,
+          "end": 423
+        }
+      ],
+      "text": "Under Title Seven, an employer may refuse to hire, discharge, or otherwise discriminate against an employee because of his religion only if the employer can “demonstrate that he is unable to reasonably accommodate to an employee’s... religious observance or practice without undue hardship on the conduct of the employer’s business.”"
+    },
+    {
+      "start": 67.4,
+      "end": 74.48,
+      "paragraph": 3,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 431,
+          "end": 541
+        }
+      ],
+      "text": "To qualify as “undue,” the hardship must be “substantial in the overall context of the employer’s business.”"
+    },
+    {
+      "start": 74.48,
+      "end": 82.2,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 587,
+          "end": 719
+        }
+      ],
+      "text": "The plaintiffs before us include many New York State healthcare workers, but for simplicity’s sake consider just John Doe 2’s story."
+    },
+    {
+      "start": 82.2,
+      "end": 87.12,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 720,
+          "end": 810
+        }
+      ],
+      "text": "Doe is a Christian Scientist who worked for New York-Presbyterian Healthcare System, Inc."
+    },
+    {
+      "start": 87.12,
+      "end": 89.24,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 811,
+          "end": 832
+        }
+      ],
+      "text": "(N Y P), for a decade."
+    },
+    {
+      "start": 89.24,
+      "end": 96.28,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 868,
+          "end": 993
+        }
+      ],
+      "text": "Because he understands his faith to require him to abstain from vaccines, he has not received one at any time in his life."
+    },
+    {
+      "start": 96.28,
+      "end": 105.935,
+      "paragraph": 4,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1008,
+          "end": 1144
+        }
+      ],
+      "text": "For years, N Y P respected Doe’s sincere religious beliefs and afforded him an exception to its internal mandatory vaccination policy."
+    },
+    {
+      "start": 105.935,
+      "end": 108.04,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1160,
+          "end": 1179
+        }
+      ],
+      "text": "Then came COVID nineteen."
+    },
+    {
+      "start": 108.04,
+      "end": 115.12,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1181,
+          "end": 1278
+        }
+      ],
+      "text": "When vaccines became available in late 2020 and early 2021, Doe did not line up to receive one."
+    },
+    {
+      "start": 115.12,
+      "end": 132.585,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1279,
+          "end": 1595
+        }
+      ],
+      "text": "Not only did accepting a vaccine conflict with his sincere religious beliefs generally, it also implicated Doe’s more specific religious belief against benefiting from any abortion because the vaccines approved at that time “depended upon abortion-derived fetal cell lines in their production or testing.”"
+    },
+    {
+      "start": 132.585,
+      "end": 135.24,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1659,
+          "end": 1699
+        }
+      ],
+      "text": "At first, none of this proved a problem."
+    },
+    {
+      "start": 135.24,
+      "end": 150.54,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1701,
+          "end": 1968
+        }
+      ],
+      "text": "While New York State announced a statewide COVID nineteen vaccination mandate for healthcare workers, the mandate included two exemptions—one for healthcare workers with medical reasons for declining vaccination, another for those with sincere religious objections."
+    },
+    {
+      "start": 150.54,
+      "end": 155.01,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 1,
+          "start": 1988,
+          "end": 2049
+        }
+      ],
+      "text": "So Doe’s longstanding vaccination exemption remained intact."
+    },
+    {
+      "start": 155.01,
+      "end": 158.86,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 111,
+          "end": 174
+        }
+      ],
+      "text": "But all that changed when state government leadership changed."
+    },
+    {
+      "start": 158.86,
+      "end": 162.96,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 175,
+          "end": 254
+        }
+      ],
+      "text": "A new Governor decided to retain the medical exemption to the vaccine mandate."
+    },
+    {
+      "start": 162.96,
+      "end": 171.46,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 255,
+          "end": 399
+        }
+      ],
+      "text": "But the Governor did away with the religious exemption, soon declaring that people like Doe “weren’t listening to God and what God wants.”"
+    },
+    {
+      "start": 171.46,
+      "end": 179.22,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 571,
+          "end": 686
+        }
+      ],
+      "text": "In light of the new state mandate, N Y P insisted that Doe submit to vaccination, and when he declined, it fired him."
+    },
+    {
+      "start": 179.22,
+      "end": 187.21,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 703,
+          "end": 807
+        }
+      ],
+      "text": "In doing so, N Y P rejected Doe’s proposed accommodation of “weekly testing and 100% Mask compliance.”"
+    },
+    {
+      "start": 187.21,
+      "end": 193.42,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 874,
+          "end": 976
+        }
+      ],
+      "text": "Those decisions, and similar ones made by the other plaintiffs’ employers, precipitated this lawsuit."
+    },
+    {
+      "start": 193.42,
+      "end": 201.34,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 978,
+          "end": 1133
+        }
+      ],
+      "text": "Initially, while still employed, the plaintiffs sought a court order preventing their employers from firing them for adhering to their religious beliefs."
+    },
+    {
+      "start": 201.34,
+      "end": 209.11,
+      "paragraph": 9,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1151,
+          "end": 1275
+        }
+      ],
+      "text": "After they failed to win that relief and lost their jobs, the plaintiffs argued that their terminations violated Title Seven."
+    },
+    {
+      "start": 209.11,
+      "end": 214.5,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1305,
+          "end": 1404
+        }
+      ],
+      "text": "Ultimately, the district court dismissed the plaintiffs’ claims, and the Second Circuit affirmed."
+    },
+    {
+      "start": 214.5,
+      "end": 220.28,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1406,
+          "end": 1519
+        }
+      ],
+      "text": "In doing so, the Court of Appeals did not assess the reasonableness of the plaintiffs’ requested accommodations."
+    },
+    {
+      "start": 220.28,
+      "end": 226.8,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1521,
+          "end": 1657
+        }
+      ],
+      "text": "In fact, the court took as given that the plaintiffs had “plausibly alleged a prima facie case of Title Seven religious discrimination.”"
+    },
+    {
+      "start": 226.8,
+      "end": 234.24,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1672,
+          "end": 1782
+        }
+      ],
+      "text": "Still, the court held, the defendants had presented a successful “undue hardship” defense as a matter of law."
+    },
+    {
+      "start": 234.24,
+      "end": 255.84,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 1791,
+          "end": 2079
+        },
+        {
+          "page": 3,
+          "start": 86,
+          "end": 168
+        }
+      ],
+      "text": "More specifically, the court reasoned that granting the plaintiffs’ requested religious accommodations would have imposed an “undue hardship” on their employers because it “would have required the employers to violate the state vaccine regulation” and “subjected the employers to financial penalties or a suspension or revocation of their operating licenses.”"
+    },
+    {
+      "start": 255.84,
+      "end": 276.24,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 183,
+          "end": 520
+        }
+      ],
+      "text": "Soon after it decided this case, the Second Circuit reiterated its understanding of Title Seven’s undue hardship defense, holding that “an accommodation that would require an employer to violate” a state law necessarily “imposes an undue hardship”—and does so even when the state law is “unconstitutional as applied” to the plaintiff."
+    },
+    {
+      "start": 276.24,
+      "end": 279.78,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 622,
+          "end": 678
+        }
+      ],
+      "text": "I harbor serious doubts about the Second Circuit’s rule."
+    },
+    {
+      "start": 279.78,
+      "end": 288.72,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 680,
+          "end": 843
+        }
+      ],
+      "text": "True, Title Seven permits an employer to avoid liability for religious discrimination when accommodating an employee would cause it to suffer an “undue hardship.”"
+    },
+    {
+      "start": 288.72,
+      "end": 299.22,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 868,
+          "end": 1035
+        }
+      ],
+      "text": "And, true, when N Y P fired Doe, it faced a state mandate threatening it with liability for extending religious (but not medical) vaccine exemptions to its employees."
+    },
+    {
+      "start": 299.22,
+      "end": 312.97,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 1037,
+          "end": 1244
+        }
+      ],
+      "text": "But I fail to see how a state law (especially an unconstitutional state law) prohibiting an accommodation can always and automatically supply an employer with an “undue hardship” defense under federal law."
+    },
+    {
+      "start": 312.97,
+      "end": 314.32,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 1245,
+          "end": 1261
+        }
+      ],
+      "text": "Start with this."
+    },
+    {
+      "start": 314.32,
+      "end": 327.32,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 1263,
+          "end": 1506
+        }
+      ],
+      "text": "The Civil Rights Act of 1964, of which Title Seven is a part, instructs that its provisions should “be construed as invalidating any provision of State law” that “is inconsistent with any of the purposes of the Act, or any provision thereof.”"
+    },
+    {
+      "start": 327.32,
+      "end": 346.1,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 1517,
+          "end": 1852
+        }
+      ],
+      "text": "For good measure, Title Seven explicitly “exempts and relieves any person from any liability, duty, penalty, or punishment provided by any... law of any State or political subdivision of a State... which purports to require or permit the doing of any act which would be an unlawful employment practice under” Title Seven."
+    },
+    {
+      "start": 346.1,
+      "end": 360.6,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 3,
+          "start": 1863,
+          "end": 2025
+        },
+        {
+          "page": 4,
+          "start": 108,
+          "end": 186
+        }
+      ],
+      "text": "Far from suggesting absolute deference to state law, then, these provisions anticipate that federal civil rights laws will sometimes preempt state law—and, along the way, relieve employers from any liability associated with state mandates."
+    },
+    {
+      "start": 360.6,
+      "end": 365.06,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 188,
+          "end": 258
+        }
+      ],
+      "text": "Next, consider how federal courts proceed in similar circumstances."
+    },
+    {
+      "start": 365.06,
+      "end": 374.04,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 259,
+          "end": 413
+        }
+      ],
+      "text": "Many federal civil rights statutes require parties to make “reasonable accommodations” or “reasonable modifications” for individuals’ protected traits."
+    },
+    {
+      "start": 374.04,
+      "end": 382.52,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 415,
+          "end": 637
+        }
+      ],
+      "text": "For example, (Americans with Disabilities Act (A D A)); (Fair Housing Act); (Rehabilitation Act of 1973)."
+    },
+    {
+      "start": 382.52,
+      "end": 391.64,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 639,
+          "end": 809
+        }
+      ],
+      "text": "Sometimes in cases under those provisions employers argue that a requested accommodation or modification is not a “reasonable” one because state law prohibits it."
+    },
+    {
+      "start": 391.64,
+      "end": 401.68,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 811,
+          "end": 1006
+        }
+      ],
+      "text": "Routinely, however, federal courts (including the Second Circuit) reject those arguments, holding that state law cannot control what counts as a “reasonable accommodation” under federal law."
+    },
+    {
+      "start": 401.68,
+      "end": 408.12,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1007,
+          "end": 1117
+        }
+      ],
+      "text": "Were the rule otherwise, these courts emphasize, state laws might effectively displace the federal guarantee."
+    },
+    {
+      "start": 408.12,
+      "end": 419.74,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1384,
+          "end": 1725
+        }
+      ],
+      "text": "Indeed, as some courts have put it, state laws that foreclose accommodations may sometimes supply less of a “ ‘defense to liability under federal law’” than “‘a source of liability under federal law.’”."
+    },
+    {
+      "start": 419.74,
+      "end": 431.335,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1726,
+          "end": 1931
+        }
+      ],
+      "text": "And if state law does not control what counts as a “reasonable accommodation” under federal civil rights statutes, it is unclear how state law might any more control what qualifies as an “undue hardship.”"
+    },
+    {
+      "start": 431.335,
+      "end": 440.22,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 1933,
+          "end": 2062
+        }
+      ],
+      "text": "Finally, notice what the Eleventh Circuit has said in a similar A D A case, Campbell v. Universal City Development Partners, Ltd."
+    },
+    {
+      "start": 440.22,
+      "end": 462.28,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 4,
+          "start": 2089,
+          "end": 2163
+        },
+        {
+          "page": 5,
+          "start": 66,
+          "end": 365
+        }
+      ],
+      "text": "Much as Title Seven permits an employer to deny a reasonable accommodation to a religious employee when doing so would cause it to suffer an “undue hardship,” Title Three of the A D A allows a public accommodation to apply otherwise forbidden exclusionary eligibility criteria when they are “necessary for the provision of ” the public accommodation’s particular offerings."
+    },
+    {
+      "start": 462.28,
+      "end": 469.76,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 387,
+          "end": 533
+        }
+      ],
+      "text": "In Campbell, the Eleventh Circuit faced a defendant who argued that its exclusionary criteria were “necessary” because a state law demanded them."
+    },
+    {
+      "start": 469.76,
+      "end": 476.62,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 549,
+          "end": 647
+        }
+      ],
+      "text": "The case involved a child born with only one hand who was denied entry to an amusement-park ride."
+    },
+    {
+      "start": 476.62,
+      "end": 489.46,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 663,
+          "end": 907
+        }
+      ],
+      "text": "In its defense, the park’s operator explained that state-mandated safety standards required the child’s exclusion and that the State would “subject [the park] to closure or criminal and civil penalties” for declining to enforce those rules."
+    },
+    {
+      "start": 489.46,
+      "end": 503.08,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 928,
+          "end": 1178
+        }
+      ],
+      "text": "But just as state law cannot control what qualifies as a “reasonable accommodation” under federal law, the Eleventh Circuit reasoned, state law cannot control which exclusionary criteria are and are not “necessary” for purposes of federal law."
+    },
+    {
+      "start": 503.08,
+      "end": 511.92,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1200,
+          "end": 1348
+        }
+      ],
+      "text": "Any different rule, the court concluded, would effectively allow a State to “nullify the A D A by enacting a state law requiring discrimination.”"
+    },
+    {
+      "start": 511.92,
+      "end": 526.025,
+      "paragraph": 16,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1364,
+          "end": 1616
+        }
+      ],
+      "text": "If there is some sound reason why state law should be allowed to define the contours of an “undue hardship” defense under one federal civil rights statute but not a similar “necessity” defense under another such statute, nobody has identified one."
+    },
+    {
+      "start": 526.025,
+      "end": 546.1,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1618,
+          "end": 1951
+        }
+      ],
+      "text": "For all these reasons, it seems to me that state law cannot control whether an employer faces an “undue hardship” for purposes of federal antidiscrimination laws, just like it cannot conclusively resolve what constitutes a “reasonable accommodation” or which criteria are “necessary” for admission to a public accommodation."
+    },
+    {
+      "start": 546.1,
+      "end": 563.8,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1953,
+          "end": 2216
+        },
+        {
+          "page": 6,
+          "start": 98,
+          "end": 136
+        }
+      ],
+      "text": "To hold otherwise would appear to leave States free to strip individuals of the protections guaranteed by so many federal civil rights statutes—Title Seven, the A D A, the Fair Housing Act, and the Rehabilitation Act—all by the simple expedient of proscribing accommodations those statutes promise."
+    },
+    {
+      "start": 563.8,
+      "end": 570.855,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 137,
+          "end": 257
+        }
+      ],
+      "text": "Rather than federal civil rights laws standing supreme over contrary state law, they would more nearly bow before it."
+    },
+    {
+      "start": 570.855,
+      "end": 575.46,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 264,
+          "end": 335
+        }
+      ],
+      "text": "To some, I appreciate, this case might appear of limited significance."
+    },
+    {
+      "start": 575.46,
+      "end": 582.68,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 336,
+          "end": 460
+        }
+      ],
+      "text": "After all, the pandemic is behind us, and New York did away with its COVID nineteen vaccination mandate almost three years ago."
+    },
+    {
+      "start": 582.68,
+      "end": 591.8,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 471,
+          "end": 640
+        }
+      ],
+      "text": "But not only does this case remain of obvious importance to healthcare workers who courageously served on the front line during a pandemic only then to lose their jobs."
+    },
+    {
+      "start": 591.8,
+      "end": 596.7,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 642,
+          "end": 723
+        }
+      ],
+      "text": "The legal issue at the heart of this case is also an important and recurring one."
+    },
+    {
+      "start": 596.7,
+      "end": 609.61,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 725,
+          "end": 924
+        }
+      ],
+      "text": "Left uncorrected, the Second Circuit’s rule promises to mean that civil rights protected by federal law will give way whenever a contrary state law—even an unconstitutional state law—is in play."
+    },
+    {
+      "start": 609.61,
+      "end": 615.5,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 925,
+          "end": 1021
+        }
+      ],
+      "text": "Notably, the federal government agrees that adopting a rule like that would be deeply mistaken."
+    },
+    {
+      "start": 615.5,
+      "end": 625.12,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1023,
+          "end": 1183
+        }
+      ],
+      "text": "As the government puts it, “Title Seven preempts state laws that are incompatible with it, and such laws therefore cannot support an undue-hardship defense.”"
+    },
+    {
+      "start": 625.12,
+      "end": 644.0,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1232,
+          "end": 1559
+        }
+      ],
+      "text": "Even so, the federal government suggests this case is not worth our time because, “[t]hough the decision below is no model of clarity,” it did not really say that an employer has a winning Title Seven undue hardship defense whenever accommodating a plaintiff’s religious obligations would require it to violate state law."
+    },
+    {
+      "start": 644.0,
+      "end": 658.76,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1573,
+          "end": 1843
+        }
+      ],
+      "text": "But that is exactly what the Second Circuit said. (concluding that the employers faced an “undue hardship” for Title Seven purposes because accommodating the plaintiffs “would have required the employers to violate the state vaccine regulation”)."
+    },
+    {
+      "start": 658.76,
+      "end": 666.98,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1845,
+          "end": 1990
+        }
+      ],
+      "text": "And any possible room for doubt about the Second Circuit’s views on the matter is resolved by looking to what that court later said in Russo."
+    },
+    {
+      "start": 666.98,
+      "end": 688.32,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1992,
+          "end": 2047
+        },
+        {
+          "page": 7,
+          "start": 84,
+          "end": 400
+        }
+      ],
+      "text": "Though the federal government does not cite Russo, let alone grapple with it, the Second Circuit there doubled down on its mistaken view, concluding once again that accommodating a plaintiff’s religious obligations “would have caused an undue hardship” to his employer for purposes of Title Seven “because, if granted, the employer would have violated New York law.”"
+    },
+    {
+      "start": 688.32,
+      "end": 699.28,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 422,
+          "end": 601
+        }
+      ],
+      "text": "Nor can the Second Circuit’s rule be dismissed as some outlier, a mistake unlikely to be repeated elsewhere, given that various other circuits have adopted a similar approach."
+    },
+    {
+      "start": 699.28,
+      "end": 704.78,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 924,
+          "end": 1040
+        }
+      ],
+      "text": "Put simply, addressing this case is well worth our time—and correcting its error should have been an easy business."
+    },
+    {
+      "start": 704.78,
+      "end": 713.12,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1042,
+          "end": 1193
+        }
+      ],
+      "text": "Just months ago, we summarily reversed a similar decision in which Louisiana courts had held that a state statute barred a plaintiff’s federal claims."
+    },
+    {
+      "start": 713.12,
+      "end": 720.94,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1195,
+          "end": 1341
+        }
+      ],
+      "text": "In a short per curiam without any noted dissent, we explained that “[d]efining the scope of liability under state law is the State’s prerogative."
+    },
+    {
+      "start": 720.94,
+      "end": 725.66,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1343,
+          "end": 1419
+        }
+      ],
+      "text": "But a State has no power to confer immunity from federal causes of action.”"
+    },
+    {
+      "start": 725.66,
+      "end": 728.56,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1481,
+          "end": 1552
+        }
+      ],
+      "text": "It would have been the simplest thing to repeat that same message here."
+    },
+    {
+      "start": 728.56,
+      "end": 736.24,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1553,
+          "end": 1692
+        }
+      ],
+      "text": "Or, if anyone really thinks the Second Circuit’s rule sufficiently plausible to warrant it, we could have scheduled this case for argument."
+    },
+    {
+      "start": 736.24,
+      "end": 750.88,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1693,
+          "end": 1963
+        }
+      ],
+      "text": "Given the Court’s refusal to follow either of those courses today, I can only hope that lower courts will more carefully consider in future cases whether a defendant can successfully mount a Title Seven undue hardship defense simply by pointing to a state-law mandate."
+    },
+    {
+      "start": 750.88,
+      "end": 762.39,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1964,
+          "end": 2158
+        }
+      ],
+      "text": "I hope, too, that one day soon this Court will choose to settle the question so that other Americans seeking to vindicate their civil rights do not suffer the same fate as those now before us."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 45,
+      "expectedWords": 46,
+      "coverage": 0.9782608695652174
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 84,
+      "expectedWords": 85,
+      "coverage": 0.9882352941176471
+    },
+    {
+      "paragraph": 3,
+      "matchedWords": 69,
+      "expectedWords": 70,
+      "coverage": 0.9857142857142858
+    },
+    {
+      "paragraph": 4,
+      "matchedWords": 84,
+      "expectedWords": 88,
+      "coverage": 0.9545454545454546
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 68,
+      "expectedWords": 68,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 48,
+      "expectedWords": 52,
+      "coverage": 0.9230769230769231
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 45,
+      "expectedWords": 46,
+      "coverage": 0.9782608695652174
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 38,
+      "expectedWords": 41,
+      "coverage": 0.926829268292683
+    },
+    {
+      "paragraph": 9,
+      "matchedWords": 55,
+      "expectedWords": 56,
+      "coverage": 0.9821428571428571
+    },
+    {
+      "paragraph": 10,
+      "matchedWords": 118,
+      "expectedWords": 120,
+      "coverage": 0.9833333333333333
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 52,
+      "expectedWords": 53,
+      "coverage": 0.9811320754716981
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 91,
+      "expectedWords": 94,
+      "coverage": 0.9680851063829787
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 129,
+      "expectedWords": 132,
+      "coverage": 0.9772727272727273
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 167,
+      "expectedWords": 174,
+      "coverage": 0.9597701149425287
+    },
+    {
+      "paragraph": 16,
+      "matchedWords": 256,
+      "expectedWords": 263,
+      "coverage": 0.973384030418251
+    },
+    {
+      "paragraph": 17,
+      "matchedWords": 113,
+      "expectedWords": 115,
+      "coverage": 0.9826086956521739
+    },
+    {
+      "paragraph": 19,
+      "matchedWords": 111,
+      "expectedWords": 111,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 20,
+      "matchedWords": 238,
+      "expectedWords": 244,
+      "coverage": 0.9754098360655737
+    },
+    {
+      "paragraph": 21,
+      "matchedWords": 199,
+      "expectedWords": 203,
+      "coverage": 0.9802955665024631
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "reviewed": true,
+  "documentId": "25-365-06668450ad03--191-342",
+  "sourceDocumentId": "25-365-06668450ad03",
+  "sourceTextPath": "dist/data/docs/25-365-06668450ad03.json",
+  "sourceTextSha256": "0a44b7da87cd5e5c448047fc6e08ca87ac9208bf90d5f0da1f1abf01e369d5a0",
+  "sourcePdfPath": "dist/data/pdfs/25-365-06668450ad03--191-342.pdf",
+  "sourcePdfSha256": "5b9cdaa201dac50647600edc9dd975ad64da1103bf650b9e69780f5edd0a714a",
+  "title": "Dissent",
+  "author": "Neil M. Gorsuch",
+  "date": "2026-06-30",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25-365_new_5if6.pdf",
+  "sourceRange": {
+    "startPage": 191,
+    "startOffset": 371,
+    "endPage": 193,
+    "endOffset": 1716
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 191,
+          "start": 371,
+          "end": 1592
+        }
+      ],
+      "citations": [
+        {
+          "start": 505,
+          "end": 530,
+          "text": "2 Cong. Rec. 3282 (1874);",
+          "type": "reference",
+          "canonical": "2 Cong. Rec. 3282 (1874)"
+        },
+        {
+          "start": 531,
+          "end": 604,
+          "text": "see also 1 W. Blackstone, Commentaries on the Laws of England 369 (1768);",
+          "type": "reference",
+          "canonical": "W. Blackstone, Commentaries on the Laws of England (1768)"
+        },
+        {
+          "start": 605,
+          "end": 637,
+          "text": "ante, at 2–4 (majority opinion).",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 2–4"
+        },
+        {
+          "start": 952,
+          "end": 1023,
+          "text": "Plessy v. Ferguson, 163 U. S. 537, 555 (1896) (Harlan, J., dissenting);",
+          "type": "case",
+          "canonical": "163 U.S. 537"
+        },
+        {
+          "start": 1024,
+          "end": 1072,
+          "text": "see also ante, at 1–3 (T HOMAS, J., dissenting).",
+          "type": "reference",
+          "canonical": "Thomas dissent, pp. 1–3"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "JUSTICE THOMAS",
+          "to": "Justice Thomas"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 191,
+          "start": 1592,
+          "end": 1760
+        },
+        {
+          "page": 192,
+          "start": 43,
+          "end": 1068
+        }
+      ],
+      "citations": [
+        {
+          "start": 191,
+          "end": 213,
+          "text": ", 169 U. S. 649 (1898)",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 407,
+          "end": 428,
+          "text": "See id., at 652, 701.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 620,
+          "end": 632,
+          "text": "Id., at 666.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        },
+        {
+          "start": 793,
+          "end": 840,
+          "text": "See ante, at 13, n. 1 (THOMAS, J., dissenting).",
+          "type": "reference",
+          "canonical": "Thomas dissent, p. 13, n. 1"
+        },
+        {
+          "start": 1155,
+          "end": 1187,
+          "text": "Wong Kim Ark, 169 U. S., at 693.",
+          "type": "case",
+          "canonical": "169 U.S. 649"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "JUSTICE THOMAS",
+          "to": "Justice Thomas"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 192,
+          "start": 1068,
+          "end": 2115
+        }
+      ],
+      "citations": [
+        {
+          "start": 347,
+          "end": 399,
+          "text": "United States v. Salerno, 481 U. S. 739, 745 (1987).",
+          "type": "case",
+          "canonical": "481 U.S. 739"
+        },
+        {
+          "start": 994,
+          "end": 1004,
+          "text": "See ibid.;",
+          "type": "case",
+          "canonical": "481 U.S. 739"
+        },
+        {
+          "start": 1005,
+          "end": 1045,
+          "text": "ante, at 56–57 (THOMAS, J., dissenting).",
+          "type": "reference",
+          "canonical": "Thomas dissent, pp. 56–57"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "J USTICE THOMAS",
+          "to": "Justice Thomas"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 193,
+          "start": 58,
+          "end": 729
+        }
+      ],
+      "citations": [
+        {
+          "start": 615,
+          "end": 666,
+          "text": "See ante, at 57–58, n. 10 (THOMAS, J., dissenting).",
+          "type": "reference",
+          "canonical": "Thomas dissent, pp. 57–58, n. 10"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 193,
+          "start": 729,
+          "end": 1716
+        }
+      ],
+      "citations": [
+        {
+          "start": 648,
+          "end": 704,
+          "text": "See Desmare v. United States , 93 U. S. 605, 610 (1877).",
+          "type": "case",
+          "canonical": "93 U.S. 605"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 192,
+      "start": 0,
+      "end": 43,
+      "text": "2 TRUMP v. BARBARA\nGORSUCH, J., dissenting\n",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 193,
+      "start": 0,
+      "end": 58,
+      "text": "3  Cite as: 609 U. S. ____ (2026)\nGORSUCH, J., dissenting\n",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 191,
+      "start": 1515,
+      "end": 1524,
+      "expectedText": "origi nal",
+      "text": "original"
+    },
+    {
+      "page": 193,
+      "start": 281,
+      "end": 292,
+      "expectedText": "vis -\nitors",
+      "text": "visitors"
+    },
+    {
+      "page": 193,
+      "start": 1121,
+      "end": 1132,
+      "expectedText": "pres -\nence",
+      "text": "presence"
+    },
+    {
+      "page": 193,
+      "start": 1183,
+      "end": 1195,
+      "expectedText": "domi -\nciled",
+      "text": "domiciled"
+    },
+    {
+      "page": 193,
+      "start": 1245,
+      "end": 1254,
+      "expectedText": "an -\nswer",
+      "text": "answer"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read the complete writing and compared against rendered official PDF slice. Retained prose, quotations and substantive explanatory parentheticals; removed source-only citations, publication furniture and preceding writers’ notes."
+}

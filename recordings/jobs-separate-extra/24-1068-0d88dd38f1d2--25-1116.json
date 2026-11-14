@@ -1,0 +1,526 @@
+{
+  "reviewed": true,
+  "documentId": "24-1068-0d88dd38f1d2--25-1116",
+  "sourceDocumentId": "24-1068-0d88dd38f1d2",
+  "sourceTextPath": "dist/data/docs/24-1068-0d88dd38f1d2.json",
+  "sourceTextSha256": "567ed88033c9157584764d98cbfc2741620fc916d98d63d8680a400343c1bc7e",
+  "sourcePdfPath": "dist/data/pdfs/24-1068-0d88dd38f1d2--25-1116.pdf",
+  "sourcePdfSha256": "a2eed6a8db4a2b5211e2f44baa014db94be3a4d67ea297ec976285de2bd33a89",
+  "title": "Concurrence",
+  "author": "Clarence Thomas",
+  "date": "2026-06-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r61_3314.pdf",
+  "sourceRange": {
+    "startPage": 25,
+    "startOffset": 1144,
+    "endPage": 28,
+    "endOffset": 1251
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1144,
+          "end": 1432
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 47,
+          "end": 528
+        }
+      ],
+      "citations": [
+        {
+          "start": 159,
+          "end": 178,
+          "text": "Art. I, § 8, cl. 3.",
+          "type": "statute",
+          "canonical": "U.S. Const. art. I, § 8, cl. 3"
+        },
+        {
+          "start": 271,
+          "end": 346,
+          "text": "United States v. Lopez, 514 U. S. 549, 585 (1995) (Thomas, J., concurring).",
+          "type": "case",
+          "canonical": "514 U.S. 549"
+        },
+        {
+          "start": 468,
+          "end": 480,
+          "text": "Id., at 586.",
+          "type": "case",
+          "canonical": "514 U.S. 549"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 528,
+          "end": 1806
+        }
+      ],
+      "citations": [
+        {
+          "start": 111,
+          "end": 166,
+          "text": "Ruckelshaus v. Monsanto Co., 467 U. S. 986, 991 (1984).",
+          "type": "case",
+          "canonical": "467 U.S. 986"
+        },
+        {
+          "start": 347,
+          "end": 363,
+          "text": "Id., at 991–992.",
+          "type": "case",
+          "canonical": "467 U.S. 986"
+        },
+        {
+          "start": 596,
+          "end": 613,
+          "text": "Ante, at 376–378.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 376–378"
+        },
+        {
+          "start": 779,
+          "end": 792,
+          "text": "Ante, at 378.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 378"
+        },
+        {
+          "start": 925,
+          "end": 953,
+          "text": "7 U. S. C. §§ 136j(a)(2)(G),",
+          "type": "statute",
+          "canonical": "7 U.S.C. § 136j"
+        },
+        {
+          "start": 954,
+          "end": 965,
+          "text": "136l(b)(2).",
+          "type": "statute",
+          "canonical": "7 U.S.C. § 136l"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "regulate[s]",
+          "to": "regulates"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1806,
+          "end": 2109
+        },
+        {
+          "page": 27,
+          "start": 57,
+          "end": 525
+        },
+        {
+          "page": 27,
+          "start": 526,
+          "end": 527
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 128,
+          "end": 141,
+          "text": "ante, at 377,",
+          "type": "reference",
+          "canonical": "Court opinion, p. 377"
+        },
+        {
+          "start": 228,
+          "end": 241,
+          "text": "§ 136w(a)(1).",
+          "type": "statute",
+          "canonical": "7 U.S.C. § 136w"
+        },
+        {
+          "start": 350,
+          "end": 363,
+          "text": "Ante, at 377.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 377"
+        },
+        {
+          "start": 522,
+          "end": 538,
+          "text": "§ 136j(a)(2)(S).",
+          "type": "statute",
+          "canonical": "7 U.S.C. § 136j"
+        },
+        {
+          "start": 684,
+          "end": 770,
+          "text": "Learning Resources, Inc. v. Trump, 607 U. S. 229, 318 (2026) (Thomas, J., dissenting).",
+          "type": "case",
+          "canonical": "607 U.S. 229"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1290,
+          "end": 2413
+        }
+      ],
+      "citations": [
+        {
+          "start": 208,
+          "end": 333,
+          "text": "S. Prakash, The Sky Will Not Fall, in The Administrative State Before the Supreme Court 293 (P. Wallison & J. Yoo eds. 2022),",
+          "type": "reference",
+          "canonical": "S. Prakash, The Sky Will Not Fall (2022)"
+        },
+        {
+          "start": 472,
+          "end": 547,
+          "text": "T. Sowell, Basic Economics: A Citizen's Guide to the Economy 107–108 (2004)",
+          "type": "reference",
+          "canonical": "T. Sowell, Basic Economics (2004)"
+        },
+        {
+          "start": 773,
+          "end": 817,
+          "text": "M. Rothbard, The Progressive Era 318 (2017).",
+          "type": "reference",
+          "canonical": "M. Rothbard, The Progressive Era (2017)"
+        },
+        {
+          "start": 1107,
+          "end": 1128,
+          "text": "See ante, at 376–380.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 376–380"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ha[ve]",
+          "to": "have"
+        },
+        {
+          "from": "firms,” .",
+          "to": "firms.”"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 527,
+          "end": 1289
+        },
+        {
+          "page": 28,
+          "start": 79,
+          "end": 539
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 186,
+          "end": 226,
+          "text": "See Brief for Respondent 37, 39, 43, 49.",
+          "type": "reference",
+          "canonical": "Brief for Respondent, pp. 37, 39, 43, 49"
+        },
+        {
+          "start": 405,
+          "end": 420,
+          "text": "Art. VI, cl. 2.",
+          "type": "statute",
+          "canonical": "U.S. Const. art. VI, cl. 2"
+        },
+        {
+          "start": 505,
+          "end": 601,
+          "text": "See, e. g., Wyeth v. Levine, 555 U. S. 555, 584–588 (2009) (Thomas, J., concurring in judgment).",
+          "type": "case",
+          "canonical": "555 U.S. 555"
+        },
+        {
+          "start": 825,
+          "end": 848,
+          "text": "See Art. I, § 7, cl. 2.",
+          "type": "statute",
+          "canonical": "U.S. Const. art. I, § 7, cl. 2"
+        },
+        {
+          "start": 970,
+          "end": 1071,
+          "text": "D. Rubenstein, The Paradox of Administrative Preemption, 38 Harv. J. L. & Pub. Pol'y 267, 334 (2015).",
+          "type": "reference",
+          "canonical": "D. Rubenstein, The Paradox of Administrative Preemption (2015)"
+        },
+        {
+          "start": 1218,
+          "end": 1223,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "D. Rubenstein, The Paradox of Administrative Preemption (2015)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]his",
+          "to": "this"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 539,
+          "end": 1251
+        }
+      ],
+      "citations": [
+        {
+          "start": 179,
+          "end": 231,
+          "text": "See Wyeth, 555 U. S., at 588 (opinion of Thomas, J.)",
+          "type": "case",
+          "canonical": "555 U.S. 555"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 25,
+      "start": 1432,
+      "end": 1843,
+      "text": "10 If a citizen becomes aware of new safety concerns that arise after\nregistration, the citizen is free to bring the information to EPA's attention\nand ask EPA to cancel or suspend the pesticide's registration, or require a\nlabeling change. But that is quite different from seeking to retroactively\npenalize a manufacturer for doing what it was legally required to do at\nthe time.\nPage Proof Pending Publication",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 47,
+      "text": "396 MONSANTO v. DURNELL\nThomas, J., concurring\n",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 26,
+      "start": 2109,
+      "end": 2139,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 609 U. S. 371 (2026) 397\nThomas, J., concurring\n",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 27,
+      "start": 525,
+      "end": 526,
+      "text": "*",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 27,
+      "start": 1289,
+      "end": 1290,
+      "text": "*",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 27,
+      "start": 2413,
+      "end": 2443,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 79,
+      "text": "Page Proof Pending Publication\n398 MONSANTO v. DURNELL\nJackson, J., dissenting\n",
+      "reason": "Running publication header/footer or unrelated preceding writing footnote"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 25,
+      "start": 1409,
+      "end": 1419,
+      "expectedText": "infrmities",
+      "text": "infirmities"
+    },
+    {
+      "page": 27,
+      "start": 365,
+      "end": 369,
+      "expectedText": "fnes",
+      "text": "fines"
+    },
+    {
+      "page": 27,
+      "start": 1009,
+      "end": 1019,
+      "expectedText": "conficting",
+      "text": "conflicting"
+    },
+    {
+      "page": 27,
+      "start": 1158,
+      "end": 1166,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 27,
+      "start": 1170,
+      "end": 1172,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 27,
+      "start": 1343,
+      "end": 1349,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 27,
+      "start": 1717,
+      "end": 1721,
+      "expectedText": "frms",
+      "text": "firms"
+    },
+    {
+      "page": 27,
+      "start": 1752,
+      "end": 1756,
+      "expectedText": "frms",
+      "text": "firms"
+    },
+    {
+      "page": 27,
+      "start": 1870,
+      "end": 1879,
+      "expectedText": "proftable",
+      "text": "profitable"
+    },
+    {
+      "page": 27,
+      "start": 2353,
+      "end": 2362,
+      "expectedText": "scientifc",
+      "text": "scientific"
+    },
+    {
+      "page": 27,
+      "start": 2374,
+      "end": 2381,
+      "expectedText": "effcacy",
+      "text": "efficacy"
+    },
+    {
+      "page": 28,
+      "start": 187,
+      "end": 195,
+      "expectedText": "qualifes",
+      "text": "qualifies"
+    },
+    {
+      "page": 28,
+      "start": 824,
+      "end": 834,
+      "expectedText": "conficting",
+      "text": "conflicting"
+    },
+    {
+      "page": 28,
+      "start": 857,
+      "end": 866,
+      "expectedText": "diffculty",
+      "text": "difficulty"
+    },
+    {
+      "page": 28,
+      "start": 948,
+      "end": 967,
+      "expectedText": "separation-ofpowers",
+      "text": "separation-of-powers"
+    },
+    {
+      "page": 28,
+      "start": 1146,
+      "end": 1154,
+      "expectedText": "conficts",
+      "text": "conflicts"
+    },
+    {
+      "page": 26,
+      "start": 2104,
+      "end": 2108,
+      "expectedText": "dic-",
+      "text": "dic"
+    },
+    {
+      "page": 27,
+      "start": 1284,
+      "end": 1288,
+      "expectedText": "Con-",
+      "text": "Con"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Read the complete writing and compared against rendered official PDF slice. Retained prose, quotations and substantive explanatory parentheticals; removed source-only citations, publication furniture and preceding writers’ notes."
+}

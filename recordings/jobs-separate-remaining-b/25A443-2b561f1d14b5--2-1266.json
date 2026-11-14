@@ -1,0 +1,486 @@
+{
+  "reviewed": true,
+  "documentId": "25A443-2b561f1d14b5--2-1266",
+  "sourceDocumentId": "25A443-2b561f1d14b5",
+  "sourceTextPath": "dist/data/current-docs/25A443-2b561f1d14b5.json",
+  "sourceTextSha256": "fbc00e49e3d34084dc62952d4305721476d0042a5368fa8cd6fd65c1399bf3c5",
+  "sourcePdfPath": "recordings/sources/30053f20e4215fd1241aaadc.pdf",
+  "sourcePdfSha256": "30053f20e4215fd1241aaadcfce7a58ceaaa675881d36ac4c32a8d6f871c993e",
+  "title": "Concurrence in the Judgment",
+  "author": "Brett M. Kavanaugh",
+  "date": "2025-12-23",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a443_new_b07d.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 1314,
+    "endPage": 6,
+    "endOffset": 1214
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1314,
+          "end": 1787
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1787,
+          "end": 1953
+        },
+        {
+          "page": 3,
+          "start": 58,
+          "end": 706
+        }
+      ],
+      "citations": [
+        {
+          "start": 155,
+          "end": 177,
+          "text": "10 U. S. C. §12406(3).",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406(3)"
+        },
+        {
+          "start": 707,
+          "end": 754,
+          "text": "See Supp. Letter Reply Brief for Respondents 7;",
+          "type": "record",
+          "canonical": "Respondents Supplemental Letter p. 7"
+        },
+        {
+          "start": 755,
+          "end": 813,
+          "text": "Department of Navy v. Egan, 484 U. S. 518, 529–530 (1988).",
+          "type": "case",
+          "canonical": "484 U.S. 518"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 706,
+          "end": 836
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 836,
+          "end": 1718
+        }
+      ],
+      "citations": [
+        {
+          "start": 444,
+          "end": 453,
+          "text": "§12406(3)",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 456,
+          "end": 467,
+          "text": "Ante, at 3.",
+          "type": "reference",
+          "canonical": "Court opinion p. 3"
+        },
+        {
+          "start": 597,
+          "end": 606,
+          "text": "§12406(3)",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 747,
+          "end": 757,
+          "text": "ante, at 3",
+          "type": "reference",
+          "canonical": "Court opinion p. 3"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§12406(3)",
+          "to": "section twelve thousand four hundred six, three"
+        },
+        {
+          "from": "execut[ing]",
+          "to": "executing"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1728,
+          "end": 1883
+        }
+      ],
+      "citations": [
+        {
+          "start": 128,
+          "end": 155,
+          "text": "10 U. S. C. §§12406(1)–(2).",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406(1)-(2)"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 71,
+          "end": 1098
+        }
+      ],
+      "citations": [
+        {
+          "start": 1017,
+          "end": 1026,
+          "text": "§12406(3)",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406(3)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§12406(3)",
+          "to": "section twelve thousand four hundred six, three"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1280,
+          "end": 2468
+        }
+      ],
+      "citations": [
+        {
+          "start": 105,
+          "end": 132,
+          "text": "See 10 U. S. C. §§252, 253.",
+          "type": "statute",
+          "canonical": "10 U.S.C. §§ 252-253"
+        },
+        {
+          "start": 408,
+          "end": 454,
+          "text": "See 1 Supp. Op. OLC 343 (1971) (W. Rehnquist).",
+          "type": "reference",
+          "canonical": "1 Supp. Op. OLC 343"
+        },
+        {
+          "start": 729,
+          "end": 742,
+          "text": "Section 12406",
+          "type": "statute",
+          "canonical": "10 U.S.C. § 12406",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 845,
+          "end": 983,
+          "text": "J. Goldsmith, President Trump Holds the Legal Cards on the Use of the Military in the Domestic Sphere, Executive Functions (Oct. 8, 2025).",
+          "type": "reference",
+          "canonical": "Goldsmith, Executive Functions, Oct. 8, 2025"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Section 12406",
+          "to": "Section twelve thousand four hundred six"
+        },
+        {
+          "from": "Article II",
+          "to": "Article two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1100,
+          "end": 1272
+        },
+        {
+          "page": 5,
+          "start": 58,
+          "end": 218
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1287,
+          "end": 2103
+        }
+      ],
+      "citations": [
+        {
+          "start": 96,
+          "end": 107,
+          "text": "Ante, at 2.",
+          "type": "reference",
+          "canonical": "Court opinion p. 2"
+        },
+        {
+          "start": 403,
+          "end": 444,
+          "text": "See Trump v. Boyle, 606 U. S. ___ (2025);",
+          "type": "case",
+          "canonical": "Trump v. Boyle (2025)"
+        },
+        {
+          "start": 445,
+          "end": 520,
+          "text": "Trump v. CASA, Inc., 606 U. S. 831, 873 (2025) (KAVANAUGH, J., concurring).",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        },
+        {
+          "start": 601,
+          "end": 612,
+          "text": "Ante, at 3.",
+          "type": "reference",
+          "canonical": "Court opinion p. 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 220,
+          "end": 1277
+        }
+      ],
+      "citations": [
+        {
+          "start": 322,
+          "end": 368,
+          "text": "See Trump v. CASA, Inc., 606 U. S. 831 (2025);",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        },
+        {
+          "start": 369,
+          "end": 403,
+          "text": "Ohio v. EPA, 603 U. S. 279 (2024);",
+          "type": "case",
+          "canonical": "603 U.S. 279"
+        },
+        {
+          "start": 404,
+          "end": 478,
+          "text": "National Federation of Independent Business v. OSHA, 595 U. S. 109 (2022).",
+          "type": "case",
+          "canonical": "595 U.S. 109"
+        },
+        {
+          "start": 768,
+          "end": 837,
+          "text": "See Trump v. Boyle, 606 U. S. ___ (2025) (KAVANAUGH, J., concurring);",
+          "type": "case",
+          "canonical": "Trump v. Boyle (2025)"
+        },
+        {
+          "start": 838,
+          "end": 905,
+          "text": "Trump v. CASA, Inc., 606 U. S., at 876 (KAVANAUGH, J., concurring);",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        },
+        {
+          "start": 906,
+          "end": 978,
+          "text": "A.A.R.P. v. Trump, 605 U. S. 91, 100 (2025) (KAVANAUGH, J., concurring);",
+          "type": "case",
+          "canonical": "605 U.S. 91"
+        },
+        {
+          "start": 979,
+          "end": 1057,
+          "text": "Labrador v. Poe, 601 U. S. 1110, 1127–1129 (2024) (KAVANAUGH, J., concurring).",
+          "type": "case",
+          "canonical": "601 U.S. 1110"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 5,
+          "start": 2104,
+          "end": 2312
+        },
+        {
+          "page": 6,
+          "start": 239,
+          "end": 1214
+        }
+      ],
+      "citations": [
+        {
+          "start": 792,
+          "end": 845,
+          "text": "Cf. Whren v. United States, 517 U. S. 806, 813 (1996)",
+          "type": "case",
+          "canonical": "517 U.S. 806"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 71,
+          "end": 232
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "repairs": [],
+  "excludedSource": [
+    {
+      "page": 3,
+      "start": 0,
+      "end": 58,
+      "text": "4 TRUMP v. ILLINOIS\nKAVANAUGH, J., concurring in judgment\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 3,
+      "start": 1718,
+      "end": 1728,
+      "text": "1\n—————— 1",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 71,
+      "text": "Cite as: 607 U. S. ____ (2025) 5\nKAVANAUGH, J., concurring in judgment\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 4,
+      "start": 1098,
+      "end": 1100,
+      "text": "2\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 4,
+      "start": 1272,
+      "end": 1280,
+      "text": "—————— 2",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 58,
+      "text": "6 TRUMP v. ILLINOIS\nKAVANAUGH, J., concurring in judgment\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 5,
+      "start": 218,
+      "end": 220,
+      "text": "3\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 5,
+      "start": 1277,
+      "end": 1287,
+      "text": "4\n—————— 3",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 5,
+      "start": 2103,
+      "end": 2104,
+      "text": "4",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 71,
+      "text": "Cite as: 607 U. S. ____ (2025) 7\nKAVANAUGH, J., concurring in judgment\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 6,
+      "start": 232,
+      "end": 239,
+      "text": "——————\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

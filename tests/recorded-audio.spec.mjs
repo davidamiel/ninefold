@@ -1,4 +1,5 @@
 import {test,expect} from '@playwright/test';
+import {gunzipSync} from 'node:zlib';
 const documentId='26A560-e0601b5a934c';
 const reader='/#/reader/26A560?doc='+documentId;
 const accountModule=`export async function createAccount(notify){
@@ -31,9 +32,27 @@ test.afterEach(async({page},testInfo)=>{
  }
  expect(errors.get(page)).toEqual([]);
 });
+async function sourceData(page,path){
+ const packed=await page.locator('html').getAttribute('data-packed-text')==='true';
+ const response=await page.request.get(path+(packed?'.gz':''));expect(response.ok()).toBe(true);
+ const bytes=await response.body();
+ return JSON.parse((bytes[0]===31&&bytes[1]===139?gunzipSync(bytes):bytes).toString('utf8'));
+}
 async function start(page){await page.getByRole('button',{name:'Audio',exact:true}).click();await page.getByRole('button',{name:'Read document',exact:true}).click();await expect(page.locator('.recording-status')).toHaveText('Reading',{timeout:15000})}
 async function seek(page,seconds){await page.locator('.recording-seek').evaluate((el,value)=>{el.value=String(value);el.dispatchEvent(new Event('input',{bubbles:true}))},seconds)}
 function withinRow(boxes){return Math.max(...boxes.map(b=>b.y+b.height/2))-Math.min(...boxes.map(b=>b.y+b.height/2))<7}
+async function routeArgumentAudio(page,pattern){
+ // Native media remains real; isolate the external server with a seekable WAV.
+ const rate=12000,seconds=90,samples=rate*seconds,wav=Buffer.alloc(44+samples*2);
+ wav.write('RIFF');wav.writeUInt32LE(wav.length-8,4);wav.write('WAVEfmt ',8);wav.writeUInt32LE(16,16);wav.writeUInt16LE(1,20);wav.writeUInt16LE(1,22);wav.writeUInt32LE(rate,24);wav.writeUInt32LE(rate*2,28);wav.writeUInt16LE(2,32);wav.writeUInt16LE(16,34);wav.write('data',36);wav.writeUInt32LE(samples*2,40);
+ for(let i=0;i<samples;i++)wav.writeInt16LE(Math.round(200*Math.sin(i*.1)),44+i*2);
+ await page.route(pattern,route=>{
+  const range=/^bytes=(\d+)-(\d*)$/.exec(route.request().headers().range||'');
+  if(!range)return route.fulfill({contentType:'audio/wav',headers:{'Accept-Ranges':'bytes'},body:wav});
+  const start=Number(range[1]),end=Math.min(Number(range[2]||wav.length-1),wav.length-1);
+  return route.fulfill({status:206,contentType:'audio/wav',headers:{'Accept-Ranges':'bytes','Content-Range':`bytes ${start}-${end}/${wav.length}`},body:wav.subarray(start,end+1)});
+ });
+}
 
 test('recorded voices keep sentence position, real duration and stable account-synced controls',async({page})=>{
  await start(page);await seek(page,110);await page.getByRole('button',{name:'Pause',exact:true}).click();
@@ -50,6 +69,57 @@ test('recorded voices keep sentence position, real duration and stable account-s
  expect(await control.evaluate(el=>el.isConnected&&el===document.activeElement)).toBe(true);
  await expect(page.locator('.audio-options')).toBeVisible();await expect(page.getByLabel('Playback speed',{exact:true})).toHaveValue('1.5');
  await page.getByRole('button',{name:'Pause',exact:true}).click();await expect(page.locator('.recording-status')).toHaveText('Paused');
+});
+
+test('a rendered Pause action stays paused when native seeking temporarily reports paused',async({page})=>{
+ await start(page);await seek(page,110);
+ await expect(page.getByRole('button',{name:'Pause',exact:true})).toBeVisible();
+ await page.evaluate(()=>{
+  const media=mediaProbe.media[1],play=media.play.bind(media),pause=media.pause.bind(media);
+  window.transportRace={playCalls:0,pauseCalls:0};
+  media.play=()=>{transportRace.playCalls++;return play()};
+  media.pause=()=>{transportRace.pauseCalls++;return pause()};
+  Object.defineProperty(media,'paused',{configurable:true,get:()=>true});
+ });
+ await page.getByRole('button',{name:'Pause',exact:true}).click();
+ expect(await page.evaluate(()=>({play:transportRace.playCalls,pause:transportRace.pauseCalls}))).toEqual({play:0,pause:1});
+ expect(await page.evaluate(()=>{const media=mediaProbe.media[1];delete media.paused;return media.paused})).toBe(true);
+ await page.getByRole('button',{name:'Audio options',exact:true}).click();
+ await page.getByLabel('Document voice',{exact:true}).selectOption('male');
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ await expect(page.getByRole('button',{name:'Play',exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>transportRace.playCalls)).toBe(0);
+});
+
+test('pausing a pending play ignores its cancellation and prevents late playback',async({page})=>{
+ await start(page);await page.getByRole('button',{name:'Pause',exact:true}).click();
+ await page.evaluate(()=>{
+  const media=mediaProbe.media[1],play=media.play.bind(media),pause=media.pause.bind(media);
+  window.pendingPlayback={pauseCalls:0};
+  media.play=()=>{media.play=play;return new Promise((resolve,reject)=>{pendingPlayback.cancel=()=>reject(new DOMException('Playback was paused','AbortError'))})};
+  media.pause=()=>{pendingPlayback.pauseCalls++;return pause()};
+ });
+ const control=await page.getByRole('button',{name:'Play',exact:true}).elementHandle();
+ await control.focus();await control.press('Enter');
+ await expect(page.getByRole('button',{name:'Pause',exact:true})).toBeVisible();
+ expect(await control.evaluate(el=>el.isConnected&&el===document.activeElement)).toBe(true);
+ await page.getByRole('button',{name:'Pause',exact:true}).click();
+ await page.evaluate(()=>{pendingPlayback.cancel();mediaProbe.media[1].dispatchEvent(new Event('playing'))});
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ await expect(page.getByRole('button',{name:'Play',exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Retry audio',exact:true})).toHaveCount(0);
+ expect(await page.evaluate(()=>pendingPlayback.pauseCalls)).toBeGreaterThanOrEqual(2);
+ expect(await page.evaluate(()=>mediaProbe.media[1].paused)).toBe(true);
+});
+
+test('native pause updates transport intent before changing voices',async({page})=>{
+ await start(page);await page.evaluate(()=>mediaProbe.media[1].pause());
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ await expect(page.getByRole('button',{name:'Play',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Audio options',exact:true}).click();
+ await page.getByLabel('Document voice',{exact:true}).selectOption('male');
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ expect(await page.evaluate(()=>mediaProbe.media[1].paused)).toBe(true);
 });
 
 test('text seeking resumes paused audio and collapses controls without opening menus',async({page})=>{
@@ -102,27 +172,148 @@ test('account progress offers resume and restart and case tiles expose audio ava
  await page.getByRole('button',{name:'Application & Responses',exact:true}).click();await expect(page.getByRole('img',{name:'Audio unavailable',exact:true}).first()).toBeVisible();
 });
 
+test('account resume restores the saved voice and exact recording position on a fresh device',async({page})=>{
+ await page.evaluate(()=>localStorage.setItem('court-reader-v1',JSON.stringify({audioVoice:'female'})));
+ await page.reload();await expect(page.locator('.prepared-paragraph').first()).toBeVisible();await expect(page.locator('body')).toHaveAttribute('data-signed-in','true');
+ const prepared=await (await page.request.get('/data/prepared-documents.json')).json(),recordings=prepared[documentId].recordings;
+ const {cues}=await (await page.request.get('/'+recordings.male.cuesPath)).json(),seconds=110.25;
+ const cue=cues.find(c=>c.start<=seconds&&c.end>seconds);
+ const progress={kind:'document',docId:documentId,seconds,voice:'male',recording:recordings.male.url,text:cue.text,page:cue.ranges[0].page,sourceStart:cue.ranges[0].start,offset:seconds-cue.start,savedAt:Date.now()};
+ await page.evaluate(({id,progress})=>{
+  accountHarness.receive({audioProgress:{['audio:document:'+id]:progress}});
+  const media=mediaProbe.media[1],play=media.play.bind(media);
+  media.play=()=>{window.resumeStart={time:media.currentTime,src:media.querySelector('source')?.getAttribute('src')};return play()};
+ },{id:documentId,progress});
+ await page.getByRole('button',{name:'Audio',exact:true}).click();
+ await page.getByRole('button',{name:'Resume document · 1:50',exact:true}).click();
+ await expect(page.locator('.recording-status')).toHaveText('Reading');
+ expect(await page.evaluate(()=>resumeStart.src)).toBe(recordings.male.url);
+ expect(await page.evaluate(()=>resumeStart.time)).toBeCloseTo(seconds,2);
+ expect(await page.evaluate(()=>mediaProbe.media[1].currentTime)).toBeGreaterThanOrEqual(seconds);
+ expect(Math.abs(await page.evaluate(()=>mediaProbe.media[1].duration)-recordings.male.duration)).toBeLessThan(.15);
+ await page.getByRole('button',{name:'Pause',exact:true}).click();
+ await page.getByRole('button',{name:'Audio options',exact:true}).click();
+ await expect(page.getByLabel('Document voice',{exact:true})).toHaveValue('male');
+ await page.evaluate(({id,progress})=>accountHarness.receive({audioProgress:{['audio:document:'+id]:progress}}),{id:documentId,progress});
+ await page.getByLabel('Document voice',{exact:true}).selectOption('female');
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ await expect(page.getByLabel('Document voice',{exact:true})).toHaveValue('female');
+ expect(await page.evaluate(()=>mediaProbe.media[1].querySelector('source').getAttribute('src'))).toBe(recordings.female.url);
+ await page.getByRole('button',{name:'Stop audio',exact:true}).click();
+ await page.evaluate(({id,progress})=>accountHarness.receive({audioProgress:{['audio:document:'+id]:progress}}),{id:documentId,progress});
+ await page.getByRole('button',{name:'Audio',exact:true}).click();
+ await page.getByRole('button',{name:'Restart document',exact:true}).click();
+ await expect(page.locator('.recording-status')).toHaveText('Reading');
+ expect(await page.evaluate(()=>resumeStart.src)).toBe(recordings.female.url);
+ expect(await page.evaluate(()=>resumeStart.time)).toBe(0);
+});
+
 test('oral arguments retain their transcript tab, speaker portrait and compact controls',async({page})=>{
- // Route a real media container with byte ranges; transcript data and native
- // playback stay real while the Court's external recording server is isolated.
- const rate=12000,seconds=90,samples=rate*seconds,wav=Buffer.alloc(44+samples*2);
- wav.write('RIFF');wav.writeUInt32LE(wav.length-8,4);wav.write('WAVEfmt ',8);wav.writeUInt32LE(16,16);wav.writeUInt16LE(1,20);wav.writeUInt16LE(1,22);wav.writeUInt32LE(rate,24);wav.writeUInt32LE(rate*2,28);wav.writeUInt16LE(2,32);wav.writeUInt16LE(16,34);wav.write('data',36);wav.writeUInt32LE(samples*2,40);
- for(let i=0;i<samples;i++)wav.writeInt16LE(Math.round(200*Math.sin(i*.1)),44+i*2);
- await page.route('**/media/audio/mp3files/**',route=>{
-  const range=/^bytes=(\d+)-(\d*)$/.exec(route.request().headers().range||'');
-  if(!range)return route.fulfill({contentType:'audio/wav',headers:{'Accept-Ranges':'bytes'},body:wav});
-  const start=Number(range[1]),end=Math.min(Number(range[2]||wav.length-1),wav.length-1);
-  return route.fulfill({status:206,contentType:'audio/wav',headers:{'Accept-Ranges':'bytes','Content-Range':`bytes ${start}-${end}/${wav.length}`},body:wav.subarray(start,end+1)});
- });
+ await routeArgumentAudio(page,'**/media/audio/mp3files/**');
  await page.goto('/#/reader/25-966?doc=25-966-b19029b6064a');await expect(page.locator('.document-title')).toBeVisible({timeout:20000});
  await page.getByRole('button',{name:'Audio',exact:true}).click();await page.getByRole('button',{name:'Oral argument',exact:true}).click();
  await expect(page.locator('.recording-status')).toHaveText('Court recording',{timeout:15000});
+ await expect(page.locator('.conversation-header h2')).toHaveText('Oral Argument');
+ await expect(page.locator('.conversation-header p')).toHaveText('Nov 10, 2026');
  await expect(page.locator('[role=tab]').filter({hasText:'Transcript'}).filter({visible:true}).first()).toBeVisible();
  await expect(page.locator('#audio-speaker-portrait img')).toBeVisible();
  await page.getByRole('button',{name:'Pause',exact:true}).click();await expect(page.locator('.recording-status')).toHaveText('Paused');
  await page.locator('.conversation-header h2').click();await expect(page.getByRole('button',{name:'Audio',exact:true})).toHaveAttribute('aria-expanded','false');
  await expect(page.locator('#audio-speaker-portrait img')).toBeVisible();
  await page.getByRole('button',{name:'Play',exact:true}).click();await page.getByRole('button',{name:'Audio',exact:true}).click();await expect(page.locator('.recording-status')).toHaveText('Court recording');
+});
+
+test('official aligned argument transcripts retain the source filing date and PDF',async({page})=>{
+ const alignment=await sourceData(page,'/data/argument-alignment.json'),current=await sourceData(page,'/data/current-term.json');
+ const expected=Object.entries(alignment).flatMap(([caseId,record])=>record.sessions.filter(s=>s.timingMethod==='speech-aligned'&&!s.title.includes(' - ')).map(session=>{
+  const filings=current.cases.find(c=>c.id===caseId).documents.filter(d=>d.category==='Argument'&&!d.auxiliary);expect(filings).toHaveLength(1);
+  const source=filings[0];return {id:caseId+'-argument-'+session.id,title:'Transcript',date:source.date,pdf:source.id,url:source.sourceUrl};
+ }));
+ expect(expected.length).toBeGreaterThan(0);
+ expect(await page.evaluate(expected=>expected.map(({id})=>{const d=__court.docs.get(id);return {id,title:d.title,date:d.date,pdf:d.pdfSourceId,url:d.sourceUrl}}),expected)).toEqual(expected);
+});
+
+test('pausing pending argument playback ignores cancellation and allows playing again',async({page})=>{
+ await routeArgumentAudio(page,'**/media/audio/mp3files/**');
+ await page.goto('/#/reader/25-966?doc=25-966-b19029b6064a');await expect(page.locator('.document-title')).toBeVisible();
+ await page.evaluate(()=>{
+  const media=mediaProbe.media[0],play=media.play.bind(media);
+  media.play=()=>{media.play=play;return new Promise((resolve,reject)=>{window.cancelArgumentPlay=()=>reject(new DOMException('Playback was paused','AbortError'));play().catch(reject)})};
+ });
+ await page.getByRole('button',{name:'Audio',exact:true}).click();await page.getByRole('button',{name:'Oral argument',exact:true}).click();
+ await expect(page.locator('.recording-status')).toHaveText('Court recording');
+ await page.getByRole('button',{name:'Pause',exact:true}).click();
+ await page.evaluate(()=>cancelArgumentPlay());
+ await expect(page.locator('.recording-status')).toHaveText('Paused');
+ await expect(page.getByRole('button',{name:'Retry audio',exact:true})).toHaveCount(0);
+ expect(await page.evaluate(()=>mediaProbe.media[0].paused)).toBe(true);
+ await page.getByRole('button',{name:'Play',exact:true}).click();
+ await expect(page.locator('.recording-status')).toHaveText('Court recording');
+});
+
+test('argument account resume restores the latest session and retry keeps its source and position',async({page})=>{
+ const alignment=await sourceData(page,'/data/argument-alignment.json'),[first,second]=alignment['24-109'].sessions;
+ await routeArgumentAudio(page,'**/oyez.case-media.mp3/**');
+ let failed=true;await page.route(second.audioUrl,route=>failed?route.abort():route.fallback());
+ await page.goto('/#/reader/24-109?doc=24-109-argument-'+first.id);await expect(page.locator('.conversation-header')).toBeVisible();
+ await expect(page.locator('body')).toHaveAttribute('data-signed-in','true');
+ const audioProgress=Object.fromEntries([first,second].map((s,i)=>['audio:argument:24-109:'+s.id,{kind:'argument',caseId:'24-109',session:s.id,seconds:i?42.25:20,savedAt:Date.now()+i*1000}]));
+ audioProgress['audio:argument:24-110:'+second.id]={kind:'argument',caseId:'24-110',session:second.id,seconds:60,savedAt:Date.now()+2000};
+ await page.evaluate(audioProgress=>{
+  accountHarness.receive({audioProgress});const media=mediaProbe.media[0],play=media.play.bind(media);window.argumentStarts=[];
+  media.play=()=>{argumentStarts.push({src:media.src,time:media.currentTime});return play()};
+ },audioProgress);
+ await page.getByRole('button',{name:'Audio',exact:true}).click();
+ await expect(page.getByRole('button',{name:'Resume argument · 0:42',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Resume argument · 0:42',exact:true}).click();
+ await expect(page.getByRole('button',{name:'Retry audio',exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>argumentStarts[0])).toEqual({src:second.audioUrl,time:42.25});
+ failed=false;await page.getByRole('button',{name:'Retry audio',exact:true}).click();
+ await expect(page.locator('.recording-status')).toHaveText('Court recording');
+ expect(await page.evaluate(()=>argumentStarts.at(-1))).toEqual({src:second.audioUrl,time:42.25});
+ await expect(page.locator('.conversation[data-document="24-109-argument-'+second.id+'"]')).toBeVisible();
+ await expect(page.locator('.conversation-header h2')).toHaveText('Transcript · Oct 15, 2025');
+ await page.getByRole('button',{name:'Audio options',exact:true}).click();await page.getByRole('button',{name:'Stop audio',exact:true}).click();
+ await page.evaluate(audioProgress=>accountHarness.receive({audioProgress}),audioProgress);
+ await page.getByRole('button',{name:'Audio',exact:true}).click();await page.getByRole('button',{name:'Restart argument',exact:true}).click();
+ await expect(page.locator('.recording-status')).toHaveText('Court recording');
+ expect(await page.evaluate(()=>argumentStarts.at(-1))).toEqual({src:first.audioUrl,time:0});
+ await page.getByRole('button',{name:'Audio options',exact:true}).click();await page.getByRole('button',{name:'Stop audio',exact:true}).click();
+ await page.evaluate(audioProgress=>accountHarness.receive({audioProgress}),audioProgress);
+ await page.locator('.conversation-header').getByRole('button',{name:'Listen',exact:true}).click();
+ await expect(page.locator('.recording-status')).toHaveText('Court recording');
+ expect(await page.evaluate(()=>argumentStarts.at(-1))).toEqual({src:first.audioUrl,time:0});
+});
+
+for(const caseId of ['24-109','24-110'])test(`${caseId} transcript sessions have dated labels and only matching original PDFs`,async({page})=>{
+ const first=caseId+'-argument-25800',second=caseId+'-argument-25842',sourceId='24-109-d2c8fd3b8a32';
+ const original='https://www.supremecourt.gov/oral_arguments/argument_transcripts/2025/24-109_5i36.pdf';
+ await page.goto('/#/case/'+caseId);await page.getByRole('button',{name:'Oral Argument',exact:true}).click();
+ await expect(page.getByRole('button',{name:'Transcript · Mar 24, 2025',exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Transcript · Oct 15, 2025',exact:true})).toBeVisible();
+ expect(await page.evaluate(([first,second])=>[first,second].map(id=>{const d=__court.docs.get(id);return {date:d.date,pdf:d.pdfSourceId||null,source:d.sourceUrl}}),[first,second])).toEqual([
+  {date:'2025-03-24',pdf:null,source:'https://api.oyez.org/case_media/oral_argument_audio/25800'},
+  {date:'2025-10-15',pdf:sourceId,source:original}
+ ]);
+ await page.getByRole('button',{name:'Transcript · Mar 24, 2025',exact:true}).click();
+ await expect(page.locator('.conversation-header h2')).toHaveText('Transcript · Mar 24, 2025');
+ await expect(page.locator('[role=tab][data-value="'+first+'"]')).toContainText('Transcript · Mar 24, 2025');
+ await expect(page.locator('.transcript-credit a').filter({hasText:'Oyez'})).toHaveAttribute('href','https://www.oyez.org/cases/2025/24-109');
+ await page.getByRole('button',{name:'View',exact:true}).click();
+ await expect(page.getByRole('button',{name:'PDF',exact:true})).toHaveCount(0);
+ await expect(page.getByRole('link',{name:'Open original PDF in new tab',exact:true})).toHaveCount(0);
+ await page.getByRole('button',{name:'View',exact:true}).click();
+ await page.getByRole('button',{name:'Documents',exact:true}).click();
+ await expect(page.locator('.explorer-document-main').filter({hasText:'Transcript · Mar 24, 2025'})).toBeVisible();
+ await page.locator('.explorer-document-main').filter({hasText:'Transcript · Oct 15, 2025'}).click();
+ if(page.viewportSize().width<=760&&await page.locator('.sidebar [data-action=close-side]').isVisible())await page.locator('.sidebar [data-action=close-side]').click();
+ await expect(page.locator('.conversation-header h2')).toHaveText('Transcript · Oct 15, 2025');
+ await expect(page.locator('[role=tab][data-value="'+first+'"]')).toContainText('Transcript · Mar 24, 2025');
+ await expect(page.locator('[role=tab][data-value="'+second+'"]')).toContainText('Transcript · Oct 15, 2025');
+ await page.getByRole('button',{name:'View',exact:true}).click();
+ await expect(page.getByRole('button',{name:'PDF',exact:true})).toBeVisible();
+ await expect(page.getByRole('link',{name:'Open original PDF in new tab',exact:true})).toHaveAttribute('href',original);
+ await page.getByRole('button',{name:'View',exact:true}).click();
 });
 
 test('homepage and reading view load no PDF or unrelated document text',async({page})=>{

@@ -1,0 +1,4123 @@
+{
+  "reviewed": true,
+  "documentId": "24-1046-83b323fda5e8--5-86",
+  "sourceDocumentId": "24-1046-83b323fda5e8",
+  "sourceTextPath": "dist/data/docs/24-1046-83b323fda5e8.json",
+  "sourceTextSha256": "ea4d55c7425417d4c9b1780f2d22193e834114e65a00ac14e0653c61636665a7",
+  "sourcePdfPath": "dist/data/pdfs/24-1046-83b323fda5e8--5-86.pdf",
+  "sourcePdfSha256": "f4c6f4731295eeabd0feb817234bd7dab1054f80489235e29fc1df32f4adf1a7",
+  "title": "Opinion of the Court",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2026-06-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r58_a8cf.pdf",
+  "sourceRange": {
+    "startPage": 5,
+    "startOffset": 136,
+    "endPage": 28,
+    "endOffset": 1757
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 136,
+          "end": 253
+        },
+        {
+          "page": 6,
+          "start": 42,
+          "end": 681
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 141,
+          "end": 191,
+          "text": "New York State Rifle & Pistol Assn., Inc. v. Bruen",
+          "type": "case",
+          "canonical": "597 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 191,
+          "end": 212,
+          "text": ", 597 U. S. 1 (2022),",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 681,
+          "end": 1504
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 266
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 266,
+          "end": 454
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 454,
+          "end": 455
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 456,
+          "end": 615
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1473,
+          "end": 1528
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 616,
+          "end": 722
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 722,
+          "end": 723
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 724,
+          "end": 725
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 726,
+          "end": 1113
+        }
+      ],
+      "citations": [
+        {
+          "start": 334,
+          "end": 364,
+          "text": "District of Columbia v. Heller",
+          "type": "case",
+          "canonical": "554 U.S. 570",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 364,
+          "end": 387,
+          "text": ", 554 U. S. 570 (2008).",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1113,
+          "end": 1405
+        }
+      ],
+      "citations": [
+        {
+          "start": 200,
+          "end": 212,
+          "text": "Id., at 575.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1530,
+          "end": 1769
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 78,
+          "text": "See, e. g., Brief for Buckeye Firearms Foundation et al. as Amici Curiae 8–11,",
+          "type": "record",
+          "canonical": "See, e. g., Brief for Buckeye Firearms Foundation et al. as Amici Curiae 8–11,"
+        },
+        {
+          "start": 79,
+          "end": 132,
+          "text": "Brief for Criminologists et al. as Amici Curiae 6–17,",
+          "type": "record",
+          "canonical": "Brief for Criminologists et al. as Amici Curiae 6–17,"
+        },
+        {
+          "start": 133,
+          "end": 238,
+          "text": "and Brief for Academics as Amicus Curiae 5–17, in District of Columbia v. Heller, O. T. 2007, No. 07–290.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1406,
+          "end": 1471
+        },
+        {
+          "page": 8,
+          "start": 73,
+          "end": 658
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 118,
+          "text": "Id., at 575–576.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 382,
+          "end": 387,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 537,
+          "end": 542,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 646,
+          "end": 651,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 658,
+          "end": 1497
+        }
+      ],
+      "citations": [
+        {
+          "start": 359,
+          "end": 375,
+          "text": "Id., at 579–581.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 592,
+          "end": 608,
+          "text": "Id., at 583–585.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 685,
+          "end": 697,
+          "text": "Id., at 581.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 828,
+          "end": 840,
+          "text": "Id., at 628.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1497,
+          "end": 1836
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 134,
+          "text": "Id., at 577, 581, 599, 628, 635.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 8,
+          "start": 2048,
+          "end": 2171
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 123,
+          "text": "See, e. g., C. Cramer, Armed in America: The Remarkable Story of How and Why Guns Became as American as Apple Pie 3 (2006).",
+          "type": "record",
+          "canonical": "See, e. g., C. Cramer, Armed in America: The Remarkable Story of How and Why Guns Became as American as Apple Pie 3 (2006)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1837,
+          "end": 2046
+        },
+        {
+          "page": 9,
+          "start": 55,
+          "end": 169
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1654,
+          "end": 1908
+        }
+      ],
+      "citations": [
+        {
+          "start": 154,
+          "end": 172,
+          "text": "554 U. S., at 599,",
+          "type": "record",
+          "canonical": "554 U. S., at 599,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 171,
+          "end": 1007
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 228,
+          "text": "Id., at 592.",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 394,
+          "end": 411,
+          "text": "Id., at 592, 626.",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 694,
+          "end": 706,
+          "text": "Id., at 626;",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 707,
+          "end": 786,
+          "text": "see also McDonald v. Chicago, 561 U. S. 742, 786 (2010) (opinion of Alito, J.);",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        },
+        {
+          "start": 787,
+          "end": 838,
+          "text": "United States v. Rahimi, 602 U. S. 680, 699 (2024).",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1007,
+          "end": 1008
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1009,
+          "end": 1650
+        }
+      ],
+      "citations": [
+        {
+          "start": 335,
+          "end": 353,
+          "text": "554 U. S., at 634.",
+          "type": "record",
+          "canonical": "554 U. S., at 634."
+        },
+        {
+          "start": 589,
+          "end": 600,
+          "text": "id., at 635",
+          "type": "record",
+          "canonical": "id., at 635"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1910,
+          "end": 2123
+        },
+        {
+          "page": 10,
+          "start": 1625,
+          "end": 1856
+        }
+      ],
+      "citations": [
+        {
+          "start": 386,
+          "end": 444,
+          "text": "See Heller, 554 U. S., at 692–693 (opinion of Breyer, J.).",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 42,
+          "end": 43
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 44,
+          "end": 481
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 481,
+          "end": 594
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1858,
+          "end": 2035
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 56,
+          "text": "See Brief for Heartland Institute as Amicus Curiae 6–10,",
+          "type": "record",
+          "canonical": "See Brief for Heartland Institute as Amicus Curiae 6–10,"
+        },
+        {
+          "start": 57,
+          "end": 176,
+          "text": "and Brief for Buckeye Firearms Foundation et al. as Amici Curiae 8–15, in McDonald v. Chicago, O. T. 2008, No. 08–1521.",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 595,
+          "end": 1042
+        }
+      ],
+      "citations": [
+        {
+          "start": 166,
+          "end": 194,
+          "text": "McDonald, 561 U. S., at 751.",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        },
+        {
+          "start": 423,
+          "end": 445,
+          "text": "561 U. S., at 752–753.",
+          "type": "record",
+          "canonical": "561 U. S., at 752–753."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1042,
+          "end": 1625
+        },
+        {
+          "page": 11,
+          "start": 55,
+          "end": 717
+        }
+      ],
+      "citations": [
+        {
+          "start": 274,
+          "end": 358,
+          "text": "See Brief for Respondent in McDonald v. Chicago, O. T. 2009, No. 08–1521, pp. 24–31.",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        },
+        {
+          "start": 640,
+          "end": 668,
+          "text": "McDonald, 561 U. S., at 750.",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        },
+        {
+          "start": 850,
+          "end": 866,
+          "text": "Id., at 767–787.",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        },
+        {
+          "start": 1015,
+          "end": 1087,
+          "text": "Id., at 805–806 (opinion concurring in part and concurring in judgment).",
+          "type": "case",
+          "canonical": "561 U.S. 742"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 11,
+          "start": 717,
+          "end": 718
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 719,
+          "end": 1000
+        }
+      ],
+      "citations": [
+        {
+          "start": 245,
+          "end": 280,
+          "text": "See Bruen, 597 U. S., at 18–19, 26.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1000,
+          "end": 1275
+        }
+      ],
+      "citations": [
+        {
+          "start": 260,
+          "end": 275,
+          "text": "See id., at 10.",
+          "type": "record",
+          "canonical": "See id., at 10."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1275,
+          "end": 1926
+        }
+      ],
+      "citations": [
+        {
+          "start": 159,
+          "end": 170,
+          "text": "Id., at 24.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 324,
+          "end": 350,
+          "text": "Heller, 554 U. S., at 580.",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 467,
+          "end": 483,
+          "text": "See id., at 584.",
+          "type": "record",
+          "canonical": "See id., at 584."
+        },
+        {
+          "start": 619,
+          "end": 650,
+          "text": "See Bruen, 597 U. S., at 32–33.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "keep[ing]",
+          "to": "keeping"
+        },
+        {
+          "from": "bear[ing]",
+          "to": "bearing"
+        },
+        {
+          "from": "i. e.",
+          "to": "that is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 42,
+          "end": 558
+        }
+      ],
+      "citations": [
+        {
+          "start": 111,
+          "end": 121,
+          "text": "id., at 24",
+          "type": "record",
+          "canonical": "id., at 24"
+        },
+        {
+          "start": 508,
+          "end": 517,
+          "text": "See ibid.",
+          "type": "record",
+          "canonical": "See ibid."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 558,
+          "end": 1663
+        }
+      ],
+      "citations": [
+        {
+          "start": 67,
+          "end": 85,
+          "text": "See id., at 34–60.",
+          "type": "record",
+          "canonical": "See id., at 34–60."
+        },
+        {
+          "start": 162,
+          "end": 173,
+          "text": "Id., at 28.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 597,
+          "end": 611,
+          "text": "See id., at 67",
+          "type": "record",
+          "canonical": "See id., at 67"
+        },
+        {
+          "start": 717,
+          "end": 751,
+          "text": "(citing Heller, 554 U. S., at 632)",
+          "type": "case",
+          "canonical": "554 U.S. 570"
+        },
+        {
+          "start": 1048,
+          "end": 1107,
+          "text": "Bruen, 597 U. S., at 36 (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[W]e",
+          "to": "We"
+        },
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1663,
+          "end": 2189
+        },
+        {
+          "page": 13,
+          "start": 55,
+          "end": 1016
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 104,
+          "end": 115,
+          "text": "Id., at 29.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 334,
+          "end": 339,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 499,
+          "end": 504,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 647,
+          "end": 658,
+          "text": "Id., at 30.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 1340,
+          "end": 1434,
+          "text": "Bruen, 597 U. S., at 22 (quoting Heller, 554 U. S., at 634; internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1016,
+          "end": 1512
+        }
+      ],
+      "citations": [
+        {
+          "start": 228,
+          "end": 245,
+          "text": "597 U. S., at 38.",
+          "type": "record",
+          "canonical": "597 U. S., at 38."
+        },
+        {
+          "start": 482,
+          "end": 497,
+          "text": "Id., at 62, 66.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1512,
+          "end": 1741
+        }
+      ],
+      "citations": [
+        {
+          "start": 168,
+          "end": 189,
+          "text": "See id., at 15, n. 2.",
+          "type": "record",
+          "canonical": "See id., at 15, n. 2."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "7",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1855,
+          "end": 1984
+        }
+      ],
+      "citations": [
+        {
+          "start": 99,
+          "end": 129,
+          "text": "Bruen, 597 U. S., at 15, n. 2.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1743,
+          "end": 1744
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1745,
+          "end": 1853
+        },
+        {
+          "page": 14,
+          "start": 42,
+          "end": 921
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 234,
+          "end": 257,
+          "text": "United States v. Rahimi",
+          "type": "case",
+          "canonical": "602 U.S. 680",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 257,
+          "end": 273,
+          "text": ", 602 U. S. 680,",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 295,
+          "end": 318,
+          "text": "18 U. S. C. § 922(g)(8)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922(g)(8)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 474,
+          "end": 510,
+          "text": ", see Rahimi, 602 U. S., at 684–685.",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 759,
+          "end": 770,
+          "text": "§ 922(g)(8)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 922(g)(8)",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 954,
+          "end": 989,
+          "text": "Rahimi, 602 U. S., at 692, 698–699.",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 922(g)(8)",
+          "to": "Section 922(g)(8)"
+        },
+        {
+          "from": "18 U. S. C. § 922",
+          "to": "Section 922 of Title 18"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        },
+        {
+          "from": "18 U. S. C. § 922(g)(8)",
+          "to": "Section 922(g)(8) of Title 18"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 921,
+          "end": 1197
+        }
+      ],
+      "citations": [
+        {
+          "start": 69,
+          "end": 111,
+          "text": ", see id., at 747 (opinion of Thomas, J.),",
+          "type": "record",
+          "canonical": "see id., at 747 (opinion of Thomas, J.),"
+        },
+        {
+          "start": 242,
+          "end": 275,
+          "text": ", see 554 U. S., at 626–628, 635.",
+          "type": "record",
+          "canonical": "see 554 U. S., at 626–628, 635."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1197,
+          "end": 1199
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1200,
+          "end": 1201
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1202,
+          "end": 1901
+        }
+      ],
+      "citations": [
+        {
+          "start": 164,
+          "end": 224,
+          "text": "Haw. Rev. Stat. §§ 134–2 (Cum. Supp. 2018), 134–9(a) (2011).",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–2"
+        },
+        {
+          "start": 305,
+          "end": 455,
+          "text": "See Young v. Hawaii, 896 F. 3d 1044, 1071, n. 21 (CA9 2018), reh'g en banc, 992 F. 3d 765 (2021), cert. granted, judgt. vacated, 597 U. S. 916 (2022).",
+          "type": "case",
+          "canonical": "597 U.S. 916"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "case[s]",
+          "to": "cases"
+        },
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 55,
+          "end": 611
+        }
+      ],
+      "citations": [
+        {
+          "start": 257,
+          "end": 305,
+          "text": "Commonwealth v. Power, 48 Mass. 596, 602 (1844);",
+          "type": "record",
+          "canonical": "Commonwealth v. Power, 48 Mass. 596, 602 (1844);"
+        },
+        {
+          "start": 306,
+          "end": 393,
+          "text": "see also, e. g., State v. Steele, 106 N. C. 766, 780–783, 11 S. E. 478, 484–485 (1890);",
+          "type": "record",
+          "canonical": "see also, e. g., State v. Steele, 106 N. C. 766, 780–783, 11 S. E. 478, 484–485 (1890);"
+        },
+        {
+          "start": 394,
+          "end": 473,
+          "text": "Barney v. Oyster Bay & Huntington Steamboat Co., 67 N. Y . 301, 302–303 (1876);",
+          "type": "record",
+          "canonical": "Barney v. Oyster Bay & Huntington Steamboat Co., 67 N. Y . 301, 302–303 (1876);"
+        },
+        {
+          "start": 474,
+          "end": 555,
+          "text": "Jencks v. Coleman, 13 F. Cas. 442, 443–444 (No. 7,258), (CC RI 1835) (Story, J.).",
+          "type": "record",
+          "canonical": "Jencks v. Coleman, 13 F. Cas. 442, 443–444 (No. 7,258), (CC RI 1835) (Story, J.)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 611,
+          "end": 1148
+        }
+      ],
+      "citations": [
+        {
+          "start": 296,
+          "end": 354,
+          "text": "See Cal. Penal Code Ann. § 26230(a)(26) (West Supp. 2026);",
+          "type": "statute",
+          "canonical": "Cal. Penal Code Ann. § 26230(a)(26) (West Supp. 2026)"
+        },
+        {
+          "start": 355,
+          "end": 391,
+          "text": "Haw. Rev. Stat. § 134–9.5(a) (2023);",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9.5(a) (2023)"
+        },
+        {
+          "start": 392,
+          "end": 440,
+          "text": "Md. Crim. Law Code Ann. § 6–411(d) (Supp. 2025);",
+          "type": "statute",
+          "canonical": "Md. Crim. Law Code Ann. § 6–411(d) (Supp. 2025)"
+        },
+        {
+          "start": 441,
+          "end": 490,
+          "text": "N. J. Stat. Ann. § 2C:58– 4.6(a)(24) (West 2024);",
+          "type": "statute",
+          "canonical": "N. J. Stat. Ann. § 2C:58– 4.6(a)(24) (West 2024)"
+        },
+        {
+          "start": 491,
+          "end": 539,
+          "text": "N. Y . Penal Law Ann. § 265.01–d(1) (West 2025).",
+          "type": "statute",
+          "canonical": "N. Y . Penal Law Ann. § 265.01–d(1) (West 2025)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1148,
+          "end": 1149
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1150,
+          "end": 1539
+        }
+      ],
+      "citations": [
+        {
+          "start": 248,
+          "end": 272,
+          "text": "Haw. Rev. Stat. § 134–9.",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9."
+        },
+        {
+          "start": 380,
+          "end": 391,
+          "text": "§ 134–9(g).",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9(g)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "8",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1563,
+          "end": 2057
+        },
+        {
+          "page": 16,
+          "start": 1672,
+          "end": 1777
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 157,
+          "text": "See Hawai'i Police Dept., Firearm Servs., https://www.hawaiipolice. gov/services/firearm-services/#license-to-carry (archived at https://perma. cc/A4G8-AEYB)",
+          "type": "record",
+          "canonical": "See Hawai'i Police Dept., Firearm Servs., https://www.hawaiipolice. gov/services/firearm-services/#license-to-carry (archived at https://perma. cc/A4G8-AEYB)"
+        },
+        {
+          "start": 159,
+          "end": 383,
+          "text": "License to Carry (Concealed and Unconcealed) Application Processing, https://www.hawaiipolice.gov/wpcontent/uploads/PM-12.3-License-to-Carry-Concealed-and-Unconcealed-Application.pdf (archived at https://perma.cc/MX8Z-3DMC )",
+          "type": "record",
+          "canonical": "License to Carry (Concealed and Unconcealed) Application Processing, https://www.hawaiipolice.gov/wpcontent/uploads/PM-12.3-License-to-Carry-Concealed-and-Unconcealed-Application.pdf (archived at https://perma.cc/MX8Z-3DMC )"
+        },
+        {
+          "start": 385,
+          "end": 597,
+          "text": "Authorization for Use or Disclosure of Protected Health Information (PHI), https://www.hawaiipolice.gov/wp -content/uploads/Authorization-for-Use-or-Disclosure-of-PHI.pdf (archived at https://perma.cc/H7AL-C8ED).",
+          "type": "record",
+          "canonical": "Authorization for Use or Disclosure of Protected Health Information (PHI), https://www.hawaiipolice.gov/wp -content/uploads/Authorization-for-Use-or-Disclosure-of-PHI.pdf (archived at https://perma.cc/H7AL-C8ED)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1540,
+          "end": 1561
+        },
+        {
+          "page": 16,
+          "start": 42,
+          "end": 383
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 223,
+          "end": 240,
+          "text": "§§ 134–9(d), (e).",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9(d)"
+        },
+        {
+          "start": 350,
+          "end": 361,
+          "text": "§ 134–9(h).",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9(h)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 383,
+          "end": 1257
+        }
+      ],
+      "citations": [
+        {
+          "start": 866,
+          "end": 879,
+          "text": "§ 134–9.1(a).",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9.1(a)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[a]ny",
+          "to": "any"
+        },
+        {
+          "from": "[state-owned]",
+          "to": "state-owned"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "9",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1779,
+          "end": 2219
+        }
+      ],
+      "citations": [
+        {
+          "start": 182,
+          "end": 270,
+          "text": "125 F. 4th 1230, 1233 (CA9 2025) (VanDyke, J., dissenting from denial of reh'g en banc).",
+          "type": "case",
+          "canonical": "125 F.4th 1230"
+        },
+        {
+          "start": 416,
+          "end": 440,
+          "text": "Brief for Respondent 41.",
+          "type": "case",
+          "canonical": "125 F.4th 1230"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1258,
+          "end": 1498
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1498,
+          "end": 1672
+        },
+        {
+          "page": 17,
+          "start": 55,
+          "end": 625
+        }
+      ],
+      "citations": [
+        {
+          "start": 185,
+          "end": 198,
+          "text": "§ 134–9.5(a).",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9.5(a)"
+        },
+        {
+          "start": 269,
+          "end": 296,
+          "text": ", §§ 134–9.5(d), 134–11(a),",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9.5(d)"
+        },
+        {
+          "start": 435,
+          "end": 448,
+          "text": "§ 134–9.5(a).",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9.5(a)"
+        },
+        {
+          "start": 733,
+          "end": 746,
+          "text": "§ 134–9.5(b).",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9.5(b)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[u]nambiguous",
+          "to": "unambiguous"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 17,
+          "start": 625,
+          "end": 628
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "III",
+          "to": "the Third"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 629,
+          "end": 1165
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1165,
+          "end": 1721
+        }
+      ],
+      "citations": [
+        {
+          "start": 219,
+          "end": 248,
+          "text": "125 F. 4th 1230, 1231 (2025).",
+          "type": "case",
+          "canonical": "125 F.4th 1230"
+        },
+        {
+          "start": 313,
+          "end": 318,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "125 F.4th 1230"
+        },
+        {
+          "start": 533,
+          "end": 555,
+          "text": "606 U. S. 1066 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 1066"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1721,
+          "end": 1723
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1724,
+          "end": 1725
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1726,
+          "end": 1836
+        },
+        {
+          "page": 18,
+          "start": 42,
+          "end": 175
+        }
+      ],
+      "citations": [
+        {
+          "start": 164,
+          "end": 194,
+          "text": ", see Bruen, 597 U. S., at 17,",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 175,
+          "end": 456
+        }
+      ],
+      "citations": [
+        {
+          "start": 269,
+          "end": 280,
+          "text": "Id., at 32.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "i. e.",
+          "to": "that is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 456,
+          "end": 1307
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1307,
+          "end": 1920
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1920,
+          "end": 2037
+        },
+        {
+          "page": 19,
+          "start": 86,
+          "end": 1014
+        }
+      ],
+      "citations": [
+        {
+          "start": 325,
+          "end": 422,
+          "text": "See Caetano v. Massachusetts, 577 U. S. 411, 412–413 (2016) (Alito , J., concurring in judgment).",
+          "type": "case",
+          "canonical": "577 U.S. 411"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Caetano",
+          "to": "Kai tah no"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1014,
+          "end": 1769
+        }
+      ],
+      "citations": [
+        {
+          "start": 588,
+          "end": 614,
+          "text": "Haw. Rev. Stat. § 134–9.7.",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9.7."
+        },
+        {
+          "start": 742,
+          "end": 756,
+          "text": "See § 134–9.3.",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9.3."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "caus[ing]",
+          "to": "causing"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1769,
+          "end": 2168
+        },
+        {
+          "page": 20,
+          "start": 73,
+          "end": 625
+        }
+      ],
+      "citations": [
+        {
+          "start": 820,
+          "end": 830,
+          "text": "§ 134–9.7.",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9.7."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 625,
+          "end": 1181
+        }
+      ],
+      "citations": [
+        {
+          "start": 252,
+          "end": 267,
+          "text": "See § 134–10.5.",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–10.5."
+        },
+        {
+          "start": 489,
+          "end": 556,
+          "text": "See Caetano, 577 U. S., at 413 (Alito, J., concurring in judgment).",
+          "type": "case",
+          "canonical": "577 U.S. 411"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Caetano",
+          "to": "Kai tah no"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1181,
+          "end": 1747
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1747,
+          "end": 2150
+        }
+      ],
+      "citations": [
+        {
+          "start": 235,
+          "end": 258,
+          "text": "Brief for Respondent 9.",
+          "type": "record",
+          "canonical": "Brief for Respondent 9."
+        },
+        {
+          "start": 391,
+          "end": 404,
+          "text": "Id., at 9–27.",
+          "type": "record",
+          "canonical": "Brief for Respondent"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 55,
+          "end": 336
+        }
+      ],
+      "citations": [
+        {
+          "start": 223,
+          "end": 240,
+          "text": "597 U. S., at 24.",
+          "type": "record",
+          "canonical": "597 U. S., at 24."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 21,
+          "start": 336,
+          "end": 337
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 338,
+          "end": 1180
+        }
+      ],
+      "citations": [
+        {
+          "start": 262,
+          "end": 286,
+          "text": "Brief for Respondent 24.",
+          "type": "record",
+          "canonical": "Brief for Respondent 24."
+        },
+        {
+          "start": 436,
+          "end": 485,
+          "text": "See Florida v. Jardines, 569 U. S. 1, 7–8 (2013).",
+          "type": "case",
+          "canonical": "569 U.S. 1"
+        },
+        {
+          "start": 620,
+          "end": 634,
+          "text": "See id., at 8.",
+          "type": "record",
+          "canonical": "See id., at 8."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "10",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1599,
+          "end": 1977
+        }
+      ],
+      "citations": [
+        {
+          "start": 147,
+          "end": 174,
+          "text": "Brief for Respondent 20–21.",
+          "type": "record",
+          "canonical": "Brief for Respondent 20–21."
+        },
+        {
+          "start": 245,
+          "end": 299,
+          "text": "See, e. g., Haw. Rev. Stat. §§ 708–813, 708–814 (2025)",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 708–813"
+        },
+        {
+          "start": 335,
+          "end": 349,
+          "text": "§ 489–2 (2019)",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 489–2"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1183,
+          "end": 1463
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "III",
+          "to": "the Third"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "11",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1980,
+          "end": 2145
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 164,
+          "text": "See Translation of the Constitution and Laws of the Hawaiian Islands, Established in the Reign of Kamehameha III, in Hawaiian Laws 1841– 1842, ch. 42, p. 98 (1842).",
+          "type": "record",
+          "canonical": "See Translation of the Constitution and Laws of the Hawaiian Islands, Established in the Reign of Kamehameha III, in Hawaiian Laws 1841– 1842, ch. 42, p. 98 (1842)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1465,
+          "end": 1596
+        },
+        {
+          "page": 22,
+          "start": 42,
+          "end": 862
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 147,
+          "end": 208,
+          "text": "See, e. g., Act of May 25, 1852, § 1, 1852 Haw. Sess. Laws 19",
+          "type": "record",
+          "canonical": "See, e. g., Act of May 25, 1852, § 1, 1852 Haw. Sess. Laws 19"
+        },
+        {
+          "start": 268,
+          "end": 373,
+          "text": "Haw. Rev. Laws, ch. 209, § 3089 (1905), as amended by Act of Mar. 19, 1913, § 1, 1913 Haw. Sess. Laws 25.",
+          "type": "record",
+          "canonical": "Haw. Rev. Laws, ch. 209, § 3089 (1905), as amended by Act of Mar. 19, 1913, § 1, 1913 Haw. Sess. Laws 25"
+        },
+        {
+          "start": 542,
+          "end": 576,
+          "text": "Haw. Rev. Stat. § 134–9(a) (2022).",
+          "type": "statute",
+          "canonical": "Haw. Rev. Stat. § 134–9(a)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "show[ed]",
+          "to": "showed"
+        },
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 862,
+          "end": 1503
+        }
+      ],
+      "citations": [
+        {
+          "start": 259,
+          "end": 281,
+          "text": "561 U. S., at 784–785.",
+          "type": "record",
+          "canonical": "561 U. S., at 784–785."
+        },
+        {
+          "start": 335,
+          "end": 404,
+          "text": ", contra, State v. Wilson, 154 Haw. 8, 27, 543 P. 3d 440, 459 (2024),",
+          "type": "case",
+          "canonical": "154 Haw. 8"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Bruen",
+          "to": "Broo en"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "12",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1677,
+          "end": 1814
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 135,
+          "text": "RAND, Gun Ownership in America, https://www.rand.org/research/ gun-policy/gun-ownership.html (archived at https://perma.cc/WR9W -YCSN).",
+          "type": "record",
+          "canonical": "RAND, Gun Ownership in America, https://www.rand.org/research/ gun-policy/gun-ownership.html (archived at https://perma.cc/WR9W -YCSN)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1505,
+          "end": 1671
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "13",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1817,
+          "end": 2249
+        },
+        {
+          "page": 23,
+          "start": 992,
+          "end": 1751
+        }
+      ],
+      "citations": [
+        {
+          "start": 102,
+          "end": 140,
+          "text": "Post, at 231 (opinion of Jackson, J.).",
+          "type": "case",
+          "canonical": "609 U.S. 185"
+        },
+        {
+          "start": 591,
+          "end": 652,
+          "text": "See, e.g., Reed v. Town of Gilbert, 576 U. S. 155, 159 (2015)",
+          "type": "case",
+          "canonical": "576 U.S. 155"
+        },
+        {
+          "start": 703,
+          "end": 762,
+          "text": "City of Ladue v. Gilleo, 512 U. S. 43, 45 (1994) (similar).",
+          "type": "case",
+          "canonical": "512 U.S. 43"
+        },
+        {
+          "start": 845,
+          "end": 897,
+          "text": "See, e. g., Buchanan v. Warley, 245 U. S. 60 (1917).",
+          "type": "case",
+          "canonical": "245 U.S. 60"
+        },
+        {
+          "start": 1022,
+          "end": 1078,
+          "text": "Tyler v. Hennepin County, 598 U. S. 631, 638–639 (2023).",
+          "type": "case",
+          "canonical": "598 U.S. 631"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]his",
+          "to": "this"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 55,
+          "end": 753
+        }
+      ],
+      "citations": [
+        {
+          "start": 250,
+          "end": 268,
+          "text": "See supra, at 196;",
+          "type": "record",
+          "canonical": "See supra, at 196;"
+        },
+        {
+          "start": 269,
+          "end": 292,
+          "text": "Bruen, 597 U. S., at 39",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        },
+        {
+          "start": 486,
+          "end": 504,
+          "text": "(emphasis deleted)",
+          "type": "record",
+          "canonical": "(emphasis deleted)"
+        },
+        {
+          "start": 621,
+          "end": 632,
+          "text": "Id., at 67.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "14",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1754,
+          "end": 2193
+        }
+      ],
+      "citations": [
+        {
+          "start": 27,
+          "end": 46,
+          "text": "Florida v. Jardines",
+          "type": "case",
+          "canonical": "569 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 46,
+          "end": 67,
+          "text": ", 569 U. S. 1 (2013),",
+          "type": "case",
+          "canonical": "569 U.S. 1"
+        },
+        {
+          "start": 72,
+          "end": 86,
+          "text": "McKee v. Gratz",
+          "type": "case",
+          "canonical": "260 U.S. 127",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 86,
+          "end": 109,
+          "text": ", 260 U. S. 127 (1922),",
+          "type": "case",
+          "canonical": "260 U.S. 127"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 23,
+          "start": 756,
+          "end": 757
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 23,
+          "start": 758,
+          "end": 759
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 760,
+          "end": 992
+        },
+        {
+          "page": 24,
+          "start": 42,
+          "end": 200
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "15",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1322,
+          "end": 2208
+        }
+      ],
+      "citations": [
+        {
+          "start": 145,
+          "end": 174,
+          "text": "See Brief for Petitioners 31;",
+          "type": "record",
+          "canonical": "See Brief for Petitioners 31;"
+        },
+        {
+          "start": 175,
+          "end": 219,
+          "text": "Brief for United States as Amicus Curiae 30.",
+          "type": "record",
+          "canonical": "Brief for United States as Amicus Curiae 30."
+        },
+        {
+          "start": 400,
+          "end": 428,
+          "text": "See Brief for Respondent 31;",
+          "type": "record",
+          "canonical": "See Brief for Respondent 31;"
+        },
+        {
+          "start": 429,
+          "end": 545,
+          "text": "M. Brady, Property v. Guns: The Level-of-Generality Problem in Wolford, 78 Stan. L. Rev. Online 156, 173–175 (2026).",
+          "type": "record",
+          "canonical": "M. Brady, Property v. Guns: The Level-of-Generality Problem in Wolford, 78 Stan. L. Rev. Online 156, 173–175 (2026)."
+        },
+        {
+          "start": 853,
+          "end": 886,
+          "text": "See infra, this page and 209–210.",
+          "type": "record",
+          "canonical": "See infra, this page and 209–210."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "amici",
+          "to": "ah mee kee"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 203,
+          "end": 1208
+        }
+      ],
+      "citations": [
+        {
+          "start": 403,
+          "end": 544,
+          "text": "1721 Pa. Laws, ch. 246, § 3, in 3 The Statutes at Large of Pennsylvania From 1682 to 1801, pp. 254–255 (J. Mitchell & H. Flanders eds. 1896).",
+          "type": "record",
+          "canonical": "1721 Pa. Laws, ch. 246, § 3, in 3 The Statutes at Large of Pennsylvania From 1682 to 1801, pp. 254–255 (J. Mitchell & H. Flanders eds. 1896)"
+        },
+        {
+          "start": 729,
+          "end": 741,
+          "text": "§ 2, at 255.",
+          "type": "record",
+          "canonical": "§ 2, at 255"
+        },
+        {
+          "start": 938,
+          "end": 1005,
+          "text": "Lara v. Commissioner Pa. State Police , 125 F. 4th 428, 443 (2025).",
+          "type": "case",
+          "canonical": "125 F.4th 428"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "divers[e]",
+          "to": "diverse"
+        },
+        {
+          "from": "ha[d]",
+          "to": "had"
+        },
+        {
+          "from": "ar[i]se",
+          "to": "arise"
+        },
+        {
+          "from": "[n]",
+          "to": "n"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1208,
+          "end": 1319
+        },
+        {
+          "page": 25,
+          "start": 55,
+          "end": 1157
+        }
+      ],
+      "citations": [
+        {
+          "start": 62,
+          "end": 213,
+          "text": "See An Act to Prevent the Killing of Deer out of Season, and against Carrying of Guns and Hunting by Persons not Qualified, 1722 N. J. Laws pp. 100–101",
+          "type": "record",
+          "canonical": "See An Act to Prevent the Killing of Deer out of Season, and against Carrying of Guns and Hunting by Persons not Qualified, 1722 N. J. Laws pp. 100–101"
+        },
+        {
+          "start": 749,
+          "end": 769,
+          "text": "1728 Md. Laws p. 13.",
+          "type": "record",
+          "canonical": "1728 Md. Laws p. 13."
+        },
+        {
+          "start": 1091,
+          "end": 1122,
+          "text": "1763 N. Y . Laws ch. 1233, § 1.",
+          "type": "record",
+          "canonical": "1763 N. Y . Laws ch. 1233, § 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[g]un",
+          "to": "gun"
+        },
+        {
+          "from": "[h]unt",
+          "to": "hunt"
+        },
+        {
+          "from": "[l]ands",
+          "to": "lands"
+        },
+        {
+          "from": "[p]lantatio",
+          "to": "plantatio"
+        },
+        {
+          "from": "[n]",
+          "to": "n"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1157,
+          "end": 1576
+        }
+      ],
+      "citations": [
+        {
+          "start": 393,
+          "end": 419,
+          "text": "1771 N. J. Laws pp. 25–26.",
+          "type": "record",
+          "canonical": "1771 N. J. Laws pp. 25–26."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "16",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1582,
+          "end": 2231
+        }
+      ],
+      "citations": [
+        {
+          "start": 202,
+          "end": 295,
+          "text": "B. Sawers, Keeping Up With the Joneses, 111 Mich. L. Rev. First Impressions 21, 25–26 (2013).",
+          "type": "record",
+          "canonical": "B. Sawers, Keeping Up With the Joneses, 111 Mich. L. Rev. First Impressions 21, 25–26 (2013)."
+        },
+        {
+          "start": 454,
+          "end": 485,
+          "text": "1771 N. J. Laws § 1, pp. 26–27.",
+          "type": "record",
+          "canonical": "1771 N. J. Laws § 1, pp. 26–27"
+        },
+        {
+          "start": 642,
+          "end": 646,
+          "text": "§ 6.",
+          "type": "record",
+          "canonical": "§ 6"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "trespass[ers]",
+          "to": "trespassers"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 73,
+          "end": 1056
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1056,
+          "end": 1256
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1256,
+          "end": 1905
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1905,
+          "end": 1906
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1907,
+          "end": 2020
+        },
+        {
+          "page": 27,
+          "start": 86,
+          "end": 1457
+        }
+      ],
+      "citations": [
+        {
+          "start": 264,
+          "end": 285,
+          "text": "1893 Ore. Laws p. 79.",
+          "type": "record",
+          "canonical": "1893 Ore. Laws p. 79."
+        },
+        {
+          "start": 522,
+          "end": 541,
+          "text": ", see n. 13, supra,",
+          "type": "record",
+          "canonical": "see n. 13, supra,"
+        },
+        {
+          "start": 902,
+          "end": 978,
+          "text": "See State v. Kimble, 236 Ore. App. 613, 619–620, 273 P. 3d 871, 874, (2010).",
+          "type": "case",
+          "canonical": "236 Or.App. 613"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[from]",
+          "to": "from"
+        },
+        {
+          "from": "trespass[ing]",
+          "to": "trespassing"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1457,
+          "end": 2158
+        }
+      ],
+      "citations": [
+        {
+          "start": 309,
+          "end": 342,
+          "text": "1865 La. Acts No. 10, § 1, p. 14.",
+          "type": "record",
+          "canonical": "1865 La. Acts No. 10, § 1, p. 14"
+        },
+        {
+          "start": 587,
+          "end": 615,
+          "text": "See Bruen, 597 U. S., at 35.",
+          "type": "case",
+          "canonical": "597 U.S. 1"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 42,
+          "end": 411
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "17",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1609,
+          "end": 1727
+        }
+      ],
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 117,
+          "text": "See, e. g., E. Foner, The Second Founding: How the Civil War and Reconstruction Remade the Constitution 47–49 (2019).",
+          "type": "record",
+          "canonical": "See, e. g., E. Foner, The Second Founding: How the Civil War and Reconstruction Remade the Constitution 47–49 (2019)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 413,
+          "end": 650
+        }
+      ],
+      "citations": [
+        {
+          "start": 156,
+          "end": 235,
+          "text": "See 125 F. 4th, at 1239 (VanDyke, J., dissenting from denial of reh'g en banc).",
+          "type": "case",
+          "canonical": "125 F.4th 1230"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 650,
+          "end": 1334
+        }
+      ],
+      "citations": [
+        {
+          "start": 126,
+          "end": 162,
+          "text": "See 561 U. S., at 757, 771, 776–779;",
+          "type": "record",
+          "canonical": "See 561 U. S., at 757, 771, 776–779;"
+        },
+        {
+          "start": 163,
+          "end": 204,
+          "text": "id., at 843– 846 (opinion of Thomas, J.).",
+          "type": "record",
+          "canonical": "id., at 843– 846 (opinion of Thomas, J.)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1340,
+          "end": 1606
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 5,
+      "start": 253,
+      "end": 2874,
+      "text": "Gentner F. Drummond of Oklahoma, Alan Wilson of South Carolina,\nMarty J. Jackley of South Dakota, Jonathan Skrmetti of Tennessee, Ken\nPaxton of Texas, Derek Brown of Utah, John B. McCuskey of West Virginia, and Keith G. Kautz of Wyoming; for the Association of New Jersey\nRife & Pistol Clubs, Inc., et al. by Daniel L. Schmutter; for The Buckeye\nInstitute by David C. Tryon; for the California Gun Rights Foundation\net al. by Bradley A. Benbrook and Stephen M. Duvernay; for the Claremont Institute's Center for Constitutional Jurisprudence by John C. Eastman and Alexander Haberbush; for the Firearms Policy Coalition by\nDavid H. Thompson, Peter A. Patterson, William V. Bergstrom, and Cody\nJ. Wisniewski; for Gun Owners of America et al. by Robert J. Olson, William J. Olson, Jeremiah L. Morgan, John I. Harris III, and Mike Boos;\nfor the Liberty Justice Center by Ryan Morrison; for the National African American Gun Association, Inc., by Stephen P . Halbrook; for the National Association for Gun Rights by Barry K. Arrington; for the National\nShooting Sports Foundation by Erin E. Murphy, Matthew D. Rowen,\nLawrence G. Keane, and Shelby Baird Smith; for the Peace Offcers Research Association of California et al. by David E. Mastagni, Timothy K.\nTalbot, and Michael A. Morguess; for the Sportsmen's Alliance Foundation\nby Michael T. Jean; and for Clayton Cramer et al. by C. D. Michel, Anna\nM. Barvir, and Donald Kilmer .\nBriefs of amici curiae urging affrmance were fled for the District of\nColumbia et al. by Brian L. Schwalb, Attorney General of the District\nof Columbia, Caroline S. Van Zile, Solicitor General, Ashwin P . Phatak,\nPrincipal Deputy Solicitor General, and Perry R. Cao, Assistant Attorney\nGeneral, by Kwame Raoul, Attorney General of Illinois, Jane Elinor Notz,\nSolicitor General, Sarah A. Hunger, Deputy Solicitor General, and Brianna Yang, Assistant Attorney General, and by the Attorneys General for\ntheir respective States as follows: Rob Bonta of California, Philip J.\nWeiser of Colorado, William Tong of Connecticut, Kathleen Jennings of\nDelaware, Aaron M. Frey of Maine, Anthony G. Brown of Maryland, Andrea Joy Campbell of Massachusetts, Dana Nessel of Michigan, Keith Ellison of Minnesota, Aaron D. Ford of Nevada, Matthew J. Platkin of New\nJersey, Letitia James of New York, Dan Rayfeld of Oregon, Peter F.\nNeronha of Rhode Island, Charity R. Clark of Vermont, and Nicholas W.\nBrown of Washington; for the City of Baltimore et al. by Paul R. Q. Wolfson, Anna L. Deffebach, and Alethea Anne Swift; for the Brady Center\nto Prevent Gun Violence et al. by Daniel A. Rubens, Thomas M. Bondy,",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 42,
+      "text": "190 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 1504,
+      "end": 2279,
+      "text": "Melanie R. Hallums, Douglas N. Letter, Shira Lauren Feldman, and J.\nAdam Skaggs; for Everytown for Gun Safety by Kathleen R. Hartnett,\nRaymond P . Tolentino, Anna O. Mohan, Eric A. Tirschwell, Janet Carter,\nWilliam J. Taylor, Jr., and Priyanka Gupta Sen; for Professors of Property Law by Ryan Chabot and Alan E. Schoenfeld; for Prosecutors\nAgainst Gun Violence by Steven C. Wu; and for Claire Priest et al. by\nTimothy C. Hester and Hassan Ahmad.\nBriefs of amici curiae were fled for the Foundation for Moral Law by\nJohn A. Eidsmoe; for Global Action on Gun Violence by Christopher Cole,\nJonathan E. Lowy, and Yaacov Meiseles; for the Second Amendment\nFoundation et al. by Konstadinos T. Moros; and for Patrick J. Charles by\nPatrick J. Fuster .\nPage Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 185 (2026) 191\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 615,
+      "end": 616,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1405,
+      "end": 1406,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1471,
+      "end": 1473,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1528,
+      "end": 1530,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1769,
+      "end": 1799,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 73,
+      "text": "Page Proof Pending Publication\n192 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 1836,
+      "end": 1837,
+      "text": "3",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 2046,
+      "end": 2048,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 185 (2026) 193\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 169,
+      "end": 171,
+      "text": "4\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1650,
+      "end": 1654,
+      "text": "5\n4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1908,
+      "end": 1910,
+      "text": "5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2123,
+      "end": 2153,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 42,
+      "text": "194 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 594,
+      "end": 595,
+      "text": "6",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1856,
+      "end": 1858,
+      "text": "6 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 2035,
+      "end": 2065,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 185 (2026) 195\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 1926,
+      "end": 1956,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 42,
+      "text": "196 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 2189,
+      "end": 2219,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 185 (2026) 197\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 1741,
+      "end": 1743,
+      "text": "7\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 1853,
+      "end": 1855,
+      "text": "7 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 1984,
+      "end": 2014,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 42,
+      "text": "198 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 1901,
+      "end": 1931,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 185 (2026) 199\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 1539,
+      "end": 1540,
+      "text": "8",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 1561,
+      "end": 1563,
+      "text": "8 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 2057,
+      "end": 2087,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 42,
+      "text": "200 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 1257,
+      "end": 1258,
+      "text": "9",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 1777,
+      "end": 1779,
+      "text": "9 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 2219,
+      "end": 2249,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 185 (2026) 201\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 1836,
+      "end": 1866,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 42,
+      "text": "202 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 2037,
+      "end": 2067,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 185 (2026) 203\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 73,
+      "text": "Page Proof Pending Publication\n204 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 185 (2026) 205\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 1180,
+      "end": 1183,
+      "text": "10\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 1463,
+      "end": 1465,
+      "text": "11",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 1596,
+      "end": 1599,
+      "text": "10 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 1977,
+      "end": 1980,
+      "text": "11 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 2145,
+      "end": 2175,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 42,
+      "text": "206 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 1503,
+      "end": 1505,
+      "text": "12",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 1671,
+      "end": 1677,
+      "text": "13\n12 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 1814,
+      "end": 1817,
+      "text": "13 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 2249,
+      "end": 2279,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 185 (2026) 207\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 753,
+      "end": 756,
+      "text": "14\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 1751,
+      "end": 1754,
+      "text": "14 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 2193,
+      "end": 2223,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 42,
+      "text": "208 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 200,
+      "end": 203,
+      "text": "15\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 1319,
+      "end": 1322,
+      "text": "15 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 2208,
+      "end": 2238,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 185 (2026) 209\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 1576,
+      "end": 1582,
+      "text": "16\n16 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 2231,
+      "end": 2261,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 73,
+      "text": "Page Proof Pending Publication\n210 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 185 (2026) 211\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 42,
+      "text": "212 WOLFORD v. LOPEZ\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 411,
+      "end": 413,
+      "text": "17",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 1334,
+      "end": 1340,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 1606,
+      "end": 1609,
+      "text": "17 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 1727,
+      "end": 1757,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 5,
+      "start": 224,
+      "end": 230,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 5,
+      "start": 525,
+      "end": 529,
+      "expectedText": "Rife",
+      "text": "Rifle"
+    },
+    {
+      "page": 5,
+      "start": 1726,
+      "end": 1730,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 6,
+      "start": 82,
+      "end": 86,
+      "expectedText": "Rife",
+      "text": "Rifle"
+    },
+    {
+      "page": 6,
+      "start": 434,
+      "end": 440,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 6,
+      "start": 448,
+      "end": 453,
+      "expectedText": "fatly",
+      "text": "flatly"
+    },
+    {
+      "page": 6,
+      "start": 532,
+      "end": 538,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 6,
+      "start": 587,
+      "end": 594,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 6,
+      "start": 639,
+      "end": 649,
+      "expectedText": "affrmative",
+      "text": "affirmative"
+    },
+    {
+      "page": 6,
+      "start": 856,
+      "end": 863,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 6,
+      "start": 975,
+      "end": 981,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 6,
+      "start": 1151,
+      "end": 1159,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 6,
+      "start": 1979,
+      "end": 1983,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 7,
+      "start": 943,
+      "end": 954,
+      "expectedText": "ratifcation",
+      "text": "ratification"
+    },
+    {
+      "page": 7,
+      "start": 1431,
+      "end": 1437,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 8,
+      "start": 184,
+      "end": 190,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 8,
+      "start": 245,
+      "end": 251,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 8,
+      "start": 708,
+      "end": 712,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 8,
+      "start": 1164,
+      "end": 1172,
+      "expectedText": "signifes",
+      "text": "signifies"
+    },
+    {
+      "page": 8,
+      "start": 1505,
+      "end": 1514,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 8,
+      "start": 1674,
+      "end": 1681,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 8,
+      "start": 1963,
+      "end": 1969,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 9,
+      "start": 355,
+      "end": 362,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 9,
+      "start": 716,
+      "end": 723,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 9,
+      "start": 791,
+      "end": 798,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 9,
+      "start": 1288,
+      "end": 1305,
+      "expectedText": "interestbalancing",
+      "text": "interest-balancing"
+    },
+    {
+      "page": 9,
+      "start": 1747,
+      "end": 1754,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 9,
+      "start": 2027,
+      "end": 2033,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 10,
+      "start": 1311,
+      "end": 1313,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 11,
+      "start": 380,
+      "end": 384,
+      "expectedText": "ffth",
+      "text": "fifth"
+    },
+    {
+      "page": 11,
+      "start": 1176,
+      "end": 1182,
+      "expectedText": "feshed",
+      "text": "fleshed"
+    },
+    {
+      "page": 12,
+      "start": 238,
+      "end": 245,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 12,
+      "start": 374,
+      "end": 385,
+      "expectedText": "Specifcally",
+      "text": "Specifically"
+    },
+    {
+      "page": 12,
+      "start": 533,
+      "end": 540,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 12,
+      "start": 857,
+      "end": 864,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 12,
+      "start": 984,
+      "end": 993,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 12,
+      "start": 1088,
+      "end": 1092,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 13,
+      "start": 565,
+      "end": 572,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 13,
+      "start": 1160,
+      "end": 1167,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 13,
+      "start": 1182,
+      "end": 1193,
+      "expectedText": "selfdefense",
+      "text": "self-defense"
+    },
+    {
+      "page": 13,
+      "start": 1865,
+      "end": 1868,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 14,
+      "start": 324,
+      "end": 330,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 14,
+      "start": 524,
+      "end": 532,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 14,
+      "start": 593,
+      "end": 601,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 14,
+      "start": 625,
+      "end": 634,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 14,
+      "start": 709,
+      "end": 720,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 14,
+      "start": 1311,
+      "end": 1318,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 14,
+      "start": 1699,
+      "end": 1702,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 14,
+      "start": 1808,
+      "end": 1815,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 14,
+      "start": 1836,
+      "end": 1843,
+      "expectedText": "fipping",
+      "text": "flipping"
+    },
+    {
+      "page": 15,
+      "start": 682,
+      "end": 688,
+      "expectedText": "fipped",
+      "text": "flipped"
+    },
+    {
+      "page": 15,
+      "start": 856,
+      "end": 862,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 15,
+      "start": 1247,
+      "end": 1254,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 15,
+      "start": 1259,
+      "end": 1270,
+      "expectedText": "selfdefense",
+      "text": "self-defense"
+    },
+    {
+      "page": 15,
+      "start": 1437,
+      "end": 1441,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 15,
+      "start": 1644,
+      "end": 1650,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 16,
+      "start": 130,
+      "end": 136,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 16,
+      "start": 148,
+      "end": 156,
+      "expectedText": "live-fre",
+      "text": "live-fire"
+    },
+    {
+      "page": 16,
+      "start": 362,
+      "end": 368,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 16,
+      "start": 406,
+      "end": 412,
+      "expectedText": "fulfll",
+      "text": "fulfill"
+    },
+    {
+      "page": 16,
+      "start": 498,
+      "end": 505,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 16,
+      "start": 511,
+      "end": 515,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 16,
+      "start": 541,
+      "end": 547,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 16,
+      "start": 551,
+      "end": 561,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 16,
+      "start": 1032,
+      "end": 1040,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 16,
+      "start": 1608,
+      "end": 1614,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 16,
+      "start": 2076,
+      "end": 2081,
+      "expectedText": "fgure",
+      "text": "figure"
+    },
+    {
+      "page": 17,
+      "start": 129,
+      "end": 136,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 17,
+      "start": 495,
+      "end": 501,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 17,
+      "start": 867,
+      "end": 871,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 17,
+      "start": 1300,
+      "end": 1303,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 17,
+      "start": 1462,
+      "end": 1466,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 18,
+      "start": 134,
+      "end": 137,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 18,
+      "start": 683,
+      "end": 693,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 18,
+      "start": 917,
+      "end": 926,
+      "expectedText": "commonlaw",
+      "text": "common-law"
+    },
+    {
+      "page": 18,
+      "start": 1298,
+      "end": 1305,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 18,
+      "start": 1469,
+      "end": 1480,
+      "expectedText": "carrypermit",
+      "text": "carry-permit"
+    },
+    {
+      "page": 18,
+      "start": 1869,
+      "end": 1875,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 19,
+      "start": 623,
+      "end": 626,
+      "expectedText": "fll",
+      "text": "fill"
+    },
+    {
+      "page": 19,
+      "start": 1578,
+      "end": 1584,
+      "expectedText": "frearm",
+      "text": "firearm"
+    },
+    {
+      "page": 19,
+      "start": 1591,
+      "end": 1597,
+      "expectedText": "briefy",
+      "text": "briefly"
+    },
+    {
+      "page": 19,
+      "start": 2030,
+      "end": 2036,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 20,
+      "start": 564,
+      "end": 567,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 20,
+      "start": 722,
+      "end": 730,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 20,
+      "start": 1481,
+      "end": 1487,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 20,
+      "start": 1814,
+      "end": 1818,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 21,
+      "start": 131,
+      "end": 135,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 21,
+      "start": 499,
+      "end": 506,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 21,
+      "start": 517,
+      "end": 521,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 21,
+      "start": 1290,
+      "end": 1297,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 21,
+      "start": 1332,
+      "end": 1336,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 21,
+      "start": 1900,
+      "end": 1909,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 22,
+      "start": 51,
+      "end": 58,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 22,
+      "start": 1480,
+      "end": 1485,
+      "expectedText": "fgure",
+      "text": "figure"
+    },
+    {
+      "page": 22,
+      "start": 1552,
+      "end": 1558,
+      "expectedText": "infate",
+      "text": "inflate"
+    },
+    {
+      "page": 23,
+      "start": 145,
+      "end": 152,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 23,
+      "start": 196,
+      "end": 203,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 24,
+      "start": 379,
+      "end": 387,
+      "expectedText": "Qualifed",
+      "text": "Qualified"
+    },
+    {
+      "page": 24,
+      "start": 2142,
+      "end": 2149,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 25,
+      "start": 119,
+      "end": 127,
+      "expectedText": "Qualifed",
+      "text": "Qualified"
+    },
+    {
+      "page": 25,
+      "start": 667,
+      "end": 671,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 26,
+      "start": 759,
+      "end": 764,
+      "expectedText": "fring",
+      "text": "firing"
+    },
+    {
+      "page": 26,
+      "start": 812,
+      "end": 821,
+      "expectedText": "inficting",
+      "text": "inflicting"
+    },
+    {
+      "page": 26,
+      "start": 1964,
+      "end": 1968,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 27,
+      "start": 94,
+      "end": 100,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 27,
+      "start": 1599,
+      "end": 1607,
+      "expectedText": "fre-arms",
+      "text": "fire-arms"
+    },
+    {
+      "page": 28,
+      "start": 978,
+      "end": 989,
+      "expectedText": "ratifcation",
+      "text": "ratification"
+    },
+    {
+      "page": 5,
+      "start": 248,
+      "end": 252,
+      "expectedText": "how-",
+      "text": "how"
+    },
+    {
+      "page": 12,
+      "start": 2183,
+      "end": 2188,
+      "expectedText": "suff-",
+      "text": "suffi"
+    },
+    {
+      "page": 13,
+      "start": 1846,
+      "end": 1852,
+      "expectedText": "Amend-",
+      "text": "Amend"
+    },
+    {
+      "page": 15,
+      "start": 1556,
+      "end": 1560,
+      "expectedText": "suc-",
+      "text": "suc"
+    },
+    {
+      "page": 21,
+      "start": 1591,
+      "end": 1595,
+      "expectedText": "car-",
+      "text": "car"
+    },
+    {
+      "page": 22,
+      "start": 1034,
+      "end": 1044,
+      "expectedText": "Mc-\nDonald",
+      "text": "McDonald"
+    },
+    {
+      "page": 17,
+      "start": 1279,
+      "end": 1288,
+      "expectedText": "Van-\nDyke",
+      "text": "VanDyke"
+    },
+    {
+      "page": 25,
+      "start": 1924,
+      "end": 1939,
+      "expectedText": "trespass-\n[ers]",
+      "text": "trespass[ers]"
+    },
+    {
+      "page": 15,
+      "start": 785,
+      "end": 796,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed all 24 original Court-writing PDF pages and all 17 notes, stopping before Barrett's concurrence. Retain all substantive historical explanations, quoted statutory language and definitions, analogical-analysis limits, constitutional qualifications and factual parentheticals. Source-only notes have individual retained citation references; real notes occur at their printed markers with complete continuations. Only reviewed bibliographic/source spans omitted. Exact missing-letter and page-word repairs, counsel exclusions and source coverage verified; original checksums and raw coordinates preserved."
+}

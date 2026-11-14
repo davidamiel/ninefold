@@ -1,0 +1,42 @@
+{
+  "version": "935ef7880298b729",
+  "duration": 6.45,
+  "voice": "am_michael",
+  "audioSha256": "2220f825faf09d15243e85365d48c6a608ad0a36e74cf23bf1f2d075f0a6912a",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 4.34,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 103,
+          "end": 164
+        }
+      ],
+      "text": "The writ of certiorari is dismissed as improvidently granted."
+    },
+    {
+      "start": 4.34,
+      "end": 5.3,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 2,
+          "start": 165,
+          "end": 182
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 13,
+      "expectedWords": 13,
+      "coverage": 1.0
+    }
+  ]
+}

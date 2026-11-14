@@ -1,0 +1,810 @@
+{
+  "reviewed": true,
+  "documentId": "162-orig-08c60a9e79f5--0-0",
+  "sourceDocumentId": "162-orig-08c60a9e79f5",
+  "sourceTextPath": "dist/data/docs/162-orig-08c60a9e79f5.json",
+  "sourceTextSha256": "58c84c1c68ecdb17aa08b78cc96550a9edf938806909ed06808d625043829302",
+  "sourcePdfPath": "recordings/sources/c4119a01097af26465c72a7e.pdf",
+  "sourcePdfSha256": "c4119a01097af26465c72a7e4d498ecf02457d396959a4b376b57d791e6177c6",
+  "title": "Dissent",
+  "author": "Clarence Thomas",
+  "date": "2026-05-26",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/162orig_8n6a.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 437,
+    "endPage": 4,
+    "endOffset": 409
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 437,
+          "end": 912
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 0,
+          "start": 912,
+          "end": 914
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 915,
+          "end": 1453
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1453,
+          "end": 1750
+        },
+        {
+          "page": 1,
+          "start": 106,
+          "end": 196
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 196,
+          "end": 897
+        }
+      ],
+      "citations": [
+        {
+          "start": 321,
+          "end": 352,
+          "text": "See 49 U. S. C. §§31308, 31311;",
+          "canonical": "See 49 U. S. C. §§31308, 31311;",
+          "type": "reference"
+        },
+        {
+          "start": 353,
+          "end": 400,
+          "text": "49 CFR §§383.71, 383.73, 383.111, 391.11 (2024)",
+          "canonical": "49 CFR §§383.71, 383.73, 383.111, 391.11 (2024)",
+          "type": "reference"
+        },
+        {
+          "start": 402,
+          "end": 471,
+          "text": "see also 90 Fed. Reg. 46523 (2025) (to be codified in 49 CFR §383.71)",
+          "canonical": "see also 90 Fed. Reg. 46523 (2025) (to be codified in 49 CFR §383.71)",
+          "type": "reference"
+        },
+        {
+          "start": 473,
+          "end": 532,
+          "text": "91 Fed. Reg. 7102 (2026) (to be codified in 49 CFR §383.73)",
+          "canonical": "91 Fed. Reg. 7102 (2026) (to be codified in 49 CFR §383.73)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "CDLs",
+          "to": "C D Ls"
+        },
+        {
+          "from": "CDL",
+          "to": "C D L"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1381,
+          "end": 2181
+        }
+      ],
+      "citations": [
+        {
+          "start": 73,
+          "end": 207,
+          "text": "See A. Lockie, Washington Admits Mistake in Issuing Harjinder Singh and 685 Other Non-Citizens Full-Term CDLs, Overdrive, Oct. 1, 2025",
+          "canonical": "See A. Lockie, Washington Admits Mistake in Issuing Harjinder Singh and 685 Other Non-Citizens Full-Term CDLs, Overdrive, Oct. 1, 2025",
+          "type": "reference"
+        },
+        {
+          "start": 209,
+          "end": 357,
+          "text": "Failed CDL Test 10 Times: New Details on Indian-Origin Harjinder Singh Who Took Wrong U-Turn in Florida, Killed 3, The Times of India, Oct. 25, 2025",
+          "canonical": "Failed CDL Test 10 Times: New Details on Indian-Origin Harjinder Singh Who Took Wrong U-Turn in Florida, Killed 3, The Times of India, Oct. 25, 2025",
+          "type": "reference"
+        },
+        {
+          "start": 592,
+          "end": 643,
+          "text": "See 49 CFR §383.71(a)(5), (b)(9), (f )(2)(i) (2024)",
+          "canonical": "See 49 CFR §383.71(a)(5), (b)(9), (f )(2)(i) (2024)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "CDL",
+          "to": "C D L"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 900,
+          "end": 1372
+        },
+        {
+          "page": 2,
+          "start": 105,
+          "end": 107
+        }
+      ],
+      "citations": [
+        {
+          "start": 46,
+          "end": 265,
+          "text": "See Press Release, Dept. of Transportation, Trump’s Transportation Secretary Sean P. Duffy Puts Safety First, Finalizes Rule To Stop Unqualified Foreign Drivers From Driving Big Rigs on American Roadways (Feb. 11, 2026)",
+          "canonical": "See Press Release, Dept. of Transportation, Trump’s Transportation Secretary Sean P. Duffy Puts Safety First, Finalizes Rule To Stop Unqualified Foreign Drivers From Driving Big Rigs on American Roadways (Feb. 11, 2026)",
+          "type": "reference"
+        },
+        {
+          "start": 266,
+          "end": 287,
+          "text": "(collecting examples)",
+          "canonical": "(collecting examples)",
+          "type": "reference"
+        },
+        {
+          "start": 456,
+          "end": 461,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "CDL",
+          "to": "C D L"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 107,
+          "end": 733
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "CDLs",
+          "to": "C D Ls"
+        },
+        {
+          "from": "CDL",
+          "to": "C D L"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 733,
+          "end": 855
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 2,
+          "start": 855,
+          "end": 858
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 859,
+          "end": 1315
+        }
+      ],
+      "citations": [
+        {
+          "start": 258,
+          "end": 267,
+          "text": "§2, cl. 2",
+          "canonical": "§2, cl. 2",
+          "type": "reference"
+        },
+        {
+          "start": 424,
+          "end": 444,
+          "text": "28 U. S. C. §1251(a)",
+          "canonical": "28 U. S. C. §1251(a)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        },
+        {
+          "from": "[i]n",
+          "to": "in"
+        },
+        {
+          "from": "[a]",
+          "to": "a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1315,
+          "end": 2045
+        },
+        {
+          "page": 3,
+          "start": 86,
+          "end": 754
+        }
+      ],
+      "citations": [
+        {
+          "start": 221,
+          "end": 265,
+          "text": "Cohens v. Virginia, 6 Wheat. 264, 404 (1821)",
+          "canonical": "Cohens v. Virginia, 6 Wheat. 264, 404 (1821)",
+          "type": "reference"
+        },
+        {
+          "start": 266,
+          "end": 298,
+          "text": "(Marshall, C. J., for the Court)",
+          "canonical": "(Marshall, C. J., for the Court)",
+          "type": "reference"
+        },
+        {
+          "start": 460,
+          "end": 509,
+          "text": "Nebraska v. Colorado, 577 U. S. 1211, 1212 (2016)",
+          "canonical": "Nebraska v. Colorado, 577 U. S. 1211, 1212 (2016)",
+          "type": "reference"
+        },
+        {
+          "start": 510,
+          "end": 585,
+          "text": "(T HOMAS, J., dissenting from denial of motion for leave to file complaint)",
+          "canonical": "(T HOMAS, J., dissenting from denial of motion for leave to file complaint)",
+          "type": "reference"
+        },
+        {
+          "start": 723,
+          "end": 735,
+          "text": "See §1251(a)",
+          "canonical": "See §1251(a)",
+          "type": "reference"
+        },
+        {
+          "start": 997,
+          "end": 1009,
+          "text": "Id., at 1213",
+          "canonical": "Id., at 1213",
+          "type": "reference"
+        },
+        {
+          "start": 1117,
+          "end": 1169,
+          "text": "See, e.g., Texas v. California, 593 U. S. ___ (2021)",
+          "canonical": "See, e.g., Texas v. California, 593 U. S. ___ (2021)",
+          "type": "reference"
+        },
+        {
+          "start": 1170,
+          "end": 1243,
+          "text": "(ALITO, J., dissenting from denial of motion for leave to file complaint)",
+          "canonical": "(ALITO, J., dissenting from denial of motion for leave to file complaint)",
+          "type": "reference"
+        },
+        {
+          "start": 1245,
+          "end": 1288,
+          "text": "Alabama v. California, 604 U. S. ___ (2025)",
+          "canonical": "Alabama v. California, 604 U. S. ___ (2025)",
+          "type": "reference"
+        },
+        {
+          "start": 1289,
+          "end": 1364,
+          "text": "(T HOMAS, J., dissenting from denial of motion for leave to file complaint)",
+          "canonical": "(T HOMAS, J., dissenting from denial of motion for leave to file complaint)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "JUSTICE ALITO",
+          "to": "Justice Alito"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 754,
+          "end": 2245
+        },
+        {
+          "page": 4,
+          "start": 72,
+          "end": 226
+        }
+      ],
+      "citations": [
+        {
+          "start": 347,
+          "end": 396,
+          "text": "Mississippi v. Louisiana, 506 U. S. 73, 77 (1992)",
+          "canonical": "Mississippi v. Louisiana, 506 U. S. 73, 77 (1992)",
+          "type": "reference"
+        },
+        {
+          "start": 397,
+          "end": 444,
+          "text": "(internal quotation marks and citation omitted)",
+          "canonical": "(internal quotation marks and citation omitted)",
+          "type": "reference"
+        },
+        {
+          "start": 594,
+          "end": 599,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 600,
+          "end": 634,
+          "text": "(internal quotation marks omitted)",
+          "canonical": "(internal quotation marks omitted)",
+          "type": "reference"
+        },
+        {
+          "start": 921,
+          "end": 986,
+          "text": "Texas, 593 U. S., at ___ (opinion of A LITO, J.) (slip op., at 9)",
+          "canonical": "Texas, 593 U. S., at ___ (opinion of A LITO, J.) (slip op., at 9)",
+          "type": "reference"
+        },
+        {
+          "start": 1148,
+          "end": 1153,
+          "text": "Ibid.",
+          "canonical": "Ibid.",
+          "type": "reference"
+        },
+        {
+          "start": 1571,
+          "end": 1606,
+          "text": "See 49 CFR §§384.307(e), 384.405(g)",
+          "canonical": "See 49 CFR §§384.307(e), 384.405(g)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[this]",
+          "to": "this"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 4,
+          "start": 226,
+          "end": 230
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 231,
+          "end": 409
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 0,
+      "start": 371,
+      "end": 373,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 671,
+      "end": 673,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 794,
+      "end": 796,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 856,
+      "end": 858,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1028,
+      "end": 1030,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1144,
+      "end": 1146,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1432,
+      "end": 1434,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1688,
+      "end": 1690,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 251,
+      "end": 253,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1185,
+      "end": 1187,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 1,
+      "start": 1302,
+      "end": 1304,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 452,
+      "end": 454,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 631,
+      "end": 633,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 689,
+      "end": 691,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 915,
+      "end": 917,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1101,
+      "end": 1103,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1743,
+      "end": 1745,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 2,
+      "start": 1927,
+      "end": 1929,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 207,
+      "end": 209,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 570,
+      "end": 572,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 631,
+      "end": 633,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 691,
+      "end": 693,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 995,
+      "end": 997,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1058,
+      "end": 1060,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1116,
+      "end": 1118,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 3,
+      "start": 1232,
+      "end": 1234,
+      "expectedText": "-\n",
+      "text": ""
+    },
+    {
+      "page": 0,
+      "start": 1082,
+      "end": 1096,
+      "expectedText": "pro -\nhibiting",
+      "text": "prohibiting"
+    },
+    {
+      "page": 1,
+      "start": 389,
+      "end": 400,
+      "expectedText": "applicant s",
+      "text": "applicants"
+    },
+    {
+      "page": 1,
+      "start": 1744,
+      "end": 1755,
+      "expectedText": "Calif ornia",
+      "text": "California"
+    },
+    {
+      "page": 1,
+      "start": 1678,
+      "end": 1685,
+      "expectedText": "U- Turn",
+      "text": "U-Turn"
+    },
+    {
+      "page": 2,
+      "start": 420,
+      "end": 427,
+      "expectedText": "aski ng",
+      "text": "asking"
+    },
+    {
+      "page": 2,
+      "start": 1256,
+      "end": 1265,
+      "expectedText": "no  other",
+      "text": "no other"
+    },
+    {
+      "page": 2,
+      "start": 1338,
+      "end": 1349,
+      "expectedText": "discreti on",
+      "text": "discretion"
+    },
+    {
+      "page": 3,
+      "start": 175,
+      "end": 189,
+      "expectedText": "it s exclusive",
+      "text": "its exclusive"
+    },
+    {
+      "page": 3,
+      "start": 777,
+      "end": 791,
+      "expectedText": "dis cretionary",
+      "text": "discretionary"
+    },
+    {
+      "page": 3,
+      "start": 1201,
+      "end": 1209,
+      "expectedText": "om itted",
+      "text": "omitted"
+    },
+    {
+      "page": 3,
+      "start": 1885,
+      "end": 1899,
+      "expectedText": "ar -\nbitration",
+      "text": "arbitration"
+    },
+    {
+      "page": 3,
+      "start": 2152,
+      "end": 2160,
+      "expectedText": "Fede ral",
+      "text": "Federal"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 59,
+      "end": 106,
+      "text": "2 FLORIDA v. CALIFORNIA \nTHOMAS, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 1,
+      "start": 897,
+      "end": 900,
+      "text": "* \n",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 1,
+      "start": 1372,
+      "end": 1381,
+      "text": "—————— \n*",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 2,
+      "start": 48,
+      "end": 105,
+      "text": "3  Cite as: 608 U. S. ____ (2026) \nTHOMAS, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 3,
+      "start": 39,
+      "end": 86,
+      "text": "4 FLORIDA v. CALIFORNIA \nTHOMAS, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    },
+    {
+      "page": 4,
+      "start": 15,
+      "end": 72,
+      "text": "5  Cite as: 608 U. S. ____ (2026) \nTHOMAS, J., dissenting",
+      "reason": "Reviewed running furniture, author attribution or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Samuel A. Alito, Jr."
+    ]
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

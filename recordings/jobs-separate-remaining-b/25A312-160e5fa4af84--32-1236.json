@@ -1,0 +1,405 @@
+{
+  "reviewed": true,
+  "documentId": "25A312-160e5fa4af84--32-1236",
+  "sourceDocumentId": "25A312-160e5fa4af84",
+  "sourceTextPath": "dist/data/docs/25A312-160e5fa4af84.json",
+  "sourceTextSha256": "1dd5e36bbcb09e6dff9cfd12299effb6395a5ca62f9b5db50c6e4c4dfa8a89c7",
+  "sourcePdfPath": "dist/data/pdfs/25A312-160e5fa4af84--32-1236.pdf",
+  "sourcePdfSha256": "f23d6d7a0e392bfa53c476cf9cae059af068671e615e1933b1dbf2560ed7bf15",
+  "title": "Concurrence",
+  "author": "Brett M. Kavanaugh",
+  "date": "2026-06-29",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf",
+  "sourceRange": {
+    "startPage": 32,
+    "startOffset": 1267,
+    "endPage": 35,
+    "endOffset": 274
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1267,
+          "end": 1348
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1348,
+          "end": 1685
+        },
+        {
+          "page": 33,
+          "start": 44,
+          "end": 287
+        }
+      ],
+      "citations": [
+        {
+          "start": 567,
+          "end": 580,
+          "text": "Ante, at 558.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 558"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "(i)",
+          "to": "one,"
+        },
+        {
+          "from": "(ii)",
+          "to": "two,"
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 287,
+          "end": 1822
+        }
+      ],
+      "citations": [
+        {
+          "start": 547,
+          "end": 570,
+          "text": "Tr. of Oral Arg. 6, 48;",
+          "type": "record",
+          "canonical": "Oral argument transcript, pp. 6, 48"
+        },
+        {
+          "start": 571,
+          "end": 616,
+          "text": "see Trump v. Slaughter, 609 U. S. 422 (2026).",
+          "type": "case",
+          "canonical": "609 U.S. 422"
+        },
+        {
+          "start": 776,
+          "end": 796,
+          "text": "Tr. of Oral Arg. 48.",
+          "type": "record",
+          "canonical": "Oral argument transcript, p. 48"
+        },
+        {
+          "start": 1133,
+          "end": 1201,
+          "text": "Id., at 6 (referring to Trump v. Wilcox, 605 U. S. 922, 923 (2025)).",
+          "type": "case",
+          "canonical": "605 U.S. 922"
+        },
+        {
+          "start": 1378,
+          "end": 1398,
+          "text": "Tr. of Oral Arg. 47.",
+          "type": "record",
+          "canonical": "Oral argument transcript, p. 47"
+        },
+        {
+          "start": 1526,
+          "end": 1537,
+          "text": "Id., at 48.",
+          "type": "record",
+          "canonical": "Oral argument transcript, p. 48"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article II",
+          "to": "Article two"
+        },
+        {
+          "from": "acknowledge[d]",
+          "to": "acknowledged"
+        },
+        {
+          "from": "not disput[e]",
+          "to": "not dispute"
+        },
+        {
+          "from": "protec[t]",
+          "to": "protect"
+        },
+        {
+          "from": "[Cook's]",
+          "to": "Cook's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 33,
+          "start": 1822,
+          "end": 2051
+        },
+        {
+          "page": 34,
+          "start": 60,
+          "end": 671
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 34,
+          "start": 671,
+          "end": 1785
+        }
+      ],
+      "citations": [
+        {
+          "start": 430,
+          "end": 451,
+          "text": "See ante, at 534–539.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 534–539"
+        },
+        {
+          "start": 696,
+          "end": 799,
+          "text": "See Youngstown Sheet & Tube Co. v. Sawyer, 343 U. S. 579, 610–611 (1952) (Frankfurter, J., concurring);",
+          "type": "case",
+          "canonical": "343 U.S. 579"
+        },
+        {
+          "start": 800,
+          "end": 842,
+          "text": "id., at 634–638 (Jackson, J., concurring).",
+          "type": "case",
+          "canonical": "343 U.S. 579"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article II",
+          "to": "Article two"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 34,
+          "start": 1789,
+          "end": 2004
+        }
+      ],
+      "citations": [
+        {
+          "start": 172,
+          "end": 214,
+          "text": "See post, at 587–590 (dissenting opinion).",
+          "type": "reference",
+          "canonical": "Thomas dissent, pp. 587–590"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article II",
+          "to": "Article two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 42,
+          "end": 199
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 35,
+          "start": 206,
+          "end": 274
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 32,
+      "start": 329,
+      "end": 337,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 33,
+      "start": 224,
+      "end": 234,
+      "expectedText": "suffciency",
+      "text": "sufficiency"
+    },
+    {
+      "page": 33,
+      "start": 370,
+      "end": 377,
+      "expectedText": "confrms",
+      "text": "confirms"
+    },
+    {
+      "page": 33,
+      "start": 903,
+      "end": 914,
+      "expectedText": "Specifcally",
+      "text": "Specifically"
+    },
+    {
+      "page": 33,
+      "start": 1049,
+      "end": 1057,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 34,
+      "start": 199,
+      "end": 209,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 34,
+      "start": 355,
+      "end": 364,
+      "expectedText": "infuences",
+      "text": "influences"
+    },
+    {
+      "page": 34,
+      "start": 384,
+      "end": 391,
+      "expectedText": "effcacy",
+      "text": "efficacy"
+    },
+    {
+      "page": 35,
+      "start": 845,
+      "end": 853,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 35,
+      "start": 1674,
+      "end": 1683,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 33,
+      "start": 2047,
+      "end": 2050,
+      "expectedText": "Re-",
+      "text": "Re"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 32,
+      "start": 1685,
+      "end": 1898,
+      "text": "junction's limited scope. Cf. Madsen v. Women's Health Center, Inc., 512\nU. S. 753, 765 (1994) (relief must be “no broader than necessary” to prevent\nirreparable harm to applicant).)\nPage Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 33,
+      "start": 0,
+      "end": 44,
+      "text": "560 TRUMP v. COOK\nKavanaugh, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 33,
+      "start": 2051,
+      "end": 2081,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 34,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 609 U. S. 528 (2026) 561\nKavanaugh, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 34,
+      "start": 1785,
+      "end": 1789,
+      "text": "1\n1 ",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 34,
+      "start": 2004,
+      "end": 2034,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 35,
+      "start": 0,
+      "end": 42,
+      "text": "562 TRUMP v. COOK\nJackson, J., concurring\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    },
+    {
+      "page": 35,
+      "start": 200,
+      "end": 206,
+      "text": "* * *\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

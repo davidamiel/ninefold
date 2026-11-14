@@ -1,0 +1,1841 @@
+{
+  "version": "b5cbfff6bd417852",
+  "duration": 958.79,
+  "voice": "af_sky",
+  "audioSha256": "a747b44cfe3efea93fd96de2040289d084c2371879eb3d986588b2255f5519b0",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 7.94,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 106,
+          "end": 241
+        }
+      ],
+      "text": "Countless people use the Internet for legal activities, but some use it to illegally share copyrighted works, such as songs and movies."
+    },
+    {
+      "start": 7.94,
+      "end": 12.12,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 242,
+          "end": 322
+        }
+      ],
+      "text": "The Copyright Act authorizes copyright owners to sue these copyright infringers."
+    },
+    {
+      "start": 12.12,
+      "end": 23.96,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 354,
+          "end": 560
+        }
+      ],
+      "text": "In this case, however, instead of suing those infringers, the copyright owners sued petitioners, Cox Communications, Inc., and its subsidiary, who provided the Internet connections that the infringers used."
+    },
+    {
+      "start": 23.96,
+      "end": 33.155,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 561,
+          "end": 700
+        }
+      ],
+      "text": "They contended that Cox was itself liable for copyright infringement because it continued to provide known infringers with Internet access."
+    },
+    {
+      "start": 33.155,
+      "end": 42.76,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 701,
+          "end": 856
+        }
+      ],
+      "text": "Based on this theory of infringement, respondents, Sony Music Entertainment and other major copyright owners, secured a billion-dollar verdict against Cox."
+    },
+    {
+      "start": 42.76,
+      "end": 52.355,
+      "paragraph": 1,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 857,
+          "end": 1020
+        }
+      ],
+      "text": "The United States Court of Appeals for the Fourth Circuit agreed that because Cox provided Internet service to known infringers, it was a willful infringer itself."
+    },
+    {
+      "start": 52.355,
+      "end": 63.96,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1021,
+          "end": 1212
+        }
+      ],
+      "text": "Under our precedents, a company is not liable as a copyright infringer for merely providing a service to the general public with knowledge that it will be used by some to infringe copyrights."
+    },
+    {
+      "start": 63.96,
+      "end": 66.38,
+      "paragraph": 2,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1213,
+          "end": 1237
+        }
+      ],
+      "text": "Accordingly, we reverse."
+    },
+    {
+      "start": 66.38,
+      "end": 73.56,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 5,
+          "start": 1242,
+          "end": 1360
+        },
+        {
+          "page": 6,
+          "start": 109,
+          "end": 127
+        }
+      ],
+      "text": "Under the Copyright Act, copyright owners have the exclusive rights to copy, distribute, and digitally transmit their copyrighted works."
+    },
+    {
+      "start": 73.56,
+      "end": 82.72,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 135,
+          "end": 292
+        }
+      ],
+      "text": "So, for example, if a musician has a copyright for a song recording, others generally cannot copy and share that recording without the musician's permission."
+    },
+    {
+      "start": 82.72,
+      "end": 90.76,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 293,
+          "end": 439
+        }
+      ],
+      "text": "The Copyright Act provides that “anyone who violates any of the exclusive rights of the copyright owner... is an infringer of the copyright.”"
+    },
+    {
+      "start": 90.76,
+      "end": 97.88,
+      "paragraph": 5,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 450,
+          "end": 521
+        }
+      ],
+      "text": "A willful infringer faces statutory damages of up to $150,000 per work."
+    },
+    {
+      "start": 97.88,
+      "end": 106.08,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 535,
+          "end": 679
+        }
+      ],
+      "text": "This Court has also recognized two categories of secondary copyright liability, which means liability for the copyright infringement of another."
+    },
+    {
+      "start": 106.08,
+      "end": 111.4,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 680,
+          "end": 756
+        }
+      ],
+      "text": "Those two categories are “contributory” liability and “vicarious” liability."
+    },
+    {
+      "start": 111.4,
+      "end": 114.81,
+      "paragraph": 6,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 837,
+          "end": 879
+        }
+      ],
+      "text": "This case concerns contributory liability."
+    },
+    {
+      "start": 114.81,
+      "end": 121.8,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 880,
+          "end": 1012
+        }
+      ],
+      "text": "The provider of a service is contributorily liable for a user's infringement if it intended its service to be used for infringement."
+    },
+    {
+      "start": 121.8,
+      "end": 128.48,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1013,
+          "end": 1138
+        }
+      ],
+      "text": "To establish that a provider intended its service to be used for infringement, a copyright owner must show one of two things."
+    },
+    {
+      "start": 128.48,
+      "end": 132.28,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1139,
+          "end": 1213
+        }
+      ],
+      "text": "First, it can show that a party affirmatively “induced” the infringement."
+    },
+    {
+      "start": 132.28,
+      "end": 138.1,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1220,
+          "end": 1299
+        }
+      ],
+      "text": "Or, second, it can show that the party sold a service tailored to infringement."
+    },
+    {
+      "start": 138.1,
+      "end": 144.09,
+      "paragraph": 7,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1340,
+          "end": 1515
+        }
+      ],
+      "text": "Patent law, with which copyright law has a “historic kinship,” tracks these two requirements."
+    },
+    {
+      "start": 144.09,
+      "end": 153.74,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1548,
+          "end": 1723
+        }
+      ],
+      "text": "In 1998, Congress passed the Digital Millennium Copyright Act, which gave service providers a safe-harbor defense to secondary copyright liability."
+    },
+    {
+      "start": 153.74,
+      "end": 170.28,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 1724,
+          "end": 2013
+        }
+      ],
+      "text": "Under the DMCA safe-harbor defense, service providers cannot be secondarily liable for certain forms of copyright infringement if they have implemented “a policy that provides for the termination in appropriate circumstances of subscribers and account holders” who “are repeat infringers.”"
+    },
+    {
+      "start": 170.28,
+      "end": 185.92,
+      "paragraph": 8,
+      "ranges": [
+        {
+          "page": 6,
+          "start": 2030,
+          "end": 2056
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 257
+        }
+      ],
+      "text": "At the same time, the DMCA specifies that failure to qualify for the safe-harbor defense “shall not bear adversely upon the consideration of a defense by the service provider that the service provider's conduct is not infringing.”"
+    },
+    {
+      "start": 185.92,
+      "end": 191.58,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 271,
+          "end": 369
+        }
+      ],
+      "text": "Cox Communications, Inc., is an Internet service provider that serves about 6 million subscribers."
+    },
+    {
+      "start": 191.58,
+      "end": 197.14,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 370,
+          "end": 460
+        }
+      ],
+      "text": "Each subscriber's account is associated with a unique Internet Protocol, or “IP,” address."
+    },
+    {
+      "start": 197.14,
+      "end": 199.9,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 461,
+          "end": 506
+        }
+      ],
+      "text": "Many users can share a particular IP address."
+    },
+    {
+      "start": 199.9,
+      "end": 208.245,
+      "paragraph": 10,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 507,
+          "end": 632
+        }
+      ],
+      "text": "For example, a household, coffee shop, or college dormitory ordinarily has one IP address, but has multiple individual users."
+    },
+    {
+      "start": 208.245,
+      "end": 215.34,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 633,
+          "end": 758
+        }
+      ],
+      "text": "Internet service providers, such as Cox, have limited knowledge about how their Internet services are used and who uses them."
+    },
+    {
+      "start": 215.34,
+      "end": 221.78,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 759,
+          "end": 893
+        }
+      ],
+      "text": "They do know which IP address corresponds to which subscriber's account, but they cannot distinguish one individual user from another."
+    },
+    {
+      "start": 221.78,
+      "end": 235.1,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 894,
+          "end": 1127
+        }
+      ],
+      "text": "For instance, if an Internet service provider learns that someone illegally downloaded music from a coffee shop's IP address, the Internet service provider cannot determine which individual at the coffee shop infringed the copyright."
+    },
+    {
+      "start": 235.1,
+      "end": 243.12,
+      "paragraph": 11,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1128,
+          "end": 1242
+        }
+      ],
+      "text": "And, more generally, Internet service providers also cannot directly control how their Internet services are used."
+    },
+    {
+      "start": 243.12,
+      "end": 248.52,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1243,
+          "end": 1339
+        }
+      ],
+      "text": "Sony Music Entertainment and the other plaintiffs in this case are major music copyright owners."
+    },
+    {
+      "start": 248.52,
+      "end": 252.54,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1340,
+          "end": 1423
+        }
+      ],
+      "text": "They have struggled to protect their copyrights in the age of online music sharing."
+    },
+    {
+      "start": 252.54,
+      "end": 262.68,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1424,
+          "end": 1589
+        }
+      ],
+      "text": "Today, anyone with an Internet connection and easily obtained software can upload digital copies of copyrighted music and make them available for others to download."
+    },
+    {
+      "start": 262.68,
+      "end": 268.7,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1590,
+          "end": 1684
+        }
+      ],
+      "text": "This practice often infringes the owners' exclusive rights to copy and distribute their works."
+    },
+    {
+      "start": 268.7,
+      "end": 274.54,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 7,
+          "start": 1701,
+          "end": 1796
+        }
+      ],
+      "text": "Copyright owners can, and do, sue the individuals who infringe their copyrights in this manner."
+    },
+    {
+      "start": 274.54,
+      "end": 282.16,
+      "paragraph": 12,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 85,
+          "end": 204
+        }
+      ],
+      "text": "However, because online infringement is so widespread, pursuing each individual infringer does little to stem the tide."
+    },
+    {
+      "start": 282.16,
+      "end": 290.4,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 205,
+          "end": 358
+        }
+      ],
+      "text": "Given the difficulty of pursuing individual infringers, Sony attempted to enlist Internet service providers such as Cox to help it enforce its copyrights."
+    },
+    {
+      "start": 290.4,
+      "end": 297.6,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 359,
+          "end": 476
+        }
+      ],
+      "text": "It enlisted the services of an entity called MarkMonitor to track infringement of its copyrights across the Internet."
+    },
+    {
+      "start": 297.6,
+      "end": 306.78,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 477,
+          "end": 632
+        }
+      ],
+      "text": "MarkMonitor's software can detect when copyrighted works are illegally uploaded or downloaded and trace the infringing activity to a particular IP address."
+    },
+    {
+      "start": 306.78,
+      "end": 312.04,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 633,
+          "end": 714
+        }
+      ],
+      "text": "It can also identify the Internet service provider for the infringing IP address."
+    },
+    {
+      "start": 312.04,
+      "end": 321.82,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 715,
+          "end": 885
+        }
+      ],
+      "text": "When MarkMonitor detects apparently infringing activity, it sends notices to the Internet service provider, identifying the IP address at which the infringement occurred."
+    },
+    {
+      "start": 321.82,
+      "end": 330.26,
+      "paragraph": 13,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 886,
+          "end": 972
+        }
+      ],
+      "text": "In the roughly 2-year period at issue here, MarkMonitor sent Cox 163,148 such notices."
+    },
+    {
+      "start": 330.26,
+      "end": 335.46,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 973,
+          "end": 1072
+        }
+      ],
+      "text": "Cox states that it took steps to limit copyright infringement by those using its Internet services."
+    },
+    {
+      "start": 335.46,
+      "end": 340.84,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1073,
+          "end": 1174
+        }
+      ],
+      "text": "According to Cox, it created a system of responding to the notices that it received from MarkMonitor."
+    },
+    {
+      "start": 340.84,
+      "end": 346.5,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1175,
+          "end": 1277
+        }
+      ],
+      "text": "After the second MarkMonitor notice for a subscriber's account, Cox sent a warning to that subscriber."
+    },
+    {
+      "start": 346.5,
+      "end": 354.92,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1278,
+          "end": 1413
+        }
+      ],
+      "text": "After additional notices, Cox terminated Internet access to that subscriber's IP address until the subscriber responded to the warning."
+    },
+    {
+      "start": 354.92,
+      "end": 363.26,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1414,
+          "end": 1558
+        }
+      ],
+      "text": "If it continued to receive notices for that IP address, Cox suspended service until the subscriber called and received a warning over the phone."
+    },
+    {
+      "start": 363.26,
+      "end": 368.32,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1559,
+          "end": 1643
+        }
+      ],
+      "text": "After 13 notices, the subscriber was subject to termination of all Internet service."
+    },
+    {
+      "start": 368.32,
+      "end": 381.5,
+      "paragraph": 14,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1644,
+          "end": 1855
+        }
+      ],
+      "text": "Cox also contractually prohibits its subscribers from using their connection “to post, copy, transmit, or disseminate any content that infringes the patents, copyrights... or proprietary rights of any party.”"
+    },
+    {
+      "start": 381.5,
+      "end": 386.48,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1868,
+          "end": 1958
+        }
+      ],
+      "text": "The parties disagree about how to characterize Cox's efforts to protect Sony's copyrights."
+    },
+    {
+      "start": 386.48,
+      "end": 397.02,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 8,
+          "start": 1959,
+          "end": 2104
+        },
+        {
+          "page": 9,
+          "start": 55,
+          "end": 105
+        }
+      ],
+      "text": "Sony points out that Cox terminated only 32 subscribers for infringement during the claim period, even as it terminated hundreds of thousands of subscribers for nonpayment during the same period."
+    },
+    {
+      "start": 397.02,
+      "end": 407.42,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 132,
+          "end": 314
+        }
+      ],
+      "text": "Sony also points to statements from Cox employees expressing frustration with the notices and an unwillingness to act on them in favor of protecting revenue from subscriber payments."
+    },
+    {
+      "start": 407.42,
+      "end": 417.62,
+      "paragraph": 15,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 327,
+          "end": 452
+        }
+      ],
+      "text": "Cox resists this characterization by pointing out that its warning and suspension system ended 98% of identified infringement."
+    },
+    {
+      "start": 417.62,
+      "end": 423.0,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 484,
+          "end": 571
+        }
+      ],
+      "text": "Sony sued Cox in the United States District Court for the Eastern District of Virginia."
+    },
+    {
+      "start": 423.0,
+      "end": 427.12,
+      "paragraph": 17,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 572,
+          "end": 630
+        }
+      ],
+      "text": "It advanced two theories of secondary copyright liability."
+    },
+    {
+      "start": 427.12,
+      "end": 432.4,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 631,
+          "end": 714
+        }
+      ],
+      "text": "First, Sony alleged that Cox was contributorily liable for its users' infringement."
+    },
+    {
+      "start": 432.4,
+      "end": 442.94,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 715,
+          "end": 893
+        }
+      ],
+      "text": "Sony argued that Cox contributed to its users' infringement by continuing to provide Internet service to subscribers whose IP addresses it knew were associated with infringement."
+    },
+    {
+      "start": 442.94,
+      "end": 448.46,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 894,
+          "end": 975
+        }
+      ],
+      "text": "Second, Sony alleged that Cox was vicariously liable for its users' infringement."
+    },
+    {
+      "start": 448.46,
+      "end": 461.4,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 976,
+          "end": 1237
+        }
+      ],
+      "text": "On Sony's telling, Cox “profited directly from the infringement and had a right and ability to supervise the direct infringers,” because it provided paying subscribers with Internet service that was then used to infringe."
+    },
+    {
+      "start": 461.4,
+      "end": 473.525,
+      "paragraph": 18,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1238,
+          "end": 1394
+        }
+      ],
+      "text": "According to Sony's allegations, Cox was liable for willfully infringing 10,017 copyrighted works, subjecting it to up to $1.5 billion in statutory damages."
+    },
+    {
+      "start": 473.525,
+      "end": 479.14,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1395,
+          "end": 1481
+        }
+      ],
+      "text": "In the District Court, Sony prevailed as to both contributory and vicarious liability."
+    },
+    {
+      "start": 479.14,
+      "end": 481.52,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1482,
+          "end": 1531
+        }
+      ],
+      "text": "The jury found in favor of Sony on both theories."
+    },
+    {
+      "start": 481.52,
+      "end": 488.5,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1576,
+          "end": 1668
+        }
+      ],
+      "text": "It also found that Cox's infringement was willful, awarding $1 billion in statutory damages."
+    },
+    {
+      "start": 488.5,
+      "end": 494.74,
+      "paragraph": 19,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1675,
+          "end": 1774
+        }
+      ],
+      "text": "The District Court denied Cox's post-trial motion for judgment as a matter of law in relevant part."
+    },
+    {
+      "start": 494.74,
+      "end": 506.58,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 9,
+          "start": 1790,
+          "end": 1964
+        }
+      ],
+      "text": "Footnote 1: Cox could not invoke the DMCA safe-harbor defense based on its efforts to reduce infringement because an earlier decision had foreclosed that defense for the relevant period.",
+      "footnote": "1"
+    },
+    {
+      "start": 506.58,
+      "end": 508.5,
+      "paragraph": 20,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1812,
+          "end": 1813
+        }
+      ],
+      "text": "End footnote 1.",
+      "transition": true,
+      "footnote": "1"
+    },
+    {
+      "start": 508.5,
+      "end": 512.26,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 78,
+          "end": 134
+        }
+      ],
+      "text": "The Fourth Circuit affirmed in part and reversed in part."
+    },
+    {
+      "start": 512.26,
+      "end": 518.8,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 135,
+          "end": 245
+        }
+      ],
+      "text": "It affirmed as to contributory liability because Cox continued to provide Internet service to known infringers."
+    },
+    {
+      "start": 518.8,
+      "end": 531.18,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 246,
+          "end": 462
+        }
+      ],
+      "text": "Applying Circuit precedent, it reasoned that “supplying a product with knowledge that the recipient will use it to infringe copyrights is exactly the sort of culpable conduct sufficient for contributory infringement.”"
+    },
+    {
+      "start": 531.18,
+      "end": 541.36,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 580,
+          "end": 744
+        }
+      ],
+      "text": "The Fourth Circuit reversed as to vicarious liability because it concluded that Cox did not “receive a direct financial benefit from its subscribers' infringement.”"
+    },
+    {
+      "start": 541.36,
+      "end": 550.2,
+      "paragraph": 21,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 764,
+          "end": 889
+        }
+      ],
+      "text": "The court then vacated the damages award and remanded for the jury to reassess damages based on contributory liability alone."
+    },
+    {
+      "start": 550.2,
+      "end": 555.72,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 890,
+          "end": 970
+        }
+      ],
+      "text": "We granted Cox's petition for a writ of certiorari as to contributory liability."
+    },
+    {
+      "start": 555.72,
+      "end": 561.605,
+      "paragraph": 22,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 993,
+          "end": 1074
+        }
+      ],
+      "text": "We denied Sony's petition for a writ of certiorari regarding vicarious liability."
+    },
+    {
+      "start": 561.605,
+      "end": 567.02,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1103,
+          "end": 1200
+        }
+      ],
+      "text": "“The Copyright Act does not expressly render anyone liable for infringement committed by another.”"
+    },
+    {
+      "start": 567.02,
+      "end": 573.1,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1226,
+          "end": 1312
+        }
+      ],
+      "text": "Ordinarily, when Congress intends to impose secondary liability, it does so expressly."
+    },
+    {
+      "start": 573.1,
+      "end": 583.88,
+      "paragraph": 25,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1421,
+          "end": 1603
+        }
+      ],
+      "text": "Although our precedents have recognized specific forms of secondary copyright liability that predated the Copyright Act, we are loath to expand such liability beyond those precedents."
+    },
+    {
+      "start": 583.88,
+      "end": 592.48,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 10,
+          "start": 1606,
+          "end": 1723
+        },
+        {
+          "page": 11,
+          "start": 55,
+          "end": 88
+        }
+      ],
+      "text": "The provider of a service is contributorily liable for the user's infringement only if it intended that the provided service be used for infringement."
+    },
+    {
+      "start": 592.48,
+      "end": 603.03,
+      "paragraph": 27,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 89,
+          "end": 249
+        }
+      ],
+      "text": "The intent required for contributory liability can be shown only if the party induced the infringement or the provided service is tailored to that infringement."
+    },
+    {
+      "start": 603.03,
+      "end": 608.62,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 308,
+          "end": 400
+        }
+      ],
+      "text": "A provider induces infringement if it actively encourages infringement through specific acts."
+    },
+    {
+      "start": 608.62,
+      "end": 615.12,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 457,
+          "end": 570
+        }
+      ],
+      "text": "For example, in Grokster, we held that a jury could find two file-sharing software companies liable for inducement."
+    },
+    {
+      "start": 615.12,
+      "end": 619.86,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 603,
+          "end": 687
+        }
+      ],
+      "text": "The companies promoted and marketed their software as a tool to infringe copyrights."
+    },
+    {
+      "start": 619.86,
+      "end": 625.5,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 701,
+          "end": 807
+        }
+      ],
+      "text": "The “principal object” of their business models “was use of their software to download copyrighted works.”"
+    },
+    {
+      "start": 625.5,
+      "end": 646.76,
+      "paragraph": 28,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 814,
+          "end": 1263
+        }
+      ],
+      "text": "Other decisions have held providers liable for similar conduct. (finding liability where “the defendant not only expected but invoked by advertisement the use of its films” for infringement of an author's copyright); (finding liability because the sale was made “with the purpose and intent” that the object be used for patent infringement)"
+    },
+    {
+      "start": 646.76,
+      "end": 655.12,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1374,
+          "end": 1500
+        }
+      ],
+      "text": "A service is tailored to infringement if it is “not capable of `substantial' or `commercially significant' noninfringing uses.”"
+    },
+    {
+      "start": 655.12,
+      "end": 660.84,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1591,
+          "end": 1685
+        }
+      ],
+      "text": "In Sony, copyright owners sued the maker and the retailers of the Betamax video tape recorder."
+    },
+    {
+      "start": 660.84,
+      "end": 668.74,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1699,
+          "end": 1841
+        }
+      ],
+      "text": "The tape recorder could be used to record copyrighted television programs for later personal viewing, which would not constitute infringement."
+    },
+    {
+      "start": 668.74,
+      "end": 676.16,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1855,
+          "end": 1990
+        }
+      ],
+      "text": "On the other hand, it could also be used to reproduce and sell copyrighted television programming, which would constitute infringement."
+    },
+    {
+      "start": 676.16,
+      "end": 688.74,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 11,
+          "start": 1997,
+          "end": 2079
+        },
+        {
+          "page": 12,
+          "start": 78,
+          "end": 221
+        }
+      ],
+      "text": "The lower court found the Betamax maker liable because the tape recorder was “not suitable for any substantial noninfringing use” and infringement “was either the most conspicuous use or the major use of the Betamax product.”"
+    },
+    {
+      "start": 688.74,
+      "end": 703.42,
+      "paragraph": 29,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 270,
+          "end": 489
+        }
+      ],
+      "text": "This Court reversed, concluding that “the Betamax is... capable of substantial noninfringing uses”—like personal use—so “sale of such equipment to the general public does not constitute contributory infringement.”"
+    },
+    {
+      "start": 703.42,
+      "end": 707.38,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 503,
+          "end": 565
+        }
+      ],
+      "text": "These two forms of contributory infringement track patent law."
+    },
+    {
+      "start": 707.38,
+      "end": 716.44,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 626,
+          "end": 740
+        }
+      ],
+      "text": "Under Section 271 of Title 35(b), “whoever actively induces infringement of a patent shall be liable as an infringer.”"
+    },
+    {
+      "start": 716.44,
+      "end": 723.0,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 741,
+          "end": 848
+        }
+      ],
+      "text": "Such liability requires that the party express “an affirmative intent that the product be used to infringe.”"
+    },
+    {
+      "start": 723.0,
+      "end": 736.2,
+      "paragraph": 30,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 878,
+          "end": 1063
+        }
+      ],
+      "text": "Under Section 271(c), a party is liable when it sells a product used for infringement “knowing the same to be especially made or especially adapted for use in an infringement of such patent.”"
+    },
+    {
+      "start": 736.2,
+      "end": 745.18,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1064,
+          "end": 1221
+        }
+      ],
+      "text": "This Court has repeatedly made clear that mere knowledge that a service will be used to infringe is insufficient to establish the required intent to infringe."
+    },
+    {
+      "start": 745.18,
+      "end": 757.78,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1222,
+          "end": 1444
+        }
+      ],
+      "text": "In Kalem Co., the Court explained that “mere indifferent supposition or knowledge on the part of the seller” that the buyer will use the product unlawfully is “not enough” to make the seller liable for the buyer's conduct."
+    },
+    {
+      "start": 757.78,
+      "end": 773.02,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1463,
+          "end": 1760
+        }
+      ],
+      "text": "In Sony, the Court explained that “there is no precedent in the law of copyright” for liability based only “on the fact that the defendant has sold equipment with constructive knowledge of the fact that its customers may use that equipment to make unauthorized copies of copyrighted material.”"
+    },
+    {
+      "start": 773.02,
+      "end": 784.16,
+      "paragraph": 31,
+      "ranges": [
+        {
+          "page": 12,
+          "start": 1780,
+          "end": 1966
+        }
+      ],
+      "text": "And, in Grokster, the Court confirmed that “a court would be unable to find contributory infringement liability merely based on a failure to take affirmative steps to prevent infringement.”"
+    },
+    {
+      "start": 784.16,
+      "end": 789.28,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 59,
+          "end": 140
+        }
+      ],
+      "text": "Thus, Cox is not contributorily liable for the infringement of Sony's copyrights."
+    },
+    {
+      "start": 789.28,
+      "end": 796.48,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 141,
+          "end": 274
+        }
+      ],
+      "text": "Cox provided Internet service to its subscribers, but it did not intend for that service to be used to commit copyright infringement."
+    },
+    {
+      "start": 796.48,
+      "end": 806.63,
+      "paragraph": 33,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 275,
+          "end": 431
+        }
+      ],
+      "text": "Holding Cox liable merely for failing to terminate Internet service to infringing accounts would expand secondary copyright liability beyond our precedents."
+    },
+    {
+      "start": 806.63,
+      "end": 812.42,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 432,
+          "end": 524
+        }
+      ],
+      "text": "Cox neither induced its users' infringement nor provided a service tailored to infringement."
+    },
+    {
+      "start": 812.42,
+      "end": 818.14,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 525,
+          "end": 622
+        }
+      ],
+      "text": "As for inducement, Cox did not “induce” or “encourage” its subscribers to infringe in any manner."
+    },
+    {
+      "start": 818.14,
+      "end": 823.88,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 636,
+          "end": 732
+        }
+      ],
+      "text": "Sony provided no “evidence of express promotion, marketing, and intent to promote” infringement."
+    },
+    {
+      "start": 823.88,
+      "end": 831.1,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 746,
+          "end": 868
+        }
+      ],
+      "text": "And, Cox repeatedly discouraged copyright infringement by sending warnings, suspending services, and terminating accounts."
+    },
+    {
+      "start": 831.1,
+      "end": 840.74,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 869,
+          "end": 1032
+        }
+      ],
+      "text": "As for providing a service tailored to infringement, Cox's Internet service was clearly “capable of `substantial' or `commercially significant' noninfringing uses.”"
+    },
+    {
+      "start": 840.74,
+      "end": 845.48,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1073,
+          "end": 1145
+        }
+      ],
+      "text": "Cox did not tailor its service to make copyright infringement easier."
+    },
+    {
+      "start": 845.48,
+      "end": 852.0,
+      "paragraph": 34,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1146,
+          "end": 1249
+        }
+      ],
+      "text": "Cox simply provided Internet access, which is used for many purposes other than copyright infringement."
+    },
+    {
+      "start": 852.0,
+      "end": 858.54,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1250,
+          "end": 1371
+        }
+      ],
+      "text": "The Fourth Circuit found otherwise based only on its Circuit precedent establishing a new form of contributory liability."
+    },
+    {
+      "start": 858.54,
+      "end": 862.02,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1372,
+          "end": 1437
+        }
+      ],
+      "text": "The court did not suggest that Cox induced its users to infringe."
+    },
+    {
+      "start": 862.02,
+      "end": 868.82,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1463,
+          "end": 1584
+        }
+      ],
+      "text": "And, it did not deny that Cox's service was “capable of substantial lawful use and not designed to promote infringement.”"
+    },
+    {
+      "start": 868.82,
+      "end": 878.34,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1598,
+          "end": 1766
+        }
+      ],
+      "text": "Rather, the court held that “supplying a product with knowledge that the recipient will use it to infringe copyrights is... sufficient for contributory infringement.”"
+    },
+    {
+      "start": 878.34,
+      "end": 884.72,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1811,
+          "end": 1916
+        }
+      ],
+      "text": "The Fourth Circuit's holding thus went beyond the two forms of liability recognized in Grokster and Sony."
+    },
+    {
+      "start": 884.72,
+      "end": 896.18,
+      "paragraph": 35,
+      "ranges": [
+        {
+          "page": 13,
+          "start": 1917,
+          "end": 1968
+        },
+        {
+          "page": 14,
+          "start": 126,
+          "end": 255
+        }
+      ],
+      "text": "It also conflicted with this Court's repeated admonition that contributory liability cannot rest only on a provider's knowledge of infringement and insufficient action to prevent it."
+    },
+    {
+      "start": 896.18,
+      "end": 905.9,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 353,
+          "end": 517
+        }
+      ],
+      "text": "Finally, Sony argues that the DMCA safe harbor would have no effect if Internet service providers are not liable for providing Internet service to known infringers."
+    },
+    {
+      "start": 905.9,
+      "end": 913.42,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 544,
+          "end": 665
+        }
+      ],
+      "text": "The DMCA safe harbor protects Internet service providers that terminate repeat infringers “in appropriate circumstances.”"
+    },
+    {
+      "start": 913.42,
+      "end": 922.84,
+      "paragraph": 37,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 694,
+          "end": 842
+        }
+      ],
+      "text": "Sony argues that Congress must have enacted the DMCA on the presumption that Internet service providers could be held liable in cases such as these."
+    },
+    {
+      "start": 922.84,
+      "end": 925.06,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 843,
+          "end": 867
+        }
+      ],
+      "text": "Sony overreads the DMCA."
+    },
+    {
+      "start": 925.06,
+      "end": 932.14,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 868,
+          "end": 990
+        }
+      ],
+      "text": "Sony does not contend that the DMCA expressly imposes liability for Internet service providers who serve known infringers."
+    },
+    {
+      "start": 932.14,
+      "end": 933.18,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 991,
+          "end": 1003
+        }
+      ],
+      "text": "It does not."
+    },
+    {
+      "start": 933.18,
+      "end": 937.36,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1004,
+          "end": 1075
+        }
+      ],
+      "text": "The DMCA merely creates new defenses from liability for such providers."
+    },
+    {
+      "start": 937.36,
+      "end": 948.72,
+      "paragraph": 38,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1076,
+          "end": 1277
+        }
+      ],
+      "text": "And, the DMCA made clear that failure to comply with the safe-harbor rules “shall not bear adversely upon... a defense by the service provider that the service provider's conduct is not infringing.”"
+    },
+    {
+      "start": 948.72,
+      "end": 956.76,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1291,
+          "end": 1442
+        }
+      ],
+      "text": "The judgment of the Court of Appeals for the Fourth Circuit is reversed, and the case is remanded for further proceedings consistent with this opinion."
+    },
+    {
+      "start": 956.76,
+      "end": 957.7,
+      "paragraph": 40,
+      "ranges": [
+        {
+          "page": 14,
+          "start": 1443,
+          "end": 1460
+        }
+      ],
+      "text": "It is so ordered."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 82,
+      "expectedWords": 82,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 1,
+      "matchedWords": 48,
+      "expectedWords": 48,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 2,
+      "matchedWords": 36,
+      "expectedWords": 36,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 5,
+      "matchedWords": 81,
+      "expectedWords": 81,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 6,
+      "matchedWords": 34,
+      "expectedWords": 34,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 7,
+      "matchedWords": 84,
+      "expectedWords": 84,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 8,
+      "matchedWords": 99,
+      "expectedWords": 101,
+      "coverage": 0.9801980198019802
+    },
+    {
+      "paragraph": 10,
+      "matchedWords": 52,
+      "expectedWords": 55,
+      "coverage": 0.9454545454545454
+    },
+    {
+      "paragraph": 11,
+      "matchedWords": 89,
+      "expectedWords": 92,
+      "coverage": 0.967391304347826
+    },
+    {
+      "paragraph": 12,
+      "matchedWords": 99,
+      "expectedWords": 100,
+      "coverage": 0.99
+    },
+    {
+      "paragraph": 13,
+      "matchedWords": 112,
+      "expectedWords": 116,
+      "coverage": 0.9655172413793104
+    },
+    {
+      "paragraph": 14,
+      "matchedWords": 133,
+      "expectedWords": 136,
+      "coverage": 0.9779411764705882
+    },
+    {
+      "paragraph": 15,
+      "matchedWords": 92,
+      "expectedWords": 93,
+      "coverage": 0.989247311827957
+    },
+    {
+      "paragraph": 17,
+      "matchedWords": 23,
+      "expectedWords": 23,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 18,
+      "matchedWords": 107,
+      "expectedWords": 111,
+      "coverage": 0.963963963963964
+    },
+    {
+      "paragraph": 19,
+      "matchedWords": 57,
+      "expectedWords": 57,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 20,
+      "matchedWords": 33,
+      "expectedWords": 33,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 21,
+      "matchedWords": 99,
+      "expectedWords": 101,
+      "coverage": 0.9801980198019802
+    },
+    {
+      "paragraph": 22,
+      "matchedWords": 27,
+      "expectedWords": 27,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 25,
+      "matchedWords": 52,
+      "expectedWords": 52,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 27,
+      "matchedWords": 50,
+      "expectedWords": 50,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 28,
+      "matchedWords": 113,
+      "expectedWords": 113,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 29,
+      "matchedWords": 137,
+      "expectedWords": 140,
+      "coverage": 0.9785714285714285
+    },
+    {
+      "paragraph": 30,
+      "matchedWords": 70,
+      "expectedWords": 81,
+      "coverage": 0.8641975308641975
+    },
+    {
+      "paragraph": 31,
+      "matchedWords": 141,
+      "expectedWords": 142,
+      "coverage": 0.9929577464788732
+    },
+    {
+      "paragraph": 33,
+      "matchedWords": 56,
+      "expectedWords": 56,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 34,
+      "matchedWords": 103,
+      "expectedWords": 104,
+      "coverage": 0.9903846153846154
+    },
+    {
+      "paragraph": 35,
+      "matchedWords": 121,
+      "expectedWords": 121,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 37,
+      "matchedWords": 66,
+      "expectedWords": 66,
+      "coverage": 1.0
+    },
+    {
+      "paragraph": 38,
+      "matchedWords": 69,
+      "expectedWords": 70,
+      "coverage": 0.9857142857142858
+    },
+    {
+      "paragraph": 40,
+      "matchedWords": 29,
+      "expectedWords": 29,
+      "coverage": 1.0
+    }
+  ]
+}

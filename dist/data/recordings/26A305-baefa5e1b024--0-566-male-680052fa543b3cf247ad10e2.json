@@ -1,0 +1,55 @@
+{
+  "version": "6a5803d16af037dd",
+  "duration": 34.855,
+  "voice": "am_michael",
+  "audioSha256": "4c403fd7c730129403534c4b3e50044436c6b3ed8ffe7c5b37cf03a473a8f358",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 11.66,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 597,
+          "end": 785
+        }
+      ],
+      "text": "In my view, based on the briefing the Court has received at this interim stage, there is at least a fair prospect that the final rule falls within the Postal Service’s statutory authority."
+    },
+    {
+      "start": 11.66,
+      "end": 29.0,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 811,
+          "end": 1063
+        }
+      ],
+      "text": "But applying the rule in the 2026 elections would be arbitrary and capricious in violation of the Administrative Procedure Act because state and local election officials do not have sufficient time to reasonably implement the rule before the elections."
+    },
+    {
+      "start": 29.0,
+      "end": 34.505,
+      "paragraph": 0,
+      "ranges": [
+        {
+          "page": 0,
+          "start": 1113,
+          "end": 1181
+        }
+      ],
+      "text": "For that reason, I concur in the denial of the application for stay."
+    }
+  ],
+  "coverage": [
+    {
+      "paragraph": 0,
+      "matchedWords": 86,
+      "expectedWords": 86,
+      "coverage": 1.0
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "reviewed": true,
+  "documentId": "25A1207-6fbbbc7dd311--0-911",
+  "sourceDocumentId": "25A1207-6fbbbc7dd311",
+  "sourceTextPath": "dist/data/current-docs/25A1207-6fbbbc7dd311.json",
+  "sourceTextSha256": "2ee0b91290264eba1d36de7b1753bc871dc07a8cc04f60e5f0d2d1716014dd49",
+  "sourcePdfPath": "recordings/sources/9ee77ef99d4855a038b9b02f.pdf",
+  "sourcePdfSha256": "9ee77ef99d4855a038b9b02f56d769380716a5f7efdedd9ef9b2722df7581971",
+  "title": "Dissent",
+  "author": "Clarence Thomas",
+  "date": "2026-05-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1207_new_3d9g.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 939,
+    "endPage": 1,
+    "endOffset": 1547
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 939,
+          "end": 1266
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1266,
+          "end": 1441
+        },
+        {
+          "page": 1,
+          "start": 62,
+          "end": 1068
+        }
+      ],
+      "citations": [
+        {
+          "start": 217,
+          "end": 235,
+          "text": "18 U. S. C. §1461.",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 1461"
+        },
+        {
+          "start": 443,
+          "end": 452,
+          "text": "§1462(c).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 1462"
+        },
+        {
+          "start": 593,
+          "end": 846,
+          "text": "FDA, Risk Evaluation and Mitigation Strategy (REMS) Single Shared System for Mifepristone 200 MG, pp. 3, 4 (Jan. 2023), https://www.accessdata.fda.gov/ drugsatfda_docs/rems/Mifepristone_2023_01_03_REMS_ Full.pdf (archived at https://perma.cc/T7D6-QZ5R).",
+          "type": "reference",
+          "canonical": "FDA, Mifepristone REMS (January 2023)"
+        },
+        {
+          "start": 1011,
+          "end": 1181,
+          "text": "Alliance for Hippocratic Medicine v. FDA, 78 F. 4th 210, 268 (CA5 2023) (Ho, J., concurring in part and dissenting in part), rev’d on other grounds, 602 U. S. 367 (2024).",
+          "type": "case",
+          "canonical": "78 F.4th 210"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[s]hip",
+          "to": "ship"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1068,
+          "end": 1524
+        }
+      ],
+      "citations": [
+        {
+          "start": 365,
+          "end": 416,
+          "text": "Zedner v. United States, 547 U. S. 489, 501 (2006),",
+          "type": "case",
+          "canonical": "547 U.S. 489"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "reduc[e]",
+          "to": "reduce"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1524,
+          "end": 1547
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "repairs": [],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 62,
+      "text": "2 DANCO LABORATORIES, LLC v. LOUISIANA\nTHOMAS, J., dissenting\n",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

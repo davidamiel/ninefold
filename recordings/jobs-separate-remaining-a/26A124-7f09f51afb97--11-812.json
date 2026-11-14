@@ -1,0 +1,582 @@
+{
+  "reviewed": true,
+  "documentId": "26A124-7f09f51afb97--11-812",
+  "sourceDocumentId": "26A124-7f09f51afb97",
+  "sourceTextPath": "dist/data/docs/26A124-7f09f51afb97.json",
+  "sourceTextSha256": "df04f0e2fbd027a0477e4a41ec7bb34c5b7243ebeb91e1882650ffeb2fa8c7bd",
+  "sourcePdfPath": "recordings/sources/14d9eade66ac72c7f1fd0577.pdf",
+  "sourcePdfSha256": "14d9eade66ac72c7f1fd0577adff6245e72d034e917223ec296e785eeaee4868",
+  "title": "Dissent",
+  "author": "Sonia Sotomayor",
+  "date": "2026-08-24",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r69_11o2.pdf",
+  "sourceRange": {
+    "startPage": 11,
+    "startOffset": 875,
+    "endPage": 14,
+    "endOffset": 1148
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 875,
+          "end": 1346
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1346,
+          "end": 2055
+        },
+        {
+          "page": 12,
+          "start": 93,
+          "end": 698
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 199,
+          "end": 210,
+          "text": "Article III",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article III",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 841,
+          "end": 844,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "Executive Order, Section 2",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1102,
+          "end": 1105,
+          "text": "§ 2",
+          "type": "statute",
+          "canonical": "Executive Order, Section 2",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1233,
+          "end": 1265,
+          "text": "App. to Application for Stay 5a,",
+          "type": "record",
+          "canonical": "Application for stay appendix, p. 5a"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article 3"
+        },
+        {
+          "from": "§ 2",
+          "to": "Section 2"
+        },
+        {
+          "from": "§ 2",
+          "to": "Section 2"
+        },
+        {
+          "from": "2(a)",
+          "to": "2, a"
+        },
+        {
+          "from": "2(b)",
+          "to": "2, b"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 698,
+          "end": 2266
+        },
+        {
+          "page": 13,
+          "start": 51,
+          "end": 257
+        }
+      ],
+      "citations": [
+        {
+          "start": 170,
+          "end": 248,
+          "text": "Govt. Brief in Opposition in No. 1:26–cv–11581 (D Mass.), ECF Doc. 157, p. 47,",
+          "type": "record",
+          "canonical": "No. 1:26-cv-11581, ECF Doc. 157"
+        },
+        {
+          "start": 589,
+          "end": 622,
+          "text": "Reply Brief in No. 26A124, p. 13.",
+          "type": "record",
+          "canonical": "No. 26A124 reply brief, p. 13"
+        },
+        {
+          "start": 999,
+          "end": 1055,
+          "text": "Bantam Books, Inc. v. Sullivan, 372 U. S. 58, 68 (1963),",
+          "type": "case",
+          "canonical": "372 U.S. 58"
+        },
+        {
+          "start": 1229,
+          "end": 1318,
+          "text": "See First Choice Women's Resource Centers, Inc. v. Davenport, 608 U. S. 174, 183 (2026) (",
+          "type": "case",
+          "canonical": "608 U.S. 174"
+        },
+        {
+          "start": 1706,
+          "end": 1776,
+          "text": "(quoting Susan B. Anthony List v. Driehaus, 573 U. S. 149, 161 (2014))",
+          "type": "case",
+          "canonical": "573 U.S. 149"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[p]eople",
+          "to": "people"
+        },
+        {
+          "from": "2(a)",
+          "to": "2, a"
+        },
+        {
+          "from": "2(b)",
+          "to": "2, b"
+        },
+        {
+          "from": "Section 2(b),”",
+          "to": "Section 2, b.”"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 257,
+          "end": 1317
+        }
+      ],
+      "citations": [
+        {
+          "start": 317,
+          "end": 331,
+          "text": "Ante, at 1040.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 1040"
+        },
+        {
+          "start": 625,
+          "end": 698,
+          "text": "Final Judgment in No. 1:26– cv–11581 (D Mass.), ECF Doc. 207, p. 4, ¶2.C.",
+          "type": "record",
+          "canonical": "No. 1:26-cv-11581, ECF Doc. 207"
+        },
+        {
+          "start": 782,
+          "end": 788,
+          "text": "§ 2(a)",
+          "type": "statute",
+          "canonical": "Executive Order, Section 2(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 795,
+          "end": 798,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "Executive Order, Section 3",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 846,
+          "end": 865,
+          "text": "ante, at 1038–1039,",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 1038-1039"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2, a"
+        },
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1908,
+          "end": 2198
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 71,
+          "end": 138,
+          "text": "Ante, at 1040, n. 2 (quoting ECF Doc. 207, pp. 2–4, ¶¶1, 2.A, 2.D).",
+          "type": "reference",
+          "canonical": "Court opinion, p. 1040, note 2"
+        },
+        {
+          "start": 213,
+          "end": 219,
+          "text": "§ 2(b)",
+          "type": "statute",
+          "canonical": "Executive Order, Section 2(b)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 246,
+          "end": 252,
+          "text": "§ 2(a)",
+          "type": "statute",
+          "canonical": "Executive Order, Section 2(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 260,
+          "end": 289,
+          "text": "See ECF Doc. 207, p. 4, ¶2.C.",
+          "type": "record",
+          "canonical": "No. 1:26-cv-11581, ECF Doc. 207"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2(b)",
+          "to": "Section 2, b"
+        },
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2, a"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1319,
+          "end": 1678
+        }
+      ],
+      "citations": [
+        {
+          "start": 25,
+          "end": 31,
+          "text": "§ 2(a)",
+          "type": "statute",
+          "canonical": "Executive Order, Section 2(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 75,
+          "end": 81,
+          "text": "§ 2(a)",
+          "type": "statute",
+          "canonical": "Executive Order, Section 2(a)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 208,
+          "end": 240,
+          "text": "Reply Brief in No. 26A124, p. 4,",
+          "type": "record",
+          "canonical": "No. 26A124 reply brief, p. 4"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2, a"
+        },
+        {
+          "from": "§ 2(a)",
+          "to": "Section 2, a"
+        },
+        {
+          "from": "give[s]",
+          "to": "gives"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1678,
+          "end": 1907
+        },
+        {
+          "page": 14,
+          "start": 60,
+          "end": 240
+        }
+      ],
+      "citations": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "§ 3",
+          "type": "statute",
+          "canonical": "Executive Order, Section 3",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 151,
+          "end": 219,
+          "text": "Amended Complaint in No. 1:26–cv–11581 (D Mass.), ECF Doc. 65, ¶169;",
+          "type": "record",
+          "canonical": "No. 1:26-cv-11581, ECF Doc. 65"
+        },
+        {
+          "start": 220,
+          "end": 239,
+          "text": "see id., ¶¶167–178.",
+          "type": "record",
+          "canonical": "No. 1:26-cv-11581, ECF Doc. 65"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3",
+          "to": "Section 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 240,
+          "end": 897
+        }
+      ],
+      "citations": [
+        {
+          "start": 459,
+          "end": 482,
+          "text": "See Application 28–29 (",
+          "type": "record",
+          "canonical": "Application, pp. 28-29"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "States”).",
+          "to": "States”."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 897,
+          "end": 1148
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 11,
+      "start": 2055,
+      "end": 2085,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained at marker."
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 93,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 1032 (2026) 1043\nSotomayor, J., dissenting\n",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained at marker."
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 51,
+      "text": "1044 TRUMP v. CALIFORNIA\nSotomayor, J., dissenting\n",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained at marker."
+    },
+    {
+      "page": 13,
+      "start": 1317,
+      "end": 1319,
+      "text": "*\n",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained at marker."
+    },
+    {
+      "page": 13,
+      "start": 1907,
+      "end": 1908,
+      "text": "*",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained at marker."
+    },
+    {
+      "page": 13,
+      "start": 2198,
+      "end": 2228,
+      "text": "Page Proof Pending Publication",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained at marker."
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 609 U. S. 1032 (2026) 1045\nJackson, J., dissenting\n",
+      "reason": "Running author/page header, publication footer or footnote marker; note retained at marker."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 11,
+      "start": 1492,
+      "end": 1503,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 11,
+      "start": 1707,
+      "end": 1715,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 11,
+      "start": 1910,
+      "end": 1918,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 11,
+      "start": 2051,
+      "end": 2054,
+      "expectedText": "ac-",
+      "text": "ac"
+    },
+    {
+      "page": 12,
+      "start": 233,
+      "end": 239,
+      "expectedText": "unifed",
+      "text": "unified"
+    },
+    {
+      "page": 12,
+      "start": 552,
+      "end": 560,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 12,
+      "start": 1589,
+      "end": 1596,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 12,
+      "start": 2185,
+      "end": 2190,
+      "expectedText": "fling",
+      "text": "filing"
+    },
+    {
+      "page": 13,
+      "start": 118,
+      "end": 126,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 14,
+      "start": 229,
+      "end": 233,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 14,
+      "start": 303,
+      "end": 307,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 14,
+      "start": 339,
+      "end": 343,
+      "expectedText": "fled",
+      "text": "filed"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Elena Kagan"
+    ]
+  }
+}

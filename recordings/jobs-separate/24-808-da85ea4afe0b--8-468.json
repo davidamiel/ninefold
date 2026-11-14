@@ -1,0 +1,162 @@
+{
+  "documentId": "24-808-da85ea4afe0b--8-468",
+  "sourceDocumentId": "24-808-da85ea4afe0b",
+  "sourceTextPath": "dist/data/docs/24-808-da85ea4afe0b.json",
+  "sourceTextSha256": "a4aa0a336329b74923b7d5f9250bfc18d786443700af85166ea55c5ce5d84f0e",
+  "sourcePdfPath": "dist/data/pdfs/24-808-da85ea4afe0b--8-468.pdf",
+  "sourcePdfSha256": "93ec0ae5d6fe2d28a4bc975d453d611c7dc3a74fe73b9dec3dbe7bee56b5cfeb",
+  "title": "Concurrence in the judgment",
+  "author": "Sonia Sotomayor",
+  "date": "2026-01-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r08_f2q3.pdf",
+  "sourceRange": {
+    "startPage": 8,
+    "startOffset": 515,
+    "endPage": 8,
+    "endOffset": 1736
+  },
+  "review": "Reviewed complete separate writing against Court PDF, including page continuations. Running headers, publication footer and footnotes belonging to another writing excluded. No substantive footnote belongs to this writing.",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 515,
+          "end": 804
+        }
+      ],
+      "citations": [
+        {
+          "start": 37,
+          "end": 50,
+          "text": "Rule 60(b)(4)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 178,
+          "end": 208,
+          "text": "Fed. Rule Civ. Proc. 60(c)(1).",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60"
+        },
+        {
+          "start": 209,
+          "end": 216,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(b)(4)",
+          "to": "Rule sixty b four"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 804,
+          "end": 1736
+        }
+      ],
+      "citations": [
+        {
+          "start": 184,
+          "end": 197,
+          "text": "Ante, at 159.",
+          "type": "case",
+          "canonical": "607 U.S. 155"
+        },
+        {
+          "start": 288,
+          "end": 352,
+          "text": "See In re Vista-Pro Automotive, LLC , 109 F. 4th 438, 443 (2024)",
+          "type": "case",
+          "canonical": "109 F.4th 438"
+        },
+        {
+          "start": 410,
+          "end": 417,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 496,
+          "end": 523,
+          "text": "See Brief for Petitioner 22",
+          "type": "reference",
+          "canonical": "Brief for Petitioner, p. 22"
+        },
+        {
+          "start": 574,
+          "end": 581,
+          "text": "Rule 60",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 585,
+          "end": 598,
+          "text": "Rule 60(c)(1)",
+          "type": "statute",
+          "canonical": "Fed. R. Civ. P. 60",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 752,
+          "end": 815,
+          "text": "Burwell v. Hobby Lobby Stores, Inc., 573 U. S. 682, 721 (2014).",
+          "type": "case",
+          "canonical": "573 U.S. 682"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Rule 60(c)(1)",
+          "to": "Rule sixty c one"
+        },
+        {
+          "from": "Rule 60",
+          "to": "Rule sixty"
+        },
+        {
+          "from": "[is]",
+          "to": "is"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [],
+  "repairs": [],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "reviewed": true
+}

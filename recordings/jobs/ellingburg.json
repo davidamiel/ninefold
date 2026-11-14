@@ -1,0 +1,821 @@
+{
+  "reviewed": true,
+  "documentId": "24-482-1f5120e06330--2-1211",
+  "sourceDocumentId": "24-482-1f5120e06330",
+  "sourceTextPath": "dist/data/docs/24-482-1f5120e06330.json",
+  "sourceTextSha256": "7857126a2503529ea3b4b9701a4491129edad48ffbfd59c03d477ab233844f07",
+  "sourcePdfPath": "dist/data/pdfs/24-482-1f5120e06330--2-1211.pdf",
+  "sourcePdfSha256": "c3bba39a5bfd2df9f42ecae6aeb85fc351ba1822a528e550774b8b0cad7772f3",
+  "title": "Opinion of the Court",
+  "author": "Brett M. Kavanaugh",
+  "date": "2026-01-20",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/607us1r09_4fb4.pdf",
+  "sourceRange": {
+    "startPage": 2,
+    "startOffset": 1265,
+    "endPage": 7,
+    "endOffset": 710
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 1265,
+          "end": 1434
+        },
+        {
+          "page": 3,
+          "start": 85,
+          "end": 271
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 271,
+          "end": 765
+        }
+      ],
+      "citations": [
+        {
+          "start": 446,
+          "end": 477,
+          "text": "113 F. 4th 839, 841–842 (2024).",
+          "type": "case",
+          "canonical": "113 F.4th 839"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 765,
+          "end": 1072
+        }
+      ],
+      "citations": [
+        {
+          "start": 240,
+          "end": 261,
+          "text": "605 U. S. 908 (2025).",
+          "type": "case",
+          "canonical": "605 U.S. 908"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1072,
+          "end": 1498
+        }
+      ],
+      "citations": [
+        {
+          "start": 362,
+          "end": 426,
+          "text": "Smith v. Doe, 538 U. S. 84, 92 (2003) (quotation marks omitted).",
+          "type": "case",
+          "canonical": "538 U.S. 84"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 3,
+          "start": 1502,
+          "end": 1969
+        }
+      ],
+      "citations": [
+        {
+          "start": 357,
+          "end": 467,
+          "text": "Kansas v. Hendricks, 521 U. S. 346, 361 (1997) (quoting United States v. Ward, 448 U. S. 242, 248–249 (1980)).",
+          "type": "case",
+          "canonical": "521 U.S. 346"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[is]",
+          "to": "is"
+        },
+        {
+          "from": "[the Government's]",
+          "to": "the Government's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 84,
+          "end": 233
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1872,
+          "end": 2124
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 235,
+          "end": 728
+        }
+      ],
+      "citations": [
+        {
+          "start": 124,
+          "end": 150,
+          "text": "18 U. S. C. § 3663A(a)(1).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3663A"
+        },
+        {
+          "start": 291,
+          "end": 296,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3663A"
+        },
+        {
+          "start": 357,
+          "end": 362,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3663A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 728,
+          "end": 1338
+        }
+      ],
+      "citations": [
+        {
+          "start": 275,
+          "end": 280,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3663A"
+        },
+        {
+          "start": 583,
+          "end": 597,
+          "text": "§§ 3614(b)(2),",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3614"
+        },
+        {
+          "start": 598,
+          "end": 610,
+          "text": "3613A(a)(1).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3613A"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1338,
+          "end": 1870
+        },
+        {
+          "page": 5,
+          "start": 85,
+          "end": 513
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 220,
+          "end": 226,
+          "text": "§ 3663",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3663",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 231,
+          "end": 238,
+          "text": "§ 3663A",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3663A",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 359,
+          "end": 365,
+          "text": "§ 3556",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3556",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 613,
+          "end": 623,
+          "text": "§ 3664(o).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3664"
+        },
+        {
+          "start": 786,
+          "end": 800,
+          "text": "See § 3664(c).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3664"
+        },
+        {
+          "start": 805,
+          "end": 814,
+          "text": "§ 3663(c)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3663",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 917,
+          "end": 939,
+          "text": "§ 208, 110 Stat. 1240;",
+          "type": "statute",
+          "canonical": "110 Stat. 1240"
+        },
+        {
+          "start": 940,
+          "end": 953,
+          "text": "§ 3663(c)(7).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3663"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§ 3663A",
+          "to": "Section 3663 A"
+        },
+        {
+          "from": "§ 3663(c)",
+          "to": "Section 3663 c"
+        },
+        {
+          "from": "§ 3663",
+          "to": "Section 3663"
+        },
+        {
+          "from": "§ 3556",
+          "to": "Section 3556"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 513,
+          "end": 755
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 755,
+          "end": 1341
+        }
+      ],
+      "citations": [
+        {
+          "start": 290,
+          "end": 316,
+          "text": "581 U. S. 116, 118 (2017).",
+          "type": "case",
+          "canonical": "581 U.S. 116"
+        },
+        {
+          "start": 461,
+          "end": 487,
+          "text": "544 U. S. 349, 365 (2005).",
+          "type": "case",
+          "canonical": "544 U.S. 349"
+        },
+        {
+          "start": 559,
+          "end": 585,
+          "text": "572 U. S. 434, 456 (2014).",
+          "type": "case",
+          "canonical": "572 U.S. 434"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1341,
+          "end": 1996
+        }
+      ],
+      "citations": [
+        {
+          "start": 150,
+          "end": 173,
+          "text": "18 U. S. C. § 982(a)(1)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 982",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 367,
+          "end": 426,
+          "text": "See United States v. Bajakajian, 524 U. S. 321, 328 (1998).",
+          "type": "case",
+          "canonical": "524 U.S. 321"
+        },
+        {
+          "start": 499,
+          "end": 519,
+          "text": "18 U. S. C. § 924(d)",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 924",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 577,
+          "end": 655,
+          "text": "United States v. One Assortment of 89 Firearms, 465 U. S. 354, 363–366 (1984).",
+          "type": "case",
+          "canonical": "465 U.S. 354"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "18 U. S. C. § 982(a)(1)",
+          "to": "Section 982 a one of Title 18"
+        },
+        {
+          "from": "18 U. S. C. § 924(d)",
+          "to": "Section 924 d of Title 18"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 84,
+          "end": 410
+        }
+      ],
+      "citations": [
+        {
+          "start": 165,
+          "end": 192,
+          "text": "See Tr. of Oral Arg. 22–23.",
+          "type": "record",
+          "canonical": "Oral argument transcript, pp. 22–23"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 410,
+          "end": 1198
+        }
+      ],
+      "citations": [
+        {
+          "start": 37,
+          "end": 51,
+          "text": ", 538 U. S. 84",
+          "type": "case",
+          "canonical": "538 U.S. 84"
+        },
+        {
+          "start": 328,
+          "end": 365,
+          "text": "Id., at 96 (quotation marks omitted).",
+          "type": "case",
+          "canonical": "538 U.S. 84"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1198,
+          "end": 1837
+        }
+      ],
+      "citations": [
+        {
+          "start": 251,
+          "end": 267,
+          "text": "§ 3664(f)(1)(A);",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3664"
+        },
+        {
+          "start": 268,
+          "end": 295,
+          "text": "see also, e. g., § 3664(j).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3664"
+        },
+        {
+          "start": 550,
+          "end": 574,
+          "text": "Smith, 538 U. S., at 92;",
+          "type": "case",
+          "canonical": "538 U.S. 84"
+        },
+        {
+          "start": 575,
+          "end": 607,
+          "text": "see Paroline, 572 U. S., at 456;",
+          "type": "case",
+          "canonical": "572 U.S. 434"
+        },
+        {
+          "start": 608,
+          "end": 639,
+          "text": "Pasquantino, 544 U. S., at 365.",
+          "type": "case",
+          "canonical": "544 U.S. 349"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1837,
+          "end": 2137
+        },
+        {
+          "page": 7,
+          "start": 88,
+          "end": 198
+        }
+      ],
+      "citations": [
+        {
+          "start": 216,
+          "end": 238,
+          "text": "See, e. g., § 3771(a).",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 3771"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 198,
+          "end": 393
+        }
+      ],
+      "citations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 393,
+          "end": 710
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 2,
+      "start": 1434,
+      "end": 2089,
+      "text": "*Andrew T. Tutt, Dana Kagan McGinley, and Nicole L. Masiello fled\na brief for Restitution Scholars as amici curiae urging reversal. Briefs\nof amici curiae urging vacatur were fled for the Cato Institute et al.\nby Matthew P . Cavedon; for the Constitutional Accountability Center by\nElizabeth B. Wydra and Brianne J. Gorod; for the NACDL et al. by\nLauren Willard Zehmer, Abby Wright, Hassan Ahmad, and Jeffrey T.\nGreen; and for Wayne A. Logan by Krystal B. Swendsboe .\nBriefs of amici curiae were fled for Beth A. Colgan, pro se; for Jennifer\nLaurin by Mahogane Reed; and for Debra Ricketts-Holder by Allyson N.\nHo, Bradley G. Hubbard, and Paul G. Cassell.",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 85,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S.163 (2026) 165\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 3,
+      "start": 1498,
+      "end": 1502,
+      "text": "1\n1 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 84,
+      "text": "Page Proof Pending Publication\n166 ELLINGBURG v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 4,
+      "start": 233,
+      "end": 235,
+      "text": "2\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 4,
+      "start": 1870,
+      "end": 1872,
+      "text": "2 ",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 85,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S.163 (2026) 167\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 84,
+      "text": "Page Proof Pending Publication\n168 ELLINGBURG v. UNITED STATES\nOpinion of the Court\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 88,
+      "text": "Page Proof Pending Publication\nCite as: 607 U. S. 163 (2026) 169\nThomas, J., concurring\n",
+      "reason": "Publication/counsel furniture, running header, ornamental separator or footnote number"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 1,
+      "start": 1587,
+      "end": 1591,
+      "expectedText": "fnes",
+      "text": "fines"
+    },
+    {
+      "page": 1,
+      "start": 1775,
+      "end": 1782,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 3,
+      "start": 245,
+      "end": 253,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 3,
+      "start": 1307,
+      "end": 1311,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 4,
+      "start": 832,
+      "end": 836,
+      "expectedText": "fnes",
+      "text": "fines"
+    },
+    {
+      "page": 4,
+      "start": 1441,
+      "end": 1448,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 5,
+      "start": 744,
+      "end": 753,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 5,
+      "start": 1826,
+      "end": 1833,
+      "expectedText": "frearms",
+      "text": "firearms"
+    },
+    {
+      "page": 6,
+      "start": 867,
+      "end": 874,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 6,
+      "start": 1341,
+      "end": 1347,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 7,
+      "start": 648,
+      "end": 657,
+      "expectedText": "affrmance",
+      "text": "affirmance"
+    },
+    {
+      "page": 8,
+      "start": 1401,
+      "end": 1405,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 9,
+      "start": 1077,
+      "end": 1081,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 11,
+      "start": 1845,
+      "end": 1849,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 14,
+      "start": 1230,
+      "end": 1234,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 15,
+      "start": 747,
+      "end": 751,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 15,
+      "start": 1687,
+      "end": 1691,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 16,
+      "start": 113,
+      "end": 117,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 21,
+      "start": 955,
+      "end": 959,
+      "expectedText": "fnes",
+      "text": "fines"
+    },
+    {
+      "page": 22,
+      "start": 1166,
+      "end": 1170,
+      "expectedText": "fnes",
+      "text": "fines"
+    },
+    {
+      "page": 23,
+      "start": 1603,
+      "end": 1607,
+      "expectedText": "fnes",
+      "text": "fines"
+    },
+    {
+      "page": 25,
+      "start": 88,
+      "end": 94,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 4,
+      "start": 1629,
+      "end": 1643,
+      "expectedText": "Miscel\nlaneous",
+      "text": "Miscellaneous"
+    },
+    {
+      "page": 4,
+      "start": 1676,
+      "end": 1697,
+      "expectedText": "st atutory\nprov\nision",
+      "text": "statutory provision"
+    },
+    {
+      "page": 4,
+      "start": 1740,
+      "end": 1752,
+      "expectedText": "restituti on",
+      "text": "restitution"
+    },
+    {
+      "page": 4,
+      "start": 1754,
+      "end": 1767,
+      "expectedText": "i\nn “imposing",
+      "text": "in “imposing"
+    },
+    {
+      "page": 4,
+      "start": 1864,
+      "end": 1869,
+      "expectedText": "“Sen-",
+      "text": "“Sen"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete Court opinion and substantive footnotes compared with the published PDF. Removed counsel/publication furniture interrupting the opening paragraph. Repaired extraction spacing in the Chapters 232/227 paragraph and joined Sentences across pages; original source coordinates retained. Source-only citations omitted from narration, substantive statute references, quotations and explanations retained."
+}

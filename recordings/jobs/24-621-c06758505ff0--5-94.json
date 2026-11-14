@@ -1,0 +1,4694 @@
+{
+  "reviewed": true,
+  "documentId": "24-621-c06758505ff0--5-94",
+  "sourceDocumentId": "24-621-c06758505ff0",
+  "sourceTextPath": "dist/data/docs/24-621-c06758505ff0.json",
+  "sourceTextSha256": "7344e277d64854a5c1d632a0113a9c0448ceeda619f75ceecaf816dd74965df3",
+  "sourcePdfPath": "dist/data/pdfs/24-621-c06758505ff0--5-94.pdf",
+  "sourcePdfSha256": "08d65b7080315d65abd595943aeec5b9499bfd7177661e24cd0095c8ee0148f9",
+  "title": "Opinion of the Court",
+  "author": "Brett M. Kavanaugh",
+  "date": "2026-06-30",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r67_g3bi.pdf",
+  "sourceRange": {
+    "startPage": 5,
+    "startOffset": 148,
+    "endPage": 32,
+    "endOffset": 1006
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 148,
+          "end": 907
+        }
+      ],
+      "citations": [
+        {
+          "start": 704,
+          "end": 759,
+          "text": "Buckley v. Valeo, 424 U. S. 1, 19 (1976) (per curiam ).",
+          "type": "case",
+          "canonical": "424 U.S. 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 907,
+          "end": 1076
+        },
+        {
+          "page": 6,
+          "start": 55,
+          "end": 266
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 219,
+          "end": 379,
+          "text": "See Colorado Republican Federal Campaign Comm. v. Federal Election Comm'n, 518 U. S. 604, 613–616, 618 (1996) ( Colorado I) (controlling opinion of Breyer, J.).",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 266,
+          "end": 810
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 810,
+          "end": 1899
+        }
+      ],
+      "citations": [
+        {
+          "start": 180,
+          "end": 276,
+          "text": "See Federal Election Comm'n v. Colorado Republican Federal Campaign Comm., 533 U. S. 431 (2001).",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 869,
+          "end": 933,
+          "text": "See McCutcheon v. Federal Election Comm'n, 572 U. S. 185 (2014);",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 934,
+          "end": 1003,
+          "text": "Federal Election Comm'n v. Ted Cruz for Senate, 596 U. S. 289 (2022);",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        },
+        {
+          "start": 1004,
+          "end": 1091,
+          "text": "see also SpeechNow.org v. Federal Election Comm'n, 599 F. 3d 686 (CADC 2010) (en banc).",
+          "type": "case",
+          "canonical": "599 F.3d 686"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1899,
+          "end": 2074
+        },
+        {
+          "page": 7,
+          "start": 94,
+          "end": 317
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 317,
+          "end": 318
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 319,
+          "end": 497
+        }
+      ],
+      "citations": [
+        {
+          "start": 154,
+          "end": 177,
+          "text": "52 U. S. C. § 30116(d).",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 30116(d)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1375,
+          "end": 1852
+        }
+      ],
+      "citations": [
+        {
+          "start": 161,
+          "end": 187,
+          "text": "11 CFR § 109.20(a) (2025);",
+          "type": "statute",
+          "canonical": "11 C.F.R. § 109.20(a)"
+        },
+        {
+          "start": 188,
+          "end": 220,
+          "text": "see also 52 U. S. C. § 30101(17)",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 30101(17)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FEC",
+          "to": "F E C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 498,
+          "end": 1024
+        }
+      ],
+      "citations": [
+        {
+          "start": 310,
+          "end": 342,
+          "text": "91 Fed. Reg. 10393–10394 (2026).",
+          "type": "record",
+          "canonical": "91 Fed. Reg. 10393–10394 (2026)."
+        },
+        {
+          "start": 500,
+          "end": 525,
+          "text": "89 Fed. Reg. 5536 (2024).",
+          "type": "record",
+          "canonical": "89 Fed. Reg. 5536 (2024)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1854,
+          "end": 2259
+        }
+      ],
+      "citations": [
+        {
+          "start": 352,
+          "end": 404,
+          "text": "See 11 CFR §§ 110.1(c)(2), 110.2(c)(2), 110.3(b)(2).",
+          "type": "statute",
+          "canonical": "11 C.F.R. § 110.1(c)(2)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1026,
+          "end": 1373
+        },
+        {
+          "page": 8,
+          "start": 86,
+          "end": 435
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "JD",
+          "to": "J D"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 435,
+          "end": 1253
+        }
+      ],
+      "citations": [
+        {
+          "start": 193,
+          "end": 262,
+          "text": "Federal Election Comm'n v. Colorado Republican Federal Campaign Comm.",
+          "type": "case",
+          "canonical": "533 U.S. 431",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 262,
+          "end": 278,
+          "text": ", 533 U. S. 431,",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 508,
+          "end": 545,
+          "text": "McCutcheon v. Federal Election Comm'n",
+          "type": "case",
+          "canonical": "572 U.S. 185",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 545,
+          "end": 568,
+          "text": ", 572 U. S. 185 (2014),",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 573,
+          "end": 619,
+          "text": "Federal Election Comm'n v. Ted Cruz for Senate",
+          "type": "case",
+          "canonical": "596 U.S. 289",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 620,
+          "end": 642,
+          "text": ", 596 U. S. 289 (2022)",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        },
+        {
+          "start": 644,
+          "end": 705,
+          "text": "See 117 F. 4th 389, 395 (CA6 2024) (en banc) (Sutton, C. J.);",
+          "type": "case",
+          "canonical": "117 F.4th 389"
+        },
+        {
+          "start": 706,
+          "end": 743,
+          "text": "id., at 401 (Thapar, J., concurring);",
+          "type": "case",
+          "canonical": "117 F.4th 389"
+        },
+        {
+          "start": 744,
+          "end": 779,
+          "text": "id., at 407 (Bush, J., concurring);",
+          "type": "case",
+          "canonical": "117 F.4th 389"
+        },
+        {
+          "start": 780,
+          "end": 818,
+          "text": "id., at 447 (Readler, J., dissenting).",
+          "type": "case",
+          "canonical": "117 F.4th 389"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1253,
+          "end": 2127
+        }
+      ],
+      "citations": [
+        {
+          "start": 242,
+          "end": 263,
+          "text": "606 U. S. 931 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 931"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        },
+        {
+          "from": "curiae",
+          "to": "cure ee eye"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 94,
+          "end": 96
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 97,
+          "end": 429
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "JD",
+          "to": "J D"
+        },
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        },
+        {
+          "from": "Article III",
+          "to": "Article Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 429,
+          "end": 942
+        }
+      ],
+      "citations": [
+        {
+          "start": 448,
+          "end": 513,
+          "text": "Cf. Susan B. Anthony List v. Driehaus, 573 U. S. 149, 159 (2014).",
+          "type": "case",
+          "canonical": "573 U.S. 149"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 942,
+          "end": 1234
+        }
+      ],
+      "citations": [
+        {
+          "start": 91,
+          "end": 140,
+          "text": "52 U. S. C. §§ 30109(a)(1), (a)(8)(A), (a)(8)(C).",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 30109(a)(1)"
+        },
+        {
+          "start": 250,
+          "end": 294,
+          "text": "Chafin v. Chafin, 568 U. S. 165, 173 (2013).",
+          "type": "case",
+          "canonical": "568 U.S. 165"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1234,
+          "end": 1737
+        }
+      ],
+      "citations": [
+        {
+          "start": 463,
+          "end": 506,
+          "text": "Brief for Court-Appointed Amicus Curiae 13.",
+          "type": "record",
+          "canonical": "Brief for Court-Appointed Amicus Curiae 13."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1737,
+          "end": 2035
+        },
+        {
+          "page": 10,
+          "start": 55,
+          "end": 255
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "JD",
+          "to": "J D"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 255,
+          "end": 303
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 303,
+          "end": 306
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 307,
+          "end": 817
+        }
+      ],
+      "citations": [
+        {
+          "start": 312,
+          "end": 509,
+          "text": "Colorado Republican Federal Campaign Comm. v. Federal Election Comm'n, 518 U. S. 604, 629 (1996) (Colorado I) (Kennedy, J., concurring in judgment and dissenting in part) (quotation marks omitted).",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 817,
+          "end": 1613
+        }
+      ],
+      "citations": [
+        {
+          "start": 154,
+          "end": 255,
+          "text": "Federal Election Comm'n v. Ted Cruz for Senate , 596 U. S. 289, 302 (2022) (quotation marks omitted).",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        },
+        {
+          "start": 323,
+          "end": 339,
+          "text": "Buckley v. Valeo",
+          "type": "case",
+          "canonical": "424 U.S. 1",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 403,
+          "end": 432,
+          "text": "Colorado I, 518 U. S., at 627",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        },
+        {
+          "start": 433,
+          "end": 457,
+          "text": "(opinion of Kennedy, J.)",
+          "type": "record",
+          "canonical": "(opinion of Kennedy, J.)"
+        },
+        {
+          "start": 458,
+          "end": 477,
+          "text": "(citation omitted).",
+          "type": "record",
+          "canonical": "(citation omitted)"
+        },
+        {
+          "start": 679,
+          "end": 741,
+          "text": "See Buckley v. Valeo, 424 U. S. 1, 39–59 (1976) (per curiam );",
+          "type": "case",
+          "canonical": "424 U.S. 1"
+        },
+        {
+          "start": 742,
+          "end": 771,
+          "text": "Colorado I, 518 U. S., at 616",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        },
+        {
+          "start": 772,
+          "end": 795,
+          "text": "(opinion of Breyer, J.)",
+          "type": "record",
+          "canonical": "(opinion of Breyer, J.)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1613,
+          "end": 1950
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 11,
+          "start": 94,
+          "end": 95
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 96,
+          "end": 491
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 491,
+          "end": 1404
+        }
+      ],
+      "citations": [
+        {
+          "start": 434,
+          "end": 571,
+          "text": "Federal Election Comm'n v. Colorado Republican Federal Campaign Comm., 533 U. S. 431, 469 (2001) (Colorado II) (Thomas, J ., dissenting).",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 766,
+          "end": 795,
+          "text": "Colorado I, 518 U. S., at 630",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        },
+        {
+          "start": 900,
+          "end": 912,
+          "text": "Id., at 629.",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1404,
+          "end": 2013
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 55,
+          "end": 664
+        }
+      ],
+      "citations": [
+        {
+          "start": 200,
+          "end": 230,
+          "text": "Colorado II, 533 U. S., at 477",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 231,
+          "end": 255,
+          "text": "(Thomas, J., dissenting)",
+          "type": "record",
+          "canonical": "(Thomas, J., dissenting)"
+        },
+        {
+          "start": 558,
+          "end": 569,
+          "text": "Id., at 473",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 570,
+          "end": 609,
+          "text": "(quotation marks and citation omitted).",
+          "type": "record",
+          "canonical": "(quotation marks and citation omitted)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 664,
+          "end": 1226
+        }
+      ],
+      "citations": [
+        {
+          "start": 438,
+          "end": 467,
+          "text": "Colorado I, 518 U. S., at 630",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        },
+        {
+          "start": 468,
+          "end": 492,
+          "text": "(opinion of Kennedy, J.)",
+          "type": "record",
+          "canonical": "(opinion of Kennedy, J.)"
+        },
+        {
+          "start": 494,
+          "end": 537,
+          "text": "see also Colorado II, 533 U. S., at 469–471",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 538,
+          "end": 562,
+          "text": "(Thomas, J., dissenting)",
+          "type": "record",
+          "canonical": "(Thomas, J., dissenting)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1226,
+          "end": 1227
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1228,
+          "end": 1503
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1503,
+          "end": 1794
+        }
+      ],
+      "citations": [
+        {
+          "start": 179,
+          "end": 290,
+          "text": "McCutcheon v. Federal Election Comm'n, 572 U. S. 185, 210 (2014) (plurality opinion) (quotation marks omitted).",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1798,
+          "end": 1996
+        }
+      ],
+      "citations": [
+        {
+          "start": 82,
+          "end": 136,
+          "text": "See Marks v. United States, 430 U. S. 188, 193 (1977).",
+          "type": "case",
+          "canonical": "430 U.S. 188"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 94,
+          "end": 339
+        }
+      ],
+      "citations": [
+        {
+          "start": 232,
+          "end": 244,
+          "text": "Id., at 197.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 339,
+          "end": 747
+        }
+      ],
+      "citations": [
+        {
+          "start": 224,
+          "end": 229,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 230,
+          "end": 256,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        },
+        {
+          "start": 376,
+          "end": 381,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 382,
+          "end": 408,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "Source quotation notation"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 747,
+          "end": 1376
+        }
+      ],
+      "citations": [
+        {
+          "start": 231,
+          "end": 260,
+          "text": "McCutcheon, 572 U. S., at 199",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 341,
+          "end": 366,
+          "text": "(quotation marks omitted)",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        },
+        {
+          "start": 369,
+          "end": 380,
+          "text": "id., at 218",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 436,
+          "end": 461,
+          "text": "(quotation marks omitted)",
+          "type": "record",
+          "canonical": "Source quotation notation"
+        },
+        {
+          "start": 464,
+          "end": 475,
+          "text": "id., at 220",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 541,
+          "end": 564,
+          "text": "Cruz, 596 U. S., at 306",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1376,
+          "end": 1953
+        }
+      ],
+      "citations": [
+        {
+          "start": 317,
+          "end": 347,
+          "text": "McCutcheon, 572 U. S., at 199;",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 348,
+          "end": 381,
+          "text": "see also Cruz, 596 U. S., at 305.",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1953,
+          "end": 1954
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1955,
+          "end": 2070
+        },
+        {
+          "page": 14,
+          "start": 55,
+          "end": 132
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 132,
+          "end": 283
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 283,
+          "end": 1408
+        }
+      ],
+      "citations": [
+        {
+          "start": 172,
+          "end": 201,
+          "text": "Colorado I, 518 U. S., at 618",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        },
+        {
+          "start": 202,
+          "end": 225,
+          "text": "(opinion of Breyer, J.)",
+          "type": "record",
+          "canonical": "(opinion of Breyer, J.)"
+        },
+        {
+          "start": 563,
+          "end": 587,
+          "text": "Cruz, 596 U. S., at 305;",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        },
+        {
+          "start": 588,
+          "end": 623,
+          "text": "see also Buckley, 424 U. S., at 57.",
+          "type": "case",
+          "canonical": "424 U.S. 1"
+        },
+        {
+          "start": 896,
+          "end": 920,
+          "text": "Cruz, 596 U. S., at 305.",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        },
+        {
+          "start": 1098,
+          "end": 1127,
+          "text": "Buckley, 424 U. S., at 48–49.",
+          "type": "case",
+          "canonical": "424 U.S. 1"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1408,
+          "end": 1821
+        }
+      ],
+      "citations": [
+        {
+          "start": 153,
+          "end": 223,
+          "text": "Cf. Kennedy v. Bremerton School Dist., 597 U. S. 507, 543, n. 8 (2022)",
+          "type": "case",
+          "canonical": "597 U.S. 507"
+        },
+        {
+          "start": 371,
+          "end": 412,
+          "text": "(quotation marks and alterations omitted)",
+          "type": "record",
+          "canonical": "(quotation marks and alterations omitted)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1821,
+          "end": 2113
+        },
+        {
+          "page": 15,
+          "start": 94,
+          "end": 634
+        }
+      ],
+      "citations": [
+        {
+          "start": 429,
+          "end": 495,
+          "text": "117 F. 4th 389, 402 (CA6 2024) (en banc) (Thapar, J., concurring).",
+          "type": "case",
+          "canonical": "117 F.4th 389"
+        },
+        {
+          "start": 748,
+          "end": 777,
+          "text": "Colorado I, 518 U. S., at 646",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        },
+        {
+          "start": 778,
+          "end": 833,
+          "text": "(opinion concurring in judgment and dissenting in part)",
+          "type": "record",
+          "canonical": "(opinion concurring in judgment and dissenting in part)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 634,
+          "end": 1110
+        }
+      ],
+      "citations": [
+        {
+          "start": 266,
+          "end": 284,
+          "text": "533 U. S., at 441;",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 285,
+          "end": 323,
+          "text": "see also McCutcheon, 572 U. S., at 240",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 324,
+          "end": 348,
+          "text": "(Breyer, J., dissenting)",
+          "type": "record",
+          "canonical": "(Breyer, J., dissenting)"
+        },
+        {
+          "start": 453,
+          "end": 478,
+          "text": "(quotation marks omitted)",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1110,
+          "end": 2033
+        },
+        {
+          "page": 16,
+          "start": 55,
+          "end": 141
+        }
+      ],
+      "citations": [
+        {
+          "start": 484,
+          "end": 513,
+          "text": "McCutcheon, 572 U. S., at 208",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 514,
+          "end": 540,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        },
+        {
+          "start": 615,
+          "end": 620,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 676,
+          "end": 688,
+          "text": "Id., at 192.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 982,
+          "end": 987,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 988,
+          "end": 1014,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "Source quotation notation"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[i]ngratiation",
+          "to": "ingratiation"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 141,
+          "end": 755
+        }
+      ],
+      "citations": [
+        {
+          "start": 159,
+          "end": 176,
+          "text": "Id., at 206– 207.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 271,
+          "end": 283,
+          "text": "Id., at 207.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 568,
+          "end": 579,
+          "text": "Id., at 192",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 580,
+          "end": 619,
+          "text": "(quotation marks and citation omitted).",
+          "type": "record",
+          "canonical": "(quotation marks and citation omitted)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 755,
+          "end": 1128
+        }
+      ],
+      "citations": [
+        {
+          "start": 187,
+          "end": 199,
+          "text": "Id., at 209.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 341,
+          "end": 346,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 347,
+          "end": 373,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1128,
+          "end": 1566
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1566,
+          "end": 1973
+        },
+        {
+          "page": 17,
+          "start": 94,
+          "end": 218
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 218,
+          "end": 374
+        }
+      ],
+      "citations": [
+        {
+          "start": 138,
+          "end": 156,
+          "text": "533 U. S., at 457.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 374,
+          "end": 663
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 663,
+          "end": 1359
+        }
+      ],
+      "citations": [
+        {
+          "start": 317,
+          "end": 335,
+          "text": "572 U. S., at 210.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1359,
+          "end": 2085
+        },
+        {
+          "page": 18,
+          "start": 55,
+          "end": 151
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 673,
+          "end": 685,
+          "text": "Id., at 211.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 815,
+          "end": 820,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 151,
+          "end": 479
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 479,
+          "end": 952
+        }
+      ],
+      "citations": [
+        {
+          "start": 224,
+          "end": 229,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 230,
+          "end": 256,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        },
+        {
+          "start": 425,
+          "end": 453,
+          "text": "Brief for Petitioners 21–24;",
+          "type": "record",
+          "canonical": "Brief for Petitioners 21–24;"
+        },
+        {
+          "start": 454,
+          "end": 474,
+          "text": "Tr. of Oral Arg. 37.",
+          "type": "record",
+          "canonical": "Tr. of Oral Arg. 37."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 952,
+          "end": 1276
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "i.e.",
+          "to": "that is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1276,
+          "end": 1773
+        }
+      ],
+      "citations": [
+        {
+          "start": 66,
+          "end": 88,
+          "text": "533 U. S., at 462–465.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1773,
+          "end": 1947
+        },
+        {
+          "page": 19,
+          "start": 94,
+          "end": 478
+        }
+      ],
+      "citations": [
+        {
+          "start": 533,
+          "end": 557,
+          "text": "Id., at 463, n. 26, 465.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 478,
+          "end": 1193
+        }
+      ],
+      "citations": [
+        {
+          "start": 318,
+          "end": 347,
+          "text": "McCutcheon, 572 U. S., at 199",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 428,
+          "end": 453,
+          "text": "(quotation marks omitted)",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        },
+        {
+          "start": 456,
+          "end": 467,
+          "text": "id., at 218",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 523,
+          "end": 548,
+          "text": "(quotation marks omitted)",
+          "type": "record",
+          "canonical": "Source quotation notation"
+        },
+        {
+          "start": 551,
+          "end": 562,
+          "text": "id., at 220",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 628,
+          "end": 651,
+          "text": "Cruz, 596 U. S., at 306",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1193,
+          "end": 1504
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1504,
+          "end": 1594
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1594,
+          "end": 2096
+        }
+      ],
+      "citations": [
+        {
+          "start": 315,
+          "end": 341,
+          "text": "52 U. S. C. § 30116(a)(8).",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 30116(a)(8)"
+        },
+        {
+          "start": 474,
+          "end": 502,
+          "text": "11 CFR § 110.6(b)(1) (2025).",
+          "type": "statute",
+          "canonical": "11 C.F.R. § 110.6(b)(1)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 55,
+          "end": 529
+        }
+      ],
+      "citations": [
+        {
+          "start": 217,
+          "end": 240,
+          "text": "572 U. S., at 222– 223.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 458,
+          "end": 474,
+          "text": "See id., at 223.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 20,
+          "start": 2035,
+          "end": 2179
+        }
+      ],
+      "citations": [
+        {
+          "start": 119,
+          "end": 144,
+          "text": "E. g., 18 U. S. C. § 201.",
+          "type": "statute",
+          "canonical": "18 U.S.C. § 201"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 531,
+          "end": 1474
+        }
+      ],
+      "citations": [
+        {
+          "start": 221,
+          "end": 232,
+          "text": "§ 30104(b).",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 30104(b)"
+        },
+        {
+          "start": 460,
+          "end": 472,
+          "text": "Id., at 224.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 586,
+          "end": 591,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 787,
+          "end": 805,
+          "text": "572 U. S., at 224.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1474,
+          "end": 2033
+        }
+      ],
+      "citations": [
+        {
+          "start": 249,
+          "end": 260,
+          "text": "Id., at 223",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 261,
+          "end": 287,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        },
+        {
+          "start": 554,
+          "end": 559,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 94,
+          "end": 397
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 397,
+          "end": 1167
+        }
+      ],
+      "citations": [
+        {
+          "start": 200,
+          "end": 243,
+          "text": "Brief for Court-Appointed Amicus Curiae 43.",
+          "type": "record",
+          "canonical": "Brief for Court-Appointed Amicus Curiae 43."
+        },
+        {
+          "start": 510,
+          "end": 544,
+          "text": "McCutcheon, 572 U. S., at 210–211.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1167,
+          "end": 1805
+        }
+      ],
+      "citations": [
+        {
+          "start": 152,
+          "end": 195,
+          "text": "Brief for Court-Appointed Amicus Curiae 44.",
+          "type": "record",
+          "canonical": "Brief for Court-Appointed Amicus Curiae 44."
+        },
+        {
+          "start": 401,
+          "end": 447,
+          "text": "See Reply Brief for Federal Respondents 18–19.",
+          "type": "record",
+          "canonical": "See Reply Brief for Federal Respondents 18–19."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 1805,
+          "end": 2092
+        },
+        {
+          "page": 22,
+          "start": 55,
+          "end": 482
+        }
+      ],
+      "citations": [
+        {
+          "start": 663,
+          "end": 693,
+          "text": "Colorado II, 533 U. S., at 481",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 482,
+          "end": 711
+        }
+      ],
+      "citations": [
+        {
+          "start": 170,
+          "end": 215,
+          "text": "572 U. S., at 201–202, 210–212, 215, 222–223.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 711,
+          "end": 1056
+        }
+      ],
+      "citations": [
+        {
+          "start": 331,
+          "end": 343,
+          "text": "Id., at 224.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1056,
+          "end": 1344
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1344,
+          "end": 2114
+        },
+        {
+          "page": 23,
+          "start": 94,
+          "end": 393
+        }
+      ],
+      "citations": [
+        {
+          "start": 466,
+          "end": 488,
+          "text": "Id., at 209–210, n. 7;",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 489,
+          "end": 513,
+          "text": "Cruz, 596 U. S., at 307.",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        },
+        {
+          "start": 950,
+          "end": 995,
+          "text": "117 F. 4th, at 396 (quotation marks omitted).",
+          "type": "case",
+          "canonical": "117 F.4th 389"
+        },
+        {
+          "start": 1066,
+          "end": 1071,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "117 F.4th 389"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "amicus's",
+          "to": "ah mee kuss iz"
+        },
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 393,
+          "end": 926
+        }
+      ],
+      "citations": [
+        {
+          "start": 281,
+          "end": 309,
+          "text": "See Cruz, 596 U. S., at 307.",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        },
+        {
+          "start": 477,
+          "end": 506,
+          "text": "McCutcheon, 572 U. S., at 210",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 507,
+          "end": 533,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 926,
+          "end": 1406
+        }
+      ],
+      "citations": [
+        {
+          "start": 241,
+          "end": 253,
+          "text": "Id., at 221.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1406,
+          "end": 2040
+        },
+        {
+          "page": 24,
+          "start": 55,
+          "end": 124
+        }
+      ],
+      "citations": [
+        {
+          "start": 228,
+          "end": 233,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 234,
+          "end": 260,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        },
+        {
+          "start": 630,
+          "end": 651,
+          "text": "Id., at 199, 218, 220",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 652,
+          "end": 677,
+          "text": "(quotation marks omitted)",
+          "type": "record",
+          "canonical": "Source quotation notation"
+        },
+        {
+          "start": 679,
+          "end": 703,
+          "text": "Cruz, 596 U. S., at 306.",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 124,
+          "end": 888
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 888,
+          "end": 1430
+        }
+      ],
+      "citations": [
+        {
+          "start": 451,
+          "end": 490,
+          "text": "McCutcheon, 572 U. S., at 199, 218, 220",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 491,
+          "end": 516,
+          "text": "(quotation marks omitted)",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        },
+        {
+          "start": 518,
+          "end": 542,
+          "text": "Cruz, 596 U. S., at 306.",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1434,
+          "end": 2195
+        },
+        {
+          "page": 25,
+          "start": 1738,
+          "end": 2166
+        }
+      ],
+      "citations": [
+        {
+          "start": 135,
+          "end": 218,
+          "text": "Consolidated and Further Continuing Appropriations Act, 2015, 128 Stat. 2772– 2773.",
+          "type": "record",
+          "canonical": "Consolidated and Further Continuing Appropriations Act, 2015, 128 Stat. 2772– 2773."
+        },
+        {
+          "start": 422,
+          "end": 457,
+          "text": "52 U. S. C. §§ 30116(a)(9), (d)(5).",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 30116(a)(9)"
+        },
+        {
+          "start": 609,
+          "end": 614,
+          "text": "Ibid.",
+          "type": "statute",
+          "canonical": "52 U.S.C. § 30116(a)(9)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 25,
+          "start": 94,
+          "end": 96
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 97,
+          "end": 229
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "amicus",
+          "to": "ah mee kuss"
+        },
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 229,
+          "end": 1078
+        }
+      ],
+      "citations": [
+        {
+          "start": 345,
+          "end": 395,
+          "text": "Agostini v. Felton, 521 U. S. 203, 217–218 (1997);",
+          "type": "case",
+          "canonical": "521 U.S. 203"
+        },
+        {
+          "start": 396,
+          "end": 468,
+          "text": "Herrera v. Wyoming, 587 U. S. 329, 342 (2019) (quotation marks omitted);",
+          "type": "case",
+          "canonical": "587 U.S. 329"
+        },
+        {
+          "start": 469,
+          "end": 538,
+          "text": "see also Kennedy v. Bremerton School Dist., 597 U. S. 507, 534 (2022)",
+          "type": "case",
+          "canonical": "597 U.S. 507"
+        },
+        {
+          "start": 742,
+          "end": 806,
+          "text": "Kimble v. Marvel Entertainment, LLC , 576 U. S. 446, 458 (2015).",
+          "type": "case",
+          "canonical": "576 U.S. 446"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "retai[n]",
+          "to": "retain"
+        },
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1078,
+          "end": 1152
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1152,
+          "end": 1738
+        },
+        {
+          "page": 26,
+          "start": 55,
+          "end": 289
+        }
+      ],
+      "citations": [
+        {
+          "start": 253,
+          "end": 299,
+          "text": "Payne v. Tennessee, 501 U. S. 808, 827 (1991).",
+          "type": "case",
+          "canonical": "501 U.S. 808"
+        },
+        {
+          "start": 350,
+          "end": 421,
+          "text": "Ramos v. Louisiana, 590 U. S. 83, 105 (2020) (quotation marks omitted).",
+          "type": "case",
+          "canonical": "590 U.S. 83"
+        },
+        {
+          "start": 485,
+          "end": 490,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "590 U.S. 83"
+        },
+        {
+          "start": 491,
+          "end": 517,
+          "text": "(quotation marks omitted).",
+          "type": "record",
+          "canonical": "(quotation marks omitted)"
+        },
+        {
+          "start": 734,
+          "end": 819,
+          "text": "Burnet v. Coronado Oil & Gas Co., 285 U. S. 393, 406–407 (1932) (dissenting opinion).",
+          "type": "case",
+          "canonical": "285 U.S. 393"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 289,
+          "end": 1003
+        }
+      ],
+      "citations": [
+        {
+          "start": 153,
+          "end": 187,
+          "text": "See Ramos, 590 U. S., at 120, n. 3",
+          "type": "case",
+          "canonical": "590 U.S. 83"
+        },
+        {
+          "start": 188,
+          "end": 223,
+          "text": "(Kavanaugh, J., concurring in part)",
+          "type": "record",
+          "canonical": "(Kavanaugh, J., concurring in part)"
+        },
+        {
+          "start": 448,
+          "end": 463,
+          "text": "Id., at 105–106",
+          "type": "case",
+          "canonical": "590 U.S. 83"
+        },
+        {
+          "start": 464,
+          "end": 486,
+          "text": "(opinion of the Court)",
+          "type": "record",
+          "canonical": "(opinion of the Court)"
+        },
+        {
+          "start": 488,
+          "end": 503,
+          "text": "id., at 120–123",
+          "type": "case",
+          "canonical": "590 U.S. 83"
+        },
+        {
+          "start": 504,
+          "end": 530,
+          "text": "(opinion of Kavanaugh, J.)",
+          "type": "record",
+          "canonical": "(opinion of Kavanaugh, J.)"
+        },
+        {
+          "start": 702,
+          "end": 714,
+          "text": "Id., at 122.",
+          "type": "case",
+          "canonical": "590 U.S. 83"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1003,
+          "end": 2173
+        }
+      ],
+      "citations": [
+        {
+          "start": 281,
+          "end": 378,
+          "text": "Federal Election Comm'n v. Colorado Republican Federal Campaign Comm., 533 U. S. 431, 469 (2001).",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 604,
+          "end": 616,
+          "text": "Id., at 473.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 733,
+          "end": 745,
+          "text": "Id., at 475.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 982,
+          "end": 994,
+          "text": "Id., at 481.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 1157,
+          "end": 1169,
+          "text": "Id., at 482.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 94,
+          "end": 287
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 287,
+          "end": 822
+        }
+      ],
+      "citations": [
+        {
+          "start": 150,
+          "end": 175,
+          "text": "533 U. S., at 463, n. 26.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 355,
+          "end": 460,
+          "text": "See McCutcheon v. Federal Election Comm'n, 572 U. S. 185, 199, 218, 220 (2014) (quotation marks omitted);",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 461,
+          "end": 535,
+          "text": "Federal Election Comm'n v. Ted Cruz for Senate, 596 U. S. 289, 306 (2022).",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 822,
+          "end": 1098
+        }
+      ],
+      "citations": [
+        {
+          "start": 93,
+          "end": 131,
+          "text": "See McCutcheon, 572 U. S., at 207–208.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 252,
+          "end": 278,
+          "text": "See 572 U. S., at 221–224.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1098,
+          "end": 1682
+        }
+      ],
+      "citations": [
+        {
+          "start": 198,
+          "end": 216,
+          "text": "533 U. S., at 455.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 383,
+          "end": 446,
+          "text": "McConnell v. Federal Election Comm'n, 540 U. S. 93, 188 (2003).",
+          "type": "case",
+          "canonical": "540 U.S. 93"
+        },
+        {
+          "start": 572,
+          "end": 584,
+          "text": "Id., at 145.",
+          "type": "case",
+          "canonical": "540 U.S. 93"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 1682,
+          "end": 2099
+        },
+        {
+          "page": 28,
+          "start": 55,
+          "end": 232
+        }
+      ],
+      "citations": [
+        {
+          "start": 315,
+          "end": 333,
+          "text": "533 U. S., at 452.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        },
+        {
+          "start": 583,
+          "end": 595,
+          "text": "Id., at 455.",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 232,
+          "end": 1411
+        }
+      ],
+      "citations": [
+        {
+          "start": 293,
+          "end": 429,
+          "text": "Colorado Republican Federal Campaign Comm. v. Federal Election Comm'n, 518 U. S. 604, 630 (1996) ( Colorado I) (opinion of Kennedy, J.);",
+          "type": "case",
+          "canonical": "518 U.S. 604"
+        },
+        {
+          "start": 430,
+          "end": 570,
+          "text": "see R. Pildes, Romanticizing Democracy, Political Fragmentation, and the Decline of American Government, 124 Yale L. J. 804, 838–839 (2014).",
+          "type": "record",
+          "canonical": "see R. Pildes, Romanticizing Democracy, Political Fragmentation, and the Decline of American Government, 124 Yale L. J. 804, 838–839 (2014)."
+        },
+        {
+          "start": 774,
+          "end": 856,
+          "text": "See SpeechNow.org v. Federal Election Comm'n, 599 F. 3d 686 (CADC 2010) (en banc);",
+          "type": "case",
+          "canonical": "599 F.3d 686"
+        },
+        {
+          "start": 857,
+          "end": 931,
+          "text": "see also Emily's List v. Federal Election Comm'n, 581 F. 3d 1 (CADC 2009).",
+          "type": "case",
+          "canonical": "581 F.3d 1"
+        },
+        {
+          "start": 1042,
+          "end": 1179,
+          "text": "Federal Election Comm'n, Statistical Summary of 24-Month Campaign Activity of the 2023–2024 Election Cycle Press Release (Apr. 23, 2025).",
+          "type": "record",
+          "canonical": "Federal Election Comm'n, Statistical Summary of 24-Month Campaign Activity of the 2023–2024 Election Cycle Press Release (Apr. 23, 2025)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Super PACs",
+          "to": "super packs"
+        },
+        {
+          "from": "PACs",
+          "to": "packs"
+        },
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1411,
+          "end": 2115
+        },
+        {
+          "page": 29,
+          "start": 94,
+          "end": 162
+        }
+      ],
+      "citations": [
+        {
+          "start": 528,
+          "end": 648,
+          "text": "See R. Pildes & B. Bauer, Election Law Blog: The Supreme Court, the Political Parties, and the SuperPacs (June 24, 2025)",
+          "type": "record",
+          "canonical": "See R. Pildes & B. Bauer, Election Law Blog: The Supreme Court, the Political Parties, and the SuperPacs (June 24, 2025)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[E]ven",
+          "to": "Even"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 162,
+          "end": 499
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 499,
+          "end": 731
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 29,
+          "start": 1585,
+          "end": 1975
+        }
+      ],
+      "citations": [
+        {
+          "start": 362,
+          "end": 389,
+          "text": "See Tr. of Oral Arg. 65–66.",
+          "type": "record",
+          "canonical": "See Tr. of Oral Arg. 65–66."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 29,
+          "start": 733,
+          "end": 734
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 735,
+          "end": 1583
+        }
+      ],
+      "citations": [
+        {
+          "start": 273,
+          "end": 384,
+          "text": "See, e. g., Federal Election Comm'n v. Ted Cruz for Senate , 596 U. S. 289, 314 (2022) (Kagan, J., dissenting);",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        },
+        {
+          "start": 385,
+          "end": 475,
+          "text": "McCutcheon v. Federal Election Comm'n, 572 U. S. 185, 232 (2014) (Breyer, J., dissenting);",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 476,
+          "end": 603,
+          "text": "Citizens United v. Federal Election Comm'n, 558 U. S. 310, 393 (2010) (Stevens, J., concurring in part and dissenting in part).",
+          "type": "case",
+          "canonical": "558 U.S. 310"
+        },
+        {
+          "start": 823,
+          "end": 840,
+          "text": "See 533 U. S. 431",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 55,
+          "end": 996
+        }
+      ],
+      "citations": [
+        {
+          "start": 219,
+          "end": 273,
+          "text": "See post, at 945– 951, 953–956 (opinion of Kagan, J.).",
+          "type": "case",
+          "canonical": "609 U.S. 908"
+        },
+        {
+          "start": 572,
+          "end": 590,
+          "text": "572 U. S., at 215.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 725,
+          "end": 730,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 935,
+          "end": 940,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 996,
+          "end": 1496
+        }
+      ],
+      "citations": [
+        {
+          "start": 247,
+          "end": 286,
+          "text": "See post, at 943 (opinion of Kagan, J.)",
+          "type": "case",
+          "canonical": "609 U.S. 908"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1496,
+          "end": 2072
+        },
+        {
+          "page": 31,
+          "start": 94,
+          "end": 212
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 218,
+          "end": 435
+        }
+      ],
+      "citations": [
+        {
+          "start": 81,
+          "end": 117,
+          "text": "Brief for Intervenor-Respondents 28.",
+          "type": "record",
+          "canonical": "Brief for Intervenor-Respondents 28."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 435,
+          "end": 723
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 723,
+          "end": 1306
+        }
+      ],
+      "citations": [
+        {
+          "start": 408,
+          "end": 583,
+          "text": "Federal Election Comm'n v. Colorado Republican Federal Campaign Comm., 533 U. S. 431, 473 (2001) (Colorado II) (Thomas, J., dissenting) (quotation marks and citation omitted).",
+          "type": "case",
+          "canonical": "533 U.S. 431"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 1306,
+          "end": 1730
+        }
+      ],
+      "citations": [
+        {
+          "start": 274,
+          "end": 343,
+          "text": "See McCutcheon v. Federal Election Comm'n, 572 U. S. 185, 218 (2014);",
+          "type": "case",
+          "canonical": "572 U.S. 185"
+        },
+        {
+          "start": 344,
+          "end": 423,
+          "text": "Federal Election Comm'n v. Ted Cruz for Senate , 596 U. S. 289, 306–307 (2022).",
+          "type": "case",
+          "canonical": "596 U.S. 289"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "Colorado II",
+          "to": "Colorado Two"
+        },
+        {
+          "from": "Colorado I",
+          "to": "Colorado One"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 1730,
+          "end": 1879
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 56,
+          "end": 838
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "FECA",
+          "to": "fee kah"
+        },
+        {
+          "from": "FEC",
+          "to": "F E C"
+        },
+        {
+          "from": "DNC",
+          "to": "D N C"
+        },
+        {
+          "from": "RNC",
+          "to": "R N C"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 838,
+          "end": 1006
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 5,
+      "start": 1076,
+      "end": 2446,
+      "text": "and Stephen P . Carney and Trane J. Robinson, Deputy Solicitors General,\nand by the Attorneys General for their respective States as follows: Steve\nMarshall of Alabama, Treg R. Taylor of Alaska, Tim Griffn of Arkansas,\nJames Uthmeier of Florida, Christopher M. Carr of Georgia, Theodore E.\nRokita of Indiana, Brenna Bird of Iowa, Kris Kobach of Kansas, Russell\nColeman of Kentucky, Liz Murrill of Louisiana, Andrew Bailey of Missouri, Austin Knudsen of Montana, Michael T. Hilgers of Nebraska, Drew\nH. Wrigley of North Dakota, Gentner Drummond of Oklahoma, Alan Wilson of South Carolina, Marty Jackley of South Dakota, Ken Paxton of\nTexas, and John B. McCuskey of West Virginia; for Advancing American\nFreedom et al. by J. Marc Wheat; for the America First Policy Institute\nby Gina D'Andrea; for American Promise by Felicia H. Ellsworth and\nJeffrey D. Clements; for the Brennan Center for Justice by Claire Rajan,\nDaniel I. Weiner, Michelle Kallen, Paul S. Lee, Jefferson Klocke,\nand Lena Silva; for Citizens for Responsibility and Ethics in Washington\nby Stuart C. McPhail and Donald K. Sherman; for the Liberty Justice\nCenter by Jeffrey Schwab; for the Republican Governors Association by\nErin E. Murphy and James Y . Xi; for Randy Elf, pro se; and for the\nSpeaker of the House of Representatives Mike Johnson et al. by Charles\nR. Spies.\nPage Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 913\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2074,
+      "end": 2104,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 94,
+      "text": "914 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 497,
+      "end": 498,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1024,
+      "end": 1026,
+      "text": "2\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1373,
+      "end": 1375,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 1852,
+      "end": 1854,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 2259,
+      "end": 2289,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 908 (2026) 915\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 94,
+      "text": "916 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2035,
+      "end": 2065,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 917\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1950,
+      "end": 1980,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 94,
+      "text": "918 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 2013,
+      "end": 2043,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 919\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1794,
+      "end": 1798,
+      "text": "3\n3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1996,
+      "end": 2026,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 94,
+      "text": "920 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 2070,
+      "end": 2100,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 921\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 2113,
+      "end": 2143,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 94,
+      "text": "922 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 2033,
+      "end": 2063,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 923\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 1973,
+      "end": 2003,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 94,
+      "text": "924 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 2085,
+      "end": 2115,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 925\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 1947,
+      "end": 1977,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 94,
+      "text": "926 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 2096,
+      "end": 2126,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 927\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 529,
+      "end": 531,
+      "text": "4\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 2033,
+      "end": 2035,
+      "text": "4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 2179,
+      "end": 2209,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 94,
+      "text": "928 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 2092,
+      "end": 2122,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 929\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 2114,
+      "end": 2144,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 94,
+      "text": "930 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 2040,
+      "end": 2070,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 931\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 1430,
+      "end": 1434,
+      "text": "5\n5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 2195,
+      "end": 2225,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 94,
+      "text": "932 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 2166,
+      "end": 2196,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 933\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 2173,
+      "end": 2203,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 94,
+      "text": "934 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 2099,
+      "end": 2129,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 935\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 2115,
+      "end": 2145,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 0,
+      "end": 94,
+      "text": "936 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 731,
+      "end": 733,
+      "text": "6\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 1583,
+      "end": 1585,
+      "text": "6 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 1975,
+      "end": 2005,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 908 (2026) 937\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 30,
+      "start": 2072,
+      "end": 2102,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 31,
+      "start": 0,
+      "end": 94,
+      "text": "938 N ATIONAL REPUBLICAN SENATORIAL COMMITTEE v.\nFEDERAL ELECTION COMM'N\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 31,
+      "start": 212,
+      "end": 218,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 31,
+      "start": 1879,
+      "end": 1909,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 32,
+      "start": 0,
+      "end": 56,
+      "text": "Cite as: 609 U. S. 908 (2026) 939\nKagan, J., dissenting\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 5,
+      "start": 148,
+      "end": 155,
+      "expectedText": "Ratifed",
+      "text": "Ratified"
+    },
+    {
+      "page": 6,
+      "start": 550,
+      "end": 562,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 6,
+      "start": 1148,
+      "end": 1152,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 6,
+      "start": 1262,
+      "end": 1272,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 6,
+      "start": 1322,
+      "end": 1328,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 7,
+      "start": 144,
+      "end": 166,
+      "expectedText": "coordinatedexpenditure",
+      "text": "coordinated-expenditure"
+    },
+    {
+      "page": 7,
+      "start": 579,
+      "end": 584,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 7,
+      "start": 1073,
+      "end": 1095,
+      "expectedText": "coordinatedexpenditure",
+      "text": "coordinated-expenditure"
+    },
+    {
+      "page": 7,
+      "start": 1391,
+      "end": 1396,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 7,
+      "start": 1596,
+      "end": 1603,
+      "expectedText": "defning",
+      "text": "defining"
+    },
+    {
+      "page": 7,
+      "start": 1722,
+      "end": 1731,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 8,
+      "start": 318,
+      "end": 320,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 8,
+      "start": 541,
+      "end": 555,
+      "expectedText": "politicalparty",
+      "text": "political-party"
+    },
+    {
+      "page": 9,
+      "start": 717,
+      "end": 731,
+      "expectedText": "politicalparty",
+      "text": "political-party"
+    },
+    {
+      "page": 9,
+      "start": 1191,
+      "end": 1196,
+      "expectedText": "Chafn",
+      "text": "Chafin"
+    },
+    {
+      "page": 9,
+      "start": 1200,
+      "end": 1205,
+      "expectedText": "Chafn",
+      "text": "Chafin"
+    },
+    {
+      "page": 9,
+      "start": 1352,
+      "end": 1357,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 9,
+      "start": 1546,
+      "end": 1553,
+      "expectedText": "defnite",
+      "text": "definite"
+    },
+    {
+      "page": 9,
+      "start": 1575,
+      "end": 1582,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 9,
+      "start": 1591,
+      "end": 1596,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 9,
+      "start": 1811,
+      "end": 1816,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 9,
+      "start": 1908,
+      "end": 1911,
+      "expectedText": "fle",
+      "text": "file"
+    },
+    {
+      "page": 10,
+      "start": 962,
+      "end": 967,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 11,
+      "start": 401,
+      "end": 405,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 12,
+      "start": 343,
+      "end": 354,
+      "expectedText": "ratifcation",
+      "text": "ratification"
+    },
+    {
+      "page": 12,
+      "start": 1018,
+      "end": 1024,
+      "expectedText": "infict",
+      "text": "inflict"
+    },
+    {
+      "page": 12,
+      "start": 1028,
+      "end": 1035,
+      "expectedText": "stifing",
+      "text": "stifling"
+    },
+    {
+      "page": 13,
+      "start": 1629,
+      "end": 1631,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 14,
+      "start": 180,
+      "end": 189,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 14,
+      "start": 653,
+      "end": 658,
+      "expectedText": "fatly",
+      "text": "flatly"
+    },
+    {
+      "page": 14,
+      "start": 1094,
+      "end": 1098,
+      "expectedText": "feld",
+      "text": "field"
+    },
+    {
+      "page": 14,
+      "start": 1139,
+      "end": 1147,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 14,
+      "start": 1438,
+      "end": 1450,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 14,
+      "start": 1644,
+      "end": 1657,
+      "expectedText": "justifcations",
+      "text": "justifications"
+    },
+    {
+      "page": 14,
+      "start": 1970,
+      "end": 1978,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 15,
+      "start": 345,
+      "end": 353,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 15,
+      "start": 403,
+      "end": 411,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 675,
+      "end": 683,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 15,
+      "start": 819,
+      "end": 827,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 15,
+      "start": 834,
+      "end": 845,
+      "expectedText": "offceholder",
+      "text": "officeholder"
+    },
+    {
+      "page": 15,
+      "start": 885,
+      "end": 893,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 15,
+      "start": 1054,
+      "end": 1062,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 15,
+      "start": 1208,
+      "end": 1216,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 15,
+      "start": 1280,
+      "end": 1287,
+      "expectedText": "fnances",
+      "text": "finances"
+    },
+    {
+      "page": 15,
+      "start": 1377,
+      "end": 1388,
+      "expectedText": "defnitively",
+      "text": "definitively"
+    },
+    {
+      "page": 15,
+      "start": 1543,
+      "end": 1551,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 15,
+      "start": 1578,
+      "end": 1586,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 15,
+      "start": 1698,
+      "end": 1706,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 16,
+      "start": 234,
+      "end": 241,
+      "expectedText": "fnances",
+      "text": "finances"
+    },
+    {
+      "page": 16,
+      "start": 355,
+      "end": 362,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 16,
+      "start": 472,
+      "end": 479,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 16,
+      "start": 510,
+      "end": 517,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 16,
+      "start": 592,
+      "end": 599,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 16,
+      "start": 649,
+      "end": 657,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 16,
+      "start": 818,
+      "end": 826,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 16,
+      "start": 1241,
+      "end": 1249,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 16,
+      "start": 1479,
+      "end": 1493,
+      "expectedText": "politicalparty",
+      "text": "political-party"
+    },
+    {
+      "page": 16,
+      "start": 1542,
+      "end": 1550,
+      "expectedText": "justifed",
+      "text": "justified"
+    },
+    {
+      "page": 16,
+      "start": 1806,
+      "end": 1813,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 16,
+      "start": 1847,
+      "end": 1852,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 17,
+      "start": 265,
+      "end": 287,
+      "expectedText": "coordinatedexpenditure",
+      "text": "coordinated-expenditure"
+    },
+    {
+      "page": 17,
+      "start": 519,
+      "end": 529,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 17,
+      "start": 647,
+      "end": 654,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 17,
+      "start": 765,
+      "end": 775,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 17,
+      "start": 876,
+      "end": 880,
+      "expectedText": "fows",
+      "text": "flows"
+    },
+    {
+      "page": 17,
+      "start": 1113,
+      "end": 1115,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 17,
+      "start": 1715,
+      "end": 1730,
+      "expectedText": "getout-the-vote",
+      "text": "get-out-the-vote"
+    },
+    {
+      "page": 18,
+      "start": 302,
+      "end": 313,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 18,
+      "start": 688,
+      "end": 699,
+      "expectedText": "offceholder",
+      "text": "officeholder"
+    },
+    {
+      "page": 18,
+      "start": 818,
+      "end": 827,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 18,
+      "start": 1498,
+      "end": 1520,
+      "expectedText": "lessspeech-restrictive",
+      "text": "less-speech-restrictive"
+    },
+    {
+      "page": 18,
+      "start": 1717,
+      "end": 1739,
+      "expectedText": "coordinatedexpenditure",
+      "text": "coordinated-expenditure"
+    },
+    {
+      "page": 19,
+      "start": 666,
+      "end": 672,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 19,
+      "start": 1550,
+      "end": 1558,
+      "expectedText": "specifcs",
+      "text": "specifics"
+    },
+    {
+      "page": 19,
+      "start": 1959,
+      "end": 1965,
+      "expectedText": "defnes",
+      "text": "defines"
+    },
+    {
+      "page": 20,
+      "start": 310,
+      "end": 318,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 20,
+      "start": 1975,
+      "end": 1978,
+      "expectedText": "fat",
+      "text": "flat"
+    },
+    {
+      "page": 20,
+      "start": 2137,
+      "end": 2144,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 21,
+      "start": 296,
+      "end": 306,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 21,
+      "start": 1959,
+      "end": 1968,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 22,
+      "start": 79,
+      "end": 85,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 22,
+      "start": 799,
+      "end": 808,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 22,
+      "start": 1626,
+      "end": 1635,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 22,
+      "start": 1731,
+      "end": 1737,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 22,
+      "start": 1895,
+      "end": 1910,
+      "expectedText": "campaign-fnance",
+      "text": "campaign-finance"
+    },
+    {
+      "page": 23,
+      "start": 1150,
+      "end": 1157,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 23,
+      "start": 1628,
+      "end": 1630,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 24,
+      "start": 156,
+      "end": 162,
+      "expectedText": "briefy",
+      "text": "briefly"
+    },
+    {
+      "page": 24,
+      "start": 237,
+      "end": 243,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 24,
+      "start": 348,
+      "end": 357,
+      "expectedText": "scientifc",
+      "text": "scientific"
+    },
+    {
+      "page": 26,
+      "start": 404,
+      "end": 416,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 27,
+      "start": 232,
+      "end": 238,
+      "expectedText": "briefy",
+      "text": "briefly"
+    },
+    {
+      "page": 27,
+      "start": 411,
+      "end": 426,
+      "expectedText": "campaign-fnance",
+      "text": "campaign-finance"
+    },
+    {
+      "page": 27,
+      "start": 868,
+      "end": 876,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 27,
+      "start": 991,
+      "end": 1000,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 27,
+      "start": 1035,
+      "end": 1044,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 27,
+      "start": 1412,
+      "end": 1422,
+      "expectedText": "affliation",
+      "text": "affiliation"
+    },
+    {
+      "page": 27,
+      "start": 1830,
+      "end": 1838,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 27,
+      "start": 1980,
+      "end": 1992,
+      "expectedText": "offceholders",
+      "text": "officeholders"
+    },
+    {
+      "page": 28,
+      "start": 452,
+      "end": 459,
+      "expectedText": "stifing",
+      "text": "stifling"
+    },
+    {
+      "page": 28,
+      "start": 1835,
+      "end": 1841,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 29,
+      "start": 844,
+      "end": 850,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 30,
+      "start": 1230,
+      "end": 1240,
+      "expectedText": "signifcant",
+      "text": "significant"
+    },
+    {
+      "page": 30,
+      "start": 1779,
+      "end": 1788,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 31,
+      "start": 776,
+      "end": 787,
+      "expectedText": "ratifcation",
+      "text": "ratification"
+    },
+    {
+      "page": 32,
+      "start": 802,
+      "end": 806,
+      "expectedText": "feld",
+      "text": "field"
+    },
+    {
+      "page": 32,
+      "start": 819,
+      "end": 821,
+      "expectedText": "ft",
+      "text": "fit"
+    },
+    {
+      "page": 32,
+      "start": 1353,
+      "end": 1360,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 6,
+      "start": 2070,
+      "end": 2073,
+      "expectedText": "de-",
+      "text": "de"
+    },
+    {
+      "page": 9,
+      "start": 2030,
+      "end": 2034,
+      "expectedText": "Sen-",
+      "text": "Sen"
+    },
+    {
+      "page": 13,
+      "start": 2066,
+      "end": 2069,
+      "expectedText": "in-",
+      "text": "in"
+    },
+    {
+      "page": 17,
+      "start": 2076,
+      "end": 2084,
+      "expectedText": "attribu-",
+      "text": "attribu"
+    },
+    {
+      "page": 18,
+      "start": 1660,
+      "end": 1675,
+      "expectedText": "develop -\nments",
+      "text": "developments"
+    },
+    {
+      "page": 22,
+      "start": 879,
+      "end": 891,
+      "expectedText": "Mc-\nCutcheon",
+      "text": "McCutcheon"
+    },
+    {
+      "page": 30,
+      "start": 1437,
+      "end": 1445,
+      "expectedText": "justifes",
+      "text": "justifies"
+    },
+    {
+      "page": 23,
+      "start": 724,
+      "end": 730,
+      "expectedText": "suffce",
+      "text": "suffice"
+    },
+    {
+      "page": 9,
+      "start": 1124,
+      "end": 1135,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    },
+    {
+      "page": 13,
+      "start": 631,
+      "end": 642,
+      "expectedText": "suffciently",
+      "text": "sufficiently"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed all 28 source PDF pages through the Court's disposition before Kagan's dissent, and all six substantive notes, including the full note5 continuation. Retain every substantive quote, explanatory parenthetical, dollar figure, statutory definition, justiciability fact, tailoring analysis and outside-group limitation. Only individually reviewed bibliographic/record citations omitted; semantic case names remain spoken and linked. Exact extraction repairs, word joins, counsel and furniture exclusions checked against PDF; original source coordinates/checksums retained."
+}

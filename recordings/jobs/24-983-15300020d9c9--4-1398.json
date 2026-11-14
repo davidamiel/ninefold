@@ -1,0 +1,3345 @@
+{
+  "reviewed": true,
+  "documentId": "24-983-15300020d9c9--4-1398",
+  "sourceDocumentId": "24-983-15300020d9c9",
+  "sourceTextPath": "dist/data/docs/24-983-15300020d9c9.json",
+  "sourceTextSha256": "9c01168ddde421a3f9152d6493618cbcbc7d3c06eab4a9c37db986b6b8be5c73",
+  "sourcePdfPath": "dist/data/pdfs/24-983-15300020d9c9--4-1398.pdf",
+  "sourcePdfSha256": "733181a882d1b9cd5b2183a8a00185a568f36725617e4c9bbe2c380140e02d16",
+  "title": "Opinion of the Court",
+  "author": "Clarence Thomas",
+  "date": "2026-05-21",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/608us1r33_fcgj.pdf",
+  "sourceRange": {
+    "startPage": 4,
+    "startOffset": 1449,
+    "endPage": 19,
+    "endOffset": 2096
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1449,
+          "end": 1558
+        },
+        {
+          "page": 5,
+          "start": 55,
+          "end": 360
+        }
+      ],
+      "citations": [
+        {
+          "start": 215,
+          "end": 247,
+          "text": "22 U. S. C. §§ 6081(3)(B), (11).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6081"
+        },
+        {
+          "start": 377,
+          "end": 416,
+          "text": "§§ 6082(a)(1)(A), 6023(13)(A)(i), (ii).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 360,
+          "end": 1003
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1003,
+          "end": 1408
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1408,
+          "end": 1963
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 79,
+          "end": 80
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 6,
+          "start": 81,
+          "end": 82
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 83,
+          "end": 842
+        }
+      ],
+      "citations": [
+        {
+          "start": 292,
+          "end": 392,
+          "text": "2 G. Cabanellas de las Cuevas & E. Hoague, Butterworths Spanish/English Legal Dictionary 659 (1991);",
+          "type": "record",
+          "canonical": "2 G. Cabanellas de las Cuevas & E. Hoague, Butterworths Spanish/English Legal Dictionary 659 (1991);"
+        },
+        {
+          "start": 393,
+          "end": 452,
+          "text": "F. Moore, The Cyclopedic Law Dictionary 1141 (3d ed. 1940),",
+          "type": "record",
+          "canonical": "F. Moore, The Cyclopedic Law Dictionary 1141 (3d ed. 1940),"
+        },
+        {
+          "start": 512,
+          "end": 559,
+          "text": "Black's Law Dictionary 361 (rev. 4th ed. 1968).",
+          "type": "record",
+          "canonical": "Black's Law Dictionary 361 (rev. 4th ed. 1968)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 842,
+          "end": 1549
+        }
+      ],
+      "citations": [
+        {
+          "start": 517,
+          "end": 532,
+          "text": "1 App. 454–455.",
+          "type": "record",
+          "canonical": "1 App. 454–455."
+        },
+        {
+          "start": 696,
+          "end": 708,
+          "text": "Id., at 449.",
+          "type": "record",
+          "canonical": "1 Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "w[ould]",
+          "to": "would"
+        },
+        {
+          "from": "[Havana Docks]",
+          "to": "Havana Docks"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 1549,
+          "end": 2013
+        },
+        {
+          "page": 7,
+          "start": 55,
+          "end": 762
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 308,
+          "end": 320,
+          "text": "Id., at 483.",
+          "type": "record",
+          "canonical": "1 Appendix"
+        },
+        {
+          "start": 482,
+          "end": 499,
+          "text": "Id., at 483, 487.",
+          "type": "record",
+          "canonical": "1 Appendix"
+        },
+        {
+          "start": 610,
+          "end": 626,
+          "text": "Id., at 497–498;",
+          "type": "record",
+          "canonical": "1 Appendix"
+        },
+        {
+          "start": 627,
+          "end": 648,
+          "text": "see also id., at 257.",
+          "type": "record",
+          "canonical": "see also id., at 257."
+        },
+        {
+          "start": 930,
+          "end": 955,
+          "text": "Brief for Respondents 21;",
+          "type": "record",
+          "canonical": "Brief for Respondents 21;"
+        },
+        {
+          "start": 956,
+          "end": 1006,
+          "text": "119 F. 4th 1276, 1286 (CA11 2024) (opinion below).",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 1157,
+          "end": 1170,
+          "text": "Id., at 1283.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[American]",
+          "to": "American"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 762,
+          "end": 1693
+        }
+      ],
+      "citations": [
+        {
+          "start": 323,
+          "end": 357,
+          "text": "22 U. S. C. §§ 1643a(3), 1643b(a).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 1643a"
+        },
+        {
+          "start": 549,
+          "end": 564,
+          "text": "1 App. 256–257.",
+          "type": "record",
+          "canonical": "1 App. 256–257."
+        },
+        {
+          "start": 748,
+          "end": 760,
+          "text": "Id., at 257.",
+          "type": "record",
+          "canonical": "1 Appendix"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1693,
+          "end": 1694
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 1695,
+          "end": 2034
+        },
+        {
+          "page": 8,
+          "start": 79,
+          "end": 243
+        }
+      ],
+      "citations": [
+        {
+          "start": 155,
+          "end": 180,
+          "text": "61 Fed. Reg. 8843 (1996).",
+          "type": "record",
+          "canonical": "61 Fed. Reg. 8843 (1996)."
+        },
+        {
+          "start": 288,
+          "end": 315,
+          "text": "22 U. S. C. § 6021 et seq .",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6021"
+        },
+        {
+          "start": 472,
+          "end": 504,
+          "text": "§§ 6032(h), 6061, 6064, 6067(d).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6032"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 243,
+          "end": 1018
+        }
+      ],
+      "citations": [
+        {
+          "start": 97,
+          "end": 108,
+          "text": "§ 6081(11).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6081"
+        },
+        {
+          "start": 388,
+          "end": 404,
+          "text": "§§ 6081(5), (6).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6081"
+        },
+        {
+          "start": 617,
+          "end": 627,
+          "text": "§ 6081(8).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6081"
+        },
+        {
+          "start": 770,
+          "end": 781,
+          "text": "§ 6081(11).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6081"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 1018,
+          "end": 2141
+        },
+        {
+          "page": 9,
+          "start": 55,
+          "end": 244
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 214,
+          "end": 241,
+          "text": "§§ 6023(11), 6082(a)(1)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 550,
+          "end": 574,
+          "text": "§§ 6023(13)(A)(i), (ii).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 766,
+          "end": 780,
+          "text": "§ 6023(12)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 986,
+          "end": 999,
+          "text": "§ 6023(4)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1691,
+          "end": 2042
+        }
+      ],
+      "citations": [
+        {
+          "start": 263,
+          "end": 282,
+          "text": "§ 6023(13)(B)(iii).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 336,
+          "end": 352,
+          "text": "See n. 4, infra.",
+          "type": "record",
+          "canonical": "See n. 4, infra."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 246,
+          "end": 645
+        }
+      ],
+      "citations": [
+        {
+          "start": 79,
+          "end": 95,
+          "text": "§ 6082(a)(1)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        },
+        {
+          "start": 216,
+          "end": 245,
+          "text": "§§ 6082(a)(1) (A)(i)(I), (2).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        },
+        {
+          "start": 390,
+          "end": 403,
+          "text": "§ 6082(a)(3).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 645,
+          "end": 1291
+        }
+      ],
+      "citations": [
+        {
+          "start": 264,
+          "end": 283,
+          "text": "§§ 6085(c)(1), (2).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6085"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1291,
+          "end": 1292
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1293,
+          "end": 1689
+        },
+        {
+          "page": 10,
+          "start": 110,
+          "end": 373
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "MSC",
+          "to": "M S C"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 10,
+          "start": 373,
+          "end": 374
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 375,
+          "end": 748
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1755,
+          "end": 2051
+        }
+      ],
+      "citations": [
+        {
+          "start": 264,
+          "end": 298,
+          "text": "119 F. 4th 1276, 1290 (CA11 2024).",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 749,
+          "end": 1234
+        }
+      ],
+      "citations": [
+        {
+          "start": 115,
+          "end": 129,
+          "text": "§ 6023(13)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 405,
+          "end": 485,
+          "text": "Havana Docks Corp. v. Carnival Corp., 592 F. Supp. 3d 1088, 1194 (SD Fla. 2022).",
+          "type": "case",
+          "canonical": "592 F.Supp.3d1088"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1234,
+          "end": 1634
+        }
+      ],
+      "citations": [
+        {
+          "start": 154,
+          "end": 172,
+          "text": "Id., at 1202–1203.",
+          "type": "case",
+          "canonical": "592 F.Supp.3d1088"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1634,
+          "end": 1753
+        },
+        {
+          "page": 11,
+          "start": 55,
+          "end": 794
+        }
+      ],
+      "citations": [
+        {
+          "start": 411,
+          "end": 431,
+          "text": "119 F. 4th, at 1287.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 690,
+          "end": 703,
+          "text": "Id., at 1288.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "th[e]",
+          "to": "the"
+        },
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 794,
+          "end": 1715
+        }
+      ],
+      "citations": [
+        {
+          "start": 256,
+          "end": 269,
+          "text": "Id., at 1294.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 468,
+          "end": 481,
+          "text": "Id., at 1291.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 688,
+          "end": 701,
+          "text": "Id., at 1292.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 820,
+          "end": 825,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 920,
+          "end": 925,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1715,
+          "end": 1761
+        }
+      ],
+      "citations": [
+        {
+          "start": 23,
+          "end": 45,
+          "text": "606 U. S. 1065 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 1065"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1761,
+          "end": 1763
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1764,
+          "end": 1992
+        },
+        {
+          "page": 12,
+          "start": 79,
+          "end": 869
+        }
+      ],
+      "citations": [
+        {
+          "start": 190,
+          "end": 206,
+          "text": "§ 6082(a)(1)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        },
+        {
+          "start": 363,
+          "end": 405,
+          "text": "Brief for Respondents 20 (emphasis added).",
+          "type": "record",
+          "canonical": "Brief for Respondents 20 (emphasis added)."
+        },
+        {
+          "start": 550,
+          "end": 569,
+          "text": "Reply Brief 1, 3–5.",
+          "type": "record",
+          "canonical": "Reply Brief 1, 3–5."
+        },
+        {
+          "start": 915,
+          "end": 931,
+          "text": "§ 6082(a)(1)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 869,
+          "end": 870
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 871,
+          "end": 1413
+        }
+      ],
+      "citations": [
+        {
+          "start": 313,
+          "end": 343,
+          "text": "§§ 6023(12)(A), 6082(a)(1)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 501,
+          "end": 546,
+          "text": "Accord, post, at 260 (Kagan, J., dissenting).",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1413,
+          "end": 1920
+        }
+      ],
+      "citations": [
+        {
+          "start": 217,
+          "end": 270,
+          "text": "Black's Law Dictionary 1232 (7th ed. 1999) (Black's).",
+          "type": "record",
+          "canonical": "Black's Law Dictionary 1232 (7th ed. 1999) (Black's)."
+        },
+        {
+          "start": 334,
+          "end": 348,
+          "text": "§ 6023(12)(A),",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 408,
+          "end": 421,
+          "text": "id., at 1234,",
+          "type": "record",
+          "canonical": "id., at 1234,"
+        },
+        {
+          "start": 447,
+          "end": 461,
+          "text": "§ 6023(12)(A),",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 493,
+          "end": 506,
+          "text": "id., at 1233.",
+          "type": "record",
+          "canonical": "id., at 1233."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[l]and",
+          "to": "land"
+        },
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1920,
+          "end": 2036
+        },
+        {
+          "page": 13,
+          "start": 86,
+          "end": 644
+        }
+      ],
+      "citations": [
+        {
+          "start": 411,
+          "end": 491,
+          "text": "Banco Nacional de Cuba v. Sabbatino, 376 U. S. 398, 401 (1964) (emphasis added).",
+          "type": "case",
+          "canonical": "376 U.S. 398"
+        },
+        {
+          "start": 661,
+          "end": 673,
+          "text": "Id., at 413.",
+          "type": "case",
+          "canonical": "376 U.S. 398"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "nationalize[d]",
+          "to": "nationalized"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 644,
+          "end": 1598
+        }
+      ],
+      "citations": [
+        {
+          "start": 256,
+          "end": 280,
+          "text": "§§ 6023(13)(A)(i), (ii).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 747,
+          "end": 788,
+          "text": "Brief for Respondents 20 (emphasis added)",
+          "type": "record",
+          "canonical": "Brief for Respondents 20 (emphasis added)"
+        },
+        {
+          "start": 930,
+          "end": 962,
+          "text": "contra, §§ 6023(13)(A)(i), (ii).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "us[ing]",
+          "to": "using"
+        },
+        {
+          "from": "us[e]",
+          "to": "use"
+        },
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1598,
+          "end": 2167
+        },
+        {
+          "page": 14,
+          "start": 79,
+          "end": 342
+        }
+      ],
+      "citations": [
+        {
+          "start": 207,
+          "end": 233,
+          "text": "119 F. 4th, at 1288, 1290.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 262,
+          "end": 298,
+          "text": "Post, at 259 (opinion of Kagan, J.).",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        },
+        {
+          "start": 540,
+          "end": 545,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        },
+        {
+          "start": 655,
+          "end": 671,
+          "text": "See post, at 260",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 342,
+          "end": 1035
+        }
+      ],
+      "citations": [
+        {
+          "start": 166,
+          "end": 182,
+          "text": "§ 6082(a)(1)(A),",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        },
+        {
+          "start": 337,
+          "end": 350,
+          "text": "§ 6023(4)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 485,
+          "end": 518,
+          "text": "§§ 6023(13)(A)(i), 6082(a)(1)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[P]roperty",
+          "to": "Property"
+        },
+        {
+          "from": "seiz[ed]",
+          "to": "seized"
+        },
+        {
+          "from": "traffic[king]",
+          "to": "trafficking"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1728,
+          "end": 1976
+        }
+      ],
+      "citations": [
+        {
+          "start": 228,
+          "end": 249,
+          "text": "See § 6023(13)(A)(i).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1037,
+          "end": 1038
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1039,
+          "end": 1222
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1222,
+          "end": 1726
+        },
+        {
+          "page": 15,
+          "start": 55,
+          "end": 283
+        }
+      ],
+      "citations": [
+        {
+          "start": 48,
+          "end": 64,
+          "text": "§ 6082(a)(1)(A);",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        },
+        {
+          "start": 65,
+          "end": 111,
+          "text": "119 F. 4th, at 1294 (Brasher, J., dissenting).",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 309,
+          "end": 325,
+          "text": "1 App. 483, 487.",
+          "type": "record",
+          "canonical": "1 App. 483, 487."
+        },
+        {
+          "start": 423,
+          "end": 435,
+          "text": "Id., at 257.",
+          "type": "record",
+          "canonical": "1 Appendix"
+        },
+        {
+          "start": 506,
+          "end": 518,
+          "text": "§ 6023(4)(A)",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 690,
+          "end": 706,
+          "text": "§ 6082(a)(1)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        },
+        {
+          "start": 707,
+          "end": 734,
+          "text": "See also infra, at 250–253.",
+          "type": "record",
+          "canonical": "See also infra, at 250–253."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "seiz[ed]",
+          "to": "seized"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 283,
+          "end": 899
+        }
+      ],
+      "citations": [
+        {
+          "start": 81,
+          "end": 105,
+          "text": "§§ 6023(13)(A)(i), (ii).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 229,
+          "end": 254,
+          "text": "Brief for Respondents 23;",
+          "type": "record",
+          "canonical": "Brief for Respondents 23;"
+        },
+        {
+          "start": 255,
+          "end": 283,
+          "text": "see also Tr. of Oral Arg. 72",
+          "type": "record",
+          "canonical": "see also Tr. of Oral Arg. 72"
+        },
+        {
+          "start": 401,
+          "end": 415,
+          "text": "§ 6023(13)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 579,
+          "end": 618,
+          "text": "§§ 6023(13)(A)(i), (ii), 6082(a)(1)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "use[d]",
+          "to": "used"
+        },
+        {
+          "from": "engage[d]",
+          "to": "engaged"
+        },
+        {
+          "from": "traffic[ked]",
+          "to": "trafficked"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 15,
+          "start": 1546,
+          "end": 2106
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 192,
+          "text": "§ 6023(13)(B)(iii),",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 310,
+          "end": 339,
+          "text": "see 22 U. S. C. § 7209(b)(1).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 7209"
+        },
+        {
+          "start": 340,
+          "end": 425,
+          "text": "Havana Docks Corp. v. Carnival Corp., 592 F. Supp. 3d 1088, 1173–1174 (SD Fla. 2022).",
+          "type": "case",
+          "canonical": "592 F.Supp.3d1088"
+        },
+        {
+          "start": 535,
+          "end": 561,
+          "text": "119 F. 4th, at 1279, n. 1.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 901,
+          "end": 997
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 15,
+          "start": 2108,
+          "end": 2302
+        }
+      ],
+      "citations": [
+        {
+          "start": 138,
+          "end": 155,
+          "text": "see id., at 1281,",
+          "type": "record",
+          "canonical": "see id., at 1281,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 998,
+          "end": 1544
+        },
+        {
+          "page": 16,
+          "start": 79,
+          "end": 210
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 16,
+          "text": "§ 6082(a)(1)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        },
+        {
+          "start": 82,
+          "end": 95,
+          "text": "§ 6083(a)(2);",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6083"
+        },
+        {
+          "start": 96,
+          "end": 121,
+          "text": "Brief for Respondents 24,",
+          "type": "record",
+          "canonical": "Brief for Respondents 24,"
+        },
+        {
+          "start": 237,
+          "end": 250,
+          "text": "§ 6083(a)(1).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6083"
+        },
+        {
+          "start": 451,
+          "end": 466,
+          "text": "1 App. 256–257.",
+          "type": "record",
+          "canonical": "1 App. 256–257."
+        },
+        {
+          "start": 666,
+          "end": 678,
+          "text": "Id., at 257.",
+          "type": "record",
+          "canonical": "1 Appendix"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Havana Docks]",
+          "to": "Havana Docks"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 216,
+          "end": 773
+        }
+      ],
+      "citations": [
+        {
+          "start": 224,
+          "end": 241,
+          "text": "§§ 6081(8), (11).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6081"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 16,
+          "start": 773,
+          "end": 776
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 777,
+          "end": 905
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 16,
+          "start": 905,
+          "end": 906
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 907,
+          "end": 1313
+        }
+      ],
+      "citations": [
+        {
+          "start": 388,
+          "end": 408,
+          "text": "119 F. 4th, at 1287.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        },
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1313,
+          "end": 1842
+        },
+        {
+          "page": 17,
+          "start": 86,
+          "end": 807
+        }
+      ],
+      "citations": [
+        {
+          "start": 224,
+          "end": 237,
+          "text": "Id., at 1286.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 317,
+          "end": 332,
+          "text": "See 1 App. 483.",
+          "type": "record",
+          "canonical": "See 1 App. 483."
+        },
+        {
+          "start": 693,
+          "end": 718,
+          "text": "119 F. 4th, at 1287–1288.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 917,
+          "end": 930,
+          "text": "Id., at 1288.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 1248,
+          "end": 1253,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 807,
+          "end": 2123
+        }
+      ],
+      "citations": [
+        {
+          "start": 595,
+          "end": 611,
+          "text": "§ 6082(a)(1)(A):",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6082"
+        },
+        {
+          "start": 699,
+          "end": 716,
+          "text": "§ 6023(13)(A)(i).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 849,
+          "end": 862,
+          "text": "id., at 1288,",
+          "type": "record",
+          "canonical": "id., at 1288,"
+        },
+        {
+          "start": 1174,
+          "end": 1187,
+          "text": "Id., at 1287.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "traffick[ing]",
+          "to": "trafficking"
+        },
+        {
+          "from": "sell[ing]",
+          "to": "selling"
+        },
+        {
+          "from": "purchas[ing]",
+          "to": "purchasing"
+        },
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 79,
+          "end": 1044
+        }
+      ],
+      "citations": [
+        {
+          "start": 424,
+          "end": 442,
+          "text": "Id., at 1287–1288.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 613,
+          "end": 626,
+          "text": "Id., at 1294.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        },
+        {
+          "start": 709,
+          "end": 731,
+          "text": "See supra, at 246–250.",
+          "type": "record",
+          "canonical": "See supra, at 246–250."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1044,
+          "end": 1570
+        }
+      ],
+      "citations": [
+        {
+          "start": 191,
+          "end": 206,
+          "text": "See Black's 602",
+          "type": "record",
+          "canonical": "See Black's 602"
+        },
+        {
+          "start": 304,
+          "end": 332,
+          "text": "accord, 119 F. 4th, at 1286.",
+          "type": "case",
+          "canonical": "119 F.4th 1276"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1570,
+          "end": 1571
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1572,
+          "end": 1862
+        }
+      ],
+      "citations": [
+        {
+          "start": 210,
+          "end": 235,
+          "text": "Brief for Respondents 31.",
+          "type": "record",
+          "canonical": "Brief for Respondents 31."
+        },
+        {
+          "start": 256,
+          "end": 292,
+          "text": "Post, at 261 (opinion of Kagan, J.).",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 1862,
+          "end": 2036
+        },
+        {
+          "page": 19,
+          "start": 60,
+          "end": 62
+        },
+        {
+          "page": 19,
+          "start": 62,
+          "end": 749
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 1,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 176,
+          "end": 205,
+          "text": "§6023(4)(A) (emphasis added).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 331,
+          "end": 367,
+          "text": "Post, at 261 (opinion of Kagan, J.).",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        },
+        {
+          "start": 457,
+          "end": 468,
+          "text": "1 App. 454;",
+          "type": "record",
+          "canonical": "1 App. 454;"
+        },
+        {
+          "start": 469,
+          "end": 494,
+          "text": "Brief for Respondents 32.",
+          "type": "record",
+          "canonical": "Brief for Respondents 32."
+        },
+        {
+          "start": 643,
+          "end": 654,
+          "text": "Id., at 23.",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        },
+        {
+          "start": 784,
+          "end": 795,
+          "text": "1 App. 257.",
+          "type": "record",
+          "canonical": "1 App. 257."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "confiscat[ion]",
+          "to": "confiscation"
+        },
+        {
+          "from": "control[ling]",
+          "to": "controlling"
+        },
+        {
+          "from": "[docks]",
+          "to": "docks"
+        },
+        {
+          "from": "Title III",
+          "to": "Title Three"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1368,
+          "end": 2096
+        }
+      ],
+      "citations": [
+        {
+          "start": 94,
+          "end": 112,
+          "text": "See, post, at 261.",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        },
+        {
+          "start": 197,
+          "end": 202,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        },
+        {
+          "start": 327,
+          "end": 340,
+          "text": "§ 6023(4)(A).",
+          "type": "statute",
+          "canonical": "22 U.S.C. § 6023"
+        },
+        {
+          "start": 423,
+          "end": 500,
+          "text": "Tanzin v. Tanvir, 592 U. S. 43, 47 (2020) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "592 U.S. 43"
+        },
+        {
+          "start": 715,
+          "end": 733,
+          "text": "Post, at 258, 261.",
+          "type": "case",
+          "canonical": "608 U.S. 235"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "confiscat[ion]",
+          "to": "confiscation"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 19,
+          "start": 751,
+          "end": 753
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 754,
+          "end": 1180
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 1558,
+      "end": 2011,
+      "text": "*Briefs of amici curiae urging reversal were fled for Rep. Mario Díaz-\nBalart et al. by Bryan S. Gowdy and Dimitrios A. Peteves; and for Daniel\nW. Fisk by Marcos Daniel Jiménez.\nBriefs of amici curiae urging affrmance were fled for the Cruise Lines\nInternational Association by Shay Dvoretzky , Parker Rider-Longmaid,\nSteven Marcus; and for the U. S. Travel Association et al. by Bradley J.\nBondi and Ronald K. Anguas, Jr.\nPage Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 235 (2026) 239\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 5,
+      "start": 1963,
+      "end": 1993,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 79,
+      "text": "240 HA V ANA DOCKS CORP. v. ROYAL CARIBBEAN\nCRUISES, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 6,
+      "start": 2013,
+      "end": 2043,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 235 (2026) 241\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 7,
+      "start": 2034,
+      "end": 2064,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 79,
+      "text": "242 HA V ANA DOCKS CORP. v. ROYAL CARIBBEAN\nCRUISES, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 2141,
+      "end": 2171,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 235 (2026) 243\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 244,
+      "end": 246,
+      "text": "1\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 1689,
+      "end": 1691,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2042,
+      "end": 2072,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 110,
+      "text": "Page Proof Pending Publication\n244 HA V ANA DOCKS CORP. v. ROYAL CARIBBEAN\nCRUISES, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 748,
+      "end": 749,
+      "text": "2",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1753,
+      "end": 1755,
+      "text": "2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 235 (2026) 245\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 1992,
+      "end": 2022,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 79,
+      "text": "246 HA V ANA DOCKS CORP. v. ROYAL CARIBBEAN\nCRUISES, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 2036,
+      "end": 2066,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 235 (2026) 247\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 79,
+      "text": "248 HA V ANA DOCKS CORP. v. ROYAL CARIBBEAN\nCRUISES, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 1035,
+      "end": 1037,
+      "text": "3\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 1726,
+      "end": 1728,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 1976,
+      "end": 2006,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 608 U. S. 235 (2026) 249\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 899,
+      "end": 901,
+      "text": "4\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 997,
+      "end": 998,
+      "text": "5",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 1544,
+      "end": 1546,
+      "text": "4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 2106,
+      "end": 2108,
+      "text": "5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 2302,
+      "end": 2332,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 79,
+      "text": "250 HA V ANA DOCKS CORP. v. ROYAL CARIBBEAN\nCRUISES, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 210,
+      "end": 216,
+      "text": "* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 1842,
+      "end": 1872,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 608 U. S. 235 (2026) 251\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 79,
+      "text": "252 HA V ANA DOCKS CORP. v. ROYAL CARIBBEAN\nCRUISES, LTD.\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 2036,
+      "end": 2066,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 60,
+      "text": "Cite as: 608 U. S. 235 (2026) 253\nSotomayor, J., concurring\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 749,
+      "end": 751,
+      "text": "6\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 1180,
+      "end": 1368,
+      "text": "Justice Sotomayor , with whom Justice Kavanaugh\njoins, concurring.\nI agree with the Court's resolution of the narrow question\nbefore it and join the majority opinion in full. I write to\n6 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 4,
+      "start": 167,
+      "end": 177,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 4,
+      "start": 590,
+      "end": 594,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 674,
+      "end": 678,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 1547,
+      "end": 1557,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 4,
+      "start": 1603,
+      "end": 1607,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 4,
+      "start": 1766,
+      "end": 1775,
+      "expectedText": "affrmance",
+      "text": "affirmance"
+    },
+    {
+      "page": 4,
+      "start": 1781,
+      "end": 1785,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 5,
+      "start": 93,
+      "end": 103,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 5,
+      "start": 258,
+      "end": 268,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 5,
+      "start": 1073,
+      "end": 1083,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 5,
+      "start": 1087,
+      "end": 1097,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 5,
+      "start": 1207,
+      "end": 1218,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 5,
+      "start": 1386,
+      "end": 1396,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 5,
+      "start": 1486,
+      "end": 1497,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 5,
+      "start": 1756,
+      "end": 1765,
+      "expectedText": "confscate",
+      "text": "confiscate"
+    },
+    {
+      "page": 5,
+      "start": 1837,
+      "end": 1847,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 6,
+      "start": 171,
+      "end": 182,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 6,
+      "start": 342,
+      "end": 347,
+      "expectedText": "proft",
+      "text": "profit"
+    },
+    {
+      "page": 6,
+      "start": 963,
+      "end": 968,
+      "expectedText": "proft",
+      "text": "profit"
+    },
+    {
+      "page": 6,
+      "start": 1126,
+      "end": 1131,
+      "expectedText": "proft",
+      "text": "profit"
+    },
+    {
+      "page": 7,
+      "start": 158,
+      "end": 168,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 7,
+      "start": 484,
+      "end": 490,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 7,
+      "start": 775,
+      "end": 779,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 7,
+      "start": 1334,
+      "end": 1342,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 7,
+      "start": 1534,
+      "end": 1542,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 7,
+      "start": 1622,
+      "end": 1630,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 7,
+      "start": 1760,
+      "end": 1766,
+      "expectedText": "fghter",
+      "text": "fighter"
+    },
+    {
+      "page": 8,
+      "start": 83,
+      "end": 90,
+      "expectedText": "codifed",
+      "text": "codified"
+    },
+    {
+      "page": 8,
+      "start": 291,
+      "end": 301,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 8,
+      "start": 316,
+      "end": 326,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 8,
+      "start": 428,
+      "end": 438,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 8,
+      "start": 472,
+      "end": 480,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 8,
+      "start": 481,
+      "end": 487,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 8,
+      "start": 806,
+      "end": 816,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 8,
+      "start": 933,
+      "end": 944,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 8,
+      "start": 1052,
+      "end": 1059,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 8,
+      "start": 1082,
+      "end": 1092,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 8,
+      "start": 1300,
+      "end": 1307,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 8,
+      "start": 1312,
+      "end": 1322,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 8,
+      "start": 1405,
+      "end": 1415,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 8,
+      "start": 1481,
+      "end": 1490,
+      "expectedText": "benefting",
+      "text": "benefiting"
+    },
+    {
+      "page": 8,
+      "start": 1496,
+      "end": 1506,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 8,
+      "start": 1798,
+      "end": 1808,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 8,
+      "start": 2080,
+      "end": 2090,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 9,
+      "start": 63,
+      "end": 72,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 9,
+      "start": 261,
+      "end": 268,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 9,
+      "start": 272,
+      "end": 282,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 9,
+      "start": 392,
+      "end": 400,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 9,
+      "start": 442,
+      "end": 450,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 9,
+      "start": 602,
+      "end": 610,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 9,
+      "start": 1168,
+      "end": 1172,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 9,
+      "start": 1206,
+      "end": 1216,
+      "expectedText": "traffckers",
+      "text": "traffickers"
+    },
+    {
+      "page": 9,
+      "start": 1220,
+      "end": 1230,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 9,
+      "start": 1506,
+      "end": 1515,
+      "expectedText": "affliated",
+      "text": "affiliated"
+    },
+    {
+      "page": 9,
+      "start": 1695,
+      "end": 1704,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 9,
+      "start": 1709,
+      "end": 1716,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 10,
+      "start": 344,
+      "end": 352,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 10,
+      "start": 487,
+      "end": 491,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 10,
+      "start": 678,
+      "end": 687,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 10,
+      "start": 691,
+      "end": 701,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 10,
+      "start": 1041,
+      "end": 1052,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 10,
+      "start": 1091,
+      "end": 1100,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 10,
+      "start": 1450,
+      "end": 1459,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 10,
+      "start": 1467,
+      "end": 1477,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 10,
+      "start": 1799,
+      "end": 1808,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 10,
+      "start": 1816,
+      "end": 1826,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 11,
+      "start": 63,
+      "end": 72,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 11,
+      "start": 76,
+      "end": 86,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 11,
+      "start": 314,
+      "end": 324,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 11,
+      "start": 576,
+      "end": 586,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 11,
+      "start": 608,
+      "end": 619,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 11,
+      "start": 691,
+      "end": 701,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 11,
+      "start": 898,
+      "end": 908,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 11,
+      "start": 1198,
+      "end": 1208,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 11,
+      "start": 1544,
+      "end": 1552,
+      "expectedText": "benefted",
+      "text": "benefited"
+    },
+    {
+      "page": 11,
+      "start": 1639,
+      "end": 1648,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 11,
+      "start": 1652,
+      "end": 1662,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 11,
+      "start": 1806,
+      "end": 1813,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 11,
+      "start": 1836,
+      "end": 1846,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 12,
+      "start": 161,
+      "end": 171,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 12,
+      "start": 198,
+      "end": 207,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 12,
+      "start": 321,
+      "end": 331,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 12,
+      "start": 494,
+      "end": 504,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 12,
+      "start": 664,
+      "end": 673,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 12,
+      "start": 926,
+      "end": 936,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 12,
+      "start": 1077,
+      "end": 1087,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 12,
+      "start": 1169,
+      "end": 1179,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 12,
+      "start": 1222,
+      "end": 1231,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 12,
+      "start": 1298,
+      "end": 1308,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 13,
+      "start": 675,
+      "end": 685,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 13,
+      "start": 804,
+      "end": 810,
+      "expectedText": "traffc",
+      "text": "traffic"
+    },
+    {
+      "page": 13,
+      "start": 814,
+      "end": 824,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 13,
+      "start": 839,
+      "end": 846,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 13,
+      "start": 874,
+      "end": 884,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 13,
+      "start": 934,
+      "end": 944,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 13,
+      "start": 1334,
+      "end": 1344,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 13,
+      "start": 1371,
+      "end": 1380,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 13,
+      "start": 1511,
+      "end": 1521,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 13,
+      "start": 2020,
+      "end": 2029,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 13,
+      "start": 2099,
+      "end": 2108,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 14,
+      "start": 207,
+      "end": 217,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 14,
+      "start": 312,
+      "end": 321,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 14,
+      "start": 722,
+      "end": 728,
+      "expectedText": "traffc",
+      "text": "traffic"
+    },
+    {
+      "page": 14,
+      "start": 873,
+      "end": 883,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 14,
+      "start": 1126,
+      "end": 1136,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 14,
+      "start": 1389,
+      "end": 1399,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 14,
+      "start": 1493,
+      "end": 1504,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 14,
+      "start": 1842,
+      "end": 1851,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 14,
+      "start": 1857,
+      "end": 1867,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 15,
+      "start": 179,
+      "end": 189,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 15,
+      "start": 777,
+      "end": 783,
+      "expectedText": "traffc",
+      "text": "traffic"
+    },
+    {
+      "page": 15,
+      "start": 823,
+      "end": 833,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 15,
+      "start": 979,
+      "end": 989,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 15,
+      "start": 1064,
+      "end": 1072,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 15,
+      "start": 1144,
+      "end": 1152,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 15,
+      "start": 1210,
+      "end": 1218,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 15,
+      "start": 1644,
+      "end": 1653,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 15,
+      "start": 1658,
+      "end": 1665,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 16,
+      "start": 358,
+      "end": 368,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 16,
+      "start": 489,
+      "end": 499,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 16,
+      "start": 544,
+      "end": 552,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 16,
+      "start": 874,
+      "end": 881,
+      "expectedText": "confict",
+      "text": "conflict"
+    },
+    {
+      "page": 16,
+      "start": 1039,
+      "end": 1046,
+      "expectedText": "traffcs",
+      "text": "traffics"
+    },
+    {
+      "page": 16,
+      "start": 1069,
+      "end": 1079,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 16,
+      "start": 1262,
+      "end": 1272,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 16,
+      "start": 1802,
+      "end": 1813,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 17,
+      "start": 94,
+      "end": 105,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 17,
+      "start": 234,
+      "end": 245,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 17,
+      "start": 773,
+      "end": 783,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 17,
+      "start": 839,
+      "end": 847,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 17,
+      "start": 1369,
+      "end": 1379,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 17,
+      "start": 1420,
+      "end": 1424,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 17,
+      "start": 1851,
+      "end": 1861,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 17,
+      "start": 2067,
+      "end": 2077,
+      "expectedText": "traffcking",
+      "text": "trafficking"
+    },
+    {
+      "page": 18,
+      "start": 181,
+      "end": 187,
+      "expectedText": "traffc",
+      "text": "traffic"
+    },
+    {
+      "page": 18,
+      "start": 375,
+      "end": 385,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 18,
+      "start": 390,
+      "end": 399,
+      "expectedText": "traffcked",
+      "text": "trafficked"
+    },
+    {
+      "page": 18,
+      "start": 1067,
+      "end": 1081,
+      "expectedText": "antitraffcking",
+      "text": "antitrafficking"
+    },
+    {
+      "page": 18,
+      "start": 1296,
+      "end": 1307,
+      "expectedText": "modifcation",
+      "text": "modification"
+    },
+    {
+      "page": 18,
+      "start": 1487,
+      "end": 1493,
+      "expectedText": "traffc",
+      "text": "traffic"
+    },
+    {
+      "page": 18,
+      "start": 1621,
+      "end": 1630,
+      "expectedText": "affrmance",
+      "text": "affirmance"
+    },
+    {
+      "page": 18,
+      "start": 1722,
+      "end": 1731,
+      "expectedText": "confscate",
+      "text": "confiscate"
+    },
+    {
+      "page": 18,
+      "start": 1747,
+      "end": 1757,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 18,
+      "start": 1951,
+      "end": 1957,
+      "expectedText": "defnes",
+      "text": "defines"
+    },
+    {
+      "page": 18,
+      "start": 1959,
+      "end": 1967,
+      "expectedText": "confscat",
+      "text": "confiscat"
+    },
+    {
+      "page": 19,
+      "start": 707,
+      "end": 718,
+      "expectedText": "confscation",
+      "text": "confiscation"
+    },
+    {
+      "page": 19,
+      "start": 793,
+      "end": 803,
+      "expectedText": "confscated",
+      "text": "confiscated"
+    },
+    {
+      "page": 19,
+      "start": 1539,
+      "end": 1546,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 19,
+      "start": 1587,
+      "end": 1595,
+      "expectedText": "confscat",
+      "text": "confiscat"
+    },
+    {
+      "page": 19,
+      "start": 1743,
+      "end": 1752,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 19,
+      "start": 1774,
+      "end": 1783,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 19,
+      "start": 1884,
+      "end": 1893,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 17,
+      "start": 1334,
+      "end": 1341,
+      "expectedText": "traffck",
+      "text": "traffick"
+    },
+    {
+      "page": 19,
+      "start": 1579,
+      "end": 1585,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 6,
+      "start": 2009,
+      "end": 2012,
+      "expectedText": "Ha-",
+      "text": "Ha"
+    },
+    {
+      "page": 8,
+      "start": 2137,
+      "end": 2140,
+      "expectedText": "de-",
+      "text": "de"
+    },
+    {
+      "page": 12,
+      "start": 298,
+      "end": 306,
+      "expectedText": "im\nposes",
+      "text": "imposes"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed all sixteen original Court-opinion pages and all six substantive notes through vacatur/remand. Note6 is printed below the start of Sotomayor's concurrence; scope extends solely to retain this Court note, with intervening concurrence expressly excluded. Preserve all quotations, dictionary explanations, property-interest distinctions and unresolved-defenses reservations. Individual reviewed source references alone omitted; source maps/raw coordinates and source pins unchanged. Exact extraction, page-word joins and split section-number paragraph repaired against PDF."
+}

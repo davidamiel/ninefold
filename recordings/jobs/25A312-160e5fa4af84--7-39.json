@@ -1,0 +1,4312 @@
+{
+  "reviewed": true,
+  "documentId": "25A312-160e5fa4af84--7-39",
+  "sourceDocumentId": "25A312-160e5fa4af84",
+  "sourceTextPath": "dist/data/docs/25A312-160e5fa4af84.json",
+  "sourceTextSha256": "1dd5e36bbcb09e6dff9cfd12299effb6395a5ca62f9b5db50c6e4c4dfa8a89c7",
+  "sourcePdfPath": "dist/data/pdfs/25A312-160e5fa4af84--7-39.pdf",
+  "sourcePdfSha256": "4032cce0db9af26500cf1dfbfabfdb33455e2b6ef31af7c20e6f2b85e6c24624",
+  "title": "Opinion of the Court",
+  "author": "John G. Roberts, Jr.",
+  "date": "2026-06-29",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf",
+  "sourceRange": {
+    "startPage": 7,
+    "startOffset": 97,
+    "endPage": 32,
+    "endOffset": 1898
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 97,
+          "end": 428
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 428,
+          "end": 429
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 7,
+          "start": 430,
+          "end": 431
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 7,
+          "start": 432,
+          "end": 837
+        },
+        {
+          "page": 8,
+          "start": 86,
+          "end": 722
+        }
+      ],
+      "citations": [
+        {
+          "start": 254,
+          "end": 306,
+          "text": "See G. Wood, The American Revolution 145–147 (2002).",
+          "type": "record",
+          "canonical": "See G. Wood, The American Revolution 145–147 (2002)."
+        },
+        {
+          "start": 530,
+          "end": 682,
+          "text": "Letter from G. Washington to S. Huntington (May 27–28, 1780), in 26 Papers of George Washington 202–206 (B. Huggins & A. Garbooshian-Huggins eds. 2018).",
+          "type": "record",
+          "canonical": "Letter from G. Washington to S. Huntington (May 27–28, 1780), in 26 Papers of George Washington 202–206 (B. Huggins & A. Garbooshian-Huggins eds. 2018)."
+        },
+        {
+          "start": 926,
+          "end": 1042,
+          "text": "Letter from R. Morris to B. Franklin (July 13, 1781), in 35 Papers of Benjamin Franklin 262–266 (B. Oberg ed. 1999).",
+          "type": "record",
+          "canonical": "Letter from R. Morris to B. Franklin (July 13, 1781), in 35 Papers of Benjamin Franklin 262–266 (B. Oberg ed. 1999)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "compells",
+          "to": "compels"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 8,
+          "start": 722,
+          "end": 2169
+        },
+        {
+          "page": 9,
+          "start": 39,
+          "end": 113
+        }
+      ],
+      "citations": [
+        {
+          "start": 314,
+          "end": 401,
+          "text": "See 20 Journals of the Continental Congress, 1774–1789, pp. 545–546 (G. Hunt ed. 1912);",
+          "type": "record",
+          "canonical": "See 20 Journals of the Continental Congress, 1774–1789, pp. 545–546 (G. Hunt ed. 1912);"
+        },
+        {
+          "start": 402,
+          "end": 423,
+          "text": "21 id., at 1185–1190;",
+          "type": "record",
+          "canonical": "21 id., at 1185–1190;"
+        },
+        {
+          "start": 424,
+          "end": 512,
+          "text": "see also E. Kaplan, The Bank of the United States and the American Economy 10–14 (1999).",
+          "type": "record",
+          "canonical": "see also E. Kaplan, The Bank of the United States and the American Economy 10–14 (1999)."
+        },
+        {
+          "start": 528,
+          "end": 613,
+          "text": "See R. Wright & D. Cowen, Financial Founding Fathers 127–131 (2006) (Wright & Cowen).",
+          "type": "record",
+          "canonical": "See R. Wright & D. Cowen, Financial Founding Fathers 127–131 (2006) (Wright & Cowen)."
+        },
+        {
+          "start": 851,
+          "end": 935,
+          "text": "Dissertations on Government, the Affairs of the Bank, and Paper Money 21– 22 (1786).",
+          "type": "record",
+          "canonical": "Dissertations on Government, the Affairs of the Bank, and Paper Money 21– 22 (1786)."
+        },
+        {
+          "start": 1114,
+          "end": 1261,
+          "text": "Report on a National Bank (Dec. 13, 1790), in 7 Papers of Alexander Hamilton 305, 323 (H. Syrett & J. Cooke eds. 1963) (Report on a National Bank).",
+          "type": "record",
+          "canonical": "Report on a National Bank (Dec. 13, 1790), in 7 Papers of Alexander Hamilton 305, 323 (H. Syrett & J. Cooke eds. 1963) (Report on a National Bank)."
+        },
+        {
+          "start": 1441,
+          "end": 1523,
+          "text": "See 1 J. Markham, A Financial History of the United States 71–72 (2002) (Markham).",
+          "type": "record",
+          "canonical": "See 1 J. Markham, A Financial History of the United States 71–72 (2002) (Markham)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 113,
+          "end": 1450
+        }
+      ],
+      "citations": [
+        {
+          "start": 478,
+          "end": 525,
+          "text": "See Act of Feb. 25, 1791, § 4, 1 Stat. 192–193;",
+          "type": "record",
+          "canonical": "See Act of Feb. 25, 1791, § 4, 1 Stat. 192–193;"
+        },
+        {
+          "start": 526,
+          "end": 556,
+          "text": "see also Wright & Cowen 10–13;",
+          "type": "record",
+          "canonical": "see also Wright & Cowen 10–13;"
+        },
+        {
+          "start": 557,
+          "end": 642,
+          "text": "E. Perkins, American Public Finance and Financial Services, 1700–1815, p. 236 (1994);",
+          "type": "record",
+          "canonical": "E. Perkins, American Public Finance and Financial Services, 1700–1815, p. 236 (1994);"
+        },
+        {
+          "start": 643,
+          "end": 725,
+          "text": "E. Lomazoff, Reconstructing the National Bank Controversy 33–38 (2018) (Lomazoff).",
+          "type": "record",
+          "canonical": "E. Lomazoff, Reconstructing the National Bank Controversy 33–38 (2018) (Lomazoff)."
+        },
+        {
+          "start": 1008,
+          "end": 1038,
+          "text": "Report on a National Bank 331.",
+          "type": "record",
+          "canonical": "Report on a National Bank 331."
+        },
+        {
+          "start": 1332,
+          "end": 1337,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Report on a National Bank"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1450,
+          "end": 2076
+        },
+        {
+          "page": 10,
+          "start": 55,
+          "end": 625
+        }
+      ],
+      "citations": [
+        {
+          "start": 510,
+          "end": 558,
+          "text": "McCulloch v. Maryland, 4 Wheat. 316, 402 (1819).",
+          "type": "case",
+          "canonical": "17 U.S. 316"
+        },
+        {
+          "start": 682,
+          "end": 868,
+          "text": "See J. Madison, Seventh Annual Message (Dec. 5, 1815), in 1 Compilation of the Messages and Papers of the Presidents, 1789– 1897, pp. 562, 564–566 (J. Richardson ed. 1897) (Compilation).",
+          "type": "record",
+          "canonical": "See J. Madison, Seventh Annual Message (Dec. 5, 1815), in 1 Compilation of the Messages and Papers of the Presidents, 1789– 1897, pp. 562, 564–566 (J. Richardson ed. 1897) (Compilation)."
+        },
+        {
+          "start": 1152,
+          "end": 1199,
+          "text": "See Act of Apr. 10, 1816, § 8, 3 Stat. 269–270.",
+          "type": "record",
+          "canonical": "See Act of Apr. 10, 1816, § 8, 3 Stat. 269–270."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the First Bank]",
+          "to": "the First Bank"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 625,
+          "end": 1045
+        }
+      ],
+      "citations": [
+        {
+          "start": 288,
+          "end": 419,
+          "text": "Letter from A. Jackson to J. Hamilton (June 3, 1830), in 8 Papers of Andrew Jackson 343 (D. Feller, T. Coens, & L. Moss eds. 2010).",
+          "type": "record",
+          "canonical": "Letter from A. Jackson to J. Hamilton (June 3, 1830), in 8 Papers of Andrew Jackson 343 (D. Feller, T. Coens, & L. Moss eds. 2010)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[h]ydra",
+          "to": "hydra"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1607,
+          "end": 2158
+        }
+      ],
+      "citations": [
+        {
+          "start": 230,
+          "end": 313,
+          "text": "See J. Hamilton, Reminiscences of James A. Hamilton 76–77, 400–403, 529–536 (1869).",
+          "type": "record",
+          "canonical": "See J. Hamilton, Reminiscences of James A. Hamilton 76–77, 400–403, 529–536 (1869)."
+        },
+        {
+          "start": 536,
+          "end": 552,
+          "text": "Id., at 279–280.",
+          "type": "record",
+          "canonical": "Reminiscences of James A. Hamilton"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1046,
+          "end": 1605
+        }
+      ],
+      "citations": [
+        {
+          "start": 287,
+          "end": 338,
+          "text": "Veto Message (July 10, 1832), in 2 Compilation 590.",
+          "type": "record",
+          "canonical": "Veto Message (July 10, 1832), in 2 Compilation 590."
+        },
+        {
+          "start": 487,
+          "end": 557,
+          "text": "1 A. de Tocqueville, Democracy in America 178 (H. Reeve transl. 1889).",
+          "type": "record",
+          "canonical": "1 A. de Tocqueville, Democracy in America 178 (H. Reeve transl. 1889)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Tocqueville",
+          "to": "Toke vill"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 70,
+          "end": 1519
+        }
+      ],
+      "citations": [
+        {
+          "start": 229,
+          "end": 283,
+          "text": "See R. Lowenstein, America's Bank 11–28, 59–76 (2015).",
+          "type": "record",
+          "canonical": "See R. Lowenstein, America's Bank 11–28, 59–76 (2015)."
+        },
+        {
+          "start": 661,
+          "end": 697,
+          "text": "See 1 Markham 168–180, 330–333, 380.",
+          "type": "record",
+          "canonical": "See 1 Markham 168–180, 330–333, 380."
+        },
+        {
+          "start": 811,
+          "end": 907,
+          "text": "Dept. of Treasury, L. Gage, Ann. Rep. of the Secretary of the Treasury 73 (Doc. No. 2238, 1901).",
+          "type": "record",
+          "canonical": "Dept. of Treasury, L. Gage, Ann. Rep. of the Secretary of the Treasury 73 (Doc. No. 2238, 1901)."
+        },
+        {
+          "start": 1140,
+          "end": 1160,
+          "text": "See 2 Markham 29–41.",
+          "type": "record",
+          "canonical": "See 2 Markham 29–41."
+        },
+        {
+          "start": 1359,
+          "end": 1451,
+          "text": "Report of the National Monetary Commission, S. Doc. No. 243, 62d Cong., 2d Sess., 36 (1912).",
+          "type": "record",
+          "canonical": "Report of the National Monetary Commission, S. Doc. No. 243, 62d Cong., 2d Sess., 36 (1912)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1519,
+          "end": 2156
+        },
+        {
+          "page": 12,
+          "start": 55,
+          "end": 632
+        }
+      ],
+      "citations": [
+        {
+          "start": 245,
+          "end": 311,
+          "text": "C. Glass, An Adventure in Constructive Finance 173 (1927) (Glass).",
+          "type": "record",
+          "canonical": "C. Glass, An Adventure in Constructive Finance 173 (1927) (Glass)."
+        },
+        {
+          "start": 438,
+          "end": 443,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "An Adventure in Constructive Finance"
+        },
+        {
+          "start": 568,
+          "end": 604,
+          "text": "See 38 Stat. 254, 12 U. S. C. § 341.",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 341"
+        },
+        {
+          "start": 754,
+          "end": 764,
+          "text": "See § 263.",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 263"
+        },
+        {
+          "start": 837,
+          "end": 851,
+          "text": "Glass 173–174,",
+          "type": "record",
+          "canonical": "Glass 173–174,"
+        },
+        {
+          "start": 900,
+          "end": 907,
+          "text": "§ 225a.",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 225a"
+        },
+        {
+          "start": 994,
+          "end": 1000,
+          "text": "§ 241.",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 241"
+        },
+        {
+          "start": 1210,
+          "end": 1216,
+          "text": "§ 242.",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 242"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[M]odelled",
+          "to": "Modelled"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 12,
+          "start": 632,
+          "end": 633
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 634,
+          "end": 981
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 981,
+          "end": 1951
+        }
+      ],
+      "citations": [
+        {
+          "start": 594,
+          "end": 666,
+          "text": "Attachment to Complaint in No. 1:25–cv–02903 (D DC), ECF Doc. 1–2, p. 2.",
+          "type": "record",
+          "canonical": "Attachment to Complaint in No. 1:25–cv–02903 (D DC), ECF Doc. 1–2, p. 2."
+        },
+        {
+          "start": 817,
+          "end": 835,
+          "text": "ECF Doc. 1, p. 14.",
+          "type": "record",
+          "canonical": "ECF Doc. 1, p. 14."
+        },
+        {
+          "start": 966,
+          "end": 971,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Complaint ECF Document 1"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[w]hat",
+          "to": "what"
+        },
+        {
+          "from": "[Cook]",
+          "to": "Cook"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 39,
+          "end": 754
+        }
+      ],
+      "citations": [
+        {
+          "start": 214,
+          "end": 234,
+          "text": "ECF Doc. 1– 4, p. 2.",
+          "type": "record",
+          "canonical": "ECF Doc. 1– 4, p. 2."
+        },
+        {
+          "start": 404,
+          "end": 409,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Complaint Attachment ECF Document 1-4"
+        },
+        {
+          "start": 598,
+          "end": 603,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "Complaint Attachment ECF Document 1-4"
+        },
+        {
+          "start": 708,
+          "end": 718,
+          "text": "Id., at 3.",
+          "type": "record",
+          "canonical": "Complaint Attachment ECF Document 1-4"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[Cook's]",
+          "to": "Cook's"
+        },
+        {
+          "from": "[i]n",
+          "to": "in"
+        },
+        {
+          "from": "[her]",
+          "to": "her"
+        },
+        {
+          "from": "[a]t",
+          "to": "at"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 754,
+          "end": 1143
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1143,
+          "end": 2086
+        },
+        {
+          "page": 14,
+          "start": 55,
+          "end": 150
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 629,
+          "end": 666,
+          "text": "804 F. Supp. 3d 14, 26, 32 (DC 2025).",
+          "type": "record",
+          "canonical": "804 F. Supp. 3d 14, 26, 32 (DC 2025)."
+        },
+        {
+          "start": 812,
+          "end": 823,
+          "text": "Id., at 33.",
+          "type": "case",
+          "canonical": "804 F.Supp.3d 14"
+        },
+        {
+          "start": 1030,
+          "end": 1041,
+          "text": "Id., at 43.",
+          "type": "case",
+          "canonical": "804 F.Supp.3d 14"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 150,
+          "end": 878
+        }
+      ],
+      "citations": [
+        {
+          "start": 308,
+          "end": 351,
+          "text": "2025 WL 2654786, *1 (CADC, Sept. 15, 2025).",
+          "type": "case",
+          "canonical": "2025 WL 2654786"
+        },
+        {
+          "start": 720,
+          "end": 731,
+          "text": "Id., at *7.",
+          "type": "case",
+          "canonical": "2025 WL 2654786"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 878,
+          "end": 1001
+        }
+      ],
+      "citations": [
+        {
+          "start": 100,
+          "end": 122,
+          "text": "606 U. S. 1062 (2025).",
+          "type": "case",
+          "canonical": "606 U.S. 1062"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1001,
+          "end": 1003
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1004,
+          "end": 1679
+        }
+      ],
+      "citations": [
+        {
+          "start": 563,
+          "end": 631,
+          "text": "See Hollingsworth v. Perry, 558 U. S. 183, 190 (2010) (per curiam );",
+          "type": "case",
+          "canonical": "558 U.S. 183"
+        },
+        {
+          "start": 632,
+          "end": 674,
+          "text": "Nken v. Holder, 556 U. S. 418, 434 (2009).",
+          "type": "case",
+          "canonical": "556 U.S. 418"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 1679,
+          "end": 1975
+        },
+        {
+          "page": 15,
+          "start": 39,
+          "end": 717
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 15,
+          "start": 717,
+          "end": 718
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 719,
+          "end": 985
+        }
+      ],
+      "citations": [
+        {
+          "start": 250,
+          "end": 265,
+          "text": "Application 20.",
+          "type": "record",
+          "canonical": "Application 20."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 15,
+          "start": 985,
+          "end": 1935
+        }
+      ],
+      "citations": [
+        {
+          "start": 206,
+          "end": 224,
+          "text": "12 U. S. C. § 242.",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 242"
+        },
+        {
+          "start": 660,
+          "end": 724,
+          "text": "Loper Bright Enterprises v. Raimondo, 603 U. S. 369, 395 (2024).",
+          "type": "case",
+          "canonical": "603 U.S. 369"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 55,
+          "end": 1724
+        }
+      ],
+      "citations": [
+        {
+          "start": 247,
+          "end": 262,
+          "text": "Application 20.",
+          "type": "record",
+          "canonical": "Application 20."
+        },
+        {
+          "start": 619,
+          "end": 683,
+          "text": "Supp. Brief for Applicant 13 (internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "Supp. Brief for Applicant 13 (internal quotation marks omitted)."
+        },
+        {
+          "start": 709,
+          "end": 732,
+          "text": "Reagan v. United States",
+          "type": "case",
+          "canonical": "182 U.S. 419",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 732,
+          "end": 755,
+          "text": ", 182 U. S. 419 (1901),",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 911,
+          "end": 922,
+          "text": "id., at 425",
+          "type": "record",
+          "canonical": "id., at 425"
+        },
+        {
+          "start": 1080,
+          "end": 1103,
+          "text": "Ibid. (emphasis added).",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 1202,
+          "end": 1207,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 1349,
+          "end": 1354,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 1531,
+          "end": 1554,
+          "text": "Ibid. (emphasis added).",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 1615,
+          "end": 1636,
+          "text": "See 12 U. S. C. § 242",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 242"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[r]eviewing",
+          "to": "reviewing"
+        },
+        {
+          "from": "court[ ]",
+          "to": "court "
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 16,
+          "start": 1724,
+          "end": 2135
+        },
+        {
+          "page": 17,
+          "start": 39,
+          "end": 1437
+        }
+      ],
+      "citations": [
+        {
+          "start": 170,
+          "end": 273,
+          "text": "See State ex rel. Hart v. Common Council of City of Duluth, 53 Minn. 238, 244, 55 N. W. 118, 120 (1893)",
+          "type": "case",
+          "canonical": "53 Minn. 238"
+        },
+        {
+          "start": 412,
+          "end": 423,
+          "text": "Bagg's Case",
+          "type": "case",
+          "canonical": "77 Eng.Rep. 1271",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 423,
+          "end": 489,
+          "text": ", [11 Co. Rep. 93b, 77 Eng. Rep. 1271 (K. B. 1615) (Coke, C. J.)],",
+          "type": "record",
+          "canonical": "[11 Co. Rep. 93b, 77 Eng. Rep. 1271 (K. B. 1615) (Coke, C. J.)],"
+        },
+        {
+          "start": 679,
+          "end": 753,
+          "text": "See United States ex rel. Garland v. Oliver , 6 Mackey 47, 56 (D. C. 1887)",
+          "type": "case",
+          "canonical": "6 Mackey 47"
+        },
+        {
+          "start": 776,
+          "end": 895,
+          "text": "The Mayor and Council of the City of Hoboken v. Gear, 3 Dutch. 265, 287 (NJ 1859) (seriatim opinion of Vredenburgh, J.)",
+          "type": "case",
+          "canonical": "27 N.J.L. 265"
+        },
+        {
+          "start": 1085,
+          "end": 1163,
+          "text": "See Trimble v. People ex rel. Phelps, 19 Colo. 187, 197, 34 P. 981, 985 (1893)",
+          "type": "case",
+          "canonical": "19 Colo. 187"
+        },
+        {
+          "start": 1338,
+          "end": 1450,
+          "text": "People ex rel. Platt v. Stout, 19 How. Pr. 171, 173, 181 (NY Sup. Ct. 1860) (seriatim opinion of Sutherland, J.)",
+          "type": "case",
+          "canonical": "19 How.Pr. 171"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the]",
+          "to": "the"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1437,
+          "end": 1438
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 17,
+          "start": 1439,
+          "end": 2011
+        },
+        {
+          "page": 18,
+          "start": 55,
+          "end": 125
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 316,
+          "end": 385,
+          "text": "Application 25–26 (quoting Black's Law Dictionary 508 (2d ed. 1910));",
+          "type": "record",
+          "canonical": "Application 25–26 (quoting Black's Law Dictionary 508 (2d ed. 1910));"
+        },
+        {
+          "start": 386,
+          "end": 433,
+          "text": "see also post, at 578 (Thomas, J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 621,
+          "end": 640,
+          "text": "Application 26, 31.",
+          "type": "record",
+          "canonical": "Application 26, 31."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 125,
+          "end": 845
+        }
+      ],
+      "citations": [
+        {
+          "start": 285,
+          "end": 308,
+          "text": "Brief in Opposition 20.",
+          "type": "record",
+          "canonical": "Brief in Opposition 20."
+        },
+        {
+          "start": 538,
+          "end": 587,
+          "text": "Id., at 21–23 (internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "Brief in Opposition"
+        },
+        {
+          "start": 713,
+          "end": 727,
+          "text": "Id., at 22–23.",
+          "type": "record",
+          "canonical": "Brief in Opposition"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 18,
+          "start": 845,
+          "end": 2062
+        },
+        {
+          "page": 19,
+          "start": 39,
+          "end": 551
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 206,
+          "end": 297,
+          "text": "Comcast Corp. v. National Assn. of African American-Owned Media, 589 U. S. 327, 335 (2020),",
+          "type": "case",
+          "canonical": "589 U.S. 327"
+        },
+        {
+          "start": 390,
+          "end": 455,
+          "text": "See Jam v. International Finance Corp., 586 U. S. 199, 211 (2019)",
+          "type": "case",
+          "canonical": "586 U.S. 199"
+        },
+        {
+          "start": 585,
+          "end": 619,
+          "text": "(internal quotation marks omitted)",
+          "type": "record",
+          "canonical": "(internal quotation marks omitted)"
+        },
+        {
+          "start": 946,
+          "end": 1048,
+          "text": "See Board of Street Comm'rs of Hagerstown v. Williams, 96 Md. 232, 236–239, 53 A. 923, 924– 925 (1903)",
+          "type": "case",
+          "canonical": "96 Md. 232"
+        },
+        {
+          "start": 1148,
+          "end": 1209,
+          "text": "In re Nichols, 6 Abb. N. Cas. 474, 479–495 (NY Sup. Ct. 1879)",
+          "type": "case",
+          "canonical": "6 Abb.N.Cas. 474"
+        },
+        {
+          "start": 1405,
+          "end": 1451,
+          "text": "Contra, post, at 578 (Thomas, J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 1546,
+          "end": 1613,
+          "text": "Nichols, 6 Abb. N. Cas., at 480 (internal quotation marks omitted),",
+          "type": "case",
+          "canonical": "6 Abb.N.Cas. 474"
+        },
+        {
+          "start": 1677,
+          "end": 1732,
+          "text": "Board of Street Comm'rs, 96 Md., at 239, 53 A., at 925.",
+          "type": "case",
+          "canonical": "96 Md. 232"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[W]e",
+          "to": "We"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 551,
+          "end": 1476
+        }
+      ],
+      "citations": [
+        {
+          "start": 333,
+          "end": 356,
+          "text": "Brief in Opposition 20.",
+          "type": "record",
+          "canonical": "Brief in Opposition 20."
+        },
+        {
+          "start": 564,
+          "end": 640,
+          "text": "Jam, 586 U. S., at 210 (emphasis deleted; internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "586 U.S. 199"
+        },
+        {
+          "start": 787,
+          "end": 807,
+          "text": ", 12 U. S. C. § 242,",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 242"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 19,
+          "start": 1476,
+          "end": 2207
+        },
+        {
+          "page": 20,
+          "start": 55,
+          "end": 827
+        }
+      ],
+      "citations": [
+        {
+          "start": 267,
+          "end": 289,
+          "text": "See supra, at 534–539;",
+          "type": "record",
+          "canonical": "See supra, at 534–539;"
+        },
+        {
+          "start": 290,
+          "end": 360,
+          "text": "cf., e. g., Board of Street Comm'rs, 96 Md., at 237–238, 53 A., at 924",
+          "type": "case",
+          "canonical": "96 Md. 232"
+        },
+        {
+          "start": 453,
+          "end": 493,
+          "text": "Hart, 53 Minn., at 244, 55 N. W., at 120",
+          "type": "case",
+          "canonical": "53 Minn. 238"
+        },
+        {
+          "start": 764,
+          "end": 770,
+          "text": "§ 243.",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 243"
+        },
+        {
+          "start": 869,
+          "end": 875,
+          "text": "§ 222.",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 222"
+        },
+        {
+          "start": 983,
+          "end": 989,
+          "text": "§ 263.",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 263"
+        },
+        {
+          "start": 1155,
+          "end": 1162,
+          "text": "§ 225a,",
+          "type": "statute",
+          "canonical": "12 U.S.C. § 225a"
+        },
+        {
+          "start": 1363,
+          "end": 1394,
+          "text": ", Report on a National Bank 331",
+          "type": "record",
+          "canonical": "Report on a National Bank 331."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 827,
+          "end": 1978
+        }
+      ],
+      "citations": [
+        {
+          "start": 563,
+          "end": 601,
+          "text": "In re Nichols, 6 Abb. N. Cas., at 482.",
+          "type": "case",
+          "canonical": "6 Abb.N.Cas. 474"
+        },
+        {
+          "start": 715,
+          "end": 812,
+          "text": "Department of Commerce v. New York, 588 U. S. 752, 785 (2019) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "588 U.S. 752"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]he",
+          "to": "the"
+        },
+        {
+          "from": "impl[ies]",
+          "to": "implies"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1978,
+          "end": 1979
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 20,
+          "start": 1980,
+          "end": 2100
+        },
+        {
+          "page": 21,
+          "start": 39,
+          "end": 500
+        }
+      ],
+      "citations": [
+        {
+          "start": 517,
+          "end": 539,
+          "text": "See Application 31–32;",
+          "type": "record",
+          "canonical": "See Application 31–32;"
+        },
+        {
+          "start": 540,
+          "end": 582,
+          "text": "post, at 593–594 (Thomas, J., dissenting).",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 500,
+          "end": 2005
+        }
+      ],
+      "citations": [
+        {
+          "start": 368,
+          "end": 459,
+          "text": "Application 33 (quoting 2 J. High, Law of Injunctions § 1312, p. 863 (2d ed. 1880) (High));",
+          "type": "record",
+          "canonical": "Application 33 (quoting 2 J. High, Law of Injunctions § 1312, p. 863 (2d ed. 1880) (High));"
+        },
+        {
+          "start": 460,
+          "end": 505,
+          "text": "post, at 593 (Thomas, J., dissenting) (same).",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 663,
+          "end": 685,
+          "text": "2 High § 1315, at 866.",
+          "type": "record",
+          "canonical": "2 High § 1315, at 866."
+        },
+        {
+          "start": 907,
+          "end": 1007,
+          "text": "See S. Bray, Remedies in the Officer Removal Cases, 17 J. Legal Analysis 236, 241–246 (2025) (Bray).",
+          "type": "record",
+          "canonical": "See S. Bray, Remedies in the Officer Removal Cases, 17 J. Legal Analysis 236, 241–246 (2025) (Bray)."
+        },
+        {
+          "start": 1299,
+          "end": 1321,
+          "text": "2 High § 1315, at 866;",
+          "type": "record",
+          "canonical": "2 High § 1315, at 866;"
+        },
+        {
+          "start": 1322,
+          "end": 1398,
+          "text": "see also, e. g., 1 J. Pomeroy, Equitable Remedies § 335, pp. 591–593 (1905).",
+          "type": "record",
+          "canonical": "see also, e. g., 1 J. Pomeroy, Equitable Remedies § 335, pp. 591–593 (1905)."
+        },
+        {
+          "start": 1447,
+          "end": 1475,
+          "text": "See App. to Application 23a.",
+          "type": "record",
+          "canonical": "See App. to Application 23a."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "recognize[d]",
+          "to": "recognized"
+        },
+        {
+          "from": "protect[ed]",
+          "to": "protected"
+        },
+        {
+          "from": "quo warranto",
+          "to": "kwoh wah ran toh"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 21,
+          "start": 2005,
+          "end": 2119
+        },
+        {
+          "page": 22,
+          "start": 55,
+          "end": 931
+        }
+      ],
+      "citations": [
+        {
+          "start": 8,
+          "end": 20,
+          "text": "In re Sawyer",
+          "type": "case",
+          "canonical": "124 U.S. 200",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 21,
+          "end": 44,
+          "text": ", 124 U. S. 200 (1888),",
+          "type": "case",
+          "canonical": "124 U.S. 200"
+        },
+        {
+          "start": 49,
+          "end": 63,
+          "text": "White v. Berry",
+          "type": "case",
+          "canonical": "171 U.S. 366",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 63,
+          "end": 86,
+          "text": ", 171 U. S. 366 (1898),",
+          "type": "case",
+          "canonical": "171 U.S. 366"
+        },
+        {
+          "start": 341,
+          "end": 367,
+          "text": "Sawyer, 124 U. S., at 212;",
+          "type": "case",
+          "canonical": "124 U.S. 200"
+        },
+        {
+          "start": 368,
+          "end": 397,
+          "text": "White, 171 U. S., at 376–377.",
+          "type": "case",
+          "canonical": "171 U.S. 366"
+        },
+        {
+          "start": 586,
+          "end": 595,
+          "text": "Bray 246.",
+          "type": "record",
+          "canonical": "Bray 246."
+        },
+        {
+          "start": 797,
+          "end": 802,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "17 J. Legal Analysis 236"
+        },
+        {
+          "start": 989,
+          "end": 994,
+          "text": "Ibid.",
+          "type": "record",
+          "canonical": "17 J. Legal Analysis 236"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[their status]",
+          "to": "their status"
+        },
+        {
+          "from": "th[e]",
+          "to": "the"
+        },
+        {
+          "from": "v.",
+          "to": "versus"
+        },
+        {
+          "from": "quo warranto",
+          "to": "kwoh wah ran toh"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 931,
+          "end": 1364
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1368,
+          "end": 2242
+        }
+      ],
+      "citations": [
+        {
+          "start": 222,
+          "end": 235,
+          "text": "Post, at 591.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 415,
+          "end": 539,
+          "text": "Armstrong v. Exceptional Child Center, Inc., 575 U. S. 320, 327 (2015) (quoting Carroll v. Safford, 3 How. 441, 463 (1845));",
+          "type": "case",
+          "canonical": "575 U.S. 320"
+        },
+        {
+          "start": 540,
+          "end": 695,
+          "text": "see also W. Baude, J. Goldsmith, J. Manning, J. Pfander, & A. Tyler, Hart and Wechsler's The Federal Courts and the Federal System 1348–1350 (8th ed. 2025)",
+          "type": "record",
+          "canonical": "see also W. Baude, J. Goldsmith, J. Manning, J. Pfander, & A. Tyler, Hart and Wechsler's The Federal Courts and the Federal System 1348–1350 (8th ed. 2025)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[n]o",
+          "to": "no"
+        },
+        {
+          "from": "come[s]",
+          "to": "comes"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 23,
+          "start": 39,
+          "end": 42
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 43,
+          "end": 723
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 23,
+          "start": 842,
+          "end": 2379
+        }
+      ],
+      "citations": [
+        {
+          "start": 265,
+          "end": 307,
+          "text": "See post, at 599–600 (dissenting opinion).",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 365,
+          "end": 461,
+          "text": "California v. Rooney, 483 U. S. 307, 311 (1987) (per curiam) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "483 U.S. 307"
+        },
+        {
+          "start": 554,
+          "end": 635,
+          "text": "Hollingsworth v. Perry, 558 U. S. 183, 190 (2010) (per curiam ) (emphasis added),",
+          "type": "case",
+          "canonical": "558 U.S. 183"
+        },
+        {
+          "start": 973,
+          "end": 1034,
+          "text": ", see Brief for Appellee in No. 25–5326 (CADC), pp. 1, 11–13,",
+          "type": "record",
+          "canonical": "see Brief for Appellee in No. 25–5326 (CADC), pp. 1, 11–13,"
+        },
+        {
+          "start": 1054,
+          "end": 1089,
+          "text": "see Brief in Opposition 1–2, 30–33;",
+          "type": "record",
+          "canonical": "see Brief in Opposition 1–2, 30–33;"
+        },
+        {
+          "start": 1090,
+          "end": 1106,
+          "text": "Reply Brief 5–8.",
+          "type": "record",
+          "canonical": "Reply Brief 5–8."
+        },
+        {
+          "start": 1177,
+          "end": 1190,
+          "text": "post, at 599,",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 1311,
+          "end": 1386,
+          "text": "Trump v. CASA, Inc., 606 U. S. 831, 874 (2025) (Kavanaugh, J., concurring).",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        },
+        {
+          "start": 1424,
+          "end": 1429,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "606 U.S. 831"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "revie[w]",
+          "to": "review"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 23,
+          "start": 725,
+          "end": 726
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 727,
+          "end": 840
+        },
+        {
+          "page": 24,
+          "start": 55,
+          "end": 908
+        }
+      ],
+      "citations": [
+        {
+          "start": 691,
+          "end": 717,
+          "text": "Reagan, 182 U. S., at 425.",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 744,
+          "end": 795,
+          "text": "See Shurtleff v. United States, 189 U. S. 311, 314.",
+          "type": "case",
+          "canonical": "189 U.S. 311"
+        },
+        {
+          "start": 920,
+          "end": 970,
+          "text": "See Williams v. Taylor, 529 U. S. 420, 434 (2000).",
+          "type": "case",
+          "canonical": "529 U.S. 420"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 908,
+          "end": 1321
+        }
+      ],
+      "citations": [
+        {
+          "start": 140,
+          "end": 254,
+          "text": "But cf. A. Bamzai, Taft, Frankfurter, and the First Presidential For-Cause Removal, 52 U. Rich. L. Rev. 691 (2018)",
+          "type": "record",
+          "canonical": "But cf. A. Bamzai, Taft, Frankfurter, and the First Presidential For-Cause Removal, 52 U. Rich. L. Rev. 691 (2018)"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "4",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1971,
+          "end": 2143
+        }
+      ],
+      "citations": [
+        {
+          "start": 130,
+          "end": 171,
+          "text": "J. Rosen, William Howard Taft 137 (2018).",
+          "type": "record",
+          "canonical": "J. Rosen, William Howard Taft 137 (2018)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1322,
+          "end": 1969
+        },
+        {
+          "page": 25,
+          "start": 39,
+          "end": 292
+        }
+      ],
+      "citations": [
+        {
+          "start": 138,
+          "end": 214,
+          "text": "F. Mechem, Law of Public Offices and Officers § 454, p. 287 (1890) (Mechem);",
+          "type": "record",
+          "canonical": "F. Mechem, Law of Public Offices and Officers § 454, p. 287 (1890) (Mechem);"
+        },
+        {
+          "start": 215,
+          "end": 331,
+          "text": "see also 2 J. Dillon, Commentaries on the Law of Municipal Corporations §§ 473, 477, pp. 792, 798–802 (5th ed. 1911)",
+          "type": "record",
+          "canonical": "see also 2 J. Dillon, Commentaries on the Law of Municipal Corporations §§ 473, 477, pp. 792, 798–802 (5th ed. 1911)"
+        },
+        {
+          "start": 594,
+          "end": 668,
+          "text": "H. Friendly, “Some Kind of Hearing,” 123 U. Pa. L. Rev. 1267, 1270 (1975).",
+          "type": "record",
+          "canonical": "H. Friendly, “Some Kind of Hearing,” 123 U. Pa. L. Rev. 1267, 1270 (1975)."
+        },
+        {
+          "start": 837,
+          "end": 903,
+          "text": "Londoner v. City and County of Denver , 210 U. S. 373, 386 (1908).",
+          "type": "case",
+          "canonical": "210 U.S. 373"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 292,
+          "end": 760
+        }
+      ],
+      "citations": [
+        {
+          "start": 201,
+          "end": 264,
+          "text": "Supp. Brief for Applicant 7 (internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "Supp. Brief for Applicant 7 (internal quotation marks omitted)."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 760,
+          "end": 1714
+        }
+      ],
+      "citations": [
+        {
+          "start": 416,
+          "end": 436,
+          "text": "Tr. of Oral Arg. 30;",
+          "type": "record",
+          "canonical": "Tr. of Oral Arg. 30;"
+        },
+        {
+          "start": 437,
+          "end": 456,
+          "text": "see also id., at 58",
+          "type": "record",
+          "canonical": "see also id., at 58"
+        },
+        {
+          "start": 657,
+          "end": 689,
+          "text": "See Shurtleff, 189 U. S., at 314",
+          "type": "case",
+          "canonical": "189 U.S. 311"
+        },
+        {
+          "start": 851,
+          "end": 902,
+          "text": "(quoting Reagan, 182 U. S., at 425; emphasis added)",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[W]here",
+          "to": "Where"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1714,
+          "end": 2005
+        },
+        {
+          "page": 26,
+          "start": 86,
+          "end": 883
+        }
+      ],
+      "citations": [
+        {
+          "start": 170,
+          "end": 200,
+          "text": "Supp. Brief for Applicant 7–8;",
+          "type": "record",
+          "canonical": "Supp. Brief for Applicant 7–8;"
+        },
+        {
+          "start": 201,
+          "end": 261,
+          "text": "see also post, at 585–587, and n. 4 (Thomas, J., dissenting)",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 441,
+          "end": 467,
+          "text": "Reagan, 182 U. S., at 425;",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 468,
+          "end": 497,
+          "text": "Shurtleff, 189 U. S., at 314.",
+          "type": "case",
+          "canonical": "189 U.S. 311"
+        },
+        {
+          "start": 696,
+          "end": 827,
+          "text": "Cyan, Inc. v. Beaver County Employees Retirement Fund, 583 U. S. 416, 435 (2018) (internal quotation marks and alteration omitted).",
+          "type": "case",
+          "canonical": "583 U.S. 416"
+        },
+        {
+          "start": 1033,
+          "end": 1089,
+          "text": "Fort Stewart Schools v. FLRA, 495 U. S. 641, 646 (1990).",
+          "type": "case",
+          "canonical": "495 U.S. 641"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 883,
+          "end": 1551
+        }
+      ],
+      "citations": [
+        {
+          "start": 151,
+          "end": 164,
+          "text": "Post, at 583.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 387,
+          "end": 413,
+          "text": "Reagan, 182 U. S., at 425;",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 414,
+          "end": 443,
+          "text": "Shurtleff, 189 U. S., at 314.",
+          "type": "case",
+          "canonical": "189 U.S. 311"
+        },
+        {
+          "start": 578,
+          "end": 604,
+          "text": "Reagan, 182 U. S., at 426;",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 605,
+          "end": 634,
+          "text": "Shurtleff, 189 U. S., at 316.",
+          "type": "case",
+          "canonical": "189 U.S. 311"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1551,
+          "end": 2123
+        },
+        {
+          "page": 27,
+          "start": 39,
+          "end": 668
+        }
+      ],
+      "citations": [
+        {
+          "start": 171,
+          "end": 184,
+          "text": "Post, at 582.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 481,
+          "end": 552,
+          "text": "Jama v. Immigration and Customs Enforcement, 543 U. S. 335, 349 (2005).",
+          "type": "case",
+          "canonical": "543 U.S. 335"
+        },
+        {
+          "start": 606,
+          "end": 639,
+          "text": "Learning Resources, Inc. v. Trump",
+          "type": "case",
+          "canonical": "607 U.S. 229",
+          "omitFromSpeech": false,
+          "keepInline": true
+        },
+        {
+          "start": 639,
+          "end": 662,
+          "text": ", 607 U. S. 229 (2026),",
+          "type": "case",
+          "canonical": "607 U.S. 229"
+        },
+        {
+          "start": 697,
+          "end": 717,
+          "text": "See id., at 252–253.",
+          "type": "case",
+          "canonical": "607 U.S. 229"
+        },
+        {
+          "start": 820,
+          "end": 893,
+          "text": "See, e. g., Ysleta del Sur Pueblo v. Texas, 596 U. S. 685, 700–701 (2022)",
+          "type": "case",
+          "canonical": "596 U.S. 685"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "v.",
+          "to": "versus"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "5",
+      "spans": [
+        {
+          "page": 27,
+          "start": 957,
+          "end": 2460
+        }
+      ],
+      "citations": [
+        {
+          "start": 119,
+          "end": 141,
+          "text": "See post, at 580– 581.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 273,
+          "end": 286,
+          "text": "Post, at 583.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 481,
+          "end": 498,
+          "text": "Post, at 583–584.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 676,
+          "end": 702,
+          "text": "Reagan, 182 U. S., at 425;",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 703,
+          "end": 732,
+          "text": "Shurtleff, 189 U. S., at 314.",
+          "type": "case",
+          "canonical": "189 U.S. 311"
+        },
+        {
+          "start": 911,
+          "end": 967,
+          "text": "Parsons v. United States, 167 U. S. 324, 338–339 (1897).",
+          "type": "case",
+          "canonical": "167 U.S. 324"
+        },
+        {
+          "start": 1017,
+          "end": 1047,
+          "text": "see Reagan, 182 U. S., at 425;",
+          "type": "case",
+          "canonical": "182 U.S. 419"
+        },
+        {
+          "start": 1048,
+          "end": 1081,
+          "text": "Shurtleff, 189 U. S., at 317–318,",
+          "type": "case",
+          "canonical": "189 U.S. 311"
+        },
+        {
+          "start": 1105,
+          "end": 1177,
+          "text": "see M. Throop, Law Relating to Public Officers § 364, pp. 359–360 (1892)",
+          "type": "record",
+          "canonical": "see M. Throop, Law Relating to Public Officers § 364, pp. 359–360 (1892)"
+        },
+        {
+          "start": 1339,
+          "end": 1389,
+          "text": "Contra, post, at 578, 581 (Thomas, J., dissenting)",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "rephrase[d]",
+          "to": "rephrased"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 670,
+          "end": 955
+        },
+        {
+          "page": 28,
+          "start": 86,
+          "end": 155
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 177,
+          "end": 199,
+          "text": ", Application 2, n. 1,",
+          "type": "record",
+          "canonical": "Application 2, n. 1,"
+        },
+        {
+          "start": 335,
+          "end": 352,
+          "text": "post, at 578–588.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 155,
+          "end": 1175
+        }
+      ],
+      "citations": [
+        {
+          "start": 144,
+          "end": 193,
+          "text": "Myers v. United States, 272 U. S. 52, 175 (1926).",
+          "type": "case",
+          "canonical": "272 U.S. 52"
+        },
+        {
+          "start": 356,
+          "end": 386,
+          "text": "Report on a National Bank 331.",
+          "type": "record",
+          "canonical": "Report on a National Bank 331."
+        },
+        {
+          "start": 665,
+          "end": 677,
+          "text": "Lomazoff 53;",
+          "type": "record",
+          "canonical": "Lomazoff 53;"
+        },
+        {
+          "start": 678,
+          "end": 709,
+          "text": "see also id., at 51–68, 142–146",
+          "type": "record",
+          "canonical": "Reconstructing the National Bank Controversy"
+        },
+        {
+          "start": 834,
+          "end": 856,
+          "text": "See supra, at 534–539.",
+          "type": "record",
+          "canonical": "See supra, at 534–539."
+        },
+        {
+          "start": 857,
+          "end": 915,
+          "text": "Contra, post, at 566–570, 589–590 (Thomas, J., dissenting)",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1175,
+          "end": 1413
+        }
+      ],
+      "citations": [
+        {
+          "start": 220,
+          "end": 237,
+          "text": "See post, at 590.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "6",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1821,
+          "end": 2085
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 28,
+          "start": 1414,
+          "end": 1819
+        },
+        {
+          "page": 29,
+          "start": 39,
+          "end": 543
+        }
+      ],
+      "citations": [
+        {
+          "start": 140,
+          "end": 191,
+          "text": "United States v. Rahimi, 602 U. S. 680, 691 (2024);",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 192,
+          "end": 249,
+          "text": "see also NLRB v. Noel Canning, 573 U. S. 513, 524 (2014);",
+          "type": "case",
+          "canonical": "573 U.S. 513"
+        },
+        {
+          "start": 250,
+          "end": 303,
+          "text": "id., at 572–573 (Scalia, J., concurring in judgment).",
+          "type": "case",
+          "canonical": "573 U.S. 513"
+        },
+        {
+          "start": 505,
+          "end": 531,
+          "text": "Rahimi, 602 U. S., at 692.",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 653,
+          "end": 658,
+          "text": "Ibid.",
+          "type": "case",
+          "canonical": "602 U.S. 680"
+        },
+        {
+          "start": 813,
+          "end": 908,
+          "text": "Youngstown Sheet & Tube Co. v. Sawyer, 343 U. S. 579, 610 (1952) (Frankfurter, J., concurring).",
+          "type": "case",
+          "canonical": "124 U.S. 200"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "7",
+      "spans": [
+        {
+          "page": 29,
+          "start": 1078,
+          "end": 2466
+        }
+      ],
+      "citations": [
+        {
+          "start": 111,
+          "end": 128,
+          "text": "See post, at 589.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 304,
+          "end": 386,
+          "text": "Bondi v. VanDerStok, 604 U. S. 458, 484 (2025) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "604 U.S. 458"
+        },
+        {
+          "start": 659,
+          "end": 780,
+          "text": "United States ex rel. Polansky v. Executive Health Resources, Inc., 599 U. S. 419, 452, n. 3 (2023) (dissenting opinion).",
+          "type": "case",
+          "canonical": "599 U.S. 419"
+        },
+        {
+          "start": 880,
+          "end": 899,
+          "text": "See Application 3–4",
+          "type": "record",
+          "canonical": "See Application 3–4"
+        },
+        {
+          "start": 1018,
+          "end": 1055,
+          "text": "post, at 578 (Thomas, J., dissenting)",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 1280,
+          "end": 1338,
+          "text": "Polansky, 599 U. S., at 452, n. 3 (opinion of Thomas, J.).",
+          "type": "case",
+          "canonical": "599 U.S. 419"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "ambiguit[y]",
+          "to": "ambiguity"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 29,
+          "start": 545,
+          "end": 1076
+        },
+        {
+          "page": 30,
+          "start": 55,
+          "end": 1007
+        }
+      ],
+      "citations": [
+        {
+          "start": 103,
+          "end": 141,
+          "text": "See post, at 601 (dissenting opinion);",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 142,
+          "end": 191,
+          "text": "see also post, at 597–599 (Alito, J., dissenting)",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 507,
+          "end": 582,
+          "text": "See Mirabelli v. Bonta, 607 U. S. 492, 501 (2026) (Barrett, J., concurring)",
+          "type": "case",
+          "canonical": "607 U.S. 492"
+        },
+        {
+          "start": 735,
+          "end": 783,
+          "text": "compare Trump v. Illinois, 607 U. S. ––– (2025),",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Trump v. Illinois"
+        },
+        {
+          "start": 784,
+          "end": 841,
+          "text": "with id., at ––– (Kavanaugh, J., concurring in judgment),",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Trump v. Illinois"
+        },
+        {
+          "start": 842,
+          "end": 884,
+          "text": "and id., at ––– (Gorsuch, J., dissenting).",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Trump v. Illinois"
+        },
+        {
+          "start": 1334,
+          "end": 1485,
+          "text": "Consumer Financial Protection Bureau v. Community Financial Services Assn. of America, Ltd., 601 U. S. 416, 467, n. 16 (2024) (Alito , J., dissenting).",
+          "type": "case",
+          "canonical": "601 U.S. 416"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "amici",
+          "to": "ah mee kee"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1007,
+          "end": 1008
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1009,
+          "end": 1551
+        }
+      ],
+      "citations": [
+        {
+          "start": 524,
+          "end": 542,
+          "text": "ECF Doc. 1, p. 14.",
+          "type": "record",
+          "canonical": "ECF Doc. 1, p. 14."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 30,
+          "start": 1551,
+          "end": 2012
+        },
+        {
+          "page": 31,
+          "start": 70,
+          "end": 204
+        }
+      ],
+      "citations": [
+        {
+          "start": 171,
+          "end": 250,
+          "text": "Cf. Mullane v. Central Hanover Bank & Trust Co., 339 U. S. 306, 314–315 (1950).",
+          "type": "case",
+          "canonical": "339 U.S. 306"
+        },
+        {
+          "start": 345,
+          "end": 411,
+          "text": ", M. Throop, Law Relating to Public Officers § 364, p. 360 (1892),",
+          "type": "record",
+          "canonical": "M. Throop, Law Relating to Public Officers § 364, p. 360 (1892),"
+        },
+        {
+          "start": 477,
+          "end": 536,
+          "text": "see Bagg's Case, 11 Co. Rep., at 93b, 77 Eng. Rep., at 1272",
+          "type": "case",
+          "canonical": "77 Eng.Rep. 1271"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 31,
+          "start": 204,
+          "end": 1269
+        }
+      ],
+      "citations": [
+        {
+          "start": 231,
+          "end": 284,
+          "text": "Application 18–19 (internal quotation marks omitted).",
+          "type": "record",
+          "canonical": "Application 18–19 (internal quotation marks omitted)."
+        },
+        {
+          "start": 497,
+          "end": 516,
+          "text": "ECF Doc. 1–4, p. 2.",
+          "type": "record",
+          "canonical": "ECF Doc. 1–4, p. 2."
+        },
+        {
+          "start": 957,
+          "end": 985,
+          "text": "Londoner, 210 U. S., at 386.",
+          "type": "case",
+          "canonical": "210 U.S. 373"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "8",
+      "spans": [
+        {
+          "page": 31,
+          "start": 1273,
+          "end": 2422
+        },
+        {
+          "page": 32,
+          "start": 1685,
+          "end": 1868
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 171,
+          "end": 184,
+          "text": "Post, at 604.",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 226,
+          "end": 244,
+          "text": "See Application 10",
+          "type": "record",
+          "canonical": "See Application 10"
+        },
+        {
+          "start": 426,
+          "end": 450,
+          "text": "Brief in Opposition 8–9.",
+          "type": "record",
+          "canonical": "Brief in Opposition 8–9."
+        },
+        {
+          "start": 672,
+          "end": 696,
+          "text": "App. to Application 23a.",
+          "type": "record",
+          "canonical": "App. to Application 23a."
+        },
+        {
+          "start": 879,
+          "end": 893,
+          "text": ", post, at 604",
+          "type": "case",
+          "canonical": "609 U.S. 528"
+        },
+        {
+          "start": 1176,
+          "end": 1244,
+          "text": "Cf. Madsen v. Women's Health Center, Inc., 512 U. S. 753, 765 (1994)",
+          "type": "case",
+          "canonical": "512 U.S. 753"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 66,
+          "end": 398
+        }
+      ],
+      "citations": [
+        {
+          "start": 275,
+          "end": 332,
+          "text": "Tr. of Oral Arg. 48 (statement of the Solicitor General).",
+          "type": "record",
+          "canonical": "Tr. of Oral Arg. 48 (statement of the Solicitor General)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]o",
+          "to": "to"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 398,
+          "end": 787
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 787,
+          "end": 1180
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 32,
+          "start": 1180,
+          "end": 1236
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 7,
+      "start": 837,
+      "end": 2196,
+      "text": "as follows: Steve Marshall of Alabama, Stephen J. Cox of Alaska, Tim\nGriffn of Arkansas, Christopher M. Carr of Georgia, Raúl R. Labrador\nof Idaho, Theodore E. Rokita of Indiana, Brenna Bird of Iowa, Kris Kobach of Kansas, Russell Coleman of Kentucky, Liz Murrill of Louisiana,\nLynn Fitch of Mississippi, Andrew Bailey of Missouri, Austin Knudsen\nof Montana, Michael T. Hilgers of Nebraska, Drew H. Wrigley of North\nDakota, Gentner Drummond of Oklahoma, Alan Wilson of South Carolina, Marty Jackley of South Dakota, Jonathan Skrmetti of Tennessee,\nKen Paxton of Texas, and John McCuskey of West Virginia; for the\nAmerica First Legal Foundation by R. Trent McCotter and Gene Hamilton; for the America First Policy Institute by Brian Kelsey; for Azoria\nCapital, Inc., et al. by Jessica Furst Johnson; and for the New Civil Liberties Alliance by Jacob Huebert and Mark Chenoweth; and for the Separation of Powers Clinic by R. Trent McCotter .\nBriefs of amici curiae were fled for the American Civil Liberties Union\net al. by Aditi Shah, Scott Michelman, John W. Whitehead, Cecillia D.\nWang, Evelyn Danforth-Scott, and Sophia Lin Lakin; for the Chamber of\nCommerce of the United States of America by Steven A. Engel, Michael\nH. McGinley, Brian A. Kulp, Daryl L. Joseffer, and Christopher J.\nWalker; and for Aaron L. Nielson, pro se.\nPage Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 528 (2026) 535\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 39,
+      "text": "536 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 9,
+      "start": 2076,
+      "end": 2106,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 537\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1045,
+      "end": 1046,
+      "text": "1",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 1605,
+      "end": 1607,
+      "text": "1 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 10,
+      "start": 2158,
+      "end": 2188,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 70,
+      "text": "Page Proof Pending Publication\n538 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 539\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 12,
+      "start": 1951,
+      "end": 1981,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 39,
+      "text": "540 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 13,
+      "start": 2086,
+      "end": 2116,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 541\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 14,
+      "start": 1975,
+      "end": 2005,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 39,
+      "text": "542 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 15,
+      "start": 1935,
+      "end": 1965,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 543\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 16,
+      "start": 2135,
+      "end": 2165,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 39,
+      "text": "544 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 17,
+      "start": 2011,
+      "end": 2041,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 545\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 18,
+      "start": 2062,
+      "end": 2092,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 39,
+      "text": "546 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 19,
+      "start": 2207,
+      "end": 2237,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 547\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 20,
+      "start": 2100,
+      "end": 2130,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 39,
+      "text": "548 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 21,
+      "start": 2119,
+      "end": 2149,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 549\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 1364,
+      "end": 1368,
+      "text": "2\n2 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 22,
+      "start": 2242,
+      "end": 2272,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 39,
+      "text": "550 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 723,
+      "end": 725,
+      "text": "3\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 840,
+      "end": 842,
+      "text": "3 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 23,
+      "start": 2379,
+      "end": 2409,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 551\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 1321,
+      "end": 1322,
+      "text": "4",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 1969,
+      "end": 1971,
+      "text": "4 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 24,
+      "start": 2143,
+      "end": 2173,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 39,
+      "text": "552 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 25,
+      "start": 2005,
+      "end": 2035,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 528 (2026) 553\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 39,
+      "text": "554 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 668,
+      "end": 670,
+      "text": "5\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 955,
+      "end": 957,
+      "text": "5 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 27,
+      "start": 2460,
+      "end": 2490,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 86,
+      "text": "Page Proof Pending Publication\nCite as: 609 U. S. 528 (2026) 555\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 1413,
+      "end": 1414,
+      "text": "6",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 28,
+      "start": 1819,
+      "end": 1821,
+      "text": "6 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 0,
+      "end": 39,
+      "text": "556 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 543,
+      "end": 545,
+      "text": "7\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 1076,
+      "end": 1078,
+      "text": "7 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 29,
+      "start": 2466,
+      "end": 2496,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 55,
+      "text": "Cite as: 609 U. S. 528 (2026) 557\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 30,
+      "start": 2012,
+      "end": 2042,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 31,
+      "start": 0,
+      "end": 70,
+      "text": "Page Proof Pending Publication\n558 TRUMP v. COOK\nOpinion of the Court\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 31,
+      "start": 1269,
+      "end": 1273,
+      "text": "8\n8 ",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 32,
+      "start": 0,
+      "end": 66,
+      "text": "Cite as: 609 U. S. 528 (2026) 559\nKavanaugh, J., concurring\n* * *\n",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 32,
+      "start": 1236,
+      "end": 1685,
+      "text": "Justice Kavanaugh, concurring.\nI join the Court's opinion in full and write separately to\nemphasize two points.\nFirst, today's interim ruling does not decide whether the\nPresident may lawfully remove Governor Cook for cause.\nThe ultimate decision about whether the President may remove Governor Cook for cause will largely depend on the\nfacts regarding the Governor's actions. And those facts\nhave yet to be determined. The Court's opinion today sim",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    },
+    {
+      "page": 32,
+      "start": 1868,
+      "end": 1898,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed running furniture, marker, counsel listing or separate writing"
+    }
+  ],
+  "repairs": [
+    {
+      "page": 7,
+      "start": 118,
+      "end": 122,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 7,
+      "start": 198,
+      "end": 201,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 7,
+      "start": 445,
+      "end": 449,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 7,
+      "start": 621,
+      "end": 627,
+      "expectedText": "fnance",
+      "text": "finance"
+    },
+    {
+      "page": 7,
+      "start": 1805,
+      "end": 1809,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 8,
+      "start": 848,
+      "end": 852,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 8,
+      "start": 975,
+      "end": 986,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 9,
+      "start": 882,
+      "end": 891,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 9,
+      "start": 1534,
+      "end": 1537,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 9,
+      "start": 1626,
+      "end": 1630,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 9,
+      "start": 1829,
+      "end": 1837,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 10,
+      "start": 443,
+      "end": 446,
+      "expectedText": "fve",
+      "text": "five"
+    },
+    {
+      "page": 10,
+      "start": 1816,
+      "end": 1820,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 10,
+      "start": 2061,
+      "end": 2069,
+      "expectedText": "infation",
+      "text": "inflation"
+    },
+    {
+      "page": 11,
+      "start": 166,
+      "end": 174,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 11,
+      "start": 717,
+      "end": 721,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 11,
+      "start": 1187,
+      "end": 1191,
+      "expectedText": "frms",
+      "text": "firms"
+    },
+    {
+      "page": 11,
+      "start": 1609,
+      "end": 1613,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 11,
+      "start": 1866,
+      "end": 1875,
+      "expectedText": "affliated",
+      "text": "affiliated"
+    },
+    {
+      "page": 12,
+      "start": 384,
+      "end": 392,
+      "expectedText": "confrmed",
+      "text": "confirmed"
+    },
+    {
+      "page": 12,
+      "start": 696,
+      "end": 700,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 12,
+      "start": 722,
+      "end": 726,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 12,
+      "start": 879,
+      "end": 885,
+      "expectedText": "confrm",
+      "text": "confirm"
+    },
+    {
+      "page": 12,
+      "start": 1417,
+      "end": 1425,
+      "expectedText": "falsifed",
+      "text": "falsified"
+    },
+    {
+      "page": 12,
+      "start": 1913,
+      "end": 1916,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 13,
+      "start": 91,
+      "end": 94,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 13,
+      "start": 320,
+      "end": 329,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 13,
+      "start": 467,
+      "end": 476,
+      "expectedText": "confdence",
+      "text": "confidence"
+    },
+    {
+      "page": 13,
+      "start": 735,
+      "end": 740,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 13,
+      "start": 768,
+      "end": 772,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 13,
+      "start": 839,
+      "end": 844,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 13,
+      "start": 1137,
+      "end": 1141,
+      "expectedText": "fred",
+      "text": "fired"
+    },
+    {
+      "page": 13,
+      "start": 1236,
+      "end": 1240,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 13,
+      "start": 1486,
+      "end": 1490,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 13,
+      "start": 1605,
+      "end": 1612,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 13,
+      "start": 1618,
+      "end": 1623,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 13,
+      "start": 1982,
+      "end": 1988,
+      "expectedText": "fnally",
+      "text": "finally"
+    },
+    {
+      "page": 13,
+      "start": 2072,
+      "end": 2076,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 14,
+      "start": 242,
+      "end": 246,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 14,
+      "start": 317,
+      "end": 324,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 14,
+      "start": 599,
+      "end": 606,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 14,
+      "start": 790,
+      "end": 796,
+      "expectedText": "ftness",
+      "text": "fitness"
+    },
+    {
+      "page": 14,
+      "start": 1706,
+      "end": 1710,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 15,
+      "start": 104,
+      "end": 112,
+      "expectedText": "satisfed",
+      "text": "satisfied"
+    },
+    {
+      "page": 15,
+      "start": 166,
+      "end": 172,
+      "expectedText": "ftness",
+      "text": "fitness"
+    },
+    {
+      "page": 15,
+      "start": 302,
+      "end": 307,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 15,
+      "start": 1096,
+      "end": 1101,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 16,
+      "start": 375,
+      "end": 384,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 16,
+      "start": 1093,
+      "end": 1100,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 16,
+      "start": 1216,
+      "end": 1228,
+      "expectedText": "affrmatively",
+      "text": "affirmatively"
+    },
+    {
+      "page": 16,
+      "start": 1229,
+      "end": 1237,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 16,
+      "start": 1314,
+      "end": 1319,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 16,
+      "start": 1375,
+      "end": 1382,
+      "expectedText": "defning",
+      "text": "defining"
+    },
+    {
+      "page": 16,
+      "start": 1509,
+      "end": 1515,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 16,
+      "start": 2004,
+      "end": 2014,
+      "expectedText": "suffciency",
+      "text": "sufficiency"
+    },
+    {
+      "page": 17,
+      "start": 255,
+      "end": 259,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 17,
+      "start": 595,
+      "end": 603,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 17,
+      "start": 1171,
+      "end": 1181,
+      "expectedText": "suffciency",
+      "text": "sufficiency"
+    },
+    {
+      "page": 17,
+      "start": 1730,
+      "end": 1736,
+      "expectedText": "ftness",
+      "text": "fitness"
+    },
+    {
+      "page": 18,
+      "start": 362,
+      "end": 369,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 18,
+      "start": 374,
+      "end": 380,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 18,
+      "start": 550,
+      "end": 555,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 18,
+      "start": 558,
+      "end": 569,
+      "expectedText": "ineffciency",
+      "text": "inefficiency"
+    },
+    {
+      "page": 18,
+      "start": 632,
+      "end": 637,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 18,
+      "start": 645,
+      "end": 649,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 18,
+      "start": 848,
+      "end": 851,
+      "expectedText": "fnd",
+      "text": "find"
+    },
+    {
+      "page": 18,
+      "start": 1533,
+      "end": 1542,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 18,
+      "start": 1608,
+      "end": 1614,
+      "expectedText": "defned",
+      "text": "defined"
+    },
+    {
+      "page": 19,
+      "start": 312,
+      "end": 321,
+      "expectedText": "identifed",
+      "text": "identified"
+    },
+    {
+      "page": 19,
+      "start": 437,
+      "end": 452,
+      "expectedText": "disqualifcation",
+      "text": "disqualification"
+    },
+    {
+      "page": 19,
+      "start": 463,
+      "end": 474,
+      "expectedText": "ineffciency",
+      "text": "inefficiency"
+    },
+    {
+      "page": 19,
+      "start": 716,
+      "end": 723,
+      "expectedText": "specifc",
+      "text": "specific"
+    },
+    {
+      "page": 19,
+      "start": 794,
+      "end": 805,
+      "expectedText": "specifcally",
+      "text": "specifically"
+    },
+    {
+      "page": 19,
+      "start": 819,
+      "end": 830,
+      "expectedText": "ineffciency",
+      "text": "inefficiency"
+    },
+    {
+      "page": 19,
+      "start": 1604,
+      "end": 1613,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 19,
+      "start": 1634,
+      "end": 1643,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 19,
+      "start": 1676,
+      "end": 1682,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 19,
+      "start": 1916,
+      "end": 1921,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 19,
+      "start": 2013,
+      "end": 2018,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 19,
+      "start": 2029,
+      "end": 2042,
+      "expectedText": "qualifcations",
+      "text": "qualifications"
+    },
+    {
+      "page": 19,
+      "start": 2056,
+      "end": 2059,
+      "expectedText": "fll",
+      "text": "fill"
+    },
+    {
+      "page": 20,
+      "start": 1281,
+      "end": 1289,
+      "expectedText": "unftness",
+      "text": "unfitness"
+    },
+    {
+      "page": 20,
+      "start": 2048,
+      "end": 2057,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 21,
+      "start": 308,
+      "end": 312,
+      "expectedText": "fres",
+      "text": "fires"
+    },
+    {
+      "page": 21,
+      "start": 832,
+      "end": 839,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 21,
+      "start": 858,
+      "end": 863,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 21,
+      "start": 1079,
+      "end": 1086,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 21,
+      "start": 1242,
+      "end": 1248,
+      "expectedText": "fnally",
+      "text": "finally"
+    },
+    {
+      "page": 21,
+      "start": 1432,
+      "end": 1438,
+      "expectedText": "Offcer",
+      "text": "Officer"
+    },
+    {
+      "page": 21,
+      "start": 1583,
+      "end": 1588,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 22,
+      "start": 205,
+      "end": 212,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 22,
+      "start": 450,
+      "end": 456,
+      "expectedText": "refect",
+      "text": "reflect"
+    },
+    {
+      "page": 22,
+      "start": 640,
+      "end": 646,
+      "expectedText": "fnally",
+      "text": "finally"
+    },
+    {
+      "page": 22,
+      "start": 801,
+      "end": 808,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 22,
+      "start": 991,
+      "end": 996,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 22,
+      "start": 1295,
+      "end": 1307,
+      "expectedText": "signifcantly",
+      "text": "significantly"
+    },
+    {
+      "page": 22,
+      "start": 1373,
+      "end": 1377,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 22,
+      "start": 1770,
+      "end": 1776,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 22,
+      "start": 2160,
+      "end": 2167,
+      "expectedText": "offcial",
+      "text": "official"
+    },
+    {
+      "page": 23,
+      "start": 240,
+      "end": 249,
+      "expectedText": "defnition",
+      "text": "definition"
+    },
+    {
+      "page": 23,
+      "start": 713,
+      "end": 716,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 23,
+      "start": 850,
+      "end": 861,
+      "expectedText": "dissatisfed",
+      "text": "dissatisfied"
+    },
+    {
+      "page": 24,
+      "start": 95,
+      "end": 99,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 24,
+      "start": 208,
+      "end": 213,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 24,
+      "start": 563,
+      "end": 569,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 24,
+      "start": 599,
+      "end": 604,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 24,
+      "start": 614,
+      "end": 618,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 24,
+      "start": 1021,
+      "end": 1030,
+      "expectedText": "fullblown",
+      "text": "full-blown"
+    },
+    {
+      "page": 24,
+      "start": 1269,
+      "end": 1272,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 24,
+      "start": 1371,
+      "end": 1377,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 24,
+      "start": 1485,
+      "end": 1491,
+      "expectedText": "Offces",
+      "text": "Offices"
+    },
+    {
+      "page": 24,
+      "start": 1496,
+      "end": 1503,
+      "expectedText": "Offcers",
+      "text": "Officers"
+    },
+    {
+      "page": 24,
+      "start": 1736,
+      "end": 1742,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 25,
+      "start": 202,
+      "end": 206,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 25,
+      "start": 990,
+      "end": 998,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 25,
+      "start": 1012,
+      "end": 1023,
+      "expectedText": "ineffciency",
+      "text": "inefficiency"
+    },
+    {
+      "page": 25,
+      "start": 1336,
+      "end": 1348,
+      "expectedText": "offceholders",
+      "text": "officeholders"
+    },
+    {
+      "page": 25,
+      "start": 1479,
+      "end": 1487,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 25,
+      "start": 1542,
+      "end": 1547,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 25,
+      "start": 1557,
+      "end": 1561,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 26,
+      "start": 133,
+      "end": 141,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 26,
+      "start": 473,
+      "end": 477,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 26,
+      "start": 1239,
+      "end": 1244,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 26,
+      "start": 1254,
+      "end": 1258,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 26,
+      "start": 1365,
+      "end": 1372,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 26,
+      "start": 1444,
+      "end": 1448,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 27,
+      "start": 361,
+      "end": 367,
+      "expectedText": "fnding",
+      "text": "finding"
+    },
+    {
+      "page": 27,
+      "start": 578,
+      "end": 583,
+      "expectedText": "defne",
+      "text": "define"
+    },
+    {
+      "page": 27,
+      "start": 758,
+      "end": 768,
+      "expectedText": "outfanking",
+      "text": "outflanking"
+    },
+    {
+      "page": 27,
+      "start": 1015,
+      "end": 1022,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 27,
+      "start": 1134,
+      "end": 1141,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 27,
+      "start": 1379,
+      "end": 1386,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 27,
+      "start": 1417,
+      "end": 1421,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 27,
+      "start": 1576,
+      "end": 1582,
+      "expectedText": "offcer",
+      "text": "officer"
+    },
+    {
+      "page": 27,
+      "start": 1606,
+      "end": 1610,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 27,
+      "start": 1694,
+      "end": 1698,
+      "expectedText": "fred",
+      "text": "fired"
+    },
+    {
+      "page": 27,
+      "start": 1840,
+      "end": 1845,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 27,
+      "start": 1853,
+      "end": 1857,
+      "expectedText": "foor",
+      "text": "floor"
+    },
+    {
+      "page": 27,
+      "start": 2091,
+      "end": 2098,
+      "expectedText": "Offcers",
+      "text": "Officers"
+    },
+    {
+      "page": 27,
+      "start": 2177,
+      "end": 2184,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 27,
+      "start": 2202,
+      "end": 2206,
+      "expectedText": "fxed",
+      "text": "fixed"
+    },
+    {
+      "page": 28,
+      "start": 802,
+      "end": 810,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 29,
+      "start": 394,
+      "end": 402,
+      "expectedText": "undefned",
+      "text": "undefined"
+    },
+    {
+      "page": 30,
+      "start": 173,
+      "end": 179,
+      "expectedText": "lockin",
+      "text": "lock-in"
+    },
+    {
+      "page": 30,
+      "start": 452,
+      "end": 458,
+      "expectedText": "beneft",
+      "text": "benefit"
+    },
+    {
+      "page": 30,
+      "start": 685,
+      "end": 693,
+      "expectedText": "fnancial",
+      "text": "financial"
+    },
+    {
+      "page": 30,
+      "start": 1198,
+      "end": 1202,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 30,
+      "start": 1932,
+      "end": 1939,
+      "expectedText": "Offcers",
+      "text": "Officers"
+    },
+    {
+      "page": 31,
+      "start": 778,
+      "end": 782,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 31,
+      "start": 1136,
+      "end": 1140,
+      "expectedText": "fnal",
+      "text": "final"
+    },
+    {
+      "page": 31,
+      "start": 1241,
+      "end": 1251,
+      "expectedText": "suffciency",
+      "text": "sufficiency"
+    },
+    {
+      "page": 31,
+      "start": 1860,
+      "end": 1863,
+      "expectedText": "fre",
+      "text": "fire"
+    },
+    {
+      "page": 31,
+      "start": 2364,
+      "end": 2369,
+      "expectedText": "offce",
+      "text": "office"
+    },
+    {
+      "page": 32,
+      "start": 329,
+      "end": 337,
+      "expectedText": "infuence",
+      "text": "influence"
+    },
+    {
+      "page": 13,
+      "start": 2081,
+      "end": 2085,
+      "expectedText": "fac-",
+      "text": "fac"
+    },
+    {
+      "page": 14,
+      "start": 1967,
+      "end": 1974,
+      "expectedText": "review-",
+      "text": "review"
+    },
+    {
+      "page": 17,
+      "start": 2006,
+      "end": 2010,
+      "expectedText": "per-",
+      "text": "per"
+    },
+    {
+      "page": 18,
+      "start": 2053,
+      "end": 2061,
+      "expectedText": "discuss-",
+      "text": "discuss"
+    },
+    {
+      "page": 27,
+      "start": 948,
+      "end": 954,
+      "expectedText": "Presi-",
+      "text": "Presi"
+    },
+    {
+      "page": 31,
+      "start": 2419,
+      "end": 2422,
+      "expectedText": "in-",
+      "text": "in"
+    },
+    {
+      "page": 16,
+      "start": 273,
+      "end": 282,
+      "expectedText": "identifes",
+      "text": "identifies"
+    },
+    {
+      "page": 18,
+      "start": 769,
+      "end": 777,
+      "expectedText": "preoffce",
+      "text": "pre-office"
+    },
+    {
+      "page": 22,
+      "start": 669,
+      "end": 675,
+      "expectedText": "offces",
+      "text": "offices"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Reviewed all 26 source PDF pages and complete Court text including eight substantive notes, historical quotations, explanatory parentheticals and all qualifications on the interim holding. Footnote 8 continues beneath Kavanaugh's opening; retain that continuation and exclude his separate writing. Individual reviewed bibliographic and record-reference spans alone omitted; semantic case/statute mentions remain spoken and linked. Exact missing-letter repairs, page-word joins, counsel and running-furniture exclusions checked against original; original source pins/raw coordinates retained."
+}

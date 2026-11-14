@@ -1,0 +1,440 @@
+{
+  "reviewed": true,
+  "documentId": "25A1197-280c6af37bba--3-261",
+  "sourceDocumentId": "25A1197-280c6af37bba",
+  "sourceTextPath": "dist/data/current-docs/25A1197-280c6af37bba.json",
+  "sourceTextSha256": "a588ff10e1bfa5666b3cfa130d26992d15a278aa68767b1e2d32b669eb5b7494",
+  "sourcePdfPath": "recordings/sources/10bce4f78d7b157f70b8dc62.pdf",
+  "sourcePdfSha256": "10bce4f78d7b157f70b8dc6251f9f37957d8293263eb232b628c1a1493ca08fb",
+  "title": "Dissent",
+  "author": "Ketanji Brown Jackson",
+  "date": "2026-05-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a1197_h31i.pdf",
+  "sourceRange": {
+    "startPage": 3,
+    "startOffset": 291,
+    "endPage": 6,
+    "endOffset": 563
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 291,
+          "end": 372
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 372,
+          "end": 860
+        }
+      ],
+      "citations": [
+        {
+          "start": 368,
+          "end": 416,
+          "text": ", see Louisiana v. Callais, 608 U. S. ___ (2026)",
+          "type": "case",
+          "canonical": "608 U.S. ___ (2026), Louisiana v. Callais"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 3,
+          "start": 860,
+          "end": 1667
+        },
+        {
+          "page": 4,
+          "start": 47,
+          "end": 220
+        }
+      ],
+      "citations": [
+        {
+          "start": 247,
+          "end": 294,
+          "text": "La. Exec. Order No. JML 26–038 (Apr. 30, 2026).",
+          "type": "record",
+          "canonical": "Louisiana Executive Order JML 26-038"
+        },
+        {
+          "start": 616,
+          "end": 687,
+          "text": "Order in Callais v. Landry, No. 24–cv–122 (WD La.), ECF Doc. 261, p. 1.",
+          "type": "record",
+          "canonical": "Callais v. Landry, No. 24-cv-122, ECF Doc. 261"
+        },
+        {
+          "start": 954,
+          "end": 981,
+          "text": "See this Court’s Rule 45.3.",
+          "type": "statute",
+          "canonical": "Supreme Court Rule 45"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[it]",
+          "to": "it"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1403,
+          "end": 1964
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 194,
+          "end": 218,
+          "text": "Ante, at 1 (per curiam).",
+          "type": "reference",
+          "canonical": "Court order, p. 1"
+        },
+        {
+          "start": 520,
+          "end": 560,
+          "text": "Louisiana’s Response to Application 1–2.",
+          "type": "record",
+          "canonical": "Louisiana response to application, pp. 1-2"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the Callais plaintiffs’]",
+          "to": "the Callais plaintiffs’"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 222,
+          "end": 932
+        }
+      ],
+      "citations": [
+        {
+          "start": 332,
+          "end": 409,
+          "text": "See, e.g., Complaint in Garcia v. Landry, No. 26–cv–471 (MD La.), ECF Doc. 1;",
+          "type": "record",
+          "canonical": "Garcia v. Landry, No. 26-cv-471, ECF Doc. 1"
+        },
+        {
+          "start": 410,
+          "end": 546,
+          "text": "Emergency Petition for Injunctive Relief in National Council of Jewish Women v. Landry, No. C–777814 (La. 19th Jud. Dist., May 1, 2026).",
+          "type": "record",
+          "canonical": "National Council of Jewish Women v. Landry, No. C-777814"
+        },
+        {
+          "start": 693,
+          "end": 709,
+          "text": "Application 2–3.",
+          "type": "record",
+          "canonical": "Application, pp. 2-3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 932,
+          "end": 1262
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1965,
+          "end": 2251
+        }
+      ],
+      "label": "2",
+      "citationOnly": true,
+      "citations": [
+        {
+          "start": 0,
+          "end": 285,
+          "text": "See D. Lieb, A Redistricting Battle Among States Has Reshaped the US House Map Ahead of the Midterm Election, Associated Press, Apr. 30, 2026, https://apnews.com/article/redistricting-congress-gerrymandertrump-4c5c98bec6af054d13b6275b6917bc86 (archived at https://perma .cc/RVP9–MN3W).",
+          "type": "reference",
+          "canonical": "Associated Press, A Redistricting Battle Among States, April 30, 2026"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 4,
+          "start": 1263,
+          "end": 1394
+        },
+        {
+          "page": 5,
+          "start": 24,
+          "end": 374
+        }
+      ],
+      "citations": [
+        {
+          "start": 173,
+          "end": 254,
+          "text": "See Whole Woman’s Health v. Jackson, No. 21A220, 2021 WL 5931622 (Dec. 16, 2021);",
+          "type": "case",
+          "canonical": "2021 WL 5931622"
+        },
+        {
+          "start": 255,
+          "end": 325,
+          "text": "Order in Adoptive Couple v. Baby Girl, No. 13A7, etc. (June 28, 2013).",
+          "type": "record",
+          "canonical": "Adoptive Couple v. Baby Girl, No. 13A7, June 28, 2013 order"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 374,
+          "end": 711
+        }
+      ],
+      "citations": [
+        {
+          "start": 187,
+          "end": 196,
+          "text": "Rule 45.3",
+          "type": "statute",
+          "canonical": "Supreme Court Rule 45",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 5,
+          "start": 1374,
+          "end": 2281
+        }
+      ],
+      "label": "3",
+      "citations": [
+        {
+          "start": 189,
+          "end": 273,
+          "text": "Ante, at 1 (opinion concurring in grant of application to issue judgment forthwith).",
+          "type": "reference",
+          "canonical": "Alito concurrence, p. 1"
+        },
+        {
+          "start": 551,
+          "end": 563,
+          "text": "Id., at 1–2.",
+          "type": "reference",
+          "canonical": "Alito concurrence, pp. 1-2"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "claim[ing]",
+          "to": "claiming"
+        },
+        {
+          "from": "assert[ing]",
+          "to": "asserting"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 5,
+          "start": 713,
+          "end": 1366
+        },
+        {
+          "page": 6,
+          "start": 24,
+          "end": 353
+        }
+      ],
+      "citations": [
+        {
+          "start": 426,
+          "end": 504,
+          "text": ", see Rucho v. Common Cause, 588 U. S. 684, 721 (2019) (KAGAN, J., dissenting)",
+          "type": "case",
+          "canonical": "588 U.S. 684"
+        },
+        {
+          "start": 652,
+          "end": 683,
+          "text": "id., at 704 (majority opinion).",
+          "type": "case",
+          "canonical": "588 U.S. 684"
+        },
+        {
+          "start": 872,
+          "end": 980,
+          "text": "Abbott v. League of United Latin American Citizens, 607 U. S. ___, ___ (2025) (per curiam) (slip op., at 2).",
+          "type": "case",
+          "canonical": "607 U.S. ___ (2025), Abbott v. League of United Latin American Citizens"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[partisan map-drawing]",
+          "to": "partisan map-drawing"
+        },
+        {
+          "from": "insert[ing]",
+          "to": "inserting"
+        },
+        {
+          "from": "distrust,’”",
+          "to": "distrust.’”"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 6,
+          "start": 353,
+          "end": 563
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 4,
+      "start": 0,
+      "end": 47,
+      "text": "2 CALLAIS v. LOUISIANA\nJACKSON, J., dissenting\n",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 4,
+      "start": 220,
+      "end": 222,
+      "text": "1\n",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 4,
+      "start": 1262,
+      "end": 1263,
+      "text": "2",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 4,
+      "start": 1394,
+      "end": 1403,
+      "text": "—————— 1 ",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 4,
+      "start": 1964,
+      "end": 1965,
+      "text": "2",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 4,
+      "start": 2251,
+      "end": 2284,
+      "text": " Cite as: 608 U. S. ____ (2026) 3",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 24,
+      "text": "JACKSON, J., dissenting\n",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 5,
+      "start": 711,
+      "end": 713,
+      "text": "3\n",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 5,
+      "start": 1366,
+      "end": 1374,
+      "text": "—————— 3",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 5,
+      "start": 2281,
+      "end": 2303,
+      "text": "4 CALLAIS v. LOUISIANA",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 24,
+      "text": "JACKSON, J., dissenting\n",
+      "reason": "Running page header, footnote separator or superscript marker; substantive note retained separately."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 5,
+      "start": 1301,
+      "end": 1311,
+      "expectedText": "mapdrawing",
+      "text": "map-drawing"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  }
+}

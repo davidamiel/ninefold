@@ -1,0 +1,51 @@
+{
+  "reviewed": true,
+  "documentId": "26A305-baefa5e1b024--0-0",
+  "sourceDocumentId": "26A305-baefa5e1b024",
+  "sourceTextPath": "dist/data/current-docs/26A305-baefa5e1b024.json",
+  "sourceTextSha256": "298cbf86fd1455825d1efca1b02a98dec270dfb5d55a2359ef7f6a31286e239c",
+  "sourcePdfPath": "recordings/sources/933fe18543d4f8712fad138e.pdf",
+  "sourcePdfSha256": "933fe18543d4f8712fad138e69acbb3ae5939d7ba9868a108160de059cdf1792",
+  "title": "Order of the Court",
+  "author": "The Court",
+  "date": "2026-09-14",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/26a305_4g15.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 246,
+    "endPage": 0,
+    "endOffset": 566
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 246,
+          "end": 566
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "JUSTICE JACKSON",
+          "to": "Justice Jackson"
+        }
+      ]
+    }
+  ],
+  "repairs": [],
+  "excludedSource": [],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

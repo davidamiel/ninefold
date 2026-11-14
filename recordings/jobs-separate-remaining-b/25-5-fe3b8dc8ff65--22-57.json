@@ -1,0 +1,1377 @@
+{
+  "reviewed": true,
+  "documentId": "25-5-fe3b8dc8ff65--22-57",
+  "sourceDocumentId": "25-5-fe3b8dc8ff65",
+  "sourceTextPath": "dist/data/docs/25-5-fe3b8dc8ff65.json",
+  "sourceTextSha256": "2cba51b9e2f23e41036385a77872e92d0e6b63a46ca59b6a226e074fadbadec5",
+  "sourcePdfPath": "dist/data/pdfs/25-5-fe3b8dc8ff65--22-57.pdf",
+  "sourcePdfSha256": "de0f81a71a73cb4eb9324ddbaa648f30c5b3d745931672cbce57513b6b45a438",
+  "title": "Concurrence",
+  "author": "Clarence Thomas",
+  "date": "2026-06-25",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r59_kjfl.pdf",
+  "sourceRange": {
+    "startPage": 22,
+    "startOffset": 85,
+    "endPage": 27,
+    "endOffset": 1453
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 85,
+          "end": 725
+        }
+      ],
+      "citations": [
+        {
+          "start": 180,
+          "end": 212,
+          "text": "Ante, at 262 (footnote omitted).",
+          "type": "reference",
+          "canonical": "Ante, at 262 (footnote omitted)."
+        },
+        {
+          "start": 442,
+          "end": 470,
+          "text": "See 8 U. S. C. § 1252(f)(1).",
+          "type": "reference",
+          "canonical": "See 8 U. S. C. § 1252(f)(1)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "arriv[e]",
+          "to": "arrive"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 22,
+          "start": 725,
+          "end": 727
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 22,
+          "start": 727,
+          "end": 729
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 729,
+          "end": 1739
+        }
+      ],
+      "citations": [
+        {
+          "start": 136,
+          "end": 148,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 488,
+          "end": 493,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 654,
+          "end": 731,
+          "text": "Garland v. Aleman Gonzalez, 596 U. S. 543, 548 (2022) (quoting § 1252(f)(1)).",
+          "type": "reference",
+          "canonical": "Garland v. Aleman Gonzalez, 596 U. S. 543, 548 (2022) (quoting § 1252(f)(1))."
+        },
+        {
+          "start": 999,
+          "end": 1011,
+          "text": "Id., at 550.",
+          "type": "reference",
+          "canonical": "Id., at 550."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        },
+        {
+          "from": "prohibi[t]",
+          "to": "prohibit"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1739,
+          "end": 1741
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 22,
+          "start": 1741,
+          "end": 1864
+        },
+        {
+          "page": 23,
+          "start": 50,
+          "end": 813
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 31,
+          "end": 43,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 376,
+          "end": 456,
+          "text": "Al Otro Lado, Inc. v. Mayorkas, 619 F. Supp. 3d 1029, 1033, n. 2 (SD Cal. 2022).",
+          "type": "reference",
+          "canonical": "Al Otro Lado, Inc. v. Mayorkas, 619 F. Supp. 3d 1029, 1033, n. 2 (SD Cal. 2022)."
+        },
+        {
+          "start": 632,
+          "end": 638,
+          "text": "§ 1225",
+          "type": "statute",
+          "canonical": "§ 1225",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 640,
+          "end": 658,
+          "text": "Id., at 1035–1036;",
+          "type": "reference",
+          "canonical": "Id., at 1035–1036;"
+        },
+        {
+          "start": 659,
+          "end": 680,
+          "text": "see ante, at 264–265.",
+          "type": "reference",
+          "canonical": "see ante, at 264–265."
+        },
+        {
+          "start": 859,
+          "end": 884,
+          "text": "619 F. Supp. 3d, at 1036.",
+          "type": "reference",
+          "canonical": "619 F. Supp. 3d, at 1036."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        },
+        {
+          "from": "1225",
+          "to": "twelve twenty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 813,
+          "end": 950
+        }
+      ],
+      "citations": [
+        {
+          "start": 59,
+          "end": 71,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 111,
+          "end": 136,
+          "text": "619 F. Supp. 3d, at 1045.",
+          "type": "reference",
+          "canonical": "619 F. Supp. 3d, at 1045."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "1",
+      "spans": [
+        {
+          "page": 23,
+          "start": 1463,
+          "end": 2389
+        }
+      ],
+      "citations": [
+        {
+          "start": 171,
+          "end": 182,
+          "text": "Article III",
+          "type": "statute",
+          "canonical": "Article III",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 361,
+          "end": 470,
+          "text": "Al Otro Lado, Inc. v. Mayorkas, 619 F. Supp. 3d 1029, 1044 (SD Cal. 2022) (internal quotation marks omitted);",
+          "type": "reference",
+          "canonical": "Al Otro Lado, Inc. v. Mayorkas, 619 F. Supp. 3d 1029, 1044 (SD Cal. 2022) (internal quotation marks omitted);"
+        },
+        {
+          "start": 471,
+          "end": 485,
+          "text": "see also ibid.",
+          "type": "reference",
+          "canonical": "see also ibid."
+        },
+        {
+          "start": 708,
+          "end": 720,
+          "text": "id., at 1043",
+          "type": "reference",
+          "canonical": "id., at 1043"
+        },
+        {
+          "start": 815,
+          "end": 827,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 870,
+          "end": 924,
+          "text": "(internal quotation marks omitted; alteration adopted)",
+          "type": "reference",
+          "canonical": "(internal quotation marks omitted; alteration adopted)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        },
+        {
+          "from": "Article III",
+          "to": "Article three"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 23,
+          "start": 951,
+          "end": 1460
+        },
+        {
+          "page": 24,
+          "start": 57,
+          "end": 202
+        }
+      ],
+      "citations": [
+        {
+          "start": 181,
+          "end": 187,
+          "text": "§ 1225",
+          "type": "statute",
+          "canonical": "§ 1225",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 277,
+          "end": 283,
+          "text": "§ 1225",
+          "type": "statute",
+          "canonical": "§ 1225",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 286,
+          "end": 367,
+          "text": "619 F. Supp. 3d, at 1045 (internal quotation marks omitted; alterations adopted).",
+          "type": "reference",
+          "canonical": "619 F. Supp. 3d, at 1045 (internal quotation marks omitted; alterations adopted)."
+        },
+        {
+          "start": 422,
+          "end": 428,
+          "text": "§ 1225",
+          "type": "statute",
+          "canonical": "§ 1225",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 621,
+          "end": 656,
+          "text": "Aleman Gonzalez, 596 U. S., at 550.",
+          "type": "reference",
+          "canonical": "Aleman Gonzalez, 596 U. S., at 550."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1225",
+          "to": "twelve twenty-five"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 202,
+          "end": 1458
+        }
+      ],
+      "citations": [
+        {
+          "start": 191,
+          "end": 203,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 243,
+          "end": 291,
+          "text": "Rodriguez v. Hayes, 591 F. 3d 1105, 1120 (2010);",
+          "type": "reference",
+          "canonical": "Rodriguez v. Hayes, 591 F. 3d 1105, 1120 (2010);"
+        },
+        {
+          "start": 292,
+          "end": 405,
+          "text": "see also Al Otro Lado v. Executive Office for Immigration Review, 138 F. 4th 1102, 1123–1124 (2025) (case below).",
+          "type": "reference",
+          "canonical": "see also Al Otro Lado v. Executive Office for Immigration Review, 138 F. 4th 1102, 1123–1124 (2025) (case below)."
+        },
+        {
+          "start": 555,
+          "end": 563,
+          "text": "§ 706(1)",
+          "type": "statute",
+          "canonical": "§ 706(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 698,
+          "end": 735,
+          "text": "5 U. S. C. § 706(1) (emphasis added).",
+          "type": "reference",
+          "canonical": "5 U. S. C. § 706(1) (emphasis added)."
+        },
+        {
+          "start": 736,
+          "end": 771,
+          "text": "See 619 F. Supp. 3d, at 1032, 1049.",
+          "type": "reference",
+          "canonical": "See 619 F. Supp. 3d, at 1032, 1049."
+        },
+        {
+          "start": 779,
+          "end": 787,
+          "text": "§ 706(1)",
+          "type": "statute",
+          "canonical": "§ 706(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 1185,
+          "end": 1198,
+          "text": "Id., at 1049.",
+          "type": "reference",
+          "canonical": "Id., at 1049."
+        },
+        {
+          "start": 1227,
+          "end": 1258,
+          "text": "138 F. 4th, at 1123–1124, 1128.",
+          "type": "reference",
+          "canonical": "138 F. 4th, at 1123–1124, 1128."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1458,
+          "end": 1461
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1461,
+          "end": 1568
+        }
+      ],
+      "citations": [
+        {
+          "start": 73,
+          "end": 85,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 24,
+          "start": 1568,
+          "end": 2048
+        },
+        {
+          "page": 25,
+          "start": 81,
+          "end": 340
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 77,
+          "end": 89,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 170,
+          "end": 176,
+          "text": "§ 1225",
+          "type": "statute",
+          "canonical": "§ 1225",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 209,
+          "end": 239,
+          "text": "§ 1252(f)(1) (emphasis added).",
+          "type": "reference",
+          "canonical": "§ 1252(f)(1) (emphasis added)."
+        },
+        {
+          "start": 278,
+          "end": 301,
+          "text": ", 457 U. S. 393 (1982),",
+          "type": "reference",
+          "canonical": ", 457 U. S. 393 (1982),"
+        },
+        {
+          "start": 317,
+          "end": 329,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 454,
+          "end": 472,
+          "text": "28 U. S. C. § 1341",
+          "type": "statute",
+          "canonical": "28 U. S. C. § 1341",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 572,
+          "end": 595,
+          "text": "8 U. S. C. § 1252(f)(1)",
+          "type": "statute",
+          "canonical": "8 U. S. C. § 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        },
+        {
+          "from": "1225",
+          "to": "twelve twenty-five"
+        },
+        {
+          "from": "1341",
+          "to": "thirteen forty-one"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "2",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1626,
+          "end": 1778
+        }
+      ],
+      "citations": [
+        {
+          "start": 0,
+          "end": 15,
+          "text": "Section 1252(f)",
+          "type": "statute",
+          "canonical": "Section 1252(f)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 119,
+          "end": 152,
+          "text": ", 110 Stat. 3009–611 to 3009–612.",
+          "type": "reference",
+          "canonical": ", 110 Stat. 3009–611 to 3009–612."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 341,
+          "end": 865
+        }
+      ],
+      "citations": [
+        {
+          "start": 114,
+          "end": 132,
+          "text": "457 U. S., at 408.",
+          "type": "reference",
+          "canonical": "457 U. S., at 408."
+        },
+        {
+          "start": 249,
+          "end": 261,
+          "text": "Id., at 411.",
+          "type": "reference",
+          "canonical": "Id., at 411."
+        },
+        {
+          "start": 361,
+          "end": 373,
+          "text": "id., at 408,",
+          "type": "reference",
+          "canonical": "id., at 408,"
+        },
+        {
+          "start": 501,
+          "end": 522,
+          "text": ", 28 U. S. C. § 1341.",
+          "type": "reference",
+          "canonical": ", 28 U. S. C. § 1341."
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "footnote",
+      "label": "3",
+      "spans": [
+        {
+          "page": 25,
+          "start": 1781,
+          "end": 2301
+        }
+      ],
+      "citations": [
+        {
+          "start": 118,
+          "end": 183,
+          "text": "Alli v. Decker, 650 F. 3d 1007, 1018 (2011) (dissenting opinion).",
+          "type": "reference",
+          "canonical": "Alli v. Decker, 650 F. 3d 1007, 1018 (2011) (dissenting opinion)."
+        },
+        {
+          "start": 205,
+          "end": 227,
+          "text": ", 401 U. S. 66 (1971),",
+          "type": "reference",
+          "canonical": ", 401 U. S. 66 (1971),"
+        },
+        {
+          "start": 344,
+          "end": 355,
+          "text": "id., at 72,",
+          "type": "reference",
+          "canonical": "id., at 72,"
+        },
+        {
+          "start": 391,
+          "end": 413,
+          "text": ", 401 U. S. 37 (1971),",
+          "type": "reference",
+          "canonical": ", 401 U. S. 37 (1971),"
+        },
+        {
+          "start": 470,
+          "end": 481,
+          "text": "id., at 41,",
+          "type": "reference",
+          "canonical": "id., at 41,"
+        }
+      ],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 25,
+          "start": 867,
+          "end": 1623
+        },
+        {
+          "page": 26,
+          "start": 57,
+          "end": 140
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 37,
+          "end": 49,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 223,
+          "end": 301,
+          "text": "See Alli v. Decker, 650 F. 3d 1007, 1019 (CA3 2011) (Fuentes, J., dissenting).",
+          "type": "reference",
+          "canonical": "See Alli v. Decker, 650 F. 3d 1007, 1019 (CA3 2011) (Fuentes, J., dissenting)."
+        },
+        {
+          "start": 443,
+          "end": 463,
+          "text": "Tr. of Oral Arg. 89.",
+          "type": "reference",
+          "canonical": "Tr. of Oral Arg. 89."
+        },
+        {
+          "start": 477,
+          "end": 489,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 693,
+          "end": 743,
+          "text": "See Williams v. Taylor, 529 U. S. 420, 434 (2000);",
+          "type": "reference",
+          "canonical": "See Williams v. Taylor, 529 U. S. 420, 434 (2000);"
+        },
+        {
+          "start": 744,
+          "end": 837,
+          "text": "Learning Resources, Inc. v. Trump, 607 U. S. 229, 344–345 (2026) (Kavanaugh, J., dissenting).",
+          "type": "reference",
+          "canonical": "Learning Resources, Inc. v. Trump, 607 U. S. 229, 344–345 (2026) (Kavanaugh, J., dissenting)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        },
+        {
+          "from": "conform[s]",
+          "to": "conforms"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 140,
+          "end": 940
+        }
+      ],
+      "citations": [
+        {
+          "start": 53,
+          "end": 65,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 162,
+          "end": 170,
+          "text": "§ 706(1)",
+          "type": "statute",
+          "canonical": "§ 706(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 252,
+          "end": 270,
+          "text": "See supra, at 281.",
+          "type": "reference",
+          "canonical": "See supra, at 281."
+        },
+        {
+          "start": 433,
+          "end": 441,
+          "text": "§ 706(1)",
+          "type": "statute",
+          "canonical": "§ 706(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 531,
+          "end": 537,
+          "text": "§ 1225",
+          "type": "statute",
+          "canonical": "§ 1225",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 617,
+          "end": 625,
+          "text": "§ 706(1)",
+          "type": "statute",
+          "canonical": "§ 706(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 768,
+          "end": 780,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 782,
+          "end": 800,
+          "text": "596 U. S., at 551.",
+          "type": "reference",
+          "canonical": "596 U. S., at 551."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        },
+        {
+          "from": "1225",
+          "to": "twelve twenty-five"
+        },
+        {
+          "from": "compel[s]",
+          "to": "compels"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 940,
+          "end": 1341
+        }
+      ],
+      "citations": [
+        {
+          "start": 55,
+          "end": 67,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 93,
+          "end": 105,
+          "text": "Ibid., n. 2;",
+          "type": "reference",
+          "canonical": "Ibid., n. 2;"
+        },
+        {
+          "start": 106,
+          "end": 154,
+          "text": "Biden v. Texas, 597 U. S. 785, 801, n. 4 (2022).",
+          "type": "reference",
+          "canonical": "Biden v. Texas, 597 U. S. 785, 801, n. 4 (2022)."
+        },
+        {
+          "start": 370,
+          "end": 382,
+          "text": "§ 1252(f)(1)",
+          "type": "statute",
+          "canonical": "§ 1252(f)(1)",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "§",
+          "to": "section"
+        },
+        {
+          "from": "1252",
+          "to": "twelve fifty-two"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1341,
+          "end": 1345
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1345,
+          "end": 1547
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 26,
+          "start": 1547,
+          "end": 1954
+        },
+        {
+          "page": 27,
+          "start": 53,
+          "end": 325
+        }
+      ],
+      "citations": [
+        {
+          "start": 77,
+          "end": 145,
+          "text": "Trump v. Hawaii, 585 U. S. 667, 712 (2018) (Thomas, J., concurring).",
+          "type": "reference",
+          "canonical": "Trump v. Hawaii, 585 U. S. 667, 712 (2018) (Thomas, J., concurring)."
+        },
+        {
+          "start": 216,
+          "end": 229,
+          "text": "Art. II, § 1,",
+          "type": "reference",
+          "canonical": "Art. II, § 1,"
+        },
+        {
+          "start": 268,
+          "end": 339,
+          "text": "Sessions v. Dimaya, 584 U. S. 148, 217 (2018) (Thomas, J., dissenting).",
+          "type": "reference",
+          "canonical": "Sessions v. Dimaya, 584 U. S. 148, 217 (2018) (Thomas, J., dissenting)."
+        },
+        {
+          "start": 461,
+          "end": 510,
+          "text": "1 Commentaries on the Laws of England 252 (1765).",
+          "type": "reference",
+          "canonical": "1 Commentaries on the Laws of England 252 (1765)."
+        },
+        {
+          "start": 626,
+          "end": 679,
+          "text": "See Sessions, 584 U. S., at 218 (collecting sources).",
+          "type": "reference",
+          "canonical": "See Sessions, 584 U. S., at 218 (collecting sources)."
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[T]he",
+          "to": "The"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 27,
+          "start": 325,
+          "end": 1453
+        }
+      ],
+      "citations": [
+        {
+          "start": 208,
+          "end": 227,
+          "text": "Art. I, § 8, cl. 4.",
+          "type": "reference",
+          "canonical": "Art. I, § 8, cl. 4."
+        },
+        {
+          "start": 354,
+          "end": 376,
+          "text": ", Art. I, § 8, cl. 18,",
+          "type": "reference",
+          "canonical": ", Art. I, § 8, cl. 18,"
+        },
+        {
+          "start": 580,
+          "end": 585,
+          "text": "Ibid.",
+          "type": "reference",
+          "canonical": "Ibid."
+        },
+        {
+          "start": 811,
+          "end": 923,
+          "text": "Zivotofsky v. Kerry, 576 U. S. 1, 50 (2015) (Thomas, J., concurring in judgment in part and dissenting in part).",
+          "type": "reference",
+          "canonical": "Zivotofsky v. Kerry, 576 U. S. 1, 50 (2015) (Thomas, J., concurring in judgment in part and dissenting in part)."
+        }
+      ],
+      "pronunciations": []
+    }
+  ],
+  "repairs": [
+    {
+      "page": 22,
+      "start": 1593,
+      "end": 1601,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 22,
+      "start": 1694,
+      "end": 1702,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 22,
+      "start": 1815,
+      "end": 1823,
+      "expectedText": "certifed",
+      "text": "certified"
+    },
+    {
+      "page": 23,
+      "start": 294,
+      "end": 302,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 23,
+      "start": 1351,
+      "end": 1359,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 24,
+      "start": 89,
+      "end": 97,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 24,
+      "start": 1357,
+      "end": 1369,
+      "expectedText": "justifcation",
+      "text": "justification"
+    },
+    {
+      "page": 24,
+      "start": 1417,
+      "end": 1424,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 25,
+      "start": 318,
+      "end": 326,
+      "expectedText": "specifed",
+      "text": "specified"
+    },
+    {
+      "page": 26,
+      "start": 786,
+      "end": 794,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 26,
+      "start": 1447,
+      "end": 1455,
+      "expectedText": "offcials",
+      "text": "officials"
+    },
+    {
+      "page": 27,
+      "start": 1581,
+      "end": 1588,
+      "expectedText": "offcers",
+      "text": "officers"
+    },
+    {
+      "page": 22,
+      "start": 1851,
+      "end": 1863,
+      "expectedText": "all nonciti-",
+      "text": "all nonciti"
+    },
+    {
+      "page": 24,
+      "start": 2041,
+      "end": 2047,
+      "expectedText": "(“dis-",
+      "text": "(“dis"
+    },
+    {
+      "page": 25,
+      "start": 1611,
+      "end": 1623,
+      "expectedText": "Learning Re-",
+      "text": "Learning Re"
+    },
+    {
+      "page": 23,
+      "start": 1586,
+      "end": 1593,
+      "expectedText": "defates",
+      "text": "deflates"
+    },
+    {
+      "page": 23,
+      "start": 1397,
+      "end": 1412,
+      "expectedText": "asyluminterview",
+      "text": "asylum-interview"
+    },
+    {
+      "page": 24,
+      "start": 529,
+      "end": 534,
+      "expectedText": "Offce",
+      "text": "Office"
+    },
+    {
+      "page": 27,
+      "start": 177,
+      "end": 188,
+      "expectedText": "ratifcation",
+      "text": "ratification"
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 22,
+      "start": 1864,
+      "end": 1894,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 50,
+      "text": "280 MULLIN v. AL OTRO LADO\nThomas, J., concurring\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 950,
+      "end": 951,
+      "text": "1",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 1461,
+      "end": 1463,
+      "text": "1 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 23,
+      "start": 2389,
+      "end": 2419,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 609 U. S. 258 (2026) 281\nThomas, J., concurring\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 24,
+      "start": 2048,
+      "end": 2078,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 81,
+      "text": "Page Proof Pending Publication\n282 MULLIN v. AL OTRO LADO\nThomas, J., concurring\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 25,
+      "start": 340,
+      "end": 341,
+      "text": "2",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 25,
+      "start": 865,
+      "end": 867,
+      "text": "3\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 25,
+      "start": 1624,
+      "end": 1626,
+      "text": "2 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 25,
+      "start": 1779,
+      "end": 1781,
+      "text": "3 ",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 57,
+      "text": "Cite as: 609 U. S. 258 (2026) 283\nThomas, J., concurring\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 26,
+      "start": 1954,
+      "end": 1984,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 53,
+      "text": "284 MULLIN v. AL OTRO LADO\nSotomayor, J., dissenting\n",
+      "reason": "Reviewed publication furniture, prior writing or footnote marker"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}

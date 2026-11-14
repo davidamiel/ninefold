@@ -1,0 +1,718 @@
+{
+  "reviewed": true,
+  "documentId": "26A203-4464d489cd04--9-289",
+  "sourceDocumentId": "26A203-4464d489cd04",
+  "sourceTextPath": "dist/data/docs/26A203-4464d489cd04.json",
+  "sourceTextSha256": "37412ed496e235f83ad5590db7916d37395fc10e20efc521d2e68b3fed1c7114",
+  "sourcePdfPath": "dist/data/pdfs/26A203-4464d489cd04--9-289.pdf",
+  "sourcePdfSha256": "e49e6450f988c802b2c51e9a4726c86f71d6edf67eccc0606e3f3157dfe7d5fc",
+  "title": "Dissent",
+  "author": "John G. Roberts, Jr.",
+  "date": "2026-08-31",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us2r70_3e04.pdf",
+  "sourceRange": {
+    "startPage": 9,
+    "startOffset": 396,
+    "endPage": 14,
+    "endOffset": 1153
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 396,
+          "end": 618
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 618,
+          "end": 1234
+        }
+      ],
+      "citations": [
+        {
+          "start": 365,
+          "end": 384,
+          "text": "40 U. S. C. \u00a7 8106.",
+          "type": "statute",
+          "canonical": "40 U.S.C. \u00a7 8106"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 9,
+          "start": 1234,
+          "end": 1985
+        },
+        {
+          "page": 10,
+          "start": 63,
+          "end": 229
+        }
+      ],
+      "citations": [
+        {
+          "start": 340,
+          "end": 363,
+          "text": "3 U. S. C. \u00a7 105(d)(1).",
+          "type": "statute",
+          "canonical": "3 U.S.C. \u00a7 105"
+        },
+        {
+          "start": 426,
+          "end": 443,
+          "text": "section 105(d)(1)",
+          "type": "statute",
+          "canonical": "3 U.S.C. \u00a7 105",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 579,
+          "end": 648,
+          "text": "Consolidated Appropriations Act, 2026, Pub. L. 119\u201375, 140 Stat. 451.",
+          "type": "statute",
+          "canonical": "Pub. L. 119-75, 140 Stat. 451"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "section 105(d)(1)",
+          "to": "section 105, d, 1"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 229,
+          "end": 530
+        }
+      ],
+      "citations": [
+        {
+          "start": 181,
+          "end": 205,
+          "text": "54 U. S. C. \u00a7 100101(a).",
+          "type": "statute",
+          "canonical": "54 U.S.C. \u00a7 100101"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "conserve[s]",
+          "to": "conserves"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 530,
+          "end": 1058
+        }
+      ],
+      "citations": [
+        {
+          "start": 491,
+          "end": 502,
+          "text": "Article III",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article III",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1058,
+          "end": 1496
+        }
+      ],
+      "citations": [
+        {
+          "start": 196,
+          "end": 281,
+          "text": "See Hunt v. Washington State Apple Advertising Comm'n, 432 U. S. 333, 342\u2013343 (1977).",
+          "type": "case",
+          "canonical": "432 U.S. 333"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 10,
+          "start": 1496,
+          "end": 2172
+        },
+        {
+          "page": 11,
+          "start": 121,
+          "end": 301
+        }
+      ],
+      "joins": [
+        {
+          "afterSpan": 0,
+          "separator": ""
+        }
+      ],
+      "citations": [
+        {
+          "start": 141,
+          "end": 226,
+          "text": "Spokeo, Inc. v. Robins, 578 U. S. 330, 340 (2016) (internal quotation marks omitted).",
+          "type": "case",
+          "canonical": "578 U.S. 330"
+        },
+        {
+          "start": 462,
+          "end": 524,
+          "text": "Summers v. Earth Island Institute , 555 U. S. 488, 494 (2009).",
+          "type": "case",
+          "canonical": "555 U.S. 488"
+        },
+        {
+          "start": 791,
+          "end": 854,
+          "text": "Lujan v. Defenders of Wildlife , 504 U. S. 555, 562\u2013563 (1992).",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[o]f",
+          "to": "of"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 301,
+          "end": 529
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 529,
+          "end": 1180
+        }
+      ],
+      "citations": [
+        {
+          "start": 590,
+          "end": 650,
+          "text": "36 Cong. Rec. 12 (1902) (Roosevelt's second annual message).",
+          "type": "reference",
+          "canonical": "Theodore Roosevelt, Second Annual Message, 36 Cong. Rec. 12 (1902)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[the White House's]",
+          "to": "the White House's"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 1180,
+          "end": 2059
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 11,
+          "start": 2059,
+          "end": 2177
+        },
+        {
+          "page": 12,
+          "start": 63,
+          "end": 885
+        }
+      ],
+      "citations": [
+        {
+          "start": 428,
+          "end": 486,
+          "text": "See, e. g., Defenders of Wildlife , 504 U. S., at 562\u2013563;",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        },
+        {
+          "start": 487,
+          "end": 591,
+          "text": "Friends of the Earth, Inc. v. Laidlaw Environmental Services (TOC), Inc., 528 U. S. 167, 180\u2013183 (2000).",
+          "type": "case",
+          "canonical": "528 U.S. 167"
+        },
+        {
+          "start": 786,
+          "end": 797,
+          "text": "Article III",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article III",
+          "keepInline": true,
+          "omitFromSpeech": false
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 885,
+          "end": 1436
+        }
+      ],
+      "citations": [
+        {
+          "start": 143,
+          "end": 157,
+          "text": "Ante, at 1072.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 1072"
+        },
+        {
+          "start": 270,
+          "end": 345,
+          "text": "FDA v. Alliance for Hippocratic Medicine , 602 U. S. 367, 390, n. 3 (2024).",
+          "type": "case",
+          "canonical": "602 U.S. 367"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 12,
+          "start": 1436,
+          "end": 2147
+        },
+        {
+          "page": 13,
+          "start": 152,
+          "end": 489
+        }
+      ],
+      "citations": [
+        {
+          "start": 145,
+          "end": 156,
+          "text": "Article III",
+          "type": "statute",
+          "canonical": "U.S. Constitution, Article III",
+          "keepInline": true,
+          "omitFromSpeech": false
+        },
+        {
+          "start": 324,
+          "end": 342,
+          "text": "see ante, at 1072,",
+          "type": "reference",
+          "canonical": "Court opinion, p. 1072"
+        },
+        {
+          "start": 651,
+          "end": 668,
+          "text": "See ante, at 1071",
+          "type": "reference",
+          "canonical": "Court opinion, p. 1071"
+        },
+        {
+          "start": 669,
+          "end": 796,
+          "text": "(citing Valley Forge Christian College v. Americans United for Separation of Church and State, Inc., 454 U. S. 464, 485 (1982);",
+          "type": "case",
+          "canonical": "454 U.S. 464"
+        },
+        {
+          "start": 797,
+          "end": 873,
+          "text": "Schlesinger v. Reservists Comm. to Stop the War , 418 U. S. 208, 227 (1974);",
+          "type": "case",
+          "canonical": "418 U.S. 208"
+        },
+        {
+          "start": 874,
+          "end": 930,
+          "text": "United States v. Richardson, 418 U. S. 166, 177 (1974)).",
+          "type": "case",
+          "canonical": "418 U.S. 166"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "Article III",
+          "to": "Article 3"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 489,
+          "end": 1042
+        }
+      ],
+      "citations": [
+        {
+          "start": 192,
+          "end": 210,
+          "text": "See ante, at 1072;",
+          "type": "reference",
+          "canonical": "Court opinion, p. 1072"
+        },
+        {
+          "start": 211,
+          "end": 253,
+          "text": "Defenders of Wildlife , 504 U. S., at 562.",
+          "type": "case",
+          "canonical": "504 U.S. 555"
+        },
+        {
+          "start": 318,
+          "end": 332,
+          "text": "Ante, at 1073.",
+          "type": "reference",
+          "canonical": "Court opinion, p. 1073"
+        },
+        {
+          "start": 527,
+          "end": 554,
+          "text": "Summers, 555 U. S., at 494.",
+          "type": "case",
+          "canonical": "555 U.S. 488"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[t]o",
+          "to": "to"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 13,
+          "start": 1042,
+          "end": 2044
+        }
+      ],
+      "citations": [
+        {
+          "start": 448,
+          "end": 466,
+          "text": "528 U. S., at 183.",
+          "type": "case",
+          "canonical": "528 U.S. 167"
+        },
+        {
+          "start": 684,
+          "end": 700,
+          "text": "Id., at 180\u2013183;",
+          "type": "case",
+          "canonical": "528 U.S. 167"
+        },
+        {
+          "start": 701,
+          "end": 725,
+          "text": "see ante, at 1071\u2013 1072.",
+          "type": "reference",
+          "canonical": "Court opinion, pp. 1071-1072"
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "spans": [
+        {
+          "page": 13,
+          "start": 2047,
+          "end": 2261
+        },
+        {
+          "page": 14,
+          "start": 866,
+          "end": 1153
+        }
+      ],
+      "label": "1",
+      "citations": [
+        {
+          "start": 277,
+          "end": 313,
+          "text": "No. 25\u2013 cv\u20134316, ECF Doc. 30, p. 48.",
+          "type": "record",
+          "canonical": "No. 25-cv-4316, ECF Doc. 30, p. 48"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 69,
+          "end": 498
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 498,
+          "end": 842
+        }
+      ],
+      "citations": [
+        {
+          "start": 104,
+          "end": 199,
+          "text": "Onwards to Victory: War Speeches by the Right Hon. Winston S. Churchill, C.H., M.P. 317 (1944).",
+          "type": "reference",
+          "canonical": "Winston S. Churchill, Onwards to Victory, p. 317 (1944)"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "[w]e",
+          "to": "we"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 14,
+          "start": 842,
+          "end": 866
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 9,
+      "start": 1985,
+      "end": 2015,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 63,
+      "text": "Cite as: 609 U. S. 1068 (2026) 1077\nRoberts, C. J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 10,
+      "start": 2172,
+      "end": 2202,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 121,
+      "text": "1078 N ATIONAL PARK SERVICE v. NATIONAL TRUST FOR\nHISTORIC PRESERV ATION IN THE UNITED STATES\nRoberts, C. J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 11,
+      "start": 2177,
+      "end": 2207,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 63,
+      "text": "Cite as: 609 U. S. 1068 (2026) 1079\nRoberts, C. J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 12,
+      "start": 2147,
+      "end": 2177,
+      "text": "Page Proof Pending Publication",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 152,
+      "text": "Page Proof Pending Publication\n1080 N ATIONAL PARK SERVICE v. NATIONAL TRUST FOR\nHISTORIC PRESERV ATION IN THE UNITED STATES\nRoberts, C. J., dissenting\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 13,
+      "start": 2044,
+      "end": 2047,
+      "text": "*\n*",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 69,
+      "text": "Cite as: 609 U. S. 1068 (2026) 1081\nRoberts, C. J., dissenting\n* * *\n",
+      "reason": "Reviewed non-body furniture: running header/footer, publication note, ornament, superscript marker or adjacent writing material."
+    }
+  ],
+  "repairs": [
+    {
+      "page": 9,
+      "start": 1324,
+      "end": 1328,
+      "expectedText": "frst",
+      "text": "first"
+    },
+    {
+      "page": 9,
+      "start": 1515,
+      "end": 1522,
+      "expectedText": "fxtures",
+      "text": "fixtures"
+    },
+    {
+      "page": 10,
+      "start": 702,
+      "end": 706,
+      "expectedText": "fled",
+      "text": "filed"
+    },
+    {
+      "page": 10,
+      "start": 798,
+      "end": 805,
+      "expectedText": "affrmed",
+      "text": "affirmed"
+    },
+    {
+      "page": 10,
+      "start": 1791,
+      "end": 1799,
+      "expectedText": "diffcult",
+      "text": "difficult"
+    },
+    {
+      "page": 10,
+      "start": 2163,
+      "end": 2172,
+      "expectedText": "particu-\n",
+      "text": "particu"
+    },
+    {
+      "page": 11,
+      "start": 2077,
+      "end": 2084,
+      "expectedText": "suffces",
+      "text": "suffices"
+    },
+    {
+      "page": 13,
+      "start": 647,
+      "end": 656,
+      "expectedText": "suffcient",
+      "text": "sufficient"
+    },
+    {
+      "page": 13,
+      "start": 1005,
+      "end": 1011,
+      "expectedText": "suffce",
+      "text": "suffice"
+    },
+    {
+      "page": 13,
+      "start": 1401,
+      "end": 1405,
+      "expectedText": "fght",
+      "text": "fight"
+    },
+    {
+      "page": 13,
+      "start": 1658,
+      "end": 1664,
+      "expectedText": "fshing",
+      "text": "fishing"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Sonia Sotomayor",
+      "Elena Kagan",
+      "Ketanji Brown Jackson"
+    ]
+  }
+}

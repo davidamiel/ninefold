@@ -1,0 +1,132 @@
+{
+  "reviewed": true,
+  "documentId": "25A608-051f527a2946--1-1440",
+  "sourceDocumentId": "25A608-051f527a2946",
+  "sourceTextPath": "dist/data/current-docs/25A608-051f527a2946.json",
+  "sourceTextSha256": "292e725d55e2a305f18c25bd60144b82e2d342e4204a0a5cb8039b6824befc41",
+  "sourcePdfPath": "recordings/sources/980b35bc80a5e7fd33e109ea.pdf",
+  "sourcePdfSha256": "980b35bc80a5e7fd33e109ea783ecf60135405f71014a6d2cecb3adf92b6f3bc",
+  "title": "Concurrence",
+  "author": "Samuel A. Alito, Jr.",
+  "date": "2025-12-04",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a608_7khn.pdf",
+  "sourceRange": {
+    "startPage": 1,
+    "startOffset": 1559,
+    "endPage": 2,
+    "endOffset": 1420
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1559,
+          "end": 1838
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 1838,
+          "end": 1948
+        },
+        {
+          "page": 2,
+          "start": 22,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 2,
+          "start": 116,
+          "end": 1420
+        }
+      ],
+      "citations": [
+        {
+          "start": 171,
+          "end": 253,
+          "text": "Alexander v. South Carolina State Conference of the NAACP, 602 U. S. 1, 18 (2024).",
+          "type": "case",
+          "canonical": "602 U.S. 1"
+        },
+        {
+          "start": 395,
+          "end": 506,
+          "text": "Cooper v. Harris, 581 U. S. 285, 335 (2017) (ALITO, J., concurring in judgment in part and dissenting in part).",
+          "type": "case",
+          "canonical": "581 U.S. 285"
+        },
+        {
+          "start": 611,
+          "end": 638,
+          "text": "Alexander, 602 U. S., at 6.",
+          "type": "case",
+          "canonical": "602 U.S. 1"
+        },
+        {
+          "start": 845,
+          "end": 856,
+          "text": "Id., at 34;",
+          "type": "case",
+          "canonical": "602 U.S. 1"
+        },
+        {
+          "start": 857,
+          "end": 904,
+          "text": "Easley v. Cromartie, 532 U. S. 234, 258 (2001).",
+          "type": "case",
+          "canonical": "532 U.S. 234"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "base[d]",
+          "to": "based"
+        }
+      ]
+    }
+  ],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 1948,
+      "end": 1981,
+      "text": " Cite as: 607 U. S. ____ (2025) 3",
+      "reason": "Running citation and page number."
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 22,
+      "text": "ALITO, J., concurring\n",
+      "reason": "Running author header."
+    }
+  ],
+  "repairs": [],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "documentInfo": {
+    "joinedBy": [
+      "Clarence Thomas",
+      "Neil M. Gorsuch"
+    ]
+  }
+}

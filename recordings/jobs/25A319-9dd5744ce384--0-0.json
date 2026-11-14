@@ -1,0 +1,159 @@
+{
+  "reviewed": true,
+  "documentId": "25A319-9dd5744ce384--0-0",
+  "sourceDocumentId": "25A319-9dd5744ce384",
+  "sourceTextPath": "dist/data/current-docs/25A319-9dd5744ce384.json",
+  "sourceTextSha256": "3578d21c2bc2473606223bac9ae04d3ad004565862dee515cc32e136e491ce5a",
+  "sourcePdfPath": "recordings/sources/b35df475609c80b91038a845.pdf",
+  "sourcePdfSha256": "b35df475609c80b91038a845dbacadd451585f4f207675a44dedec557875cd2a",
+  "title": "Order of the Court",
+  "author": "The Court",
+  "date": "2025-11-06",
+  "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/25a319_i4dj.pdf",
+  "sourceRange": {
+    "startPage": 0,
+    "startOffset": 237,
+    "endPage": 1,
+    "endOffset": 776
+  },
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 237,
+          "end": 703
+        }
+      ],
+      "citations": [],
+      "pronunciations": []
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 703,
+          "end": 1462
+        }
+      ],
+      "citations": [
+        {
+          "start": 453,
+          "end": 495,
+          "text": "Trump v. Hawaii, 585 U. S. 667, 705 (2018)",
+          "canonical": "Trump v. Hawaii, 585 U. S. 667, 705 (2018)",
+          "type": "reference"
+        },
+        {
+          "start": 496,
+          "end": 530,
+          "text": "(internal quotation marks omitted)",
+          "canonical": "(internal quotation marks omitted)",
+          "type": "reference"
+        },
+        {
+          "start": 736,
+          "end": 757,
+          "text": "See 22 U. S. C. §211a",
+          "canonical": "See 22 U. S. C. §211a",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "lack[s]",
+          "to": "lacks"
+        },
+        {
+          "from": ". .",
+          "to": ". "
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 0,
+          "start": 1462,
+          "end": 1748
+        },
+        {
+          "page": 1,
+          "start": 38,
+          "end": 177
+        }
+      ],
+      "citations": [
+        {
+          "start": 342,
+          "end": 388,
+          "text": "Trump v. CASA, Inc., 606 U. S. 831, 861 (2025)",
+          "canonical": "Trump v. CASA, Inc., 606 U. S. 831, 861 (2025)",
+          "type": "reference"
+        },
+        {
+          "start": 389,
+          "end": 423,
+          "text": "(internal quotation marks omitted)",
+          "canonical": "(internal quotation marks omitted)",
+          "type": "reference"
+        }
+      ],
+      "pronunciations": [
+        {
+          "from": "suffer[]",
+          "to": "suffer"
+        },
+        {
+          "from": ".  .",
+          "to": ". "
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "spans": [
+        {
+          "page": 1,
+          "start": 177,
+          "end": 776
+        }
+      ],
+      "citations": [],
+      "pronunciations": [
+        {
+          "from": "JUSTICE JACKSON",
+          "to": "Justice Jackson"
+        },
+        {
+          "from": "No.",
+          "to": "number"
+        }
+      ]
+    }
+  ],
+  "repairs": [],
+  "excludedSource": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 38,
+      "text": "2 TRUMP v. ORR\nJACKSON, J., dissenting",
+      "reason": "Reviewed publication furniture, author metadata, editorial source annotation, or unrelated writing note"
+    }
+  ],
+  "voices": {
+    "female": {
+      "id": "af_sky",
+      "name": "Sky"
+    },
+    "male": {
+      "id": "am_michael",
+      "name": "Michael"
+    }
+  },
+  "review": "Complete writing read against official source PDF. Body and substantive notes retained; individually reviewed source citations omitted from speech, source typography and page continuations repaired with immutable source maps."
+}
