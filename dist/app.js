@@ -1450,6 +1450,8 @@ function showNotePeek(trigger){const n=state.notes.find(n=>n.id===trigger.datase
 
 function normalizeReadingTypography(text,map){let out='',offsets=[];for(let i=0;i<text.length;){if(/[ \t\u00a0]/.test(text[i])){let end=i+1;while(end<text.length&&/[ \t\u00a0]/.test(text[end]))end++;const previous=out.at(-1)||'',next=text[end]||'';if(!/[“‘(\[{]/.test(previous)&&!/[.,;:!?%”’\])}]/.test(next)&&previous!=='\n'&&next!=='\n'){out+=' ';offsets.push(map[i])}i=end;continue}const ligatures={'ﬀ':'ff','ﬁ':'fi','ﬂ':'fl','ﬃ':'ffi','ﬄ':'ffl','ﬅ':'st','ﬆ':'st'},value=ligatures[text[i]]||text[i];out+=value;for(let j=0;j<value.length;j++)offsets.push(map[i]);i++}return {text:out,map:offsets}}
 
+// An argued stay application is still outside full merits review.
+function isMeritsDocket(c){return c.collection==='Cases for argument'&&!!c.granted}
 function searchSection(id,label,content){
  return content?`<section class="search-group" aria-labelledby="search-${id}"><h3 id="search-${id}">${label}</h3>${content}</section>`:'';
 }
@@ -1457,8 +1459,8 @@ function globalSearchResults(query){
  const q=query.trim().toLowerCase(),normalized=q.replace(/[^a-z0-9]/g,'');if(!q)return '';
  const matches=cases.filter(c=>!c.collectionOnly&&(c.name.toLowerCase().includes(q)||normalized&&String(c.docket).replace(/[^a-z0-9]/gi,'').toLowerCase().includes(normalized)));
  let html='';
- for(const [application,id,label] of [[false,'cases','Cases'],[true,'applications','Applications']]){
-  const hits=matches.filter(c=>isApplication(c)===application).slice(0,8);
+ for(const [merits,id,label] of [[true,'merits','Merits docket'],[false,'non-merits','Non-merits docket']]){
+  const hits=matches.filter(c=>isMeritsDocket(c)===merits).slice(0,8);
   html+=searchSection(id,label,hits.map(c=>button(`<span class="search-name">${esc(c.name)}</span><small>No. ${esc(displayDocket(c.docket))}</small>`,'case',c.id,'search-result')).join(''));
  }
  for(const [type,label] of [['justices','Justices'],['advocates','Advocates'],['areas','Areas of Law'],['amici','Amici']]){
@@ -1470,7 +1472,7 @@ function globalSearchResults(query){
 function showGlobalSearch(trigger=document.activeElement){
  overlays.querySelector('.global-search-dialog')?.remove();
  const dialog=document.createElement('dialog');dialog.className='global-search-dialog';dialog.setAttribute('aria-label','Search');
- dialog.innerHTML=`<form method="dialog" class="global-search-top">${icon('search')}<input type="search" aria-label="Search cases, applications, and people" placeholder="Cases, applications, people…" autocomplete="off"><button aria-label="Close search">${icon('close')}</button></form><div class="global-search-results"></div>`;
+ dialog.innerHTML=`<form method="dialog" class="global-search-top">${icon('search')}<input type="search" aria-label="Search matters and people" placeholder="Cases, justices, advocates…" autocomplete="off"><button aria-label="Close search">${icon('close')}</button></form><div class="global-search-results"></div>`;
  overlays.append(dialog);const input=dialog.querySelector('input'),results=dialog.querySelector('.global-search-results');
  input.addEventListener('input',()=>{results.innerHTML=globalSearchResults(input.value)});
  input.addEventListener('keydown',event=>{
