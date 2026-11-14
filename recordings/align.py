@@ -16,6 +16,7 @@ from stage import validate_source_seeking
 SHORT_PASSAGE_SECONDS = 4
 SHORT_CONTEXT_SECONDS = 45
 CONTEXT_SECONDS = 12
+REPAIR_MODEL = 'small.en'
 
 
 class AlignmentReviewError(ValueError):
@@ -300,7 +301,7 @@ def align_short_cpu(body, narration, report, error, recognizer, device):
         paragraph = short_failed_paragraph(narration, report, error, attempted)
         if cpu is None:
             print('Rechecking short unclear passage on CPU.', flush=True)
-            cpu = Transcriber(recognizer.audio, 'small.en', device='cpu')
+            cpu = Transcriber(recognizer.audio, REPAIR_MODEL, device='cpu')
             cpu.samples = recognizer.samples
         attempted.add(error.block)
         replacement = cpu.contextual_words(paragraph['start'], paragraph['end'])
@@ -329,7 +330,7 @@ def align_recording(body, narration, report, words, recognizer, device):
         return align_with_repairs(body, narration, report, words, recognizer.words)
     except AlignmentReviewError as error:
         print('Rechecking unclear audio with the higher-accuracy local recognizer.', flush=True)
-        fallback = Transcriber(recognizer.audio, 'small.en', device=device)
+        fallback = Transcriber(recognizer.audio, REPAIR_MODEL, device=device)
         fallback.samples = recognizer.samples
         return align_small_model(body, narration, report, error.words, fallback, device)
 
@@ -386,10 +387,10 @@ def save_words(path, words):
 
 def recognition_identity(audio_hash, device, recognizer_version):
     policy = {'audioSha256': audio_hash, 'device': device, 'fasterWhisper': recognizer_version,
-              'models': ['base.en', 'small.en'], 'beam': 5, 'vad': False, 'unprompted': True,
+              'models': ['base.en', REPAIR_MODEL], 'beam': 5, 'vad': False, 'unprompted': True,
               'context': {'shortMaxSeconds': SHORT_PASSAGE_SECONDS, 'precedingShort': SHORT_CONTEXT_SECONDS,
                           'precedingNormal': CONTEXT_SECONDS, 'following': CONTEXT_SECONDS},
-              'finalRepair': {'model': 'small.en', 'device': 'cpu', 'onlyAfterDevice': 'mps',
+              'finalRepair': {'model': REPAIR_MODEL, 'device': 'cpu', 'onlyAfterDevice': 'mps',
                               'computeType': 'int8', 'unprompted': True,
                               'shortMaxSeconds': SHORT_PASSAGE_SECONDS, 'preceding': SHORT_CONTEXT_SECONDS,
                               'following': CONTEXT_SECONDS, 'attemptsPerParagraph': 1}}

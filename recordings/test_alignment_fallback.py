@@ -83,9 +83,10 @@ class ShortCpuFallback(unittest.TestCase):
         cpu = Mock()
         cpu.contextual_words.return_value = self.actual
         still_unclear = failure(9, [])
+        error = failure(9, self.words)
         with patch('align.Transcriber', return_value=cpu), \
              patch('align.align', side_effect=still_unclear), self.assertRaises(AlignmentReviewError) as caught:
-            self.run_cpu(failure(9, self.words))
+            self.run_cpu(error)
         self.assertIs(caught.exception, still_unclear)
         cpu.contextual_words.assert_called_once_with(100, 102)
         self.assertEqual(caught.exception.words, [self.words[0], self.actual[0], self.words[2]])
@@ -93,9 +94,11 @@ class ShortCpuFallback(unittest.TestCase):
     def test_a_later_long_failure_does_not_trigger_long_cpu_recognition(self):
         cpu = Mock()
         cpu.contextual_words.return_value = self.actual
+        error = failure(9, self.words)
+        later_error = failure(10, [])
         with patch('align.Transcriber', return_value=cpu), \
-             patch('align.align', side_effect=failure(10, [])), self.assertRaises(AlignmentReviewError):
-            self.run_cpu(failure(9, self.words))
+             patch('align.align', side_effect=later_error), self.assertRaises(AlignmentReviewError):
+            self.run_cpu(error)
         cpu.contextual_words.assert_called_once_with(100, 102)
 
     def test_source_overlap_is_rejected_after_cpu_recognition(self):
@@ -103,9 +106,10 @@ class ShortCpuFallback(unittest.TestCase):
         cpu.contextual_words.return_value = self.actual
         overlap = {'cues': [{'ranges': [{'page': 0, 'start': 0, 'end': 10}]},
                             {'ranges': [{'page': 0, 'start': 9, 'end': 20}]}]}
+        error = failure(9, self.words)
         with patch('align.Transcriber', return_value=cpu), patch('align.align', return_value=overlap), \
              self.assertRaisesRegex(ValueError, 'Source sentence ranges overlap'):
-            self.run_cpu(failure(9, self.words))
+            self.run_cpu(error)
 
 
 class AcousticCachePolicy(unittest.TestCase):
