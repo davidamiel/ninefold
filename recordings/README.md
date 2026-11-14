@@ -148,3 +148,8 @@ that leaves the recording version and entire script unchanged, use
 `python recordings/remap_cues.py path/to/reviewed-job.json`, then stage the job.
 This validates the exact sentence sequence and both audio hashes and changes
 only source ranges; it preserves acoustic timestamps and coverage checks.
+
+Preparation and acoustic alignment retain Python character offsets. Staging
+exports browser UTF-16 offsets when supplementary Unicode characters occur,
+including in citations and source ranges. Private alignment inputs stay intact;
+ordinary OT25 documents retain identical public payloads.

@@ -7,6 +7,7 @@ from pathlib import Path
 
 from generate import ROOT, load_job, local_path
 from prepare import prepare
+from public_offsets import public_payload
 
 DATA_DIRECTORY=ROOT/'dist/data'
 
@@ -67,6 +68,22 @@ def metadata_aliases(identifier, metadata):
     return result
 
 
+def public_files(body, recordings, folder, source_pages):
+    """Keep native maps private; export browser coordinates only when needed."""
+    reader_path = folder/'prepared.json'
+    for voice, item in recordings.items():
+        public_body, public_cues = public_payload(body, item['cues'], source_pages)
+        if public_body != body:
+            reader_path = folder/'public-prepared.json'
+            write_json(reader_path, public_body)
+        cue_path = folder/(voice+'-cues.json')
+        if public_cues != item['cues']:
+            cue_path = folder/(voice+'-public-cues.json')
+            write_json(cue_path, public_cues)
+        item['cuePath'] = cue_path
+    return reader_path
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('job', type=Path)
@@ -87,6 +104,8 @@ def main():
         audio = local_path(folder/(voice+'.mp3'), folder)
         validate_recording(body, narration, report, cues, audio, voice)
         recordings[voice] = {'report': report, 'cues': cues, 'audio': audio}
+    source = json.loads(local_path(ROOT/job['sourceTextPath'], DATA_DIRECTORY).read_text())
+    reader_path = public_files(body, recordings, folder, source['pages'])
     metadata = {key: job[key] for key in ('title', 'author', 'date', 'sourceUrl', 'sourceDocumentId')}
     if job.get('term'):
         metadata['term'] = job['term']
@@ -97,9 +116,9 @@ def main():
         metadata['recordings'][voice] = {
             'url': asset(item['audio'], 'audio', ''),
             'duration': item['report']['duration'],
-            'cuesPath': asset(local_path(folder/(voice+'-cues.json'), folder), 'data/recordings', document_id+'-'+voice),
+            'cuesPath': asset(local_path(item['cuePath'], folder), 'data/recordings', document_id+'-'+voice),
         }
-    metadata['textPath'] = asset(local_path(folder/'prepared.json', folder), 'data/prepared-text', '')
+    metadata['textPath'] = asset(local_path(reader_path, folder), 'data/prepared-text', '')
     inventory = ROOT/'dist/data/prepared-documents.json'
     lock_path = local_path(ROOT/'work/recordings/staging.lock', ROOT/'work')
     with lock_path.open('a') as lock:
