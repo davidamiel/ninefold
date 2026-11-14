@@ -65,7 +65,7 @@ def three_digit_readings(value):
 def numeric_join_pairs(left, right):
     """Match a digit token only to an exact reading of that same number."""
     if len(right) == 1 and left in three_digit_readings(right[0]):
-        return {index: 0 for index in range(len(left))}
+        return dict.fromkeys(range(len(left)), 0)
     return {}
 
 
