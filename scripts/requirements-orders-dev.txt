@@ -1,4 +1,4 @@
-# Fully resolved wheel lock. Update all pins and hashes together; see docs/ot26-orders-audit.md.
+# Fully resolved wheel lock. Update all pins and hashes together.
 --require-hashes
 --only-binary :all:
 
