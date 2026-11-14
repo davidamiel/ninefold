@@ -10,11 +10,27 @@ const accountModule=`export async function createAccount(notify){
 }`;
 const errors=new WeakMap();
 test.beforeEach(async({page})=>{
+ await page.addInitScript(()=>{
+  window.mediaProbe={media:[],events:[]};
+  window.Audio=new Proxy(window.Audio,{construct(Target,args){
+   const media=new Target(...args);mediaProbe.media.push(media);
+   for(const type of ['playing','waiting','canplay','seeked','pause'])media.addEventListener(type,()=>{
+    mediaProbe.events.push({type,time:media.currentTime,ready:media.readyState,paused:media.paused});
+    if(mediaProbe.events.length>100)mediaProbe.events.shift();
+   });return media;
+  }});
+ });
  const found=[];errors.set(page,found);page.on('pageerror',e=>found.push(e.message));
  await page.route('**/account.js',route=>route.fulfill({contentType:'application/javascript',body:accountModule}));
  await page.goto(reader);await expect(page.locator('.prepared-paragraph').first()).toBeVisible({timeout:20000});await expect(page.locator('body')).toHaveAttribute('data-signed-in','true');
 });
-test.afterEach(async({page})=>{expect(errors.get(page)).toEqual([])});
+test.afterEach(async({page},testInfo)=>{
+ if(testInfo.status!==testInfo.expectedStatus){
+  const state=await page.evaluate(()=>({events:mediaProbe.events,media:mediaProbe.media.map(m=>({src:m.currentSrc,time:m.currentTime,paused:m.paused,ready:m.readyState,network:m.networkState,buffered:Array.from({length:m.buffered.length},(_,i)=>[m.buffered.start(i),m.buffered.end(i)])}))}));
+  await testInfo.attach('native-media-state',{body:JSON.stringify(state,null,2),contentType:'application/json'});
+ }
+ expect(errors.get(page)).toEqual([]);
+});
 async function start(page){await page.getByRole('button',{name:'Audio',exact:true}).click();await page.getByRole('button',{name:'Read document',exact:true}).click();await expect(page.locator('.recording-status')).toHaveText('Reading',{timeout:15000})}
 async function seek(page,seconds){await page.locator('.recording-seek').evaluate((el,value)=>{el.value=String(value);el.dispatchEvent(new Event('input',{bubbles:true}))},seconds)}
 function withinRow(boxes){return Math.max(...boxes.map(b=>b.y+b.height/2))-Math.min(...boxes.map(b=>b.y+b.height/2))<7}

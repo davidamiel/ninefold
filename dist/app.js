@@ -816,7 +816,7 @@ function openPlayingTranscript(){
   focusActiveTab();
  }
 }
-async function listen(id,sessionId=null,start=null,{expand=true}={}){const c=caseMap.get(id),sessions=argumentAlignment[id]?.sessions||[],session=sessions.find(s=>s.id===sessionId)||sessions[0];const url=session?.audioUrl||c?.audio?.url;if(!url)return;stopDocumentAudio();playbackOptionsOpen=false;argumentLoading=true;argumentError=null;if(expand)playbackExpanded=true;followTranscript=state.followAudioText!==false;if(audioCase!==id||audioSession!==(session?.id||null)||audio.error){audioCase=id;audioSession=session?.id||null;audio.src=url}audio.playbackRate=state.audioSpeed||1;if(start!==null)audio.currentTime=start;openPlayingTranscript();refreshPlayback();try{await audio.play();if(audioCase!==id||audioSession!==(session?.id||null))return;argumentLoading=false;bindMediaControls(audio,c.name,'Supreme Court of the United States')}catch{if(audioCase===id){argumentLoading=false;argumentError='The recording could not play. Check your connection and retry.'}}refreshPlayback();closeReaderMenu()}
+async function listen(id,sessionId=null,start=null,{expand=true}={}){const c=caseMap.get(id),sessions=argumentAlignment[id]?.sessions||[],session=sessions.find(s=>s.id===sessionId)||sessions[0];const url=session?.audioUrl||c?.audio?.url;if(!url)return;stopDocumentAudio();playbackOptionsOpen=false;argumentError=null;if(expand)playbackExpanded=true;followTranscript=state.followAudioText!==false;if(audioCase!==id||audioSession!==(session?.id||null)||audio.error){audioCase=id;audioSession=session?.id||null;audio.src=url}audio.playbackRate=state.audioSpeed||1;if(start!==null)audio.currentTime=start;openPlayingTranscript();refreshPlayback();try{await audio.play();if(audioCase!==id||audioSession!==(session?.id||null))return;bindMediaControls(audio,c.name,'Supreme Court of the United States')}catch{if(audioCase===id){argumentError='The recording could not play. Check your connection and retry.'}}refreshPlayback();closeReaderMenu()}
 
 function jumpPage(id,index){const p=app.querySelector(`.doc-scroll[data-doc="${CSS.escape(id)}"]`);if(p?._pdfPreparing){p._pdfJump=index;return}const frame=nativePDF(id);if(frame){const source=pdfSources(ds(id),ds).find(s=>new URL(s.url,location.href).href.split('#')[0]===frame.src.split('#')[0]);frame.src=nativePDFURL(frame.src,source?.sliced?Math.max(0,index-(ds(id)?.sourceRange?.startPage||0)):index,location.href);state.positions[id+':pdf']={page:index,scroll:0};persist();return}p?.querySelector(`.source-page[data-page="${index}"]`)?.scrollIntoView({block:'start',behavior:'smooth'})}
 function route(name){storePositions();saveWorkspace();state.route=name;clearPeek();overlays.querySelector('.selection-tools')?.remove();render();if(name!=='reader')window.scrollTo(0,0)}
@@ -826,7 +826,7 @@ document.addEventListener('change',e=>{const t=e.target;if(['orders-term','order
 document.addEventListener('pointerup',e=>{if(e.target.closest('.document-body,.pdf-document'))setTimeout(readSelection,20)});
 document.addEventListener('keyup',e=>{if(e.shiftKey&&['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))readSelection();if(e.key==='Escape'){clearPeek();overlays.querySelector('.selection-tools')?.remove();selection=null}});
 let hoverTimer;document.addEventListener('pointerover',e=>{const note=e.target.closest('[data-note-preview]');if(note&&e.pointerType!=='touch'&&!overlays.querySelector('.note-editor')){clearTimeout(hoverTimer);hoverTimer=setTimeout(()=>showNotePeek(note),200);return}const c=e.target.closest('[data-ref-key]');if(c&&e.pointerType!=='touch'){clearTimeout(hoverTimer);hoverTimer=setTimeout(()=>{if(window.getSelection()?.isCollapsed)showPeek(c)},250)}});
-audio.addEventListener('error',()=>{if(audioCase){argumentLoading=false;argumentError='The recording could not load. Check your connection and retry.';refreshPlayback()}});window.addEventListener('beforeunload',()=>{storePositions();persist()});
+audio.addEventListener('error',()=>{if(audioCase){argumentError='The recording could not load. Check your connection and retry.';refreshPlayback()}});window.addEventListener('beforeunload',()=>{storePositions();persist()});
 function amicusIdentity(value){let name=String(value||'').replace(/^Amicus brief of /i,'').replace(/ submitted$/i,'').replace(/,?\s+et\.?\s+al\.?$/i,'').replace(/[,\s]+$/,'').trim();if(!name)return null;
  const generic=/^(?:\d+\b|One Hundred|Two |Three |Four |Five |Six |Seven |Eight |Nine |Ten |Thirteen |Fourteen |Bipartisan |Current and Former |Anonymous |Members of |Legislators from |Plaintiffs in |Individuals and Organizations |Court-appointed |Opposition of |Scholars of |Professors of |Experts (?:in|on) |Parents of |Coaches,|Professional, Olympic)/i;
  const roles=/(?:Scholars|Professors|Officials|Judges|Governors|Commissioners|Administrators|Attorneys|Lawyers|Secretaries|Organizations|Groups|Professionals|Scientists|Physiologists|Economists|Technologists|Leaders|Stakeholders|Denominations|Holders|Amici|Historians|Directors|Commissioners|Counselors|Congress|Prisons Officials|Boards and Commissions|Federal Reserve System|Equal Employment Opportunity Commission|Torture|War Crimes Issues\/Global Criminal Justice)$/i;
@@ -1079,7 +1079,7 @@ async function init(){try{
 
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('.term-case')){e.preventDefault();e.target.click()}});
 let preparedDocuments={},readerAssetsIndex={},readingLayout={},argumentAlignment={},pdfPaths={},readerStructure={},referenceSummaries={},selectionRange=null,peekAnchor=null,readerMenu=null,readerMenuTrigger=null;
-let audioSession=null,followTranscript=state.followAudioText!==false,documentPlayback=null,playbackExpanded=false,playbackOptionsOpen=false,lastSpokenKey=null,argumentLoading=false,argumentError=null;
+let audioSession=null,followTranscript=state.followAudioText!==false,documentPlayback=null,playbackExpanded=false,playbackOptionsOpen=false,lastSpokenKey=null,argumentError=null;
 const pdfCache=new Map(),pdfLoading=new Map();
 function layoutPage(id,page){const key=textSourceId(id),layout=readingLayout[key]?.[page]||{},footnotes=readerStructure[key]?.footnotes?.filter(f=>f.page===page);return footnotes?.length?{...layout,footnotes}:layout}
 function documentLabel(d){if(!d)return 'Document';if(d.editorTitle)return d.title;if(d.timedSession||category(d)==='Argument')return 'Transcript';if(/per curiam/i.test(d.opinionType||''))return 'Opinion of the Court';if(!d.sourceRange&&Object.values(opinionSections).some(list=>list.some(x=>x.parentDocumentId===d.id)))return 'Syllabus & Opinions';return d.title}
@@ -1204,7 +1204,7 @@ function updateTranscript(){
  const face=document.querySelector('#audio-speaker-portrait'),name=(turn||turns.findLast(t=>t.start<=audio.currentTime)||turns[0])?.speaker;
  if(face&&face.dataset.speaker!==(name||'')){face.dataset.speaker=name||'';face.setAttribute('role','img');face.setAttribute('aria-label',name||'Oral argument');const person=name?speakerProfile(name):null;face.classList.toggle('illustrated-speaker',!!person?.illustrationPath);face.innerHTML=name?(inlinePortraitPath(person)?`<img src="${esc(inlinePortraitPath(person))}" alt="">`:`<span>${esc(name.split(' ').filter(x=>x.length>1).map(x=>x[0]).slice(0,2).join(''))}</span>`):''}
 }
-function stopArgument(){saveListeningProgress(true);audio.pause();audio.removeAttribute('src');audio.load?.();audioCase=null;audioSession=null;argumentLoading=false;argumentError=null;clearSpoken();closeReaderMenu();refreshPlayback()}
+function stopArgument(){saveListeningProgress(true);audio.pause();audio.removeAttribute('src');audio.load?.();audioCase=null;audioSession=null;argumentError=null;clearSpoken();closeReaderMenu();refreshPlayback()}
 const documentAudio=new Audio();documentAudio.preload='metadata';
 const cueRequests=new Map(),preparedTextCache=new Map(),preparedTextRequests=new Map();let documentRequest=0;
 function preparedDocument(id){const d=ds(id);return d&&!d.readerContent&&!d.editorContent?(preparedDocuments[id]||preparedDocuments[textSourceId(id)]):null}
@@ -1222,6 +1222,8 @@ function loadRecordingCues(id,voice=state.audioVoice||'female'){
  return cueRequests.get(recording.cuesPath);
 }
 function currentMedia(){return documentPlayback?documentAudio:audio}
+// Read native readiness instead of retaining a waiting event after a seek.
+function mediaBuffering(){const media=currentMedia();return !media.paused&&!media.ended&&media.readyState<HTMLMediaElement.HAVE_FUTURE_DATA}
 function currentDuration(){const media=currentMedia();return Number.isFinite(media.duration)?media.duration:documentPlayback?.recording.duration||documentRecording(state.active)?.duration||0}
 function documentCue(){return documentPlayback?cueAt(documentPlayback.cues,documentAudio.currentTime):null}
 function updateDocumentHighlight(){
@@ -1242,7 +1244,7 @@ async function startDocumentAudio(anchor=null,{paused=false,resume=false,voice=s
  const recording=documentRecording(id,voice);if(!recording){toast('Audio is not available for this document.');return}
  const previous=documentPlayback,previousTime=documentAudio.currentTime;
  stopDocumentAudio();stopArgument();if(previous?.id!==id)playbackOptionsOpen=false;const request=++documentRequest;
- const n={id,voice,recording,cues:[],loading:true,error:null};documentPlayback=n;state.audioVoice=voice;
+ const n={id,voice,recording,cues:[],error:null};documentPlayback=n;state.audioVoice=voice;
  if(expand)playbackExpanded=true;followTranscript=state.followAudioText!==false;
  const saved=resume?state.audioProgress[audioProgressKey('document',id)]:null;
  const seconds=saved&&!saved.completed?((saved.recording===recording.url||!saved.recording&&!saved.text&&!Number.isFinite(saved.sourceStart))?saved.seconds:previous?previousTime/previous.recording.duration*recording.duration:0):0;
@@ -1257,7 +1259,7 @@ async function startDocumentAudio(anchor=null,{paused=false,resume=false,voice=s
   if(cue)documentAudio.currentTime=cue.start;
   else if(saved&&saved.recording!==recording.url&&(saved.text||Number.isFinite(saved.sourceStart))){const match=n.cues.find(c=>c.text===saved.text)||cueForSource(n.cues,saved.page||0,saved.sourceStart||0);if(match)documentAudio.currentTime=match.start}
   await playing;if(request!==documentRequest)return;updateDocumentHighlight();refreshPlayback();
- }catch(error){if(request===documentRequest){n.error=error.message;n.loading=false;documentAudio.pause();refreshPlayback()}}
+ }catch(error){if(request===documentRequest){n.error=error.message;documentAudio.pause();refreshPlayback()}}
 }
 function bindMediaControls(media,title,artist){
  if(!('mediaSession'in navigator))return;
@@ -1270,7 +1272,7 @@ function listeningContext(){return state.route==='reader'?contextCase(state.acti
 function listeningStatus(){
  const n=documentPlayback,media=currentMedia();if(n?.error||argumentError)return n?.error||argumentError;
  if(n&&documentAudio.paused)return documentAudio.ended?'Finished':'Paused';
- if(n?.loading||argumentLoading)return 'Buffering';
+ if(mediaBuffering())return 'Buffering';
  if(!documentPlayback&&!audioCase)return documentRecording(state.active)||listeningContext()?.audio?.url?'Ready':'Unavailable';
  if(media.ended)return 'Finished';return media.paused?'Paused':n?'Reading':'Court recording';
 }
@@ -1337,8 +1339,8 @@ for(const name of ['timeupdate','progress','loadedmetadata','durationchange','se
  documentAudio.addEventListener(name,()=>{if(documentPlayback){updateSeek();updateDocumentHighlight();saveListeningProgress()}});
  audio.addEventListener(name,()=>{if(audioCase)updateSeek()});
 }
-for(const name of ['playing','pause','ended','waiting','error'])documentAudio.addEventListener(name,()=>{
- if(!documentPlayback)return;documentPlayback.loading=name==='waiting';
+for(const name of ['playing','pause','ended','waiting','error','canplay'])documentAudio.addEventListener(name,()=>{
+ if(!documentPlayback)return;
  if(name==='error')documentPlayback.error='The recording could not play. Check your connection and retry.';
  if(name==='playing'){documentPlayback.error=null;bindMediaControls(documentAudio,documentLabel(ds(documentPlayback.id)),contextCase(documentPlayback.id)?.name||'Ninefold')}
  if(['pause','ended','error'].includes(name))saveListeningProgress(true);
@@ -1501,7 +1503,7 @@ function registerReferenceSummaries() {
   for(const d of catalog.authorities||[]) if(!referenceDocs.has(authorityIdentity(d.referenceKey))) referenceDocs.set(authorityIdentity(d.referenceKey),d.id);
 }
 
-audio.addEventListener('playing',()=>{argumentLoading=false;argumentError=null;refreshPlayback()});audio.addEventListener('waiting',()=>{if(audioCase){argumentLoading=true;updateListeningStatus()}});audio.addEventListener('play',()=>{openPlayingTranscript();refreshPlayback()});audio.addEventListener('pause',refreshPlayback);audio.addEventListener('ended',refreshPlayback);
+audio.addEventListener('playing',()=>{argumentError=null;refreshPlayback()});audio.addEventListener('waiting',()=>{if(audioCase){updateListeningStatus()}});audio.addEventListener('play',()=>{openPlayingTranscript();refreshPlayback()});audio.addEventListener('pause',refreshPlayback);audio.addEventListener('ended',refreshPlayback);
 
 function tidyHeadingSpace(value,headings){
  let {text,map}=value;const runs=[];
@@ -1810,7 +1812,7 @@ let lastListeningSave=0;
 function audioProgressKey(kind,id,session){return 'audio:'+kind+':'+(id||'')+(kind==='argument'?':'+(session||argumentAlignment[id]?.sessions?.[0]?.id||'official'):'')}
 function saveListeningProgress(force=false){
  if(applyingAccount||(!documentPlayback&&!audioCase)||!force&&Date.now()-lastListeningSave<5000)return;
- const media=currentMedia();if(!force&&(media.paused||documentPlayback?.loading||argumentLoading))return;
+ const media=currentMedia();if(!force&&(media.paused||mediaBuffering()))return;
  let key,value;const cue=documentCue();
  if(documentPlayback){key=audioProgressKey('document',documentPlayback.id);value={kind:'document',docId:documentPlayback.id,seconds:media.currentTime,voice:documentPlayback.voice,recording:documentPlayback.recording.url,completed:media.ended,savedAt:Date.now(),page:cue?.ranges[0]?.page||0,sourceStart:cue?.ranges[0]?.start||0,text:cue?.text||'',offset:cue?Math.max(0,media.currentTime-cue.start):0}}
  else{key=audioProgressKey('argument',audioCase,audioSession);value={kind:'argument',caseId:audioCase,session:audioSession,seconds:audio.currentTime,completed:audio.ended,savedAt:Date.now()}}
