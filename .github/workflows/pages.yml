@@ -9,6 +9,8 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: true
+env:
+  NINEFOLD_BUILD_DIR: /tmp/ninefold-site
 jobs:
   publish:
     environment:
@@ -30,7 +32,7 @@ jobs:
         run: npm run build
       - name: Validate packaged website
         run: |
-          python scripts/check_term_reader.py out
+          python scripts/check_term_reader.py
           python scripts/check_orders.py
           node scripts/check_pages_artifact.mjs
           node scripts/check_startup.mjs
@@ -39,7 +41,7 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: ${{ env.NINEFOLD_BUILD_DIR }}
           name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Wait for uploaded release artifact
         env:

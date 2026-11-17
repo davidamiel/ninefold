@@ -3,8 +3,8 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 
-const root = fileURLToPath(new URL('../out/', import.meta.url));
-const manifestURL = new URL('../out/deployment-manifest.json', import.meta.url);
+const root = path.resolve(process.env.NINEFOLD_BUILD_DIR || fileURLToPath(new URL('../../working/site-build/', import.meta.url)));
+const manifestURL = path.join(root, 'deployment-manifest.json');
 if (fs.lstatSync(root).isSymbolicLink()) throw new Error('Build output must not be a symbolic link.');
 if (fs.existsSync(manifestURL) && fs.lstatSync(manifestURL).isSymbolicLink())
   throw new Error('Deployment manifest must not be a symbolic link.');

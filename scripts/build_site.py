@@ -1,7 +1,11 @@
 """Package a static release while retaining editable source JSON in dist."""
 from pathlib import Path
-import gzip,json,shutil
-repo=Path(__file__).resolve().parents[1]; source=repo/'dist'; output=repo/'out';output.mkdir(exist_ok=True)
+import gzip,json,os,shutil
+repo=Path(__file__).resolve().parents[1]; source=repo/'dist'
+output=Path(os.environ.get('NINEFOLD_BUILD_DIR',repo.parent/'working/site-build')).absolute()
+if output.name not in {'site-build','ninefold-site'} or output.is_symlink() or output.resolve().is_relative_to(repo):
+    raise ValueError('Build output must be a dedicated site-build or ninefold-site directory outside the app checkout')
+output.mkdir(parents=True,exist_ok=True)
 hosted_path=source/'data/recorded-assets.json'
 hosted=json.loads(hosted_path.read_text()) if hosted_path.exists() else {}
 hosted_audio={digest[:24]+'.mp3' for digest in hosted}

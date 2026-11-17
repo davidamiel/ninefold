@@ -4,10 +4,11 @@ from functools import lru_cache
 import gzip
 import hashlib
 import json
+import os
 from pathlib import Path
 import sys
 
-ROOT = Path(__file__).resolve().parents[1] / (sys.argv[1] if len(sys.argv) > 1 else "dist")
+ROOT = Path(__file__).resolve().parents[1] / (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("NINEFOLD_BUILD_DIR", "dist"))
 DATA = ROOT / "data"
 
 

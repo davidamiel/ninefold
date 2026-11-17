@@ -1,6 +1,5 @@
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
-import fs from 'node:fs';
 
 const base = new URL(process.env.PAGES_BASE_URL || 'https://davidamiel.github.io/ninefold/');
 const expectedCommit = process.env.GITHUB_SHA;
@@ -35,6 +34,5 @@ async function verify(attempt = 1) {
 }
 const verified = await verify();
 const result = {base: base.href, expectedCommit, verified, attempts, checkedAt: new Date().toISOString()};
-fs.writeFileSync('pages-live-verification.json', JSON.stringify(result, null, 2) + '\n');
 console.log('PAGES_LIVE_VERIFICATION ' + JSON.stringify(result));
 assert.ok(verified, 'Live deployment identity did not match the built commit and file hashes.');
